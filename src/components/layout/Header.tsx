@@ -156,6 +156,7 @@ export const Header: React.FC<HeaderProps> = ({ locale, showSearch = true }) => 
   };
 
   const navItems = [
+    { href: 'https://spvntech.in/', label: 'SPVN Tech' },
     { href: `/${locale}`, label: t('navigation.home') },
     { href: `/${locale}/tools`, label: t('navigation.tools') },
     { href: `/${locale}/workflow`, label: t('navigation.workflow') || 'Workflow' },

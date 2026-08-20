@@ -21,8 +21,8 @@ export const Footer: React.FC<FooterProps> = ({ locale }) => {
   const footerLinks = [
     { href: `/${locale}/about`, label: t('navigation.about') },
     { href: `/${locale}/faq`, label: t('navigation.faq') },
-    { href: `/${locale}/privacy`, label: t('navigation.privacy') },
-    { href: `/${locale}/contact`, label: t('navigation.contact') },
+    { href: `https://spvntech.in/site/privacy-policy`, label: t('navigation.privacy') },
+    { href: `https://spvntech.in/site/contact`, label: t('navigation.contact') },
   ];
 
   const handleLanguageChange = (newLocale: Locale) => {
@@ -183,7 +183,7 @@ export const Footer: React.FC<FooterProps> = ({ locale }) => {
           </p>
           <div className="flex items-center gap-6">
             <Link href={`/${locale}/terms`} className="text-xs text-[hsl(var(--color-muted-foreground))] hover:text-[hsl(var(--color-foreground))]">Terms</Link>
-            <Link href={`/${locale}/privacy`} className="text-xs text-[hsl(var(--color-muted-foreground))] hover:text-[hsl(var(--color-foreground))]">Privacy</Link>
+            <Link href={`https://spvntech.in/site/privacy-policy`} className="text-xs text-[hsl(var(--color-muted-foreground))] hover:text-[hsl(var(--color-foreground))]">Privacy</Link>
             <Link href={`/${locale}/cookies`} className="text-xs text-[hsl(var(--color-muted-foreground))] hover:text-[hsl(var(--color-foreground))]">Cookies</Link>
           </div>
         </div>

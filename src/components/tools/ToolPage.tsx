@@ -424,7 +424,7 @@ function RelatedToolsSection({ tools, locale, localizedRelatedTools }: RelatedTo
           const categoryName = t(`home.categories.${categoryTranslationKeys[tool.category]}`);
 
           return (
-            <a
+            <Link
               key={tool.id}
               href={`/${locale}/tools/${tool.slug}`}
               className="block group"
@@ -447,7 +447,7 @@ function RelatedToolsSection({ tools, locale, localizedRelatedTools }: RelatedTo
                   </div>
                 </div>
               </Card>
-            </a>
+            </Link>
           );
         })}
       </div>
