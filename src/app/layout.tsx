@@ -2,13 +2,15 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import '@/app/globals.css';
 
+const basePath = process.env.BASE_PATH || process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 export const metadata: Metadata = {
   title: 'PDFCraft - Professional PDF Tools',
   description: 'Free online PDF tools for merging, splitting, compressing, and converting PDF files. All processing happens in your browser for maximum privacy.',
   icons: {
-    icon: '/favicon.svg',
-    shortcut: '/favicon.svg',
-    apple: '/favicon.svg',
+    icon: `${basePath}/favicon.svg`,
+    shortcut: `${basePath}/favicon.svg`,
+    apple: `${basePath}/favicon.svg`,
   },
 };
 
@@ -41,27 +43,34 @@ export default function RootLayout({
       <body className="min-h-screen bg-background text-foreground antialiased">
         {children}
         
-        {/* Google Analytics */}
+        {/* Google tag (gtag.js) */}
         <Script
+          async
           src="https://www.googletagmanager.com/gtag/js?id=G-L05YKLL1JN"
           strategy="afterInteractive"
         />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){window.dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-L05YKLL1JN');
-          `}
-        </Script>
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+            
+              gtag('js', new Date());
+            
+              gtag('config', 'G-L05YKLL1JN');
+            `,
+          }}
+        />
 
         {/* Google AdSense */}
-        <Script
+        <script
           id="adsbygoogle-init"
-          strategy="afterInteractive"
+          async
           crossOrigin="anonymous"
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5961281650555057"
-        />
+        ></script>
       </body>
     </html>
   );

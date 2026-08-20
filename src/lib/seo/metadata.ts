@@ -11,6 +11,8 @@ import { type Locale, localeConfig, locales } from '@/lib/i18n/config';
 import type { Tool, ToolContent } from '@/types/tool';
 import { getBasePath } from '@/lib/utils/path';
 
+const basePath = getBasePath();
+
 /**
  * Base metadata configuration
  */
@@ -43,8 +45,8 @@ export interface ToolMetadataOptions extends BaseMetadataOptions {
  */
 export function getCanonicalUrl(locale: Locale, path: string = ''): string {
   const cleanPath = path.startsWith('/') ? path : `/${path}`;
-  const basePath = getBasePath().replace(/\/$/, '');
-  return `${siteConfig.url}${basePath}/${locale}${cleanPath}`;
+  const cleanBasePath = basePath.replace(/\/$/, '');
+  return `${siteConfig.url}${cleanBasePath}/${locale}${cleanPath}`;
 }
 
 /**
@@ -53,14 +55,14 @@ export function getCanonicalUrl(locale: Locale, path: string = ''): string {
 export function getAlternateUrls(path: string = ''): Record<string, string> {
   const cleanPath = path.startsWith('/') ? path : `/${path}`;
   const alternates: Record<string, string> = {};
-  const basePath = getBasePath().replace(/\/$/, '');
+  const cleanBasePath = basePath.replace(/\/$/, '');
 
   for (const locale of locales) {
-    alternates[locale] = `${siteConfig.url}${basePath}/${locale}${cleanPath}`;
+    alternates[locale] = `${siteConfig.url}${cleanBasePath}/${locale}${cleanPath}`;
   }
 
   // Add x-default pointing to English
-  alternates['x-default'] = `${siteConfig.url}${basePath}/en${cleanPath}`;
+  alternates['x-default'] = `${siteConfig.url}${cleanBasePath}/en${cleanPath}`;
 
   return alternates;
 }
@@ -101,9 +103,9 @@ export function generateBaseMetadata(options: PageMetadataOptions): Metadata {
         'max-video-preview': -1,
       },
     icons: {
-      icon: '/favicon.svg',
-      shortcut: '/favicon.svg',
-      apple: '/favicon.svg',
+      icon: `${basePath}/favicon.svg`,
+      shortcut: `${basePath}/favicon.svg`,
+      apple: `${basePath}/favicon.svg`,
     },
     alternates: {
       canonical: canonicalUrl,
