@@ -1093,7 +1093,7 @@
       "email": {
         "title": "Thư điện tử",
         "description": "Gửi email cho chúng tôi và chúng tôi sẽ trả lời trong vòng 24-48 giờ.",
-        "action": "contact@pdfcraft.app"
+        "action": "https://spvntech.in/"
       },
       "github": {
         "title": "GitHub",
@@ -1103,7 +1103,7 @@
       "twitter": {
         "title": "Twitter",
         "description": "Theo dõi chúng tôi để nhận cập nhật và thông báo.",
-        "action": "@pdfcraft"
+        "action": "Follow us"
       }
     },
     "form": {

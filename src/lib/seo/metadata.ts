@@ -12,6 +12,7 @@ import type { Tool, ToolContent } from '@/types/tool';
 import { getBasePath } from '@/lib/utils/path';
 
 const basePath = getBasePath();
+const cleanBasePath = basePath.replace(/\/$/, '');
 
 /**
  * Base metadata configuration
@@ -45,7 +46,6 @@ export interface ToolMetadataOptions extends BaseMetadataOptions {
  */
 export function getCanonicalUrl(locale: Locale, path: string = ''): string {
   const cleanPath = path.startsWith('/') ? path : `/${path}`;
-  const cleanBasePath = basePath.replace(/\/$/, '');
   return `${siteConfig.url}${cleanBasePath}/${locale}${cleanPath}`;
 }
 
@@ -55,7 +55,6 @@ export function getCanonicalUrl(locale: Locale, path: string = ''): string {
 export function getAlternateUrls(path: string = ''): Record<string, string> {
   const cleanPath = path.startsWith('/') ? path : `/${path}`;
   const alternates: Record<string, string> = {};
-  const cleanBasePath = basePath.replace(/\/$/, '');
 
   for (const locale of locales) {
     alternates[locale] = `${siteConfig.url}${cleanBasePath}/${locale}${cleanPath}`;
@@ -120,7 +119,7 @@ export function generateBaseMetadata(options: PageMetadataOptions): Metadata {
       siteName: siteConfig.name,
       images: [
         {
-          url: ogImage.startsWith('http') ? ogImage : `${siteConfig.url}${ogImage}`,
+          url: ogImage.startsWith('http') ? ogImage : `${siteConfig.url}${cleanBasePath}${ogImage}`,
           width: 1200,
           height: 630,
           alt: fullTitle,
@@ -132,7 +131,7 @@ export function generateBaseMetadata(options: PageMetadataOptions): Metadata {
       card: 'summary_large_image',
       title: fullTitle,
       description: optimizedDescription,
-      images: [ogImage.startsWith('http') ? ogImage : `${siteConfig.url}${ogImage}`],
+      images: [ogImage.startsWith('http') ? ogImage : `${siteConfig.url}${cleanBasePath}${ogImage}`],
       creator: siteConfig.creator,
     },
     verification: {

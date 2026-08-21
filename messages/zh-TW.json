@@ -1093,7 +1093,7 @@
       "email": {
         "title": "電子郵件",
         "description": "傳送電子郵件給我們，我們將在 24-48 小時內回覆。",
-        "action": "contact@pdfcraft.app"
+        "action": "https://spvntech.in/"
       },
       "github": {
         "title": "GitHub",
@@ -1103,7 +1103,7 @@
       "twitter": {
         "title": "推特",
         "description": "關注我們要獲取更新和公告。",
-        "action": "@pdfcraft"
+        "action": "Follow us"
       }
     },
     "form": {

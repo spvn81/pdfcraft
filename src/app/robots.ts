@@ -8,8 +8,13 @@
 import { MetadataRoute } from 'next';
 import { siteConfig } from '@/config/site';
 
+import { getBasePath } from '@/lib/utils/path';
+
 // Required for static export
 export const dynamic = 'force-static';
+
+const basePath = getBasePath();
+const cleanBasePath = basePath.replace(/\/$/, '');
 
 export default function robots(): MetadataRoute.Robots {
   return {
@@ -24,6 +29,6 @@ export default function robots(): MetadataRoute.Robots {
         ],
       },
     ],
-    sitemap: `${siteConfig.url}/sitemap.xml`,
+    sitemap: `${siteConfig.url}${cleanBasePath}/sitemap.xml`,
   };
 }

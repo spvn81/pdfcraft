@@ -35,7 +35,7 @@
     }
   },
   "common": {
-    "brand": "PDFCraft",
+    "brand": "SPVN Tech PDF Tools",
     "tagline": "Professional PDF Tools - Free & Private",
     "navigation": {
       "home": "Home",
@@ -83,8 +83,8 @@
       "loading": "Loading..."
     },
     "footer": {
-      "footer": "© 2025 PDFCraft. All rights reserved.",
-      "copyright": "© {year} PDFCraft. All rights reserved.",
+      "footer": "© 2025 SPVN Tech. All rights reserved.",
+      "copyright": "© {year} SPVN Tech. All rights reserved.",
       "privacyBadge": "100% Private - Files never leave your device",
       "madeWith": "Made with <Heart /> and <Nextjs />"
     },
@@ -1093,7 +1093,7 @@
       "email": {
         "title": "Email",
         "description": "Send us an email and we'll respond within 24-48 hours.",
-        "action": "contact@pdfcraft.app"
+        "action": "https://spvntech.in/"
       },
       "github": {
         "title": "GitHub",
@@ -1103,7 +1103,7 @@
       "twitter": {
         "title": "Twitter",
         "description": "Follow us for updates and announcements.",
-        "action": "@pdfcraft"
+        "action": "Follow us"
       }
     },
     "form": {

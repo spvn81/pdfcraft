@@ -16,7 +16,7 @@ const basePath = process.env.BASE_PATH || process.env.NEXT_PUBLIC_BASE_PATH || '
 export default function manifest(): MetadataRoute.Manifest {
   return {
     name: siteConfig.name,
-    short_name: 'PDFCraft',
+    short_name: 'SPVN Tech PDF Tools',
     description: siteConfig.description,
     start_url: `${basePath}/`,
     display: 'standalone',

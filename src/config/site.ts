@@ -2,15 +2,15 @@
  * Site configuration
  */
 export const siteConfig = {
-  name: 'PDFCraft',
+  name: 'SPVN Tech PDF Tools',
   description: 'Professional PDF Tools - Free, Private & Browser-Based. Merge, split, compress, convert, and edit PDF files online without uploading to servers.',
-  url: 'https://pdfcraft.devtoolcafe.com',
+  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://spvntech.in',
   ogImage: '/images/og-image.png',
   links: {
-    github: 'https://github.com/PDFCraftTool/pdfcraft',
-    twitter: 'https://twitter.com/pdfcraft',
+    github: '',
+    twitter: '',
   },
-  creator: 'PDFCraft Team',
+  creator: 'SPVN Tech',
   keywords: [
     'PDF tools',
     'PDF editor',
@@ -25,9 +25,9 @@ export const siteConfig = {
   ],
   // SEO-related settings
   seo: {
-    titleTemplate: '%s | PDFCraft',
-    defaultTitle: 'PDFCraft - Professional PDF Tools',
-    twitterHandle: '@pdfcraft',
+    titleTemplate: '%s | SPVN Tech PDF Tools',
+    defaultTitle: 'SPVN Tech PDF Tools - Professional PDF Tools',
+    twitterHandle: '',
     locale: 'en_US',
   },
 };

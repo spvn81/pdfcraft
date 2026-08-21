@@ -5,7 +5,7 @@ import '@/app/globals.css';
 const basePath = process.env.BASE_PATH || process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 export const metadata: Metadata = {
-  title: 'PDFCraft - Professional PDF Tools',
+  title: 'SPVN Tech PDF Tools - Professional PDF Tools',
   description: 'Free online PDF tools for merging, splitting, compressing, and converting PDF files. All processing happens in your browser for maximum privacy.',
   icons: {
     icon: `${basePath}/favicon.svg`,

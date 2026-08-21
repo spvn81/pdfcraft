@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
-import { Mail, MessageSquare, Github, Twitter, Send, CheckCircle, AlertCircle } from 'lucide-react';
+import { Globe, MessageSquare, Send, CheckCircle, AlertCircle } from 'lucide-react';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { Button } from '@/components/ui/Button';
@@ -29,26 +29,12 @@ export default function ContactPageClient({ locale }: ContactPageClientProps) {
 
   const contactMethods = [
     {
-      icon: Mail,
-      title: t('methods.email.title'),
-      description: t('methods.email.description'),
-      action: t('methods.email.action'),
-      href: 'mailto:contact@pdfcraft.gitu.net',
-    },
-    {
-      icon: Github,
-      title: t('methods.github.title'),
-      description: t('methods.github.description'),
-      action: t('methods.github.action'),
-      href: 'https://github.com/PDFCraftTool/pdfcraft',
-    },
-    {
-      icon: Twitter,
-      title: t('methods.twitter.title'),
-      description: t('methods.twitter.description'),
-      action: t('methods.twitter.action'),
-      href: 'https://x.com/PDFCraftTool',
-    },
+      icon: Globe,
+      title: 'SPVN Tech',
+      description: 'Visit our main website for more information.',
+      action: 'spvntech.in',
+      href: 'https://spvntech.in/',
+    }
   ];
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -275,6 +261,24 @@ export default function ContactPageClient({ locale }: ContactPageClientProps) {
               <Link href={`/${locale}/faq`}>
                 <Button variant="outline">
                   {t('faq.button')}
+                </Button>
+              </Link>
+            </div>
+          </div>
+        </section>
+        {/* Open Source & Legal Link */}
+        <section className="py-12 bg-[hsl(var(--color-muted)/0.3)]">
+          <div className="container mx-auto px-4">
+            <div className="max-w-2xl mx-auto text-center">
+              <h2 className="text-2xl font-bold text-[hsl(var(--color-foreground))] mb-4">
+                Open Source & Legal
+              </h2>
+              <p className="text-[hsl(var(--color-muted-foreground))] mb-6">
+                View our Open Source licenses (AGPL-3.0), original upstream attribution to PDFCraft, modified-version notices, and access the corresponding source code for this modified version.
+              </p>
+              <Link href={`/${locale}/legal`}>
+                <Button variant="outline">
+                  View Legal Information
                 </Button>
               </Link>
             </div>
