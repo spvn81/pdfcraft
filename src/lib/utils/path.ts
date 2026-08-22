@@ -18,6 +18,11 @@ export function withBasePath(path: string): string {
   // Prevent double slashes
   const cleanBasePath = basePath.endsWith('/') ? basePath.slice(0, -1) : basePath;
   
+  // Prevent double prefixing (e.g. /pdf-tools/pdf-tools/...)
+  if (cleanBasePath && (normalizedPath === cleanBasePath || normalizedPath.startsWith(`${cleanBasePath}/`))) {
+    return normalizedPath;
+  }
+  
   return `${cleanBasePath}${normalizedPath}`;
 }
 
