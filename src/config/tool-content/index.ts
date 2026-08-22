@@ -30,9 +30,21 @@ import { toolContentAr } from './ar';
 import { toolContentIt } from './it';
 import { toolContentId } from './id';
 import { toolContentVn } from './vi';
+import { toolContentHi } from './hi';
+import { toolContentTe } from './te';
+import { toolContentTa } from './ta';
+import { toolContentKn } from './kn';
+import { toolContentMl } from './ml';
+import { toolContentBn } from './bn';
+import { toolContentMr } from './mr';
+import { toolContentGu } from './gu';
+import { toolContentPa } from './pa';
+import { toolContentOr } from './or';
+import { toolContentUr } from './ur';
 import { ToolContent } from '@/types/tool';
 
-export type Locale = 'en' | 'ja' | 'ko' | 'es' | 'fr' | 'de' | 'zh' | 'zh-TW' | 'pt' | 'ar' | 'it' | 'id' | 'vi' | 'ro';
+import type { Locale } from '@/lib/i18n/config';
+export type { Locale };
 
 /**
  * Get tool content for a specific locale
@@ -56,6 +68,17 @@ export function getToolContent(locale: Locale, toolId: string): ToolContent | un
     id: toolContentId,
     vi: toolContentVn,
     ro: toolContentEn, // Fallback to English for Romanian tool content for now
+    hi: toolContentHi,
+    te: toolContentTe,
+    ta: toolContentTa,
+    kn: toolContentKn,
+    ml: toolContentMl,
+    bn: toolContentBn,
+    mr: toolContentMr,
+    gu: toolContentGu,
+    pa: toolContentPa,
+    or: toolContentOr,
+    ur: toolContentUr,
   };
 
   const localeContent = contentMap[locale];

@@ -82,3 +82,24 @@ public/libreoffice-wasm/soffice.data.bin
 src-tauri/target/
 
 yarn.lock
+# Local Translation Pipeline
+scripts/translation/.venv/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.huggingface/
+huggingface/
+hf_cache/
+models/
+model/
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.onnx
+scripts/translation/translation_cache.json
+translation-cache/
+translation-progress/
+translation-temp/
+scripts/translation/*.log

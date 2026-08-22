@@ -20,7 +20,7 @@ import { pipeline } from 'stream/promises';
 
 const targetArg = process.argv[2] || 'out';
 
-const BASE_PATH = process.env.BASE_PATH || process.env.NEXT_PUBLIC_BASE_PATH || '';
+const BASE_PATH = '/pdf-tools';
 const CLEAN_BASE_PATH = BASE_PATH.startsWith('/') ? BASE_PATH.slice(1) : BASE_PATH;
 
 let WASM_DIR;

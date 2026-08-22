@@ -3,29 +3,19 @@
  * Next.js handles basePath for Link and Image, but manual fetch calls need this.
  */
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+export const BASE_PATH = '/pdf-tools';
 
-/**
- * Prepends the basePath to a given path if it's not already absolute.
- */
 export function withBasePath(path: string): string {
-  if (!basePath) return path;
+  if (!path) return BASE_PATH;
   if (path.startsWith('http') || path.startsWith('//')) return path;
-  
-  // Ensure path starts with a slash
-  const normalizedPath = path.startsWith('/') ? path : `/${path}`;
-  
-  // Prevent double slashes
-  const cleanBasePath = basePath.endsWith('/') ? basePath.slice(0, -1) : basePath;
-  
-  // Prevent double prefixing (e.g. /pdf-tools/pdf-tools/...)
-  if (cleanBasePath && (normalizedPath === cleanBasePath || normalizedPath.startsWith(`${cleanBasePath}/`))) {
-    return normalizedPath;
+
+  if (path === BASE_PATH || path.startsWith(`${BASE_PATH}/`)) {
+    return path;
   }
-  
-  return `${cleanBasePath}${normalizedPath}`;
+
+  return `${BASE_PATH}${path.startsWith('/') ? path : `/${path}`}`;
 }
 
 export function getBasePath(): string {
-  return basePath;
+  return BASE_PATH;
 }

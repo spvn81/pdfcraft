@@ -1,16 +1,17 @@
 import type { Metadata } from 'next';
 import Script from 'next/script';
+import { EzoicAds } from '@/components/common/EzoicAds';
 import '@/app/globals.css';
 
-const basePath = process.env.BASE_PATH || process.env.NEXT_PUBLIC_BASE_PATH || '';
+import { BASE_PATH } from '@/lib/utils/path';
 
 export const metadata: Metadata = {
   title: 'SPVN Tech PDF Tools - Professional PDF Tools',
   description: 'Free online PDF tools for merging, splitting, compressing, and converting PDF files. All processing happens in your browser for maximum privacy.',
   icons: {
-    icon: `${basePath}/favicon.svg`,
-    shortcut: `${basePath}/favicon.svg`,
-    apple: `${basePath}/favicon.svg`,
+    icon: `${BASE_PATH}/favicon.svg`,
+    shortcut: `${BASE_PATH}/favicon.svg`,
+    apple: `${BASE_PATH}/favicon.svg`,
   },
 };
 
@@ -39,15 +40,25 @@ export default function RootLayout({
             `,
           }}
         />
-        {/* Google AdSense - must be a plain script tag in <head>; Next.js <Script> adds data-nscript which AdSense rejects */}
+        {/* Ezoic Privacy Scripts */}
+        <script data-cfasync="false" src="https://cmp.gatekeeperconsent.com/min.js"></script>
+        <script data-cfasync="false" src="https://the.gatekeeperconsent.com/cmp.min.js"></script>
+
+        {/* Ezoic Header Scripts */}
+        <script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
         <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5961281650555057"
-          crossOrigin="anonymous"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.ezstandalone = window.ezstandalone || {};
+              ezstandalone.cmd = ezstandalone.cmd || [];
+            `,
+          }}
         />
+        <script src="//ezoicanalytics.com/analytics.js"></script>
       </head>
       <body className="min-h-screen bg-background text-foreground antialiased">
         {children}
+        <EzoicAds />
         
         {/* Google tag (gtag.js) */}
         <Script

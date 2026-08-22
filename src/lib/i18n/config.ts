@@ -3,7 +3,7 @@
  * Defines supported locales and routing configuration
  */
 
-export const locales = ['en', 'ja', 'ko', 'es', 'fr', 'de', 'zh', 'zh-TW', 'pt', 'ar', 'it', 'id', 'vi', 'ro'] as const;
+export const locales = ['en', 'ja', 'ko', 'es', 'fr', 'de', 'zh', 'zh-TW', 'pt', 'ar', 'it', 'id', 'vi', 'ro', 'hi', 'te', 'ta', 'kn', 'ml', 'bn', 'mr', 'gu', 'pa', 'or', 'ur'] as const;
 export type Locale = (typeof locales)[number];
 
 export const defaultLocale: Locale = 'en';
@@ -28,6 +28,17 @@ export const localeConfig: Record<Locale, {
   id: { name: 'Indonesian', nativeName: 'Bahasa Indonesia', direction: 'ltr', dateFormat: 'DD/MM/YYYY' },
   vi: { name: 'Vietnamese', nativeName: 'Tiếng Việt', direction: 'ltr', dateFormat: 'DD/MM/YYYY' },
   ro: { name: 'Romanian', nativeName: 'Română', direction: 'ltr', dateFormat: 'DD.MM.YYYY' },
+  hi: { name: 'Hindi', nativeName: 'हिन्दी', direction: 'ltr', dateFormat: 'DD/MM/YYYY' },
+  te: { name: 'Telugu', nativeName: 'తెలుగు', direction: 'ltr', dateFormat: 'DD/MM/YYYY' },
+  ta: { name: 'Tamil', nativeName: 'தமிழ்', direction: 'ltr', dateFormat: 'DD/MM/YYYY' },
+  kn: { name: 'Kannada', nativeName: 'ಕನ್ನಡ', direction: 'ltr', dateFormat: 'DD/MM/YYYY' },
+  ml: { name: 'Malayalam', nativeName: 'മലയാളം', direction: 'ltr', dateFormat: 'DD/MM/YYYY' },
+  bn: { name: 'Bengali', nativeName: 'বাংলা', direction: 'ltr', dateFormat: 'DD/MM/YYYY' },
+  mr: { name: 'Marathi', nativeName: 'मराठी', direction: 'ltr', dateFormat: 'DD/MM/YYYY' },
+  gu: { name: 'Gujarati', nativeName: 'ગુજરાતી', direction: 'ltr', dateFormat: 'DD/MM/YYYY' },
+  pa: { name: 'Punjabi', nativeName: 'ਪੰਜਾਬੀ', direction: 'ltr', dateFormat: 'DD/MM/YYYY' },
+  or: { name: 'Odia', nativeName: 'ଓଡ଼ିଆ', direction: 'ltr', dateFormat: 'DD/MM/YYYY' },
+  ur: { name: 'Urdu', nativeName: 'اردو', direction: 'rtl', dateFormat: 'DD/MM/YYYY' },
 };
 
 /**
@@ -61,7 +72,7 @@ export function getLocaleFromPath(path: string): Locale | null {
  */
 export function getLocalizedPath(path: string, locale: Locale): string {
   // Remove any existing locale prefix (must be followed by / or end of string)
-  const cleanPath = path.replace(/^\/(en|ja|ko|es|fr|de|zh-TW|zh|pt|ar|it|id|vi|ro)(\/|$)/, '/');
+  const cleanPath = path.replace(/^\/(en|ja|ko|es|fr|de|zh-TW|zh|pt|ar|it|id|vi|ro|hi|te|ta|kn|ml|bn|mr|gu|pa|or|ur)(\/|$)/, '/');
   // Normalize the path - ensure it starts with / and handle empty paths
   const normalizedPath = cleanPath === '/' ? '/' : cleanPath.replace(/^\/+/, '/');
   // Add the new locale prefix

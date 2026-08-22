@@ -134,8 +134,7 @@ import {
   generateBreadcrumbSchema
 } from '@/lib/seo/structured-data';
 import type { Metadata } from 'next';
-
-  const SUPPORTED_LOCALES: Locale[] = ['en', 'ja', 'ko', 'es', 'fr', 'de', 'zh', 'zh-TW', 'pt', 'ar', 'it', 'id', 'vi', 'ro'];
+import { locales as SUPPORTED_LOCALES } from '@/lib/i18n/config';
 
 interface ToolPageParams {
   params: Promise<{

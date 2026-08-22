@@ -54,13 +54,11 @@ export default function LegalPageClient({ locale }: LegalPageClientProps) {
               </a>
             </p>
             <p>
-              The source code for this specific modified version (SPVN Tech PDF Tools) is available here:
+              The source code for this modified version (SPVN Tech PDF Tools) is publicly available at:
               <br />
-              <a href="https://github.com/PDFCraftTool/pdfcraft" target="_blank" rel="noopener noreferrer" className="text-[hsl(var(--color-primary))] hover:underline">
-                Source Code for Modified Version
+              <a href="https://github.com/spvn81/pdfcraft" target="_blank" rel="noopener noreferrer" className="text-[hsl(var(--color-primary))] hover:underline">
+                https://github.com/spvn81/pdfcraft
               </a>
-              <br />
-              <em>(Note: Replace this link with the actual SPVN Tech fork/repo URL if hosted elsewhere, per AGPL requirements.)</em>
             </p>
           </Card>
         </div>

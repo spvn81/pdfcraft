@@ -24,7 +24,17 @@ import idMessages from '../../../messages/id.json';
 import itMessages from '../../../messages/it.json';
 import viMessages from '../../../messages/vi.json';
 import roMessages from '../../../messages/ro.json';
-
+import hiMessages from '../../../messages/hi.json';
+import teMessages from '../../../messages/te.json';
+import taMessages from '../../../messages/ta.json';
+import knMessages from '../../../messages/kn.json';
+import mlMessages from '../../../messages/ml.json';
+import bnMessages from '../../../messages/bn.json';
+import mrMessages from '../../../messages/mr.json';
+import guMessages from '../../../messages/gu.json';
+import paMessages from '../../../messages/pa.json';
+import orMessages from '../../../messages/or.json';
+import urMessages from '../../../messages/ur.json';
 // Map of locale to messages
 const LOCALE_MESSAGES: Record<Locale, Record<string, unknown>> = {
   en: enMessages,
@@ -41,6 +51,17 @@ const LOCALE_MESSAGES: Record<Locale, Record<string, unknown>> = {
   it: itMessages,
   vi: viMessages,
   ro: roMessages,
+  hi: hiMessages,
+  te: teMessages,
+  ta: taMessages,
+  kn: knMessages,
+  ml: mlMessages,
+  bn: bnMessages,
+  mr: mrMessages,
+  gu: guMessages,
+  pa: paMessages,
+  or: orMessages,
+  ur: urMessages,
 };
 
 /**

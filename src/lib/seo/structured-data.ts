@@ -249,6 +249,17 @@ export function generateWebPageSchema(
     id: 'id-ID',
     vi: 'vi-VN',
     ro: 'ro-RO',
+    hi: 'hi-IN',
+    te: 'te-IN',
+    ta: 'ta-IN',
+    kn: 'kn-IN',
+    ml: 'ml-IN',
+    bn: 'bn-IN',
+    mr: 'mr-IN',
+    gu: 'gu-IN',
+    pa: 'pa-IN',
+    or: 'or-IN',
+    ur: 'ur-PK',
   };
 
   return {
