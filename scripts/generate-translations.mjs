@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { parseArgs } from 'util';
-import { Cache, IndicTrans2Provider, LANG_MAP, isTechnicalOrAllowed, extractPlaceholders, extractTags, flattenObj, unflattenObj } from './translation/utils.mjs';
+import { Cache, IndicTrans2Provider, LANG_MAP, isTechnicalOrAllowed, extractPlaceholders, extractTags, flattenObj, unflattenObj, loadEnv } from './translation/utils.mjs';
 
 const MESSAGES_DIR = path.join(process.cwd(), 'messages');
 const EN_LOCALE = 'en';
@@ -11,9 +11,17 @@ async function processTranslations(locales, resume = false) {
   const batchSize = parseInt(process.env.TRANSLATION_BATCH_SIZE || '32', 10);
   const cache = new Cache();
   
-  console.log('Translation Provider: indictrans2');
+  const providerType = process.env.TRANSLATION_PROVIDER || 'indictrans2';
+  console.log(`Translation Provider: ${providerType}`);
   
-  const provider = new IndicTrans2Provider();
+  let provider;
+  if (providerType === 'gemini') {
+    const { GeminiProvider } = await import('./translation/gemini.mjs');
+    provider = new GeminiProvider();
+  } else {
+    provider = new IndicTrans2Provider();
+  }
+  
   await provider.init();
   
   const enData = JSON.parse(fs.readFileSync(path.join(MESSAGES_DIR, `${EN_LOCALE}.json`), 'utf8'));
@@ -137,6 +145,8 @@ const { values } = parseArgs({
   },
   strict: false
 });
+
+loadEnv();
 
 let localesToProcess = values.locale ? [values.locale] : [];
 if (values.all) localesToProcess = INDIAN_LOCALES;

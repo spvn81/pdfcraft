@@ -2121,25 +2121,25 @@ export const toolContentTe: Record<string, ToolContent> = {
     ]
   },
   "json-to-pdf": {
-    "title": "JSON to PDF",
-    "metaDescription": "Convert JSON files to formatted PDF. Syntax highlighting and structured output.",
+    "title": "JSON నుండి PDF కు",
+    "metaDescription": "JSON ఫైళ్ళను PDF ఫార్మాట్ గా మార్చండి. సింటాక్స్ హైలైటింగ్ మరియు నిర్మాణాత్మక అవుట్పుట్.",
     "keywords": [
       "json to pdf",
       "convert json",
       "json viewer",
       "json formatter"
     ],
-    "description": "\n      <p>JSON to PDF converts JSON data files into formatted, readable PDF documents. The output includes syntax highlighting and proper indentation for easy reading.</p>\n      <p>Perfect for documenting API responses, configuration files, or any JSON data that needs to be shared or archived in a readable format.</p>\n      <p>All conversion happens in your browser, ensuring your data remains private.</p>\n    ",
+    "description": "<p>JSON ను PDF గా మార్చడం ద్వారా JSON డేటా ఫైళ్ళను ఫార్మాట్ చేయబడిన, చదవగలిగే PDF పత్రాలుగా మార్చవచ్చు. అవుట్పుట్లో సులభంగా చదవడానికి సింటాక్స్ హైలైటింగ్ మరియు సరైన ఇండెంట్ ఉన్నాయి. </p> <p>API ప్రతిస్పందనలు, కాన్ఫిగరేషన్ ఫైల్లు లేదా చదవగలిగే ఫార్మాట్లో భాగస్వామ్యం చేయాల్సిన లేదా ఆర్కైవ్ చేయవలసిన ఏదైనా JSON డేటాను డాక్యుమెంట్ చేయడానికి ఇది సరైనది. </p> <p>అన్ని మార్పిడులు మీ బ్రౌజర్లో జరుగుతాయి, మీ డేటా ప్రైవేట్గా ఉండాలని నిర్ధారించడం. </p> ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload JSON File",
-        "description": "Drag and drop your .json file or click to select."
+        "title": "JSON ఫైల్ను అప్లోడ్ చేయండి",
+        "description": "మీ . json ఫైల్ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Configure Display",
-        "description": "Choose formatting options and syntax highlighting."
+        "title": "ప్రదర్శనను కాన్ఫిగర్ చేయండి",
+        "description": "ఫార్మాటింగ్ ఎంపికలు మరియు సింటాక్స్ హైలైటింగ్ ఎంచుకోండి."
       },
       {
         "step": 3,
@@ -2149,39 +2149,39 @@ export const toolContentTe: Record<string, ToolContent> = {
     ],
     "useCases": [
       {
-        "title": "API Documentation",
-        "description": "Convert API responses to PDF for documentation.",
+        "title": "ఎపిఐ డాక్యుమెంటేషన్",
+        "description": "డాక్యుమెంటేషన్ కోసం API ప్రతిస్పందనలను PDF కి మార్చండి.",
         "icon": "code"
       },
       {
-        "title": "Config Archives",
-        "description": "Archive configuration files in readable PDF format.",
+        "title": "కాన్ఫిగర్ ఆర్కైవ్స్",
+        "description": "చదవగలిగే PDF ఫార్మాట్ లో ఆర్కైవ్ కాన్ఫిగరేషన్ ఫైళ్లు.",
         "icon": "settings"
       },
       {
-        "title": "Data Reports",
-        "description": "Create PDF reports from JSON data exports.",
+        "title": "డేటా నివేదికలు",
+        "description": "JSON డేటా ఎగుమతుల నుండి PDF నివేదికలను సృష్టించండి.",
         "icon": "bar-chart"
       }
     ],
     "faq": [
       {
-        "question": "Is syntax highlighting included?",
-        "answer": "Yes, JSON syntax is highlighted with colors for keys, values, and types."
+        "question": "సింటాక్స్ హైలైటింగ్ చేర్చబడిందా?",
+        "answer": "అవును, JSON సింటాక్స్ కీలు, విలువలు మరియు రకాలు కోసం రంగులతో హైలైట్ చేయబడింది."
       },
       {
-        "question": "How is nested data handled?",
-        "answer": "Nested objects and arrays are properly indented for readability."
+        "question": "గూడులో ఉన్న డేటా ఎలా నిర్వహించబడుతుంది?",
+        "answer": "గూడులో ఉన్న వస్తువులు మరియు అమరికలు చదవదగినవి కావడానికి సరిగా చీలిక చేయబడతాయి."
       },
       {
-        "question": "What about large JSON files?",
-        "answer": "Large files are paginated automatically across multiple pages."
+        "question": "పెద్ద JSON ఫైళ్ళ గురించి ఏమిటి?",
+        "answer": "పెద్ద ఫైళ్లు స్వయంచాలకంగా బహుళ పేజీలలో పేజీకి అనుసంధానించబడతాయి."
       }
     ]
   },
   "word-to-pdf": {
-    "title": "Word to PDF",
-    "metaDescription": "Convert Word documents (DOCX) to PDF. Preserve formatting and layout in your converted documents.",
+    "title": "వర్డ్ కు PDF",
+    "metaDescription": "Word పత్రాలను (DOCX) PDF గా మార్చండి. మీ మార్చబడిన పత్రాలలో ఫార్మాటింగ్ మరియు లేఅవుట్ను కాపాడుకోండి.",
     "keywords": [
       "word to pdf",
       "docx to pdf",
@@ -2189,59 +2189,59 @@ export const toolContentTe: Record<string, ToolContent> = {
       "word converter",
       "microsoft word to pdf"
     ],
-    "description": "\n      <p>Word to PDF converts Microsoft Word documents into PDF format while preserving the original formatting, layout, and content structure.</p>\n      <p>Upload your DOCX files and get high-quality PDF output suitable for sharing, printing, or archiving. The conversion maintains text formatting, paragraph styles, and basic document structure.</p>\n      <p>All conversion happens locally in your browser, ensuring your documents remain private and secure.</p>\n    ",
+    "description": "<p>Word to PDF అనేది Microsoft Word పత్రాలను PDF ఫార్మాట్లోకి మార్చుకుంటుంది. అయితే అసలు ఫార్మాటింగ్, లేఅవుట్, కంటెంట్ నిర్మాణాన్ని కాపాడుతుంది. </p> <p>DOCX ఫైళ్ళను అప్లోడ్ చేసి, భాగస్వామ్యం, ముద్రణ లేదా ఆర్కైవింగ్ కోసం అనుకూలమైన అధిక నాణ్యత గల PDF అవుట్పుట్ను పొందండి. మార్పిడి టెక్స్ట్ ఫార్మాటింగ్, పేరా స్టైల్స్ మరియు ప్రాథమిక పత్ర నిర్మాణాన్ని నిర్వహిస్తుంది. </p> <p>అన్ని మార్పిడులు మీ బ్రౌజర్లో స్థానికంగా జరుగుతాయి, మీ పత్రాలు ప్రైవేట్ మరియు సురక్షితంగా ఉంటాయి. </p> ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Word Document",
-        "description": "Drag and drop your .docx file or click to select from your device."
+        "title": "వర్డ్ డాక్యుమెంట్ అప్లోడ్ చేయండి",
+        "description": "మీ . docx ఫైల్ను లాగండి మరియు వదలండి లేదా మీ పరికరం నుండి ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Wait for Processing",
-        "description": "The tool will load the document and prepare it for conversion."
+        "title": "ప్రాసెసింగ్ కోసం వేచి ఉండండి",
+        "description": "సాధనం పత్రాన్ని లోడ్ చేసి, దానిని మార్పిడి కోసం సిద్ధం చేస్తుంది."
       },
       {
         "step": 3,
-        "title": "Download PDF",
-        "description": "Click Download to save your converted PDF document."
+        "title": "PDF డౌన్లోడ్ చేసుకోండి",
+        "description": "మీ మార్చబడిన PDF పత్రాన్ని సేవ్ చేయడానికి డౌన్లోడ్ క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Document Sharing",
-        "description": "Convert Word documents to PDF for universal sharing and viewing.",
+        "title": "పత్రాలను పంచుకోవడం",
+        "description": "వర్డ్ పత్రాలను విశ్వవ్యాప్త భాగస్వామ్యం మరియు వీక్షణ కోసం PDF గా మార్చండి.",
         "icon": "share-2"
       },
       {
         "title": "ముద్రణ తయారీ",
-        "description": "Create print-ready PDFs from Word documents.",
+        "description": "వర్డ్ పత్రాల నుండి ప్రింట్ సిద్ధంగా ఉన్న PDF లను సృష్టించండి.",
         "icon": "printer"
       },
       {
-        "title": "Document Archive",
-        "description": "Archive Word documents in stable PDF format for long-term storage.",
+        "title": "పత్రాల ఆర్కైవ్",
+        "description": "దీర్ఘకాలిక నిల్వ కోసం స్థిరమైన PDF ఫార్మాట్ లో ఆర్కైవ్ వర్డ్ పత్రాలు.",
         "icon": "archive"
       }
     ],
     "faq": [
       {
-        "question": "Is .doc format supported?",
-        "answer": "Currently only .docx format is supported. Please convert .doc files to .docx first using Microsoft Word or LibreOffice."
+        "question": ". doc ఫార్మాట్ మద్దతు ఉందా?",
+        "answer": "ప్రస్తుతం .docx ఫార్మాట్ మాత్రమే మద్దతు ఉంది. దయచేసి మొదట మైక్రోసాఫ్ట్ వర్డ్ లేదా లిబ్రేఆఫీస్ ఉపయోగించి .doc ఫైల్లను .docx కు మార్చండి."
       },
       {
-        "question": "Are images preserved?",
-        "answer": "Text content and basic formatting are preserved. Complex layouts with many images may have simplified rendering."
+        "question": "చిత్రాలు భద్రంగా ఉన్నాయా?",
+        "answer": "ఈ సవరణలో, చాలా చిత్రాలు ఉన్న సంక్లిష్టమైన లేఅవుట్లు సరళీకృతం చేయబడ్డాయి."
       },
       {
-        "question": "Is the conversion secure?",
-        "answer": "Yes, all processing happens in your browser. Your documents never leave your device."
+        "question": "ఈ పరివర్తన సురక్షితమేనా?",
+        "answer": "అవును, అన్ని ప్రాసెసింగ్ మీ బ్రౌజర్లో జరుగుతుంది. మీ పత్రాలు మీ పరికరాన్ని ఎప్పుడూ వదిలివేయవు."
       }
     ]
   },
   "excel-to-pdf": {
-    "title": "Excel to PDF",
-    "metaDescription": "Convert Excel spreadsheets (XLSX) to PDF. Preserve tables and data in your converted documents.",
+    "title": "ఎక్సెల్ కు PDF",
+    "metaDescription": "Excel స్ప్రెడ్షీట్లు (XLSX) ను PDF గా మార్చండి. మీ మార్చబడిన పత్రాలలో పట్టికలు మరియు డేటాను సేవ్ చేయండి.",
     "keywords": [
       "excel to pdf",
       "xlsx to pdf",
@@ -2249,59 +2249,59 @@ export const toolContentTe: Record<string, ToolContent> = {
       "spreadsheet to pdf",
       "microsoft excel to pdf"
     ],
-    "description": "\n      <p>Excel to PDF converts Microsoft Excel spreadsheets into PDF format while preserving table structure and data organization.</p>\n      <p>Upload your XLSX files and get clean PDF output with properly formatted tables. Each sheet in your workbook becomes a separate section in the PDF.</p>\n      <p>All conversion happens locally in your browser, ensuring your data remains private and secure.</p>\n    ",
+    "description": "<p>Excel to PDF అనేది మైక్రోసాఫ్ట్ ఎక్సెల్ స్ప్రెడ్షీట్లను PDF ఫార్మాట్లోకి మార్చుకుంటుంది. అయితే, పట్టిక నిర్మాణం మరియు డేటా సంస్థను కాపాడుతుంది. </p> <p>మీ XLSX ఫైళ్ళను అప్లోడ్ చేయండి మరియు సరిగ్గా ఫార్మాట్ చేసిన పట్టికలతో శుభ్రమైన PDF అవుట్పుట్ను పొందండి. మీ వర్క్బుక్లోని ప్రతి షీట్ PDF లోని ప్రత్యేక విభాగానికి మారుతుంది. </p> <p>అన్ని మార్పిడులు మీ బ్రౌజర్లో స్థానికంగా జరుగుతాయి, మీ డేటా ప్రైవేట్ మరియు సురక్షితంగా ఉండేలా చూసుకోండి. </p> ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Excel File",
-        "description": "Drag and drop your .xlsx file or click to select from your device."
+        "title": "ఎక్సెల్ ఫైల్ను అప్లోడ్ చేయండి",
+        "description": "మీ . xlsx ఫైల్ను లాగండి మరియు వదలండి లేదా మీ పరికరం నుండి ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Wait for Processing",
-        "description": "The tool will load the spreadsheet and convert all sheets."
+        "title": "ప్రాసెసింగ్ కోసం వేచి ఉండండి",
+        "description": "సాధనం స్ప్రెడ్షీట్ను లోడ్ చేస్తుంది మరియు అన్ని షీట్లను మార్చుతుంది."
       },
       {
         "step": 3,
-        "title": "Download PDF",
-        "description": "Click Download to save your converted PDF document."
+        "title": "PDF డౌన్లోడ్ చేసుకోండి",
+        "description": "మీ మార్చబడిన PDF పత్రాన్ని సేవ్ చేయడానికి డౌన్లోడ్ క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Report Sharing",
-        "description": "Convert Excel reports to PDF for distribution to stakeholders.",
+        "title": "నివేదికల భాగస్వామ్యం",
+        "description": "Excel నివేదికలను PDF కు మార్చండి, తద్వారా వాటాదారులకు పంపిణీ చేయవచ్చు.",
         "icon": "file-text"
       },
       {
-        "title": "Data Archiving",
-        "description": "Archive spreadsheet data in stable PDF format.",
+        "title": "డేటా ఆర్కైవింగ్",
+        "description": "స్థిరమైన PDF ఫార్మాట్లో ఆర్కైవ్ స్ప్రెడ్షీట్ డేటా.",
         "icon": "archive"
       },
       {
         "title": "ముద్రణ తయారీ",
-        "description": "Create print-ready PDFs from Excel worksheets.",
+        "description": "Excel వర్క్షీట్ నుండి ప్రింట్ సిద్ధంగా ఉన్న PDF లను సృష్టించండి.",
         "icon": "printer"
       }
     ],
     "faq": [
       {
-        "question": "Are multiple sheets supported?",
-        "answer": "Yes, all sheets in the workbook are converted and included in the PDF."
+        "question": "బహుళ షీట్లకు మద్దతు ఉందా?",
+        "answer": "అవును, వర్క్బుక్లోని అన్ని షీట్లు PDF లోకి మార్చబడతాయి."
       },
       {
-        "question": "Is .xls format supported?",
-        "answer": "Currently only .xlsx format is supported. Please save .xls files as .xlsx first."
+        "question": ". xls ఫార్మాట్ మద్దతు ఉందా?",
+        "answer": "ప్రస్తుతం .xlsx ఫార్మాట్ మాత్రమే మద్దతు ఉంది. దయచేసి .xls ఫైల్లను మొదట .xlsx గా సేవ్ చేయండి."
       },
       {
-        "question": "Are formulas preserved?",
-        "answer": "The PDF shows calculated values. Formulas are not executable in PDF format."
+        "question": "సూత్రాలు సంరక్షించబడ్డాయి?",
+        "answer": "PDF లో లెక్కించిన విలువలు కనిపిస్తాయి. ఫార్ములాలను PDF ఫార్మాట్లో అమలు చేయలేము."
       }
     ]
   },
   "pptx-to-pdf": {
-    "title": "PowerPoint to PDF",
-    "metaDescription": "Convert PowerPoint presentations (PPTX) to PDF. Preserve slides and content for easy sharing.",
+    "title": "PowerPoint నుండి PDF కు",
+    "metaDescription": "PowerPoint ప్రదర్శనలను (PPTX) PDF గా మార్చండి. సులభంగా భాగస్వామ్యం చేయడానికి స్లైడ్లు మరియు కంటెంట్ను సేవ్ చేయండి.",
     "keywords": [
       "powerpoint to pdf",
       "pptx to pdf",
@@ -2309,59 +2309,59 @@ export const toolContentTe: Record<string, ToolContent> = {
       "presentation to pdf",
       "slides to pdf"
     ],
-    "description": "\n      <p>PowerPoint to PDF converts Microsoft PowerPoint presentations into PDF format, preserving slide content and text for easy sharing and viewing.</p>\n      <p>Each slide becomes a page in the PDF, maintaining the presentation flow. Perfect for sharing presentations with people who don't have PowerPoint installed.</p>\n      <p>All conversion happens locally in your browser, ensuring your presentations remain private and secure.</p>\n    ",
+    "description": "<p>పవర్పాయింట్ నుండి పిడిఎఫ్కు మైక్రోసాఫ్ట్ పవర్పాయింట్ ప్రదర్శనలను పిడిఎఫ్ ఫార్మాట్కు మార్చుకుంటుంది, స్లైడ్ కంటెంట్ మరియు వచనాన్ని సులభంగా భాగస్వామ్యం చేయడానికి మరియు వీక్షించడానికి సంరక్షిస్తుంది. </p> <p>ప్రతి స్లైడ్ PDF లోని పేజీగా మారుతుంది, ప్రదర్శన ప్రవాహాన్ని నిర్వహిస్తుంది. పవర్పాయింట్ వ్యవస్థాపించబడని వ్యక్తులతో ప్రదర్శనలను పంచుకోవడానికి ఇది సరైనది.</p> <p>అన్ని మార్పిడులు మీ బ్రౌజర్లో స్థానికంగా జరుగుతాయి, మీ ప్రదర్శనలు ప్రైవేట్ మరియు సురక్షితంగా ఉంటాయి.</p> ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload PowerPoint File",
-        "description": "Drag and drop your .pptx file or click to select from your device."
+        "title": "PowerPoint ఫైల్ను అప్లోడ్ చేయండి",
+        "description": "మీ .pptx ఫైల్ను లాగండి మరియు వదలండి లేదా మీ పరికరం నుండి ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Wait for Processing",
-        "description": "The tool will extract slide content and create the PDF."
+        "title": "ప్రాసెసింగ్ కోసం వేచి ఉండండి",
+        "description": "సాధనం స్లైడ్ కంటెంట్ను సేకరించడానికి మరియు PDF ను సృష్టించడానికి."
       },
       {
         "step": 3,
-        "title": "Download PDF",
-        "description": "Click Download to save your converted PDF document."
+        "title": "PDF డౌన్లోడ్ చేసుకోండి",
+        "description": "మీ మార్చబడిన PDF పత్రాన్ని సేవ్ చేయడానికి డౌన్లోడ్ క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Presentation Sharing",
-        "description": "Share presentations with anyone without requiring PowerPoint.",
+        "title": "ప్రదర్శన భాగస్వామ్యం",
+        "description": "PowerPoint అవసరం లేకుండా ఎవరైనా ప్రదర్శనలను పంచుకోండి.",
         "icon": "share-2"
       },
       {
-        "title": "Handout Creation",
-        "description": "Create PDF handouts from your presentation slides.",
+        "title": "సహాయక సృష్టి",
+        "description": "మీ ప్రదర్శన స్లైడ్ల నుండి PDF హ్యాండ్ వూట్లు సృష్టించండి.",
         "icon": "file-text"
       },
       {
-        "title": "Archive Presentations",
-        "description": "Archive presentations in stable PDF format.",
+        "title": "ఆర్కైవ్ ప్రదర్శనలు",
+        "description": "స్థిరమైన PDF ఫార్మాట్ లో ఆర్కైవ్ ప్రదర్శనలు.",
         "icon": "archive"
       }
     ],
     "faq": [
       {
-        "question": "Are animations preserved?",
-        "answer": "PDF is a static format, so animations and transitions are not preserved. Each slide becomes a static page."
+        "question": "యానిమేషన్లు కాపాడబడినా?",
+        "answer": "PDF అనేది ఒక స్థిర ఫార్మాట్, కాబట్టి యానిమేషన్లు మరియు పరివర్తనాలు సంరక్షించబడవు. ప్రతి స్లైడ్ ఒక స్థిర పేజీగా మారుతుంది."
       },
       {
-        "question": "Is .ppt format supported?",
-        "answer": "Currently only .pptx format is supported. Please convert .ppt files to .pptx first."
+        "question": ".ppt ఫార్మాట్ మద్దతు ఉందా?",
+        "answer": "ప్రస్తుతం .pptx ఫార్మాట్ మాత్రమే మద్దతు ఉంది. దయచేసి మొదట .ppt ఫైల్లను .pptx కు మార్చండి."
       },
       {
-        "question": "Are speaker notes included?",
-        "answer": "Currently, speaker notes are not included in the PDF output."
+        "question": "స్పీకర్ నోట్స్ చేర్చబడినా?",
+        "answer": "ప్రస్తుతం, స్పీకర్ నోట్స్ PDF అవుట్పుట్లో చేర్చబడలేదు."
       }
     ]
   },
   "xps-to-pdf": {
-    "title": "XPS to PDF",
-    "metaDescription": "Convert XPS documents to PDF format. High-fidelity conversion preserving layout and graphics.",
+    "title": "XPS కు PDF",
+    "metaDescription": "XPS పత్రాలను PDF ఫార్మాట్కు మార్చండి. లేఅవుట్ మరియు గ్రాఫిక్స్ను కాపాడే అధిక-విశ్వాస మార్పిడి.",
     "keywords": [
       "xps to pdf",
       "convert xps",
@@ -2369,177 +2369,177 @@ export const toolContentTe: Record<string, ToolContent> = {
       "microsoft xps to pdf",
       "oxps to pdf"
     ],
-    "description": "\n      <p>XPS to PDF converts Microsoft XPS (XML Paper Specification) documents into PDF format while preserving the original layout, text, and vector graphics.</p>\n      <p>XPS is a fixed-document format similar to PDF. This tool provides high-fidelity conversion using native XPS parsing, ensuring accurate reproduction of your documents.</p>\n      <p>All conversion happens locally in your browser, ensuring your documents remain private and secure.</p>\n    ",
+    "description": "<p>XPS ను PDF కు మార్చడం ద్వారా Microsoft XPS (XML Paper Specification) పత్రాలను PDF ఫార్మాట్లోకి మార్చడం ద్వారా అసలు లేఅవుట్, టెక్స్ట్, వెక్టర్ గ్రాఫిక్స్ను కాపాడుతుంది. </p> <p>XPS అనేది PDF కి సమానమైన స్థిర పత్ర ఫార్మాట్. ఈ సాధనం స్థానిక XPS పారసింగ్ ఉపయోగించి అధిక విశ్వసనీయతతో మార్పిడిని అందిస్తుంది, మీ పత్రాలను ఖచ్చితమైన పునరుత్పత్తిని నిర్ధారిస్తుంది. </p> <p>అన్ని మార్పిడులు మీ బ్రౌజర్లో స్థానికంగా జరుగుతాయి, మీ పత్రాలు ప్రైవేట్ మరియు సురక్షితంగా ఉంటాయి. </p> ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload XPS File",
-        "description": "Drag and drop your .xps file or click to select from your device."
+        "title": "XPS ఫైల్ను అప్లోడ్ చేయండి",
+        "description": "మీ . xps ఫైల్ను లాగండి మరియు వదలండి లేదా మీ పరికరం నుండి ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Wait for Processing",
-        "description": "The tool will parse and convert the XPS document."
+        "title": "ప్రాసెసింగ్ కోసం వేచి ఉండండి",
+        "description": "సాధనం XPS పత్రాన్ని విశ్లేషిస్తుంది మరియు మార్చుకుంటుంది."
       },
       {
         "step": 3,
-        "title": "Download PDF",
-        "description": "Click Download to save your converted PDF document."
+        "title": "PDF డౌన్లోడ్ చేసుకోండి",
+        "description": "మీ మార్చబడిన PDF పత్రాన్ని సేవ్ చేయడానికి డౌన్లోడ్ క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Format Conversion",
-        "description": "Convert XPS documents to more widely supported PDF format.",
+        "title": "ఫార్మాట్ మార్పిడి",
+        "description": "XPS పత్రాలను విస్తృతంగా మద్దతు ఉన్న PDF ఫార్మాట్కు మార్చండి.",
         "icon": "file"
       },
       {
-        "title": "Document Sharing",
-        "description": "Share XPS documents with users who don't have XPS viewers.",
+        "title": "పత్రాలను పంచుకోవడం",
+        "description": "XPS వీక్షకులు లేని వినియోగదారులతో XPS పత్రాలను పంచుకోండి.",
         "icon": "share-2"
       },
       {
-        "title": "Archive Migration",
-        "description": "Migrate XPS archives to PDF format for better compatibility.",
+        "title": "ఆర్కైవ్ వలస",
+        "description": "మెరుగైన అనుకూలత కోసం XPS ఆర్కైవ్లను PDF ఫార్మాట్కు వలస పెట్టండి.",
         "icon": "archive"
       }
     ],
     "faq": [
       {
-        "question": "What is XPS format?",
-        "answer": "XPS (XML Paper Specification) is Microsoft's fixed-document format, similar to PDF. It's commonly used for Windows printing."
+        "question": "XPS ఫార్మాట్ అంటే ఏమిటి?",
+        "answer": "XPS (XML పేపర్ స్పెసిఫికేషన్) అనేది మైక్రోసాఫ్ట్ యొక్క స్థిర పత్ర ఫార్మాట్, PDF కి సమానంగా ఉంటుంది. ఇది సాధారణంగా విండోస్ ప్రింటింగ్ కోసం ఉపయోగించబడుతుంది."
       },
       {
-        "question": "Is the conversion lossless?",
-        "answer": "Yes, the conversion preserves text, graphics, and layout with high fidelity."
+        "question": "పరివర్తన నష్టం లేకుండా ఉందా?",
+        "answer": "అవును, ఈ మార్పిడి టెక్స్ట్, గ్రాఫిక్స్, మరియు లేఅవుట్లను అధిక విశ్వసనీయతతో కాపాడుతుంది."
       },
       {
-        "question": "Are multi-page XPS files supported?",
-        "answer": "Yes, all pages in the XPS document are converted to the PDF."
+        "question": "బహుళ పేజీల XPS ఫైళ్ళకు మద్దతు ఉందా?",
+        "answer": "అవును, XPS పత్రంలోని అన్ని పేజీలు PDF కి మార్చబడతాయి."
       }
     ]
   },
   "rtf-to-pdf": {
-    "title": "RTF to PDF",
-    "metaDescription": "Convert RTF (Rich Text Format) files to PDF. Preserve text formatting in your documents.",
+    "title": "RTF నుండి PDF కు",
+    "metaDescription": "RTF (రిచ్ టెక్స్ట్ ఫార్మాట్) ఫైళ్ళను PDF గా మార్చండి. మీ పత్రాలలో టెక్స్ట్ ఫార్మాటింగ్ను కాపాడండి.",
     "keywords": [
       "rtf to pdf",
       "convert rtf",
       "rich text to pdf",
       "rtf converter"
     ],
-    "description": "\n      <p>RTF to PDF converts Rich Text Format files into PDF documents. RTF is a widely supported text format that includes basic formatting like fonts, colors, and styles.</p>\n      <p>Upload your RTF files and get clean PDF output while preserving text content and basic formatting. Perfect for converting legacy documents to modern PDF format.</p>\n      <p>All conversion happens locally in your browser, ensuring your documents remain private and secure.</p>\n    ",
+    "description": "<p>RTF to PDF Rich Text Format ఫైళ్ళను PDF పత్రాలుగా మారుస్తుంది. RTF అనేది ఫాంట్లు, రంగులు మరియు శైలులు వంటి ప్రాథమిక ఫార్మాటింగ్ను కలిగి ఉన్న విస్తృతంగా మద్దతు ఉన్న టెక్స్ట్ ఫార్మాట్. </p> <p>మీ RTF ఫైళ్ళను అప్లోడ్ చేయండి మరియు టెక్స్ట్ కంటెంట్ మరియు ప్రాథమిక ఫార్మాటింగ్ను కాపాడేటప్పుడు శుభ్రమైన PDF అవుట్పుట్ పొందండి. పాత పత్రాలను ఆధునిక PDF ఫార్మాట్కు మార్చడానికి ఖచ్చితంగా ఉంది.</p> <p>అన్ని మార్పిడులు మీ బ్రౌజర్లో స్థానికంగా జరుగుతాయి, మీ పత్రాలు ప్రైవేట్ మరియు సురక్షితంగా ఉంటాయి.</p> ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload RTF File",
-        "description": "Drag and drop your .rtf file or click to select from your device."
+        "title": "RTF ఫైల్ను అప్లోడ్ చేయండి",
+        "description": "మీ . rtf ఫైల్ను లాగండి మరియు వదలండి లేదా మీ పరికరం నుండి ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Wait for Processing",
-        "description": "The tool will parse and convert the RTF content."
+        "title": "ప్రాసెసింగ్ కోసం వేచి ఉండండి",
+        "description": "సాధనం RTF కంటెంట్ను విశ్లేషిస్తుంది మరియు మార్చుతుంది."
       },
       {
         "step": 3,
-        "title": "Download PDF",
-        "description": "Click Download to save your converted PDF document."
+        "title": "PDF డౌన్లోడ్ చేసుకోండి",
+        "description": "మీ మార్చబడిన PDF పత్రాన్ని సేవ్ చేయడానికి డౌన్లోడ్ క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Legacy Conversion",
-        "description": "Convert old RTF documents to modern PDF format.",
+        "title": "వారసత్వ మార్పిడి",
+        "description": "పాత RTF పత్రాలను ఆధునిక PDF ఫార్మాట్కు మార్చండి.",
         "icon": "history"
       },
       {
-        "title": "Document Sharing",
-        "description": "Share RTF documents in universally viewable PDF format.",
+        "title": "పత్రాలను పంచుకోవడం",
+        "description": "RTF పత్రాలను విశ్వవ్యాప్తంగా వీక్షించదగిన PDF ఫార్మాట్లో భాగస్వామ్యం చేయండి.",
         "icon": "share-2"
       },
       {
-        "title": "Archive Documents",
-        "description": "Archive RTF files in stable PDF format for long-term storage.",
+        "title": "ఆర్కైవ్ పత్రాలు",
+        "description": "దీర్ఘకాలిక నిల్వ కోసం స్థిరమైన PDF ఫార్మాట్లో ఆర్కైవ్ RTF ఫైల్లు.",
         "icon": "archive"
       }
     ],
     "faq": [
       {
-        "question": "What formatting is preserved?",
-        "answer": "Basic text formatting including fonts, paragraphs, and styles are converted. Complex RTF features may be simplified."
+        "question": "ఏ ఫార్మాటింగ్ను కాపాడారు?",
+        "answer": "ఫాంట్లు, పేరాలు, శైలులు సహా ప్రాథమిక టెక్స్ట్ ఫార్మాటింగ్ మార్చబడుతుంది. సంక్లిష్టమైన RTF లక్షణాలను సరళీకృతం చేయవచ్చు."
       },
       {
-        "question": "Can I convert multiple RTF files?",
-        "answer": "Currently, one file is converted at a time. Use Merge PDF to combine multiple converted files."
+        "question": "నేను బహుళ RTF ఫైళ్ళను మార్చగలనా?",
+        "answer": "ప్రస్తుతం, ఒకేసారి ఒక ఫైల్ మార్చబడుతుంది. బహుళ మార్చబడిన ఫైళ్ళను కలపడానికి మిర్జ్ PDF ను ఉపయోగించండి."
       },
       {
-        "question": "Are embedded images supported?",
-        "answer": "Text content is the primary focus. Embedded objects may not be rendered."
+        "question": "ఎంబెడెడ్ చిత్రాలు మద్దతు ఇవ్వబడతాయా?",
+        "answer": "టెక్స్ట్ కంటెంట్ ప్రధాన దృష్టి. పొందుపరిచిన వస్తువులు రెండర్ చేయబడకపోవచ్చు."
       }
     ]
   },
   "epub-to-pdf": {
-    "title": "EPUB to PDF",
-    "metaDescription": "Convert EPUB e-books to PDF. Preserve formatting, images, and chapter structure.",
+    "title": "EPUB నుండి PDF కు",
+    "metaDescription": "EPUB ఇ-బుక్లను PDF గా మార్చండి. ఫార్మాటింగ్, చిత్రాలు, అధ్యాయ నిర్మాణాన్ని కాపాడుకోండి.",
     "keywords": [
       "epub to pdf",
       "convert epub",
       "ebook to pdf",
       "epub converter"
     ],
-    "description": "\n      <p>EPUB to PDF converts electronic book files into high-quality PDF documents. EPUB is the most popular e-book format, used by most e-readers and digital libraries.</p>\n      <p>This tool preserves text formatting, images, and the chapter structure of your e-books. Perfect for printing, archiving, or sharing e-books in a universally viewable format.</p>\n      <p>All conversion happens locally in your browser using advanced rendering technology, ensuring your books remain private and the conversion is fast.</p>\n    ",
+    "description": "<p>EPUB to PDF ఎలక్ట్రానిక్ పుస్తక ఫైళ్ళను అధిక నాణ్యత గల PDF పత్రాలుగా మారుస్తుంది. EPUB అనేది అత్యంత ప్రాచుర్యం పొందిన ఇ-బుక్ ఫార్మాట్, ఇది చాలా ఇ-రీడర్లు మరియు డిజిటల్ లైబ్రరీలు ఉపయోగిస్తాయి. </p> <p>ఈ సాధనం మీ ఇ-బుక్ల టెక్స్ట్ ఫార్మాటింగ్, చిత్రాలు మరియు అధ్యాయ నిర్మాణాన్ని కాపాడుతుంది. ఇ-బుక్లను విశ్వవ్యాప్తంగా వీక్షించదగిన ఫార్మాట్లో ముద్రించడానికి, ఆర్కైవ్ చేయడానికి లేదా భాగస్వామ్యం చేయడానికి ఇది సరైనది. </p> <p>అన్ని మార్పిడులు మీ బ్రౌజర్లో ఆధునిక రెండరింగ్ టెక్నాలజీని ఉపయోగించి జరుగుతాయి, మీ పుస్తకాలు ప్రైవేట్గా ఉండాలని మరియు మార్పిడి వేగంగా ఉండేలా చేస్తుంది. </p> ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload EPUB File",
-        "description": "Drag and drop your .epub file or click to select from your device."
+        "title": "EPUB ఫైల్ను అప్లోడ్ చేయండి",
+        "description": "మీ .epub ఫైల్ను లాగండి మరియు వదలండి లేదా మీ పరికరం నుండి ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Wait for Conversion",
-        "description": "The tool will render and convert all pages of your e-book."
+        "title": "పరివర్తన కోసం వేచి ఉండండి",
+        "description": "ఈ సాధనం మీ ఇ-బుక్ యొక్క అన్ని పేజీలను రెండర్లు చేస్తుంది మరియు మార్చుకుంటుంది."
       },
       {
         "step": 3,
-        "title": "Download PDF",
-        "description": "Click Download to save your converted PDF document."
+        "title": "PDF డౌన్లోడ్ చేసుకోండి",
+        "description": "మీ మార్చబడిన PDF పత్రాన్ని సేవ్ చేయడానికి డౌన్లోడ్ క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Print E-books",
-        "description": "Convert e-books to PDF for physical printing.",
+        "title": "ముద్రణ ఇ-పుస్తకాలు",
+        "description": "భౌతిక ముద్రణ కోసం ఇ-పుస్తకాలను PDF గా మార్చండి.",
         "icon": "printer"
       },
       {
-        "title": "Archive Books",
-        "description": "Store e-books in long-term stable PDF format.",
+        "title": "ఆర్కైవ్ పుస్తకాలు",
+        "description": "దీర్ఘకాలిక స్థిరమైన PDF ఫార్మాట్లో ఇ-పుస్తకాలను నిల్వ చేయండి.",
         "icon": "archive"
       },
       {
-        "title": "Share Documents",
-        "description": "Share e-books with anyone, even without an e-reader.",
+        "title": "పత్రాలను పంచుకోవడం",
+        "description": "ఇ-రీడర్ లేకుండా కూడా ఎవరితోనైనా ఇ-బుక్లను పంచుకోండి.",
         "icon": "share-2"
       }
     ],
     "faq": [
       {
-        "question": "Is the formatting preserved?",
-        "answer": "Yes! This tool uses native EPUB rendering, preserving text formatting, images, and layout with high fidelity."
+        "question": "ఫార్మాటింగ్ కాపాడబడిందా?",
+        "answer": "అవును! ఈ సాధనం EPUB రిండరింగ్ను ఉపయోగిస్తుంది, ఇది టెక్స్ట్ ఫార్మాటింగ్, చిత్రాలు, మరియు లేఅవుట్లను అధిక విశ్వసనీయతతో కాపాడుతుంది."
       },
       {
-        "question": "Are DRM-protected EPUBs supported?",
-        "answer": "No, DRM-protected e-books cannot be converted. Only DRM-free EPUB files are supported."
+        "question": "DRM రక్షిత EPUB లు మద్దతు ఇవ్వబడుతున్నాయా?",
+        "answer": "లేదు, DRM రక్షిత ఇ-బుక్లను మార్చలేరు. DRM రహిత EPUB ఫైళ్ళ మాత్రమే మద్దతు ఇవ్వబడతాయి."
       },
       {
-        "question": "How is page size determined?",
-        "answer": "EPUB content is rendered to standard A4 page size for optimal readability."
+        "question": "పేజీ పరిమాణం ఎలా నిర్ణయించబడుతుంది?",
+        "answer": "EPUB కంటెంట్ సరైన పఠన సామర్థ్యం కోసం ప్రామాణిక A4 పేజీ పరిమాణానికి అందించబడుతుంది."
       }
     ]
   },
   "mobi-to-pdf": {
-    "title": "MOBI to PDF",
-    "metaDescription": "Convert MOBI e-books to PDF. Support for Kindle format with high-quality rendering.",
+    "title": "MOBI నుండి PDF కు",
+    "metaDescription": "MOBI ఇ-బుక్లను PDF కి మార్చండి. అధిక నాణ్యత గల రెండరింగ్తో కిండ్ల్ ఫార్మాట్కు మద్దతు.",
     "keywords": [
       "mobi to pdf",
       "convert mobi",
@@ -2547,59 +2547,59 @@ export const toolContentTe: Record<string, ToolContent> = {
       "azw to pdf",
       "mobi converter"
     ],
-    "description": "\n      <p>MOBI to PDF converts Amazon Kindle e-book files into high-quality PDF documents. MOBI format (including AZW and AZW3) is Amazon's proprietary e-book format used on Kindle devices.</p>\n      <p>This tool preserves text formatting, images, and the structure of your Kindle books. Perfect for printing, archiving, or reading on devices that don't support MOBI format.</p>\n      <p>All conversion happens locally in your browser using advanced rendering technology, ensuring your books remain private.</p>\n    ",
+    "description": "<p>MOBI to PDF అనేది అమెజాన్ కిండ్ల్ ఇ-బుక్ ఫైల్లను అధిక నాణ్యత గల PDF పత్రాలుగా మారుస్తుంది. MOBI ఫార్మాట్ (AZW మరియు AZW3 తో సహా) అనేది అమెజాన్ యొక్క యాజమాన్య ఇ-బుక్ ఫార్మాట్, ఇది కిండ్ల్ పరికరాల్లో ఉపయోగించబడుతుంది. </p> <p>ఈ సాధనం మీ కిండ్ల్ పుస్తకాల యొక్క టెక్స్ట్ ఫార్మాటింగ్, చిత్రాలు మరియు నిర్మాణాన్ని కాపాడుతుంది. MOBI ఫార్మాట్కు మద్దతు లేని పరికరాల్లో ముద్రణ, ఆర్కైవ్ లేదా చదవడం కోసం ఇది సరైనది. </p> <p>అన్ని మార్పిడులు మీ బ్రౌజర్లో ఆధునిక రెండరింగ్ టెక్నాలజీని ఉపయోగించి స్థానికంగా జరుగుతాయి, మీ పుస్తకాలు ప్రైవేట్గా ఉంటాయి.</p> ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload MOBI File",
-        "description": "Drag and drop your .mobi, .azw, or .azw3 file or click to select from your device."
+        "title": "MOBI ఫైల్ను అప్లోడ్ చేయండి",
+        "description": "మీ .mobi, .azw, లేదా .azw3 ఫైల్ను లాగండి మరియు వదలండి లేదా మీ పరికరం నుండి ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Wait for Conversion",
-        "description": "The tool will render and convert all pages of your e-book."
+        "title": "పరివర్తన కోసం వేచి ఉండండి",
+        "description": "ఈ సాధనం మీ ఇ-బుక్ యొక్క అన్ని పేజీలను రెండర్లు చేస్తుంది మరియు మార్చుకుంటుంది."
       },
       {
         "step": 3,
-        "title": "Download PDF",
-        "description": "Click Download to save your converted PDF document."
+        "title": "PDF డౌన్లోడ్ చేసుకోండి",
+        "description": "మీ మార్చబడిన PDF పత్రాన్ని సేవ్ చేయడానికి డౌన్లోడ్ క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Print Kindle Books",
-        "description": "Convert Kindle e-books to PDF for physical printing.",
+        "title": "కిండ్ల్ పుస్తకాలు ముద్రించండి",
+        "description": "భౌతిక ముద్రణ కోసం కిండ్ల్ ఇ-బుక్లను PDF గా మార్చండి.",
         "icon": "printer"
       },
       {
-        "title": "Archive Books",
-        "description": "Store Kindle books in universal PDF format.",
+        "title": "ఆర్కైవ్ పుస్తకాలు",
+        "description": "కిండ్ల్ పుస్తకాలను యూనివర్సల్ PDF ఫార్మాట్లో నిల్వ చేయండి.",
         "icon": "archive"
       },
       {
-        "title": "Cross-Device Reading",
-        "description": "Read Kindle books on devices that only support PDF.",
+        "title": "క్రాస్ డివైస్ రీడింగ్",
+        "description": "PDF కి మాత్రమే మద్దతు ఇచ్చే పరికరాల్లో కిండ్ల్ పుస్తకాలను చదవండి.",
         "icon": "tablet-smartphone"
       }
     ],
     "faq": [
       {
-        "question": "What MOBI formats are supported?",
-        "answer": "This tool supports .mobi, .azw, and .azw3 files (non-DRM versions)."
+        "question": "ఏ MOBI ఫార్మాట్లకు మద్దతు ఉంది?",
+        "answer": "ఈ సాధనం . మొబి, . azw, మరియు . azw3 ఫైళ్ళను (DRM కాని వెర్షన్లు) మద్దతు ఇస్తుంది."
       },
       {
-        "question": "Are DRM-protected Kindle books supported?",
-        "answer": "No, DRM-protected e-books cannot be converted. Only DRM-free files are supported."
+        "question": "DRM రక్షిత కిండ్ల్ పుస్తకాలు మద్దతు ఇవ్వబడుతున్నాయా?",
+        "answer": "లేదు, DRM రక్షిత ఇ-బుక్లను మార్చలేరు. DRM రహిత ఫైళ్ళ మాత్రమే మద్దతు ఇవ్వబడతాయి."
       },
       {
-        "question": "Will my formatting be preserved?",
-        "answer": "Yes! The tool uses native MOBI rendering to preserve text, images, and layout."
+        "question": "నా ఫార్మాటింగ్ కాపాడబడుతుందా?",
+        "answer": "అవును! ఈ సాధనం టెక్స్ట్, చిత్రాలు, లేఅవుట్లను కాపాడటానికి స్థానిక MOBI రెండరింగ్ను ఉపయోగిస్తుంది."
       }
     ]
   },
   "djvu-to-pdf": {
-    "title": "DJVU to PDF",
-    "metaDescription": "Convert DJVU document files to PDF. High-quality rendering for scanned documents and books.",
+    "title": "DJVU కు PDF",
+    "metaDescription": "DJVU పత్ర ఫైళ్ళను PDF కి మార్చండి. స్కాన్ చేసిన పత్రాలు మరియు పుస్తకాల కోసం అధిక నాణ్యత గల రెండరింగ్.",
     "keywords": [
       "djvu to pdf",
       "convert djvu",
@@ -2607,59 +2607,59 @@ export const toolContentTe: Record<string, ToolContent> = {
       "djvu pdf",
       "djv to pdf"
     ],
-    "description": "\n      <p>DJVU to PDF converts DjVu document files into high-quality PDF documents. DjVu is a computer file format designed primarily to store scanned documents, especially those containing a combination of text, line drawings, and photographs.</p>\n      <p>This tool renders each page of your DJVU file at your chosen DPI (dots per inch) and combines them into a searchable PDF document. Perfect for converting scanned books, technical manuals, and archival documents.</p>\n      <p>All conversion happens locally in your browser, ensuring your documents remain private and secure.</p>\n    ",
+    "description": "<p>DJVU to PDF DjVu డాక్యుమెంట్ ఫైల్లను అధిక నాణ్యత గల PDF పత్రాలుగా మారుస్తుంది. DjVu అనేది స్కాన్ చేసిన పత్రాలను, ముఖ్యంగా టెక్స్ట్, లైన్ డ్రాయింగ్లు మరియు ఫోటోల కలయికను కలిగి ఉన్న కంప్యూటర్ ఫైల్ ఫార్మాట్. </p> <p>ఈ సాధనం మీ ఎంచుకున్న DPI (అంగుళాల శాతం చుక్కలు) వద్ద మీ DJVU ఫైల్ యొక్క ప్రతి పేజీని రెండర్ చేస్తుంది మరియు వాటిని శోధించదగిన PDF పత్రంగా మిళితం చేస్తుంది. స్కాన్ చేసిన పుస్తకాలు, సాంకేతిక మాన్యువల్లు మరియు ఆర్కైవ్ పత్రాలను మార్చడానికి ఇది సరైనది.</p> <p>అన్ని మార్పిడులు మీ బ్రౌజర్లో స్థానికంగా జరుగుతాయి, మీ పత్రాలు ప్రైవేట్ మరియు సురక్షితంగా ఉంటాయి.</p> ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload DJVU File",
-        "description": "Drag and drop your .djvu or .djv file, or click to select from your device."
+        "title": "DJVU ఫైల్ను అప్లోడ్ చేయండి",
+        "description": "మీ . djvu లేదా . djv ఫైల్ను లాగండి మరియు వదలండి, లేదా మీ పరికరం నుండి ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
         "title": "ఎంపికలను కాన్ఫిగర్ చేయండి",
-        "description": "Choose output DPI (72, 150, or 300) and image quality for the PDF."
+        "description": "PDF కోసం అవుట్పుట్ DPI (72, 150, లేదా 300) మరియు చిత్ర నాణ్యతను ఎంచుకోండి."
       },
       {
         "step": 3,
-        "title": "Convert & Download",
-        "description": "Click Convert to PDF and download your converted document."
+        "title": "మార్చు & డౌన్లోడ్",
+        "description": "PDF కు మార్చు క్లిక్ చేసి, మీ మార్చబడిన పత్రాన్ని డౌన్లోడ్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Archive Documents",
-        "description": "Convert DJVU archives to universal PDF format.",
+        "title": "ఆర్కైవ్ పత్రాలు",
+        "description": "DJVU ఆర్కైవ్లను యూనివర్సల్ PDF ఫార్మాట్కు మార్చండి.",
         "icon": "archive"
       },
       {
-        "title": "Share Scanned Books",
-        "description": "Share scanned books in PDF format for wider compatibility.",
+        "title": "స్కాన్ చేసిన పుస్తకాలను పంచుకోండి",
+        "description": "విస్తృత అనుకూలత కోసం స్కాన్ చేసిన పుస్తకాలను PDF ఫార్మాట్ లో భాగస్వామ్యం చేయండి.",
         "icon": "share-2"
       },
       {
-        "title": "Print Documents",
-        "description": "Convert DJVU to high-quality PDF for printing.",
+        "title": "పత్రాలను ముద్రించు",
+        "description": "DJVU ను ప్రింట్ కోసం అధిక నాణ్యత గల PDF కి మార్చండి.",
         "icon": "printer"
       }
     ],
     "faq": [
       {
-        "question": "What is DJVU format?",
-        "answer": "DjVu is a file format designed for storing scanned documents, especially those with text, drawings, and images. It offers better compression than PDF for scanned content."
+        "question": "DJVU ఫార్మాట్ అంటే ఏమిటి?",
+        "answer": "DjVu అనేది స్కాన్ చేసిన పత్రాలను, ముఖ్యంగా టెక్స్ట్, డ్రాయింగ్లు మరియు చిత్రాలతో కూడిన పత్రాలను నిల్వ చేయడానికి రూపొందించిన ఫైల్ ఫార్మాట్. స్కాన్ చేసిన కంటెంట్ కోసం ఇది PDF కంటే మెరుగైన కంప్రెషన్ను అందిస్తుంది."
       },
       {
-        "question": "What DPI should I choose?",
-        "answer": "72 DPI is suitable for web viewing, 150 DPI for standard documents, and 300 DPI for high-quality printing."
+        "question": "ఏ DPI ను నేను ఎంచుకోవాలి?",
+        "answer": "72 డిపిఐ వెబ్ వీక్షణకు, 150 డిపిఐ ప్రామాణిక పత్రాలకు, 300 డిపిఐ అధిక నాణ్యత గల ముద్రణకు అనుకూలంగా ఉంటుంది."
       },
       {
-        "question": "Will the text be searchable?",
-        "answer": "The text will be rendered as images. If you need searchable text, consider using our OCR PDF tool after conversion."
+        "question": "ఆ టెక్స్ట్ శోధించగలదా?",
+        "answer": "మీరు శోధించదగిన టెక్స్ట్ అవసరమైతే, మార్చిన తర్వాత మా OCR PDF సాధనాన్ని ఉపయోగించడం పరిగణించండి."
       }
     ]
   },
   "fb2-to-pdf": {
-    "title": "FB2 to PDF",
-    "metaDescription": "Convert FictionBook (FB2) e-books to PDF. Supports multiple files with high-quality rendering.",
+    "title": "FB2 కు PDF",
+    "metaDescription": "ఫికషన్బుక్ (FB2) ఇ-బుక్లను PDF కి మార్చండి. అధిక నాణ్యత గల రెండరింగ్తో బహుళ ఫైల్లను మద్దతు ఇస్తుంది.",
     "keywords": [
       "fb2 to pdf",
       "convert fb2",
@@ -2667,354 +2667,354 @@ export const toolContentTe: Record<string, ToolContent> = {
       "fb2 converter",
       "fb2.zip to pdf"
     ],
-    "description": "\n      <p>FB2 to PDF converts FictionBook (FB2) e-book files into high-quality PDF documents. FB2 is a popular XML-based e-book format widely used in Russia and Eastern Europe.</p>\n      <p>This tool supports both .fb2 and .fb2.zip files, and can process multiple files at once. It preserves text formatting, images, and the chapter structure of your e-books.</p>\n      <p>All conversion happens locally in your browser using advanced rendering technology, ensuring your books remain private and the conversion is fast.</p>\n    ",
+    "description": "<p>FB2 ను PDF కి మార్చడం ద్వారా FictionBook (FB2) ఇ-బుక్ ఫైల్లను అధిక నాణ్యత గల PDF పత్రాలుగా మార్చవచ్చు. FB2 అనేది రష్యా మరియు తూర్పు ఐరోపాలో విస్తృతంగా ఉపయోగించే ప్రసిద్ధ XML ఆధారిత ఇ-బుక్ ఫార్మాట్. </p> <p>ఈ సాధనం .fb2 మరియు .fb2.zip ఫైల్లను కూడా మద్దతు ఇస్తుంది మరియు ఒకేసారి బహుళ ఫైల్లను ప్రాసెస్ చేయవచ్చు. ఇది మీ ఇ-బుక్ల టెక్స్ట్ ఫార్మాటింగ్, చిత్రాలు మరియు అధ్యాయ నిర్మాణాన్ని కాపాడుతుంది.</p> <p>అన్ని మార్పిడులు మీ బ్రౌజర్లో ఆధునిక రెండరింగ్ టెక్నాలజీని ఉపయోగించి జరుగుతాయి, మీ పుస్తకాలు ప్రైవేట్గా ఉండాలని మరియు మార్పిడి వేగంగా ఉండేలా చేస్తుంది.</p> ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload FB2 Files",
-        "description": "Drag and drop one or more .fb2 or .fb2.zip files, or click to select from your device."
+        "title": "FB2 ఫైళ్ళను అప్లోడ్ చేయండి",
+        "description": ". fb2 లేదా . fb2.zip ఫైళ్ళలో ఒకటి లేదా అంతకంటే ఎక్కువ డ్రాగ్ మరియు డ్రాప్ చేయండి, లేదా మీ పరికరం నుండి ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Select Quality",
-        "description": "Choose output quality: Low (72 DPI), Medium (150 DPI), or High (300 DPI)."
+        "title": "నాణ్యతను ఎంచుకోండి",
+        "description": "అవుట్పుట్ నాణ్యతను ఎంచుకోండిః తక్కువ (72 DPI), మధ్యస్థ (150 DPI), లేదా అధిక (300 DPI)."
       },
       {
         "step": 3,
-        "title": "Convert & Download",
-        "description": "Click Convert to PDF and download your converted document(s)."
+        "title": "మార్చు & డౌన్లోడ్",
+        "description": "PDF కు మార్చు క్లిక్ చేసి, మీ మార్చిన పత్రాలను డౌన్లోడ్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Print E-books",
-        "description": "Convert FB2 e-books to PDF for physical printing.",
+        "title": "ముద్రణ ఇ-పుస్తకాలు",
+        "description": "భౌతిక ముద్రణ కోసం FB2 ఇ-పుస్తకాలను PDF గా మార్చండి.",
         "icon": "printer"
       },
       {
-        "title": "Batch Conversion",
-        "description": "Convert multiple FB2 files to PDF at once.",
+        "title": "బ్యాచ్ మార్పిడి",
+        "description": "ఒకేసారి బహుళ FB2 ఫైళ్ళను PDF కి మార్చండి.",
         "icon": "layers"
       },
       {
-        "title": "Universal Format",
-        "description": "Share e-books in PDF format that works on any device.",
+        "title": "యూనివర్సల్ ఫార్మాట్",
+        "description": "ఏ పరికరంలోనైనా పనిచేసే PDF ఫార్మాట్ లో ఇ-బుక్లను భాగస్వామ్యం చేయండి.",
         "icon": "share-2"
       }
     ],
     "faq": [
       {
-        "question": "Can I convert multiple FB2 files at once?",
-        "answer": "Yes! This tool supports batch conversion of up to 20 FB2 files simultaneously."
+        "question": "నేను ఒకేసారి బహుళ FB2 ఫైళ్లు మార్చవచ్చు?",
+        "answer": "అవును! ఈ సాధనం ఒకేసారి 20 FB2 ఫైళ్ళ బ్యాచ్ మార్పిడిని మద్దతు ఇస్తుంది."
       },
       {
-        "question": "Are .fb2.zip files supported?",
-        "answer": "Yes, the tool automatically extracts and converts FB2 files from .fb2.zip archives."
+        "question": ". fb2.zip ఫైళ్ళకు మద్దతు ఉందా?",
+        "answer": "అవును, ఈ సాధనం .fb2.zip ఆర్కైవ్ల నుండి FB2 ఫైళ్ళను స్వయంచాలకంగా సేకరించి మారుస్తుంది."
       },
       {
-        "question": "Is the formatting preserved?",
-        "answer": "Yes! The tool uses native FB2 rendering, preserving text formatting, images, and chapter structure with high fidelity."
+        "question": "ఫార్మాటింగ్ కాపాడబడిందా?",
+        "answer": "అవును! ఈ సాధనం స్థానిక FB2 రెండరింగ్ను ఉపయోగిస్తుంది, టెక్స్ట్ ఫార్మాటింగ్, చిత్రాలు మరియు అధ్యాయ నిర్మాణాన్ని అధిక విశ్వసనీయతతో సంరక్షిస్తుంది."
       }
     ]
   },
   "pdf-to-jpg": {
-    "title": "PDF to JPG",
-    "metaDescription": "Convert PDF pages to JPG images. High-quality extraction with customizable resolution.",
+    "title": "PDF నుండి JPG",
+    "metaDescription": "PDF పేజీలను JPG చిత్రాలకు మార్చండి. అనుకూలీకరించదగిన స్పష్టతతో అధిక నాణ్యత గల వెలికితీత.",
     "keywords": [
       "pdf to jpg",
       "pdf to jpeg",
       "convert pdf to image",
       "extract pdf images"
     ],
-    "description": "\n      <p>PDF to JPG converts PDF document pages into high-quality JPG images. Extract all pages or select specific pages to convert, with customizable resolution and quality settings.</p>\n      <p>Perfect for extracting images from PDFs, creating thumbnails, or converting documents for web use.</p>\n      <p>All conversion happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>PDF నుండి JPG కు PDF పత్ర పేజీలను అధిక నాణ్యత గల JPG చిత్రాలుగా మారుస్తుంది. అన్ని పేజీలను తీయండి లేదా అనుకూలీకరించదగిన స్పష్టత మరియు నాణ్యత సెట్టింగులతో మార్చడానికి నిర్దిష్ట పేజీలను ఎంచుకోండి. </p> <p>PDF ఫైళ్ళ నుండి చిత్రాలను తీయడానికి, సూక్ష్మచిత్రాలను సృష్టించడానికి లేదా వెబ్ ఉపయోగం కోసం పత్రాలను మార్చడానికి అనువైనది.</p> <p>అన్ని మార్పిడులు మీ బ్రౌజర్లో జరుగుతాయి, మీ పత్రాలు ప్రైవేట్గా ఉండాలని నిర్ధారించుకోండి.</p> ",
     "howToUse": [
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "మీ PDF ఫైల్ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Select Pages and Quality",
-        "description": "Choose which pages to convert and set quality/DPI options."
+        "title": "పేజీలను ఎంచుకోండి మరియు నాణ్యత",
+        "description": "మార్చడానికి ఏ పేజీలను ఎంచుకోండి మరియు నాణ్యత / DPI ఎంపికలను సెట్ చేయండి."
       },
       {
         "step": 3,
         "title": "మార్చండి మరియు డౌన్లోడ్",
-        "description": "Click Convert to extract images and download as ZIP."
+        "description": "చిత్రాలను సేకరించడానికి మరియు ZIP గా డౌన్లోడ్ చేయడానికి Convert పై క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
         "title": "వెబ్ ప్రచురణ",
-        "description": "Convert PDF pages to images for website use.",
+        "description": "వెబ్సైట్ ఉపయోగం కోసం PDF పేజీలను చిత్రాలకు మార్చండి.",
         "icon": "globe"
       },
       {
-        "title": "Social Media",
-        "description": "Extract pages as images for social media sharing.",
+        "title": "సోషల్ మీడియా",
+        "description": "సోషల్ మీడియా భాగస్వామ్యం కోసం పేజీలను చిత్రాలుగా తీయండి.",
         "icon": "share-2"
       },
       {
-        "title": "Presentations",
-        "description": "Convert PDF slides to images for presentations.",
+        "title": "ప్రదర్శనలు",
+        "description": "PDF స్లైడ్లను ప్రదర్శనల కోసం చిత్రాలకు మార్చండి.",
         "icon": "presentation"
       }
     ],
     "faq": [
       {
-        "question": "What quality settings are available?",
-        "answer": "You can set DPI from 72 to 300 and JPEG quality from 1-100."
+        "question": "ఏ నాణ్యమైన సెట్టింగులు అందుబాటులో ఉన్నాయి?",
+        "answer": "మీరు 72 నుండి 300 వరకు DPI మరియు 1-100 నుండి JPEG నాణ్యతను సెట్ చేయవచ్చు."
       },
       {
-        "question": "Can I convert specific pages only?",
-        "answer": "Yes, you can select individual pages or page ranges to convert."
+        "question": "నేను నిర్దిష్ట పేజీలను మాత్రమే మార్చవచ్చా?",
+        "answer": "అవును, మీరు మార్చడానికి వ్యక్తిగత పేజీలు లేదా పేజీ శ్రేణులను ఎంచుకోవచ్చు."
       },
       {
-        "question": "How are multiple pages handled?",
-        "answer": "Each page becomes a separate JPG file, downloaded as a ZIP archive."
+        "question": "బహుళ పేజీలను ఎలా నిర్వహించాలి?",
+        "answer": "ప్రతి పేజీ ఒక ప్రత్యేక JPG ఫైల్గా మారుతుంది, ఇది ZIP ఆర్కైవ్గా డౌన్లోడ్ చేయబడుతుంది."
       }
     ]
   },
   "pdf-to-png": {
-    "title": "PDF to PNG",
-    "metaDescription": "Convert PDF pages to PNG images. Lossless quality with transparency support.",
+    "title": "PDF కు PNG",
+    "metaDescription": "PDF పేజీలను PNG చిత్రాలకు మార్చండి. పారదర్శకత మద్దతుతో నష్టం లేని నాణ్యత.",
     "keywords": [
       "pdf to png",
       "convert pdf to png",
       "pdf image extraction",
       "lossless pdf conversion"
     ],
-    "description": "\n      <p>PDF to PNG converts PDF document pages into high-quality PNG images with lossless compression. PNG format preserves image quality perfectly and supports transparency.</p>\n      <p>Ideal for extracting graphics, diagrams, or any content where quality preservation is critical.</p>\n      <p>All conversion happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>PDF to PNG అనేది అధిక నాణ్యత గల PNG చిత్రాలకు మార్చబడుతుంది. నష్టం లేని కంప్రెషన్తో. PNG ఫార్మాట్ చిత్రం నాణ్యతను సంపూర్ణంగా కాపాడుతుంది మరియు పారదర్శకతను మద్దతు ఇస్తుంది. </p> <p>గ్రాఫిక్స్, రేఖాచిత్రాలు లేదా నాణ్యత సంరక్షణ కీలకమైన ఏదైనా కంటెంట్ను సేకరించడానికి అనువైనది. </p> <p><p>అన్ని మార్పిడులు మీ బ్రౌజర్లో జరుగుతాయి, మీ పత్రాలు ప్రైవేట్గా ఉంటాయి.</p> ",
     "howToUse": [
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "మీ PDF ఫైల్ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
         "title": "ఎంపికలను కాన్ఫిగర్ చేయండి",
-        "description": "Select pages and set resolution (DPI) options."
+        "description": "పేజీలను ఎంచుకోండి మరియు స్పష్టత ఎంపికలను సెట్ చేయండి (DPI)."
       },
       {
         "step": 3,
         "title": "మార్చండి మరియు డౌన్లోడ్",
-        "description": "Click Convert to extract PNG images."
+        "description": "PNG చిత్రాలను సేకరించడానికి Convert పై క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Graphics Extraction",
-        "description": "Extract diagrams and graphics with perfect quality.",
+        "title": "గ్రాఫిక్స్ ఎక్స్ట్రాక్షన్",
+        "description": "సంపూర్ణ నాణ్యతతో రేఖాచిత్రాలు మరియు గ్రాఫిక్లను సేకరించండి.",
         "icon": "image"
       },
       {
-        "title": "Design Assets",
-        "description": "Convert PDF designs to PNG for editing software.",
+        "title": "డిజైన్ ఆస్తులు",
+        "description": "సాఫ్ట్వేర్ను సవరించడానికి PDF డిజైన్లను PNG కి మార్చండి.",
         "icon": "palette"
       },
       {
-        "title": "Documentation",
-        "description": "Create high-quality images for technical documentation.",
+        "title": "పత్రాలు",
+        "description": "సాంకేతిక డాక్యుమెంటేషన్ కోసం అధిక నాణ్యత గల చిత్రాలను సృష్టించండి.",
         "icon": "file-text"
       }
     ],
     "faq": [
       {
-        "question": "Why choose PNG over JPG?",
-        "answer": "PNG offers lossless compression and transparency support, ideal for graphics and text."
+        "question": "JPG కి బదులుగా PNG ని ఎందుకు ఎంచుకోవాలి?",
+        "answer": "PNG నష్టం లేని కుదింపు మరియు పారదర్శకత మద్దతును అందిస్తుంది, ఇది గ్రాఫిక్స్ మరియు టెక్స్ట్ కోసం అనువైనది."
       },
       {
-        "question": "Are transparent backgrounds supported?",
-        "answer": "Yes, PDF pages with transparency are preserved in PNG output."
+        "question": "పారదర్శక నేపథ్యాలు మద్దతు ఇవ్వబడుతున్నాయా?",
+        "answer": "అవును, పారదర్శకత కలిగిన PDF పేజీలు PNG అవుట్పుట్లో భద్రపరచబడతాయి."
       },
       {
-        "question": "What DPI should I use?",
-        "answer": "Use 150 DPI for screen viewing, 300 DPI for printing."
+        "question": "నేను ఏ DPI ను ఉపయోగించాలి?",
+        "answer": "స్క్రీన్ వీక్షణ కోసం 150 DPI, ప్రింటింగ్ కోసం 300 DPI ఉపయోగించండి."
       }
     ]
   },
   "pdf-to-webp": {
-    "title": "PDF to WebP",
-    "metaDescription": "Convert PDF pages to WebP images. Modern format with excellent compression.",
+    "title": "PDF కు వెబ్ పి",
+    "metaDescription": "PDF పేజీలను WebP చిత్రాలకు మార్చండి. ఆధునిక ఫార్మాట్ అద్భుతమైన కంప్రెషన్తో.",
     "keywords": [
       "pdf to webp",
       "convert pdf to webp",
       "modern image format",
       "web optimized images"
     ],
-    "description": "\n      <p>PDF to WebP converts PDF document pages into WebP images, Google's modern image format that offers excellent compression with high quality.</p>\n      <p>WebP images are smaller than JPG or PNG while maintaining comparable quality, making them ideal for web use.</p>\n      <p>All conversion happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>PDF ను WebP కు మార్చడం ద్వారా PDF పత్ర పేజీలను WebP చిత్రాలుగా మార్చవచ్చు. ఇది Google యొక్క ఆధునిక చిత్ర ఫార్మాట్, ఇది అధిక నాణ్యతతో అద్భుతమైన కంప్రెషన్ను అందిస్తుంది. </p> <p>WebP చిత్రాలు JPG లేదా PNG కంటే చిన్నవిగా ఉంటాయి, అదే సమయంలో పోల్చదగిన నాణ్యతను కలిగి ఉంటాయి, ఇవి వెబ్ ఉపయోగం కోసం అనువైనవిగా ఉంటాయి. </p> <p>అన్ని మార్పిడులు మీ బ్రౌజర్లో జరుగుతాయి, మీ పత్రాలు ప్రైవేట్గా ఉంటాయి.</p> ",
     "howToUse": [
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "మీ PDF ఫైల్ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Set Quality Options",
-        "description": "Choose pages and set quality/compression settings."
+        "title": "నాణ్యత ఎంపికలను సెట్ చేయండి",
+        "description": "పేజీలను ఎంచుకోండి మరియు నాణ్యత/కాంప్రెషన్ సెట్టింగులను సెట్ చేయండి."
       },
       {
         "step": 3,
         "title": "మార్చండి మరియు డౌన్లోడ్",
-        "description": "Click Convert to create WebP images."
+        "description": "వెబ్పి చిత్రాలను సృష్టించడానికి Convert పై క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Web Optimization",
-        "description": "Create web-optimized images from PDF content.",
+        "title": "వెబ్ ఆప్టిమైజేషన్",
+        "description": "PDF కంటెంట్ నుండి వెబ్ ఆప్టిమైజ్ చిత్రాలను సృష్టించండి.",
         "icon": "globe"
       },
       {
-        "title": "Bandwidth Savings",
-        "description": "Reduce image file sizes for faster loading.",
+        "title": "బ్యాండ్విడ్త్ ఆదా",
+        "description": "వేగంగా లోడ్ చేయడానికి చిత్ర ఫైల్ పరిమాణాలను తగ్గించండి.",
         "icon": "zap"
       },
       {
-        "title": "Modern Websites",
-        "description": "Use modern image formats for contemporary web projects.",
+        "title": "ఆధునిక వెబ్సైట్లు",
+        "description": "సమకాలీన వెబ్ ప్రాజెక్టులకు ఆధునిక చిత్ర ఫార్మాట్లను ఉపయోగించండి.",
         "icon": "layout"
       }
     ],
     "faq": [
       {
         "question": "వెబ్ పి ఫార్మాట్ అంటే ఏమిటి?",
-        "answer": "WebP is a modern image format by Google offering superior compression."
+        "answer": "వెబ్పి అనేది గూగుల్ చేత ఆధునిక చిత్ర ఫార్మాట్, ఇది అధిక సంపీడన అందిస్తుంది."
       },
       {
-        "question": "Is WebP widely supported?",
-        "answer": "Yes, all modern browsers support WebP format."
+        "question": "వెబ్ పి విస్తృతంగా మద్దతు ఉందా?",
+        "answer": "అవును, అన్ని ఆధునిక బ్రౌజర్లు వెబ్ పి ఫార్మాట్కు మద్దతు ఇస్తాయి."
       },
       {
-        "question": "How much smaller are WebP files?",
-        "answer": "WebP files are typically 25-35% smaller than equivalent JPG files."
+        "question": "వెబ్పి ఫైళ్లు ఎంత చిన్నవి?",
+        "answer": "వెబ్పి ఫైల్లు సాధారణంగా సమానమైన JPG ఫైళ్ళ కంటే 25-35% చిన్నవి."
       }
     ]
   },
   "pdf-to-bmp": {
-    "title": "PDF to BMP",
-    "metaDescription": "Convert PDF pages to BMP bitmap images. Uncompressed format for maximum compatibility.",
+    "title": "PDF నుండి BMP",
+    "metaDescription": "PDF పేజీలను BMP బిట్ మ్యాప్ చిత్రాలకు మార్చండి. గరిష్ట అనుకూలత కోసం కంప్రెస్ చేయని ఫార్మాట్.",
     "keywords": [
       "pdf to bmp",
       "convert pdf to bitmap",
       "uncompressed images",
       "legacy format"
     ],
-    "description": "\n      <p>PDF to BMP converts PDF document pages into BMP bitmap images. BMP is an uncompressed format that ensures maximum compatibility with legacy systems and applications.</p>\n      <p>While BMP files are larger than compressed formats, they offer perfect quality and universal compatibility.</p>\n      <p>All conversion happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>PDF నుండి BMP కు PDF పత్ర పేజీలను BMP బిట్ మ్యాప్ చిత్రాలుగా మారుస్తుంది. BMP అనేది పాత వ్యవస్థలు మరియు అనువర్తనాలతో గరిష్ట అనుకూలతను నిర్ధారిస్తుంది. </p> <p>BMP ఫైల్లు కంప్రెస్డ్ ఫార్మాట్ కంటే పెద్దవిగా ఉన్నప్పటికీ, అవి ఖచ్చితమైన నాణ్యత మరియు సార్వత్రిక అనుకూలతను అందిస్తాయి.</p> <p>అన్ని మార్పిడులు మీ బ్రౌజర్లో జరుగుతాయి, మీ పత్రాలు ప్రైవేట్గా ఉండాలని నిర్ధారిస్తుంది.</p> ",
     "howToUse": [
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "మీ PDF ఫైల్ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
         "title": "పేజీలను ఎంచుకోండి",
-        "description": "Choose which pages to convert and set DPI."
+        "description": "మార్చడానికి ఏ పేజీలను ఎంచుకోండి మరియు DPI సెట్ చేయండి."
       },
       {
         "step": 3,
         "title": "మార్చండి మరియు డౌన్లోడ్",
-        "description": "Click Convert to create BMP images."
+        "description": "BMP చిత్రాలను సృష్టించడానికి Convert పై క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Legacy Systems",
-        "description": "Create images compatible with older software.",
+        "title": "వారసత్వ వ్యవస్థలు",
+        "description": "పాత సాఫ్ట్వేర్తో అనుకూలమైన చిత్రాలను సృష్టించండి.",
         "icon": "history"
       },
       {
-        "title": "Windows Applications",
-        "description": "Generate BMP files for Windows-specific applications.",
+        "title": "విండోస్ అప్లికేషన్లు",
+        "description": "విండోస్-ప్రత్యేక అనువర్తనాల కోసం BMP ఫైళ్ళను రూపొందించండి.",
         "icon": "monitor"
       },
       {
-        "title": "Uncompressed Archives",
-        "description": "Create uncompressed image archives from PDFs.",
+        "title": "సంపీడన లేని ఆర్కైవ్స్",
+        "description": "PDF ఫైల్స్ నుండి కంప్రెస్ చేయని చిత్ర ఆర్కైవ్లను సృష్టించండి.",
         "icon": "archive"
       }
     ],
     "faq": [
       {
-        "question": "Why use BMP format?",
-        "answer": "BMP offers uncompressed quality and maximum compatibility with legacy systems."
+        "question": "BMP ఫార్మాట్ ను ఎందుకు ఉపయోగించాలి?",
+        "answer": "BMP ప్రాచీన వ్యవస్థలతో అసంక్రిప్త నాణ్యత మరియు గరిష్ట అనుకూలతను అందిస్తుంది."
       },
       {
-        "question": "Are BMP files larger?",
-        "answer": "Yes, BMP files are uncompressed and significantly larger than JPG or PNG."
+        "question": "BMP ఫైళ్లు పెద్దవిగా ఉన్నాయా?",
+        "answer": "అవును, BMP ఫైళ్లు కంప్రెస్ చేయబడవు మరియు JPG లేదా PNG కంటే గణనీయంగా పెద్దవి."
       },
       {
-        "question": "What color depths are supported?",
-        "answer": "24-bit and 32-bit color depths are supported."
+        "question": "ఏ రంగు లోతు మద్దతు?",
+        "answer": "24 బిట్ మరియు 32 బిట్ రంగు లోతు మద్దతు."
       }
     ]
   },
   "pdf-to-tiff": {
-    "title": "PDF to TIFF",
-    "metaDescription": "Convert PDF to TIFF images. Professional quality with multi-page support.",
+    "title": "PDF నుండి TIFF",
+    "metaDescription": "PDF ను TIFF చిత్రాలకు మార్చండి. బహుళ పేజీల మద్దతుతో ప్రొఫెషనల్ నాణ్యత.",
     "keywords": [
       "pdf to tiff",
       "convert pdf to tiff",
       "professional images",
       "multi-page tiff"
     ],
-    "description": "\n      <p>PDF to TIFF converts PDF documents into high-quality TIFF images. TIFF is the preferred format for professional printing and archiving due to its lossless compression.</p>\n      <p>Create single-page TIFFs or combine all pages into a multi-page TIFF file. Perfect for professional and archival purposes.</p>\n      <p>All conversion happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>PDF to TIFF PDF పత్రాలను అధిక నాణ్యత గల TIFF చిత్రాలుగా మారుస్తుంది. TIFF అనేది నష్టం లేని కంప్రెషన్ కారణంగా ప్రొఫెషనల్ ప్రింటింగ్ మరియు ఆర్కైవింగ్ కోసం ఇష్టపడే ఫార్మాట్. </p> <p>ఒక పేజీ TIFF లను సృష్టించండి లేదా అన్ని పేజీలను బహుళ పేజీ TIFF ఫైల్గా మిళితం చేయండి. ప్రొఫెషనల్ మరియు ఆర్కైవ్ ప్రయోజనాల కోసం ఖచ్చితంగా ఉంది.</p> <p>అన్ని మార్పిడులు మీ బ్రౌజర్లో జరుగుతాయి, మీ పత్రాలు ప్రైవేట్గా ఉంటాయి.</p> ",
     "howToUse": [
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "మీ PDF ఫైల్ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Configure Output",
-        "description": "Choose single or multi-page TIFF and set DPI."
+        "title": "అవుట్పుట్ను కాన్ఫిగర్ చేయండి",
+        "description": "ఒకే లేదా బహుళ పేజీల TIFF ను ఎంచుకుని DPI ని సెట్ చేయండి."
       },
       {
         "step": 3,
         "title": "మార్చండి మరియు డౌన్లోడ్",
-        "description": "Click Convert to create TIFF images."
+        "description": "TIFF చిత్రాలను సృష్టించడానికి Convert పై క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Professional Printing",
-        "description": "Create print-ready TIFF files from PDF documents.",
+        "title": "వృత్తిపరమైన ముద్రణ",
+        "description": "PDF పత్రాల నుండి ప్రింట్ సిద్ధంగా ఉన్న TIFF ఫైళ్ళను సృష్టించండి.",
         "icon": "printer"
       },
       {
-        "title": "Document Archiving",
-        "description": "Archive documents in high-quality TIFF format.",
+        "title": "పత్రాల ఆర్కైవ్",
+        "description": "అధిక నాణ్యత గల TIFF ఫార్మాట్ లో ఆర్కైవ్ పత్రాలు.",
         "icon": "archive"
       },
       {
-        "title": "Publishing",
-        "description": "Convert PDFs to TIFF for publishing workflows.",
+        "title": "ప్రచురణ",
+        "description": "వర్క్ఫ్లోలను ప్రచురించడానికి PDF లను TIFF గా మార్చండి.",
         "icon": "book"
       }
     ],
     "faq": [
       {
-        "question": "Can I create multi-page TIFFs?",
-        "answer": "Yes, you can combine all PDF pages into a single multi-page TIFF."
+        "question": "నేను బహుళ పేజీల TIFF లను సృష్టించవచ్చా?",
+        "answer": "అవును, మీరు అన్ని PDF పేజీలను ఒకే బహుళ పేజీ TIFF లో కలపవచ్చు."
       },
       {
-        "question": "What compression options are available?",
-        "answer": "LZW, ZIP, and no compression options are available."
+        "question": "ఏ కంప్రెషన్ ఎంపికలు అందుబాటులో ఉన్నాయి?",
+        "answer": "LZW, ZIP, మరియు ఏ కుదింపు ఎంపికలు అందుబాటులో ఉన్నాయి."
       },
       {
-        "question": "What DPI should I use for printing?",
-        "answer": "Use 300 DPI or higher for professional printing."
+        "question": "నేను ప్రింట్ చేయడానికి ఏ DPI ను ఉపయోగించాలి?",
+        "answer": "ప్రొఫెషనల్ ప్రింటింగ్ కోసం 300 DPI లేదా అంతకంటే ఎక్కువ ఉపయోగించండి."
       }
     ]
   },
   "pdf-to-cbz": {
-    "title": "PDF to CBZ",
-    "metaDescription": "Convert PDF documents to high-definition Comic Book ZIP archives (.cbz). Built-in Calibre OPF, ComicInfo XML, and ZIP Comment metadata for perfect multi-reader cataloging.",
+    "title": "PDF కు CBZ",
+    "metaDescription": "కామిక్ బుక్ యొక్క హై డెఫినిషన్ జిప్ ఆర్కైవ్ (.cbz) కు PDF పత్రాలను మార్చండి. సంపూర్ణ బహుళ-చదవగల కేటలాగింగ్ కోసం అంతర్నిర్మిత కాలిబర్ OPF, కామిక్ఇన్ఫో XML మరియు జిప్ వ్యాఖ్య మెటాడేటా.",
     "keywords": [
       "pdf to cbz",
       "pdf to comic",
@@ -3022,59 +3022,59 @@ export const toolContentTe: Record<string, ToolContent> = {
       "calibre comic archive",
       "comicinfo metadata"
     ],
-    "description": "\n      <p>PDF to CBZ is custom-engineered for comic enthusiasts and digital ebook archivists. It renders every page of your PDF volumes into high-fidelity rasterized graphics and compiles them into a standard Comic Book ZIP (.cbz) bundle.</p>\n      <p>To eliminate frustrating manual scraping in systems like Calibre, Komga, Kavita, or CDisplayEx, the processor automatically generates and injects both <strong>ComicInfo.xml</strong> and <strong>metadata.opf</strong> files internally, while simultaneously writing a standardized <strong>ComicBookInfo JSON</strong> payload directly into the ZIP file comment metadata.</p>\n      <p>Includes complete configuration sliders for image compression quality, page dimension scale, right-to-left layout reading toggles (Manga mode), and black-and-white grayscale color filtering.</p>\n    ",
+    "description": "<p>CBZ కు PDF అనేది కామిక్ ప్రియులు మరియు డిజిటల్ ఇబుక్ ఆర్కైవ్లకు అనుకూలీకరించబడింది. ఇది మీ PDF వాల్యూమ్ల యొక్క ప్రతి పేజీని అధిక-విశ్వాస గల రాస్టెరిజెడ్ గ్రాఫిక్స్గా చేస్తుంది మరియు వాటిని ప్రామాణిక కామిక్ బుక్ జిప్ (.cbz) బండ్ల్లో సంకలనం చేస్తుంది. </p> <p>Calibre, Komga, Kavita లేదా CDisplayEx వంటి వ్యవస్థలలో విచారకరమైన మాన్యువల్ స్క్రాపింగ్ను తొలగించడానికి, ప్రాసెసర్ స్వయంచాలకంగా <strong>ComicInfo.xml</strong> మరియు <strong>metadata.opf</strong> ఫైళ్ళను అంతర్గతంగా ఉత్పత్తి చేస్తుంది మరియు ఇంజెక్ట్ చేస్తుంది, అదే సమయంలో ప్రామాణికమైన <strong>ComicBookInfo JSON</strong> పేలోడ్ ఫైల్ మెటాడేటాకు నేరుగా వ్రాస్తుంది.</p> <p> <p>సూటికల్ ఇమేజ్ కంప్రెషన్ స్లైడర్లను కలిగి ఉంటుంది, వ్యాఖ్యలు, రంగు-మధ్యాల ఆకృతి, బ్లాక్-మ్యాచ్-ఎ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Comic PDF",
-        "description": "Drag and drop your primary comic, artbook, or manga PDF file."
+        "title": "కామిక్ PDF ని అప్లోడ్ చేయండి",
+        "description": "మీ ప్రధాన కామిక్, ఆర్ట్ బుక్ లేదా మాంగా PDF ఫైల్ను లాగండి మరియు విస్మరించండి."
       },
       {
         "step": 2,
-        "title": "Input Comic Metadata",
-        "description": "Fill out Series, Volume, Title, Writer, and Publisher fields, and toggle layout or grayscale optimization."
+        "title": "ఇన్పుట్ కామిక్ మెటాడేటా",
+        "description": "శ్రేణి, వాల్యూమ్, టైటిల్, రైటర్, మరియు ప్రచురణకర్త ఫీల్డ్లను పూరించండి మరియు లేఅవుట్ లేదా గ్రేస్ స్కేల్ ఆప్టిమైజేషన్ను మార్చండి."
       },
       {
         "step": 3,
-        "title": "Compile and Download",
-        "description": "Click Convert to compile and retrieve your metadata-rich .cbz file instantly ready for Calibre."
+        "title": "సంకలనం మరియు డౌన్లోడ్",
+        "description": "మీ మెటాడేటా-రిచ్ . cbz ఫైల్ను కాలిబర్ కోసం తక్షణమే సిద్ధంగా ఉంచడానికి కాన్వర్ట్ క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Retrograde Comic Packaging",
-        "description": "Transform raw scanned PDF books into compact, standard-compliant CBZ comic files easily scrapable by comic library managers.",
+        "title": "రిట్రోగ్రాడ్ కామిక్ ప్యాకేజింగ్",
+        "description": "ముడి స్కాన్ చేసిన PDF పుస్తకాలను కాంపాక్ట్, ప్రామాణిక అనుకూలమైన CBZ కామిక్ ఫైళ్ళగా మార్చండి, కామిక్ లైబ్రరీ మేనేజర్లచే సులభంగా స్క్రాప్ చేయబడుతుంది.",
         "icon": "book"
       },
       {
-        "title": "Zero-Effort Calibre Integration",
-        "description": "The built-in metadata.opf schema allows Calibre to fetch and classify creators and volume issues without manual lookup.",
+        "title": "జీరో ఎన్ఫోర్స్డ్ కాలిబర్ ఇంటిగ్రేషన్",
+        "description": "అంతర్నిర్మిత మెటాడేటా. ఓపిఎఫ్ స్కీమా చేతితో శోధించకుండా సృష్టికర్తలను మరియు వాల్యూమ్ సమస్యలను సేకరించడానికి మరియు వర్గీకరించడానికి కాలిబర్ను అనుమతిస్తుంది.",
         "icon": "database"
       },
       {
-        "title": "E-Ink Screen Enhancement",
-        "description": "Pre-filter graphic color channels into high-contrast grayscale on compile, boosting visual refresh and clarity on E-ink screens while saving storage.",
+        "title": "ఇ-ఇంక్ స్క్రీన్ మెరుగుదల",
+        "description": "ఎ-ఇంక్ స్క్రీన్లలో దృశ్య రిఫ్రెష్ మరియు స్పష్టతను పెంచే, నిల్వను ఆదా చేసేటప్పుడు, గ్రాఫిక్ రంగు ఛానెల్లను అధిక-వ్యతిరేక గ్రేస్ స్కేల్కు ముందుగా ఫిల్టర్ చేయండి.",
         "icon": "eye"
       }
     ],
     "faq": [
       {
-        "question": "What is a .cbz file?",
-        "answer": "A CBZ file is a specialized archive container format for comic book series. It is internally formatted as a ZIP package containing sequentially numbered page images alongside structural metadata XML files."
+        "question": "CBZ ఫైల్ అంటే ఏమిటి?",
+        "answer": "CBZ ఫైల్ అనేది కామిక్ పుస్తకాల సిరీస్ కోసం ఒక ప్రత్యేక ఆర్కైవ్ కంటైనర్ ఫార్మాట్. ఇది XML ఫైల్స్తో పాటు నిర్మాణాత్మక మెటాడేటాతో పాటు క్రమంగా నంబర్ వహించిన పేజీ చిత్రాలను కలిగి ఉన్న ZIP ప్యాకేజీగా అంతర్గతంగా ఫార్మాట్ చేయబడుతుంది."
       },
       {
-        "question": "How is metadata compatible?",
-        "answer": "We compile and embed ComicInfo.xml, metadata.opf, and ZIP File Comments in one pass. This guarantees absolute compliance across multiple comic and e-book ecosystems."
+        "question": "మెటాడేటా ఎలా అనుకూలంగా ఉంటుంది?",
+        "answer": "మేము ComicInfo.xml, metadata.opf, మరియు ZIP ఫైల్ వ్యాఖ్యలను ఒకే పాస్లో సంకలనం చేసి పొందుపరుస్తాము. ఇది బహుళ కామిక్ మరియు ఇ-బుక్ పర్యావరణ వ్యవస్థలలో సంపూర్ణ సమ్మతిని నిర్ధారిస్తుంది."
       },
       {
-        "question": "Why use Grayscale mode?",
-        "answer": "If you read on a grayscale E-ink reader (like Kindle or Kobo), compiling directly in Grayscale reduces artifact ghosting, delivers superior contrast levels, and shrinks the final CBZ file size."
+        "question": "గ్రేస్కేల్ మోడ్ ను ఎందుకు ఉపయోగించాలి?",
+        "answer": "మీరు గ్రేస్కేల్ E- ఇంక్ రీడర్ (కిండ్ల్ లేదా కోబో వంటివి) లో చదివితే, గ్రేస్కేల్ లో నేరుగా కంపైల్ చేయడం వల్ల కళాఖండాల దెయ్యం తగ్గుతుంది, అధిక కాంట్రాస్ట్ స్థాయిలను అందిస్తుంది మరియు చివరి CBZ ఫైల్ పరిమాణాన్ని తగ్గిస్తుంది."
       }
     ]
   },
   "pdf-to-svg": {
-    "title": "PDF to SVG",
-    "metaDescription": "Convert PDF pages to SVG vector graphics. Perfect scalability at any size with individual page export.",
+    "title": "PDF నుండి SVG",
+    "metaDescription": "PDF పేజీలను SVG వెక్టర్ గ్రాఫిక్స్గా మార్చండి. వ్యక్తిగత పేజీ ఎగుమతితో ఏ పరిమాణంలోనైనా పరిపూర్ణ స్కేలబిలిటీ.",
     "keywords": [
       "pdf to svg",
       "convert pdf to svg",
@@ -3082,401 +3082,401 @@ export const toolContentTe: Record<string, ToolContent> = {
       "scalable pdf",
       "svg converter"
     ],
-    "description": "\n      <p>PDF to SVG converts each page of your PDF document into a scalable vector graphic (SVG). SVG is a vector format that maintains perfect quality at any zoom level or print size.</p>\n      <p>Unlike raster formats (JPG, PNG), SVG graphics never become pixelated when scaled. This makes them ideal for logos, diagrams, technical drawings, and any content that needs to be displayed at different sizes.</p>\n      <p>Preview each converted page and download them individually or as a ZIP file. All processing happens locally in your browser, ensuring complete privacy for your documents.</p>\n    ",
+    "description": "<p>PDF to SVG మీ PDF పత్రం యొక్క ప్రతి పేజీని స్కేలబుల్ వెక్టర్ గ్రాఫిక్ (SVG) గా మారుస్తుంది. SVG అనేది ఏదైనా జూమ్ స్థాయి లేదా ప్రింట్ పరిమాణంలో ఖచ్చితమైన నాణ్యతను నిర్వహించే వెక్టర్ ఫార్మాట్. </p> <p>రాస్టర్ ఫార్మాట్లలో (JPG, PNG) కాకుండా, SVG గ్రాఫిక్స్ స్కేలర్ చేసినప్పుడు ఎప్పుడూ పిక్సెల్ చేయబడవు. ఇది లోగోలు, రేఖాచిత్రాలు, సాంకేతిక డ్రాయింగ్లు మరియు వేర్వేరు పరిమాణాలలో ప్రదర్శించాల్సిన ఏదైనా కంటెంట్ కోసం వాటిని ఆదర్శంగా చేస్తుంది. </p> <p>ప్రతి మార్చిన పేజీని ప్రివ్యూ చేసి వాటిని వ్యక్తిగతంగా లేదా జిప్ ఫైల్గా డౌన్లోడ్ చేయండి. అన్ని ప్రాసెసింగ్ మీ బ్రౌజర్లో స్థానికంగా జరుగుతుంది, మీ పత్రాల కోసం పూర్తి గోప్యతను నిర్ధారిస్తుంది.</p> ",
     "howToUse": [
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your PDF file or click to browse and select."
+        "description": "మీ PDF ఫైల్ను లాగండి మరియు డ్రాప్ చేయండి లేదా బ్రౌజ్ చేసి ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
         "title": "ఎంపికలను కాన్ఫిగర్ చేయండి",
-        "description": "Set the resolution quality and optionally specify page ranges."
+        "description": "రిజల్యూషన్ నాణ్యతను సెట్ చేసి, ఎంపికగా పేజీ శ్రేణులను పేర్కొనండి."
       },
       {
         "step": 3,
-        "title": "Preview and Convert",
-        "description": "Click Convert to process. Preview each page by clicking on thumbnails."
+        "title": "ప్రివ్యూ మరియు మార్చు",
+        "description": "ప్రాసెస్ చేయడానికి మార్చు క్లిక్ చేయండి. సూక్ష్మచిత్రాలను క్లిక్ చేయడం ద్వారా ప్రతి పేజీని ప్రివ్యూ చేయండి."
       },
       {
         "step": 4,
-        "title": "Download",
-        "description": "Download individual SVG files or all pages as a ZIP archive."
+        "title": "డౌన్లోడ్",
+        "description": "వ్యక్తిగత SVG ఫైళ్ళను లేదా అన్ని పేజీలను ZIP ఆర్కైవ్గా డౌన్లోడ్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Logos and Graphics",
-        "description": "Extract logos and vector graphics from PDFs for use in design software.",
+        "title": "లోగోలు మరియు గ్రాఫిక్స్",
+        "description": "డిజైన్ సాఫ్ట్వేర్లో ఉపయోగించడానికి PDF ఫైల్స్ నుండి లోగోలు మరియు వెక్టర్ గ్రాఫిక్లను సేకరించండి.",
         "icon": "pen-tool"
       },
       {
-        "title": "Technical Diagrams",
-        "description": "Convert technical drawings and diagrams to scalable SVG format.",
+        "title": "సాంకేతిక రేఖాచిత్రాలు",
+        "description": "సాంకేతిక డ్రాయింగ్లు మరియు రేఖాచిత్రాలను స్కేలబుల్ SVG ఫార్మాట్కు మార్చండి.",
         "icon": "ruler"
       },
       {
-        "title": "Web Development",
-        "description": "Create web-ready SVG files from PDF content for responsive websites.",
+        "title": "వెబ్ అభివృద్ధి",
+        "description": "వెబ్-సన్నద్ధమైన SVG ఫైళ్ళను PDF కంటెంట్ నుండి ప్రతిస్పందించే వెబ్సైట్లకు సృష్టించండి.",
         "icon": "globe"
       },
       {
-        "title": "Print at Any Size",
-        "description": "Generate vector graphics that print perfectly at any size.",
+        "title": "ఏ పరిమాణంలోనైనా ముద్రించండి",
+        "description": "ఏ పరిమాణంలోనైనా సంపూర్ణ ముద్రణ చేసే వెక్టర్ గ్రాఫిక్లను రూపొందించండి.",
         "icon": "printer"
       }
     ],
     "faq": [
       {
-        "question": "What is SVG format?",
-        "answer": "SVG (Scalable Vector Graphics) is a vector image format that can be scaled to any size without losing quality. It is widely used for logos, icons, and web graphics."
+        "question": "SVG ఫార్మాట్ అంటే ఏమిటి?",
+        "answer": "SVG (స్కేలబుల్ వెక్టర్ గ్రాఫిక్స్) అనేది ఒక వెక్టర్ ఇమేజ్ ఫార్మాట్, ఇది నాణ్యతను కోల్పోకుండా ఏ పరిమాణానికి అయినా స్కేల్ చేయవచ్చు. ఇది లోగోలు, చిహ్నాలు మరియు వెబ్ గ్రాఫిక్స్ కోసం విస్తృతంగా ఉపయోగించబడుతుంది."
       },
       {
-        "question": "Will the SVG be truly vector?",
-        "answer": "The SVG contains a high-resolution rendering of the PDF page. For PDFs with vector content, you get crisp output at any scale."
+        "question": "SVG నిజంగా వెక్టర్ అవుతుందా?",
+        "answer": "SVG PDF పేజీ యొక్క అధిక రిజల్యూషన్ రెండర్లు కలిగి ఉంటుంది. వెక్టర్ కంటెంట్తో PDF ల కోసం, మీరు ఏ స్థాయిలోనైనా స్పష్టమైన అవుట్పుట్ను పొందుతారు."
       },
       {
-        "question": "Can I preview before downloading?",
-        "answer": "Yes! Click on any thumbnail to see a full-size preview of the SVG. You can download individual pages or all at once."
+        "question": "నేను డౌన్లోడ్ ముందు ప్రివ్యూ చేయవచ్చు?",
+        "answer": "అవును! SVG యొక్క పూర్తి పరిమాణ ప్రివ్యూను చూడటానికి ఏదైనా సూక్ష్మచిత్రంపై క్లిక్ చేయండి. మీరు ఒక్కొక్క పేజీలను లేదా అన్నింటినీ ఒకేసారి డౌన్లోడ్ చేసుకోవచ్చు."
       },
       {
-        "question": "What resolution should I choose?",
-        "answer": "Higher resolution (216 or 288 DPI) produces larger, more detailed SVGs. Use lower settings for faster processing and smaller files."
+        "question": "నేను ఏ తీర్మానాన్ని ఎంచుకోవాలి?",
+        "answer": "అధిక రిజల్యూషన్ (216 లేదా 288 DPI) పెద్ద, మరింత వివరణాత్మక SVGs ఉత్పత్తి చేస్తుంది. వేగవంతమైన ప్రాసెసింగ్ మరియు చిన్న ఫైళ్ళ కోసం తక్కువ సెట్టింగులను ఉపయోగించండి."
       }
     ]
   },
   "pdf-to-greyscale": {
-    "title": "PDF to Greyscale",
-    "metaDescription": "Convert color PDF to greyscale. Reduce file size and prepare for black-and-white printing.",
+    "title": "PDF నుండి గ్రేస్కేల్",
+    "metaDescription": "రంగు PDF ను గ్రేస్ స్కేల్ కు మార్చండి. ఫైల్ పరిమాణాన్ని తగ్గించండి మరియు నలుపు-తెలుపు ప్రింటింగ్ కోసం సిద్ధం చేయండి.",
     "keywords": [
       "pdf to greyscale",
       "grayscale pdf",
       "black and white pdf",
       "remove colors"
     ],
-    "description": "\n      <p>PDF to Greyscale converts color PDF documents to greyscale (black and white). This reduces file size and prepares documents for black-and-white printing.</p>\n      <p>The conversion preserves text clarity and image detail while removing color information. Perfect for draft printing or creating printer-friendly versions.</p>\n      <p>All conversion happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>PDF to Greyscale రంగు PDF పత్రాలను గ్రేస్కేల్ (నలుపు మరియు తెలుపు) కు మార్చుకుంటుంది. ఇది ఫైల్ పరిమాణాన్ని తగ్గిస్తుంది మరియు నలుపు మరియు తెలుపు ముద్రణ కోసం పత్రాలను సిద్ధం చేస్తుంది. </p> <p>మార్పిడి రంగు సమాచారాన్ని తొలగించేటప్పుడు టెక్స్ట్ స్పష్టత మరియు చిత్ర వివరాలను కాపాడుతుంది. ముసాయిదా ముద్రణ లేదా ప్రింటర్-స్నేహపూర్వక వెర్షన్లను సృష్టించడానికి ఖచ్చితంగా ఉంది. </p> <p>అన్ని మార్పిడులు మీ బ్రౌజర్లో జరుగుతాయి, మీ పత్రాలు ప్రైవేట్గా ఉంటాయి.</p> ",
     "howToUse": [
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your color PDF file or click to select."
+        "description": "మీ రంగు PDF ఫైల్ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Preview Conversion",
-        "description": "Preview how the greyscale version will look."
+        "title": "ప్రివ్యూ మార్పిడి",
+        "description": "గ్రేస్ స్కేల్ వెర్షన్ ఎలా ఉంటుందో ముందుగానే చూడండి."
       },
       {
         "step": 3,
         "title": "మార్చండి మరియు డౌన్లోడ్",
-        "description": "Click Convert to create the greyscale PDF."
+        "description": "గ్రేస్ స్కేల్ PDF ను సృష్టించడానికి Convert పై క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
         "title": "ముద్రణ పొదుపు",
-        "description": "Convert to greyscale to save on color printing costs.",
+        "description": "రంగు ప్రింటింగ్ ఖర్చులను ఆదా చేయడానికి గ్రేస్ స్కేల్కు మార్చండి.",
         "icon": "printer"
       },
       {
-        "title": "Draft Documents",
-        "description": "Create black-and-white drafts for review.",
+        "title": "పత్రాల ముసాయిదా",
+        "description": "సమీక్ష కోసం నలుపు మరియు తెలుపు ముసాయిదాలను సృష్టించండి.",
         "icon": "file-text"
       },
       {
-        "title": "File Size Reduction",
-        "description": "Reduce PDF size by removing color information.",
+        "title": "ఫైల్ పరిమాణం తగ్గించడం",
+        "description": "రంగు సమాచారాన్ని తొలగించడం ద్వారా PDF పరిమాణాన్ని తగ్గించండి.",
         "icon": "minimize-2"
       }
     ],
     "faq": [
       {
-        "question": "Will text remain readable?",
-        "answer": "Yes, text clarity is preserved during greyscale conversion."
+        "question": "టెక్స్ట్ ఇంకా చదవగలదా?",
+        "answer": "అవును, గ్రేస్ స్కేల్ మార్పిడి సమయంలో టెక్స్ట్ స్పష్టత కాపాడుకుంటుంది."
       },
       {
-        "question": "How much smaller will the file be?",
-        "answer": "File size reduction varies but can be 20-50% for color-heavy documents."
+        "question": "ఫైల్ ఎంత చిన్నదిగా ఉంటుంది?",
+        "answer": "ఫైల్ పరిమాణం తగ్గింపు మారుతూ ఉంటుంది, కానీ రంగు-భారీ పత్రాలకు 20-50% ఉంటుంది."
       },
       {
-        "question": "Can I convert specific pages only?",
-        "answer": "Yes, you can select which pages to convert to greyscale."
+        "question": "నేను నిర్దిష్ట పేజీలను మాత్రమే మార్చవచ్చా?",
+        "answer": "అవును, మీరు ఏ పేజీలను గ్రేస్కేల్కు మార్చాలనుకుంటున్నారో ఎంచుకోవచ్చు."
       }
     ]
   },
   "pdf-to-json": {
-    "title": "PDF to JSON",
-    "metaDescription": "Extract PDF content to JSON format. Get structured data from PDF documents.",
+    "title": "PDF నుండి JSON",
+    "metaDescription": "JSON ఫార్మాట్ లో PDF కంటెంట్ను సేకరించండి. PDF పత్రాల నుండి నిర్మాణాత్మక డేటాను పొందండి.",
     "keywords": [
       "pdf to json",
       "extract pdf data",
       "pdf parser",
       "structured pdf data"
     ],
-    "description": "\n      <p>PDF to JSON extracts content from PDF documents into structured JSON format. Extract text, metadata, page information, and document structure for programmatic use.</p>\n      <p>Perfect for data extraction, document analysis, or integrating PDF content into applications and workflows.</p>\n      <p>All extraction happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>PDF నుండి JSON PDF పత్రాల నుండి కంటెంట్ను నిర్మాణాత్మక JSON ఫార్మాట్లోకి తీయడం. ప్రోగ్రామటిక్ ఉపయోగం కోసం టెక్స్ట్, మెటాడేటా, పేజీ సమాచారం మరియు పత్ర నిర్మాణాన్ని తీయండి.</p> <p>డేటా సేకరణ, పత్ర విశ్లేషణ లేదా అనువర్తనాలు మరియు వర్క్ఫ్లోలలో PDF కంటెంట్ను సమగ్రపరచడానికి అనువైనది.</p> <p>అన్ని సేకరణలు మీ బ్రౌజర్లో జరుగుతాయి, మీ పత్రాలు ప్రైవేట్గా ఉంటాయి.</p> ",
     "howToUse": [
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "మీ PDF ఫైల్ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Select Data to Extract",
-        "description": "Choose what content to extract: text, metadata, structure."
+        "title": "సేకరించడానికి డేటాను ఎంచుకోండి",
+        "description": "ఏ కంటెంట్ను సేకరించాలో ఎంచుకోండిః టెక్స్ట్, మెటాడేటా, నిర్మాణం."
       },
       {
         "step": 3,
         "title": "డౌన్లోడ్ చేసుకోండి",
-        "description": "Click Extract to generate JSON and download."
+        "description": "JSON ను సృష్టించడానికి మరియు డౌన్లోడ్ చేయడానికి Extract పై క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Data Extraction",
-        "description": "Extract structured data from PDF documents.",
+        "title": "డేటా సేకరణ",
+        "description": "PDF పత్రాల నుండి నిర్మాణాత్మక డేటాను సేకరించండి.",
         "icon": "database"
       },
       {
-        "title": "Document Analysis",
-        "description": "Analyze PDF structure and content programmatically.",
+        "title": "పత్ర విశ్లేషణ",
+        "description": "PDF నిర్మాణం మరియు కంటెంట్ను ప్రోగ్రామాటిక్గా విశ్లేషించండి.",
         "icon": "search"
       },
       {
-        "title": "Integration",
-        "description": "Import PDF content into applications via JSON.",
+        "title": "సమగ్రత",
+        "description": "JSON ద్వారా PDF కంటెంట్ను అప్లికేషన్లకు దిగుమతి చేయండి.",
         "icon": "plug"
       }
     ],
     "faq": [
       {
-        "question": "What data is extracted?",
-        "answer": "Text content, metadata, page dimensions, fonts, and document structure."
+        "question": "ఏ డేటా సేకరించబడుతుంది?",
+        "answer": "టెక్స్ట్ కంటెంట్, మెటాడేటా, పేజీ పరిమాణాలు, ఫాంట్లు, మరియు పత్ర నిర్మాణం."
       },
       {
-        "question": "Is the JSON format documented?",
-        "answer": "Yes, the JSON schema is consistent and well-documented."
+        "question": "JSON ఫార్మాట్ డాక్యుమెంట్ చేయబడిందా?",
+        "answer": "అవును, JSON స్కీమా స్థిరంగా మరియు బాగా డాక్యుమెంటేషన్ ఉంది."
       },
       {
-        "question": "Can I extract from scanned PDFs?",
-        "answer": "Scanned PDFs require OCR first. Use our OCR PDF tool before extraction."
+        "question": "నేను స్కాన్ చేసిన PDF ఫైళ్ళ నుండి సేకరించవచ్చు?",
+        "answer": "స్కాన్ చేసిన PDF లు మొదట OCR అవసరం. సేకరించే ముందు మా OCR PDF సాధనాన్ని ఉపయోగించండి."
       }
     ]
   },
   "pdf-to-pptx": {
-    "title": "PDF to PowerPoint",
-    "metaDescription": "Convert PDF to PowerPoint presentation. Each page becomes a high-quality slide.",
+    "title": "PDF నుండి PowerPoint కు",
+    "metaDescription": "PDF ను PowerPoint ప్రదర్శనగా మార్చండి. ప్రతి పేజీ అధిక నాణ్యత గల స్లైడ్గా మారుతుంది.",
     "keywords": [
       "pdf to pptx",
       "pdf to powerpoint",
       "convert pdf slides",
       "pdf presentation"
     ],
-    "description": "\n      <p>PDF to PowerPoint converts your PDF documents into editable PowerPoint presentations (PPTX). Each PDF page is transformed into a high-quality slide, preserving the visual layout perfectly.</p>\n      <p>This tool is ideal for converting reports, handouts, or any PDF content into presentation format. You can choose the image quality (DPI) to balance between file size and visual clarity.</p>\n      <p>All conversion happens locally in your browser, ensuring your documents remain private and secure.</p>\n    ",
+    "description": "<p>PDF to PowerPoint మీ PDF పత్రాలను సవరించదగిన PowerPoint ప్రదర్శనలుగా (PPTX) మారుస్తుంది. ప్రతి PDF పేజీ అధిక నాణ్యత గల స్లైడ్గా మార్చబడుతుంది, ఇది దృశ్య ఆకృతిని ఖచ్చితంగా సంరక్షిస్తుంది. </p> <p>ఈ సాధనం నివేదికలు, హ్యాండ్అవుట్లు లేదా ఏదైనా PDF కంటెంట్ను ప్రదర్శన ఫార్మాట్గా మార్చడానికి అనువైనది. ఫైల్ పరిమాణం మరియు దృశ్య స్పష్టత మధ్య సమతుల్యతను సృష్టించడానికి మీరు చిత్ర నాణ్యతను (DPI) ఎంచుకోవచ్చు. </p> <p>అన్ని మార్పిడులు మీ బ్రౌజర్లో స్థానికంగా జరుగుతాయి, మీ పత్రాలు ప్రైవేట్ మరియు సురక్షితంగా ఉంటాయి.</p> ",
     "howToUse": [
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your PDF file or click to select it from your device."
+        "description": "మీ PDF ఫైల్ను లాగండి మరియు డ్రాప్ చేయండి లేదా మీ పరికరంలో ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Choose Quality Settings",
-        "description": "Select the image quality (DPI) for the slides. Higher DPI means better quality but larger file size."
+        "title": "నాణ్యత సెట్టింగులను ఎంచుకోండి",
+        "description": "స్లైడ్ల కోసం చిత్ర నాణ్యతను (DPI) ఎంచుకోండి. అధిక DPI అంటే మంచి నాణ్యత కానీ పెద్ద ఫైల్ పరిమాణం."
       },
       {
         "step": 3,
         "title": "మార్చండి మరియు డౌన్లోడ్",
-        "description": "Click Convert to create your PowerPoint presentation and download the PPTX file."
+        "description": "మీ PowerPoint ప్రదర్శనను సృష్టించడానికి Convert పై క్లిక్ చేసి PPTX ఫైల్ను డౌన్లోడ్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Presentation Creation",
-        "description": "Convert PDF reports or documents into presentation slides for meetings.",
+        "title": "ప్రదర్శన సృష్టి",
+        "description": "సమావేశాలకు సంబంధించిన ప్రదర్శన స్లైడ్లుగా PDF నివేదికలు లేదా పత్రాలను మార్చండి.",
         "icon": "presentation"
       },
       {
-        "title": "Training Materials",
-        "description": "Transform PDF training documents into interactive PowerPoint presentations.",
+        "title": "శిక్షణా సామగ్రి",
+        "description": "PDF శిక్షణ పత్రాలను ఇంటరాక్టివ్ పవర్ పాయింట్ ప్రదర్శనలుగా మార్చండి.",
         "icon": "book-open"
       },
       {
-        "title": "Content Repurposing",
-        "description": "Convert existing PDF content into editable slide format for further customization.",
+        "title": "కంటెంట్ను పునఃప్రయోగించడం",
+        "description": "మరింత అనుకూలీకరణ కోసం ఇప్పటికే ఉన్న PDF కంటెంట్ను సవరించదగిన స్లైడ్ ఫార్మాట్గా మార్చండి.",
         "icon": "refresh-cw"
       }
     ],
     "faq": [
       {
-        "question": "Will the slides be editable?",
-        "answer": "Each slide contains a high-quality image of the PDF page. You can add text, shapes, and annotations on top in PowerPoint."
+        "question": "స్లైడ్లు సవరించగలవా?",
+        "answer": "ప్రతి స్లైడ్ PDF పేజీ యొక్క అధిక నాణ్యత గల చిత్రాన్ని కలిగి ఉంటుంది. మీరు PowerPoint లో పైభాగంలో టెక్స్ట్, ఆకృతులు మరియు వ్యాఖ్యలను జోడించవచ్చు."
       },
       {
-        "question": "What DPI should I choose?",
-        "answer": "Use 150 DPI for presentations displayed on screens. Use 300 DPI for printing or when you need the highest quality."
+        "question": "ఏ DPI ను నేను ఎంచుకోవాలి?",
+        "answer": "స్క్రీన్లలో ప్రదర్శించబడే ప్రదర్శనలకు 150 DPI ఉపయోగించండి. ముద్రణ కోసం లేదా అత్యధిక నాణ్యత అవసరమైతే 300 DPI ఉపయోగించండి."
       },
       {
-        "question": "Can I convert multi-page PDFs?",
-        "answer": "Yes, each page of your PDF becomes a separate slide in the PowerPoint presentation."
+        "question": "నేను బహుళ పేజీల PDF లను మార్చవచ్చా?",
+        "answer": "అవును, మీ PDF యొక్క ప్రతి పేజీ PowerPoint ప్రదర్శనలో ప్రత్యేక స్లైడ్గా మారుతుంది."
       }
     ]
   },
   "pdf-to-excel": {
-    "title": "PDF to Excel",
-    "metaDescription": "Convert PDF to Excel spreadsheet. Extract tables to XLSX format.",
+    "title": "PDF కు ఎక్సెల్",
+    "metaDescription": "PDF ను Excel స్ప్రెడ్షీట్ కు మార్చండి. పట్టికలను XLSX ఫార్మాట్ కు తీసివేయండి.",
     "keywords": [
       "pdf to excel",
       "pdf to xlsx",
       "convert pdf tables",
       "extract tables"
     ],
-    "description": "\n      <p>PDF to Excel converts your PDF documents into editable Microsoft Excel spreadsheets (XLSX). The tool automatically detects tables in your PDF and extracts them into separate sheets.</p>\n      <p>This tool is ideal for analyzing financial reports, invoices, or any data presented in tables. Each page's tables are organized into sheets for easy data manipulation.</p>\n      <p>All conversion happens locally in your browser, ensuring your data remains private and secure.</p>\n    ",
+    "description": "<p>PDF to Excel మీ PDF పత్రాలను సవరించదగిన మైక్రోసాఫ్ట్ ఎక్సెల్ స్ప్రెడ్షీట్లుగా (XLSX) మారుస్తుంది. ఈ సాధనం మీ PDF లోని పట్టికలను స్వయంచాలకంగా గుర్తించి వాటిని ప్రత్యేక పట్టికలుగా తీయగలదు. </p> <p>ఈ సాధనం ఆర్థిక నివేదికలు, బిల్లులు లేదా పట్టికలలో ప్రదర్శించబడే ఏదైనా డేటాను విశ్లేషించడానికి అనువైనది. ప్రతి పేజీ యొక్క పట్టికలు సులభంగా డేటా తారుమారు కోసం పట్టికలుగా నిర్వహించబడతాయి. </p> <p>అన్ని మార్పిడులు మీ బ్రౌజర్లో స్థానికంగా జరుగుతాయి, మీ డేటా ప్రైవేట్ మరియు సురక్షితంగా ఉండేలా చూసుకోండి.</p> ",
     "howToUse": [
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "మీ PDF ఫైల్ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Process",
-        "description": "The tool will automatically identify and extract tables."
+        "title": "ప్రక్రియ",
+        "description": "ఈ సాధనం స్వయంచాలకంగా పట్టికలను గుర్తించి, వాటిని సేకరించేలా చేస్తుంది."
       },
       {
         "step": 3,
-        "title": "Download Excel",
-        "description": "Download your Excel file with extracted tables."
+        "title": "ఎక్సెల్ను డౌన్లోడ్ చేయండి",
+        "description": "సేకరించిన పట్టికలతో మీ ఎక్సెల్ ఫైల్ను డౌన్లోడ్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Financial Analysis",
-        "description": "Convert bank statements or invoices to Excel for analysis.",
+        "title": "ఆర్థిక విశ్లేషణ",
+        "description": "బ్యాంకు స్టేట్మెంట్లు లేదా ఇన్వాయిస్లను విశ్లేషణ కోసం Excel కు మార్చండి.",
         "icon": "trending-up"
       },
       {
-        "title": "Data Extraction",
-        "description": "Pull data tables from research papers or reports.",
+        "title": "డేటా సేకరణ",
+        "description": "పరిశోధన పత్రాలు లేదా నివేదికల నుండి డేటా పట్టికలను తీయండి.",
         "icon": "database"
       },
       {
-        "title": "Inventory Management",
-        "description": "Convert inventory lists from PDF to spreadsheet.",
+        "title": "జాబితా నిర్వహణ",
+        "description": "జాబితా జాబితాలను PDF నుండి స్ప్రెడ్షీట్కు మార్చండి.",
         "icon": "clipboard"
       }
     ],
     "faq": [
       {
-        "question": "How are tables handled?",
-        "answer": "Tables detected on each page are extracted to corresponding sheets in the Excel file."
+        "question": "పట్టికలు ఎలా నిర్వహించబడతాయి?",
+        "answer": "ప్రతి పేజీలో గుర్తించిన పట్టికలు Excel ఫైల్లోని సంబంధిత షీట్లకు సేకరించబడతాయి."
       },
       {
-        "question": "What if there are no tables?",
-        "answer": "An info sheet will be created indicating no tables were found."
+        "question": "మరియు అక్కడ పట్టికలు లేకపోతే?",
+        "answer": "పట్టికలు కనుగొనబడలేదు అని సూచించే ఒక ఇన్ఫా షీట్ సృష్టించబడుతుంది."
       },
       {
-        "question": "Is formatting preserved?",
-        "answer": "Data is preserved, but complex visual formatting may be simplified for spreadsheet use."
+        "question": "ఫార్మాటింగ్ కాపాడబడిందా?",
+        "answer": "డేటా సంరక్షించబడుతుంది, కానీ స్ప్రెడ్షీట్ ఉపయోగం కోసం సంక్లిష్ట దృశ్య ఆకృతీకరణ సరళీకృతం చేయవచ్చు."
       }
     ]
   },
   "ocr-pdf": {
     "title": "OCR PDF",
-    "metaDescription": "Make scanned PDFs searchable with OCR. Extract text from images and scanned documents.",
+    "metaDescription": "స్కాన్ చేసిన PDF లను OCR తో శోధించగలవు. స్కాన్ చేసిన చిత్రాలు మరియు పత్రాల నుండి వచనాన్ని సేకరించండి.",
     "keywords": [
       "ocr pdf",
       "searchable pdf",
       "text recognition",
       "scan to text"
     ],
-    "description": "\n      <p>OCR PDF uses Optical Character Recognition to extract text from scanned documents and images within PDFs. Convert image-based PDFs into searchable, selectable text documents.</p>\n      <p>Support for multiple languages ensures accurate text recognition regardless of the document's language. The original layout is preserved while adding a searchable text layer.</p>\n      <p>All OCR processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>OCR PDF స్కాన్ చేసిన పత్రాలు మరియు చిత్రాల నుండి టెక్స్ట్ను PDF లలో సేకరించడానికి ఆప్టికల్ క్యారెక్టర్ రికగ్నిషన్ను ఉపయోగిస్తుంది. చిత్ర-ఆధారిత PDF లను శోధించదగిన, ఎంచుకోదగిన టెక్స్ట్ పత్రాలుగా మార్చండి. </p> <p>అనంత భాషల మద్దతు పత్రం యొక్క భాషతో సంబంధం లేకుండా ఖచ్చితమైన టెక్స్ట్ గుర్తింపును నిర్ధారిస్తుంది. శోధించదగిన టెక్స్ట్ లేయర్ను జోడించేటప్పుడు అసలు లేఅవుట్ సంరక్షించబడుతుంది. </p> <p>OCR ప్రాసెసింగ్ అన్ని మీ బ్రౌజర్లో జరుగుతుంది, మీ పత్రాలు ప్రైవేట్గా ఉంటాయి.</p> ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Scanned PDF",
-        "description": "Drag and drop your scanned PDF or click to select."
+        "title": "స్కాన్ చేసిన PDF ని అప్లోడ్ చేయండి",
+        "description": "స్కాన్ చేసిన PDF ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Select Language",
-        "description": "Choose the document language for accurate recognition."
+        "title": "భాషను ఎంచుకోండి",
+        "description": "ఖచ్చితమైన గుర్తింపు కోసం పత్ర భాషను ఎంచుకోండి."
       },
       {
         "step": 3,
         "title": "ప్రాసెస్ మరియు డౌన్లోడ్",
-        "description": "Click Process to run OCR and download the searchable PDF."
+        "description": "OCR ను అమలు చేయడానికి ప్రక్రియపై క్లిక్ చేసి శోధించదగిన PDF ని డౌన్లోడ్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Digitize Archives",
-        "description": "Make scanned document archives searchable.",
+        "title": "ఆర్కైవ్లను డిజిటైజ్ చేయండి",
+        "description": "స్కాన్ చేసిన పత్రాల ఆర్కైవ్లను శోధించదగినదిగా చేయండి.",
         "icon": "archive"
       },
       {
-        "title": "Document Search",
-        "description": "Enable text search in scanned documents.",
+        "title": "పత్ర శోధన",
+        "description": "స్కాన్ చేసిన పత్రాలలో టెక్స్ట్ శోధనను ప్రారంభించండి.",
         "icon": "search"
       },
       {
-        "title": "Text Extraction",
-        "description": "Extract text from scanned documents for editing.",
+        "title": "టెక్స్ట్ ఎక్స్ట్రాక్షన్",
+        "description": "సవరించడానికి స్కాన్ చేసిన పత్రాల నుండి వచనాన్ని సేకరించండి.",
         "icon": "type"
       }
     ],
     "faq": [
       {
-        "question": "What languages are supported?",
-        "answer": "Over 100 languages are supported including English, Chinese, Japanese, Korean, and more."
+        "question": "ఏ భాషలకు మద్దతు ఉంది?",
+        "answer": "ఇంగ్లీష్, చైనీస్, జపనీస్, కొరియన్, మరియు మరిన్ని సహా 100 కంటే ఎక్కువ భాషలు మద్దతు."
       },
       {
-        "question": "Will the original layout be preserved?",
-        "answer": "Yes, the original visual layout is preserved with a searchable text layer added."
+        "question": "అసలు లేఅవుట్ కాపాడగలదా?",
+        "answer": "అవును, అసలు దృశ్య అమరిక శోధన చేయదగిన టెక్స్ట్ లేయర్తో సంరక్షించబడుతుంది."
       },
       {
-        "question": "How accurate is the OCR?",
-        "answer": "Accuracy depends on scan quality but typically exceeds 95% for clear documents."
+        "question": "OCR ఎంత ఖచ్చితమైనది?",
+        "answer": "ఖచ్చితత్వం స్కాన్ నాణ్యతపై ఆధారపడి ఉంటుంది, కానీ సాధారణంగా స్పష్టమైన పత్రాల కోసం 95% మించి ఉంటుంది."
       }
     ]
   },
   "alternate-merge": {
-    "title": "Alternate Merge",
-    "metaDescription": "Merge PDFs by alternating pages. Combine front and back scans into one document.",
+    "title": "ప్రత్యామ్నాయ విలీనం",
+    "metaDescription": "ప్రత్యామ్నాయ పేజీల ద్వారా PDF ఫైల్లను మిళితం చేయండి. ముందు మరియు వెనుక స్కాన్లను ఒకే పత్రంగా మిళితం చేయండి.",
     "keywords": [
       "alternate merge",
       "interleave pdf",
       "combine scans",
       "front back merge"
     ],
-    "description": "\n      <p>Alternate Merge combines two PDFs by interleaving their pages alternately. This is perfect for combining separately scanned front and back pages into a single document.</p>\n      <p>Upload two PDFs and the tool will merge them by taking one page from each alternately. You can also reverse the order of one document for back-to-front scanning.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>ఆల్టర్నేట్ మిర్జ్ రెండు PDF లను వారి పేజీలను ప్రత్యామ్నాయంగా కలుపుతుంది. ఇది ప్రత్యేకంగా స్కాన్ చేసిన ముందు మరియు వెనుక పేజీలను ఒకే పత్రంలో కలపడానికి ఖచ్చితంగా ఉంది. </p> <p>ఇది రెండు PDF లను అప్లోడ్ చేస్తుంది మరియు సాధనం ప్రతి పేజీ నుండి ఒక పేజీని ప్రత్యామ్నాయంగా తీసుకొని వాటిని మిళితం చేస్తుంది. మీరు వెనుక నుండి ముందు స్కాన్ కోసం ఒక పత్రం యొక్క క్రమాన్ని కూడా తిప్పికొట్టవచ్చు.</p> <p>అన్ని ప్రాసెసింగ్లు మీ బ్రౌజర్లో జరుగుతాయి, మీ పత్రాలు ప్రైవేట్గా ఉంటాయి.</p> ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Two PDFs",
-        "description": "Upload the front pages PDF and back pages PDF."
+        "title": "రెండు PDF ఫైళ్ళను అప్లోడ్ చేయండి",
+        "description": "ముందు పేజీలు PDF, వెనుక పేజీలు PDF లో అప్లోడ్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Configure Order",
-        "description": "Choose whether to reverse the second document for back-to-front scans."
+        "title": "క్రమంలో అమరిక",
+        "description": "ముందు నుండి వెనుకకు స్కానింగ్ కోసం రెండవ పత్రాన్ని తిప్పికొట్టాలా అని ఎంచుకోండి."
       },
       {
         "step": 3,
         "title": "విలీనం మరియు డౌన్లోడ్",
-        "description": "Click Merge to interleave pages and download."
+        "description": "పేజీలను విలీనం చేసి డౌన్లోడ్ చేయడానికి మిళితం క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Duplex Scanning",
-        "description": "Combine separately scanned front and back pages.",
+        "title": "డ్యూప్లెక్స్ స్కానింగ్",
+        "description": "ముందు మరియు వెనుక పేజీలను వేరుగా స్కాన్ చేయండి.",
         "icon": "copy"
       },
       {
-        "title": "Document Assembly",
-        "description": "Interleave pages from two related documents.",
+        "title": "పత్ర సమితి",
+        "description": "సంబంధిత రెండు పత్రాల నుండి పేజీలను విడదీయండి.",
         "icon": "layers"
       },
       {
@@ -3514,7 +3514,7 @@ export const toolContentTe: Record<string, ToolContent> = {
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "మీ PDF ఫైల్ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
@@ -3573,7 +3573,7 @@ export const toolContentTe: Record<string, ToolContent> = {
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "మీ PDF ఫైల్ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
@@ -3647,7 +3647,7 @@ export const toolContentTe: Record<string, ToolContent> = {
       },
       {
         "step": 4,
-        "title": "Download",
+        "title": "డౌన్లోడ్",
         "description": "Download individual images or all images as a ZIP archive."
       }
     ],
@@ -3663,7 +3663,7 @@ export const toolContentTe: Record<string, ToolContent> = {
         "icon": "folder"
       },
       {
-        "title": "Content Repurposing",
+        "title": "కంటెంట్ను పునఃప్రయోగించడం",
         "description": "Extract images from PDFs to use in other documents, websites, or presentations.",
         "icon": "refresh-cw"
       }
@@ -3678,7 +3678,7 @@ export const toolContentTe: Record<string, ToolContent> = {
         "answer": "Small images below the size threshold are filtered out. Adjust the filter settings to extract smaller images."
       },
       {
-        "question": "Can I extract from scanned PDFs?",
+        "question": "నేను స్కాన్ చేసిన PDF ఫైళ్ళ నుండి సేకరించవచ్చు?",
         "answer": "Scanned PDFs typically contain the scan as one large image per page. Use PDF to Image tool instead for page-by-page conversion."
       }
     ]
@@ -3697,7 +3697,7 @@ export const toolContentTe: Record<string, ToolContent> = {
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "మీ PDF ఫైల్ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
@@ -3756,7 +3756,7 @@ export const toolContentTe: Record<string, ToolContent> = {
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "మీ PDF ఫైల్ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
@@ -3815,7 +3815,7 @@ export const toolContentTe: Record<string, ToolContent> = {
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "మీ PDF ఫైల్ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
@@ -3874,7 +3874,7 @@ export const toolContentTe: Record<string, ToolContent> = {
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "మీ PDF ఫైల్ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
@@ -3933,7 +3933,7 @@ export const toolContentTe: Record<string, ToolContent> = {
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "మీ PDF ఫైల్ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
@@ -4007,7 +4007,7 @@ export const toolContentTe: Record<string, ToolContent> = {
       },
       {
         "step": 4,
-        "title": "Compile and Download",
+        "title": "సంకలనం మరియు డౌన్లోడ్",
         "description": "Click Compile to process and download the layered result PDF."
       }
     ],
@@ -4177,7 +4177,7 @@ export const toolContentTe: Record<string, ToolContent> = {
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "మీ PDF ఫైల్ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
@@ -4236,7 +4236,7 @@ export const toolContentTe: Record<string, ToolContent> = {
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "మీ PDF ఫైల్ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
@@ -4295,7 +4295,7 @@ export const toolContentTe: Record<string, ToolContent> = {
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "మీ PDF ఫైల్ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
@@ -4354,7 +4354,7 @@ export const toolContentTe: Record<string, ToolContent> = {
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "మీ PDF ఫైల్ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
@@ -4471,7 +4471,7 @@ export const toolContentTe: Record<string, ToolContent> = {
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Two PDFs",
+        "title": "రెండు PDF ఫైళ్ళను అప్లోడ్ చేయండి",
         "description": "Upload the original and modified PDF documents."
       },
       {
@@ -4590,7 +4590,7 @@ export const toolContentTe: Record<string, ToolContent> = {
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "మీ PDF ఫైల్ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
@@ -4649,7 +4649,7 @@ export const toolContentTe: Record<string, ToolContent> = {
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "మీ PDF ఫైల్ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
@@ -4658,7 +4658,7 @@ export const toolContentTe: Record<string, ToolContent> = {
       },
       {
         "step": 3,
-        "title": "Download",
+        "title": "డౌన్లోడ్",
         "description": "Download your optimized PDF."
       }
     ],
@@ -4708,7 +4708,7 @@ export const toolContentTe: Record<string, ToolContent> = {
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "మీ PDF ఫైల్ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
@@ -4728,7 +4728,7 @@ export const toolContentTe: Record<string, ToolContent> = {
         "icon": "printer"
       },
       {
-        "title": "Document Analysis",
+        "title": "పత్ర విశ్లేషణ",
         "description": "Identify pages with unusual dimensions.",
         "icon": "search"
       },
@@ -4776,7 +4776,7 @@ export const toolContentTe: Record<string, ToolContent> = {
       },
       {
         "step": 3,
-        "title": "Download",
+        "title": "డౌన్లోడ్",
         "description": "Download the unrestricted PDF."
       }
     ],
@@ -4835,7 +4835,7 @@ export const toolContentTe: Record<string, ToolContent> = {
       },
       {
         "step": 3,
-        "title": "Download",
+        "title": "డౌన్లోడ్",
         "description": "Download the repaired PDF if successful."
       }
     ],
@@ -4885,7 +4885,7 @@ export const toolContentTe: Record<string, ToolContent> = {
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "మీ PDF ఫైల్ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
@@ -4944,7 +4944,7 @@ export const toolContentTe: Record<string, ToolContent> = {
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "మీ PDF ఫైల్ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
@@ -5005,7 +5005,7 @@ export const toolContentTe: Record<string, ToolContent> = {
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "మీ PDF ఫైల్ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
@@ -5098,7 +5098,7 @@ export const toolContentTe: Record<string, ToolContent> = {
         "icon": "share-2"
       },
       {
-        "title": "Archive Documents",
+        "title": "ఆర్కైవ్ పత్రాలు",
         "description": "Remove passwords before long-term archiving.",
         "icon": "archive"
       }
@@ -5157,7 +5157,7 @@ export const toolContentTe: Record<string, ToolContent> = {
         "icon": "check-circle"
       },
       {
-        "title": "Archive Documents",
+        "title": "ఆర్కైవ్ పత్రాలు",
         "description": "Create non-editable versions for archiving.",
         "icon": "archive"
       }
@@ -5191,7 +5191,7 @@ export const toolContentTe: Record<string, ToolContent> = {
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "మీ PDF ఫైల్ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
@@ -5200,7 +5200,7 @@ export const toolContentTe: Record<string, ToolContent> = {
       },
       {
         "step": 3,
-        "title": "Download",
+        "title": "డౌన్లోడ్",
         "description": "Download the metadata-free PDF."
       }
     ],
@@ -5250,7 +5250,7 @@ export const toolContentTe: Record<string, ToolContent> = {
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "మీ PDF ఫైల్ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
@@ -5309,7 +5309,7 @@ export const toolContentTe: Record<string, ToolContent> = {
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "మీ PDF ఫైల్ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
@@ -5334,14 +5334,14 @@ export const toolContentTe: Record<string, ToolContent> = {
         "icon": "user"
       },
       {
-        "title": "Content Repurposing",
+        "title": "కంటెంట్ను పునఃప్రయోగించడం",
         "description": "Extract content from PDF reports for other documents.",
         "icon": "copy"
       }
     ],
     "faq": [
       {
-        "question": "Is formatting preserved?",
+        "question": "ఫార్మాటింగ్ కాపాడబడిందా?",
         "answer": "Yes, the tool aims to preserve layout, fonts, and images as closely as possible."
       },
       {
@@ -5369,7 +5369,7 @@ export const toolContentTe: Record<string, ToolContent> = {
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "మీ PDF ఫైల్ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
@@ -5384,7 +5384,7 @@ export const toolContentTe: Record<string, ToolContent> = {
     ],
     "useCases": [
       {
-        "title": "Documentation",
+        "title": "పత్రాలు",
         "description": "Convert PDF manuals and guides to Markdown for version-controlled documentation.",
         "icon": "file-text"
       },
@@ -5401,7 +5401,7 @@ export const toolContentTe: Record<string, ToolContent> = {
     ],
     "faq": [
       {
-        "question": "Is formatting preserved?",
+        "question": "ఫార్మాటింగ్ కాపాడబడిందా?",
         "answer": "The tool attempts to detect headings based on font size and bullet points/numbered lists. Complex layouts may require manual adjustment."
       },
       {
@@ -5557,11 +5557,11 @@ export const toolContentTe: Record<string, ToolContent> = {
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "మీ PDF ఫైల్ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Configure Output",
+        "title": "అవుట్పుట్ను కాన్ఫిగర్ చేయండి",
         "description": "Select DPI, output format (PNG/JPEG/WebP), quality, and page range."
       },
       {
@@ -5572,7 +5572,7 @@ export const toolContentTe: Record<string, ToolContent> = {
     ],
     "useCases": [
       {
-        "title": "Social Media",
+        "title": "సోషల్ మీడియా",
         "description": "Convert PDF slides to images for social media posting.",
         "icon": "share-2"
       },
@@ -5589,7 +5589,7 @@ export const toolContentTe: Record<string, ToolContent> = {
     ],
     "faq": [
       {
-        "question": "What DPI should I use?",
+        "question": "నేను ఏ DPI ను ఉపయోగించాలి?",
         "answer": "72 DPI for screen, 150 DPI for general use, 300 DPI for print quality."
       },
       {
@@ -5632,7 +5632,7 @@ export const toolContentTe: Record<string, ToolContent> = {
     ],
     "useCases": [
       {
-        "title": "Documentation",
+        "title": "పత్రాలు",
         "description": "Convert README files and docs to shareable PDFs.",
         "icon": "file-text"
       },
@@ -5908,7 +5908,7 @@ export const toolContentTe: Record<string, ToolContent> = {
         "answer": "By default, no. Text becomes part of the image. However, you can enable \"Preserve searchable text\" to add an invisible text layer for search and copy functionality."
       },
       {
-        "question": "What DPI should I use?",
+        "question": "నేను ఏ DPI ను ఉపయోగించాలి?",
         "answer": "300 DPI is recommended for print-quality output. 150 DPI is sufficient for screen viewing and produces smaller files. 600 DPI is for highest quality but creates large files."
       },
       {
@@ -5965,7 +5965,7 @@ export const toolContentTe: Record<string, ToolContent> = {
         "icon": "file-text"
       },
       {
-        "title": "Documentation",
+        "title": "పత్రాలు",
         "description": "Convert PDF tables to Markdown for technical documentation.",
         "icon": "book"
       }
@@ -6634,7 +6634,7 @@ export const toolContentTe: Record<string, ToolContent> = {
       },
       {
         "step": 3,
-        "title": "Compile and Download",
+        "title": "సంకలనం మరియు డౌన్లోడ్",
         "description": "Inject the compiled JavaScript logic into the PDF dictionary and save the final smart document."
       }
     ],
@@ -6684,7 +6684,7 @@ export const toolContentTe: Record<string, ToolContent> = {
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Scanned PDF",
+        "title": "స్కాన్ చేసిన PDF ని అప్లోడ్ చేయండి",
         "description": "Upload e-books or scanned documents with faint text or gray backgrounds."
       },
       {

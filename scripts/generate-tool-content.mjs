@@ -3,7 +3,7 @@ import path from 'path';
 import { createRequire } from 'module';
 const require = createRequire(import.meta.url);
 import { parseArgs } from 'util';
-import { Cache, IndicTrans2Provider, LANG_MAP, extractPlaceholders, extractTags } from './translation/utils.mjs';
+import { Cache, IndicTrans2Provider, LANG_MAP, extractPlaceholders, extractTags, loadEnv } from './translation/utils.mjs';
 
 const TOOL_CONTENT_DIR = path.join(process.cwd(), 'src', 'config', 'tool-content');
 const INDIAN_LOCALES = ['hi', 'te', 'ta', 'kn', 'ml', 'bn', 'mr', 'gu', 'pa', 'or', 'ur'];
@@ -60,8 +60,16 @@ async function generateToolContent(locales, resume = false) {
   const batchSize = parseInt(process.env.TRANSLATION_BATCH_SIZE || '32', 10);
   const cache = new Cache();
   
-  console.log('Translation Provider: indictrans2');
-  const provider = new IndicTrans2Provider();
+  const providerType = process.env.TRANSLATION_PROVIDER || 'indictrans2';
+  console.log(`Translation Provider: ${providerType}`);
+  
+  let provider;
+  if (providerType === 'gemini') {
+    const { GeminiProvider } = await import('./translation/gemini.mjs');
+    provider = new GeminiProvider();
+  } else {
+    provider = new IndicTrans2Provider();
+  }
   await provider.init();
   
   console.log('Parsing en.ts...');
@@ -198,6 +206,8 @@ const { values } = parseArgs({
   },
   strict: false
 });
+
+loadEnv();
 
 let localesToProcess = values.locale ? [values.locale] : [];
 if (values.all) localesToProcess = INDIAN_LOCALES;

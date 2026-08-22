@@ -6,6 +6,30 @@ import readline from 'readline';
 const TRANSLATION_DIR = path.join(process.cwd(), 'scripts', 'translation');
 const CACHE_FILE = path.join(TRANSLATION_DIR, 'translation_cache.json');
 
+export function loadEnv() {
+  const envPath = path.join(process.cwd(), '.env');
+  if (fs.existsSync(envPath)) {
+    const content = fs.readFileSync(envPath, 'utf8');
+    const lines = content.split('\n');
+    for (const line of lines) {
+      const trimmed = line.trim();
+      if (!trimmed || trimmed.startsWith('#')) continue;
+      const match = trimmed.match(/^([^=]+)=(.*)$/);
+      if (match) {
+        const key = match[1].trim();
+        let value = match[2].trim();
+        // Remove surrounding quotes if they exist
+        if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
+          value = value.substring(1, value.length - 1);
+        }
+        if (process.env[key] === undefined) {
+          process.env[key] = value;
+        }
+      }
+    }
+  }
+}
+
 export class Cache {
   constructor() {
     this.data = {};
