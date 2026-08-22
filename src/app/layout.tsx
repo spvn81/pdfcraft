@@ -39,6 +39,12 @@ export default function RootLayout({
             `,
           }}
         />
+        {/* Google AdSense - must be a plain script tag in <head>; Next.js <Script> adds data-nscript which AdSense rejects */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5961281650555057"
+          crossOrigin="anonymous"
+        />
       </head>
       <body className="min-h-screen bg-background text-foreground antialiased">
         {children}
@@ -62,14 +68,6 @@ export default function RootLayout({
               gtag('config', 'G-L05YKLL1JN');
             `,
           }}
-        />
-        
-        {/* Google AdSense */}
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5961281650555057"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
         />
 
       </body>
