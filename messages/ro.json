@@ -8,10 +8,6 @@
       "title": "Toate Instrumentele PDF",
       "description": "Răsfoiește peste 67 de instrumente PDF profesionale. Combină, divizează, comprimă, convertește, editează și securizează fișierele PDF gratuit."
     },
-    "about": {
-      "title": "Despre",
-      "description": "Află mai multe despre PDFCraft - setul tău de instrumente PDF gratuit, privat și puternic. Toată procesarea are loc în browser-ul tău."
-    },
     "faq": {
       "title": "Întrebări Frecvente",
       "description": "Găsește răspunsuri la întrebări comune despre PDFCraft. Învață cum să folosești eficient instrumentele noastre PDF."
@@ -40,7 +36,6 @@
     "navigation": {
       "home": "Acasă",
       "tools": "Instrumente",
-      "about": "Despre",
       "faq": "FAQ",
       "privacy": "Confidențialitate",
       "contact": "Contact"

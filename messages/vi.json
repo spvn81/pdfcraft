@@ -8,10 +8,6 @@
       "title": "Tất cả Công cụ PDF",
       "description": "Khám phá hơn 67+ công cụ PDF chuyên nghiệp. Hợp nhất, tách, nén, chuyển đổi, chỉnh sửa và bảo mật tệp PDF miễn phí."
     },
-    "about": {
-      "title": "Giới thiệu",
-      "description": "Tìm hiểu về PDFCraft - bộ công cụ PDF miễn phí, riêng tư và mạnh mẽ của bạn. Toàn bộ xử lý diễn ra ngay trong trình duyệt."
-    },
     "faq": {
       "title": "Câu hỏi Thường gặp",
       "description": "Tìm câu trả lời cho các câu hỏi phổ biến về PDFCraft. Hướng dẫn sử dụng hiệu quả các công cụ PDF của chúng tôi."
@@ -40,7 +36,6 @@
     "navigation": {
       "home": "Trang chủ",
       "tools": "Công cụ",
-      "about": "Giới thiệu",
       "faq": "FAQ",
       "privacy": "Sự riêng tư",
       "contact": "Liên hệ"

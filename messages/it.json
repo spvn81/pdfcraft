@@ -8,10 +8,6 @@
       "title": "Tutti gli Strumenti PDF",
       "description": "Esplora oltre 67 strumenti PDF professionali. Unisci, dividi, comprimi, converti, modifica e proteggi i tuoi PDF gratuitamente."
     },
-    "about": {
-      "title": "Informazioni",
-      "description": "Scopri PDFCraft: il tuo kit di strumenti PDF gratuito, privato e potente. Tutto l'elaborazione avviene nel tuo browser."
-    },
     "faq": {
       "title": "Domande Frequenti",
       "description": "Trova risposte alle domande più comuni su PDFCraft. Impara a utilizzare efficacemente i nostri strumenti PDF."
@@ -40,7 +36,6 @@
     "navigation": {
       "home": "Home",
       "tools": "Strumenti",
-      "about": "Informazioni",
       "faq": "FAQ",
       "privacy": "Privacy",
       "contact": "Contatto"

@@ -10,7 +10,6 @@ import {
   generateToolMetadata,
   generateHomeMetadata,
   generateToolsListMetadata,
-  generateAboutMetadata,
   generateFaqMetadata,
   generatePrivacyMetadata,
   validateMetadata,
@@ -82,11 +81,6 @@ describe('SEO Property Tests', () => {
             const toolsValidation = validateMetadata(toolsMetadata);
             expect(toolsValidation.valid).toBe(true);
             
-            // Test about page metadata
-            const aboutMetadata = generateAboutMetadata(locale);
-            const aboutValidation = validateMetadata(aboutMetadata);
-            expect(aboutValidation.valid).toBe(true);
-            
             // Test FAQ page metadata
             const faqMetadata = generateFaqMetadata(locale);
             const faqValidation = validateMetadata(faqMetadata);
@@ -139,7 +133,7 @@ describe('SEO Property Tests', () => {
       fc.assert(
         fc.property(
           fc.constantFrom(...locales),
-          fc.constantFrom('/tools/merge-pdf', '/about', '/faq', ''),
+          fc.constantFrom('/tools/merge-pdf', '/faq', ''),
           (locale, path) => {
             const metadata = generateBaseMetadata({
               locale,
@@ -343,7 +337,7 @@ describe('SEO Property Tests', () => {
       fc.assert(
         fc.property(
           fc.constantFrom(...locales),
-          fc.constantFrom('/tools/merge-pdf', '/about', '/faq', ''),
+          fc.constantFrom('/tools/merge-pdf', '/faq', ''),
           (locale, path) => {
             const url = getCanonicalUrl(locale, path);
             

@@ -8,10 +8,6 @@
       "title": "Tous les Outils PDF",
       "description": "Parcourez plus de 67 outils PDF professionnels. Fusionnez, divisez, compressez, convertissez, modifiez et sécurisez vos fichiers PDF gratuitement."
     },
-    "about": {
-      "title": "À Propos",
-      "description": "Découvrez PDFCraft - votre boîte à outils PDF gratuite, privée et puissante. Tout le traitement se fait dans votre navigateur."
-    },
     "faq": {
       "title": "Questions Fréquentes",
       "description": "Trouvez des réponses aux questions courantes sur PDFCraft. Apprenez à utiliser efficacement nos outils PDF."
@@ -40,7 +36,6 @@
     "navigation": {
       "home": "Accueil",
       "tools": "Outils",
-      "about": "À propos",
       "faq": "FAQ",
       "privacy": "Confidentialité",
       "contact": "Contact"

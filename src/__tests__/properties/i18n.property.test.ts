@@ -259,7 +259,7 @@ describe('i18n Property Tests', () => {
       fc.property(
         fc.constantFrom(...locales),
         fc.constantFrom(...locales),
-        fc.constantFrom('/tools/merge-pdf', '/about', '/faq', '/privacy', '/'),
+        fc.constantFrom('/tools/merge-pdf', '/faq', '/privacy', '/'),
         (originalLocale, newLocale, basePath) => {
           // Create a path with the original locale
           const pathWithLocale = `/${originalLocale}${basePath === '/' ? '' : basePath}`;

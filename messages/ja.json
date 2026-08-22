@@ -8,10 +8,6 @@
       "title": "すべてのPDFツール",
       "description": "67以上のプロフェッショナルPDFツールを閲覧。PDFファイルの結合、分割、圧縮、変換、編集、保護が無料で可能。"
     },
-    "about": {
-      "title": "私たちについて",
-      "description": "PDFCraftについて - 無料でプライベートな強力なPDFツールキット。すべての処理はブラウザ内で行われます。"
-    },
     "faq": {
       "title": "よくある質問",
       "description": "PDFCraftに関するよくある質問の回答。PDFツールを効果的に使用する方法をご覧ください。"
@@ -40,7 +36,6 @@
     "navigation": {
       "home": "家",
       "tools": "ツール",
-      "about": "概要",
       "faq": "よくある質問",
       "privacy": "プライバシー",
       "contact": "お問い合わせ"

@@ -39,11 +39,6 @@ export default function RootLayout({
             `,
           }}
         />
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5961281650555057"
-          crossOrigin="anonymous"
-        ></script>
       </head>
       <body className="min-h-screen bg-background text-foreground antialiased">
         {children}
@@ -67,6 +62,14 @@ export default function RootLayout({
               gtag('config', 'G-L05YKLL1JN');
             `,
           }}
+        />
+        
+        {/* Google AdSense */}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5961281650555057"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
         />
 
       </body>

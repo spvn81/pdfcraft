@@ -8,10 +8,6 @@
       "title": "Alle PDF-Werkzeuge",
       "description": "Durchsuchen Sie 67+ professionelle PDF-Werkzeuge. PDF-Dateien kostenlos zusammenführen, teilen, komprimieren, konvertieren, bearbeiten und schützen."
     },
-    "about": {
-      "title": "Über uns",
-      "description": "Erfahren Sie mehr über PDFCraft - Ihr kostenloses, privates und leistungsstarkes PDF-Toolkit. Alle Verarbeitung erfolgt in Ihrem Browser."
-    },
     "faq": {
       "title": "Häufig gestellte Fragen",
       "description": "Finden Sie Antworten auf häufige Fragen zu PDFCraft. Erfahren Sie, wie Sie unsere PDF-Werkzeuge effektiv nutzen können."
@@ -40,7 +36,6 @@
     "navigation": {
       "home": "Heim",
       "tools": "Werkzeuge",
-      "about": "Über uns",
       "faq": "FAQ",
       "privacy": "Privatsphäre",
       "contact": "Kontakt"

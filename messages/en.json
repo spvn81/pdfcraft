@@ -8,10 +8,6 @@
       "title": "All PDF Tools",
       "description": "Browse all 67+ professional PDF tools. Merge, split, compress, convert, edit, and secure your PDF files for free."
     },
-    "about": {
-      "title": "About",
-      "description": "Learn about PDFCraft - your free, private, and powerful PDF toolkit. All processing happens in your browser."
-    },
     "faq": {
       "title": "Frequently Asked Questions",
       "description": "Find answers to common questions about PDFCraft. Learn how to use our PDF tools effectively."
@@ -40,7 +36,6 @@
     "navigation": {
       "home": "Home",
       "tools": "Tools",
-      "about": "About",
       "faq": "FAQ",
       "privacy": "Privacy",
       "contact": "Contact"

@@ -8,10 +8,6 @@
       "title": "Todas las Herramientas PDF",
       "description": "Explora más de 67 herramientas PDF profesionales. Combina, divide, comprime, convierte, edita y protege tus archivos PDF gratis."
     },
-    "about": {
-      "title": "Acerca de Nosotros",
-      "description": "Conoce PDFCraft - tu kit de herramientas PDF gratuito, privado y potente. Todo el procesamiento ocurre en tu navegador."
-    },
     "faq": {
       "title": "Preguntas Frecuentes",
       "description": "Encuentra respuestas a preguntas comunes sobre PDFCraft. Aprende a usar nuestras herramientas PDF de manera efectiva."
@@ -40,7 +36,6 @@
     "navigation": {
       "home": "Inicio",
       "tools": "Herramientas",
-      "about": "Acerca de",
       "faq": "Preguntas Frecuentes",
       "privacy": "Privacidad",
       "contact": "Contacto"

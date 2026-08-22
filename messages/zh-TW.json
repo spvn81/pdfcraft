@@ -8,10 +8,6 @@
       "title": "所有 PDF 工具",
       "description": "瀏覽 67+ 款專業 PDF 工具。免費合併、分割、壓縮、轉換、編輯和保護您的 PDF 檔案。"
     },
-    "about": {
-      "title": "關於我們",
-      "description": "瞭解 PDFCraft - 您免費、私密且強大的 PDF 工具箱。所有處理都在您的瀏覽器中進行。"
-    },
     "faq": {
       "title": "常見問題",
       "description": "查找有關 PDFCraft 的常見問題解答。瞭解如何有效使用我們的 PDF 工具。"
@@ -40,7 +36,6 @@
     "navigation": {
       "home": "首頁",
       "tools": "工具",
-      "about": "關於",
       "faq": "常見問題",
       "privacy": "隱私",
       "contact": "聯絡我們"

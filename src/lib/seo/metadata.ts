@@ -200,19 +200,6 @@ export function generateToolsListMetadata(locale: Locale, translations?: { title
 }
 
 /**
- * Generate metadata for the about page
- */
-export function generateAboutMetadata(locale: Locale, translations?: { title: string; description: string }): Metadata {
-  return generateBaseMetadata({
-    locale,
-    path: '/about',
-    title: translations?.title || 'About',
-    description: translations?.description || `Learn about ${siteConfig.name} - your free, private, and powerful PDF toolkit. All processing happens in your browser.`,
-    keywords: ['about', 'PDF tools', 'privacy', 'browser-based'],
-  });
-}
-
-/**
  * Generate metadata for the FAQ page
  */
 export function generateFaqMetadata(locale: Locale, translations?: { title: string; description: string }): Metadata {

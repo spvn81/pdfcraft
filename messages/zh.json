@@ -8,10 +8,6 @@
       "title": "所有 PDF 工具",
       "description": "浏览 67+ 款专业 PDF 工具。免费合并、拆分、压缩、转换、编辑和保护您的 PDF 文件。"
     },
-    "about": {
-      "title": "关于我们",
-      "description": "了解 PDFCraft - 您免费、私密且强大的 PDF 工具箱。所有处理都在您的浏览器中进行。"
-    },
     "faq": {
       "title": "常见问题",
       "description": "查找有关 PDFCraft 的常见问题解答。了解如何有效使用我们的 PDF 工具。"
@@ -40,7 +36,6 @@
     "navigation": {
       "home": "首页",
       "tools": "工具",
-      "about": "关于",
       "faq": "常见问题",
       "privacy": "隐私",
       "contact": "联系我们"

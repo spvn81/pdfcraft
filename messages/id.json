@@ -8,10 +8,6 @@
       "title": "Semua Alat PDF",
       "description": "Jelajahi lebih dari 67 alat PDF profesional. Gabungkan, pisahkan, kompres, konversi, edit, dan amankan file PDF Anda secara gratis."
     },
-    "about": {
-      "title": "Tentang",
-      "description": "Pelajari tentang PDFCraft - toolkit PDF gratis, pribadi, dan kuat. Semua proses terjadi di browser Anda."
-    },
     "faq": {
       "title": "Pertanyaan yang Sering Diajukan",
       "description": "Temukan jawaban untuk pertanyaan umum tentang PDFCraft. Pelajari cara menggunakan alat PDF kami secara efektif."
@@ -40,7 +36,6 @@
     "navigation": {
       "home": "Rumah",
       "tools": "Alat",
-      "about": "Tentang",
       "faq": "FAQ",
       "privacy": "Pribadi",
       "contact": "Hubungi"
