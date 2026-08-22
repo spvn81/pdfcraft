@@ -3480,36 +3480,36 @@ export const toolContentTe: Record<string, ToolContent> = {
         "icon": "layers"
       },
       {
-        "title": "Book Scanning",
-        "description": "Combine odd and even page scans into complete books.",
+        "title": "పుస్తక స్కానింగ్",
+        "description": "అరుదైన మరియు సమాన పేజీ స్కాన్లను పూర్తి పుస్తకాలలో కలపండి.",
         "icon": "book"
       }
     ],
     "faq": [
       {
-        "question": "What if documents have different page counts?",
-        "answer": "Extra pages from the longer document are appended at the end."
+        "question": "పత్రాలు వేరే పేజీల సంఖ్యను కలిగి ఉంటే?",
+        "answer": "ఈ పత్రం చివరలో అదనపు పేజీలు జోడించబడ్డాయి."
       },
       {
-        "question": "Can I reverse page order?",
-        "answer": "Yes, you can reverse either document before merging."
+        "question": "నేను పేజీ ఆర్డర్ తిరగగలనా?",
+        "answer": "అవును, మీరు విలీనం చేయడానికి ముందు పత్రాలను తిప్పికొట్టవచ్చు."
       },
       {
-        "question": "Is this different from regular merge?",
-        "answer": "Yes, regular merge appends documents; alternate merge interleaves pages."
+        "question": "ఇది సాధారణ విలీనం నుండి భిన్నంగా ఉంటుంది?",
+        "answer": "అవును, సాధారణ మిళితం పత్రాలను జోడిస్తుంది; ప్రత్యామ్నాయ మిళితం పేజీలను విడదీస్తుంది."
       }
     ]
   },
   "add-attachments": {
-    "title": "Add Attachments",
-    "metaDescription": "Embed files in PDF documents. Attach any file type to your PDFs.",
+    "title": "జోడింపులు",
+    "metaDescription": "PDF పత్రాలలో ఫైళ్ళను పొందుపరచండి. మీ PDF ఫైళ్ళకు ఏ ఫైల్ రకాన్ని అయినా జోడించండి.",
     "keywords": [
       "pdf attachments",
       "embed files",
       "attach to pdf",
       "pdf portfolio"
     ],
-    "description": "\n      <p>Add Attachments embeds files of any type into your PDF documents. Attach spreadsheets, images, source files, or any other documents to create comprehensive PDF packages.</p>\n      <p>Attachments are embedded within the PDF and can be extracted by recipients using any PDF reader. Perfect for distributing related files together.</p>\n      <p>All processing happens in your browser, ensuring your files remain private.</p>\n    ",
+    "description": "<p>అటాచ్మెంట్లను జోడించండి మీ PDF పత్రాలలో ఏ రకమైన ఫైల్లను పొందుపరుస్తుంది. సమగ్ర PDF ప్యాకేజీలను సృష్టించడానికి స్ప్రెడ్షీట్లు, చిత్రాలు, సోర్స్ ఫైల్లు లేదా ఇతర పత్రాలను జోడించండి. </p> <p>అటాచ్మెంట్లు PDF లోకి పొందుపరచబడ్డాయి మరియు ఏదైనా PDF రీడర్ను ఉపయోగించి గ్రహీతలు సేకరించవచ్చు. సంబంధిత ఫైళ్ళను కలిసి పంపిణీ చేయడానికి ఖచ్చితంగా ఉంది. </p> <p>అన్ని ప్రాసెసింగ్ మీ బ్రౌజర్లో జరుగుతుంది, మీ ఫైల్లు ప్రైవేట్గా ఉండాలని నిర్ధారించుకోండి. </p> ",
     "howToUse": [
       {
         "step": 1,
@@ -3518,57 +3518,57 @@ export const toolContentTe: Record<string, ToolContent> = {
       },
       {
         "step": 2,
-        "title": "Add Attachments",
-        "description": "Select files to attach to the PDF."
+        "title": "జోడింపులు",
+        "description": "PDF కి జోడించవలసిన ఫైళ్ళను ఎంచుకోండి."
       },
       {
         "step": 3,
         "title": "సేవ్ చేసి డౌన్లోడ్ చేసుకోండి",
-        "description": "Click Save to embed attachments and download."
+        "description": "జోడింపులను పొందుపరచడానికి మరియు డౌన్లోడ్ చేయడానికి సేవ్ పై క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Project Packages",
-        "description": "Bundle project files with documentation PDFs.",
+        "title": "ప్రాజెక్టు ప్యాకేజీలు",
+        "description": "ప్రాజెక్ట్ ఫైళ్ళను డాక్యుమెంటేషన్ PDF లతో బండిల్ చేయండి.",
         "icon": "package"
       },
       {
-        "title": "Report Distribution",
-        "description": "Attach source data files to report PDFs.",
+        "title": "నివేదిక పంపిణీ",
+        "description": "PDF నివేదికలను నివేదించడానికి మూలం డేటా ఫైళ్ళను జోడించండి.",
         "icon": "paperclip"
       },
       {
-        "title": "Contract Bundles",
-        "description": "Include supporting documents with contracts.",
+        "title": "ఒప్పంద బండ్లు",
+        "description": "ఒప్పందాలతో పాటు సాక్ష్య పత్రాలను చేర్చండి.",
         "icon": "file-text"
       }
     ],
     "faq": [
       {
-        "question": "What file types can be attached?",
-        "answer": "Any file type can be attached to a PDF."
+        "question": "ఏ ఫైల్ రకాలను జోడించవచ్చు?",
+        "answer": "ఏదైనా ఫైల్ రకాన్ని PDF కి జోడించవచ్చు."
       },
       {
-        "question": "Is there a size limit?",
-        "answer": "Total PDF size including attachments should not exceed 500MB."
+        "question": "పరిమాణ పరిమితి ఉందా?",
+        "answer": "జోడింపులతో సహా మొత్తం PDF పరిమాణం 500 MB కన్నా ఎక్కువ ఉండకూడదు."
       },
       {
-        "question": "Can recipients extract attachments?",
-        "answer": "Yes, any PDF reader can extract embedded attachments."
+        "question": "గ్రహీతలు అటాచ్మెంట్లను తీయగలరా?",
+        "answer": "అవును, ఏదైనా PDF రీడర్ ఎంబెడెడ్ అటాచ్మెంట్లను తీయగలదు."
       }
     ]
   },
   "extract-attachments": {
-    "title": "Extract Attachments",
-    "metaDescription": "Extract embedded files from PDFs. Download all attachments from PDF documents.",
+    "title": "ఎక్స్ట్రాక్ట్ అటాచ్మెంట్స్",
+    "metaDescription": "PDF ఫైళ్ళ నుండి పొందుపరిచిన ఫైళ్ళను సేకరించండి. PDF పత్రాల నుండి అన్ని జోడింపులను డౌన్లోడ్ చేయండి.",
     "keywords": [
       "extract attachments",
       "pdf attachments",
       "download embedded files",
       "pdf extraction"
     ],
-    "description": "\n      <p>Extract Attachments retrieves all embedded files from PDF documents. Download attachments individually or as a ZIP archive containing all files.</p>\n      <p>Perfect for accessing source files, data, or supplementary materials embedded in PDF packages.</p>\n      <p>All extraction happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>Extract Attachments PDF పత్రాల నుండి అన్ని పొందుపరిచిన ఫైళ్ళను తిరిగి పొందుతుంది. అన్ని ఫైళ్ళను కలిగి ఉన్న అటాచ్మెంట్లను వ్యక్తిగతంగా లేదా ZIP ఆర్కైవ్గా డౌన్లోడ్ చేయండి.</p> <p>PDF ప్యాకేజీలలో పొందుపరిచిన మూలం ఫైల్లు, డేటా లేదా అదనపు పదార్థాలను ప్రాప్యత చేయడానికి ఇది సరైనది.</p> <p>అన్ని వెలికితీత మీ బ్రౌజర్లో జరుగుతుంది, మీ పత్రాలు ప్రైవేట్గా ఉంటాయి.</p> ",
     "howToUse": [
       {
         "step": 1,
@@ -3577,18 +3577,18 @@ export const toolContentTe: Record<string, ToolContent> = {
       },
       {
         "step": 2,
-        "title": "View Attachments",
-        "description": "See a list of all embedded files in the PDF."
+        "title": "జోడింపులను వీక్షించండి",
+        "description": "PDF లోని అన్ని ఎంబెడెడ్ ఫైళ్ళ జాబితాను చూడండి."
       },
       {
         "step": 3,
         "title": "డౌన్లోడ్ చేసుకోండి",
-        "description": "Download individual files or all as a ZIP."
+        "description": "వ్యక్తిగత ఫైళ్ళను లేదా అన్నింటినీ జిప్గా డౌన్లోడ్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Access Source Files",
+        "title": "ప్రాప్యత మూలం ఫైళ్లు",
         "description": "Extract original data files from PDF reports.",
         "icon": "download"
       },
