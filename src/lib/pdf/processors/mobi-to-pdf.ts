@@ -1,3 +1,4 @@
+import { withBasePath } from '@/lib/utils/path';
 /**
  * MOBI to PDF Processor
  * 
@@ -41,7 +42,7 @@ export class MOBIToPDFProcessor extends BasePDFProcessor {
 
         return new Promise((resolve, reject) => {
             try {
-                this.worker = new Worker('/workers/mobi-to-pdf.worker.js', { type: 'module' });
+                this.worker = new Worker(withBasePath('/workers/mobi-to-pdf.worker.js'), { type: 'module' });
 
                 const handleMessage = (event: MessageEvent) => {
                     const { type, error, message } = event.data;
@@ -252,3 +253,4 @@ export async function mobiToPDF(
         onProgress
     );
 }
+

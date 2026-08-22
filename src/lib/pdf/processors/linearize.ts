@@ -1,3 +1,4 @@
+import { withBasePath } from '@/lib/utils/path';
 /**
  * PDF Linearize Processor
  * Requirements: 5.1
@@ -252,7 +253,7 @@ export class LinearizePDFProcessor extends BasePDFProcessor {
   ): Promise<{ pdfBytes: ArrayBuffer; linearizedSize: number; pageCount: number }> {
     return new Promise((resolve, reject) => {
       try {
-        this.worker = new Worker('/workers/linearize.worker.js');
+        this.worker = new Worker(withBasePath('/workers/linearize.worker.js'));
 
         this.worker.onmessage = (e: MessageEvent<WorkerMessage>) => {
           const data = e.data;
@@ -374,3 +375,4 @@ export async function linearizePDFs(
     onProgress
   );
 }
+

@@ -1,3 +1,4 @@
+import { withBasePath } from '@/lib/utils/path';
 /**
  * PDF to Excel Processor
  * 
@@ -36,7 +37,7 @@ export class PDFToExcelProcessor extends BasePDFProcessor {
 
         return new Promise((resolve, reject) => {
             try {
-                this.worker = new Worker('/workers/pdf-to-excel.worker.js', { type: 'module' });
+                this.worker = new Worker(withBasePath('/workers/pdf-to-excel.worker.js'), { type: 'module' });
 
                 const handleMessage = (event: MessageEvent) => {
                     const { type, error, message } = event.data;
@@ -245,3 +246,4 @@ export async function pdfToExcel(
         onProgress
     );
 }
+

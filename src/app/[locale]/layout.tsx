@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, setRequestLocale, getTranslations } from 'next-intl/server';
+import { getMessages, setRequestLocale, getTranslations, getNow, getTimeZone } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { localeConfig, type Locale, locales } from '@/lib/i18n/config';
 import { generateHomeMetadata } from '@/lib/seo';
@@ -64,12 +64,14 @@ export default async function LocaleLayout({
 
   // Get messages for the locale
   const messages = await getMessages();
+  const now = await getNow();
+  const timeZone = await getTimeZone();
 
   // Get direction for the locale
   const direction = localeConfig[locale as Locale]?.direction || 'ltr';
 
   return (
-    <NextIntlClientProvider messages={messages}>
+    <NextIntlClientProvider messages={messages} now={now} timeZone={timeZone}>
       <div lang={locale} dir={direction} className={`${fontVariables} min-h-screen bg-background text-foreground antialiased font-sans`}>
         <SkipLink targetId="main-content">Skip to main content</SkipLink>
         {children}

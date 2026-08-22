@@ -1,3 +1,4 @@
+import { withBasePath } from '@/lib/utils/path';
 /**
  * PDF Table of Contents Processor
  * Uses PyMuPDF worker to generate clickable TOC from PDF bookmarks
@@ -102,7 +103,7 @@ export class TableOfContentsProcessor extends BasePDFProcessor {
   ): Promise<{ status: 'success'; pdfBytes: ArrayBuffer } | { status: 'error'; message: string }> {
     return new Promise((resolve) => {
       // Use V2 worker to bypass cache and use robust byte handling
-      this.worker = new Worker('/workers/table-of-contents-v2.worker.js', { type: 'module' });
+      this.worker = new Worker(withBasePath('/workers/table-of-contents-v2.worker.js'), { type: 'module' });
 
       this.worker.onmessage = (e) => {
         const data = e.data;
@@ -159,3 +160,4 @@ export async function generateTableOfContents(
   const processor = createTableOfContentsProcessor();
   return processor.process({ files: [file], options: options as unknown as Record<string, unknown> }, onProgress);
 }
+

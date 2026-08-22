@@ -1,3 +1,4 @@
+import { withBasePath } from '@/lib/utils/path';
 /**
  * FB2 to PDF Processor
  * 
@@ -41,7 +42,7 @@ export class FB2ToPDFProcessor extends BasePDFProcessor {
 
         return new Promise((resolve, reject) => {
             try {
-                this.worker = new Worker('/workers/fb2-to-pdf.worker.js', { type: 'module' });
+                this.worker = new Worker(withBasePath('/workers/fb2-to-pdf.worker.js'), { type: 'module' });
 
                 const handleMessage = (event: MessageEvent) => {
                     const { type, error, message } = event.data;
@@ -303,3 +304,4 @@ export async function fb2ToPDF(
         onProgress
     );
 }
+

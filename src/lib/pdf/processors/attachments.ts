@@ -1,3 +1,4 @@
+import { withBasePath } from '@/lib/utils/path';
 /**
  * PDF Attachments Processors
  * Requirements: 5.1
@@ -179,7 +180,7 @@ export class AddAttachmentsPDFProcessor extends BasePDFProcessor {
   ): Promise<{ success: boolean; blob?: Blob; error?: string }> {
     return new Promise((resolve) => {
       try {
-        this.worker = new Worker('/workers/add-attachments.worker.js');
+        this.worker = new Worker(withBasePath('/workers/add-attachments.worker.js'));
 
         this.worker.onmessage = (e) => {
           const { status, modifiedPDF, message } = e.data;
@@ -350,7 +351,7 @@ export class ExtractAttachmentsPDFProcessor extends BasePDFProcessor {
   ): Promise<{ success: boolean; attachments?: AttachmentInfo[]; error?: string }> {
     return new Promise((resolve) => {
       try {
-        this.worker = new Worker('/workers/extract-attachments.worker.js');
+        this.worker = new Worker(withBasePath('/workers/extract-attachments.worker.js'));
 
         this.worker.onmessage = (e) => {
           const { status, attachments, message } = e.data;
@@ -520,7 +521,7 @@ export class EditAttachmentsPDFProcessor extends BasePDFProcessor {
   ): Promise<{ success: boolean; attachments?: AttachmentInfo[]; error?: string }> {
     return new Promise((resolve) => {
       try {
-        this.worker = new Worker('/workers/edit-attachments.worker.js');
+        this.worker = new Worker(withBasePath('/workers/edit-attachments.worker.js'));
 
         this.worker.onmessage = (e) => {
           const { status, attachments, message } = e.data;
@@ -565,7 +566,7 @@ export class EditAttachmentsPDFProcessor extends BasePDFProcessor {
   ): Promise<{ success: boolean; blob?: Blob; error?: string }> {
     return new Promise((resolve) => {
       try {
-        this.worker = new Worker('/workers/edit-attachments.worker.js');
+        this.worker = new Worker(withBasePath('/workers/edit-attachments.worker.js'));
 
         this.worker.onmessage = (e) => {
           const { status, modifiedPDF, message } = e.data;
@@ -702,3 +703,4 @@ export async function editAttachments(
     onProgress
   );
 }
+

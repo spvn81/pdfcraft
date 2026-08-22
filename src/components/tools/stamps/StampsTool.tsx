@@ -1,8 +1,9 @@
-﻿'use client';
+'use client';
 
 import React, { useState, useCallback, useRef, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import { FileUploader } from '../FileUploader';
+import { withBasePath } from '@/lib/utils/path';
 import { Button } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';
 
@@ -277,7 +278,7 @@ export function StampsTool({ className = '' }: StampsToolProps) {
   }, [stampState.blobUrl]);
 
   const viewerUrl = stampState.blobUrl
-    ? `/pdfjs-annotation-viewer/web/viewer.html?file=${encodeURIComponent(stampState.blobUrl)}`
+    ? withBasePath(`/pdfjs-annotation-viewer/web/viewer.html?file=${encodeURIComponent(stampState.blobUrl)}`)
     : null;
 
   return (
