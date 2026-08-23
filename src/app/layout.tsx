@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Script from 'next/script';
-import { EzoicAds } from '@/components/common/EzoicAds';
+import EzoicRouteHandler from '@/components/common/EzoicRouteHandler';
 import '@/app/globals.css';
 
 import { BASE_PATH } from '@/lib/utils/path';
@@ -41,25 +41,40 @@ export default function RootLayout({
           }}
         />
         {/* Ezoic Privacy Scripts */}
-        <script data-cfasync="false" src="https://cmp.gatekeeperconsent.com/min.js"></script>
-        <script data-cfasync="false" src="https://the.gatekeeperconsent.com/cmp.min.js"></script>
-
-        {/* Ezoic Header Scripts */}
-        <script data-cfasync="false" async src="//www.ezojs.com/ezoic/sa.min.js"></script>
-        <script
-          data-cfasync="false"
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.ezstandalone = window.ezstandalone || {};
-              ezstandalone.cmd = ezstandalone.cmd || [];
-            `,
-          }}
+        <Script
+            id="ezoic-cmp"
+            src="https://cmp.gatekeeperconsent.com/min.js"
+            strategy="beforeInteractive"
+            data-cfasync="false"
         />
-        <script data-cfasync="false" src="//ezoicanalytics.com/analytics.js"></script>
+        <Script
+            id="ezoic-cmp-2"
+            src="https://the.gatekeeperconsent.com/cmp.min.js"
+            strategy="beforeInteractive"
+            data-cfasync="false"
+        />
+        
+        {/* Ezoic Header Scripts */}
+        <Script
+            id="ezoic-sa"
+            src="//www.ezojs.com/ezoic/sa.min.js"
+            strategy="afterInteractive"
+        />
+        <Script id="ezoic-init" strategy="afterInteractive">
+            {`
+            window.ezstandalone = window.ezstandalone || {};
+            window.ezstandalone.cmd = window.ezstandalone.cmd || [];
+            `}
+        </Script>
+        <Script
+            id="ezoic-analytics"
+            src="//ezoicanalytics.com/analytics.js"
+            strategy="afterInteractive"
+        />
       </head>
       <body className="min-h-screen bg-background text-foreground antialiased">
+        <EzoicRouteHandler />
         {children}
-        <EzoicAds />
         
         {/* Google tag (gtag.js) */}
         <Script

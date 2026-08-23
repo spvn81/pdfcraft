@@ -1,6 +1,7 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
+import { runEzoic } from '@/lib/ezoic';
 
 interface EzoicAdPlaceholderProps {
   /**
@@ -20,29 +21,35 @@ interface EzoicAdPlaceholderProps {
 /**
  * Reusable Ezoic Ad Placeholder component.
  * Render this component wherever an ad should appear.
- * Safe for SSR and Next.js App Router hydration.
+ * Uses client-side mounting to guarantee hydration safety.
  */
 export function EzoicAdPlaceholder({ id, className, style }: EzoicAdPlaceholderProps) {
+  const [isRendered, setIsRendered] = useState(false);
+
   useEffect(() => {
-    // When this specific placeholder unmounts (e.g., during navigation),
-    // cleanly destroy it in Ezoic to free resources and prevent memory leaks.
-    // This allows persistent layout ads to remain unaffected.
-    return () => {
-      if (typeof window !== 'undefined' && window.ezstandalone && window.ezstandalone.cmd) {
-        window.ezstandalone.cmd.push(() => {
-          if (typeof window.ezstandalone!.destroyPlaceholders === 'function') {
-            window.ezstandalone!.destroyPlaceholders(id);
-          }
-        });
+    setIsRendered(true);
+
+    // Officially supported pattern to immediately request the ad for this slot
+    runEzoic(() => {
+      if (typeof window.ezstandalone?.showAds === 'function') {
+        window.ezstandalone.showAds(id);
       }
+    });
+
+    // Clean up only this specific placeholder when the component unmounts.
+    // This allows persistent layout ads to remain unaffected during navigation.
+    return () => {
+      runEzoic(() => {
+        if (typeof window.ezstandalone?.destroyPlaceholders === 'function') {
+          window.ezstandalone.destroyPlaceholders(id);
+        }
+      });
     };
   }, [id]);
 
   return (
-    <div 
-      id={`ezoic-pub-ad-placeholder-${id}`} 
-      className={className} 
-      style={style}
-    />
+    <div className={className} style={style}>
+      {isRendered && <div id={`ezoic-pub-ad-placeholder-${id}`} />}
+    </div>
   );
 }
