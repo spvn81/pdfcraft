@@ -2709,312 +2709,312 @@ export const toolContentKn: Record<string, ToolContent> = {
       },
       {
         "question": ".fb2.zip ಫೈಲ್‌ಗಳು ಬೆಂಬಲಿತವೇ?",
-        "answer": "Yes, the tool automatically extracts and converts FB2 files from .fb2.zip archives."
+        "answer": "ಹೌದು, ಸಾಧನವು .fb2.zip ಆರ್ಕೈವ್‌ಗಳಿಂದ FB2 ಫೈಲ್‌ಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಹೊರತೆಗೆಯುತ್ತದೆ ಮತ್ತು ಪರಿವರ್ತಿಸುತ್ತದೆ."
       },
       {
         "question": "ಫಾರ್ಮ್ಯಾಟಿಂಗ್ ಕಾಯ್ದುಕೊಳ್ಳಲಾಗುತ್ತದೆಯೇ?",
-        "answer": "Yes! The tool uses native FB2 rendering, preserving text formatting, images, and chapter structure with high fidelity."
+        "answer": "ಹೌದು! ಸಾಧನವು ನೇಟಿವ್ FB2 ರೆಂಡರಿಂಗ್ ಅನ್ನು ಬಳಸುತ್ತದೆ, ಪಠ್ಯದ ಫಾರ್ಮ್ಯಾಟಿಂಗ್, ಚಿತ್ರಗಳು ಮತ್ತು ಅಧ್ಯಾಯದ ರಚನೆಯನ್ನು ಹೆಚ್ಚಿನ ನಿಖರತೆಯೊಂದಿಗೆ ಸಂರಕ್ಷಿಸುತ್ತದೆ."
       }
     ]
   },
   "pdf-to-jpg": {
-    "title": "PDF to JPG",
-    "metaDescription": "Convert PDF pages to JPG images. High-quality extraction with customizable resolution.",
+    "title": "PDF ನಿಂದ JPG",
+    "metaDescription": "PDF ಪುಟಗಳನ್ನು JPG ಚಿತ್ರಗಳಾಗಿ ಪರಿವರ್ತಿಸಿ. ಕಸ್ಟಮೈಸ್ ಮಾಡಬಹುದಾದ ರೆಸಲ್ಯೂಶನ್‌ನೊಂದಿಗೆ ಉತ್ತಮ ಗುಣಮಟ್ಟದ ಎಕ್ಸ್‌ಟ್ರಾಕ್ಷನ್.",
     "keywords": [
       "pdf to jpg",
       "pdf to jpeg",
       "convert pdf to image",
       "extract pdf images"
     ],
-    "description": "\n      <p>PDF to JPG converts PDF document pages into high-quality JPG images. Extract all pages or select specific pages to convert, with customizable resolution and quality settings.</p>\n      <p>Perfect for extracting images from PDFs, creating thumbnails, or converting documents for web use.</p>\n      <p>All conversion happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>PDF ನಿಂದ JPG ಸಾಧನವು PDF ಡಾಕ್ಯುಮೆಂಟ್ ಪುಟಗಳನ್ನು ಉತ್ತಮ ಗುಣಮಟ್ಟದ JPG ಚಿತ್ರಗಳಾಗಿ ಪರಿವರ್ತಿಸುತ್ತದೆ. ಕಸ್ಟಮೈಸ್ ಮಾಡಬಹುದಾದ ರೆಸಲ್ಯೂಶನ್ ಮತ್ತು ಗುಣಮಟ್ಟದ ಸೆಟ್ಟಿಂಗ್‌ಗಳೊಂದಿಗೆ, ಎಲ್ಲಾ ಪುಟಗಳನ್ನು ಹೊರತೆಗೆಯಿರಿ ಅಥವಾ ಪರಿವರ್ತಿಸಲು ನಿರ್ದಿಷ್ಟ ಪುಟಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ.</p><p>PDF ಗಳಿಂದ ಚಿತ್ರಗಳನ್ನು ಹೊರತೆಗೆಯಲು, ಥಂಬ್‌ನೇಲ್‌ಗಳನ್ನು ರಚಿಸಲು ಅಥವಾ ವೆಬ್ ಬಳಕೆಗೆ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳನ್ನು ಪರಿವರ್ತಿಸಲು ಸೂಕ್ತವಾಗಿದೆ.</p><p>ಎಲ್ಲಾ ಪರಿವರ್ತನೆಗಳು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲೇ ನಡೆಯುತ್ತವೆ, ಇದರಿಂದ ನಿಮ್ಮ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳು ಖಾಸಗಿಯಾಗಿರುತ್ತವೆ.</p>",
     "howToUse": [
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "ನಿಮ್ಮ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Select Pages and Quality",
-        "description": "Choose which pages to convert and set quality/DPI options."
+        "title": "ಪುಟಗಳು ಮತ್ತು ಗುಣಮಟ್ಟವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+        "description": "ಯಾವ ಪುಟಗಳನ್ನು ಪರಿವರ್ತಿಸಬೇಕು ಎಂಬುದನ್ನು ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು ಗುಣಮಟ್ಟ/DPI ಆಯ್ಕೆಗಳನ್ನು ಹೊಂದಿಸಿ."
       },
       {
         "step": 3,
         "title": "ಪರಿವರ್ತಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Click Convert to extract images and download as ZIP."
+        "description": "ಚಿತ್ರಗಳನ್ನು ಹೊರತೆಗೆಯಲು ಮತ್ತು ZIP ಆಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಪರಿವರ್ತಿಸಿ ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
         "title": "ವೆಬ್ ಪ್ರಕಟಣೆ",
-        "description": "Convert PDF pages to images for website use.",
+        "description": "ವೆಬ್‌ಸೈಟ್ ಬಳಕೆಗಾಗಿ PDF ಪುಟಗಳನ್ನು ಚಿತ್ರಗಳಾಗಿ ಪರಿವರ್ತಿಸಿ.",
         "icon": "globe"
       },
       {
-        "title": "Social Media",
-        "description": "Extract pages as images for social media sharing.",
+        "title": "ಸೋಷಿಯಲ್ ಮೀಡಿಯಾ",
+        "description": "ಸೋಷಿಯಲ್ ಮೀಡಿಯಾ ಹಂಚಿಕೆಗಾಗಿ ಪುಟಗಳನ್ನು ಚಿತ್ರಗಳಾಗಿ ಹೊರತೆಗೆಯಿರಿ.",
         "icon": "share-2"
       },
       {
-        "title": "Presentations",
-        "description": "Convert PDF slides to images for presentations.",
+        "title": "ಪ್ರಸ್ತುತಿಗಳು",
+        "description": "ಪ್ರಸ್ತುತಿಗಳಿಗಾಗಿ PDF ಸ್ಲೈಡ್‌ಗಳನ್ನು ಚಿತ್ರಗಳಾಗಿ ಪರಿವರ್ತಿಸಿ.",
         "icon": "presentation"
       }
     ],
     "faq": [
       {
-        "question": "What quality settings are available?",
-        "answer": "You can set DPI from 72 to 300 and JPEG quality from 1-100."
+        "question": "ಯಾವ ಗುಣಮಟ್ಟದ ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಲಭ್ಯವಿವೆ?",
+        "answer": "ನೀವು DPI ಅನ್ನು 72 ರಿಂದ 300 ರವರೆಗೆ ಮತ್ತು JPEG ಗುಣಮಟ್ಟವನ್ನು 1-100 ರವರೆಗೆ ಹೊಂದಿಸಬಹುದು."
       },
       {
-        "question": "Can I convert specific pages only?",
-        "answer": "Yes, you can select individual pages or page ranges to convert."
+        "question": "ನಾನು ನಿರ್ದಿಷ್ಟ ಪುಟಗಳನ್ನು ಮಾತ್ರ ಪರಿವರ್ತಿಸಬಹುದೇ?",
+        "answer": "ಹೌದು, ಪರಿವರ್ತಿಸಲು ನೀವು ಪ್ರತ್ಯೇಕ ಪುಟಗಳನ್ನು ಅಥವಾ ಪುಟದ ಶ್ರೇಣಿಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದು."
       },
       {
-        "question": "How are multiple pages handled?",
-        "answer": "Each page becomes a separate JPG file, downloaded as a ZIP archive."
+        "question": "ಸಾಕಷ್ಟು ಪುಟಗಳನ್ನು ಹೇಗೆ ನಿರ್ವಹಿಸಲಾಗುತ್ತದೆ?",
+        "answer": "ಪ್ರತಿ ಪುಟವು ಪ್ರತ್ಯೇಕ JPG ಫೈಲ್ ಆಗುತ್ತದೆ, ಅದನ್ನು ZIP ಆರ್ಕೈವ್ ಆಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತದೆ."
       }
     ]
   },
   "pdf-to-png": {
-    "title": "PDF to PNG",
-    "metaDescription": "Convert PDF pages to PNG images. Lossless quality with transparency support.",
+    "title": "PDF ನಿಂದ PNG",
+    "metaDescription": "PDF ಪುಟಗಳನ್ನು PNG ಚಿತ್ರಗಳಾಗಿ ಪರಿವರ್ತಿಸಿ. ಪಾರದರ್ಶಕತೆ ಬೆಂಬಲದೊಂದಿಗೆ ಲಾಸ್‌ಲೆಸ್ ಗುಣಮಟ್ಟ.",
     "keywords": [
       "pdf to png",
       "convert pdf to png",
       "pdf image extraction",
       "lossless pdf conversion"
     ],
-    "description": "\n      <p>PDF to PNG converts PDF document pages into high-quality PNG images with lossless compression. PNG format preserves image quality perfectly and supports transparency.</p>\n      <p>Ideal for extracting graphics, diagrams, or any content where quality preservation is critical.</p>\n      <p>All conversion happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>PDF ನಿಂದ PNG ಸಾಧನವು PDF ಡಾಕ್ಯುಮೆಂಟ್ ಪುಟಗಳನ್ನು ಲಾಸ್‌ಲೆಸ್ ಕಂಪ್ರೆಷನ್‌ನೊಂದಿಗೆ ಉತ್ತಮ ಗುಣಮಟ್ಟದ PNG ಚಿತ್ರಗಳಾಗಿ ಪರಿವರ್ತಿಸುತ್ತದೆ. PNG ಫಾರ್ಮ್ಯಾಟ್ ಚಿತ್ರದ ಗುಣಮಟ್ಟವನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ಕಾಯ್ದುಕೊಳ್ಳುತ್ತದೆ ಮತ್ತು ಪಾರದರ್ಶಕತೆಯನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆ.</p><p>ಗ್ರಾಫಿಕ್ಸ್, ರೇಖಾಚಿತ್ರಗಳು ಅಥವಾ ಗುಣಮಟ್ಟದ ಸಂರಕ್ಷಣೆ ಪ್ರಮುಖವಾಗಿರುವ ಯಾವುದೇ ವಿಷಯವನ್ನು ಹೊರತೆಗೆಯಲು ಸೂಕ್ತವಾಗಿದೆ.</p><p>ಎಲ್ಲಾ ಪರಿವರ್ತನೆಗಳು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲೇ ನಡೆಯುತ್ತವೆ, ಇದರಿಂದ ನಿಮ್ಮ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳು ಖಾಸಗಿಯಾಗಿರುತ್ತವೆ.</p>",
     "howToUse": [
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "ನಿಮ್ಮ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
         "title": "ಆಯ್ಕೆಗಳನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಿ",
-        "description": "Select pages and set resolution (DPI) options."
+        "description": "ಪುಟಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು ರೆಸಲ್ಯೂಶನ್ (DPI) ಆಯ್ಕೆಗಳನ್ನು ಹೊಂದಿಸಿ."
       },
       {
         "step": 3,
         "title": "ಪರಿವರ್ತಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Click Convert to extract PNG images."
+        "description": "PNG ಚಿತ್ರಗಳನ್ನು ಹೊರತೆಗೆಯಲು ಪರಿವರ್ತಿಸಿ ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Graphics Extraction",
-        "description": "Extract diagrams and graphics with perfect quality.",
+        "title": "ಗ್ರಾಫಿಕ್ಸ್ ಎಕ್ಸ್‌ಟ್ರಾಕ್ಷನ್",
+        "description": "ಉತ್ತಮ ಗುಣಮಟ್ಟದೊಂದಿಗೆ ರೇಖಾಚಿತ್ರಗಳು ಮತ್ತು ಗ್ರಾಫಿಕ್ಸ್ ಅನ್ನು ಹೊರತೆಗೆಯಿರಿ.",
         "icon": "image"
       },
       {
-        "title": "Design Assets",
-        "description": "Convert PDF designs to PNG for editing software.",
+        "title": "ಡಿಸೈನ್ ಅಸೆಟ್‌ಗಳು",
+        "description": "ಎಡಿಟಿಂಗ್ ಸಾಫ್ಟ್‌ವೇರ್‌ಗಾಗಿ PDF ಡಿಸೈನ್‌ಗಳನ್ನು PNG ಗೆ ಪರಿವರ್ತಿಸಿ.",
         "icon": "palette"
       },
       {
-        "title": "Documentation",
-        "description": "Create high-quality images for technical documentation.",
+        "title": "ಡಾಕ್ಯುಮೆಂಟೇಶನ್",
+        "description": "ತಾಂತ್ರಿಕ ಡಾಕ್ಯುಮೆಂಟೇಶನ್‌ಗಾಗಿ ಉತ್ತಮ ಗುಣಮಟ್ಟದ ಚಿತ್ರಗಳನ್ನು ರಚಿಸಿ.",
         "icon": "file-text"
       }
     ],
     "faq": [
       {
-        "question": "Why choose PNG over JPG?",
-        "answer": "PNG offers lossless compression and transparency support, ideal for graphics and text."
+        "question": "JPG ಗಿಂತ PNG ಅನ್ನು ಏಕೆ ಆಯ್ಕೆ ಮಾಡಬೇಕು?",
+        "answer": "PNG ಲಾಸ್‌ಲೆಸ್ ಕಂಪ್ರೆಷನ್ ಮತ್ತು ಪಾರದರ್ಶಕತೆಯ ಬೆಂಬಲವನ್ನು ನೀಡುತ್ತದೆ, ಇದು ಗ್ರಾಫಿಕ್ಸ್ ಮತ್ತು ಪಠ್ಯಕ್ಕೆ ಸೂಕ್ತವಾಗಿದೆ."
       },
       {
-        "question": "Are transparent backgrounds supported?",
-        "answer": "Yes, PDF pages with transparency are preserved in PNG output."
+        "question": "ಪಾರದರ್ಶಕ ಹಿನ್ನೆಲೆಗಳು ಬೆಂಬಲಿತವಾಗಿವೆಯೇ?",
+        "answer": "ಹೌದು, ಪಾರದರ್ಶಕತೆಯನ್ನು ಹೊಂದಿರುವ PDF ಪುಟಗಳನ್ನು PNG ಔಟ್‌ಪುಟ್‌ನಲ್ಲಿ ಕಾಯ್ದುಕೊಳ್ಳಲಾಗುತ್ತದೆ."
       },
       {
-        "question": "What DPI should I use?",
-        "answer": "Use 150 DPI for screen viewing, 300 DPI for printing."
+        "question": "ನಾನು ಯಾವ DPI ಅನ್ನು ಬಳಸಬೇಕು?",
+        "answer": "ಸ್ಕ್ರೀನ್ ವೀಕ್ಷಣೆಗಾಗಿ 150 DPI, ಪ್ರಿಂಟಿಂಗ್‌ಗಾಗಿ 300 DPI ಬಳಸಿ."
       }
     ]
   },
   "pdf-to-webp": {
-    "title": "PDF to WebP",
-    "metaDescription": "Convert PDF pages to WebP images. Modern format with excellent compression.",
+    "title": "PDF ನಿಂದ WebP",
+    "metaDescription": "PDF ಪುಟಗಳನ್ನು WebP ಚಿತ್ರಗಳಾಗಿ ಪರಿವರ್ತಿಸಿ. ಅತ್ಯುತ್ತಮ ಕಂಪ್ರೆಷನ್ ಹೊಂದಿರುವ ಆಧುನಿಕ ಫಾರ್ಮ್ಯಾಟ್.",
     "keywords": [
       "pdf to webp",
       "convert pdf to webp",
       "modern image format",
       "web optimized images"
     ],
-    "description": "\n      <p>PDF to WebP converts PDF document pages into WebP images, Google's modern image format that offers excellent compression with high quality.</p>\n      <p>WebP images are smaller than JPG or PNG while maintaining comparable quality, making them ideal for web use.</p>\n      <p>All conversion happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>PDF ನಿಂದ WebP ಸಾಧನವು PDF ಡಾಕ್ಯುಮೆಂಟ್ ಪುಟಗಳನ್ನು Google ನ ಆಧುನಿಕ ಚಿತ್ರ ಫಾರ್ಮ್ಯಾಟ್ ಆಗಿರುವ WebP ಚಿತ್ರಗಳಾಗಿ ಪರಿವರ್ತಿಸುತ್ತದೆ, ಇದು ಉತ್ತಮ ಗುಣಮಟ್ಟದೊಂದಿಗೆ ಅತ್ಯುತ್ತಮ ಕಂಪ್ರೆಷನ್ ಅನ್ನು ನೀಡುತ್ತದೆ.</p><p>WebP ಚಿತ್ರಗಳು JPG ಅಥವಾ PNG ಗಿಂತ ಚಿಕ್ಕದಾಗಿದ್ದು, ಸಮಾನ ಗುಣಮಟ್ಟವನ್ನು ಕಾಯ್ದುಕೊಳ್ಳುತ್ತವೆ, ಇದು ವೆಬ್ ಬಳಕೆಗೆ ಸೂಕ್ತವಾಗಿದೆ.</p><p>ಎಲ್ಲಾ ಪರಿವರ್ತನೆಗಳು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲೇ ನಡೆಯುತ್ತವೆ, ಇದರಿಂದ ನಿಮ್ಮ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳು ಖಾಸಗಿಯಾಗಿರುತ್ತವೆ.</p>",
     "howToUse": [
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "ನಿಮ್ಮ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Set Quality Options",
-        "description": "Choose pages and set quality/compression settings."
+        "title": "ಗುಣಮಟ್ಟದ ಆಯ್ಕೆಗಳನ್ನು ಹೊಂದಿಸಿ",
+        "description": "ಪುಟಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು ಗುಣಮಟ್ಟ/ಕಂಪ್ರೆಷನ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಹೊಂದಿಸಿ."
       },
       {
         "step": 3,
         "title": "ಪರಿವರ್ತಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Click Convert to create WebP images."
+        "description": "WebP ಚಿತ್ರಗಳನ್ನು ರಚಿಸಲು ಪರಿವರ್ತಿಸಿ ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Web Optimization",
-        "description": "Create web-optimized images from PDF content.",
+        "title": "ವೆಬ್ ಆಪ್ಟಿಮೈಸೇಶನ್",
+        "description": "PDF ವಿಷಯದಿಂದ ವೆಬ್-ಆಪ್ಟಿಮೈಸ್ಡ್ ಚಿತ್ರಗಳನ್ನು ರಚಿಸಿ.",
         "icon": "globe"
       },
       {
-        "title": "Bandwidth Savings",
-        "description": "Reduce image file sizes for faster loading.",
+        "title": "ಬ್ಯಾಂಡ್‌ವಿಡ್ತ್ ಉಳಿತಾಯ",
+        "description": "ವೇಗದ ಲೋಡಿಂಗ್‌ಗಾಗಿ ಚಿತ್ರದ ಫೈಲ್ ಗಾತ್ರಗಳನ್ನು ಕಡಿಮೆ ಮಾಡಿ.",
         "icon": "zap"
       },
       {
-        "title": "Modern Websites",
-        "description": "Use modern image formats for contemporary web projects.",
+        "title": "ಆಧುನಿಕ ವೆಬ್‌ಸೈಟ್‌ಗಳು",
+        "description": "ಸಮಕಾಲೀನ ವೆಬ್ ಪ್ರಾಜೆಕ್ಟ್‌ಗಳಿಗಾಗಿ ಆಧುನಿಕ ಚಿತ್ರ ಫಾರ್ಮ್ಯಾಟ್‌ಗಳನ್ನು ಬಳಸಿ.",
         "icon": "layout"
       }
     ],
     "faq": [
       {
         "question": "WebP ಫಾರ್ಮ್ಯಾಟ್ ಎಂದರೆ ಏನು?",
-        "answer": "WebP is a modern image format by Google offering superior compression."
+        "answer": "WebP ಎನ್ನುವುದು Google ನ ಆಧುನಿಕ ಚಿತ್ರ ಫಾರ್ಮ್ಯಾಟ್ ಆಗಿದ್ದು, ಇದು ಅತ್ಯುತ್ತಮ ಕಂಪ್ರೆಷನ್ ಅನ್ನು ನೀಡುತ್ತದೆ."
       },
       {
-        "question": "Is WebP widely supported?",
-        "answer": "Yes, all modern browsers support WebP format."
+        "question": "WebP ವ್ಯಾಪಕವಾಗಿ ಬೆಂಬಲಿತವಾಗಿದೆಯೇ?",
+        "answer": "ಹೌದು, ಎಲ್ಲಾ ಆಧುನಿಕ ಬ್ರೌಸರ್‌ಗಳು WebP ಸ್ವರೂಪವನ್ನು ಬೆಂಬಲಿಸುತ್ತವೆ."
       },
       {
-        "question": "How much smaller are WebP files?",
-        "answer": "WebP files are typically 25-35% smaller than equivalent JPG files."
+        "question": "WebP ಫೈಲ್‌ಗಳು ಎಷ್ಟು ಚಿಕ್ಕದಾಗಿರುತ್ತವೆ?",
+        "answer": "WebP ಫೈಲ್‌ಗಳು ಸಾಮಾನ್ಯವಾಗಿ ಸಮಾನವಾದ JPG ಫೈಲ್‌ಗಳಿಗಿಂತ 25-35% ಚಿಕ್ಕದಾಗಿರುತ್ತವೆ."
       }
     ]
   },
   "pdf-to-bmp": {
-    "title": "PDF to BMP",
-    "metaDescription": "Convert PDF pages to BMP bitmap images. Uncompressed format for maximum compatibility.",
+    "title": "PDF ಇಂದ BMP",
+    "metaDescription": "PDF ಪುಟಗಳನ್ನು BMP ಬಿಟ್‌ಮ್ಯಾಪ್ ಚಿತ್ರಗಳಾಗಿ ಪರಿವರ್ತಿಸಿ. ಗರಿಷ್ಠ ಹೊಂದಾಣಿಕೆಗಾಗಿ ಸಂಕುಚಿತಗೊಳಿಸದ ಸ್ವರೂಪ.",
     "keywords": [
       "pdf to bmp",
       "convert pdf to bitmap",
       "uncompressed images",
       "legacy format"
     ],
-    "description": "\n      <p>PDF to BMP converts PDF document pages into BMP bitmap images. BMP is an uncompressed format that ensures maximum compatibility with legacy systems and applications.</p>\n      <p>While BMP files are larger than compressed formats, they offer perfect quality and universal compatibility.</p>\n      <p>All conversion happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>PDF ಇಂದ BMP ಯು PDF ದಾಖಲೆಯ ಪುಟಗಳನ್ನು BMP ಬಿಟ್‌ಮ್ಯಾಪ್ ಚಿತ್ರಗಳಾಗಿ ಪರಿವರ್ತಿಸುತ್ತದೆ. BMP ಎನ್ನುವುದು ಸಂಕುಚಿತಗೊಳಿಸದ ಸ್ವರೂಪವಾಗಿದ್ದು, ಇದು ಹಳೆಯ ಸಿಸ್ಟಮ್‌ಗಳು ಮತ್ತು ಅಪ್ಲಿಕೇಶನ್‌ಗಳೊಂದಿಗೆ ಗರಿಷ್ಠ ಹೊಂದಾಣಿಕೆಯನ್ನು ಖಾತ್ರಿಗೊಳಿಸುತ್ತದೆ.</p>\n      <p>BMP ಫೈಲ್‌ಗಳು ಸಂಕುಚಿತ ಸ್ವರೂಪಗಳಿಗಿಂತ ದೊಡ್ಡದಾಗಿದ್ದರೂ, ಅವು ಪರಿಪೂರ್ಣ ಗುಣಮಟ್ಟ ಮತ್ತು ಸಾರ್ವತ್ರಿಕ ಹೊಂದಾಣಿಕೆಯನ್ನು ಒದಗಿಸುತ್ತವೆ.</p>\n      <p>ಎಲ್ಲಾ ಪರಿವರ್ತನೆಗಳು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ನಡೆಯುತ್ತವೆ, ಇದು ನಿಮ್ಮ ದಾಖಲೆಗಳು ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "ನಿಮ್ಮ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
         "title": "ಪುಟಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ",
-        "description": "Choose which pages to convert and set DPI."
+        "description": "ಪರಿವರ್ತಿಸಲು ಬಯಸುವ ಪುಟಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು DPI ಅನ್ನು ಹೊಂದಿಸಿ."
       },
       {
         "step": 3,
         "title": "ಪರಿವರ್ತಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Click Convert to create BMP images."
+        "description": "BMP ಚಿತ್ರಗಳನ್ನು ರಚಿಸಲು ಪರಿವರ್ತಿಸಿ ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Legacy Systems",
-        "description": "Create images compatible with older software.",
+        "title": "ಹಳೆಯ ಸಿಸ್ಟಮ್‌ಗಳು",
+        "description": "ಹಳೆಯ ಸಾಫ್ಟ್‌ವೇರ್‌ನೊಂದಿಗೆ ಹೊಂದಿಕೊಳ್ಳುವ ಚಿತ್ರಗಳನ್ನು ರಚಿಸಿ.",
         "icon": "history"
       },
       {
-        "title": "Windows Applications",
-        "description": "Generate BMP files for Windows-specific applications.",
+        "title": "Windows ಅಪ್ಲಿಕೇಶನ್‌ಗಳು",
+        "description": "Windows-ನಿರ್ದಿಷ್ಟ ಅಪ್ಲಿಕೇಶನ್‌ಗಳಿಗಾಗಿ BMP ಫೈಲ್‌ಗಳನ್ನು ರಚಿಸಿ.",
         "icon": "monitor"
       },
       {
-        "title": "Uncompressed Archives",
-        "description": "Create uncompressed image archives from PDFs.",
+        "title": "ಸಂಕುಚಿತಗೊಳಿಸದ ಆರ್ಕೈವ್‌ಗಳು",
+        "description": "PDF ಗಳಿಂದ ಸಂಕುಚಿತಗೊಳಿಸದ ಚಿತ್ರ ಆರ್ಕೈವ್‌ಗಳನ್ನು ರಚಿಸಿ.",
         "icon": "archive"
       }
     ],
     "faq": [
       {
-        "question": "Why use BMP format?",
-        "answer": "BMP offers uncompressed quality and maximum compatibility with legacy systems."
+        "question": "BMP ಸ್ವರೂಪವನ್ನು ಏಕೆ ಬಳಸಬೇಕು?",
+        "answer": "BMP ಸಂಕುಚಿತಗೊಳಿಸದ ಗುಣಮಟ್ಟ ಮತ್ತು ಹಳೆಯ ಸಿಸ್ಟಮ್‌ಗಳೊಂದಿಗೆ ಗರಿಷ್ಠ ಹೊಂದಾಣಿಕೆಯನ್ನು ನೀಡುತ್ತದೆ."
       },
       {
-        "question": "Are BMP files larger?",
-        "answer": "Yes, BMP files are uncompressed and significantly larger than JPG or PNG."
+        "question": "BMP ಫೈಲ್‌ಗಳು ದೊಡ್ಡದಾಗಿವೆಯೇ?",
+        "answer": "ಹೌದು, BMP ಫೈಲ್‌ಗಳು ಸಂಕುಚಿತಗೊಂಡಿಲ್ಲ ಮತ್ತು JPG ಅಥವಾ PNG ಗಿಂತ ಗಣನೀಯವಾಗಿ ದೊಡ್ಡದಾಗಿರುತ್ತವೆ."
       },
       {
-        "question": "What color depths are supported?",
-        "answer": "24-bit and 32-bit color depths are supported."
+        "question": "ಯಾವ color depth ಗಳು ಬೆಂಬಲಿತವಾಗಿವೆ?",
+        "answer": "24-bit ಮತ್ತು 32-bit color depth ಗಳು ಬೆಂಬಲಿತವಾಗಿವೆ."
       }
     ]
   },
   "pdf-to-tiff": {
-    "title": "PDF to TIFF",
-    "metaDescription": "Convert PDF to TIFF images. Professional quality with multi-page support.",
+    "title": "PDF ಇಂದ TIFF",
+    "metaDescription": "PDF ಅನ್ನು TIFF ಚಿತ್ರಗಳಾಗಿ ಪರಿವರ್ತಿಸಿ. ಮಲ್ಟಿ-ಪೇಜ್ ಬೆಂಬಲದೊಂದಿಗೆ ವೃತ್ತಿಪರ ಗುಣಮಟ್ಟ.",
     "keywords": [
       "pdf to tiff",
       "convert pdf to tiff",
       "professional images",
       "multi-page tiff"
     ],
-    "description": "\n      <p>PDF to TIFF converts PDF documents into high-quality TIFF images. TIFF is the preferred format for professional printing and archiving due to its lossless compression.</p>\n      <p>Create single-page TIFFs or combine all pages into a multi-page TIFF file. Perfect for professional and archival purposes.</p>\n      <p>All conversion happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>PDF ಇಂದ TIFF ಯು PDF ದಾಖಲೆಗಳನ್ನು ಉತ್ತಮ ಗುಣಮಟ್ಟದ TIFF ಚಿತ್ರಗಳಾಗಿ ಪರಿವರ್ತಿಸುತ್ತದೆ. Lossless compression ಕಾರಣದಿಂದಾಗಿ ವೃತ್ತಿಪರ ಮುದ್ರಣ ಮತ್ತು ಆರ್ಕೈವಿಂಗ್‌ಗಾಗಿ TIFF ಆದ್ಯತೆಯ ಸ್ವರೂಪವಾಗಿದೆ.</p>\n      <p>ಏಕ ಪುಟದ TIFF ಗಳನ್ನು ರಚಿಸಿ ಅಥವಾ ಎಲ್ಲಾ ಪುಟಗಳನ್ನು ಮಲ್ಟಿ-ಪೇಜ್ TIFF ಫೈಲ್ ಆಗಿ ಸಂಯೋಜಿಸಿ. ವೃತ್ತಿಪರ ಮತ್ತು ಆರ್ಕೈವಲ್ ಉದ್ದೇಶಗಳಿಗಾಗಿ ಸೂಕ್ತವಾಗಿದೆ.</p>\n      <p>ಎಲ್ಲಾ ಪರಿವರ್ತನೆಗಳು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ನಡೆಯುತ್ತವೆ, ಇದು ನಿಮ್ಮ ದಾಖಲೆಗಳು ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "ನಿಮ್ಮ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Configure Output",
-        "description": "Choose single or multi-page TIFF and set DPI."
+        "title": "ಔಟ್‌ಪುಟ್ ಕಾನ್ಫಿಗರ್ ಮಾಡಿ",
+        "description": "ಸಿಂಗಲ್ ಅಥವಾ ಮಲ್ಟಿ-ಪೇಜ್ TIFF ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು DPI ಹೊಂದಿಸಿ."
       },
       {
         "step": 3,
         "title": "ಪರಿವರ್ತಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Click Convert to create TIFF images."
+        "description": "TIFF ಚಿತ್ರಗಳನ್ನು ರಚಿಸಲು ಪರಿವರ್ತಿಸಿ ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Professional Printing",
-        "description": "Create print-ready TIFF files from PDF documents.",
+        "title": "ವೃತ್ತಿಪರ ಮುದ್ರಣ",
+        "description": "PDF ದಾಖಲೆಗಳಿಂದ ಮುದ್ರಣಕ್ಕೆ ಸಿದ್ಧವಾದ TIFF ಫೈಲ್‌ಗಳನ್ನು ರಚಿಸಿ.",
         "icon": "printer"
       },
       {
-        "title": "Document Archiving",
-        "description": "Archive documents in high-quality TIFF format.",
+        "title": "ದಾಖಲೆ ಆರ್ಕೈವಿಂಗ್",
+        "description": "ಉತ್ತಮ ಗುಣಮಟ್ಟದ TIFF ಸ್ವರೂಪದಲ್ಲಿ ದಾಖಲೆಗಳನ್ನು ಆರ್ಕೈವ್ ಮಾಡಿ.",
         "icon": "archive"
       },
       {
-        "title": "Publishing",
-        "description": "Convert PDFs to TIFF for publishing workflows.",
+        "title": "ಪ್ರಕಾಶನ",
+        "description": "ಪ್ರಕಾಶನ ವರ್ಕ್‌ಫ್ಲೋಗಳಿಗಾಗಿ PDF ಗಳನ್ನು TIFF ಗೆ ಪರಿವರ್ತಿಸಿ.",
         "icon": "book"
       }
     ],
     "faq": [
       {
-        "question": "Can I create multi-page TIFFs?",
-        "answer": "Yes, you can combine all PDF pages into a single multi-page TIFF."
+        "question": "ನಾನು ಮಲ್ಟಿ-ಪೇಜ್ TIFF ಗಳನ್ನು ರಚಿಸಬಹುದೇ?",
+        "answer": "ಹೌದು, ನೀವು ಎಲ್ಲಾ PDF ಪುಟಗಳನ್ನು ಒಂದೇ ಮಲ್ಟಿ-ಪೇಜ್ TIFF ಆಗಿ ಸಂಯೋಜಿಸಬಹುದು."
       },
       {
-        "question": "What compression options are available?",
-        "answer": "LZW, ZIP, and no compression options are available."
+        "question": "ಯಾವ compression ಆಯ್ಕೆಗಳು ಲಭ್ಯವಿವೆ?",
+        "answer": "LZW, ZIP ಮತ್ತು no compression ಆಯ್ಕೆಗಳು ಲಭ್ಯವಿವೆ."
       },
       {
-        "question": "What DPI should I use for printing?",
-        "answer": "Use 300 DPI or higher for professional printing."
+        "question": "ಮುದ್ರಣಕ್ಕಾಗಿ ನಾನು ಯಾವ DPI ಅನ್ನು ಬಳಸಬೇಕು?",
+        "answer": "ವೃತ್ತಿಪರ ಮುದ್ರಣಕ್ಕಾಗಿ 300 DPI ಅಥವಾ ಅದಕ್ಕಿಂತ ಹೆಚ್ಚಿನದನ್ನು ಬಳಸಿ."
       }
     ]
   },
   "pdf-to-cbz": {
-    "title": "PDF to CBZ",
-    "metaDescription": "Convert PDF documents to high-definition Comic Book ZIP archives (.cbz). Built-in Calibre OPF, ComicInfo XML, and ZIP Comment metadata for perfect multi-reader cataloging.",
+    "title": "PDF ಇಂದ CBZ",
+    "metaDescription": "PDF ದಾಖಲೆಗಳನ್ನು ಹೈ-ಡೆಫಿನಿಷನ್ Comic Book ZIP ಆರ್ಕೈವ್‌ಗಳಾಗಿ (.cbz) ಪರಿವರ್ತಿಸಿ. ಪರಿಪೂರ್ಣ ಮಲ್ಟಿ-ರೀಡರ್ ಕ್ಯಾಟಲಾಗ್‌ಗಾಗಿ ಬಿಲ್ಟ್-ಇನ್ Calibre OPF, ComicInfo XML ಮತ್ತು ZIP Comment ಮೆಟಾಡೇಟಾ.",
     "keywords": [
       "pdf to cbz",
       "pdf to comic",
@@ -3022,59 +3022,59 @@ export const toolContentKn: Record<string, ToolContent> = {
       "calibre comic archive",
       "comicinfo metadata"
     ],
-    "description": "\n      <p>PDF to CBZ is custom-engineered for comic enthusiasts and digital ebook archivists. It renders every page of your PDF volumes into high-fidelity rasterized graphics and compiles them into a standard Comic Book ZIP (.cbz) bundle.</p>\n      <p>To eliminate frustrating manual scraping in systems like Calibre, Komga, Kavita, or CDisplayEx, the processor automatically generates and injects both <strong>ComicInfo.xml</strong> and <strong>metadata.opf</strong> files internally, while simultaneously writing a standardized <strong>ComicBookInfo JSON</strong> payload directly into the ZIP file comment metadata.</p>\n      <p>Includes complete configuration sliders for image compression quality, page dimension scale, right-to-left layout reading toggles (Manga mode), and black-and-white grayscale color filtering.</p>\n    ",
+    "description": "\n      <p>PDF ಇಂದ CBZ ಕಾಮಿಕ್ ಪ್ರಿಯರು ಮತ್ತು ಡಿಜಿಟಲ್ ಇಬುಕ್ ಆರ್ಕೈವಿಸ್ಟ್‌ಗಳಿಗಾಗಿ ಕಸ್ಟಮ್-ರೂಪಿಸಲಾಗಿದೆ. ಇದು ನಿಮ್ಮ PDF ವಾಲ್ಯೂಮ್‌ಗಳ ಪ್ರತಿಯೊಂದು ಪುಟವನ್ನು ಹೈ-ಫಿಡೆಲಿಟಿ ರಾಸ್ಟರೈಸ್ಡ್ ಗ್ರಾಫಿಕ್ಸ್ ಆಗಿ ನೀಡುತ್ತದೆ ಮತ್ತು ಅವುಗಳನ್ನು ಪ್ರಮಾಣಿತ Comic Book ZIP (.cbz) ಬಂಡಲ್ ಆಗಿ ಕಂಪೈಲ್ ಮಾಡುತ್ತದೆ.</p>\n      <p>Calibre, Komga, Kavita ಅಥವಾ CDisplayEx ನಂತಹ ಸಿಸ್ಟಮ್‌ಗಳಲ್ಲಿ ಹತಾಶೆಗೊಳಿಸುವ ಹಸ್ತಚಾಲಿತ ಸ್ಕ್ರ್ಯಾಪಿಂಗ್ ಅನ್ನು ತೊಡೆದುಹಾಕಲು, ಪ್ರೊಸೆಸರ್ ಆಂತರಿಕವಾಗಿ <strong>ComicInfo.xml</strong> ಮತ್ತು <strong>metadata.opf</strong> ಎರಡೂ ಫೈಲ್‌ಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ರಚಿಸುತ್ತದೆ ಮತ್ತು ಸೇರಿಸುತ್ತದೆ, ಅದೇ ಸಮಯದಲ್ಲಿ ಪ್ರಮಾಣಿತ <strong>ComicBookInfo JSON</strong> ಪೇಲೋಡ್ ಅನ್ನು ನೇರವಾಗಿ ZIP ಫೈಲ್ ಕಮೆಂಟ್ ಮೆಟಾಡೇಟಾಗೆ ಬರೆಯುತ್ತದೆ.</p>\n      <p>ಚಿತ್ರದ ಕಂಪ್ರೆಷನ್ ಗುಣಮಟ್ಟ, ಪುಟದ ಆಯಾಮ ಪ್ರಮಾಣ, ಬಲದಿಂದ ಎಡಕ್ಕೆ ವಿನ್ಯಾಸ ಓದುವ ಟಾಗಲ್‌ಗಳು (Manga ಮೋಡ್), ಮತ್ತು ಕಪ್ಪು ಮತ್ತು ಬಿಳಿ ಗ್ರೇಸ್ಕೇಲ್ ಬಣ್ಣ ಫಿಲ್ಟರಿಂಗ್‌ಗಾಗಿ ಸಂಪೂರ್ಣ ಕಾನ್ಫಿಗರೇಶನ್ ಸ್ಲೈಡರ್‌ಗಳನ್ನು ಒಳಗೊಂಡಿದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Comic PDF",
-        "description": "Drag and drop your primary comic, artbook, or manga PDF file."
+        "title": "ಕಾಮಿಕ್ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ನಿಮ್ಮ ಪ್ರಮುಖ ಕಾಮಿಕ್, ಆರ್ಟ್‌ಬುಕ್ ಅಥವಾ ಮಂಗಾ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Input Comic Metadata",
-        "description": "Fill out Series, Volume, Title, Writer, and Publisher fields, and toggle layout or grayscale optimization."
+        "title": "ಕಾಮಿಕ್ ಮೆಟಾಡೇಟಾ ನಮೂದಿಸಿ",
+        "description": "Series, Volume, Title, Writer, ಮತ್ತು Publisher ಕ್ಷೇತ್ರಗಳನ್ನು ಭರ್ತಿ ಮಾಡಿ ಮತ್ತು ವಿನ್ಯಾಸ ಅಥವಾ ಗ್ರೇಸ್ಕೇಲ್ ಆಪ್ಟಿಮೈಸೇಶನ್ ಟಾಗಲ್ ಮಾಡಿ."
       },
       {
         "step": 3,
-        "title": "Compile and Download",
-        "description": "Click Convert to compile and retrieve your metadata-rich .cbz file instantly ready for Calibre."
+        "title": "ಕಂಪೈಲ್ ಮಾಡಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "Calibre ಗೆ ತಕ್ಷಣವೇ ಸಿದ್ಧವಾಗಿರುವ ಮೆಟಾಡೇಟಾ-ಸಮೃದ್ಧ .cbz ಫೈಲ್ ಅನ್ನು ಕಂಪೈಲ್ ಮಾಡಲು ಮತ್ತು ಪಡೆಯಲು ಪರಿವರ್ತಿಸಿ ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Retrograde Comic Packaging",
-        "description": "Transform raw scanned PDF books into compact, standard-compliant CBZ comic files easily scrapable by comic library managers.",
+        "title": "ರೆಟ್ರೋಗ್ರೇಡ್ ಕಾಮಿಕ್ ಪ್ಯಾಕೇಜಿಂಗ್",
+        "description": "ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ರಾ PDF ಪುಸ್ತಕಗಳನ್ನು ಕಾಮಿಕ್ ಲೈಬ್ರರಿ ಮ್ಯಾನೇಜರ್‌ಗಳಿಂದ ಸುಲಭವಾಗಿ ಸ್ಕ್ರ್ಯಾಪ್ ಮಾಡಬಹುದಾದ ಕಾಂಪ್ಯಾಕ್ಟ್, ಪ್ರಮಾಣಿತ-ಅನುಸರಣೆಯ CBZ ಕಾಮಿಕ್ ಫೈಲ್‌ಗಳಾಗಿ ಪರಿವರ್ತಿಸಿ.",
         "icon": "book"
       },
       {
-        "title": "Zero-Effort Calibre Integration",
-        "description": "The built-in metadata.opf schema allows Calibre to fetch and classify creators and volume issues without manual lookup.",
+        "title": "ಪ್ರಯಾಸವಿಲ್ಲದ Calibre ಸಂಯೋಜನೆ",
+        "description": "ಅಂತರ್ನಿರ್ಮಿತ metadata.opf ಸ್ಕೀಮಾ Calibre ಗೆ ಹಸ್ತಚಾಲಿತ ಹುಡುಕಾಟವಿಲ್ಲದೆ ರಚನೆಕಾರರು ಮತ್ತು ಸಂಪುಟದ ಸಂಚಿಕೆಗಳನ್ನು ಪಡೆದುಕೊಳ್ಳಲು ಮತ್ತು ವರ್ಗೀಕರಿಸಲು ಅನುಮತಿಸುತ್ತದೆ.",
         "icon": "database"
       },
       {
-        "title": "E-Ink Screen Enhancement",
-        "description": "Pre-filter graphic color channels into high-contrast grayscale on compile, boosting visual refresh and clarity on E-ink screens while saving storage.",
+        "title": "E-Ink ಸ್ಕ್ರೀನ್ ಸುಧಾರಣೆ",
+        "description": "ಕಂಪೈಲ್ ಮಾಡುವಾಗ ಗ್ರಾಫಿಕ್ ಬಣ್ಣದ ಚಾನೆಲ್‌ಗಳನ್ನು ಹೈ-ಕಾಂಟ್ರಾಸ್ಟ್ ಗ್ರೇಸ್ಕೇಲ್‌ಗೆ ಮುಂಚಿತವಾಗಿ ಫಿಲ್ಟರ್ ಮಾಡಿ, ಶೇಖರಣಾ ಸ್ಥಳವನ್ನು ಉಳಿಸುವಾಗ E-ink ಸ್ಕ್ರೀನ್‌ಗಳಲ್ಲಿ ದೃಶ್ಯ ರಿಫ್ರೆಶ್ ಮತ್ತು ಸ್ಪಷ್ಟತೆಯನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ.",
         "icon": "eye"
       }
     ],
     "faq": [
       {
-        "question": "What is a .cbz file?",
-        "answer": "A CBZ file is a specialized archive container format for comic book series. It is internally formatted as a ZIP package containing sequentially numbered page images alongside structural metadata XML files."
+        "question": ".cbz ಫೈಲ್ ಎಂದರೆ ಏನು?",
+        "answer": "CBZ ಫೈಲ್ ಎನ್ನುವುದು ಕಾಮಿಕ್ ಪುಸ್ತಕ ಸರಣಿಗಳಿಗಾಗಿ ವಿನ್ಯಾಸಗೊಳಿಸಲಾದ ವಿಶೇಷ ಆರ್ಕೈವ್ ಕಂಟೇನರ್ ಫಾರ್ಮ್ಯಾಟ್ ಆಗಿದೆ. ಇದು ಆಂತರಿಕವಾಗಿ ಅನುಕ್ರಮವಾಗಿ ಸಂಖ್ಯೆ ನೀಡಲಾದ ಪುಟದ ಚಿತ್ರಗಳು ಮತ್ತು ರಚನಾತ್ಮಕ ಮೆಟಾಡೇಟಾ XML ಫೈಲ್‌ಗಳನ್ನು ಹೊಂದಿರುವ ZIP ಪ್ಯಾಕೇಜ್ ಆಗಿ ಫಾರ್ಮ್ಯಾಟ್ ಆಗಿದೆ."
       },
       {
-        "question": "How is metadata compatible?",
-        "answer": "We compile and embed ComicInfo.xml, metadata.opf, and ZIP File Comments in one pass. This guarantees absolute compliance across multiple comic and e-book ecosystems."
+        "question": "ಮೆಟಾಡೇಟಾ ಹೇಗೆ ಹೊಂದಾಣಿಕೆಯಾಗುತ್ತದೆ?",
+        "answer": "ನಾವು ಒಂದೇ ಬಾರಿಗೆ ComicInfo.xml, metadata.opf, ಮತ್ತು ZIP File Comments ಅನ್ನು ಕಂಪೈಲ್ ಮಾಡಿ ಎಂಬೆಡ್ ಮಾಡುತ್ತೇವೆ. ಇದು ಬಹು ಕಾಮಿಕ್ ಮತ್ತು ಇ-ಬುಕ್ ಸಿಸ್ಟಮ್‌ಗಳಲ್ಲಿ ಸಂಪೂರ್ಣ ಹೊಂದಾಣಿಕೆಯನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ."
       },
       {
-        "question": "Why use Grayscale mode?",
-        "answer": "If you read on a grayscale E-ink reader (like Kindle or Kobo), compiling directly in Grayscale reduces artifact ghosting, delivers superior contrast levels, and shrinks the final CBZ file size."
+        "question": "Grayscale ಮೋಡ್ ಅನ್ನು ಏಕೆ ಬಳಸಬೇಕು?",
+        "answer": "ನೀವು ಗ್ರೇಸ್ಕೇಲ್ E-ink ರೀಡರ್‌ನಲ್ಲಿ (Kindle ಅಥವಾ Kobo ನಂತಹ) ಓದುತ್ತಿದ್ದರೆ, ನೇರವಾಗಿ Grayscale ನಲ್ಲಿ ಕಂಪೈಲ್ ಮಾಡುವುದು ಆರ್ಟಿಫ್ಯಾಕ್ಟ್ ಗೋಸ್ಟಿಂಗ್ ಅನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ, ಅತ್ಯುತ್ತಮ ಕಾಂಟ್ರಾಸ್ಟ್ ಮಟ್ಟಗಳನ್ನು ನೀಡುತ್ತದೆ ಮತ್ತು ಅಂತಿಮ CBZ ಫೈಲ್ ಗಾತ್ರವನ್ನು ಚಿಕ್ಕದಾಗಿಸುತ್ತದೆ."
       }
     ]
   },
   "pdf-to-svg": {
-    "title": "PDF to SVG",
-    "metaDescription": "Convert PDF pages to SVG vector graphics. Perfect scalability at any size with individual page export.",
+    "title": "PDF ನಿಂದ SVG",
+    "metaDescription": "PDF ಪುಟಗಳನ್ನು SVG ವೆಕ್ಟರ್ ಗ್ರಾಫಿಕ್ಸ್ ಗೆ ಪರಿವರ್ತಿಸಿ. ಪ್ರತ್ಯೇಕ ಪುಟದ ರಫ್ತಿನೊಂದಿಗೆ ಯಾವುದೇ ಗಾತ್ರದಲ್ಲೂ ಪರಿಪೂರ್ಣ ಸ್ಕೇಲಬಿಲಿಟಿ.",
     "keywords": [
       "pdf to svg",
       "convert pdf to svg",
@@ -3082,545 +3082,545 @@ export const toolContentKn: Record<string, ToolContent> = {
       "scalable pdf",
       "svg converter"
     ],
-    "description": "\n      <p>PDF to SVG converts each page of your PDF document into a scalable vector graphic (SVG). SVG is a vector format that maintains perfect quality at any zoom level or print size.</p>\n      <p>Unlike raster formats (JPG, PNG), SVG graphics never become pixelated when scaled. This makes them ideal for logos, diagrams, technical drawings, and any content that needs to be displayed at different sizes.</p>\n      <p>Preview each converted page and download them individually or as a ZIP file. All processing happens locally in your browser, ensuring complete privacy for your documents.</p>\n    ",
+    "description": "\n      <p>PDF ನಿಂದ SVG ನಿಮ್ಮ PDF ಡಾಕ್ಯುಮೆಂಟ್‌ನ ಪ್ರತಿಯೊಂದು ಪುಟವನ್ನು ಸ್ಕೇಲಬಲ್ ವೆಕ್ಟರ್ ಗ್ರಾಫಿಕ್ (SVG) ಆಗಿ ಪರಿವರ್ತಿಸುತ್ತದೆ. SVG ಎನ್ನುವುದು ವೆಕ್ಟರ್ ಫಾರ್ಮ್ಯಾಟ್ ಆಗಿದ್ದು ಅದು ಯಾವುದೇ ಝೂಮ್ ಮಟ್ಟ ಅಥವಾ ಪ್ರಿಂಟ್ ಗಾತ್ರದಲ್ಲಿ ಪರಿಪೂರ್ಣ ಗುಣಮಟ್ಟವನ್ನು ಕಾಯ್ದುಕೊಳ್ಳುತ್ತದೆ.</p>\n      <p>ರಾಸ್ಟರ್ ಫಾರ್ಮ್ಯಾಟ್‌ಗಳಿಗಿಂತ (JPG, PNG) ಭಿನ್ನವಾಗಿ, SVG ಗ್ರಾಫಿಕ್ಸ್ ಗಾತ್ರ ಬದಲಾಯಿಸಿದಾಗ ಎಂದಿಗೂ ಪಿಕ್ಸೆಲೇಟ್ ಆಗುವುದಿಲ್ಲ. ಇದು ಲೋಗೋಗಳು, ರೇಖಾಚಿತ್ರಗಳು, ತಾಂತ್ರಿಕ ರೇಖಾಚಿತ್ರಗಳು ಮತ್ತು ವಿವಿಧ ಗಾತ್ರಗಳಲ್ಲಿ ಪ್ರದರ್ಶಿಸಬೇಕಾದ ಯಾವುದೇ ವಿಷಯಕ್ಕೆ ಸೂಕ್ತವಾಗಿದೆ.</p>\n      <p>ಪರಿವರ್ತಿಸಲಾದ ಪ್ರತಿಯೊಂದು ಪುಟವನ್ನು ಮುನ್ನೋಟ ನೋಡಿ ಮತ್ತು ಅವುಗಳನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ಅಥವಾ ZIP ಫೈಲ್ ಆಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ. ಎಲ್ಲಾ ಪ್ರಕ್ರಿಯೆಗಳು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಸ್ಥಳೀಯವಾಗಿ ನಡೆಯುತ್ತವೆ, ನಿಮ್ಮ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳಿಗೆ ಸಂಪೂರ್ಣ ಗೌಪ್ಯತೆಯನ್ನು ಖಚಿತಪಡಿಸುತ್ತವೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your PDF file or click to browse and select."
+        "description": "ನಿಮ್ಮ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಬ್ರೌಸ್ ಮಾಡಲು ಮತ್ತು ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
         "title": "ಆಯ್ಕೆಗಳನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಿ",
-        "description": "Set the resolution quality and optionally specify page ranges."
+        "description": "ರೆಸಲ್ಯೂಶನ್ ಗುಣಮಟ್ಟವನ್ನು ಹೊಂದಿಸಿ ಮತ್ತು ಐಚ್ಛಿಕವಾಗಿ ಪುಟದ ಶ್ರೇಣಿಗಳನ್ನು ನಿರ್ದಿಷ್ಟಪಡಿಸಿ."
       },
       {
         "step": 3,
-        "title": "Preview and Convert",
-        "description": "Click Convert to process. Preview each page by clicking on thumbnails."
+        "title": "ಮುನ್ನೋಟ ಮತ್ತು ಪರಿವರ್ತನೆ",
+        "description": "ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲು ಪರಿವರ್ತಿಸಿ ಕ್ಲಿಕ್ ಮಾಡಿ. ಥಂಬ್‌ನೇಲ್‌ಗಳ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ ಪ್ರತಿಯೊಂದು ಪುಟವನ್ನು ಮುನ್ನೋಟ ನೋಡಿ."
       },
       {
         "step": 4,
-        "title": "Download",
-        "description": "Download individual SVG files or all pages as a ZIP archive."
+        "title": "ಡೌನ್‌ಲೋಡ್",
+        "description": "ಪ್ರತ್ಯೇಕ SVG ಫೈಲ್‌ಗಳನ್ನು ಅಥವಾ ಎಲ್ಲಾ ಪುಟಗಳನ್ನು ZIP ಆರ್ಕೈವ್ ಆಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Logos and Graphics",
-        "description": "Extract logos and vector graphics from PDFs for use in design software.",
+        "title": "ಲೋಗೋಗಳು ಮತ್ತು ಗ್ರಾಫಿಕ್ಸ್",
+        "description": "ಡಿಸೈನ್ ಸಾಫ್ಟ್‌ವೇರ್‌ನಲ್ಲಿ ಬಳಸಲು PDF ಗಳಿಂದ ಲೋಗೋಗಳು ಮತ್ತು ವೆಕ್ಟರ್ ಗ್ರಾಫಿಕ್ಸ್ ಅನ್ನು ಹೊರತೆಗೆಯಿರಿ.",
         "icon": "pen-tool"
       },
       {
-        "title": "Technical Diagrams",
-        "description": "Convert technical drawings and diagrams to scalable SVG format.",
+        "title": "ತಾಂತ್ರಿಕ ರೇಖಾಚಿತ್ರಗಳು",
+        "description": "ತಾಂತ್ರಿಕ ರೇಖಾಚಿತ್ರಗಳು ಮತ್ತು ನಕ್ಷೆಗಳನ್ನು ಸ್ಕೇಲಬಲ್ SVG ಫಾರ್ಮ್ಯಾಟ್‌ಗೆ ಪರಿವರ್ತಿಸಿ.",
         "icon": "ruler"
       },
       {
-        "title": "Web Development",
-        "description": "Create web-ready SVG files from PDF content for responsive websites.",
+        "title": "ವೆಬ್ ಅಭಿವೃದ್ಧಿ",
+        "description": "ರೆಸ್ಪಾನ್ಸಿವ್ ವೆಬ್‌ಸೈಟ್‌ಗಳಿಗಾಗಿ PDF ವಿಷಯದಿಂದ ವೆಬ್-ಸಿದ್ಧ SVG ಫೈಲ್‌ಗಳನ್ನು ರಚಿಸಿ.",
         "icon": "globe"
       },
       {
-        "title": "Print at Any Size",
-        "description": "Generate vector graphics that print perfectly at any size.",
+        "title": "ಯಾವುದೇ ಗಾತ್ರದಲ್ಲಿ ಪ್ರಿಂಟ್ ಮಾಡಿ",
+        "description": "ಯಾವುದೇ ಗಾತ್ರದಲ್ಲಿ ಪರಿಪೂರ್ಣವಾಗಿ ಪ್ರಿಂಟ್ ಆಗುವ ವೆಕ್ಟರ್ ಗ್ರಾಫಿಕ್ಸ್ ಅನ್ನು ರಚಿಸಿ.",
         "icon": "printer"
       }
     ],
     "faq": [
       {
-        "question": "What is SVG format?",
-        "answer": "SVG (Scalable Vector Graphics) is a vector image format that can be scaled to any size without losing quality. It is widely used for logos, icons, and web graphics."
+        "question": "SVG ಫಾರ್ಮ್ಯಾಟ್ ಎಂದರೇನು?",
+        "answer": "SVG (Scalable Vector Graphics) ಎನ್ನುವುದು ವೆಕ್ಟರ್ ಚಿತ್ರದ ಫಾರ್ಮ್ಯಾಟ್ ಆಗಿದ್ದು, ಗುಣಮಟ್ಟವನ್ನು ಕಳೆದುಕೊಳ್ಳದೆ ಯಾವುದೇ ಗಾತ್ರಕ್ಕೆ ಬದಲಾಯಿಸಬಹುದು. ಇದನ್ನು ಲೋಗೋಗಳು, ಐಕಾನ್‌ಗಳು ಮತ್ತು ವೆಬ್ ಗ್ರಾಫಿಕ್ಸ್ ಗಾಗಿ ವ್ಯಾಪಕವಾಗಿ ಬಳಸಲಾಗುತ್ತದೆ."
       },
       {
-        "question": "Will the SVG be truly vector?",
-        "answer": "The SVG contains a high-resolution rendering of the PDF page. For PDFs with vector content, you get crisp output at any scale."
+        "question": "SVG ನಿಜವಾಗಿಯೂ ವೆಕ್ಟರ್ ಆಗಿರುತ್ತದೆಯೇ?",
+        "answer": "SVG ಯು PDF ಪುಟದ ಹೈ-ರೆಸಲ್ಯೂಶನ್ ರೆಂಡರಿಂಗ್ ಅನ್ನು ಹೊಂದಿರುತ್ತದೆ. ವೆಕ್ಟರ್ ವಿಷಯವನ್ನು ಹೊಂದಿರುವ PDF ಗಳಿಗೆ, ನೀವು ಯಾವುದೇ ಪ್ರಮಾಣದಲ್ಲೂ ಸ್ಪಷ್ಟವಾದ ಔಟ್‌ಪುಟ್ ಅನ್ನು ಪಡೆಯುತ್ತೀರಿ."
       },
       {
-        "question": "Can I preview before downloading?",
-        "answer": "Yes! Click on any thumbnail to see a full-size preview of the SVG. You can download individual pages or all at once."
+        "question": "ಡೌನ್‌ಲೋಡ್ ಮಾಡುವ ಮೊದಲು ನಾನು ಮುನ್ನೋಟ ನೋಡಬಹುದೇ?",
+        "answer": "ಹೌದು! SVG ಯ ಪೂರ್ಣ-ಗಾತ್ರದ ಮುನ್ನೋಟವನ್ನು ನೋಡಲು ಯಾವುದೇ ಥಂಬ್‌ನೇಲ್ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ. ನೀವು ಪ್ರತ್ಯೇಕ ಪುಟಗಳನ್ನು ಅಥವಾ ಒಂದೇ ಬಾರಿಗೆ ಎಲ್ಲವನ್ನೂ ಡೌನ್‌ಲೋಡ್ ಮಾಡಬಹುದು."
       },
       {
-        "question": "What resolution should I choose?",
-        "answer": "Higher resolution (216 or 288 DPI) produces larger, more detailed SVGs. Use lower settings for faster processing and smaller files."
+        "question": "ನಾನು ಯಾವ ರೆಸಲ್ಯೂಶನ್ ಆಯ್ಕೆ ಮಾಡಬೇಕು?",
+        "answer": "ಹೆಚ್ಚಿನ ರೆಸಲ್ಯೂಶನ್ (216 ಅಥವಾ 288 DPI) ದೊಡ್ಡದಾದ, ಹೆಚ್ಚು ವಿವರವಾದ SVG ಗಳನ್ನು ನೀಡುತ್ತದೆ. ವೇಗವಾದ ಪ್ರಕ್ರಿಯೆ ಮತ್ತು ಸಣ್ಣ ಫೈಲ್‌ಗಳಿಗಾಗಿ ಕಡಿಮೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಬಳಸಿ."
       }
     ]
   },
   "pdf-to-greyscale": {
-    "title": "PDF to Greyscale",
-    "metaDescription": "Convert color PDF to greyscale. Reduce file size and prepare for black-and-white printing.",
+    "title": "PDF ನಿಂದ Greyscale",
+    "metaDescription": "ವರ್ಣರಂಜಿತ PDF ಅನ್ನು greyscale ಗೆ ಪರಿವರ್ತಿಸಿ. ಫೈಲ್ ಗಾತ್ರವನ್ನು ಕಡಿಮೆ ಮಾಡಿ ಮತ್ತು ಕಪ್ಪು-ಬಿಳುಪು ಪ್ರಿಂಟಿಂಗ್‌ಗೆ ಸಿದ್ಧಪಡಿಸಿ.",
     "keywords": [
       "pdf to greyscale",
       "grayscale pdf",
       "black and white pdf",
       "remove colors"
     ],
-    "description": "\n      <p>PDF to Greyscale converts color PDF documents to greyscale (black and white). This reduces file size and prepares documents for black-and-white printing.</p>\n      <p>The conversion preserves text clarity and image detail while removing color information. Perfect for draft printing or creating printer-friendly versions.</p>\n      <p>All conversion happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>PDF to Greyscale ಬಣ್ಣದ PDF ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳನ್ನು greyscale (ಕಪ್ಪು ಮತ್ತು ಬಿಳುಪು) ಗೆ ಪರಿವರ್ತಿಸುತ್ತದೆ. ಇದು ಫೈಲ್ ಗಾತ್ರವನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ ಮತ್ತು ಕಪ್ಪು ಮತ್ತು ಬಿಳುಪು ಪ್ರಿಂಟಿಂಗ್‌ಗಾಗಿ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳನ್ನು ಸಿದ್ಧಪಡಿಸುತ್ತದೆ.</p>\n      <p>ಪರಿವರ್ತನೆಯು ಬಣ್ಣದ ಮಾಹಿತಿಯನ್ನು ತೆಗೆದುಹಾಕುವಾಗ ಪಠ್ಯದ ಸ್ಪಷ್ಟತೆ ಮತ್ತು ಚಿತ್ರದ ವಿವರಗಳನ್ನು ಕಾಯ್ದುಕೊಳ್ಳುತ್ತದೆ. ಡ್ರಾಫ್ಟ್ ಪ್ರಿಂಟಿಂಗ್ ಅಥವಾ ಪ್ರಿಂಟರ್-ಸ್ನೇಹಿ ಆವೃತ್ತಿಗಳನ್ನು ರಚಿಸಲು ಸೂಕ್ತವಾಗಿದೆ.</p>\n      <p>ಎಲ್ಲಾ ಪರಿವರ್ತನೆಯು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ನಡೆಯುತ್ತದೆ, ನಿಮ್ಮ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳು ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your color PDF file or click to select."
+        "description": "ನಿಮ್ಮ ಬಣ್ಣದ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Preview Conversion",
-        "description": "Preview how the greyscale version will look."
+        "title": "ಪರಿವರ್ತನೆಯ ಮುನ್ನೋಟ",
+        "description": "Greyscale ಆವೃತ್ತಿಯು ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂದು ಮುನ್ನೋಟ ನೋಡಿ."
       },
       {
         "step": 3,
         "title": "ಪರಿವರ್ತಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Click Convert to create the greyscale PDF."
+        "description": "Greyscale PDF ರಚಿಸಲು ಪರಿವರ್ತಿಸಿ ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
         "title": "ಪ್ರಿಂಟ್ ಉಳಿತಾಯ",
-        "description": "Convert to greyscale to save on color printing costs.",
+        "description": "ಬಣ್ಣದ ಪ್ರಿಂಟಿಂಗ್ ವೆಚ್ಚವನ್ನು ಉಳಿಸಲು greyscale ಗೆ ಪರಿವರ್ತಿಸಿ.",
         "icon": "printer"
       },
       {
-        "title": "Draft Documents",
-        "description": "Create black-and-white drafts for review.",
+        "title": "ಡ್ರಾಫ್ಟ್ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳು",
+        "description": "ಪರಿಶೀಲನೆಗಾಗಿ ಕಪ್ಪು-ಮತ್ತು-ಬಿಳಿ ಡ್ರಾಫ್ಟ್‌ಗಳನ್ನು ರಚಿಸಿ.",
         "icon": "file-text"
       },
       {
-        "title": "File Size Reduction",
-        "description": "Reduce PDF size by removing color information.",
+        "title": "ಫೈಲ್ ಗಾತ್ರ ಕಡಿತ",
+        "description": "ಬಣ್ಣದ ಮಾಹಿತಿಯನ್ನು ತೆಗೆದುಹಾಕುವ ಮೂಲಕ PDF ಗಾತ್ರವನ್ನು ಕಡಿಮೆ ಮಾಡಿ.",
         "icon": "minimize-2"
       }
     ],
     "faq": [
       {
-        "question": "Will text remain readable?",
-        "answer": "Yes, text clarity is preserved during greyscale conversion."
+        "question": "ಪಠ್ಯವು ಓದಲು ಸಾಧ್ಯವಾಗುತ್ತದೆಯೇ?",
+        "answer": "ಹೌದು, greyscale ಪರಿವರ್ತನೆಯ ಸಮಯದಲ್ಲಿ ಪಠ್ಯದ ಸ್ಪಷ್ಟತೆಯನ್ನು ಕಾಯ್ದುಕೊಳ್ಳಲಾಗುತ್ತದೆ."
       },
       {
-        "question": "How much smaller will the file be?",
-        "answer": "File size reduction varies but can be 20-50% for color-heavy documents."
+        "question": "ಫೈಲ್ ಎಷ್ಟು ಸಣ್ಣದಾಗುತ್ತದೆ?",
+        "answer": "ಫೈಲ್ ಗಾತ್ರದ ಕಡಿತವು ಬದಲಾಗುತ್ತದೆ, ಆದರೆ ಬಣ್ಣ-ಹೆಚ್ಚಿರುವ ದಾಖಲೆಗಳಿಗೆ 20-50% ಇರಬಹುದು."
       },
       {
-        "question": "Can I convert specific pages only?",
-        "answer": "Yes, you can select which pages to convert to greyscale."
+        "question": "ನಾನು ನಿರ್ದಿಷ್ಟ ಪುಟಗಳನ್ನು ಮಾತ್ರ ಪರಿವರ್ತಿಸಬಹುದೇ?",
+        "answer": "ಹೌದು, ಗ್ರೇಸ್ಕೇಲ್‌ಗೆ ಪರಿವರ್ತಿಸಲು ಯಾವ ಪುಟಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಬೇಕೆಂದು ನೀವು ನಿರ್ಧರಿಸಬಹುದು."
       }
     ]
   },
   "pdf-to-json": {
-    "title": "PDF to JSON",
-    "metaDescription": "Extract PDF content to JSON format. Get structured data from PDF documents.",
+    "title": "PDF ನಿಂದ JSON",
+    "metaDescription": "PDF ವಿಷಯವನ್ನು JSON ರೂಪಕ್ಕೆ ಹೊರತೆಗೆಯಿರಿ. PDF ದಾಖಲೆಗಳಿಂದ ರಚನಾತ್ಮಕ ಡೇಟಾವನ್ನು ಪಡೆಯಿರಿ.",
     "keywords": [
       "pdf to json",
       "extract pdf data",
       "pdf parser",
       "structured pdf data"
     ],
-    "description": "\n      <p>PDF to JSON extracts content from PDF documents into structured JSON format. Extract text, metadata, page information, and document structure for programmatic use.</p>\n      <p>Perfect for data extraction, document analysis, or integrating PDF content into applications and workflows.</p>\n      <p>All extraction happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>PDF to JSON, PDF ದಾಖಲೆಗಳಿಂದ ವಿಷಯವನ್ನು ರಚನಾತ್ಮಕ JSON ರೂಪಕ್ಕೆ ಹೊರತೆಗೆಯುತ್ತದೆ. ಪ್ರೋಗ್ರಾಮಿಂಗ್ ಬಳಕೆಗೆ ಪಠ್ಯ, ಮೆಟಾಡೇಟಾ, ಪುಟದ ಮಾಹಿತಿ ಮತ್ತು ದಾಖಲೆಯ ರಚನೆಯನ್ನು ಹೊರತೆಗೆಯಿರಿ.</p>\n      <p>ಡೇಟಾ ಹೊರತೆಗೆಯುವಿಕೆ, ದಾಖಲೆ ವಿಶ್ಲೇಷಣೆ ಅಥವಾ ಅಪ್ಲಿಕೇಶನ್‌ಗಳು ಮತ್ತು ವರ್ಕ್‌ಫ್ಲೋಗಳಿಗೆ PDF ವಿಷಯವನ್ನು ಸಂಯೋಜಿಸಲು ಪರಿಪೂರ್ಣವಾಗಿದೆ.</p>\n      <p>ಎಲ್ಲಾ ಹೊರತೆಗೆಯುವಿಕೆಯು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ನಡೆಯುತ್ತದೆ, ನಿಮ್ಮ ದಾಖಲೆಗಳು ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "ನಿಮ್ಮ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Select Data to Extract",
-        "description": "Choose what content to extract: text, metadata, structure."
+        "title": "ಹೊರತೆಗೆಯಬೇಕಾದ ಡೇಟಾವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+        "description": "ಯಾವ ವಿಷಯವನ್ನು ಹೊರತೆಗೆಯಬೇಕೆಂದು ಆಯ್ಕೆಮಾಡಿ: ಪಠ್ಯ, ಮೆಟಾಡೇಟಾ, ರಚನೆ."
       },
       {
         "step": 3,
         "title": "ಹೊರತೆಗೆಯಿರಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Click Extract to generate JSON and download."
+        "description": "JSON ರಚಿಸಲು ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು Extract ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Data Extraction",
-        "description": "Extract structured data from PDF documents.",
+        "title": "ಡೇಟಾ ಹೊರತೆಗೆಯುವಿಕೆ",
+        "description": "PDF ದಾಖಲೆಗಳಿಂದ ರಚನಾತ್ಮಕ ಡೇಟಾವನ್ನು ಹೊರತೆಗೆಯಿರಿ.",
         "icon": "database"
       },
       {
-        "title": "Document Analysis",
-        "description": "Analyze PDF structure and content programmatically.",
+        "title": "ದಾಖಲೆ ವಿಶ್ಲೇಷಣೆ",
+        "description": "PDF ರಚನೆ ಮತ್ತು ವಿಷಯವನ್ನು ಪ್ರೋಗ್ರಾಮ್‌ ಮೂಲಕ ವಿಶ್ಲೇಷಿಸಿ.",
         "icon": "search"
       },
       {
-        "title": "Integration",
-        "description": "Import PDF content into applications via JSON.",
+        "title": "ಸಂಯೋಜನೆ",
+        "description": "JSON ಮೂಲಕ ಅಪ್ಲಿಕೇಶನ್‌ಗಳಿಗೆ PDF ವಿಷಯವನ್ನು ಆಮದು ಮಾಡಿಕೊಳ್ಳಿ.",
         "icon": "plug"
       }
     ],
     "faq": [
       {
-        "question": "What data is extracted?",
-        "answer": "Text content, metadata, page dimensions, fonts, and document structure."
+        "question": "ಯಾವ ಡೇಟಾವನ್ನು ಹೊರತೆಗೆಯಲಾಗುತ್ತದೆ?",
+        "answer": "ಪಠ್ಯ ವಿಷಯ, ಮೆಟಾಡೇಟಾ, ಪುಟದ ಅಳತೆಗಳು, ಫಾಂಟ್‌ಗಳು ಮತ್ತು ದಾಖಲೆಯ ರಚನೆ."
       },
       {
-        "question": "Is the JSON format documented?",
-        "answer": "Yes, the JSON schema is consistent and well-documented."
+        "question": "JSON ಫಾರ್ಮ್ಯಾಟ್‌ಗೆ ಡಾಕ್ಯುಮೆಂಟೇಶನ್ ಇದೆಯೇ?",
+        "answer": "ಹೌದು, JSON ಸ್ಕೀಮಾ ಸ್ಥಿರವಾಗಿದೆ ಮತ್ತು ಉತ್ತಮವಾಗಿ ಡಾಕ್ಯುಮೆಂಟ್ ಆಗಿದೆ."
       },
       {
-        "question": "Can I extract from scanned PDFs?",
-        "answer": "Scanned PDFs require OCR first. Use our OCR PDF tool before extraction."
+        "question": "ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ PDF ಗಳಿಂದ ನಾನು ಹೊರತೆಗೆಯಬಹುದೇ?",
+        "answer": "ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ PDF ಗಳಿಗೆ ಮೊದಲು OCR ಅಗತ್ಯವಿದೆ. ಹೊರತೆಗೆಯುವ ಮೊದಲು ನಮ್ಮ OCR PDF ಉಪಕರಣವನ್ನು ಬಳಸಿ."
       }
     ]
   },
   "pdf-to-pptx": {
-    "title": "PDF to PowerPoint",
-    "metaDescription": "Convert PDF to PowerPoint presentation. Each page becomes a high-quality slide.",
+    "title": "PDF ನಿಂದ PowerPoint",
+    "metaDescription": "PDF ಅನ್ನು PowerPoint ಪ್ರಸ್ತುತಿಯಾಗಿ ಪರಿವರ್ತಿಸಿ. ಪ್ರತಿಯೊಂದು ಪುಟವೂ ಉತ್ತಮ ಗುಣಮಟ್ಟದ ಸ್ಲೈಡ್ ಆಗುತ್ತದೆ.",
     "keywords": [
       "pdf to pptx",
       "pdf to powerpoint",
       "convert pdf slides",
       "pdf presentation"
     ],
-    "description": "\n      <p>PDF to PowerPoint converts your PDF documents into editable PowerPoint presentations (PPTX). Each PDF page is transformed into a high-quality slide, preserving the visual layout perfectly.</p>\n      <p>This tool is ideal for converting reports, handouts, or any PDF content into presentation format. You can choose the image quality (DPI) to balance between file size and visual clarity.</p>\n      <p>All conversion happens locally in your browser, ensuring your documents remain private and secure.</p>\n    ",
+    "description": "\n      <p>PDF to PowerPoint ನಿಮ್ಮ PDF ದಾಖಲೆಗಳನ್ನು ಎಡಿಟ್ ಮಾಡಬಹುದಾದ PowerPoint ಪ್ರಸ್ತುತಿಗಳಾಗಿ (PPTX) ಪರಿವರ್ತಿಸುತ್ತದೆ. ಪ್ರತಿಯೊಂದು PDF ಪುಟವನ್ನು ದೃಶ್ಯ ವಿನ್ಯಾಸವನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ಕಾಯ್ದುಕೊಳ್ಳುವ ಮೂಲಕ ಉತ್ತಮ ಗುಣಮಟ್ಟದ ಸ್ಲೈಡ್ ಆಗಿ ರೂಪಾಂತರಿಸಲಾಗುತ್ತದೆ.</p>\n      <p>ವರದಿಗಳು, ಹ್ಯಾಂಡ್‌ಔಟ್‌ಗಳು ಅಥವಾ ಯಾವುದೇ PDF ವಿಷಯವನ್ನು ಪ್ರಸ್ತುತಿ ರೂಪಕ್ಕೆ ಪರಿವರ್ತಿಸಲು ಈ ಉಪಕರಣ ಸೂಕ್ತವಾಗಿದೆ. ಫೈಲ್ ಗಾತ್ರ ಮತ್ತು ದೃಶ್ಯ ಸ್ಪಷ್ಟತೆಯ ನಡುವೆ ಸಮತೋಲನ ಸಾಧಿಸಲು ನೀವು ಚಿತ್ರದ ಗುಣಮಟ್ಟವನ್ನು (DPI) ಆಯ್ಕೆ ಮಾಡಬಹುದು.</p>\n      <p>ಎಲ್ಲಾ ಪರಿವರ್ತನೆಯು ಸ್ಥಳೀಯವಾಗಿ ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ನಡೆಯುತ್ತದೆ, ನಿಮ್ಮ ದಾಖಲೆಗಳು ಖಾಸಗಿ ಮತ್ತು ಸುರಕ್ಷಿತವಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your PDF file or click to select it from your device."
+        "description": "ನಿಮ್ಮ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ನಿಮ್ಮ ಸಾಧನದಿಂದ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Choose Quality Settings",
-        "description": "Select the image quality (DPI) for the slides. Higher DPI means better quality but larger file size."
+        "title": "ಗುಣಮಟ್ಟದ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+        "description": "ಸ್ಲೈಡ್‌ಗಳಿಗಾಗಿ ಚಿತ್ರದ ಗುಣಮಟ್ಟವನ್ನು (DPI) ಆಯ್ಕೆಮಾಡಿ. ಹೆಚ್ಚಿನ DPI ಎಂದರೆ ಉತ್ತಮ ಗುಣಮಟ್ಟ ಆದರೆ ದೊಡ್ಡ ಫೈಲ್ ಗಾತ್ರ."
       },
       {
         "step": 3,
         "title": "ಪರಿವರ್ತಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Click Convert to create your PowerPoint presentation and download the PPTX file."
+        "description": "ನಿಮ್ಮ PowerPoint ಪ್ರಸ್ತುತಿಯನ್ನು ರಚಿಸಲು ಮತ್ತು PPTX ಫೈಲ್ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು Convert ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Presentation Creation",
-        "description": "Convert PDF reports or documents into presentation slides for meetings.",
+        "title": "ಪ್ರಸ್ತುತಿ ರಚನೆ",
+        "description": "ಸಭೆಗಳಿಗಾಗಿ PDF ವರದಿಗಳು ಅಥವಾ ದಾಖಲೆಗಳನ್ನು ಪ್ರಸ್ತುತಿ ಸ್ಲೈಡ್‌ಗಳಾಗಿ ಪರಿವರ್ತಿಸಿ.",
         "icon": "presentation"
       },
       {
-        "title": "Training Materials",
-        "description": "Transform PDF training documents into interactive PowerPoint presentations.",
+        "title": "ತರಬೇತಿ ಸಾಮಗ್ರಿಗಳು",
+        "description": "PDF ತರಬೇತಿ ದಾಖಲೆಗಳನ್ನು ಇಂಟರಾಕ್ಟಿವ್ PowerPoint ಪ್ರಸ್ತುತಿಗಳಾಗಿ ರೂಪಾಂತರಿಸಿ.",
         "icon": "book-open"
       },
       {
-        "title": "Content Repurposing",
-        "description": "Convert existing PDF content into editable slide format for further customization.",
+        "title": "ವಿಷಯದ ಮರುಬಳಕೆ",
+        "description": "ಹೆಚ್ಚಿನ ಕಸ್ಟಮೈಸೇಶನ್‌ಗಾಗಿ বিদ্যমান PDF ವಿಷಯವನ್ನು ಎಡಿಟ್ ಮಾಡಬಹುದಾದ ಸ್ಲೈಡ್ ರೂಪಕ್ಕೆ ಪರಿವರ್ತಿಸಿ.",
         "icon": "refresh-cw"
       }
     ],
     "faq": [
       {
-        "question": "Will the slides be editable?",
-        "answer": "Each slide contains a high-quality image of the PDF page. You can add text, shapes, and annotations on top in PowerPoint."
+        "question": "ಸ್ಲೈಡ್‌ಗಳನ್ನು ಎಡಿಟ್ ಮಾಡಬಹುದೇ?",
+        "answer": "ಪ್ರತಿಯೊಂದು ಸ್ಲೈಡ್ PDF ಪುಟದ ಉತ್ತಮ ಗುಣಮಟ್ಟದ ಚಿತ್ರವನ್ನು ಹೊಂದಿರುತ್ತದೆ. ನೀವು PowerPoint ನಲ್ಲಿ ಇದರ ಮೇಲೆ ಪಠ್ಯ, ಆಕಾರಗಳು ಮತ್ತು ಟಿಪ್ಪಣಿಗಳನ್ನು ಸೇರಿಸಬಹುದು."
       },
       {
         "question": "ನಾನು ಯಾವ DPI ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಬೇಕು?",
-        "answer": "Use 150 DPI for presentations displayed on screens. Use 300 DPI for printing or when you need the highest quality."
+        "answer": "ಸ್ಕ್ರೀನ್‌ಗಳಲ್ಲಿ ಪ್ರದರ್ಶಿಸುವ ಪ್ರಸ್ತುತಿಗಳಿಗಾಗಿ 150 DPI ಬಳಸಿ. ಮುದ್ರಣಕ್ಕಾಗಿ ಅಥವಾ ಅತ್ಯುನ್ನತ ಗುಣಮಟ್ಟದ ಅಗತ್ಯವಿದ್ದಾಗ 300 DPI ಬಳಸಿ."
       },
       {
-        "question": "Can I convert multi-page PDFs?",
-        "answer": "Yes, each page of your PDF becomes a separate slide in the PowerPoint presentation."
+        "question": "ನಾನು ಬಹು-ಪುಟಗಳ PDF ಗಳನ್ನು ಪರಿವರ್ತಿಸಬಹುದೇ?",
+        "answer": "ಹೌದು, ನಿಮ್ಮ PDF ನ ಪ್ರತಿಯೊಂದು ಪುಟವೂ PowerPoint ಪ್ರಸ್ತುತಿಯಲ್ಲಿ ಪ್ರತ್ಯೇಕ ಸ್ಲೈಡ್ ಆಗುತ್ತದೆ."
       }
     ]
   },
   "pdf-to-excel": {
-    "title": "PDF to Excel",
-    "metaDescription": "Convert PDF to Excel spreadsheet. Extract tables to XLSX format.",
+    "title": "PDF ನಿಂದ Excel",
+    "metaDescription": "PDF ಅನ್ನು Excel ಸ್ಪ್ರೆಡ್‌ಶೀಟ್‌ಗೆ ಪರಿವರ್ತಿಸಿ. ಕೋಷ್ಟಕಗಳನ್ನು XLSX ರೂಪಕ್ಕೆ ಹೊರತೆಗೆಯಿರಿ.",
     "keywords": [
       "pdf to excel",
       "pdf to xlsx",
       "convert pdf tables",
       "extract tables"
     ],
-    "description": "\n      <p>PDF to Excel converts your PDF documents into editable Microsoft Excel spreadsheets (XLSX). The tool automatically detects tables in your PDF and extracts them into separate sheets.</p>\n      <p>This tool is ideal for analyzing financial reports, invoices, or any data presented in tables. Each page's tables are organized into sheets for easy data manipulation.</p>\n      <p>All conversion happens locally in your browser, ensuring your data remains private and secure.</p>\n    ",
+    "description": "\n      <p>PDF to Excel ನಿಮ್ಮ PDF ದಾಖಲೆಗಳನ್ನು ಎಡಿಟ್ ಮಾಡಬಹುದಾದ Microsoft Excel ಸ್ಪ್ರೆಡ್‌ಶೀಟ್‌ಗಳಾಗಿ (XLSX) ಪರಿವರ್ತಿಸುತ್ತದೆ. ಈ ಉಪಕರಣವು ನಿಮ್ಮ PDF ನಲ್ಲಿರುವ ಕೋಷ್ಟಕಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಪತ್ತೆಹಚ್ಚುತ್ತದೆ ಮತ್ತು ಅವುಗಳನ್ನು ಪ್ರತ್ಯೇಕ ಶೀಟ್‌ಗಳಿಗೆ ಹೊರತೆಗೆಯುತ್ತದೆ.</p>\n      <p>ಹಣಕಾಸಿನ ವರದಿಗಳು, ಇನ್‌ವಾಯ್ಸ್‌ಗಳು ಅಥವಾ ಕೋಷ್ಟಕಗಳಲ್ಲಿ ನೀಡಲಾದ ಯಾವುದೇ ಡೇಟಾವನ್ನು ವಿಶ್ಲೇಷಿಸಲು ಈ ಉಪಕರಣ ಸೂಕ್ತವಾಗಿದೆ. ಸುಲಭ ಡೇಟಾ ಕುಶಲತೆಗಾಗಿ ಪ್ರತಿಯೊಂದು ಪುಟದ ಕೋಷ್ಟಕಗಳನ್ನು ಶೀಟ್‌ಗಳಾಗಿ ಸಂಘಟಿಸಲಾಗುತ್ತದೆ.</p>\n      <p>ಎಲ್ಲಾ ಪರಿವರ್ತನೆಯು ಸ್ಥಳೀಯವಾಗಿ ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ನಡೆಯುತ್ತದೆ, ನಿಮ್ಮ ಡೇಟಾ ಖಾಸಗಿ ಮತ್ತು ಸುರಕ್ಷಿತವಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "ನಿಮ್ಮ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Process",
-        "description": "The tool will automatically identify and extract tables."
+        "title": "ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಿ",
+        "description": "ಉಪಕರಣವು ಕೋಷ್ಟಕಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಗುರುತಿಸುತ್ತದೆ ಮತ್ತು ಹೊರತೆಗೆಯುತ್ತದೆ."
       },
       {
         "step": 3,
-        "title": "Download Excel",
-        "description": "Download your Excel file with extracted tables."
+        "title": "Excel ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ಹೊರತೆಗೆಯಲಾದ ಕೋಷ್ಟಕಗಳೊಂದಿಗೆ ನಿಮ್ಮ Excel ಫೈಲ್ ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Financial Analysis",
-        "description": "Convert bank statements or invoices to Excel for analysis.",
+        "title": "ಹಣಕಾಸು ವಿಶ್ಲೇಷಣೆ",
+        "description": "ವಿಶ್ಲೇಷಣೆಗಾಗಿ ಬ್ಯಾಂಕ್ ಸ್ಟೇಟ್‌ಮೆಂಟ್‌ಗಳು ಅಥವಾ ಇನ್‌ವಾಯ್ಸ್‌ಗಳನ್ನು Excel ಗೆ ಪರಿವರ್ತಿಸಿ.",
         "icon": "trending-up"
       },
       {
-        "title": "Data Extraction",
-        "description": "Pull data tables from research papers or reports.",
+        "title": "ಡೇಟಾ ಹೊರತೆಗೆಯುವಿಕೆ",
+        "description": "ಸಂಶೋಧನಾ ಪ್ರಬಂಧಗಳು ಅಥವಾ ವರದಿಗಳಿಂದ ಡೇಟಾ ಕೋಷ್ಟಕಗಳನ್ನು ಪಡೆದುಕೊಳ್ಳಿ.",
         "icon": "database"
       },
       {
-        "title": "Inventory Management",
-        "description": "Convert inventory lists from PDF to spreadsheet.",
+        "title": "ದಾಸ್ತಾನು ನಿರ್ವಹಣೆ",
+        "description": "ದಾಸ್ತಾನು ಪಟ್ಟಿಗಳನ್ನು PDF ನಿಂದ ಸ್ಪ್ರೆಡ್‌ಶೀಟ್‌ಗೆ ಪರಿವರ್ತಿಸಿ.",
         "icon": "clipboard"
       }
     ],
     "faq": [
       {
-        "question": "How are tables handled?",
-        "answer": "Tables detected on each page are extracted to corresponding sheets in the Excel file."
+        "question": "ಕೋಷ್ಟಕಗಳನ್ನು ಹೇಗೆ ನಿರ್ವಹಿಸಲಾಗುತ್ತದೆ?",
+        "answer": "ಪ್ರತಿಯೊಂದು ಪುಟದಲ್ಲಿ ಪತ್ತೆಯಾದ ಕೋಷ್ಟಕಗಳನ್ನು Excel ಫೈಲ್‌ನಲ್ಲಿನ ಅನುರೂಪ ಶೀಟ್‌ಗಳಿಗೆ ಹೊರತೆಗೆಯಲಾಗುತ್ತದೆ."
       },
       {
-        "question": "What if there are no tables?",
-        "answer": "An info sheet will be created indicating no tables were found."
+        "question": "ಯಾವುದೇ ಕೋಷ್ಟಕಗಳು ಇಲ್ಲದಿದ್ದರೆ ಏನು ಮಾಡುವುದು?",
+        "answer": "ಯಾವುದೇ ಕೋಷ್ಟಕಗಳು ಕಂಡುಬಂದಿಲ್ಲ ಎಂದು ಸೂಚಿಸುವ ಮಾಹಿತಿ ಶೀಟ್ ರಚಿಸಲಾಗುತ್ತದೆ."
       },
       {
-        "question": "Is formatting preserved?",
-        "answer": "Data is preserved, but complex visual formatting may be simplified for spreadsheet use."
+        "question": "ಫಾರ್ಮ್ಯಾಟಿಂಗ್ ಅನ್ನು ಉಳಿಸಿಕೊಳ್ಳಲಾಗುತ್ತದೆಯೇ?",
+        "answer": "ಡೇಟಾವನ್ನು ಉಳಿಸಿಕೊಳ್ಳಲಾಗುತ್ತದೆ, ಆದರೆ ಸ್ಪ್ರೆಡ್‌ಶೀಟ್ ಬಳಕೆಗೆ ಅನುಕೂಲವಾಗುವಂತೆ ಸಂಕೀರ್ಣ ದೃಶ್ಯ ಫಾರ್ಮ್ಯಾಟಿಂಗ್ ಅನ್ನು ಸರಳಗೊಳಿಸಬಹುದು."
       }
     ]
   },
   "ocr-pdf": {
     "title": "OCR PDF",
-    "metaDescription": "Make scanned PDFs searchable with OCR. Extract text from images and scanned documents.",
+    "metaDescription": "ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ PDF ಗಳನ್ನು OCR ನೊಂದಿಗೆ ಸರ್ಚ್ ಮಾಡಬಹುದಾದಂತೆ ಮಾಡಿ. ಚಿತ್ರಗಳು ಮತ್ತು ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳಿಂದ ಪಠ್ಯವನ್ನು ಹೊರತೆಗೆಯಿರಿ.",
     "keywords": [
       "ocr pdf",
       "searchable pdf",
       "text recognition",
       "scan to text"
     ],
-    "description": "\n      <p>OCR PDF uses Optical Character Recognition to extract text from scanned documents and images within PDFs. Convert image-based PDFs into searchable, selectable text documents.</p>\n      <p>Support for multiple languages ensures accurate text recognition regardless of the document's language. The original layout is preserved while adding a searchable text layer.</p>\n      <p>All OCR processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>OCR PDF ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳು ಮತ್ತು PDF ಗಳಲ್ಲಿನ ಚಿತ್ರಗಳಿಂದ ಪಠ್ಯವನ್ನು ಹೊರತೆಗೆಯಲು Optical Character Recognition ಅನ್ನು ಬಳಸುತ್ತದೆ. ಚಿತ್ರ-ಆಧಾರಿತ PDF ಗಳನ್ನು ಸರ್ಚ್ ಮಾಡಬಹುದಾದ, ಆಯ್ಕೆ ಮಾಡಬಹುದಾದ ಪಠ್ಯ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳಾಗಿ ಪರಿವರ್ತಿಸಿ.</p>\n      <p>ಹಲವು ಭಾಷೆಗಳಿಗೆ ಬೆಂಬಲವು ಡಾಕ್ಯುಮೆಂಟ್‌ನ ಭಾಷೆಯನ್ನು ಲೆಕ್ಕಿಸದೆ ನಿಖರವಾದ ಪಠ್ಯ ಗುರುತಿಸುವಿಕೆಯನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ. ಸರ್ಚ್ ಮಾಡಬಹುದಾದ ಪಠ್ಯದ ಪದರವನ್ನು ಸೇರಿಸುವಾಗ ಮೂಲ ಲೇಔಟ್ ಅನ್ನು ಉಳಿಸಿಕೊಳ್ಳಲಾಗುತ್ತದೆ.</p>\n      <p>ಎಲ್ಲಾ OCR ಪ್ರಕ್ರಿಯೆಯು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ನಡೆಯುತ್ತದೆ, ಇದರಿಂದ ನಿಮ್ಮ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳು ಖಾಸಗಿಯಾಗಿರುತ್ತವೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Scanned PDF",
-        "description": "Drag and drop your scanned PDF or click to select."
+        "title": "ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ನಿಮ್ಮ ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ PDF ಅನ್ನು ಡ್ರಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Select Language",
-        "description": "Choose the document language for accurate recognition."
+        "title": "ಭಾಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+        "description": "ನಿಖರವಾದ ಗುರುತಿಸುವಿಕೆಗಾಗಿ ಡಾಕ್ಯುಮೆಂಟ್ ಭಾಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ."
       },
       {
         "step": 3,
         "title": "ಸಂಸ್ಕರಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Click Process to run OCR and download the searchable PDF."
+        "description": "OCR ರನ್ ಮಾಡಲು ಮತ್ತು ಸರ್ಚ್ ಮಾಡಬಹುದಾದ PDF ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು Process ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Digitize Archives",
-        "description": "Make scanned document archives searchable.",
+        "title": "ಆರ್ಕೈವ್‌ಗಳನ್ನು ಡಿಜಿಟೈಸ್ ಮಾಡಿ",
+        "description": "ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ಡಾಕ್ಯುಮೆಂಟ್ ಆರ್ಕೈವ್‌ಗಳನ್ನು ಸರ್ಚ್ ಮಾಡಬಹುದಾದಂತೆ ಮಾಡಿ.",
         "icon": "archive"
       },
       {
-        "title": "Document Search",
-        "description": "Enable text search in scanned documents.",
+        "title": "ಡಾಕ್ಯುಮೆಂಟ್ ಸರ್ಚ್",
+        "description": "ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳಲ್ಲಿ ಪಠ್ಯ ಸರ್ಚ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ.",
         "icon": "search"
       },
       {
-        "title": "Text Extraction",
-        "description": "Extract text from scanned documents for editing.",
+        "title": "ಪಠ್ಯ ಹೊರತೆಗೆಯುವಿಕೆ",
+        "description": "ಸಂಪಾದನೆಗಾಗಿ ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳಿಂದ ಪಠ್ಯವನ್ನು ಹೊರತೆಗೆಯಿರಿ.",
         "icon": "type"
       }
     ],
     "faq": [
       {
-        "question": "What languages are supported?",
-        "answer": "Over 100 languages are supported including English, Chinese, Japanese, Korean, and more."
+        "question": "ಯಾವ ಭಾಷೆಗಳನ್ನು ಬೆಂಬಲಿಸಲಾಗುತ್ತದೆ?",
+        "answer": "English, Chinese, Japanese, Korean ಸೇರಿದಂತೆ 100 ಕ್ಕೂ ಹೆಚ್ಚು ಭಾಷೆಗಳನ್ನು ಬೆಂಬಲಿಸಲಾಗುತ್ತದೆ."
       },
       {
-        "question": "Will the original layout be preserved?",
-        "answer": "Yes, the original visual layout is preserved with a searchable text layer added."
+        "question": "ಮೂಲ ಲೇಔಟ್ ಅನ್ನು ಉಳಿಸಿಕೊಳ್ಳಲಾಗುತ್ತದೆಯೇ?",
+        "answer": "ಹೌದು, ಸರ್ಚ್ ಮಾಡಬಹುದಾದ ಪಠ್ಯ ಪದರವನ್ನು ಸೇರಿಸುವುದರೊಂದಿಗೆ ಮೂಲ ದೃಶ್ಯ ಲೇಔಟ್ ಅನ್ನು ಉಳಿಸಿಕೊಳ್ಳಲಾಗುತ್ತದೆ."
       },
       {
-        "question": "How accurate is the OCR?",
-        "answer": "Accuracy depends on scan quality but typically exceeds 95% for clear documents."
+        "question": "OCR ಎಷ್ಟು ನಿಖರವಾಗಿದೆ?",
+        "answer": "ನಿಖರತೆಯು ಸ್ಕ್ಯಾನ್ ಗುಣಮಟ್ಟವನ್ನು ಅವಲಂಬಿಸಿರುತ್ತದೆ, ಆದರೆ ಸ್ಪಷ್ಟ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳಿಗೆ ಸಾಮಾನ್ಯವಾಗಿ 95% ಕ್ಕಿಂತ ಹೆಚ್ಚಾಗಿರುತ್ತದೆ."
       }
     ]
   },
   "alternate-merge": {
     "title": "Alternate Merge",
-    "metaDescription": "Merge PDFs by alternating pages. Combine front and back scans into one document.",
+    "metaDescription": "ಪುಟಗಳನ್ನು ಪರ್ಯಾಯವಾಗಿ ಸೇರಿಸುವ ಮೂಲಕ PDF ಗಳನ್ನು ವಿಲೀನಗೊಳಿಸಿ. ಮುಂಭಾಗ ಮತ್ತು ಹಿಂಭಾಗದ ಸ್ಕ್ಯಾನ್‌ಗಳನ್ನು ಒಂದೇ ಡಾಕ್ಯುಮೆಂಟ್‌ನಲ್ಲಿ ಸಂಯೋಜಿಸಿ.",
     "keywords": [
       "alternate merge",
       "interleave pdf",
       "combine scans",
       "front back merge"
     ],
-    "description": "\n      <p>Alternate Merge combines two PDFs by interleaving their pages alternately. This is perfect for combining separately scanned front and back pages into a single document.</p>\n      <p>Upload two PDFs and the tool will merge them by taking one page from each alternately. You can also reverse the order of one document for back-to-front scanning.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>Alternate Merge ಎರಡು PDF ಗಳ ಪುಟಗಳನ್ನು ಪರ್ಯಾಯವಾಗಿ ಹೆಣೆಯುವ ಮೂಲಕ ಸಂಯೋಜಿಸುತ್ತದೆ. ಪ್ರತ್ಯೇಕವಾಗಿ ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ಮುಂಭಾಗ ಮತ್ತು ಹಿಂಭಾಗದ ಪುಟಗಳನ್ನು ಒಂದೇ ಡಾಕ್ಯುಮೆಂಟ್‌ಗೆ ಸಂಯೋಜಿಸಲು ಇದು ಸೂಕ್ತವಾಗಿದೆ.</p>\n      <p>ಎರಡು PDF ಗಳನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ ಮತ್ತು ಟೂಲ್ ಪ್ರತಿಯೊಂದರಿಂದ ಒಂದೊಂದು ಪುಟವನ್ನು ಪರ್ಯಾಯವಾಗಿ ತೆಗೆದುಕೊಂಡು ಅವುಗಳನ್ನು ವಿಲೀನಗೊಳಿಸುತ್ತದೆ. ಹಿಂಭಾಗದಿಂದ ಮುಂಭಾಗದ ಸ್ಕ್ಯಾನಿಂಗ್‌ಗಾಗಿ ನೀವು ಒಂದು ಡಾಕ್ಯುಮೆಂಟ್‌ನ ಕ್ರಮವನ್ನು ಹಿಮ್ಮುಖಗೊಳಿಸಬಹುದು.</p>\n      <p>ಎಲ್ಲಾ ಪ್ರಕ್ರಿಯೆಯು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ನಡೆಯುತ್ತದೆ, ಇದರಿಂದ ನಿಮ್ಮ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳು ಖಾಸಗಿಯಾಗಿರುತ್ತವೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Two PDFs",
-        "description": "Upload the front pages PDF and back pages PDF."
+        "title": "ಎರಡು PDF ಗಳನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ಮುಂಭಾಗದ ಪುಟಗಳ PDF ಮತ್ತು ಹಿಂಭಾಗದ ಪುಟಗಳ PDF ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Configure Order",
-        "description": "Choose whether to reverse the second document for back-to-front scans."
+        "title": "ಕ್ರಮವನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಿ",
+        "description": "ಹಿಂಭಾಗದಿಂದ ಮುಂಭಾಗದ ಸ್ಕ್ಯಾನ್‌ಗಳಿಗಾಗಿ ಎರಡನೇ ಡಾಕ್ಯುಮೆಂಟ್ ಅನ್ನು ಹಿಮ್ಮುಖಗೊಳಿಸಬೇಕೆ ಎಂದು ಆಯ್ಕೆಮಾಡಿ."
       },
       {
         "step": 3,
         "title": "ವಿಲೀನಗೊಳಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Click Merge to interleave pages and download."
+        "description": "ಪುಟಗಳನ್ನು ಪರ್ಯಾಯವಾಗಿ ಜೋಡಿಸಲು ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು Merge ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Duplex Scanning",
-        "description": "Combine separately scanned front and back pages.",
+        "title": "ಡ್ಯುಪ್ಲೆಕ್ಸ್ ಸ್ಕ್ಯಾನಿಂಗ್",
+        "description": "ಪ್ರತ್ಯೇಕವಾಗಿ ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ಮುಂಭಾಗ ಮತ್ತು ಹಿಂಭಾಗದ ಪುಟಗಳನ್ನು ಸಂಯೋಜಿಸಿ.",
         "icon": "copy"
       },
       {
-        "title": "Document Assembly",
-        "description": "Interleave pages from two related documents.",
+        "title": "ಡಾಕ್ಯುಮೆಂಟ್ ಸಂಯೋಜನೆ",
+        "description": "ಎರಡು ಸಂಬಂಧಿತ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳಿಂದ ಪುಟಗಳನ್ನು ಪರ್ಯಾಯವಾಗಿ ಜೋಡಿಸಿ.",
         "icon": "layers"
       },
       {
-        "title": "Book Scanning",
-        "description": "Combine odd and even page scans into complete books.",
+        "title": "ಪುಸ್ತಕ ಸ್ಕ್ಯಾನಿಂಗ್",
+        "description": "ಬೆಸ ಮತ್ತು ಸರಿ ಪುಟಗಳ ಸ್ಕ್ಯಾನ್‌ಗಳನ್ನು ಪೂರ್ಣ ಪುಸ್ತಕಗಳಾಗಿ ಸಂಯೋಜಿಸಿ.",
         "icon": "book"
       }
     ],
     "faq": [
       {
-        "question": "What if documents have different page counts?",
-        "answer": "Extra pages from the longer document are appended at the end."
+        "question": "ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳು ವಿಭಿನ್ನ ಪುಟ ಸಂಖ್ಯೆಗಳನ್ನು ಹೊಂದಿದ್ದರೆ ಏನು ಮಾಡುವುದು?",
+        "answer": "ಹೆಚ್ಚು ಪುಟಗಳಿರುವ ಡಾಕ್ಯುಮೆಂಟ್‌ನ ಹೆಚ್ಚುವರಿ ಪುಟಗಳನ್ನು ಕೊನೆಯಲ್ಲಿ ಸೇರಿಸಲಾಗುತ್ತದೆ."
       },
       {
-        "question": "Can I reverse page order?",
-        "answer": "Yes, you can reverse either document before merging."
+        "question": "ನಾನು ಪುಟದ ಕ್ರಮವನ್ನು ಹಿಮ್ಮುಖಗೊಳಿಸಬಹುದೇ?",
+        "answer": "ಹೌದು, ವಿಲೀನಗೊಳಿಸುವ ಮೊದಲು ನೀವು ಯಾವುದೇ ಡಾಕ್ಯುಮೆಂಟ್ ಅನ್ನು ಹಿಮ್ಮುಖಗೊಳಿಸಬಹುದು."
       },
       {
-        "question": "Is this different from regular merge?",
-        "answer": "Yes, regular merge appends documents; alternate merge interleaves pages."
+        "question": "ಇದು ಸಾಮಾನ್ಯ ವಿಲೀನಕ್ಕಿಂತ ಭಿನ್ನವಾಗಿದೆಯೇ?",
+        "answer": "ಹೌದು, ಸಾಮಾನ್ಯ ವಿಲೀನವು ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳನ್ನು ಒಂದರ ನಂತರ ಒಂದರಂತೆ ಸೇರಿಸುತ್ತದೆ; alternate merge ಪುಟಗಳನ್ನು ಪರ್ಯಾಯವಾಗಿ ಜೋಡಿಸುತ್ತದೆ."
       }
     ]
   },
   "add-attachments": {
-    "title": "Add Attachments",
-    "metaDescription": "Embed files in PDF documents. Attach any file type to your PDFs.",
+    "title": "ಲಗತ್ತುಗಳನ್ನು ಸೇರಿಸಿ",
+    "metaDescription": "PDF ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳಲ್ಲಿ ಫೈಲ್‌ಗಳನ್ನು ಎಂಬೆಡ್ ಮಾಡಿ. ನಿಮ್ಮ PDF ಗಳಿಗೆ ಯಾವುದೇ ರೀತಿಯ ಫೈಲ್ ಅನ್ನು ಲಗತ್ತಿಸಿ.",
     "keywords": [
       "pdf attachments",
       "embed files",
       "attach to pdf",
       "pdf portfolio"
     ],
-    "description": "\n      <p>Add Attachments embeds files of any type into your PDF documents. Attach spreadsheets, images, source files, or any other documents to create comprehensive PDF packages.</p>\n      <p>Attachments are embedded within the PDF and can be extracted by recipients using any PDF reader. Perfect for distributing related files together.</p>\n      <p>All processing happens in your browser, ensuring your files remain private.</p>\n    ",
+    "description": "\n      <p>Add Attachments ನಿಮ್ಮ PDF ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳಲ್ಲಿ ಯಾವುದೇ ರೀತಿಯ ಫೈಲ್‌ಗಳನ್ನು ಎಂಬೆಡ್ ಮಾಡುತ್ತದೆ. ಸಮಗ್ರ PDF ಪ್ಯಾಕೇಜ್‌ಗಳನ್ನು ರಚಿಸಲು ಸ್ಪ್ರೆಡ್‌ಶೀಟ್‌ಗಳು, ಚಿತ್ರಗಳು, ಮೂಲ ಫೈಲ್‌ಗಳು ಅಥವಾ ಇತರ ಯಾವುದೇ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳನ್ನು ಲಗತ್ತಿಸಿ.</p>\n      <p>ಲಗತ್ತುಗಳನ್ನು PDF ನೊಳಗೆ ಎಂಬೆಡ್ ಮಾಡಲಾಗುತ್ತದೆ ಮತ್ತು ಯಾವುದೇ PDF ರೀಡರ್ ಬಳಸಿ ಸ್ವೀಕರಿಸುವವರು ಹೊರತೆಗೆಯಬಹುದು. ಸಂಬಂಧಿತ ಫೈಲ್‌ಗಳನ್ನು ಒಟ್ಟಿಗೆ ಹಂಚಿಕೊಳ್ಳಲು ಇದು ಸೂಕ್ತವಾಗಿದೆ.</p>\n      <p>ಎಲ್ಲಾ ಪ್ರಕ್ರಿಯೆಯು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ನಡೆಯುತ್ತದೆ, ಇದರಿಂದ ನಿಮ್ಮ ಫೈಲ್‌ಗಳು ಖಾಸಗಿಯಾಗಿರುತ್ತವೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "ನಿಮ್ಮ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Add Attachments",
-        "description": "Select files to attach to the PDF."
+        "title": "ಲಗತ್ತುಗಳನ್ನು ಸೇರಿಸಿ",
+        "description": "PDF ಗೆ ಲಗತ್ತಿಸಲು ಫೈಲ್‌ಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ."
       },
       {
         "step": 3,
         "title": "ಉಳಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Click Save to embed attachments and download."
+        "description": "ಅನುಬಂಧಗಳನ್ನು ಎಂಬೆಡ್ ಮಾಡಲು ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು Save ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Project Packages",
-        "description": "Bundle project files with documentation PDFs.",
+        "title": "ಪ್ರಾಜೆಕ್ಟ್ ಪ್ಯಾಕೇಜ್‌ಗಳು",
+        "description": "ಪ್ರಾಜೆಕ್ಟ್ ಫೈಲ್‌ಗಳನ್ನು ಡಾಕ್ಯುಮೆಂಟೇಶನ್ PDF ಗಳೊಂದಿಗೆ ಬಂಡಲ್ ಮಾಡಿ.",
         "icon": "package"
       },
       {
-        "title": "Report Distribution",
-        "description": "Attach source data files to report PDFs.",
+        "title": "ವರದಿ ವಿತರಣೆ",
+        "description": "ವರದಿ PDF ಗಳಿಗೆ ಮೂಲ ಡೇಟಾ ಫೈಲ್‌ಗಳನ್ನು ಲಗತ್ತಿಸಿ.",
         "icon": "paperclip"
       },
       {
-        "title": "Contract Bundles",
-        "description": "Include supporting documents with contracts.",
+        "title": "ಒಪ್ಪಂದದ ಬಂಡಲ್‌ಗಳು",
+        "description": "ಒಪ್ಪಂದಗಳೊಂದಿಗೆ ಪೂರಕ ದಾಖಲೆಗಳನ್ನು ಸೇರಿಸಿ.",
         "icon": "file-text"
       }
     ],
     "faq": [
       {
-        "question": "What file types can be attached?",
-        "answer": "Any file type can be attached to a PDF."
+        "question": "ಯಾವ ಫೈಲ್ ಪ್ರಕಾರಗಳನ್ನು ಲಗತ್ತಿಸಬಹುದು?",
+        "answer": "ಯಾವುದೇ ಫೈಲ್ ಪ್ರಕಾರವನ್ನು PDF ಗೆ ಲಗತ್ತಿಸಬಹುದು."
       },
       {
-        "question": "Is there a size limit?",
-        "answer": "Total PDF size including attachments should not exceed 500MB."
+        "question": "ಗಾತ್ರದ ಮಿತಿ ಇದೆಯೇ?",
+        "answer": "ಅನುಬಂಧಗಳು ಸೇರಿದಂತೆ ಒಟ್ಟು PDF ಗಾತ್ರವು 500MB ಮೀರುವಂತಿಲ್ಲ."
       },
       {
-        "question": "Can recipients extract attachments?",
-        "answer": "Yes, any PDF reader can extract embedded attachments."
+        "question": "ಸ್ವೀಕರಿಸುವವರು ಅನುಬಂಧಗಳನ್ನು ಹೊರತೆಗೆಯಬಹುದೇ?",
+        "answer": "ಹೌದು, ಯಾವುದೇ PDF ರೀಡರ್ ಎಂಬೆಡ್ ಮಾಡಿದ ಅನುಬಂಧಗಳನ್ನು ಹೊರತೆಗೆಯಬಹುದು."
       }
     ]
   },
   "extract-attachments": {
-    "title": "Extract Attachments",
-    "metaDescription": "Extract embedded files from PDFs. Download all attachments from PDF documents.",
+    "title": "ಲಗತ್ತುಗಳನ್ನು ಹೊರತೆಗೆಯಿರಿ",
+    "metaDescription": "PDF ಗಳಿಂದ ಎಂಬೆಡ್ ಮಾಡಿದ ಫೈಲ್‌ಗಳನ್ನು ಹೊರತೆಗೆಯಿರಿ. PDF ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳಿಂದ ಎಲ್ಲಾ ಅನುಬಂಧಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ.",
     "keywords": [
       "extract attachments",
       "pdf attachments",
       "download embedded files",
       "pdf extraction"
     ],
-    "description": "\n      <p>Extract Attachments retrieves all embedded files from PDF documents. Download attachments individually or as a ZIP archive containing all files.</p>\n      <p>Perfect for accessing source files, data, or supplementary materials embedded in PDF packages.</p>\n      <p>All extraction happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>Extract Attachments PDF ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳಿಂದ ಎಲ್ಲಾ ಎಂಬೆಡ್ ಮಾಡಲಾದ ಫೈಲ್‌ಗಳನ್ನು ಮರುಪಡೆಯುತ್ತದೆ. ಅನುಬಂಧಗಳನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ಅಥವಾ ಎಲ್ಲಾ ಫೈಲ್‌ಗಳನ್ನು ಒಳಗೊಂಡಿರುವ ZIP ಆರ್ಕೈವ್ ಆಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ.</p>\n      <p>PDF ಪ್ಯಾಕೇಜ್‌ಗಳಲ್ಲಿ ಎಂಬೆಡ್ ಮಾಡಲಾದ ಮೂಲ ಫೈಲ್‌ಗಳು, ಡೇಟಾ ಅಥವಾ ಪೂರಕ ಸಾಮಗ್ರಿಗಳನ್ನು ಪ್ರವೇಶಿಸಲು ಸೂಕ್ತವಾಗಿದೆ.</p>\n      <p>ಎಲ್ಲಾ ಹೊರತೆಗೆಯುವಿಕೆಯು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ನಡೆಯುತ್ತದೆ, ನಿಮ್ಮ ದಾಖಲೆಗಳು ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "ನಿಮ್ಮ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "View Attachments",
-        "description": "See a list of all embedded files in the PDF."
+        "title": "ಅನುಬಂಧಗಳನ್ನು ವೀಕ್ಷಿಸಿ",
+        "description": "PDF ನಲ್ಲಿರುವ ಎಲ್ಲಾ ಎಂಬೆಡ್ ಮಾಡಲಾದ ಫೈಲ್‌ಗಳ ಪಟ್ಟಿಯನ್ನು ನೋಡಿ."
       },
       {
         "step": 3,
         "title": "ಹೊರತೆಗೆಯಿರಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Download individual files or all as a ZIP."
+        "description": "ಪ್ರತ್ಯೇಕ ಫೈಲ್‌ಗಳನ್ನು ಅಥವಾ ಎಲ್ಲವನ್ನೂ ZIP ಆಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Access Source Files",
-        "description": "Extract original data files from PDF reports.",
+        "title": "ಮೂಲ ಫೈಲ್‌ಗಳನ್ನು ಪ್ರವೇಶಿಸಿ",
+        "description": "PDF ವರದಿಗಳಿಂದ ಮೂಲ ಡೇಟಾ ಫೈಲ್‌ಗಳನ್ನು ಹೊರತೆಗೆಯಿರಿ.",
         "icon": "download"
       },
       {
-        "title": "Recover Attachments",
-        "description": "Retrieve embedded files from PDF packages.",
+        "title": "ಅನುಬಂಧಗಳನ್ನು ಮರುಪಡೆಯಿರಿ",
+        "description": "PDF ಪ್ಯಾಕೇಜ್‌ಗಳಿಂದ ಎಂಬೆಡ್ ಮಾಡಿದ ಫೈಲ್‌ಗಳನ್ನು ಮರುಪಡೆಯಿರಿ.",
         "icon": "folder-open"
       },
       {
-        "title": "Batch Extraction",
-        "description": "Extract attachments from multiple PDFs at once.",
+        "title": "ಬ್ಯಾಚ್ ಹೊರತೆಗೆಯುವಿಕೆ",
+        "description": "ಒಂದೇ ಬಾರಿಗೆ ಬಹು PDF ಗಳಿಂದ ಅನುಬಂಧಗಳನ್ನು ಹೊರತೆಗೆಯಿರಿ.",
         "icon": "layers"
       }
     ],
     "faq": [
       {
-        "question": "What if there are no attachments?",
-        "answer": "The tool will indicate if no embedded files are found."
+        "question": "ಯಾವುದೇ ಅನುಬಂಧಗಳಿಲ್ಲದಿದ್ದರೆ ಏನು?",
+        "answer": "ಯಾವುದೇ ಎಂಬೆಡ್ ಮಾಡಲಾದ ಫೈಲ್‌ಗಳು ಕಂಡುಬರದಿದ್ದರೆ ಟೂಲ್ ಸೂಚಿಸುತ್ತದೆ."
       },
       {
-        "question": "Are all attachment types supported?",
-        "answer": "Yes, all embedded file types can be extracted."
+        "question": "ಎಲ್ಲಾ ಅನುಬಂಧ ಪ್ರಕಾರಗಳನ್ನು ಬೆಂಬಲಿಸಲಾಗುತ್ತದೆಯೇ?",
+        "answer": "ಹೌದು, ಎಲ್ಲಾ ಎಂಬೆಡ್ ಮಾಡಲಾದ ಫೈಲ್ ಪ್ರಕಾರಗಳನ್ನು ಹೊರತೆಗೆಯಬಹುದು."
       },
       {
-        "question": "Can I extract from multiple PDFs?",
-        "answer": "Yes, you can process multiple PDFs and download all attachments."
+        "question": "ನಾನು ಬಹು PDF ಗಳಿಂದ ಹೊರತೆಗೆಯಬಹುದೇ?",
+        "answer": "ಹೌದು, ನೀವು ಬಹು PDF ಗಳನ್ನು ಪ್ರೊಸೆಸ್ ಮಾಡಬಹುದು ಮತ್ತು ಎಲ್ಲಾ ಅನುಬಂಧಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಬಹುದು."
       }
     ]
   },
   "extract-images": {
-    "title": "Extract Images from PDF",
-    "metaDescription": "Extract all embedded images from PDF files. Download individually or as a ZIP archive. Filter small images automatically.",
+    "title": "PDF ನಿಂದ ಚಿತ್ರಗಳನ್ನು ಹೊರತೆಗೆಯಿರಿ",
+    "metaDescription": "PDF ಫೈಲ್‌ಗಳಿಂದ ಎಲ್ಲಾ ಎಂಬೆಡ್ ಮಾಡಲಾದ ಚಿತ್ರಗಳನ್ನು ಹೊರತೆಗೆಯಿರಿ. ಪ್ರತ್ಯೇಕವಾಗಿ ಅಥವಾ ZIP ಆರ್ಕೈವ್ ಆಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ. ಸಣ್ಣ ಚಿತ್ರಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಫಿಲ್ಟರ್ ಮಾಡಿ.",
     "keywords": [
       "extract pdf images",
       "pdf image extraction",
@@ -3628,359 +3628,359 @@ export const toolContentKn: Record<string, ToolContent> = {
       "download pdf images",
       "pdf to images"
     ],
-    "description": "\n      <p>Extract Images from PDF retrieves all embedded images from your PDF documents. Download high-quality images individually or as a convenient ZIP archive.</p>\n      <p>The tool automatically filters out small images like icons and decorations based on customizable size thresholds. Process multiple PDFs at once for efficient batch extraction.</p>\n      <p>All extraction happens in your browser, ensuring your documents remain private and secure.</p>\n    ",
+    "description": "\n      <p>Extract Images from PDF ನಿಮ್ಮ PDF ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳಿಂದ ಎಲ್ಲಾ ಎಂಬೆಡ್ ಮಾಡಲಾದ ಚಿತ್ರಗಳನ್ನು ಮರುಪಡೆಯುತ್ತದೆ. ಉತ್ತಮ ಗುಣಮಟ್ಟದ ಚಿತ್ರಗಳನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ಅಥವಾ ಅನುಕೂಲಕರ ZIP ಆರ್ಕೈವ್ ಆಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ.</p>\n      <p>ಗ್ರಾಹಕೀಯಗೊಳಿಸಬಹುದಾದ ಗಾತ್ರದ ಮಿತಿಗಳ ಆಧಾರದ ಮೇಲೆ ಐಕಾನ್‌ಗಳು ಮತ್ತು ಅಲಂಕಾರಗಳಂತಹ ಸಣ್ಣ ಚಿತ್ರಗಳನ್ನು ಟೂಲ್ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಫಿಲ್ಟರ್ ಮಾಡುತ್ತದೆ. ಪರಿಣಾಮಕಾರಿ ಬ್ಯಾಚ್ ಹೊರತೆಗೆಯುವಿಕೆಗಾಗಿ ಒಂದೇ ಬಾರಿಗೆ ಬಹು PDF ಗಳನ್ನು ಪ್ರೊಸೆಸ್ ಮಾಡಿ.</p>\n      <p>ಎಲ್ಲಾ ಹೊರತೆಗೆಯುವಿಕೆಯು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ನಡೆಯುತ್ತದೆ, ನಿಮ್ಮ ದಾಖಲೆಗಳು ಖಾಸಗಿಯಾಗಿ ಮತ್ತು ಸುರಕ್ಷಿತವಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Your PDFs",
-        "description": "Drag and drop one or more PDF files or click to select from your device."
+        "title": "ನಿಮ್ಮ PDF ಗಳನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ಒಂದು ಅಥವಾ ಹೆಚ್ಚಿನ PDF ಫೈಲ್‌ಗಳನ್ನು ಡ್ರಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ನಿಮ್ಮ ಸಾಧನದಿಂದ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Set Filter Options",
-        "description": "Adjust minimum width, height, and file size to filter out unwanted small images."
+        "title": "ಫಿಲ್ಟರ್ ಆಯ್ಕೆಗಳನ್ನು ಹೊಂದಿಸಿ",
+        "description": "ಬಯಸದ ಸಣ್ಣ ಚಿತ್ರಗಳನ್ನು ಫಿಲ್ಟರ್ ಮಾಡಲು ಕನಿಷ್ಠ ಅಗಲ, ಎತ್ತರ ಮತ್ತು ಫೈಲ್ ಗಾತ್ರವನ್ನು ಹೊಂದಿಸಿ."
       },
       {
         "step": 3,
-        "title": "Extract Images",
-        "description": "Click Extract to find all embedded images in your PDFs."
+        "title": "ಚಿತ್ರಗಳನ್ನು ಹೊರತೆಗೆಯಿರಿ",
+        "description": "ನಿಮ್ಮ PDF ಗಳಲ್ಲಿರುವ ಎಲ್ಲಾ ಎಂಬೆಡ್ ಮಾಡಿದ ಚಿತ್ರಗಳನ್ನು ಕಂಡುಹಿಡಿಯಲು Extract ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 4,
-        "title": "Download",
-        "description": "Download individual images or all images as a ZIP archive."
+        "title": "ಡೌನ್‌ಲೋಡ್",
+        "description": "ಪ್ರತ್ಯೇಕ ಚಿತ್ರಗಳನ್ನು ಅಥವಾ ಎಲ್ಲಾ ಚಿತ್ರಗಳನ್ನು ZIP ಆರ್ಕೈವ್ ಆಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Photo Recovery",
-        "description": "Extract photos and images embedded in PDF documents for reuse or archiving.",
+        "title": "ಫೋಟೋ ರಿಕವರಿ",
+        "description": "ಮರುಬಳಕೆ ಅಥವಾ ಆರ್ಕೈವ್ ಮಾಡಲು PDF ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳಲ್ಲಿ ಎಂಬೆಡ್ ಮಾಡಲಾದ ಫೋಟೋಗಳು ಮತ್ತು ಚಿತ್ರಗಳನ್ನು ಹೊರತೆಗೆಯಿರಿ.",
         "icon": "image"
       },
       {
-        "title": "Asset Collection",
-        "description": "Gather all graphics and images from PDF reports, presentations, or brochures.",
+        "title": "ಸಂಪನ್ಮೂಲ ಸಂಗ್ರಹಣೆ",
+        "description": "PDF ವರದಿಗಳು, ಪ್ರಸ್ತುತಿಗಳು ಅಥವಾ ಬ್ರೋಷರ್‌ಗಳಿಂದ ಎಲ್ಲಾ ಗ್ರಾಫಿಕ್ಸ್ ಮತ್ತು ಚಿತ್ರಗಳನ್ನು ಸಂಗ್ರಹಿಸಿ.",
         "icon": "folder"
       },
       {
-        "title": "Content Repurposing",
-        "description": "Extract images from PDFs to use in other documents, websites, or presentations.",
+        "title": "ವಿಷಯದ ಮರುಬಳಕೆ",
+        "description": "ಇತರ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳು, ವೆಬ್‌ಸೈಟ್‌ಗಳು ಅಥವಾ ಪ್ರಸ್ತುತಿಗಳಲ್ಲಿ ಬಳಸಲು PDF ಗಳಿಂದ ಚಿತ್ರಗಳನ್ನು ಹೊರತೆಗೆಯಿರಿ.",
         "icon": "refresh-cw"
       }
     ],
     "faq": [
       {
-        "question": "What image formats are extracted?",
-        "answer": "Images are extracted in their native format (JPEG, PNG, etc.) when possible, or converted to PNG for raw image data."
+        "question": "ಯಾವ ಚಿತ್ರದ ಫಾರ್ಮ್ಯಾಟ್‌ಗಳನ್ನು ಹೊರತೆಗೆಯಲಾಗುತ್ತದೆ?",
+        "answer": "ಸಾಧ್ಯವಾದಾಗ ಚಿತ್ರಗಳನ್ನು ಅವುಗಳ ಸ್ಥಳೀಯ ಫಾರ್ಮ್ಯಾಟ್‌ನಲ್ಲಿ (JPEG, PNG, ಇತ್ಯಾದಿ) ಹೊರತೆಗೆಯಲಾಗುತ್ತದೆ, ಅಥವಾ ರಾವ್ ಚಿತ್ರದ ಡೇಟಾಗಾಗಿ PNG ಗೆ ಪರಿವರ್ತಿಸಲಾಗುತ್ತದೆ."
       },
       {
-        "question": "Why are some images missing?",
-        "answer": "Small images below the size threshold are filtered out. Adjust the filter settings to extract smaller images."
+        "question": "ಕೆಲವು ಚಿತ್ರಗಳು ಏಕೆ ಕಾಣೆಯಾಗಿವೆ?",
+        "answer": "ಗಾತ್ರದ ಮಿತಿಗಿಂತ ಕೆಳಗಿನ ಸಣ್ಣ ಚಿತ್ರಗಳನ್ನು ಫಿಲ್ಟರ್ ಮಾಡಲಾಗುತ್ತದೆ. ಸಣ್ಣ ಚಿತ್ರಗಳನ್ನು ಹೊರತೆಗೆಯಲು ಫಿಲ್ಟರ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಹೊಂದಿಸಿ."
       },
       {
-        "question": "Can I extract from scanned PDFs?",
-        "answer": "Scanned PDFs typically contain the scan as one large image per page. Use PDF to Image tool instead for page-by-page conversion."
+        "question": "ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ PDF ಗಳಿಂದ ನಾನು ಹೊರತೆಗೆಯಬಹುದೇ?",
+        "answer": "ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ PDF ಗಳು ಸಾಮಾನ್ಯವಾಗಿ ಪ್ರತಿ ಪುಟಕ್ಕೆ ಒಂದು ದೊಡ್ಡ ಚಿತ್ರದಂತೆ ಸ್ಕ್ಯಾನ್ ಅನ್ನು ಹೊಂದಿರುತ್ತವೆ. ಪುಟದಿಂದ ಪುಟದ ಪರಿವರ್ತನೆಗಾಗಿ ಬದಲಿಗೆ PDF to Image ಉಪಕರಣವನ್ನು ಬಳಸಿ."
       }
     ]
   },
   "edit-attachments": {
-    "title": "Edit Attachments",
-    "metaDescription": "Manage PDF attachments. View, rename, and remove embedded files.",
+    "title": "ಲಗತ್ತುಗಳನ್ನು ಸಂಪಾದಿಸಿ",
+    "metaDescription": "PDF ಲಗತ್ತುಗಳನ್ನು ನಿರ್ವಹಿಸಿ. ಎಂಬೆಡ್ ಮಾಡಿದ ಫೈಲ್‌ಗಳನ್ನು ವೀಕ್ಷಿಸಿ, ಮರುನಾಮಕರಣ ಮಾಡಿ ಮತ್ತು ತೆಗೆದುಹಾಕಿ.",
     "keywords": [
       "edit attachments",
       "manage pdf files",
       "remove attachments",
       "rename attachments"
     ],
-    "description": "\n      <p>Edit Attachments lets you manage embedded files in PDF documents. View all attachments, rename them, or remove unwanted files from the PDF.</p>\n      <p>Perfect for cleaning up PDF packages or updating attachment information before distribution.</p>\n      <p>All editing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>Edit Attachments ನಿಮಗೆ PDF ದಾಖಲೆಗಳಲ್ಲಿ ಎಂಬೆಡ್ ಮಾಡಲಾದ ಫೈಲ್‌ಗಳನ್ನು ನಿರ್ವಹಿಸಲು ಅನುಮತಿಸುತ್ತದೆ. ಎಲ್ಲಾ ಲಗತ್ತುಗಳನ್ನು ವೀಕ್ಷಿಸಿ, ಅವುಗಳನ್ನು ಮರುನಾಮಕರಣ ಮಾಡಿ ಅಥವಾ ಬೇಡದ ಫೈಲ್‌ಗಳನ್ನು PDF ನಿಂದ ತೆಗೆದುಹಾಕಿ.</p>\n      <p>ವಿತರಣೆಗೆ ಮೊದಲು PDF ಪ್ಯಾಕೇಜ್‌ಗಳನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸಲು ಅಥವಾ ಲಗತ್ತು ಮಾಹಿತಿಯನ್ನು ನವೀಕರಿಸಲು ಸೂಕ್ತವಾಗಿದೆ.</p>\n      <p>ಎಲ್ಲಾ ಸಂಪಾದನೆಯು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ನಡೆಯುತ್ತದೆ, ನಿಮ್ಮ ದಾಖಲೆಗಳು ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "ನಿಮ್ಮ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Manage Attachments",
-        "description": "View, rename, or delete embedded files."
+        "title": "ಲಗತ್ತುಗಳನ್ನು ನಿರ್ವಹಿಸಿ",
+        "description": "ಎಂಬೆಡ್ ಮಾಡಿದ ಫೈಲ್‌ಗಳನ್ನು ವೀಕ್ಷಿಸಿ, ಮರುನಾಮಕರಣ ಮಾಡಿ ಅಥವಾ ಅಳಿಸಿ."
       },
       {
         "step": 3,
         "title": "ಉಳಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Click Save to apply changes and download."
+        "description": "ಬದಲಾವಣೆಗಳನ್ನು ಅನ್ವಯಿಸಲು ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು Save ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Clean Up PDFs",
-        "description": "Remove unnecessary attachments from PDF packages.",
+        "title": "PDF ಗಳನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸಿ",
+        "description": "PDF ಪ್ಯಾಕೇಜ್‌ಗಳಿಂದ ಅನಗತ್ಯ ಲಗತ್ತುಗಳನ್ನು ತೆಗೆದುಹಾಕಿ.",
         "icon": "trash-2"
       },
       {
-        "title": "Rename Files",
-        "description": "Update attachment names for clarity.",
+        "title": "ಫೈಲ್‌ಗಳನ್ನು ಮರುನಾಮಕರಣ ಮಾಡಿ",
+        "description": "ಸ್ಪಷ್ಟತೆಗಾಗಿ ಲಗತ್ತಿನ ಹೆಸರುಗಳನ್ನು ನವೀಕರಿಸಿ.",
         "icon": "edit"
       },
       {
-        "title": "Review Contents",
-        "description": "Audit embedded files before distribution.",
+        "title": "ವಿಷಯಗಳನ್ನು ಪರಿಶೀಲಿಸಿ",
+        "description": "ವಿತರಣೆಗೆ ಮೊದಲು ಎಂಬೆಡ್ ಮಾಡಿದ ಫೈಲ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.",
         "icon": "eye"
       }
     ],
     "faq": [
       {
-        "question": "Can I add new attachments here?",
-        "answer": "Use the Add Attachments tool to embed new files."
+        "question": "ನಾನು ಇಲ್ಲಿ ಹೊಸ ಲಗತ್ತುಗಳನ್ನು ಸೇರಿಸಬಹುದೇ?",
+        "answer": "ಹೊಸ ಫೈಲ್‌ಗಳನ್ನು ಎಂಬೆಡ್ ಮಾಡಲು Add Attachments ಉಪಕರಣವನ್ನು ಬಳಸಿ."
       },
       {
-        "question": "Is removal permanent?",
-        "answer": "Yes, removed attachments cannot be recovered from the output file."
+        "question": "ತೆಗೆದುಹಾಕುವುದು ಶಾಶ್ವತವೇ?",
+        "answer": "ಹೌದು, ತೆಗೆದುಹಾಕಲಾದ ಲಗತ್ತುಗಳನ್ನು ಔಟ್‌ಪುಟ್ ಫೈಲ್‌ನಿಂದ ಮರುಪಡೆಯಲು ಸಾಧ್ಯವಿಲ್ಲ."
       },
       {
-        "question": "Can I preview attachments?",
-        "answer": "You can see file names and sizes; use Extract Attachments to view contents."
+        "question": "ನಾನು ಲಗತ್ತುಗಳನ್ನು ಮುನ್ನೋಟ ಮಾಡಬಹುದೇ?",
+        "answer": "ನೀವು ಫೈಲ್ ಹೆಸರುಗಳು ಮತ್ತು ಗಾತ್ರಗಳನ್ನು ನೋಡಬಹುದು; ವಿಷಯಗಳನ್ನು ವೀಕ್ಷಿಸಲು Extract Attachments ಬಳಸಿ."
       }
     ]
   },
   "divide-pages": {
-    "title": "Divide Pages",
-    "metaDescription": "Split PDF pages into multiple sections. Divide pages horizontally or vertically.",
+    "title": "ಪುಟಗಳನ್ನು ವಿಂಗಡಿಸಿ",
+    "metaDescription": "PDF ಪುಟಗಳನ್ನು ಹಲವು ವಿಭಾಗಗಳಾಗಿ ವಿಭಜಿಸಿ. ಪುಟಗಳನ್ನು ಅಡ್ಡಲಾಗಿ ಅಥವಾ ಲಂಬವಾಗಿ ವಿಂಗಡಿಸಿ.",
     "keywords": [
       "divide pdf pages",
       "split page",
       "cut pdf page",
       "page sections"
     ],
-    "description": "\n      <p>Divide Pages splits individual PDF pages into multiple sections. Cut pages horizontally, vertically, or into a grid to create multiple pages from one.</p>\n      <p>Perfect for splitting scanned documents with multiple items per page, or dividing large format pages into standard sizes.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>Divide Pages ಬಿಡಿ PDF ಪುಟಗಳನ್ನು ಹಲವು ವಿಭಾಗಗಳಾಗಿ ವಿಭಜಿಸುತ್ತದೆ. ಒಂದರಿಂದ ಹಲವು ಪುಟಗಳನ್ನು ರಚಿಸಲು ಪುಟಗಳನ್ನು ಅಡ್ಡಲಾಗಿ, ಲಂಬವಾಗಿ ಅಥವಾ ಗ್ರಿಡ್ ಆಗಿ ಕತ್ತರಿಸಿ.</p>\n      <p>ಪ್ರತಿ ಪುಟದಲ್ಲಿ ಬಹು ಅಂಶಗಳನ್ನು ಹೊಂದಿರುವ ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ದಾಖಲೆಗಳನ್ನು ವಿಭಜಿಸಲು ಅಥವಾ ದೊಡ್ಡ ಮಾದರಿಯ ಪುಟಗಳನ್ನು ಪ್ರಮಾಣಿತ ಗಾತ್ರಗಳಾಗಿ ವಿಂಗಡಿಸಲು ಸೂಕ್ತವಾಗಿದೆ.</p>\n      <p>ಎಲ್ಲಾ ಪ್ರಕ್ರಿಯೆಯು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ನಡೆಯುತ್ತದೆ, ನಿಮ್ಮ ದಾಖಲೆಗಳು ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "ನಿಮ್ಮ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Set Division",
-        "description": "Choose horizontal, vertical, or grid division and set the number of sections."
+        "title": "ವಿಭಜನೆಯನ್ನು ಹೊಂದಿಸಿ",
+        "description": "ಅಡ್ಡ, ಲಂಬ ಅಥವಾ ಗ್ರಿಡ್ ವಿಭಜನೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು ವಿಭಾಗಗಳ ಸಂಖ್ಯೆಯನ್ನು ಹೊಂದಿಸಿ."
       },
       {
         "step": 3,
-        "title": "Divide and Download",
-        "description": "Click Divide to split pages and download."
+        "title": "ವಿಭಜಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ಪುಟಗಳನ್ನು ವಿಭಜಿಸಲು ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು Divide ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Split Scans",
-        "description": "Divide scanned pages containing multiple documents.",
+        "title": "ಸ್ಕ್ಯಾನ್‌ಗಳನ್ನು ವಿಭಜಿಸಿ",
+        "description": "ಹಲವು ದಾಖಲೆಗಳನ್ನು ಹೊಂದಿರುವ ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ಪುಟಗಳನ್ನು ವಿಂಗಡಿಸಿ.",
         "icon": "scissors"
       },
       {
-        "title": "Resize Pages",
-        "description": "Split large pages into standard paper sizes.",
+        "title": "ಪುಟಗಳ ಗಾತ್ರವನ್ನು ಬದಲಾಯಿಸಿ",
+        "description": "ದೊಡ್ಡ ಪುಟಗಳನ್ನು ಪ್ರಮಾಣಿತ ಕಾಗದದ ಗಾತ್ರಗಳಾಗಿ ವಿಭಜಿಸಿ.",
         "icon": "maximize-2"
       },
       {
-        "title": "Create Cards",
-        "description": "Divide pages into card-sized sections for printing.",
+        "title": "ಕಾರ್ಡ್‌ಗಳನ್ನು ರಚಿಸಿ",
+        "description": "ಮುದ್ರಣಕ್ಕಾಗಿ ಪುಟಗಳನ್ನು ಕಾರ್ಡ್-ಗಾತ್ರದ ವಿಭಾಗಗಳಾಗಿ ವಿಂಗಡಿಸಿ.",
         "icon": "grid"
       }
     ],
     "faq": [
       {
-        "question": "Can I divide into unequal sections?",
-        "answer": "Currently, divisions are equal. Use Crop PDF for custom sections."
+        "question": "ನಾನು ಅಸಮಾನ ವಿಭಾಗಗಳಾಗಿ ವಿಭಜಿಸಬಹುದೇ?",
+        "answer": "ಪ್ರಸ್ತುತ, ವಿಭಜನೆಗಳು ಸಮಾನವಾಗಿವೆ. ಕಸ್ಟಮ್ ವಿಭಾಗಗಳಿಗಾಗಿ Crop PDF ಬಳಸಿ."
       },
       {
-        "question": "What happens to content at division lines?",
-        "answer": "Content is split at the division line; ensure important content is not at boundaries."
+        "question": "ವಿಭಜನಾ ರೇಖೆಗಳಲ್ಲಿರುವ ವಿಷಯಕ್ಕೆ ಏನಾಗುತ್ತದೆ?",
+        "answer": "ವಿಷಯವನ್ನು ವಿಭಜನಾ ರೇಖೆಯಲ್ಲಿ ಕತ್ತರಿಸಲಾಗುತ್ತದೆ; ಪ್ರಮುಖ ವಿಷಯವು ಗಡಿಗಳಲ್ಲಿ ಇಲ್ಲದಿರುವುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ."
       },
       {
-        "question": "Can I divide specific pages only?",
-        "answer": "Yes, you can select which pages to divide."
+        "question": "ನಾನು ನಿರ್ದಿಷ್ಟ ಪುಟಗಳನ್ನು ಮಾತ್ರ ವಿಭಜಿಸಬಹುದೇ?",
+        "answer": "ಹೌದು, ಯಾವ ಪುಟಗಳನ್ನು ವಿಭಜಿಸಬೇಕೆಂದು ನೀವು ಆಯ್ಕೆ ಮಾಡಬಹುದು."
       }
     ]
   },
   "add-blank-page": {
-    "title": "Add Blank Page",
-    "metaDescription": "Insert blank pages into PDF documents. Add empty pages at any position.",
+    "title": "ಖಾಲಿ ಪುಟವನ್ನು ಸೇರಿಸಿ",
+    "metaDescription": "PDF ದಾಖಲೆಗಳಲ್ಲಿ ಖಾಲಿ ಪುಟಗಳನ್ನು ಸೇರಿಸಿ. ಯಾವುದೇ ಸ್ಥಾನದಲ್ಲಿ ಖಾಲಿ ಪುಟಗಳನ್ನು ಸೇರಿಸಿ.",
     "keywords": [
       "add blank page",
       "insert page",
       "empty page",
       "pdf page insertion"
     ],
-    "description": "\n      <p>Add Blank Page inserts empty pages into your PDF documents at any position. Add pages before, after, or between existing pages with customizable page size.</p>\n      <p>Perfect for adding space for notes, creating section dividers, or preparing documents for printing.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>Add Blank Page ನಿಮ್ಮ PDF ದಾಖಲೆಗಳಲ್ಲಿ ಯಾವುದೇ ಸ್ಥಾನದಲ್ಲಿ ಖಾಲಿ ಪುಟಗಳನ್ನು ಸೇರಿಸುತ್ತದೆ. ಅನುಕೂಲಕರ ಪುಟದ ಗಾತ್ರದೊಂದಿಗೆ ಪ್ರಸ್ತುತ ಪುಟಗಳ ಮೊದಲು, ನಂತರ ಅಥವಾ ನಡುವೆ ಪುಟಗಳನ್ನು ಸೇರಿಸಿ.</p>\n      <p>ಟಿಪ್ಪಣಿಗಳಿಗಾಗಿ ಸ್ಥಳವನ್ನು ಸೇರಿಸಲು, ವಿಭಾಗ ವಿಭಾಜಕಗಳನ್ನು ರಚಿಸಲು ಅಥವಾ ಮುದ್ರಣಕ್ಕಾಗಿ ದಾಖಲೆಗಳನ್ನು ಸಿದ್ಧಪಡಿಸಲು ಸೂಕ್ತವಾಗಿದೆ.</p>\n      <p>ಎಲ್ಲಾ ಪ್ರಕ್ರಿಯೆಯು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ನಡೆಯುತ್ತದೆ, ನಿಮ್ಮ ದಾಖಲೆಗಳು ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "ನಿಮ್ಮ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Choose Position",
-        "description": "Select where to insert blank pages and how many."
+        "title": "ಸ್ಥಾನವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+        "description": "ಖಾಲಿ ಪುಟಗಳನ್ನು ಎಲ್ಲಿ ಮತ್ತು ಎಷ್ಟು ಸೇರಿಸಬೇಕೆಂದು ಆಯ್ಕೆಮಾಡಿ."
       },
       {
         "step": 3,
-        "title": "Add and Download",
-        "description": "Click Add to insert pages and download."
+        "title": "ಸೇರಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ಪುಟಗಳನ್ನು ಸೇರಿಸಲು ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು Add ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Note Space",
-        "description": "Add blank pages for handwritten notes.",
+        "title": "ಟಿಪ್ಪಣಿಗಾಗಿ ಸ್ಥಳ",
+        "description": "ಹಸ್ತಲಿಖಿತ ಟಿಪ್ಪಣಿಗಳಿಗಾಗಿ ಖಾಲಿ ಪುಟಗಳನ್ನು ಸೇರಿಸಿ.",
         "icon": "edit-3"
       },
       {
-        "title": "Section Dividers",
-        "description": "Insert blank pages between document sections.",
+        "title": "ವಿಭಾಗದ ವಿಭಾಜಕಗಳು",
+        "description": "ದಾಖಲೆಯ ವಿಭಾಗಗಳ ನಡುವೆ ಖಾಲಿ ಪುಟಗಳನ್ನು ಸೇರಿಸಿ.",
         "icon": "minus"
       },
       {
         "title": "ಪ್ರಿಂಟ್ ಸಿದ್ಧತೆ",
-        "description": "Add pages for duplex printing alignment.",
+        "description": "ಡ್ಯುಪ್ಲೆಕ್ಸ್ ಪ್ರಿಂಟಿಂಗ್ ಜೋಡಣೆಗಾಗಿ ಪುಟಗಳನ್ನು ಸೇರಿಸಿ.",
         "icon": "printer"
       }
     ],
     "faq": [
       {
-        "question": "Can I choose the page size?",
-        "answer": "Yes, blank pages can match existing pages or use custom dimensions."
+        "question": "ನಾನು ಪುಟದ ಗಾತ್ರವನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದೇ?",
+        "answer": "ಹೌದು, ಖಾಲಿ ಪುಟಗಳು ಚಾಲ್ತಿಯಲ್ಲಿರುವ ಪುಟಗಳಿಗೆ ಹೊಂದಿಕೆಯಾಗಬಹುದು ಅಥವಾ ಕಸ್ಟಮ್ ಆಯಾಮಗಳನ್ನು ಬಳಸಬಹುದು."
       },
       {
-        "question": "Can I add multiple blank pages?",
-        "answer": "Yes, you can add any number of blank pages at once."
+        "question": "ನಾನು ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ಖಾಲಿ ಪುಟಗಳನ್ನು ಸೇರಿಸಬಹುದೇ?",
+        "answer": "ಹೌದು, ನೀವು ಒಂದೇ ಬಾರಿಗೆ ಎಷ್ಟು ಬೇಕಾದರೂ ಖಾಲಿ ಪುಟಗಳನ್ನು ಸೇರಿಸಬಹುದು."
       },
       {
-        "question": "Can I add colored pages?",
-        "answer": "Use Background Color tool after adding blank pages to add color."
+        "question": "ನಾನು ಬಣ್ಣದ ಪುಟಗಳನ್ನು ಸೇರಿಸಬಹುದೇ?",
+        "answer": "ಬಣ್ಣವನ್ನು ಸೇರಿಸಲು ಖಾಲಿ ಪುಟಗಳನ್ನು ಸೇರಿಸಿದ ನಂತರ Background Color ಉಪಕರಣವನ್ನು ಬಳಸಿ."
       }
     ]
   },
   "reverse-pages": {
-    "title": "Reverse Pages",
-    "metaDescription": "Reverse PDF page order. Flip document pages from last to first.",
+    "title": "ಪುಟಗಳನ್ನು ಉಲ್ಟಾ ಮಾಡಿ",
+    "metaDescription": "PDF ಪುಟದ ಕ್ರಮವನ್ನು ಹಿಮ್ಮುಖಗೊಳಿಸಿ. ದಾಖಲೆಯ ಪುಟಗಳನ್ನು ಕೊನೆಯಿಂದ ಮೊದಲಿಗೆ ತಿರುಗಿಸಿ.",
     "keywords": [
       "reverse pdf",
       "flip page order",
       "invert pages",
       "reverse document"
     ],
-    "description": "\n      <p>Reverse Pages flips the order of pages in your PDF document, putting the last page first and the first page last. Useful for documents scanned in reverse order or for specific printing needs.</p>\n      <p>The tool processes the entire document or selected page ranges, maintaining all content and formatting.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>Reverse Pages ನಿಮ್ಮ PDF ದಾಖಲೆಯಲ್ಲಿನ ಪುಟಗಳ ಕ್ರಮವನ್ನು ಹಿಮ್ಮುಖಗೊಳಿಸುತ್ತದೆ, ಕೊನೆಯ ಪುಟವನ್ನು ಮೊದಲಿಗೆ ಮತ್ತು ಮೊದಲ ಪುಟವನ್ನು ಕೊನೆಯಲ್ಲಿ ನೀಡುತ್ತದೆ. ಹಿಮ್ಮುಖ ಕ್ರಮದಲ್ಲಿ ಸ್ಕ್ಯಾನ್ ಮಾಡಲಾದ ದಾಖಲೆಗಳಿಗೆ ಅಥವಾ ನಿರ್ದಿಷ್ಟ ಪ್ರಿಂಟಿಂಗ್ ಅಗತ್ಯಗಳಿಗಾಗಿ ಇದು ಉಪಯುಕ್ತವಾಗಿದೆ.</p>\n      <p>ಈ ಉಪಕರಣವು ಎಲ್ಲಾ ವಿಷಯ ಮತ್ತು ಫಾರ್ಮ್ಯಾಟಿಂಗ್ ಅನ್ನು ಕಾಯ್ದುಕೊಂಡು, ಇಡೀ ದಾಖಲೆ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಿದ ಪುಟದ ಶ್ರೇಣಿಗಳನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸುತ್ತದೆ.</p>\n      <p>ಎಲ್ಲಾ ಪ್ರಕ್ರಿಯೆಗಳು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ನಡೆಯುತ್ತವೆ, ಇದು ನಿಮ್ಮ ದಾಖಲೆಗಳು ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "ನಿಮ್ಮ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
         "title": "ಪುಟಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ",
-        "description": "Choose to reverse all pages or a specific range."
+        "description": "ಎಲ್ಲಾ ಪುಟಗಳನ್ನು ಅಥವಾ ನಿರ್ದಿಷ್ಟ ಶ್ರೇಣಿಯನ್ನು ಹಿಮ್ಮುಖಗೊಳಿಸಲು ಆಯ್ಕೆಮಾಡಿ."
       },
       {
         "step": 3,
-        "title": "Reverse and Download",
-        "description": "Click Reverse to flip page order and download."
+        "title": "ಹಿಮ್ಮುಖಗೊಳಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ಪುಟದ ಕ್ರಮವನ್ನು ಹಿಮ್ಮುಖಗೊಳಿಸಲು ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಹಿಮ್ಮುಖಗೊಳಿಸಿ ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Fix Scan Order",
-        "description": "Correct documents scanned in reverse order.",
+        "title": "ಸ್ಕ್ಯಾನ್ ಕ್ರಮವನ್ನು ಸರಿಪಡಿಸಿ",
+        "description": "ಹಿಮ್ಮುಖ ಕ್ರಮದಲ್ಲಿ ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ದಾಖಲೆಗಳನ್ನು ಸರಿಪಡಿಸಿ.",
         "icon": "refresh-cw"
       },
       {
         "title": "ಪ್ರಿಂಟ್ ಸಿದ್ಧತೆ",
-        "description": "Reverse pages for specific printing requirements.",
+        "description": "ನಿರ್ದಿಷ್ಟ ಪ್ರಿಂಟಿಂಗ್ ಅಗತ್ಯಗಳಿಗಾಗಿ ಪುಟಗಳನ್ನು ಹಿಮ್ಮುಖಗೊಳಿಸಿ.",
         "icon": "printer"
       },
       {
-        "title": "Document Reordering",
-        "description": "Quickly flip document order for review.",
+        "title": "ದಾಖಲೆ ಮರುಕ್ರಮಗೊಳಿಸುವಿಕೆ",
+        "description": "ಪರಿಶೀಲನೆಗಾಗಿ ದಾಖಲೆಯ ಕ್ರಮವನ್ನು ತ್ವರಿತವಾಗಿ ತಿರುಗಿಸಿ.",
         "icon": "arrow-up-down"
       }
     ],
     "faq": [
       {
-        "question": "Are bookmarks updated?",
-        "answer": "Yes, bookmarks are updated to point to the correct reversed pages."
+        "question": "ಬುಕ್‌ಮಾರ್ಕ್‌ಗಳನ್ನು ನವೀಕರಿಸಲಾಗುತ್ತದೆಯೇ?",
+        "answer": "ಹೌದು, ಸರಿಯಾದ ಹಿಮ್ಮುಖಗೊಳಿಸಿದ ಪುಟಗಳನ್ನು ಸೂಚಿಸಲು ಬುಕ್‌ಮಾರ್ಕ್‌ಗಳನ್ನು ನವೀಕರಿಸಲಾಗುತ್ತದೆ."
       },
       {
-        "question": "Can I reverse only some pages?",
-        "answer": "Yes, you can select a page range to reverse."
+        "question": "ನಾನು ಕೆಲವು ಪುಟಗಳನ್ನು ಮಾತ್ರ ಹಿಮ್ಮುಖಗೊಳಿಸಬಹುದೇ?",
+        "answer": "ಹೌದು, ಹಿಮ್ಮುಖಗೊಳಿಸಲು ನೀವು ಪುಟದ ಶ್ರೇಣಿಯನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದು."
       },
       {
-        "question": "Is this the same as rotating?",
-        "answer": "No, reversing changes page order; rotating changes page orientation."
+        "question": "ಇದು ರೋಟೇಟಿಂಗ್ ನಂತೆಯೇ ಇದೆಯೇ?",
+        "answer": "ಇಲ್ಲ, ಹಿಮ್ಮುಖಗೊಳಿಸುವುದು ಪುಟದ ಕ್ರಮವನ್ನು ಬದಲಾಯಿಸುತ್ತದೆ; ರೋಟೇಟಿಂಗ್ ಪುಟದ ದೃಷ್ಟಿಕೋನವನ್ನು (orientation) ಬದಲಾಯಿಸುತ್ತದೆ."
       }
     ]
   },
   "rotate-pdf": {
-    "title": "Rotate PDF",
-    "metaDescription": "Rotate PDF pages. Turn pages 90, 180, or 270 degrees.",
+    "title": "PDF ತಿರುಗಿಸಿ",
+    "metaDescription": "PDF ಪುಟಗಳನ್ನು ರೋಟೇಟ್ ಮಾಡಿ. ಪುಟಗಳನ್ನು 90, 180, ಅಥವಾ 270 ಡಿಗ್ರಿ ತಿರುಗಿಸಿ.",
     "keywords": [
       "rotate pdf",
       "turn pdf pages",
       "pdf rotation",
       "fix orientation"
     ],
-    "description": "\n      <p>Rotate PDF turns pages in your document by 90, 180, or 270 degrees. Fix incorrectly oriented scans, rotate landscape pages, or adjust page orientation for viewing.</p>\n      <p>Rotate all pages uniformly or select specific pages to rotate individually. The tool preserves all content and formatting.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>Rotate PDF ನಿಮ್ಮ ದಾಖಲೆಯಲ್ಲಿನ ಪುಟಗಳನ್ನು 90, 180, ಅಥವಾ 270 ಡಿಗ್ರಿಗಳಿಗೆ ತಿರುಗಿಸುತ್ತದೆ. ತಪ್ಪಾದ ದೃಷ್ಟಿಕೋನ ಹೊಂದಿರುವ ಸ್ಕ್ಯಾನ್‌ಗಳನ್ನು ಸರಿಪಡಿಸಿ, ಲ್ಯಾಂಡ್‌ಸ್ಕೇಪ್ ಪುಟಗಳನ್ನು ರೋಟೇಟ್ ಮಾಡಿ, ಅಥವಾ ವೀಕ್ಷಣೆಗಾಗಿ ಪುಟದ ದೃಷ್ಟಿಕೋನವನ್ನು ಹೊಂದಿಸಿ.</p>\n      <p>ಎಲ್ಲಾ ಪುಟಗಳನ್ನು ಏಕರೂಪವಾಗಿ ರೋಟೇಟ್ ಮಾಡಿ ಅಥವಾ ಪ್ರತ್ಯೇಕವಾಗಿ ರೋಟೇಟ್ ಮಾಡಲು ನಿರ್ದಿಷ್ಟ ಪುಟಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ. ಈ ಉಪಕರಣವು ಎಲ್ಲಾ ವಿಷಯ ಮತ್ತು ಫಾರ್ಮ್ಯಾಟಿಂಗ್ ಅನ್ನು ಕಾಯ್ದುಕೊಳ್ಳುತ್ತದೆ.</p>\n      <p>ಎಲ್ಲಾ ಪ್ರಕ್ರಿಯೆಗಳು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ನಡೆಯುತ್ತವೆ, ಇದು ನಿಮ್ಮ ದಾಖಲೆಗಳು ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "ನಿಮ್ಮ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Select Rotation",
-        "description": "Choose rotation angle and which pages to rotate."
+        "title": "ರೋಟೇಶನ್ ಆಯ್ಕೆಮಾಡಿ",
+        "description": "ರೋಟೇಶನ್ ಕೋನ ಮತ್ತು ಯಾವ ಪುಟಗಳನ್ನು ರೋಟೇಟ್ ಮಾಡಬೇಕೆಂದು ಆಯ್ಕೆಮಾಡಿ."
       },
       {
         "step": 3,
-        "title": "Rotate and Download",
-        "description": "Click Rotate to apply changes and download."
+        "title": "ರೋಟೇಟ್ ಮಾಡಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ಬದಲಾವಣೆಗಳನ್ನು ಅನ್ವಯಿಸಲು ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ರೋಟೇಟ್ ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Fix Scans",
-        "description": "Correct orientation of scanned documents.",
+        "title": "ಸ್ಕ್ಯಾನ್‌ಗಳನ್ನು ಸರಿಪಡಿಸಿ",
+        "description": "ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ದಾಖಲೆಗಳ ದೃಷ್ಟಿಕೋನವನ್ನು ಸರಿಪಡಿಸಿ.",
         "icon": "rotate-cw"
       },
       {
-        "title": "Landscape Pages",
-        "description": "Rotate landscape pages for proper viewing.",
+        "title": "ಲ್ಯಾಂಡ್‌ಸ್ಕೇಪ್ ಪುಟಗಳು",
+        "description": "ಸರಿಯಾದ ವೀಕ್ಷಣೆಗಾಗಿ ಲ್ಯಾಂಡ್‌ಸ್ಕೇಪ್ ಪುಟಗಳನ್ನು ರೋಟೇಟ್ ಮಾಡಿ.",
         "icon": "monitor"
       },
       {
-        "title": "Mixed Orientation",
-        "description": "Standardize page orientation in mixed documents.",
+        "title": "ಮಿಶ್ರ ದೃಷ್ಟಿಕೋನ",
+        "description": "ಮಿಶ್ರ ದಾಖಲೆಗಳಲ್ಲಿ ಪುಟದ ದೃಷ್ಟಿಕೋನವನ್ನು ಪ್ರಮಾಣೀಕರಿಸಿ.",
         "icon": "layout"
       }
     ],
     "faq": [
       {
-        "question": "Can I rotate different pages differently?",
-        "answer": "Yes, you can apply different rotations to different pages."
+        "question": "ನಾನು ವಿಭಿನ್ನ ಪುಟಗಳನ್ನು ವಿಭಿನ್ನವಾಗಿ ರೋಟೇಟ್ ಮಾಡಬಹುದೇ?",
+        "answer": "ಹೌದು, ನೀವು ವಿಭಿನ್ನ ಪುಟಗಳಿಗೆ ವಿಭಿನ್ನ ರೋಟೇಶನ್‌ಗಳನ್ನು ಅನ್ವಯಿಸಬಹುದು."
       },
       {
-        "question": "Does rotation affect print quality?",
-        "answer": "No, rotation preserves all content quality."
+        "question": "ರೋಟೇಶನ್ ಪ್ರಿಂಟ್ ಗುಣಮಟ್ಟದ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರುತ್ತದೆಯೇ?",
+        "answer": "ಇಲ್ಲ, ರೋಟೇಶನ್ ಎಲ್ಲಾ ವಿಷಯದ ಗುಣಮಟ್ಟವನ್ನು ಕಾಯ್ದುಕೊಳ್ಳುತ್ತದೆ."
       },
       {
-        "question": "Can I rotate by custom angles?",
-        "answer": "Rotation is limited to 90-degree increments (90, 180, 270)."
+        "question": "ನಾನು ಕಸ್ಟಮ್ ಕೋನಗಳಲ್ಲಿ ರೋಟೇಟ್ ಮಾಡಬಹುದೇ?",
+        "answer": "ರೋಟೇಶನ್ 90-ಡಿಗ್ರಿ ಹಂತಗಳಿಗೆ ಸೀಮಿತವಾಗಿದೆ (90, 180, 270)."
       }
     ]
   },
   "overlay-pdf": {
     "title": "Overlay PDF",
-    "metaDescription": "Overlay or underlay pages from one PDF onto another. Perfect for stamps, letterheads, and layout composition.",
+    "metaDescription": "ಒಂದು PDF ನ ಪುಟಗಳನ್ನು ಇನ್ನೊಂದರ ಮೇಲೆ ಓವರ್‌ಲೇ ಅಥವಾ ಅಂಡರ್‌ಲೇ ಮಾಡಿ. ಸ್ಟ್ಯಾಂಪ್‌ಗಳು, ಲೆಟರ್‌ಹೆಡ್‌ಗಳು ಮತ್ತು ಲೇಔಟ್ ಸಂಯೋಜನೆಗೆ ಸೂಕ್ತವಾಗಿದೆ.",
     "keywords": [
       "overlay pdf",
       "underlay pdf",
@@ -3988,64 +3988,64 @@ export const toolContentKn: Record<string, ToolContent> = {
       "watermark pdf",
       "combine layers"
     ],
-    "description": "\n      <p>Overlay PDF allows you to layer pages of one PDF document on top or underneath another PDF document. It is perfect for applying letterheads, adding background grids, stamping watermarks, or fusing layout drafts together.</p>\n      <p>Supports both Overlay mode (layer goes on top) and Underlay mode (layer goes underneath). Specify custom target page ranges or loop shorter overlay documents to cover the entire base file automatically.</p>\n      <p>All processing is executed entirely inside your web browser locally, guaranteeing total security and data privacy.</p>\n    ",
+    "description": "\n      <p>Overlay PDF ನಿಮಗೆ ಒಂದು PDF ದಾಖಲೆಯ ಪುಟಗಳನ್ನು ಮತ್ತೊಂದು PDF ದಾಖಲೆಯ ಮೇಲೆ ಅಥವಾ ಕೆಳಗೆ ಪದರ ಮಾಡಲು (layer) ಅನುಮತಿಸುತ್ತದೆ. ಲೆಟರ್‌ಹೆಡ್‌ಗಳನ್ನು ಅನ್ವಯಿಸಲು, ಹಿನ್ನೆಲೆ ಗ್ರಿಡ್‌ಗಳನ್ನು ಸೇರಿಸಲು, ವಾಟರ್‌ಮಾರ್ಕ್‌ಗಳನ್ನು ಸ್ಟ್ಯಾಂಪ್ ಮಾಡಲು ಅಥವಾ ಲೇಔಟ್ ಡ್ರಾಫ್ಟ್‌ಗಳನ್ನು ಒಟ್ಟಿಗೆ ಜೋಡಿಸಲು ಇದು ಸೂಕ್ತವಾಗಿದೆ.</p>\n      <p>Overlay ಮೋಡ್ (ಪದರವು ಮೇಲೆ ಹೋಗುತ್ತದೆ) ಮತ್ತು Underlay ಮೋಡ್ (ಪದರವು ಕೆಳಗೆ ಹೋಗುತ್ತದೆ) ಎರಡನ್ನೂ ಬೆಂಬಲಿಸುತ್ತದೆ. ಕಸ್ಟಮ್ ಟಾರ್ಗೆಟ್ ಪುಟದ ಶ್ರೇಣಿಗಳನ್ನು ನಿರ್ದಿಷ್ಟಪಡಿಸಿ ಅಥವಾ ಇಡೀ ಮೂಲ ಫೈಲ್ ಅನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಕವರ್ ಮಾಡಲು ಸಣ್ಣ ಓವರ್‌ಲೇ ದಾಖಲೆಗಳನ್ನು ಲೂಪ್ ಮಾಡಿ.</p>\n      <p>ಎಲ್ಲಾ ಪ್ರಕ್ರಿಯೆಗಳು ಸಂಪೂರ್ಣವಾಗಿ ನಿಮ್ಮ ವೆಬ್ ಬ್ರೌಸರ್‌ನೊಳಗೆ ಸ್ಥಳೀಯವಾಗಿ ಕಾರ್ಯಗತಗೊಳ್ಳುತ್ತವೆ, ಇದು ಸಂಪೂರ್ಣ ಭದ್ರತೆ ಮತ್ತು ಡೇಟಾ ಗೌಪ್ಯತೆಯನ್ನು ಖಾತರಿಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Main PDF",
-        "description": "Drag and drop your primary base PDF document."
+        "title": "ಮುಖ್ಯ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ನಿಮ್ಮ ಪ್ರಾಥಮಿಕ ಮೂಲ PDF ದಾಖಲೆಯನ್ನು ಡ್ರಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Upload Layer PDF",
-        "description": "Provide the overlay/underlay document that acts as the layer."
+        "title": "ಪದರ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ಪದರವಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುವ ಓವರ್‌ಲೇ/ಅಂಡರ್‌ಲೇ ದಾಖಲೆಯನ್ನು ನೀಡಿ."
       },
       {
         "step": 3,
-        "title": "Configure Layering",
-        "description": "Choose overlay or underlay mode, specify page ranges, and enable page looping."
+        "title": "ಪದರ ಸಂರಚಿಸಿ (Configure Layering)",
+        "description": "overlay ಅಥವಾ underlay ಮೋಡ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ, ಪುಟದ ಶ್ರೇಣಿಗಳನ್ನು നിർದಿಷ್ಟಪಡಿಸಿ, ಮತ್ತು ಪುಟ ಲೂಪಿಂಗ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ."
       },
       {
         "step": 4,
-        "title": "Compile and Download",
-        "description": "Click Compile to process and download the layered result PDF."
+        "title": "ಕಂಪೈಲ್ ಮಾಡಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ಲೇಯರ್ ಮಾಡಿದ ಫಲಿತಾಂಶದ PDF ಅನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲು ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು Compile ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Corporate Letterheads",
-        "description": "Layer invoice contents on top of standard company letterhead templates.",
+        "title": "ಕಾರ್ಪೊರೇಟ್ ಲೆಟರ್‌ಹೆಡ್‌ಗಳು",
+        "description": "ಸ್ಟ್ಯಾಂಡರ್ಡ್ ಕಂಪನಿ ಲೆಟರ್‌ಹೆಡ್ ಟೆಂಪ್ಲೇಟ್‌ಗಳ ಮೇಲೆ ಇನ್‌ವಾಯ್ಸ್ ವಿಷಯಗಳನ್ನು ಲೇಯರ್ ಮಾಡಿ.",
         "icon": "file-text"
       },
       {
-        "title": "Watermarks & Seals",
-        "description": "Overlay security stamps, signature seals, or backgrounds across documents.",
+        "title": "ವಾಟರ್‌ಮಾರ್ಕ್‌ಗಳು ಮತ್ತು ಸೀಲ್‌ಗಳು",
+        "description": "ದಾಖಲೆಗಳಾದ್ಯಂತ ಭದ್ರತಾ ಸ್ಟ್ಯಾಂಪ್‌ಗಳು, ಸಹಿ ಸೀಲ್‌ಗಳು ಅಥವಾ ಹಿನ್ನೆಲೆಗಳನ್ನು ಓವರ್‌ಲೇ ಮಾಡಿ.",
         "icon": "shield"
       },
       {
-        "title": "Drawing Blueprints",
-        "description": "Combine draft architectures or layout grids underneath text blocks.",
+        "title": "ಡ್ರಾಯಿಂಗ್ ಬ್ಲೂಪ್ರಿಂಟ್‌ಗಳು",
+        "description": "ಪಠ್ಯ ಬ್ಲಾಕ್‌ಗಳ ಕೆಳಗೆ ಡ್ರಾಫ್ಟ್ ಆರ್ಕಿಟೆಕ್ಚರ್‌ಗಳು ಅಥವಾ ಲೇಔಟ್ ಗ್ರಿಡ್‌ಗಳನ್ನು ಸಂಯೋಜಿಸಿ.",
         "icon": "layout"
       }
     ],
     "faq": [
       {
-        "question": "What is the difference between Overlay and Underlay?",
-        "answer": "Overlay places the secondary layer on top of your main content. Underlay places it at the very bottom, acting as a background template."
+        "question": "Overlay ಮತ್ತು Underlay ನಡುವಿನ ವ್ಯತ್ಯಾಸವೇನು?",
+        "answer": "Overlay ನಿಮ್ಮ ಮುಖ್ಯ ವಿಷಯದ ಮೇಲೆ ದ್ವಿತೀಯ ಲೇಯರ್ ಅನ್ನು ಇರಿಸುತ್ತದೆ. Underlay ಅದನ್ನು ತೀರಾ ಕೆಳಭಾಗದಲ್ಲಿ ಇರಿಸುತ್ತದೆ, ಹಿನ್ನೆಲೆ ಟೆಂಪ್ಲೇಟ್ ಆಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ."
       },
       {
-        "question": "Can I loop the overlay layer?",
-        "answer": "Yes, if the layer PDF is shorter than the base document, enabling Loop will cycle it (e.g. page 1, 2, 1, 2) to cover all base pages."
+        "question": "ನಾನು overlay ಲೇಯರ್ ಅನ್ನು ಲೂಪ್ ಮಾಡಬಹುದೇ?",
+        "answer": "ಹೌದು, ಲೇಯರ್ PDF ಮುಖ್ಯ ದಾಖಲೆಗಿಂತ ಚಿಕ್ಕದಾಗಿದ್ದರೆ, Loop ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸುವುದರಿಂದ ಎಲ್ಲಾ ಮುಖ್ಯ ಪುಟಗಳನ್ನು ಕವರ್ ಮಾಡಲು ಅದು ಸೈಕಲ್ ಆಗುತ್ತದೆ (ಉದಾ. ಪುಟ 1, 2, 1, 2)."
       },
       {
-        "question": "Is page range supported?",
-        "answer": "Yes, you can target specific pages using range syntax such as \"1-5\", \"odd\", \"even\", or comma-separated lists."
+        "question": "ಪುಟದ ಶ್ರೇಣಿ (page range) ಬೆಂಬಲಿತವಾಗಿದೆಯೇ?",
+        "answer": "ಹೌದು, \"1-5\", \"odd\", \"even\" ಅಥವಾ ಕಾಮಾ-ಪ್ರತ್ಯೇಕಿಸಿದ ಪಟ್ಟಿಗಳಂತಹ ಶ್ರೇಣಿಯ ಸಿಂಟ್ಯಾಕ್ಸ್ ಬಳಸಿ ನೀವು ನಿರ್ದಿಷ್ಟ ಪುಟಗಳನ್ನು ಗುರಿಯಾಗಿಸಬಹುದು."
       }
     ]
   },
   "timestamp-pdf": {
     "title": "Timestamp PDF",
-    "metaDescription": "Add RFC 3161 trusted timestamps to PDF documents. Prove document existence at a specific point in time without certificates.",
+    "metaDescription": "PDF ದಾಖಲೆಗಳಿಗೆ RFC 3161 ವಿಶ್ವಾಸಾರ್ಹ ಟೈಮ್‌ಸ್ಟ್ಯಾಂಪ್‌ಗಳನ್ನು ಸೇರಿಸಿ. ಪ್ರಮಾಣಪತ್ರಗಳಿಲ್ಲದೆ ನಿರ್ದಿಷ್ಟ ಸಮಯದಲ್ಲಿ ದಾಖಲೆಯ ಅಸ್ತಿತ್ವವನ್ನು ಸಾಬೀತುಪಡಿಸಿ.",
     "keywords": [
       "timestamp pdf",
       "rfc 3161",
@@ -4053,59 +4053,59 @@ export const toolContentKn: Record<string, ToolContent> = {
       "trusted timestamping",
       "proof of existence"
     ],
-    "description": "\n      <p>Timestamp PDF adds RFC 3161 compliant trusted timestamps to your PDF documents using external Time Stamping Authorities (TSA). It provides legally-binding mathematical proof that a document existed in a specific, unaltered state at a precise instant in time.</p>\n      <p>Select from global trusted TSA servers such as DigiCert, Sectigo, SSL.com, FreeTSA, or MeSign. No personal signing certificates are required to secure your documents against future tampering.</p>\n      <p>Supports fully secure local hashing before handshake, guaranteeing absolute document contents remain 100% confidential.</p>\n    ",
+    "description": "\n      <p>Timestamp PDF ಬಾಹ್ಯ Time Stamping Authorities (TSA) ಬಳಸಿಕೊಂಡು ನಿಮ್ಮ PDF ದಾಖಲೆಗಳಿಗೆ RFC 3161 ಅನುಸರಣೆಯ ವಿಶ್ವಾಸಾರ್ಹ ಟೈಮ್‌ಸ್ಟ್ಯಾಂಪ್‌ಗಳನ್ನು ಸೇರಿಸುತ್ತದೆ. ಇದು ಒಂದು ನಿರ್ದಿಷ್ಟ, ಬದಲಾಗದ ಸ್ಥಿತಿಯಲ್ಲಿ ನಿಖರ ಕ್ಷಣದಲ್ಲಿ ದಾಖಲೆಯು ಅಸ್ತಿತ್ವದಲ್ಲಿತ್ತು ಎಂಬುದಕ್ಕೆ ಕಾನೂನುಬದ್ಧ ಗಣಿತದ ಪುರಾವೆಯನ್ನು ಒದಗಿಸುತ್ತದೆ.</p>\n      <p>DigiCert, Sectigo, SSL.com, FreeTSA, ಅಥವಾ MeSign ನಂತಹ ಜಾಗತಿಕ ವಿಶ್ವಾಸಾರ್ಹ TSA ಸರ್ವರ್‌ಗಳಿಂದ ಆಯ್ಕೆಮಾಡಿ. ಭವಿಷ್ಯದ ತಿದ್ದುಪಡಿಗಳಿಂದ ನಿಮ್ಮ ದಾಖಲೆಗಳನ್ನು ಸುರಕ್ಷಿತಗೊಳಿಸಲು ಯಾವುದೇ ವೈಯಕ್ತಿಕ ಸೈನಿಂಗ್ ಪ್ರಮಾಣಪತ್ರಗಳ ಅಗತ್ಯವಿಲ್ಲ.</p>\n      <p>ಹ್ಯಾಂಡ್‌ಶೇಕ್‌ಗೆ ಮೊದಲು ಸಂಪೂರ್ಣ ಸುರಕ್ಷಿತ ಸ್ಥಳೀಯ ಹ್ಯಾಶಿಂಗ್ ಅನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆ, ಇದು ನಿಜವಾದ ದಾಖಲೆಯ ವಿಷಯಗಳು 100% ರಹಸ್ಯವಾಗಿರುವುದನ್ನು ಖಾತರಿಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload PDF Document",
-        "description": "Select the target PDF file you want to timestamp."
+        "title": "PDF ದಾಖಲೆಯನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ನೀವು ಟೈಮ್‌ಸ್ಟ್ಯಾಂಪ್ ಮಾಡಲು ಬಯಸುವ ಗುರಿ PDF ಫೈಲ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Select TSA Server",
-        "description": "Choose a trusted global Time Stamping Authority from the list."
+        "title": "TSA ಸರ್ವರ್ ಆಯ್ಕೆಮಾಡಿ",
+        "description": "ಪಟ್ಟಿಯಿಂದ ವಿಶ್ವಾಸಾರ್ಹ ಜಾಗತಿಕ Time Stamping Authority ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ."
       },
       {
         "step": 3,
-        "title": "Apply and Timestamp",
-        "description": "Click Timestamp to fetch secure response from TSA and embed the token."
+        "title": "ಅನ್ವಯಿಸಿ ಮತ್ತು Timestamp ಮಾಡಿ",
+        "description": "TSA ನಿಂದ ಸುರಕ್ಷಿತ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಪಡೆಯಲು ಮತ್ತು ಟೋಕನ್ ಅನ್ನು ಎಂಬೆಡ್ ಮಾಡಲು Timestamp ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Intellectual Property",
-        "description": "Establish clear priority proof of patents, drafts, and ideas before public release.",
+        "title": "ಬೌದ್ಧಿಕ ಆಸ್ತಿ",
+        "description": "ಸಾರ್ವಜನಿಕವಾಗಿ ಬಿಡುಗಡೆ ಮಾಡುವ ಮೊದಲು ಪೇಟೆಂಟ್‌ಗಳು, ಕರಡುಗಳು ಮತ್ತು ಆಲೋಚನೆಗಳ ಸ್ಪಷ್ಟ ಆದ್ಯತೆಯ ಪುರಾವೆಯನ್ನು ಸ್ಥಾಪಿಸಿ.",
         "icon": "lightbulb"
       },
       {
-        "title": "Financial Auditing",
-        "description": "Provide certified tamper-proof logging of ledger archives and balance reports.",
+        "title": "ಹಣಕಾಸು ಆಡಿಟಿಂಗ್",
+        "description": "ಲೆಡ್ಜರ್ ಆರ್ಕೈವ್‌ಗಳು ಮತ್ತು ಬ್ಯಾಲೆನ್ಸ್ ವರದಿಗಳ ಪ್ರಮಾಣೀಕೃತ ಟ್ಯಾಂಪರ್-ಪ್ರೂಫ್ ಲಾಗಿಂಗ್ ಒದಗಿಸಿ.",
         "icon": "activity"
       },
       {
-        "title": "Legal Contracts",
-        "description": "Lock legal agreements with a trusted time proof to avoid backdating arguments.",
+        "title": "ಕಾನೂನು ಒಪ್ಪಂದಗಳು",
+        "description": "ಹಿಂಬರಹದ (backdating) ವಾದಗಳನ್ನು ತಪ್ಪಿಸಲು ವಿಶ್ವಾಸಾರ್ಹ ಸಮಯದ ಪುರಾವೆಯೊಂದಿಗೆ ಕಾನೂನು ಒಪ್ಪಂದಗಳನ್ನು ಲಾಕ್ ಮಾಡಿ.",
         "icon": "file-check"
       }
     ],
     "faq": [
       {
-        "question": "What is a trusted timestamp (RFC 3161)?",
-        "answer": "An RFC 3161 timestamp is a cryptographically signed token issued by a recognized third-party authority (TSA) that links a document hash to a specific, verified clock source."
+        "question": "ವಿಶ್ವಾಸಾರ್ಹ ಟೈಮ್‌ಸ್ಟ್ಯಾಂಪ್ (RFC 3161) ಎಂದರೇನು?",
+        "answer": "RFC 3161 ಟೈಮ್‌ಸ್ಟ್ಯಾಂಪ್ ಎಂಬುದು ಮಾನ್ಯತೆ ಪಡೆದ ತೃತೀಯ ಪ್ರಾಧಿಕಾರ (TSA) ನೀಡಿದ ಕ್ರಿಪ್ಟೋಗ್ರಾಫಿಕ್ ರೂಪದಲ್ಲಿ ಸಹಿ ಮಾಡಲಾದ ಟೋಕನ್ ಆಗಿದ್ದು, ಇದು ದಾಖಲೆಯ ಹ್ಯಾಶ್ ಅನ್ನು ನಿರ್ದಿಷ್ಟ, ಪರಿಶೀಲಿಸಿದ ಗಡಿಯಾರ ಮೂಲಕ್ಕೆ ಲಿಂಕ್ ಮಾಡುತ್ತದೆ."
       },
       {
-        "question": "Do I need a digital certificate?",
-        "answer": "No, the cryptographic signature is provided directly by the trusted TSA server, making the process effortless for document owners."
+        "question": "ನನಗೆ ಡಿಜಿಟಲ್ ಪ್ರಮಾಣಪತ್ರ ಅಗತ್ಯವಿದೆಯೇ?",
+        "answer": "ಇಲ್ಲ, ಕ್ರಿಪ್ಟೋಗ್ರಾಫಿಕ್ ಸಹಿಯನ್ನು ವಿಶ್ವಾಸಾರ್ಹ TSA ಸರ್ವರ್‌ನಿಂದಲೇ ನೇರವಾಗಿ ಒದಗಿಸಲಾಗುತ್ತದೆ, ಇದು ದಾಖಲೆಯ ಮಾಲೀಕರಿಗೆ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಸಲೀಸಾಗಿಸುತ್ತದೆ."
       },
       {
-        "question": "Does the TSA see my document contents?",
-        "answer": "Never. The tool only sends a secure SHA-256 hash of your document to the TSA server, keeping your actual document completely private."
+        "question": "TSA ನನ್ನ ದಾಖಲೆಯ ವಿಷಯಗಳನ್ನು ನೋಡುತ್ತದೆಯೇ?",
+        "answer": "ಎಂದಿಗೂ ಇಲ್ಲ. ಈ ಉಪಕರಣವು ನಿಮ್ಮ ದಾಖಲೆಯ ಸುರಕ್ಷಿತ SHA-256 ಹ್ಯಾಶ್ ಅನ್ನು ಮಾತ್ರ TSA ಸರ್ವರ್‌ಗೆ ಕಳುಹಿಸುತ್ತದೆ, ನಿಮ್ಮ ನಿಜವಾದ ದಾಖಲೆಯನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ಗೌಪ್ಯವಾಗಿಡುತ್ತದೆ."
       }
     ]
   },
   "add-page-labels": {
-    "title": "Add Page Labels",
-    "metaDescription": "Apply custom page labels to your PDF catalog. Supports Roman numerals, prefixes, and complex disjoint ranges.",
+    "title": "ಪುಟ ಲೇಬಲ್‌ಗಳನ್ನು ಸೇರಿಸಿ",
+    "metaDescription": "ನಿಮ್ಮ PDF ಕ್ಯಾಟಲಾಗ್‌ಗೆ ಕಸ್ಟಮ್ ಪುಟ ಲೇಬಲ್‌ಗಳನ್ನು ಅನ್ವಯಿಸಿ. ರೋಮನ್ ಅಂಕಿಗಳು, ಪ್ರಿಫಿಕ್ಸ್ ಹಾಗೂ ಸಂಕೀರ್ಣ ಅಸಂಯೋಜಿತ ಶ್ರೇಣಿಗಳನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆ.",
     "keywords": [
       "pdf page labels",
       "roman numerals pdf",
@@ -4113,371 +4113,371 @@ export const toolContentKn: Record<string, ToolContent> = {
       "disjoint range page labels",
       "pdf indexing"
     ],
-    "description": "\n      <p>Add Page Labels allows you to inject custom page labeling metadata (/PageLabels) into your PDF's root Catalog dictionary. This customizes the labels displayed in professional PDF reader navigation sidebars and top page number jump panels (e.g. using Roman numerals for front matter, decimal sequences for main body, or custom prefixes such as A-0, A-1 for technical subsections).</p>\n      <p>Supports combining multiple custom rules seamlessly. Crucially, we've built a highly optimized <strong>disjoint-range slicing algorithm</strong>: even if you declare complex alternating patterns (e.g., odd pages style A, even pages style B), the tool will elegantly dissect and compose boundaries to ensure proper standard-compliant display without leaking formats into unmapped pages.</p>\n      <p>All operations are processed entirely inside your local browser sandbox, securing absolute data privacy.</p>\n    ",
+    "description": "\n      <p>Add Page Labels ನಿಮ್ಮ PDF ನ ರೂಟ್ ಕ್ಯಾಟಲಾಗ್ ಡಿಕ್ಷನರಿಗೆ ಕಸ್ಟಮ್ ಪುಟ ಲೇಬಲಿಂಗ್ ಮೆಟಾಡೇಟಾವನ್ನು (/PageLabels) ಇಂಜೆಕ್ಟ್ ಮಾಡಲು ನಿಮಗೆ ಅನುಮತಿಸುತ್ತದೆ. ಇದು ವೃತ್ತಿಪರ PDF ರೀಡರ್ ನೇವಿಗೇಶನ್ ಸೈಡ್‌ಬಾರ್‌ಗಳು ಮತ್ತು ಉನ್ನತ ಪುಟ ಸಂಖ್ಯೆ ಜಂಪ್ ಪ್ಯಾನೆಲ್‌ಗಳಲ್ಲಿ ಪ್ರದರ್ಶಿಸಲಾಗುವ ಲೇಬಲ್‌ಗಳನ್ನು ಕಸ್ಟಮೈಸ್ ಮಾಡುತ್ತದೆ (ಉದಾ. ಮುನ್ನುಡಿಯ ಭಾಗಕ್ಕೆ ರೋಮನ್ ಅಂಕಿಗಳು, ಮುಖ್ಯ ಭಾಗಕ್ಕೆ ದಶಮಾಂಶ ಅನುಕ್ರಮಗಳು ಅಥವಾ ತಾಂತ್ರಿಕ ಉಪವಿಭಾಗಗಳಿಗೆ A-0, A-1 ನಂತಹ ಕಸ್ಟಮ್ ಪ್ರಿಫಿಕ್ಸ್ ಬಳಸುವುದು).</p>\n      <p>ಸಂಯೋಜಿತವಾಗಿ ಅನೇಕ ಕಸ್ಟಮ್ ನಿಯಮಗಳನ್ನು ಸೇರಿಸುವುದನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆ. ಮುಖ್ಯವಾಗಿ, ನಾವು ಹೆಚ್ಚು ಆಪ್ಟಿಮೈಸ್ ಮಾಡಿದ <strong>disjoint-range slicing algorithm</strong> ಅನ್ನು ನಿರ್ಮಿಸಿದ್ದೇವೆ: ನೀವು ಸಂಕೀರ್ಣ ಪರ್ಯಾಯ ಮಾದರಿಗಳನ್ನು ಘೋಷಿಸಿದರೂ (ಉದಾ., ಬೆಸ ಪುಟಗಳ ಶೈಲಿ A, ಸರಿ ಪುಟಗಳ ಶೈಲಿ B), ಉಪಕರಣವು ಗಡಿಗಳನ್ನು ಸುಂದರವಾಗಿ ವಿಂಗಡಿಸುತ್ತದೆ ಮತ್ತು ಸಂಯೋಜಿಸುತ್ತದೆ, ಮ್ಯಾಪ್ ಮಾಡದ ಪುಟಗಳಿಗೆ ಫಾರ್ಮ್ಯಾಟ್‌ಗಳು ಸೋರಿಕೆಯಾಗದಂತೆ ಸೂಕ್ತವಾದ ಮಾನದಂಡ-ಅನುಸರಣೆಯ ಪ್ರದರ್ಶನವನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n      <p>ಎಲ್ಲಾ ಕಾರ್ಯಾಚರಣೆಗಳನ್ನು ನಿಮ್ಮ ಸ್ಥಳೀಯ ಬ್ರೌಸರ್ ಸ್ಯಾಂಡ್‌ಬಾಕ್ಸ್ ಒಳಗೆ ಸಂಪೂರ್ಣವಾಗಿ ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲಾಗುತ್ತದೆ, ಇದು ಸಂಪೂರ್ಣ ಡೇಟಾ ಗೌಪ್ಯತೆಯನ್ನು ಭದ್ರಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload PDF Document",
-        "description": "Provide the target PDF document you wish to label."
+        "title": "PDF ದಾಖಲೆಯನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ನೀವು ಲೇಬಲ್ ಮಾಡಲು ಬಯಸುವ ಗುರಿ PDF ದಾಖಲೆಯನ್ನು ಒದಗಿಸಿ."
       },
       {
         "step": 2,
-        "title": "Configure Labeling Rules",
-        "description": "Add one or more rules specifying page ranges (e.g., \"1-5\", \"odd\", or comma-separated lists), prefix, style, and starting sequence."
+        "title": "ಲೇಬಲಿಂಗ್ ನಿಯಮಗಳನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಿ",
+        "description": "ಪುಟದ ಶ್ರೇಣಿಗಳು (ಉದಾ., \"1-5\", \"odd\", ಅಥವಾ ಕಾಮಾ-ಪ್ರತ್ಯೇಕಿಸಿದ ಪಟ್ಟಿಗಳು), ಪ್ರಿಫಿಕ್ಸ್, ಶೈಲಿ ಮತ್ತು ಪ್ರಾರಂಭದ ಅನುಕ್ರಮವನ್ನು ನಿರ್ದಿಷ್ಟಪಡಿಸುವ ಒಂದು ಅಥವಾ ಹೆಚ್ಚಿನ ನಿಯಮಗಳನ್ನು ಸೇರಿಸಿ."
       },
       {
         "step": 3,
-        "title": "Preview and Download",
-        "description": "Review the live page label list preview below, then compile and download your updated PDF document."
+        "title": "ಮುನ್ನೋಟ ಮತ್ತು ಡೌನ್‌ಲೋಡ್",
+        "description": "ಕೆಳಗಿನ ಲೈವ್ ಪುಟ ಲೇಬಲ್ ಪಟ್ಟಿಯ ಮುನ್ನೋಟವನ್ನು ಪರಿಶೀಲಿಸಿ, ನಂತರ ನಿಮ್ಮ ನವೀಕರಿಸಿದ PDF ದಾಖಲೆಯನ್ನು ಕಂಪೈಲ್ ಮಾಡಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Academic Thesis Formatting",
-        "description": "Set lowercase Roman numerals (i, ii, iii) for introductory front matter and transition to decimal for main chapters.",
+        "title": "ಶೈಕ್ಷಣಿಕ ಪ್ರಬಂಧ ಫಾರ್ಮ್ಯಾಟಿಂಗ್",
+        "description": "ಪರಿಚಯಾತ್ಮಕ ಮುನ್ನುಡಿಗೆ ಸಣ್ಣಕ್ಷರದ ರೋಮನ್ ಅಂಕಿಗಳನ್ನು (i, ii, iii) ಹೊಂದಿಸಿ ಮತ್ತು ಮುಖ್ಯ ಅಧ್ಯಾಯಗಳಿಗೆ ದಶಮಾಂಶಕ್ಕೆ ಬದಲಾಯಿಸಿ.",
         "icon": "book"
       },
       {
-        "title": "Engineering Blueprint Prefixes",
-        "description": "Attach subsystem abbreviations (e.g., \"A-1\", \"M-5\") as page label prefixes, letting teams search and locate pages in seconds.",
+        "title": "ಎಂಜಿನಿಯರಿಂಗ್ ಬ್ಲೂಪ್ರಿಂಟ್ ಪ್ರಿಫಿಕ್ಸ್",
+        "description": "ಸಬ್‌ಸಿಸ್ಟಮ್ ಸಂಕ್ಷಿಪ್ತ ರೂಪಗಳನ್ನು (ಉದಾ., \"A-1\", \"M-5\") ಪುಟ ಲೇಬಲ್ ಪ್ರಿಫಿಕ್ಸ್ ಆಗಿ ಲಗತ್ತಿಸಿ, ತಂಡಗಳು ಸೆಕೆಂಡುಗಳಲ್ಲಿ ಪುಟಗಳನ್ನು ಹುಡುಕಲು ಮತ್ತು ಪತ್ತೆಹಚ್ಚಲು ಅವಕಾಶ ಮಾಡಿಕೊಡಿ.",
         "icon": "layout"
       },
       {
-        "title": "Custom Alternating Layouts",
-        "description": "Apply highly specific page range indexing to odd/even sequences or non-contiguous sections with maximum freedom.",
+        "title": "ಕಸ್ಟಮ್ ಪರ್ಯಾಯ ಲೇಔಟ್‌ಗಳು",
+        "description": "ಬೆಸ/ಸರಿ ಅನುಕ್ರಮಗಳಿಗೆ ಅಥವಾ ಪಕ್ಕಪಕ್ಕದಲ್ಲಿಲ್ಲದ ವಿಭಾಗಗಳಿಗೆ ಗರಿಷ್ಠ ಸ್ವಾತಂತ್ರ್ಯದೊಂದಿಗೆ ಅತ್ಯಂತ ನಿರ್ದಿಷ್ಟವಾದ ಪುಟ ಶ್ರೇಣಿಯ ಸೂಚ್ಯಂಕವನ್ನು ಅನ್ವಯಿಸಿ.",
         "icon": "shuffle"
       }
     ],
     "faq": [
       {
-        "question": "What are page labels vs page numbers?",
-        "answer": "Ordinary page numbers are visual text blocks rendered directly on the paper canvas (visible when printed). Page labels, however, are structural metadata injected into the PDF catalog. They control what is displayed underneath thumbnails and in the page lookup box inside software like Adobe Acrobat or Apple Preview."
+        "question": "ಪುಟ ಲೇಬಲ್‌ಗಳು ಮತ್ತು ಪುಟ ಸಂಖ್ಯೆಗಳ ನಡುವಿನ ವ್ಯತ್ಯಾಸವೇನು?",
+        "answer": "ಸಾಮಾನ್ಯ ಪುಟ ಸಂಖ್ಯೆಗಳು ಪೇಪರ್ ಕ್ಯಾನ್ವಾಸ್‌ನಲ್ಲಿ ನೇರವಾಗಿ ರೆಂಡರ್ ಮಾಡಲಾದ ದೃಶ್ಯ ಪಠ್ಯ ಬ್ಲಾಕ್‌ಗಳಾಗಿವೆ (ಮುದ್ರಿಸಿದಾಗ ಕಾಣಿಸುತ್ತವೆ). ಆದರೆ, ಪುಟ ಲೇಬಲ್‌ಗಳು PDF ಕ್ಯಾಟಲಾಗ್‌ಗೆ ಸೇರಿಸಲಾದ ರಚನಾತ್ಮಕ ಮೆಟಾಡೇಟಾವಾಗಿವೆ. ಅವು ಥಂಬ್‌ನೇಲ್‌ಗಳ ಕೆಳಗೆ ಮತ್ತು Adobe Acrobat ಅಥವಾ Apple Preview ನಂತಹ ಸಾಫ್ಟ್‌ವೇರ್ ಒಳಗಿನ ಪುಟ ಹುಡುಕಾಟ ಪೆಟ್ಟಿಗೆಯಲ್ಲಿ ಏನು ಪ್ರದರ್ಶಿಸಲಾಗುತ್ತದೆ ಎಂಬುದನ್ನು ನಿಯಂತ್ರಿಸುತ್ತವೆ."
       },
       {
-        "question": "What happens if I leave the Page Range empty?",
-        "answer": "Leaving the page range empty causes the rule to apply globally to all pages of the document."
+        "question": "ನಾನು ಪುಟ ಶ್ರೇಣಿಯನ್ನು ಖಾಲಿ ಬಿಟ್ಟರೆ ಏನಾಗುತ್ತದೆ?",
+        "answer": "ಪುಟ ಶ್ರೇಣಿಯನ್ನು ಖಾಲಿ ಬಿಡುವುದರಿಂದ ನಿಯಮವು ದಾಖಲೆಯ ಎಲ್ಲಾ ಪುಟಗಳಿಗೆ ಜಾಗತಿಕವಾಗಿ ಅನ್ವಯಿಸುತ್ತದೆ."
       },
       {
-        "question": "How are overlapping rules handled?",
-        "answer": "Rules are evaluated sequentially in the order they are listed. If a page range of a later rule overlaps with an earlier one, the later rule takes priority and overrides the label for that page."
+        "question": "ಪರಸ್ಪರ ಅತಿಕ್ರಮಿಸುವ ನಿಯಮಗಳನ್ನು ಹೇಗೆ ನಿರ್ವಹಿಸಲಾಗುತ್ತದೆ?",
+        "answer": "ನಿಯಮಗಳನ್ನು ಅವುಗಳನ್ನು ಪಟ್ಟಿ ಮಾಡಲಾದ ಕ್ರಮದಲ್ಲಿ ಅನುಕ್ರಮವಾಗಿ ಮೌಲ್ಯಮಾಪನ ಮಾಡಲಾಗುತ್ತದೆ. ನಂತರದ ನಿಯಮದ ಪುಟ ಶ್ರೇಣಿಯು ಹಿಂದಿನ ನಿಯಮದೊಂದಿಗೆ ಅತಿಕ್ರಮಿಸಿದರೆ, ನಂತರದ ನಿಯಮವು ಆದ್ಯತೆಯನ್ನು ಪಡೆಯುತ್ತದೆ ಮತ್ತು ಆ ಪುಟದ ಲೇಬಲ್ ಅನ್ನು ಓವರ್‌ರೈಡ್ ಮಾಡುತ್ತದೆ."
       }
     ]
   },
   "n-up-pdf": {
     "title": "N-Up PDF",
-    "metaDescription": "Print multiple PDF pages per sheet. Create 2-up, 4-up, or custom layouts.",
+    "metaDescription": "ಪ್ರತಿ ಹಾಳೆಯಲ್ಲಿ ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು PDF ಪುಟಗಳನ್ನು ಮುದ್ರಿಸಿ. 2-up, 4-up ಅಥವಾ ಕಸ್ಟಮ್ ಲೇಔಟ್‌ಗಳನ್ನು ರಚಿಸಿ.",
     "keywords": [
       "n-up pdf",
       "multiple pages per sheet",
       "2-up printing",
       "page imposition"
     ],
-    "description": "\n      <p>N-Up PDF arranges multiple pages onto single sheets, creating 2-up, 4-up, 6-up, 9-up, or custom layouts. Perfect for saving paper when printing or creating handouts.</p>\n      <p>Choose from preset layouts or create custom arrangements. The tool automatically scales and positions pages for optimal results.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>N-Up PDF ಬಹು ಪುಟಗಳನ್ನು ಒಂದೇ ಹಾಳೆಯಲ್ಲಿ ಜೋಡಿಸುತ್ತದೆ, 2-up, 4-up, 6-up, 9-up ಅಥವಾ ಕಸ್ಟಮ್ ಲೇಔಟ್‌ಗಳನ್ನು ರಚಿಸುತ್ತದೆ. ಮುದ್ರಿಸುವಾಗ ಅಥವಾ ಹ್ಯಾಂಡ್‌ಔಟ್‌ಗಳನ್ನು ರಚಿಸುವಾಗ ಕಾಗದವನ್ನು ಉಳಿಸಲು ಇದು ಅತ್ಯುತ್ತಮವಾಗಿದೆ.</p>\n      <p>ಪೂರ್ವನಿಗದಿ ಲೇಔಟ್‌ಗಳಿಂದ ಆಯ್ಕೆಮಾಡಿ ಅಥವಾ ಕಸ್ಟಮ್ ವ್ಯವಸ್ಥೆಗಳನ್ನು ರಚಿಸಿ. ಉತ್ತಮ ಫಲಿತಾಂಶಗಳಿಗಾಗಿ ಈ ಉಪಕರಣವು ಪುಟಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಸ್ಕೇಲ್ ಮಾಡುತ್ತದೆ ಮತ್ತು ಸೂಕ್ತವಾಗಿ ಇರಿಸುತ್ತದೆ.</p>\n      <p>ಎಲ್ಲಾ ಪ್ರಕ್ರಿಯೆಗಳು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ನಡೆಯುತ್ತವೆ, ಇದು ನಿಮ್ಮ ದಾಖಲೆಗಳು ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "ನಿಮ್ಮ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Choose Layout",
-        "description": "Select 2-up, 4-up, 6-up, 9-up, or custom grid."
+        "title": "ಲೇಔಟ್ ಆಯ್ಕೆಮಾಡಿ",
+        "description": "2-up, 4-up, 6-up, 9-up ಅಥವಾ ಕಸ್ಟಮ್ ಗ್ರಿಡ್ ಆಯ್ಕೆಮಾಡಿ."
       },
       {
         "step": 3,
-        "title": "Create and Download",
-        "description": "Click Create to generate the n-up PDF and download."
+        "title": "ರಚಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "n-up PDF ಅನ್ನು ರಚಿಸಲು ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ರಚಿಸಿ ಎಂಬುದನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Save Paper",
-        "description": "Print multiple pages per sheet to reduce paper usage.",
+        "title": "ಕಾಗದ ಉಳಿಸಿ",
+        "description": "ಕಾಗದದ ಬಳಕೆಯನ್ನು ಕಡಿಮೆ ಮಾಡಲು ಪ್ರತಿ ಹಾಳೆಯಲ್ಲಿ ಬಹು ಪುಟಗಳನ್ನು ಮುದ್ರಿಸಿ.",
         "icon": "leaf"
       },
       {
         "title": "ಹ್ಯಾಂಡ್‌ಔಟ್‌ಗಳನ್ನು ರಚಿಸಿ",
-        "description": "Make compact handouts from presentation slides.",
+        "description": "ಪ್ರಸ್ತುತಿ ಸ್ಲೈಡ್‌ಗಳಿಂದ ಕಾಂಪ್ಯಾಕ್ಟ್ ಹ್ಯಾಂಡ್‌ಔಟ್‌ಗಳನ್ನು ತಯಾರಿಸಿ.",
         "icon": "file-text"
       },
       {
-        "title": "Review Documents",
-        "description": "Print documents in reduced size for review.",
+        "title": "ದಾಖಲೆಗಳನ್ನು ಪರಿಶೀಲಿಸಿ",
+        "description": "ಪರಿಶೀಲನೆಗಾಗಿ ದಾಖಲೆಗಳನ್ನು ಸಣ್ಣ ಗಾತ್ರದಲ್ಲಿ ಮುದ್ರಿಸಿ.",
         "icon": "eye"
       }
     ],
     "faq": [
       {
-        "question": "What layouts are available?",
-        "answer": "2-up, 4-up, 6-up, 9-up, and custom grid layouts are available."
+        "question": "ಯಾವ ಲೇಔಟ್‌ಗಳು ಲಭ್ಯವಿವೆ?",
+        "answer": "2-up, 4-up, 6-up, 9-up ಮತ್ತು ಕಸ್ಟಮ್ ಗ್ರಿಡ್ ಲೇಔಟ್‌ಗಳು ಲಭ್ಯವಿವೆ."
       },
       {
-        "question": "Can I add borders between pages?",
-        "answer": "Yes, you can add borders and gutters between pages."
+        "question": "ನಾನು ಪುಟಗಳ ನಡುವೆ ಅಂಚುಗಳನ್ನು ಸೇರಿಸಬಹುದೇ?",
+        "answer": "ಹೌದು, ನೀವು ಪುಟಗಳ ನಡುವೆ ಅಂಚುಗಳು ಮತ್ತು ಗಟರ್‌ಗಳನ್ನು ಸೇರಿಸಬಹುದು."
       },
       {
-        "question": "Is page order preserved?",
-        "answer": "Yes, pages are arranged in reading order (left-to-right, top-to-bottom)."
+        "question": "ಪುಟಗಳ ಕ್ರಮವನ್ನು ಕಾಯ್ದುಕೊಳ್ಳಲಾಗುತ್ತದೆಯೇ?",
+        "answer": "ಹೌದು, ಪುಟಗಳನ್ನು ಓದುವ ಕ್ರಮದಲ್ಲಿ ಜೋಡಿಸಲಾಗಿದೆ (ಎಡದಿಂದ ಬಲಕ್ಕೆ, ಮೇಲಿನಿಂದ ಕೆಳಕ್ಕೆ)."
       }
     ]
   },
   "combine-single-page": {
-    "title": "Combine to Single Page",
-    "metaDescription": "Stitch PDF pages into one continuous page. Create scrollable single-page documents.",
+    "title": "ಒಂದೇ ಪುಟಕ್ಕೆ ಸಂಯೋಜಿಸಿ",
+    "metaDescription": "PDF ಪುಟಗಳನ್ನು ಒಂದೇ ನಿರಂತರ ಪುಟವಾಗಿ ಜೋಡಿಸಿ. ಸ್ಕ್ರೋಲ್ ಮಾಡಬಹುದಾದ ಒಂದೇ ಪುಟದ ದಾಖಲೆಗಳನ್ನು ರಚಿಸಿ.",
     "keywords": [
       "combine pages",
       "single page pdf",
       "stitch pages",
       "continuous scroll"
     ],
-    "description": "\n      <p>Combine to Single Page stitches all PDF pages into one continuous page. Create scrollable documents perfect for web viewing or continuous reading.</p>\n      <p>Pages are joined vertically with customizable spacing. The result is a single long page containing all content.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>ಒಂದೇ ಪುಟಕ್ಕೆ ಸಂಯೋಜಿಸಿ ವೈಶಿಷ್ಟ್ಯವು ಎಲ್ಲಾ PDF ಪುಟಗಳನ್ನು ಒಂದೇ ನಿರಂತರ ಪುಟವಾಗಿ ಜೋಡಿಸುತ್ತದೆ. ವೆಬ್ ವೀಕ್ಷಣೆ ಅಥವಾ ನಿರಂತರ ಓದಿಗೆ ಸೂಕ್ತವಾದ ಸ್ಕ್ರೋಲ್ ಮಾಡಬಹುದಾದ ದಾಖಲೆಗಳನ್ನು ರಚಿಸಿ.</p>\n      <p>ಬದಲಾಯಿಸಬಹುದಾದ ಅಂತರದೊಂದಿಗೆ ಪುಟಗಳನ್ನು ಲಂಬವಾಗಿ ಜೋಡಿಸಲಾಗುತ್ತದೆ. ಇದರ ಫಲಿತಾಂಶವು ಎಲ್ಲಾ ವಿಷಯವನ್ನು ಒಳಗೊಂಡಿರುವ ಒಂದೇ ದೀರ್ಘ ಪುಟವಾಗಿರುತ್ತದೆ.</p>\n      <p>ಎಲ್ಲಾ ಪ್ರಕ್ರಿಯೆಗಳು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ನಡೆಯುತ್ತವೆ, ಇದು ನಿಮ್ಮ ದಾಖಲೆಗಳು ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "ನಿಮ್ಮ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Set Spacing",
-        "description": "Choose the gap between stitched pages."
+        "title": "ಅಂತರವನ್ನು ಹೊಂದಿಸಿ",
+        "description": "ಜೋಡಿಸಲಾದ ಪುಟಗಳ ನಡುವಿನ ಅಂತರವನ್ನು ಆಯ್ಕೆಮಾಡಿ."
       },
       {
         "step": 3,
         "title": "ಸಂಯೋಜಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Click Combine to create the single-page PDF."
+        "description": "ಒಂದೇ ಪುಟದ PDF ರಚಿಸಲು ಸಂಯೋಜಿಸಿ ಎಂಬುದನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Web Documents",
-        "description": "Create scrollable PDFs for web embedding.",
+        "title": "ವೆಬ್ ದಾಖಲೆಗಳು",
+        "description": "ವೆಬ್‌ನಲ್ಲಿ ಎಂಬೆಡ್ ಮಾಡಲು ಸ್ಕ್ರೋಲ್ ಮಾಡಬಹುದಾದ PDF ಗಳನ್ನು ರಚಿಸಿ.",
         "icon": "globe"
       },
       {
-        "title": "Continuous Reading",
-        "description": "Convert paginated documents to continuous scroll.",
+        "title": "ನಿರಂತರ ಓದುವಿಕೆ",
+        "description": "ಪುಟಗಳಾಗಿ ವಿಂಗಡಿಸಲಾದ ದಾಖಲೆಗಳನ್ನು ನಿರಂತರ ಸ್ಕ್ರೋಲ್ ಆಗಿ ಪರಿವರ್ತಿಸಿ.",
         "icon": "scroll"
       },
       {
-        "title": "Long-Form Content",
-        "description": "Combine pages for seamless long-form reading.",
+        "title": "ದೀರ್ಘ-ರೂಪದ ವಿಷಯ",
+        "description": "ಸಡೆರಹಿತ ದೀರ್ಘ-ರೂಪದ ಓದಿಗೆ ಪುಟಗಳನ್ನು ಸಂಯೋಜಿಸಿ.",
         "icon": "file-text"
       }
     ],
     "faq": [
       {
         "question": "ಪುಟದ ಮಿತಿ ಇದೆಯೇ?",
-        "answer": "Very long documents may be limited by browser memory."
+        "answer": "ತುಂಬಾ ದೀರ್ಘವಾದ ದಾಖಲೆಗಳು ಬ್ರೌಸರ್ ಮೆಮೊರಿಯಿಂದಾಗಿ ಸೀಮಿತವಾಗಬಹುದು."
       },
       {
-        "question": "Can I add separators between pages?",
-        "answer": "Yes, you can add spacing or lines between original pages."
+        "question": "ನಾನು ಪುಟಗಳ ನಡುವೆ ವಿಭಜಕಗಳನ್ನು ಸೇರಿಸಬಹುದೇ?",
+        "answer": "ಹೌದು, ನೀವು ಮೂಲ ಪುಟಗಳ ನಡುವೆ ಅಂತರ ಅಥವಾ ರೇಖೆಗಳನ್ನು ಸೇರಿಸಬಹುದು."
       },
       {
-        "question": "Will this work for printing?",
-        "answer": "The result is best for screen viewing; use N-Up for print layouts."
+        "question": "ಇದು ಮುದ್ರಣಕ್ಕೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆಯೇ?",
+        "answer": "ಫಲಿತಾಂಶವು ಸ್ಕ್ರೀನ್ ವೀಕ್ಷಣೆಗೆ ಅತ್ಯುತ್ತಮವಾಗಿದೆ; ಮುದ್ರಣ ಲೇಔಟ್‌ಗಳಿಗಾಗಿ N-Up ಬಳಸಿ."
       }
     ]
   },
   "view-metadata": {
-    "title": "View Metadata",
-    "metaDescription": "View PDF document properties. See author, title, dates, and other metadata.",
+    "title": "ಮೆಟಾಡೇಟಾ ವೀಕ್ಷಿಸಿ",
+    "metaDescription": "PDF ದಾಖಲೆಯ ಗುಣಲಕ್ಷಣಗಳನ್ನು ವೀಕ್ಷಿಸಿ. ಲೇಖಕ, ಶೀರ್ಷಿಕೆ, ದಿನಾಂಕಗಳು ಮತ್ತು ಇತರ ಮೆಟಾಡೇಟಾವನ್ನು ನೋಡಿ.",
     "keywords": [
       "pdf metadata",
       "document properties",
       "pdf info",
       "view pdf details"
     ],
-    "description": "\n      <p>View Metadata displays all document properties and metadata from your PDF files. See author, title, subject, keywords, creation date, modification date, and more.</p>\n      <p>Useful for auditing documents, checking file information, or verifying document authenticity.</p>\n      <p>All viewing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>ಮೆಟಾಡೇಟಾ ವೀಕ್ಷಿಸಿ ವೈಶಿಷ್ಟ್ಯವು ನಿಮ್ಮ PDF ಫೈಲ್‌ಗಳ ಎಲ್ಲಾ ದಾಖಲೆ ಗುಣಲಕ್ಷಣಗಳನ್ನು ಮತ್ತು ಮೆಟಾಡೇಟಾವನ್ನು ಪ್ರದರ್ಶಿಸುತ್ತದೆ. ಲೇಖಕ, ಶೀರ್ಷಿಕೆ, ವಿಷಯ, ಕೀವರ್ಡ್‌ಗಳು, ರಚಿಸಿದ ದಿನಾಂಕ, ಮಾರ್ಪಡಿಸಿದ ದಿನಾಂಕ ಮತ್ತು ಹೆಚ್ಚಿನದನ್ನು ನೋಡಿ.</p>\n      <p>ದಾಖಲೆಗಳ ಆಡಿಟಿಂಗ್ ಮಾಡಲು, ಫೈಲ್ ಮಾಹಿತಿಯನ್ನು ಪರಿಶೀಲಿಸಲು ಅಥವಾ ದಾಖಲೆಯ ಪ್ರಾಮಾಣಿಕತೆಯನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಲು ಉಪಯುಕ್ತವಾಗಿದೆ.</p>\n      <p>ಎಲ್ಲಾ ವೀಕ್ಷಣೆಗಳು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ನಡೆಯುತ್ತವೆ, ಇದು ನಿಮ್ಮ ದಾಖಲೆಗಳು ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "ನಿಮ್ಮ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "View Properties",
-        "description": "See all metadata displayed in an organized format."
+        "title": "ಗುಣಲಕ್ಷಣಗಳನ್ನು ವೀಕ್ಷಿಸಿ",
+        "description": "ಎಲ್ಲಾ ಮೆಟಾಡೇಟಾವನ್ನು ಸಂಘಟಿತ ಸ್ವರೂಪದಲ್ಲಿ ಪ್ರದರ್ಶಿಸಿರುವುದನ್ನು ನೋಡಿ."
       },
       {
         "step": 3,
-        "title": "Export if Needed",
-        "description": "Optionally export metadata as JSON."
+        "title": "ಅಗತ್ಯವಿದ್ದರೆ ಎಕ್ಸ್‌ಪೋರ್ಟ್ ಮಾಡಿ",
+        "description": "ಐಚ್ಛಿಕವಾಗಿ ಮೆಟಾಡೇಟಾವನ್ನು JSON ಆಗಿ ಎಕ್ಸ್‌ಪೋರ್ಟ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Document Audit",
-        "description": "Review document properties for compliance.",
+        "title": "ದಾಖಲೆ ಆಡಿಟ್",
+        "description": "ಅನುಸರಣೆಗಾಗಿ ದಾಖಲೆಯ ಗುಣಲಕ್ಷಣಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.",
         "icon": "clipboard-check"
       },
       {
-        "title": "Verify Authenticity",
-        "description": "Check creation dates and author information.",
+        "title": "ಪ್ರಾಮಾಣಿಕತೆಯನ್ನು ಪರಿಶೀಲಿಸಿ",
+        "description": "ಸೃಷ್ಟಿಸಿದ ದಿನಾಂಕಗಳು ಮತ್ತು ಲೇಖಕರ ಮಾಹಿತಿಯನ್ನು ಪರಿಶೀಲಿಸಿ.",
         "icon": "shield"
       },
       {
-        "title": "File Information",
-        "description": "Get detailed information about PDF files.",
+        "title": "ಫೈಲ್ ಮಾಹಿತಿ",
+        "description": "PDF ಫೈಲ್‌ಗಳ ಕುರಿತು ವಿವರವಾದ ಮಾಹಿತಿಯನ್ನು ಪಡೆಯಿರಿ.",
         "icon": "info"
       }
     ],
     "faq": [
       {
-        "question": "What metadata is shown?",
-        "answer": "Title, author, subject, keywords, creator, producer, dates, and PDF version."
+        "question": "ಯಾವ ಮೆಟಾಡೇಟಾವನ್ನು ತೋರಿಸಲಾಗುತ್ತದೆ?",
+        "answer": "ಶೀರ್ಷಿಕೆ, ಲೇಖಕ, ವಿಷಯ, ಕೀವರ್ಡ್‌ಗಳು, ಕ್ರಿಯೇಟರ್, ಪ್ರೊಡ್ಯೂಸರ್, ದಿನಾಂಕಗಳು ಮತ್ತು PDF ಆವೃತ್ತಿ."
       },
       {
-        "question": "Can I edit metadata here?",
-        "answer": "Use the Edit Metadata tool to modify document properties."
+        "question": "ನಾನು ಇಲ್ಲಿ ಮೆಟಾಡೇಟಾವನ್ನು ಎಡಿಟ್ ಮಾಡಬಹುದೇ?",
+        "answer": "ಡಾಕ್ಯುಮೆಂಟ್ ಗುಣಲಕ್ಷಣಗಳನ್ನು ಮಾರ್ಪಡಿಸಲು Edit Metadata ಉಪಕರಣವನ್ನು ಬಳಸಿ."
       },
       {
-        "question": "Is XMP metadata included?",
-        "answer": "Yes, both standard and XMP metadata are displayed."
+        "question": "XMP ಮೆಟಾಡೇಟಾವನ್ನು ಸೇರಿಸಲಾಗಿದೆಯೇ?",
+        "answer": "ಹೌದು, ಪ್ರಮಾಣಿತ ಮತ್ತು XMP ಎರಡೂ ಮೆಟಾಡೇಟಾಗಳನ್ನು ತೋರಿಸಲಾಗುತ್ತದೆ."
       }
     ]
   },
   "edit-metadata": {
     "title": "Edit Metadata",
-    "metaDescription": "Edit PDF document properties. Change title, author, subject, and keywords.",
+    "metaDescription": "PDF ಡಾಕ್ಯುಮೆಂಟ್ ಗುಣಲಕ್ಷಣಗಳನ್ನು ಎಡಿಟ್ ಮಾಡಿ. ಶೀರ್ಷಿಕೆ, ಲೇಖಕ, ವಿಷಯ ಮತ್ತು ಕೀವರ್ಡ್‌ಗಳನ್ನು ಬದಲಾಯಿಸಿ.",
     "keywords": [
       "edit pdf metadata",
       "change pdf properties",
       "pdf author",
       "document info"
     ],
-    "description": "\n      <p>Edit Metadata allows you to modify document properties in your PDF files. Change the title, author, subject, keywords, and other metadata fields.</p>\n      <p>Perfect for correcting document information, adding proper attribution, or preparing files for distribution.</p>\n      <p>All editing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>Edit Metadata ನಿಮ್ಮ PDF ಫೈಲ್‌ಗಳಲ್ಲಿನ ಡಾಕ್ಯುಮೆಂಟ್ ಗುಣಲಕ್ಷಣಗಳನ್ನು ಮಾರ್ಪಡಿಸಲು ನಿಮಗೆ ಅನುಮತಿಸುತ್ತದೆ. ಶೀರ್ಷಿಕೆ, ಲೇಖಕ, ವಿಷಯ, ಕೀವರ್ಡ್‌ಗಳು ಮತ್ತು ಇತರ ಮೆಟಾಡೇಟಾ ಕ್ಷೇತ್ರಗಳನ್ನು ಬದಲಾಯಿಸಿ.</p><p>ಡಾಕ್ಯುಮೆಂಟ್ ಮಾಹಿತಿಯನ್ನು ಸರಿಪಡಿಸಲು, ಸೂಕ್ತ ಆಟ್ರಿಬ್ಯೂಷನ್ ಸೇರಿಸಲು ಅಥವಾ ವಿತರಣೆಗಾಗಿ ಫೈಲ್‌ಗಳನ್ನು ಸಿದ್ಧಪಡಿಸಲು ಇದು ಸೂಕ್ತವಾಗಿದೆ.</p><p>ಎಲ್ಲಾ ಎಡಿಟಿಂಗ್ ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ನಡೆಯುತ್ತದೆ, ಇದು ನಿಮ್ಮ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳು ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>",
     "howToUse": [
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "ನಿಮ್ಮ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Edit Properties",
-        "description": "Modify title, author, subject, keywords, and other fields."
+        "title": "ಗುಣಲಕ್ಷಣಗಳನ್ನು ಎಡಿಟ್ ಮಾಡಿ",
+        "description": "ಶೀರ್ಷಿಕೆ, ಲೇಖಕ, ವಿಷಯ, ಕೀವರ್ಡ್‌ಗಳು ಮತ್ತು ಇತರ ಕ್ಷೇತ್ರಗಳನ್ನು ಮಾರ್ಪಡಿಸಿ."
       },
       {
         "step": 3,
         "title": "ಉಳಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Click Save to apply changes and download."
+        "description": "ಬದಲಾವಣೆಗಳನ್ನು ಅನ್ವಯಿಸಲು ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು Save ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Add Attribution",
-        "description": "Set proper author and creator information.",
+        "title": "ಆಟ್ರಿಬ್ಯೂಷನ್ ಸೇರಿಸಿ",
+        "description": "ಸೂಕ್ತ ಲೇಖಕ ಮತ್ತು ಕ್ರಿಯೇಟರ್ ಮಾಹಿತಿಯನ್ನು ಹೊಂದಿಸಿ.",
         "icon": "user"
       },
       {
-        "title": "SEO Optimization",
-        "description": "Add keywords and descriptions for searchability.",
+        "title": "SEO ಆಪ್ಟಿಮೈಸೇಶನ್",
+        "description": "ಹುಡುಕಾಟದ ಸುಲಭತೆಗಾಗಿ ಕೀವರ್ಡ್‌ಗಳು ಮತ್ತು ವಿವರಣೆಗಳನ್ನು ಸೇರಿಸಿ.",
         "icon": "search"
       },
       {
         "title": "ದಾಖಲೆ ಸಿದ್ಧತೆ",
-        "description": "Prepare documents with proper metadata before sharing.",
+        "description": "ಹಂಚಿಕೊಳ್ಳುವ ಮೊದಲು ಸೂಕ್ತ ಮೆಟಾಡೇಟಾದೊಂದಿಗೆ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳನ್ನು ಸಿದ್ಧಪಡಿಸಿ.",
         "icon": "file-check"
       }
     ],
     "faq": [
       {
-        "question": "What fields can I edit?",
-        "answer": "Title, author, subject, keywords, creator, and producer fields."
+        "question": "ನಾನು ಯಾವ ಕ್ಷೇತ್ರಗಳನ್ನು ಎಡಿಟ್ ಮಾಡಬಹುದು?",
+        "answer": "ಶೀರ್ಷಿಕೆ, ಲೇಖಕ, ವಿಷಯ, ಕೀವರ್ಡ್‌ಗಳು, ಕ್ರಿಯೇಟರ್ ಮತ್ತು ಪ್ರೊಡ್ಯೂಸರ್ ಕ್ಷೇತ್ರಗಳು."
       },
       {
-        "question": "Can I clear all metadata?",
-        "answer": "Use Remove Metadata tool to strip all document properties."
+        "question": "ನಾನು ಎಲ್ಲಾ ಮೆಟಾಡೇಟಾವನ್ನು ಅಳಿಸಬಹುದೇ?",
+        "answer": "ಎಲ್ಲಾ ಡಾಕ್ಯುಮೆಂಟ್ ಗುಣಲಕ್ಷಣಗಳನ್ನು ತೆಗೆದುಹಾಕಲು Remove Metadata ಉಪಕರಣವನ್ನು ಬಳಸಿ."
       },
       {
-        "question": "Are dates editable?",
-        "answer": "Creation and modification dates are updated automatically."
+        "question": "ದಿನಾಂಕಗಳನ್ನು ಎಡಿಟ್ ಮಾಡಬಹುದೇ?",
+        "answer": "ಸೃಷ್ಟಿ ಮತ್ತು ಮಾರ್ಪಾಡು ದಿನಾಂಕಗಳು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ನವೀಕರಿಸಲ್ಪಡುತ್ತವೆ."
       }
     ]
   },
   "pdf-to-zip": {
     "title": "PDFs to ZIP",
-    "metaDescription": "Package multiple PDFs into a ZIP archive. Compress and bundle PDF files.",
+    "metaDescription": "ಹಲವು PDF ಗಳನ್ನು ZIP ಆರ್ಕೈವ್ ಆಗಿ ಪ್ಯಾಕ್ ಮಾಡಿ. PDF ಫೈಲ್‌ಗಳನ್ನು ಸಂಕುಚಿತಗೊಳಿಸಿ ಮತ್ತು ಬಂಡಲ್ ಮಾಡಿ.",
     "keywords": [
       "pdf to zip",
       "compress pdfs",
       "bundle pdfs",
       "archive pdfs"
     ],
-    "description": "\n      <p>PDFs to ZIP packages multiple PDF files into a single ZIP archive. Compress and bundle your PDFs for easier sharing, storage, or backup.</p>\n      <p>The tool creates a compressed archive containing all your PDF files, reducing total size and simplifying file management.</p>\n      <p>All processing happens in your browser, ensuring your files remain private.</p>\n    ",
+    "description": "<p>PDFs to ZIP ಹಲವು PDF ಫೈಲ್‌ಗಳನ್ನು ಒಂದೇ ZIP ಆರ್ಕೈವ್ ಆಗಿ ಪ್ಯಾಕ್ ಮಾಡುತ್ತದೆ. ಸುಲಭವಾಗಿ ಹಂಚಿಕೊಳ್ಳಲು, ಶೇಖರಣೆಗಾಗಿ ಅಥವಾ ಬ್ಯಾಕಪ್‌ಗಾಗಿ ನಿಮ್ಮ PDF ಗಳನ್ನು ಸಂಕುಚಿತಗೊಳಿಸಿ ಮತ್ತು ಬಂಡಲ್ ಮಾಡಿ.</p><p>ಈ ಉಪಕರಣವು ನಿಮ್ಮ ಎಲ್ಲಾ PDF ಫೈಲ್‌ಗಳನ್ನು ಒಳಗೊಂಡಿರುವ ಸಂಕುಚಿತ ಆರ್ಕೈವ್ ಅನ್ನು ರಚಿಸುತ್ತದೆ, ಒಟ್ಟು ಗಾತ್ರವನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ ಮತ್ತು ಫೈಲ್ ನಿರ್ವಹಣೆಯನ್ನು ಸರಳಗೊಳಿಸುತ್ತದೆ.</p><p>ಎಲ್ಲಾ ಪ್ರಕ್ರಿಯೆಗಳು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ನಡೆಯುತ್ತವೆ, ಇದು ನಿಮ್ಮ ಫೈಲ್‌ಗಳು ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload PDFs",
-        "description": "Drag and drop multiple PDF files or click to select."
+        "title": "PDF ಗಳನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ಹಲವು PDF ಫೈಲ್‌ಗಳನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Configure Archive",
-        "description": "Optionally set archive name and compression level."
+        "title": "ಆರ್ಕೈವ್ ಕಾನ್ಫಿಗರ್ ಮಾಡಿ",
+        "description": "ಐಚ್ಛಿಕವಾಗಿ ಆರ್ಕೈವ್ ಹೆಸರು ಮತ್ತು ಕಂಪ್ರೆಷನ್ ಮಟ್ಟವನ್ನು ಹೊಂದಿಸಿ."
       },
       {
         "step": 3,
-        "title": "Create and Download",
-        "description": "Click Create to generate the ZIP archive."
+        "title": "ರಚಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ZIP ಆರ್ಕೈವ್ ರಚಿಸಲು Create ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "File Sharing",
-        "description": "Bundle multiple PDFs for easier sharing.",
+        "title": "ಫೈಲ್ ಹಂಚಿಕೆ",
+        "description": "ಸುಲಭವಾಗಿ ಹಂಚಿಕೊಳ್ಳಲು ಹಲವು PDF ಗಳನ್ನು ಬಂಡಲ್ ಮಾಡಿ.",
         "icon": "share-2"
       },
       {
-        "title": "Backup Creation",
-        "description": "Create compressed backups of PDF collections.",
+        "title": "ಬ್ಯಾಕಪ್ ರಚನೆ",
+        "description": "PDF ಸಂಗ್ರಹಣೆಗಳ ಸಂಕುಚಿತ ಬ್ಯಾಕಪ್‌ಗಳನ್ನು ರಚಿಸಿ.",
         "icon": "archive"
       },
       {
         "title": "ಇಮೇಲ್ ಲಗತ್ತುಗಳು",
-        "description": "Combine PDFs into one attachment for email.",
+        "description": "ಇಮೇಲ್‌ಗಾಗಿ PDF ಗಳನ್ನು ಒಂದೇ ಅಟ್ಯಾಚ್‌ಮೆಂಟ್ ಆಗಿ ಸಂಯೋಜಿಸಿ.",
         "icon": "mail"
       }
     ],
     "faq": [
       {
-        "question": "How much compression is applied?",
-        "answer": "ZIP compression typically reduces total size by 10-30%."
+        "question": "ಎಷ್ಟು ಕಂಪ್ರೆಷನ್ ಅನ್ವಯಿಸಲಾಗುತ್ತದೆ?",
+        "answer": "ZIP ಕಂಪ್ರೆಷನ್ ಸಾಮಾನ್ಯವಾಗಿ ಒಟ್ಟು ಗಾತ್ರವನ್ನು 10-30% ರಷ್ಟು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ."
       },
       {
-        "question": "Is there a file limit?",
-        "answer": "You can include up to 100 PDFs in a single archive."
+        "question": "ಫೈಲ್ ಮಿತಿ ಇದೆಯೇ?",
+        "answer": "ನೀವು ಒಂದೇ ಆರ್ಕೈವ್‌ನಲ್ಲಿ 100 PDF ಗಳವರೆಗೆ ಸೇರಿಸಬಹುದು."
       },
       {
-        "question": "Can I set a password?",
-        "answer": "Password-protected ZIP creation is not currently supported."
+        "question": "ನಾನು ಪಾಸ್‌ವರ್ಡ್ ಹೊಂದಿಸಬಹುದೇ?",
+        "answer": "ಪಾಸ್‌ವರ್ಡ್-ರಕ್ಷಿತ ZIP ರಚನೆಯು ಪ್ರಸ್ತುತ ಬೆಂಬಲಿತವಾಗಿಲ್ಲ."
       }
     ]
   },
   "compare-pdfs": {
-    "title": "Compare PDFs",
-    "metaDescription": "Compare two PDF documents. Highlight differences between versions.",
+    "title": "PDF ಗಳನ್ನು ಹೋಲಿಕೆ ಮಾಡಿ",
+    "metaDescription": "ಎರಡು PDF ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳನ್ನು ಹೋಲಿಕೆ ಮಾಡಿ. ಆವೃತ್ತಿಗಳ ನಡುವಿನ ವ್ಯತ್ಯಾಸಗಳನ್ನು ಹೈಲೈಟ್ ಮಾಡಿ.",
     "keywords": [
       "compare pdfs",
       "pdf diff",
       "document comparison",
       "version comparison"
     ],
-    "description": "\n      <p>Compare PDFs analyzes two PDF documents and highlights the differences between them. Perfect for reviewing document revisions, checking contract changes, or verifying edits.</p>\n      <p>View documents side-by-side or in overlay mode with differences highlighted. The tool identifies text changes, additions, and deletions.</p>\n      <p>All comparison happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>Compare PDFs ಎರಡು PDF ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳನ್ನು ವಿಶ್ಲೇಷಿಸುತ್ತದೆ ಮತ್ತು ಅವುಗಳ ನಡುವಿನ ವ್ಯತ್ಯಾಸಗಳನ್ನು ಹೈಲೈಟ್ ಮಾಡುತ್ತದೆ. ಡಾಕ್ಯುಮೆಂಟ್ ಪರಿಷ್ಕರಣೆಗಳನ್ನು ಪರಿಶೀಲಿಸಲು, ಒಪ್ಪಂದದ ಬದಲಾವಣೆಗಳನ್ನು ಪರೀಕ್ಷಿಸಲು ಅಥವಾ ಎಡಿಟ್‌ಗಳನ್ನು ದೃಢೀಕರಿಸಲು ಇದು ಸೂಕ್ತವಾಗಿದೆ.</p><p>ವ್ಯತ್ಯಾಸಗಳನ್ನು ಹೈಲೈಟ್ ಮಾಡಿ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳನ್ನು ಪಕ್ಕ-ಪಕ್ಕದಲ್ಲಿ ಅಥವಾ ಓವರ್‌ಲೇ ಮೋಡ್‌ನಲ್ಲಿ ವೀಕ್ಷಿಸಿ. ಈ ಉಪಕರಣವು ಪಠ್ಯ ಬದಲಾವಣೆಗಳು, ಸೇರ್ಪಡೆಗಳು ಮತ್ತು ಅಳಿಸುವಿಕೆಗಳನ್ನು ಗುರುತಿಸುತ್ತದೆ.</p><p>ಎಲ್ಲಾ ಹೋಲಿಕೆ ಪ್ರಕ್ರಿಯೆಗಳು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ನಡೆಯುತ್ತವೆ, ಇದು ನಿಮ್ಮ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳು ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Two PDFs",
-        "description": "Upload the original and modified PDF documents."
+        "title": "ಎರಡು PDF ಗಳನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ಮೂಲ ಮತ್ತು ಮಾರ್ಪಡಿಸಿದ PDF ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Compare Documents",
-        "description": "View differences highlighted in side-by-side or overlay mode."
+        "title": "ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳನ್ನು ಹೋಲಿಕೆ ಮಾಡಿ",
+        "description": "ಪಕ್ಕ-ಪಕ್ಕದಲ್ಲಿ ಅಥವಾ ಓವರ್‌ಲೇ ಮೋಡ್‌ನಲ್ಲಿ ಹೈಲೈಟ್ ಮಾಡಲಾದ ವ್ಯತ್ಯಾಸಗಳನ್ನು ವೀಕ್ಷಿಸಿ."
       },
       {
         "step": 3,
@@ -4540,7 +4540,7 @@ export const toolContentKn: Record<string, ToolContent> = {
       },
       {
         "step": 3,
-        "title": "Create and Download",
+        "title": "ರಚಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
         "description": "Click Create to generate printable tiles."
       }
     ],
@@ -4590,7 +4590,7 @@ export const toolContentKn: Record<string, ToolContent> = {
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "ನಿಮ್ಮ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
@@ -4649,7 +4649,7 @@ export const toolContentKn: Record<string, ToolContent> = {
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "ನಿಮ್ಮ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
@@ -4658,7 +4658,7 @@ export const toolContentKn: Record<string, ToolContent> = {
       },
       {
         "step": 3,
-        "title": "Download",
+        "title": "ಡೌನ್‌ಲೋಡ್",
         "description": "Download your optimized PDF."
       }
     ],
@@ -4708,7 +4708,7 @@ export const toolContentKn: Record<string, ToolContent> = {
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "ನಿಮ್ಮ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
@@ -4728,7 +4728,7 @@ export const toolContentKn: Record<string, ToolContent> = {
         "icon": "printer"
       },
       {
-        "title": "Document Analysis",
+        "title": "ದಾಖಲೆ ವಿಶ್ಲೇಷಣೆ",
         "description": "Identify pages with unusual dimensions.",
         "icon": "search"
       },
@@ -4776,7 +4776,7 @@ export const toolContentKn: Record<string, ToolContent> = {
       },
       {
         "step": 3,
-        "title": "Download",
+        "title": "ಡೌನ್‌ಲೋಡ್",
         "description": "Download the unrestricted PDF."
       }
     ],
@@ -4835,7 +4835,7 @@ export const toolContentKn: Record<string, ToolContent> = {
       },
       {
         "step": 3,
-        "title": "Download",
+        "title": "ಡೌನ್‌ಲೋಡ್",
         "description": "Download the repaired PDF if successful."
       }
     ],
@@ -4885,7 +4885,7 @@ export const toolContentKn: Record<string, ToolContent> = {
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "ನಿಮ್ಮ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
@@ -4944,7 +4944,7 @@ export const toolContentKn: Record<string, ToolContent> = {
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "ನಿಮ್ಮ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
@@ -5005,7 +5005,7 @@ export const toolContentKn: Record<string, ToolContent> = {
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "ನಿಮ್ಮ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
@@ -5191,7 +5191,7 @@ export const toolContentKn: Record<string, ToolContent> = {
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "ನಿಮ್ಮ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
@@ -5200,7 +5200,7 @@ export const toolContentKn: Record<string, ToolContent> = {
       },
       {
         "step": 3,
-        "title": "Download",
+        "title": "ಡೌನ್‌ಲೋಡ್",
         "description": "Download the metadata-free PDF."
       }
     ],
@@ -5250,7 +5250,7 @@ export const toolContentKn: Record<string, ToolContent> = {
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "ನಿಮ್ಮ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
@@ -5309,7 +5309,7 @@ export const toolContentKn: Record<string, ToolContent> = {
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "ನಿಮ್ಮ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
@@ -5334,14 +5334,14 @@ export const toolContentKn: Record<string, ToolContent> = {
         "icon": "user"
       },
       {
-        "title": "Content Repurposing",
+        "title": "ವಿಷಯದ ಮರುಬಳಕೆ",
         "description": "Extract content from PDF reports for other documents.",
         "icon": "copy"
       }
     ],
     "faq": [
       {
-        "question": "Is formatting preserved?",
+        "question": "ಫಾರ್ಮ್ಯಾಟಿಂಗ್ ಅನ್ನು ಉಳಿಸಿಕೊಳ್ಳಲಾಗುತ್ತದೆಯೇ?",
         "answer": "Yes, the tool aims to preserve layout, fonts, and images as closely as possible."
       },
       {
@@ -5369,7 +5369,7 @@ export const toolContentKn: Record<string, ToolContent> = {
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "ನಿಮ್ಮ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
@@ -5384,7 +5384,7 @@ export const toolContentKn: Record<string, ToolContent> = {
     ],
     "useCases": [
       {
-        "title": "Documentation",
+        "title": "ಡಾಕ್ಯುಮೆಂಟೇಶನ್",
         "description": "Convert PDF manuals and guides to Markdown for version-controlled documentation.",
         "icon": "file-text"
       },
@@ -5401,7 +5401,7 @@ export const toolContentKn: Record<string, ToolContent> = {
     ],
     "faq": [
       {
-        "question": "Is formatting preserved?",
+        "question": "ಫಾರ್ಮ್ಯಾಟಿಂಗ್ ಅನ್ನು ಉಳಿಸಿಕೊಳ್ಳಲಾಗುತ್ತದೆಯೇ?",
         "answer": "The tool attempts to detect headings based on font size and bullet points/numbered lists. Complex layouts may require manual adjustment."
       },
       {
@@ -5501,12 +5501,12 @@ export const toolContentKn: Record<string, ToolContent> = {
       },
       {
         "step": 2,
-        "title": "Choose Layout",
+        "title": "ಲೇಔಟ್ ಆಯ್ಕೆಮಾಡಿ",
         "description": "Select grid mode, paper size, orientation, and rotation options."
       },
       {
         "step": 3,
-        "title": "Create and Download",
+        "title": "ರಚಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
         "description": "Generate the booklet layout and download for printing."
       }
     ],
@@ -5557,11 +5557,11 @@ export const toolContentKn: Record<string, ToolContent> = {
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "ನಿಮ್ಮ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Configure Output",
+        "title": "ಔಟ್‌ಪುಟ್ ಕಾನ್ಫಿಗರ್ ಮಾಡಿ",
         "description": "Select DPI, output format (PNG/JPEG/WebP), quality, and page range."
       },
       {
@@ -5572,7 +5572,7 @@ export const toolContentKn: Record<string, ToolContent> = {
     ],
     "useCases": [
       {
-        "title": "Social Media",
+        "title": "ಸೋಷಿಯಲ್ ಮೀಡಿಯಾ",
         "description": "Convert PDF slides to images for social media posting.",
         "icon": "share-2"
       },
@@ -5589,7 +5589,7 @@ export const toolContentKn: Record<string, ToolContent> = {
     ],
     "faq": [
       {
-        "question": "What DPI should I use?",
+        "question": "ನಾನು ಯಾವ DPI ಅನ್ನು ಬಳಸಬೇಕು?",
         "answer": "72 DPI for screen, 150 DPI for general use, 300 DPI for print quality."
       },
       {
@@ -5632,7 +5632,7 @@ export const toolContentKn: Record<string, ToolContent> = {
     ],
     "useCases": [
       {
-        "title": "Documentation",
+        "title": "ಡಾಕ್ಯುಮೆಂಟೇಶನ್",
         "description": "Convert README files and docs to shareable PDFs.",
         "icon": "file-text"
       },
@@ -5908,7 +5908,7 @@ export const toolContentKn: Record<string, ToolContent> = {
         "answer": "By default, no. Text becomes part of the image. However, you can enable \"Preserve searchable text\" to add an invisible text layer for search and copy functionality."
       },
       {
-        "question": "What DPI should I use?",
+        "question": "ನಾನು ಯಾವ DPI ಅನ್ನು ಬಳಸಬೇಕು?",
         "answer": "300 DPI is recommended for print-quality output. 150 DPI is sufficient for screen viewing and produces smaller files. 600 DPI is for highest quality but creates large files."
       },
       {
@@ -5965,7 +5965,7 @@ export const toolContentKn: Record<string, ToolContent> = {
         "icon": "file-text"
       },
       {
-        "title": "Documentation",
+        "title": "ಡಾಕ್ಯುಮೆಂಟೇಶನ್",
         "description": "Convert PDF tables to Markdown for technical documentation.",
         "icon": "book"
       }
@@ -6379,7 +6379,7 @@ export const toolContentKn: Record<string, ToolContent> = {
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload PDF Document",
+        "title": "PDF ದಾಖಲೆಯನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
         "description": "Upload a PDF containing vector assets, diagrams, charts, or logos."
       },
       {
@@ -6634,7 +6634,7 @@ export const toolContentKn: Record<string, ToolContent> = {
       },
       {
         "step": 3,
-        "title": "Compile and Download",
+        "title": "ಕಂಪೈಲ್ ಮಾಡಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
         "description": "Inject the compiled JavaScript logic into the PDF dictionary and save the final smart document."
       }
     ],
@@ -6684,7 +6684,7 @@ export const toolContentKn: Record<string, ToolContent> = {
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Scanned PDF",
+        "title": "ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
         "description": "Upload e-books or scanned documents with faint text or gray backgrounds."
       },
       {
