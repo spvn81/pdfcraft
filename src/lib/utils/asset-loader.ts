@@ -77,9 +77,6 @@ async function fetchWithProgress(
         throw new Error(`Failed to fetch chunk: ${url} (HTTP ${res.status})`);
     }
 
-    const contentLength = res.headers.get('content-length');
-    const total = contentLength ? parseInt(contentLength, 10) : 0;
-
     if (!res.body || !onProgress) {
         return res.arrayBuffer();
     }

@@ -9,8 +9,8 @@ declare module 'pdfjs-dist-legacy' {
 
 declare module 'pdfjs-dist-legacy/lib/display/svg' {
     export class SVGGraphics {
-        constructor(commonObjs: any, objs: any);
+        constructor(commonObjs: unknown, objs: unknown);
         embedFonts: boolean;
-        getSVG(operatorList: any, viewport: any): Promise<SVGElement>;
+        getSVG(operatorList: unknown, viewport: unknown): Promise<SVGElement>;
     }
 }

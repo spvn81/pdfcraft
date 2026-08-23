@@ -7446,18 +7446,18 @@ export const toolContentTa: Record<string, ToolContent> = {
         "answer": "உரை வரிகளில் அதிவேக Hough Line கணிப்புகளை இயக்குகிறோம். முறையான அச்சிடல்களில் தெளிவான கிடைமட்ட இடைவெளி வடிவங்கள் இருப்பதால், அதிகபட்ச மாறுபாடு கொண்ட கோணத்தைக் கண்டறிவது சுழற்சியைத் தனியாக்குகிறது."
       },
       {
-        "question": "Will this process crop away page edges?",
-        "answer": "No. The engine calculates the rotated boundary and extends the Canvas using auto-padding, ensuring all margin text remains intact without cropping."
+        "question": "இந்தச் செயல்முறை பக்கத்தின் ஓரங்களை நறுக்கிவிடுமா?",
+        "answer": "இல்லை. என்ஜின் சுழற்றப்பட்ட எல்லையைக் கணக்கிட்டு, auto-padding மூலம் Canvas-ஐ நீட்டிக்கிறது, இதனால் விளிம்பு உரை அனைத்தும் நறுக்கப்படாமல் முழுமையாக இருக்கும்."
       },
       {
-        "question": "Does it support documents filled with diagrams?",
-        "answer": "Yes, as long as there is an underlying structure of lines or general paragraphs, our algorithms can accurately lock onto the principal reading angle."
+        "question": "இது வரைபடங்கள் நிறைந்த ஆவணங்களை ஆதரிக்குமா?",
+        "answer": "ஆம், கோடுகள் அல்லது பொதுவான பத்திகளின் அடிப்படை கட்டமைப்பு இருக்கும் வரை, எங்கள் ஆல்காரிதம்களால் முதன்மை வாசிப்பு கோணத்தைத் துல்லியமாகக் கண்டறிய முடியும்."
       }
     ]
   },
   "pdf-two-column-reflower": {
-    "title": "Two-Column Paper Reflow",
-    "metaDescription": "Analyze IEEE/ACM double-column paper PDF structures and reflow them into responsive single-column layouts for smooth mobile and e-Reader viewing.",
+    "title": "இரு-பத்தி தாள் Reflow",
+    "metaDescription": "IEEE/ACM இரட்டைப் பத்தி ஆய்வுத்தாள் PDF கட்டமைப்புகளை பகுப்பாய்வு செய்து, மொபைல் மற்றும் e-Reader-இல் மென்மையாகப் பார்க்கக்கூடியவாறு அவற்றை ரெஸ்பான்சிவ் ஒற்றைப் பத்தி அமைப்புகளாக reflow செய்யவும்.",
     "keywords": [
       "two-column pdf to single",
       "reflow academic paper",
@@ -7465,59 +7465,59 @@ export const toolContentTa: Record<string, ToolContent> = {
       "pdf reader reflow",
       "mobile friendly papers"
     ],
-    "description": "\n      <p>The Academic Two-Column Reflower solves the most significant pain point of digital research: reading papers on standard mobile screens.</p>\n      <p>Double-column layouts (used by IEEE, ACM, Nature, and major reports) are designed for A4 paper. Navigating them on phone screens or Kindle devices requires constant zooming, dragging right, scrolling down, and panning back up. It breaks reading comprehension completely.</p>\n      <p>Our processor implements a <strong>smart paragraph reflow and vertical partition barrier scan</strong>. It analyzes character coordinates to map double-column gutters, divides the layout, and weaves segments vertically (left column first, then right). Graphs, formulas, and headings are seamlessly rearranged into a single-column, flowable vertical scroll PDF.</p>\n    ",
+    "description": "\n      <p>Academic Two-Column Reflower என்பது டிஜிட்டல் ஆராய்ச்சியின் மிகப்பெரிய சிக்கலைத் தீர்க்கிறது: சாதாரண மொபைல் திரைகளில் ஆய்வுக் கட்டுரைகளைப் படிப்பது.</p>\n      <p>இரட்டைப் பத்தி அமைப்புகள் (IEEE, ACM, Nature மற்றும் முக்கிய அறிக்கைகளால் பயன்படுத்தப்படுபவை) A4 தாளுக்காக வடிவமைக்கப்பட்டவை. இவற்றை போன் திரைகளிலோ அல்லது Kindle சாதனங்களிலோ படிப்பது தொடர்ந்து ஜூம் செய்யவும், வலப்புறம் இழுக்கவும், கீழே ஸ்க்ரோல் செய்யவும், மீண்டும் மேலே செல்லவும் வைக்கிறது. இது வாசிப்புப் புரிதலை முற்றிலும் பாதிக்கிறது.</p>\n      <p>எங்கள் செயலி <strong>smart paragraph reflow மற்றும் vertical partition barrier scan</strong> அமைப்பைச் செயல்படுத்துகிறது. இது இரட்டைப் பத்தி இடைவெளிகளைக் கண்டறிய எழுத்து ஆயத்தொலைவுகளை (character coordinates) பகுப்பாய்வு செய்து, அமைப்பைப் பிரித்து, பகுதிகளை செங்குத்தாக இணைக்கிறது (முதலில் இடது பத்தி, பின்னர் வலது). வரைபடங்கள், சூத்திரங்கள் மற்றும் தலைப்புகள் ஒரு பத்தி, எளிதாக ஸ்க்ரோல் செய்யக்கூடிய செங்குத்து PDF ஆக தடையின்றி மறுவரிசைப்படுத்தப்படுகின்றன.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload double-column PDF",
-        "description": "Provide the IEEE/ACM journal report or multi-column PDF sheet."
+        "title": "இரட்டைப் பத்தி PDF-ஐ பதிவேற்றவும்",
+        "description": "IEEE/ACM ஜர்னல் அறிக்கை அல்லது பல பத்தி PDF தாளை வழங்கவும்."
       },
       {
         "step": 2,
-        "title": "Inspect partition gutter",
-        "description": "Verify the red vertical partition slice guides. Adjust margins to prevent overlapping elements."
+        "title": "பிரிவு இடைவெளியை (partition gutter) பரிசோதிக்கவும்",
+        "description": "சிவப்பு செங்குத்துப் பிரிவு வழிகாட்டிகளைச் சரிபார்க்கவும். கூறுகள் ஒன்றன்மேல் ஒன்று ஒன்றுபடாமல் தடுக்க விளிம்புகளைச் சரிசெய்யவும்."
       },
       {
         "step": 3,
-        "title": "Reflow and save",
-        "description": "Click execute to compile the pages into flowable layouts and download instantly."
+        "title": "Reflow செய்து சேமிக்கவும்",
+        "description": "பக்கங்களை எளிதாக வாசிக்கக்கூடிய அமைப்புகளாகத் தொகுத்து, உடனடியாகப் பதிவிறக்க 'செயல்படுத்து' என்பதைக் கிளிக் செய்யவும்."
       }
     ],
     "useCases": [
       {
-        "title": "e-Reader Book Import",
-        "description": "Convert dense double-column essays into comfortable single-column documents matching Kindle and Onyx screens.",
+        "title": "e-Reader புத்தக இறக்குமதி",
+        "description": "அடர்த்தியான இரட்டைப் பத்தி கட்டுரைகளை Kindle மற்றும் Onyx திரைகளுக்கு ஏற்ற வசதியான ஒற்றைப் பத்தி ஆவணங்களாக மாற்றவும்.",
         "icon": "tablet"
       },
       {
-        "title": "Subway Phone Reading",
-        "description": "Read research literature comfortably with single-hand vertical swipe gestures during transit.",
+        "title": "மெட்ரோ இரயில் பயணத்தின்போது மொபைலில் படித்தல்",
+        "description": "பயணத்தின் போது ஒரு கையால் செங்குத்தாக ஸ்வைப் செய்யும் செய்கைகள் மூலம் ஆராய்ச்சி கட்டுரைகளை வசதியாகப் படிக்கவும்.",
         "icon": "smartphone"
       },
       {
-        "title": "Archival Journal Formatting",
-        "description": "Modernize old narrow-column newspapers into readable, single-column web formats.",
+        "title": "காப்பக இதழ் வடிவமைப்பு (Archival Journal Formatting)",
+        "description": "பழைய குறுகிய பத்தி செய்தித்தாள்களை வாசிக்கக்கூடிய, ஒற்றைப் பத்தி வலை வடிவங்களாக நவீனமயமாக்கவும்.",
         "icon": "book-open"
       }
     ],
     "faq": [
       {
-        "question": "How are broad charts and equations handled?",
-        "answer": "Our engine applies \"span element detection.\" When an equation or diagram exceeds normal column widths, it is isolated as a full-width item, maintaining original proportions without clipping."
+        "question": "அகலமான வரைபடங்கள் மற்றும் சமன்பாடுகள் எவ்வாறு கையாளப்படுகின்றன?",
+        "answer": "எங்கள் என்ஜின் \"span element detection\" முறையைப் பயன்படுத்துகிறது. ஒரு சமன்பாடு அல்லது வரைபடம் சாதாரண பத்தி அகலத்தை விட அதிகமாக இருக்கும்போது, அது நறுக்கப்படாமல் அசல் அளவுகளைப் பேணி, முழு அகல உருப்படியாக தனிமைப்படுத்தப்படுகிறது."
       },
       {
-        "question": "Will this modify the vector text resolution?",
-        "answer": "Not at all. We rewrite PDF text object transform matrices at the object tree level instead of rasterizing, meaning text remains 100% vector and fully selectable."
+        "question": "இது வெக்டார் உரையின் தெளிவுத்திறனை (vector text resolution) மாற்றுமா?",
+        "answer": "நிச்சயமாக இல்லை. ராஸ்டரைசிங் செய்வதற்குப் பதிலாக, ஆப்ஜெக்ட் மர மட்டத்தில் PDF உரை ஆப்ஜெக்ட் உருமாற்ற மேட்ரிஸ்களை மீண்டும் எழுதுகிறோம், அதாவது உரை 100% வெக்டாராகவும் முழுமையாகத் தேர்ந்தெடுக்கக்கூடியதாகவும் இருக்கும்."
       },
       {
-        "question": "Does this work on scanned image documents?",
-        "answer": "For flat image-based PDFs, we highly recommend running our OCR tool first before executing the Reflow process."
+        "question": "இது ஸ்கேன் செய்யப்பட்ட பட ஆவணங்களில் வேலை செய்யுமா?",
+        "answer": "பிளாட் இமேஜ் அடிப்படையிலான PDFகளுக்கு, Reflow செயல்முறையை இயக்குவதற்கு முன், எங்கள் OCR கருவியை முதலில் இயக்குமாறு நாங்கள் பெரிதும் பரிந்துரைக்கிறோம்."
       }
     ]
   },
   "pdf-page-resizer-uniform": {
-    "title": "Uniform PDF Page Size",
-    "metaDescription": "Batch resize and normalize mixed-format A4, A3, and Letter PDF sheets into a uniform target size with proportional centering and margin padding.",
+    "title": "சீரான PDF பக்க அளவு",
+    "metaDescription": "கலவையான வடிவம் கொண்ட A4, A3, மற்றும் Letter PDF தாள்களை ஒரே மாதிரியான இலக்கு அளவுக்கு விகிதாச்சார மையம் மற்றும் விளிம்பு பேடிங்குடன் மொத்தமாக அளவு மாற்றி சீராக்கவும்.",
     "keywords": [
       "uniform page size",
       "resize pdf pages",
@@ -7525,59 +7525,59 @@ export const toolContentTa: Record<string, ToolContent> = {
       "mediabox normalize",
       "batch page scale"
     ],
-    "description": "\n      <p>The Multi-Format PDF Resizer is the ultimate standardizer for cluttered, mismatched corporate documents.</p>\n      <p>Combining invoices, contracts, and supplementary charts often results in a PDF containing massive A3 ledger pages, standard A4 agreements, and Letter-sized envelopes. Flipping through them is highly distracting, and sending them to physical office printers often causes jam errors due to size mismatch.</p>\n      <p>This tool rewrites the low-level <code>/MediaBox</code> and <code>/CropBox</code> grids on each page. It maps existing widths and heights, scales original pages proportionally to match target presets (e.g. standard A4), and introduces elegant, consistent surrounding margins, making the entire file look incredibly polished.</p>\n    ",
+    "description": "\n      <p>Multi-Format PDF Resizer என்பது குழப்பமான, பொருந்தாத கார்ப்பரேட் ஆவணங்களைச் சீரமைப்பதற்கான மிகச்சிறந்த கருவியாகும்.</p>\n      <p>இன்வாய்ஸ்கள், ஒப்பந்தங்கள் மற்றும் துணை வரைபடங்களை ஒன்றிணைப்பது பெரும்பாலும் பெரிய A3 லெட்ஜர் பக்கங்கள், நிலையான A4 ஒப்பந்தங்கள் மற்றும் Letter அளவு உறை முகப்புகளைக் கொண்ட PDF-ஐ உருவாக்குகிறது. அவற்றைப் புரட்டுவது கவனத்தைத் திருப்புகிறது, மேலும் அவற்றை அச்சுப்பொறிகளுக்கு அனுப்பும்போது அளவு முரண்பாட்டினால் தாள் சிக்கிக்கொள்ளும் பிழைகள் ஏற்படுகின்றன.</p>\n      <p>இந்தக் கருவி ஒவ்வொரு பக்கத்திலும் உள்ள குறைந்த அளவிலான <code>/MediaBox</code> மற்றும் <code>/CropBox</code> கிரிட்களை மீண்டும் எழுதுகிறது. இது இருக்கும் அகலங்கள் மற்றும் உயரங்களை வரைபடம் செய்து, இலக்கு முன்னமைவுகளுக்கு (எ.கா. சாதாரண A4) ஏற்ப அசல் பக்கங்களை விகிதாசாரமாக அளவிட்டு, நேர்த்தியான, நிலையான சுற்றியுள்ள விளிம்புகளை அறிமுகப்படுத்துகிறது, இதனால் முழு கோப்பும் மிகவும் மெருகேற்றப்பட்டதாகத் தோன்றும்.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Provide mixed-size PDF",
-        "description": "Upload a merged PDF document containing mismatched, messy page sizes."
+        "title": "கலவையான அளவு கொண்ட PDF-ஐ வழங்கவும்",
+        "description": "பொருந்தாத, குழப்பமான பக்க அளவுகளைக் கொண்ட ஒன்றிணைக்கப்பட்ட PDF ஆவணத்தைப் பதிவேற்றவும்."
       },
       {
         "step": 2,
-        "title": "Choose target preset",
-        "description": "Select the target uniform size (e.g. A4, Letter, A3) and toggle scale modes."
+        "title": "இலக்கு முன்னமைவைத் தேர்ந்தெடுக்கவும்",
+        "description": "சீரான இலக்கு அளவைத் தேர்ந்தெடுத்து (எ.கா. A4, Letter, A3) ஸ்கேல் முறைகளை மாற்றவும்."
       },
       {
         "step": 3,
-        "title": "Align and download",
-        "description": "Click execute to trigger 3D sheet alignment, downloading a beautifully standardized PDF."
+        "title": "சீரமைத்து பதிவிறக்கவும்",
+        "description": "3D தாள் சீரமைப்பைத் தொடங்கி, அழகாகச் சீரமைக்கப்பட்ட PDF-ஐப் பதிவிறக்க 'செயல்படுத்து' என்பதைக் கிளிக் செய்யவும்."
       }
     ],
     "useCases": [
       {
-        "title": "Corporate RFP Proposals",
-        "description": "Standardize scanned qualification certificates and A4 bidding sheets before physical printing.",
+        "title": "கார்ப்பரேட் RFP முன்மொழிவுகள்",
+        "description": "அச்சிடுவதற்கு முன் ஸ்கேன் செய்யப்பட்ட தகுதிச் சான்றிதழ்கள் மற்றும் A4 ஏலத் தாள்களைச் சீரமைக்கவும்.",
         "icon": "file-text"
       },
       {
-        "title": "Financial Chart Integration",
-        "description": "Scale broad A3 financial cash flows into neat A4 pages, preserving printing standards.",
+        "title": "நிதி வரைபட ஒருங்கிணைப்பு",
+        "description": "அச்சுத் தரங்களைப் பேணி, அகலமான A3 நிதிப் பணப்புழக்கத் தாள்களை நேர்த்தியான A4 பக்கங்களாக மாற்றவும்.",
         "icon": "layout"
       },
       {
-        "title": "Book Margin Standardization",
-        "description": "Force slightly varied scanned book pages into an absolutely uniform dimension for comfortable reading.",
+        "title": "புத்தக விளிம்பு சீரமைப்பு",
+        "description": "வசதியான வாசிப்பிற்காக சற்று மாறுபட்ட ஸ்கேன் செய்யப்பட்ட புத்தகப் பக்கங்களை முற்றிலும் சீரான பரிமாணத்திற்கு மாற்றவும்.",
         "icon": "book"
       }
     ],
     "faq": [
       {
-        "question": "Will this warp my content?",
-        "answer": "Never. We support both \"Contain\" (proportional scaling with white bars) and \"Cover\" (centered crop). The default Contain mode preserves aspect ratios, preventing distortion."
+        "question": "இது எனது உள்ளடக்கத்தை உருக்குலைக்குமா?",
+        "answer": "ஒருபோதும் இல்லை. நாங்கள் \"Contain\" (வெள்ளை பார்களுடன் விகிதாச்சார அளவீடு) மற்றும் \"Cover\" (மையப்படுத்தப்பட்ட நறுக்கல்) இரண்டையும் ஆதரிக்கிறோம். முன்னிருப்பு Contain முறை காட்சி விகிதங்களைப் பேணி, உருக்குலைவைத் தடுக்கிறது."
       },
       {
-        "question": "Will existing forms and annotations remain clickable?",
-        "answer": "Yes. The algorithm maps the scaling factors to the Annotation coordinate arrays, scaling link boxes, sign boundaries, and inputs to align perfectly after resizing."
+        "question": "நிலவும் படிவங்கள் மற்றும் குறிப்புகள் (annotations) கிளிக் செய்யக்கூடியதாக இருக்குமா?",
+        "answer": "ஆம். அல்காரிதம் அளவீட்டுக் காரணிகளை குறிப்பு ஆயத்தொலைவு வரிசைகளுக்கு (Annotation coordinate arrays) வரைபடம் செய்கிறது, அளவு மாற்றத்திற்குப் பிறகு இணைப்புப் பெட்டிகள், கையொப்ப எல்லைகள் மற்றும் உள்ளீடுகளைக் கச்சிதமாக சீரமைக்கிறது."
       },
       {
-        "question": "Is there a limit on how many pages I can resize?",
-        "answer": "No. Since all operations run locally in your client sandbox using native JavaScript, you can process extensive PDFs containing hundreds of pages in seconds."
+        "question": "நான் எத்தனை பக்கங்களின் அளவை மாற்றலாம் என்பதற்கு வரம்பு உள்ளதா?",
+        "answer": "இல்லை. அனைத்து செயல்பாடுகளும் நேட்டிவ் JavaScript-ஐப் பயன்படுத்தி உங்கள் கிளையண்ட் சாண்ட்பாக்ஸில் உள்ளூர் அளவிலேயே இயங்குவதால், நூற்றுக்கணக்கான பக்கங்களைக் கொண்ட விரிவான PDFகளை வினாடிகளில் செயலாக்க முடியும்."
       }
     ]
   },
   "handwriting-ink-contrast-booster": {
-    "title": "Enhance Handwriting Ink",
-    "metaDescription": "Extract blue or black handwriting signatures from photos, bleach yellow paper grain, and dramatically boost ink contrast for readability.",
+    "title": "கையெழுத்து மை மேம்பாடு",
+    "metaDescription": "புகைப்படங்களிலிருந்து நீலம் அல்லது கருப்பு கையெழுத்து கையொப்பங்களைப் பிரித்தெடுத்து, மஞ்சள் காகிதத்தின் அமைப்பை வெளுத்து, வாசிப்புத்திறனுக்காக மையின் மாறுபாட்டை (contrast) கணிசமாக அதிகரிக்கவும்.",
     "keywords": [
       "enhance handwritten contract",
       "ink contrast boost",
@@ -7585,59 +7585,59 @@ export const toolContentTa: Record<string, ToolContent> = {
       "sharpen faded signature",
       "signature extraction"
     ],
-    "description": "\n      <p>The Handwriting Ink Contrast Booster is a savior for digitizing signed agreements and historical manuscript archives.</p>\n      <p>Scans of hand-signed documents often look dull due to grey scanner glass reflection, yellow paper tint, or faded ink. Re-printing or photocopying these files results in blurry, illegible signatures. Traditional contrast tools darken the entire background, worsening the layout.</p>\n      <p>This tool utilizes **Contrast Limited Adaptive Histogram Equalization (CLAHE) and hue-based color separation**. In a secure local Canvas process, it isolates handwriting strokes (both black and blue) from background parchment, bleaches shadow wrinkles completely, and infuses faded inks with deep, saturated contrast, leaving your documents looking incredibly crisp and clean.</p>\n    ",
+    "description": "\n      <p>Handwriting Ink Contrast Booster என்பது கையொப்பமிடப்பட்ட ஒப்பந்தங்கள் மற்றும் வரலாற்று கையெழுத்துப் பிரதி காப்பகங்களை டிஜிட்டல் மயமாக்குவதற்கான ஒரு சிறந்த தீர்வாகும்.</p>\n      <p>கையொப்பமிடப்பட்ட ஆவணங்களின் ஸ்கேன்கள் பெரும்பாலும் சாம்பல் நிற ஸ்கேனர் கண்ணாடி பிரதிபலிப்பு, மஞ்சள் காகித நிறம் அல்லது மங்கிய மை காரணமாக மங்கலாகத் தோன்றும். இந்தக் கோப்புகளை மீண்டும் அச்சிடுவது அல்லது போட்டோகாப்பி செய்வது மங்கலான, படிக்க முடியாத கையொப்பங்களை உருவாக்குகிறது. பாரம்பரிய கான்ட்ராஸ்ட் கருவிகள் முழு பின்னணியையும் இருட்டாக்கி, அமைப்பை மோசமாக்குகின்றன.</p>\n      <p>இந்தக் கருவி **Contrast Limited Adaptive Histogram Equalization (CLAHE) மற்றும் சாயல் அடிப்படையிலான வண்ணப் பிரிப்பைப்** (hue-based color separation) பயன்படுத்துகிறது. பாதுகாப்பான உள்ளூர் Canvas செயல்பாட்டில், இது பின்னணி காகிதத்திலிருந்து கையெழுத்து வரிகளை (கருப்பு மற்றும் நீலம் இரண்டும்) தனிமைப்படுத்தி, நிழல் சுருக்கங்களை முழுமையாக வெளுத்து, மங்கிய மைக்கு ஆழமான செறிவூட்டப்பட்ட கான்ட்ராஸ்டை வழங்கி, உங்கள் ஆவணங்களை மிகவும் தெளிவுடனும் தூய்மையாகவும் மாற்றுகிறது.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Import hand-signed document",
-        "description": "Provide a PDF containing faded signatures, handwritten diaries, or sketches."
+        "title": "கையொப்பமிடப்பட்ட ஆவணத்தை இறக்குமதி செய்யவும்",
+        "description": "மங்கிப்போன கையொப்பங்கள், கையால் எழுதப்பட்ட நாட்குறிப்புகள் அல்லது வரைபடங்களைக் கொண்ட PDF ஐ வழங்கவும்."
       },
       {
         "step": 2,
-        "title": "Configure ink filter",
-        "description": "Select the color profile to isolate (e.g. blue ink, black ink, or both) and adjust sharpening."
+        "title": "மை ஃபில்டரை கட்டமைக்கவும்",
+        "description": "பிரிக்க வேண்டிய வண்ண சுயவிவரத்தைத் (எ.கா. நீல மை, கருப்பு மை அல்லது இரண்டும்) தேர்ந்தெடுத்து, கூர்மையாக்கலைச் சரிசெய்யவும்."
       },
       {
         "step": 3,
-        "title": "Sharpen and download",
-        "description": "Click execute to trace colors with a radar scanner effect and download purified PDF."
+        "title": "கூர்மையாக்கி பதிவிறக்கவும்",
+        "description": "ரேடார் ஸ்கேனர் விளைவுடன் வண்ணங்களைக் கண்டறிந்து, சுத்திகரிக்கப்பட்ட PDF ஐப் பதிவிறக்க 'செயல்படுத்து' என்பதைக் கிளிக் செய்யவும்."
       }
     ],
     "useCases": [
       {
-        "title": "Executed Contracts Repair",
-        "description": "Repair poorly scanned agreements, sharpening signatures and bleaching paper background to A4-pure white.",
+        "title": "நிறைவேற்றப்பட்ட ஒப்பந்தங்கள் பழுதுபார்ப்பு",
+        "description": "சரியாக ஸ்கேன் செய்யப்படாத ஒப்பந்தங்களைச் சரிசெய்து, கையொப்பங்களைக் கூர்மையாக்கி, காகிதப் பின்னணியை A4-தூய வெள்ளையாக மாற்றவும்.",
         "icon": "file-check"
       },
       {
-        "title": "Handwritten Manuscripts Archive",
-        "description": "Digitize written journals or diaries, extracting clear black strokes while erasing age-related stains.",
+        "title": "கையால் எழுதப்பட்ட கையெழுத்துப் பிரதிகள் காப்பகம்",
+        "description": "பழமையான கறைகளை அழிக்கும் அதே வேளையில் தெளிவான கருப்பு வரிகளைப் பிரித்தெடுத்து, எழுதப்பட்ட இதழ்கள் அல்லது நாட்குறிப்புகளை டிஜிட்டல் மயமாக்குங்கள்.",
         "icon": "book"
       },
       {
-        "title": "Historical Ledger Restoration",
-        "description": "Restore faint ink details on aged archival ledgers, rescuing valuable handwritten coordinates.",
+        "title": "வரலாற்று பேரேடு மறுசீரமைப்பு",
+        "description": "பழைய காப்பகப் பேரேடுகளில் மங்கிப்போன மை விவரங்களை மீட்டெடுத்து, மதிப்புமிக்க கையால் எழுதப்பட்ட விவரங்களைப் பாதுகாக்கவும்.",
         "icon": "archive"
       }
     ],
     "faq": [
       {
-        "question": "How does this differ from normal grayscale conversion?",
-        "answer": "Grayscale converts paper shadows into gray values. Our adaptive algorithm separates background luminance and isolates signature \"ink spectrums,\" purifying the backdrop to absolute white while leaving stroke edges sharp."
+        "question": "இது சாதாரண சாம்பல்வண்ண (grayscale) மாற்றத்திலிருந்து எவ்வாறு வேறுபடுகிறது?",
+        "answer": "Grayscale காகித நிழல்களை சாம்பல் மதிப்புகளாக மாற்றுகிறது. எங்கள் அடாப்டிவ் அல்காரிதம் பின்னணி பிரகாசத்தைப் பிரித்து, கையொப்பத்தின் \"மை ஸ்பெக்ட்ரம்களை\" தனிமைப்படுத்தி, பக்கவாட்டு விளிம்புகளைக் கூர்மையாக வைத்திருக்கும் அதே வேளையில் பின்னணியைத் தூய வெள்ளையாகச் சுத்திகரிக்கிறது."
       },
       {
-        "question": "Will I lose handwriting stroke texture?",
-        "answer": "No. The CLAHE algorithm works on a sub-pixel level, preserving natural pen-stroke pressure, ink fading, and dynamic line weights."
+        "question": "எனது கையெழுத்து வரிகளின் அமைப்பை நான் இழப்பேனா?",
+        "answer": "இல்லை. CLAHE அல்காரிதம் சப்-பிக்சல் மட்டத்தில் செயல்படுகிறது, இது இயற்கையான பேனா அழுத்த விளிம்புகள், மை மங்கல் மற்றும் மாறுபட்ட கோட்டு எடைகளைப் பாதுகாக்கிறது."
       },
       {
-        "question": "Can I keep red corporate stamp marks?",
-        "answer": "Yes. By enabling \"Chroma Ink Preservation,\" the booster whitens paper background and darkens writing, while maintaining the bright colors of red seals and blue ink signatures."
+        "question": "சிவப்பு நிற நிறுவன முத்திரை அடையாளங்களை நான் வைத்திருக்க முடியுமா?",
+        "answer": "ஆம். \"Chroma Ink Preservation\" என்பதை இயக்குவதன் மூலம், இந்த கருவி காகிதப் பின்னணியை வெண்மையாக்கி, எழுத்துக்களை அடர்த்தியாக்குகிறது, அதே நேரத்தில் சிவப்பு முத்திரைகள் மற்றும் நீல மை கையொப்பங்களின் பிரகாசமான வண்ணங்களைத் தக்க வைத்துக் கொள்கிறது."
       }
     ]
   },
   "pdf-spine-bookbinder": {
-    "title": "Calculate Book Spine Width",
-    "metaDescription": "Calculate book spine width based on page count and paper GSM, and generate a printable cover template with spine fold lines.",
+    "title": "புத்தகத்தின் விளிம்பு அகலத்தைக் கணக்கிடுங்கள்",
+    "metaDescription": "பக்கங்களின் எண்ணிக்கை மற்றும் காகிதத்தின் GSM ஆகியவற்றின் அடிப்படையில் புத்தகத்தின் விளிம்பு அகலத்தைக் (spine width) கணக்கிட்டு, விளிம்பு மடிப்புக் கோடுகளுடன் கூடிய அச்சிடக்கூடிய அட்டை டெம்ப்ளேட்டை உருவாக்குங்கள்.",
     "keywords": [
       "book spine calculator",
       "binding spine thickness",
@@ -7645,59 +7645,59 @@ export const toolContentTa: Record<string, ToolContent> = {
       "spine fold marks",
       "perfect binding prepress"
     ],
-    "description": "\n      <p>The PDF Spine Bookbinder is a pre-press savior for designers, self-publishing authors, and commercial bidding teams.</p>\n      <p>When compiling thick book catalogs, bidding proposals, or annual directories, perfect binding (glue binding) requires a cover with precise spine coordinates. If the spine width is off by even 1mm, the bound cover will warp, shift, or crease. Calculating page counts against paper weight is complex and error-prone.</p>\n      <p>This tool utilizes a <strong>physically modeled GSM paper-to-thickness library</strong>. Simply input your PDF page count and select paper stock (e.g. 80 GSM offset, 100 GSM glossy). The engine calculates spine width down to micrometers and compiles a print-ready, extra-wide cover PDF complete with standard front/back flaps and precise fold mark creases.</p>\n    ",
+    "description": "\n      <p>PDF Spine Bookbinder என்பது வடிவமைப்பாளர்கள், சுயாதீனப் பதிப்பாளர்கள் மற்றும் வணிக ஏலக் குழுக்களுக்கான அச்சுக்கு முந்தைய தயாரிப்பில் சிறந்த உதவியாளர் ஆகும்.</p>\n      <p>தடிமனான புத்தகப் பட்டியல்கள், ஏலச் திட்டங்கள் அல்லது வருடாந்திர கோப்பதைத் தயாரிக்கும் போது, சரியான பிணைப்பிற்கு (glue binding) துல்லியமான விளிம்பு விவரங்களைக் கொண்ட அட்டை தேவைப்படுகிறது. விளிம்பு அகலம் 1 மிமீ குறைந்தாலும் அல்லது கூடினாலும், அட்டை சுருங்கும், நகரும் அல்லது மடியும். காகித எடைக் கேற்ப பக்கங்களின் எண்ணிக்கையைக் கணக்கிடுவது கடினமானது மற்றும் பிழைகள் ஏற்படக்கூடியது.</p>\n      <p>இந்தக் கருவி <strong>உருவாக்கப்பட்ட GSM காகித தடிமன் நூலகத்தைப் (GSM paper-to-thickness library)</strong> பயன்படுத்துகிறது. உங்கள் PDF பக்கங்களின் எண்ணிக்கையை உள்ளிட்டு, காகித வகையைத் தேர்ந்தெடுக்கவும் (எ.கா. 80 GSM ஆஃப்செட், 100 GSM பளபளப்பானது). இந்த எஞ்சின் விளிம்பு அகலத்தை மைக்ரோமீட்டர் அளவில் கணக்கிட்டு, நிலையான முன்/பின் மடிப்புகள் மற்றும் துல்லியமான மடிப்புக் கோடுகளுடன் அச்சிடத் தயாராக உள்ள கூடுதல் அகல அட்டை PDF ஐ உருவாக்குகிறது.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Set pages & stock type",
-        "description": "Input document page count and select the target paper stock specifications."
+        "title": "பக்கங்கள் & காகித வகையை அமைக்கவும்",
+        "description": "ஆவணத்தின் பக்கங்களின் எண்ணிக்கையை உள்ளிட்டு, இலக்கு காகித வகை விவரக்குறிப்புகளைத் தேர்ந்தெடுக்கவும்."
       },
       {
         "step": 2,
-        "title": "Input spine text",
-        "description": "Enter book titles, author details, and customize spine/cover backgrounds."
+        "title": "விளிம்பு உரையை உள்ளிடவும்",
+        "description": "புத்தகத் தலைப்புகள், ஆசிரியர் விவரங்களை உள்ளிட்டு, விளிம்பு/அட்டைப் பின்னணிகளைத் தனிப்பயனாக்கவும்."
       },
       {
         "step": 3,
-        "title": "3D Preview & Export",
-        "description": "Spin and inspect your book cover in an interactive 3D binder. Export high-resolution vector PDF."
+        "title": "3D முன்னோட்டம் & ஏற்றுமதி",
+        "description": "ஒரு ஊடாடும் 3D பைண்டரில் உங்கள் புத்தக அட்டையைச் சுழற்றிப் பரிசோதிக்கவும். உயர் தெளிவுத்திறன் கொண்ட வெக்டார் PDF ஐ ஏற்றுமதி செய்யவும்."
       }
     ],
     "useCases": [
       {
-        "title": "Thick Bidding Proposals",
-        "description": "Design professional cover sheets with precise spine crease alignments for thick tender bids.",
+        "title": "தடிமனான ஏல முன்மொழிவுகள்",
+        "description": "தடிமனான டெண்டர் ஏலங்களுக்குத் துல்லியமான விளிம்பு மடிப்புகளுடன் கூடிய தொழில்முறை அட்டைப் பக்கங்களை வடிவமைக்கவும்.",
         "icon": "layers"
       },
       {
-        "title": "Thesis Hardcover Binding",
-        "description": "Map out perfect spine layout widths for university master/doctorate degree theses.",
+        "title": "ஆய்வேடு ஹார்ட்கவர் பைண்டிங்",
+        "description": "பல்கலைக்கழக முதுகலை/முனைவர் பட்ட ஆய்வேடுகளுக்கான சரியான விளிம்பு அகல அமைப்பைத் திட்டமிடுங்கள்.",
         "icon": "award"
       },
       {
-        "title": "Self-Publishing Novel Covers",
-        "description": "Calculate book spine width easily before submitting files to Print-on-Demand publishing services.",
+        "title": "சுய-பதிப்பக நாவல் அட்டைகள்",
+        "description": "Print-on-Demand பதிப்பகச் சேவைகளுக்குக் கோப்புகளைச் சமர்ப்பிப்பதற்கு முன் புத்தகத்தின் விளிம்பு அகலத்தை எளிதாகக் கணக்கிடுங்கள்.",
         "icon": "book-open"
       }
     ],
     "faq": [
       {
-        "question": "How accurate is the GSM paper-thickness calculation?",
-        "answer": "Highly accurate. Our physics library matches industry averages (e.g. 70 GSM = 0.09mm, 80 GSM = 0.10mm, 150 GSM glossy = 0.125mm). We also include a \"Double-sided printing\" toggle to halve calculations automatically."
+        "question": "GSM காகித தடிமன் கணக்கீடு எவ்வளவு துல்லியமானது?",
+        "answer": "மிகவும் துல்லியமானது. எங்கள் இயற்பியல் நூலகம் தொழில்துறை சராசரிகளுடன் பொருந்துகிறது (எ.கா. 70 GSM = 0.09mm, 80 GSM = 0.10mm, 150 GSM பளபளப்பானது = 0.125mm). கணக்கீடுகளைத் தானாகவே பாதியாகக் குறைக்க \"இரட்டைப் பக்க அச்சிடுதல்\" (Double-sided printing) மாற்ற விருப்பத்தையும் சேர்த்துள்ளோம்."
       },
       {
-        "question": "Are the exported covers ready for direct printing?",
-        "answer": "Yes. The files are vector-perfect PDFs carrying standard registration marks, color bars, and spine guides, fully compliant with offset and digital commercial presses."
+        "question": "ஏற்றுமதி செய்யப்பட்ட அட்டைகள் நேரடியாக அச்சிடத் தயாராக உள்ளனவா?",
+        "answer": "ஆம். இந்தக் கோப்புகள் நிலையான பதிவுக் குறிகள், வண்ணப் பட்டைகள் மற்றும் விளிம்பு வழிகாட்டிகளக் கொண்ட வெக்டார்-துல்லியமான PDFகள் ஆகும், இவை ஆஃப்செட் மற்றும் டிஜிட்டல் வணிக அச்சுப்பொறிகளுக்கு முழுமையாக இணங்குகின்றன."
       },
       {
-        "question": "Can I upload a background image spanning the spine?",
-        "answer": "Yes. You can upload custom layouts, and our compositor will wrap and align the graphics across the spine folds automatically."
+        "question": "விளிம்பு வரை நீட்டிக்கப்படும் பின்னணிப் படத்தை நான் பதிவேற்ற முடியுமா?",
+        "answer": "ஆம். நீங்கள் தனிப்பயனாக்கப்பட்ட தளவமைப்புகளைப் பதிவேற்றலாம், மேலும் எங்கள் காம்போசிட்டர் விளிம்பு மடிப்புகளில் கிராபிக்ஸ்களைத் தானாகவே சீரமைக்கும்."
       }
     ]
   },
   "pdf-signature-anchor-helper": {
-    "title": "Signature Position Guide",
-    "metaDescription": "Automatically locate signature fields in contracts, and inject interactive hovering guides and anchors for quick signing.",
+    "title": "கையொப்ப இருப்பிட வழிகாட்டி",
+    "metaDescription": "ஒப்பந்தங்களில் கையொப்பப் புலங்களைத் தானாகக் கண்டறிந்து, விரைவாகக் கையொப்பமிடுவதற்கு ஊடாடும் வழிகாட்டிகள் மற்றும் ஆங்கர்களைச் சேர்க்கவும்.",
     "keywords": [
       "locate signature pdf",
       "inject sign anchor",
@@ -7705,59 +7705,59 @@ export const toolContentTa: Record<string, ToolContent> = {
       "click to sign guide",
       "prevent missing signatures"
     ],
-    "description": "\n      <p>The PDF Signature Guide Injector guarantees clean, error-free signing workflows for multi-page agreements.</p>\n      <p>When sending multi-page NDA agreements, financial statements, or commercial leases, clients often miss critical signing boxes, requiring endless back-and-forth email loops and delayed business transactions.</p>\n      <p>Our tool uses <strong>natural regex semantic mapping</strong>. It scans the PDF character map to locate terms like <code>Signature:</code>, <code>签字：</code>, <code>Witness:</code>, or <code>签署日期：</code>. It then leverages <code>pdf-lib</code> to inject standard PDF interactive Link annotations. When opened in any standard reader, clients see blinking, neon-bordered arrows that instantly guide them to the correct boxes, making signing foolproof.</p>\n    ",
+    "description": "\n      <p>PDF Signature Guide Injector பல பக்க ஒப்பந்தங்களுக்குத் தெளிவான, பிழையற்ற கையொப்பமிடும் பணிப்பாய்வுகளுக்கு உத்தரவாதம் அளிக்கிறது.</p>\n      <p>பல பக்க NDA ஒப்பந்தங்கள், நிதி அறிக்கைகள் அல்லது வணிகக் குத்தகைகளை அனுப்பும்போது, வாடிக்கையாளர்கள் பெரும்பாலும் முக்கியமான கையொப்பமிடும் பெட்டிகளைத் தவறவிடுகிறார்கள், இதனால் தேவையில்லாத மின்னஞ்சல் தொடர்புகளும் வணிக நடவடிக்கைகளில் தாமதமும் ஏற்படுகின்றன.</p>\n      <p>எங்கள் கருவி <strong>இயற்கையான regex சொற்பொருள் வரைபடத்தைப் (natural regex semantic mapping)</strong> பயன்படுத்துகிறது. இது PDF எழுத்து வரைபடத்தைச் பரிசோதித்து <code>Signature:</code>, <code>签字：</code>, <code>Witness:</code>, அல்லது <code>签署日期：</code> போன்ற சொற்களைக் கண்டறிகிறது. பின்னர் இது <code>pdf-lib</code> ஐப் பயன்படுத்தி நிலையான PDF ஊடாடும் லிங்க் குறிப்புகளைச் சேர்க்கிறது. ஏதேனும் நிலையான ரீடரில் திறக்கப்படும் போது, வாடிக்கையாளர்கள் ஒளிரும் அம்புக்குறிகளக் காண்பார்கள், அவை சரியான பெட்டிகளுக்கு அவர்களை உடனடியாக வழிகாட்டி கையொப்பமிடுவதை எளிதாக்குகின்றன.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Import business contract",
-        "description": "Upload the PDF contract or NDA that needs signature coordinates."
+        "title": "வணிக ஒப்பந்தத்தை இறக்குமதி செய்",
+        "description": "கையொப்ப விவரக்கூறுகள் தேவைப்படும் PDF ஒப்பந்தம் அல்லது NDA ஐப் பதிவேற்றவும்."
       },
       {
         "step": 2,
-        "title": "Auto-scan signature slots",
-        "description": "Inspect the automatically located signing boxes, and manually add custom sign points if needed."
+        "title": "கையொப்ப இடங்களைத் தானாக ஸ்கேன் செய்",
+        "description": "தானாகக் கண்டறியப்பட்ட கையொப்பப் பெட்டிகளைப் பரிசோதித்து, தேவைப்பட்டால் தனிப்பயன் கையொப்பப் புள்ளிகளை கைமுறையாகச் சேர்க்கவும்."
       },
       {
         "step": 3,
-        "title": "Inject anchors & save",
-        "description": "Click execute to write the interactive pointer layers into the PDF structure."
+        "title": "ஆங்கர்களைச் சேர்த்து சேமிக்கவும்",
+        "description": "PDF அமைப்பிற்குள் ஊடாடும் வழிகாட்டி அடுக்குகளை எழுத 'செயல்படுத்து' என்பதைக் கிளிக் செய்யவும்."
       }
     ],
     "useCases": [
       {
-        "title": "Corporate NDA Agreements",
-        "description": "Inject clear, flashing guides next to sign blocks to prevent onboarding employees from missing clauses.",
+        "title": "கார்ப்பரேட் NDA ஒப்பந்தங்கள்",
+        "description": "புதிதாகச் சேரும் ஊழியர்கள் நிபந்தனைகளைத் தவறவிடுவதைத் தடுக்க, கையொப்பப் பெட்டிகளுக்கு அருகில் தெளிவான ஒளிரும் வழிகாட்டிகளைச் சேர்க்கவும்.",
         "icon": "file-text"
       },
       {
-        "title": "Commercial Lease Contracts",
-        "description": "Guide multiple co-signers through multi-page real estate documents with custom-colored tabs.",
+        "title": "வணிகக் குத்தகை ஒப்பந்தங்கள்",
+        "description": "தனிப்பயன் வண்ணக் குறியீடுகள் (tabs) மூலம் பல பக்க ரியல் எஸ்டேட் ஆவணங்களில் பல இணை கையொப்பமிடுபவர்களை வழிகாட்டவும்.",
         "icon": "users"
       },
       {
-        "title": "Procurement PO Signatures",
-        "description": "Overlay interactive pointers on invoices and purchase orders to accelerate accounting approval loops.",
+        "title": "கொள்முதல் PO கையொப்பங்கள்",
+        "description": "கணக்கியல் ஒப்புதல் செயல்முறைகளை விரைவுபடுத்த இன்வாய்ஸ்கள் மற்றும் கொள்முதல் ஆர்டர்களில் (purchase orders) ஊடாடும் சுட்டிகளை (interactive pointers) மேலடுக்கவும்.",
         "icon": "briefcase"
       }
     ],
     "faq": [
       {
-        "question": "Will these guides appear when I print the contract?",
-        "answer": "No. The anchors are injected with the standard PDF `Printable` flag set to false. They display beautifully on computer/tablet screens but remain completely invisible when printed."
+        "question": "நான் ஒப்பந்தத்தை அச்சிடும்போது இந்த வழிகாட்டிகள் தோன்றுமா?",
+        "answer": "இல்லை. வழக்கமான PDF `Printable` கொடி false என அமைக்கப்பட்டே இந்த நங்கூரங்கள் சேர்க்கப்படுகின்றன. அவை கணினி/டேப்ளெட் திரைகளில் அழகாகத் தோன்றும், ஆனால் அச்சிடும்போது முற்றிலும் மறைந்துவிடும்."
       },
       {
-        "question": "Can clients jump between signature fields easily?",
-        "answer": "Yes. We weave bidirectional internal anchors. Clients can click the \"Sign Guide\" bookmark to automatically jump to the next empty signature slot instantly."
+        "question": "வாடிக்கையாளர்கள் கையொப்பப் புலங்களுக்கு இடையே எளிதாக நகர முடியுமா?",
+        "answer": "ஆம். நாங்கள் இருதிசை உள் நங்கூரங்களை இணைக்கிறோம். வாடிக்கையாளர்கள் \"Sign Guide\" புத்தகக் குறியீட்டைக் கிளிக் செய்து, அடுத்த காலியான கையொப்ப இடத்திற்கு உடனடியாகத் தாண்டிச் செல்லலாம்."
       },
       {
-        "question": "Does this work on scanned image documents?",
-        "answer": "Yes. Besides looking up text streams, our spatial layout parser estimates signature lines based on horizontal rules and bounding boxes on scanned sheets."
+        "question": "இது ஸ்கேன் செய்யப்பட்ட பட ஆவணங்களில் வேலை செய்யுமா?",
+        "answer": "ஆம். உரை ஸ்ட்ரீம்களைத் தேடுவதைத் தவிர, எங்கள் இடஞ்சார்ந்த அமைப்பியல் பார்சர் (spatial layout parser) ஸ்கேன் செய்யப்பட்ட தாள்களில் உள்ள கிடைமட்ட கோடுகள் மற்றும் எல்லைப் பெட்டிகளின் அடிப்படையில் கையொப்பக் கோடுகளைக் கணிக்கிறது."
       }
     ]
   },
   "pdf-lossless-slicer": {
-    "title": "Lossless Drawing Slicing",
-    "metaDescription": "Extract a partial region of large PDF CAD drawings, maps, or charts at a low-level, keeping vector resolution intact while dropping file size.",
+    "title": "இழப்பற்ற வரைபடத் துண்டிப்பு (Lossless Drawing Slicing)",
+    "metaDescription": "கோப்பு அளவைக் குறைக்கும் அதே வேளையில் வெக்டார் தெளிவுத்திறனை மாறாமல் வைத்து, பெரிய PDF CAD வரைபடங்கள், வரைபடங்கள் அல்லது வரைபடங்களின் பகுதிப் பகுதியை குறைந்த மட்டத்தில் பிரித்தெடுக்கவும்.",
     "keywords": [
       "pdf vector crop",
       "lossless pdf slice",
@@ -7765,59 +7765,59 @@ export const toolContentTa: Record<string, ToolContent> = {
       "cropbox matrix edit",
       "extract map region"
     ],
-    "description": "\n      <p>The PDF Lossless Drawing Slicer is a high-precision, surgical tool built for architects, engineers, and map detailers.</p>\n      <p>When extracting a specific pump room or chip core from a massive CAD engineering blueprint or geographic map PDF, traditional screenshots result in pixelated, blurry text. Normal cropping tools simply place a mask over the sheet, meaning the massive 100MB file remains huge, and hidden content can still be extracted.</p>\n      <p>This tool edits the page <code>/MediaBox</code>, <code>/CropBox</code>, and <code>/BleedBox</code> matrices at the object tree level. It physically isolates vector nodes outside the selected region, keeping the target area 100% vector-perfect (allowing infinite zoom magnification) while purging redundant off-screen paths and images to shrink the file size by 95%!</p>\n    ",
+    "description": "\n      <p>PDF Lossless Drawing Slicer என்பது கட்டிடக் கலைஞர்கள், பொறியாளர்கள் மற்றும் வரைபட வடிவமைப்பாளர்களுக்காக உருவாக்கப்பட்ட ஒரு துல்லியமான கருவியாகும்.</p>\n      <p>ஒரு பெரிய CAD பொறியியல் வரைபடம் அல்லது புவியியல் வரைபட PDF இலிருந்து குறிப்பிட்ட பம்ப் அறை அல்லது சிப் கோரைப் பிரித்தெடுக்கும் போது, வழக்கமான ஸ்கிரீன்ஷாட்கள் பிக்சலேட் செய்யப்பட்ட, மங்கலான உரையை விளைவிக்கின்றன. சாதாரண க்ராப்பிங் கருவிகள் தாளின் மீது ஒரு மாஸ்க்கை மட்டுமே வைக்கின்றன, இதனால் பெரிய 100MB கோப்பு அப்படியே பெரிதாகவே இருக்கும், மேலும் மறைக்கப்பட்ட உள்ளடக்கத்தை இன்னமும் பிரித்தெடுக்க முடியும்.</p>\n      <p>இந்தக் கருவி ஆப்ஜெக்ட் ட்ரீ மட்டத்தில் பக்கத்தின் <code>/MediaBox</code>, <code>/CropBox</code>, மற்றும் <code>/BleedBox</code> மேட்ரிஸ்களை திருத்துகிறது. இது தேர்ந்தெடுக்கப்பட்ட பகுதிக்கு வெளியே உள்ள வெக்டார் முனைகளை இயல்பாகவே தனிமைப்படுத்தி, இலக்கு பகுதியை 100% வெக்டார்-தெளிவாக வைத்து (வரம்பற்ற ஜூம் உருப்பெருக்கத்தை அனுமதிக்கிறது), திரைக்கு அப்பாற்பட்ட தேவையற்ற பாதைகள் மற்றும் படங்களை நீக்கி கோப்பின் அளவை 95% வரை குறைக்கிறது!</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Import large blueprint",
-        "description": "Upload the vector-rich CAD, GIS map, or high-resolution catalog PDF."
+        "title": "பெரிய வரைபடத்தை இறக்குமதி செய்",
+        "description": "வெக்டார் நிறைந்த CAD, GIS வரைபடம் அல்லது உயர் தெளிவுத்திறன் கொண்ட பட்டியல் PDF ஐப் பதிவேற்றவும்."
       },
       {
         "step": 2,
-        "title": "Draw cutting box",
-        "description": "Drag and scale the green laser-line crop box to target the local region you want to slice."
+        "title": "வெட்டும் பெட்டியை வரையவும்",
+        "description": "நீங்கள் துண்டிக்க விரும்பும் உள்ளூர் பகுதியை இலக்காகக் கொள்ள பச்சைக் லேசர்-கோடு க்ராப் பெட்டியை இழுத்து அளவை மாற்றவும்."
       },
       {
         "step": 3,
-        "title": "Trigger laser crop",
-        "description": "Click execute to trigger our low-level object slicer and download the tiny, lossless PDF."
+        "title": "லேசர் க்ராப்பைத் தொடங்கவும்",
+        "description": "எங்கள் லோ-லெவல் ஆப்ஜெக்ட் ஸ்லைசரை இயக்கி, சிறிய, இழப்பற்ற PDF ஐப் பதிவிறக்க 'செயல்படுத்து' என்பதைக் கிளிக் செய்யவும்."
       }
     ],
     "useCases": [
       {
-        "title": "CAD Blueprint Isolation",
-        "description": "Slice out a \"cooling system\" detail from a massive 100MB floor plan blueprint to share with sub-contractors.",
+        "title": "CAD வரைபடத் தனிமைப்படுத்தல்",
+        "description": "துணை ஒப்பந்தக்காரர்களுடன் பகிர்வதற்காக மிகப்பெரிய 100MB தரைத் திட்ட வரைபடத்திலிருந்து \"குளிரூட்டும் முறைமை\" விவரத்தை மட்டும் துண்டித்து எடுக்கவும்.",
         "icon": "crop"
       },
       {
-        "title": "GIS Map Snipping",
-        "description": "Extract a lossless, vector-clear block of a city street map for a presentation slide without resolution loss.",
+        "title": "GIS வரைபடத் துண்டிப்பு",
+        "description": "தெளிவுத்திறன் இழப்பு இல்லாமல் விளக்கக்காட்சி ஸ்லைடிற்காக நகர வீதி வரைபடத்தின் இழப்பற்ற, வெக்டார்-தெளிவான பகுதியை பிரித்தெடுக்கவும்.",
         "icon": "map"
       },
       {
-        "title": "Manual Illustration Tracing",
-        "description": "Lossless isolate scientific book figures to embed into high-quality academic papers.",
+        "title": "கையேடு விளக்கப்படத் தடமறிதல்",
+        "description": "உயர்தர கல்வித் தாள்களில் உட்பொதிப்பதற்காக அறிவியல் புத்தகப் படங்களை இழப்பன்றி தனிமைப்படுத்தவும்.",
         "icon": "image"
       }
     ],
     "faq": [
       {
-        "question": "How is this different from standard cropping?",
-        "answer": "Standard cropping merely adjusts visual bounds; the hidden vectors remain in the file. Our slicer trims overlapping vector paths and purges out-of-bounds XObject images, ensuring complete data isolation and maximum file compression."
+        "question": "இது வழக்கமான க்ராப்பிங்கிலிருந்து எவ்வாறு வேறுபடுகிறது?",
+        "answer": "வழக்கமான க்ராப்பிங் காட்சி எல்லைகளை மட்டுமே சரிசெய்கிறது; மறைக்கப்பட்ட வெக்டார்கள் கோப்பில் அப்படியே இருக்கும். எங்கள் ஸ்லைசர் ஒன்றுடன் ஒன்று இணையும் வெக்டார் பாதைகளை வெட்டி, எல்லைக்கு அப்பாற்பட்ட XObject படங்களை நீக்குகிறது, இது முழுமையான தரவு தனிமைப்படுத்தலையும் அதிகபட்ச கோப்பு சுருக்கத்தையும் உறுதி செய்கிறது."
       },
       {
-        "question": "Will text layers remain searchable?",
-        "answer": "Yes. Any text characters that fall inside the sliced boundary remain fully vector-clear, searchable, and selectable."
+        "question": "உரைப் அடுக்குகள் தேடக்கூடியதாகவே இருக்குமா?",
+        "answer": "ஆம். துண்டிக்கப்பட்ட எல்லைக்குள் வரும் எந்தவொரு உரை எழுத்துக்களும் முழுமையாக வெக்டார்-தெளிவாகவும், தேடக்கூடியதாகவும், தேர்ந்தெடுக்கக்கூடியதாகவும் இருக்கும்."
       },
       {
-        "question": "Can I export sliced regions to SVG?",
-        "answer": "The output is a standardized vector PDF. You can pass the resulting file to our PDF-to-SVG tool to convert it to a web-scalable vector graphics format."
+        "question": "துண்டிக்கப்பட்ட பகுதிகளை SVG ஆக ஏற்றுமதி செய்ய முடியுமா?",
+        "answer": "வெளியீடு ஒரு தரப்படுத்தப்பட்ட வெக்டார் PDF ஆகும். இதன் மூலம் கிடைக்கும் கோப்பை எங்கள் PDF-to-SVG கருவிக்கு அனுப்பி, அதை வலை-அளவிடக்கூடிய வெக்டார் கிராபிக்ஸ் (SVG) வடிவத்திற்கு மாற்றலாம்."
       }
     ]
   },
   "pdf-scratchpad-canvas": {
-    "title": "Grid Scratchpad Canvas",
-    "metaDescription": "Stitch high-quality grid, ruled, or Cornell note-taking margins to PDF pages for formula derivations and exam note preparation.",
+    "title": "கிரிட் ஸ்கிராட்ச்பேட் கேன்வாஸ்",
+    "metaDescription": "சூத்திரப் பெறல்கள் மற்றும் தேர்வு குறிப்பு தயாரிப்பிற்காக PDF பக்கங்களில் உயர்தர கிரிட், ரூல்டு அல்லது கார்னெல் குறிப்பெடுக்கும் விளிம்புகளை இணைக்கவும்.",
     "keywords": [
       "pdf margin expand",
       "add scratchpad page",
@@ -7825,59 +7825,59 @@ export const toolContentTa: Record<string, ToolContent> = {
       "stitch draft space",
       "pdf notes template"
     ],
-    "description": "\n      <p>The PDF Scratchpad Margin Extender is an essential study companion tailored for students, researchers, and professional exam candidates.</p>\n      <p>When solving practice test papers, reviewing slides, or reading academic textbooks on digital tablets, page margins are incredibly tight. Opening a separate notes app forces you to toggle screens constantly, breaking focus. Adding flat blank sheets prevents you from viewing the problem and your calculation side-by-side.</p>\n      <p>This tool rewrites page width or height dimensions in the low-level PDF structure, expanding <code>/MediaBox</code> margins by 200~250 pt on the right or bottom. It then overlays clean grid lines, college-ruled notebook lines, or Cornell layouts in the new margins, giving you dedicated, adjacent draft boards next to every single slide or question!</p>\n    ",
+    "description": "\n      <p>PDF Scratchpad Margin Extender என்பது மாணவர்கள், ஆராய்ச்சியாளர்கள் மற்றும் தொழில்முறை தேர்வு வேட்பாளர்களுக்காக வடிவமைக்கப்பட்ட ஒரு அத்தியாவசிய படிப்புக் தோழனாகும்.</p>\n      <p>டிஜிட்டல் டேப்லெட்களில் பயிற்சி வினாத்தாள்களைத் தீர்க்கும் போது, ஸ்லைடுகளைப் மறுஆய்வு செய்யும் போது அல்லது கல்விக் பாடப்புத்தகங்களைப் படிக்கும் போது, பக்க விளிம்புகள் மிகவும் குறுகலாக இருக்கும். ஒரு தனித்த குறிப்பு பயன்பாட்டைத் திறப்பது உங்களை தொடர்ந்து திரைகளை மாற்ற கட்டாயப்படுத்துகிறது, கவனத்தைக் கலைக்கிறது. வெறும் காலியான தாள்களைச் சேர்ப்பது கேள்வியையும் உங்கள் கணக்கீட்டையும் அருகருகே பார்ப்பதைத் தடுக்கிறது.</p>\n      <p>இந்தக் கருவி லோ-லெவல் PDF கட்டமைப்பில் பக்க அகலம் அல்லது உயர பரிமாணங்களை மாற்றியமைத்து, வலது அல்லது கீழ் பகுதியில் <code>/MediaBox</code> விளிம்புகளை 200~250 pt வரை விரிவாக்குகிறது. பின்னர் இது புதிய விளிம்புகளில் சுத்தமான கிரிட் கோடுகள், கல்லூரி-ரூல்டு நோட்புக் கோடுகள் அல்லது கார்னெல் தளவமைப்புகளை மேலடுக்கிறது, இது ஒவ்வொரு ஸ்லைடு அல்லது கேள்விக்கும் பக்கத்திலேயே பிரத்யேக வரைவுப் பலகைகளை உங்களுக்கு வழங்குகிறது!</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload lecture slides",
-        "description": "Provide the PDF textbook, slides, or study papers."
+        "title": "விரிவுரை ஸ்லைடுகளைப் பதிவேற்றவும்",
+        "description": "PDF பாடப்புத்தகம், ஸ்லைடுகள் அல்லது படிப்புத் தாள்களை வழங்கவும்."
       },
       {
         "step": 2,
-        "title": "Choose margin & grid style",
-        "description": "Pick margin expansion direction (e.g. right side for tablets) and select the grid template."
+        "title": "விளிம்பு மற்றும் கிரிட் பாணியைத் தேர்ந்தெடுக்கவும்",
+        "description": "விளிம்பு விரிவாக்கத் திசையைத் தேர்ந்தெடுத்து (எ.கா. டேப்லெட்களுக்கு வலது பக்கம்) கிரிட் டெம்ப்ளேட்டைத் தேர்ந்தெடுக்கவும்."
       },
       {
         "step": 3,
-        "title": "Stitch canvas & download",
-        "description": "Click execute to generate expanded pages complete with beautiful draft grids."
+        "title": "கேன்வாஸை இணைத்து பதிவிறக்கவும்",
+        "description": "அழகான வரைவு கிரிட்களுடன் கூடிய விரிவாக்கப்பட்ட பக்கங்களை உருவாக்க 'செயல்படுத்து' என்பதைக் கிளிக் செய்யவும்."
       }
     ],
     "useCases": [
       {
-        "title": "STEM Exam Preparation",
-        "description": "Stitch grid margins next to math and physics exam questions, solving derivations right next to the question.",
+        "title": "STEM தேர்வு தயாரிப்பு",
+        "description": "கணிதம் மற்றும் இயற்பியல் தேர்வு கேள்விகளுக்கு அருகில் கிரிட் விளிம்புகளை இணைத்து, கேள்விக்கு அருகிலேயே வழிமுறைகளைத் தீர்க்கவும்.",
         "icon": "edit-3"
       },
       {
-        "title": "Language Reading Analysis",
-        "description": "Add ruled notebook margins next to foreign language essays for vocabulary analysis and paragraph translation.",
+        "title": "மொழி வாசிப்பு பகுப்பாய்வு",
+        "description": "சொற்களஞ்சிய பகுப்பாய்வு மற்றும் பத்தி மொழிபெயர்ப்பிற்காக அந்நிய மொழி கட்டுரைகளுக்கு அருகில் ரூல்டு நோட்புக் விளிம்புகளைச் சேர்க்கவும்.",
         "icon": "book"
       },
       {
-        "title": "Architectural Blueprint Audit",
-        "description": "Add empty margin spaces on the side of blueprints for engineering calculations and client review comments.",
+        "title": "கட்டிடக்கலை வரைபட தணிக்கை",
+        "description": "பொறியியல் கணக்கீடுகள் மற்றும் வாடிக்கையாளர் மறுஆய்வு கருத்துகளுக்காக வரைபடங்களின் பக்கத்தில் காலியான விளிம்பு இடங்களைச் சேர்க்கவும்.",
         "icon": "columns"
       }
     ],
     "faq": [
       {
-        "question": "Will this squish my original PDF text?",
-        "answer": "Not at all. The algorithm expands the paper dimension outwards. The original content retains its layout, fonts, and resolution; we simply stretch the white space on the borders and draw grids on them."
+        "question": "இது எனது அசல் PDF உரையைச் சுருக்குமா?",
+        "answer": "இல்லவே இல்லை. அல்காரிதம் காகித பரிமாணத்தை வெளிப்புறமாக விரிவாக்குகிறது. அசல் உள்ளடக்கம் அதன் அமைப்பியல், எழுத்துருக்கள் மற்றும் தெளிவுத்திறனைத் தக்க வைத்துக் கொள்கிறது; நாங்கள் எல்லைகளில் உள்ள வெற்று இடத்தை நீட்டி, அவற்றில் கிரிட்களை வரைகிறோம்."
       },
       {
-        "question": "Can standard hand-writing pens write in the scratchpad?",
-        "answer": "Yes. The new PDF pages are compiled natively. Popular tablet note-taking applications like Goodnotes, Notability, Xodo, and Acrobat can write, highlight, and doodle directly in the new grid space."
+        "question": "வழக்கமான கையெழுத்துப் பேனாக்கள் மூலம் ஸ்கிராட்ச்பேடில் எழுத முடியுமா?",
+        "answer": "ஆம். புதிய PDF பக்கங்கள் இயல்பாகவே தொகுக்கப்படுகின்றன. Goodnotes, Notability, Xodo, மற்றும் Acrobat போன்ற பிரபலமான டேப்லெட் குறிப்பெடுக்கும் பயன்பாடுகள் புதிய கிரிட் இடத்திலேயே நேரடியாக எழுதவும், ஹைலைட் செய்யவும் மற்றும் வரையவும் முடியும்."
       },
       {
-        "question": "Are grid lines dark and distracting?",
-        "answer": "We curated three subtle, eye-friendly colors (soft blue-gray, warm brown, and glowing green). The lines are thin and gentle, serving as guides without distracting you from the original page content."
+        "question": "கிரிட் கோடுகள் இருட்டாகவும் கவனத்தை சிதறடிப்பதாகவும் இருக்குமா?",
+        "answer": "நாங்கள் மூன்று நுட்பமான, கண்களுக்கு ஏற்ற வண்ணங்களை (மென்மையான நீல-சாம்பல், இதமான பழுப்பு மற்றும் ஒளிரும் பச்சை) தேர்ந்தெடுத்துள்ளோம். கோடுகள் மெல்லியதாகவும் இதமாகவும் இருக்கும், அசல் பக்க உள்ளடக்கத்திலிருந்து உங்கள் கவனத்தைத் திருப்பாமல் வழிகாட்டிகளாக மட்டுமே செயல்படும்."
       }
     ]
   },
   "photo-tiling-prepress": {
-    "title": "ID Photo DIY Print Tiler",
-    "metaDescription": "Crop and tile passport/ID photos onto standard 5\" or 6\" photo papers, and stamp precise prepress physical crop marks for easy cutting.",
+    "title": "ID புகைப்பட DIY அச்சு டைலர்",
+    "metaDescription": "பாஸ்போர்ட்/ID புகைப்படங்களை நிலையான 5\" அல்லது 6\" புகைப்படக் காகிதங்களில் க்ராப் செய்து டைல் செய்யவும், மேலும் எளிதாக வெட்டுவதற்காக துல்லியமான prepress இயற்பியல் வெட்டு அடையாளங்களைப் பதிக்கவும்.",
     "keywords": [
       "id photo tiling",
       "print passport photo",
@@ -7885,53 +7885,53 @@ export const toolContentTa: Record<string, ToolContent> = {
       "id photo layout prepress",
       "stamp crop marks"
     ],
-    "description": "\n      <p>The Prepress Photo Tiling tool is a cost-effective, high-precision layout compiler built for personal registration cards and photography studios.</p>\n      <p>Printing passport photos, ID photos, or driver licenses at home often results in incorrect physical dimensions (often printed too large or too small), wasted photo paper, and uneven alignments. Going to professional print shops to get layouts made is time-consuming.</p>\n      <p>Our tool integrates a <strong>precision prepress matrix engine</strong>. It accepts portrait photographs or ID card scans, crops them to standard dimensions (e.g. 1\" or 2\" passport specs), calculates optimal tile counts for standard photo papers (e.g. 5\" or 6\" sheets), and injects crisp, micro-pixel crop lines for easy physical cutting, generating a perfect printable PDF.</p>\n    ",
+    "description": "\n      <p>Prepress Photo Tiling கருவி என்பது தனிநபர் பதிவு அட்டைகள் மற்றும் புகைப்பட ஸ்டுடியோக்களுக்காக உருவாக்கப்பட்டது, குறைந்த செலவிலான, அதிக துல்லியமான லேஅவுட் கம்பைலர் ஆகும்.</p>\n      <p>வீட்டில் பாஸ்போர்ட் புகைப்படங்கள், ID புகைப்படங்கள் அல்லது ஓட்டுநர் உரிமங்களை அச்சிடுவது பெரும்பாலும் தவறான இயற்பியல் அளவுகளுக்கு (மிகப் பெரியதாக அல்லது மிகச் சிறியதாக அச்சிடப்படுவது), புகைப்படக் காகிதம் வீணாவதற்கு மற்றும் சீரற்ற சீரமைப்புகளுக்கு வழிவகுக்கிறது. லேஅவுட்களை உருவாக்க தொழில்முறை பிரிண்ட் கடைகளுக்குச் செல்வது அதிக நேரத்தை எடுக்கும்.</p>\n      <p>எங்கள் கருவி ஒரு <strong>துல்லியமான prepress மேட்ரிக்ஸ் எஞ்சினை</strong> உள்ளடக்கியுள்ளது. இது போர்ட்ரெய்ட் புகைப்படங்கள் அல்லது ID கார்டு ஸ்கேன்களை ஏற்றுக்கொண்டு, அவற்றை நிலையான அளவுகளுக்கு (எ.கா. 1\" அல்லது 2\" பாஸ்போர்ட் அளவுகள்) க்ராப் செய்கிறது, நிலையான புகைப்படக் காகிதங்களுக்கான (எ.கா. 5\" அல்லது 6\" தாள்கள்) உகந்த டைல் எண்ணிக்கையைக் கணக்கிடுகிறது, மற்றும் எளிதான இயற்பியல் வெட்டுக்காக தெளிவான, மைக்ரோ-பிக்சல் க்ராப் வரிகளைச் சேர்த்து, சரியான அச்சிடக்கூடிய PDF ஐ உருவாக்குகிறது.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Import passport photo",
-        "description": "Upload the camera portrait snapshot or double-sided ID card images."
+        "title": "பாஸ்போர்ட் புகைப்படத்தை இறக்குமதி செய்க",
+        "description": "கேமரா போர்ட்ரெய்ட் புகைப்படம் அல்லது இருபுறமும் உள்ள ID கார்டு படங்களை பதிவேற்றவும்."
       },
       {
         "step": 2,
-        "title": "Configure paper & layout",
-        "description": "Select the target print paper size (e.g. 6\") and choose the grid layouts (e.g. 8 copies of 1\" photos)."
+        "title": "தாள் மற்றும் லேஅவுட்டை உள்ளமைக்கவும்",
+        "description": "இலக்கு அச்சுத் தாள் அளவைத் தேர்ந்தெடுத்து (எ.கா. 6\"), கிரிட் லேஅவுட்களைத் தேர்ந்தெடுக்கவும் (எ.கா. 1\" புகைப்படங்களின் 8 பிரதிகள்)."
       },
       {
         "step": 3,
-        "title": "Tile and export",
-        "description": "Inspect photo tiles on our grid, and export the high-DPI printable PDF."
+        "title": "டைல் செய்து ஏற்றுமதி செய்க",
+        "description": "எங்கள் கிரிட்டில் உள்ள புகைப்பட டைல்களைப் பரிசீலித்து, உயர்தர DPI அச்சிடக்கூடிய PDF ஐ ஏற்றுமதி செய்யவும்."
       }
     ],
     "useCases": [
       {
-        "title": "Self-Service Passport Photos",
-        "description": "Arrange your mobile-shot passport portraits onto a single 6\" photo paper grid, and print 8 copies for a fraction of standard studio costs.",
+        "title": "சுய சேவை பாஸ்போர்ட் புகைப்படங்கள்",
+        "description": "உங்கள் மொபைலில் எடுத்த பாஸ்போர்ட் போர்ட்ரெய்ட்டுகளை ஒற்றை 6\" புகைப்படத் தாள் கிரிட்டில் அமைத்து, வழக்கமான ஸ்டுடியோ கட்டணத்தில் ஒரு சிறு பகுதி செலவிலேயே 8 பிரதிகளை அச்சிடுங்கள்.",
         "icon": "user"
       },
       {
-        "title": "ID Card Double-sided Copy",
-        "description": "Format front and back scans of national ID cards neatly on standard Letter/A4 sheets for official submissions.",
+        "title": "ID கார்டு இருபக்க நகல்",
+        "description": "அதிகாரப்பூர்வ சமர்ப்பிப்புகளுக்காக தேசிய ID கார்டுகளின் முன் மற்றும் பின் பக்க ஸ்கேன்களை நிலையான Letter/A4 தாள்களில் நேர்த்தியாக வடிவமைக்கவும்.",
         "icon": "file-text"
       },
       {
-        "title": "Batch Photo Thumbnail Sheets",
-        "description": "Tile multiple family memories or design snapshots onto a grid paper to print thumbnail contact sheets efficiently.",
+        "title": "தொகுதி புகைப்பட சிறுபடத் தாள்கள்",
+        "description": "சிறுபடத் தொடர்புத் தாள்களைத் திறம்பட அச்சிட, பல குடும்ப நினைவுகள் அல்லது வடிவமைப்பு படங்களை ஒரு கிரிட் தாளில் டைல் செய்யவும்.",
         "icon": "grid"
       }
     ],
     "faq": [
       {
-        "question": "Will the printed dimensions match official 1\" or 2\" specs?",
-        "answer": "Yes. The grid engine measures using standard PDF points (72 pt = 1 inch), rendering 1\" photos exactly at 25x35mm, and 2\" photos at 35x49mm. Ensure you print at \"Actual Size / 100% Scale\" in your printer settings."
+        "question": "அச்சிடப்பட்ட அளவுகள் அதிகாரப்பூர்வ 1\" அல்லது 2\" விவரக்குறிப்புகளுக்குப் பொருந்துமா?",
+        "answer": "ஆம். கிரிட் எஞ்சின் நிலையான PDF புள்ளிகளைப் பயன்படுத்தி அளவிடுகிறது (72 pt = 1 அங்குலம்), 1\" புகைப்படங்களைச் சரியாக 25x35mm அளவிலும், 2\" புகைப்படங்களை 35x49mm அளவிலும் வழங்குகிறது. உங்கள் பிரிண்டர் அமைப்புகளில் \"Actual Size / 100% Scale\" இல் அச்சிடுவதை உறுதிசெய்யவும்."
       },
       {
-        "question": "Can I combine 1\" and 2\" photos on a single sheet?",
-        "answer": "Yes. We provide curated hybrid layout presets (e.g. \"4 copies of 1\" + 4 copies of 2\"\"), allowing you to maximize photo paper space."
+        "question": "ஒரு ஒற்றைத் தாளில் 1\" மற்றும் 2\" புகைப்படங்களை ஒன்றாக இணைக்க முடியுமா?",
+        "answer": "ஆம். புகைப்படத் தாளின் இடத்தை அதிகபட்சமாகப் பயன்படுத்த உங்களுக்கு உதவும் வகையில், தேர்ந்தெடுக்கப்பட்ட கலப்பின லேஅவுட் முன்னமைவுகளை (எ.கா. \"1\" இன் 4 பிரதிகள் + 2\" இன் 4 பிரதிகள்\") நாங்கள் வழங்குகிறோம்."
       },
       {
-        "question": "Does the template include border bleeds?",
-        "answer": "Yes. The prepress layouts reserve a standard 4mm print-safe margin on the paper borders, preventing physical printer rollers from cropping the photos."
+        "question": "டெம்ப்ளேட்டில் பார்டர் பிளீட்ஸ் சேர்க்கப்பட்டுள்ளதா?",
+        "answer": "ஆம். Prepress லேஅவுட்கள் தாளின் விளிம்புகளில் நிலையான 4mm அச்சு-பாதுகாப்பான விளிம்பை ஒதுக்குகின்றன, இது இயற்பியல் பிரிண்டர் ரோலர்கள் புகைப்படங்களை க்ராப் செய்வததைத் தடுக்கிறது."
       }
     ]
   }

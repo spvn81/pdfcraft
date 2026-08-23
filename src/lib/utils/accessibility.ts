@@ -255,7 +255,7 @@ export function verifyColorContrast(): {
   };
 }
 
-export default {
+const accessibilityUtils = {
   hslToRgb,
   getRelativeLuminance,
   getContrastRatio,
@@ -264,3 +264,5 @@ export default {
   verifyColorContrast,
   ACCESSIBLE_COLORS,
 };
+
+export default accessibilityUtils;
