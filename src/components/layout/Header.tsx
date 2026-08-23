@@ -207,13 +207,23 @@ export const Header: React.FC<HeaderProps> = ({ locale, showSearch = true }) => 
             aria-label="Main navigation"
           >
             {navItems.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className="px-4 py-1.5 text-sm font-medium text-[hsl(var(--color-muted-foreground))] hover:text-[hsl(var(--color-foreground))] hover:bg-[hsl(var(--color-muted))/0.5] rounded-full transition-all"
-              >
-                {item.label}
-              </Link>
+              item.href.startsWith('http') ? (
+                <a
+                  key={item.href}
+                  href={item.href}
+                  className="px-4 py-1.5 text-sm font-medium text-[hsl(var(--color-muted-foreground))] hover:text-[hsl(var(--color-foreground))] hover:bg-[hsl(var(--color-muted))/0.5] rounded-full transition-all"
+                >
+                  {item.label}
+                </a>
+              ) : (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className="px-4 py-1.5 text-sm font-medium text-[hsl(var(--color-muted-foreground))] hover:text-[hsl(var(--color-foreground))] hover:bg-[hsl(var(--color-muted))/0.5] rounded-full transition-all"
+                >
+                  {item.label}
+                </Link>
+              )
             ))}
           </nav>
 

@@ -237,6 +237,14 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose, locale 
                       </ul>
                     )}
                   </div>
+                ) : item.href.startsWith('http') ? (
+                  <a
+                    href={item.href}
+                    className="block px-4 py-3 font-medium text-[hsl(var(--color-foreground))] hover:bg-[hsl(var(--color-muted))] rounded-[var(--radius-md)] transition-colors"
+                    onClick={handleLinkClick}
+                  >
+                    {item.label}
+                  </a>
                 ) : (
                   <Link
                     href={item.href}
