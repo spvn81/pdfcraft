@@ -1,0 +1,14 @@
+# Ezoic ads.txt implementation
+# IMPORTANT: This file must be replaced with the exact ads.txt contents provided
+# by your Ezoic dashboard. Ezoic relies on this file to authorize ad demand.
+# 
+# Instructions:
+# 1. Log in to the Ezoic Dashboard
+# 2. Go to Monetization -> ads.txt
+# 3. Copy the entire generated ads.txt content
+# 4. Paste the content into this file, replacing these instructions
+# 
+# Since this project is deployed to Cloudflare (e.g., via Next.js static export or Pages),
+# this static public/ads.txt file is correctly served at the root (https://yourdomain.com/ads.txt).
+
+# Replace with Ezoic content below:

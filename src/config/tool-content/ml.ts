@@ -2539,7 +2539,7 @@ export const toolContentMl: Record<string, ToolContent> = {
   },
   "mobi-to-pdf": {
     "title": "MOBI to PDF",
-    "metaDescription": "Convert MOBI e-books to PDF. Support for Kindle format with high-quality rendering.",
+    "metaDescription": "MOBI ഇ-ബുക്കുകൾ PDF-ലേക്ക് മാറ്റുക. ഉയർന്ന നിലവാരമുള്ള റെൻഡറിംഗോടെ Kindle ഫോർമാറ്റിനുള്ള പിന്തുണ.",
     "keywords": [
       "mobi to pdf",
       "convert mobi",
@@ -2547,12 +2547,12 @@ export const toolContentMl: Record<string, ToolContent> = {
       "azw to pdf",
       "mobi converter"
     ],
-    "description": "\n      <p>MOBI to PDF converts Amazon Kindle e-book files into high-quality PDF documents. MOBI format (including AZW and AZW3) is Amazon's proprietary e-book format used on Kindle devices.</p>\n      <p>This tool preserves text formatting, images, and the structure of your Kindle books. Perfect for printing, archiving, or reading on devices that don't support MOBI format.</p>\n      <p>All conversion happens locally in your browser using advanced rendering technology, ensuring your books remain private.</p>\n    ",
+    "description": "\n      <p>MOBI to PDF, Amazon Kindle ഇ-ബുക്ക് ഫയലുകളെ ഉയർന്ന നിലവാരമുള്ള PDF ഡോക്യുമെന്റുകളാക്കി മാറ്റുന്നു. MOBI ഫോർമാറ്റ് (AZW, AZW3 എന്നിവ ഉൾപ്പെടെ) Kindle ഡിവൈസുകളിൽ ഉപയോഗിക്കുന്ന Amazon-ന്റെ സ്വകാര്യ ഇ-ബുക്ക് ഫോർമാറ്റാണ്.</p>\n      <p>ഈ ടൂൾ നിങ്ങളുടെ Kindle ബുക്കുകളുടെ ടെക്സ്റ്റ് ഫോർമാറ്റിംഗ്, ചിത്രങ്ങൾ, ഘടന എന്നിവ അതേപടി നിലനിർത്തുന്നു. പ്രിന്റ് ചെയ്യുന്നതിനും ആർക്കൈവ് ചെയ്യുന്നതിനും MOBI ഫോർമാറ്റ് പിന്തുണയ്ക്കാത്ത ഡിവൈസുകളിൽ വായിക്കുന്നതിനും ഇത് അനുയോജ്യമാണ്.</p>\n      <p>എല്ലാ കൺവേർഷനുകളും നിങ്ങളുടെ ബ്രൗസറിൽ പ്രാദേശികമായി അഡ്വാൻസ്ഡ് റെൻഡറിംഗ് സാങ്കേതികവിദ്യ ഉപയോഗിച്ചാണ് നടക്കുന്നത്, അതിനാൽ നിങ്ങളുടെ പുസ്തകങ്ങൾ പൂർണ്ണമായും സ്വകാര്യമായിരിക്കും.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload MOBI File",
-        "description": "Drag and drop your .mobi, .azw, or .azw3 file or click to select from your device."
+        "title": "MOBI ഫയൽ അപ്‌ലോഡ് ചെയ്യുക",
+        "description": "നിങ്ങളുടെ .mobi, .azw, അല്ലെങ്കിൽ .azw3 ഫയൽ ഡ്രാഗ് ചെയ്ത് ഡ്രോപ്പ് ചെയ്യുക, അല്ലെങ്കിൽ നിങ്ങളുടെ ഡിവൈസിൽ നിന്ന് തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
@@ -2567,39 +2567,39 @@ export const toolContentMl: Record<string, ToolContent> = {
     ],
     "useCases": [
       {
-        "title": "Print Kindle Books",
-        "description": "Convert Kindle e-books to PDF for physical printing.",
+        "title": "Kindle പുസ്തകങ്ങൾ പ്രിന്റ് ചെയ്യുക",
+        "description": "പേപ്പറിൽ പ്രിന്റ് ചെയ്യുന്നതിനായി Kindle ഇ-ബുക്കുകൾ PDF-ലേക്ക് മാറ്റുക.",
         "icon": "printer"
       },
       {
         "title": "പുസ്തകങ്ങൾ ആർക്കൈവ് ചെയ്യുക",
-        "description": "Store Kindle books in universal PDF format.",
+        "description": "Kindle പുസ്തകങ്ങൾ സാർവത്രികമായ PDF ഫോർമാറ്റിൽ സൂക്ഷിക്കുക.",
         "icon": "archive"
       },
       {
-        "title": "Cross-Device Reading",
-        "description": "Read Kindle books on devices that only support PDF.",
+        "title": "വിവിധ ഡിവൈസുകളിലെ വായന",
+        "description": "PDF മാത്രം പിന്തുണയ്ക്കുന്ന ഡിവൈസുകളിൽ Kindle പുസ്തകങ്ങൾ വായിക്കുക.",
         "icon": "tablet-smartphone"
       }
     ],
     "faq": [
       {
-        "question": "What MOBI formats are supported?",
-        "answer": "This tool supports .mobi, .azw, and .azw3 files (non-DRM versions)."
+        "question": "ഏതൊക്കെ MOBI ഫോർമാറ്റുകളാണ് പിന്തുണയ്ക്കുന്നത്?",
+        "answer": "ഈ ടൂൾ .mobi, .azw, .azw3 ഫയലുകളെ (DRM ഇല്ലാത്ത പതിപ്പുകൾ) പിന്തുണയ്ക്കുന്നു."
       },
       {
-        "question": "Are DRM-protected Kindle books supported?",
-        "answer": "No, DRM-protected e-books cannot be converted. Only DRM-free files are supported."
+        "question": "DRM സുരക്ഷിതമായ Kindle പുസ്തകങ്ങൾ പിന്തുണയ്ക്കുമോ?",
+        "answer": "ഇല്ല, DRM സുരക്ഷിതമായ ഇ-ബുക്കുകൾ മാറ്റാൻ കഴിയില്ല. DRM ഇല്ലാത്ത ഫയലുകൾ മാത്രമേ പിന്തുണയ്ക്കൂ."
       },
       {
-        "question": "Will my formatting be preserved?",
-        "answer": "Yes! The tool uses native MOBI rendering to preserve text, images, and layout."
+        "question": "എന്റെ ഫോർമാറ്റിംഗ് നിലനിൽക്കുമോ?",
+        "answer": "അതെ! ടെക്സ്റ്റ്, ചിത്രങ്ങൾ, ലേഔട്ട് എന്നിവ നിലനിർത്താൻ ഈ ടൂൾ ഒറിജിനൽ MOBI റെൻഡറിംഗ് ഉപയോഗിക്കുന്നു."
       }
     ]
   },
   "djvu-to-pdf": {
     "title": "DJVU to PDF",
-    "metaDescription": "Convert DJVU document files to PDF. High-quality rendering for scanned documents and books.",
+    "metaDescription": "DJVU ഡോക്യുമെന്റ് ഫയലുകൾ PDF-ലേക്ക് മാറ്റുക. സ്കാൻ ചെയ്ത ഡോക്യുമെന്റുകൾക്കും പുസ്തകങ്ങൾക്കുമായി ഉയർന്ന നിലവാരമുള്ള റെൻഡറിംഗ്.",
     "keywords": [
       "djvu to pdf",
       "convert djvu",
@@ -2607,59 +2607,59 @@ export const toolContentMl: Record<string, ToolContent> = {
       "djvu pdf",
       "djv to pdf"
     ],
-    "description": "\n      <p>DJVU to PDF converts DjVu document files into high-quality PDF documents. DjVu is a computer file format designed primarily to store scanned documents, especially those containing a combination of text, line drawings, and photographs.</p>\n      <p>This tool renders each page of your DJVU file at your chosen DPI (dots per inch) and combines them into a searchable PDF document. Perfect for converting scanned books, technical manuals, and archival documents.</p>\n      <p>All conversion happens locally in your browser, ensuring your documents remain private and secure.</p>\n    ",
+    "description": "\n      <p>DJVU to PDF, DjVu ഡോക്യുമെന്റ് ഫയലുകളെ ഉയർന്ന നിലവാരമുള്ള PDF ഡോക്യുമെന്റുകളാക്കി മാറ്റുന്നു. പ്രധാനമായും സ്കാൻ ചെയ്ത ഡോക്യുമെന്റുകൾ, പ്രത്യേകിച്ച് ടെക്സ്റ്റ്, ലൈൻ ഡ്രോയിംഗുകൾ, ഫോട്ടോഗ്രാഫുകൾ എന്നിവ അടങ്ങിയവ സൂക്ഷിക്കാൻ രൂപകൽപ്പന ചെയ്തിട്ടുള്ള ഒരു കമ്പ്യൂട്ടർ ഫയൽ ഫോർമാറ്റാണ് DjVu.</p>\n      <p>ഈ ടൂൾ നിങ്ങളുടെ DJVU ഫയലിന്റെ ഓരോ പേജും നിങ്ങൾ തിരഞ്ഞെടുത്ത DPI-യിൽ (dots per inch) റെൻഡർ ചെയ്യുകയും തിരയാൻ കഴിയുന്ന ഒരു PDF ഡോക്യുമെന്റായി സംയോജിപ്പിക്കുകയും ചെയ്യുന്നു. സ്കാൻ ചെയ്ത പുസ്തകങ്ങൾ, സാങ്കേതിക മാനുവലുകൾ, ആർക്കൈവൽ ഡോക്യുമെന്റുകൾ എന്നിവ മാറ്റുന്നതിന് ഇത് അനുയോജ്യമാണ്.</p>\n      <p>എല്ലാ കൺവേർഷനുകളും നിങ്ങളുടെ ബ്രൗസറിൽ പ്രാദേശികമായി നടക്കുന്നു, അതിനാൽ നിങ്ങളുടെ ഡോക്യുമെന്റുകൾ സ്വകാര്യവും സുരക്ഷിതവുമായിരിക്കും.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload DJVU File",
-        "description": "Drag and drop your .djvu or .djv file, or click to select from your device."
+        "title": "DJVU ഫയൽ അപ്‌ലോഡ് ചെയ്യുക",
+        "description": "നിങ്ങളുടെ .djvu അല്ലെങ്കിൽ .djv ഫയൽ ഡ്രാഗ് ചെയ്ത് ഡ്രോപ്പ് ചെയ്യുക, അല്ലെങ്കിൽ നിങ്ങളുടെ ഡിവൈസിൽ നിന്ന് തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
         "title": "ഓപ്ഷനുകൾ കോൺഫിഗർ ചെയ്യുക",
-        "description": "Choose output DPI (72, 150, or 300) and image quality for the PDF."
+        "description": "PDF-നായി ഔട്ട്പുട്ട് DPI (72, 150, അല്ലെങ്കിൽ 300), ഇമേജ് ക്വാളിറ്റി എന്നിവ തിരഞ്ഞെടുക്കുക."
       },
       {
         "step": 3,
-        "title": "Convert & Download",
-        "description": "Click Convert to PDF and download your converted document."
+        "title": "മാറ്റുക & ഡൗൺലോഡ് ചെയ്യുക",
+        "description": "Convert to PDF ക്ലിക്ക് ചെയ്ത് നിങ്ങളുടെ മാറ്റിയ ഡോക്യുമെന്റ് ഡൗൺലോഡ് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
         "title": "ആർക്കൈവ് ഡോക്യുമെന്റുകൾ",
-        "description": "Convert DJVU archives to universal PDF format.",
+        "description": "DJVU ആർക്കൈവുകൾ സാർവത്രികമായ PDF ഫോർമാറ്റിലേക്ക് മാറ്റുക.",
         "icon": "archive"
       },
       {
-        "title": "Share Scanned Books",
-        "description": "Share scanned books in PDF format for wider compatibility.",
+        "title": "സ്കാൻ ചെയ്ത പുസ്തകങ്ങൾ പങ്കിടുക",
+        "description": "കൂടുതൽ അനുയോജ്യതയ്ക്കായി സ്കാൻ ചെയ്ത പുസ്തകങ്ങൾ PDF ഫോർമാറ്റിൽ പങ്കിടുക.",
         "icon": "share-2"
       },
       {
-        "title": "Print Documents",
-        "description": "Convert DJVU to high-quality PDF for printing.",
+        "title": "ഡോക്യുമെന്റുകൾ പ്രിന്റ് ചെയ്യുക",
+        "description": "പ്രിന്റ് ചെയ്യുന്നതിനായി DJVU-നെ ഉയർന്ന നിലവാരമുള്ള PDF ആക്കി മാറ്റുക.",
         "icon": "printer"
       }
     ],
     "faq": [
       {
-        "question": "What is DJVU format?",
-        "answer": "DjVu is a file format designed for storing scanned documents, especially those with text, drawings, and images. It offers better compression than PDF for scanned content."
+        "question": "എന്താണ് DJVU ഫോർമാറ്റ്?",
+        "answer": "സ്കാൻ ചെയ്ത ഡോക്യുമെന്റുകൾ, പ്രത്യേകിച്ച് ടെക്സ്റ്റ്, ഡ്രോയിംഗുകൾ, ചിത്രങ്ങൾ എന്നിവ ഉള്ളവ സൂക്ഷിക്കാൻ രൂപകൽപ്പന ചെയ്തിട്ടുള്ള ഫയൽ ഫോർമാറ്റാണ് DjVu. സ്കാൻ ചെയ്ത ഉള്ളടക്കങ്ങൾക്ക് ഇത് PDF-നേക്കാൾ മികച്ച കംപ്രഷൻ നൽകുന്നു."
       },
       {
-        "question": "What DPI should I choose?",
-        "answer": "72 DPI is suitable for web viewing, 150 DPI for standard documents, and 300 DPI for high-quality printing."
+        "question": "ഞാൻ ഏത് DPI തിരഞ്ഞെടുക്കണം?",
+        "answer": "വെബ് വായനയ്ക്ക് 72 DPI-യും, സാധാരണ ഡോക്യുമെന്റുകൾക്ക് 150 DPI-യും, ഉയർന്ന നിലവാരമുള്ള പ്രിന്റിംഗിന് 300 DPI-യും അനുയോജ്യമാണ്."
       },
       {
-        "question": "Will the text be searchable?",
-        "answer": "The text will be rendered as images. If you need searchable text, consider using our OCR PDF tool after conversion."
+        "question": "ടെക്സ്റ്റ് തിരയാൻ കഴിയുമോ?",
+        "answer": "ടെക്സ്റ്റുകൾ ചിത്രങ്ങളായിട്ടായിരിക്കും റെൻഡർ ചെയ്യുന്നത്. തിരയാൻ കഴിയുന്ന ടെക്സ്റ്റ് ആവശ്യമുണ്ടെങ്കിൽ, കൺവേർഷന് ശേഷം ഞങ്ങളുടെ OCR PDF ടൂൾ ഉപയോഗിക്കുന്നത് പരിഗണിക്കുക."
       }
     ]
   },
   "fb2-to-pdf": {
     "title": "FB2 to PDF",
-    "metaDescription": "Convert FictionBook (FB2) e-books to PDF. Supports multiple files with high-quality rendering.",
+    "metaDescription": "FictionBook (FB2) ഇ-ബുക്കുകൾ PDF-ലേക്ക് മാറ്റുക. ഉയർന്ന നിലവാരമുള്ള റെൻഡറിംഗോടെ ഒന്നിലധികം ഫയലുകൾ പിന്തുണയ്ക്കുന്നു.",
     "keywords": [
       "fb2 to pdf",
       "convert fb2",
@@ -2667,354 +2667,354 @@ export const toolContentMl: Record<string, ToolContent> = {
       "fb2 converter",
       "fb2.zip to pdf"
     ],
-    "description": "\n      <p>FB2 to PDF converts FictionBook (FB2) e-book files into high-quality PDF documents. FB2 is a popular XML-based e-book format widely used in Russia and Eastern Europe.</p>\n      <p>This tool supports both .fb2 and .fb2.zip files, and can process multiple files at once. It preserves text formatting, images, and the chapter structure of your e-books.</p>\n      <p>All conversion happens locally in your browser using advanced rendering technology, ensuring your books remain private and the conversion is fast.</p>\n    ",
+    "description": "\n      <p>FB2 to PDF, FictionBook (FB2) ഇ-ബുക്ക് ഫയലുകളെ ഉയർന്ന നിലവാരമുള്ള PDF ഡോക്യുമെന്റുകളാക്കി മാറ്റുന്നു. റഷ്യയിലും ഈസ്റ്റേൺ യൂറോപ്പിലും പരക്കെ ഉപയോഗിക്കുന്ന ജനപ്രിയ XML അടിസ്ഥാനമാക്കിയുള്ള ഇ-ബുക്ക് ഫോർമാറ്റാണ് FB2.</p>\n      <p>ഈ ടൂൾ .fb2, .fb2.zip ഫയലുകളെ പിന്തുണയ്ക്കുന്നു, കൂടാതെ ഒരേസമയം ഒന്നിലധികം ഫയലുകൾ പ്രോസസ്സ് ചെയ്യാനും കഴിയും. ഇത് നിങ്ങളുടെ ഇ-ബുക്കുകളുടെ ടെക്സ്റ്റ് ഫോർമാറ്റിംഗ്, ചിത്രങ്ങൾ, അധ്യായങ്ങളുടെ ഘടന എന്നിവ അതേപടി നിലനിർത്തുന്നു.</p>\n      <p>എല്ലാ കൺവേർഷനുകളും അഡ്വാൻസ്ഡ് റെൻഡറിംഗ് സാങ്കേതികവിദ്യ ഉപയോഗിച്ച് നിങ്ങളുടെ ബ്രൗസറിൽ പ്രാദേശികമായി നടക്കുന്നു, ഇത് നിങ്ങളുടെ പുസ്തകങ്ങൾ സ്വകാര്യമായിരിക്കാനും വേഗത്തിൽ കൺവേർഷൻ നടക്കാനും ഉറപ്പാക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload FB2 Files",
-        "description": "Drag and drop one or more .fb2 or .fb2.zip files, or click to select from your device."
+        "title": "FB2 ഫയലുകൾ അപ്‌ലോഡ് ചെയ്യുക",
+        "description": "ഒന്നോ അതിലധികമോ .fb2 അല്ലെങ്കിൽ .fb2.zip ഫയലുകൾ ഡ്രാഗ് ചെയ്ത് ഡ്രോപ്പ് ചെയ്യുക, അല്ലെങ്കിൽ നിങ്ങളുടെ ഡിവൈസിൽ നിന്ന് തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Select Quality",
-        "description": "Choose output quality: Low (72 DPI), Medium (150 DPI), or High (300 DPI)."
+        "title": "ക്വാളിറ്റി തിരഞ്ഞെടുക്കുക",
+        "description": "ഔട്ട്പുട്ട് ക്വാളിറ്റി തിരഞ്ഞെടുക്കുക: Low (72 DPI), Medium (150 DPI), അല്ലെങ്കിൽ High (300 DPI)."
       },
       {
         "step": 3,
-        "title": "Convert & Download",
-        "description": "Click Convert to PDF and download your converted document(s)."
+        "title": "മാറ്റുക & ഡൗൺലോഡ് ചെയ്യുക",
+        "description": "Convert to PDF ക്ലിക്ക് ചെയ്ത് നിങ്ങളുടെ മാറ്റിയ ഡോക്യുമെന്റ്(കൾ) ഡൗൺലോഡ് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
         "title": "ഇ-ബുക്കുകൾ പ്രിന്റ് ചെയ്യുക",
-        "description": "Convert FB2 e-books to PDF for physical printing.",
+        "description": "പേപ്പറിൽ പ്രിന്റ് ചെയ്യുന്നതിനായി FB2 ഇ-ബുക്കുകൾ PDF-ലേക്ക് മാറ്റുക.",
         "icon": "printer"
       },
       {
-        "title": "Batch Conversion",
-        "description": "Convert multiple FB2 files to PDF at once.",
+        "title": "ബാച്ച് കൺവേർഷൻ",
+        "description": "ഒന്നിലധികം FB2 ഫയലുകൾ ഒരേസമയം PDF-ലേക്ക് മാറ്റുക.",
         "icon": "layers"
       },
       {
-        "title": "Universal Format",
-        "description": "Share e-books in PDF format that works on any device.",
+        "title": "സാർവത്രിക ഫോർമാറ്റ്",
+        "description": "ഏത് ഡിവൈസിലും പ്രവർത്തിക്കുന്ന PDF ഫോർമാറ്റിൽ ഇ-ബുക്കുകൾ പങ്കിടുക.",
         "icon": "share-2"
       }
     ],
     "faq": [
       {
-        "question": "Can I convert multiple FB2 files at once?",
-        "answer": "Yes! This tool supports batch conversion of up to 20 FB2 files simultaneously."
+        "question": "എനിക്ക് ഒരേസമയം ഒന്നിലധികം FB2 ഫയലുകൾ മാറ്റാൻ കഴിയുമോ?",
+        "answer": "അതെ! ഈ ടൂൾ ഒരേസമയം 20 FB2 ഫയലുകൾ വരെ ബാച്ച് കൺവേർഷൻ ചെയ്യുന്നത് പിന്തുണയ്ക്കുന്നു."
       },
       {
-        "question": "Are .fb2.zip files supported?",
-        "answer": "Yes, the tool automatically extracts and converts FB2 files from .fb2.zip archives."
+        "question": ".fb2.zip ഫയലുകൾ പിന്തുണയ്ക്കുമോ?",
+        "answer": "അതെ, ഈ ടൂൾ .fb2.zip ആർക്കൈവുകളിൽ നിന്ന് FB2 ഫയലുകൾ സ്വയമേവ എക്‌സ്‌ട്രാക്‌റ്റ് ചെയ്യുകയും പരിവർത്തനം ചെയ്യുകയും ചെയ്യുന്നു."
       },
       {
         "question": "ഫോർമാറ്റിംഗ് നിലനിർത്തുന്നുണ്ടോ?",
-        "answer": "Yes! The tool uses native FB2 rendering, preserving text formatting, images, and chapter structure with high fidelity."
+        "answer": "അതെ! ടെക്സ്റ്റ് ഫോർമാറ്റിംഗ്, ചിത്രങ്ങൾ, ചാപ്റ്റർ ഘടന എന്നിവ കൃത്യതയോടെ നിലനിർത്തിക്കൊണ്ട് ഈ ടൂൾ ഒറിജിനൽ FB2 റെൻഡറിംഗ് ഉപയോഗിക്കുന്നു."
       }
     ]
   },
   "pdf-to-jpg": {
-    "title": "PDF to JPG",
-    "metaDescription": "Convert PDF pages to JPG images. High-quality extraction with customizable resolution.",
+    "title": "PDF-ൽ നിന്ന് JPG-ലേക്ക്",
+    "metaDescription": "PDF പേജുകൾ JPG ചിത്രങ്ങളാക്കി മാറ്റുക. അനുയോജ്യമായ റെസല്യൂഷനോടെ ഉയർന്ന നിലവാരമുള്ള എക്‌സ്‌ട്രാക്ഷൻ.",
     "keywords": [
       "pdf to jpg",
       "pdf to jpeg",
       "convert pdf to image",
       "extract pdf images"
     ],
-    "description": "\n      <p>PDF to JPG converts PDF document pages into high-quality JPG images. Extract all pages or select specific pages to convert, with customizable resolution and quality settings.</p>\n      <p>Perfect for extracting images from PDFs, creating thumbnails, or converting documents for web use.</p>\n      <p>All conversion happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>PDF to JPG എന്നത് PDF ഡോക്യുമെന്റ് പേജുകളെ ഉയർന്ന നിലവാരമുള്ള JPG ചിത്രങ്ങളാക്കി മാറ്റുന്നു. മാറ്റേണ്ട പേജുകൾ മുഴുവനായോ അല്ലെങ്കിൽ ചില പ്രത്യേക പേജുകൾ മാത്രമായോ തിരഞ്ഞെടുക്കാം, കൂടെ ആവശ്യമുള്ള റെസല്യൂഷനും ക്വാളിറ്റിയും ക്രമീകരിക്കാം.</p><p>PDF-ൽ നിന്ന് ചിത്രങ്ങൾ എക്‌സ്‌ട്രാക്‌റ്റ് ചെയ്യുന്നതിനും തംബ്‌നെയിലുകൾ സൃഷ്‌ടിക്കുന്നതിനും അല്ലെങ്കിൽ വെബ് ആവശ്യങ്ങൾക്കായി ഡോക്യുമെന്റുകൾ മാറ്റുന്നതിനും ഇത് വളരെ അനുയോജ്യമാണ്.</p><p>എല്ലാ പരിവർത്തനങ്ങളും നിങ്ങളുടെ ബ്രൗസറിൽ തന്നെയാണ് നടക്കുന്നത്, അതിനാൽ നിങ്ങളുടെ ഡോക്യുമെന്റുകൾ സുരക്ഷിതമായിരിക്കും.</p>",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "നിങ്ങളുടെ PDF ഫയൽ ഡ്രാഗ് ആൻഡ് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Select Pages and Quality",
-        "description": "Choose which pages to convert and set quality/DPI options."
+        "title": "പേജുകളും ക്വാളിറ്റിയും തിരഞ്ഞെടുക്കുക",
+        "description": "പരിവർത്തനം ചെയ്യേണ്ട പേജുകൾ തിരഞ്ഞെടുത്ത് ക്വാളിറ്റി/DPI ഓപ്ഷനുകൾ ക്രമീകരിക്കുക."
       },
       {
         "step": 3,
         "title": "മാറ്റുക, ഡൗൺലോഡ് ചെയ്യുക",
-        "description": "Click Convert to extract images and download as ZIP."
+        "description": "ചിത്രങ്ങൾ എക്‌സ്‌ട്രാക്റ്റ് ചെയ്യാനും ZIP ആയി ഡൗൺലോഡ് ചെയ്യാനും Convert ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
         "title": "വെബ് പബ്ലിഷിംഗ്",
-        "description": "Convert PDF pages to images for website use.",
+        "description": "വെബ്‌സൈറ്റ് ആവശ്യങ്ങൾക്കായി PDF പേജുകൾ ചിത്രങ്ങളാക്കി മാറ്റുക.",
         "icon": "globe"
       },
       {
-        "title": "Social Media",
-        "description": "Extract pages as images for social media sharing.",
+        "title": "സോഷ്യൽ മീഡിയ",
+        "description": "സോഷ്യൽ മീഡിയയിൽ പങ്കിടുന്നതിനായി പേജുകൾ ചിത്രങ്ങളായി എക്‌സ്‌ട്രാക്‌റ്റ് ചെയ്യുക.",
         "icon": "share-2"
       },
       {
-        "title": "Presentations",
-        "description": "Convert PDF slides to images for presentations.",
+        "title": "പ്രെസന്റേഷനുകൾ",
+        "description": "പ്രെസന്റേഷനുകൾക്കായി PDF സ്ലൈഡുകൾ ചിത്രങ്ങളാക്കി മാറ്റുക.",
         "icon": "presentation"
       }
     ],
     "faq": [
       {
-        "question": "What quality settings are available?",
-        "answer": "You can set DPI from 72 to 300 and JPEG quality from 1-100."
+        "question": "ഏതൊക്കെ ക്വാളിറ്റി സെറ്റിംഗ്സുകളാണ് ലഭ്യമായിട്ടുള്ളത്?",
+        "answer": "നിങ്ങൾക്ക് DPI 72 മുതൽ 300 വരെയും JPEG ക്വാളിറ്റി 1-100 വരെയും ക്രമീകരിക്കാം."
       },
       {
-        "question": "Can I convert specific pages only?",
-        "answer": "Yes, you can select individual pages or page ranges to convert."
+        "question": "പ്രത്യേക പേജുകൾ മാത്രം എനിക്ക് മാറ്റാൻ സാധിക്കുമോ?",
+        "answer": "അതെ, നിങ്ങൾക്ക് ഓരോ പേജുകളോ പ്രത്യേക പേജ് റേഞ്ചുകളോ തിരഞ്ഞെടുത്ത് മാറ്റാം."
       },
       {
-        "question": "How are multiple pages handled?",
-        "answer": "Each page becomes a separate JPG file, downloaded as a ZIP archive."
+        "question": "ഒന്നിലധികം പേജുകൾ എങ്ങനെയാണ് കൈകാര്യം ചെയ്യുന്നത്?",
+        "answer": "ഓരോ പേജും വെവ്വേറെ JPG ഫയലായി മാറും, അവ ഒരു ZIP ആർക്കൈവായി ഡൗൺലോഡ് ചെയ്യാം."
       }
     ]
   },
   "pdf-to-png": {
-    "title": "PDF to PNG",
-    "metaDescription": "Convert PDF pages to PNG images. Lossless quality with transparency support.",
+    "title": "PDF-ൽ നിന്ന് PNG-ലേക്ക്",
+    "metaDescription": "PDF പേജുകൾ PNG ചിത്രങ്ങളാക്കി മാറ്റുക. ട്രാൻസ്പരൻസി സപ്പോർട്ടോട് കൂടിയ ലോസ്ലെസ് ക്വാളിറ്റി.",
     "keywords": [
       "pdf to png",
       "convert pdf to png",
       "pdf image extraction",
       "lossless pdf conversion"
     ],
-    "description": "\n      <p>PDF to PNG converts PDF document pages into high-quality PNG images with lossless compression. PNG format preserves image quality perfectly and supports transparency.</p>\n      <p>Ideal for extracting graphics, diagrams, or any content where quality preservation is critical.</p>\n      <p>All conversion happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>PDF to PNG എന്നത് PDF ഡോക്യുമെന്റ് പേജുകളെ ലോസ്ലെസ് കംപ്രഷനോടെ ഉയർന്ന നിലവാരമുള്ള PNG ചിത്രങ്ങളാക്കി മാറ്റുന്നു. PNG ഫോർമാറ്റ് ചിത്രങ്ങളുടെ ക്വാളിറ്റി പൂർണ്ണമായും നിലനിർത്തുകയും ട്രാൻസ്പരൻസി സപ്പോർട്ട് ചെയ്യുകയും ചെയ്യുന്നു.</p><p>ഗ്രാഫിക്സുകൾ, ഡയഗ്രമുകൾ, അല്ലെങ്കിൽ ക്വാളിറ്റി നിലനിർത്തേണ്ട മറ്റ് വിവരങ്ങൾ എന്നിവ എക്സ്ട്രാക്റ്റ് ചെയ്യാൻ ഇത് അനുയോജ്യമാണ്.</p><p>എല്ലാ പരിവർത്തനങ്ങളും നിങ്ങളുടെ ബ്രൗസറിൽ തന്നെയാണ് നടക്കുന്നത്, അതിനാൽ നിങ്ങളുടെ ഡോക്യുമെന്റുകൾ സുരക്ഷിതമായിരിക്കും.</p>",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "നിങ്ങളുടെ PDF ഫയൽ ഡ്രാഗ് ആൻഡ് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
         "title": "ഓപ്ഷനുകൾ കോൺഫിഗർ ചെയ്യുക",
-        "description": "Select pages and set resolution (DPI) options."
+        "description": "പേജുകൾ തിരഞ്ഞെടുത്ത് റെസല്യൂഷൻ (DPI) ഓപ്ഷനുകൾ ക്രമീകരിക്കുക."
       },
       {
         "step": 3,
         "title": "മാറ്റുക, ഡൗൺലോഡ് ചെയ്യുക",
-        "description": "Click Convert to extract PNG images."
+        "description": "PNG ചിത്രങ്ങൾ എക്സ്ട്രാക്റ്റ് ചെയ്യാൻ Convert ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Graphics Extraction",
-        "description": "Extract diagrams and graphics with perfect quality.",
+        "title": "ഗ്രാഫിക്സ് എക്സ്ട്രാക്ഷൻ",
+        "description": "ഡയഗ്രമുകളും ഗ്രാഫിക്സുകളും മികച്ച ക്വാളിറ്റിയോടെ എക്സ്ട്രാക്റ്റ് ചെയ്യുക.",
         "icon": "image"
       },
       {
-        "title": "Design Assets",
-        "description": "Convert PDF designs to PNG for editing software.",
+        "title": "ഡിസൈൻ അസറ്റുകൾ",
+        "description": "എഡിറ്റിംഗ് സോഫ്റ്റ്‌വെയറുകൾക്കായി PDF ഡിസൈനുകൾ PNG ആക്കി മാറ്റുക.",
         "icon": "palette"
       },
       {
-        "title": "Documentation",
-        "description": "Create high-quality images for technical documentation.",
+        "title": "ഡോക്യുമെന്റേഷൻ",
+        "description": "സാങ്കേതിക ഡോക്യുമെന്റേഷനുകൾക്കായി ഉയർന്ന നിലവാരമുള്ള ചിത്രങ്ങൾ നിർമ്മിക്കുക.",
         "icon": "file-text"
       }
     ],
     "faq": [
       {
-        "question": "Why choose PNG over JPG?",
-        "answer": "PNG offers lossless compression and transparency support, ideal for graphics and text."
+        "question": "JPG-ന് പകരം എന്തുകൊണ്ട് PNG തിരഞ്ഞെടുക്കണം?",
+        "answer": "PNG ലോസ്ലെസ് കംപ്രഷനും ട്രാൻസ്പരൻസി സപ്പോർട്ടും നൽകുന്നു, ഇത് ഗ്രാഫിക്സുകൾക്കും ടെക്സ്റ്റുകൾക്കും വളരെ അനുയോജ്യമാണ്."
       },
       {
-        "question": "Are transparent backgrounds supported?",
-        "answer": "Yes, PDF pages with transparency are preserved in PNG output."
+        "question": "ട്രാൻസ്പരന്റ് ബാക്ക്ഗ്രൗണ്ടുകൾ സപ്പോർട്ട് ചെയ്യുന്നുണ്ടോ?",
+        "answer": "അതെ, ട്രാൻസ്പരൻസിയുള്ള PDF പേജുകൾ PNG ഔട്ട്പുട്ടിലും അതേപടി നിലനിൽക്കും."
       },
       {
-        "question": "What DPI should I use?",
-        "answer": "Use 150 DPI for screen viewing, 300 DPI for printing."
+        "question": "ഞാൻ ഏത് DPI ആണ് ഉപയോഗിക്കേണ്ടത്?",
+        "answer": "സ്‌ക്രീനിൽ കാണുന്നതിന് 150 DPI-യും പ്രിന്റ് ചെയ്യുന്നതിന് 300 DPI-യും ഉപയോഗിക്കുക."
       }
     ]
   },
   "pdf-to-webp": {
-    "title": "PDF to WebP",
-    "metaDescription": "Convert PDF pages to WebP images. Modern format with excellent compression.",
+    "title": "PDF-ൽ നിന്ന് WebP-ലേക്ക്",
+    "metaDescription": "PDF പേജുകൾ WebP ചിത്രങ്ങളാക്കി മാറ്റുക. മികച്ച കംപ്രഷനുള്ള ആധുനിക ഫോർമാറ്റ്.",
     "keywords": [
       "pdf to webp",
       "convert pdf to webp",
       "modern image format",
       "web optimized images"
     ],
-    "description": "\n      <p>PDF to WebP converts PDF document pages into WebP images, Google's modern image format that offers excellent compression with high quality.</p>\n      <p>WebP images are smaller than JPG or PNG while maintaining comparable quality, making them ideal for web use.</p>\n      <p>All conversion happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>PDF to WebP എന്നത് PDF ഡോക്യുമെന്റ് പേജുകളെ Google-ന്റെ ആധുനിക ഇമേജ് ഫോർമാറ്റായ WebP ചിത്രങ്ങളാക്കി മാറ്റുന്നു. ഇത് ഉയർന്ന ക്വാളിറ്റിയോടൊപ്പം മികച്ച കംപ്രഷനും നൽകുന്നു.</p><p>WebP ചിത്രങ്ങൾ JPG അല്ലെങ്കിൽ PNG എന്നിവയേക്കാൾ വലിപ്പം കുറഞ്ഞതും എന്നാൽ ഉയർന്ന ക്വാളിറ്റി നിലനിർത്തുന്നതുമാണ്, ഇത് വെബ് ഉപയോഗത്തിന് വളരെ അനുയോജ്യമാണ്.</p><p>എല്ലാ പരിവർത്തനങ്ങളും നിങ്ങളുടെ ബ്രൗസറിൽ തന്നെയാണ് നടക്കുന്നത്, അതിനാൽ നിങ്ങളുടെ ഡോക്യുമെന്റുകൾ സുരക്ഷിതമായിരിക്കും.</p>",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "നിങ്ങളുടെ PDF ഫയൽ ഡ്രാഗ് ആൻഡ് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Set Quality Options",
-        "description": "Choose pages and set quality/compression settings."
+        "title": "ക്വാളിറ്റി ഓപ്ഷനുകൾ ക്രമീകരിക്കുക",
+        "description": "പേജുകൾ തിരഞ്ഞെടുത്ത് ക്വാളിറ്റി/കംപ്രഷൻ സെറ്റിംഗ്സുകൾ ക്രമീകരിക്കുക."
       },
       {
         "step": 3,
         "title": "മാറ്റുക, ഡൗൺലോഡ് ചെയ്യുക",
-        "description": "Click Convert to create WebP images."
+        "description": "WebP ചിത്രങ്ങൾ നിർമ്മിക്കാൻ Convert ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Web Optimization",
-        "description": "Create web-optimized images from PDF content.",
+        "title": "വെബ് ഒപ്റ്റിമൈസേഷൻ",
+        "description": "PDF ഉള്ളടക്കത്തിൽ നിന്ന് വെബ്-ഓപ്റ്റിമൈസ് ചെയ്ത ചിത്രങ്ങൾ നിർമ്മിക്കുക.",
         "icon": "globe"
       },
       {
-        "title": "Bandwidth Savings",
-        "description": "Reduce image file sizes for faster loading.",
+        "title": "ബാൻഡ്‌വിഡ്ത്ത് ലാഭം",
+        "description": "വേഗത്തിൽ ലോഡ് ചെയ്യുന്നതിനായി ചിത്രങ്ങളുടെ ഫയൽ സൈസ് കുറയ്ക്കുക.",
         "icon": "zap"
       },
       {
-        "title": "Modern Websites",
-        "description": "Use modern image formats for contemporary web projects.",
+        "title": "ആധുനിക വെബ്‌സൈറ്റുകൾ",
+        "description": "ആധുനിക വെബ് പ്രോജക്റ്റുകൾക്കായി ആധുനിക ഇമേജ് ഫോർമാറ്റുകൾ ഉപയോഗിക്കുക.",
         "icon": "layout"
       }
     ],
     "faq": [
       {
         "question": "എന്താണ് WebP ഫോർമാറ്റ്?",
-        "answer": "WebP is a modern image format by Google offering superior compression."
+        "answer": "മികച്ച കംപ്രഷൻ നൽകുന്ന Google-ന്റെ ഒരു ആധുനിക ഇമേജ് ഫോർമാറ്റാണ് WebP."
       },
       {
-        "question": "Is WebP widely supported?",
-        "answer": "Yes, all modern browsers support WebP format."
+        "question": "WebP വ്യാപകമായി പിന്തുണയ്ക്കുന്നുണ്ടോ?",
+        "answer": "അതെ, എല്ലാ ആധുനിക ബ്രൗസറുകളും WebP ഫോർമാറ്റിനെ പിന്തുണയ്ക്കുന്നു."
       },
       {
-        "question": "How much smaller are WebP files?",
-        "answer": "WebP files are typically 25-35% smaller than equivalent JPG files."
+        "question": "WebP ഫയലുകൾ എത്രത്തോളം ചെറുതാണ്?",
+        "answer": "WebP ഫയലുകൾ സാധാരണയായി സമാനമായ JPG ഫയലുകളേക്കാൾ 25-35% ചെറുതാണ്."
       }
     ]
   },
   "pdf-to-bmp": {
-    "title": "PDF to BMP",
-    "metaDescription": "Convert PDF pages to BMP bitmap images. Uncompressed format for maximum compatibility.",
+    "title": "PDF ലേക്ക് BMP",
+    "metaDescription": "PDF പേജുകൾ BMP ബിറ്റ്‌മാപ്പ് ചിത്രങ്ങളാക്കി മാറ്റുക. പരമാവധി അനുയോജ്യതയ്ക്കായി അൺകംപ്രസ്സ് ചെയ്ത ഫോർമാറ്റ്.",
     "keywords": [
       "pdf to bmp",
       "convert pdf to bitmap",
       "uncompressed images",
       "legacy format"
     ],
-    "description": "\n      <p>PDF to BMP converts PDF document pages into BMP bitmap images. BMP is an uncompressed format that ensures maximum compatibility with legacy systems and applications.</p>\n      <p>While BMP files are larger than compressed formats, they offer perfect quality and universal compatibility.</p>\n      <p>All conversion happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>PDF to BMP എന്നത് PDF ഡോക്യുമെന്റ് പേജുകളെ BMP ബിറ്റ്‌മാപ്പ് ചിത്രങ്ങളാക്കി മാറ്റുന്നു. പഴയ സിസ്റ്റങ്ങളുമായും ആപ്ലിക്കേഷനുകളുമായും പരമാവധി അനുയോജ്യത ഉറപ്പാക്കുന്ന അൺകംപ്രസ്സ് ചെയ്ത ഫോർമാറ്റാണ് BMP.</p><p>BMP ഫയലുകൾ കംപ്രസ് ചെയ്ത ഫോർമാറ്റുകളേക്കാൾ വലുതാണെങ്കിലും, അവ മികച്ച ഗുണനിലവാരവും സാർവത്രിക അനുയോജ്യതയും നൽകുന്നു.</p><p>എല്ലാ പരിവർത്തനങ്ങളും നിങ്ങളുടെ ബ്രൗസറിൽ തന്നെയാണ് നടക്കുന്നത്, ഇത് നിങ്ങളുടെ ഡോക്യുമെന്റുകൾ സ്വകാര്യമായി തുടരുന്നുവെന്ന് ഉറപ്പാക്കുന്നു.</p>",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "നിങ്ങളുടെ PDF ഫയൽ ഡ്രാഗ് ആൻഡ് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
         "title": "പേജുകൾ തിരഞ്ഞെടുക്കുക",
-        "description": "Choose which pages to convert and set DPI."
+        "description": "പരിവർത്തനം ചെയ്യേണ്ട പേജുകൾ തിരഞ്ഞെടുത്ത് DPI സജ്ജമാക്കുക."
       },
       {
         "step": 3,
         "title": "മാറ്റുക, ഡൗൺലോഡ് ചെയ്യുക",
-        "description": "Click Convert to create BMP images."
+        "description": "BMP ചിത്രങ്ങൾ നിർമ്മിക്കാൻ Convert ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Legacy Systems",
-        "description": "Create images compatible with older software.",
+        "title": "പഴയ സിസ്റ്റങ്ങൾ",
+        "description": "പഴയ സോഫ്റ്റ്‌വെയറുകൾക്ക് അനുയോജ്യമായ ചിത്രങ്ങൾ നിർമ്മിക്കുക.",
         "icon": "history"
       },
       {
-        "title": "Windows Applications",
-        "description": "Generate BMP files for Windows-specific applications.",
+        "title": "Windows ആപ്ലിക്കേഷനുകൾ",
+        "description": "Windows ആപ്ലിക്കേഷനുകൾക്കായി BMP ഫയലുകൾ നിർമ്മിക്കുക.",
         "icon": "monitor"
       },
       {
-        "title": "Uncompressed Archives",
-        "description": "Create uncompressed image archives from PDFs.",
+        "title": "അൺകംപ്രസ്സ് ചെയ്ത ആർക്കൈവുകൾ",
+        "description": "PDF-കളിൽ നിന്ന് അൺകംപ്രസ്സ് ചെയ്ത ഇമേജ് ആർക്കൈവുകൾ നിർമ്മിക്കുക.",
         "icon": "archive"
       }
     ],
     "faq": [
       {
-        "question": "Why use BMP format?",
-        "answer": "BMP offers uncompressed quality and maximum compatibility with legacy systems."
+        "question": "എന്തുകൊണ്ട് BMP ഫോർമാറ്റ് ഉപയോഗിക്കണം?",
+        "answer": "BMP അൺകംപ്രസ്സ് ചെയ്ത ഗുണനിലവാരവും പഴയ സിസ്റ്റങ്ങളുമായി പരമാവധി അനുയോജ്യതയും നൽകുന്നു."
       },
       {
-        "question": "Are BMP files larger?",
-        "answer": "Yes, BMP files are uncompressed and significantly larger than JPG or PNG."
+        "question": "BMP ഫയലുകൾ വലുതാണോ?",
+        "answer": "അതെ, BMP ഫയലുകൾ അൺകംപ്രസ്സ് ചെയ്തവയാണ്, കൂടാതെ JPG അല്ലെങ്കിൽ PNG ഫയലുകളേക്കാൾ വളരെ വലുതാണ്."
       },
       {
-        "question": "What color depths are supported?",
-        "answer": "24-bit and 32-bit color depths are supported."
+        "question": "ഏതൊക്കെ കളർ ഡെപ്തുകളാണ് പിന്തുണയ്ക്കുന്നത്?",
+        "answer": "24-bit, 32-bit കളർ ഡെപ്തുകൾ പിന്തുണയ്ക്കുന്നു."
       }
     ]
   },
   "pdf-to-tiff": {
-    "title": "PDF to TIFF",
-    "metaDescription": "Convert PDF to TIFF images. Professional quality with multi-page support.",
+    "title": "PDF ലേക്ക് TIFF",
+    "metaDescription": "PDF-നെ TIFF ചിത്രങ്ങളാക്കി മാറ്റുക. മൾട്ടി-പേജ് പിന്തുണയുള്ള പ്രൊഫഷണൽ ഗുണനിലവാരം.",
     "keywords": [
       "pdf to tiff",
       "convert pdf to tiff",
       "professional images",
       "multi-page tiff"
     ],
-    "description": "\n      <p>PDF to TIFF converts PDF documents into high-quality TIFF images. TIFF is the preferred format for professional printing and archiving due to its lossless compression.</p>\n      <p>Create single-page TIFFs or combine all pages into a multi-page TIFF file. Perfect for professional and archival purposes.</p>\n      <p>All conversion happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>PDF to TIFF എന്നത് PDF ഡോക്യുമെന്റുകളെ ഉയർന്ന ഗുണനിലവാരമുള്ള TIFF ചിത്രങ്ങളാക്കി മാറ്റുന്നു. ലോസ്‌ലെസ് (lossless) കംപ്രഷൻ ഉള്ളതിനാൽ പ്രൊഫഷണൽ പ്രിന്റിംഗിനും ആർക്കൈവിംഗിനും മുൻഗണന നൽകുന്ന ഫോർമാറ്റാണ് TIFF.</p><p>സിംഗിൾ-പേജ് TIFF-കൾ നിർമ്മിക്കുക അല്ലെങ്കിൽ എല്ലാ പേജുകളും ഒരു മൾട്ടി-പേജ് TIFF ഫയലിലേക്ക് സംയോജിപ്പിക്കുക. പ്രൊഫഷണൽ, ആർക്കൈവൽ ആവശ്യങ്ങൾക്ക് അനുയോജ്യമാണ്.</p><p>എല്ലാ പരിവർത്തനങ്ങളും നിങ്ങളുടെ ബ്രൗസറിൽ തന്നെയാണ് നടക്കുന്നത്, ഇത് നിങ്ങളുടെ ഡോക്യുമെന്റുകൾ സ്വകാര്യമായി തുടരുന്നുവെന്ന് ഉറപ്പാക്കുന്നു.</p>",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "നിങ്ങളുടെ PDF ഫയൽ ഡ്രാഗ് ആൻഡ് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Configure Output",
-        "description": "Choose single or multi-page TIFF and set DPI."
+        "title": "ഔട്ട്‌പുട്ട് കോൺഫിഗർ ചെയ്യുക",
+        "description": "സിംഗിൾ അല്ലെങ്കിൽ മൾട്ടി-പേജ് TIFF തിരഞ്ഞെടുത്ത് DPI സജ്ജമാക്കുക."
       },
       {
         "step": 3,
         "title": "മാറ്റുക, ഡൗൺലോഡ് ചെയ്യുക",
-        "description": "Click Convert to create TIFF images."
+        "description": "TIFF ചിത്രങ്ങൾ നിർമ്മിക്കാൻ Convert ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Professional Printing",
-        "description": "Create print-ready TIFF files from PDF documents.",
+        "title": "പ്രൊഫഷണൽ പ്രിന്റിംഗ്",
+        "description": "PDF ഡോക്യുമെന്റുകളിൽ നിന്ന് പ്രിന്റ് ചെയ്യാൻ സജ്ജമായ TIFF ഫയലുകൾ നിർമ്മിക്കുക.",
         "icon": "printer"
       },
       {
-        "title": "Document Archiving",
-        "description": "Archive documents in high-quality TIFF format.",
+        "title": "ഡോക്യുമെന്റ് ആർക്കൈവിംഗ്",
+        "description": "ഉയർന്ന ഗുണനിലവാരമുള്ള TIFF ഫോർമാറ്റിൽ ഡോക്യുമെന്റുകൾ ആർക്കൈവ് ചെയ്യുക.",
         "icon": "archive"
       },
       {
-        "title": "Publishing",
-        "description": "Convert PDFs to TIFF for publishing workflows.",
+        "title": "പബ്ലിഷിംഗ്",
+        "description": "പബ്ലിഷിംഗ് വർക്ക്ഫ്ലോകൾക്കായി PDF-കളെ TIFF ആക്കി മാറ്റുക.",
         "icon": "book"
       }
     ],
     "faq": [
       {
-        "question": "Can I create multi-page TIFFs?",
-        "answer": "Yes, you can combine all PDF pages into a single multi-page TIFF."
+        "question": "എനിക്ക് മൾട്ടി-പേജ് TIFF-കൾ നിർമ്മിക്കാൻ കഴിയുമോ?",
+        "answer": "അതെ, നിങ്ങൾക്ക് എല്ലാ PDF പേജുകളും ഒരു മൾട്ടി-പേജ് TIFF ഫയലിലേക്ക് സംയോജിപ്പിക്കാം."
       },
       {
-        "question": "What compression options are available?",
-        "answer": "LZW, ZIP, and no compression options are available."
+        "question": "ഏതൊക്കെ കംപ്രഷൻ ഓപ്ഷനുകളാണ് ലഭ്യമായിട്ടുള്ളത്?",
+        "answer": "LZW, ZIP, കൂടാതെ കംപ്രഷൻ ഇല്ലാത്ത ഓപ്ഷനുകൾ ലഭ്യമാണ്."
       },
       {
-        "question": "What DPI should I use for printing?",
-        "answer": "Use 300 DPI or higher for professional printing."
+        "question": "പ്രിന്റിംഗിനായി ഞാൻ ഏത് DPI ആണ് ഉപയോഗിക്കേണ്ടത്?",
+        "answer": "പ്രൊഫഷണൽ പ്രിന്റിംഗിനായി 300 DPI അല്ലെങ്കിൽ അതിൽ കൂടുതലോ ഉപയോഗിക്കുക."
       }
     ]
   },
   "pdf-to-cbz": {
-    "title": "PDF to CBZ",
-    "metaDescription": "Convert PDF documents to high-definition Comic Book ZIP archives (.cbz). Built-in Calibre OPF, ComicInfo XML, and ZIP Comment metadata for perfect multi-reader cataloging.",
+    "title": "PDF ലേക്ക് CBZ",
+    "metaDescription": "PDF ഡോക്യുമെന്റുകളെ ഹൈ-ഡെഫിനിഷൻ കോമിക് ബുക്ക് ZIP ആർക്കൈവുകളാക്കി (.cbz) മാറ്റുക. മികച്ച മൾട്ടി-റീഡർ കാറ്റലോഗിംഗിനായി ഇൻബിൽറ്റ് Calibre OPF, ComicInfo XML, ZIP കോമന്റ് മെറ്റാഡാറ്റ എന്നിവ അടങ്ങിയിരിക്കുന്നു.",
     "keywords": [
       "pdf to cbz",
       "pdf to comic",
@@ -3022,59 +3022,59 @@ export const toolContentMl: Record<string, ToolContent> = {
       "calibre comic archive",
       "comicinfo metadata"
     ],
-    "description": "\n      <p>PDF to CBZ is custom-engineered for comic enthusiasts and digital ebook archivists. It renders every page of your PDF volumes into high-fidelity rasterized graphics and compiles them into a standard Comic Book ZIP (.cbz) bundle.</p>\n      <p>To eliminate frustrating manual scraping in systems like Calibre, Komga, Kavita, or CDisplayEx, the processor automatically generates and injects both <strong>ComicInfo.xml</strong> and <strong>metadata.opf</strong> files internally, while simultaneously writing a standardized <strong>ComicBookInfo JSON</strong> payload directly into the ZIP file comment metadata.</p>\n      <p>Includes complete configuration sliders for image compression quality, page dimension scale, right-to-left layout reading toggles (Manga mode), and black-and-white grayscale color filtering.</p>\n    ",
+    "description": "<p>PDF to CBZ കോമിക് പ്രേമികൾക്കും ഡിജിറ്റൽ ഇബുക്ക് ആർക്കൈവിസ്റ്റുകൾക്കുമായി പ്രത്യേകം രൂപകൽപ്പന ചെയ്തതാണ്. ഇത് നിങ്ങളുടെ PDF വോള്യങ്ങളുടെ ഓരോ പേജും ഉയർന്ന നിലവാരമുള്ള റാസ്റ്ററൈസ്ഡ് ഗ്രാഫിക്സാക്കി മാറ്റി ഒരു സ്റ്റാൻഡേർഡ് Comic Book ZIP (.cbz) ബണ്ടിലിലേക്ക് സമാഹരിക്കുന്നു.</p><p>Calibre, Komga, Kavita, അല്ലെങ്കിൽ CDisplayEx പോലുള്ള സിസ്റ്റങ്ങളിലെ മാനുവൽ സ്ക്രാപ്പിംഗ് ഒഴിവാക്കാൻ, പ്രോസസ്സർ സ്വയമേവ <strong>ComicInfo.xml</strong>, <strong>metadata.opf</strong> ഫയലുകൾ ജനറേറ്റ് ചെയ്യുകയും ഇൻജക്റ്റ് ചെയ്യുകയും ചെയ്യുന്നു, ഒപ്പം standardized <strong>ComicBookInfo JSON</strong> പേലോഡ് നേരിട്ട് ZIP ഫയൽ കോമന്റ് മെറ്റാഡാറ്റയിലേക്ക് എഴുതുകയും ചെയ്യുന്നു.</p><p>ഇമേജ് കംപ്രഷൻ ക്വാളിറ്റി, പേജ് ഡൈമൻഷൻ സ്കെയിൽ, വലത്തുനിന്ന് ഇടത്തോട്ടുള്ള ലേഔട്ട് റീഡിംഗ് ടോഗിളുകൾ (Manga മോഡ്), ബ്ലാക്ക് ആന്റ് വൈറ്റ് ഗ്രേസ്കെയിൽ കളർ ഫിൽട്ടറിംഗ് എന്നിവയ്ക്കുള്ള പൂർണ്ണമായ കോൺഫിഗറേഷൻ സ്ലൈഡറുകൾ ഇതിൽ ഉൾപ്പെടുന്നു.</p>",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Comic PDF",
-        "description": "Drag and drop your primary comic, artbook, or manga PDF file."
+        "title": "കോമിക് PDF അപ്‌ലോഡ് ചെയ്യുക",
+        "description": "നിങ്ങളുടെ പ്രധാന കോമിക്, ആർട്ട്ബുക്ക്, അല്ലെങ്കിൽ Manga PDF ഫയൽ ഡ്രാഗ് ചെയ്ത് ഡ്രോപ്പ് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Input Comic Metadata",
-        "description": "Fill out Series, Volume, Title, Writer, and Publisher fields, and toggle layout or grayscale optimization."
+        "title": "കോമിക് മെറ്റാഡാറ്റ നൽകുക",
+        "description": "Series, Volume, Title, Writer, Publisher ഫീൽഡുകൾ പൂരിപ്പിച്ച് ലേഔട്ട് അല്ലെങ്കിൽ ഗ്രേസ്കെയിൽ ഒപ്റ്റിമൈസേഷൻ ടോഗിൾ ചെയ്യുക."
       },
       {
         "step": 3,
-        "title": "Compile and Download",
-        "description": "Click Convert to compile and retrieve your metadata-rich .cbz file instantly ready for Calibre."
+        "title": "കംപൈൽ ചെയ്ത് ഡൗൺലോഡ് ചെയ്യുക",
+        "description": "Calibre-ന് തയാറായ, മെറ്റാഡാറ്റ അടങ്ങിയ .cbz ഫയൽ ഉടനടി കംപൈൽ ചെയ്ത് ലഭിക്കുന്നതിന് Convert ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Retrograde Comic Packaging",
-        "description": "Transform raw scanned PDF books into compact, standard-compliant CBZ comic files easily scrapable by comic library managers.",
+        "title": "റെട്രോഗ്രേഡ് കോമിക് പാക്കേജിംഗ്",
+        "description": "സ്കാൻ ചെയ്ത PDF പുസ്തകങ്ങളെ കോമിക് ലൈബ്രറി മാനേജർമാർക്ക് എളുപ്പത്തിൽ സ്ക്രാപ്പ് ചെയ്യാൻ കഴിയുന്ന കോംപാക്റ്റ്, സ്റ്റാൻഡേർഡ് അനുസരിച്ചുള്ള CBZ കോമിക് ഫയലുകളാക്കി മാറ്റുക.",
         "icon": "book"
       },
       {
-        "title": "Zero-Effort Calibre Integration",
-        "description": "The built-in metadata.opf schema allows Calibre to fetch and classify creators and volume issues without manual lookup.",
+        "title": "അനായാസ Calibre ഇന്റഗ്രേഷൻ",
+        "description": "ഇൻ-ബിൽറ്റ് metadata.opf സ്കീമ, മാനുവൽ പരിശോധന കൂടാതെ തന്നെ ക്രിയേറ്റർമാരെയും വോളിയം ഇഷ്യൂകളെയും കണ്ടെത്താനും തരംതിരിക്കാനും Calibre-നെ സഹായിക്കുന്നു.",
         "icon": "database"
       },
       {
-        "title": "E-Ink Screen Enhancement",
-        "description": "Pre-filter graphic color channels into high-contrast grayscale on compile, boosting visual refresh and clarity on E-ink screens while saving storage.",
+        "title": "E-Ink സ്ക്രീൻ എൻഹാൻസ്മെന്റ്",
+        "description": "കംപൈൽ ചെയ്യുമ്പോൾ ഗ്രാഫിക് കളർ ചാനലുകളെ ഉയർന്ന കോൺട്രാസ്റ്റുള്ള ഗ്രേസ്കെയിലിലേക്ക് പ്രീ-ഫിൽട്ടർ ചെയ്യുന്നു, ഇത് സ്റ്റോറേജ് ലാഭിക്കുന്നതോടൊപ്പം E-ink സ്ക്രീനുകളിൽ വിഷ്വൽ റീഫ്രഷും വ്യക്തതയും വർദ്ധിപ്പിക്കുന്നു.",
         "icon": "eye"
       }
     ],
     "faq": [
       {
-        "question": "What is a .cbz file?",
-        "answer": "A CBZ file is a specialized archive container format for comic book series. It is internally formatted as a ZIP package containing sequentially numbered page images alongside structural metadata XML files."
+        "question": "എന്താണ് ഒരു .cbz ഫയൽ?",
+        "answer": "കോമിക് ബുക്ക് പരമ്പരകൾക്കായുള്ള ഒരു പ്രത്യേക ആർക്കൈവ് കണ്ടെയ്നർ ഫോർമാറ്റാണ് CBZ ഫയൽ. ഘടനാപരമായ മെറ്റാഡാറ്റ XML ഫയലുകൾക്കൊപ്പം ക്രമമായി നമ്പർ ചെയ്ത പേജ് ഇമേജുകൾ അടങ്ങിയ ZIP പാക്കേജായിട്ടാണ് ഇത് ആന്തരികമായി ഫോർമാറ്റ് ചെയ്തിരിക്കുന്നത്."
       },
       {
-        "question": "How is metadata compatible?",
-        "answer": "We compile and embed ComicInfo.xml, metadata.opf, and ZIP File Comments in one pass. This guarantees absolute compliance across multiple comic and e-book ecosystems."
+        "question": "മെറ്റാഡാറ്റ എങ്ങനെയാണ് കോംപാറ്റിബിൾ ആകുന്നത്?",
+        "answer": "ഞങ്ങൾ ComicInfo.xml, metadata.opf, ZIP ഫയൽ കമന്റുകൾ എന്നിവ ഒറ്റ ഘട്ടത്തിൽ കംപൈൽ ചെയ്യുകയും എംബഡ് ചെയ്യുകയും ചെയ്യുന്നു. ഇത് വിവിധ കോമിക്, ഇ-ബുക്ക് ഇക്കോസിസ്റ്റങ്ങളിൽ പൂർണ്ണമായ അനുയോജ്യത ഉറപ്പാക്കുന്നു."
       },
       {
-        "question": "Why use Grayscale mode?",
-        "answer": "If you read on a grayscale E-ink reader (like Kindle or Kobo), compiling directly in Grayscale reduces artifact ghosting, delivers superior contrast levels, and shrinks the final CBZ file size."
+        "question": "എന്തുകൊണ്ട് Grayscale മോഡ് ഉപയോഗിക്കണം?",
+        "answer": "നിങ്ങൾ ഒരു ഗ്രേസ്കെയിൽ E-ink റീഡറിലാണ് (Kindle അല്ലെങ്കിൽ Kobo പോലുള്ളവ) വായിക്കുന്നതെങ്കിൽ, നേരിട്ട് Grayscale-ൽ കംപൈൽ ചെയ്യുന്നത് ആർട്ടിഫാക്റ്റ് ഗോസ്റ്റിംഗ് കുറയ്ക്കുകയും ഉയർന്ന കോൺട്രാസ്റ്റ് ലെവലുകൾ നൽകുകയും അന്തിമ CBZ ഫയൽ വലുപ്പം കുറയ്ക്കുകയും ചെയ്യുന്നു."
       }
     ]
   },
   "pdf-to-svg": {
-    "title": "PDF to SVG",
-    "metaDescription": "Convert PDF pages to SVG vector graphics. Perfect scalability at any size with individual page export.",
+    "title": "PDF-ൽ നിന്ന് SVG-യിലേക്ക്",
+    "metaDescription": "PDF പേജുകളെ SVG വെക്റ്റർ ഗ്രാഫിക്സിലേക്ക് മാറ്റുക. ഓരോ പേജും വേവ്വേറെ എക്സ്പോർട്ട് ചെയ്യാനും ഏത് വലുപ്പത്തിലും വ്യക്തത നിലനിർത്താനും സാധിക്കുന്നു.",
     "keywords": [
       "pdf to svg",
       "convert pdf to svg",
@@ -3082,545 +3082,545 @@ export const toolContentMl: Record<string, ToolContent> = {
       "scalable pdf",
       "svg converter"
     ],
-    "description": "\n      <p>PDF to SVG converts each page of your PDF document into a scalable vector graphic (SVG). SVG is a vector format that maintains perfect quality at any zoom level or print size.</p>\n      <p>Unlike raster formats (JPG, PNG), SVG graphics never become pixelated when scaled. This makes them ideal for logos, diagrams, technical drawings, and any content that needs to be displayed at different sizes.</p>\n      <p>Preview each converted page and download them individually or as a ZIP file. All processing happens locally in your browser, ensuring complete privacy for your documents.</p>\n    ",
+    "description": "\n      <p>PDF to SVG നിങ്ങളുടെ PDF ഡോക്യുമെന്റിന്റെ ഓരോ പേജിനെയും സ്കേലബിൾ വെക്റ്റർ ഗ്രാഫിക് (SVG) ആക്കി മാറ്റുന്നു. ഏത് സൂം ലെവലിലും പ്രിന്റ് വലുപ്പത്തിലും പൂർണ്ണമായ നിലവാരം നിലനിർത്തുന്ന ഒരു വെക്റ്റർ ഫോർമാറ്റാണ് SVG.</p>\n      <p>റാസ്റ്റർ ഫോർമാറ്റുകളിൽ (JPG, PNG) നിന്ന് വ്യത്യസ്തമായി, SVG ഗ്രാഫിക്സ് വലുപ്പം മാറ്റുമ്പോൾ പിക്സലേറ്റ് ആകില്ല. അതിനാൽ ലോഗോകൾ, ഡയഗ്രമുകൾ, സാങ്കേതിക ഡ്രോയിംഗുകൾ, വ്യത്യസ്ത വലുപ്പങ്ങളിൽ കാണിക്കേണ്ട മറ്റ് ഉള്ളടക്കങ്ങൾ എന്നിവയ്ക്ക് ഇവ അനുയോജ്യമാണ്.</p>\n      <p>മാറ്റിയ ഓരോ പേജും പ്രിവ്യൂ ചെയ്യുക, അവ വെവ്വേറെയോ ഒരു ZIP ഫയലായോ ഡൗൺലോഡ് ചെയ്യുക. എല്ലാ പ്രോസസ്സിംഗും നിങ്ങളുടെ ബ്രൗസറിൽ തദ്ദേശീയമായി നടക്കുന്നതിനാൽ നിങ്ങളുടെ ഡോക്യുമെന്റുകളുടെ പൂർണ്ണമായ സ്വകാര്യത ഉറപ്പാക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your PDF file or click to browse and select."
+        "description": "നിങ്ങളുടെ PDF ഫയൽ ഡ്രാഗ് ചെയ്ത് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ ബ്രൗസ് ചെയ്ത് തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
         "title": "ഓപ്ഷനുകൾ കോൺഫിഗർ ചെയ്യുക",
-        "description": "Set the resolution quality and optionally specify page ranges."
+        "description": "റെസല്യൂഷൻ ക്വാളിറ്റി സെറ്റ് ചെയ്യുക, ആവശ്യമെങ്കിൽ പേജ് റേഞ്ചുകൾ വ്യക്തമാക്കുക."
       },
       {
         "step": 3,
-        "title": "Preview and Convert",
-        "description": "Click Convert to process. Preview each page by clicking on thumbnails."
+        "title": "പ്രിവ്യൂ ചെയ്യുക, പരിവർത്തനം ചെയ്യുക",
+        "description": "പ്രോസസ്സ് ചെയ്യാൻ Convert ക്ലിക്ക് ചെയ്യുക. തംബ്‌നെയിലുകളിൽ ക്ലിക്ക് ചെയ്ത് ഓരോ പേജും പ്രിവ്യൂ ചെയ്യുക."
       },
       {
         "step": 4,
-        "title": "Download",
-        "description": "Download individual SVG files or all pages as a ZIP archive."
+        "title": "ഡൗൺലോഡ്",
+        "description": "വ്യക്തിഗത SVG ഫയലുകളായോ എല്ലാ പേജുകളും ഒരു ZIP ആർക്കൈവായോ ഡൗൺലോഡ് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Logos and Graphics",
-        "description": "Extract logos and vector graphics from PDFs for use in design software.",
+        "title": "ലോഗോകളും ഗ്രാഫിക്സും",
+        "description": "ഡിസൈൻ സോഫ്റ്റ്‌വെയറുകളിൽ ഉപയോഗിക്കുന്നതിനായി PDF-കളിൽ നിന്ന് ലോഗോകളും വെക്റ്റർ ഗ്രാഫിക്സും വേർതിരിച്ചെടുക്കുക.",
         "icon": "pen-tool"
       },
       {
-        "title": "Technical Diagrams",
-        "description": "Convert technical drawings and diagrams to scalable SVG format.",
+        "title": "ടെക്നിക്കൽ ഡയഗ്രമുകൾ",
+        "description": "സാങ്കേതിക ഡ്രോയിംഗുകളും ഡയഗ്രമുകളും സ്കേലബിൾ SVG ഫോർമാറ്റിലേക്ക് മാറ്റുക.",
         "icon": "ruler"
       },
       {
-        "title": "Web Development",
-        "description": "Create web-ready SVG files from PDF content for responsive websites.",
+        "title": "വെബ് ഡെവലപ്‌മെന്റ്",
+        "description": "റെസ്‌പോൺസീവ് വെബ്‌സൈറ്റുകൾക്കായി PDF ഉള്ളടക്കത്തിൽ നിന്ന് വെബ്-റെഡി SVG ഫയലുകൾ നിർമ്മിക്കുക.",
         "icon": "globe"
       },
       {
-        "title": "Print at Any Size",
-        "description": "Generate vector graphics that print perfectly at any size.",
+        "title": "ഏത് വലുപ്പത്തിലും പ്രിന്റ് ചെയ്യാം",
+        "description": "ഏത് വലുപ്പത്തിലും കൃത്യമായി പ്രിന്റ് ചെയ്യാൻ കഴിയുന്ന വെക്റ്റർ ഗ്രാഫിക്സ് നിർമ്മിക്കുക.",
         "icon": "printer"
       }
     ],
     "faq": [
       {
-        "question": "What is SVG format?",
-        "answer": "SVG (Scalable Vector Graphics) is a vector image format that can be scaled to any size without losing quality. It is widely used for logos, icons, and web graphics."
+        "question": "എന്താണ് SVG ഫോർമാറ്റ്?",
+        "answer": "ഗുണനിലവാരം നഷ്ടപ്പെടാതെ ഏത് വലുപ്പത്തിലേക്കും മാറ്റാൻ കഴിയുന്ന ഒരു വെക്റ്റർ ഇമേജ് ഫോർമാറ്റാണ് SVG (Scalable Vector Graphics). ലോഗോകൾ, ഐക്കണുകൾ, വെബ് ഗ്രാഫിക്സ് എന്നിവയ്ക്കായി ഇത് വ്യാപകമായി ഉപയോഗിക്കുന്നു."
       },
       {
-        "question": "Will the SVG be truly vector?",
-        "answer": "The SVG contains a high-resolution rendering of the PDF page. For PDFs with vector content, you get crisp output at any scale."
+        "question": "SVG യഥാർത്ഥ വെക്റ്റർ ആയിരിക്കുമോ?",
+        "answer": "SVG-യിൽ PDF പേജിന്റെ ഉയർന്ന റെസല്യൂഷൻ റെൻഡറിംഗ് അടങ്ങിയിരിക്കുന്നു. വെക്റ്റർ ഉള്ളടക്കമുള്ള PDF-കൾക്ക്, ഏത് അളവിലും വ്യക്തതയുള്ള ഔട്ട്‌പുട്ട് ലഭിക്കും."
       },
       {
-        "question": "Can I preview before downloading?",
-        "answer": "Yes! Click on any thumbnail to see a full-size preview of the SVG. You can download individual pages or all at once."
+        "question": "ഡൗൺലോഡ് ചെയ്യുന്നതിന് മുൻപ് പ്രിവ്യൂ കാണാൻ കഴിയുമോ?",
+        "answer": "അതെ! SVG-യുടെ പൂർണ്ണ വലുപ്പത്തിലുള്ള പ്രിവ്യൂ കാണാൻ ഏതെങ്കിലും തംബ്‌നെയിലിൽ ക്ലിക്ക് ചെയ്യുക. നിങ്ങൾക്ക് ഓരോ പേജുകളും വെവ്വേറെയോ എല്ലാം ഒരുമിച്ചോ ഡൗൺലോഡ് ചെയ്യാം."
       },
       {
-        "question": "What resolution should I choose?",
-        "answer": "Higher resolution (216 or 288 DPI) produces larger, more detailed SVGs. Use lower settings for faster processing and smaller files."
+        "question": "ഞാൻ ഏത് റെസല്യൂഷൻ തിരഞ്ഞെടുക്കണം?",
+        "answer": "ഉയർന്ന റെസല്യൂഷൻ (216 അല്ലെങ്കിൽ 288 DPI) കൂടുതൽ വിശദാംശങ്ങളുള്ള വലിയ SVG-കൾ സൃഷ്ടിക്കുന്നു. വേഗത്തിലുള്ള പ്രോസസ്സിംഗിനും ചെറിയ ഫയലുകൾക്കുമായി കുറഞ്ഞ സെറ്റിംഗ്സുകൾ ഉപയോഗിക്കുക."
       }
     ]
   },
   "pdf-to-greyscale": {
-    "title": "PDF to Greyscale",
-    "metaDescription": "Convert color PDF to greyscale. Reduce file size and prepare for black-and-white printing.",
+    "title": "PDF-ൽ നിന്ന് Greyscale-ലേക്ക്",
+    "metaDescription": "കളർ PDF-നെ ഗ്രേസ്കെയിലിലേക്ക് മാറ്റുക. ഫയൽ വലുപ്പം കുറയ്ക്കുകയും ബ്ലാക്ക് ആൻഡ് വൈറ്റ് പ്രിന്റിംഗിനായി തയ്യാറാക്കുകയും ചെയ്യുക.",
     "keywords": [
       "pdf to greyscale",
       "grayscale pdf",
       "black and white pdf",
       "remove colors"
     ],
-    "description": "\n      <p>PDF to Greyscale converts color PDF documents to greyscale (black and white). This reduces file size and prepares documents for black-and-white printing.</p>\n      <p>The conversion preserves text clarity and image detail while removing color information. Perfect for draft printing or creating printer-friendly versions.</p>\n      <p>All conversion happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>PDF to Greyscale കളർ PDF ഡോക്യുമെന്റുകളെ ഗ്രേസ്കെയിലിലേക്ക് (ബ്ലാക്ക് ആൻഡ് വൈറ്റ്) മാറ്റുന്നു. ഇത് ഫയലിന്റെ വലുപ്പം കുറയ്ക്കുകയും ബ്ലാക്ക് ആൻഡ് വൈറ്റ് പ്രിന്റിംഗിനായി ഡോക്യുമെന്റുകൾ സജ്ജമാക്കുകയും ചെയ്യുന്നു.</p>\n      <p>കളർ വിവരങ്ങൾ നീക്കം ചെയ്യുമ്പോൾ തന്നെ ഈ പരിവർത്തനം ടെക്സ്റ്റിന്റെ വ്യക്തതയും ചിത്രത്തിന്റെ വിശദാംശങ്ങളും നിലനിർത്തുന്നു. ഡ്രാഫ്റ്റ് പ്രിന്റിംഗിനോ പ്രിന്റർ-ഫ്രണ്ട്‌ലി പതിപ്പുകൾ നിർമ്മിക്കുന്നതിനോ ഇത് മികച്ചതാണ്.</p>\n      <p>എല്ലാ പരിവർത്തനങ്ങളും നിങ്ങളുടെ ബ്രൗസറിലാണ് നടക്കുന്നത്, ഇത് നിങ്ങളുടെ ഡോക്യുമെന്റുകൾ സ്വകാര്യമായി തുടരുമെന്ന് ഉറപ്പാക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your color PDF file or click to select."
+        "description": "നിങ്ങളുടെ കളർ PDF ഫയൽ ഡ്രാഗ് ചെയ്ത് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Preview Conversion",
-        "description": "Preview how the greyscale version will look."
+        "title": "പരിവർത്തനം പ്രിവ്യൂ ചെയ്യുക",
+        "description": "ഗ്രേസ്കെയിൽ പതിപ്പ് എങ്ങനെ കാണപ്പെടുമെന്ന് പ്രിവ്യൂ ചെയ്യുക."
       },
       {
         "step": 3,
         "title": "മാറ്റുക, ഡൗൺലോഡ് ചെയ്യുക",
-        "description": "Click Convert to create the greyscale PDF."
+        "description": "ഗ്രേസ്കെയിൽ PDF നിർമ്മിക്കാൻ Convert ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
         "title": "പ്രിന്റ് സേവിംഗ്സ്",
-        "description": "Convert to greyscale to save on color printing costs.",
+        "description": "കളർ പ്രിന്റിംഗ് ചെലവ് കുറയ്ക്കാൻ ഗ്രേസ്കെയിലിലേക്ക് മാറ്റുക.",
         "icon": "printer"
       },
       {
-        "title": "Draft Documents",
-        "description": "Create black-and-white drafts for review.",
+        "title": "ഡ്രാഫ്റ്റ് ഡോക്യുമെന്റുകൾ",
+        "description": "പരിശോധനയ്ക്കായി ബ്ലാക്ക് ആൻഡ് വൈറ്റ് ഡ്രാഫ്റ്റുകൾ നിർമ്മിക്കുക.",
         "icon": "file-text"
       },
       {
-        "title": "File Size Reduction",
-        "description": "Reduce PDF size by removing color information.",
+        "title": "ഫയൽ വലുപ്പം കുറയ്ക്കൽ",
+        "description": "കളർ വിവരങ്ങൾ നീക്കം ചെയ്തുകൊണ്ട് PDF വലുപ്പം കുറയ്ക്കുക.",
         "icon": "minimize-2"
       }
     ],
     "faq": [
       {
-        "question": "Will text remain readable?",
-        "answer": "Yes, text clarity is preserved during greyscale conversion."
+        "question": "ടെക്സ്റ്റ് വായിക്കാൻ കഴിയുമോ?",
+        "answer": "അതെ, ഗ്രേസ്കെയിൽ പരിവർത്തന സമയത്ത് ടെക്സ്റ്റിന്റെ വ്യക്തത നിലനിർത്തുന്നു."
       },
       {
-        "question": "How much smaller will the file be?",
-        "answer": "File size reduction varies but can be 20-50% for color-heavy documents."
+        "question": "ഫയൽ എത്രത്തോളം ചെറുതാകും?",
+        "answer": "ഫയൽ വലുപ്പത്തിലെ കുറവ് വ്യത്യാസപ്പെടാം, എന്നാൽ കളർ കൂടുതലുള്ള ഡോക്യുമെന്റുകൾക്ക് ഇത് 20-50% വരെ ആകാം."
       },
       {
-        "question": "Can I convert specific pages only?",
-        "answer": "Yes, you can select which pages to convert to greyscale."
+        "question": "പ്രത്യേക പേജുകൾ മാത്രം എനിക്ക് മാറ്റാൻ സാധിക്കുമോ?",
+        "answer": "അതെ, ഗ്രേസ്കെയിലിലേക്ക് മാറ്റേണ്ട പേജുകൾ നിങ്ങൾക്ക് തിരഞ്ഞെടുക്കാം."
       }
     ]
   },
   "pdf-to-json": {
     "title": "PDF to JSON",
-    "metaDescription": "Extract PDF content to JSON format. Get structured data from PDF documents.",
+    "metaDescription": "PDF ഉള്ളടക്കം JSON ഫോർമാറ്റിലേക്ക് എക്‌സ്‌ട്രാക്‌റ്റ് ചെയ്യുക. PDF ഡോക്യുമെന്റുകളിൽ നിന്ന് സ്ട്രക്ചർഡ് ഡാറ്റ നേടുക.",
     "keywords": [
       "pdf to json",
       "extract pdf data",
       "pdf parser",
       "structured pdf data"
     ],
-    "description": "\n      <p>PDF to JSON extracts content from PDF documents into structured JSON format. Extract text, metadata, page information, and document structure for programmatic use.</p>\n      <p>Perfect for data extraction, document analysis, or integrating PDF content into applications and workflows.</p>\n      <p>All extraction happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>PDF to JSON നിങ്ങളുടെ PDF ഡോക്യുമെന്റുകളിൽ നിന്നുള്ള ഉള്ളടക്കം സ്ട്രക്ചർഡ് JSON ഫോർമാറ്റിലേക്ക് എക്‌സ്‌ട്രാക്‌റ്റ് ചെയ്യുന്നു. പ്രോഗ്രാമാറ്റിക് ആവശ്യങ്ങൾക്കായി ടെക്സ്റ്റ്, മെറ്റാഡാറ്റ, പേജ് വിവരങ്ങൾ, ഡോക്യുമെന്റ് ഘടന എന്നിവ എക്സ്ട്രാക്റ്റ് ചെയ്യുക.</p><p>ഡാറ്റാ എക്സ്ട്രാക്ഷൻ, ഡോക്യുമെന്റ് വിശകലനം, അല്ലെങ്കിൽ ആപ്ലിക്കേഷനുകളിലേക്കും വർക്ക്ഫ്ലോകളിലേക്കും PDF ഉള്ളടക്കം സംയോജിപ്പിക്കൽ എന്നിവയ്ക്ക് അനുയോജ്യമാണ്.</p><p>എല്ലാ എക്സ്ട്രാക്ഷനും നിങ്ങളുടെ ബ്രൗസറിൽ തന്നെ നടക്കുന്നു, ഇത് നിങ്ങളുടെ ഡോക്യുമെന്റുകൾ സ്വകാര്യമായി തുടരുന്നുവെന്ന് ഉറപ്പാക്കുന്നു.</p>",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "നിങ്ങളുടെ PDF ഫയൽ ഡ്രാഗ് ആൻഡ് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Select Data to Extract",
-        "description": "Choose what content to extract: text, metadata, structure."
+        "title": "എക്സ്ട്രാക്റ്റ് ചെയ്യേണ്ട ഡാറ്റ തിരഞ്ഞെടുക്കുക",
+        "description": "ഏത് ഉള്ളടക്കമാണ് എക്സ്ട്രാക്റ്റ് ചെയ്യേണ്ടതെന്ന് തിരഞ്ഞെടുക്കുക: ടെക്സ്റ്റ്, മെറ്റാഡാറ്റ, സ്ട്രക്ചർ."
       },
       {
         "step": 3,
         "title": "വേർതിരിച്ചെടുത്ത് ഡൗൺലോഡ് ചെയ്യുക",
-        "description": "Click Extract to generate JSON and download."
+        "description": "JSON സൃഷ്ടിച്ച് ഡൗൺലോഡ് ചെയ്യാൻ എക്സ്ട്രാക്റ്റ് ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Data Extraction",
-        "description": "Extract structured data from PDF documents.",
+        "title": "ഡാറ്റാ എക്സ്ട്രാക്ഷൻ",
+        "description": "PDF ഡോക്യുമെന്റുകളിൽ നിന്ന് സ്ട്രക്ചർഡ് ഡാറ്റ എക്സ്ട്രാക്റ്റ് ചെയ്യുക.",
         "icon": "database"
       },
       {
-        "title": "Document Analysis",
-        "description": "Analyze PDF structure and content programmatically.",
+        "title": "ഡോക്യുമെന്റ് അനാലിസിസ്",
+        "description": "PDF ഘടനയും ഉള്ളടക്കവും പ്രോഗ്രാമാറ്റിക്കലായി വിശകലനം ചെയ്യുക.",
         "icon": "search"
       },
       {
-        "title": "Integration",
-        "description": "Import PDF content into applications via JSON.",
+        "title": "ഇന്റഗ്രേഷൻ",
+        "description": "JSON വഴി ആപ്ലിക്കേഷനുകളിലേക്ക് PDF ഉള്ളടക്കം ഇമ്പോർട്ട് ചെയ്യുക.",
         "icon": "plug"
       }
     ],
     "faq": [
       {
-        "question": "What data is extracted?",
-        "answer": "Text content, metadata, page dimensions, fonts, and document structure."
+        "question": "ഏതെല്ലാം ഡാറ്റയാണ് എക്സ്ട്രാക്റ്റ് ചെയ്യുന്നത്?",
+        "answer": "ടെക്സ്റ്റ് ഉള്ളടക്കം, മെറ്റാഡാറ്റ, പേജ് അളവുകൾ, ഫോണ്ടുകൾ, ഡോക്യുമെന്റ് ഘടന എന്നിവ."
       },
       {
-        "question": "Is the JSON format documented?",
-        "answer": "Yes, the JSON schema is consistent and well-documented."
+        "question": "JSON ഫോർമാറ്റ് ഡോക്യുമെന്റ് ചെയ്തിട്ടുണ്ടോ?",
+        "answer": "അതെ, JSON സ്കീമ സ്ഥിരതയുള്ളതും കൃത്യമായി ഡോക്യുമെന്റ് ചെയ്തതുമാണ്."
       },
       {
-        "question": "Can I extract from scanned PDFs?",
-        "answer": "Scanned PDFs require OCR first. Use our OCR PDF tool before extraction."
+        "question": "സ്‌കാൻ ചെയ്‌ത PDF-കളിൽ നിന്ന് എനിക്ക് എക്‌സ്‌ട്രാക്‌റ്റ് ചെയ്യാനാകുമോ?",
+        "answer": "സ്കാൻ ചെയ്ത PDF-കൾക്ക് ആദ്യം OCR ആവശ്യമാണ്. എക്സ്ട്രാക്റ്റ് ചെയ്യുന്നതിന് മുമ്പ് ഞങ്ങളുടെ OCR PDF ടൂൾ ഉപയോഗിക്കുക."
       }
     ]
   },
   "pdf-to-pptx": {
     "title": "PDF to PowerPoint",
-    "metaDescription": "Convert PDF to PowerPoint presentation. Each page becomes a high-quality slide.",
+    "metaDescription": "PDF, PowerPoint പ്രസന്റേഷനിലേക്ക് മാറ്റുക. ഓരോ പേജും ഉയർന്ന നിലവാരമുള്ള സ്ലൈഡായി മാറുന്നു.",
     "keywords": [
       "pdf to pptx",
       "pdf to powerpoint",
       "convert pdf slides",
       "pdf presentation"
     ],
-    "description": "\n      <p>PDF to PowerPoint converts your PDF documents into editable PowerPoint presentations (PPTX). Each PDF page is transformed into a high-quality slide, preserving the visual layout perfectly.</p>\n      <p>This tool is ideal for converting reports, handouts, or any PDF content into presentation format. You can choose the image quality (DPI) to balance between file size and visual clarity.</p>\n      <p>All conversion happens locally in your browser, ensuring your documents remain private and secure.</p>\n    ",
+    "description": "<p>PDF to PowerPoint നിങ്ങളുടെ PDF ഡോക്യുമെന്റുകളെ എഡിറ്റ് ചെയ്യാവുന്ന PowerPoint പ്രസന്റേഷനുകളാക്കി (PPTX) മാറ്റുന്നു. ഓരോ PDF പേജും വിഷ്വൽ ലേഔട്ട് കൃത്യമായി നിലനിർത്തിക്കൊണ്ട് ഉയർന്ന നിലവാരമുള്ള സ്ലൈഡായി മാറ്റപ്പെടുന്നു.</p><p>റിപ്പോർട്ടുകൾ, ഹാൻഡ്ഔട്ടുകൾ അല്ലെങ്കിൽ ഏതെങ്കിലും PDF ഉള്ളടക്കം പ്രസന്റേഷൻ ഫോർമാറ്റിലേക്ക് മാറ്റുന്നതിന് ഈ ടൂൾ അനുയോജ്യമാണ്. ഫയൽ വലുപ്പവും വിഷ്വൽ വ്യക്തതയും തമ്മിൽ സന്തുലിതാവസ്ഥ നിലനിർത്താൻ നിങ്ങൾക്ക് ഇമേജ് ക്വാളിറ്റി (DPI) തിരഞ്ഞെടുക്കാം.</p><p>എല്ലാ പരിവർത്തനങ്ങളും നിങ്ങളുടെ ബ്രൗസറിൽ തന്നെ ലോക്കലായി നടക്കുന്നു, ഇത് നിങ്ങളുടെ ഡോക്യുമെന്റുകൾ സ്വകാര്യവും സുരക്ഷിതവുമായി തുടരുന്നുവെന്ന് ഉറപ്പാക്കുന്നു.</p>",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your PDF file or click to select it from your device."
+        "description": "നിങ്ങളുടെ PDF ഫയൽ ഡ്രാഗ് ചെയ്ത് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ നിങ്ങളുടെ ഉപകരണത്തിൽ നിന്ന് തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Choose Quality Settings",
-        "description": "Select the image quality (DPI) for the slides. Higher DPI means better quality but larger file size."
+        "title": "ക്വാളിറ്റി സെറ്റിംഗ്സ് തിരഞ്ഞെടുക്കുക",
+        "description": "സ്ലൈഡുകൾക്കായി ഇമേജ് ക്വാളിറ്റി (DPI) തിരഞ്ഞെടുക്കുക. ഉയർന്ന DPI മികച്ച നിലവാരം നൽകും, എന്നാൽ ഫയൽ വലുപ്പം കൂടുതലായിരിക്കും."
       },
       {
         "step": 3,
         "title": "മാറ്റുക, ഡൗൺലോഡ് ചെയ്യുക",
-        "description": "Click Convert to create your PowerPoint presentation and download the PPTX file."
+        "description": "നിങ്ങളുടെ PowerPoint പ്രസന്റേഷൻ സൃഷ്ടിച്ച് PPTX ഫയൽ ഡൗൺലോഡ് ചെയ്യാൻ കൺവേർട്ട് ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Presentation Creation",
-        "description": "Convert PDF reports or documents into presentation slides for meetings.",
+        "title": "പ്രസന്റേഷൻ ക്രിയേഷൻ",
+        "description": "മീറ്റിംഗുകൾക്കായി PDF റിപ്പോർട്ടുകളോ ഡോക്യുമെന്റുകളോ പ്രസന്റേഷൻ സ്ലൈഡുകളാക്കി മാറ്റുക.",
         "icon": "presentation"
       },
       {
-        "title": "Training Materials",
-        "description": "Transform PDF training documents into interactive PowerPoint presentations.",
+        "title": "പരിശീലന സാമഗ്രികൾ",
+        "description": "PDF ട്രെയിനിംഗ് ഡോക്യുമെന്റുകളെ ഇന്ററാക്ടീവ് PowerPoint പ്രസന്റേഷനുകളാക്കി മാറ്റുക.",
         "icon": "book-open"
       },
       {
-        "title": "Content Repurposing",
-        "description": "Convert existing PDF content into editable slide format for further customization.",
+        "title": "കണ്ടന്റ് റീപ്പർപസിംഗ്",
+        "description": "കൂടുതൽ കസ്റ്റമൈസേഷനായി നിലവിലുള്ള PDF ഉള്ളടക്കം എഡിറ്റ് ചെയ്യാവുന്ന സ്ലൈഡ് ഫോർമാറ്റിലേക്ക് മാറ്റുക.",
         "icon": "refresh-cw"
       }
     ],
     "faq": [
       {
-        "question": "Will the slides be editable?",
-        "answer": "Each slide contains a high-quality image of the PDF page. You can add text, shapes, and annotations on top in PowerPoint."
+        "question": "സ്ലൈഡുകൾ എഡിറ്റ് ചെയ്യാൻ കഴിയുമോ?",
+        "answer": "ഓരോ സ്ലൈഡിലും PDF പേജിന്റെ ഉയർന്ന നിലവാരമുള്ള ഇമേജ് അടങ്ങിയിരിക്കുന്നു. PowerPoint-ൽ ഇതിന് മുകളിൽ നിങ്ങൾക്ക് ടെക്സ്റ്റ്, ഷേപ്പുകൾ, ലേബലുകൾ എന്നിവ ചേർക്കാൻ കഴിയും."
       },
       {
-        "question": "What DPI should I choose?",
-        "answer": "Use 150 DPI for presentations displayed on screens. Use 300 DPI for printing or when you need the highest quality."
+        "question": "ഞാൻ ഏത് DPI തിരഞ്ഞെടുക്കണം?",
+        "answer": "സ്ക്രീനുകളിൽ കാണിക്കുന്ന പ്രസന്റേഷനുകൾക്കായി 150 DPI ഉപയോഗിക്കുക. പ്രിന്റ് ചെയ്യുന്നതിനോ ഉയർന്ന ക്വാളിറ്റി ആവശ്യമുള്ളപ്പോഴോ 300 DPI ഉപയോഗിക്കുക."
       },
       {
-        "question": "Can I convert multi-page PDFs?",
-        "answer": "Yes, each page of your PDF becomes a separate slide in the PowerPoint presentation."
+        "question": "എനിക്ക് മൾട്ടി-പേജ് PDF-കൾ കൺവേർട്ട് ചെയ്യാൻ കഴിയുമോ?",
+        "answer": "അതെ, നിങ്ങളുടെ PDF-ന്റെ ഓരോ പേജും PowerPoint പ്രസന്റേഷനിൽ ഓരോ പ്രത്യേക സ്ലൈഡായി മാറുന്നു."
       }
     ]
   },
   "pdf-to-excel": {
     "title": "PDF to Excel",
-    "metaDescription": "Convert PDF to Excel spreadsheet. Extract tables to XLSX format.",
+    "metaDescription": "PDF, Excel സ്‌പ്രെഡ് ഷീറ്റിലേക്ക് മാറ്റുക. ടേബിളുകൾ XLSX ഫോർമാറ്റിലേക്ക് എക്‌സ്‌ട്രാക്‌റ്റ് ചെയ്യുക.",
     "keywords": [
       "pdf to excel",
       "pdf to xlsx",
       "convert pdf tables",
       "extract tables"
     ],
-    "description": "\n      <p>PDF to Excel converts your PDF documents into editable Microsoft Excel spreadsheets (XLSX). The tool automatically detects tables in your PDF and extracts them into separate sheets.</p>\n      <p>This tool is ideal for analyzing financial reports, invoices, or any data presented in tables. Each page's tables are organized into sheets for easy data manipulation.</p>\n      <p>All conversion happens locally in your browser, ensuring your data remains private and secure.</p>\n    ",
+    "description": "<p>PDF to Excel നിങ്ങളുടെ PDF ഡോക്യുമെന്റുകളെ എഡിറ്റ് ചെയ്യാവുന്ന Microsoft Excel സ്പ്രെഡ്ഷീറ്റുകളാക്കി (XLSX) മാറ്റുന്നു. ടൂൾ നിങ്ങളുടെ PDF-ലെ ടേബിളുകൾ ഓട്ടോമാറ്റിക്കായി കണ്ടെത്തുകയും അവയെ പ്രത്യേക ഷീറ്റുകളിലേക്ക് എക്സ്ട്രാക്റ്റ് ചെയ്യുകയും ചെയ്യുന്നു.</p><p>സാമ്പത്തിക റിപ്പോർട്ടുകൾ, ഇൻവോയ്സുകൾ അല്ലെങ്കിൽ ടേബിളുകളിൽ നൽകിയിട്ടുള്ള ഏതൊരു ഡാറ്റയും വിശകലനം ചെയ്യുന്നതിന് ഈ ടൂൾ അനുയോജ്യമാണ്. എളുപ്പത്തിലുള്ള ഡാറ്റ വിശകലനത്തിനായി ഓരോ പേജിലെയും ടേബിളുകൾ ഷീറ്റുകളായി ക്രമീകരിച്ചിരിക്കുന്നു.</p><p>എല്ലാ പരിവർത്തനങ്ങളും നിങ്ങളുടെ ബ്രൗസറിൽ തന്നെ ലോക്കലായി നടക്കുന്നു, ഇത് നിങ്ങളുടെ ഡാറ്റ സ്വകാര്യവും സുരക്ഷിതവുമായി തുടരുന്നുവെന്ന് ഉറപ്പാക്കുന്നു.</p>",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "നിങ്ങളുടെ PDF ഫയൽ ഡ്രാഗ് ആൻഡ് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Process",
-        "description": "The tool will automatically identify and extract tables."
+        "title": "പ്രോസസ്സ് ചെയ്യുക",
+        "description": "ടൂൾ ഓട്ടോമാറ്റിക്കായി ടേബിളുകൾ കണ്ടെത്തി എക്സ്ട്രാക്റ്റ് ചെയ്യും."
       },
       {
         "step": 3,
-        "title": "Download Excel",
-        "description": "Download your Excel file with extracted tables."
+        "title": "Excel ഡൗൺലോഡ് ചെയ്യുക",
+        "description": "എക്സ്ട്രാക്റ്റ് ചെയ്ത ടേബിളുകൾ അടങ്ങിയ Excel ഫയൽ ഡൗൺലോഡ് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Financial Analysis",
-        "description": "Convert bank statements or invoices to Excel for analysis.",
+        "title": "ഫിനാഷ്യൽ അനാലിസിസ്",
+        "description": "വിശകലനത്തിനായി ബാങ്ക് സ്റ്റേറ്റ്‌മെന്റുകളോ ഇൻവോയ്‌സുകളോ Excel-ലേക്ക് മാറ്റുക.",
         "icon": "trending-up"
       },
       {
-        "title": "Data Extraction",
-        "description": "Pull data tables from research papers or reports.",
+        "title": "ഡാറ്റാ എക്സ്ട്രാക്ഷൻ",
+        "description": "ഗവേഷണ പേപ്പറുകളിൽ നിന്നോ റിപ്പോർട്ടുകളിൽ നിന്നോ ഡാറ്റാ ടേബിളുകൾ എക്സ്ട്രാക്റ്റ് ചെയ്യുക.",
         "icon": "database"
       },
       {
-        "title": "Inventory Management",
-        "description": "Convert inventory lists from PDF to spreadsheet.",
+        "title": "ഇൻവെന്ററി മാനേജ്മെന്റ്",
+        "description": "ഇൻവെന്ററി ലിസ്റ്റുകൾ PDF-ൽ നിന്ന് സ്പ്രെഡ്ഷീറ്റിലേക്ക് മാറ്റുക.",
         "icon": "clipboard"
       }
     ],
     "faq": [
       {
-        "question": "How are tables handled?",
-        "answer": "Tables detected on each page are extracted to corresponding sheets in the Excel file."
+        "question": "പട്ടികകൾ എങ്ങനെയാണ് കൈകാര്യം ചെയ്യുന്നത്?",
+        "answer": "ഓരോ പേജിലും കണ്ടെത്തുന്ന പട്ടികകൾ Excel ഫയലിലെ അതത് ഷീറ്റുകളിലേക്ക് വേർതിരിച്ചെടുക്കുന്നു."
       },
       {
-        "question": "What if there are no tables?",
-        "answer": "An info sheet will be created indicating no tables were found."
+        "question": "പട്ടികകൾ ഇല്ലെങ്കിൽ എന്ത് സംഭവിക്കും?",
+        "answer": "പട്ടികകളൊന്നും കണ്ടെത്തിയിട്ടില്ല എന്ന് സൂചിപ്പിക്കുന്ന ഒരു ഇൻഫോ ഷീറ്റ് നിർമ്മിക്കപ്പെടും."
       },
       {
-        "question": "Is formatting preserved?",
-        "answer": "Data is preserved, but complex visual formatting may be simplified for spreadsheet use."
+        "question": "ഫോർമാറ്റിംഗ് സംരക്ഷിക്കപ്പെടുമോ?",
+        "answer": "ഡാറ്റ സംരക്ഷിക്കപ്പെടും, എന്നാൽ സ്പ്രെഡ്ഷീറ്റ് ഉപയോഗത്തിനായി സങ്കീർണ്ണമായ വിഷ്വൽ ഫോർമാറ്റിംഗ് ലളിതമാക്കിയേക്കാം."
       }
     ]
   },
   "ocr-pdf": {
     "title": "OCR PDF",
-    "metaDescription": "Make scanned PDFs searchable with OCR. Extract text from images and scanned documents.",
+    "metaDescription": "OCR ഉപയോഗിച്ച് സ്‌കാൻ ചെയ്‌ത PDF-കൾ തിരയാൻ കഴിയുന്നതാക്കുക. ചിത്രങ്ങളിൽ നിന്നും സ്‌കാൻ ചെയ്ത ഡോക്യുമെന്റുകളിൽ നിന്നും ടെക്സ്റ്റ് വേർതിരിച്ചെടുക്കുക.",
     "keywords": [
       "ocr pdf",
       "searchable pdf",
       "text recognition",
       "scan to text"
     ],
-    "description": "\n      <p>OCR PDF uses Optical Character Recognition to extract text from scanned documents and images within PDFs. Convert image-based PDFs into searchable, selectable text documents.</p>\n      <p>Support for multiple languages ensures accurate text recognition regardless of the document's language. The original layout is preserved while adding a searchable text layer.</p>\n      <p>All OCR processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>സ്‌കാൻ ചെയ്ത ഡോക്യുമെന്റുകളിൽ നിന്നും PDF-കളിലെ ചിത്രങ്ങളിൽ നിന്നും ടെക്സ്റ്റ് വേർതിരിച്ചെടുക്കാൻ OCR PDF, ഓപ്റ്റിക്കൽ ക്യാരക്ടർ റെക്കഗ്നിഷൻ ഉപയോഗിക്കുന്നു. ഇമേജ് അധിഷ്ഠിത PDF-കളെ തിരയാനും തിരഞ്ഞെടുക്കാനും കഴിയുന്ന ടെക്സ്റ്റ് ഡോക്യുമെന്റുകളാക്കി മാറ്റുക.</p>\n      <p>ഒന്നിലധികം ഭാഷകൾക്കുള്ള പിന്തുണ ഡോക്യുമെന്റിന്റെ ഭാഷ ഏതായാലും കൃത്യമായ ടെക്സ്റ്റ് തിരിച്ചറിയൽ ഉറപ്പാക്കുന്നു. തിരയാവുന്ന ടെക്സ്റ്റ് ലെയർ ചേർക്കുമ്പോൾ തന്നെ ഒറിജിനൽ ലേഔട്ട് നിലനിർത്തുന്നു.</p>\n      <p>എല്ലാ OCR പ്രോസസ്സിംഗും നിങ്ങളുടെ ബ്രൗസറിൽ നടക്കുന്നു, ഇത് നിങ്ങളുടെ ഡോക്യുമെന്റുകൾ സ്വകാര്യമായി തുടരുന്നുവെന്ന് ഉറപ്പാക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Scanned PDF",
-        "description": "Drag and drop your scanned PDF or click to select."
+        "title": "സ്കാൻ ചെയ്ത PDF അപ്‌ലോഡ് ചെയ്യുക",
+        "description": "നിങ്ങളുടെ സ്‌കാൻ ചെയ്‌ത PDF ഡ്രാഗ് ചെയ്ത് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Select Language",
-        "description": "Choose the document language for accurate recognition."
+        "title": "ഭാഷ തിരഞ്ഞെടുക്കുക",
+        "description": "കൃത്യമായ തിരിച്ചറിയലിനായി ഡോക്യുമെന്റ് ഭാഷ തിരഞ്ഞെടുക്കുക."
       },
       {
         "step": 3,
         "title": "പ്രോസസ്സ് ചെയ്ത് ഡൗൺലോഡ് ചെയ്യുക",
-        "description": "Click Process to run OCR and download the searchable PDF."
+        "description": "OCR പ്രവർത്തിപ്പിക്കുന്നതിനും തിരയാൻ കഴിയുന്ന PDF ഡൗൺലോഡ് ചെയ്യുന്നതിനും പ്രോസസ്സ് ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Digitize Archives",
-        "description": "Make scanned document archives searchable.",
+        "title": "ആർക്കൈവുകൾ ഡിജിറ്റൈസ് ചെയ്യുക",
+        "description": "സ്‌കാൻ ചെയ്‌ത ഡോക്യുമെന്റ് ആർക്കൈവുകൾ തിരയാൻ കഴിയുന്നതാക്കുക.",
         "icon": "archive"
       },
       {
-        "title": "Document Search",
-        "description": "Enable text search in scanned documents.",
+        "title": "ഡോക്യുമെന്റ് സെർച്ച്",
+        "description": "സ്‌കാൻ ചെയ്ത ഡോക്യുമെന്റുകളിൽ ടെക്സ്റ്റ് തിരച്ചിൽ പ്രവർത്തനക്ഷമമാക്കുക.",
         "icon": "search"
       },
       {
-        "title": "Text Extraction",
-        "description": "Extract text from scanned documents for editing.",
+        "title": "ടെക്സ്റ്റ് വേർതിരിച്ചെടുക്കൽ",
+        "description": "എഡിറ്റിംഗിനായി സ്‌കാൻ ചെയ്‌ത ഡോക്യുമെന്റുകളിൽ നിന്ന് ടെക്സ്റ്റ് വേർതിരിച്ചെടുക്കുക.",
         "icon": "type"
       }
     ],
     "faq": [
       {
-        "question": "What languages are supported?",
-        "answer": "Over 100 languages are supported including English, Chinese, Japanese, Korean, and more."
+        "question": "ഏതൊക്കെ ഭാഷകൾ പിന്തുണയ്ക്കുന്നു?",
+        "answer": "ഇംഗ്ലീഷ്, ചൈനീസ്, ജാപ്പനീസ്, കൊറിയൻ എന്നിവയും അതിലേറെയും ഉൾപ്പെടെ 100-ലധികം ഭാഷകൾ പിന്തുണയ്ക്കുന്നു."
       },
       {
-        "question": "Will the original layout be preserved?",
-        "answer": "Yes, the original visual layout is preserved with a searchable text layer added."
+        "question": "ഒറിജിനൽ ലേഔട്ട് നിലനിർത്തുമോ?",
+        "answer": "അതെ, തിരയാവുന്ന ടെക്സ്റ്റ് ലെയർ ചേർത്ത് ഒറിജിനൽ വിഷ്വൽ ലേഔട്ട് സംരക്ഷിക്കപ്പെടുന്നു."
       },
       {
-        "question": "How accurate is the OCR?",
-        "answer": "Accuracy depends on scan quality but typically exceeds 95% for clear documents."
+        "question": "OCR എത്രത്തോളം കൃത്യമാണ്?",
+        "answer": "കൃത്യത സ്‌കാൻ ഗുണനിലവാരത്തെ ആശ്രയിച്ചിരിക്കുന്നു, എന്നാൽ വ്യക്തമായ ഡോക്യുമെന്റുകൾക്ക് സാധാരണയായി 95%-ൽ കൂടുതലായിരിക്കും."
       }
     ]
   },
   "alternate-merge": {
-    "title": "Alternate Merge",
-    "metaDescription": "Merge PDFs by alternating pages. Combine front and back scans into one document.",
+    "title": "ആൾട്ടർനേറ്റ് മെർജ്",
+    "metaDescription": "പേജുകൾ ഒന്നടവിട്ട് നൽകി PDF-കൾ മെർജ് ചെയ്യുക. മുന്നിലെയും പിന്നിലെയും സ്‌കാനുകൾ ഒരു ഡോക്യുമെന്റിലേക്ക് സംയോജിപ്പിക്കുക.",
     "keywords": [
       "alternate merge",
       "interleave pdf",
       "combine scans",
       "front back merge"
     ],
-    "description": "\n      <p>Alternate Merge combines two PDFs by interleaving their pages alternately. This is perfect for combining separately scanned front and back pages into a single document.</p>\n      <p>Upload two PDFs and the tool will merge them by taking one page from each alternately. You can also reverse the order of one document for back-to-front scanning.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>Alternate Merge രണ്ട് PDF-കളുടെ പേജുകൾ ഒന്നടവിട്ട് നൽകി സംയോജിപ്പിക്കുന്നു. വേവ്വേറെ സ്‌കാൻ ചെയ്‌ത മുൻവശത്തെയും പിൻവശത്തെയും പേജുകൾ ഒരു ഡോക്യുമെന്റിലേക്ക് സംയോജിപ്പിക്കുന്നതിന് ഇത് അനുയോജ്യമാണ്.</p>\n      <p>രണ്ട് PDF-കൾ അപ്‌ലോഡ് ചെയ്യുക, ഓരോന്നിൽ നിന്നും ഓരോ പേജ് വീതം മാറിമാറിയെടുത്ത് ടൂൾ അവയെ മെർജ് ചെയ്യും. ബാക്ക്-ടു-ഫ്രണ്ട് സ്‌കാനിംഗിനായി ഒരു ഡോക്യുമെന്റിന്റെ ക്രമം തിരിക്കാനും നിങ്ങൾക്ക് കഴിയും.</p>\n      <p>എല്ലാ പ്രോസസ്സിംഗും നിങ്ങളുടെ ബ്രൗസറിൽ നടക്കുന്നു, ഇത് നിങ്ങളുടെ ഡോക്യുമെന്റുകൾ സ്വകാര്യമായി തുടരുന്നുവെന്ന് ഉറപ്പാക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Two PDFs",
-        "description": "Upload the front pages PDF and back pages PDF."
+        "title": "രണ്ട് PDF-കൾ അപ്‌ലോഡ് ചെയ്യുക",
+        "description": "മുൻ പേജുകളുടെ PDF-ഉം പിൻ പേജുകളുടെ PDF-ഉം അപ്‌ലോഡ് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Configure Order",
-        "description": "Choose whether to reverse the second document for back-to-front scans."
+        "title": "ക്രമം ക്രമീകരിക്കുക",
+        "description": "ബാക്ക്-ടു-ഫ്രണ്ട് സ്‌കാനുകൾക്കായി രണ്ടാമത്തെ ഡോക്യുമെന്റ് റിവേഴ്‌സ് ചെയ്യണോ വേണ്ടയോ എന്ന് തിരഞ്ഞെടുക്കുക."
       },
       {
         "step": 3,
         "title": "ലയിപ്പിച്ച് ഡൗൺലോഡ് ചെയ്യുക",
-        "description": "Click Merge to interleave pages and download."
+        "description": "പേജുകൾ മാറ്റിമാറി ചേർക്കുന്നതിനും ഡൗൺലോഡ് ചെയ്യുന്നതിനും മെർജ് ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Duplex Scanning",
-        "description": "Combine separately scanned front and back pages.",
+        "title": "ഡ്യുപ്ലക്സ് സ്കാനിംഗ്",
+        "description": "വേവ്വേറെ സ്‌കാൻ ചെയ്‌ത മുൻവശത്തെയും പിൻവശത്തെയും പേജുകൾ സംയോജിപ്പിക്കുക.",
         "icon": "copy"
       },
       {
-        "title": "Document Assembly",
-        "description": "Interleave pages from two related documents.",
+        "title": "ഡോക്യുമെന്റ് അസംബ്ലി",
+        "description": "ബന്ധപ്പെട്ട രണ്ട് ഡോക്യുമെന്റുകളിൽ നിന്നുള്ള പേജുകൾ മാറ്റിമാറി ചേർക്കുക.",
         "icon": "layers"
       },
       {
-        "title": "Book Scanning",
-        "description": "Combine odd and even page scans into complete books.",
+        "title": "ബുക്ക് സ്കാനിംഗ്",
+        "description": "ഒറ്റ സംഖ്യാ, ഇരട്ട സംഖ്യാ പേജ് സ്‌കാനുകൾ സംയോജിപ്പിച്ച് പൂർണ്ണമായ പുസ്തകങ്ങളാക്കുക.",
         "icon": "book"
       }
     ],
     "faq": [
       {
-        "question": "What if documents have different page counts?",
-        "answer": "Extra pages from the longer document are appended at the end."
+        "question": "ഡോക്യുമെന്റുകൾക്ക് വ്യത്യസ്ത പേജ് എണ്ണമാണെങ്കിൽ എന്ത് സംഭവിക്കും?",
+        "answer": "വലിയ ഡോക്യുമെന്റിൽ നിന്നുള്ള അധിക പേജുകൾ അവസാനഭാഗത്ത് ചേർക്കും."
       },
       {
-        "question": "Can I reverse page order?",
-        "answer": "Yes, you can reverse either document before merging."
+        "question": "എനിക്ക് പേജ് ക്രമം തിരിക്കാൻ കഴിയുമോ?",
+        "answer": "അതെ, മെർജ് ചെയ്യുന്നതിന് മുമ്പ് നിങ്ങൾക്ക് ഏതെങ്കിലും ഒരു ഡോക്യുമെന്റ് റിവേഴ്‌സ് ചെയ്യാം."
       },
       {
-        "question": "Is this different from regular merge?",
-        "answer": "Yes, regular merge appends documents; alternate merge interleaves pages."
+        "question": "ഇത് സാധാരണ മെർജിൽ നിന്ന് വ്യത്യസ്തമാണോ?",
+        "answer": "അതെ, സാധാരണ മെർജ് ഡോക്യുമെന്റുകളെ ഒന്നൊന്നിനു പുറകെയായി ചേർക്കുന്നു; ആൾട്ടർനേറ്റ് മെർജ് പേജുകളെ ഒന്നടവിട്ട് ചേർക്കുന്നു."
       }
     ]
   },
   "add-attachments": {
-    "title": "Add Attachments",
-    "metaDescription": "Embed files in PDF documents. Attach any file type to your PDFs.",
+    "title": "അറ്റാച്ച്‌മെന്റുകൾ ചേർക്കുക",
+    "metaDescription": "PDF ഡോക്യുമെന്റുകളിൽ ഫയലുകൾ എംബഡ് ചെയ്യുക. നിങ്ങളുടെ PDF-കളിലേക്ക് ഏത് ഫയൽ തരവും അറ്റാച്ച് ചെയ്യുക.",
     "keywords": [
       "pdf attachments",
       "embed files",
       "attach to pdf",
       "pdf portfolio"
     ],
-    "description": "\n      <p>Add Attachments embeds files of any type into your PDF documents. Attach spreadsheets, images, source files, or any other documents to create comprehensive PDF packages.</p>\n      <p>Attachments are embedded within the PDF and can be extracted by recipients using any PDF reader. Perfect for distributing related files together.</p>\n      <p>All processing happens in your browser, ensuring your files remain private.</p>\n    ",
+    "description": "\n      <p>Add Attachments ഏത് തരത്തിലുള്ള ഫയലുകളും നിങ്ങളുടെ PDF ഡോക്യുമെന്റുകളിലേക്ക് എംബഡ് ചെയ്യുന്നു. സമഗ്രമായ PDF പാക്കേജുകൾ സൃഷ്ടിക്കുന്നതിന് സ്പ്രെഡ്ഷീറ്റുകൾ, ചിത്രങ്ങൾ, സോഴ്സ് ഫയലുകൾ അല്ലെങ്കിൽ മറ്റ് ഏതെങ്കിലും ഡോക്യുമെന്റുകൾ അറ്റാച്ച് ചെയ്യുക.</p>\n      <p>അറ്റാച്ചുമെന്റുകൾ PDF-ൽ എംബഡ് ചെയ്തിരിക്കുന്നു, കൂടാതെ ഏത് PDF റീഡറും ഉപയോഗിച്ച് സ്വീകർത്താക്കൾക്ക് അവ വേർതിരിച്ചെടുക്കാൻ കഴിയും. ബന്ധപ്പെട്ട ഫയലുകൾ ഒരുമിച്ച് വിതരണം ചെയ്യുന്നതിന് ഇത് അനുയോജ്യമാണ്.</p>\n      <p>എല്ലാ പ്രോസസ്സിംഗും നിങ്ങളുടെ ബ്രൗസറിൽ നടക്കുന്നു, ഇത് നിങ്ങളുടെ ഫയലുകൾ സ്വകാര്യമായി തുടരുന്നുവെന്ന് ഉറപ്പാക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "നിങ്ങളുടെ PDF ഫയൽ ഡ്രാഗ് ആൻഡ് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Add Attachments",
-        "description": "Select files to attach to the PDF."
+        "title": "അറ്റാച്ച്‌മെന്റുകൾ ചേർക്കുക",
+        "description": "PDF-ലേക്ക് അറ്റാച്ച് ചെയ്യേണ്ട ഫയലുകൾ തിരഞ്ഞെടുക്കുക."
       },
       {
         "step": 3,
         "title": "സേവ് ചെയ്ത് ഡൗൺലോഡ് ചെയ്യുക",
-        "description": "Click Save to embed attachments and download."
+        "description": "അറ്റാച്ച്‌മെന്റുകൾ ഉൾപ്പെടുത്തി ഡൗൺലോഡ് ചെയ്യാൻ Save ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Project Packages",
-        "description": "Bundle project files with documentation PDFs.",
+        "title": "പ്രോജക്റ്റ് പാക്കേജുകൾ",
+        "description": "ഡോക്യുമെന്റേഷൻ PDF-കൾക്കൊപ്പം പ്രോജക്റ്റ് ഫയലുകൾ ബണ്ടിൽ ചെയ്യുക.",
         "icon": "package"
       },
       {
-        "title": "Report Distribution",
-        "description": "Attach source data files to report PDFs.",
+        "title": "റിപ്പോർട്ട് ഡിസ്ട്രിബ്യൂഷൻ",
+        "description": "റിപ്പോർട്ട് PDF-കളിലേക്ക് സോഴ്സ് ഡാറ്റ ഫയലുകൾ അറ്റാച്ചുചെയ്യുക.",
         "icon": "paperclip"
       },
       {
-        "title": "Contract Bundles",
-        "description": "Include supporting documents with contracts.",
+        "title": "കരാർ ബണ്ടിലുകൾ",
+        "description": "കരാറുകൾക്കൊപ്പം അനുബന്ധ രേഖകളും ഉൾപ്പെടുത്തുക.",
         "icon": "file-text"
       }
     ],
     "faq": [
       {
-        "question": "What file types can be attached?",
-        "answer": "Any file type can be attached to a PDF."
+        "question": "ഏതൊക്കെ ഫയൽ തരങ്ങളാണ് അറ്റാച്ച് ചെയ്യാൻ കഴിയുക?",
+        "answer": "ഏത് ഫയൽ തരവും ഒരു PDF-ലേക്ക് അറ്റാച്ച് ചെയ്യാം."
       },
       {
-        "question": "Is there a size limit?",
-        "answer": "Total PDF size including attachments should not exceed 500MB."
+        "question": "വലുപ്പ പരിധിയുണ്ടോ?",
+        "answer": "അറ്റാച്ച്‌മെന്റുകൾ ഉൾപ്പെടെയുള്ള മൊത്തം PDF വലുപ്പം 500MB കവിയരുത്."
       },
       {
-        "question": "Can recipients extract attachments?",
-        "answer": "Yes, any PDF reader can extract embedded attachments."
+        "question": "സ്വീകർത്താക്കൾക്ക് അറ്റാച്ച്‌മെന്റുകൾ വേർതിരിച്ചെടുക്കാൻ കഴിയുമോ?",
+        "answer": "അതെ, ഏത് PDF റീഡറിനും ഉൾച്ചേർത്ത അറ്റാച്ച്‌മെന്റുകൾ വേർതിരിച്ചെടുക്കാൻ കഴിയും."
       }
     ]
   },
   "extract-attachments": {
-    "title": "Extract Attachments",
-    "metaDescription": "Extract embedded files from PDFs. Download all attachments from PDF documents.",
+    "title": "അറ്റാച്ച്‌മെന്റുകൾ എക്‌സ്‌ട്രാക്‌റ്റ് ചെയ്യുക",
+    "metaDescription": "PDF-കളിൽ നിന്ന് ഉൾച്ചേർത്ത ഫയലുകൾ വേർതിരിച്ചെടുക്കുക. PDF ഡോക്യുമെന്റുകളിൽ നിന്ന് എല്ലാ അറ്റാച്ച്‌മെന്റുകളും ഡൗൺലോഡ് ചെയ്യുക.",
     "keywords": [
       "extract attachments",
       "pdf attachments",
       "download embedded files",
       "pdf extraction"
     ],
-    "description": "\n      <p>Extract Attachments retrieves all embedded files from PDF documents. Download attachments individually or as a ZIP archive containing all files.</p>\n      <p>Perfect for accessing source files, data, or supplementary materials embedded in PDF packages.</p>\n      <p>All extraction happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>Extract Attachments ഫീച്ചർ PDF ഡോക്യുമെന്റുകളിൽ നിന്ന് ഉൾച്ചേർത്ത എല്ലാ ഫയലുകളും വീണ്ടെടുക്കുന്നു. അറ്റാച്ച്‌മെന്റുകൾ വ്യക്തിഗതമായോ അല്ലെങ്കിൽ എല്ലാ ഫയലുകളും അടങ്ങിയ ഒരു ZIP ആർക്കൈവായോ ഡൗൺലോഡ് ചെയ്യുക.</p>\n      <p>PDF പാക്കേജുകളിൽ ഉൾച്ചേർത്ത സോഴ്സ് ഫയലുകൾ, ഡാറ്റ അല്ലെങ്കിൽ അനുബന്ധ സാമഗ്രികൾ എന്നിവ ആക്‌സസ് ചെയ്യുന്നതിന് അനുയോജ്യമാണ്.</p>\n      <p>എല്ലാ എക്‌സ്‌ട്രാക്‌ഷനും നിങ്ങളുടെ ബ്രൗസറിലാണ് നടക്കുന്നത്, അത് നിങ്ങളുടെ ഡോക്യുമെന്റുകൾ സ്വകാര്യമായി തുടരുന്നു എന്ന് ഉറപ്പാക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "നിങ്ങളുടെ PDF ഫയൽ ഡ്രാഗ് ആൻഡ് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "View Attachments",
-        "description": "See a list of all embedded files in the PDF."
+        "title": "അറ്റാച്ച്‌മെന്റുകൾ കാണുക",
+        "description": "PDF-ൽ ഉൾച്ചേർത്ത എല്ലാ ഫയലുകളുടെയും ഒരു ലിസ്റ്റ് കാണുക."
       },
       {
         "step": 3,
         "title": "വേർതിരിച്ചെടുത്ത് ഡൗൺലോഡ് ചെയ്യുക",
-        "description": "Download individual files or all as a ZIP."
+        "description": "വ്യക്തിഗത ഫയലുകളായോ അല്ലെങ്കിൽ എല്ലാം ഒരു ZIP ആയോ ഡൗൺലോഡ് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Access Source Files",
-        "description": "Extract original data files from PDF reports.",
+        "title": "സോഴ്സ് ഫയലുകൾ ആക്സസ് ചെയ്യുക",
+        "description": "PDF റിപ്പോർട്ടുകളിൽ നിന്ന് ഒറിജിനൽ ഡാറ്റ ഫയലുകൾ വേർതിരിച്ചെടുക്കുക.",
         "icon": "download"
       },
       {
-        "title": "Recover Attachments",
-        "description": "Retrieve embedded files from PDF packages.",
+        "title": "അറ്റാച്ച്‌മെന്റുകൾ വീണ്ടെടുക്കുക",
+        "description": "PDF പാക്കേജുകളിൽ നിന്ന് ഉൾച്ചേർത്ത ഫയലുകൾ വീണ്ടെടുക്കുക.",
         "icon": "folder-open"
       },
       {
-        "title": "Batch Extraction",
-        "description": "Extract attachments from multiple PDFs at once.",
+        "title": "ബാച്ച് എക്സ്ട്രാക്ഷൻ",
+        "description": "ഒരേസമയം ഒന്നിലധികം PDF-കളിൽ നിന്ന് അറ്റാച്ച്‌മെന്റുകൾ വേർതിരിച്ചെടുക്കുക.",
         "icon": "layers"
       }
     ],
     "faq": [
       {
-        "question": "What if there are no attachments?",
-        "answer": "The tool will indicate if no embedded files are found."
+        "question": "അറ്റാച്ച്‌മെന്റുകൾ ഇല്ലെങ്കിലോ?",
+        "answer": "ഉൾച്ചേർത്ത ഫയലുകളൊന്നും കണ്ടെത്തിയില്ലെങ്കിൽ ടൂൾ അത് സൂചിപ്പിക്കും."
       },
       {
-        "question": "Are all attachment types supported?",
-        "answer": "Yes, all embedded file types can be extracted."
+        "question": "എല്ലാത്തരം അറ്റാച്ച്‌മെന്റ് തരങ്ങളും പിന്തുണയ്ക്കുന്നുണ്ടോ?",
+        "answer": "അതെ, ഉൾച്ചേർത്ത എല്ലാ ഫയൽ തരങ്ങളും വേർതിരിച്ചെടുക്കാൻ കഴിയും."
       },
       {
-        "question": "Can I extract from multiple PDFs?",
-        "answer": "Yes, you can process multiple PDFs and download all attachments."
+        "question": "എനിക്ക് ഒന്നിലധികം PDF-കളിൽ നിന്ന് വേർതിരിച്ചെടുക്കാൻ കഴിയുമോ?",
+        "answer": "അതെ, നിങ്ങൾക്ക് ഒന്നിലധികം PDF-കൾ പ്രോസസ്സ് ചെയ്യാനും എല്ലാ അറ്റാച്ച്‌മെന്റുകളും ഡൗൺലോഡ് ചെയ്യാനും കഴിയും."
       }
     ]
   },
   "extract-images": {
-    "title": "Extract Images from PDF",
-    "metaDescription": "Extract all embedded images from PDF files. Download individually or as a ZIP archive. Filter small images automatically.",
+    "title": "PDF-ൽ നിന്ന് ചിത്രങ്ങൾ വേർതിരിച്ചെടുക്കുക",
+    "metaDescription": "PDF ഫയലുകളിൽ നിന്ന് ഉൾച്ചേർത്ത എല്ലാ ചിത്രങ്ങളും വേർതിരിച്ചെടുക്കുക. വ്യക്തിഗതമായോ ഒരു ZIP ആർക്കൈവായോ ഡൗൺലോഡ് ചെയ്യുക. ചെറിയ ചിത്രങ്ങൾ സ്വയമേവ ഫിൽട്ടർ ചെയ്യുക.",
     "keywords": [
       "extract pdf images",
       "pdf image extraction",
@@ -3628,359 +3628,359 @@ export const toolContentMl: Record<string, ToolContent> = {
       "download pdf images",
       "pdf to images"
     ],
-    "description": "\n      <p>Extract Images from PDF retrieves all embedded images from your PDF documents. Download high-quality images individually or as a convenient ZIP archive.</p>\n      <p>The tool automatically filters out small images like icons and decorations based on customizable size thresholds. Process multiple PDFs at once for efficient batch extraction.</p>\n      <p>All extraction happens in your browser, ensuring your documents remain private and secure.</p>\n    ",
+    "description": "\n      <p>Extract Images from PDF നിങ്ങളുടെ PDF ഡോക്യുമെന്റുകളിൽ നിന്ന് ഉൾച്ചേർത്ത എല്ലാ ചിത്രങ്ങളും വീണ്ടെടുക്കുന്നു. ഉയർന്ന ഗുണമേന്മയുള്ള ചിത്രങ്ങൾ വ്യക്തിഗതമായോ ഒരു ZIP ആർക്കൈവായോ ഡൗൺലോഡ് ചെയ്യുക.</p>\n      <p>നിങ്ങൾ സജ്ജീകരിക്കുന്ന വലുപ്പ പരിധികൾ അടിസ്ഥാനമാക്കി ഐക്കണുകളും അലങ്കാരങ്ങളും പോലുള്ള ചെറിയ ചിത്രങ്ങളെ ടൂൾ സ്വയമേവ ഫിൽട്ടർ ചെയ്യുന്നു. കാര്യക്ഷമമായ ബാച്ച് എക്സ്ട്രാക്ഷനായി ഒരേസമയം ഒന്നിലധികം PDF-കൾ പ്രോസസ്സ് ചെയ്യുക.</p>\n      <p>എല്ലാ എക്‌സ്‌ട്രാക്‌ഷനും നിങ്ങളുടെ ബ്രൗസറിലാണ് നടക്കുന്നത്, അത് നിങ്ങളുടെ ഡോക്യുമെന്റുകൾ സ്വകാര്യവും സുരക്ഷിതവുമായി തുടരുന്നു എന്ന് ഉറപ്പാക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Your PDFs",
-        "description": "Drag and drop one or more PDF files or click to select from your device."
+        "title": "നിങ്ങളുടെ PDF-കൾ അപ്‌ലോഡ് ചെയ്യുക",
+        "description": "ഒന്നോ അതിലധികമോ PDF ഫയലുകൾ ഡ്രാഗ് ആൻഡ് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ നിങ്ങളുടെ ഉപകരണത്തിൽ നിന്ന് തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Set Filter Options",
-        "description": "Adjust minimum width, height, and file size to filter out unwanted small images."
+        "title": "ഫിൽട്ടർ ഓപ്ഷനുകൾ സജ്ജീകരിക്കുക",
+        "description": "വേണ്ടാത്ത ചെറിയ ചിത്രങ്ങൾ ഫിൽട്ടർ ചെയ്യുന്നതിന് കുറഞ്ഞ വീതി, ഉയരം, ഫയൽ വലുപ്പം എന്നിവ ക്രമീകരിക്കുക."
       },
       {
         "step": 3,
-        "title": "Extract Images",
-        "description": "Click Extract to find all embedded images in your PDFs."
+        "title": "ചിത്രങ്ങൾ എക്‌സ്‌ട്രാക്‌റ്റ് ചെയ്യുക",
+        "description": "നിങ്ങളുടെ PDF-കളിൽ ഉൾച്ചേർത്ത എല്ലാ ചിത്രങ്ങളും കണ്ടെത്തുന്നതിന് Extract ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 4,
-        "title": "Download",
-        "description": "Download individual images or all images as a ZIP archive."
+        "title": "ഡൗൺലോഡ്",
+        "description": "വ്യക്തിഗത ചിത്രങ്ങളായോ അല്ലെങ്കിൽ എല്ലാ ചിത്രങ്ങളും ഒരു ZIP ആർക്കൈവായോ ഡൗൺലോഡ് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Photo Recovery",
-        "description": "Extract photos and images embedded in PDF documents for reuse or archiving.",
+        "title": "ഫോട്ടോ റിക്കവറി",
+        "description": "പുനരുപയോഗത്തിനായോ ആർക്കൈവ് ചെയ്യുന്നതിനായോ PDF ഡോക്യുമെന്റുകളിൽ ഉൾച്ചേർത്ത ഫോട്ടോകളും ചിത്രങ്ങളും വേർതിരിച്ചെടുക്കുക.",
         "icon": "image"
       },
       {
-        "title": "Asset Collection",
-        "description": "Gather all graphics and images from PDF reports, presentations, or brochures.",
+        "title": "അസറ്റ് കളക്ഷൻ",
+        "description": "PDF റിപ്പോർട്ടുകൾ, പ്രസന്റേഷനുകൾ അല്ലെങ്കിൽ ബ്രോഷറുകൾ എന്നിവയിൽ നിന്ന് എല്ലാ ഗ്രാഫിക്സുകളും ചിത്രങ്ങളും ശേഖരിക്കുക.",
         "icon": "folder"
       },
       {
-        "title": "Content Repurposing",
-        "description": "Extract images from PDFs to use in other documents, websites, or presentations.",
+        "title": "കണ്ടന്റ് റീപ്പർപസിംഗ്",
+        "description": "മറ്റ് ഡോക്യുമെന്റുകളിലോ വെബ്‌സൈറ്റുകളിലോ പ്രസന്റേഷനുകളിലോ ഉപയോഗിക്കുന്നതിന് PDF-കളിൽ നിന്ന് ചിത്രങ്ങൾ വേർതിരിച്ചെടുക്കുക.",
         "icon": "refresh-cw"
       }
     ],
     "faq": [
       {
-        "question": "What image formats are extracted?",
-        "answer": "Images are extracted in their native format (JPEG, PNG, etc.) when possible, or converted to PNG for raw image data."
+        "question": "ഏതൊക്കെ ചിത്രം ഫോർമാറ്റുകളാണ് വേർതിരിച്ചെടുക്കുന്നത്?",
+        "answer": "സാധ്യമകുമ്പോൾ ചിത്രങ്ങൾ അവയുടെ ഒറിജിനൽ ഫോർമാറ്റിൽ തന്നെ (JPEG, PNG, മുതലായവ) വേർതിരിച്ചെടുക്കുന്നു, അല്ലെങ്കിൽ റോ (raw) ഇമേജ് ഡാറ്റയ്ക്കായി PNG-യിലേക്ക് മാറ്റുന്നു."
       },
       {
-        "question": "Why are some images missing?",
-        "answer": "Small images below the size threshold are filtered out. Adjust the filter settings to extract smaller images."
+        "question": "ചില ചിത്രങ്ങൾ കാണാത്തത് എന്തുകൊണ്ട്?",
+        "answer": "വലുപ്പ പരിധിക്ക് താഴെയുള്ള ചെറിയ ചിത്രങ്ങൾ ഫിൽട്ടർ ചെയ്യപ്പെടും. ചെറിയ ചിത്രങ്ങൾ വേർതിരിച്ചെടുക്കാൻ ഫിൽട്ടർ ക്രമീകരണങ്ങൾ ക്രമീകരിക്കുക."
       },
       {
-        "question": "Can I extract from scanned PDFs?",
-        "answer": "Scanned PDFs typically contain the scan as one large image per page. Use PDF to Image tool instead for page-by-page conversion."
+        "question": "സ്‌കാൻ ചെയ്‌ത PDF-കളിൽ നിന്ന് എനിക്ക് എക്‌സ്‌ട്രാക്‌റ്റ് ചെയ്യാനാകുമോ?",
+        "answer": "സ്കാൻ ചെയ്ത PDF-കളിൽ സാധാരണയായി ഓരോ പേജിലും ഒരു വലിയ ചിത്രമായാണ് സ്കാൻ കാണപ്പെടുന്നത്. പേജ് അടിസ്ഥാനത്തിലുള്ള പരിവർത്തനത്തിന് പകരം PDF to Image ഉപകരണം ഉപയോഗിക്കുക."
       }
     ]
   },
   "edit-attachments": {
-    "title": "Edit Attachments",
-    "metaDescription": "Manage PDF attachments. View, rename, and remove embedded files.",
+    "title": "അറ്റാച്ച്‌മെന്റുകൾ എഡിറ്റ് ചെയ്യുക",
+    "metaDescription": "PDF അറ്റാച്ച്‌മെന്റുകൾ കൈകാര്യം ചെയ്യുക. എംബഡ് ചെയ്ത ഫയലുകൾ കാണുക, പേരുമാറ്റുക, നീക്കംചെയ്യുക.",
     "keywords": [
       "edit attachments",
       "manage pdf files",
       "remove attachments",
       "rename attachments"
     ],
-    "description": "\n      <p>Edit Attachments lets you manage embedded files in PDF documents. View all attachments, rename them, or remove unwanted files from the PDF.</p>\n      <p>Perfect for cleaning up PDF packages or updating attachment information before distribution.</p>\n      <p>All editing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>PDF ഡാക്യുമെന്റുകളിലെ എംബഡ് ചെയ്ത ഫയലുകൾ കൈകാര്യം ചെയ്യാൻ Edit Attachments നിങ്ങളെ സഹായിക്കുന്നു. എല്ലാ അറ്റാച്ച്‌മെന്റുകളും കാണുക, അവയുടെ പേരുമാറ്റുക, അല്ലെങ്കിൽ ആവശ്യമില്ലാത്ത ഫയലുകൾ PDF-ൽ നിന്ന് നീക്കംചെയ്യുക.</p>\n      <p>വിതരണത്തിന് മുമ്പ് PDF പാക്കേജുകൾ വൃത്തിയാക്കുന്നതിനോ അറ്റാച്ച്‌മെന്റ് വിവരങ്ങൾ പുതുക്കുന്നതിനോ അനുയോജ്യമാണ്.</p>\n      <p>എല്ലാ എഡിറ്റിംഗും നിങ്ങളുടെ ബ്രൗസറിൽ സംഭവിക്കുന്നു, ഇത് നിങ്ങളുടെ ഡാക്യുമെന്റുകൾ സ്വകാര്യമായി തുടരുന്നുവെന്ന് ഉറപ്പാക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "നിങ്ങളുടെ PDF ഫയൽ ഡ്രാഗ് ആൻഡ് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Manage Attachments",
-        "description": "View, rename, or delete embedded files."
+        "title": "അറ്റാച്ച്‌മെന്റുകൾ കൈകാര്യം ചെയ്യുക",
+        "description": "എംബഡ് ചെയ്ത ഫയലുകൾ കാണുക, പേരുമാറ്റുക, അല്ലെങ്കിൽ ഇല്ലാതാക്കുക."
       },
       {
         "step": 3,
         "title": "സേവ് ചെയ്ത് ഡൗൺലോഡ് ചെയ്യുക",
-        "description": "Click Save to apply changes and download."
+        "description": "മാറ്റങ്ങൾ വരുത്തുന്നതിനും ഡൗൺലോഡ് ചെയ്യുന്നതിനും Save ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Clean Up PDFs",
-        "description": "Remove unnecessary attachments from PDF packages.",
+        "title": "PDF-കൾ ക്ലീൻ അപ്പ് ചെയ്യുക",
+        "description": "PDF പാക്കേജുകളിൽ നിന്ന് ആവശ്യമില്ലാത്ത അറ്റാച്ച്‌മെന്റുകൾ നീക്കംചെയ്യുക.",
         "icon": "trash-2"
       },
       {
-        "title": "Rename Files",
-        "description": "Update attachment names for clarity.",
+        "title": "ഫയലുകളുടെ പേരുമാറ്റുക",
+        "description": "വ്യക്തതയ്ക്കായി അറ്റാച്ച്‌മെന്റുകളുടെ പേരുകൾ പുതുക്കുക.",
         "icon": "edit"
       },
       {
-        "title": "Review Contents",
-        "description": "Audit embedded files before distribution.",
+        "title": "ഉള്ളടക്കം പരിശോധിക്കുക",
+        "description": "വിതരണത്തിന് മുമ്പ് എംബഡ് ചെയ്ത ഫയലുകൾ പരിശോധിക്കുക.",
         "icon": "eye"
       }
     ],
     "faq": [
       {
-        "question": "Can I add new attachments here?",
-        "answer": "Use the Add Attachments tool to embed new files."
+        "question": "എനിക്ക് ഇവിടെ പുതിയ അറ്റാച്ച്‌മെന്റുകൾ ചേർക്കാൻ കഴിയുമോ?",
+        "answer": "പുതിയ ഫയലുകൾ എംബഡ് ചെയ്യാൻ Add Attachments ഉപകരണം ഉപയോഗിക്കുക."
       },
       {
-        "question": "Is removal permanent?",
-        "answer": "Yes, removed attachments cannot be recovered from the output file."
+        "question": "നീക്കംചെയ്യൽ ശാശ്വതമാണോ?",
+        "answer": "അതെ, നീക്കംചെയ്‌ത അറ്റാച്ച്‌മെന്റുകൾ ഔട്ട്‌പുട്ട് ഫയലിൽ നിന്ന് വീണ്ടെടുക്കാൻ കഴിയില്ല."
       },
       {
-        "question": "Can I preview attachments?",
-        "answer": "You can see file names and sizes; use Extract Attachments to view contents."
+        "question": "എനിക്ക് അറ്റാച്ച്‌മെന്റുകൾ പ്രിവ്യൂ ചെയ്യാൻ കഴിയുമോ?",
+        "answer": "നിങ്ങൾക്ക് ഫയലിന്റെ പേരുകളും വലുപ്പങ്ങളും കാണാൻ കഴിയും; ഉള്ളടക്കങ്ങൾ കാണാൻ Extract Attachments ഉപയോഗിക്കുക."
       }
     ]
   },
   "divide-pages": {
-    "title": "Divide Pages",
-    "metaDescription": "Split PDF pages into multiple sections. Divide pages horizontally or vertically.",
+    "title": "പേജുകൾ വിഭജിക്കുക",
+    "metaDescription": "PDF പേജുകളെ ഒന്നിലധികം വിഭാഗങ്ങളായി വിഭജിക്കുക. പേജുകളെ തിരശ്ചീനമായോ ലംബമായോ വിഭജിക്കുക.",
     "keywords": [
       "divide pdf pages",
       "split page",
       "cut pdf page",
       "page sections"
     ],
-    "description": "\n      <p>Divide Pages splits individual PDF pages into multiple sections. Cut pages horizontally, vertically, or into a grid to create multiple pages from one.</p>\n      <p>Perfect for splitting scanned documents with multiple items per page, or dividing large format pages into standard sizes.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>Divide Pages വ്യക്തിഗത PDF പേജുകളെ ഒന്നിലധികം വിഭാഗങ്ങളായി വിഭജിക്കുന്നു. ഒരെണ്ണത്തിൽ നിന്ന് ഒന്നിലധികം പേജുകൾ നിർമ്മിക്കുന്നതിന് പേജുകൾ തിരശ്ചീനമായോ, ലംബമായോ, അല്ലെങ്കിൽ ഒരു ഗ്രിഡായോ മുറിക്കുക.</p>\n      <p>ഓരോ പേജിലും ഒന്നിലധികം ഇനങ്ങൾ അടങ്ങിയിരിക്കുന്ന സ്കാൻ ചെയ്ത ഡാക്യുമെന്റുകൾ വിഭജിക്കുന്നതിനോ അല്ലെങ്കിൽ വലിയ ഫോർമാറ്റ് പേജുകളെ സാധാരണ വലുപ്പങ്ങളിലേക്ക് വിഭജിക്കുന്നതിനോ അനുയോജ്യമാണ്.</p>\n      <p>എല്ലാ പ്രോസസ്സിംഗും നിങ്ങളുടെ ബ്രൗസറിൽ സംഭവിക്കുന്നു, ഇത് നിങ്ങളുടെ ഡാക്യുമെന്റുകൾ സ്വകാര്യമായി തുടരുന്നുവെന്ന് ഉറപ്പാക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "നിങ്ങളുടെ PDF ഫയൽ ഡ്രാഗ് ആൻഡ് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Set Division",
-        "description": "Choose horizontal, vertical, or grid division and set the number of sections."
+        "title": "വിഭജനം നിശ്ചയിക്കുക",
+        "description": "തിരശ്ചീനമായോ, ലംബമായോ, അല്ലെങ്കിൽ ഗ്രിഡ് വിഭജനമോ തിരഞ്ഞെടുത്ത് വിഭാഗങ്ങളുടെ എണ്ണം ക്രമീകരിക്കുക."
       },
       {
         "step": 3,
-        "title": "Divide and Download",
-        "description": "Click Divide to split pages and download."
+        "title": "വിഭജിച്ച് ഡൗൺലോഡ് ചെയ്യുക",
+        "description": "പേജുകൾ വിഭജിക്കുന്നതിനും ഡൗൺലോഡ് ചെയ്യുന്നതിനും Divide ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Split Scans",
-        "description": "Divide scanned pages containing multiple documents.",
+        "title": "സ്കാനുകൾ വിഭജിക്കുക",
+        "description": "ഒന്നിലധികം ഡാക്യുമെന്റുകൾ അടങ്ങിയ സ്കാൻ ചെയ്ത പേജുകൾ വിഭജിക്കുക.",
         "icon": "scissors"
       },
       {
-        "title": "Resize Pages",
-        "description": "Split large pages into standard paper sizes.",
+        "title": "പേജുകളുടെ വലുപ്പം മാറ്റുക",
+        "description": "വലിയ പേജുകളെ സാധാരണ പേപ്പർ വലുപ്പങ്ങളിലേക്ക് വിഭജിക്കുക.",
         "icon": "maximize-2"
       },
       {
-        "title": "Create Cards",
-        "description": "Divide pages into card-sized sections for printing.",
+        "title": "കാർഡുകൾ ഉണ്ടാക്കുക",
+        "description": "പ്രിന്റിംഗിനായി പേജുകളെ കാർഡ് വലുപ്പമുള്ള വിഭാഗങ്ങളായി വിഭജിക്കുക.",
         "icon": "grid"
       }
     ],
     "faq": [
       {
-        "question": "Can I divide into unequal sections?",
-        "answer": "Currently, divisions are equal. Use Crop PDF for custom sections."
+        "question": "എനിക്ക് അസമമായ വിഭാഗങ്ങളായി വിഭജിക്കാൻ കഴിയുമോ?",
+        "answer": "നിലവിൽ, വിഭജനങ്ങൾ തുല്യമാണ്. കസ്റ്റം വിഭാഗങ്ങൾക്കായി Crop PDF ഉപയോഗിക്കുക."
       },
       {
-        "question": "What happens to content at division lines?",
-        "answer": "Content is split at the division line; ensure important content is not at boundaries."
+        "question": "വിഭജന രേഖകളിലെ ഉള്ളടക്കത്തിന് എന്ത് സംഭവിക്കും?",
+        "answer": "വിഭജന രേഖയിൽ വെച്ച് ഉള്ളടക്കം വിഭജിക്കപ്പെടുന്നു; പ്രധാനപ്പെട്ട ഉള്ളടക്കം അതിർത്തികളിൽ ഇല്ലെന്ന് ഉറപ്പാക്കുക."
       },
       {
-        "question": "Can I divide specific pages only?",
-        "answer": "Yes, you can select which pages to divide."
+        "question": "എനിക്ക് നിർദ്ദിഷ്ട പേജുകൾ മാത്രം വിഭജിക്കാൻ കഴിയുമോ?",
+        "answer": "അതെ, ഏത് പേജുകളാണ് വിഭജിക്കേണ്ടതെന്ന് നിങ്ങൾക്ക് തിരഞ്ഞെടുക്കാം."
       }
     ]
   },
   "add-blank-page": {
-    "title": "Add Blank Page",
-    "metaDescription": "Insert blank pages into PDF documents. Add empty pages at any position.",
+    "title": "ശൂന്യമായ പേജ് ചേർക്കുക",
+    "metaDescription": "PDF ഡാക്യുമെന്റുകളിലേക്ക് ശൂന്യമായ പേജുകൾ ചേർക്കുക. ഏത് സ്ഥാനത്തും ശൂന്യമായ പേജുകൾ ചേർക്കുക.",
     "keywords": [
       "add blank page",
       "insert page",
       "empty page",
       "pdf page insertion"
     ],
-    "description": "\n      <p>Add Blank Page inserts empty pages into your PDF documents at any position. Add pages before, after, or between existing pages with customizable page size.</p>\n      <p>Perfect for adding space for notes, creating section dividers, or preparing documents for printing.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>Add Blank Page നിങ്ങളുടെ PDF ഡാക്യുമെന്റുകളിൽ ഏത് സ്ഥാനത്തും ശൂന്യമായ പേജുകൾ ചേർക്കുന്നു. അനുയോജ്യമായ പേജ് വലുപ്പത്തോടെ നിലവിലുള്ള പേജുകൾക്ക് മുമ്പോ, ശേഷമോ, അല്ലെങ്കിൽ ഇടയിലോ പേജുകൾ ചേർക്കുക.</p>\n      <p>കുറിപ്പുകൾക്കായി സ്ഥലം ചേർക്കുന്നതിനോ, സെക്ഷൻ ഡിവൈഡറുകൾ നിർമ്മിക്കുന്നതിനോ, പ്രിന്റിംഗിനായി ഡാക്യുമെന്റുകൾ തയ്യാറാക്കുന്നതിനോ അനുയോജ്യമാണ്.</p>\n      <p>എല്ലാ പ്രോസസ്സിംഗും നിങ്ങളുടെ ബ്രൗസറിൽ സംഭവിക്കുന്നു, ഇത് നിങ്ങളുടെ ഡാക്യുമെന്റുകൾ സ്വകാര്യമായി തുടരുന്നുവെന്ന് ഉറപ്പാക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "നിങ്ങളുടെ PDF ഫയൽ ഡ്രാഗ് ആൻഡ് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Choose Position",
-        "description": "Select where to insert blank pages and how many."
+        "title": "സ്ഥാനം തിരഞ്ഞെടുക്കുക",
+        "description": "ശൂന്യമായ പേജുകൾ എവിടെ ചേർക്കണമെന്നും എത്രയെണ്ണം വേണമെന്നും തിരഞ്ഞെടുക്കുക."
       },
       {
         "step": 3,
-        "title": "Add and Download",
-        "description": "Click Add to insert pages and download."
+        "title": "ചേർത്ത് ഡൗൺലോഡ് ചെയ്യുക",
+        "description": "പേജുകൾ ചേർക്കുന്നതിനും ഡൗൺലോഡ് ചെയ്യുന്നതിനും Add ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Note Space",
-        "description": "Add blank pages for handwritten notes.",
+        "title": "കുറിപ്പുകൾക്കുള്ള സ്ഥലം",
+        "description": "കൈയെഴുത്ത് കുറിപ്പുകൾക്കായി ശൂന്യമായ പേജുകൾ ചേർക്കുക.",
         "icon": "edit-3"
       },
       {
-        "title": "Section Dividers",
-        "description": "Insert blank pages between document sections.",
+        "title": "സെക്ഷൻ ഡിവൈഡറുകൾ",
+        "description": "ഡാക്യുമെന്റ് സെക്ഷനുകൾക്കിടയിൽ ശൂന്യമായ പേജുകൾ ചേർക്കുക.",
         "icon": "minus"
       },
       {
         "title": "പ്രിന്റ് തയ്യാറാക്കൽ",
-        "description": "Add pages for duplex printing alignment.",
+        "description": "ഡ്യുപ്ലെക്സ് പ്രിന്റിംഗ് അലൈൻമെന്റിനായി പേജുകൾ ചേർക്കുക.",
         "icon": "printer"
       }
     ],
     "faq": [
       {
-        "question": "Can I choose the page size?",
-        "answer": "Yes, blank pages can match existing pages or use custom dimensions."
+        "question": "എനിക്ക് പേജിന്റെ വലുപ്പം തിരഞ്ഞെടുക്കാമോ?",
+        "answer": "അതെ, ശൂന്യമായ പേജുകൾ നിലവിലുള്ള പേജുകളുമായി പൊരുത്തപ്പെടുത്താനോ അനുയോജ്യമായ അളവുകൾ ഉപയോഗിക്കാനോ കഴിയും."
       },
       {
-        "question": "Can I add multiple blank pages?",
-        "answer": "Yes, you can add any number of blank pages at once."
+        "question": "എനിക്ക് ഒന്നിലധികം ശൂന്യമായ പേജുകൾ ചേർക്കാമോ?",
+        "answer": "അതെ, നിങ്ങൾക്ക് ഒരേസമയം എത്ര ശൂന്യമായ പേജുകൾ വേണമെങ്കിലും ചേർക്കാം."
       },
       {
-        "question": "Can I add colored pages?",
-        "answer": "Use Background Color tool after adding blank pages to add color."
+        "question": "എനിക്ക് കളർ പേജുകൾ ചേർക്കാമോ?",
+        "answer": "നിറം ചേർക്കുന്നതിന് ശൂന്യമായ പേജുകൾ ചേർത്ത ശേഷം ബാക്ക്ഗ്രൗണ്ട് കളർ ടൂൾ ഉപയോഗിക്കുക."
       }
     ]
   },
   "reverse-pages": {
-    "title": "Reverse Pages",
-    "metaDescription": "Reverse PDF page order. Flip document pages from last to first.",
+    "title": "പേജുകൾ തിരിച്ചാക്കുക",
+    "metaDescription": "PDF പേജുകളുടെ ക്രമം തിരിച്ചാക്കുക. ഡോക്യുമെന്റ് പേജുകൾ അവസാനം മുതൽ ആദ്യത്തേക്ക് തിരിച്ചാക്കുക.",
     "keywords": [
       "reverse pdf",
       "flip page order",
       "invert pages",
       "reverse document"
     ],
-    "description": "\n      <p>Reverse Pages flips the order of pages in your PDF document, putting the last page first and the first page last. Useful for documents scanned in reverse order or for specific printing needs.</p>\n      <p>The tool processes the entire document or selected page ranges, maintaining all content and formatting.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>Reverse Pages നിങ്ങളുടെ PDF ഡോക്യുമെന്റിലെ പേജുകളുടെ ക്രമം തിരിച്ചാക്കുന്നു, അവസാന പേജ് ആദ്യത്തേതും ആദ്യ പേജ് അവസാനത്തേതുമാക്കുന്നു. വിപരീത ക്രമത്തിൽ സ്കാൻ ചെയ്ത ഡോക്യുമെന്റുകൾക്കോ പ്രത്യേക പ്രിന്റിംഗ് ആവശ്യങ്ങൾക്കോ ഇത് ഉപകാരപ്രദമാണ്.</p>\n      <p>ഈ ടൂൾ എല്ലാ ഉള്ളടക്കവും ഫോർമാറ്റിംഗും നിലനിർത്തിക്കൊണ്ട് മുഴുവൻ ഡോക്യുമെന്റും അല്ലെങ്കിൽ തിരഞ്ഞെടുത്ത പേജ് പരിധികളും പ്രോസസ്സ് ചെയ്യുന്നു.</p>\n      <p>എല്ലാ പ്രോസസ്സിംഗും നിങ്ങളുടെ ബ്രൗസറിനുള്ളിൽ തന്നെ നടക്കുന്നു, ഇത് നിങ്ങളുടെ ഡോക്യുമെന്റുകൾ സ്വകാര്യമായി തുടരുന്നുവെന്ന് ഉറപ്പാക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "നിങ്ങളുടെ PDF ഫയൽ ഡ്രാഗ് ആൻഡ് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
         "title": "പേജുകൾ തിരഞ്ഞെടുക്കുക",
-        "description": "Choose to reverse all pages or a specific range."
+        "description": "എല്ലാ പേജുകളും അല്ലെങ്കിൽ ഒരു നിർദ്ദിഷ്ട പരിധിയും തിരിച്ചാക്കാൻ തിരഞ്ഞെടുക്കുക."
       },
       {
         "step": 3,
-        "title": "Reverse and Download",
-        "description": "Click Reverse to flip page order and download."
+        "title": "റിവേഴ്സ് ചെയ്ത് ഡൗൺലോഡ് ചെയ്യുക",
+        "description": "പേജ് ക്രമം തിരിച്ചാക്കാനും ഡൗൺലോഡ് ചെയ്യാനും റിവേഴ്സ് ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Fix Scan Order",
-        "description": "Correct documents scanned in reverse order.",
+        "title": "സ്കാൻ ക്രമം ശരിയാക്കുക",
+        "description": "വിപരീത ക്രമത്തിൽ സ്കാൻ ചെയ്ത ഡോക്യുമെന്റുകൾ ശരിയാക്കുക.",
         "icon": "refresh-cw"
       },
       {
         "title": "പ്രിന്റ് തയ്യാറാക്കൽ",
-        "description": "Reverse pages for specific printing requirements.",
+        "description": "പ്രത്യേക പ്രിന്റിംഗ് ആവശ്യങ്ങൾക്കായി പേജുകൾ തിരിച്ചാക്കുക.",
         "icon": "printer"
       },
       {
-        "title": "Document Reordering",
-        "description": "Quickly flip document order for review.",
+        "title": "ഡോക്യുമെന്റ് പുനഃക്രമീകരണം",
+        "description": "പരിശോധനയ്ക്കായി ഡോക്യുമെന്റ് ക്രമം വേഗത്തിൽ തിരിച്ചാക്കുക.",
         "icon": "arrow-up-down"
       }
     ],
     "faq": [
       {
-        "question": "Are bookmarks updated?",
-        "answer": "Yes, bookmarks are updated to point to the correct reversed pages."
+        "question": "ബുക്ക്മാർക്കുകൾ അപ്ഡേറ്റ് ചെയ്തിട്ടുണ്ടോ?",
+        "answer": "അതെ, ശരിയായ തിരിച്ചാക്കിയ പേജുകളിലേക്ക് ചൂണ്ടിക്കാണിക്കാൻ ബുക്ക്മാർക്കുകൾ അപ്ഡേറ്റ് ചെയ്തിട്ടുണ്ട്."
       },
       {
-        "question": "Can I reverse only some pages?",
-        "answer": "Yes, you can select a page range to reverse."
+        "question": "എനിക്ക് ചില പേജുകൾ മാത്രം തിരിച്ചാക്കാമോ?",
+        "answer": "അതെ, തിരിച്ചാക്കാൻ നിങ്ങൾക്ക് ഒരു പേജ് പരിധി തിരഞ്ഞെടുക്കാം."
       },
       {
-        "question": "Is this the same as rotating?",
-        "answer": "No, reversing changes page order; rotating changes page orientation."
+        "question": "ഇത് റൊട്ടേറ്റ് ചെയ്യുന്നതിന് തുല്യമാണോ?",
+        "answer": "അല്ല, റിവേഴ്സ് ചെയ്യുന്നത് പേജ് ക്രമം മാറ്റുന്നു; റൊട്ടേറ്റ് ചെയ്യുന്നത് പേജിന്റെ ദിശ മാറ്റുന്നു."
       }
     ]
   },
   "rotate-pdf": {
-    "title": "Rotate PDF",
-    "metaDescription": "Rotate PDF pages. Turn pages 90, 180, or 270 degrees.",
+    "title": "PDF കറക്കുക",
+    "metaDescription": "PDF പേജുകൾ റൊട്ടേറ്റ് ചെയ്യുക. പേജുകൾ 90, 180, അല്ലെങ്കിൽ 270 ഡിഗ്രി തിരിക്കുക.",
     "keywords": [
       "rotate pdf",
       "turn pdf pages",
       "pdf rotation",
       "fix orientation"
     ],
-    "description": "\n      <p>Rotate PDF turns pages in your document by 90, 180, or 270 degrees. Fix incorrectly oriented scans, rotate landscape pages, or adjust page orientation for viewing.</p>\n      <p>Rotate all pages uniformly or select specific pages to rotate individually. The tool preserves all content and formatting.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>Rotate PDF നിങ്ങളുടെ ഡോക്യുമെന്റിലെ പേജുകളെ 90, 180, അല്ലെങ്കിൽ 270 ഡിഗ്രി തിരിക്കുന്നു. തെറ്റായ ദിശയിലുള്ള സ്കാനുകൾ ശരിയാക്കുക, ലാൻഡ്സ്കേപ്പ് പേജുകൾ തിരിക്കുക, അല്ലെങ്കിൽ കാണുന്നതിനായി പേജ് ദിശ ക്രമീകരിക്കുക.</p>\n      <p>എല്ലാ പേജുകളും ഒരുപോലെ തിരിക്കുക അല്ലെങ്കിൽ ഓരോന്നായി തിരിക്കാൻ നിർദ്ദിഷ്ട പേജുകൾ തിരഞ്ഞെടുക്കുക. ഈ ടൂൾ എല്ലാ ഉള്ളടക്കവും ഫോർമാറ്റിംഗും നിലനിർത്തുന്നു.</p>\n      <p>എല്ലാ പ്രോസസ്സിംഗും നിങ്ങളുടെ ബ്രൗസറിൽ തന്നെ നടക്കുന്നു, ഇത് നിങ്ങളുടെ ഡോക്യുമെന്റുകൾ സ്വകാര്യമായി തുടരുന്നുവെന്ന് ഉറപ്പാക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "നിങ്ങളുടെ PDF ഫയൽ ഡ്രാഗ് ആൻഡ് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Select Rotation",
-        "description": "Choose rotation angle and which pages to rotate."
+        "title": "റൊട്ടേഷൻ തിരഞ്ഞെടുക്കുക",
+        "description": "റൊട്ടേഷൻ ആംഗിളും ഏതെല്ലാം പേജുകൾ റൊട്ടേറ്റ് ചെയ്യണമെന്നും തിരഞ്ഞെടുക്കുക."
       },
       {
         "step": 3,
-        "title": "Rotate and Download",
-        "description": "Click Rotate to apply changes and download."
+        "title": "റൊട്ടേറ്റ് ചെയ്ത് ഡൗൺലോഡ് ചെയ്യുക",
+        "description": "മാറ്റങ്ങൾ വരുത്തുന്നതിനും ഡൗൺലോഡ് ചെയ്യുന്നതിനും റൊട്ടേറ്റ് ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Fix Scans",
-        "description": "Correct orientation of scanned documents.",
+        "title": "സ്കാനുകൾ ശരിയാക്കുക",
+        "description": "സ്കാൻ ചെയ്ത ഡോക്യുമെന്റുകളുടെ ദിശ ശരിയാക്കുക.",
         "icon": "rotate-cw"
       },
       {
-        "title": "Landscape Pages",
-        "description": "Rotate landscape pages for proper viewing.",
+        "title": "ലാൻഡ്സ്കേപ്പ് പേജുകൾ",
+        "description": "ശരിയായി കാണുന്നതിന് ലാൻഡ്സ്കേപ്പ് പേജുകൾ തിരിക്കുക.",
         "icon": "monitor"
       },
       {
-        "title": "Mixed Orientation",
-        "description": "Standardize page orientation in mixed documents.",
+        "title": "മിക്സഡ് ഓറിയന്റേഷൻ",
+        "description": "വ്യത്യസ്ത ദിശകളിലുള്ള ഡോക്യുമെന്റുകളിലെ പേജ് ദിശ മാനദണ്ഡമാക്കുക.",
         "icon": "layout"
       }
     ],
     "faq": [
       {
-        "question": "Can I rotate different pages differently?",
-        "answer": "Yes, you can apply different rotations to different pages."
+        "question": "എനിക്ക് വ്യത്യസ്ത പേജുകൾ വ്യത്യസ്തമായി തിരിക്കാനാകുമോ?",
+        "answer": "അതെ, വ്യത്യസ്ത പേജുകളിൽ നിങ്ങൾക്ക് വ്യത്യസ്ത റൊട്ടേഷനുകൾ പ്രയോഗിക്കാൻ കഴിയും."
       },
       {
-        "question": "Does rotation affect print quality?",
-        "answer": "No, rotation preserves all content quality."
+        "question": "റൊട്ടേഷൻ പ്രിന്റ് ക്വാളിറ്റിയെ ബാധിക്കുമോ?",
+        "answer": "ഇല്ല, റൊട്ടേഷൻ എല്ലാ ഉള്ളടക്കത്തിന്റെയും ഗുണനിലവാരം നിലനിർത്തുന്നു."
       },
       {
-        "question": "Can I rotate by custom angles?",
-        "answer": "Rotation is limited to 90-degree increments (90, 180, 270)."
+        "question": "എനിക്ക് കസ്റ്റം ആംഗിളുകളിൽ തിരിക്കാനാകുമോ?",
+        "answer": "റൊട്ടേഷൻ 90-ഡിഗ്രി ഇൻക്രിമെന്റുകളിൽ (90, 180, 270) പരിമിതപ്പെടുത്തിയിരിക്കുന്നു."
       }
     ]
   },
   "overlay-pdf": {
     "title": "Overlay PDF",
-    "metaDescription": "Overlay or underlay pages from one PDF onto another. Perfect for stamps, letterheads, and layout composition.",
+    "metaDescription": "ഒരു PDF-ൽ നിന്നുള്ള പേജുകൾ മറ്റൊരു PDF-ന് മുകളിലോ (Overlay) താഴെയോ (Underlay) ചേർക്കുക. സ്റ്റാമ്പുകൾ, ലെറ്റർഹെഡുകൾ, ലേഔട്ട് കോമ്പോസിഷൻ എന്നിവയ്ക്ക് അനുയോജ്യമാണ്.",
     "keywords": [
       "overlay pdf",
       "underlay pdf",
@@ -3988,64 +3988,64 @@ export const toolContentMl: Record<string, ToolContent> = {
       "watermark pdf",
       "combine layers"
     ],
-    "description": "\n      <p>Overlay PDF allows you to layer pages of one PDF document on top or underneath another PDF document. It is perfect for applying letterheads, adding background grids, stamping watermarks, or fusing layout drafts together.</p>\n      <p>Supports both Overlay mode (layer goes on top) and Underlay mode (layer goes underneath). Specify custom target page ranges or loop shorter overlay documents to cover the entire base file automatically.</p>\n      <p>All processing is executed entirely inside your web browser locally, guaranteeing total security and data privacy.</p>\n    ",
+    "description": "\n      <p>Overlay PDF ഒരു PDF ഡോക്യുമെന്റിന്റെ പേജുകൾ മറ്റൊരു PDF ഡോക്യുമെന്റിന് മുകളിലോ താഴെയോ ലെയർ ചെയ്യാൻ നിങ്ങളെ അനുവദിക്കുന്നു. ലെറ്റർഹെഡുകൾ നൽകുന്നതിനും ബാക്ക്ഗ്രൗണ്ട് ഗ്രിഡുകൾ ചേർക്കുന്നതിനും വാട്ടർമാർക്കുകൾ പതിക്കുന്നതിനും ലേഔട്ട് ഡ്രാഫ്റ്റുകൾ സംയോജിപ്പിക്കുന്നതിനും ഇത് വളരെ അനുയോജ്യമാണ്.</p>\n      <p>ഓവർലേ മോഡ് (ലെയർ മുകളിൽ വരുന്നു), അണ്ടർലേ മോഡ് (ലെയർ താഴെ വരുന്നു) എന്നിവ പിന്തുണയ്ക്കുന്നു. നിർദ്ദിഷ്ട ടാർഗെറ്റ് പേജ് പരിധികൾ വ്യക്തമാക്കുക അല്ലെങ്കിൽ പ്രധാന ഫയൽ മുഴുവൻ സ്വയമേവ കവർ ചെയ്യുന്നതിനായി ദൈർഘ്യം കുറഞ്ഞ ഓവർലേ ഡോക്യുമെന്റുകൾ ലൂപ്പ് ചെയ്യുക.</p>\n      <p>എല്ലാ പ്രോസസ്സിംഗും നിങ്ങളുടെ വെബ് ബ്രൗസറിനുള്ളിൽ പ്രാദേശികമായി പൂർണ്ണമായും നടപ്പിലാക്കുന്നു, ഇത് പൂർണ്ണ സുരക്ഷയും ഡാറ്റ സ്വകാര്യതയും ഉറപ്പ് നൽകുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Main PDF",
-        "description": "Drag and drop your primary base PDF document."
+        "title": "പ്രധാന PDF അപ്‌ലോഡ് ചെയ്യുക",
+        "description": "നിങ്ങളുടെ പ്രധാന ബേസ് PDF ഡോക്യുമെന്റ് ഡ്രാഗ് ചെയ്ത് ഡ്രോപ്പ് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Upload Layer PDF",
-        "description": "Provide the overlay/underlay document that acts as the layer."
+        "title": "ലെയർ PDF അപ്‌ലോഡ് ചെയ്യുക",
+        "description": "ലെയറായി പ്രവർത്തിക്കുന്ന ഓവർലേ/അണ്ടർലേ ഡോക്യുമെന്റ് നൽകുക."
       },
       {
         "step": 3,
-        "title": "Configure Layering",
-        "description": "Choose overlay or underlay mode, specify page ranges, and enable page looping."
+        "title": "ലെയറിംഗ് ക്രമീകരിക്കുക",
+        "description": "Overlay അല്ലെങ്കിൽ underlay മോഡ് തിരഞ്ഞെടുക്കുക, പേജ് റേഞ്ചുകൾ വ്യക്തമാക്കുക, പേജ് ലൂപ്പിംഗ് പ്രവർത്തനക്ഷമമാക്കുക."
       },
       {
         "step": 4,
-        "title": "Compile and Download",
-        "description": "Click Compile to process and download the layered result PDF."
+        "title": "കംപൈൽ ചെയ്ത് ഡൗൺലോഡ് ചെയ്യുക",
+        "description": "ലെയർ ചെയ്ത ഫലമായ ലഭിക്കുന്ന PDF പ്രൊസസ്സ് ചെയ്യാനും ഡൗൺലോഡ് ചെയ്യാനും Compile ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Corporate Letterheads",
-        "description": "Layer invoice contents on top of standard company letterhead templates.",
+        "title": "കോർപ്പറേറ്റ് ലെറ്റർഹെഡുകൾ",
+        "description": "സ്റ്റാൻഡേർഡ് കമ്പനി ലെറ്റർഹെഡ് ടെംപ്ലേറ്റുകൾക്ക് മുകളിൽ ഇൻവോയ്സ് ഉള്ളടക്കം ലെയർ ചെയ്യുക.",
         "icon": "file-text"
       },
       {
-        "title": "Watermarks & Seals",
-        "description": "Overlay security stamps, signature seals, or backgrounds across documents.",
+        "title": "വാട്ടർമാർക്കുകളും സീലുകളും",
+        "description": "രേഖകളിൽ സെക്യൂരിറ്റി സ്റ്റാമ്പുകൾ, സിഗ്നേച്ചർ സീലുകൾ അല്ലെങ്കിൽ പശ്ചാത്തലങ്ങൾ ഓവർലേ ചെയ്യുക.",
         "icon": "shield"
       },
       {
-        "title": "Drawing Blueprints",
-        "description": "Combine draft architectures or layout grids underneath text blocks.",
+        "title": "ഡ്രോയിംഗ് ബ്ലൂപ്രിന്റുകൾ",
+        "description": "ടെക്സ്റ്റ് ബ്ലോക്കുകൾക്ക് താഴെ ഡ്രാഫ്റ്റ് ആർക്കിടെക്ചറുകൾ അല്ലെങ്കിൽ ലേഔട്ട് ഗ്രിഡുകൾ സംയോജിപ്പിക്കുക.",
         "icon": "layout"
       }
     ],
     "faq": [
       {
-        "question": "What is the difference between Overlay and Underlay?",
-        "answer": "Overlay places the secondary layer on top of your main content. Underlay places it at the very bottom, acting as a background template."
+        "question": "Overlay-യും Underlay-യും തമ്മിലുള്ള വ്യത്യാസം എന്താണ്?",
+        "answer": "Overlay നിങ്ങളുടെ പ്രധാന ഉള്ളടക്കത്തിന് മുകളിൽ രണ്ടാമത്തെ ലെയർ സ്ഥാപിക്കുന്നു. Underlay അതിനെ ഏറ്റവും താഴെ ഒരു പശ്ചാത്തല ടെംപ്ലേറ്റായി സ്ഥാപിക്കുന്നു."
       },
       {
-        "question": "Can I loop the overlay layer?",
-        "answer": "Yes, if the layer PDF is shorter than the base document, enabling Loop will cycle it (e.g. page 1, 2, 1, 2) to cover all base pages."
+        "question": "എനിക്ക് overlay ലെയർ ലൂപ്പ് ചെയ്യാൻ കഴിയുമോ?",
+        "answer": "അതെ, ലെയർ PDF ബേസ് ഡോക്യുമെന്റിനേക്കാൾ ചെറുതാണെങ്കിൽ, Loop പ്രവർത്തനക്ഷമമാക്കുന്നത് എല്ലാ ബേസ് പേജുകളും കവർ ചെയ്യുന്നതിനായി അതിനെ സൈക്കിൾ ചെയ്യും (ഉദാ. പേജ് 1, 2, 1, 2)."
       },
       {
-        "question": "Is page range supported?",
-        "answer": "Yes, you can target specific pages using range syntax such as \"1-5\", \"odd\", \"even\", or comma-separated lists."
+        "question": "പേജ് റേഞ്ച് പിന്തുണയ്ക്കുന്നുണ്ടോ?",
+        "answer": "അതെ, \"1-5\", \"odd\", \"even\" അല്ലെങ്കിൽ കോമ ഉപയോഗിച്ച് വേർതിരിച്ച ലിസ്റ്റുകൾ പോലുള്ള റേഞ്ച് സിന്റാക്സ് ഉപയോഗിച്ച് നിങ്ങൾക്ക് നിർദ്ദിഷ്ട പേജുകളെ ടാർഗെറ്റ് ചെയ്യാം."
       }
     ]
   },
   "timestamp-pdf": {
     "title": "Timestamp PDF",
-    "metaDescription": "Add RFC 3161 trusted timestamps to PDF documents. Prove document existence at a specific point in time without certificates.",
+    "metaDescription": "PDF ഡോക്യുമെന്റുകളിലേക്ക് RFC 3161 ട്രസ്റ്റഡ് ടൈംസ്റ്റാമ്പുകൾ ചേർക്കുക. സർട്ടിഫിക്കറ്റുകൾ ഇല്ലാതെ ഒരു നിർദ്ദിഷ്ട സമയത്ത് ഡോക്യുമെന്റ് നിലവിലുണ്ടായിരുന്നുവെന്ന് തെളിയിക്കുക.",
     "keywords": [
       "timestamp pdf",
       "rfc 3161",
@@ -4053,59 +4053,59 @@ export const toolContentMl: Record<string, ToolContent> = {
       "trusted timestamping",
       "proof of existence"
     ],
-    "description": "\n      <p>Timestamp PDF adds RFC 3161 compliant trusted timestamps to your PDF documents using external Time Stamping Authorities (TSA). It provides legally-binding mathematical proof that a document existed in a specific, unaltered state at a precise instant in time.</p>\n      <p>Select from global trusted TSA servers such as DigiCert, Sectigo, SSL.com, FreeTSA, or MeSign. No personal signing certificates are required to secure your documents against future tampering.</p>\n      <p>Supports fully secure local hashing before handshake, guaranteeing absolute document contents remain 100% confidential.</p>\n    ",
+    "description": "\n      <p>Timestamp PDF നിങ്ങളുടെ PDF ഡോക്യുമെന്റുകളിലേക്ക് എക്സ്റ്റേണൽ Time Stamping Authorities (TSA) ഉപയോഗിച്ച് RFC 3161 കംപ്ലയിന്റ് ആയ ട്രസ്റ്റഡ് ടൈംസ്റ്റാമ്പുകൾ ചേർക്കുന്നു. ഒരു ഡോക്യുമെന്റ് കൃത്യമായ ഒരു സമയത്ത് മാറ്റമില്ലാത്ത അവസ്ഥയിൽ നിലനിന്നിരുന്നു എന്നതിന് നിയമപരമായി ബാധകമായ ഗണിതശാസ്ത്രപരമായ തെളിവ് ഇത് നൽകുന്നു.</p>\n      <p>DigiCert, Sectigo, SSL.com, FreeTSA, അല്ലെങ്കിൽ MeSign പോലുള്ള ആഗോള ട്രസ്റ്റഡ് TSA സെർവറുകളിൽ നിന്ന് തിരഞ്ഞെടുക്കുക. ഭാവിയിലെ കൃത്രിമത്വങ്ങളിൽ നിന്ന് നിങ്ങളുടെ ഡോക്യുമെന്റുകൾ സംരക്ഷിക്കുന്നതിന് വ്യക്തിഗത സൈനിംഗ് സർട്ടിഫിക്കറ്റുകൾ ആവശ്യമില്ല.</p>\n      <p>ഹാൻഡ്‌ഷെയ്ക്കിന് മുൻപ് പൂർണ്ണമായും സുരക്ഷിതമായ ലോക്കൽ ഹാഷിംഗ് പിന്തുണയ്ക്കുന്നു, ഇത് ഡോക്യുമെന്റിലെ ഉള്ളടക്കങ്ങൾ 100% രഹസ്യമായി തുടരുമെന്ന് ഉറപ്പ് നൽകുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload PDF Document",
-        "description": "Select the target PDF file you want to timestamp."
+        "title": "PDF ഡോക്യുമെന്റ് അപ്‌ലോഡ് ചെയ്യുക",
+        "description": "നിങ്ങൾക്ക് ടൈംസ്റ്റാമ്പ് ചെയ്യേണ്ട ടാർഗെറ്റ് PDF ഫയൽ തിരഞ്ഞെടുക്കുക."
       },
       {
         "step": 2,
-        "title": "Select TSA Server",
-        "description": "Choose a trusted global Time Stamping Authority from the list."
+        "title": "TSA സെർവർ തിരഞ്ഞെടുക്കുക",
+        "description": "ലിസ്റ്റിൽ നിന്ന് വിശ്വസനീയമായ ഒരു ഗ്ലോബൽ Time Stamping Authority തിരഞ്ഞെടുക്കുക."
       },
       {
         "step": 3,
-        "title": "Apply and Timestamp",
-        "description": "Click Timestamp to fetch secure response from TSA and embed the token."
+        "title": "അപ്ലൈ ചെയ്ത് ടൈംസ്റ്റാമ്പ് ചെയ്യുക",
+        "description": "TSA-യിൽ നിന്ന് സുരക്ഷിതമായ മറുപടി നേടുന്നതിനും ടോക്കൺ എംബഡ് ചെയ്യുന്നതിനും Timestamp ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Intellectual Property",
-        "description": "Establish clear priority proof of patents, drafts, and ideas before public release.",
+        "title": "ഇന്റലക്ച്വൽ പ്രോപ്പർട്ടി",
+        "description": "പബ്ലിക് റിലീസിന് മുൻപ് പേറ്റന്റുകൾ, ഡ്രാഫ്റ്റുകൾ, ആശയങ്ങൾ എന്നിവയുടെ വ്യക്തമായ മുൻഗണനാ തെളിവ് സ്ഥാപിക്കുക.",
         "icon": "lightbulb"
       },
       {
-        "title": "Financial Auditing",
-        "description": "Provide certified tamper-proof logging of ledger archives and balance reports.",
+        "title": "സാമ്പത്തിക ഓഡിറ്റിംഗ്",
+        "description": "ലെഡ്ജർ ആർക്കൈവുകളുടെയും ബാലൻസ് റിപ്പോർട്ടുകളുടെയും സർട്ടിഫൈഡ് ടെമ്പര്-പ്രൂഫ് ലോഗിംഗ് നൽകുക.",
         "icon": "activity"
       },
       {
-        "title": "Legal Contracts",
-        "description": "Lock legal agreements with a trusted time proof to avoid backdating arguments.",
+        "title": "നിയമപരമായ കരാറുകൾ",
+        "description": "മുൻകാല തീയതി വെയ്ക്കുന്ന തർക്കങ്ങൾ ഒഴിവാക്കാൻ വിശ്വസനീയമായ സമയ തെളിവ് ഉപയോഗിച്ച് നിയമപരമായ കരാറുകൾ ലോക്ക് ചെയ്യുക.",
         "icon": "file-check"
       }
     ],
     "faq": [
       {
-        "question": "What is a trusted timestamp (RFC 3161)?",
-        "answer": "An RFC 3161 timestamp is a cryptographically signed token issued by a recognized third-party authority (TSA) that links a document hash to a specific, verified clock source."
+        "question": "എന്താണ് ട്രസ്റ്റഡ് ടൈംസ്റ്റാമ്പ് (RFC 3161)?",
+        "answer": "ഒരു RFC 3161 ടൈംസ്റ്റാമ്പ് എന്നത് അംഗീകൃത തേർഡ്-പാർട്ടി അതോറിറ്റി (TSA) നൽകുന്ന ക്രിപ്റ്റോഗ്രാഫിക്കലി ഒപ്പിട്ട ടോക്കണാണ്, അത് ഒരു ഡോക്യുമെന്റ് ഹാഷിനെ ഒരു നിർദ്ദിഷ്ട, പരിശോധിച്ചുറപ്പിച്ച ക്ലോക്ക് ഉറവിടവുമായി ബന്ധിപ്പിക്കുന്നു."
       },
       {
-        "question": "Do I need a digital certificate?",
-        "answer": "No, the cryptographic signature is provided directly by the trusted TSA server, making the process effortless for document owners."
+        "question": "എനിക്ക് ഡിജിറ്റൽ സർട്ടിഫിക്കറ്റ് ആവശ്യമുണ്ടോ?",
+        "answer": "ഇല്ല, ക്രിപ്റ്റോഗ്രാഫിക് സിഗ്നേച്ചർ ട്രസ്റ്റഡ് TSA സെർവർ നേരിട്ട് നൽകുന്നു, ഇത് ഡോക്യുമെന്റ് ഉടമകൾക്ക് പ്രക്രിയ എളുപ്പമാക്കുന്നു."
       },
       {
-        "question": "Does the TSA see my document contents?",
-        "answer": "Never. The tool only sends a secure SHA-256 hash of your document to the TSA server, keeping your actual document completely private."
+        "question": "TSA എന്റെ ഡോക്യുമെന്റിലെ ഉള്ളടക്കങ്ങൾ കാണുമോ?",
+        "answer": "ഒരിക്കലുമില്ല. ടൂൾ നിങ്ങളുടെ ഡോക്യുമെന്റിന്റെ സുരക്ഷിതമായ ഒരു SHA-256 ഹാഷ് മാത്രമേ TSA സെർവറിലേക്ക് അയക്കൂ, അത് നിങ്ങളുടെ യഥാർത്ഥ ഡോക്യുമെന്റ് പൂർണ്ണമായും സ്വകാര്യമായി സൂക്ഷിക്കുന്നു."
       }
     ]
   },
   "add-page-labels": {
-    "title": "Add Page Labels",
-    "metaDescription": "Apply custom page labels to your PDF catalog. Supports Roman numerals, prefixes, and complex disjoint ranges.",
+    "title": "പേജ് ലേബലുകൾ ചേർക്കുക",
+    "metaDescription": "നിങ്ങളുടെ PDF കാറ്റലോഗിലേക്ക് കസ്റ്റം പേജ് ലേബലുകൾ ബാധകമാക്കുക. റോമൻ അക്കങ്ങൾ, പ്രിഫിക്സുകൾ, സങ്കീർണ്ണമായ ഡിസ്ജോയിന്റ് റേഞ്ചുകൾ എന്നിവ പിന്തുണയ്ക്കുന്നു.",
     "keywords": [
       "pdf page labels",
       "roman numerals pdf",
@@ -4113,885 +4113,885 @@ export const toolContentMl: Record<string, ToolContent> = {
       "disjoint range page labels",
       "pdf indexing"
     ],
-    "description": "\n      <p>Add Page Labels allows you to inject custom page labeling metadata (/PageLabels) into your PDF's root Catalog dictionary. This customizes the labels displayed in professional PDF reader navigation sidebars and top page number jump panels (e.g. using Roman numerals for front matter, decimal sequences for main body, or custom prefixes such as A-0, A-1 for technical subsections).</p>\n      <p>Supports combining multiple custom rules seamlessly. Crucially, we've built a highly optimized <strong>disjoint-range slicing algorithm</strong>: even if you declare complex alternating patterns (e.g., odd pages style A, even pages style B), the tool will elegantly dissect and compose boundaries to ensure proper standard-compliant display without leaking formats into unmapped pages.</p>\n      <p>All operations are processed entirely inside your local browser sandbox, securing absolute data privacy.</p>\n    ",
+    "description": "\n      <p>Add Page Labels നിങ്ങളുടെ PDF-ന്റെ റൂട്ട് Catalog ഡയറക്ടറിയിലേക്ക് കസ്റ്റം പേജ് ലേബലിംഗ് മെറ്റാഡാറ്റ (/PageLabels) ചേർക്കാൻ അനുവദിക്കുന്നു. പ്രൊഫഷണൽ PDF റീഡർ നാവിഗേഷൻ സൈഡ്ബാറുകളിലും മുകളിലെ പേജ് നമ്പർ ജമ്പ് പാനലുകളിലും കാണിക്കുന്ന ലേബലുകളെ ഇത് കസ്റ്റമൈസ് ചെയ്യുന്നു (ഉദാ. ഫ്രണ്ട് മാറ്ററിനായി റോമൻ അക്കങ്ങൾ, മെയിൻ ബോഡിക്ക് ഡെസിമൽ ക്രമങ്ങൾ, അല്ലെങ്കിൽ സാങ്കേതിക ഉപവിഭാഗങ്ങൾക്കായി A-0, A-1 പോലുള്ള കസ്റ്റം പ്രിഫിക്സുകൾ).</p>\n      <p>ഒന്നിലധികം കസ്റ്റം റൂളുകൾ സുഗമമായി സംയോജിപ്പിക്കുന്നതിനെ പിന്തുണയ്ക്കുന്നു. പ്രധാനമായും, ഞങ്ങൾ വളരെ ഒപ്റ്റിമൈസ് ചെയ്ത <strong>disjoint-range slicing algorithm</strong> നിർമ്മിച്ചിട്ടുണ്ട്: നിങ്ങൾ സങ്കീർണ്ണമായ വിപരീത പാറ്റേണുകൾ പ്രഖ്യാപിച്ചാലും (ഉദാ. ഒറ്റ സംഖ്യാ പേജുകളുടെ ശൈലി A, ഇരട്ട സംഖ്യാ പേജുകളുടെ ശൈലി B), മാപ്പ് ചെയ്യാത്ത പേജുകളിലേക്ക് ഫോർമാറ്റുകൾ ചോരാതെ അനുയോജ്യമായ സ്റ്റാൻഡേർഡ്-കംപ്ലയിന്റ് ഡിസ്പ്ലേ ഉറപ്പാക്കാൻ ടൂൾ അതിരുകൾ മനോഹരമായി വിഭജിച്ച് ക്രമീകരിക്കും.</p>\n      <p>എല്ലാ പ്രവർത്തനങ്ങളും നിങ്ങളുടെ ലോക്കൽ ബ്രൗസർ സാാൻഡ്ബോക്‌സിനുള്ളിൽ പൂർണ്ണമായും പ്രൊസസ്സ് ചെയ്യുന്നു, അത് പൂർണ്ണമായ ഡാറ്റ സ്വകാര്യത ഉറപ്പാക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload PDF Document",
-        "description": "Provide the target PDF document you wish to label."
+        "title": "PDF ഡോക്യുമെന്റ് അപ്‌ലോഡ് ചെയ്യുക",
+        "description": "നിങ്ങൾ ലേബൽ ചെയ്യാൻ ആഗ്രഹിക്കുന്ന ടാർഗെറ്റ് PDF ഡോക്യുമെന്റ് നൽകുക."
       },
       {
         "step": 2,
-        "title": "Configure Labeling Rules",
+        "title": "ലേബലിംഗ് റൂളുകൾ ക്രമീകരിക്കുക",
         "description": "Add one or more rules specifying page ranges (e.g., \"1-5\", \"odd\", or comma-separated lists), prefix, style, and starting sequence."
       },
       {
         "step": 3,
-        "title": "Preview and Download",
-        "description": "Review the live page label list preview below, then compile and download your updated PDF document."
+        "title": "പ്രിവ്യൂ ചെയ്യുക ഡൗൺലോഡ് ചെയ്യുക",
+        "description": "താഴെയുള്ള ലൈവ് പേജ് ലേബൽ ലിസ്റ്റ് പ്രിവ്യൂ പരിശോധിക്കുക, തുടർന്ന് നിങ്ങളുടെ അപ്‌ഡേറ്റ് ചെയ്ത PDF ഡോക്യുമെന്റ് കംപൈൽ ചെയ്ത് ഡൗൺലോഡ് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Academic Thesis Formatting",
-        "description": "Set lowercase Roman numerals (i, ii, iii) for introductory front matter and transition to decimal for main chapters.",
+        "title": "അക്കാദമിക് തീസിസ് ഫോർമാറ്റിംഗ്",
+        "description": "ആമുഖ ഫ്രണ്ട് മാറ്ററിനായി ലോവർകേസ് റോമൻ അക്കങ്ങൾ (i, ii, iii) സജ്ജീകരിക്കുക, പ്രധാന അധ്യായങ്ങൾക്കായി ഡെസിമലിലേക്ക് മാറുക.",
         "icon": "book"
       },
       {
-        "title": "Engineering Blueprint Prefixes",
-        "description": "Attach subsystem abbreviations (e.g., \"A-1\", \"M-5\") as page label prefixes, letting teams search and locate pages in seconds.",
+        "title": "എഞ്ചിനീയറിംഗ് ബ്ലൂപ്രിന്റ് പ്രിഫിക്സുകൾ",
+        "description": "പേജ് ലേബൽ പ്രിഫിക്സുകളായി സബ്സിസ്റ്റം ചുരുക്കരൂപങ്ങൾ (ഉദാ. \"A-1\", \"M-5\") ചേർക്കുക, ഇത് നിമിഷങ്ങൾക്കുള്ളിൽ പേജുകൾ തിരയാനും കണ്ടെത്താനും ടീമുകളെ അനുവദിക്കുന്നു.",
         "icon": "layout"
       },
       {
-        "title": "Custom Alternating Layouts",
-        "description": "Apply highly specific page range indexing to odd/even sequences or non-contiguous sections with maximum freedom.",
+        "title": "കസ്റ്റം ആൾട്ടർനേറ്റിംഗ് ലേഔട്ടുകൾ",
+        "description": "പരമാവധി സ്വാതന്ത്ര്യത്തോടെ ഒറ്റ/ഇരട്ട സീക്വൻസുകൾക്കോ നോൺ-കണ്ടിഗുവസ് വിഭാഗങ്ങൾക്കോ വളരെ നിർദ്ദിഷ്ടമായ പേജ് റേഞ്ച് ഇൻഡെക്സിംഗ് പ്രയോഗിക്കുക.",
         "icon": "shuffle"
       }
     ],
     "faq": [
       {
-        "question": "What are page labels vs page numbers?",
-        "answer": "Ordinary page numbers are visual text blocks rendered directly on the paper canvas (visible when printed). Page labels, however, are structural metadata injected into the PDF catalog. They control what is displayed underneath thumbnails and in the page lookup box inside software like Adobe Acrobat or Apple Preview."
+        "question": "പേജ് ലേബലുകളും പേജ് നമ്പറുകളും തമ്മിലുള്ള വ്യത്യാസം എന്താണ്?",
+        "answer": "സാധാരണ പേജ് നമ്പറുകൾ പേപ്പർ ക്യാൻവാസിൽ നേരിട്ട് റൻഡർ ചെയ്യുന്ന ദൃശ്യ ടെക്സ്റ്റ് ബ്ലോക്കുകളാണ് (പ്രിന്റ് ചെയ്യുമ്പോൾ ദൃശ്യമാകും). എന്നാൽ പേജ് ലേബലുകൾ PDF കാറ്റലോഗിലേക്ക് ഇൻജക്റ്റ് ചെയ്യുന്ന ഘടനാപരമായ മെറ്റാഡാറ്റയാണ്. Adobe Acrobat അല്ലെങ്കിൽ Apple Preview പോലുള്ള സോഫ്റ്റ്‌വെയറുകളിൽ തംബ്‌നെയിലുകൾക്ക് താഴെയും പേജ് ലുക്കപ്പ് ബോക്സിലും എന്ത് കാണിക്കണമെന്ന് ഇവ നിയന്ത്രിക്കുന്നു."
       },
       {
-        "question": "What happens if I leave the Page Range empty?",
-        "answer": "Leaving the page range empty causes the rule to apply globally to all pages of the document."
+        "question": "ഞാൻ പേജ് റേഞ്ച് ഒഴിച്ചിട്ടാൽ എന്ത് സംഭവിക്കും?",
+        "answer": "പേജ് റേഞ്ച് ഒഴിച്ചിടുന്നത് പ്രമാണത്തിലെ എല്ലാ പേജുകൾക്കും ഈ നിയമം സാർവത്രികമായി ബാധകമാക്കും."
       },
       {
-        "question": "How are overlapping rules handled?",
-        "answer": "Rules are evaluated sequentially in the order they are listed. If a page range of a later rule overlaps with an earlier one, the later rule takes priority and overrides the label for that page."
+        "question": "പരസ്പരം വിഭജിക്കുന്ന (overlapping) നിയമങ്ങൾ എങ്ങനെയാണ് കൈകാര്യം ചെയ്യുന്നത്?",
+        "answer": "നിയമങ്ങൾ അവ പട്ടികപ്പെടുത്തിയിരിക്കുന്ന ക്രമത്തിൽ തുടർച്ചയായി വിലയിരുത്തപ്പെടുന്നു. ഒരു പിൻകാല നിയമത്തിന്റെ പേജ് റേഞ്ച് മുൻപത്തേതുമായി ഓവർലാപ്പ് ചെയ്യുകയാണെങ്കിൽ, പിൻകാല നിയമത്തിന് മുൻഗണന ലഭിക്കുകയും ആ പേജിന്റെ ലേബൽ ഓവർറൈഡ് ചെയ്യപ്പെടുകയും ചെയ്യും."
       }
     ]
   },
   "n-up-pdf": {
     "title": "N-Up PDF",
-    "metaDescription": "Print multiple PDF pages per sheet. Create 2-up, 4-up, or custom layouts.",
+    "metaDescription": "ഒരു ഷീറ്റിൽ ഒന്നിലധികം PDF പേജുകൾ പ്രിന്റ് ചെയ്യുക. 2-up, 4-up അല്ലെങ്കിൽ കസ്റ്റം ലേഔട്ടുകൾ നിർമ്മിക്കുക.",
     "keywords": [
       "n-up pdf",
       "multiple pages per sheet",
       "2-up printing",
       "page imposition"
     ],
-    "description": "\n      <p>N-Up PDF arranges multiple pages onto single sheets, creating 2-up, 4-up, 6-up, 9-up, or custom layouts. Perfect for saving paper when printing or creating handouts.</p>\n      <p>Choose from preset layouts or create custom arrangements. The tool automatically scales and positions pages for optimal results.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>N-Up PDF ഒന്നിലധികം പേജുകളെ ഒറ്റ ഷീറ്റുകളിലേക്ക് ക്രമീകരിച്ച് 2-up, 4-up, 6-up, 9-up അല്ലെങ്കിൽ കസ്റ്റം ലേഔട്ടുകൾ സൃഷ്‌ടിക്കുന്നു. പ്രിന്റ് ചെയ്യുമ്പോഴോ ഹാൻഡ്‌ഔട്ടുകൾ തയ്യാറാക്കുമ്പോഴോ പേപ്പർ ലാഭിക്കാൻ ഇത് അനുയോജ്യമാണ്.</p>\n      <p>പ്രീസെറ്റ് ലേഔട്ടുകളിൽ നിന്ന് തിരഞ്ഞെടുക്കുക അല്ലെങ്കിൽ കസ്റ്റം ക്രമീകരണങ്ങൾ സൃഷ്‌ടിക്കുക. മികച്ച ഫലങ്ങൾക്കായി ഈ ടൂൾ പേജുകൾ സ്വയമേവ സ്കെയിൽ ചെയ്യുകയും പൊസിഷൻ ചെയ്യുകയും ചെയ്യുന്നു.</p>\n      <p>എല്ലാ പ്രോസസ്സിംഗും നിങ്ങളുടെ ബ്രൗസറിൽ തന്നെ നടക്കുന്നു, ഇത് നിങ്ങളുടെ പ്രമാണങ്ങൾ സ്വകാര്യമായി തുടരുന്നുവെന്ന് ഉറപ്പാക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "നിങ്ങളുടെ PDF ഫയൽ ഡ്രാഗ് ആൻഡ് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Choose Layout",
-        "description": "Select 2-up, 4-up, 6-up, 9-up, or custom grid."
+        "title": "ലേഔട്ട് തിരഞ്ഞെടുക്കുക",
+        "description": "2-up, 4-up, 6-up, 9-up അല്ലെങ്കിൽ കസ്റ്റം ഗ്രിഡ് തിരഞ്ഞെടുക്കുക."
       },
       {
         "step": 3,
-        "title": "Create and Download",
-        "description": "Click Create to generate the n-up PDF and download."
+        "title": "സൃഷ്ടിച്ച് ഡൗൺലോഡ് ചെയ്യുക",
+        "description": "N-Up PDF സൃഷ്ടിക്കാനും ഡൗൺലോഡ് ചെയ്യാനും Create ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Save Paper",
-        "description": "Print multiple pages per sheet to reduce paper usage.",
+        "title": "പേപ്പർ ലാഭിക്കുക",
+        "description": "പേപ്പർ ഉപയോഗം കുറയ്ക്കാൻ ഒരു ഷീറ്റിൽ ഒന്നിലധികം പേജുകൾ പ്രിന്റ് ചെയ്യുക.",
         "icon": "leaf"
       },
       {
         "title": "ഹാൻഡ്ഔട്ടുകൾ നിർമ്മിക്കുക",
-        "description": "Make compact handouts from presentation slides.",
+        "description": "പ്രസന്റേഷൻ സ്ലൈഡുകളിൽ നിന്ന് കോംപാക്റ്റ് ഹാൻഡ്‌ഔട്ടുകൾ ഉണ്ടാക്കുക.",
         "icon": "file-text"
       },
       {
-        "title": "Review Documents",
-        "description": "Print documents in reduced size for review.",
+        "title": "പ്രമാണങ്ങൾ റിവ്യൂ ചെയ്യുക",
+        "description": "റിവ്യൂ ചെയ്യുന്നതിനായി പ്രമാണങ്ങൾ ചെറിയ വലുപ്പത്തിൽ പ്രിന്റ് ചെയ്യുക.",
         "icon": "eye"
       }
     ],
     "faq": [
       {
-        "question": "What layouts are available?",
-        "answer": "2-up, 4-up, 6-up, 9-up, and custom grid layouts are available."
+        "question": "ഏതൊക്കെ ലേഔട്ടുകൾ ലഭ്യമാണ്?",
+        "answer": "2-up, 4-up, 6-up, 9-up, കസ്റ്റം ഗ്രിഡ് ലേഔട്ടുകൾ ലഭ്യമാണ്."
       },
       {
-        "question": "Can I add borders between pages?",
-        "answer": "Yes, you can add borders and gutters between pages."
+        "question": "എനിക്ക് പേജുകൾക്കിടയിൽ ബോർഡറുകൾ ചേർക്കാമോ?",
+        "answer": "അതെ, നിങ്ങൾക്ക് പേജുകൾക്കിടയിൽ ബോർഡറുകളും ഗട്ടറുകളും ചേർക്കാം."
       },
       {
-        "question": "Is page order preserved?",
-        "answer": "Yes, pages are arranged in reading order (left-to-right, top-to-bottom)."
+        "question": "പേജ് ക്രമം നിലനിർത്തുമോ?",
+        "answer": "അതെ, പേജുകൾ വായനാനുക്രമത്തിലാണ് ക്രമീകരിച്ചിരിക്കുന്നത് (ഇടത്തുനിന്ന് വലത്തോട്ട്, മുകളിൽ നിന്ന് താഴേക്ക്)."
       }
     ]
   },
   "combine-single-page": {
-    "title": "Combine to Single Page",
-    "metaDescription": "Stitch PDF pages into one continuous page. Create scrollable single-page documents.",
+    "title": "ഒറ്റ പേജിലേക്ക് ഒന്നാക്കുക",
+    "metaDescription": "PDF പേജുകളെ ഒരു തുടർച്ചയായ പേജായി കൂട്ടിച്ചേർക്കുക. സ്‌ക്രോൾ ചെയ്യാവുന്ന ഒറ്റ പേജ് പ്രമാണങ്ങൾ സൃഷ്‌ടിക്കുക.",
     "keywords": [
       "combine pages",
       "single page pdf",
       "stitch pages",
       "continuous scroll"
     ],
-    "description": "\n      <p>Combine to Single Page stitches all PDF pages into one continuous page. Create scrollable documents perfect for web viewing or continuous reading.</p>\n      <p>Pages are joined vertically with customizable spacing. The result is a single long page containing all content.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>Combine to Single Page എല്ലാ PDF പേജുകളെയും ഒരു തുടർച്ചയായ പേജായി കൂട്ടിച്ചേർക്കുന്നു. വെബ് കാഴ്‌ചയ്‌ക്കോ തുടർച്ചയായ വായനയ്‌ക്കോ അനുയോജ്യമായ സ്‌ക്രോൾ ചെയ്യാവുന്ന പ്രമാണങ്ങൾ സൃഷ്‌ടിക്കുക.</p>\n      <p>ഇഷ്‌ടാനുസൃതമാക്കാവുന്ന സ്പേസിംഗോടെ പേജുകൾ ലംബമായി ചേർക്കുന്നു. ഇതിന്റെ ഫലം എല്ലാ ഉള്ളടക്കവും അടങ്ങിയ ഒരൊറ്റ നീളമുള്ള പേജാണ്.</p>\n      <p>എല്ലാ പ്രോസസ്സിംഗും നിങ്ങളുടെ ബ്രൗസറിൽ തന്നെ നടക്കുന്നു, ഇത് നിങ്ങളുടെ പ്രമാണങ്ങൾ സ്വകാര്യമായി തുടരുന്നുവെന്ന് ഉറപ്പാക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "നിങ്ങളുടെ PDF ഫയൽ ഡ്രാഗ് ആൻഡ് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Set Spacing",
-        "description": "Choose the gap between stitched pages."
+        "title": "സ്പേസിംഗ് ക്രമീകരിക്കുക",
+        "description": "കൂട്ടിച്ചേർത്ത പേജുകൾക്കിടയിലുള്ള വിടവ് തിരഞ്ഞെടുക്കുക."
       },
       {
         "step": 3,
         "title": "സംയോജിപ്പിച്ച് ഡൗൺലോഡ് ചെയ്യുക",
-        "description": "Click Combine to create the single-page PDF."
+        "description": "ഒറ്റ പേജ് PDF സൃഷ്ടിക്കാൻ Combine ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Web Documents",
-        "description": "Create scrollable PDFs for web embedding.",
+        "title": "വെബ് പ്രമാണങ്ങൾ",
+        "description": "വെബ് എംബഡിംഗിനായി സ്‌ക്രോൾ ചെയ്യാവുന്ന PDF-കൾ സൃഷ്‌ടിക്കുക.",
         "icon": "globe"
       },
       {
-        "title": "Continuous Reading",
-        "description": "Convert paginated documents to continuous scroll.",
+        "title": "തുടർച്ചയായ വായന",
+        "description": "പേജുകളായി തിരിച്ച പ്രമാണങ്ങളെ തുടർച്ചയായി സ്‌ക്രോൾ ചെയ്യാവുന്ന രീതിയിലേക്ക് മാറ്റുക.",
         "icon": "scroll"
       },
       {
-        "title": "Long-Form Content",
-        "description": "Combine pages for seamless long-form reading.",
+        "title": "ലോംഗ്-ഫോം ഉള്ളടക്കം",
+        "description": "തടസ്സമില്ലാത്ത ലോംഗ്-ഫോം വായനയ്ക്കായി പേജുകൾ ഒന്നാക്കുക.",
         "icon": "file-text"
       }
     ],
     "faq": [
       {
         "question": "പേജ് പരിധിയുണ്ടോ?",
-        "answer": "Very long documents may be limited by browser memory."
+        "answer": "വളരെ നീളമുള്ള പ്രമാണങ്ങൾക്ക് ബ്രൗസർ മെമ്മറിയുടെ പരിമിതികൾ ബാധകമായേക്കാം."
       },
       {
-        "question": "Can I add separators between pages?",
-        "answer": "Yes, you can add spacing or lines between original pages."
+        "question": "പേജുകൾക്കിടയിൽ എനിക്ക് സെപ്പറേറ്ററുകൾ ചേർക്കാമോ?",
+        "answer": "അതെ, നിങ്ങൾക്ക് യഥാർത്ഥ പേജുകൾക്കിടയിൽ സ്പേസിംഗോ ലൈനുകളോ ചേർക്കാം."
       },
       {
-        "question": "Will this work for printing?",
-        "answer": "The result is best for screen viewing; use N-Up for print layouts."
+        "question": "ഇത് പ്രിന്റിംഗിന് ഉപകരിക്കുമോ?",
+        "answer": "ഈ ഫലം സ്‌ക്രീനിൽ കാണുന്നതിനാണ് ഏറ്റവും അനുയോജ്യം; പ്രിന്റ് ലേഔട്ടുകൾക്കായി N-Up ഉപയോഗിക്കുക."
       }
     ]
   },
   "view-metadata": {
-    "title": "View Metadata",
-    "metaDescription": "View PDF document properties. See author, title, dates, and other metadata.",
+    "title": "മെറ്റാഡാറ്റ കാണുക",
+    "metaDescription": "PDF പ്രമാണ പ്രോപ്പർട്ടികൾ കാണുക. രചയിതാവ്, ശീർഷകം, തീയതികൾ, മറ്റ് മെറ്റാഡാറ്റ എന്നിവ കാണുക.",
     "keywords": [
       "pdf metadata",
       "document properties",
       "pdf info",
       "view pdf details"
     ],
-    "description": "\n      <p>View Metadata displays all document properties and metadata from your PDF files. See author, title, subject, keywords, creation date, modification date, and more.</p>\n      <p>Useful for auditing documents, checking file information, or verifying document authenticity.</p>\n      <p>All viewing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>View Metadata നിങ്ങളുടെ PDF ഫയലുകളിൽ നിന്നുള്ള എല്ലാ പ്രമാണ പ്രോപ്പർട്ടികളും മെറ്റാഡാറ്റയും കാണിക്കുന്നു. രചയിതാവ്, ശീർഷകം, വിഷയം, കീവേഡുകൾ, നിർമ്മിച്ച തീയതി, മാറ്റിഅമർത്തിയ തീയതി എന്നിവയും അതിലേറെയും കാണുക.</p>\n      <p>പ്രമാണങ്ങൾ ഓഡിറ്റ് ചെയ്യുന്നതിനും ഫയൽ വിവരങ്ങൾ പരിശോധിക്കുന്നതിനും പ്രമാണത്തിന്റെ വാസ്തവികത ഉറപ്പാക്കുന്നതിനും ഉപയോഗപ്രദമാണ്.</p>\n      <p>എല്ലാ നിരീക്ഷണവും നിങ്ങളുടെ ബ്രൗസറിൽ തന്നെ നടക്കുന്നു, ഇത് നിങ്ങളുടെ പ്രമാണങ്ങൾ സ്വകാര്യമായി തുടരുന്നുവെന്ന് ഉറപ്പാക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "നിങ്ങളുടെ PDF ഫയൽ ഡ്രാഗ് ആൻഡ് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "View Properties",
-        "description": "See all metadata displayed in an organized format."
+        "title": "പ്രോപ്പർട്ടികൾ കാണുക",
+        "description": "എല്ലാ മെറ്റാഡാറ്റയും ഒരു സംഘടിത ഫോർമാറ്റിൽ കാണുക."
       },
       {
         "step": 3,
-        "title": "Export if Needed",
-        "description": "Optionally export metadata as JSON."
+        "title": "ആവശ്യമെങ്കിൽ എക്‌സ്‌പോർട്ട് ചെയ്യുക",
+        "description": "ആവശ്യമെങ്കിൽ മെറ്റാഡാറ്റ JSON ആയി എക്‌സ്‌പോർട്ട് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Document Audit",
-        "description": "Review document properties for compliance.",
+        "title": "പ്രമാണ ഓഡിറ്റ്",
+        "description": "അനുസരണം (compliance) ഉറപ്പാക്കാൻ പ്രമാണ പ്രോപ്പർട്ടികൾ പരിശോധിക്കുക.",
         "icon": "clipboard-check"
       },
       {
-        "title": "Verify Authenticity",
-        "description": "Check creation dates and author information.",
+        "title": "വാസ്തവികത പരിശോധിക്കുക",
+        "description": "നിർമ്മാണ തീയതികളും രചയിതാവിന്റെ വിവരങ്ങളും പരിശോധിക്കുക.",
         "icon": "shield"
       },
       {
-        "title": "File Information",
-        "description": "Get detailed information about PDF files.",
+        "title": "ഫയൽ വിവരങ്ങൾ",
+        "description": "PDF ഫയലുകളെക്കുറിച്ചുള്ള വിശദമായ വിവരങ്ങൾ നേടുക.",
         "icon": "info"
       }
     ],
     "faq": [
       {
-        "question": "What metadata is shown?",
-        "answer": "Title, author, subject, keywords, creator, producer, dates, and PDF version."
+        "question": "ഏതെല്ലാം മെറ്റാഡാറ്റയാണ് കാണിക്കുന്നത്?",
+        "answer": "Title, author, subject, keywords, creator, producer, തീയതികൾ, PDF പതിപ്പ് എന്നിവ."
       },
       {
-        "question": "Can I edit metadata here?",
-        "answer": "Use the Edit Metadata tool to modify document properties."
+        "question": "എനിക്ക് ഇവിടെ മെറ്റാഡാറ്റ എഡിറ്റ് ചെയ്യാൻ കഴിയുമോ?",
+        "answer": "ഡോക്യുമെന്റ് പ്രോപ്പർട്ടികൾ മാറ്റാൻ Edit Metadata ടൂൾ ഉപയോഗിക്കുക."
       },
       {
-        "question": "Is XMP metadata included?",
-        "answer": "Yes, both standard and XMP metadata are displayed."
+        "question": "XMP മെറ്റാഡാറ്റ ഉൾപ്പെടുത്തിയിട്ടുണ്ടോ?",
+        "answer": "അതെ, സ്റ്റാൻഡേർഡ്, XMP മെറ്റാഡാറ്റകൾ രണ്ടും കാണിക്കുന്നുണ്ട്."
       }
     ]
   },
   "edit-metadata": {
     "title": "Edit Metadata",
-    "metaDescription": "Edit PDF document properties. Change title, author, subject, and keywords.",
+    "metaDescription": "PDF ഡോക്യുമെന്റ് പ്രോപ്പർട്ടികൾ എഡിറ്റ് ചെയ്യുക. title, author, subject, keywords എന്നിവ മാറ്റുക.",
     "keywords": [
       "edit pdf metadata",
       "change pdf properties",
       "pdf author",
       "document info"
     ],
-    "description": "\n      <p>Edit Metadata allows you to modify document properties in your PDF files. Change the title, author, subject, keywords, and other metadata fields.</p>\n      <p>Perfect for correcting document information, adding proper attribution, or preparing files for distribution.</p>\n      <p>All editing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>Edit Metadata നിങ്ങളെ നിങ്ങളുടെ PDF ഫയലുകളിലെ ഡോക്യുമെന്റ് പ്രോപ്പർട്ടികൾ മാറ്റാൻ അനുവദിക്കുന്നു. title, author, subject, keywords, മറ്റ് മെറ്റാഡാറ്റ ഫീൽഡുകൾ എന്നിവ മാറ്റുക.</p><p>ഡോക്യുമെന്റ് വിവരങ്ങൾ തിരുത്തുന്നതിനും ശരിയായ അട്രിബ്യൂഷൻ നൽകുന്നതിനും അല്ലെങ്കിൽ ഫയലുകൾ വിതരണത്തിനായി തയ്യാറാക്കുന്നതിനും അനുയോജ്യമാണ്.</p><p>എല്ലാ എഡിറ്റിംഗും നിങ്ങളുടെ ബ്രൗസറിൽ തന്നെ നടക്കുന്നു, ഇത് നിങ്ങളുടെ ഡോക്യുമെന്റുകൾ സ്വകാര്യമായി തുടരുന്നുവെന്ന് ഉറപ്പാക്കുന്നു.</p>",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "നിങ്ങളുടെ PDF ഫയൽ ഡ്രാഗ് ആൻഡ് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Edit Properties",
-        "description": "Modify title, author, subject, keywords, and other fields."
+        "title": "പ്രോപ്പർട്ടികൾ എഡിറ്റ് ചെയ്യുക",
+        "description": "title, author, subject, keywords, മറ്റ് ഫീൽഡുകൾ എന്നിവ പരിഷ്കരിക്കുക."
       },
       {
         "step": 3,
         "title": "സേവ് ചെയ്ത് ഡൗൺലോഡ് ചെയ്യുക",
-        "description": "Click Save to apply changes and download."
+        "description": "മാറ്റങ്ങൾ വരുത്തുന്നതിനും ഡൗൺലോഡ് ചെയ്യുന്നതിനും Save ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Add Attribution",
-        "description": "Set proper author and creator information.",
+        "title": "അട്രിബ്യൂഷൻ ചേർക്കുക",
+        "description": "ശരിയായ author, creator വിവരങ്ങൾ സജ്ജമാക്കുക.",
         "icon": "user"
       },
       {
-        "title": "SEO Optimization",
-        "description": "Add keywords and descriptions for searchability.",
+        "title": "SEO ഒപ്റ്റിമൈസേഷൻ",
+        "description": "തിരച്ചിൽ എളുപ്പമാക്കുന്നതിന് keywords, വിവരണം എന്നിവ ചേർക്കുക.",
         "icon": "search"
       },
       {
         "title": "ഡോക്യുമെന്റ് തയ്യാറാക്കൽ",
-        "description": "Prepare documents with proper metadata before sharing.",
+        "description": "പങ്കിടുന്നതിന് മുൻപ് ശരിയായ മെറ്റാഡാറ്റയോടെ ഡോക്യുമെന്റുകൾ തയ്യാറാക്കുക.",
         "icon": "file-check"
       }
     ],
     "faq": [
       {
-        "question": "What fields can I edit?",
-        "answer": "Title, author, subject, keywords, creator, and producer fields."
+        "question": "എനിക്ക് ഏതെല്ലാം ഫീൽഡുകൾ എഡിറ്റ് ചെയ്യാൻ കഴിയും?",
+        "answer": "Title, author, subject, keywords, creator, producer ഫീൽഡുകൾ."
       },
       {
-        "question": "Can I clear all metadata?",
-        "answer": "Use Remove Metadata tool to strip all document properties."
+        "question": "എനിക്ക് എല്ലാ മെറ്റാഡാറ്റയും നീക്കം ചെയ്യാൻ കഴിയുമോ?",
+        "answer": "എല്ലാ ഡോക്യുമെന്റ് പ്രോപ്പർട്ടികളും നീക്കം ചെയ്യാൻ Remove Metadata ടൂൾ ഉപയോഗിക്കുക."
       },
       {
-        "question": "Are dates editable?",
-        "answer": "Creation and modification dates are updated automatically."
+        "question": "തീയതികൾ എഡിറ്റ് ചെയ്യാൻ കഴിയുമോ?",
+        "answer": "നിർമ്മാണ, മാറ്റം വരുത്തിയ തീയതികൾ സ്വയമേവ അപ്ഡേറ്റ് ചെയ്യപ്പെടും."
       }
     ]
   },
   "pdf-to-zip": {
     "title": "PDFs to ZIP",
-    "metaDescription": "Package multiple PDFs into a ZIP archive. Compress and bundle PDF files.",
+    "metaDescription": "ഒന്നിലധികം PDF-കൾ ഒരു ZIP ആർക്കൈവിലേക്ക് പാക്ക് ചെയ്യുക. PDF ഫയലുകൾ കംപ്രസ് ചെയ്യുകയും ഒന്നിച്ച് ചേർക്കുകയും ചെയ്യുക.",
     "keywords": [
       "pdf to zip",
       "compress pdfs",
       "bundle pdfs",
       "archive pdfs"
     ],
-    "description": "\n      <p>PDFs to ZIP packages multiple PDF files into a single ZIP archive. Compress and bundle your PDFs for easier sharing, storage, or backup.</p>\n      <p>The tool creates a compressed archive containing all your PDF files, reducing total size and simplifying file management.</p>\n      <p>All processing happens in your browser, ensuring your files remain private.</p>\n    ",
+    "description": "<p>PDFs to ZIP ഒന്നിലധികം PDF ഫയലുകളെ ഒരൊറ്റ ZIP ആർക്കൈവിലേക്ക് പാക്ക് ചെയ്യുന്നു. എളുപ്പത്തിൽ പങ്കിടുന്നതിനും സൂക്ഷിക്കുന്നതിനും ബാക്കപ്പിനുമായി നിങ്ങളുടെ PDF-കൾ കംപ്രസ് ചെയ്യുകയും ഒന്നിച്ച് ചേർക്കുകയും ചെയ്യുക.</p><p>ഈ ടൂൾ നിങ്ങളുടെ എല്ലാ PDF ഫയലുകളും ഉൾക്കൊള്ളുന്ന ഒരു കംപ്രസ്ഡ് ആർക്കൈവ് സൃഷ്ടിക്കുന്നു, ഇത് മൊത്തം വലുപ്പം കുറയ്ക്കുകയും ഫയൽ മാനേജ്മെന്റ് ലളിതമാക്കുകയും ചെയ്യുന്നു.</p><p>എല്ലാ പ്രോസസ്സിംഗും നിങ്ങളുടെ ബ്രൗസറിൽ തന്നെയാണ് നടക്കുന്നത്, ഇത് നിങ്ങളുടെ ഫയലുകൾ സ്വകാര്യമായി തുടരുന്നുവെന്ന് ഉറപ്പാക്കുന്നു.</p>",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload PDFs",
-        "description": "Drag and drop multiple PDF files or click to select."
+        "title": "PDF-കൾ അപ്‌ലോഡ് ചെയ്യുക",
+        "description": "ഒന്നിലധികം PDF ഫയലുകൾ ഡ്രാഗ് ചെയ്ത് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Configure Archive",
-        "description": "Optionally set archive name and compression level."
+        "title": "ആർക്കൈവ് ക്രമീകരിക്കുക",
+        "description": "ആവശ്യമെങ്കിൽ ആർക്കൈവ് നാമവും കംപ്രഷൻ ലെവലും സജ്ജമാക്കുക."
       },
       {
         "step": 3,
-        "title": "Create and Download",
-        "description": "Click Create to generate the ZIP archive."
+        "title": "സൃഷ്ടിച്ച് ഡൗൺലോഡ് ചെയ്യുക",
+        "description": "ZIP ആർക്കൈവ് നിർമ്മിക്കാൻ Create ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "File Sharing",
-        "description": "Bundle multiple PDFs for easier sharing.",
+        "title": "ഫയൽ പങ്കിടൽ",
+        "description": "എളുപ്പത്തിൽ പങ്കിടുന്നതിന് ഒന്നിലധികം PDF-കൾ ഒന്നിച്ച് ചേർക്കുക.",
         "icon": "share-2"
       },
       {
-        "title": "Backup Creation",
-        "description": "Create compressed backups of PDF collections.",
+        "title": "ബാക്കപ്പ് നിർമ്മാണം",
+        "description": "PDF ശേഖരങ്ങളുടെ കംപ്രസ് ചെയ്ത ബാക്കപ്പുകൾ നിർമ്മിക്കുക.",
         "icon": "archive"
       },
       {
         "title": "ഇമെയിൽ അറ്റാച്ച്മെന്റുകൾ",
-        "description": "Combine PDFs into one attachment for email.",
+        "description": "ഇമെയിലിനായി PDF-കൾ ഒരൊറ്റ അറ്റാച്ച്‌മെന്റിലേക്ക് സംയോജിപ്പിക്കുക.",
         "icon": "mail"
       }
     ],
     "faq": [
       {
-        "question": "How much compression is applied?",
-        "answer": "ZIP compression typically reduces total size by 10-30%."
+        "question": "എത്രത്തോളം കംപ്രഷൻ ബാധകമാകും?",
+        "answer": "ZIP കംപ്രഷൻ സാധാരണയായി മൊത്തം വലുപ്പം 10-30% വരെ കുറയ്ക്കുന്നു."
       },
       {
-        "question": "Is there a file limit?",
-        "answer": "You can include up to 100 PDFs in a single archive."
+        "question": "ഫയൽ പരിധിയുണ്ടോ?",
+        "answer": "ഒരു ആർക്കൈവിൽ നിങ്ങൾക്ക് 100 PDF-കൾ വരെ ഉൾപ്പെടുത്താം."
       },
       {
-        "question": "Can I set a password?",
-        "answer": "Password-protected ZIP creation is not currently supported."
+        "question": "എനിക്ക് പാസ്‌വേഡ് സജ്ജീകരിക്കാനാകുമോ?",
+        "answer": "പാസ്‌വേഡ് ഉപയോഗിച്ച് സംരക്ഷിച്ച ZIP നിർമ്മാണം നിലവിൽ ലഭ്യമല്ല."
       }
     ]
   },
   "compare-pdfs": {
-    "title": "Compare PDFs",
-    "metaDescription": "Compare two PDF documents. Highlight differences between versions.",
+    "title": "PDF-കൾ താരതമ്യം ചെയ്യുക",
+    "metaDescription": "രണ്ട് PDF ഡോക്യുമെന്റുകൾ താരതമ്യം ചെയ്യുക. പതിപ്പുകൾ തമ്മിലുള്ള വ്യത്യാസങ്ങൾ ഹൈലൈറ്റ് ചെയ്യുക.",
     "keywords": [
       "compare pdfs",
       "pdf diff",
       "document comparison",
       "version comparison"
     ],
-    "description": "\n      <p>Compare PDFs analyzes two PDF documents and highlights the differences between them. Perfect for reviewing document revisions, checking contract changes, or verifying edits.</p>\n      <p>View documents side-by-side or in overlay mode with differences highlighted. The tool identifies text changes, additions, and deletions.</p>\n      <p>All comparison happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>Compare PDFs രണ്ട് PDF ഡോക്യുമെന്റുകൾ വിശകലനം ചെയ്യുകയും അവ തമ്മിലുള്ള വ്യത്യാസങ്ങൾ ഹൈലൈറ്റ് ചെയ്യുകയും ചെയ്യുന്നു. ഡോക്യുമെന്റ് തിരുത്തലുകൾ അവലോകനം ചെയ്യുന്നതിനും കരാർ മാറ്റങ്ങൾ പരിശോധിക്കുന്നതിനും എഡിറ്റുകൾ സ്ഥിരീകരിക്കുന്നതിനും ഇത് വളരെ അനുയോജ്യമാണ്.</p><p>വ്യത്യാസങ്ങൾ ഹൈലൈറ്റ് ചെയ്തുകൊണ്ട് ഡോക്യുമെന്റുകൾ വശങ്ങളിലായോ അല്ലെങ്കിൽ ഓവർലേ മോഡിലോ കാണുക. ഈ ടൂൾ ടെക്സ്റ്റ് മാറ്റങ്ങൾ, കൂട്ടിച്ചേർക്കലുകൾ, ഒഴിവാക്കലുകൾ എന്നിവ കണ്ടെത്തുന്നു.</p><p>എല്ലാ താരതമ്യങ്ങളും നിങ്ങളുടെ ബ്രൗസറിൽ തന്നെയാണ് നടക്കുന്നത്, ഇത് നിങ്ങളുടെ ഡോക്യുമെന്റുകൾ സ്വകാര്യമായി തുടരുന്നുവെന്ന് ഉറപ്പാക്കുന്നു.</p>",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Two PDFs",
-        "description": "Upload the original and modified PDF documents."
+        "title": "രണ്ട് PDF-കൾ അപ്‌ലോഡ് ചെയ്യുക",
+        "description": "അസ്സൽ PDF ഡോക്യുമെന്റും മാറ്റം വരുത്തിയ PDF ഡോക്യുമെന്റും അപ്‌ലോഡ് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Compare Documents",
-        "description": "View differences highlighted in side-by-side or overlay mode."
+        "title": "ഡോക്യുമെന്റുകൾ താരതമ്യം ചെയ്യുക",
+        "description": "വശങ്ങളിലായോ അല്ലെങ്കിൽ ഓവർലേ മോഡിലോ ഹൈലൈറ്റ് ചെയ്ത വ്യത്യാസങ്ങൾ കാണുക."
       },
       {
         "step": 3,
-        "title": "Export Results",
-        "description": "Download a comparison report or annotated PDF."
+        "title": "ഫലങ്ങൾ എക്സ്പോർട്ട് ചെയ്യുക",
+        "description": "ഒരു താരതമ്യ റിപ്പോർട്ടോ വ്യാഖ്യാനിച്ച PDF-ഓ ഡൗൺലോഡ് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Contract Review",
-        "description": "Compare contract versions to identify changes.",
+        "title": "കരാർ പരിശോധന",
+        "description": "മാറ്റങ്ങൾ തിരിച്ചറിയാൻ കരാർ പതിപ്പുകൾ താരതമ്യം ചെയ്യുക.",
         "icon": "file-text"
       },
       {
-        "title": "Document Revision",
-        "description": "Review edits between document versions.",
+        "title": "രേഖാ പുനരവലോകനം",
+        "description": "രേഖാ പതിപ്പുകൾക്കിടയിലുള്ള എഡിറ്റുകൾ പരിശോധിക്കുക.",
         "icon": "git-compare"
       },
       {
-        "title": "Quality Assurance",
-        "description": "Verify that only intended changes were made.",
+        "title": "ഗുണനിലവാര ഉറപ്പ്",
+        "description": "ഉദ്ദേശിച്ച മാറ്റങ്ങൾ മാത്രമേ വരുത്തിയിട്ടുള്ളൂ എന്ന് ഉറപ്പാക്കുക.",
         "icon": "check-circle"
       }
     ],
     "faq": [
       {
-        "question": "What types of differences are detected?",
-        "answer": "Text additions, deletions, modifications, and formatting changes."
+        "question": "ഏതൊക്കെ തരത്തിലുള്ള വ്യത്യാസങ്ങളാണ് കണ്ടെത്തുന്നത്?",
+        "answer": "ടെക്സ്റ്റ് കൂട്ടിച്ചേർക്കലുകൾ, ഒഴിവാക്കലുകൾ, മാറ്റങ്ങൾ, ഫോർമാറ്റിംഗ് വ്യത്യാസങ്ങൾ."
       },
       {
-        "question": "Can I compare scanned documents?",
-        "answer": "Scanned documents should be OCR processed first for text comparison."
+        "question": "എനിക്ക് സ്കാൻ ചെയ്ത പ്രമാണങ്ങൾ താരതമ്യം ചെയ്യാൻ കഴിയുമോ?",
+        "answer": "ടെക്സ്റ്റ് താരതമ്യം ചെയ്യുന്നതിനായി സ്കാൻ ചെയ്ത പ്രമാണങ്ങൾ ആദ്യം OCR പ്രോസസ്സ് ചെയ്യണം."
       },
       {
-        "question": "Is visual comparison available?",
-        "answer": "Yes, overlay mode shows visual differences between pages."
+        "question": "വിഷ്വൽ താരതമ്യം ലഭ്യമാണോ?",
+        "answer": "അതെ, ഓവർലേ മോഡ് പേജുകൾ തമ്മിലുള്ള വിഷ്വൽ വ്യത്യാസങ്ങൾ കാണിക്കുന്നു."
       }
     ]
   },
   "posterize-pdf": {
-    "title": "Posterize PDF",
-    "metaDescription": "Split large PDF pages into printable tiles. Create posters from PDF pages.",
+    "title": "PDF പോസ്റ്ററൈസ് ചെയ്യുക",
+    "metaDescription": "വലിയ PDF പേജുകൾ പ്രിന്റ് ചെയ്യാവുന്ന ടൈലുകളാക്കി വിഭജിക്കുക. PDF പേജുകളിൽ നിന്ന് പോസ്റ്ററുകൾ ഉണ്ടാക്കുക.",
     "keywords": [
       "posterize pdf",
       "tile pdf",
       "large format printing",
       "pdf poster"
     ],
-    "description": "\n      <p>Posterize PDF splits large PDF pages into smaller tiles that can be printed on standard paper and assembled into posters. Perfect for printing large diagrams, maps, or artwork.</p>\n      <p>Configure the grid size and overlap for easy assembly. The tool automatically calculates tile dimensions for your target output size.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>Posterize PDF വലിയ PDF പേജുകളെ ചെറിയ ടൈലുകളായി വിഭജിക്കുന്നു, അത് സ്റ്റാൻഡേർഡ് പേപ്പറിൽ പ്രിന്റ് ചെയ്ത് പോസ്റ്ററുകളായി കൂട്ടിച്ചേർക്കാം. വലിയ ഡയഗ്രമുകൾ, മാപ്പുകൾ അല്ലെങ്കിൽ ആർട്ട് വർക്കുകൾ പ്രിന്റ് ചെയ്യുന്നതിന് അനുയോജ്യമാണ്.</p><p>എളുപ്പത്തിൽ കൂട്ടിച്ചേർക്കുന്നതിനായി ഗ്രിഡ് വലുപ്പവും ഓവർലാപ്പും ക്രമീകരിക്കുക. നിങ്ങളുടെ ടാർഗെറ്റ് ഔട്ട്പുട്ട് വലുപ്പത്തിനായി ടൂൾ സ്വയമേവ ടൈൽ അളവുകൾ കണക്കാക്കുന്നു.</p><p>എല്ലാ പ്രോസസ്സിംഗും നിങ്ങളുടെ ബ്രൗസറിൽ സംഭവിക്കുന്നു, ഇത് നിങ്ങളുടെ പ്രമാണങ്ങൾ സ്വകാര്യമായി തുടരുന്നുവെന്ന് ഉറപ്പാക്കുന്നു.</p>",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your large-format PDF or click to select."
+        "description": "നിങ്ങളുടെ ലാർജ്-ഫോർമാറ്റ് PDF ഡ്രാഗ് ചെയ്ത് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Configure Tiles",
-        "description": "Set grid size, overlap, and output paper size."
+        "title": "ടൈലുകൾ ക്രമീകരിക്കുക",
+        "description": "ഗ്രിഡ് വലുപ്പം, ഓവർലാപ്പ്, ഔട്ട്പുട്ട് പേപ്പർ വലുപ്പം എന്നിവ ക്രമീകരിക്കുക."
       },
       {
         "step": 3,
-        "title": "Create and Download",
-        "description": "Click Create to generate printable tiles."
+        "title": "സൃഷ്ടിച്ച് ഡൗൺലോഡ് ചെയ്യുക",
+        "description": "പ്രിന്റ് ചെയ്യാവുന്ന ടൈലുകൾ സൃഷ്ടിക്കാൻ ക്രിയേറ്റ് (Create) ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Poster Printing",
-        "description": "Print large posters on standard paper.",
+        "title": "പോസ്റ്റർ പ്രിന്റിംഗ്",
+        "description": "സാധാരണ പേപ്പറിൽ വലിയ പോസ്റ്ററുകൾ പ്രിന്റ് ചെയ്യുക.",
         "icon": "maximize-2"
       },
       {
-        "title": "Map Printing",
-        "description": "Print large maps in sections for assembly.",
+        "title": "മാപ്പ് പ്രിന്റിംഗ്",
+        "description": "കൂട്ടിച്ചേർക്കുന്നതിനായി വലിയ മാപ്പുകൾ ഭാഗങ്ങളായി പ്രിന്റ് ചെയ്യുക.",
         "icon": "map"
       },
       {
-        "title": "Artwork Reproduction",
-        "description": "Create large prints from PDF artwork.",
+        "title": "ആർട്ട് വർക്ക് റീപ്രൊഡക്ഷൻ",
+        "description": "PDF ആർട്ട് വർക്കുകളിൽ നിന്ന് വലിയ പ്രിന്റുകൾ സൃഷ്ടിക്കുക.",
         "icon": "image"
       }
     ],
     "faq": [
       {
-        "question": "What overlap should I use?",
-        "answer": "A 10-20mm overlap is recommended for easy alignment during assembly."
+        "question": "ഞാൻ ഏത് ഓവർലാപ്പ് ഉപയോഗിക്കണം?",
+        "answer": "കൂട്ടിച്ചേർക്കുമ്പോൾ എളുപ്പത്തിൽ വിന്യസിക്കുന്നതിന് 10-20mm ഓവർലാപ്പ് ശുപാർശ ചെയ്യുന്നു."
       },
       {
-        "question": "Can I add crop marks?",
-        "answer": "Yes, crop marks can be added to help with cutting and alignment."
+        "question": "എനിക്ക് ക്രോപ്പ് മാർക്കുകൾ ചേർക്കാൻ കഴിയുമോ?",
+        "answer": "അതെ, മുറിക്കുന്നതിനും വിന്യസിക്കുന്നതിനും സഹായിക്കുന്നതിന് ക്രോപ്പ് മാർക്കുകൾ ചേർക്കാം."
       },
       {
-        "question": "What paper sizes are supported?",
-        "answer": "A4, Letter, A3, and custom sizes are supported."
+        "question": "ഏതൊക്കെ പേപ്പർ വലുപ്പങ്ങളാണ് പിന്തുണയ്ക്കുന്നത്?",
+        "answer": "A4, Letter, A3, കസ്റ്റം വലുപ്പങ്ങൾ എന്നിവ പിന്തുണയ്ക്കുന്നു."
       }
     ]
   },
   "fix-page-size": {
-    "title": "Fix Page Size",
-    "metaDescription": "Standardize PDF page sizes. Convert all pages to uniform dimensions.",
+    "title": "പേജ് വലുപ്പം ശരിയാക്കുക",
+    "metaDescription": "PDF പേജ് വലുപ്പങ്ങൾ സ്റ്റാൻഡേർഡൈസ് ചെയ്യുക. എല്ലാ പേജുകളും ഏകീകൃത അളവുകളിലേക്ക് മാറ്റുക.",
     "keywords": [
       "fix page size",
       "standardize pdf",
       "uniform pages",
       "resize pdf pages"
     ],
-    "description": "\n      <p>Fix Page Size standardizes all pages in your PDF to uniform dimensions. Convert mixed-size documents to consistent page sizes for professional presentation or printing.</p>\n      <p>Choose from standard sizes (A4, Letter, etc.) or set custom dimensions. Content is scaled or positioned to fit the new page size.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>Fix Page Size നിങ്ങളുടെ PDF-ലെ എല്ലാ പേജുകളും ഏകീകൃത അളവുകളിലേക്ക് സ്റ്റാൻഡേർഡൈസ് ചെയ്യുന്നു. പ്രൊഫഷണൽ പ്രസന്റേഷനോ പ്രിന്റിംഗിനോ വേണ്ടി വ്യത്യസ്ത വലുപ്പത്തിലുള്ള പ്രമാണങ്ങൾ ഒരേ പേജ് വലുപ്പത്തിലേക്ക് മാറ്റുക.</p><p>സ്റ്റാൻഡേർഡ് വലുപ്പങ്ങളിൽ (A4, Letter മുതലായവ) നിന്ന് തിരഞ്ഞെടുക്കുക അല്ലെങ്കിൽ കസ്റ്റം അളവുകൾ സജ്ജമാക്കുക. പുതിയ പേജ് വലുപ്പത്തിന് അനുയോജ്യമായ രീതിയിൽ ഉള്ളടക്കം സ്കെയിൽ ചെയ്യുകയോ ക്രമീകരിക്കുകയോ ചെയ്യുന്നു.</p><p>എല്ലാ പ്രോസസ്സിംഗും നിങ്ങളുടെ ബ്രൗസറിൽ സംഭവിക്കുന്നു, ഇത് നിങ്ങളുടെ പ്രമാണങ്ങൾ സ്വകാര്യമായി തുടരുന്നുവെന്ന് ഉറപ്പാക്കുന്നു.</p>",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "നിങ്ങളുടെ PDF ഫയൽ ഡ്രാഗ് ആൻഡ് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Select Target Size",
-        "description": "Choose a standard size or enter custom dimensions."
+        "title": "ടാർഗെറ്റ് വലുപ്പം തിരഞ്ഞെടുക്കുക",
+        "description": "ഒരു സ്റ്റാൻഡേർഡ് വലുപ്പം തിരഞ്ഞെടുക്കുക അല്ലെങ്കിൽ കസ്റ്റം അളവുകൾ നൽകുക."
       },
       {
         "step": 3,
         "title": "അപ്ലൈ ചെയ്ത് ഡൗൺലോഡ് ചെയ്യുക",
-        "description": "Click Apply to standardize pages and download."
+        "description": "പേജുകൾ സ്റ്റാൻഡേർഡൈസ് ചെയ്യാനും ഡൗൺലോഡ് ചെയ്യാനും അപ്ലൈ (Apply) ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
         "title": "പ്രിന്റ് തയ്യാറാക്കൽ",
-        "description": "Standardize pages for consistent printing.",
+        "description": "ഒരേപോലെയുള്ള പ്രിന്റിംഗിനായി പേജുകൾ സ്റ്റാൻഡേർഡൈസ് ചെയ്യുക.",
         "icon": "printer"
       },
       {
-        "title": "Document Cleanup",
-        "description": "Fix documents with inconsistent page sizes.",
+        "title": "പ്രമാണ ശുദ്ധീകരണം",
+        "description": "വ്യത്യസ്ത പേജ് വലുപ്പങ്ങളുള്ള പ്രമാണങ്ങൾ ശരിയാക്കുക.",
         "icon": "file-check"
       },
       {
         "title": "പ്രൊഫഷണൽ ഡോക്യുമെന്റുകൾ",
-        "description": "Create uniform documents for distribution.",
+        "description": "വിതരണത്തിനായി ഏകീകൃത പ്രമാണങ്ങൾ സൃഷ്ടിക്കുക.",
         "icon": "briefcase"
       }
     ],
     "faq": [
       {
-        "question": "How is content handled?",
-        "answer": "Content is scaled to fit or centered on the new page size."
+        "question": "ഉള്ളടക്കം എങ്ങനെയാണ് കൈകാര്യം ചെയ്യുന്നത്?",
+        "answer": "ഉള്ളടക്കം പുതിയ പേജ് വലുപ്പത്തിന് അനുയോജ്യമായ രീതിയിൽ സ്കെയിൽ ചെയ്യുകയോ കേന്ദ്രീകരിക്കുകയോ ചെയ്യുന്നു."
       },
       {
-        "question": "Can I preserve aspect ratio?",
-        "answer": "Yes, content can be scaled proportionally to fit."
+        "question": "എനിക്ക് ആസ്പെക്ട് റേഷ്യോ നിലനിർത്താൻ കഴിയുമോ?",
+        "answer": "അതെ, ഉള്ളടക്കം അനുപാതികമായി സ്കെയിൽ ചെയ്യാൻ കഴിയും."
       },
       {
-        "question": "What standard sizes are available?",
-        "answer": "A4, A3, Letter, Legal, and other common sizes."
+        "question": "ഏതൊക്കെ സ്റ്റാൻഡേർഡ് വലുപ്പങ്ങൾ ലഭ്യമാണ്?",
+        "answer": "A4, A3, Letter, Legal, കൂടാതെ മറ്റ് സാധാരണ വലുപ്പങ്ങളും."
       }
     ]
   },
   "linearize-pdf": {
-    "title": "Linearize PDF",
-    "metaDescription": "Optimize PDF for fast web viewing. Enable progressive loading.",
+    "title": "PDF ലിനിയറൈസ് ചെയ്യുക",
+    "metaDescription": "വേഗത്തിലുള്ള വെബ് കാഴ്‌ചയ്ക്കായി PDF ഒപ്റ്റിമൈസ് ചെയ്യുക. പ്രോഗ്രസീവ് ലോഡിംഗ് പ്രവർത്തനക്ഷമമാക്കുക.",
     "keywords": [
       "linearize pdf",
       "fast web view",
       "optimize pdf",
       "progressive pdf"
     ],
-    "description": "\n      <p>Linearize PDF optimizes your documents for fast web viewing. Linearized PDFs can begin displaying before the entire file is downloaded, improving user experience.</p>\n      <p>Also known as \"Fast Web View,\" this optimization reorganizes the PDF structure for progressive loading in web browsers.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>Linearize PDF എന്നത് വേഗത്തിലുള്ള വെബ് കാഴ്‌ചയ്ക്കായി നിങ്ങളുടെ ഡോക്യുമെന്റുകളെ ഒപ്റ്റിമൈസ് ചെയ്യുന്നു. മുഴുവൻ ഫയലും ഡൗൺലോഡ് ചെയ്യുന്നതിന് മുമ്പ് തന്നെ Linearized PDF-കൾ കാണിച്ചുതുടങ്ങാൻ കഴിയും, ഇത് യൂസർ എക്സ്പീരിയൻസ് മെച്ചപ്പെടുത്തുന്നു.</p>\n      <p>\"Fast Web View\" എന്നും അറിയപ്പെടുന്ന ഈ ഒപ്റ്റിമൈസേഷൻ, വെബ് ബ്രൗസറുകളിൽ പ്രോഗ്രസീവ് ലോഡിംഗിനായി PDF ഘടന പുനഃസംഘടിപ്പിക്കുന്നു.</p>\n      <p>എല്ലാ പ്രോസസ്സിംഗും നിങ്ങളുടെ ബ്രൗസറിലാണ് നടക്കുന്നത്, അതിനാൽ നിങ്ങളുടെ ഡോക്യുമെന്റുകൾ സ്വകാര്യമായി തുടരുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "നിങ്ങളുടെ PDF ഫയൽ ഡ്രാഗ് ആൻഡ് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
         "title": "Linearize",
-        "description": "Click Linearize to optimize for web viewing."
+        "description": "വെബ് കാഴ്‌ചയ്ക്കായി ഒപ്റ്റിമൈസ് ചെയ്യാൻ Linearize ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 3,
-        "title": "Download",
-        "description": "Download your optimized PDF."
+        "title": "ഡൗൺലോഡ്",
+        "description": "നിങ്ങളുടെ ഒപ്റ്റിമൈസ് ചെയ്ത PDF ഡൗൺലോഡ് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
         "title": "വെബ് പബ്ലിഷിംഗ്",
-        "description": "Optimize PDFs for website downloads.",
+        "description": "വെബ്‌സൈറ്റ് ഡൗൺലോഡുകൾക്കായി PDF-കൾ ഒപ്റ്റിമൈസ് ചെയ്യുക.",
         "icon": "globe"
       },
       {
         "title": "ഇമെയിൽ അറ്റാച്ച്മെന്റുകൾ",
-        "description": "Create PDFs that open faster for recipients.",
+        "description": "സ്വീകർത്താക്കൾക്ക് വേഗത്തിൽ തുറക്കാവുന്ന PDF-കൾ സൃഷ്‌ടിക്കുക.",
         "icon": "mail"
       },
       {
-        "title": "Online Documents",
-        "description": "Improve viewing experience for online documents.",
+        "title": "ഓൺലൈൻ ഡോക്യുമെന്റുകൾ",
+        "description": "ഓൺലൈൻ ഡോക്യുമെന്റുകളുടെ കാഴ്ചാനുഭവം മെച്ചപ്പെടുത്തുക.",
         "icon": "cloud"
       }
     ],
     "faq": [
       {
-        "question": "What is linearization?",
-        "answer": "Linearization reorganizes PDF data for progressive loading."
+        "question": "എന്താണ് linearization?",
+        "answer": "Linearization പ്രോഗ്രസീവ് ലോഡിംഗിനായി PDF ഡാറ്റ പുനഃസംഘടിപ്പിക്കുന്നു."
       },
       {
-        "question": "Does it reduce file size?",
-        "answer": "Linearization may slightly increase file size due to added structure."
+        "question": "ഇത് ഫയൽ സൈസ് കുറയ്ക്കുമോ?",
+        "answer": "കൂട്ടിച്ചേർത്ത ഘടന കാരണം Linearization ഫയൽ സൈസ് അല്പം വർദ്ധിപ്പിച്ചേക്കാം."
       },
       {
-        "question": "Is it compatible with all viewers?",
-        "answer": "Yes, linearized PDFs work in all PDF readers."
+        "question": "ഇത് എല്ലാ വ്യൂവേഴ്‌സിലും പ്രവർത്തിക്കുമോ?",
+        "answer": "അതെ, linearized PDF-കൾ എല്ലാ PDF റീഡറുകളിലും പ്രവർത്തിക്കും."
       }
     ]
   },
   "page-dimensions": {
     "title": "Page Dimensions",
-    "metaDescription": "Analyze PDF page sizes. View dimensions of all pages in your document.",
+    "metaDescription": "PDF പേജ് സൈസുകൾ വിശകലനം ചെയ്യുക. നിങ്ങളുടെ ഡോക്യുമെന്റിലെ എല്ലാ പേജുകളുടെയും ഡൈമൻഷനുകൾ കാണുക.",
     "keywords": [
       "pdf page size",
       "page dimensions",
       "pdf measurements",
       "document size"
     ],
-    "description": "\n      <p>Page Dimensions analyzes and displays the size of every page in your PDF document. View dimensions in various units (inches, mm, points) and identify pages with non-standard sizes.</p>\n      <p>Useful for print preparation, document analysis, or identifying inconsistent page sizes.</p>\n      <p>All analysis happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>Page Dimensions നിങ്ങളുടെ PDF ഡോക്യുമെന്റിലെ ഓരോ പേജിന്റെയും അളവ് വിശകലനം ചെയ്യുകയും കാണിക്കുകയും ചെയ്യുന്നു. വിവിധ യൂണിറ്റുകളിൽ (ഇഞ്ചുകൾ, mm, പോയിന്റുകൾ) ഡൈമൻഷനുകൾ കാണുകയും സ്റ്റാൻഡേർഡ് അല്ലാത്ത പേജുകൾ കണ്ടെത്തുകയും ചെയ്യുക.</p>\n      <p>പ്രിന്റ് പ്രിപ്പറേഷൻ, ഡോക്യുമെന്റ് വിശകലനം അല്ലെങ്കിൽ ഒരേപോലെയല്ലാത്ത പേജ് സൈസുകൾ കണ്ടെത്തൽ എന്നിവയ്ക്ക് ഉപയോഗപ്രദമാണ്.</p>\n      <p>എല്ലാ വിശകലനങ്ങളും നിങ്ങളുടെ ബ്രൗസറിലാണ് നടക്കുന്നത്, അതിനാൽ നിങ്ങളുടെ ഡോക്യുമെന്റുകൾ സ്വകാര്യമായി തുടരുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "നിങ്ങളുടെ PDF ഫയൽ ഡ്രാഗ് ആൻഡ് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "View Dimensions",
-        "description": "See page sizes displayed for all pages."
+        "title": "ഡൈമൻഷനുകൾ കാണുക",
+        "description": "എല്ലാ പേജുകളുടെയും പേജ് സൈസുകൾ കാണുക."
       },
       {
         "step": 3,
-        "title": "Export Report",
-        "description": "Optionally export dimensions as JSON."
+        "title": "റിപ്പോർട്ട് എക്‌സ്‌പോർട്ട് ചെയ്യുക",
+        "description": "വേണമെങ്കിൽ ഡൈമൻഷനുകൾ JSON ആയി എക്‌സ്‌പോർട്ട് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Print Planning",
-        "description": "Check page sizes before printing.",
+        "title": "പ്രിന്റ് പ്ലാനിംഗ്",
+        "description": "പ്രിന്റ് ചെയ്യുന്നതിന് മുമ്പ് പേജ് സൈസുകൾ പരിശോധിക്കുക.",
         "icon": "printer"
       },
       {
-        "title": "Document Analysis",
-        "description": "Identify pages with unusual dimensions.",
+        "title": "ഡോക്യുമെന്റ് അനാലിസിസ്",
+        "description": "അസാധാരണമായ ഡൈമൻഷനുകളുള്ള പേജുകൾ കണ്ടെത്തുക.",
         "icon": "search"
       },
       {
         "title": "ക്വാളിറ്റി കൺട്രോൾ",
-        "description": "Verify page sizes meet specifications.",
+        "description": "പേജ് സൈസുകൾ മാനദണ്ഡങ്ങൾ പാലിക്കുന്നുണ്ടെന്ന് ഉറപ്പാക്കുക.",
         "icon": "check-circle"
       }
     ],
     "faq": [
       {
-        "question": "What units are available?",
-        "answer": "Inches, millimeters, centimeters, and points."
+        "question": "ഏതെല്ലാം യൂണിറ്റുകൾ ലഭ്യമാണ്?",
+        "answer": "ഇഞ്ചുകൾ, മില്ലിമീറ്ററുകൾ, സെന്റീമീറ്ററുകൾ, പോയിന്റുകൾ എന്നിവ."
       },
       {
-        "question": "Does it show orientation?",
-        "answer": "Yes, portrait or landscape orientation is indicated."
+        "question": "ഇത് ഓറിയന്റേഷൻ കാണിക്കുമോ?",
+        "answer": "അതെ, പോർട്രെയ്റ്റ് അല്ലെങ്കിൽ ലാൻഡ്‌സ്‌കേപ്പ് ഓറിയന്റേഷൻ കാണിച്ചിരിക്കുന്നു."
       },
       {
-        "question": "Can I fix inconsistent sizes?",
-        "answer": "Use Fix Page Size tool to standardize dimensions."
+        "question": "എനിക്ക് ഒരേപോലെയല്ലാത്ത സൈസുകൾ ശരിയാക്കാൻ കഴിയുമോ?",
+        "answer": "ഡൈമൻഷനുകൾ സ്റ്റാൻഡേർഡൈസ് ചെയ്യാൻ Fix Page Size ടൂൾ ഉപയോഗിക്കുക."
       }
     ]
   },
   "remove-restrictions": {
-    "title": "Remove Restrictions",
-    "metaDescription": "Remove PDF restrictions. Unlock printing, copying, and editing permissions.",
+    "title": "നിയന്ത്രണങ്ങൾ ഒഴിവാക്കുക",
+    "metaDescription": "PDF നിയന്ത്രണങ്ങൾ നീക്കം ചെയ്യുക. പ്രിന്റിംഗ്, കോപ്പി ചെയ്യൽ, എഡിറ്റിംഗ് പെർമിഷനുകൾ അൺലോക്ക് ചെയ്യുക.",
     "keywords": [
       "remove pdf restrictions",
       "unlock pdf",
       "pdf permissions",
       "unrestrict pdf"
     ],
-    "description": "\n      <p>Remove Restrictions unlocks PDFs that have permission restrictions preventing printing, copying, or editing. This tool removes owner password restrictions while preserving document content.</p>\n      <p>Note: This tool cannot remove user passwords that prevent opening the document. Use Decrypt PDF for password-protected files.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>Remove Restrictions പ്രിന്റിംഗ്, കോപ്പി ചെയ്യൽ, അല്ലെങ്കിൽ എഡിറ്റിംഗ് എന്നിവ തടയുന്ന പെർമിഷൻ നിയന്ത്രണങ്ങളുള്ള PDF-കളെ അൺലോക്ക് ചെയ്യുന്നു. ഡോക്യുമെന്റിലെ ഉള്ളടക്കം നിലനിർത്തിക്കൊണ്ട് ഈ ടൂൾ ഓണർ പാസ്‌വേഡ് നിയന്ത്രണങ്ങൾ നീക്കം ചെയ്യുന്നു.</p>\n      <p>ശ്രദ്ധിക്കുക: ഡോക്യുമെന്റ് തുറക്കുന്നത് തടയുന്ന യൂസർ പാസ്‌വേഡുകൾ നീക്കം ചെയ്യാൻ ഈ ടൂളിന് കഴിയില്ല. പാസ്‌വേഡ് ഉപയോഗിച്ച് സംരക്ഷിച്ചിട്ടുള്ള ഫയലുകൾക്കായി Decrypt PDF ഉപയോഗിക്കുക.</p>\n      <p>എല്ലാ പ്രോസസ്സിംഗും നിങ്ങളുടെ ബ്രൗസറിലാണ് നടക്കുന്നത്, അതിനാൽ നിങ്ങളുടെ ഡോക്യുമെന്റുകൾ സ്വകാര്യമായി തുടരുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Restricted PDF",
-        "description": "Drag and drop your restricted PDF or click to select."
+        "title": "നിയന്ത്രണമുള്ള PDF അപ്‌ലോഡ് ചെയ്യുക",
+        "description": "നിങ്ങളുടെ നിയന്ത്രണമുള്ള PDF ഡ്രാഗ് ചെയ്ത് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Remove Restrictions",
-        "description": "Click Remove to unlock the document."
+        "title": "നിയന്ത്രണങ്ങൾ ഒഴിവാക്കുക",
+        "description": "ഡോക്യുമെന്റ് അൺലോക്ക് ചെയ്യാൻ Remove ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 3,
-        "title": "Download",
-        "description": "Download the unrestricted PDF."
+        "title": "ഡൗൺലോഡ്",
+        "description": "നിയന്ത്രണങ്ങളില്ലാത്ത PDF ഡൗൺലോഡ് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Enable Printing",
-        "description": "Unlock PDFs that prevent printing.",
+        "title": "പ്രിന്റിംഗ് പ്രവർത്തനക്ഷമമാക്കുക",
+        "description": "പ്രിന്റിംഗ് തടയുന്ന PDF-കൾ അൺലോക്ക് ചെയ്യുക.",
         "icon": "printer"
       },
       {
-        "title": "Enable Copying",
-        "description": "Allow text selection and copying.",
+        "title": "കോപ്പി ചെയ്യുന്നത് പ്രവർത്തനക്ഷമമാക്കുക",
+        "description": "ടെക്സ്റ്റ് സെലക്ഷനും കോപ്പി ചെയ്യലും അനുവദിക്കുക.",
         "icon": "copy"
       },
       {
-        "title": "Enable Editing",
-        "description": "Remove restrictions on document editing.",
+        "title": "എഡിറ്റിംഗ് പ്രവർത്തനക്ഷമമാക്കുക",
+        "description": "ഡോക്യുമെന്റ് എഡിറ്റിംഗിലുള്ള നിയന്ത്രണങ്ങൾ നീക്കം ചെയ്യുക.",
         "icon": "edit"
       }
     ],
     "faq": [
       {
-        "question": "Is this legal?",
-        "answer": "Removing restrictions from documents you own or have rights to is generally legal."
+        "question": "ഇത് നിയമപരമാണോ?",
+        "answer": "നിങ്ങളുടെ സ്വന്തം അല്ലെങ്കിൽ അവകാശമുള്ള ഡോക്യുമെന്റുകളിൽ നിന്ന് നിയന്ത്രണങ്ങൾ നീക്കം ചെയ്യുന്നത് സാധാരണയായി നിയമപരമാണ്."
       },
       {
-        "question": "Can it remove open passwords?",
-        "answer": "No, use Decrypt PDF for password-protected documents."
+        "question": "ഇതിന് ഓപ്പൺ പാസ്‌വേഡുകൾ നീക്കം ചെയ്യാൻ കഴിയുമോ?",
+        "answer": "ഇല്ല, പാസ്‌വേഡ് സംരക്ഷിത ഡോക്യുമെന്റുകൾക്കായി Decrypt PDF ഉപയോഗിക്കുക."
       },
       {
-        "question": "Will content be affected?",
-        "answer": "No, only restrictions are removed; content remains unchanged."
+        "question": "ഉള്ളടക്കത്തെ ബാധിക്കുമോ?",
+        "answer": "ഇല്ല, നിയന്ത്രണങ്ങൾ മാത്രമേ നീക്കം ചെയ്യപ്പെടുകയുള്ളൂ; ഉള്ളടക്കത്തിൽ മാറ്റമില്ലാതെ തുടരും."
       }
     ]
   },
   "repair-pdf": {
-    "title": "Repair PDF",
-    "metaDescription": "Fix corrupted PDF files. Recover and repair damaged documents.",
+    "title": "PDF റിപ്പെയർ ചെയ്യുക",
+    "metaDescription": "തരാറിലായ PDF ഫയലുകൾ ശരിയാക്കുക. കേടുപാടുകൾ സംഭവിച്ച രേഖകൾ വീണ്ടെടുക്കുകയും റിപ്പെയർ ചെയ്യുകയും ചെയ്യുക.",
     "keywords": [
       "repair pdf",
       "fix pdf",
       "recover pdf",
       "corrupted pdf"
     ],
-    "description": "\n      <p>Repair PDF attempts to fix corrupted or damaged PDF files. The tool analyzes the document structure and rebuilds it to recover as much content as possible.</p>\n      <p>Useful for recovering files that won't open, display errors, or have missing content due to corruption.</p>\n      <p>All repair happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>റിപ്പെയർ PDF തരാറിലായതോ കേടുപാടുകൾ സംഭവിച്ചതോ ആയ PDF ഫയലുകൾ ശരിയാക്കാൻ ശ്രമിക്കുന്നു. കഴിയുന്നത്ര ഉള്ളടക്കം വീണ്ടെടുക്കുന്നതിനായി ടൂൾ ഡോക്യുമെന്റ് ഘടന വിശകലനം ചെയ്യുകയും പുനർനിർമ്മിക്കുകയും ചെയ്യുന്നു.</p>\n      <p>തുറക്കാത്തതോ, എററുകൾ കാണിക്കുന്നതോ, തരാറുകൾ കാരണം ഉള്ളടക്കം നഷ്ടപ്പെട്ടതോ ആയ ഫയലുകൾ വീണ്ടെടുക്കാൻ ഉപകരിക്കുന്നു.</p>\n      <p>എല്ലാ റിപ്പെയറിംഗും നിങ്ങളുടെ ബ്രൗസറിൽ തന്നെയപ്പാണ് നടക്കുന്നത്, അതിനാൽ നിങ്ങളുടെ രേഖകൾ രഹസ്യമായി തന്നെ തുടരും.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Damaged PDF",
-        "description": "Drag and drop your corrupted PDF or click to select."
+        "title": "കേടുപാടുകൾ സംഭവിച്ച PDF അപ്‌ലോഡ് ചെയ്യുക",
+        "description": "നിങ്ങളുടെ തരാറിലായ PDF ഡ്രാഗ് ആൻഡ് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Repair Document",
-        "description": "Click Repair to attempt recovery."
+        "title": "ഡോക്യുമെന്റ് റിപ്പെയർ ചെയ്യുക",
+        "description": "വീണ്ടെടുക്കാൻ ശ്രമിക്കുന്നതിനായി റിപ്പെയർ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 3,
-        "title": "Download",
-        "description": "Download the repaired PDF if successful."
+        "title": "ഡൗൺലോഡ്",
+        "description": "വിജയകരമാണെങ്കിൽ റിപ്പെയർ ചെയ്ത PDF ഡൗൺലോഡ് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Recover Files",
-        "description": "Recover PDFs that won't open properly.",
+        "title": "ഫയലുകൾ വീണ്ടെടുക്കുക",
+        "description": "ശരിയായി തുറക്കാത്ത PDF-കൾ വീണ്ടെടുക്കുക.",
         "icon": "refresh-cw"
       },
       {
-        "title": "Fix Errors",
-        "description": "Repair files showing error messages.",
+        "title": "എററുകൾ ശരിയാക്കുക",
+        "description": "എറർ മെസ്സേജുകൾ കാണിക്കുന്ന ഫയലുകൾ റിപ്പെയർ ചെയ്യുക.",
         "icon": "wrench"
       },
       {
-        "title": "Restore Content",
-        "description": "Recover content from partially corrupted files.",
+        "title": "ഉള്ളടക്കം പുനഃസ്ഥാപിക്കുക",
+        "description": "ഭാഗികമായി തരാറിലായ ഫയലുകളിൽ നിന്ന് ഉള്ളടക്കം വീണ്ടെടുക്കുക.",
         "icon": "file-check"
       }
     ],
     "faq": [
       {
-        "question": "Can all PDFs be repaired?",
-        "answer": "Success depends on the type and extent of corruption."
+        "question": "എല്ലാ PDF-കളും റിപ്പെയർ ചെയ്യാൻ സാധിക്കുമോ?",
+        "answer": "വിജയം തരാറിന്റെ തരത്തെയും വ്യാപ്തിയെയും ആശ്രയിച്ചിരിക്കുന്നു."
       },
       {
-        "question": "Will all content be recovered?",
-        "answer": "The tool recovers as much as possible; severely damaged files may have losses."
+        "question": "എല്ലാ ഉള്ളടക്കവും വീണ്ടെടുക്കാൻ സാധിക്കുമോ?",
+        "answer": "ടൂൾ കഴിയുന്നത്ര ഉള്ളടക്കം വീണ്ടെടുക്കുന്നു; കഠിനമായി കേടുപാടുകൾ സംഭവിച്ച ഫയലുകളിൽ ചിലത് നഷ്ടപ്പെട്ടേക്കാം."
       },
       {
-        "question": "Should I keep the original?",
-        "answer": "Yes, always keep the original file as a backup."
+        "question": "ഞാൻ ഒറിജിനൽ ഫയൽ സൂക്ഷിക്കണമോ?",
+        "answer": "അതെ, ഒരു ബാക്കപ്പായി എപ്പോഴും ഒറിജിനൽ ഫയൽ സൂക്ഷിക്കുക."
       }
     ]
   },
   "encrypt-pdf": {
-    "title": "Encrypt PDF",
-    "metaDescription": "Password protect PDF files. Add encryption and set permissions.",
+    "title": "PDF എൻക്രിപ്റ്റ് ചെയ്യുക",
+    "metaDescription": "PDF ഫയലുകൾ പാസ്‌വേഡ് ഉപയോഗിച്ച് സംരക്ഷിക്കുക. എൻക്രിപ്ഷൻ ചേർക്കുകയും പെർമിഷനുകൾ ക്രമീകരിക്കുകയും ചെയ്യുക.",
     "keywords": [
       "encrypt pdf",
       "password protect pdf",
       "secure pdf",
       "pdf encryption"
     ],
-    "description": "\n      <p>Encrypt PDF adds password protection and encryption to your PDF documents. Set user passwords to prevent opening, and owner passwords to control permissions like printing and copying.</p>\n      <p>Choose from different encryption levels (128-bit or 256-bit AES) for varying security needs.</p>\n      <p>All encryption happens in your browser, ensuring your passwords and documents remain private.</p>\n    ",
+    "description": "\n      <p>എൻക്രിപ്റ്റ് PDF നിങ്ങളുടെ PDF രേഖകളിലേക്ക് പാസ്‌വേഡ് സംരക്ഷണവും എൻക്രിപ്ഷനും ചേർക്കുന്നു. തുറക്കുന്നത് തടയാൻ യൂസർ പാസ്‌വേഡുകളും, പ്രിന്റ് ചെയ്യൽ, കോപ്പി ചെയ്യൽ തുടങ്ങിയ പെർമിഷനുകൾ നിയന്ത്രിക്കാൻ ഓണർ പാസ്‌വേഡുകളും ക്രമീകരിക്കാം.</p>\n      <p>വ്യത്യസ്ത സുരക്ഷാ ആവശ്യങ്ങൾക്കായി വിവിധ എൻക്രിപ്ഷൻ ലെവലുകളിൽ (128-bit അല്ലെങ്കിൽ 256-bit AES) നിന്ന് തിരഞ്ഞെടുക്കുക.</p>\n      <p>എല്ലാ എൻക്രിപ്ഷനും നിങ്ങളുടെ ബ്രൗസറിൽ തന്നെയപ്പാണ് നടക്കുന്നത്, അതിനാൽ നിങ്ങളുടെ പാസ്‌വേഡുകളും രേഖകളും രഹസ്യമായി തന്നെ തുടരും.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "നിങ്ങളുടെ PDF ഫയൽ ഡ്രാഗ് ആൻഡ് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Set Passwords",
-        "description": "Enter user password and/or owner password. Configure permissions."
+        "title": "പാസ്‌വേഡുകൾ ക്രമീകരിക്കുക",
+        "description": "യൂസർ പാസ്‌വേഡ് കൂടാതെ/അല്ലെങ്കിൽ ഓണർ പാസ്‌വേഡ് നൽകുക. പെർമിഷനുകൾ കോൺഫിഗർ ചെയ്യുക."
       },
       {
         "step": 3,
-        "title": "Encrypt and Download",
-        "description": "Click Encrypt to secure your PDF and download."
+        "title": "എൻക്രിപ്റ്റ് ചെയ്ത് ഡൗൺലോഡ് ചെയ്യുക",
+        "description": "നിങ്ങളുടെ PDF സുരക്ഷിതമാക്കി ഡൗൺലോഡ് ചെയ്യാൻ എൻക്രിപ്റ്റ് ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Confidential Documents",
-        "description": "Protect sensitive business documents.",
+        "title": "രഹസ്യ രേഖകൾ",
+        "description": "സുപ്രധാന ബിസിനസ്സ് രേഖകൾ സംരക്ഷിക്കുക.",
         "icon": "lock"
       },
       {
-        "title": "Personal Files",
-        "description": "Secure personal documents like tax returns.",
+        "title": "വ്യക്തിഗത ഫയലുകൾ",
+        "description": "ടാക്സ് റിട്ടേണുകൾ പോലുള്ള വ്യക്തിഗത രേഖകൾ സുരക്ഷിതമാക്കുക.",
         "icon": "shield"
       },
       {
-        "title": "Controlled Distribution",
-        "description": "Limit what recipients can do with documents.",
+        "title": "നിയന്ത്രിത വിതരണം",
+        "description": "ലഭിക്കുന്ന ആളുകൾക്ക് രേഖകൾ ഉപയോഗിച്ച് എന്തൊക്കെ ചെയ്യാം എന്നത് പരിമിതപ്പെടുത്തുക.",
         "icon": "key"
       }
     ],
     "faq": [
       {
-        "question": "What's the difference between user and owner passwords?",
-        "answer": "User password prevents opening; owner password controls permissions."
+        "question": "യൂസർ, ഓണർ പാസ്‌വേഡുകൾ തമ്മിലുള്ള വ്യത്യാസം എന്താണ്?",
+        "answer": "യൂസർ പാസ്‌വേഡ് തുറക്കുന്നത് തടയുന്നു; ഓണർ പാസ്‌വേഡ് പെർമിഷനുകളെ നിയന്ത്രിക്കുന്നു."
       },
       {
-        "question": "What encryption is used?",
-        "answer": "128-bit or 256-bit AES encryption options are available."
+        "question": "ഏത് എൻക്രിപ്ഷനാണ് ഉപയോഗിക്കുന്നത്?",
+        "answer": "128-bit അല്ലെങ്കിൽ 256-bit AES എൻക്രിപ്ഷൻ ഓപ്ഷനുകൾ ലഭ്യമാണ്."
       },
       {
-        "question": "Can I set permissions without a user password?",
-        "answer": "Yes, you can set an owner password only to control permissions."
+        "question": "യൂസർ പാസ്‌വേഡ് ഇല്ലാതെ എനിക്ക് പെർമിഷനുകൾ ക്രമീകരിക്കാൻ സാധിക്കുമോ?",
+        "answer": "അതെ, പെർമിഷനുകൾ നിയന്ത്രിക്കാൻ ഓണർ പാസ്‌വേഡ് മാത്രം ക്രമീകരിക്കാം."
       }
     ]
   },
   "sanitize-pdf": {
-    "title": "Sanitize PDF",
-    "metaDescription": "Remove hidden data from PDFs. Clean metadata, scripts, and sensitive information.",
+    "title": "PDF സാനിറ്റൈസ് ചെയ്യുക",
+    "metaDescription": "PDF-കളിൽ നിന്ന് മറഞ്ഞിരിക്കുന്ന ഡാറ്റ നീക്കം ചെയ്യുക. മെറ്റാഡാറ്റ, സ്‌ക്രിപ്റ്റുകൾ, സുപ്രധാന വിവരങ്ങൾ എന്നിവ ക്ലീൻ ചെയ്യുക.",
     "keywords": [
       "sanitize pdf",
       "clean pdf",
       "remove hidden data",
       "pdf privacy"
     ],
-    "description": "\n      <p>Sanitize PDF removes hidden data and potentially sensitive information from your documents. Strip metadata, embedded scripts, attachments, comments, and other hidden content.</p>\n      <p>Essential for preparing documents for public distribution or when privacy is a concern.</p>\n      <p>All sanitization happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>സാനിറ്റൈസ് PDF നിങ്ങളുടെ രേഖകളിൽ നിന്ന് മറഞ്ഞിരിക്കുന്ന ഡാറ്റയും സുപ്രധാന വിവരങ്ങളും നീക്കം ചെയ്യുന്നു. മെറ്റാഡാറ്റ, എംബഡഡ് സ്‌ക്രിപ്റ്റുകൾ, അറ്റാച്ച്‌മെന്റുകൾ, കമന്റുകൾ, മറ്റ് മറഞ്ഞിരിക്കുന്ന ഉള്ളടക്കങ്ങൾ എന്നിവ ഒഴിവാക്കുക.</p>\n      <p>രേഖകൾ പൊതുജനങ്ങൾക്ക് വിതരണം ചെയ്യുന്നതിനായി തയ്യാറാക്കുമ്പോഴോ സ്വകാര്യത പ്രധാനമായിരിക്കുമ്പോഴോ ഇത് അത്യന്താപേക്ഷിതമാണ്.</p>\n      <p>എല്ലാ സാനിറ്റൈസേഷനും നിങ്ങളുടെ ബ്രൗസറിൽ തന്നെയപ്പാണ് നടക്കുന്നത്, അതിനാൽ നിങ്ങളുടെ രേഖകൾ രഹസ്യമായി തന്നെ തുടരും.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "നിങ്ങളുടെ PDF ഫയൽ ഡ്രാഗ് ആൻഡ് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Select What to Remove",
-        "description": "Choose which types of hidden data to strip."
+        "title": "എന്താണ് നീക്കം ചെയ്യേണ്ടതെന്ന് തിരഞ്ഞെടുക്കുക",
+        "description": "ഏതൊക്കെ തരത്തിലുള്ള മറഞ്ഞിരിക്കുന്ന ഡാറ്റയാണ് നീക്കം ചെയ്യേണ്ടതെന്ന് തിരഞ്ഞെടുക്കുക."
       },
       {
         "step": 3,
-        "title": "Sanitize and Download",
-        "description": "Click Sanitize to clean the PDF and download."
+        "title": "സാനിറ്റൈസ് ചെയ്ത് ഡൗൺലോഡ് ചെയ്യുക",
+        "description": "PDF ക്ലീൻ ചെയ്ത് ഡൗൺലോഡ് ചെയ്യാൻ സാനിറ്റൈസ് ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Public Release",
-        "description": "Prepare documents for public distribution.",
+        "title": "പബ്ലിക് റിലീസ്",
+        "description": "പൊതു വിതരണത്തിനായി രേഖകൾ തയ്യാറാക്കുക.",
         "icon": "globe"
       },
       {
         "title": "സ്വകാര്യതാ സംരക്ഷണം",
-        "description": "Remove personal information before sharing.",
+        "description": "പങ്കുവെക്കുന്നതിന് മുമ്പ് വ്യക്തിഗത വിവരങ്ങൾ നീക്കം ചെയ്യുക.",
         "icon": "shield"
       },
       {
-        "title": "Security Compliance",
-        "description": "Meet security requirements for document handling.",
+        "title": "സുരക്ഷാ പാലനം",
+        "description": "ഡോക്യുമെന്റ് കൈകാര്യം ചെയ്യുന്നതിനുള്ള സുരക്ഷാ മാനദണ്ഡങ്ങൾ പാലിക്കുക.",
         "icon": "check-circle"
       }
     ],
     "faq": [
       {
-        "question": "What hidden data is removed?",
-        "answer": "Metadata, scripts, attachments, comments, form data, and hidden layers."
+        "question": "ഏതൊക്കെ ഒളിഞ്ഞിരിക്കുന്ന ഡാറ്റയാണ് നീക്കം ചെയ്യുന്നത്?",
+        "answer": "Metadata, സ്ക്രിപ്റ്റുകൾ, അറ്റാച്ച്മെന്റുകൾ, കമന്റുകൾ, ഫോം ഡാറ്റ, ഒളിഞ്ഞിരിക്കുന്ന ലെയറുകൾ എന്നിവ."
       },
       {
-        "question": "Will visible content be affected?",
-        "answer": "No, only hidden data is removed; visible content remains."
+        "question": "ദൃശ്യമാകുന്ന ഉള്ളടക്കത്തെ ഇത് ബാധിക്കുമോ?",
+        "answer": "ഇല്ല, ഒളിഞ്ഞിരിക്കുന്ന ഡാറ്റ മാത്രമേ നീക്കം ചെയ്യപ്പെടൂ; ദൃശ്യമാകുന്ന ഉള്ളടക്കം മാറ്റമില്ലാതെ തുടരും."
       },
       {
         "question": "ഇത് പൂർവ്വസ്ഥിതിയിലാക്കാൻ കഴിയുമോ?",
-        "answer": "No, removed data cannot be recovered. Keep a backup of the original."
+        "answer": "ഇല്ല, നീക്കം ചെയ്ത ഡാറ്റ തിരികെ ലഭിക്കില്ല. അസലിന്റെ ഒരു ബാക്കപ്പ് സൂക്ഷിക്കുക."
       }
     ]
   },
   "find-and-redact": {
     "title": "Find and Redact",
-    "metaDescription": "Search and redact text across all pages of a PDF. Batch redact sensitive information like account numbers, names, and more.",
+    "metaDescription": "ഒരു PDF-ന്റെ എല്ലാ പേജുകളിലും ടെക്സ്റ്റ് തിരയുകയും റിഡാക്റ്റ് ചെയ്യുകയും ചെയ്യുക. അക്കൗണ്ട് നമ്പറുകൾ, പേരുകൾ തുടങ്ങിയ പ്രധാനപ്പെട്ട വിവരങ്ങൾ ഒന്നിച്ച് റിഡാക്റ്റ് ചെയ്യാം.",
     "keywords": [
       "redact pdf",
       "find and redact",
@@ -5000,363 +5000,363 @@ export const toolContentMl: Record<string, ToolContent> = {
       "pdf censorship",
       "hide sensitive data"
     ],
-    "description": "\n      <p>Find and Redact allows you to search for specific text, numbers, or patterns across all pages of your PDF and redact all matching occurrences at once. Perfect for removing sensitive information like account numbers, names, addresses, or any confidential data.</p>\n      <p>Preview all matches before applying redactions, and selectively choose which occurrences to redact. Supports case-sensitive search, whole word matching, and regular expressions for advanced pattern matching.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private and secure.</p>\n    ",
+    "description": "\n      <p>നിങ്ങളുടെ PDF-ന്റെ എല്ലാ പേജുകളിലും നിർദ്ദിഷ്ട ടെക്സ്റ്റുകളോ നമ്പറുകളോ പാറ്റേണുകളോ തിരയാനും അനുയോജ്യമായവ ഒറ്റയടിക്ക് റിഡാക്റ്റ് ചെയ്യാനും Find and Redact നിങ്ങളെ അനുവദിക്കുന്നു. അക്കൗണ്ട് നമ്പറുകൾ, പേരുകൾ, വിലാസങ്ങൾ അല്ലെങ്കിൽ ഏതെങ്കിലും രഹസ്യ വിവരങ്ങൾ എന്നിവ നീക്കം ചെയ്യാൻ ഇത് മികച്ചതാണ്.</p>\n      <p>റിഡാക്ഷനുകൾ പ്രയോഗിക്കുന്നതിന് മുമ്പ് അനുയോജ്യമായ എല്ലാ ഫലങ്ങളും പ്രിവ്യൂ ചെയ്യുക, ഏതെല്ലാം റിഡാക്റ്റ് ചെയ്യണമെന്ന് തിരഞ്ഞെടുക്കുക. കേസ്-സെൻസിറ്റീവ് സെർച്ച്, പൂർണ്ണ വാക്ക് മാച്ചിംഗ്, അഡ്വാൻസ്ഡ് പാറ്റേൺ മാച്ചിംഗിനായി regular expressions എന്നിവ പിന്തുണയ്ക്കുന്നു.</p>\n      <p>എല്ലാ പ്രോസസ്സിംഗും നിങ്ങളുടെ ബ്രൗസറിൽ സംഭവിക്കുന്നു, ഇത് നിങ്ങളുടെ ഡോക്യുമെന്റുകൾ സ്വകാര്യവും സുരക്ഷിതവുമായി തുടരുന്നു എന്ന് ഉറപ്പാക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "നിങ്ങളുടെ PDF ഫയൽ ഡ്രാഗ് ആൻഡ് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Search for Text",
-        "description": "Enter the text, number, or regex pattern you want to find and redact."
+        "title": "ടെക്സ്റ്റ് സെർച്ച് ചെയ്യുക",
+        "description": "നിങ്ങൾക്ക് കണ്ടെത്തി റിഡാക്റ്റ് ചെയ്യേണ്ട ടെക്സ്റ്റ്, നമ്പർ അല്ലെങ്കിൽ regex പാറ്റേൺ നൽകുക."
       },
       {
         "step": 3,
-        "title": "Review and Select",
-        "description": "Preview all matches and select which ones to redact."
+        "title": "പരിശോധിച്ച് തിരഞ്ഞെടുക്കുക",
+        "description": "എല്ലാ ഫലങ്ങളും പ്രിവ്യൂ ചെയ്ത് റിഡാക്റ്റ് ചെയ്യേണ്ടവ തിരഞ്ഞെടുക്കുക."
       },
       {
         "step": 4,
-        "title": "Apply Redaction",
-        "description": "Customize redaction appearance and apply to selected matches."
+        "title": "റിഡാക്ഷൻ പ്രയോഗിക്കുക",
+        "description": "റിഡാക്ഷൻ രൂപം കസ്റ്റമൈസ് ചെയ്ത് തിരഞ്ഞെടുത ഫലങ്ങളിൽ പ്രയോഗിക്കുക."
       }
     ],
     "useCases": [
       {
-        "title": "Privacy Compliance",
-        "description": "Redact personal information to comply with GDPR, HIPAA, or other regulations.",
+        "title": "സ്വകാര്യതാ പാലനം",
+        "description": "GDPR, HIPAA അല്ലെങ്കിൽ മറ്റ് നിയന്ത്രണങ്ങൾ പാലിക്കുന്നതിനായി വ്യക്തിഗത വിവരങ്ങൾ റിഡാക്റ്റ് ചെയ്യുക.",
         "icon": "shield"
       },
       {
         "title": "നിയമപരമായ ഡോക്യുമെന്റുകൾ",
-        "description": "Remove confidential data from legal documents before sharing.",
+        "description": "നിയമപരമായ ഡോക്യുമെന്റുകൾ പങ്കിടുന്നതിന് മുമ്പ് അവയിൽ നിന്ന് രഹസ്യ വിവരങ്ങൾ നീക്കം ചെയ്യുക.",
         "icon": "scale"
       },
       {
-        "title": "Financial Records",
-        "description": "Redact account numbers, SSNs, or financial data from statements.",
+        "title": "സാമ്പത്തിക റെക്കോർഡുകൾ",
+        "description": "സ്റ്റേറ്റ്‌മെന്റുകളിൽ നിന്ന് അക്കൗണ്ട് നമ്പറുകൾ, SSNs അല്ലെങ്കിൽ സാമ്പത്തിക വിവരങ്ങൾ റിഡാക്റ്റ് ചെയ്യുക.",
         "icon": "credit-card"
       }
     ],
     "faq": [
       {
-        "question": "Is redaction permanent?",
-        "answer": "Yes, redaction permanently removes the underlying text. The original content cannot be recovered. Always keep a backup of the original file."
+        "question": "റിഡാക്ഷൻ ശാശ്വതമാണോ?",
+        "answer": "അതെ, റിഡാക്ഷൻ അതിനടിയിലുള്ള ടെക്സ്റ്റിനെ സ്ഥിരമായി നീക്കംചെയ്യുന്നു. യഥാർത്ഥ ഉള്ളടക്കം വീണ്ടെടുക്കാൻ കഴിയില്ല. എപ്പോഴും യഥാർത്ഥ ഫയലിന്റെ ഒരു ബാക്കപ്പ് സൂക്ഷിക്കുക."
       },
       {
-        "question": "Can I redact images or scanned text?",
-        "answer": "This tool works with text-based PDFs. For scanned documents, you would need to use manual area-based redaction."
+        "question": "എനിക്ക് ചിത്രങ്ങളോ സ്കാൻ ചെയ്ത ടെക്സ്റ്റോ റിഡാക്റ്റ് ചെയ്യാൻ കഴിയുമോ?",
+        "answer": "ഈ ടൂൾ ടെക്സ്റ്റ് അധിഷ്ഠിത PDF-കളിൽ പ്രവർത്തിക്കുന്നു. സ്കാൻ ചെയ്ത ഡോക്യുമെന്റുകൾക്ക്, നിങ്ങൾ മാനുവൽ ഏരിയ-അധിഷ്ഠിത റിഡാക്ഷൻ ഉപയോഗിക്കേണ്ടതുണ്ട്."
       },
       {
-        "question": "Can I customize the redaction appearance?",
-        "answer": "Yes, you can set the redaction color, add borders, and optionally include replacement text like \"[REDACTED]\"."
+        "question": "എനിക്ക് റിഡാക്ഷൻ രൂപം കസ്റ്റമൈസ് ചെയ്യാൻ കഴിയുമോ?",
+        "answer": "അതെ, നിങ്ങൾക്ക് റിഡാക്ഷൻ കളർ ക്രമീകരിക്കാനും ബോർഡറുകൾ ചേർക്കാനും \"[REDACTED]\" പോലുള്ള പകരം ടെക്സ്റ്റ് ഉൾപ്പെടുത്താനും കഴിയും."
       },
       {
-        "question": "How does regex search work?",
-        "answer": "Enable \"Use Regular Expression\" to search using regex patterns. For example, \\d{4}-\\d{4}-\\d{4}-\\d{4} to find credit card numbers."
+        "question": "regex സെർച്ച് എങ്ങനെയാണ് പ്രവർത്തിക്കുന്നത്?",
+        "answer": "regex പാറ്റേണുകൾ ഉപയോഗിച്ച് തിരയാൻ \"Use Regular Expression\" പ്രവർത്തനക്ഷമമാക്കുക. ഉദാഹരണത്തിന്, ക്രെഡിറ്റ് കാർഡ് നമ്പറുകൾ കണ്ടെത്തുന്നതിന് \\d{4}-\\d{4}-\\d{4}-\\d{4}."
       }
     ]
   },
   "decrypt-pdf": {
-    "title": "Decrypt PDF",
-    "metaDescription": "Remove password from PDF files. Unlock password-protected documents.",
+    "title": "PDF ഡിക്രിപ്റ്റ് ചെയ്യുക",
+    "metaDescription": "PDF ഫയലുകളിൽ നിന്ന് പാസ്‌വേഡ് നീക്കം ചെയ്യുക. പാസ്‌വേഡ് ഉപയോഗിച്ച് സംരക്ഷിച്ച ഡോക്യുമെന്റുകൾ അൺലോക്ക് ചെയ്യുക.",
     "keywords": [
       "decrypt pdf",
       "remove pdf password",
       "unlock pdf",
       "pdf password remover"
     ],
-    "description": "\n      <p>Decrypt PDF removes password protection from PDF documents. Enter the current password to unlock the file and create an unprotected copy.</p>\n      <p>This tool requires you to know the current password. It cannot crack or bypass unknown passwords.</p>\n      <p>All decryption happens in your browser, ensuring your passwords and documents remain private.</p>\n    ",
+    "description": "\n      <p>Decrypt PDF ഡോക്യുമെന്റുകളിൽ നിന്നുള്ള പാസ്‌വേഡ് സംരക്ഷണം നീക്കംചെയ്യുന്നു. ഫയൽ അൺലോക്ക് ചെയ്യുന്നതിനും സംരക്ഷണമില്ലാത്ത ഒരു പകർപ്പ് ഉണ്ടാക്കുന്നതിനും നിലവിലെ പാസ്‌വേഡ് നൽകുക.</p>\n      <p>ഈ ടൂളിന് നിലവിലെ പാസ്‌വേഡ് അറിയേണ്ടതുണ്ട്. ഇതിന് അറിയാത്ത പാസ്‌വേഡുകൾ ക്രാക്ക് ചെയ്യാനോ മറികടക്കാനോ കഴിയില്ല.</p>\n      <p>എല്ലാ ഡിക്രിപ്ഷനും നിങ്ങളുടെ ബ്രൗസറിൽ സംഭവിക്കുന്നു, ഇത് നിങ്ങളുടെ പാസ്‌വേഡുകളും ഡോക്യുമെന്റുകളും സ്വകാര്യമായി തുടരുന്നു എന്ന് ഉറപ്പാക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Protected PDF",
-        "description": "Drag and drop your password-protected PDF."
+        "title": "സംരക്ഷിത PDF അപ്‌ലോഡ് ചെയ്യുക",
+        "description": "നിങ്ങളുടെ പാസ്‌വേഡ് ഉപയോഗിച്ച് സംരക്ഷിച്ച PDF ഡ്രാഗ് ചെയ്ത് ഡ്രോപ്പ് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Enter Password",
-        "description": "Enter the current document password."
+        "title": "പാസ്‌വേഡ് നൽകുക",
+        "description": "നിലവിലെ ഡോക്യുമെന്റ് പാസ്‌വേഡ് നൽകുക."
       },
       {
         "step": 3,
-        "title": "Decrypt and Download",
-        "description": "Click Decrypt to remove protection and download."
+        "title": "ഡിക്രിപ്റ്റ് ചെയ്ത് ഡൗൺലോഡ് ചെയ്യുക",
+        "description": "സംരക്ഷണം നീക്കംചെയ്ത് ഡൗൺലോഡ് ചെയ്യാൻ Decrypt ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Remove Old Passwords",
-        "description": "Unlock documents when password is no longer needed.",
+        "title": "പഴയ പാസ്‌വേഡുകൾ നീക്കം ചെയ്യുക",
+        "description": "പാസ്‌വേഡ് ഇനി ആവശ്യമില്ലാത്തപ്പോൾ ഡോക്യുമെന്റുകൾ അൺലോക്ക് ചെയ്യുക.",
         "icon": "unlock"
       },
       {
-        "title": "Simplify Access",
-        "description": "Create unprotected copies for easier sharing.",
+        "title": "ആക്‌സസ് എളുപ്പമാക്കുക",
+        "description": "എളുപ്പത്തിൽ പങ്കിടുന്നതിനായി സംരക്ഷണമില്ലാത്ത പകർപ്പുകൾ സൃഷ്ടിക്കുക.",
         "icon": "share-2"
       },
       {
         "title": "ആർക്കൈവ് ഡോക്യുമെന്റുകൾ",
-        "description": "Remove passwords before long-term archiving.",
+        "description": "ദീർഘകാല ആർക്കൈവിംഗിന് മുമ്പ് പാസ്‌വേഡുകൾ നീക്കം ചെയ്യുക.",
         "icon": "archive"
       }
     ],
     "faq": [
       {
-        "question": "Can it crack unknown passwords?",
-        "answer": "No, you must know the current password to decrypt."
+        "question": "ഇതിന് അറിയാത്ത പാസ്‌വേഡുകൾ ക്രാക്ക് ചെയ്യാൻ കഴിയുമോ?",
+        "answer": "ഇല്ല, ഡിക്രിപ്റ്റ് ചെയ്യാൻ നിലവിലെ പാസ്‌വേഡ് അറിഞ്ഞിരിക്കണം."
       },
       {
-        "question": "Is the original file modified?",
-        "answer": "No, a new unprotected copy is created."
+        "question": "യഥാർത്ഥ ഫയൽ മാറ്റത്തിന് വിധേയമാകുമോ?",
+        "answer": "ഇല്ല, സംരക്ഷണമില്ലാത്ത ഒരു പുതിയ പകർപ്പ് സൃഷ്ടിക്കപ്പെടും."
       },
       {
-        "question": "What if I forgot the password?",
-        "answer": "Unfortunately, we cannot recover forgotten passwords."
+        "question": "പാസ്‌വേഡ് മറന്നുപോയാൽ എന്ത് ചെയ്യും?",
+        "answer": "നിർഭാഗ്യവശാൽ, മറന്നുപോയ പാസ്‌വേഡുകൾ ഞങ്ങൾക്ക് വീണ്ടെടുക്കാൻ കഴിയില്ല."
       }
     ]
   },
   "flatten-pdf": {
-    "title": "Flatten PDF",
-    "metaDescription": "Flatten PDF forms and annotations. Make content non-editable.",
+    "title": "PDF ഫ്ലാറ്റൻ ചെയ്യുക",
+    "metaDescription": "PDF ഫോമുകളും അനോട്ടേഷനുകളും ഫ്ലാറ്റൻ ചെയ്യുക. ഉള്ളടക്കം എഡിറ്റ് ചെയ്യാൻ കഴിയാത്തതാക്കുക.",
     "keywords": [
       "flatten pdf",
       "flatten forms",
       "flatten annotations",
       "non-editable pdf"
     ],
-    "description": "\n      <p>Flatten PDF converts interactive elements like form fields and annotations into static content. The flattened PDF looks the same but can no longer be edited.</p>\n      <p>Perfect for finalizing filled forms, preserving annotations, or creating non-editable document versions.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>ഫ്ലാറ്റൻ PDF ഫോം ഫീൽഡുകൾ, അനോട്ടേഷനുകൾ എന്നിവ പോലുള്ള ഇന്ററാക്ടീവ് ഘടകങ്ങളെ സ്റ്റാറ്റിക് ഉള്ളടക്കമാക്കി മാറ്റുന്നു. ഫ്ലാറ്റൻ ചെയ്ത PDF പഴയതുപോലെ കാണപ്പെടുമെങ്കിലും ഇനി എഡിറ്റ് ചെയ്യാൻ കഴിയില്ല.</p>\n      <p>പൂരിപ്പിച്ച ഫോമുകൾ അന്തിമമാക്കുന്നതിനും അനോട്ടേഷനുകൾ സംരക്ഷിക്കുന്നതിനും എഡിറ്റ് ചെയ്യാനാകാത്ത ഡോക്യുമെന്റ് പതിപ്പുകൾ നിർമ്മിക്കുന്നതിനും ഇത് അനുയോജ്യമാണ്.</p>\n      <p>എല്ലാ പ്രോസസ്സിംഗും നിങ്ങളുടെ ബ്രൗസറിൽ തന്നെയാണ് നടക്കുന്നത്, ഇത് നിങ്ങളുടെ ഡോക്യുമെന്റുകളുടെ സ്വകാര്യത ഉറപ്പാക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your PDF with forms or annotations."
+        "description": "ഫോമുകളോ അനോട്ടേഷനുകളോ ഉള്ള നിങ്ങളുടെ PDF ഡ്രാഗ് ചെയ്ത് ഡ്രോപ്പ് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Select What to Flatten",
-        "description": "Choose to flatten forms, annotations, or both."
+        "title": "ഫ്ലാറ്റൻ ചെയ്യേണ്ടവ തിരഞ്ഞെടുക്കുക",
+        "description": "ഫോമുകൾ, അനോട്ടേഷനുകൾ അല്ലെങ്കിൽ ഇവ രണ്ടും ഫ്ലാറ്റൻ ചെയ്യാൻ തിരഞ്ഞെടുക്കുക."
       },
       {
         "step": 3,
-        "title": "Flatten and Download",
-        "description": "Click Flatten to create the static PDF."
+        "title": "ഫ്ലാറ്റൻ ചെയ്ത് ഡൗൺലോഡ് ചെയ്യുക",
+        "description": "സ്റ്റാറ്റിക് PDF നിർമ്മിക്കാൻ ഫ്ലാറ്റൻ ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Finalize Forms",
-        "description": "Lock filled form data to prevent changes.",
+        "title": "ഫോമുകൾ അന്തിമമാക്കുക",
+        "description": "മാറ്റങ്ങൾ തടയാൻ പൂരിപ്പിച്ച ഫോം ഡാറ്റ ലോക്ക് ചെയ്യുക.",
         "icon": "lock"
       },
       {
-        "title": "Preserve Annotations",
-        "description": "Make annotations permanent in the document.",
+        "title": "അനോട്ടേഷനുകൾ സംരക്ഷിക്കുക",
+        "description": "ഡോക്യുമെന്റിലെ അനോട്ടേഷനുകൾ സ്ഥിരമാക്കുക.",
         "icon": "check-circle"
       },
       {
         "title": "ആർക്കൈവ് ഡോക്യുമെന്റുകൾ",
-        "description": "Create non-editable versions for archiving.",
+        "description": "ആർക്കൈവ് ചെയ്യുന്നതിനായി എഡിറ്റ് ചെയ്യാനാകാത്ത പതിപ്പുകൾ ഉണ്ടാക്കുക.",
         "icon": "archive"
       }
     ],
     "faq": [
       {
-        "question": "Is flattening reversible?",
-        "answer": "No, flattening is permanent. Keep a backup of the original."
+        "question": "ഫ്ലാറ്റനിംഗ് പൂർവ്വസ്ഥിതിയിലാക്കാൻ കഴിയുമോ?",
+        "answer": "ഇല്ല, ഫ്ലാറ്റനിംഗ് ശാശ്വതമാണ്. ഒറിജിനലിന്റെ ഒരു ബാക്കപ്പ് സൂക്ഷിക്കുക."
       },
       {
-        "question": "Will the appearance change?",
-        "answer": "No, the document looks the same but is no longer interactive."
+        "question": "കാഴ്ചയിൽ മാറ്റമുണ്ടാകുമോ?",
+        "answer": "ഇല്ല, ഡോക്യുമെന്റ് പഴയതുപോലെ തന്നെ കാണപ്പെടും, എന്നാൽ ഇത് ഇനി ഇന്ററാക്ടീവ് ആയിരിക്കില്ല."
       },
       {
-        "question": "Does it reduce file size?",
-        "answer": "Sometimes, as interactive elements are converted to simpler content."
+        "question": "ഇത് ഫയൽ സൈസ് കുറയ്ക്കുമോ?",
+        "answer": "ചിലപ്പോൾ ഉണ്ടാകാം, കാരണം ഇന്ററാക്ടീവ് ഘടകങ്ങൾ കൂടുതൽ ലളിതമായ ഉള്ളടക്കത്തിലേക്ക് മാറ്റപ്പെടുന്നു."
       }
     ]
   },
   "remove-metadata": {
-    "title": "Remove Metadata",
-    "metaDescription": "Strip metadata from PDF files. Remove author, dates, and document properties.",
+    "title": "Metadata നീക്കം ചെയ്യുക",
+    "metaDescription": "PDF ഫയലുകളിൽ നിന്ന് മെറ്റാഡാറ്റ നീക്കം ചെയ്യുക. രചയിതാവ്, തീയതികൾ, ഡോക്യുമെന്റ് പ്രോപ്പർട്ടികൾ എന്നിവ നീക്കം ചെയ്യുക.",
     "keywords": [
       "remove pdf metadata",
       "strip metadata",
       "pdf privacy",
       "anonymous pdf"
     ],
-    "description": "\n      <p>Remove Metadata strips all document properties and metadata from your PDF files. Remove author names, creation dates, software information, and other identifying data.</p>\n      <p>Essential for privacy when sharing documents or when metadata could reveal sensitive information.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>മെറ്റാഡാറ്റ നീക്കംചെയ്യൽ നിങ്ങളുടെ PDF ഫയലുകളിൽ നിന്ന് എല്ലാ ഡോക്യുമെന്റ് പ്രോപ്പർട്ടികളും മെറ്റാഡാറ്റയും നീക്കം ചെയ്യുന്നു. രചയിതാവിന്റെ പേരുകൾ, നിർമ്മിച്ച തീയതികൾ, സോഫ്റ്റ്‌വെയർ വിവരങ്ങൾ, മറ്റ് തിരിച്ചറിയൽ ഡാറ്റ എന്നിവ നീക്കം ചെയ്യുക.</p>\n      <p>ഡോക്യുമെന്റുകൾ പങ്കിടുമ്പോഴോ മെറ്റാഡാറ്റ വഴി സംവേദനക്ഷമമായ വിവരങ്ങൾ പുറത്തറിയാൻ സാധ്യതയുള്ളപ്പോഴോ സ്വകാര്യത ഉറപ്പാക്കാൻ ഇത് അത്യാവശ്യമാണ്.</p>\n      <p>എല്ലാ പ്രോസസ്സിംഗും നിങ്ങളുടെ ബ്രൗസറിൽ തന്നെയാണ് നടക്കുന്നത്, ഇത് നിങ്ങളുടെ ഡോക്യുമെന്റുകളുടെ സ്വകാര്യത ഉറപ്പാക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "നിങ്ങളുടെ PDF ഫയൽ ഡ്രാഗ് ആൻഡ് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Remove Metadata",
-        "description": "Click Remove to strip all metadata."
+        "title": "Metadata നീക്കം ചെയ്യുക",
+        "description": "എല്ലാ മെറ്റാഡാറ്റയും നീക്കം ചെയ്യാൻ നീക്കംചെയ്യുക ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 3,
-        "title": "Download",
-        "description": "Download the metadata-free PDF."
+        "title": "ഡൗൺലോഡ്",
+        "description": "മെറ്റാഡാറ്റ ഇല്ലാത്ത PDF ഡൗൺലോഡ് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
         "title": "സ്വകാര്യതാ സംരക്ഷണം",
-        "description": "Remove personal information before sharing.",
+        "description": "പങ്കുവെക്കുന്നതിന് മുമ്പ് വ്യക്തിഗത വിവരങ്ങൾ നീക്കം ചെയ്യുക.",
         "icon": "shield"
       },
       {
-        "title": "Anonymous Documents",
-        "description": "Create documents without author attribution.",
+        "title": "അജ്ഞാത ഡോക്യുമെന്റുകൾ",
+        "description": "രചയിതാവിന്റെ വിവരങ്ങൾ ഇല്ലാതെ ഡോക്യുമെന്റുകൾ നിർമ്മിക്കുക.",
         "icon": "user-x"
       },
       {
         "title": "ക്ലീൻ വിതരണം",
-        "description": "Distribute documents without internal metadata.",
+        "description": "ആന്തരിക മെറ്റാഡാറ്റ ഇല്ലാതെ ഡോക്യുമെന്റുകൾ വിതരണം ചെയ്യുക.",
         "icon": "send"
       }
     ],
     "faq": [
       {
-        "question": "What metadata is removed?",
-        "answer": "Author, title, subject, keywords, dates, creator, and producer information."
+        "question": "ഏതൊക്കെ മെറ്റാഡാറ്റയാണ് നീക്കം ചെയ്യുന്നത്?",
+        "answer": "രചയിതാവ്, തലക്കെട്ട്, വിഷയം, കീവേഡുകൾ, തീയതികൾ, ക്രിയേറ്റർ, പ്രൊഡ്യൂസർ വിവരങ്ങൾ."
       },
       {
-        "question": "Is XMP metadata removed?",
-        "answer": "Yes, both standard and XMP metadata are stripped."
+        "question": "XMP മെറ്റാഡാറ്റ നീക്കം ചെയ്യപ്പെടുമോ?",
+        "answer": "അതെ, സ്റ്റാൻഡേർഡ്, XMP മെറ്റാഡാറ്റകൾ നീക്കം ചെയ്യപ്പെടും."
       },
       {
-        "question": "Will content be affected?",
-        "answer": "No, only metadata is removed; document content remains unchanged."
+        "question": "ഉള്ളടക്കത്തെ ബാധിക്കുമോ?",
+        "answer": "ഇല്ല, മെറ്റാഡാറ്റ മാത്രമേ നീക്കം ചെയ്യപ്പെടൂ; ഡോക്യുമെന്റിലെ ഉള്ളടക്കം മാറ്റമില്ലാതെ തുടരും."
       }
     ]
   },
   "change-permissions": {
-    "title": "Change Permissions",
-    "metaDescription": "Modify PDF permissions. Control printing, copying, and editing access.",
+    "title": "പെർമിഷനുകൾ മാറ്റുക",
+    "metaDescription": "PDF പെർമിഷനുകൾ മാറ്റുക. പ്രിന്റിംഗ്, കോപ്പി ചെയ്യൽ, എഡിറ്റിംഗ് ആക്സസ് എന്നിവ നിയന്ത്രിക്കുക.",
     "keywords": [
       "pdf permissions",
       "change pdf access",
       "restrict pdf",
       "pdf security"
     ],
-    "description": "\n      <p>Change Permissions modifies the access controls on your PDF documents. Enable or disable printing, copying, editing, and annotation permissions.</p>\n      <p>Set an owner password to enforce these restrictions. Recipients can view the document but are limited in what actions they can perform.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>പെർമിഷനുകൾ മാറ്റുക നിങ്ങളുടെ PDF ഡോക്യുമെന്റുകളിലെ ആക്സസ് കൺട്രോളുകളിൽ മാറ്റം വരുത്തുന്നു. പ്രിന്റിംഗ്, കോപ്പി ചെയ്യൽ, എഡിറ്റിംഗ്, അനോട്ടേഷൻ പെർമിഷനുകൾ എന്നിവ അനുവദിക്കുകയോ പ്രവർത്തനരഹിതമാക്കുകയോ ചെയ്യുക.</p>\n      <p>ഈ നിയന്ത്രണങ്ങൾ നടപ്പിലാക്കാൻ ഒരു ഓണർ പാസ്‌വേഡ് സജ്ജീകരിക്കുക. സ്വീകർത്താക്കൾക്ക് ഡോക്യുമെന്റ് കാണാൻ കഴിയുമെങ്കിലും അവർക്ക് ചെയ്യാൻ കഴിയുന്ന പ്രവർത്തനങ്ങളിൽ പരിമിതികൾ ഉണ്ടായിരിക്കും.</p>\n      <p>എല്ലാ പ്രോസസ്സിംഗും നിങ്ങളുടെ ബ്രൗസറിൽ തന്നെയാണ് നടക്കുന്നത്, ഇത് നിങ്ങളുടെ ഡോക്യുമെന്റുകളുടെ സ്വകാര്യത ഉറപ്പാക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "നിങ്ങളുടെ PDF ഫയൽ ഡ്രാഗ് ആൻഡ് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Set Permissions",
-        "description": "Enable or disable printing, copying, editing, and annotations."
+        "title": "പെർമിഷനുകൾ സജ്ജീകരിക്കുക",
+        "description": "പ്രിന്റിംഗ്, കോപ്പി ചെയ്യൽ, എഡിറ്റിംഗ്, അനോട്ടേഷനുകൾ എന്നിവ അനുവദിക്കുകയോ പ്രവർത്തനരഹിതമാക്കുകയോ ചെയ്യുക."
       },
       {
         "step": 3,
         "title": "അപ്ലൈ ചെയ്ത് ഡൗൺലോഡ് ചെയ്യുക",
-        "description": "Set owner password and download the restricted PDF."
+        "description": "ഓണർ പാസ്‌വേഡ് സജ്ജീകരിച്ച് നിയന്ത്രണങ്ങളുള്ള PDF ഡൗൺലോഡ് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Prevent Copying",
-        "description": "Disable text copying to protect content.",
+        "title": "കോപ്പി ചെയ്യുന്നത് തടയുക",
+        "description": "ഉള്ളടക്കം സംരക്ഷിക്കാൻ ടെക്സ്റ്റ് കോപ്പി ചെയ്യുന്നത് പ്രവർത്തനരഹിതമാക്കുക.",
         "icon": "copy"
       },
       {
-        "title": "Control Printing",
-        "description": "Restrict or allow document printing.",
+        "title": "പ്രിന്റിംഗ് നിയന്ത്രിക്കുക",
+        "description": "ഡോക്യുമെന്റ് പ്രിന്റ് ചെയ്യുന്നത് നിയന്ത്രിക്കുകയോ അനുവദിക്കുകയോ ചെയ്യുക.",
         "icon": "printer"
       },
       {
-        "title": "Limit Editing",
-        "description": "Prevent modifications to the document.",
+        "title": "എഡിറ്റിംഗ് പരിമിതപ്പെടുത്തുക",
+        "description": "ഡോക്യുമെന്റിലെ മാറ്റങ്ങൾ തടയുക.",
         "icon": "edit-3"
       }
     ],
     "faq": [
       {
-        "question": "Do I need a password?",
-        "answer": "An owner password is required to enforce permissions."
+        "question": "എനിക്ക് പാസ്‌വേഡ് ആവശ്യമുണ്ടോ?",
+        "answer": "പെർമിഷനുകൾ നടപ്പിലാക്കാൻ ഒരു ഓണർ പാസ്‌വേഡ് ആവശ്യമാണ്."
       },
       {
-        "question": "Can permissions be removed?",
-        "answer": "Yes, with the owner password or using Remove Restrictions tool."
+        "question": "പെർമിഷനുകൾ നീക്കം ചെയ്യാൻ കഴിയുമോ?",
+        "answer": "അതെ, ഓണർ പാസ്‌വേഡ് ഉപയോഗിച്ചോ റീമൂവ് റീസ്ട്രിക്ഷൻസ് ടൂൾ ഉപയോഗിച്ചോ നീക്കം ചെയ്യാം."
       },
       {
-        "question": "Are all PDF readers compatible?",
-        "answer": "Most PDF readers respect permissions, but some may not enforce them."
+        "question": "എല്ലാ PDF റീഡറുകളും അനുയോജ്യമാണോ?",
+        "answer": "മിക്ക PDF റീഡറുകളും പെർമിഷനുകൾ പാലിക്കുന്നു, എന്നാൽ ചിലത് അത് നടപ്പിലാക്കിയേക്കില്ല."
       }
     ]
   },
   "pdf-to-docx": {
-    "title": "PDF to Word",
-    "metaDescription": "Convert PDF to editable Word (DOCX) documents. Preserve formatting and layout.",
+    "title": "PDF-ൽ നിന്ന് Word-ലേക്ക്",
+    "metaDescription": "PDF-നെ എഡിറ്റ് ചെയ്യാവുന്ന Word (DOCX) ഡോക്യുമെന്റുകളാക്കി മാറ്റുക. ഫോർമാറ്റിംഗും ലേഔട്ടും നിലനിർത്തുക.",
     "keywords": [
       "pdf to word",
       "convert pdf to docx",
       "pdf to doc",
       "editable pdf"
     ],
-    "description": "\n      <p>PDF to Word converts your PDF documents into editable Microsoft Word (DOCX) files. The tool preserves the original layout, formatting, images, and text flow.</p>\n      <p>Easily edit your PDF content in Word without retyping. Perfect for contracts, reports, and resumes.</p>\n      <p>All conversion happens locally in your browser using WebAssembly technology, ensuring your documents never leave your device.</p>\n    ",
+    "description": "\n      <p>PDF to Word നിങ്ങളുടെ PDF ഡോക്യുമെന്റുകളെ എഡിറ്റ് ചെയ്യാവുന്ന Microsoft Word (DOCX) ഫയലുകളാക്കി മാറ്റുന്നു. ഈ ടൂൾ ഒറിജിനൽ ലേഔട്ട്, ഫോർമാറ്റിംഗ്, ചിത്രങ്ങൾ, ടെക്സ്റ്റ് ഫ്ലോ എന്നിവ മാറ്റമില്ലാതെ നിലനിർത്തുന്നു.</p>\n      <p>വീണ്ടും ടൈപ്പ് ചെയ്യാതെ തന്നെ Word-ൽ നിങ്ങളുടെ PDF ഉള്ളടക്കം എളുപ്പത്തിൽ എഡിറ്റ് ചെയ്യാം. കരാറുകൾ, റിപ്പോർട്ടുകൾ, റെസ്യൂമുകൾ എന്നിവയ്ക്ക് അനുയോജ്യമാണ്.</p>\n      <p>എല്ലാ പരിവർത്തനങ്ങളും WebAssembly സാങ്കേതികവിദ്യ ഉപയോഗിച്ച് നിങ്ങളുടെ ബ്രൗസറിൽ തന്നെ ലോക്കലായി നടക്കുന്നു, ഇത് നിങ്ങളുടെ ഡോക്യുമെന്റുകൾ ഉപകരണം വിട്ടുപോകുന്നില്ലെന്ന് ഉറപ്പാക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "നിങ്ങളുടെ PDF ഫയൽ ഡ്രാഗ് ആൻഡ് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Convert",
-        "description": "Wait for the conversion process to complete."
+        "title": "Convert ചെയ്യുക",
+        "description": "പരിവർത്തന പ്രക്രിയ പൂർത്തിയാകുന്നതുവരെ കാത്തിരിക്കുക."
       },
       {
         "step": 3,
-        "title": "Download Word Doc",
-        "description": "Download your fully editable DOCX file."
+        "title": "Word Doc ഡൗൺലോഡ് ചെയ്യുക",
+        "description": "നിങ്ങളുടെ പൂർണ്ണമായും എഡിറ്റ് ചെയ്യാവുന്ന DOCX ഫയൽ ഡൗൺലോഡ് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Edit Contracts",
-        "description": "Convert PDF contracts to Word for editing and revision.",
+        "title": "കരാറുകൾ എഡിറ്റ് ചെയ്യുക",
+        "description": "എഡിറ്റ് ചെയ്യുന്നതിനും പുതുക്കുന്നതിനുമായി PDF കരാറുകൾ Word-ലേക്ക് മാറ്റുക.",
         "icon": "file-text"
       },
       {
-        "title": "Resume Updates",
-        "description": "Update old PDF resumes by converting them to Word.",
+        "title": "റെസ്യൂമെ അപ്‌ഡേറ്റുകൾ",
+        "description": "പഴയ PDF റെസ്യൂമുകൾ Word-ലേക്ക് മാറ്റി അപ്‌ഡേറ്റ് ചെയ്യുക.",
         "icon": "user"
       },
       {
-        "title": "Content Repurposing",
-        "description": "Extract content from PDF reports for other documents.",
+        "title": "കണ്ടന്റ് റീപ്പർപസിംഗ്",
+        "description": "മറ്റ് ഡോക്യുമെന്റുകൾക്കായി PDF റിപ്പോർട്ടുകളിൽ നിന്ന് ഉള്ളടക്കം വേർതിരിച്ചെടുക്കുക.",
         "icon": "copy"
       }
     ],
     "faq": [
       {
-        "question": "Is formatting preserved?",
-        "answer": "Yes, the tool aims to preserve layout, fonts, and images as closely as possible."
+        "question": "ഫോർമാറ്റിംഗ് സംരക്ഷിക്കപ്പെടുമോ?",
+        "answer": "അതെ, ലേഔട്ട്, ഫോണ്ടുകൾ, ചിത്രങ്ങൾ എന്നിവ കഴിയുന്നത്ര കൃത്യമായി നിലനിർത്താൻ ടൂൾ ലക്ഷ്യമിടുന്നു."
       },
       {
-        "question": "Can I convert scanned PDFs?",
-        "answer": "Scanned PDFs will be converted as images in Word unless you use OCR first."
+        "question": "എനിക്ക് സ്കാൻ ചെയ്ത PDF-കൾ പരിവർത്തനം ചെയ്യാൻ കഴിയുമോ?",
+        "answer": "നിങ്ങൾ ആദ്യം OCR ഉപയോഗിച്ചില്ലെങ്കിൽ, സ്കാൻ ചെയ്ത PDF-കൾ Word-ൽ ചിത്രങ്ങളായി മാറ്റപ്പെടും."
       },
       {
-        "question": "Is it compatible with Word?",
-        "answer": "Yes, the output is a standard .docx file compatible with Microsoft Word and Google Docs."
+        "question": "ഇത് Word-മായി പൊരുത്തപ്പെടുന്നതാണോ?",
+        "answer": "അതെ, ഔട്ട്പുട്ട് Microsoft Word, Google Docs എന്നിവയുമായി പൊരുത്തപ്പെടുന്ന ഒരു സ്റ്റാൻഡേർഡ് .docx ഫയലാണ്."
       }
     ]
   },
   "pdf-to-markdown": {
     "title": "PDF to Markdown",
-    "metaDescription": "Convert PDF to Markdown format. Extract text and preserve formatting like headings and lists.",
+    "metaDescription": "PDF-നെ Markdown ഫോർമാറ്റിലേക്ക് മാറ്റുക. ടെക്സ്റ്റ് വേർതിരിച്ചെടുക്കുകയും ഹെഡിംഗുകൾ, ലിസ്റ്റുകൾ പോലുള്ള ഫോർമാറ്റിംഗ് നിലനിർത്തുകയും ചെയ്യുക.",
     "keywords": [
       "pdf to markdown",
       "convert pdf to md",
@@ -5364,59 +5364,59 @@ export const toolContentMl: Record<string, ToolContent> = {
       "markdown converter",
       "pdf to text"
     ],
-    "description": "\n      <p>PDF to Markdown converts your PDF documents into clean, well-structured Markdown files. The tool intelligently extracts text content and attempts to preserve formatting like headings, lists, and paragraphs.</p>\n      <p>Perfect for converting PDF documents to editable formats for documentation, note-taking, or content management systems that support Markdown.</p>\n      <p>All conversion happens locally in your browser, ensuring your documents remain private and secure.</p>\n    ",
+    "description": "\n      <p>PDF to Markdown നിങ്ങളുടെ PDF ഡോക്യുമെന്റുകളെ വ്യക്തവും ഘടനാപരവുമായ Markdown ഫയലുകളാക്കി മാറ്റുന്നു. ഈ ടൂൾ ബുദ്ധിപൂർവ്വം ടെക്സ്റ്റ് ഉള്ളടക്കം വേർതിരിച്ചെടുക്കുകയും ഹെഡിംഗുകൾ, ലിസ്റ്റുകൾ, പാരഗ്രാഫുകൾ എന്നിവ പോലുള്ള ഫോർമാറ്റിംഗ് നിലനിർത്താൻ ശ്രമിക്കുകയും ചെയ്യുന്നു.</p>\n      <p>ഡോക്യുമെന്റേഷൻ, നോട്ട് തയ്യാറാക്കൽ, അല്ലെങ്കിൽ Markdown പിന്തുണയ്ക്കുന്ന കണ്ടന്റ് മാനേജ്മെന്റ് സിസ്റ്റങ്ങൾ (CMS) എന്നിവയ്ക്കായി PDF ഡോക്യുമെന്റുകളെ എഡിറ്റ് ചെയ്യാവുന്ന ഫോർമാറ്റുകളിലേക്ക് മാറ്റുന്നതിന് ഇത് വളരെ അനുയോജ്യമാണ്.</p>\n      <p>എല്ലാ പരിവർത്തനങ്ങളും നിങ്ങളുടെ ബ്രൗസറിൽ തന്നെ ലോക്കലായി നടക്കുന്നു, ഇത് നിങ്ങളുടെ ഡോക്യുമെന്റുകൾ സ്വകാര്യവും സുരക്ഷിതവുമായി തുടരുന്നു എന്ന് ഉറപ്പാക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "നിങ്ങളുടെ PDF ഫയൽ ഡ്രാഗ് ആൻഡ് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
         "title": "ഓപ്ഷനുകൾ കോൺഫിഗർ ചെയ്യുക",
-        "description": "Set page range, choose to include page numbers, and adjust line break settings."
+        "description": "പേജ് റേഞ്ച് സജ്ജമാക്കുക, പേജ് നമ്പറുകൾ ഉൾപ്പെടുത്തണോ എന്ന് തിരഞ്ഞെടുക്കുക, ലൈൻ ബ്രേക്ക് ക്രമീകരണങ്ങൾ ക്രമീകരിക്കുക."
       },
       {
         "step": 3,
         "title": "മാറ്റുക, ഡൗൺലോഡ് ചെയ്യുക",
-        "description": "Click Convert to generate your Markdown file and download."
+        "description": "നിങ്ങളുടെ Markdown ഫയൽ നിർമ്മിച്ച് ഡൗൺലോഡ് කිරීමට Convert ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Documentation",
-        "description": "Convert PDF manuals and guides to Markdown for version-controlled documentation.",
+        "title": "ഡോക്യുമെന്റേഷൻ",
+        "description": "വേർഷൻ-കൺട്രോൾഡ് ഡോക്യുമെന്റേഷനായി PDF മാന്വലുകളും ഗൈഡുകളും Markdown-ലേക്ക് മാറ്റുക.",
         "icon": "file-text"
       },
       {
-        "title": "Note Taking",
-        "description": "Extract content from PDF articles and books for your note-taking system.",
+        "title": "നോട്ട് തയ്യാറാക്കൽ",
+        "description": "നിങ്ങളുടെ നോട്ട് തയ്യാറാക്കൽ സിസ്റ്റത്തിനായി PDF ലേഖനങ്ങളിൽ നിന്നും പുസ്തകങ്ങളിൽ നിന്നും ഉള്ളടക്കം വേർതിരിച്ചെടുക്കുക.",
         "icon": "edit-3"
       },
       {
-        "title": "Content Migration",
-        "description": "Migrate PDF content to CMS platforms that support Markdown.",
+        "title": "കണ്ടന്റ് മൈഗ്രേഷൻ",
+        "description": "Markdown പിന്തുണയ്ക്കുന്ന CMS പ്ലാറ്റ്‌ഫോമുകളിലേക്ക് PDF ഉള്ളടക്കം മൈഗ്രേറ്റ് ചെയ്യുക.",
         "icon": "copy"
       }
     ],
     "faq": [
       {
-        "question": "Is formatting preserved?",
-        "answer": "The tool attempts to detect headings based on font size and bullet points/numbered lists. Complex layouts may require manual adjustment."
+        "question": "ഫോർമാറ്റിംഗ് സംരക്ഷിക്കപ്പെടുമോ?",
+        "answer": "ഫോണ്ട് വലുപ്പവും ബുള്ളറ്റ് പോയിന്റുകളും/നമ്പറുള്ള ലിസ്റ്റുകളും അടിസ്ഥാനമാക്കി ഹെഡിംഗുകൾ കണ്ടെത്താൻ ടൂൾ ശ്രമിക്കുന്നു. സങ്കീർണ്ണമായ ലേഔട്ടുകൾക്ക് സ്വമേധയാ ഉള്ള മാറ്റങ്ങൾ ആവശ്യമായി വന്നേക്കാം."
       },
       {
-        "question": "Can I convert specific pages?",
-        "answer": "Yes, you can specify a page range like \"1-3, 5, 7\" to convert only those pages."
+        "question": "എനിക്ക് പ്രത്യേക പേജുകൾ മാത്രം പരിവർത്തനം ചെയ്യാൻ കഴിയുമോ?",
+        "answer": "അതെ, ആ പേജുകൾ മാത്രം പരിവർത്തനം ചെയ്യുന്നതിന് \"1-3, 5, 7\" പോലെയുള്ള പേജ് റേഞ്ച് നിങ്ങൾക്ക് നൽകാം."
       },
       {
-        "question": "Does it work with scanned PDFs?",
-        "answer": "Scanned PDFs contain images, not text. Use our OCR tool first to extract text before converting to Markdown."
+        "question": "ഇത് സ്കാൻ ചെയ്ത PDF-കളിൽ പ്രവർത്തിക്കുമോ?",
+        "answer": "സ്കാൻ ചെയ്ത PDF-കളിൽ ടെക്സ്റ്റിന് പകരം ചിത്രങ്ങളാണ് ഉള്ളത്. Markdown-ലേക്ക് മാറ്റുന്നതിന് മുൻപ് ടെക്സ്റ്റ് വേർതിരിച്ചെടുക്കാൻ ആദ്യം ഞങ്ങളുടെ OCR ടൂൾ ഉപയോഗിക്കുക."
       }
     ]
   },
   "deskew-pdf": {
     "title": "Deskew PDF",
-    "metaDescription": "Automatically straighten scanned or tilted PDF pages. Fix skewed documents with precision angle detection.",
+    "metaDescription": "സ്കാൻ ചെയ്തതോ ചരിഞ്ഞതോ ആയ PDF പേജുകൾ സ്വയമേവ നേരെയാക്കുക. കൃത്യമായ ആംഗിൾ ഡിറ്റക്ഷൻ ഉപയോഗിച്ച് ചരിഞ്ഞ ഡോക്യുമെന്റുകൾ ശരിയാക്കുക.",
     "keywords": [
       "deskew pdf",
       "straighten pdf",
@@ -5424,67 +5424,67 @@ export const toolContentMl: Record<string, ToolContent> = {
       "auto rotate pdf",
       "correct pdf angle"
     ],
-    "description": "\n      <p>Deskew PDF automatically detects and corrects tilted or skewed pages in your PDF documents using advanced projection profile variance analysis. This is essential for scanned documents that were fed into the scanner at an angle.</p>\n      <p>The tool analyzes the text and content alignment at different angles to find the optimal rotation, then applies the correction. You can adjust the sensitivity threshold (1-30) and DPI settings (72-300) for optimal results.</p>\n      <p>All processing happens locally in your browser using WebAssembly technology, ensuring your documents remain private and secure.</p>\n    ",
+    "description": "\n      <p>Deskew PDF അഡ്വാൻസ്ഡ് പ്രൊജക്ഷൻ പ്രൊഫൈൽ വേരിയൻസ് അനാലിസിസ് ഉപയോഗിച്ച് നിങ്ങളുടെ PDF ഡോക്യുമെന്റുകളിലെ ചരിഞ്ഞ പേജുകൾ സ്വയമേവ കണ്ടെത്തി ശരിയാക്കുന്നു. സ്കാനറിലേക്ക് ചരിഞ്ഞ് പോയ സ്കാൻ ചെയ്ത ഡോക്യുമെന്റുകൾക്ക് ഇത് വളരെ അത്യന്താപേക്ഷിതമാണ്.</p>\n      <p>മികച്ച റൊട്ടേഷൻ കണ്ടെത്തുന്നതിന് ടൂൾ വിവിധ ആംഗിളുകളിൽ ടെക്സ്റ്റ്, കണ്ടന്റ് അലൈൻമെന്റ് എന്നിവ വിശകലനം ചെയ്യുന്നു, തുടർന്ന് തിരുത്തൽ വരുത്തുന്നു. മികച്ച ഫലങ്ങൾക്കായി നിങ്ങൾക്ക് സെൻസിറ്റിവിറ്റി ത്രെഷോൾഡും (1-30) DPI ക്രമീകരണങ്ങളും (72-300) ക്രമീകരിക്കാവുന്നതാണ്.</p>\n      <p>എല്ലാ പ്രോസസ്സിംഗും WebAssembly സാങ്കേതികവിദ്യ ഉപയോഗിച്ച് നിങ്ങളുടെ ബ്രൗസറിൽ തന്നെ ലോക്കലായി നടക്കുന്നു, ഇത് നിങ്ങളുടെ ഡോക്യുമെന്റുകൾ സ്വകാര്യവും സുരക്ഷിതവുമായി തുടരുന്നു എന്ന് ഉറപ്പാക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your scanned PDF file or click to select."
+        "description": "നിങ്ങളുടെ സ്കാൻ ചെയ്ത PDF ഫയൽ ഡ്രാഗ് ചെയ്ത് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
         "title": "ക്രമീകരണങ്ങൾ ക്രമീകരിക്കുക",
-        "description": "Adjust threshold sensitivity and DPI if needed for better detection."
+        "description": "മികച്ച കണ്ടെത്തലിനായി ആവശ്യമെങ്കിൽ ത്രെഷോൾഡ് സെൻസിറ്റിവിറ്റിയും DPI-യും ക്രമീകരിക്കുക."
       },
       {
         "step": 3,
         "title": "പ്രോസസ്സ് ചെയ്ത് ഡൗൺലോഡ് ചെയ്യുക",
-        "description": "Click Deskew to straighten pages and download the corrected PDF."
+        "description": "പേജുകൾ നേരെയാക്കാനും ശരിയാക്കിയ PDF ഡൗൺലോഡ് ചെയ്യാനും Deskew ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
         "title": "സ്‌കാൻ ചെയ്ത ഡോക്യുമെന്റുകൾ",
-        "description": "Fix pages that were scanned at an angle from document feeders.",
+        "description": "ഡോക്യുമെന്റ് ഫീഡറുകളിൽ നിന്ന് ചരിഞ്ഞ് സ്കാൻ ചെയ്ത പേജുകൾ ശരിയാക്കുക.",
         "icon": "scan"
       },
       {
-        "title": "Mobile Scans",
-        "description": "Correct tilted photos of documents taken with smartphones.",
+        "title": "മൊബൈൽ സ്കാനുകൾ",
+        "description": "സ്മാർട്ട്ഫോണുകൾ ഉപയോഗിച്ച് എടുത്ത ഡോക്യുമെന്റുകളുടെ ചരിഞ്ഞ ഫോട്ടോകൾ ശരിയാക്കുക.",
         "icon": "smartphone"
       },
       {
-        "title": "Archive Restoration",
-        "description": "Straighten old scanned archives for better readability.",
+        "title": "ആർക്കൈവ് പുനഃസ്ഥാപനം",
+        "description": "കൂടുതൽ വ്യക്തതയ്ക്കായി പഴയ സ്കാൻ ചെയ്ത ആർക്കൈവുകൾ നേരെയാക്കുക.",
         "icon": "archive"
       }
     ],
     "faq": [
       {
-        "question": "How accurate is the angle detection?",
-        "answer": "The tool uses projection profile variance analysis to detect skew angles up to ±10 degrees with high accuracy. It automatically skips pages with angles less than 0.3 degrees."
+        "question": "ആംഗിൾ ഡിറ്റക്ഷൻ എത്രത്തോളം കൃത്യമാണ്?",
+        "answer": "ഈ ടൂൾ പ്രൊജക്ഷൻ പ്രൊഫൈൽ വേരിയൻസ് അനാലിസിസ് ഉപയോഗിച്ച് ±10 ഡിഗ്രി വരെയുള്ള ചാരിവ് ഉയർന്ന കൃത്യതയോടെ കണ്ടെത്തുന്നു. 0.3 ഡിഗ്രിയിൽ കുറവുള്ള ആംഗിളുകളുള്ള പേജുകൾ ഇത് സ്വയമേവ ഒഴിവാക്കുന്നു."
       },
       {
-        "question": "Will text quality be affected?",
-        "answer": "For rotations at multiples of 90 degrees, no quality loss occurs. For other angles, the tool rounds to the nearest degree and maintains good quality."
+        "question": "ടെക്സ്റ്റിന്റെ ഗുണനിലവാരത്തെ ബാധിക്കുമോ?",
+        "answer": "90 ഡിഗ്രിയുടെ ഗുണിതങ്ങളിലുള്ള റൊട്ടേഷനുകൾക്ക് ഗുണനിലവാരത്തിൽ ഒരു നഷ്ടവും സംഭവിക്കുന്നില്ല. മറ്റ് ആംഗിളുകൾക്ക്, ടൂൾ ഏറ്റവും അടുത്തുള്ള ഡിഗ്രിയിലേക്ക് മാറ്റുകയും നല്ല ഗുണനിലവാരം നിലനിർത്തുകയും ചെയ്യുന്നു."
       },
       {
-        "question": "Can I deskew specific pages only?",
-        "answer": "The tool analyzes all pages but only corrects those with detected skew above the sensitivity threshold. Pages with minimal skew are left unchanged."
+        "question": "എനിക്ക് പ്രത്യേക പേജുകൾ മാത്രം deskew ചെയ്യാൻ കഴിയുമോ?",
+        "answer": "ടൂൾ എല്ലാ പേജുകളും വിശകലനം ചെയ്യുന്നു, എന്നാൽ സെൻസിറ്റിവിറ്റി ത്രെഷോൾഡിന് മുകളിലുള്ള ചാരിവ് കണ്ടെത്തുന്ന പേജുകൾ മാത്രമേ ശരിയാക്കൂ. കുറഞ്ഞ ചാരിവുള്ള പേജുകളിൽ മാറ്റമൊന്നും വരുത്തുന്നില്ല."
       },
       {
-        "question": "What is the sensitivity threshold?",
-        "answer": "Values 1-10 correct obvious tilts only, 11-20 detect moderate skew, and 21-30 catch subtle angles. Default is 10 for balanced detection."
+        "question": "സെൻസിറ്റിവിറ്റി ത്രെഷോൾഡ് എന്താണ്?",
+        "answer": "1-10 മൂല്യങ്ങൾ വ്യക്തമായ ചാരിവുകൾ മാത്രം ശരിയാക്കുന്നു, 11-20 മിതമായ ചാരിവുകൾ കണ്ടെത്തുന്നു, 21-30 ചെറിയ ആംഗിളുകൾ പോലും കണ്ടെത്തുന്നു. സന്തുലിതമായ കണ്ടെത്തലിനായി ഡിഫോൾട്ട് മൂല്യം 10 ആണ്."
       },
       {
-        "question": "How long does processing take?",
-        "answer": "Processing time depends on file size and DPI. 150 DPI (default) provides good balance between speed and accuracy. Higher DPI is more accurate but slower."
+        "question": "പ്രോസസ്സിംഗിന് എത്ര സമയമെടുക്കും?",
+        "answer": "പ്രോസസ്സിംഗ് സമയം ഫയൽ വലുപ്പത്തെയും DPI-യെയും ആശ്രയിച്ചിരിക്കുന്നു. 150 DPI (ഡിഫോൾട്ട്) വേഗതയും കൃത്യതയും തമ്മിൽ നല്ലൊരു സന്തുലനം നൽകുന്നു. ഉയർന്ന DPI കൂടുതൽ കൃത്യതയുള്ളതാണെങ്കിലും വേഗത കുറവായിരിക്കും."
       }
     ]
   },
   "pdf-booklet": {
     "title": "PDF Booklet Creator",
-    "metaDescription": "Create booklet layouts from PDF for printing. Arrange pages for saddle-stitch binding with multiple grid options.",
+    "metaDescription": "പ്രിന്റ് ചെയ്യുന്നതിനായി PDF-ൽ നിന്ന് ബുക്ക്ലെറ്റ് ലേഔട്ടുകൾ സൃഷ്ടിക്കുക. മൾട്ടിപ്പിൾ ഗ്രിഡ് ഓപ്ഷനുകൾ ഉപയോഗിച്ച് സാഡിൽ-സ്റ്റിച്ച് ബൈൻഡിംഗിനായി പേജുകൾ ക്രമീകരിക്കുക.",
     "keywords": [
       "pdf booklet",
       "booklet creator",
@@ -5492,59 +5492,59 @@ export const toolContentMl: Record<string, ToolContent> = {
       "saddle stitch",
       "imposition"
     ],
-    "description": "\n      <p>PDF Booklet Creator arranges your PDF pages into booklet layouts ready for print-and-fold production. Perfect for creating brochures, zines, booklets, and saddle-stitched publications.</p>\n      <p>Choose from various grid modes (1x2, 2x2, 2x4, 4x4), paper sizes, and orientation options. The tool automatically handles page imposition for proper folding sequence.</p>\n      <p>All processing happens locally in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>PDF Booklet Creator നിങ്ങളുടെ PDF പേജുകളെ പ്രിന്റ് ചെയ്ത് മടക്കാൻ പാകത്തിലുള്ള ബുക്ക്ലെറ്റ് ലേഔട്ടുകളാക്കി ക്രമീകരിക്കുന്നു. ബ്രോഷറുകൾ, സീനുകൾ (zines), ബുക്ക്ലെറ്റുകൾ, സാഡിൽ-സ്റ്റിച്ച്ഡ് പ്രസിദ്ധീകരണങ്ങൾ എന്നിവ നിർമ്മിക്കാൻ വളരെ അനുയോജ്യമാണ്.</p>\n      <p>വിവിധ ഗ്രിഡ് മോഡുകൾ (1x2, 2x2, 2x4, 4x4), പേപ്പർ വലുപ്പങ്ങൾ, ഓറിയന്റേഷൻ ഓപ്ഷനുകൾ എന്നിവയിൽ നിന്ന് തിരഞ്ഞെടുക്കുക. ശരിയായ മടക്കൽ ക്രമത്തിനായി പേജ് ഇമ്പോസിഷൻ ഈ ടൂൾ സ്വയമേവ കൈകാര്യം ചെയ്യുന്നു.</p>\n      <p>എല്ലാ പ്രോസസ്സിംഗും നിങ്ങളുടെ ബ്രൗസറിൽ പ്രാദേശികമായി തന്നെ നടക്കുന്നു, ഇത് നിങ്ങളുടെ രേഖകൾ സ്വകാര്യമായി തുടരുമെന്ന് ഉറപ്പാക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Upload the PDF document you want to convert to a booklet."
+        "description": "ബുക്ക്ലെറ്റാക്കി മാറ്റാൻ ആഗ്രഹിക്കുന്ന PDF ഡോക്യുമെന്റ് അപ്‌ലോഡ് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Choose Layout",
-        "description": "Select grid mode, paper size, orientation, and rotation options."
+        "title": "ലേഔട്ട് തിരഞ്ഞെടുക്കുക",
+        "description": "ഗ്രിഡ് മോഡ്, പേപ്പർ വലുപ്പം, ഓറിയന്റേഷൻ, റൊട്ടേഷൻ ഓപ്ഷനുകൾ എന്നിവ തിരഞ്ഞെടുക്കുക."
       },
       {
         "step": 3,
-        "title": "Create and Download",
-        "description": "Generate the booklet layout and download for printing."
+        "title": "സൃഷ്ടിച്ച് ഡൗൺലോഡ് ചെയ്യുക",
+        "description": "ബുക്ക്ലെറ്റ് ലേഔട്ട് നിർമ്മിച്ച് പ്രിന്റിംഗിനായി ഡൗൺലോഡ് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Brochures",
-        "description": "Create fold-ready brochures from standard PDF documents.",
+        "title": "ബ്രോഷറുകൾ",
+        "description": "സാധാരണ PDF രേഖകളിൽ നിന്ന് മടക്കാൻ പാകത്തിലുള്ള ബ്രോഷറുകൾ സൃഷ്ടിക്കുക.",
         "icon": "book-open"
       },
       {
-        "title": "Zines",
-        "description": "Produce self-published zines with proper page imposition.",
+        "title": "സീനുകൾ",
+        "description": "ശരിയായ പേജ് ഇമ്പോസിഷനോടെ സ്വയം പ്രസിദ്ധീകരിക്കുന്ന സീനുകൾ തയ്യാറാക്കുക.",
         "icon": "book"
       },
       {
-        "title": "Event Programs",
-        "description": "Create professional program booklets for events.",
+        "title": "ഈവന്റ് പ്രോഗ്രാമുകൾ",
+        "description": "പരിപാടികൾക്കായി പ്രൊഫഷണൽ പ്രോഗ്രാം ബുക്ക്ലെറ്റുകൾ സൃഷ്ടിക്കുക.",
         "icon": "calendar"
       }
     ],
     "faq": [
       {
-        "question": "What is saddle-stitch binding?",
-        "answer": "Saddle-stitch is a binding method where folded sheets are nested and stapled through the fold."
+        "question": "എന്താണ് സാഡിൽ-സ്റ്റിച്ച് ബൈൻഡിംഗ്?",
+        "answer": "മടക്കിയ പേപ്പർ ഷീറ്റുകൾ ഒന്നിനുള്ളിൽ ഒന്നായി വച്ച് മടക്കിലൂടെ സ്റ്റാപ്പിൾ ചെയ്യുന്ന ഒരു ബൈൻഡിംഗ് രീതിയാണ് സാഡിൽ-സ്റ്റിച്ച്."
       },
       {
-        "question": "Which grid mode should I use?",
-        "answer": "1x2 is standard for booklets. Use 2x2 or larger for multi-up printing to save paper."
+        "question": "ഞാൻ ഏത് ഗ്രിഡ് മോഡാണ് ഉപയോഗിക്കേണ്ടത്?",
+        "answer": "ബുക്ക്ലെറ്റുകൾക്ക് 1x2 ആണ് സ്റ്റാൻഡേർഡ്. പേപ്പർ ലാഭിക്കുന്നതിനായി മൾട്ടി-അപ്പ് പ്രിന്റിംഗിന് 2x2 അല്ലെങ്കിൽ അതിലും വലുത് ഉപയോഗിക്കുക."
       },
       {
-        "question": "Can I preview the layout?",
-        "answer": "Yes, the tool provides a visual preview before generating the final booklet."
+        "question": "എനിക്ക് ലേഔട്ട് പ്രിവ്യൂ ചെയ്യാൻ കഴിയുമോ?",
+        "answer": "അതെ, അന്തിമ ബുക്ക്ലെറ്റ് നിർമ്മിക്കുന്നതിന് മുമ്പ് ഈ ടൂൾ ഒരു വിഷ്വൽ പ്രിവ്യൂ നൽകുന്നു."
       }
     ]
   },
   "rasterize-pdf": {
     "title": "Rasterize PDF",
-    "metaDescription": "Convert PDF pages to high-quality images. Export as PNG, JPEG, or WebP with custom DPI settings.",
+    "metaDescription": "PDF പേജുകളെ ഉയർന്ന നിലവാരമുള്ള ചിത്രങ്ങളാക്കി മാറ്റുക. കസ്റ്റം DPI ക്രമീകരണങ്ങളോടെ PNG, JPEG അല്ലെങ്കിൽ WebP ആയി എക്സ്പോർട്ട് ചെയ്യുക.",
     "keywords": [
       "rasterize pdf",
       "pdf to image",
@@ -5552,59 +5552,59 @@ export const toolContentMl: Record<string, ToolContent> = {
       "pdf to jpeg",
       "convert pdf pages"
     ],
-    "description": "\n      <p>Rasterize PDF converts your PDF pages into high-quality raster images. Choose from PNG, JPEG, or WebP output formats with full control over DPI and quality settings.</p>\n      <p>Perfect for creating thumbnails, social media graphics, or archiving PDF content as images. Supports page range selection and batch processing.</p>\n      <p>All processing happens locally in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>Rasterize PDF നിങ്ങളുടെ PDF പേജുകളെ ഉയർന്ന നിലവാരമുള്ള റാസ്റ്റർ ചിത്രങ്ങളാക്കി മാറ്റുന്നു. DPI, ക്വാളിറ്റി ക്രമീകരണങ്ങൾ എന്നിവയിൽ പൂർണ്ണ നിയന്ത്രണത്തോടെ PNG, JPEG അല്ലെങ്കിൽ WebP ഔട്ട്‌പുട്ട് ഫോർമാറ്റുകളിൽ നിന്ന് തിരഞ്ഞെടുക്കുക.</p>\n      <p>തംബ്‌നെയിലുകൾ, സോഷ്യൽ മീഡിയ ഗ്രാഫിക്‌സ് എന്നിവ നിർമ്മിക്കുന്നതിനോ PDF ഉള്ളടക്കം ചിത്രങ്ങളായി ആർക്കൈവ് ചെയ്യുന്നതിനോ ഇത് വളരെ അനുയോജ്യമാണ്. പേജ് റേഞ്ച് സെലക്ഷനും ബാച്ച് പ്രോസസ്സിംഗും പിന്തുണയ്ക്കുന്നു.</p>\n      <p>എല്ലാ പ്രോസസ്സിംഗും നിങ്ങളുടെ ബ്രൗസറിൽ പ്രാദേശികമായി തന്നെ നടക്കുന്നു, ഇത് നിങ്ങളുടെ രേഖകൾ സ്വകാര്യമായി തുടരുമെന്ന് ഉറപ്പാക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Drag and drop your PDF file or click to select."
+        "description": "നിങ്ങളുടെ PDF ഫയൽ ഡ്രാഗ് ആൻഡ് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Configure Output",
-        "description": "Select DPI, output format (PNG/JPEG/WebP), quality, and page range."
+        "title": "ഔട്ട്‌പുട്ട് കോൺഫിഗർ ചെയ്യുക",
+        "description": "DPI, ഔട്ട്‌പുട്ട് ഫോർമാറ്റ് (PNG/JPEG/WebP), ക്വാളിറ്റി, പേജ് റേഞ്ച് എന്നിവ തിരഞ്ഞെടുക്കുക."
       },
       {
         "step": 3,
         "title": "മാറ്റുക, ഡൗൺലോഡ് ചെയ്യുക",
-        "description": "Process pages and download images individually or as a ZIP archive."
+        "description": "പേജുകൾ പ്രോസസ്സ് ചെയ്ത് ചിത്രങ്ങൾ വ്യക്തിഗതമായോ ഒരു ZIP ആർക്കൈവ് ആയോ ഡൗൺലോഡ് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Social Media",
-        "description": "Convert PDF slides to images for social media posting.",
+        "title": "സോഷ്യൽ മീഡിയ",
+        "description": "സോഷ്യൽ മീഡിയയിൽ പോസ്റ്റ് ചെയ്യുന്നതിനായി PDF സ്ലൈഡുകളെ ചിത്രങ്ങളാക്കി മാറ്റുക.",
         "icon": "share-2"
       },
       {
-        "title": "Thumbnails",
-        "description": "Generate preview thumbnails for PDF documents.",
+        "title": "തംബ്‌നെയിലുകൾ",
+        "description": "PDF രേഖകൾക്കായി പ്രിവ്യൂ തംബ്‌നെയിലുകൾ ഉണ്ടാക്കുക.",
         "icon": "image"
       },
       {
         "title": "വെബ് പബ്ലിഷിംഗ്",
-        "description": "Convert PDF content to web-friendly image formats.",
+        "description": "PDF ഉള്ളടക്കം വെബ്ബ്-ഫ്രണ്ട്‌ലി ഇമേജ് ഫോർമാറ്റുകളാക്കി മാറ്റുക.",
         "icon": "globe"
       }
     ],
     "faq": [
       {
-        "question": "What DPI should I use?",
-        "answer": "72 DPI for screen, 150 DPI for general use, 300 DPI for print quality."
+        "question": "ഞാൻ ഏത് DPI ആണ് ഉപയോഗിക്കേണ്ടത്?",
+        "answer": "സ്ക്രീനിനായി 72 DPI, പൊതുവായ ഉപയോഗത്തിന് 150 DPI, പ്രിന്റ് ക്വാളിറ്റിക്കായി 300 DPI."
       },
       {
-        "question": "Which format is best?",
-        "answer": "PNG for quality/transparency, JPEG for small size, WebP for modern web use."
+        "question": "ഏത് ഫോർമാറ്റാണ് ഏറ്റവും നല്ലത്?",
+        "answer": "ക്വാളിറ്റി/ട്രാൻസ്പരൻസി എന്നിവയ്ക്ക് PNG, ചെറിയ വലുപ്പത്തിന് JPEG, ആധുനിക വെബ് ഉപയോഗത്തിന് WebP."
       },
       {
-        "question": "Can I convert specific pages?",
-        "answer": "Yes, specify page ranges like \"1-5, 8, 10-15\" to convert only those pages."
+        "question": "എനിക്ക് പ്രത്യേക പേജുകൾ മാത്രം പരിവർത്തനം ചെയ്യാൻ കഴിയുമോ?",
+        "answer": "അതെ, ആ പേജുകൾ മാത്രം മാറ്റുന്നതിനായി \"1-5, 8, 10-15\" പോലെ പേജ് റേഞ്ചുകൾ വ്യക്തമാക്കുക."
       }
     ]
   },
   "markdown-to-pdf": {
     "title": "Markdown to PDF",
-    "metaDescription": "Convert Markdown files to beautifully formatted PDF documents. Support for GitHub Flavored Markdown and syntax highlighting.",
+    "metaDescription": "Markdown ഫയലുകളെ മനോഹരമായി ഫോർമാറ്റ് ചെയ്ത PDF രേഖകളാക്കി മാറ്റുക. GitHub Flavored Markdown, സിന്റാക്സ് ഹൈലൈറ്റിംഗ് എന്നിവയ്ക്കുള്ള പിന്തുണ ലഭ്യം.",
     "keywords": [
       "markdown to pdf",
       "md to pdf",
@@ -5612,59 +5612,59 @@ export const toolContentMl: Record<string, ToolContent> = {
       "gfm to pdf",
       "markdown converter"
     ],
-    "description": "\n      <p>Markdown to PDF converts your Markdown files into professionally styled PDF documents. Support for CommonMark and GitHub Flavored Markdown (GFM) including tables, task lists, and code blocks.</p>\n      <p>Choose from multiple themes (light, dark, GitHub) and customize page size and margins. Code blocks are syntax-highlighted for better readability.</p>\n      <p>All conversion happens locally in your browser, ensuring your content remains private.</p>\n    ",
+    "description": "\n      <p>Markdown to PDF നിങ്ങളുടെ Markdown ഫയലുകളെ പ്രൊഫഷണൽ ശൈലിയിലുള്ള PDF രേഖകളാക്കി മാറ്റുന്നു. ടേബിളുകൾ, ടാസ്ക് ലിസ്റ്റുകൾ, കോഡ് ബ്ലോക്കുകൾ എന്നിവയുൾപ്പെടെ CommonMark, GitHub Flavored Markdown (GFM) എന്നിവയ്ക്കുള്ള പിന്തുണ ലഭ്യം.</p>\n      <p>വിവിധ തീമുകളിൽ നിന്ന് (light, dark, GitHub) തിരഞ്ഞെടുത്ത് പേജ് വലുപ്പവും മാർജിനുകളും കസ്റ്റമൈസ് ചെയ്യുക. മികച്ച വായനാസുഖത്തിനായി കോഡ് ബ്ലോക്കുകൾ സിന്റാക്സ്-ഹൈലൈറ്റ് ചെയ്തിരിക്കുന്നു.</p>\n      <p>എല്ലാ കൺവേർഷനും നിങ്ങളുടെ ബ്രൗസറിൽ പ്രാദേശികമായി തന്നെ നടക്കുന്നു, ഇത് നിങ്ങളുടെ ഉള്ളടക്കം സ്വകാര്യമായി തുടരുമെന്ന് ഉറപ്പാക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Markdown File",
-        "description": "Upload your .md or .markdown file."
+        "title": "Markdown ഫയൽ അപ്‌ലോഡ് ചെയ്യുക",
+        "description": "നിങ്ങളുടെ .md അല്ലെങ്കിൽ .markdown ഫയൽ അപ്‌ലോഡ് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Choose Theme",
-        "description": "Select a visual theme and configure page settings."
+        "title": "തീം തിരഞ്ഞെടുക്കുക",
+        "description": "ഒരു വിഷ്വൽ തീം തിരഞ്ഞെടുത്ത് പേജ് ക്രമീകരണങ്ങൾ കോൺഫിഗർ ചെയ്യുക."
       },
       {
         "step": 3,
         "title": "മാറ്റുക, ഡൗൺലോഡ് ചെയ്യുക",
-        "description": "Generate the styled PDF and download."
+        "description": "സ്റ്റൈൽ ചെയ്ത PDF നിർമ്മിച്ച് ഡൗൺലോഡ് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Documentation",
-        "description": "Convert README files and docs to shareable PDFs.",
+        "title": "ഡോക്യുമെന്റേഷൻ",
+        "description": "README ഫയലുകളും ഡോക്സുകളും ഷെയർ ചെയ്യാവുന്ന PDF-കളാക്കി മാറ്റുക.",
         "icon": "file-text"
       },
       {
-        "title": "Notes Export",
-        "description": "Export Markdown notes to PDF for printing or sharing.",
+        "title": "നോട്ട്സ് എക്സ്പോർട്ട്",
+        "description": "പ്രിന്റ് ചെയ്യുന്നതിനോ ഷെയർ ചെയ്യുന്നതിനോ ആയി Markdown നോട്ടുകൾ PDF-ലേക്ക് എക്സ്പോർട്ട് ചെയ്യുക.",
         "icon": "edit-3"
       },
       {
-        "title": "Reports",
-        "description": "Create reports from Markdown with professional styling.",
+        "title": "റിപ്പോർട്ടുകൾ",
+        "description": "പ്രൊഫഷണൽ സ്റ്റൈലിംഗോടെ Markdown-ൽ നിന്ന് റിപ്പോർട്ടുകൾ നിർമ്മിക്കുക.",
         "icon": "bar-chart"
       }
     ],
     "faq": [
       {
-        "question": "Is GitHub Flavored Markdown supported?",
-        "answer": "Yes, tables, task lists, strikethrough, and other GFM features are supported."
+        "question": "GitHub Flavored Markdown പിന്തുണയ്ക്കുന്നുണ്ടോ?",
+        "answer": "അതെ, ടേബിളുകൾ, ടാസ്ക് ലിസ്റ്റുകൾ, സ്ട്രൈക്ക്ത്രൂ, മറ്റ് GFM സവിശേഷതകൾ എന്നിവ പിന്തുണയ്ക്കുന്നുണ്ട്."
       },
       {
-        "question": "Can I customize the styling?",
-        "answer": "Choose from preset themes or add custom CSS for full control."
+        "question": "എനിക്ക് സ്റ്റൈലിംഗ് കസ്റ്റമൈസ് ചെയ്യാൻ കഴിയുമോ?",
+        "answer": "മുൻകൂട്ടി നിശ്ചയിച്ച തീമുകളിൽ നിന്ന് തിരഞ്ഞെടുക്കുക അല്ലെങ്കിൽ പൂർണ്ണ നിയന്ത്രണത്തിനായി കസ്റ്റം CSS ചേർക്കുക."
       },
       {
-        "question": "Are code blocks highlighted?",
-        "answer": "Yes, code blocks include syntax highlighting for common languages."
+        "question": "കോഡ് ബ്ലോക്കുകൾ ഹൈലൈറ്റ് ചെയ്തിട്ടുണ്ടോ?",
+        "answer": "അതെ, കോഡ് ബ്ലോക്കുകളിൽ സാധാരണ ഭാഷകൾക്കായുള്ള സിന്റാക്സ് ഹൈലൈറ്റിംഗ് ഉൾപ്പെടുന്നു."
       }
     ]
   },
   "email-to-pdf": {
     "title": "Email to PDF",
-    "metaDescription": "Convert email files (.eml, .msg) to PDF documents. Preserve formatting, inline images, clickable links, and embed attachments.",
+    "metaDescription": "ഇമെയിൽ ഫയലുകൾ (.eml, .msg) PDF രേഖകളാക്കി മാറ്റുക. ഫോർമാറ്റിംഗ്, ഇൻലൈൻ ചിത്രങ്ങൾ, ക്ലിക്ക് ചെയ്യാവുന്ന ലിങ്കുകൾ, എംബഡ് ചെയ്ത അറ്റാച്ച്‌മെന്റുകൾ എന്നിവ അതുപോലെ നിലനിർത്തുന്നു.",
     "keywords": [
       "email to pdf",
       "eml to pdf",
@@ -5674,67 +5674,67 @@ export const toolContentMl: Record<string, ToolContent> = {
       "save email as pdf",
       "outlook to pdf"
     ],
-    "description": "\n      <p>Email to PDF converts your email files (.eml and .msg formats) into well-formatted PDF documents. The tool preserves the email header information, body content, inline images with CID replacement, clickable links, and embeds attachments directly into the PDF.</p>\n      <p>Customize output options including page size (A4, Letter, Legal), date formatting with timezone support, and whether to include CC/BCC fields and attachment information.</p>\n      <p>All conversion happens locally in your browser, ensuring your emails remain private and secure.</p>\n    ",
+    "description": "<p>Email to PDF നിങ്ങളുടെ ഇമെയിൽ ഫയലുകളെ (.eml, .msg ഫോർമാറ്റുകൾ) ശരിയായി ഫോർമാറ്റ് ചെയ്ത PDF രേഖകളാക്കി മാറ്റുന്നു. ഈ ടൂൾ ഇമെയിൽ ഹെഡർ വിവരങ്ങൾ, ബോഡി ഉള്ളടക്കം, CID റീപ്ലേസ്‌മെന്റോട് കൂടിയ ഇൻലൈൻ ചിത്രങ്ങൾ, ക്ലിക്ക് ചെയ്യാവുന്ന ലിങ്കുകൾ എന്നിവ നിലനിർത്തുകയും അറ്റാച്ച്‌മെന്റുകൾ നേരിട്ട് PDF-ലേക്ക് എംബഡ് ചെയ്യുകയും ചെയ്യുന്നു.</p><p>പേജ് വലുപ്പം (A4, Letter, Legal), ടൈംസോൺ പിന്തുണയുള്ള തീയതി ഫോർമാറ്റിംഗ്, CC/BCC ഫീൽഡുകളും അറ്റാച്ച്‌മെന്റ് വിവരങ്ങളും ഉൾപ്പെടുത്തണമോ തുടങ്ങിയ ഔട്ട്‌പുട്ട് ഓപ്ഷനുകൾ ക്രമീകരിക്കുക.</p><p>എല്ലാ മാറ്റങ്ങളും നിങ്ങളുടെ ബ്രൗസറിൽ പ്രാദേശികമായി നടക്കുന്നു, ഇത് നിങ്ങളുടെ ഇമെയിലുകൾ സ്വകാര്യവും സുരക്ഷിതവുമായി തുടരുന്നുവെന്ന് ഉറപ്പാക്കുന്നു.</p>",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Email File",
-        "description": "Upload your .eml or .msg email file."
+        "title": "ഇമെയിൽ ഫയൽ അപ്‌ലോഡ് ചെയ്യുക",
+        "description": "നിങ്ങളുടെ .eml അല്ലെങ്കിൽ .msg ഇമെയിൽ ഫയൽ അപ്‌ലോഡ് ചെയ്യുക."
       },
       {
         "step": 2,
         "title": "ഓപ്ഷനുകൾ കോൺഫിഗർ ചെയ്യുക",
-        "description": "Set page size, date format, timezone, and choose which fields to include."
+        "description": "പേജ് വലുപ്പം, തീയതി ഫോർമാറ്റ്, ടൈംസോൺ എന്നിവ സജ്ജീകരിക്കുക, ഉൾപ്പെടുത്തേണ്ട ഫീൽഡുകൾ തിരഞ്ഞെടുക്കുക."
       },
       {
         "step": 3,
         "title": "മാറ്റുക, ഡൗൺലോഡ് ചെയ്യുക",
-        "description": "Convert to PDF with embedded attachments and download the result."
+        "description": "എംബഡ് ചെയ്ത അറ്റാച്ച്‌മെന്റുകളോടെ PDF ആക്കി മാറ്റി ഫലം ഡൗൺലോഡ് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Legal Records",
-        "description": "Archive important emails as PDF with embedded attachments for legal documentation.",
+        "title": "നിയമപരമായ രേഖകൾ",
+        "description": "നിയമപരമായ രേഖകൾക്കായി പ്രധാനപ്പെട്ട ഇമെയിലുകൾ എംബഡ് ചെയ്ത അറ്റാച്ച്‌മെന്റുകളോടെ PDF ആയി ആർക്കൈവ് ചെയ്യുക.",
         "icon": "scale"
       },
       {
-        "title": "Business Archives",
-        "description": "Convert business correspondence to PDF for long-term record keeping.",
+        "title": "ബിസിനസ് ആർക്കൈവുകൾ",
+        "description": "ദീർഘകാല റെക്കോർഡ് സൂക്ഷിക്കലിനായി ബിസിനസ്സ് കത്തിടപാടുകൾ PDF-ലേക്ക് മാറ്റുക.",
         "icon": "briefcase"
       },
       {
-        "title": "Evidence Preservation",
-        "description": "Save email evidence with inline images and attachments in a non-editable PDF format.",
+        "title": "തെളിവ് സംരക്ഷണം",
+        "description": "എഡിറ്റ് ചെയ്യാൻ കഴിയാത്ത PDF ഫോർമാറ്റിൽ ഇൻലൈൻ ചിത്രങ്ങളും അറ്റാച്ച്‌മെന്റുകളും ഉള്ള ഇമെയിൽ തെളിവുകൾ സംരക്ഷിക്കുക.",
         "icon": "shield"
       }
     ],
     "faq": [
       {
-        "question": "What email formats are supported?",
-        "answer": "Both .eml (RFC 822) and .msg (Microsoft Outlook) files are fully supported."
+        "question": "ഏതൊക്കെ ഇമെയിൽ ഫോർമാറ്റുകളാണ് പിന്തുണയ്ക്കുന്നത്?",
+        "answer": ".eml (RFC 822), .msg (Microsoft Outlook) ഫയലുകൾ പൂർണ്ണമായി പിന്തുണയ്ക്കുന്നു."
       },
       {
-        "question": "Are attachments included?",
-        "answer": "Yes! Attachments are embedded directly into the PDF file. You can extract them from the PDF using a compatible PDF reader."
+        "question": "അറ്റാച്ച്‌മെന്റുകൾ ഉൾപ്പെടുത്തിയിട്ടുണ്ടോ?",
+        "answer": "അതെ! അറ്റാച്ച്‌മെന്റുകൾ നേരിട്ട് PDF ഫയലിലേക്ക് എംബഡ് ചെയ്തിരിക്കുന്നു. അനുയോജ്യമായ PDF റീഡർ ഉപയോഗിച്ച് നിങ്ങൾക്ക് അവ PDF-ൽ നിന്ന് എക്‌സ്‌ട്രാക്‌റ്റ് ചെയ്യാം."
       },
       {
-        "question": "Are inline images displayed?",
-        "answer": "Yes, inline images referenced via CID (Content-ID) are automatically converted to base64 data URIs and displayed in the PDF."
+        "question": "ഇൻലൈൻ ചിത്രങ്ങൾ കാണിക്കുമോ?",
+        "answer": "അതെ, CID (Content-ID) വഴി പരാമർശിച്ച ഇൻലൈൻ ചിത്രങ്ങൾ സ്വയമേവ base64 ഡാറ്റ URIs ആക്കി മാറ്റി PDF-ൽ കാണിക്കുന്നു."
       },
       {
-        "question": "Are links clickable?",
-        "answer": "Yes, all HTML links (<a> tags) and URLs in plain text emails are converted to clickable links in the PDF."
+        "question": "ലിങ്കുകൾ ക്ലിക്ക് ചെയ്യാവുന്നവയാണോ?",
+        "answer": "അതെ, പ്ലെയിൻ ടെക്സ്റ്റ് ഇമെയിലുകളിലെ എല്ലാ HTML ലിങ്കുകളും (<a> ടാഗുകൾ) URLs-ഉം PDF-ൽ ക്ലിക്ക് ചെയ്യാവുന്ന ലിങ്കുകളാക്കി മാറ്റുന്നു."
       },
       {
-        "question": "Is the email formatting preserved?",
-        "answer": "Yes, HTML emails maintain their formatting as closely as possible, including styles, images, and links."
+        "question": "ഇമെയിൽ ഫോർമാറ്റിംഗ് നിലനിർത്തുന്നുണ്ടോ?",
+        "answer": "അതെ, സ്റ്റൈലുകൾ, ചിത്രങ്ങൾ, ലിങ്കുകൾ എന്നിവയുൾപ്പെടെയുള്ള HTML ഇമെയിലുകൾ അവയുടെ ഫോർമാറ്റിംഗ് പരമാവധി നിലനിർത്തുന്നു."
       }
     ]
   },
   "cbz-to-pdf": {
     "title": "CBZ to PDF",
-    "metaDescription": "Convert comic book archives (CBZ) to PDF. Preserve image order and quality for digital comics.",
+    "metaDescription": "കോമിക് ബുക്ക് ആർക്കൈവുകൾ (CBZ) PDF രേഖകളാക്കി മാറ്റുക. ഡിജിറ്റൽ കോമിക്കുകൾക്കായി ചിത്രങ്ങളുടെ ക്രമവും ഗുണനിലവാരവും നിലനിർത്തുക.",
     "keywords": [
       "cbz to pdf",
       "comic to pdf",
@@ -5742,59 +5742,59 @@ export const toolContentMl: Record<string, ToolContent> = {
       "comic book converter",
       "cbz converter"
     ],
-    "description": "\n      <p>CBZ to PDF converts Comic Book Archive files into PDF documents. The tool extracts all images from the CBZ archive and compiles them into a PDF while maintaining the correct reading order.</p>\n      <p>Choose from various page size options including original image dimensions or standardized comic book sizes. Perfect for reading comics on devices that support PDF but not CBZ.</p>\n      <p>All conversion happens locally in your browser, ensuring your comics remain private.</p>\n    ",
+    "description": "<p>CBZ to PDF കോമിക് ബുക്ക് ആർക്കൈവ് ഫയലുകളെ PDF രേഖകളാക്കി മാറ്റുന്നു. ഈ ടൂൾ CBZ ആർക്കൈവിൽ നിന്ന് എല്ലാ ചിത്രങ്ങളും എക്‌സ്‌ട്രാക്‌റ്റ് ചെയ്യുകയും ശരിയായ വായനാക്രമം നിലനിർത്തിക്കൊണ്ട് അവയെ ഒരു PDF-ലേക്ക് ചേർക്കുകയും ചെയ്യുന്നു.</p><p>ഒറിജിനൽ ചിത്രത്തിന്റെ അളവുകൾ അല്ലെങ്കിൽ സ്റ്റാൻഡേർഡ് കോമിക് ബുക്ക് വലുപ്പങ്ങൾ ഉൾപ്പെടെ വിവിധ പേജ് വലുപ്പ ഓപ്ഷനുകളിൽ നിന്ന് തിരഞ്ഞെടുക്കുക. PDF പിന്തുണയ്ക്കുന്നതും എന്നാൽ CBZ പിന്തുണയ്ക്കാത്തതുമായ ഉപകരണങ്ങളിൽ കോമിക്കുകൾ വായിക്കാൻ ഇത് അനുയോജ്യമാണ്.</p><p>എല്ലാ മാറ്റങ്ങളും നിങ്ങളുടെ ബ്രൗസറിൽ പ്രാദേശികമായി നടക്കുന്നു, ഇത് നിങ്ങളുടെ കോമിക്കുകൾ സ്വകാര്യമായി തുടരുന്നുവെന്ന് ഉറപ്പാക്കുന്നു.</p>",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload CBZ File",
-        "description": "Upload your .cbz comic book archive file."
+        "title": "CBZ ഫയൽ അപ്‌ലോഡ് ചെയ്യുക",
+        "description": "നിങ്ങളുടെ .cbz കോമിക് ബുക്ക് ആർക്കൈവ് ഫയൽ അപ്‌ലോഡ് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Select Options",
-        "description": "Choose page size and image quality settings."
+        "title": "ഓപ്ഷനുകൾ തിരഞ്ഞെടുക്കുക",
+        "description": "പേജ് വലുപ്പവും ചിത്രത്തിന്റെ ഗുണനിലവാര ക്രമീകരണങ്ങളും തിരഞ്ഞെടുക്കുക."
       },
       {
         "step": 3,
         "title": "മാറ്റുക, ഡൗൺലോഡ് ചെയ്യുക",
-        "description": "Convert to PDF and download your comic."
+        "description": "PDF-ലേക്ക് മാറ്റി നിങ്ങളുടെ കോമിക് ഡൗൺലോഡ് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "E-Reader Compatibility",
-        "description": "Convert CBZ to PDF for e-readers that only support PDF.",
+        "title": "E-Reader പൊരുത്തപ്പെടൽ",
+        "description": "PDF മാത്രം പിന്തുണയ്ക്കുന്ന ഇ-റീഡറുകൾക്കായി CBZ, PDF ആക്കി മാറ്റുക.",
         "icon": "book"
       },
       {
-        "title": "Comic Archives",
-        "description": "Create PDF archives of your digital comic collection.",
+        "title": "കോമിക് ആർക്കൈവുകൾ",
+        "description": "നിങ്ങളുടെ ഡിജിറ്റൽ കോമിക് ശേഖരത്തിന്റെ PDF ആർക്കൈവുകൾ സൃഷ്ടിക്കുക.",
         "icon": "archive"
       },
       {
         "title": "പ്രിന്റ് തയ്യാറാക്കൽ",
-        "description": "Convert digital comics to PDF for printing.",
+        "description": "പ്രിന്റ് ചെയ്യുന്നതിനായി ഡിജിറ്റൽ കോമിക്കുകൾ PDF-ലേക്ക് മാറ്റുക.",
         "icon": "printer"
       }
     ],
     "faq": [
       {
-        "question": "What is CBZ format?",
-        "answer": "CBZ is a ZIP archive containing comic book pages as image files, renamed with .cbz extension."
+        "question": "എന്താണ് CBZ ഫോർമാറ്റ്?",
+        "answer": "CBZ എന്നത് .cbz എക്സ്റ്റൻഷനോടെ പേരുമാറ്റിയ, കോമിക് ബുക്ക് പേജുകൾ ചിത്ര ഫയലുകളായി അടങ്ങിയിരിക്കുന്ന ഒരു ZIP ആർക്കൈവ് ആണ്."
       },
       {
-        "question": "Is image quality preserved?",
-        "answer": "Yes, images are embedded at their original quality in the PDF."
+        "question": "ചിത്രത്തിന്റെ ഗുണനിലവാരം നിലനിർത്തുന്നുണ്ടോ?",
+        "answer": "അതെ, ചിത്രങ്ങൾ അവയുടെ യഥാർത്ഥ ഗുണനിലവാരത്തിൽ PDF-ൽ എംബഡ് ചെയ്തിരിക്കുന്നു."
       },
       {
-        "question": "Are nested folders supported?",
-        "answer": "Yes, images from all folders within the archive are extracted and sorted."
+        "question": "നെസ്റ്റഡ് ഫോൾഡറുകൾ പിന്തുണയ്ക്കുന്നുണ്ടോ?",
+        "answer": "അതെ, ആർക്കൈവിനുള്ളിലെ എല്ലാ ഫോൾഡറുകളിൽ നിന്നുമുള്ള ചിത്രങ്ങൾ എക്സ്ട്രാക്റ്റ് ചെയ്യുകയും ക്രമീകരിക്കുകയും ചെയ്യുന്നു."
       }
     ]
   },
   "pdf-to-pdfa": {
     "title": "PDF to PDF/A",
-    "metaDescription": "Convert PDF to PDF/A archival format. Ensure long-term document preservation with ISO standards.",
+    "metaDescription": "PDF, PDF/A ആർക്കൈവൽ ഫോർമാറ്റിലേക്ക് മാറ്റുക. ISO മാനദണ്ഡങ്ങൾ ഉപയോഗിച്ച് ദീർഘകാല രേഖ സംരക്ഷണം ഉറപ്പാക്കുക.",
     "keywords": [
       "pdf to pdfa",
       "pdfa converter",
@@ -5802,59 +5802,59 @@ export const toolContentMl: Record<string, ToolContent> = {
       "pdf archival",
       "long term preservation"
     ],
-    "description": "\n      <p>PDF to PDF/A converts your PDF documents to PDF/A format, the ISO standard for long-term document archiving. PDF/A ensures that documents will be viewable and reproducible for decades.</p>\n      <p>Choose from PDF/A-1b (basic conformance), PDF/A-2b (recommended, supports transparency), or PDF/A-3b (allows embedded files). The tool embeds fonts and flattens transparency as needed.</p>\n      <p>All conversion happens locally in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>PDF to PDF/A നിങ്ങളുടെ PDF രേഖകളെ ദീർഘകാല രേഖ ആർക്കൈവിംഗിനായുള്ള ISO മാനദണ്ഡമായ PDF/A ഫോർമാറ്റിലേക്ക് മാറ്റുന്നു. പതിറ്റാണ്ടുകളോളം രേഖകൾ കാണാനും പുനർനിർമ്മിക്കാനും കഴിയുമെന്ന് PDF/A ഉറപ്പാക്കുന്നു.</p><p>PDF/A-1b (അടിസ്ഥാന അനുരൂപത), PDF/A-2b (ശപാർശ ചെയ്യുന്നത്, സുതാര്യത പിന്തുണയ്ക്കുന്നു), അല്ലെങ്കിൽ PDF/A-3b (എംബഡ് ചെയ്ത ഫയലുകൾ അനുവദിക്കുന്നു) എന്നിവയിൽ നിന്ന് തിരഞ്ഞെടുക്കുക. ടൂൾ ഫോണ്ടുകൾ എംബഡ് ചെയ്യുകയും ആവശ്യാനുസരണം സുതാര്യത ഫ്ലാറ്റൻ ചെയ്യുകയും ചെയ്യുന്നു.</p><p>എല്ലാ മാറ്റങ്ങളും നിങ്ങളുടെ ബ്രൗസറിൽ പ്രാദേശികമായി നടക്കുന്നു, ഇത് നിങ്ങളുടെ രേഖകൾ സ്വകാര്യമായി തുടരുന്നുവെന്ന് ഉറപ്പാക്കുന്നു.</p>",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Upload the PDF you want to convert to PDF/A."
+        "description": "നിങ്ങൾക്ക് PDF/A ആക്കി മാറ്റേണ്ട PDF അപ്‌ലോഡ് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Select PDF/A Level",
-        "description": "Choose PDF/A-1b, PDF/A-2b, or PDF/A-3b conformance level."
+        "title": "PDF/A ലെവൽ തിരഞ്ഞെടുക്കുക",
+        "description": "PDF/A-1b, PDF/A-2b, അല്ലെങ്കിൽ PDF/A-3b അനുരൂപതാ ലെവൽ തിരഞ്ഞെടുക്കുക."
       },
       {
         "step": 3,
         "title": "മാറ്റുക, ഡൗൺലോഡ് ചെയ്യുക",
-        "description": "Convert to PDF/A and download the archival document."
+        "description": "PDF/A ആക്കി മാറ്റി ആർക്കൈവൽ രേഖ ഡൗൺലോഡ് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Legal Archives",
-        "description": "Convert legal documents to PDF/A for court-admissible long-term storage.",
+        "title": "നിയമപരമായ ആർക്കൈവുകൾ",
+        "description": "കോടതിയിൽ സമർപ്പിക്കാൻ അനുയോജ്യമായ ദീർഘകാല സംഭരണത്തിനായി നിയമപരമായ രേഖകൾ PDF/A-ലേക്ക് മാറ്റുക.",
         "icon": "scale"
       },
       {
-        "title": "Government Records",
-        "description": "Comply with government archival requirements using PDF/A.",
+        "title": "ഗവൺമെന്റ് റെക്കോർഡുകൾ",
+        "description": "PDF/A ഉപയോഗിച്ച് ഗവൺമെന്റ് ആർക്കൈവൽ മാനദണ്ഡങ്ങൾ പാലിക്കുക.",
         "icon": "building"
       },
       {
-        "title": "Business Archives",
-        "description": "Preserve important business documents for future accessibility.",
+        "title": "ബിസിനസ് ആർക്കൈവുകൾ",
+        "description": "ഭാവിയിലെ ആവശ്യങ്ങൾക്കായി പ്രധാനപ്പെട്ട ബിസിനസ്സ് രേഖകൾ ഭദ്രമായി സൂക്ഷിക്കുക.",
         "icon": "archive"
       }
     ],
     "faq": [
       {
-        "question": "Which PDF/A level should I use?",
-        "answer": "PDF/A-2b is recommended for most uses. Use 1b for maximum compatibility or 3b if you need embedded files."
+        "question": "ഞാൻ ഏത് PDF/A ലെവൽ ആണ് ഉപയോഗിക്കേണ്ടത്?",
+        "answer": "മിക്ക ആവശ്യങ്ങൾക്കും PDF/A-2b ആണ് ഉചിതം. പരമാവധി അനുയോജ്യതയ്ക്കായി 1b അല്ലെങ്കിൽ എംബഡ് ചെയ്ത ഫയലുകൾ ആവശ്യമുണ്ടെങ്കിൽ 3b ഉപയോഗിക്കുക."
       },
       {
-        "question": "What makes PDF/A different?",
-        "answer": "PDF/A embeds fonts, disables encryption, and ensures all elements are self-contained for future viewing."
+        "question": "PDF/A-യെ വ്യത്യസ്തമാക്കുന്നത് എന്താണ്?",
+        "answer": "PDF/A ഫോന്റുകൾ എംബഡ് ചെയ്യുകയും എൻക്രിപ്ഷൻ പ്രവർത്തനരഹിതമാക്കുകയും ഭാവിയിലെ ഉപയോഗത്തിനായി എല്ലാ ഘടകങ്ങളും സ്വയംപര്യാപ്തമാണെന്ന് ഉറപ്പാക്കുകയും ചെയ്യുന്നു."
       },
       {
-        "question": "Can I convert back from PDF/A?",
-        "answer": "PDF/A files are standard PDFs and can be opened normally. The archival features add restrictions, not limitations."
+        "question": "എനിക്ക് PDF/A-യിൽ നിന്ന് തിരികെ മാറ്റാൻ കഴിയുമോ?",
+        "answer": "PDF/A ഫയലുകൾ സാധാരണ PDF-കൾ ആണ്, അവ സാധാരണ രീതിയിൽ തുറക്കാൻ കഴിയും. ആർക്കൈവൽ ഫീച്ചറുകൾ നിയന്ത്രണങ്ങൾ കൂട്ടിച്ചേർക്കുകയാണ് ചെയ്യുന്നത്, പരിമിതികളല്ല."
       }
     ]
   },
   "font-to-outline": {
     "title": "Font to Outline",
-    "metaDescription": "Remove font dependencies from PDF documents by converting pages to high-quality images. Ensures compatibility across all systems.",
+    "metaDescription": "പേജുകളെ ഉയർന്ന ഗുണനിലവാരമുള്ള ചിത്രങ്ങളാക്കി മാറ്റി PDF രേഖകളിൽ നിന്നുള്ള ഫോണ്ട് ഡിപൻഡൻസികൾ നീക്കം ചെയ്യുക. ഇത് എല്ലാ സിസ്റ്റങ്ങളിലും അനുയോജ്യത ഉറപ്പാക്കുന്നു.",
     "keywords": [
       "font to outline",
       "outline fonts",
@@ -5863,71 +5863,71 @@ export const toolContentMl: Record<string, ToolContent> = {
       "flatten pdf fonts",
       "pdf font removal"
     ],
-    "description": "\n      <p>Font to Outline removes all font dependencies from your PDF by converting each page into high-quality rasterized content. This ensures your document looks exactly the same on any system, even if the original fonts are not installed.</p>\n      <p>The tool renders each page at your chosen DPI (150-600), removing embedded fonts while preserving the exact visual appearance. Optionally, you can add an invisible text layer to maintain searchability.</p>\n      <p>This is essential for print preparation, cross-platform compatibility, and avoiding font licensing issues when sharing documents. All processing happens locally in your browser.</p>\n    ",
+    "description": "\n      <p>ഓരോ പേജും ഉയർന്ന ഗുണനിലവാരമുള്ള റാസ്റ്ററൈസ്ഡ് ഉള്ളടക്കമാക്കി മാറ്റിക്കൊണ്ട് Font to Outline നിങ്ങളുടെ PDF-ൽ നിന്നുള്ള എല്ലാ ഫോണ്ട് ഡിപൻഡൻസികളും നീക്കം ചെയ്യുന്നു. അസൽ ഫോന്റുകൾ ഇൻസ്റ്റാൾ ചെയ്തിട്ടില്ലെങ്കിലും, ഏത് സിസ്റ്റത്തിലും നിങ്ങളുടെ ഡോക്യുമെന്റ് കൃത്യമായി ഒരുപോലെ കാണപ്പെടുന്നുവെന്ന് ഇത് ഉറപ്പാക്കുന്നു.</p>\n      <p>ഈ ടൂൾ നിങ്ങൾ തിരഞ്ഞെടുത്ത DPI-യിൽ (150-600) ഓരോ പേജും റെൻഡർ ചെയ്യുന്നു, കൃത്യമായ ദൃശ്യരൂപം നിലനിർത്തിക്കൊണ്ടുതന്നെ എംബഡ് ചെയ്ത ഫോന്റുകൾ നീക്കം ചെയ്യുന്നു. വേണമെങ്കിൽ, തിരച്ചിൽ സൗകര്യം നിലനിർത്താൻ നിങ്ങൾക്ക് ഒരു അദൃശ്യ ടെക്സ്റ്റ് ലെയർ ചേർക്കാം.</p>\n      <p>പ്രിന്റ് തയ്യാറാക്കൽ, ക്രോസ്-പ്ലാറ്റ്‌ഫോം അനുയോജ്യത, ഡോക്യുമെന്റുകൾ പങ്കിടുമ്പോൾ ഉണ്ടാകുന്ന ഫോണ്ട് ലൈസൻസിംഗ് പ്രശ്നങ്ങൾ ഒഴിവാക്കൽ എന്നിവയ്ക്ക് ഇത് അത്യന്താപേക്ഷിതമാണ്. എല്ലാ പ്രൊസസ്സിംഗും നിങ്ങളുടെ ബ്രൗസറിൽ പ്രാദേശികമായി നടക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Upload the PDF containing fonts you want to remove."
+        "description": "നിങ്ങൾ നീക്കംചെയ്യാൻ ആഗ്രഹിക്കുന്ന ഫോന്റുകൾ അടങ്ങിയ PDF അപ്‌ലോഡ് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Configure Quality",
-        "description": "Choose DPI (300 recommended for print, 150 for screen). Enable searchable text if needed."
+        "title": "ഗുണനിലവാരം ക്രമീകരിക്കുക",
+        "description": "DPI തിരഞ്ഞെടുക്കുക (പ്രിന്റിനായി 300, സ്‌ക്രീനിനായി 150 ശുപാർശ ചെയ്യുന്നു). ആവശ്യമാണെങ്കിൽ സെർച്ച് ചെയ്യാവുന്ന ടെക്സ്റ്റ് പ്രവർത്തനക്ഷമമാക്കുക."
       },
       {
         "step": 3,
         "title": "മാറ്റുക, ഡൗൺലോഡ് ചെയ്യുക",
-        "description": "Process the file and download the font-independent PDF."
+        "description": "ഫയൽ പ്രൊസസ്സ് ചെയ്ത് ഫോണ്ട് ഇല്ലാത്ത PDF ഡൗൺലോഡ് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
         "title": "പ്രിന്റ് തയ്യാറാക്കൽ",
-        "description": "Eliminate font issues at commercial printers by removing all font dependencies.",
+        "description": "എല്ലാ ഫോണ്ട് ഡിപൻഡൻസികളും നീക്കം ചെയ്തുകൊണ്ട് കൊമേഴ്‌സ്യൽ പ്രിന്ററുകളിലെ ഫോണ്ട് പ്രശ്നങ്ങൾ ഇല്ലാതാക്കുക.",
         "icon": "printer"
       },
       {
         "title": "ക്രോസ്-പ്ലാറ്റ്‌ഫോം ഷെയറിംഗ്",
-        "description": "Share documents that look identical on any device, regardless of installed fonts.",
+        "description": "ഇൻസ്റ്റാൾ ചെയ്ത ഫോന്റുകൾ ഏതുതന്നെയായാലും, ഏത് ഉപകരണത്തിലും ഒരുപോലെ കാണപ്പെടുന്ന ഡോക്യുമെന്റുകൾ പങ്കിടുക.",
         "icon": "share-2"
       },
       {
-        "title": "Font Licensing",
-        "description": "Remove embedded fonts to avoid licensing concerns when distributing documents.",
+        "title": "ഫോണ്ട് ലൈസൻസിംഗ്",
+        "description": "ഡോക്യുമെന്റുകൾ വിതരണം ചെയ്യുമ്പോൾ ലൈസൻസിംഗ് പ്രശ്നങ്ങൾ ഒഴിവാക്കാൻ എംബഡ് ചെയ്ത ഫോന്റുകൾ നീക്കം ചെയ്യുക.",
         "icon": "shield"
       }
     ],
     "faq": [
       {
-        "question": "How does this work?",
-        "answer": "The tool renders each page at high resolution (your chosen DPI) and recreates the PDF from these images, removing all font dependencies while preserving visual appearance."
+        "question": "ഇത് എങ്ങനെയാണ് പ്രവർത്തിക്കുന്നത്?",
+        "answer": "ഈ ടൂൾ ഓരോ പേജും ഉയർന്ന റെസല്യൂഷനിൽ (നിങ്ങൾ തിരഞ്ഞെടുത്ത DPI) റെൻഡർ ചെയ്യുകയും ഈ ഇമേജുകളിൽ നിന്ന് PDF വീണ്ടും സൃഷ്ടിക്കുകയും ചെയ്യുന്നു, ഇത് ദൃശ്യരൂപം നിലനിർത്തിക്കൊണ്ടുതന്നെ എല്ലാ ഫോണ്ട് ഡിപൻഡൻസികളും നീക്കം ചെയ്യുന്നു."
       },
       {
-        "question": "Can I still select text after conversion?",
-        "answer": "By default, no. Text becomes part of the image. However, you can enable \"Preserve searchable text\" to add an invisible text layer for search and copy functionality."
+        "question": "കൺവേർഷന് ശേഷവും എനിക്ക് ടെക്സ്റ്റ് സെലക്ട് ചെയ്യാൻ കഴിയുമോ?",
+        "answer": "സാധാരണയായി ഇല്ല. ടെക്സ്റ്റ് ചിത്രത്തിന്റെ ഭാഗമായി മാറുന്നു. എന്നിരുന്നാലും, തിരയാനും കോപ്പി ചെയ്യാനുമുള്ള സൗകര്യത്തിനായി അദൃശ്യമായ ഒരു ടെക്സ്റ്റ് ലെയർ ചേർക്കാൻ നിങ്ങൾക്ക് \"Preserve searchable text\" എനേബിൾ ചെയ്യാം."
       },
       {
-        "question": "What DPI should I use?",
-        "answer": "300 DPI is recommended for print-quality output. 150 DPI is sufficient for screen viewing and produces smaller files. 600 DPI is for highest quality but creates large files."
+        "question": "ഞാൻ ഏത് DPI ആണ് ഉപയോഗിക്കേണ്ടത്?",
+        "answer": "പ്രിന്റ് ക്വാളിറ്റി ലഭിക്കാൻ 300 DPI ആണ് ഉചിതം. സ്‌ക്രീനിൽ കാണുന്നതിന് 150 DPI മതിയാകും, അത് ചെറിയ ഫയൽ സൈസ് നൽകുന്നു. 600 DPI ഏറ്റവും ഉയർന്ന ക്വാളിറ്റിക്കുള്ളതാണ്, എന്നാൽ ഫയൽ സൈസ് കൂടുതലായിരിക്കും."
       },
       {
-        "question": "Will file size increase?",
-        "answer": "File size depends on DPI and content. 150 DPI usually produces smaller files, 300 DPI may increase size, 600 DPI significantly increases size. Compression is automatically applied."
+        "question": "ഫയൽ സൈസ് കൂടുമോ?",
+        "answer": "ഫയൽ സൈസ് DPI-യെയും ഉള്ളടക്കത്തെയും ആശ്രയിച്ചിരിക്കുന്നു. 150 DPI സാധാരണയായി ചെറിയ ഫയലുകൾ നിർമ്മിക്കുന്നു, 300 DPI സൈസ് കൂട്ടിയേക്കാം, 600 DPI സൈസ് കാര്യമായി കൂട്ടുന്നു. കംപ്രഷൻ സ്വയം പ്രയോഗിക്കപ്പെടും."
       },
       {
         "question": "ഇത് പൂർവ്വസ്ഥിതിയിലാക്കാൻ കഴിയുമോ?",
-        "answer": "No, font data is permanently removed. Keep a backup of the original if you need editable text with the original fonts."
+        "answer": "ഇല്ല, ഫോണ്ട് ഡാറ്റ സ്ഥിരമായി നീക്കം ചെയ്യപ്പെടും. ഒറിജിനൽ ഫോന്റുകൾ ഉപയോഗിച്ച് എഡിറ്റ് ചെയ്യാവുന്ന ടെക്സ്റ്റ് ആവശ്യമുണ്ടെങ്കിൽ ഒറിജിനൽ ഫയലിന്റെ ബാക്കപ്പ് സൂക്ഷിക്കുക."
       },
       {
-        "question": "What about vector graphics?",
-        "answer": "Vector graphics (shapes, lines) in the original PDF will be converted to raster along with text. The visual quality is preserved at your chosen DPI."
+        "question": "വെക്റ്റർ ഗ്രാഫിക്സിന്റെ കാര്യമോ?",
+        "answer": "ഒറിജിനൽ PDF-ലെ വെക്റ്റർ ഗ്രാഫിക്സുകൾ (രൂപങ്ങൾ, ലൈനുകൾ) ടെക്സ്റ്റിനൊപ്പം റാസ്റ്ററിലേക്ക് മാറ്റപ്പെടും. നിങ്ങൾ തിരഞ്ഞെടുത്ത DPI-യിൽ ദൃശ്യ ഗുണനിലവാരം നിലനിർത്തും."
       }
     ]
   },
   "extract-tables": {
-    "title": "Extract Tables from PDF",
-    "metaDescription": "Detect and extract tables from PDF documents. Export to JSON, Markdown, or CSV formats.",
+    "title": "PDF-ൽ നിന്ന് ടേബിളുകൾ എക്സ്ട്രാക്റ്റ് ചെയ്യുക",
+    "metaDescription": "PDF രേഖകളിൽ നിന്ന് ടേബിളുകൾ കണ്ടെത്തി എക്സ്ട്രാക്റ്റ് ചെയ്യുക. JSON, Markdown, അല്ലെങ്കിൽ CSV ഫോർമാറ്റുകളിലേക്ക് എക്സ്പോർട്ട് ചെയ്യുക.",
     "keywords": [
       "extract tables",
       "pdf table extraction",
@@ -5935,59 +5935,59 @@ export const toolContentMl: Record<string, ToolContent> = {
       "pdf to excel",
       "table detection"
     ],
-    "description": "\n      <p>Extract Tables from PDF detects tabular data within your PDF documents and exports it in structured formats. Choose JSON for data integration, Markdown for documentation, or CSV for spreadsheets.</p>\n      <p>The tool uses intelligent detection algorithms to identify table structures even in complex documents. Specify page ranges and adjust detection parameters for optimal results.</p>\n      <p>All processing happens locally in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>Extract Tables from PDF നിങ്ങളുടെ PDF ഡോക്യുമെന്റുകൾക്കുള്ളിലെ ടാബുലാർ ഡാറ്റ കണ്ടെത്തുകയും അത് ഘടനാപരമായ ഫോർമാറ്റുകളിൽ എക്സ്പോർട്ട് ചെയ്യുകയും ചെയ്യുന്നു. ഡാറ്റാ ഇന്റഗ്രേഷനായി JSON, ഡോക്യുമെന്റേഷനായി Markdown, അല്ലെങ്കിൽ സ്‌പ്രെഡ്‌ഷീറ്റുകൾക്കായി CSV എന്നിവ തിരഞ്ഞെടുക്കുക.</p>\n      <p>സങ്കീർണ്ണമായ ഡോക്യുമെന്റുകളിൽ പോലും ടേബിൾ ഘടനകൾ തിരിച്ചറിയാൻ ഈ ടൂൾ ഇന്റലിജന്റ് ഡിറ്റക്ഷൻ ആൽഗരിതങ്ങൾ ഉപയോഗിക്കുന്നു. മികച്ച ഫലങ്ങൾക്കായി പേജ് റേഞ്ചുകൾ നൽകുകയും ഡിറ്റക്ഷൻ പാരാമീറ്ററുകൾ ക്രമീകരിക്കുകയും ചെയ്യുക.</p>\n      <p>എല്ലാ പ്രൊസസ്സിംഗും നിങ്ങളുടെ ബ്രൗസറിൽ പ്രാദേശികമായി നടക്കുന്നു, ഇത് നിങ്ങളുടെ ഡോക്യുമെന്റുകൾ സ്വകാര്യമായി തുടരുന്നുവെന്ന് ഉറപ്പാക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Upload the PDF containing tables you want to extract."
+        "description": "നിങ്ങൾ എക്സ്ട്രാക്റ്റ് ചെയ്യാൻ ആഗ്രഹിക്കുന്ന ടേബിളുകൾ അടങ്ങിയ PDF അപ്‌ലോഡ് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Configure Detection",
-        "description": "Set page range and minimum column/row thresholds."
+        "title": "ഡിറ്റക്ഷൻ ക്രമീകരിക്കുക",
+        "description": "പേജ് റേഞ്ചും കുറഞ്ഞ കോളം/റോ പരിധികളും ക്രമീകരിക്കുക."
       },
       {
         "step": 3,
-        "title": "Export and Download",
-        "description": "Choose output format (JSON/Markdown/CSV) and download."
+        "title": "എക്സ്പോർട്ട് ചെയ്ത് ഡൗൺലോഡ് ചെയ്യുക",
+        "description": "ഔട്ട്പുട്ട് ഫോർമാറ്റ് (JSON/Markdown/CSV) തിരഞ്ഞെടുത്ത് ഡൗൺലോഡ് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Data Analysis",
-        "description": "Extract table data for analysis in spreadsheets or databases.",
+        "title": "ഡാറ്റാ വിശകലനം",
+        "description": "സ്പ്രെഡ്ഷീറ്റുകളിലോ ഡാറ്റാബേസുകളിലോ വിശകലനം ചെയ്യുന്നതിനായി ടേബിൾ ഡാറ്റ എക്സ്ട്രാക്റ്റ് ചെയ്യുക.",
         "icon": "bar-chart"
       },
       {
-        "title": "Report Processing",
-        "description": "Pull tables from PDF reports for further processing.",
+        "title": "റിപ്പോർട്ട് പ്രൊസസ്സിംഗ്",
+        "description": "തുടർ പ്രൊസസ്സിംഗിനായി PDF റിപ്പോർട്ടുകളിൽ നിന്ന് ടേബിളുകൾ എടുക്കുക.",
         "icon": "file-text"
       },
       {
-        "title": "Documentation",
-        "description": "Convert PDF tables to Markdown for technical documentation.",
+        "title": "ഡോക്യുമെന്റേഷൻ",
+        "description": "സാങ്കേതിക ഡോക്യുമെന്റേഷനായി PDF ടേബിളുകൾ Markdown-ലേക്ക് മാറ്റുക.",
         "icon": "book"
       }
     ],
     "faq": [
       {
-        "question": "Can it detect complex tables?",
-        "answer": "The tool works best with simple grid tables. Complex merged cells may require manual adjustment."
+        "question": "ഇതിന് സങ്കീർണ്ണമായ ടേബിളുകൾ കണ്ടെത്താൻ കഴിയുമോ?",
+        "answer": "ലളിതമായ ഗ്രിഡ് ടേബിളുകളിലാണ് ഈ ടൂൾ ഏറ്റവും നന്നായി പ്രവർത്തിക്കുന്നത്. സങ്കീർണ്ണമായ മേർജ് ചെയ്ത സെല്ലുകൾക്ക് മാനുവൽ ക്രമീകരണം ആവശ്യമായി വന്നേക്കാം."
       },
       {
-        "question": "What if no tables are found?",
-        "answer": "Try adjusting the minimum columns/rows threshold or check if the PDF contains actual table structures."
+        "question": "ടേബിളുകളൊന്നും കണ്ടെത്തിയില്ലെങ്കിൽ എന്ത് ചെയ്യും?",
+        "answer": "മിനിമം കോളം/റോ പരിധികൾ ക്രമീകരിച്ചു നോക്കുക അല്ലെങ്കിൽ PDF-ൽ യഥാർത്ഥ ടേബിൾ ഘടനകൾ അടങ്ങിയിട്ടുണ്ടോ എന്ന് പരിശോധിക്കുക."
       },
       {
-        "question": "Can I extract from specific pages?",
-        "answer": "Yes, specify a page range to limit extraction to certain pages."
+        "question": "എനിക്ക് പ്രത്യേക പേജുകളിൽ നിന്ന് എക്സ്ട്രാക്റ്റ് ചെയ്യാൻ കഴിയുമോ?",
+        "answer": "അതെ, ചില പേജുകളിലേക്ക് എക്സ്ട്രാക്ഷൻ പരിമിതപ്പെടുത്തുന്നതിന് ഒരു പേജ് റേഞ്ച് വ്യക്തമാക്കുക."
       }
     ]
   },
   "ocg-manager": {
-    "title": "PDF Layer Manager (OCG)",
-    "metaDescription": "Manage PDF layers (Optional Content Groups). View, toggle, add, delete, and rename layers in your PDF documents.",
+    "title": "PDF ലെയർ മാനേജർ (OCG)",
+    "metaDescription": "PDF ലെയറുകൾ (Optional Content Groups) കൈകാര്യം ചെയ്യുക. നിങ്ങളുടെ PDF ഡോക്യുമെന്റുകളിലെ ലെയറുകൾ കാണുക, ടോഗിൾ ചെയ്യുക, ചേർക്കുക, ഇല്ലാതാക്കുക, പേരുമാറ്റുക.",
     "keywords": [
       "pdf layers",
       "ocg manager",
@@ -5995,64 +5995,64 @@ export const toolContentMl: Record<string, ToolContent> = {
       "pdf layer visibility",
       "manage pdf layers"
     ],
-    "description": "\n      <p>PDF Layer Manager allows you to view and manage Optional Content Groups (OCG) in your PDF documents. OCG layers are used in technical drawings, maps, and complex documents to organize content into toggleable layers.</p>\n      <p>View all layers in your PDF, toggle their visibility, add new layers, delete unwanted ones, or rename existing layers. This tool is essential for working with layered PDFs like architectural plans, CAD exports, and print-ready documents.</p>\n      <p>All processing happens locally in your browser, ensuring your documents remain private and secure.</p>\n    ",
+    "description": "\n      <p>നിങ്ങളുടെ PDF ഡോക്യുമെന്റുകളിലെ Optional Content Groups (OCG) കാണാനും കൈകാര്യം ചെയ്യാനും PDF ലെയർ മാനേജർ നിങ്ങളെ അനുവദിക്കുന്നു. ഉള്ളടക്കത്തെ ടോഗിൾ ചെയ്യാവുന്ന ലെയറുകളാക്കി ക്രമീകരിക്കുന്നതിന് സാങ്കേതിക ഡ്രോയിംഗുകളിലും മാപ്പുകളിലും സങ്കീർണ്ണമായ ഡോക്യുമെന്റുകളിലും OCG ലെയറുകൾ ഉപയോഗിക്കുന്നു.</p>\n      <p>നിങ്ങളുടെ PDF-ലെ എല്ലാ ലെയറുകളും കാണുക, അവയുടെ വിസിബിലിറ്റി ടോഗിൾ ചെയ്യുക, പുതിയ ലെയറുകൾ ചേർക്കുക, വേണ്ടാത്തവ ഇല്ലാതാക്കുക, അല്ലെങ്കിൽ നിലവിലുള്ള ലെയറുകളുടെ പേരുമാറ്റുക. ആർക്കിടെക്ചറൽ പ്ലാനുകൾ, CAD എക്‌സ്‌പോർട്ടുകൾ, പ്രിന്റ് റെഡി ഡോക്യുമെന്റുകൾ എന്നിവ പോലുള്ള ലെയറുകളുള്ള PDF-കളിൽ പ്രവർത്തിക്കാൻ ഈ ടൂൾ അത്യാവശ്യമാണ്.</p>\n      <p>എല്ലാ പ്രോസസ്സിംഗും നിങ്ങളുടെ ബ്രൗസറിൽ പ്രാദേശികമായി നടക്കുന്നു, ഇത് നിങ്ങളുടെ ഡോക്യുമെന്റുകൾ സ്വകാര്യവും സുരക്ഷിതവുമായി തുടരുന്നുവെന്ന് ഉറപ്പാക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Upload a PDF file that contains layers (OCG) or one you want to add layers to."
+        "description": "ലെയറുകൾ (OCG) അടങ്ങിയിരിക്കുന്ന അല്ലെങ്കിൽ ലെയറുകൾ ചേർക്കാൻ ആഗ്രഹിക്കുന്ന ഒരു PDF ഫയൽ അപ്‌ലോഡ് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "View Layers",
-        "description": "The tool automatically lists all layers found in the document with their visibility status."
+        "title": "ലെയറുകൾ കാണുക",
+        "description": "ഡോക്യുമെന്റിൽ കണ്ടെത്തിയ എല്ലാ ലെയറുകളും അവയുടെ വിസിബിലിറ്റി സ്റ്റാറ്റസിനൊപ്പം ടൂൾ സ്വയമേവ ലിസ്റ്റ് ചെയ്യുന്നു."
       },
       {
         "step": 3,
-        "title": "Manage Layers",
-        "description": "Toggle layer visibility, rename layers, add new ones, or delete unwanted layers."
+        "title": "ലെയറുകൾ കൈകാര്യം ചെയ്യുക",
+        "description": "ലെയർ വിസിബിലിറ്റി ടോഗിൾ ചെയ്യുക, ലെയറുകളുടെ പേരുമാറ്റുക, പുതിയവ ചേർക്കുക, അല്ലെങ്കിൽ വേണ്ടാത്ത ലെയറുകൾ ഇല്ലാതാക്കുക."
       },
       {
         "step": 4,
         "title": "സേവ് ചെയ്ത് ഡൗൺലോഡ് ചെയ്യുക",
-        "description": "Download your modified PDF with the layer changes applied."
+        "description": "ലെയർ മാറ്റങ്ങൾ വരുത്തിയ നിങ്ങളുടെ മാറ്റിഅമർത്തിയ PDF ഡൗൺലോഡ് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
         "title": "ടെക്നിക്കൽ ഡ്രോയിംഗുകൾ",
-        "description": "Manage layers in CAD exports to show/hide dimensions, annotations, or different views.",
+        "description": "ഡൈമൻഷനുകൾ, അനൊട്ടേഷനുകൾ അല്ലെങ്കിൽ വ്യത്യസ്ത കാഴ്ചകൾ കാണിക്കുന്നതിനോ/മറയ്ക്കുന്നതിനോ CAD എക്സ്പോർട്ടുകളിലെ ലെയറുകൾ കൈകാര്യം ചെയ്യുക.",
         "icon": "ruler"
       },
       {
-        "title": "Map Editing",
-        "description": "Toggle different map layers like topography, roads, and labels for custom map prints.",
+        "title": "മാപ്പ് എഡിറ്റിംഗ്",
+        "description": "കസ്റ്റം മാപ്പ് പ്രിന്റുകൾക്കായി ടോപ്പോഗ്രാഫി, റോഡുകൾ, ലേബലുകൾ എന്നിവ പോലുള്ള വ്യത്യസ്ത മാപ്പ് ലെയറുകൾ ടോഗിൾ ചെയ്യുക.",
         "icon": "map"
       },
       {
         "title": "പ്രിന്റ് തയ്യാറാക്കൽ",
-        "description": "Prepare layered PDFs for printing by toggling appropriate layers for different versions.",
+        "description": "വ്യത്യസ്ത പതിപ്പുകൾക്കായി അനുയോജ്യമായ ലെയറുകൾ ടോഗിൾ ചെയ്തുകൊണ്ട് പ്രിന്റ് ചെയ്യുന്നതിനായി ലെയറുകളുള്ള PDF-കൾ തയ്യാറാക്കുക.",
         "icon": "printer"
       }
     ],
     "faq": [
       {
-        "question": "What are PDF layers (OCG)?",
-        "answer": "Optional Content Groups (OCG) are layers in a PDF that can be shown or hidden. They are commonly used in CAD drawings, maps, and complex documents."
+        "question": "എന്താണ് PDF ലെയറുകൾ (OCG)?",
+        "answer": "PDF-ൽ കാണിക്കാനോ മറയ്ക്കാനോ കഴിയുന്ന ലെയറുകളാണ് Optional Content Groups (OCG). ഇവ സാധാരണയായി CAD ഡ്രോയിംഗുകൾ, മാപ്പുകൾ, സങ്കീർണ്ണമായ ഡോക്യുമെന്റുകൾ എന്നിവയിൽ ഉപയോഗിക്കുന്നു."
       },
       {
-        "question": "Why does my PDF show no layers?",
-        "answer": "Not all PDFs contain layers. Layers are typically added during PDF creation from design software or CAD applications."
+        "question": "എന്റെ PDF-ൽ ലെയറുകളൊന്നും കാണിക്കാത്തത് എന്തുകൊണ്ട്?",
+        "answer": "എല്ലാ PDF-കളിലും ലെയറുകൾ അടങ്ങിയിട്ടില്ല. ഡിസൈൻ സോഫ്റ്റ്‌വെയറുകളിൽ നിന്നോ CAD ആപ്ലിക്കേഷനുകളിൽ നിന്നോ PDF നിർമ്മിക്കുമ്പോഴാണ് ലെയറുകൾ സാധാരണയായി ചേർക്കുന്നത്."
       },
       {
-        "question": "Will layer changes affect the original content?",
-        "answer": "Layer visibility changes only affect what is displayed or printed. The actual content remains in the document."
+        "question": "ലെയർ മാറ്റങ്ങൾ യഥാർത്ഥ ഉള്ളടക്കത്തെ ബാധിക്കുമോ?",
+        "answer": "ലെയർ വിസിബിലിറ്റിയിലെ മാറ്റങ്ങൾ പ്രദർശിപ്പിക്കുന്നതിനെയോ പ്രിന്റ് ചെയ്യുന്നതിനെയോ മാത്രമേ ബാധിക്കൂ. യഥാർത്ഥ ഉള്ളടക്കം ഡോക്യുമെന്റിൽ തന്നെ ഉണ്ടാകും."
       }
     ]
   },
   "pdf-reader": {
-    "title": "PDF Reader",
-    "metaDescription": "Free online PDF reader. View, navigate, zoom, rotate, and print PDF documents directly in your browser.",
+    "title": "PDF റീഡർ",
+    "metaDescription": "സൗജന്യ ഓൺലൈൻ PDF റീഡർ. നിങ്ങളുടെ ബ്രൗസറിൽ നേരിട്ട് PDF ഡോക്യുമെന്റുകൾ കാണുക, നാവിഗേറ്റ് ചെയ്യുക, സൂം ചെയ്യുക, റൊട്ടേറ്റ് ചെയ്യുക, പ്രിന്റ് ചെയ്യുക.",
     "keywords": [
       "pdf reader",
       "pdf viewer",
@@ -6060,64 +6060,64 @@ export const toolContentMl: Record<string, ToolContent> = {
       "read pdf",
       "pdf browser viewer"
     ],
-    "description": "\n      <p>PDF Reader is a full-featured PDF viewer that lets you read and navigate PDF documents directly in your browser. No software installation required - just upload your PDF and start reading.</p>\n      <p>Navigate between pages, zoom in and out, rotate the view, and use fullscreen mode for distraction-free reading. You can also print documents or download them for offline access.</p>\n      <p>All viewing happens locally in your browser. Your documents are never uploaded to any server, ensuring complete privacy.</p>\n    ",
+    "description": "\n      <p>നിങ്ങളുടെ ബ്രൗസറിൽ നേരിട്ട് PDF ഡോക്യുമെന്റുകൾ വായിക്കാനും നാവിഗേറ്റ് ചെയ്യാനും അനുവദിക്കുന്ന പൂർണ്ണ ഫീച്ചറുകളുള്ള ഒരു PDF വ്യൂവറാണ് PDF റീഡർ. സോഫ്റ്റ്‌വെയർ ഇൻസ്റ്റാലേഷൻ ആവശ്യമില്ല - നിങ്ങളുടെ PDF അപ്‌ലോഡ് ചെയ്‌ത് വായന ആരംഭിക്കുക.</p>\n      <p>പേജുകൾക്കിടയിൽ നാവിഗേറ്റ് ചെയ്യുക, സൂം ഇൻ ചെയ്യുക, സൂം ഔട്ട് ചെയ്യുക, കാഴ്ച റൊട്ടേറ്റ് ചെയ്യുക, തടസ്സമില്ലാത്ത വായനയ്ക്കായി ഫുൾസ്ക്രീൻ മോഡ് ഉപയോഗിക്കുക. നിങ്ങൾക്ക് ഡോക്യുമെന്റുകൾ പ്രിന്റ് ചെയ്യാനോ ഓഫ്‌ലൈൻ ആക്‌സസിനായി ഡൗൺലോഡ് ചെയ്യാനോ കഴിയും.</p>\n      <p>എല്ലാ കാഴ്‌ചയും നിങ്ങളുടെ ബ്രൗസറിൽ പ്രാദേശികമായി നടക്കുന്നു. നിങ്ങളുടെ ഡോക്യുമെന്റുകൾ ഒരു സെർവറിലേക്കും അപ്‌ലോഡ് ചെയ്യുന്നില്ല, ഇത് പൂർണ്ണ സ്വകാര്യത ഉറപ്പാക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Open Your PDF",
-        "description": "Click to upload or drag and drop a PDF file to open it in the reader."
+        "title": "നിങ്ങളുടെ PDF തുറക്കുക",
+        "description": "റീഡറിൽ തുറക്കുന്നതിനായി ഒരു PDF ഫയൽ അപ്‌ലോഡ് ചെയ്യാൻ ക്ലിക്ക് ചെയ്യുക അല്ലെങ്കിൽ ഡ്രാഗ് ചെയ്ത് ഡ്രോപ്പ് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Navigate Pages",
-        "description": "Use the page controls to go to the previous or next page, or jump to a specific page number."
+        "title": "പേജുകൾ നാവിഗേറ്റ് ചെയ്യുക",
+        "description": "മുമ്പത്തെ അല്ലെങ്കിൽ അടുത്ത പേജിലേക്ക് പോകാൻ, അല്ലെങ്കിൽ ഒരു নির্দিষ্ট പേജ് നമ്പറിലേക്ക് പോകാൻ പേജ് കൺട്രോളുകൾ ഉപയോഗിക്കുക."
       },
       {
         "step": 3,
-        "title": "Adjust View",
-        "description": "Zoom in or out, rotate the view, or enter fullscreen mode for comfortable reading."
+        "title": "കാഴ്ച ക്രമീകരിക്കുക",
+        "description": "സുഖകരമായ വായനയ്ക്കായി സൂം ഇൻ അല്ലെങ്കിൽ ഔട്ട് ചെയ്യുക, കാഴ്ച റൊട്ടേറ്റ് ചെയ്യുക, അല്ലെങ്കിൽ ഫുൾസ്ക്രീൻ മോഡിലേക്ക് പ്രവേശിക്കുക."
       },
       {
         "step": 4,
-        "title": "Print or Download",
-        "description": "Print the document or download it for offline access when needed."
+        "title": "പ്രിന്റ് ചെയ്യുക അല്ലെങ്കിൽ ഡൗൺലോഡ് ചെയ്യുക",
+        "description": "ആവശ്യമുള്ളപ്പോൾ ഓഫ്‌ലൈൻ ആക്‌സസിനായി ഡോക്യുമെന്റ് പ്രിന്റ് ചെയ്യുക അല്ലെങ്കിൽ ഡൗൺലോഡ് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
         "title": "ഡോക്യുമെന്റ് റിവ്യൂ",
-        "description": "Quickly review PDF documents without installing any software.",
+        "description": "യാതൊരു സോഫ്റ്റ്‌വെയറും ഇൻസ്റ്റാൾ ചെയ്യാതെ തന്നെ PDF ഡോക്യുമെന്റുകൾ വേഗത്തിൽ റിവ്യൂ ചെയ്യുക.",
         "icon": "book-open"
       },
       {
-        "title": "Mobile Reading",
-        "description": "Read PDF documents on any device with a web browser.",
+        "title": "മൊബൈൽ വായന",
+        "description": "വെബ് ബ്രൗസറുള്ള ഏത് ഉപകരണത്തിലും PDF ഡോക്യുമെന്റുകൾ വായിക്കുക.",
         "icon": "smartphone"
       },
       {
-        "title": "Quick Preview",
-        "description": "Preview PDFs before deciding to download or print them.",
+        "title": "ക്വിക്ക് പ്രിവ്യൂ",
+        "description": "ഡൗൺലോഡ് ചെയ്യാനോ പ്രിന്റ് ചെയ്യാനോ തീരുമാനിക്കുന്നതിന് മുമ്പ് PDF-കൾ പ്രിവ്യൂ ചെയ്യുക.",
         "icon": "eye"
       }
     ],
     "faq": [
       {
-        "question": "Is my document secure?",
-        "answer": "Yes, your document is processed entirely in your browser and is never uploaded to any server."
+        "question": "എന്റെ ഡോക്യുമെന്റ് സുരക്ഷിതമാണോ?",
+        "answer": "അതെ, നിങ്ങളുടെ ഡോക്യുമെന്റ് പൂർണ്ണമായും നിങ്ങളുടെ ബ്രൗസറിലാണ് പ്രോസസ്സ് ചെയ്യുന്നത്, അത് ഒരിക്കലും ഒരു സെർവറിലേക്കും അപ്‌ലോഡ് ചെയ്യില്ല."
       },
       {
-        "question": "Can I annotate or edit the PDF?",
-        "answer": "This tool is for viewing only. Use our Sign PDF or Annotate PDF tools for editing."
+        "question": "എനിക്ക് PDF ആനൊട്ടേറ്റ് ചെയ്യാനോ എഡിറ്റ് ചെയ്യാനോ കഴിയുമോ?",
+        "answer": "ഈ ടൂൾ കാണുന്നതിന് മാത്രമുള്ളതാണ്. എഡിറ്റുചെയ്യുന്നതിന് ഞങ്ങളുടെ Sign PDF അല്ലെങ്കിൽ Annotate PDF ടൂളുകൾ ഉപയോഗിക്കുക."
       },
       {
-        "question": "Does it work on mobile devices?",
-        "answer": "Yes, the PDF Reader works on all devices with a modern web browser."
+        "question": "ഇത് മൊബൈൽ ഉപകരണങ്ങളിൽ പ്രവർത്തിക്കുമോ?",
+        "answer": "അതെ, ആധുനിക വെബ് ബ്രൗസറുള്ള എല്ലാ ഉപകരണങ്ങളിലും PDF റീഡർ പ്രവർത്തിക്കുന്നു."
       }
     ]
   },
   "digital-sign-pdf": {
-    "title": "Digital Signature",
-    "metaDescription": "Add X.509 digital signatures to PDF documents. Sign PDFs with PFX, P12, or PEM certificates for legal validity.",
+    "title": "ഡിജിറ്റൽ സിഗ്നേച്ചർ",
+    "metaDescription": "PDF ഡോക്യുമെന്റുകളിലേക്ക് X.509 ഡിജിറ്റൽ സിഗ്നേച്ചറുകൾ ചേർക്കുക. നിയമസാധുതയ്ക്കായി PFX, P12, അല്ലെങ്കിൽ PEM സർട്ടിഫിക്കറ്റുകൾ ഉപയോഗിച്ച് PDF-കൾ ഒപ്പിടുക.",
     "keywords": [
       "digital signature pdf",
       "x509 certificate",
@@ -6126,128 +6126,128 @@ export const toolContentMl: Record<string, ToolContent> = {
       "pem sign pdf",
       "legally sign pdf"
     ],
-    "description": "\n      <p>Digital Signature allows you to add cryptographic X.509 digital signatures to PDF documents. Unlike simple drawn signatures, digital signatures provide legal validity and document integrity verification.</p>\n      <p>Upload your certificate file (PFX, P12, or PEM format), enter the password, and sign your PDF. You can add visible signatures with custom text, images, and positioning, or invisible signatures for document integrity only.</p>\n      <p>All signing happens locally in your browser. Your certificate and documents are never uploaded to any server.</p>\n    ",
+    "description": "\n      <p>PDF ഡോക്യുമെന്റുകളിലേക്ക് ക്രിപ്റ്റോഗ്രാഫിക് X.509 ഡിജിറ്റൽ സിഗ്നേച്ചറുകൾ ചേർക്കാൻ ഡിജിറ്റൽ സിഗ്നേച്ചർ നിങ്ങളെ അനുവദിക്കുന്നു. ലളിതമായ വരച്ച ഒപ്പുകളിൽ നിന്ന് വ്യത്യസ്തമായി, ഡിജിറ്റൽ സിഗ്നേച്ചറുകൾ നിയമസാധുതയും ഡോക്യുമെന്റ് ഇന്റഗ്രിറ്റി വെരിഫിക്കേഷനും നൽകുന്നു.</p>\n      <p>നിങ്ങളുടെ സർട്ടിഫിക്കറ്റ് ഫയൽ (PFX, P12, അല്ലെങ്കിൽ PEM ഫോർമാറ്റ്) അപ്‌ലോഡ് ചെയ്യുക, പാസ്‌വേഡ് നൽകുക, നിങ്ങളുടെ PDF ഒപ്പിടുക. കസ്റ്റം ടെക്‌സ്‌റ്റ്, ഇമേജുകൾ, പൊസിഷനിംഗ് എന്നിവയുള്ള വിസിബിൾ സിഗ്നേച്ചറുകളോ ഡോക്യുമെന്റ് ഇന്റഗ്രിറ്റിക്കായി മാത്രം ഇൻവിസിബിൾ സിഗ്നേച്ചറുകളോ നിങ്ങൾക്ക് ചേർക്കാം.</p>\n      <p>എല്ലാ സൈനിംഗും നിങ്ങളുടെ ബ്രൗസറിൽ പ്രാദേശികമായി നടക്കുന്നു. നിങ്ങളുടെ സർട്ടിഫിക്കറ്റും ഡോക്യുമെന്റുകളും ഒരു സെർവറിലേക്കും അപ്‌ലോഡ് ചെയ്യുന്നില്ല.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Upload the PDF document you want to digitally sign."
+        "description": "നിങ്ങൾക്ക് ഡിജിറ്റലായി ഒപ്പിടേണ്ട PDF ഡോക്യുമെന്റ് അപ്‌ലോഡ് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Load Certificate",
-        "description": "Upload your X.509 certificate file (.pfx, .p12, or .pem) and enter the password."
+        "title": "സർട്ടിഫിക്കറ്റ് ലോഡ് ചെയ്യുക",
+        "description": "നിങ്ങളുടെ X.509 സർട്ടിഫിക്കറ്റ് ഫയൽ (.pfx, .p12, അല്ലെങ്കിൽ .pem) അപ്‌ലോഡ് ചെയ്‌ത് പാസ്‌വേഡ് നൽകുക."
       },
       {
         "step": 3,
-        "title": "Configure Signature",
-        "description": "Optionally add reason, location, and visible signature with custom text or image."
+        "title": "സിഗ്നേച്ചർ കോൺഫിഗർ ചെയ്യുക",
+        "description": "ആവശ്യമെങ്കിൽ കാരണം, ലൊക്കേഷൻ, കസ്റ്റം ടെക്‌സ്‌റ്റോ ചിത്രമോ ഉള്ള വിസിബിൾ സിഗ്നേച്ചർ എന്നിവ ചേർക്കുക."
       },
       {
         "step": 4,
-        "title": "Sign and Download",
-        "description": "Click Sign PDF to apply the digital signature and download the signed document."
+        "title": "ഒപ്പിട്ട് ഡൗൺലോഡ് ചെയ്യുക",
+        "description": "ഡിജിറ്റൽ സിഗ്നേച്ചർ ചേർക്കുന്നതിനും ഒപ്പിട്ട ഡോക്യുമെന്റ് ഡൗൺലോഡ് ചെയ്യുന്നതിനുമായി Sign PDF എന്നതിൽ ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
         "title": "നിയമപരമായ ഡോക്യുമെന്റുകൾ",
-        "description": "Sign contracts, agreements, and legal documents with legally binding digital signatures.",
+        "description": "നിയമപരമായി സാധുതയുള്ള ഡിജിറ്റൽ സിഗ്നേച്ചറുകൾ ഉപയോഗിച്ച് കരാറുകൾ, അഗ്രിമെന്റുകൾ, നിയമപരമായ രേഖകൾ എന്നിവ ഒപ്പിടുക.",
         "icon": "scale"
       },
       {
-        "title": "Business Approvals",
-        "description": "Digitally sign invoices, purchase orders, and approval documents for audit trails.",
+        "title": "ബിസിനസ്സ് അംഗീകാരങ്ങൾ",
+        "description": "ഓഡിറ്റ് ട്രയലുകൾക്കായി ഇൻവോയ്സുകൾ, പർച്ചേസ് ഓർഡറുകൾ, അംഗീകാര രേഖകൾ എന്നിവ ഡിജിറ്റലായി ഒപ്പിടുക.",
         "icon": "briefcase"
       },
       {
-        "title": "Document Integrity",
-        "description": "Ensure documents have not been tampered with after signing.",
+        "title": "ഡോക്യുമെന്റ് അഖണ്ഡത",
+        "description": "ഒപ്പിട്ടതിനുശേഷം ഡോക്യുമെന്റുകളിൽ മാറ്റങ്ങളൊന്നും വരുത്തിയിട്ടില്ലെന്ന് ഉറപ്പാക്കുക.",
         "icon": "shield-check"
       }
     ],
     "faq": [
       {
-        "question": "What certificate formats are supported?",
-        "answer": "PFX (.pfx), PKCS#12 (.p12), and PEM (.pem) certificate formats are supported."
+        "question": "ഏതൊക്കെ സർട്ടിഫിക്കറ്റ് ഫോർമാറ്റുകളാണ് പിന്തുണയ്ക്കുന്നത്?",
+        "answer": "PFX (.pfx), PKCS#12 (.p12), PEM (.pem) എന്നീ സർട്ടിഫിക്കറ്റ് ഫോർമാറ്റുകൾ പിന്തുണയ്ക്കുന്നുണ്ട്."
       },
       {
-        "question": "Is the signature legally valid?",
-        "answer": "Yes, X.509 digital signatures are legally recognized in most jurisdictions when using a valid certificate."
+        "question": "ഈ ഒപ്പിന് നിയമപരമായ സാധുതയുണ്ടോ?",
+        "answer": "അതെ, ഒരു സാധുവായ സർട്ടിഫിക്കറ്റ് ഉപയോഗിക്കുമ്പോൾ X.509 ഡിജിറ്റൽ സിഗ്നേച്ചറുകൾക്ക് ഭൂരിഭാഗം അധികാരപരിധികളിലും നിയമപരമായ അംഗീകാരമുണ്ട്."
       },
       {
-        "question": "Can I add a visible signature?",
-        "answer": "Yes, you can add a visible signature with custom text, image, position, and styling."
+        "question": "എനിക്ക് ദൃശ്യമാകുന്ന ഒരു ഒപ്പ് ചേർക്കാൻ കഴിയുമോ?",
+        "answer": "അതെ, നിങ്ങൾക്ക് കസ്റ്റം ടെക്സ്റ്റ്, ഇമേജ്, പൊസിഷൻ, സ്റ്റൈലിംഗ് എന്നിവയോടുകൂടി ദൃശ്യമാകുന്ന ഒരു ഒപ്പ് ചേർക്കാൻ കഴിയും."
       }
     ]
   },
   "validate-signature": {
-    "title": "Validate Signature",
-    "metaDescription": "Verify digital signatures in PDF documents. Check certificate validity, signer information, and document integrity.",
+    "title": "ഒപ്പ് പരിശോധിക്കുക",
+    "metaDescription": "PDF ഡോക്യുമെന്റുകളിലെ ഡിജിറ്റൽ സിഗ്നേച്ചറുകൾ പരിശോധിക്കുക. സർട്ടിഫിക്കറ്റിന്റെ സാധുത, ഒപ്പിട്ടയാളുടെ വിവരങ്ങൾ, ഡോക്യുമെന്റിന്റെ അഖണ്ഡത എന്നിവ പരിശോധിക്കുക.",
     "keywords": [
       "validate pdf signature",
       "verify digital signature",
       "check pdf certificate",
       "signature verification"
     ],
-    "description": "\n      <p>Validate Signature allows you to verify digital signatures in PDF documents. Check if signatures are valid, view certificate information, and confirm document integrity.</p>\n      <p>Upload a signed PDF to see all signatures, their validity status, signer information, and whether the document has been modified after signing.</p>\n      <p>All validation happens locally in your browser. Your documents are never uploaded to any server.</p>\n    ",
+    "description": "\n      <p>Validate Signature വഴി നിങ്ങൾക്ക് PDF ഡോക്യുമെന്റുകളിലെ ഡിജിറ്റൽ സിഗ്നേച്ചറുകൾ പരിശോധിക്കാം. ഒപ്പുകൾ സാധുവാണോ എന്ന് പരിശോധിക്കുകയും, സർട്ടിഫിക്കറ്റ് വിവരങ്ങൾ കാണുകയും, ഡോക്യുമെന്റിന്റെ അഖണ്ഡത ഉറപ്പാക്കുകയും ചെയ്യുക.</p>\n      <p>എല്ലാ ഒപ്പുകളും, അവയുടെ സാധുത നിലയും, ഒപ്പിട്ടയാളുടെ വിവരങ്ങളും, ഒപ്പിട്ടതിനുശേഷം ഡോക്യുമെന്റിൽ മാറ്റങ്ങൾ വരുത്തിയിട്ടുണ്ടോ എന്നും കാണാൻ ഒപ്പിട്ട ഒരു PDF അപ്‌ലോഡ് ചെയ്യുക.</p>\n      <p>എല്ലാ പരിശോധനകളും നിങ്ങളുടെ ബ്രൗസറിൽ തന്നെ പ്രാദേശികമായി നടക്കുന്നു. നിങ്ങളുടെ ഡോക്യുമെന്റുകൾ ഒരിക്കലും ഒരു സെർവറിലേക്കും അപ്‌ലോഡ് ചെയ്യപ്പെടില്ല.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Signed PDF",
-        "description": "Upload a PDF document that contains digital signatures."
+        "title": "സൈൻ ചെയ്ത PDF അപ്‌ലോഡ് ചെയ്യുക",
+        "description": "ഡിജിറ്റൽ സിഗ്നേച്ചറുകൾ അടങ്ങിയ ഒരു PDF ഡോക്യുമെന്റ് അപ്‌ലോഡ് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "View Results",
-        "description": "See all signatures found in the document with their validity status."
+        "title": "ഫലങ്ങൾ കാണുക",
+        "description": "ഡോക്യുമെന്റിൽ കാണുന്ന എല്ലാ ഒപ്പുകളും അവയുടെ സാധുത നിലയും കാണുക."
       },
       {
         "step": 3,
-        "title": "Check Details",
-        "description": "View certificate information, signer details, and signing timestamp."
+        "title": "വിവരങ്ങൾ പരിശോധിക്കുക",
+        "description": "സർട്ടിഫിക്കറ്റ് വിവരങ്ങൾ, ഒപ്പിട്ടയാളുടെ വിവരങ്ങൾ, ഒപ്പിട്ട സമയം എന്നിവ കാണുക."
       },
       {
         "step": 4,
-        "title": "Export Report",
-        "description": "Optionally download a JSON report of the validation results."
+        "title": "റിപ്പോർട്ട് എക്‌സ്‌പോർട്ട് ചെയ്യുക",
+        "description": "ആവശ്യമെങ്കിൽ പരിശോധനാ ഫലങ്ങളുടെ ഒരു JSON റിപ്പോർട്ട് ഡൗൺലോഡ് ചെയ്യാം."
       }
     ],
     "useCases": [
       {
-        "title": "Document Verification",
-        "description": "Verify that signed documents are authentic and have not been tampered with.",
+        "title": "ഡോക്യുമെന്റ് വെരിഫിക്കേഷൻ",
+        "description": "ഒപ്പിട്ട ഡോക്യുമെന്റുകൾ യഥാർത്ഥമാണെന്നും മാറ്റങ്ങൾ വരുത്തിയിട്ടില്ലെന്നും ഉറപ്പാക്കുക.",
         "icon": "shield-check"
       },
       {
-        "title": "Compliance Audit",
-        "description": "Check signature validity for compliance and audit purposes.",
+        "title": "കംപ്ലയൻസ് ഓഡിറ്റ്",
+        "description": "കംപ്ലയൻസ്, ഓഡിറ്റ് ആവശ്യങ്ങൾക്കായി ഒപ്പിന്റെ സാധുത പരിശോധിക്കുക.",
         "icon": "clipboard-check"
       },
       {
-        "title": "Certificate Review",
-        "description": "View certificate details and expiration dates for signed documents.",
+        "title": "സർട്ടിഫിക്കറ്റ് റിവ്യൂ",
+        "description": "ഒപ്പിട്ട ഡോക്യുമെന്റുകളുടെ സർട്ടിഫിക്കറ്റ് വിവരങ്ങളും കാലാവധി തീരുന്ന തീയതികളും കാണുക.",
         "icon": "award"
       }
     ],
     "faq": [
       {
-        "question": "What does \"valid\" mean?",
-        "answer": "A valid signature means the document has not been modified since signing and the certificate chain is intact."
+        "question": "\"valid\" (സാധുതയുള്ളത്) എന്നാൽ എന്താണ് അർത്ഥമാക്കുന്നത്?",
+        "answer": "ഒരു സാധുവായ ഒപ്പ് എന്നാൽ ഒപ്പിട്ടതിനുശേഷം ഡോക്യുമെന്റിൽ മാറ്റങ്ങൾ വരുത്തിയിട്ടില്ലെന്നും സർട്ടിഫിക്കറ്റ് ചെയിൻ സുരക്ഷിതമാണെന്നും അർത്ഥമാക്കുന്നു."
       },
       {
-        "question": "Can I validate multiple PDFs?",
-        "answer": "Yes, you can upload multiple PDFs and validate all signatures in batch."
+        "question": "എനിക്ക് ഒന്നിലധികം PDF-കൾ പരിശോധിക്കാൻ കഴിയുമോ?",
+        "answer": "അതെ, നിങ്ങൾക്ക് ഒന്നിലധികം PDF-കൾ അപ്‌ലോഡ് ചെയ്യാനും എല്ലാ ഒപ്പുകളും ഒന്നിച്ച് പരിശോധിക്കാനും കഴിയും."
       },
       {
-        "question": "Why might a signature be invalid?",
-        "answer": "Signatures may be invalid if the document was modified, the certificate expired, or the certificate is not trusted."
+        "question": "ഒരു ഒപ്പ് അസാധുവാകാൻ കാരണമെന്താണ്?",
+        "answer": "ഡോക്യുമെന്റിൽ മാറ്റം വരുത്തുകയോ, സർട്ടിഫിക്കറ്റിന്റെ കാലാവധി കഴിയുകയോ, സർട്ടിഫിക്കറ്റ് വിശ്വസനീയമല്ലാതിരിക്കുകയോ ചെയ്താൽ ഒപ്പുകൾ അസാധുവായേക്കാം."
       }
     ]
   },
   "ai-pdf-reflower": {
     "title": "AI PDF Layout Reflower",
-    "metaDescription": "Re-typeset PDF documents into responsive mobile-friendly layouts. Support Markdown and EPUB export for enhanced small-screen reading.",
+    "metaDescription": "PDF ഡോക്യുമെന്റുകളെ മൊബൈൽ അനുയോജ്യമായ റെസ്‌പോൺസീവ് ലേഔട്ടുകളിലേക്ക് പുനഃക്രമീകരിക്കുക. ചെറിയ സ്‌ക്രീനുകളിലെ മികച്ച വായനാനുഭവത്തിനായി Markdown, EPUB എക്‌സ്‌പോർട്ട് പിന്തുണ നൽകുന്നു.",
     "keywords": [
       "pdf reflow",
       "responsive pdf",
@@ -6255,59 +6255,59 @@ export const toolContentMl: Record<string, ToolContent> = {
       "epub export",
       "mobile pdf reader"
     ],
-    "description": "\n      <p>AI PDF Layout Reflower is your ultimate companion for reading PDF documents on mobile devices. Traditional PDFs use a fixed layout, which often requires endless zooming and horizontal scrolling on smartphones or tablets, resulting in a tedious reading experience.</p>\n      <p>This tool intelligently parses the text flow, line spacing, and physical coordinates of the PDF pages, reconstructing the semantic paragraphs and heading hierarchies. For multi-column or dual-column documents, it intelligently merges column flows into a single responsive flow, ensuring smooth reading.</p>\n      <p>Additionally, it supports rendering mathematical formulas into LaTeX/MathJax and offers multiple reading themes (Sepia, Dark, Eye-protecting Green). You can export the reflowed layout as Markdown or a standard EPUB ebook with a single click.</p>\n    ",
+    "description": "\n      <p>മൊബൈൽ ഉപകരണങ്ങളിൽ PDF ഡോക്യുമെന്റുകൾ വായിക്കുന്നതിനുള്ള നിങ്ങളുടെ മികച്ച സഹായിയാണ് AI PDF Layout Reflower. പരമ്പരാഗത PDF-കൾ ഒരു ഫിക്സഡ് ലേഔട്ട് ആണ് ഉപയോഗിക്കുന്നത്, അതിനാൽ സ്‌മാർട്ട്‌ഫോണുകളിലോ ടാബ്‌ലെറ്റുകളിലോ വായന പ്രയാസകരമാക്കുന്ന തരത്തിൽ സൂം ചെയ്യേണ്ടതോ ഹൊറിസോണ്ടലായി സ്ക്രോൾ ചെയ്യേണ്ടതോ ആയി വരാറുണ്ട്.</p>\n      <p>ഈ ടൂൾ PDF പേജുകളിലെ ടെക്സ്റ്റ് ഫ്ലോ, ലൈൻ സ്പേസിംഗ്, കോഓർഡിനേറ്റുകൾ എന്നിവ ബുദ്ധിപൂർവ്വം വിശകലനം ചെയ്ത് പാരഗ്രാഫുകളും ഹെഡിംഗുകളും പുനഃസൃഷ്ടിക്കുന്നു. മൾട്ടി-കോളം അല്ലെങ്കിൽ ഡ്യുവൽ-കോളം ഡോക്യുമെന്റുകൾക്കായി, കോളം ഫ്ലോകളെ ഒരൊറ്റ റെസ്‌പോൺസീവ് ഫ്ലോയായി സംയോജിപ്പിച്ച് സുഗമമായ വായന ഉറപ്പാക്കുന്നു.</p>\n      <p>കൂടാതെ, ഇത് ഗണിത സമവാക്യങ്ങളെ LaTeX/MathJax ആയി റെൻഡർ ചെയ്യാനും വിവിധ വായനാ തീമുകൾ (Sepia, Dark, Eye-protecting Green) നൽകാനും പിന്തുണയ്ക്കുന്നു. റീഫ്ലോ ചെയ്ത ലേഔട്ട് ഒറ്റ ക്ലിക്കിലൂടെ Markdown അല്ലെങ്കിൽ ഒരു സാധാരണ EPUB ഇ-ബുക്കായി എക്സ്പോർട്ട് ചെയ്യാം.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload PDF File",
-        "description": "Drag and drop your PDF file or click to browse and select it."
+        "title": "PDF ഫയൽ അപ്‌ലോഡ് ചെയ്യുക",
+        "description": "നിങ്ങളുടെ PDF ഫയൽ ഡ്രാഗ് ചെയ്ത് ഡ്രോപ്പ് ചെയ്യുക അല്ലെങ്കിൽ ബ്രൗസ് ചെയ്ത് തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Select Reading Theme",
-        "description": "Choose your preferred font size and theme colors in the 3D mobile simulator on the right."
+        "title": "വായനാ തീം തിരഞ്ഞെടുക്കുക",
+        "description": "വലതുവശത്തുള്ള 3D മൊബൈൽ സിമുലേറ്ററിൽ നിങ്ങൾക്ക് ആവശ്യമുള്ള ഫോണ്ട് സൈസും തീം കളറുകളും തിരഞ്ഞെടുക്കുക."
       },
       {
         "step": 3,
-        "title": "Export Document",
-        "description": "Once satisfied, use the physical pull-rope to export the document as Markdown or EPUB."
+        "title": "ഡോക്യുമെന്റ് എക്സ്പോർട്ട് ചെയ്യുക",
+        "description": "തൃപ്തികരമാണെങ്കിൽ, ഡോക്യുമെന്റ് Markdown അല്ലെങ്കിൽ EPUB ആയി എക്സ്പോർട്ട് ചെയ്യാൻ ഫിസിക്കൽ പുൾ-റോപ്പ് ഉപയോഗിക്കുക."
       }
     ],
     "useCases": [
       {
-        "title": "Mobile Literature Reading",
-        "description": "Read academic papers and research reports on your phone seamlessly without constant zooming.",
+        "title": "മൊബൈൽ സാഹിത്യ വായന",
+        "description": "തുടർച്ചയായ സൂമിംഗ് ഇല്ലാതെ തന്നെ നിങ്ങളുടെ ഫോണിൽ അക്കാദമിക് പേപ്പറുകളും ഗവേഷണ റിപ്പോർട്ടുകളും സുഗമമായി വായിക്കുക.",
         "icon": "smartphone"
       },
       {
-        "title": "Ebook Conversion",
-        "description": "Convert text-heavy PDFs into EPUB files and import them into Kindle or other ebook readers.",
+        "title": "ഇ-ബുക്ക് കൺവേർഷൻ",
+        "description": "കൂടുതൽ ടെക്സ്റ്റ് അടങ്ങിയ PDF-കളെ EPUB ഫയലുകളാക്കി മാറ്റി Kindle അല്ലെങ്കിൽ മറ്റ് ഇ-ബുക്ക് റീഡറുകളിലേക്ക് ഇമ്പോർട്ട് ചെയ്യുക.",
         "icon": "book"
       },
       {
-        "title": "Note Archive",
-        "description": "Directly convert structured PDF content into clean Markdown files for your personal knowledge base.",
+        "title": "നോട്ട് ആർക്കൈവ്",
+        "description": "നിങ്ങളുടെ വ്യക്തിഗത നോളജ് ബേസിനായി ഘടനാപരമായ PDF ഉള്ളടക്കത്തെ സുതാര്യമായ Markdown ഫയലുകളിലേക്ക് നേരിട്ട് പരിവർത്തനം ചെയ്യുക.",
         "icon": "file-text"
       }
     ],
     "faq": [
       {
-        "question": "Does it handle dual-column PDFs correctly?",
-        "answer": "Yes, the layout reflower detects the horizontal coordinates of text blocks and structures left and right columns sequentially, preventing line interleaving."
+        "question": "ഇത് ഡ്യുവൽ-കോളം PDF-കൾ ശരിയായി കൈകാര്യം ചെയ്യുന്നുണ്ടോ?",
+        "answer": "അതെ, ലേഔട്ട് റീഫ്ലോവർ ടെക്സ്റ്റ് ബ്ലോക്കുകളുടെ ഹൊറിസോണ്ടൽ കോർഡിനേറ്റുകൾ തിരിച്ചറിയുകയും ഇടത്, വലത് കോളങ്ങളെ ക്രമമായി വിന്യസിക്കുകയും ചെയ്യുന്നു, ഇത് ലൈനുകൾ കൂട്ടിമുട്ടുന്നത് തടയുന്നു."
       },
       {
-        "question": "Will images and math formulas be lost?",
-        "answer": "Mathematical formulas are converted to LaTeX/MathJax syntax for clean web rendering, and images are preserved in their corresponding semantic positions."
+        "question": "ചിത്രങ്ങളും ഗണിത ഫോർമുലകളും നഷ്ടപ്പെടുമോ?",
+        "answer": "ഗണിത ഫോർമുലകൾ വെബ് റെൻഡറിംഗിനായി LaTeX/MathJax സിന്റാക്സിലേക്ക് മാറ്റുന്നു, കൂടാതെ ചിത്രങ്ങൾ അവയുടെ ഉചിതമായ സെമാന്റിക് സ്ഥാനങ്ങളിൽ നിലനിർത്തുകയും ചെയ്യുന്നു."
       },
       {
-        "question": "Is the conversion done in the cloud?",
-        "answer": "No, all layout analysis and format packaging are performed locally in your browser to guarantee the absolute privacy of your documents."
+        "question": "ഈ പരിവർത്തനം ക്ലൗഡിലാണോ നടക്കുന്നത്?",
+        "answer": "അല്ല, നിങ്ങളുടെ രേഖകളുടെ പൂർണ്ണമായ സ്വകാര്യത ഉറപ്പാക്കുന്നതിനായി എല്ലാ ലേഔട്ട് വിശകലനങ്ങളും ഫോർമാറ്റ് പാക്കേജിംഗും നിങ്ങളുടെ ബ്രൗസറിൽ പ്രാദേശികമായി തന്നെയാണ് ചെയ്യുന്നത്."
       }
     ]
   },
   "citation-linker": {
     "title": "Citation Linker",
-    "metaDescription": "Scan and activate citation markers in PDFs, converting them into clickable DOI links or page-jump targets.",
+    "metaDescription": "PDF-കളിലെ സൈറ്റേഷൻ മാർക്കറുകൾ സ്കാൻ ചെയ്ത് ആക്റ്റിവേറ്റ് ചെയ്യുക, അവയെ ക്ലിക്ക് ചെയ്യാവുന്ന DOI ലിങ്കുകളോ പേജ്-ജമ്പ് ടാർഗെറ്റുകളോ ആയി മാറ്റുക.",
     "keywords": [
       "citation linker",
       "pdf hyperlink",
@@ -6315,59 +6315,59 @@ export const toolContentMl: Record<string, ToolContent> = {
       "academic helper",
       "pdf references"
     ],
-    "description": "\n      <p>Citation Linker is designed specifically for academic researchers. In many PDF papers, citation markers (e.g., [1], [2]) are plain text, forcing readers to scroll back and forth to the reference list at the end of the document, interrupting their focus.</p>\n      <p>This tool reads PDF text locally, uses pattern recognition to match citation markers to their corresponding reference entries, and overlays clickable PDF link annotations using DOI lookups or page-jump coordinates.</p>\n      <p>It also generates an interactive citation relationship map to visually navigate the document's reference network.</p>\n    ",
+    "description": "\n      <p>Citation Linker അക്കാദമിക് ഗവേഷകർക്കായി പ്രത്യേകം രൂപകൽപ്പന ചെയ്തതാണ്. പല PDF പേപ്പറുകളിലും, സൈറ്റേഷൻ മാർക്കറുകൾ (ഉദാ. [1], [2]) പ്ലെയിൻ ടെക്സ്റ്റ് ആണ്, ഇത് വായനക്കാരെ രേഖയുടെ അവസാനത്തിലുള്ള റെഫറൻസ് ലിസ്റ്റിലേക്ക് മുന്നോട്ടും പിന്നോട്ടും സ്ക്രോൾ ചെയ്യാൻ പ്രേരിപ്പിക്കുകയും ശ്രദ്ധ തിരിക്കുകയും ചെയ്യുന്നു.</p>\n      <p>ഈ ടൂൾ PDF ടെക്സ്റ്റ് ലോക്കലായി വായിക്കുകയും, പാറ്റേൺ റെക്കഗ്നിഷൻ ഉപയോഗിച്ച് സൈറ്റേഷൻ മാർക്കറുകളെ അവയുടെ റെഫറൻസ് എൻട്രികളുമായി പൊരുത്തപ്പെടുത്തുകയും, DOI ലുക്കപ്പുകൾ അല്ലെങ്കിൽ പേജ്-ജമ്പ് കോർഡിനേറ്റുകൾ ഉപയോഗിച്ച് ക്ലിക്ക് ചെയ്യാവുന്ന PDF ലിങ്ക് അനൊട്ടേഷനുകൾ ഉൾപ്പെടുത്തുകയും ചെയ്യുന്നു.</p>\n      <p>രേഖയുടെ റെഫറൻസ് നെറ്റ്വർക്ക് ദൃശ്യപരമായി കാണുന്നതിനായി ഇത് ഒരു ഇന്ററാക്ടീവ് സൈറ്റേഷൻ റിലേഷൻഷിപ്പ് മാപ്പും നിർമ്മിക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Academic PDF",
-        "description": "Upload a PDF paper or thesis containing a bibliography/reference section."
+        "title": "Academic PDF അപ്‌ലോഡ് ചെയ്യുക",
+        "description": "ബിബ്ലിയോഗ്രാഫി/റെഫറൻസ് വിഭാഗമുള്ള ഒരു PDF പേപ്പറോ തീസിസോ അപ്‌ലോഡ് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Review Citations",
-        "description": "Inspect the citation pairs in the interactive map and manually edit or add DOI links if necessary."
+        "title": "സൈറ്റേഷനുകൾ പരിശോധിക്കുക",
+        "description": "ഇന്ററാക്ടീവ് മാപ്പിലെ സൈറ്റേഷൻ ജോഡികൾ പരിശോധിക്കുകയും ആവശ്യമാണെങ്കിൽ DOI ലിങ്കുകൾ മാനുവലായി എഡിറ്റ് ചെയ്യുകയോ ചേർക്കുകയോ ചെയ്യുക."
       },
       {
         "step": 3,
-        "title": "Inject Links",
-        "description": "Click the activate button to overlay hyperlinks onto the PDF and download the updated document."
+        "title": "ലിങ്കുകൾ ഇൻജക്റ്റ് ചെയ്യുക",
+        "description": "PDF-ലേക്ക് ഹൈപ്പർലിങ്കുകൾ ചേർക്കുന്നതിനായി ആക്റ്റിവേറ്റ് ബട്ടൺ ക്ലിക്ക് ചെയ്ത് പുതുക്കിയ രേഖ ഡൗൺലോഡ് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Deep Literature Reading",
-        "description": "Click citation markers to immediately view reference details or navigate to external DOI pages.",
+        "title": "ആഴത്തിലുള്ള സാഹിത്യ വായന",
+        "description": "റെഫറൻസ് വിശദാംശങ്ങൾ ഉടനടി കാണുന്നതിനോ ബാഹ്യ DOI പേജുകളിലേക്ക് പോകുന്നതിനോ സൈറ്റേഷൻ മാർക്കറുകളിൽ ക്ലിക്ക് ചെയ്യുക.",
         "icon": "link"
       },
       {
-        "title": "Pre-publication Preparation",
-        "description": "Ensure your written academic papers have fully active hyperlink navigations before final submission.",
+        "title": "പബ്ലിക്കേഷന് മുന്നോടിയായുള്ള തയ്യാറെടുപ്പ്",
+        "description": "അന്തിമ സമർപ്പണത്തിന് മുമ്പ് നിങ്ങളുടെ അക്കാദമിക് പേപ്പറുകളിൽ ഹൈപ്പർലിങ്ക് നാവിഗേഷനുകൾ പൂർണ്ണമായും സജീവമാണെന്ന് ഉറപ്പാക്കുക.",
         "icon": "award"
       },
       {
-        "title": "Reference Map Analysis",
-        "description": "Understand literature hierarchies and connections via the interactive network topology map.",
+        "title": "റെഫറൻസ് മാപ്പ് വിശകലനം",
+        "description": "ഇന്ററാക്ടീവ് നെറ്റ്വർക്ക് ടോപ്പോളജി മാപ്പ് വഴി സാഹിത്യ ശ്രേണികളും ബന്ധങ്ങളും മനസ്സിലാക്കുക.",
         "icon": "git-network"
       }
     ],
     "faq": [
       {
-        "question": "What if a reference has no DOI?",
-        "answer": "If a DOI cannot be found, the tool falls back to an internal \"GoTo Page\" action, allowing you to click the marker and jump directly to the reference page."
+        "question": "ഒരു റെഫറൻസിന് DOI ഇല്ലെങ്കിൽ എന്ത് സംഭവിക്കും?",
+        "answer": "ഒരു DOI കണ്ടെത്താൻ കഴിഞ്ഞില്ലെങ്കിൽ, ടൂൾ ഒരു ആന്തരിക \"GoTo Page\" പ്രവൃത്തിയിലേക്ക് മാറുന്നു, ഇത് മാർക്കറിൽ ക്ലിക്ക് ചെയ്ത് റെഫറൻസ് പേജിലേക്ക് നേരിട്ട് പോകാൻ നിങ്ങളെ അനുവദിക്കുന്നു."
       },
       {
-        "question": "Which citation formats are supported?",
-        "answer": "It supports common numeric brackets (e.g., [1], [1-3]) and author-year citations (e.g., Author et al., 202X)."
+        "question": "ഏതൊക്കെ സൈറ്റേഷൻ ഫോർമാറ്റുകളാണ് പിന്തുണയ്ക്കുന്നത്?",
+        "answer": "ഇത് സാധാരണ സംഖ്യാ ബ്രാക്കറ്റുകളും (ഉദാ. [1], [1-3]), ഗ്രന്ഥകർത്താവ്-വർഷ സൈറ്റേഷനുകളും (ഉദാ. Author et al., 202X) പിന്തുണയ്ക്കുന്നു."
       },
       {
-        "question": "Will it modify the appearance of my PDF?",
-        "answer": "No, it injects invisible Link annotations on top of the text, preserving the original layout, fonts, and styling of your document."
+        "question": "ഇത് എന്റെ PDF-ന്റെ രൂപഭാവത്തിൽ മാറ്റം വരുത്തുമോ?",
+        "answer": "ഇല്ല, ഇത് ടെക്സ്റ്റിന് മുകളിലായി അദൃശ്യമായ Link അനൊട്ടേഷനുകൾ ചേർക്കുന്നു, നിങ്ങളുടെ രേഖയുടെ യഥാർത്ഥ ലേഔട്ട്, ഫോണ്ടുകൾ, സ്റ്റൈലിംഗ് എന്നിവ നിലനിർത്തുന്നു."
       }
     ]
   },
   "vector-extractor": {
     "title": "PDF Vector Extractor",
-    "metaDescription": "Convert PDF into high-fidelity SVG, allowing you to select, recolor, and export vector charts, logos, and graphics.",
+    "metaDescription": "PDF-നെ ഹൈ-ഫിഡെലിറ്റി SVG ആയി മാറ്റുക, ഇത് വെക്റ്റർ ചാർട്ടുകൾ, ലോഗോകൾ, ഗ്രാഫിക്സ് എന്നിവ തിരഞ്ഞെടുക്കാനും നിറം മാറ്റാനും എക്സ്പോർട്ട് ചെയ്യാനും നിങ്ങളെ അനുവദിക്കുന്നു.",
     "keywords": [
       "extract vectors from pdf",
       "pdf to svg",
@@ -6375,59 +6375,59 @@ export const toolContentMl: Record<string, ToolContent> = {
       "extract logo",
       "vector drawings"
     ],
-    "description": "\n      <p>PDF Vector Extractor unlocks vector paths and artwork embedded inside PDF files. Easily extract vector charts, diagrams, or logos from documents for design work or printing.</p>\n      <p>Under the hood, it utilizes high-fidelity SVG rendering to deconstruct PDF vector paths into clean, standard SVG element trees without loss of precision.</p>\n      <p>The interface highlights hover elements with a Z-axis 3D layer explosion effect, complete with a color picker panel for designers to adjust and extract vector nodes.</p>\n    ",
+    "description": "\n      <p>PDF Vector Extractor PDF ഫയലുകളിൽ ഉൾപ്പെടുത്തിയിട്ടുള്ള വെക്റ്റർ പാതകളും ആർട്ട് വർക്കുകളും അൺലോക്ക് ചെയ്യുന്നു. ഡിസൈൻ ജോലികൾക്കോ പ്രിന്റിംഗിനായോ രേഖകളിൽ നിന്ന് വെക്റ്റർ ചാർട്ടുകൾ, ഡയഗ്രമുകൾ അല്ലെങ്കിൽ ലോഗോകൾ എളുപ്പത്തിൽ എക്സ്ട്രാക്റ്റ് ചെയ്യുക.</p>\n      <p>കൃത്യത നഷ്ടപ്പെടാതെ PDF വെക്റ്റർ പാതകളെ വൃത്തിയുള്ളതും സ്റ്റാൻഡേർഡുമായ SVG എലമെന്റ് ട്രീകളാക്കി മാറ്റാൻ ഇത് ഹൈ-ഫിഡെലിറ്റി SVG റെൻഡറിംഗ് ഉപയോഗിക്കുന്നു.</p>\n      <p>ഡിസൈനർമാർക്ക് വെക്റ്റർ നോഡുകൾ ക്രമീകരിക്കുന്നതിനും എക്സ്ട്രാക്റ്റ് ചെയ്യുന്നതിനുമുള്ള ഒരു കളർ പിക്കർ പാനലോടൊപ്പം, Z-axis 3D ലെയർ എക്സ്പ്ലോഷൻ ഇഫക്റ്റ് ഉപയോഗിച്ച് ഇന്റർഫേസ് ഹോവർ എലമെന്റുകളെ ഹൈലൈറ്റ് ചെയ്യുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload PDF Document",
-        "description": "Upload a PDF containing vector assets, diagrams, charts, or logos."
+        "title": "PDF ഡോക്യുമെന്റ് അപ്‌ലോഡ് ചെയ്യുക",
+        "description": "വെക്റ്റർ അസറ്റുകൾ, ഡയഗ്രമുകൾ, ചാർട്ടുകൾ അല്ലെങ്കിൽ ലോഗോകൾ അടങ്ങിയ ഒരു PDF അപ്‌ലോഡ് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Select Elements",
-        "description": "Hover over the vector canvas to highlight elements, then click to select a node."
+        "title": "എലമെന്റുകൾ തിരഞ്ഞെടുക്കുക",
+        "description": "എലമെന്റുകൾ ഹൈലൈറ്റ് ചെയ്യാൻ വെക്റ്റർ ക്യാൻവാസിന് മുകളിലൂടെ ഹോവർ ചെയ്യുക, തുടർന്ന് ഒരു നോഡ് തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 3,
-        "title": "Customize and Export",
-        "description": "Adjust path attributes in the panel, then download as SVG or copy SVG source code."
+        "title": "കസ്റ്റമൈസ് ചെയ്ത് എക്സ്പോർട്ട് ചെയ്യുക",
+        "description": "പാനലിലെ പാത്ത് ആട്രിബ്യൂട്ടുകൾ ക്രമീകരിക്കുക, തുടർന്ന് SVG ആയി ഡൗൺലോഡ് ചെയ്യുക അല്ലെങ്കിൽ SVG സ്രോതസ്സ് കോഡ് കോപ്പി ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Design Asset Extraction",
-        "description": "Quickly extract company logos, icons, and illustrations from brand guidelines or brochures.",
+        "title": "ഡിസൈൻ അസറ്റ് എക്സ്ട്രാക്ഷൻ",
+        "description": "ബ്രാൻഡ് മാർഗ്ഗനിർദ്ദേശങ്ങളിൽ നിന്നോ ബ്രോഷറുകളിൽ നിന്നോ കമ്പനി ലോഗോകൾ, ഐക്കണുകൾ, ചിത്രീകരണങ്ങൾ എന്നിവ വേഗത്തിൽ എക്സ്ട്രാക്റ്റ് ചെയ്യുക.",
         "icon": "bezier"
       },
       {
-        "title": "Scientific Chart Export",
-        "description": "Extract vector charts from research papers to use in high-resolution printing or presentations.",
+        "title": "സയന്റിഫിക് ചാർട്ട് എക്സ്പോർട്ട്",
+        "description": "ഹൈ-റെസല്യൂഷൻ പ്രിന്റിംഗിലോ പ്രസന്റേഷനുകളിലോ ഉപയോഗിക്കുന്നതിന് ഗവേഷണ പേപ്പറുകളിൽ നിന്ന് വെക്റ്റർ ചാർട്ടുകൾ എക്സ്ട്രാക്റ്റ് ചെയ്യുക.",
         "icon": "presentation"
       },
       {
-        "title": "Vector Asset Recoloring",
-        "description": "Modify the stroke and fill colors of extracted assets before saving them for web projects.",
+        "title": "വെക്റ്റർ അസറ്റ് റീകളറിംഗ്",
+        "description": "വെബ് പ്രൊജക്റ്റുകൾക്കായി സേവ് ചെയ്യുന്നതിന് മുമ്പ് എക്സ്ട്രാക്റ്റ് ചെയ്ത അസറ്റുകളുടെ സ്ട്രോക്ക്, ഫിൽ കളറുകൾ പരിഷ്ക്കരിക്കുക.",
         "icon": "crown"
       }
     ],
     "faq": [
       {
-        "question": "Why can't I select certain images?",
-        "answer": "PDFs contain both raster images (like photos or scanned pages) and vector artwork (like shapes and curves). Only vector paths can be deconstructed into SVG paths."
+        "question": "ചില ചിത്രങ്ങൾ എനിക്ക് തിരഞ്ഞെടുക്കാൻ കഴിയാത്തത് എന്തുകൊണ്ട്?",
+        "answer": "PDF-കളിൽ റാസ്റ്റർ ചിത്രങ്ങളും (ഫോട്ടോകൾ അല്ലെങ്കിൽ സ്കാൻ ചെയ്ത പേജുകൾ പോലുള്ളവ) വെക്റ്റർ ആർട്ട് വർക്കുകളും (രൂപങ്ങളും വക്രങ്ങളും പോലുള്ളവ) അടങ്ങിയിരിക്കുന്നു. വെക്റ്റർ പാതകൾ മാത്രമേ SVG പാതകളാക്കി വേർതിരിക്കാൻ കഴിയൂ."
       },
       {
-        "question": "Does the output SVG contain styles?",
-        "answer": "Yes, the exported SVG retains all original properties including fills, strokes, opacity, gradients, and coordinate transforms."
+        "question": "ഔട്ട്പുട്ട് SVG-യിൽ സ്റ്റൈലുകൾ അടങ്ങിയിട്ടുണ്ടോ?",
+        "answer": "അതെ, എക്സ്പോർട്ട് ചെയ്ത SVG-യിൽ ഫില്ലുകൾ, സ്ട്രോക്കുകൾ, ഒപ്പാസിറ്റി, ഗ്രേഡിയന്റുകൾ, കോർഡിനേറ്റ് ട്രാൻസ്ഫോർമുകൾ എന്നിവയുൾപ്പെടെയുള്ള എല്ലാ യഥാർത്ഥ പ്രോപ്പർട്ടികളും നിലനിർത്തുന്നു."
       },
       {
-        "question": "Will large files lag?",
-        "answer": "We use WebAssembly acceleration, but PDFs with extremely complex CAD drawings or thousands of vector paths may take a few seconds to render."
+        "question": "വലിയ ഫയലുകൾ ലാഗ് ആകുമോ?",
+        "answer": "ഞങ്ങൾ WebAssembly ആക്സിലറേഷൻ ഉപയോഗിക്കുന്നു, എന്നാൽ വളരെ സങ്കീർണ്ണമായ CAD ഡ്രോയിംഗുകളോ ആയിരക്കണക്കിന് വെക്റ്റർ പാതകളോ ഉള്ള PDF-കൾ റെൻഡർ ചെയ്യാൻ ഏതാനും സെക്കൻഡുകൾ എടുത്തേക്കാം."
       }
     ]
   },
   "deep-sanitize": {
     "title": "Deep Metadata Sanitizer",
-    "metaDescription": "Thoroughly wipe author metadata, modification logs, hidden layers, and orphan objects from PDFs for maximum privacy.",
+    "metaDescription": "പരമാവധി സ്വകാര്യതയ്ക്കായി PDF-കളിൽ നിന്ന് രചയിതാവിന്റെ മെറ്റാഡാറ്റ, പരിഷ്കരണ ലോഗുകൾ, മറഞ്ഞിരിക്കുന്ന ലെയറുകൾ, ഓർഫൻ ഒബ്ജക്റ്റുകൾ എന്നിവ പൂർണ്ണമായി മായ്ക്കുക.",
     "keywords": [
       "pdf sanitization",
       "clear metadata",
@@ -6435,59 +6435,59 @@ export const toolContentMl: Record<string, ToolContent> = {
       "strip hidden watermark",
       "secure pdf"
     ],
-    "description": "\n      <p>Deep Metadata Sanitizer is your ultimate defense against metadata leaks and hidden tracking. Simply drawing black boxes over visible text in PDF files is not enough to protect commercial secrets.</p>\n      <p>This tool scans the PDF binary structure to completely erase author info, creator software, editing logs (XMP Metadata), proprietary PieceInfo caches, and OCG optional content groups (often used for invisible watermarks).</p>\n      <p>It also rewrites the cross-reference tables (xref) completely, discarding all incremental update blocks to ensure that deleted or modified historical data cannot be restored.</p>\n    ",
+    "description": "\n      <p>മെറ്റാഡാറ്റ ചോർച്ചയിൽ നിന്നും മറഞ്ഞിരിക്കുന്ന ട്രാക്കിംഗിൽ നിന്നും സംരക്ഷണം നൽകുന്ന മികച്ച ഉപകരണമാണ് Deep Metadata Sanitizer. PDF ഫയലുകളിലെ ദൃശ്യമായ ടെക്സ്റ്റിന് മുകളിൽ കറുത്ത ബോക്സുകൾ വരയ്ക്കുന്നത് ബിസിനസ്സ് രഹസ്യങ്ങൾ സംരക്ഷിക്കാൻ പര്യാപ്തമല്ല.</p>\n      <p>രചയിതാവിന്റെ വിവരങ്ങൾ, ക്രിയേറ്റർ സോഫ്റ്റ്‌വെയർ, എഡിറ്റിംഗ് ലോഗുകൾ (XMP Metadata), പ്രൊപ്രൈറ്ററി PieceInfo കാഷെകൾ, OCG ഓപ്ഷണൽ കണ്ടെന്റ് ഗ്രൂപ്പുകൾ (അദൃശ്യമായ വാട്ടർമാർക്കുകൾക്കായി ഉപയോഗിക്കുന്നത്) എന്നിവ പൂർണ്ണമായും മായ്ച്ചു കളയാൻ ഈ ടൂൾ PDF ബൈനറി ഘടന സ്കാൻ ചെയ്യുന്നു.</p>\n      <p>ഇത് ക്രോസ്-റെഫറൻസ് ടേബിളുകൾ (xref) പൂർണ്ണമായി തിരുത്തിയെഴുതുകയും, ഇല്ലാതാക്കിയതോ മാറ്റം വരുത്തിയതോ ആയ പഴയ ഡാറ്റ വീണ്ടെടുക്കാൻ കഴിയില്ലെന്ന് ഉറപ്പാക്കാൻ എല്ലാ ഇൻക്രിമെന്റൽ അപ്ഡേറ്റ് ബ്ലോക്കുകളും ഒഴിവാക്കുകയും ചെയ്യുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "PDF അപ്‌ലോഡ് ചെയ്യുക",
-        "description": "Select the PDF file containing sensitive data or modification history."
+        "description": "രഹസ്യ വിവരങ്ങളോ പരിഷ്കരണ ചരിത്രമോ അടങ്ങിയ PDF ഫയൽ തിരഞ്ഞെടുക്കുക."
       },
       {
         "step": 2,
-        "title": "Run Scanner",
-        "description": "Trigger the 3D containment scanner to check the file for hidden metadata and layers."
+        "title": "സ്കാനർ പ്രവർത്തിപ്പിക്കുക",
+        "description": "മറഞ്ഞിരിക്കുന്ന മെറ്റാഡാറ്റയും ലെയറുകളും പരിശോധിക്കുന്നതിന് 3D കണ്ടെയിൻമെന്റ് സ്കാനർ ട്രിഗർ ചെയ്യുക."
       },
       {
         "step": 3,
-        "title": "Deep Sanitize",
-        "description": "Click sanitize to wipe out tracking elements and download the fully clean PDF."
+        "title": "ഡീപ്പ് സാനിറ്റൈസ്",
+        "description": "ട്രാക്കിംഗ് ഘടകങ്ങൾ ഇല്ലാതാക്കാനും പൂർണ്ണമായും ശുദ്ധമായ PDF ഡൗൺലോഡ് ചെയ്യാനും സാനിറ്റൈസ് ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Contract Sharing",
-        "description": "Remove drafting records, paths, and previous revisions before sharing business contracts with third parties.",
+        "title": "കരാർ പങ്കിടൽ",
+        "description": "മൂന്നാം കക്ഷികളുമായി ബിസിനസ്സ് കരാറുകൾ പങ്കിടുന്നതിന് മുൻപ് ഡ്രാഫ്റ്റിംഗ് റെക്കോർഡുകൾ, പാതകൾ, മുൻപത്തെ തിരുത്തലുകൾ എന്നിവ നീക്കം ചെയ്യുക.",
         "icon": "file-signature"
       },
       {
-        "title": "Anonymized Publishing",
-        "description": "Wipe invisible annotations and watermarks to publish documents anonymously and securely.",
+        "title": "അജ്ഞാത പ്രസിദ്ധീകരണം",
+        "description": "രേഖകൾ അജ്ഞാതമായും സുരക്ഷിതമായും പ്രസിദ്ധീകരിക്കുന്നതിന് അദൃശ്യമായ ആനൊട്ടേഷനുകളും വാട്ടർമാർക്കുകളും നീക്കം ചെയ്യുക.",
         "icon": "eye-off"
       },
       {
-        "title": "PDF Optimization",
-        "description": "Remove orphaned objects and garbage data streams to make files load faster on the web.",
+        "title": "PDF ഒപ്റ്റിമൈസേഷൻ",
+        "description": "വെബിൽ ഫയലുകൾ വേഗത്തിൽ ലോഡുചെയ്യുന്നതിന് ഓർഫൻഡ് ഒബ്‌ജക്റ്റുകളും ഗാർബേജ് ഡാറ്റാ സ്ട്രീമുകളും നീക്കം ചെയ്യുക.",
         "icon": "zap"
       }
     ],
     "faq": [
       {
-        "question": "How is this different from standard metadata removal?",
-        "answer": "Standard tools only clear basic fields like title or author. Deep Sanitizer reconstructs the entire PDF xref table, wiping PieceInfo, hidden watermarks, and historical incremental revisions."
+        "question": "സാധാരണ മെറ്റാഡാറ്റ നീക്കംചെയ്യലിൽ നിന്ന് ഇത് എങ്ങനെ വ്യത്യാസപ്പെട്ടിരിക്കുന്നു?",
+        "answer": "സാധാരണ ടൂളുകൾ തലക്കെട്ട് അല്ലെങ്കിൽ രചയിതാവ് പോലുള്ള അടിസ്ഥാന ഫീൽഡുകൾ മാത്രമേ നീക്കം ചെയ്യൂ. Deep Sanitizer മുഴുവൻ PDF xref ടേബിളും പുനർനിർമ്മിക്കുകയും PieceInfo, മറഞ്ഞിരിക്കുന്ന വാട്ടർമാർക്കുകൾ, മുൻകാല വർദ്ധനവ് തിരുത്തലുകൾ എന്നിവ നീക്കം ചെയ്യുകയും ചെയ്യുന്നു."
       },
       {
-        "question": "Will this affect document layout or text?",
-        "answer": "No, it only strips hidden description streams and structure data. The visible layout, texts, and graphics remain unchanged."
+        "question": "ഇത് ഡോക്യുമെന്റിന്റെ ലേഔട്ടിനെയോ ടെക്സ്റ്റിനെയോ ബാധിക്കുമോ?",
+        "answer": "ഇല്ല, ഇത് മറഞ്ഞിരിക്കുന്ന വിവരണ സ്ട്രീമുകളും ഘടനാപരമായ ഡാറ്റയും മാത്രമേ നീക്കം ചെയ്യുകയുള്ളൂ. ദൃശ്യമായ ലേഔട്ട്, ടെക്സ്റ്റുകൾ, ഗ്രാഫിക്‌സ് എന്നിവ മാറ്റമില്ലാതെ തുടരും."
       },
       {
-        "question": "Does this remove PDF passwords?",
-        "answer": "No, if a PDF is encrypted, you must unlock it first before performing a deep sanitization."
+        "question": "ഇത് PDF പാസ്‌വേഡുകൾ നീക്കം ചെയ്യുമോ?",
+        "answer": "ഇല്ല, ഒരു PDF എൻക്രിപ്റ്റ് ചെയ്തിട്ടുണ്ടെങ്കിൽ, ഡീപ്പ് സാനിറ്റൈസേഷൻ നടത്തുന്നതിന് മുൻപ് നിങ്ങൾ അത് അൺലോക്ക് ചെയ്യണം."
       }
     ]
   },
   "booklet-folding-simulator": {
-    "title": "3D Booklet & Folding Simulator",
-    "metaDescription": "Impose multi-page PDFs into foldable print sheets, featuring 3D physical folding animations and saddle-stitch previews.",
+    "title": "3D ബുക്ക്‌ലെറ്റ് & ഫോൾഡിംഗ് സിമുലേറ്റർ",
+    "metaDescription": "3D ഫിസിക്കൽ ഫോൾഡിംഗ് ആനിമേഷനുകളും സാഡിൽ-സ്റ്റിച്ച് പ്രിവ്യൂകളും സഹിതം മൾട്ടി-പേജ് PDF-കളെ മടക്കാവുന്ന പ്രിന്റ് ഷീറ്റുകളിലേക്ക് ക്രമീകരിക്കുക.",
     "keywords": [
       "3D imposition",
       "folding simulator",
@@ -6495,64 +6495,64 @@ export const toolContentMl: Record<string, ToolContent> = {
       "book layout",
       "print proofing"
     ],
-    "description": "\n      <p>3D Booklet & Folding Simulator is an advanced tool designed for print designers and publishing professionals. Traditional book layout requires calculating complex page overlays and imposition pagination sequences. This tool visualizes and automates that entire process.</p>\n      <p>Under the hood, our custom imposition algorithm maps a sequential PDF page list into standard print sheet layouts (such as 4-page half-folds, 8-page saddle stitches, or accordion folds), merging pages onto the front and back of large physical sheets.</p>\n      <p>On the front-end, we utilize pure CSS 3D Matrix transforms and spring-mass physics curves to animate sheet folding horizontally and vertically, delivering a physical-like binding preview with a high WOW factor.</p>\n    ",
+    "description": "\n      <p>3D ബുക്ക്‌ലെറ്റ് & ഫോൾഡിംഗ് സിമുലേറ്റർ പ്രിന്റ് ഡിസൈനർമാർക്കും പബ്ലിഷിംഗ് പ്രൊഫഷണലുകൾക്കുമായി രൂപകൽപ്പന ചെയ്‌ത ഒരു വിപുലമായ ടൂളാണ്. പരമ്പരാഗത ബുക്ക് ലേഔട്ടിന് സങ്കീർണ്ണമായ പേജ് ഓവർലേകളും ഇമ്പോസിഷൻ പേജിനേഷൻ ക്രമങ്ങളും കണക്കാക്കേണ്ടതുണ്ട്. ഈ ടൂൾ ആ മുഴുവൻ പ്രക്രിയയും വിഷ്വലൈസ് ചെയ്യുകയും സ്വയമേവ പ്രവർത്തിപ്പിക്കുകയും ചെയ്യുന്നു.</p>\n      <p>ഞങ്ങളുടെ കസ്റ്റം ഇമ്പോസിഷൻ അൽഗോരിതം ക്രമാനുഗതമായ ഒരു PDF പേജ് ലിസ്റ്റിനെ സ്റ്റാൻഡേർഡ് പ്രിന്റ് ഷീറ്റ് ലേഔട്ടുകളിലേക്ക് (4-പേജ് ഹാഫ്-ഫോൾഡുകൾ, 8-പേജ് സാഡിൽ സ്റ്റിച്ചുകൾ, അല്ലെങ്കിൽ അക്കോർഡിയൻ ഫോൾഡുകൾ എന്നിവ പോലെ) മാപ്പ് ചെയ്യുന്നു, വലിയ ഫിസിക്കൽ ഷീറ്റുകളുടെ മുൻവശത്തും പിൻവശത്തും പേജുകൾ ലയിപ്പിക്കുന്നു.</p>\n      <p>ഫ്രണ്ട്-എൻഡിൽ, ഷീറ്റ് തിരശ്ചീനമായും ലംബമായും മടക്കുന്നത് ആനിമേറ്റ് ചെയ്യാൻ ഞങ്ങൾ പ്യുവർ CSS 3D Matrix ട്രാൻസ്ഫോമുകളും സ്പ്രിംഗ്-മാസ് ഫിസിക്സ് കർവുകളും ഉപയോഗിക്കുന്നു, ഇത് മികച്ച WOW ഫാക്ടറോട് കൂടിയ ഫിസിക്കൽ പോലുള്ള ബൈൻഡിംഗ് പ്രിവ്യൂ നൽകുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload PDF File",
-        "description": "Drag and drop the PDF document you wish to layout for printing."
+        "title": "PDF ഫയൽ അപ്‌ലോഡ് ചെയ്യുക",
+        "description": "പ്രിന്റ് ചെയ്യുന്നതിനായി ലേഔട്ട് ചെയ്യാൻ ആഗ്രഹിക്കുന്ന PDF ഡോക്യുമെന്റ് ഡ്രാഗ് ആൻഡ് ഡ്രോപ്പ് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Select Folding Layout",
-        "description": "Choose your preferred imposition scheme (e.g., 4-page fold, 8-page saddle stitch, 4-page accordion)."
+        "title": "ഫോൾഡിംഗ് ലേഔട്ട് തിരഞ്ഞെടുക്കുക",
+        "description": "നിങ്ങൾക്ക് താൽപ്പര്യമുള്ള ഇമ്പോസിഷൻ സ്കീം തിരഞ്ഞെടുക്കുക (ഉദാഹരണത്തിന്, 4-പേജ് ഫോൾഡ്, 8-പേജ് സാഡിൽ സ്റ്റിച്ച്, 4-പേജ് അക്കോർഡിയൻ)."
       },
       {
         "step": 3,
-        "title": "Interactive 3D Preview",
-        "description": "Drag the slider to watch the sheet fold in 3D and inspect the final page numbering layout."
+        "title": "ഇന്ററാക്ടീവ് 3D പ്രിവ്യൂ",
+        "description": "ഷീറ്റ് 3D-യിൽ മടങ്ങിപ്പോകുന്നത് കാണാനും അവസാന പേജ് നമ്പറിംഗ് ലേഔട്ട് പരിശോധിക്കാനും സ്ലൈഡർ ഡ്രാഗ് ചെയ്യുക."
       },
       {
         "step": 4,
-        "title": "Generate Imposed PDF",
-        "description": "Click generate to download the rearranged and merged physical sheet PDF, ready for double-sided printing."
+        "title": "ഇമ്പോസ് ചെയ്ത PDF ജനറേറ്റ് ചെയ്യുക",
+        "description": "ഇരുവശത്തും പ്രിന്റ് ചെയ്യാൻ തയാറായ, പുനഃക്രമീകരിച്ചതും ലയിപ്പിച്ചതുമായ ഫിസിക്കൽ ഷീറ്റ് PDF ഡൗൺലോഡ് ചെയ്യാൻ ജനറേറ്റ് ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Brochure Prototyping",
-        "description": "Pre-visualize the folding sequence of tri-folds and pamphlets to prevent upsidedown pages after printing.",
+        "title": "ബ്രോഷർ പ്രോട്ടോടൈപ്പിംഗ്",
+        "description": "പ്രിന്റിംഗിന് ശേഷം പേജുകൾ തലകീഴാകുന്നത് തടയാൻ ട്രൈ-ഫോൾഡുകളുടെയും പാമ്പ്ലെറ്റുകളുടെയും ഫോൾഡിംഗ് ക്രമം മുൻകൂട്ടി കണ്ട് ബോധ്യപ്പെടുക.",
         "icon": "book-open"
       },
       {
-        "title": "Book Saddle-Stitching",
-        "description": "Generate imposed print sheets for multi-page magazines or booklets automatically.",
+        "title": "ബുക്ക് സാഡിൽ-സ്റ്റിച്ചിംഗ്",
+        "description": "മൾട്ടി-പേജ് മാഗസിനുകൾക്കോ ബുക്ക്‌ലെറ്റുകൾക്കോ വേണ്ടി തയാറാക്കിയ ഇമ്പോസ്ഡ് പ്രിന്റ് ഷീറ്റുകൾ സ്വയമേവ ജനറേറ്റ് ചെയ്യുക.",
         "icon": "layers"
       },
       {
-        "title": "Print Shop Visual Aids",
-        "description": "Help clients visualize how pages are physically distributed and folded on print sheets.",
+        "title": "പ്രിന്റ് ഷോപ്പ് വിഷ്വൽ എയ്ഡുകൾ",
+        "description": "പ്രിന്റ് ഷീറ്റുകളിൽ പേജുകൾ എങ്ങനെയാണ് ഭൗതികമായി വിതരണം ചെയ്യുന്നതെന്നും മടക്കുന്നതെന്നും വിഷ്വലൈസ് ചെയ്യാൻ ക്ലയന്റുകളെ സഹായിക്കുക.",
         "icon": "printer"
       }
     ],
     "faq": [
       {
-        "question": "What is \"Imposition\"?",
-        "answer": "Imposition is a fundamental step in prepress printing. Since commercial presses print on large sheets, pages are arranged out of order so that once printed, folded, and bound, the pages appear in the correct sequential order. This tool automatically calculates that layout."
+        "question": "എന്താണ് \"ഇമ്പോസിഷൻ\"?",
+        "answer": "പ്രീപ്രസ്സ് പ്രിന്റിംഗിലെ ഒരു അടിസ്ഥാന ഘട്ടമാണ് ഇമ്പോസിഷൻ. കൊമേഴ്‌സ്യൽ പ്രസ്സുകൾ വലിയ ഷീറ്റുകളിൽ പ്രിന്റ് ചെയ്യുന്നതിനാൽ, പേജുകൾ ക്രമം തെറ്റിച്ചാണ് ക്രമീകരിക്കുന്നത്, അങ്ങനെ പ്രിന്റ് ചെയ്ത്, മടക്കി, ബൈൻഡ് ചെയ്തുകഴിഞ്ഞാൽ, പേജുകൾ ശരിയായ ക്രമത്തിൽ ദൃശ്യമാകും. ഈ ടൂൾ ആ ലേഔട്ട് സ്വയമേവ കണക്കാക്കുന്നു."
       },
       {
-        "question": "Does the 3D preview alter my PDF content?",
-        "answer": "No, the original PDF content is merely rendered as texture mappings onto the 3D sheet. The generated PDF only adjusts page order and placement; text and graphic qualities are kept intact."
+        "question": "3D പ്രിവ്യൂ എന്റെ PDF ഉള്ളടക്കത്തിൽ മാറ്റം വരുത്തുമോ?",
+        "answer": "ഇല്ല, ഒറിജിനൽ PDF ഉള്ളടക്കം 3D ഷീറ്റിലേക്ക് ടെക്സ്ചർ മാപ്പിംഗുകളായി റെൻഡർ ചെയ്യപ്പെടുക മാത്രമേ ചെയ്യുന്നുള്ളൂ. ജനറേറ്റ് ചെയ്ത PDF പേജ് ക്രമവും സ്ഥാനവും മാത്രമേ ക്രമീകരിക്കൂ; ടെക്സ്റ്റ്, ഗ്രാഫിക് നിലവാരങ്ങൾ മാറ്റമില്ലാതെ നിലനിർത്തുന്നു."
       },
       {
-        "question": "What if my PDF page count is not a multiple of 4 or 8?",
-        "answer": "The optimizer automatically appends blank pages at the end to satisfy the mathematical page-count requirements of the selected folding layout."
+        "question": "എന്റെ PDF പേജ് എണ്ണം 4 അല്ലെങ്കിൽ 8 ന്റെ ഗുണിതമല്ലെങ്കിലോ?",
+        "answer": "തിരഞ്ഞെടുത്ത ഫോൾഡിംഗ് ലേഔട്ടിന്റെ ഗണിതശാസ്ത്രപരമായ പേജ്-എണ്ണ ആവശ്യകതകൾ തൃപ്തിപ്പെടുത്തുന്നതിനായി ഒപ്റ്റിമൈസർ അവസാനം ശൂന്യമായ പേജുകൾ സ്വയമേവ കൂട്ടിച്ചേർക്കുന്നു."
       }
     ]
   },
   "pdf-to-slide": {
-    "title": "PDF to Slide",
-    "metaDescription": "Intelligently analyze PDF outlines, extract vector charts, and reconstruct them into fully-editable PPTX presentations.",
+    "title": "PDF ടു സ്‌ലൈഡ്",
+    "metaDescription": "PDF ഔട്ട്‌ലൈനുകൾ ബുദ്ധിപൂർവ്വം വിശകലനം ചെയ്യുക, വെക്റ്റർ ചാർട്ടുകൾ എക്‌സ്‌ട്രാക്‌റ്റ് ചെയ്യുക, അവയെ പൂർണ്ണമായും എഡിറ്റ് ചെയ്യാൻ കഴിയുന്ന PPTX പ്രസന്റേഷനുകളാക്കി പുനർനിർമ്മിക്കുക.",
     "keywords": [
       "PDF to PPT",
       "slide reconstruction",
@@ -6560,59 +6560,59 @@ export const toolContentMl: Record<string, ToolContent> = {
       "academic presentation",
       "PPTX compiler"
     ],
-    "description": "\n      <p>AI PDF-to-Slide Reconstructor breathes new life into static PDF documents, transforming them into modern, highly-customizable PowerPoint slides (PPTX).</p>\n      <p>The tool uses an advanced layout outline extractor that automatically parses document heading levels, paragraph lines, and font weights to establish a logical slide framework. It also isolates vector charts and high-resolution tables, stripping background artifacts to embed them cleanly as independent editable assets.</p>\n      <p>All PPTX outputs are built using standard Office Open XML elements, meaning all text remains fully editable and vectors do not lose resolution. The front-end showcases a fluid \"starfield\" card transition animation that visualizes the reconstruction in an engaging manner.</p>\n    ",
+    "description": "\n      <p>AI PDF-to-Slide Reconstructor സ്റ്റാറ്റിക് PDF ഡോക്യുമെന്റുകൾക്ക് ജീവൻ നൽകുന്നു, അവയെ ആധുനികവും മികച്ച രീതിയിൽ കസ്റ്റമൈസ് ചെയ്യാവുന്നതുമായ PowerPoint സ്ലൈഡുകളാക്കി (PPTX) മാറ്റുന്നു.</p>\n      <p>ഒരു യുക്തിസഹമായ സ്ലൈഡ് ഫ്രെയിംവർക്ക് സ്ഥാപിക്കുന്നതിന് ഡോക്യുമെന്റ് ഹെഡിംഗ് ലെവലുകൾ, പാരഗ്രാഫ് ലൈനുകൾ, ഫോണ്ട് വെയിറ്റുകൾ എന്നിവ സ്വയമേവ പാർസ് ചെയ്യുന്ന അഡ്വാൻസ്ഡ് ലേഔട്ട് ഔട്ട്‌ലൈൻ എക്‌സ്‌ട്രാക്ടറാണ് ഈ ടൂൾ ഉപയോഗിക്കുന്നത്. ഇത് വെക്റ്റർ ചാർട്ടുകളെയും ഉയർന്ന റെസല്യൂഷനുള്ള ടേബിളുകളെയും വേർതിരിക്കുകയും സ്വതന്ത്രമായി എഡിറ്റ് ചെയ്യാവുന്ന അസറ്റുകളായി എംബഡ് ചെയ്യുന്നതിന് ബാക്ക്ഗ്രൗണ്ട് ആർട്ടിഫാക്റ്റുകൾ ഒഴിവാക്കുകയും ചെയ്യുന്നു.</p>\n      <p>എല്ലാ PPTX ഔട്ട്‌പുട്ടുകളും സ്റ്റാൻഡേർഡ് Office Open XML ഘടകങ്ങൾ ഉപയോഗിച്ചാണ് നിർമ്മിച്ചിരിക്കുന്നത്, അതായത് എല്ലാ ടെക്സ്റ്റുകളും പൂർണ്ണമായും എഡിറ്റ് ചെയ്യാവുന്നതാണ്, വെക്റ്ററുകളുടെ റെസല്യൂഷൻ നഷ്ടപ്പെടുകയുമില്ല. ഫ്രണ്ട്-എൻഡ് ആകർഷകമായ രീതിയിൽ പുനർനിർമ്മാണം വിഷ്വലൈസ് ചെയ്യുന്ന ഫ്ലൂയിഡ് \"സ്റ്റാർഫീൽഡ്\" കാർഡ് ട്രാൻസിഷൻ ആനിമേഷൻ പ്രദർശിപ്പിക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Academic/Business PDF",
-        "description": "Upload a PDF document that contains structured sections and diagrams."
+        "title": "അക്കാദമിക്/ബിസിനസ് PDF അപ്‌ലോഡ് ചെയ്യുക",
+        "description": "സ്ട്രക്ചേർഡ് സെക്ഷനുകളും ഡയഗ്രമുകളും അടങ്ങിയ ഒരു PDF ഡോക്യുമെന്റ് അപ്‌ലോഡ് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Analyze Slide Outlines",
-        "description": "Inspect the extracted slide structure, adjust titles, or delete unneeded card blocks."
+        "title": "സ്ലൈഡ് ഔട്ട്‌ലൈനുകൾ വിശകലനം ചെയ്യുക",
+        "description": "എക്‌സ്‌ട്രാക്‌റ്റ് ചെയ്‌ത സ്ലൈഡ് ഘടന പരിശോധിക്കുക, ശീർഷകങ്ങൾ ക്രമീകരിക്കുക, അല്ലെങ്കിൽ ആവശ്യമില്ലാത്ത കാർഡ് ബ്ലോക്കുകൾ നീക്കം ചെയ്യുക."
       },
       {
         "step": 3,
-        "title": "Reconstruct to PPTX",
-        "description": "Start the compilation engine to receive a standard, editable presentation file."
+        "title": "PPTX ആയി പുനർനിർമ്മിക്കുക",
+        "description": "സ്റ്റാൻഡേർഡ് ആയ, എഡിറ്റ് ചെയ്യാൻ കഴിയുന്ന പ്രസന്റേഷൻ ഫയൽ ലഭിക്കുന്നതിന് കംപൈലേഷൻ എൻജിൻ ആരംഭിക്കുക."
       }
     ],
     "useCases": [
       {
-        "title": "Research Paper Presentation",
-        "description": "Convert academic journal PDFs, text structures, and vector diagrams into slide decks ready for talks.",
+        "title": "റിസർച്ച് പേപ്പർ പ്രസന്റേഷൻ",
+        "description": "അക്കാദമിക് ജേണൽ PDF-കൾ, ടെക്സ്റ്റ് ഘടനകൾ, വെക്റ്റർ ഡയഗ്രമുകൾ എന്നിവ പ്രസംഗങ്ങൾക്ക് തയാറായ സ്ലൈഡ് ഡെക്കുകളാക്കി മാറ്റുക.",
         "icon": "graduation-cap"
       },
       {
-        "title": "Business Report Summary",
-        "description": "Distill massive annual corporate reports into clean, bulleted presentation drafts instantly.",
+        "title": "ബിസിനസ് റിപ്പോർട്ട് സംഗ്രഹം",
+        "description": "വലിയ വാർഷിക കോർപ്പറേറ്റ് റിപ്പോർട്ടുകളെ തൽക്ഷണം വൃത്തിയുള്ള, ബുള്ളറ്റ് ചെയ്ത പ്രെസന്റേഷൻ ഡ്രാഫ്റ്റുകളാക്കി ചുരുക്കുക.",
         "icon": "presentation"
       },
       {
-        "title": "Multi-Device Demos",
-        "description": "Avoid copying screenshots manually. Get a clean, fully-editable layout framework in seconds.",
+        "title": "മൾട്ടി-ഡിവൈസ് ഡെമോകൾ",
+        "description": "സ്ക്രീൻഷോട്ടുകൾ മാനുവലായി കോപ്പി ചെയ്യുന്നത് ഒഴിവാക്കുക. സെക്കൻഡുകൾക്കുള്ളിൽ വൃത്തിയുള്ള, പൂർണ്ണമായി എഡിറ്റ് ചെയ്യാൻ കഴിയുന്ന ലേഔട്ട് ഫ്രെയിംവർക്ക് നേടുക.",
         "icon": "laptop"
       }
     ],
     "faq": [
       {
-        "question": "Are the slides editable in Microsoft Office?",
-        "answer": "Yes. The files are generated natively in memory according to the official Office Open XML (OOXML) specification. Texts, tables, and placeholders are fully interactive in PowerPoint, Keynote, and WPS."
+        "question": "Microsoft Office-ൽ സ്ലൈഡുകൾ എഡിറ്റ് ചെയ്യാൻ കഴിയുമോ?",
+        "answer": "അതെ. ഔദ്യോഗിക Office Open XML (OOXML) സ്‌പെസിഫിക്കേഷൻ അനുസരിച്ച് ഫയലുകൾ നെറ്റീവായി മെമ്മറിയിൽ നിർമ്മിക്കപ്പെടുന്നു. PowerPoint, Keynote, WPS എന്നിവയിൽ ടെക്‌സ്റ്റുകൾ, ടേബിളുകൾ, പ്ലേസ്‌ഹോൾഡറുകൾ എന്നിവ പൂർണ്ണമായും ഇന്ററാക്ടീവ് ആണ്."
       },
       {
-        "question": "How are charts extracted?",
-        "answer": "The engine scans vector paths and raster layers in the PDF, detects bounded areas representing graphs, and clips them out as standalone SVG nodes or high-DPI images."
+        "question": "ചാർട്ടുകൾ എങ്ങനെയാണ് എക്‌സ്‌ട്രാക്‌റ്റ് ചെയ്യുന്നത്?",
+        "answer": "എഞ്ചിൻ PDF-ലെ വെക്റ്റർ പാത്തുകളും റാസ്റ്റർ ലെയറുകളും സ്കാൻ ചെയ്യുകയും ഗ്രാഫുകളെ പ്രതിനിധീകരിക്കുന്ന ബൗണ്ടഡ് ഏരിയകൾ കണ്ടെത്തുകയും അവയെ സ്റ്റാൻഡ്എലോൺ SVG നോഡുകളായോ ഉയർന്ന DPI ഉള്ള ഇമേജുകളായോ ക്ലിപ്പ് ചെയ്തെടുക്കുകയും ചെയ്യുന്നു."
       },
       {
-        "question": "Does this work on scanned documents?",
-        "answer": "For scanned PDFs lacking actual text layers, we recommend running our OCR tool first before passing the file to the Slide Reconstructor."
+        "question": "ഇത് സ്കാൻ ചെയ്ത ഡാക്യുമെന്റുകളിൽ പ്രവർത്തിക്കുമോ?",
+        "answer": "യഥാർത്ഥ ടെക്സ്റ്റ് ലെയറുകൾ ഇല്ലാത്ത സ്കാൻ ചെയ്ത PDF-കൾക്കായി, ഫയൽ Slide Reconstructor-ലേക്ക് നൽകുന്നതിന് മുൻപ് ഞങ്ങളുടെ OCR ടൂൾ ആദ്യം പ്രവർത്തിപ്പിക്കാൻ ഞങ്ങൾ ശുപാർശ ചെയ്യുന്നു."
       }
     ]
   },
   "form-logic-designer": {
     "title": "Form Logic Designer",
-    "metaDescription": "Design dynamic behaviors using a glassmorphic node canvas and inject interactive AcroJS logic into PDF forms.",
+    "metaDescription": "ഒരു ഗ്ലാസ്മോർഫിക് നോഡ് ക്യാൻവാസ് ഉപയോഗിച്ച് ഡൈനാമിക് ബിഹേവിയറുകൾ ഡിസൈൻ ചെയ്യുക, PDF ഫോമുകളിലേക്ക് ഇന്ററാക്ടീവ് AcroJS ലോജിക് ഇൻജക്റ്റ് ചെയ്യുക.",
     "keywords": [
       "PDF form logic",
       "AcroJS injection",
@@ -6620,59 +6620,59 @@ export const toolContentMl: Record<string, ToolContent> = {
       "interactive PDF",
       "field dependencies"
     ],
-    "description": "\n      <p>Interactive Form Logic Designer is a pioneering tool that fills a massive gap in PDF capabilities: creating active, responsive fields instead of flat, dead forms.</p>\n      <p>Through our visual canvas featuring \"glowing glassmorphic nodes\" (built on React Flow), form fields are represented as connected modules. You can drag links to define relationships: e.g., when a checkbox is checked ➜ enable a text input ➜ auto-calculate values and update a total field.</p>\n      <p>Once designed, the AcroJS engine compiles the logic into official Acrobat JavaScript and injects it into the '/AA' (Additional Actions) dictionaries of the AcroForm. The interactive behaviors are then executed natively inside any standard PDF reader.</p>\n    ",
+    "description": "\n      <p>ഇന്ററാക്ടീവ് Form Logic Designer എന്നത് PDF ശേഷികളിലെ വലിയൊരു കുറവ് നികത്തുന്ന ഒരു പയനിയറിംഗ് ടൂളാണ്: ഫ്ലാറ്റായ ജീവനില്ലാത്ത ഫോമുകൾക്ക് പകരം ആക്ടീവും റെസ്‌പോൺസീവുമായ ഫീൽഡുകൾ സൃഷ്ടിക്കുന്നു.</p>\n      <p>(React Flow-ൽ നിർമ്മിച്ച) \"ഗ്ലോയിംഗ് ഗ്ലാസ്മോർഫിക് നോഡുകൾ\" ഉള്ള ഞങ്ങളുടെ വിഷ്വൽ ക്യാൻവാസ് വഴി, ഫോം ഫീൽഡുകൾ കണക്റ്റ് ചെയ്ത മൊഡ്യൂളുകളായി കാണിക്കപ്പെടുന്നു. ബന്ധങ്ങൾ നിർവ്വചിക്കാൻ നിങ്ങൾക്ക് ലിങ്കുകൾ ഡ്രാഗ് ചെയ്യാം: ഉദാഹരണത്തിന്, ഒരു ചെക്ക്ബോക്സ് ചെക്ക് ചെയ്യുമ്പോൾ ➜ ഒരു ടെക്സ്റ്റ് ഇൻപുട്ട് എനേബിൾ ചെയ്യുക ➜ മൂല്യങ്ങൾ സ്വയം കണക്കാക്കി ടോട്ടൽ ഫീൽഡ് അപ്ഡേറ്റ് ചെയ്യുക.</p>\n      <p>ഡിസൈൻ ചെയ്തുകഴിഞ്ഞാൽ, AcroJS എഞ്ചിൻ ഈ ലോജിക്കിനെ ഔദ്യോഗിക Acrobat JavaScript-ലേക്ക് കംപൈൽ ചെയ്യുകയും AcroForm-ന്റെ '/AA' (Additional Actions) ഡിക്‌ഷണറികളിലേക്ക് ഇൻജക്റ്റ് ചെയ്യുകയും ചെയ്യുന്നു. ഇന്ററാക്ടീവ് ബിഹേവിയറുകൾ ഏതൊരു സ്റ്റാൻഡേർഡ് PDF റീഡറിലും നെറ്റീവായി എക്സിക്യൂട്ട് ചെയ്യപ്പെടും.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Interactive PDF",
-        "description": "Provide a PDF file that already has active form fields (AcroForm)."
+        "title": "ഇന്ററാക്ടീവ് PDF അപ്‌ലോഡ് ചെയ്യുക",
+        "description": "ഇതിനകം ആക്ടീവ് ഫോം ഫീൽഡുകൾ (AcroForm) ഉള്ള ഒരു PDF ഫയൽ നൽകുക."
       },
       {
         "step": 2,
-        "title": "Map Out Logic in Canvas",
-        "description": "Connect fields as nodes. Link output events (change, blur) to target actions (show, hide, calculate, disable)."
+        "title": "ക്യാൻവാസിൽ ലോജിക് മാപ്പ് ചെയ്യുക",
+        "description": "ഫീൽഡുകളെ നോഡുകളായി കണക്റ്റ് ചെയ്യുക. ഔട്ട്പുട്ട് ഇവന്റുകളെ (change, blur) ടാർഗെറ്റ് ആക്ഷനുകളിലേക്ക് (show, hide, calculate, disable) ലിങ്ക് ചെയ്യുക."
       },
       {
         "step": 3,
-        "title": "Compile and Download",
-        "description": "Inject the compiled JavaScript logic into the PDF dictionary and save the final smart document."
+        "title": "കംപൈൽ ചെയ്ത് ഡൗൺലോഡ് ചെയ്യുക",
+        "description": "കംപൈൽ ചെയ്ത JavaScript ലോജിക് PDF ഡിക്‌ഷണറിയിലേക്ക് ഇൻജക്റ്റ് ചെയ്ത് ഫൈനൽ സ്മാർട്ട് ഡോക്യുമെന്റ് സേവ് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Smart Sales Contracts",
-        "description": "Show or hide supplementary input fields dynamically based on the client's selected terms.",
+        "title": "സ്മാർട്ട് സെയിൽസ് കോൺട്രാക്റ്റുകൾ",
+        "description": "ക്ലയന്റ് തിരഞ്ഞെടുക്കുന്ന നിബന്ധനകളെ അടിസ്ഥാനമാക്കി അനുബന്ധ ഇൻപുട്ട് ഫീൽഡുകൾ ഡൈനാമിക്കായി കാണിക്കുകയോ മറയ്ക്കുകയോ ചെയ്യുക.",
         "icon": "file-signature"
       },
       {
-        "title": "Automated Expense Forms",
-        "description": "Sum up multiple expense lines and compute taxes dynamically without manual calculation.",
+        "title": "ഓട്ടോമേറ്റഡ് എക്സ്പെൻസ് ഫോമുകൾ",
+        "description": "മാനുവൽ കണക്കുകൂട്ടലുകൾ ഇല്ലാതെ തന്നെ ഒന്നിലധികം ചെലവ് ലൈനുകൾ തുക കൂട്ടുകയും നികുതികൾ ഡൈനാമിക്കായി കണക്കാക്കുകയും ചെയ്യുക.",
         "icon": "calculator"
       },
       {
-        "title": "Interactive Questionnaires",
-        "description": "Skip irrelevant questions based on previous answers, providing a cleaner mobile filling experience.",
+        "title": "ഇന്ററാക്ടീവ് ചോദ്യാവലികൾ",
+        "description": "മുൻപത്തെ ഉത്തരങ്ങളെ അടിസ്ഥാനമാക്കി പ്രസക്തമല്ലാത്ത ചോദ്യങ്ങൾ ഒഴിവാക്കുക, ഇത് മികച്ച മൊബൈൽ ഫില്ലിംഗ് അനുഭവം നൽകുന്നു.",
         "icon": "form-input"
       }
     ],
     "faq": [
       {
-        "question": "Do I need a PDF with pre-existing fields?",
-        "answer": "Yes. This tool is designed to bind logical rules to existing fields. If your PDF does not have interactive fields, use our Form Creator tool to add inputs and check boxes first."
+        "question": "എനിക്ക് മുൻപേ ഫീൽഡുകളുള്ള ഒരു PDF ആവശ്യമുണ്ടോ?",
+        "answer": "അതെ. നിലവിലുള്ള ഫീൽഡുകളിലേക്ക് ലോജിക്കൽ നിയമങ്ങൾ ബൈൻഡ് ചെയ്യുന്നതിനാണ് ഈ ടൂൾ രൂപകൽപ്പന ചെയ്തിരിക്കുന്നത്. നിങ്ങളുടെ PDF-ൽ ഇന്ററാക്ടീവ് ഫീൽഡുകൾ ഇല്ലെങ്കിൽ, ആദ്യം ഇൻപുട്ടുകളും ചെക്ക് ബോക്സുകളും ചേർക്കുന്നതിന് ഞങ്ങളുടെ Form Creator ടൂൾ ഉപയോഗിക്കുക."
       },
       {
-        "question": "Will this logic run on any PDF reader?",
-        "answer": "It runs on all PDF readers that comply with Adobe PDF standards and support Acrobat JavaScript (such as Adobe Acrobat Reader, Foxit Reader, and major web browsers). Minimalist mobile readers might support basic actions only."
+        "question": "ഈ ലോജിക് ഏതൊരു PDF റീഡറിലും പ്രവർത്തിക്കുമോ?",
+        "answer": "Adobe PDF നിലവാരം പാലിക്കുകയും Acrobat JavaScript പിന്തുണയ്ക്കുകയും ചെയ്യുന്ന എല്ലാ PDF റീഡറുകളിലും (Adobe Acrobat Reader, Foxit Reader, പ്രധാന വെബ് ബ്രൗസറുകൾ എന്നിവ പോലുള്ളവ) ഇത് പ്രവർത്തിക്കുന്നു. മിനിമലിസ്റ്റ് മൊബൈൽ റീഡറുകൾ അടിസ്ഥാന ആക്ഷനുകൾ മാത്രമേ പിന്തുണച്ചേക്കാം."
       },
       {
-        "question": "Does this affect paper printing?",
-        "answer": "Not at all. The injected scripts only run on-screen during form completion. When printing, the current state of fields is printed statically without any node visualization."
+        "question": "ഇത് പേപ്പർ പ്രിന്റിംഗിനെ ബാധിക്കുമോ?",
+        "answer": "ഒരിക്കലുമില്ല. ഇൻജക്റ്റ് ചെയ്ത സ്‌ക്രിപ്റ്റുകൾ ഫോം പൂരിപ്പിക്കുന്ന സമയത്ത് സ്ക്രീനിൽ മാത്രമേ പ്രവർത്തിക്കൂ. പ്രിന്റ് ചെയ്യുമ്പോൾ, യാതൊരു നോഡ് വിഷ്വലൈസേഷനും കൂടാതെ ഫീൽഡുകളുടെ നിലവിലുള്ള അവസ്ഥ സ്റ്റാറ്റിക്കായി പ്രിന്റ് ചെയ്യപ്പെടും."
       }
     ]
   },
   "eink-optimizer": {
-    "title": "e-Ink Reader Optimizer",
-    "metaDescription": "Optimize PDFs for e-Ink screens via background clearing, Otsu binarization, and morphological text dilation.",
+    "title": "e-Ink റീഡർ ഓപ്റ്റിമൈസർ",
+    "metaDescription": "ബാക്ക്ഗ്രൗണ്ട് ക്ലിയറിംഗ്, Otsu ബൈനറൈസേഷൻ, മോർഫോളജിക്കൽ ടെക്സ്റ്റ് ഡൈലേഷൻ എന്നിവ വഴി e-Ink സ്ക്രീനുകൾക്കായി PDF-കൾ ഓപ്റ്റിമൈസ് ചെയ്യുക.",
     "keywords": [
       "eink optimizer",
       "binarization",
@@ -6680,59 +6680,59 @@ export const toolContentMl: Record<string, ToolContent> = {
       "eye-friendly reading",
       "otsu threshold"
     ],
-    "description": "\n      <p>e-Ink Reader Optimizer is a must-have tool custom-made for e-Reader enthusiasts using Kindle, Onyx Boox, Kobo, or other e-paper devices.</p>\n      <p>Many scanned PDF e-books suffer from faint lettering, muddy gray backgrounds, noise, or scan shadows when viewed on e-Ink screens. This tool analyzes gray-value histograms and applies Otsu's Binarization Thresholding to separate text from background, converting gray backdrops to clean white.</p>\n      <p>Additionally, it integrates morphological dilation to bold and thicken thin, faded characters, providing crisp, high-contrast typography. The inertia-damped contrast slider allows you to fine-tune the paper-like contrast in real-time.</p>\n    ",
+    "description": "\n      <p>Kindle, Onyx Boox, Kobo അല്ലെങ്കിൽ മറ്റ് e-paper ഡിവൈസുകൾ ഉപയോഗിക്കുന്ന e-Reader പ്രേമികൾക്കായി പ്രത്യേകം തയാറാക്കിയ ഒഴിച്ചുകൂടാനാവാത്ത ഒരു ടൂളാണ് e-Ink Reader Optimizer.</p>\n      <p>e-Ink സ്ക്രീനുകളിൽ കാണുമ്പോൾ സ്കാൻ ചെയ്ത പല PDF ഇ-ബുക്കുകളിലും മങ്ങിയ അക്ഷരങ്ങൾ, മങ്ങിയ ചാരനിറത്തിലുള്ള പശ്ചാത്തലം, നോയ്സ് അല്ലെങ്കിൽ സ്കാൻ നിഴലുകൾ എന്നിവ ഉണ്ടാകാറുണ്ട്. ഈ ടൂൾ ഗ്രേ-വാല്യൂ ഹിസ്റ്റോഗ്രാമുകൾ വിശകലനം ചെയ്യുകയും പശ്ചാത്തലത്തിൽ നിന്ന് ടെക്സ്റ്റ് വേർതിരിക്കാൻ Otsu's Binarization Thresholding ഉപയോഗിക്കുകയും ചാരനിറത്തിലുള്ള പശ്ചാത്തലങ്ങളെ വൃത്തിയുള്ള വെള്ളയാക്കി മാറ്റുകയും ചെയ്യുന്നു.</p>\n      <p>കൂടാതെ, മങ്ങിയ നേർത്ത അക്ഷരങ്ങളെ കട്ടിയുള്ളതാക്കാൻ ഇത് മോർഫോളജിക്കൽ ഡൈലേഷൻ ഉപയോഗിക്കുന്നു, ഉയർന്ന കോൺട്രാസ്റ്റുള്ള വ്യക്തമായ ടൈപ്പോഗ്രാഫി നൽകുന്നു. ഇൻറർഷ്യ-ഡാംപ്ഡ് കോൺട്രാസ്റ്റ് സ്ലൈഡർ തത്സമയം പേപ്പർ പോലുള്ള കോൺട്രാസ്റ്റ് കൃത്യമായി ക്രമീകരിക്കാൻ നിങ്ങളെ അനുവദിക്കുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Scanned PDF",
-        "description": "Upload e-books or scanned documents with faint text or gray backgrounds."
+        "title": "സ്കാൻ ചെയ്ത PDF അപ്‌ലോഡ് ചെയ്യുക",
+        "description": "മങ്ങിയ ടെക്സ്റ്റോ ചാരനിറത്തിലുള്ള പശ്ചാത്തലമോ ഉള്ള ഇ-ബുക്കുകളോ സ്കാൻ ചെയ്ത ഡാക്യുമെന്റുകളോ അപ്‌ലോഡ് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Adjust Contrast Slider",
-        "description": "Drag the damped slider to balance background removal and character bolding in real-time."
+        "title": "കോൺട്രാസ്റ്റ് സ്ലൈഡർ ക്രമീകരിക്കുക",
+        "description": "ബാക്ക്ഗ്രൗണ്ട് നീക്കംചെയ്യലും അക്ഷരങ്ങളുടെ കട്ടികൂട്ടലും തത്സമയം ബാലൻസ് ചെയ്യുന്നതിന് ഡാംപ്ഡ് സ്ലൈഡർ വലിച്ചിടുക."
       },
       {
         "step": 3,
-        "title": "Optimize and Download",
-        "description": "Process the entire PDF to generate a high-contrast, eye-friendly document tailored for e-Ink."
+        "title": "ഓപ്റ്റിമൈസ് ചെയ്ത് ഡൗൺലോഡ് ചെയ്യുക",
+        "description": "e-Ink-ന് അനുയോജ്യമായ ഉയർന്ന കോൺട്രാസ്റ്റുള്ള, കണ്ണുകൾക്ക് ആയാസമില്ലാത്ത ഒരു ഡാക്യുമെന്റ് നിർമ്മിക്കുന്നതിന് മുഴുവൻ PDF-ഉം പ്രൊസസ്സ് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Ancient Manuscript Restoration",
-        "description": "Thicken faded text in scans of historical books or handwritten manuscripts to make them readable.",
+        "title": "പ്രാചീന കൈയെഴുത്തുപ്രതികളുടെ പുനരുദ്ധാരണം",
+        "description": "ചരിത്ര പുസ്തകങ്ങളുടെയോ കൈയെഴുത്തുപ്രതികളുടെയോ സ്കാനുകളിലെ മങ്ങിയ ടെക്സ്റ്റുകൾ വായിക്കാവുന്ന രീതിയിൽ കട്ടികൂട്ടുക.",
         "icon": "scroll"
       },
       {
-        "title": "Exam Sheet Clean-up",
-        "description": "Bleach background shadows from photocopied or photographed exams, returning clean black text on white paper.",
+        "title": "പരീക്ഷാ പേപ്പർ ക്ലീൻ-അപ്പ്",
+        "description": "ഫോട്ടോ കോപ്പി ചെയ്തതോ ഫോട്ടോ എടുത്തതോ ആയ പരീക്ഷാ പേപ്പറുകളിലെ പശ്ചാത്തല നിഴലുകൾ നീക്കംചെയ്ത്, വെള്ള പേപ്പറിൽ വൃത്തിയുള്ള കറുത്ത ടെക്സ്റ്റ് നൽകുന്നു.",
         "icon": "file-text"
       },
       {
-        "title": "E-paper Device Tailoring",
-        "description": "Convert colored PDFs to optimized grayscale, preventing messy, dithering artifacts on monochrome screens.",
+        "title": "E-paper ഡിവൈസുകൾക്ക് അനുയോജ്യമാക്കൽ",
+        "description": "മോണോക്രോം സ്ക്രീനുകളിൽ വികലമായ ഡിതറിംഗ് ആർട്ടിഫാക്റ്റുകൾ ഉണ്ടാകുന്നത് തടഞ്ഞുകൊണ്ട്, കളർ PDF-കളെ ഓപ്റ്റിമൈസ് ചെയ്ത ഗ്രേസ്കേലിലേക്ക് മാറ്റുക.",
         "icon": "tablet"
       }
     ],
     "faq": [
       {
-        "question": "How does the \"character bolding\" work?",
-        "answer": "In image processing, this is called dilation. It uses a structuring matrix to expand character margins by a pixel, physically thickening faint strokes to make them legible."
+        "question": "\"അക്ഷരങ്ങളുടെ കട്ടികൂട്ടൽ\" എങ്ങനെയാണ് പ്രവർത്തിക്കുന്നത്?",
+        "answer": "ഇമേജ് പ്രൊസസ്സിംഗിൽ, ഇതിനെ ഡൈലേഷൻ (dilation) എന്ന് വിളിക്കുന്നു. ഇത് ഒരു സ്ട്രക്ചറിംഗ് മാട്രിക്സ് ഉപയോഗിച്ച് അക്ഷരങ്ങളുടെ മാർജിൻ ഒരു പിക്സൽ വികസിപ്പിക്കുന്നു, മങ്ങിയ വരകളെ കട്ടികൂട്ടി വായിക്കാൻ തക്കവണ്ണമാക്കുന്നു."
       },
       {
-        "question": "Will this process bloat the file size?",
-        "answer": "Quite the opposite. By binarizing complex color/grayscale images to simple black-and-white layouts, standard compression (like CCITT Group 4) can shrink the PDF file size significantly."
+        "question": "ഈ പ്രക്രിയ ഫയൽ സൈസ് കൂട്ടുമോ?",
+        "answer": "നേരെ മറിച്ചാണ്. സങ്കീർണ്ണമായ കളർ/ഗ്രേസ്‌കെയിൽ ചിത്രങ്ങളെ ലളിതമായ ബ്ലാക്ക് ആന്റ് വൈറ്റ് ലേഔട്ടുകളാക്കി ബൈനറൈസ് ചെയ്യുന്നതിലൂടെ, സ്റ്റാൻഡേർഡ് കംപ്രഷൻ (CCITT Group 4 പോലുള്ളവ) ഉപയോഗിച്ച് PDF ഫയൽ സൈസ് ഗണ്യമായി കുറയ്ക്കാൻ കഴിയും."
       },
       {
-        "question": "Does this support native text PDFs?",
-        "answer": "Yes. Native vector PDFs are rasterized at high resolutions in the background, optimized, and compiled back, ensuring unified high-contrast reading."
+        "question": "ഇത് നെറ്റീവ് ടെക്സ്റ്റ് PDF-കളെ പിന്തുണയ്ക്കുമോ?",
+        "answer": "അതെ. നെറ്റീവ് വെക്റ്റർ PDF-കൾ ബാക്ക്ഗ്രൗണ്ടിൽ ഉയർന്ന റെസല്യൂഷനിൽ റാസ്റ്ററൈസ് ചെയ്യപ്പെടുകയും ഓപ്റ്റിമൈസ് ചെയ്ത് തിരികെ കംപൈൽ ചെയ്യപ്പെടുകയും ചെയ്യുന്നു, ഇത് ഉയർന്ന കോൺട്രാസ്റ്റുള്ള വായന ഉറപ്പാക്കുന്നു."
       }
     ]
   },
   "cert-cryptor": {
-    "title": "Certificate Encrypt & Sign",
-    "metaDescription": "Secure PDFs using asymmetric public-key certificate encryption, paired with a 3D gold wax-seal imprint and PKCS#7 signature.",
+    "title": "സർട്ടിഫിക്കറ്റ് എൻക്രിപ്റ്റും ഒപ്പും",
+    "metaDescription": "അസമമിത പബ്ലിക്-കീ സർട്ടിഫിക്കറ്റ് എൻക്രിപ്ഷൻ, 3D ഗോൾഡ് വാക്സ്-സീൽ പതിപ്പ്, PKCS#7 ഡിജിറ്റൽ സിഗ്നേച്ചർ എന്നിവ ഉപയോഗിച്ച് PDF-കൾ സുരക്ഷിതമാക്കുക.",
     "keywords": [
       "certificate encryption",
       "wax seal signature",
@@ -6740,64 +6740,64 @@ export const toolContentMl: Record<string, ToolContent> = {
       "asymmetric crypt",
       "PKCS7 signature"
     ],
-    "description": "\n      <p>3D Wax-Seal & Certificate Cryptor provides military-grade security and premium physical-grade aesthetics for sensitive corporate files, degrees, or agreements.</p>\n      <p>Technically, it offers asymmetric public-key encryption:  only the holder of the matching private key (.pfx) can decrypt it. It also generates standard PKCS#7 digital signatures to ensure document tamper-proof integrity.</p>\n      <p>Visually, we feature a 3D physical gold or red wax-seal stamp. When you sign, a beautifully rendered stamp descends with a satisfying mechanical sound, leaving a 3D wax seal with realistic normal-mapped height variations and wax run-offs on the page, surrounded by glowing cryptographic tracks.</p>\n    ",
+    "description": "<p>3D വാക്സ്-സീൽ & സർട്ടിഫിക്കറ്റ് ക്രിപ്റ്റർ തന്ത്രപ്രധാനമായ കോർപ്പറേറ്റ് ഫയലുകൾ, ബിരുദങ്ങൾ അല്ലെങ്കിൽ കരാറുകൾ എന്നിവയ്ക്കായി മിലിറ്ററി-ഗ്രേഡ് സുരക്ഷയും മികച്ച ഫിസിക്കൽ-ഗ്രേഡ് സൗന്ദര്യവും നൽകുന്നു.</p><p>സാങ്കേതികമായി, ഇത് അസമമിത പബ്ലിക്-കീ എൻക്രിപ്ഷൻ നൽകുന്നു: പൊരുത്തപ്പെടുന്ന പ്രൈവറ്റ് കീ (.pfx) ഉള്ളയാൾക്ക് മാത്രമേ ഇത് ഡീക്രിപ്റ്റ് ചെയ്യാൻ കഴിയൂ. രേഖകൾ തിരിമറി നടത്താൻ കഴിയില്ലെന്ന് ഉറപ്പാക്കാൻ ഇത് സ്റ്റാൻഡേർഡ് PKCS#7 ഡിജിറ്റൽ സിഗ്നേച്ചറുകളും സൃഷ്ടിക്കുന്നു.</p><p>ദൃശ്യപരമായി, 3D ഫിസിക്കൽ ഗോൾഡ് അല്ലെങ്കിൽ റെഡ് വാക്സ്-സീൽ സ്റ്റാമ്പ് ഞങ്ങൾ വാഗ്ദാനം ചെയ്യുന്നു. നിങ്ങൾ ഒപ്പിടുമ്പോൾ, മനോഹരമായി റെൻഡർ ചെയ്ത സ്റ്റാമ്പ് ഒരു ശബ്ദത്തോടെ താഴേക്ക് പതിക്കുകയും, റിയലിസ്റ്റിക് ഉയര വ്യത്യാസങ്ങളും വാക്സ് റൺ-ഓഫുകളും ഉള്ള ഒരു 3D വാക്സ് സീൽ പേജിൽ അവശേഷിപ്പിക്കുകയും ചെയ്യുന്നു.</p>",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload PDF and Cert",
-        "description": "Add your PDF and import your signing certificate (.pfx) or the recipient's public certificate (.cer)."
+        "title": "PDF-ഉം സർട്ടിഫിക്കറ്റും അപ്‌ലോഡ് ചെയ്യുക",
+        "description": "നിങ്ങളുടെ PDF ചേർത്ത് നിങ്ങളുടെ സൈനിംഗ് സർട്ടിഫിക്കറ്റ് (.pfx) അല്ലെങ്കിൽ സ്വീകർത്താവിന്റെ പബ്ലിക് സർട്ടിഫിക്കറ്റ് (.cer) ഇമ്പോർട്ട് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Place the 3D Stamp",
-        "description": "Drag and locate the seal on the document preview, and pick a wax style (e.g., gold, crimson)."
+        "title": "3D സ്റ്റാമ്പ് സ്ഥാപിക്കുക",
+        "description": "ഡോക്യുമെന്റ് പ്രിവ്യൂവിൽ സീൽ ഡ്രാഗ് ചെയ്ത് സ്ഥാനം നിശ്ചയിക്കുക, കൂടാതെ ഒരു വാക്സ് സ്റ്റൈൽ (ഉദാ. ഗോൾഡ്, ക്രിംസൺ) തിരഞ്ഞെടുക്കുക."
       },
       {
         "step": 3,
-        "title": "Press and Sign",
-        "description": "Click execute to watch the 3D wax-seal imprint ceremony, generating a physical-grade digital signature."
+        "title": "അമർത്തി ഒപ്പിടുക",
+        "description": "ഒരു ഫിസിക്കൽ-ഗ്രേഡ് ഡിജിറ്റൽ സിഗ്നേച്ചർ സൃഷ്ടിക്കുന്ന 3D വാക്സ്-സീൽ ഇംപ്രിന്റ് പ്രക്രിയ കാണാൻ എക്സിക്യൂട്ട് ക്ലിക്ക് ചെയ്യുക."
       },
       {
         "step": 4,
-        "title": "Download Secured PDF",
-        "description": "Save the output document, now cryptographically locked and stamped."
+        "title": "സുരക്ഷിതമായ PDF ഡൗൺലോഡ് ചെയ്യുക",
+        "description": "ഇപ്പോൾ ക്രിപ്റ്റോഗ്രാഫിക്കലായി ലോക്ക് ചെയ്തതും സ്റ്റാമ്പ് ചെയ്തതുമായ ഔട്ട്പുട്ട് ഡോക്യുമെന്റ് സേവ് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Diplomas and Certificates",
-        "description": "Affix highly-valued 3D wax seal badges to digital diplomas and awards, backed by genuine digital signatures.",
+        "title": "ഡിപ്ലോമകളും സർട്ടിഫിക്കറ്റുകളും",
+        "description": "യഥാർത്ഥ ഡിജിറ്റൽ സിഗ്നേച്ചറുകളുടെ പിൻബലത്തോടെ ഡിജിറ്റൽ ഡിപ്ലോമകളിലും അവാർഡുകളിലും വിലയേറിയ 3D വാക്സ് സീൽ ബാഡ്ജുകൾ പതിപ്പിക്കുക.",
         "icon": "award"
       },
       {
-        "title": "Confidential Agreements",
-        "description": "Lock sensitive contracts using the client's public certificate so that only their secure physical keycard can unlock it.",
+        "title": "രഹസ്യ സ്വഭാവമുള്ള കരാറുകൾ",
+        "description": "ക്ലയന്റിന്റെ പബ്ലിക് സർട്ടിഫിക്കറ്റ് ഉപയോഗിച്ച് തന്ത്രപ്രധാനമായ കരാറുകൾ ലോക്ക് ചെയ്യുക, അതുവഴി അവരുടെ സുരക്ഷിതമായ ഫിസിക്കൽ കീകാർഡിന് മാത്രമേ അത് അൺലോക്ക് ചെയ്യാൻ സാധിക്കൂ.",
         "icon": "shield-alert"
       },
       {
-        "title": "Official Press Releases",
-        "description": "Digitally sign public announcements to prevent malicious text edits or spoofing.",
+        "title": "ഔദ്യോഗിക പ്രസ് റിലീസുകൾ",
+        "description": "ദുരുദ്ദേശപരമായ ടെക്സ്റ്റ് എഡിറ്റുകളോ വ്യാജരേഖ ചമയ്ക്കലോ തടയുന്നതിന് പബ്ലിക് അനൗൺസ്മെന്റുകളിൽ ഡിജിറ്റലായി ഒപ്പിടുക.",
         "icon": "stamp"
       }
     ],
     "faq": [
       {
-        "question": "Is the wax seal just an image or a real signature?",
-        "answer": "Both. The system renders an incredibly realistic 3D wax imprint with normal-mapped depth (visual layer) and encodes an authentic, tamper-proof PKCS#7 cryptographic signature inside the PDF (data layer)."
+        "question": "വാക്സ് സീൽ ഒരു ചിത്രം മാത്രമാണോ അതോ യഥാർത്ഥ ഒപ്പാണോ?",
+        "answer": "രണ്ടുമാണ്. സിസ്റ്റം നോർമൽ-മാപ്പ് ചെയ്ത ഡെപ്ത് (വിഷ്വൽ ലെയർ) ഉള്ള അതിശയകരമായ റിയലിസ്റ്റിക് 3D വാക്സ് ഇംപ്രിന്റ് റെൻഡർ ചെയ്യുകയും PDF-ൽ (ഡാറ്റാ ലെയർ) തിരിമറി നടത്താൻ കഴിയാത്ത യഥാർത്ഥ PKCS#7 ക്രിപ്റ്റോഗ്രാഫിക് സിഗ്നേച്ചർ എൻകോഡ് ചെയ്യുകയും ചെയ്യുന്നു."
       },
       {
-        "question": "What is \"Certificate-based Encryption\"?",
-        "answer": "It is a passwordless encryption technique. You encrypt the file using the recipient's public key. The reader automatically searches for their local private certificate to decrypt the file seamlessly, ensuring robust security."
+        "question": "\"സർട്ടിഫിക്കറ്റ് അധിഷ്ഠിത എൻക്രിപ്ഷൻ\" എന്നാൽ എന്താണ്?",
+        "answer": "ഇതൊരു പാസ്‌വേഡ് ഇല്ലാത്ത എൻക്രിപ്ഷൻ സാങ്കേതികവിദ്യയാണ്. സ്വീകർത്താവിന്റെ പബ്ലിക് കീ ഉപയോഗിച്ച് നിങ്ങൾ ഫയൽ എൻക്രിപ്റ്റ് ചെയ്യുന്നു. മികച്ച സുരക്ഷ ഉറപ്പാക്കിക്കൊണ്ട് ഫയൽ ഡീക്രിപ്റ്റ് ചെയ്യുന്നതിന് റീഡർ അവരുടെ ലോക്കൽ പ്രൈവറ്റ് സർട്ടിഫിക്കറ്റ് സ്വയമേവ തിരയുന്നു."
       },
       {
-        "question": "Can I customize the stamp design?",
-        "answer": "Yes. We provide multiple designs like the PDFCraft watermark or a Royal crest, and you can adjust the wax melting radius and normal-map indentation depth in the panel."
+        "question": "എനിക്ക് സ്റ്റാമ്പ് ഡിസൈൻ കസ്റ്റമൈസ് ചെയ്യാൻ കഴിയുമോ?",
+        "answer": "അതെ. PDFCraft വാട്ടർമാർക്ക് അല്ലെങ്കിൽ ഒരു റോയൽ ക്രെസ്റ്റ് പോലുള്ള ഒന്നിലധികം ഡിസൈനുകൾ ഞങ്ങൾ നൽകുന്നു, കൂടാതെ പാനലിലെ വാക്സ് മെൽറ്റിംഗ് റേഡിയസും നോർമൽ-മാപ്പ് ഇൻഡന്റേഷൻ ഡെപ്തും നിങ്ങൾക്ക് ക്രമീകരിക്കാൻ കഴിയും."
       }
     ]
   },
   "passport-id-composer": {
-    "title": "Double-Sided ID Composer",
-    "metaDescription": "Instantly compose both front and back sides of ID cards or passports onto a single A4 page with optional anti-counterfeit watermarks.",
+    "title": "ഡബിൾ സൈഡഡ് ഐഡി കമ്പോസർ",
+    "metaDescription": "വ്യാജ നിർമ്മിതി തടയുന്നതിനുള്ള വാട്ടർമാർക്കുകളോടെ, ഐഡി കാർഡുകളുടെയോ പാസ്‌പോർട്ടുകളുടെയോ മുന്നിലെയും പിന്നിലെയും വശങ്ങൾ ഒറ്റ A4 പേജിലേക്ക് തൽക്ഷണം ക്രമീകരിക്കുക.",
     "keywords": [
       "ID card composer",
       "passport imposition",
@@ -6805,59 +6805,59 @@ export const toolContentMl: Record<string, ToolContent> = {
       "identity card printing",
       "anti-counterfeit watermark"
     ],
-    "description": "\n      <p>The Passport & ID Double-sided Composer is an incredibly useful productivity utility for standard business and personal operations.</p>\n      <p>When applying for bank accounts, onboarding, or signing agreements, we frequently need copies of both sides of ID cards. This tool accepts front/back images or PDF pages and precisely arranges them onto a single A4 page complying with national standard layout resolutions.</p>\n      <p>Furthermore, you can customize overlapping translucent anti-counterfeit watermarks (e.g. \"FOR ONBOARDING ONLY\") to prevent unauthorized document reuse. It even features a 3D glow laser sweep copier scanner door visual effect to deliver premium feedback.</p>\n    ",
+    "description": "<p>പാസ്‌പോർട്ട് & ഐഡി ഡബിൾ സൈഡഡ് കമ്പോസർ എന്നത് സാധാരണ ബിസിനസ്സ്, വ്യക്തിഗത ആവശ്യങ്ങൾക്കായി ഉപയോഗപ്രദമായ പ്രൊഡക്ടിവിറ്റി ടൂളാണ്.</p><p>ബാങ്ക് അക്കൗണ്ടുകൾക്ക് അപേക്ഷിക്കുമ്പോഴോ ഓൺബോർഡിംഗിനോ കരാറുകളിൽ ഒപ്പിടുമ്പോഴോ, ഐഡി കാർഡുകളുടെ ഇരുവശങ്ങളുടെയും പകർപ്പുകൾ നമുക്ക് ഇടയ്ക്കിടെ ആവശ്യമായി വരാറുണ്ട്. ഈ ടൂൾ മുന്നിലെയും പിന്നിലെയും ചിത്രങ്ങൾ അല്ലെങ്കിൽ PDF പേജുകൾ സ്വീകരിക്കുകയും ദേശീയ സ്റ്റാൻഡേർഡ് ലേഔട്ട് റെസല്യൂഷനുകൾക്ക് അനുസൃതമായി ഒരു A4 പേജിൽ കൃത്യമായി ക്രമീകരിക്കുകയും ചെയ്യുന്നു.</p><p>കൂടാതെ, ഡോക്യുമെന്റുകളുടെ അനധികൃത ഉപയോഗം തടയുന്നതിന് സുതാര്യമായ വാട്ടർമാർക്കുകൾ (ഉദാ. \"FOR ONBOARDING ONLY\") നിങ്ങൾക്ക് ക്രമീകരിക്കാം. മികച്ച അനുഭവം നൽകുന്നതിനായി 3D ഗ്ലോ ലേസർ സ്വീപ്പ് കോപ്പിയർ സ്‌കാനർ ഇഫക്റ്റും ഇതിലുണ്ട്.</p>",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload ID files",
-        "description": "Upload front and back photos/scans of your ID or passport (up to 2 files)."
+        "title": "ഐഡി ഫയലുകൾ അപ്‌ലോഡ് ചെയ്യുക",
+        "description": "നിങ്ങളുടെ ഐഡിയുടെയോ പാസ്‌പോർട്ടിന്റെയോ മുന്നിലെയും പിന്നിലെയും ഫോട്ടോകൾ/സ്‌കാനുകൾ അപ്‌ലോഡ് ചെയ്യുക (2 ഫയലുകൾ വരെ)."
       },
       {
         "step": 2,
-        "title": "Configure secure watermark",
-        "description": "Input custom text overlay to restrict unauthorized document replication."
+        "title": "സുരക്ഷിതമായ വാട്ടർമാർക്ക് ക്രമീകരിക്കുക",
+        "description": "ഡോക്യുമെന്റ് അനധികൃതമായി പകർപ്പുകളാക്കുന്നത് തടയാൻ കസ്റ്റം ടെക്സ്റ്റ് ഓവർലേ നൽകുക."
       },
       {
         "step": 3,
-        "title": "Compose & download",
-        "description": "Click execute to generate a single-page print-ready A4 PDF."
+        "title": "കമ്പോസ് ചെയ്തു ഡൗൺലോഡ് ചെയ്യുക",
+        "description": "പ്രിന്റ് ചെയ്യാൻ തയ്യാറായ ഒരു ഒറ്റ പേജ് A4 PDF സൃഷ്ടിക്കാൻ എക്സിക്യൂട്ട് ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "HR onboarding submission",
-        "description": "Quickly align employee ID copies and apply protective watermarks.",
+        "title": "HR ഓൺബോർഡിംഗ് സമർപ്പണം",
+        "description": "ജീവനക്കാരുടെ ഐഡി പകർപ്പുകൾ വേഗത്തിൽ ക്രമീകരിക്കുകയും സുരക്ഷാ വാട്ടർമാർക്കുകൾ ചേർക്കുകയും ചെയ്യുക.",
         "icon": "user"
       },
       {
-        "title": "Government & banking service",
-        "description": "Prepare standardized ID prints that meet physical archive requirements.",
+        "title": "ഗവൺമെന്റ് & ബാങ്കിംഗ് സേവനങ്ങൾ",
+        "description": "ഫിസിക്കൽ ആർക്കൈവ് ആവശ്യകതകൾ നിറവേറ്റുന്ന സ്റ്റാൻഡേർഡ് ഐഡി പ്രിന്റുകൾ തയ്യാറാക്കുക.",
         "icon": "landmark"
       },
       {
-        "title": "Travel backups",
-        "description": "Arrange passport pages and visa details onto a unified A4 paper.",
+        "title": "ട്രാവൽ ബാക്കപ്പുകൾ",
+        "description": "പാസ്‌പോർട്ട് പേജുകളും വിസ വിവരങ്ങളും ഒറ്റ A4 പേപ്പറിലേക്ക് ക്രമീകരിക്കുക.",
         "icon": "plane"
       }
     ],
     "faq": [
       {
-        "question": "Will watermarks block identity text details?",
-        "answer": "No. The watermark is rendered at a carefully tuned 15% opacity to block forgery without sacrificing the legibility of text or photo fields."
+        "question": "വാട്ടർമാർക്കുകൾ തിരിച്ചറിയൽ വിവരങ്ങൾ മറയ്ക്കുമോ?",
+        "answer": "ഇല്ല. ടെക്സ്റ്റുകളുടെയോ ഫോട്ടോയുടെയോ വ്യക്തത നഷ്ടപ്പെടാതെ വ്യാജരേഖ ചമയ്ക്കൽ തടയുന്നതിനായി വാട്ടർമാർക്ക് 15% ഒപ്പാസിറ്റിയിലാണ് നൽകിയിരിക്കുന്നത്."
       },
       {
-        "question": "Is the composite card size accurate?",
-        "answer": "Yes. It renders the ID card at the standard physical dimension of 85.6mm × 54mm scaled perfectly on the A4 page."
+        "question": "കമ്പോസിറ്റ് കാർഡിന്റെ വലുപ്പം കൃത്യമാണോ?",
+        "answer": "അതെ. ഇത് A4 പേജിൽ 85.6mm × 54mm എന്ന കൃത്യമായ അളവിൽ ഐഡി കാർഡിനെ റെൻഡർ ചെയ്യുന്നു."
       },
       {
-        "question": "Does it support driver licenses?",
-        "answer": "Yes, it works beautifully for any card-based identity scans."
+        "question": "ഇത് ഡ്രൈവിംഗ് ലൈസൻസുകളെ പിന്തുണയ്ക്കുമോ?",
+        "answer": "അതെ, ഏതൊരു കാർഡ് അധിഷ്ഠിത ഐഡന്റിറ്റി സ്‌കാനുകൾക്കും ഇത് മികച്ച രീതിയിൽ പ്രവർത്തിക്കുന്നു."
       }
     ]
   },
   "annotation-exporter": {
-    "title": "Export Annotations",
-    "metaDescription": "Extract PDF comments, notes, highlights, and underlines, and structure them into Markdown/JSON notebooks aligned with outline chapters.",
+    "title": "അനൊട്ടേഷനുകൾ എക്സ്പോർട്ട് ചെയ്യുക",
+    "metaDescription": "PDF കമന്റുകൾ, നോട്ട്സ്, ഹൈലൈറ്റുകൾ, അണ്ടർലൈനുകൾ എന്നിവ വേർതിരിച്ചെടുത്ത് അവയെ ഔട്ട്‌ലൈൻ അധ്യായങ്ങളുമായി പൊരുത്തപ്പെടുന്ന രീതിയിൽ Markdown/JSON നോട്ട്ബുക്കുകളാക്കി മാറ്റുക.",
     "keywords": [
       "export annotations",
       "extract pdf highlights",
@@ -6865,59 +6865,59 @@ export const toolContentMl: Record<string, ToolContent> = {
       "markdown outline notebooks",
       "study summary helper"
     ],
-    "description": "\n      <p>The Smart Annotation Exporter is a powerful workspace that unlocks full value from your PDF annotations.</p>\n      <p>While conducting literature reviews or reading extensive ebooks, we make heavy use of highlights and sticky notes. This tool deserializes the low-level PDF <code>/Annots</code> dictionary and extracts all highlights, notes, underlines, and hand-drawn ink markers.</p>\n      <p>It automatically aligns the comments with their respective outline headers, generating a structured Markdown or JSON notebook with page reference anchors. Watch your highlights float beautifully into the frosted-glass notebook panel.</p>\n    ",
+    "description": "<p>സ്മാർട്ട് അനൊട്ടേഷൻ എക്സ്പോർട്ടർ എന്നത് നിങ്ങളുടെ PDF അനൊട്ടേഷനുകളിൽ നിന്ന് മുഴുവൻ മൂല്യവും വീണ്ടെടുക്കുന്നതിനുള്ള ശക്തമായ വർക്ക്സ്പേസാണ്.</p><p>സാഹിത്യ അവലോകനങ്ങൾ നടത്തുമ്പോഴോ വലിയ ഇ-പുസ്തകങ്ങൾ വായിക്കുമ്പോഴോ, നമ്മൾ ഹൈലൈറ്റുകളും സ്റ്റിക്കി നോട്ടുകളും ധാരാളമായി ഉപയോഗിക്കുന്നു. ഈ ടൂൾ PDF <code>/Annots</code> ഡിക്ഷണറി പരിശോധിക്കുകയും എല്ലാ ഹൈലൈറ്റുകളും നോട്ട്സുകളും അണ്ടർലൈനുകളും ഹാൻഡ്-ഡ്രോൺ ഇൻക് മാർക്കറുകളും വേർതിരിച്ചെടുക്കുകയും ചെയ്യുന്നു.</p><p>ഇത് കമന്റുകളെ അതാത് ഔട്ട്‌ലൈൻ ഹെഡറുകളുമായി സ്വയമേവ പൊരുത്തപ്പെടുത്തുകയും പേജ് റെഫറൻസ് ആങ്കറുകളുള്ള ഒരു Markdown അല്ലെങ്കിൽ JSON നോട്ട്ബുക്ക് സൃഷ്ടിക്കുകയും ചെയ്യുന്നു.</p>",
     "howToUse": [
       {
         "step": 1,
-        "title": "Import annotated PDF",
-        "description": "Upload any PDF essay or book containing your underlines, highlights, or comments."
+        "title": "അനൊട്ടേറ്റ് ചെയ്ത PDF ഇമ്പോർട്ട് ചെയ്യുക",
+        "description": "നിങ്ങളുടെ അണ്ടർലൈനുകൾ, ഹൈലൈറ്റുകൾ അല്ലെങ്കിൽ കമന്റുകൾ അടങ്ങിയ ഏതെങ്കിലും PDF ഉപന്യാസമോ പുസ്തകമോ അപ്‌ലോഡ് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Configure filters & format",
-        "description": "Select the annotation types you want to extract and choose Markdown or JSON."
+        "title": "ഫിൽട്ടറുകളും ഫോർമാറ്റും ക്രമീകരിക്കുക",
+        "description": "നിങ്ങൾക്ക് എക്സ്ട്രാക്റ്റ് ചെയ്യേണ്ട അനോട്ടേഷൻ തരങ്ങൾ തിരഞ്ഞെടുത്ത് Markdown അല്ലെങ്കിൽ JSON തിരഞ്ഞെടുക്കുക."
       },
       {
         "step": 3,
-        "title": "Extract notebook",
-        "description": "Click execute to parse the comments stream and assemble your outline summary."
+        "title": "നോട്ട്ബുക്ക് എക്സ്ട്രാക്റ്റ് ചെയ്യുക",
+        "description": "കമന്റ്സ് സ്ട്രീം വിശകലനം ചെയ്യാനും നിങ്ങളുടെ ഔട്ട്‌ലൈൻ സംഗ്രഹം തയ്യാറാക്കാനും execute ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Scientific literature synthesis",
-        "description": "Extract reading notes across multiple papers into Markdown templates to compose lit reviews instantly.",
+        "title": "ശാസ്ത്രീയ സാഹിത്യ വിശകലന സംഗ്രഹം",
+        "description": "ലിറ്ററേച്ചർ റിവ്യൂകൾ തൽക്ഷണം തയ്യാറാക്കാൻ നിരവധി പേപ്പളുകളിൽ നിന്നുള്ള വായനാ കുറിപ്പുകൾ Markdown ടെംപ്ലേറ്റുകളിലേക്ക് എക്സ്ട്രാക്റ്റ് ചെയ്യുക.",
         "icon": "graduation-cap"
       },
       {
-        "title": "Study journal compiling",
-        "description": "Collect beautiful insights and personal remarks from textbooks into Obsidian databases.",
+        "title": "സ്റ്റഡി ജേണൽ കമ്പൈലിംഗ്",
+        "description": "പാഠപുസ്തകങ്ങളിൽ നിന്നുള്ള മികച്ച ആശയങ്ങളും വ്യക്തിഗത കുറിപ്പുകളും Obsidian ഡാറ്റാബേസുകളിലേക്ക് ശേഖരിക്കുക.",
         "icon": "book"
       },
       {
-        "title": "Document collaborative audit",
-        "description": "Gather review corrections from different team members and establish actionable task lists.",
+        "title": "ഡോക്യുമെന്റ് സഹകരണ ഓഡിറ്റ്",
+        "description": "വിവിധ ടീം അംഗങ്ങളിൽ നിന്നുള്ള അവലോകന തിരുത്തലുകൾ ശേഖരിക്കുകയും ചെയ്യാവുന്ന ടാസ്ക് ലിസ്റ്റുകൾ തയ്യാറാക്കുകയും ചെയ്യുക.",
         "icon": "users"
       }
     ],
     "faq": [
       {
-        "question": "Can it extract tablet hand-drawn ink strokes?",
-        "answer": "Yes. As long as the hand-drawn marks are stored as standard PDF Ink annotations, the tool can perfectly isolate and structure their page positions."
+        "question": "ടാബ്‌ലെറ്റിൽ കൈകൊണ്ട് വരച്ച ഇൻക് സ്ട്രോക്കുകൾ ഇതിന് എക്സ്ട്രാക്റ്റ് ചെയ്യാൻ കഴിയുമോ?",
+        "answer": "അതെ. കൈകൊണ്ട് വരച്ച മാർക്കുകൾ സാധാരണ PDF Ink അനോട്ടേഷനുകളായി സൂക്ഷിച്ചിരിക്കുന്നിടത്തോളം, ഈ ടൂളിന് അവയുടെ പേജ് പൊസിഷനുകൾ കൃത്യമായി വേർതിരിക്കാനും ക്രമീകരിക്കാനും കഴിയും."
       },
       {
-        "question": "Why are some highlighted extracts empty?",
-        "answer": "If the PDF is a non-searchable image scan lacking underlying text, highlights only store coordinates. Run OCR on the PDF first, then extract annotations."
+        "question": "ചില ഹൈലൈറ്റ് ചെയ്ത എക്സ്ട്രാക്റ്റുകൾ ശൂന്യമായിരിക്കുന്നത് എന്തുകൊണ്ട്?",
+        "answer": "ടെക്സ്റ്റ് ഇല്ലാത്ത സെർച്ച് ചെയ്യാൻ കഴിയാത്ത ഇമേജ് സ്കാൻ ആണ് PDF എങ്കിൽ, ഹൈലൈറ്റുകൾ കോർഡിനേറ്റുകൾ മാത്രമേ സൂക്ഷിക്കൂ. ആദ്യം PDF-ൽ OCR പ്രവർത്തിപ്പിക്കുക, തുടർന്ന് അനോട്ടേഷനുകൾ എക്സ്ട്രാക്റ്റ് ചെയ്യുക."
       },
       {
-        "question": "Do the Markdown links jump back to the PDF?",
-        "answer": "The exported file lists precise page numbers and original outline headings to make cross-referencing seamless."
+        "question": "Markdown ലിങ്കുകൾ തിരികെ PDF-ലേക്ക് പോകുന്നതാണോ?",
+        "answer": "എക്‌സ്‌പോർട്ട് ചെയ്‌ത ഫയലിൽ കൃത്യമായ പേജ് നമ്പറുകളും യഥാർത്ഥ ഔട്ട്‌ലൈൻ ഹെഡിംഗുകളും നൽകിയിട്ടുള്ളതിനാൽ ക്രോസ്-റെഫറൻസിംഗ് എളുപ്പമാകുന്നു."
       }
     ]
   },
   "batch-watermark-remover": {
-    "title": "Batch Remove Watermarks",
-    "metaDescription": "Physically scrub watermark strings and XObject images from the PDF content stream without messing up layouts.",
+    "title": "വാട്ടർമാർക്കുകൾ ബാച്ചായി നീക്കം ചെയ്യുക",
+    "metaDescription": "ലേഔട്ടുകൾ കേടുവരുത്താതെ PDF കണ്ടെന്റ് സ്ട്രീമിൽ നിന്ന് വാട്ടർമാർക്ക് സ്ട്രിംഗുകളും XObject ചിത്രങ്ങളും പൂർണ്ണമായി നീക്കം ചെയ്യുക.",
     "keywords": [
       "remove watermark",
       "pdf watermark eraser",
@@ -6925,59 +6925,59 @@ export const toolContentMl: Record<string, ToolContent> = {
       "batch watermark cleaning",
       "remove draft watermark"
     ],
-    "description": "\n      <p>The Batch Watermark Remover is a state-of-the-art PDF sanitizer that physically cleanses documents.</p>\n      <p>Generic watermark removers usually just overlay white blocks or distort document spacing. This tool utilizes a robust <strong>Content Stream Purge</strong> technique.</p>\n      <p>It parses the low-level rendering operators of each page, identifies specific watermark string commands (e.g. \"Confidential\", \"DRAFT\") or background image objects, and physically deletes or overwrites them. The watermarks disappear completely, preserving the original formatting and vector quality.</p>\n    ",
+    "description": "\n      <p>ബാച്ച് വാട്ടർമാർക്ക് റിമൂവർ എന്നത് ഡോക്യുമെന്റുകൾ പൂർണ്ണമായി ശുദ്ധീകരിക്കുന്ന അത്യാധുനിക PDF സാനിറ്റൈസറാണ്.</p>\n      <p>സാധാരണ വാട്ടർമാർക്ക് റിമൂവറുകൾ വെളുത്ത ബ്ലോക്കുകൾ മറയ്ക്കുകയോ ഡോക്യുമെന്റ് സ്പേസിംഗ് മാറ്റുകയോ മാത്രമാണ് ചെയ്യുന്നത്. ഈ ടൂൾ ശക്തമായ ഒരു <strong>Content Stream Purge</strong> സാങ്കേതികവിദ്യ ഉപയോഗിക്കുന്നു.</p>\n      <p>ഇത് ഓരോ പേജിന്റെയും ലോ-ലെവൽ റെൻഡറിംഗ് ഓപ്പറേറ്ററുകളെ വിശകലനം ചെയ്യുകയും, നിർദ്ദിഷ്ട വാട്ടർമാർക്ക് സ്ട്രിംഗ് കമാൻഡുകൾ (ഉദാ. \"Confidential\", \"DRAFT\") അല്ലെങ്കിൽ പശ്ചാത്തല ഇമേജ് ഒബ്‌ജക്റ്റുകൾ കണ്ടെത്തുകയും, അവയെ പൂർണ്ണമായി ഇല്ലാതാക്കുകയോ മാറ്റി എഴുതുകയോ ചെയ്യുന്നു. വാട്ടർമാർക്കുകൾ പൂർണ്ണമായും അപ്രത്യക്ഷമാവുകയും ഒറിജിനൽ ഫോർമാറ്റിംഗും വെക്റ്റർ ക്വാളിറ്റിയും നിലനിൽക്കുകയും ചെയ്യുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload watermarked file",
-        "description": "Provide the PDF document showing commercial logos or security labels."
+        "title": "വാട്ടർമാർക്ക് ഉള്ള ഫയൽ അപ്‌ലോഡ് ചെയ്യുക",
+        "description": "വാണിജ്യ ലോഗോകളോ സുരക്ഷാ ലേബലുകളോ ഉള്ള PDF ഡോക്യുമെന്റ് നൽകുക."
       },
       {
         "step": 2,
-        "title": "Define target watermark",
-        "description": "Input the exact string to delete, or toggle translucent XObject image cleanup."
+        "title": "ടാർഗെറ്റ് വാട്ടർമാർക്ക് നിർവ്വചിക്കുക",
+        "description": "നീക്കം ചെയ്യേണ്ട കൃത്യമായ സ്ട്രിംഗ് നൽകുക, അല്ലെങ്കിൽ സുതാര്യമായ XObject ഇമേജ് ക്ലീനപ്പ് ടോഗിൾ ചെയ്യുക."
       },
       {
         "step": 3,
-        "title": "Run physical purge",
-        "description": "Click execute to scrub the content operators with high fidelity."
+        "title": "ഫിസിക്കൽ പേർജ് പ്രവർത്തിപ്പിക്കുക",
+        "description": "കണ്ടെന്റ് ഓപ്പറേറ്ററുകൾ കൃത്യതയോടെ നീക്കം ചെയ്യാൻ execute ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Archiving corporate assets",
-        "description": "Remove expired \"Confidential\" or \"Draft\" watermarks for general public distribution.",
+        "title": "കോർപ്പറേറ്റ് അസറ്റുകൾ ആർക്കൈവ് ചെയ്യൽ",
+        "description": "പൊതുജന വിതരണത്തിനായി കാലാവധി കഴിഞ്ഞ \"Confidential\" അല്ലെങ്കിൽ \"Draft\" വാട്ടർമാർക്കുകൾ നീക്കം ചെയ്യുക.",
         "icon": "archive"
       },
       {
-        "title": "Clearing background clutter",
-        "description": "Scrub heavy background pictures that distract readers from scanning text.",
+        "title": "പശ്ചാത്തല തടസ്സങ്ങൾ നീക്കം ചെയ്യൽ",
+        "description": "ടെക്സ്റ്റ് വായിക്കുന്നതിൽ നിന്ന് ശ്രദ്ധ തിരിക്കുന്ന ഭാരമേറിയ പശ്ചാത്തല ചിത്രങ്ങൾ നീക്കം ചെയ്യുക.",
         "icon": "eye"
       },
       {
-        "title": "Document reusing",
-        "description": "Cleanse old page footer branding elements to apply new corporate templates easily.",
+        "title": "ഡോക്യുമെന്റ് പുനരുപയോഗിക്കൽ",
+        "description": "പുതിയ കോർപ്പറേറ്റ് ടെംപ്ലേറ്റുകൾ എളുപ്പത്തിൽ പ്രയോഗിക്കുന്നതിന് പഴയ പേജ് ഫൂട്ടറിലെ ബ്രാൻഡിംഗ് ഘടകങ്ങൾ നീക്കം ചെയ്യുക.",
         "icon": "copy"
       }
     ],
     "faq": [
       {
-        "question": "Can the purged watermarks be recovered?",
-        "answer": "No. Unlike visual masks, we rewrite the page binary stream to erase the operators, leaving no traces."
+        "question": "നീക്കം ചെയ്ത വാട്ടർമാർക്കുകൾ വീണ്ടെടുക്കാൻ കഴിയുമോ?",
+        "answer": "ഇല്ല. വിഷ്വൽ മാസ്കുകളിൽ നിന്ന് വ്യത്യസ്തമായി, ഓപ്പറേറ്ററുകളെ ഇല്ലാതാക്കാൻ ഞങ്ങൾ പേജ് ബൈനറി സ്ട്രീം വീണ്ടും എഴുതുന്നു, അതിനാൽ യാതൊരു സൂചനയും ബാക്കിയാവില്ല."
       },
       {
-        "question": "Does it support complex gradients?",
-        "answer": "If the watermark is stored as a separate text node or image XObject, the tool can isolate and physically wipe it."
+        "question": "ഇത് സങ്കീർണ്ണമായ ഗ്രേഡിയന്റുകളെ പിന്തുണയ്ക്കുമോ?",
+        "answer": "വാട്ടർമാർക്ക് ഒരു പ്രത്യേക ടെക്സ്റ്റ് നോഡ് അല്ലെങ്കിൽ ഇമേജ് XObject ആയി സൂക്ഷിച്ചിട്ടുണ്ടെങ്കിൽ, ടൂളിന് അതിനെ വേർതിരിക്കാനും പൂർണ്ണമായി നീക്കം ചെയ്യാനും കഴിയും."
       },
       {
-        "question": "Will it modify normal page text?",
-        "answer": "No. The scrubbing engine only target operators matching the specified watermark signature; regular text remains untouched."
+        "question": "ഇത് സാധാരണ പേജ് ടെക്സ്റ്റിൽ മാറ്റം വരുത്തുമോ?",
+        "answer": "ഇല്ല. ക്ലീനിംഗ് എഞ്ചിൻ നിർദ്ദിഷ്ട വാട്ടർമാർക്ക് സിഗ്നേച്ചറുമായി പൊരുത്തപ്പെടുന്ന ഓപ്പറേറ്ററുകളെ മാത്രമേ ലക്ഷ്യമിടുന്നുള്ളൂ; സാധാരണ ടെക്സ്റ്റിന് മാറ്റമൊന്നും സംഭവിക്കില്ല."
       }
     ]
   },
   "smart-data-redactor": {
-    "title": "Sensitive Data Redaction",
-    "metaDescription": "Automatically detect phone numbers, emails, and IDs, overlay opaque masks, and physically erase underlying text streams.",
+    "title": "സെൻസിറ്റീവ് ഡാറ്റ റെഡാക്ഷൻ",
+    "metaDescription": "ഫോൺ നമ്പറുകൾ, ഇമെയിലുകൾ, ഐഡികൾ എന്നിവ സ്വയമേവ കണ്ടെത്തുകയും സുതാര്യമല്ലാത്ത മാസ്കുകൾ നൽകി അടിയിലുള്ള ടെക്സ്റ്റ് സ്ട്രീമുകൾ പൂർണ്ണമായി നീക്കം ചെയ്യുകയും ചെയ്യുക.",
     "keywords": [
       "automatic redaction",
       "redact privacy pdf",
@@ -6985,59 +6985,59 @@ export const toolContentMl: Record<string, ToolContent> = {
       "mask phone numbers",
       "gdpr compliance tool"
     ],
-    "description": "\n      <p>The Smart Privacy Data Redactor is an automated tool designed to ensure robust document privacy compliance.</p>\n      <p>Simply overlaying black boxes in normal editors is unsafe because the underlying text can still be copied. This tool implements true <strong>NLP pattern matching and physical content stream sanitization</strong>.</p>\n      <p>It scans the document for emails, phone numbers, SSNs, or custom keywords, places a premium matte black mask over the coordinates, and permanently overwrites the character stream with <code>[REDACTED]</code>, blocking copy-paste leaks.</p>\n    ",
+    "description": "\n      <p>സ്മാർട്ട് പ്രൈവസി ഡാറ്റാ റെഡാക്ടർ എന്നത് ശക്തമായ ഡോക്യുമെന്റ് പ്രൈവസി അനുസരണം ഉറപ്പാക്കാൻ രൂപകൽപ്പന ചെയ്ത ഒരു ഓട്ടോമേറ്റഡ് ടൂളാണ്.</p>\n      <p>സാധാരണ എഡിറ്ററുകളിൽ കറുത്ത ബോക്സുകൾ മറയ്ക്കുന്നത് സുരക്ഷിതമല്ല, കാരണം അടിയിലുള്ള ടെക്സ്റ്റ് പകർപ്പെയടുക്കാൻ (copy) സാധിക്കും. ഈ ടൂൾ യഥാർത്ഥ <strong>NLP പാറ്റേൺ മാച്ചിംഗും ഫിസിക്കൽ കണ്ടെന്റ് സ്ട്രീം സാനിറ്റൈസേഷനും</strong> നടപ്പിലാക്കുന്നു.</p>\n      <p>ഇത് ഇമെയിലുകൾ, ഫോൺ നമ്പറുകൾ, SSNs അല്ലെങ്കിൽ ഇഷ്‌ടാനുസൃത കീവേഡുകൾ എന്നിവയ്ക്കായി ഡോക്യുമെന്റ് സ്കാൻ ചെയ്യുകയും, കോർഡിനേറ്റുകൾക്ക് മുകളിൽ മാറ്റ് ബ്ലാക്ക് മാസ്ക് സ്ഥാപിക്കുകയും, ക്യാരക്ടർ സ്ട്രീമിന് മുകളിൽ <code>[REDACTED]</code> എന്ന് ശാശ്വതമായി മാറ്റി എഴുതുകയും ചെയ്യുന്നു, ഇത് കോപ്പി-പേസ്റ്റ് ചോർച്ച തടയുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload target PDF",
-        "description": "Provide the contract or statement showing sensitive customer details."
+        "title": "ടാർഗെറ്റ് PDF അപ്‌ലോഡ് ചെയ്യുക",
+        "description": "സെൻസിറ്റീവ് ഉപഭോക്തൃ വിവരങ്ങൾ കാണിക്കുന്ന കരാർ അല്ലെങ്കിൽ സ്റ്റേറ്റ്‌മെന്റ് നൽകുക."
       },
       {
         "step": 2,
-        "title": "Select redaction rules",
-        "description": "Check target patterns (email, phone, ID) or define custom sensitive words."
+        "title": "റെഡാക്ഷൻ നിയമങ്ങൾ തിരഞ്ഞെടുക്കുക",
+        "description": "ടാർഗെറ്റ് പാറ്റേണുകൾ (ഇമെയിൽ, ഫോൺ, ഐഡി) പരിശോധിക്കുക അല്ലെങ്കിൽ ഇഷ്‌ടാനുസൃത സെൻസിറ്റീവ് വാക്കുകൾ നിർവ്വചിക്കുക."
       },
       {
         "step": 3,
-        "title": "Auto redact & download",
-        "description": "Click execute to overlay secure masks and wipe the text streams."
+        "title": "ഓട്ടോ റെഡാക്റ്റ് & ഡൗൺലോഡ്",
+        "description": "സുരക്ഷിതമായ മാസ്കുകൾ നൽകാനും ടെക്സ്റ്റ് സ്ട്രീമുകൾ നീക്കം ചെയ്യാനും execute ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Commercial agreements sharing",
-        "description": "Safely publish business documents by hiding personal salaries, phone numbers, or emails.",
+        "title": "വാണിജ്യ കരാറുകൾ പങ്കിടൽ",
+        "description": "വ്യക്തിഗത ശമ്പളം, ഫോൺ നമ്പറുകൾ അല്ലെങ്കിൽ ഇമെയിലുകൾ എന്നിവ മറച്ചുകൊണ്ട് ബിസിനസ്സ് ഡോക്യുമെന്റുകൾ സുരക്ഷിതമായി പ്രസിദ്ധീകരിക്കുക.",
         "icon": "file-signature"
       },
       {
-        "title": "Resume database anonymization",
-        "description": "Strip applicant names, contact info, or addresses to comply with strict privacy regulations.",
+        "title": "റെസ്യുമെ ഡാറ്റാബേസ് അനോണിമൈസേഷൻ",
+        "description": "കർശനമായ സ്വകാര്യതാ നിയമങ്ങൾ പാലിക്കുന്നതിന് അപേക്ഷകരുടെ പേരുകൾ, ബന്ധപ്പെടേണ്ട വിവരങ്ങൾ അല്ലെങ്കിൽ വിലാസങ്ങൾ എന്നിവ നീക്കം ചെയ്യുക.",
         "icon": "user-check"
       },
       {
-        "title": "Financial statement distribution",
-        "description": "Conceal specific ledger numbers or shareholder names before publishing reports.",
+        "title": "ധനകാര്യ സ്റ്റേറ്റ്‌മെന്റ് വിതരണം",
+        "description": "റിപ്പോർട്ടുകൾ പ്രസിദ്ധീകരിക്കുന്നതിന് മുൻപ് നിർദ്ദിഷ്ട ലെഡ്ജർ നമ്പറുകളോ ഓഹരി ഉടമകളുടെ പേരുകളോ മറയ്ക്കുക.",
         "icon": "pie-chart"
       }
     ],
     "faq": [
       {
-        "question": "Are redacted details truly un-copyable?",
-        "answer": "Yes. We rewrite the page content stream to erase the characters. Copy-pasting from the redacted box will only extract the string \"[REDACTED]\"."
+        "question": "റെഡാക്‌റ്റ് ചെയ്‌ത വിശദാംശങ്ങൾ യഥാർത്ഥത്തിൽ കോപ്പി ചെയ്യാൻ കഴിയാത്തതാണോ?",
+        "answer": "അതെ. അക്ഷരങ്ങൾ മായ്‌ക്കുന്നതിനായി ഞങ്ങൾ പേജ് കണ്ടന്റ് സ്ട്രീം റീറൈറ്റ് ചെയ്യുന്നു. റെഡാക്റ്റ് ചെയ്ത ബോക്‌സിൽ നിന്ന് കോപ്പി-പേസ്റ്റ് ചെയ്താൽ \"[REDACTED]\" എന്ന സ്ട്രിംഗ് മാത്രമേ ലഭിക്കൂ."
       },
       {
-        "question": "Does it work for scanned image PDFs?",
-        "answer": "This tool targets vector text streams. For scanned image files, use our OCR tool first or crop manually."
+        "question": "ഇത് സ്കാൻ ചെയ്ത ഇമേജ് PDF-കളിൽ പ്രവർത്തിക്കുമോ?",
+        "answer": "ഈ ടൂൾ വെക്റ്റർ ടെക്സ്റ്റ് സ്ട്രീമുകളെയാണ് ലക്ഷ്യമിടുന്നത്. സ്കാൻ ചെയ്ത ഇമേജ് ഫയലുകൾക്കായി, ആദ്യം ഞങ്ങളുടെ OCR ടൂൾ ഉപയോഗിക്കുക അല്ലെങ്കിൽ മാനുവലായി ക്രോപ്പ് ചെയ്യുക."
       },
       {
-        "question": "Is the red HUD target scope saved in the file?",
-        "answer": "No, that is a gorgeous frontend interactive loading effect. The output PDF displays standard clean black rectangles."
+        "question": "റെഡ് HUD ടാർഗെറ്റ് സ്കോപ്പ് ഫയലിൽ സേവ് ആകുമോ?",
+        "answer": "ഇല്ല, അത് ആകർഷകമായ ഒരു ഫ്രണ്ട്‌എൻഡ് ഇന്ററാക്ടീവ് ലോഡിംഗ് ഇഫക്റ്റാണ്. ഔട്ട്‌പുട്ട് PDF സാധാരണ ക്ലീനായ കറുത്ത ചതുരശ്രങ്ങൾ കാണിക്കുന്നു."
       }
     ]
   },
   "bookmarks-auto-generator": {
-    "title": "Auto Generate Bookmarks",
-    "metaDescription": "Analyze document layout hierarchy and regex patterns (e.g. Chapter) to generate and inject /Outline bookmark catalogs.",
+    "title": "ഓട്ടോ ജനറേറ്റ് ബുക്ക്മാർക്കുകൾ",
+    "metaDescription": "/Outline ബുക്ക്‌മാർക്ക് കാറ്റലോഗുകൾ ജനറേറ്റ് ചെയ്യാനും ഇൻജക്റ്റ് ചെയ്യാനും ഡോക്യുമെന്റ് ലേഔട്ട് ഹൈറാർക്കിയും റെജക്സ് (regex) പാറ്റേണുകളും (ഉദാഹരണത്തിന്, ചാപ്റ്റർ) വിശകലനം ചെയ്യുക.",
     "keywords": [
       "generate bookmarks",
       "pdf outline builder",
@@ -7045,59 +7045,59 @@ export const toolContentMl: Record<string, ToolContent> = {
       "font size catalog",
       "outline tree builder"
     ],
-    "description": "\n      <p>The Auto Bookmarks Generator brings absolute clarity to lengthy, unstructured PDF documents.</p>\n      <p>Scanning through books or booklets with no outline navigation is painful. This tool parses typographic hierarchies (such as font sizes and weights) along with regex rules (like \"Chapter 1\", \"Section 1.1\") to automatically deduce headings.</p>\n      <p>It then compiles and injects these headings directly into the PDF <code>/Outline</code> dictionary. Any standard viewer will then show a beautifully structured, multi-level navigation sidebar, backed by an interactive 3D outline tree preview.</p>\n    ",
+    "description": "\n      <p>ഓട്ടോ ബുക്ക്‌മാർക്ക്സ് ജനറേറ്റർ ദൈർഘ്യമേറിയതും ക്രമരഹിതവുമായ PDF ഡോക്യുമെന്റുകൾക്ക് പൂർണ്ണമായ വ്യക്തത നൽകുന്നു.</p>\n      <p>ഔട്ട്‌ലൈൻ നാവിഗേഷൻ ഇല്ലാത്ത പുസ്തകങ്ങളിലൂടെയോ ബുക്ക്‌ലെറ്റുകളിലൂടെയോ തിരയുന്നത് പ്രയാസകരമാണ്. ഈ ടൂൾ ടൈപ്പോഗ്രാഫിക് ഹൈറാർക്കികളും (ഫോണ്ട് വലുപ്പങ്ങളും വെയിറ്റുകളും പോലുള്ളവ) റെജക്സ് നിയമങ്ങളും (\"Chapter 1\", \"Section 1.1\" പോലുള്ളവ) അപഗ്രഥിച്ച് ഹെഡിംഗുകൾ സ്വയമേവ കണ്ടെത്തുന്നു.</p>\n      <p>തുടർന്ന് ഈ ഹെഡിംഗുകൾ കംപൈൽ ചെയ്ത് നേരിട്ട് PDF <code>/Outline</code> ഡിക്ഷണറിയിലേക്ക് ഇൻജക്റ്റ് ചെയ്യുന്നു. അതോടെ ഏത് സ്റ്റാൻഡേർഡ് വ്യൂവറിലും ആകർഷകമായി സജ്ജീകരിച്ച, മൾട്ടി-ലെവൽ നാവിഗേഷൻ സൈഡ്ബാർ കാണാൻ കഴിയും, ഒപ്പം ഒരു ഇന്ററാക്ടീവ് 3D ഔട്ട്ലൈൻ ട്രീ പ്രിവ്യൂവും ലഭിക്കും.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Provide unstructured PDF",
-        "description": "Upload large brochures, academic papers, or ebooks lacking a catalog sidebar."
+        "title": "അൺസ്ട്രക്ചേർഡ് PDF നൽകുക",
+        "description": "കാറ്റലോഗ് സൈഡ്‌ബാർ ഇല്ലാത്ത വലിയ ബ്രോഷറുകൾ, അക്കാദമിക് പേപ്പറുകൾ അല്ലെങ്കിൽ ഇ-ബുക്കുകൾ അപ്‌ലോഡ് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Tune heading rules",
-        "description": "Configure strategies specifying minimum font size thresholds and match rules."
+        "title": "ഹെഡിംഗ് നിയമങ്ങൾ ക്രമീകരിക്കുക",
+        "description": "കുറഞ്ഞ ഫോണ്ട് സൈസ് പരിധികളും മാച്ച് റൂളുകളും വ്യക്തമാക്കുന്ന സ്ട്രാറ്റജികൾ കോൺഫിഗർ ചെയ്യുക."
       },
       {
         "step": 3,
-        "title": "Build and inject",
-        "description": "Click execute to render the outline nodes and physically write the outline bookmarks."
+        "title": "ബിൽഡ് ചെയ്ത് ഇൻജക്റ്റ് ചെയ്യുക",
+        "description": "ഔട്ട്‌ലൈൻ നോഡുകൾ റെൻഡർ ചെയ്യാനും ഔട്ട്‌ലൈൻ ബുക്ക്‌മാർക്കുകൾ യഥാർത്ഥമായി എഴുതാനും എക്സിക്യൂട്ട് ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Technical manuals organizing",
-        "description": "Auto compile multi-level chapters for standard guidelines, saving hours of manual indexing.",
+        "title": "ടെക്നിക്കൽ മാനുവലുകൾ ഓർഗനൈസ് ചെയ്യൽ",
+        "description": "സ്റ്റാൻഡേർഡ് മാർഗ്ഗനിർദ്ദേശങ്ങൾക്കായി മൾട്ടി-ലെവൽ ചാപ്റ്ററുകൾ ഓട്ടോ കംപൈൽ ചെയ്യുക, ഇതുവഴി മാനുവൽ ഇൻഡക്സിംഗിന്റെ സമയം ലാഭിക്കാം.",
         "icon": "tool"
       },
       {
-        "title": "Thesis preparation",
-        "description": "Inject clean nested bookmarks matching exact academic submission standards.",
+        "title": "തീസിസ് തയ്യാറാക്കൽ",
+        "description": "കൃത്യമായ അക്കാദമിക് സബ്മിഷൻ മാനദണ്ഡങ്ങൾക്ക് അനുയോജ്യമായ ക്ലീൻ നെസ്റ്റഡ് ബുക്ക്മാർക്കുകൾ ഇൻജക്റ്റ് ചെയ്യുക.",
         "icon": "graduation-cap"
       },
       {
-        "title": "Ebook navigation optimization",
-        "description": "Structure scanned text publications into readable chapters for tablets or mobile readers.",
+        "title": "ഇ-ബുക്ക് നാവിഗേഷൻ ഒപ്റ്റിമൈസേഷൻ",
+        "description": "ടാബ്‌ലെറ്റുകൾക്കോ മൊബൈൽ റീഡറുകൾക്കോ വായിക്കാൻ പാകത്തിന് സ്‌കാൻ ചെയ്‌ത ടെക്‌സ്‌റ്റ് പ്രസിദ്ധീകരണങ്ങളെ ചാപ്റ്ററുകളാക്കി ക്രമീകരിക്കുക.",
         "icon": "tablet"
       }
     ],
     "faq": [
       {
-        "question": "Can it match custom chapter formats?",
-        "answer": "Yes. You can add custom regex patterns in the sidebar panel (e.g., `^Part\\s+\\w+`) to target unique layouts."
+        "question": "ഇതിന് കസ്റ്റം ചാപ്റ്റർ ഫോർമാറ്റുകളുമായി പൊരുത്തപ്പെടാൻ കഴിയുമോ?",
+        "answer": "അതെ. യുണീക് ലേഔട്ടുകളെ ലക്ഷ്യമിടാൻ നിങ്ങൾക്ക് സൈഡ്‌ബാർ പാനലിൽ കസ്റ്റം റെജക്സ് (regex) പാറ്റേണുകൾ (ഉദാഹരണത്തിന്, `^Part\\s+\\w+`) ചേർക്കാവുന്നതാണ്."
       },
       {
-        "question": "Will this affect the visual page presentation?",
-        "answer": "No. The tool only adds an internal structural bookmark catalog. The text and visual assets of the pages remain untouched."
+        "question": "ഇത് വിഷ്വൽ പേജ് പ്രസന്റേഷനെ ബാധിക്കുമോ?",
+        "answer": "ഇല്ല. ഈ ടൂൾ ഒരു ഇന്റേണൽ സ്ട്രക്ചറൽ ബുക്ക്മാർക്ക് കാറ്റലോഗ് മാത്രമേ ചേർക്കൂ. പേജുകളുടെ ടെക്സ്റ്റും വിഷ്വൽ അസറ്റുകളും മാറ്റമില്ലാതെ തുടരും."
       },
       {
-        "question": "How many bookmark levels are supported?",
-        "answer": "The tool supports deeply nested bookmark structures, allowing chapter, section, and subsection layouts."
+        "question": "എത്ര ബുക്ക്മാർക്ക് ലെവലുകൾ സപ്പോർട്ട് ചെയ്യും?",
+        "answer": "ഈ ടൂൾ ആഴത്തിലുള്ള നെസ്റ്റഡ് ബുക്ക്മാർക്ക് സ്ട്രക്ചറുകളെ സപ്പോർട്ട് ചെയ്യുന്നു, ഇത് ചാപ്റ്റർ, സെക്ഷൻ, സബ്സെക്ഷൻ ലേഔട്ടുകൾ അനുവദിക്കുന്നു."
       }
     ]
   },
   "batch-barcode-injector": {
-    "title": "Batch Inject Barcodes",
-    "metaDescription": "Generate custom QR/Code128 tags and precisely inject them into bulk PDF pages with aligning guidelines.",
+    "title": "ബാർകോഡുകൾ കൂട്ടമായി ഉൾപ്പെടുത്തുക",
+    "metaDescription": "കസ്റ്റം QR/Code128 ടാഗുകൾ ജനറേറ്റ് ചെയ്യുകയും അലൈനിംഗ് ഗൈഡ്‌ലൈനുകളോടെ ബൾക്ക് PDF പേജുകളിലേക്ക് കൃത്യമായി ഇൻജക്റ്റ് ചെയ്യുകയും ചെയ്യുക.",
     "keywords": [
       "generate qr pdf",
       "barcode injector",
@@ -7105,59 +7105,59 @@ export const toolContentMl: Record<string, ToolContent> = {
       "qr coordinate positioning",
       "stamp barcodes"
     ],
-    "description": "\n      <p>The Batch Barcode precision injector bridges digital asset tracking with physical document indexing.</p>\n      <p>In warehousing, contract review, or logistics, we often need to Stamp unique barcodes onto invoices or device cards. This tool makes it incredibly easy.</p>\n      <p>Generate highly readable QR codes or Code128 barcodes, and use our gorgeous aligning workspace with green laser guides to position them. A clean scan audio beep triggers on placement, providing highly premium feedback.</p>\n    ",
+    "description": "\n      <p>ബാച്ച് ബാർകോഡ് പ്രിസിഷൻ ഇൻജക്ടർ ഡിജിറ്റൽ അസറ്റ് ട്രാക്കിംഗിനെ ഫിസിക്കൽ ഡോക്യുമെന്റ് ഇൻഡക്സിംഗുമായി ബന്ധിപ്പിക്കുന്നു.</p>\n      <p>വെയർഹൗസിംഗ്, കോൺട്രാക്റ്റ് റിവ്യൂ അല്ലെങ്കിൽ ലോജിസ്റ്റിക്സ് എന്നിവയിൽ, ഇൻവോയ്സുകളിലോ ഡിവൈസ് കാർഡുകളിലോ യുണീക് ബാർകോഡുകൾ സ്റ്റാമ്പ് ചെയ്യേണ്ടതായി വരാറുണ്ട്. ഈ ടൂൾ അത് വളരെ എളുപ്പമാക്കുന്നു.</p>\n      <p>എളുപ്പത്തിൽ സ്കാൻ ചെയ്യാവുന്ന QR കോഡുകളോ Code128 ബാർകോഡുകളോ ജനറേറ്റ് ചെയ്യുക, അവയുടെ സ്ഥാനം നിശ്ചയിക്കാൻ ഗ്രീൻ ലേസർ ഗൈഡുകളുള്ള ഞങ്ങളുടെ ആകർഷകമായ അലൈനിംഗ് വർക്ക്‌സ്‌പേസ് ഉപയോഗിക്കുക. കൃത്യമായി സ്ഥാപിക്കുമ്പോൾ കേൾക്കുന്ന സ്കാൻ ഓഡിയോ ബീപ്പ് ഒരു പ്രീമിയം ഫീഡ്‌ബാക്ക് നൽകുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload document",
-        "description": "Drag and drop single or multi-page PDFs representing agreements or shipping lists."
+        "title": "ഡോക്യുമെന്റ് അപ്‌ലോഡ് ചെയ്യുക",
+        "description": "കരാറുകളെയോ ഷിപ്പിംഗ് ലിസ്റ്റുകളെയോ പ്രതിനിധീകരിക്കുന്ന സിംഗിൾ അല്ലെങ്കിൽ മൾട്ടി-പേജ് PDF-കൾ ഡ്രാഗ് ആൻഡ് ഡ്രോപ്പ് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Position barcode coordinates",
-        "description": "Set code type, value, and drag the placement box to specify coordinates."
+        "title": "ബാർകോഡ് കോർഡിനേറ്റുകൾ പൊസിഷൻ ചെയ്യുക",
+        "description": "കോഡ് ടൈപ്പ്, വാല്യൂ എന്നിവ സെറ്റ് ചെയ്ത്, കോർഡിനേറ്റുകൾ വ്യക്തമാക്കാൻ പ്ലേസ്‌മെന്റ് ബോക്സ് ഡ്രാഗ് ചെയ്യുക."
       },
       {
         "step": 3,
-        "title": "Stamps and download",
-        "description": "Click execute to render the code layer onto the targeted page indices."
+        "title": "സ്റ്റാമ്പ് ചെയ്ത് ഡൗൺലോഡ് ചെയ്യുക",
+        "description": "ലക്ഷ്യമിട്ട പേജ് ഇൻഡെക്സുകളിലേക്ക് കോഡ് ലെയർ റെൻഡർ ചെയ്യാൻ എക്സിക്യൂട്ട് ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Contract validation tracing",
-        "description": "Apply a unique QR code showing anti-counterfeit details onto the header of contracts.",
+        "title": "കോൺട്രാക്റ്റ് വാലിഡേഷൻ ട്രെയ്സിംഗ്",
+        "description": "കരാറുകളുടെ ഹെഡറിൽ വ്യാജരഹിത വിശദാംശങ്ങൾ കാണിക്കുന്ന ഒരു യുണീക് QR കോഡ് ചേർക്കുക.",
         "icon": "file-check"
       },
       {
-        "title": "Shipping lists coding",
-        "description": "Place Code128 barcodes at target spots for quick warehouse scanning gun validation.",
+        "title": "ഷിപ്പിംഗ് ലിസ്റ്റുകൾ കോഡിംഗ്",
+        "description": "വെയർഹൗസ് സ്‌കാനിംഗ് ഗൺ വാലിഡേഷൻ വേഗത്തിലാക്കാൻ ടാർഗെറ്റ് സ്‌പോട്ടുകളിൽ Code128 ബാർകോഡുകൾ സ്ഥാപിക്കുക.",
         "icon": "truck"
       },
       {
-        "title": "Asset registration carding",
-        "description": "Add inventory QR codes displaying maintenance specs onto physical equipment sheets.",
+        "title": "അസറ്റ് രജിസ്ട്രേഷൻ കാർഡിംഗ്",
+        "description": "മെയിന്റനൻസ് വിവരങ്ങൾ കാണിക്കുന്ന ഇൻവെന്ററി QR കോഡുകൾ ഫിസിക്കൽ എക്യുപ്മെന്റ് ഷീറ്റുകളിൽ ചേർക്കുക.",
         "icon": "archive"
       }
     ],
     "faq": [
       {
-        "question": "Are the generated barcodes highly scannable?",
-        "answer": "Yes. We embed lossless high-resolution PNG representations that remain sharp even when printed at very small dimensions."
+        "question": "ജനറേറ്റ് ചെയ്ത ബാർകോഡുകൾ എളുപ്പത്തിൽ സ്കാൻ ചെയ്യാൻ കഴിയുന്നവയാണോ?",
+        "answer": "അതെ. വളരെ ചെറിയ വലുപ്പത്തിൽ പ്രിന്റ് ചെയ്താൽ പോലും വ്യക്തത നിലനിർത്തുന്ന ലോസ്‌ലെസ് ഹൈ-റെസല്യൂഷൻ PNG ചിത്രങ്ങളാണ് ഞങ്ങൾ എംബഡ് ചെയ്യുന്നത്."
       },
       {
-        "question": "Can I inject unique values on each page?",
-        "answer": "Currently, the batch run applies the same configured code onto all selected pages. Multi-valued excel import is planned in a future update."
+        "question": "എനിക്ക് ഓരോ പേജിലും വ്യത്യസ്ത വാല്യൂകൾ ഇൻജക്റ്റ് ചെയ്യാൻ കഴിയുമോ?",
+        "answer": "നിലവിൽ, ബാച്ച് റൺ തെരഞ്ഞെടുത്ത എല്ലാ പേജുകളിലും ഒരേ കോൺഫിഗർ ചെയ്ത കോഡ് തന്നെയാണ് പ്രയോഗിക്കുന്നത്. മൾട്ടി-വാല്യൂഡ് എക്സൽ ഇമ്പോർട്ട് ഭാവി അപ്‌ഡേറ്റിൽ ആസൂത്രണം ചെയ്തിട്ടുണ്ട്."
       },
       {
-        "question": "What does the `pt` coordinate represent?",
-        "answer": "`pt` (Point) is the standard PDF physical unit (72 pt = 1 inch). A4 pages are represented as 595 × 842 pt."
+        "question": "`pt` കോർഡിനേറ്റ് എന്താണ് സൂചിപ്പിക്കുന്നത്?",
+        "answer": "`pt` (പോയിന്റ്) എന്നത് സ്റ്റാൻഡേർഡ് PDF ഫിസിക്കൽ യൂണിറ്റാണ് (72 pt = 1 ഇഞ്ച്). A4 പേജുകൾ 595 × 842 pt ആയി പ്രതിനിധീകരിക്കുന്നു."
       }
     ]
   },
   "signature-ink-optimizer": {
-    "title": "Extract Signature & Stamp",
-    "metaDescription": "Extract handwritten signatures and red corporate stamps from photos, remove paper shadow noise, and export transparent PNGs.",
+    "title": "സിഗ്നേച്ചറും സ്റ്റാമ്പും എക്സ്ട്രാക്റ്റ് ചെയ്യുക",
+    "metaDescription": "ഫോട്ടോകളിൽ നിന്ന് കൈയെഴുത്ത് ഒപ്പുകളും ചുവന്ന കോർപ്പറേറ്റ് മുദ്രകളും വേർതിരിച്ചെടുക്കുക, പേപ്പറിലെ നിഴൽ ശബ്ദങ്ങൾ ഒഴിവാക്കുക, സുതാര്യമായ PNG-കൾ എക്സ്പോർട്ട് ചെയ്യുക.",
     "keywords": [
       "extract signature",
       "transparent signature background",
@@ -7165,59 +7165,59 @@ export const toolContentMl: Record<string, ToolContent> = {
       "sharpen hand signature",
       "png seal maker"
     ],
-    "description": "\n      <p>The Signature & Stamp Chroma Ink Optimizer functions as a professional high-fidelity ink purifier.</p>\n      <p>Signatures or corporate seals captured on phones often suffer from yellow paper tint, uneven shadows, and page wrinkles. Pasting them directly onto contract PDFs looks amateur.</p>\n      <p>This tool separates the Alpha channel based on luminance and color space. It completely bleaches paper backgrounds while sharpening stamp red (Chroma Ink) and handwriting black. The result is a premium, transparent PNG stamp carrying genuine ink textures.</p>\n    ",
+    "description": "\n      <p>സിഗ്നേച്ചർ & സ്റ്റാമ്പ് ക്രോമ ഇങ്ക് ഒപ്റ്റിമൈസർ ഒരു പ്രൊഫഷണൽ ഹൈ-ഫിഡിലിറ്റി ഇങ്ക് പ്യൂരിഫയറായി പ്രവർത്തിക്കുന്നു.</p>\n      <p>ഫോണുകളിൽ പകർത്തുന്ന ഒപ്പുകളിലും കോർപ്പറേറ്റ് മുദ്രകളിലും പലപ്പോഴും മഞ്ഞ പേപ്പർ നിറം, അസമമായ നിഴലുകൾ, പേപ്പർ മടക്കുകൾ എന്നിവ ഉണ്ടാകാറുണ്ട്. ഇവ കരാർ PDF-കളിൽ നേരിട്ട് പേസ്റ്റ് ചെയ്യുന്നത് പ്രൊഫഷണൽ അല്ലാത്തതായി തോന്നിപ്പിക്കും.</p>\n      <p>ഈ ടൂൾ ലുമിനൻസും കളർ സ്പേസും അടിസ്ഥാനമാക്കി Alpha ചാനലിനെ വേർതിരിക്കുന്നു. ഇത് പേപ്പർ ബാക്ക്ഗ്രൗണ്ടുകളെ പൂർണ്ണമായും നീക്കം ചെയ്യുമ്പോൾ സ്റ്റാമ്പിന്റെ ചുവപ്പ് (Chroma Ink), കൈയെഴുത്തിലെ കറുപ്പ് എന്നിവയെ വ്യക്തമാക്കുന്നു. യഥാർത്ഥ മഷിയുടെ ടെക്സ്ചർ നിലനിർത്തുന്ന പ്രീമിയം, സുതാര്യമായ PNG സ്റ്റാമ്പാണ് ഇതിന്റെ ഫലം.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload seal photo",
-        "description": "Provide a phone-captured photo of your signature or stamp seal."
+        "title": "മുദ്രയുടെ ഫോട്ടോ അപ്‌ലോഡ് ചെയ്യുക",
+        "description": "നിങ്ങളുടെ ഒപ്പിന്റെയോ സ്റ്റാമ്പ് മുദ്രയുടെയോ ഫോണിൽ പകർത്തിയ ഫോട്ടോ നൽകുക."
       },
       {
         "step": 2,
-        "title": "Adjust cleaning sliders",
-        "description": "Move contrast and luminance sliders to isolate the background noise in real-time."
+        "title": "ക്ലീനിംഗ് സ്ലൈഡറുകൾ ക്രമീകരിക്കുക",
+        "description": "റിയൽ-ടൈമിൽ ബാക്ക്ഗ്രൗണ്ട് നോയിസ് വേർതിരിക്കാൻ കോൺട്രാസ്റ്റ്, ലുമിനൻസ് സ്ലൈഡറുകൾ മാറ്റുക."
       },
       {
         "step": 3,
-        "title": "Download clean signature",
-        "description": "Export as transparent PNG ready to be stamped onto formal document agreements."
+        "title": "വ്യക്തമായ ഒപ്പ് ഡൗൺലോഡ് ചെയ്യുക",
+        "description": "ഔദ്യോഗിക ഡോക്യുമെന്റ് കരാറുകളിൽ പതിക്കാൻ പാകത്തിന് സുതാര്യമായ PNG ആയി എക്സ്പോർട്ട് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Professional e-signature prep",
-        "description": "Convert gray signature photos into beautiful, transparent layers to sign agreements.",
+        "title": "പ്രൊഫഷണൽ e-signature തയാറാക്കൽ",
+        "description": "കരാറുകളിൽ ഒപ്പിടുന്നതിനായി മങ്ങിയ ഒപ്പിന്റെ ഫോട്ടോകളെ മനോഹരമായ, സുതാര്യമായ ലെയറുകളാക്കി മാറ്റുക.",
         "icon": "file-signature"
       },
       {
-        "title": "Corporate seal sanitizing",
-        "description": "Clean physical stamp scans by discarding paper fiber noise, preparing crisp transparent stamp seals.",
+        "title": "കോർപ്പറേറ്റ് മുദ്ര വൃത്തിയാക്കൽ",
+        "description": "പേപ്പർ ഫൈബർ നോയിസ് ഒഴിവാക്കിക്കൊണ്ട് ഫിസിക്കൽ സ്റ്റാമ്പ് സ്കാനുകൾ വൃത്തിയാക്കി, വ്യക്തമായ സുതാര്യമായ സ്റ്റാമ്പ് സീലുകൾ തയാറാക്കുക.",
         "icon": "stamp"
       },
       {
-        "title": "Drawn line art extraction",
-        "description": "Isolate black strokes from drawing sketchbooks for easy Photoshop coloring workflows.",
+        "title": "വരച്ച ലൈൻ ആർട്ട് വേർതിരിച്ചെടുക്കൽ",
+        "description": "എളുപ്പത്തിലുള്ള Photoshop കളറിംഗ് വർക്ക്ഫ്ലോകൾക്കായി ഡ്രോയിംഗ് സ്കെച്ച്ബുക്കുകളിൽ നിന്ന് കറുത്ത വരകൾ വേർതിരിച്ചെടുക്കുക.",
         "icon": "edit"
       }
     ],
     "faq": [
       {
-        "question": "How does self-adaptive Alpha extraction differ from normal keying?",
-        "answer": "Standard chroma-keying often makes signature stroke details look blocky and pixelated. Our algorithm isolates only white/yellow background noise and smooths the ink borders."
+        "question": "സാധാരണ കീയിംഗിൽ നിന്ന് സ്വയം അനുയോജ്യമാകുന്ന Alpha എക്സ്ട്രാക്ഷൻ എങ്ങനെ വ്യത്യാസപ്പെട്ടിരിക്കുന്നു?",
+        "answer": "സാധാരണ ക്രോമ-കീയിംഗ് ഒപ്പിന്റെ വരകളുടെ വിശദാംശങ്ങളെ ബ്ലോക്കിയും പിക്സലേറ്റഡും ആക്കാറുണ്ട്. ഞങ്ങളുടെ അൽഗോരിതം വെള്ള/മഞ്ഞ ബാക്ക്ഗ്രൗണ്ട് നോയിസ് മാത്രം വേർതിരിക്കുകയും മഷിയുടെ അരികുകൾ സുഗമമാക്കുകയും ചെയ്യുന്നു."
       },
       {
-        "question": "Which image formats are supported?",
-        "answer": "We support JPG, JPEG, and PNG. For best results, capture your signature photo under bright, even lighting."
+        "question": "ഏതൊക്കെ ഇമേജ് ഫോർമാറ്റുകളാണ് പിന്തുണയ്ക്കുന്നത്?",
+        "answer": "ഞങ്ങൾ JPG, JPEG, PNG എന്നിവ പിന്തുണയ്ക്കുന്നു. മികച്ച ഫലങ്ങൾക്കായി, നല്ല വെളിച്ചമുള്ള സ്ഥലത്ത് വച്ച് ഒപ്പിന്റെ ഫോട്ടോ എടുക്കുക."
       },
       {
-        "question": "Will the handwriting detail be modified?",
-        "answer": "No. The pixel filtering acts on original coordinates, sharpening contrast while maintaining genuine stroke textures."
+        "question": "കൈയെഴുത്തിന്റെ വിശദാംശങ്ങളിൽ മാറ്റം വരുത്തുമോ?",
+        "answer": "ഇല്ല. പിക്സൽ ഫിൽട്ടറിംഗ് ഒറിജിനൽ കോർഡിനേറ്റുകളിൽ പ്രവർത്തിക്കുകയും, യഥാർത്ഥ വരകളുടെ ടെക്സ്ചറുകൾ നിലനിർത്തിക്കൊണ്ട് കോൺട്രാസ്റ്റ് വ്യക്തമാക്കുകയും ചെയ്യുന്നു."
       }
     ]
   },
   "dead-link-debugger": {
-    "title": "Fix Dead Links",
-    "metaDescription": "Scan all URL actions and link annotations in PDF, detect reachability, and inject redirects.",
+    "title": "പ്രവർത്തിക്കാത്ത ലിങ്കുകൾ ശരിയാക്കുക",
+    "metaDescription": "PDF-ലെ എല്ലാ URL പ്രവർത്തനങ്ങളും ലിങ്ക് അനോട്ടേഷനുകളും സ്കാൻ ചെയ്യുക, ലഭ്യത കണ്ടെത്തുക, റീഡയറക്റ്റുകൾ നൽകുക.",
     "keywords": [
       "dead link pdf",
       "edit pdf hyperlinks",
@@ -7225,59 +7225,59 @@ export const toolContentMl: Record<string, ToolContent> = {
       "redirect link pdf",
       "update urls in pdf"
     ],
-    "description": "\n      <p>The Dead Link Debugger is a deep structural editor that guarantees link interaction quality in published files.</p>\n      <p>Broken urls (404/500) inside manuals, whitepapers, or guides reduce branding authority. This tool lets you manage the hyperlinks database seamlessly.</p>\n      <p>It parses the low-level <code>/Link</code> dictionaries on each page, Probes them, and displays link status in an interactive grid (red for dead links, orange for redirects). Simply type the updated redirect URL, and the tool writes the new target directly back into the PDF binary stream.</p>\n    ",
+    "description": "\n      <p>ഡെഡ് ലിങ്ക് ഡിബഗ്ഗർ എന്നത് പബ്ലിഷ് ചെയ്ത ഫയലുകളിലെ ലിങ്ക് ഇന്ററാക്ഷൻ നിലവാരം ഉറപ്പാക്കുന്ന ഒരു ആഴത്തിലുള്ള സ്ട്രക്ചറൽ എഡിറ്ററാണ്.</p>\n      <p>മാനുവലുകൾ, വൈറ്റ്‌പേപ്പറുകൾ അല്ലെങ്കിൽ ഗൈഡുകൾ എന്നിവയിലെ തകരാറുള്ള URL-കൾ (404/500) ബ്രാൻഡിന്റെ വിശ്വാസ്യത കുറയ്ക്കുന്നു. ഹൈപ്പർലിങ്ക് ഡാറ്റാബേസ് എളുപ്പത്തിൽ കൈകാര്യം ചെയ്യാൻ ഈ ടൂൾ നിങ്ങളെ അനുവദിക്കുന്നു.</p>\n      <p>ഇത് ഓരോ പേജിലെയും ലോ-ലെവൽ <code>/Link</code> ഡിക്ഷണറികൾ പരിശോധിക്കുകയും, അവ പരിശോധിച്ച ശേഷം ലിങ്ക് സ്റ്റാറ്റസ് ഒരു ഇന്ററാക്ടീവ് ഗ്രിഡിൽ കാണിക്കുകയും ചെയ്യുന്നു (ഡെഡ് ലിങ്കുകൾക്ക് ചുവപ്പും റീഡയറക്റ്റുകൾക്ക് ഓറഞ്ചും). പുതിയ റീഡയറക്റ്റ് URL ടൈപ്പ് ചെയ്താൽ മാത്രം മതി, ടൂൾ പുതിയ ടാർഗെറ്റ് നേരിട്ട് PDF ബൈനറി സ്ട്രീമിലേക്ക് മാറ്റിയെഴുതുന്നു.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Provide target document",
-        "description": "Upload the PDF manual or catalog containing links to debug."
+        "title": "ലക്ഷ്യമിട്ട ഡോക്യുമെന്റ് നൽകുക",
+        "description": "ഡിബഗ് ചെയ്യേണ്ട ലിങ്കുകൾ അടങ്ങിയ PDF മാനുവൽ അല്ലെങ്കിൽ കാറ്റലോഗ് അപ്‌ലോഡ് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Scan and update",
-        "description": "Let the debugger extract all URL entities. Input new redirect URLs for broken items."
+        "title": "സ്കാൻ ചെയ്ത് അപ്‌ഡേറ്റ് ചെയ്യുക",
+        "description": "ഡിബഗ്ഗറിനെ എല്ലാ URL ഘടകങ്ങളും വേർതിരിച്ചെടുക്കാൻ അനുവദിക്കുക. പ്രവർത്തിക്കാത്തവയ്ക്കായി പുതിയ റീഡയറക്റ്റ് URL-കൾ നൽകുക."
       },
       {
         "step": 3,
-        "title": "Save redirect updates",
-        "description": "Click execute to rewrite /URI actions and download the corrected PDF."
+        "title": "റീഡയറക്റ്റ് അപ്‌ഡേറ്റുകൾ സേവ് ചെയ്യുക",
+        "description": "/URI പ്രവർത്തനങ്ങൾ മാറ്റി എഴുതാനും തിരുത്തിയ PDF ഡൗൺലോഡ് ചെയ്യാനും എക്സിക്യൂട്ട് ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [
       {
-        "title": "Flyer broken links hotfix",
-        "description": "Instantly correct wrong urls on published flyers without reopening original design editors.",
+        "title": "ഫ്ലയറുകളിലെ തകരാറുള്ള ലിങ്കുകൾ പെട്ടെന്ന് ശരിയാക്കൽ",
+        "description": "ഒറിജിനൽ ഡിസൈൻ എഡിറ്ററുകൾ വീണ്ടും തുറക്കാതെ തന്നെ പബ്ലിഷ് ചെയ്ത ഫ്ലയറുകളിലെ തെറ്റായ URL-കൾ ഉടനടി തിരുത്തുക.",
         "icon": "refresh-cw"
       },
       {
-        "title": "Bibliography links verification",
-        "description": "Verify academic bibliography links in reports, updating references to maintain authority.",
+        "title": "ബിബ്ലിയോഗ്രാഫി ലിങ്കുകൾ പരിശോധിക്കൽ",
+        "description": "റിപ്പോർട്ടുകളിലെ അക്കാദമിക് ബിബ്ലിയോഗ്രാഫി ലിങ്കുകൾ പരിശോധിച്ച്, വിശ്വസനീയത നിലനിർത്താൻ റഫറൻസുകൾ അപ്‌ഡേറ്റ് ചെയ്യുക.",
         "icon": "book"
       },
       {
-        "title": "Corporate rebranding updates",
-        "description": "Batch update old URLs across corporate PDFs when company domain names are changed.",
+        "title": "കോർപ്പറേറ്റ് റീബ്രാൻഡിംഗ് അപ്‌ഡേറ്റുകൾ",
+        "description": "കമ്പനിയുടെ ഡൊമെയ്ൻ പേരുകൾ മാറുമ്പോൾ കോർപ്പറേറ്റ് PDF-കളിലെ പഴയ URL-കൾ ഒന്നിച്ച് അപ്‌ഡേറ്റ് ചെയ്യുക.",
         "icon": "globe"
       }
     ],
     "faq": [
       {
-        "question": "Why isn't link reachability fully checked online?",
-        "answer": "Web browsers enforce strict CORS policies that block direct multi-origin link checking. Our tool lists the links clearly and lets you hot-fix them manually."
+        "question": "എന്തുകൊണ്ടാണ് ലിങ്കുകളുടെ ലഭ്യത ഓൺലൈനിൽ പൂർണ്ണമായി പരിശോധിക്കാത്തത്?",
+        "answer": "വെബ് ബ്രൗസറുകൾ കർശനമായ CORS നയങ്ങൾ നടപ്പിലാക്കുന്നു, ഇത് നേരിട്ടുള്ള മൾട്ടി-ഓറിജിൻ ലിങ്ക് പരിശോധനയെ തടയുന്നു. ഞങ്ങളുടെ ടൂൾ ലിങ്കുകൾ വ്യക്തമായി ലിസ്റ്റ് ചെയ്യുകയും അവ സ്വയം തിരുത്താൻ നിങ്ങളെ അനുവദിക്കുകയും ചെയ്യുന്നു."
       },
       {
-        "question": "Will this modify the visual text representation on the page?",
-        "answer": "No. It only alters the underlying `/URI` navigation action. The visual link text remains unchanged."
+        "question": "ഇത് പേജിലെ ദൃശ്യമായ ടെക്സ്റ്റിൽ മാറ്റം വരുത്തുമോ?",
+        "answer": "ഇല്ല. ഇത് ഇതിന് പിന്നിലെ `/URI` നാവിഗേഷൻ പ്രവർത്തനത്തെ മാത്രമേ മാറ്റുകയുള്ളൂ. ദൃശ്യമായ ലിങ്ക് ടെക്സ്റ്റ് മാറ്റമില്ലാതെ തുടരും."
       },
       {
-        "question": "Does it support modifying internal page bookmarks?",
-        "answer": "This tool handles external `/URI` hyperlinks. For internal layout navigation, use our interactive TOC tool."
+        "question": "ഇത് ആന്തരിക പേജ് ബുക്ക്മാർക്കുകൾ മാറ്റുന്നതിനെ പിന്തുണയ്ക്കുന്നുണ്ടോ?",
+        "answer": "ഈ ടൂൾ ബാഹ്യ `/URI` ഹൈപ്പർലിങ്കുകളാണ് കൈകാര്യം ചെയ്യുന്നത്. ആന്തരിക ലേഔട്ട് നാവിഗേഷനായി, ഞങ്ങളുടെ ഇന്ററാക്ടീവ് TOC ടൂൾ ഉപയോഗിക്കുക."
       }
     ]
   },
   "interactive-toc-generator": {
-    "title": "Generate Interactive TOC",
-    "metaDescription": "Generate aesthetic Table of Contents pages, insert them pre-content, and wire internal bidirectional GoTo anchors.",
+    "title": "ഇന്ററാക്ടീവ് TOC ജനറേറ്റ് ചെയ്യുക",
+    "metaDescription": "മനോഹരമായ Table of Contents പേജുകൾ നിർമ്മിക്കുക, ഉള്ളടക്കത്തിന് മുമ്പായി അവ ഉൾപ്പെടുത്തുക, ഒപ്പം ആന്തരിക ബൈഡയറക്ഷണൽ GoTo ആങ്കറുകൾ ബന്ധിപ്പിക്കുക.",
     "keywords": [
       "generate table of contents",
       "interactive toc pdf",
@@ -7285,22 +7285,22 @@ export const toolContentMl: Record<string, ToolContent> = {
       "pdf index page builder",
       "goto page action"
     ],
-    "description": "\n      <p>The Interactive TOC Builder introduces a revolutionary navigation experience to extensive PDFs.</p>\n      <p>Flipping through hundreds of pages in unstructured documents to locate target chapters is frustrating. This tool introduces <strong>Bidirectional TOC compilation</strong>.</p>\n      <p>It scans headers and generates an origami-inspired, premium Table of Contents page inserted right after the cover. In addition to creating clickable /GoTo links for each index row, it injects a tiny, elegant \"TOC ↩\" hovering anchor at the corner of each target chapter page. Readers can jump back and forth instantly, enjoying web-like navigation.</p>\n    ",
+    "description": "\n      <p>ഇന്ററാക്ടീവ് TOC ബിൽഡർ വലിയ PDF-കൾക്കായി വിപ്ലവകരമായ ഒരു നാവിഗേഷൻ അനുഭവം നൽകുന്നു.</p>\n      <p>ആവശ്യമുള്ള അധ്യായങ്ങൾ കണ്ടെത്താൻ ഓർഡർ ഇല്ലാത്ത ഡോക്യുമെന്റുകളിലെ നൂറുകണക്കിന് പേജുകൾ മറിച്ചുനോക്കുന്നത് പ്രയാസകരമാണ്. ഈ ടൂൾ <strong>Bidirectional TOC compilation</strong> പരിചയപ്പെടുത്തുന്നു.</p>\n      <p>ഇത് ഹെഡ്ഡറുകൾ സ്കാൻ ചെയ്യുകയും കവർ പേജിന് തൊട്ടുപിന്നാലെ ഉൾപ്പെടുത്താൻ അനുയോജ്യമായ പ്രീമിയം Table of Contents പേജ് നിർമ്മിക്കുകയും ചെയ്യുന്നു. ഓരോ ഇൻഡെക്സ് റോയ്ക്കും ക്ലിക്ക് ചെയ്യാവുന്ന /GoTo ലിങ്കുകൾ നിർമ്മിക്കുന്നതിന് പുറമെ, ഓരോ ലക്ഷ്യ അധ്യായ പേജിന്റെയും മൂലയിൽ ഒരു ചെറിയ \"TOC ↩\" ഹോവറിംഗ് ആങ്കർ ഇത് നൽകുന്നു. വായനക്കാർക്ക് വെബ് പോലുള്ള നാവിഗേഷൻ ആസ്വദിച്ച് ഉടനടി മുന്നോട്ടും പിന്നോട്ടും പോകാനാകും.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Provide PDF document",
-        "description": "Upload a report, eBook, or proposal that needs an interactive catalog."
+        "title": "PDF ഡോക്യുമെന്റ് നൽകുക",
+        "description": "ഇന്ററാക്ടീവ് കാറ്റലോഗ് ആവശ്യമുള്ള ഒരു റിപ്പോർട്ട്, eBook അല്ലെങ്കിൽ പ്രൊപ്പോസൽ അപ്‌ലോഡ് ചെയ്യുക."
       },
       {
         "step": 2,
-        "title": "Set TOC title & index",
-        "description": "Customize the main title and choose the page index to insert the TOC page."
+        "title": "TOC ശീർഷകവും ഇൻഡെക്സും സെറ്റ് ചെയ്യുക",
+        "description": "പ്രധാന ശീർഷകം മാറ്റി സജ്ജീകരിക്കുകയും TOC പേജ് ഉൾപ്പെടുത്തേണ്ട പേജ് ഇൻഡെക്സ് തിരഞ്ഞെടുക്കുകയും ചെയ്യുക."
       },
       {
         "step": 3,
-        "title": "Weave anchors & save",
-        "description": "Click execute to compile the pages and write the dual-link navigation."
+        "title": "ആങ്കറുകൾ ബന്ധിപ്പിച്ചു സേവ് ചെയ്യുക",
+        "description": "പേജുകൾ കംപൈൽ ചെയ്യാനും ഡ്യുവൽ-ലിങ്ക് നാവിഗേഷൻ തയ്യാറാക്കാനും എക്സിക്യൂട്ട് ക്ലിക്ക് ചെയ്യുക."
       }
     ],
     "useCases": [

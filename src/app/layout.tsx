@@ -45,8 +45,9 @@ export default function RootLayout({
         <script data-cfasync="false" src="https://the.gatekeeperconsent.com/cmp.min.js"></script>
 
         {/* Ezoic Header Scripts */}
-        <script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
+        <script data-cfasync="false" async src="//www.ezojs.com/ezoic/sa.min.js"></script>
         <script
+          data-cfasync="false"
           dangerouslySetInnerHTML={{
             __html: `
               window.ezstandalone = window.ezstandalone || {};
@@ -54,7 +55,7 @@ export default function RootLayout({
             `,
           }}
         />
-        <script src="//ezoicanalytics.com/analytics.js"></script>
+        <script data-cfasync="false" src="//ezoicanalytics.com/analytics.js"></script>
       </head>
       <body className="min-h-screen bg-background text-foreground antialiased">
         {children}
