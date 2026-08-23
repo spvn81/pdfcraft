@@ -4481,111 +4481,111 @@ export const toolContentKn: Record<string, ToolContent> = {
       },
       {
         "step": 3,
-        "title": "Export Results",
-        "description": "Download a comparison report or annotated PDF."
+        "title": "ಫಲಿತಾಂಶಗಳನ್ನು ಎಕ್ಸ್‌ಪೋರ್ಟ್ ಮಾಡಿ",
+        "description": "ಹೋಲಿಕೆ ವರದಿ ಅಥವಾ ಟಿಪ್ಪಣಿ ಮಾಡಲಾದ PDF ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Contract Review",
-        "description": "Compare contract versions to identify changes.",
+        "title": "ಒಪ್ಪಂದ ಪರಿಶೀಲನೆ",
+        "description": "ಬದಲಾವಣೆಗಳನ್ನು ಗುರುತಿಸಲು ಒಪ್ಪಂದದ ಆವೃತ್ತಿಗಳನ್ನು ಹೋಲಿಕೆ ಮಾಡಿ.",
         "icon": "file-text"
       },
       {
-        "title": "Document Revision",
-        "description": "Review edits between document versions.",
+        "title": "ದಾಖಲೆ ಪರಿಷ್ಕರಣೆ",
+        "description": "ದಾಖಲೆಯ ಆವೃತ್ತಿಗಳ ನಡುವಿನ ಸಂಪಾದನೆಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.",
         "icon": "git-compare"
       },
       {
-        "title": "Quality Assurance",
-        "description": "Verify that only intended changes were made.",
+        "title": "ಗುಣಮಟ್ಟ ಪರಿಶೀಲನೆ",
+        "description": "ಉದ್ದೇಶಿತ ಬದಲಾವಣೆಗಳನ್ನು ಮಾತ್ರ ಮಾಡಲಾಗಿದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಿ.",
         "icon": "check-circle"
       }
     ],
     "faq": [
       {
-        "question": "What types of differences are detected?",
-        "answer": "Text additions, deletions, modifications, and formatting changes."
+        "question": "ಯಾವ ರೀತಿಯ ವ್ಯತ್ಯಾಸಗಳನ್ನು ಪತ್ತೆಹಚ್ಚಲಾಗುತ್ತದೆ?",
+        "answer": "ಪಠ್ಯ ಸೇರ್ಪಡೆಗಳು, ಅಳಿಸುವಿಕೆಗಳು, ಮಾರ್ಪಾಡುಗಳು ಮತ್ತು ಫಾರ್ಮ್ಯಾಟಿಂಗ್ ಬದಲಾವಣೆಗಳು."
       },
       {
-        "question": "Can I compare scanned documents?",
-        "answer": "Scanned documents should be OCR processed first for text comparison."
+        "question": "ನಾನು ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ದಾಖಲೆಗಳನ್ನು ಹೋಲಿಸಬಹುದೇ?",
+        "answer": "ಪಠ್ಯ ಹೋಲಿಕೆಗಾಗಿ ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ದಾಖಲೆಗಳನ್ನು ಮೊದಲು OCR ಪ್ರಕ್ರಿಯೆಗೆ ಒಳಪಡಿಸಬೇಕು."
       },
       {
-        "question": "Is visual comparison available?",
-        "answer": "Yes, overlay mode shows visual differences between pages."
+        "question": "ದೃಶ್ಯ ಹೋಲಿಕೆ ಲಭ್ಯವಿದೆಯೇ?",
+        "answer": "ಹೌದು, ಓವರ್‌ಲೇ ಮೋಡ್ ಪುಟಗಳ ನಡುವಿನ ದೃಶ್ಯ ವ್ಯತ್ಯಾಸಗಳನ್ನು ತೋರಿಸುತ್ತದೆ."
       }
     ]
   },
   "posterize-pdf": {
-    "title": "Posterize PDF",
-    "metaDescription": "Split large PDF pages into printable tiles. Create posters from PDF pages.",
+    "title": "PDF ಅನ್ನು ಪೋಸ್ಟರೈಸ್ ಮಾಡಿ",
+    "metaDescription": "ದೊಡ್ಡ PDF ಪುಟಗಳನ್ನು ಪ್ರಿಂಟ್ ಮಾಡಬಹುದಾದ ಟೈಲ್ಸ್‌ಗಳಾಗಿ ವಿಂಗಡಿಸಿ. PDF ಪುಟಗಳಿಂದ ಪೋಸ್ಟರ್‌ಗಳನ್ನು ರಚಿಸಿ.",
     "keywords": [
       "posterize pdf",
       "tile pdf",
       "large format printing",
       "pdf poster"
     ],
-    "description": "\n      <p>Posterize PDF splits large PDF pages into smaller tiles that can be printed on standard paper and assembled into posters. Perfect for printing large diagrams, maps, or artwork.</p>\n      <p>Configure the grid size and overlap for easy assembly. The tool automatically calculates tile dimensions for your target output size.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>Posterize PDF ದೊಡ್ಡ PDF ಪುಟಗಳನ್ನು ಸಣ್ಣ ಟೈಲ್ಸ್‌ಗಳಾಗಿ ವಿಂಗಡಿಸುತ್ತದೆ, ಅವುಗಳನ್ನು ಸಾಮಾನ್ಯ ಕಾಗದದ ಮೇಲೆ ಪ್ರಿಂಟ್ ಮಾಡಬಹುದು ಮತ್ತು ಪೋಸ್ಟರ್‌ಗಳಾಗಿ ಜೋಡಿಸಬಹುದು. ದೊಡ್ಡ ರೇಖಾಚಿತ್ರಗಳು, ನಕ್ಷೆಗಳು ಅಥವಾ ಕಲಾಕೃತಿಗಳನ್ನು ಪ್ರಿಂಟ್ ಮಾಡಲು ಇದು ಸೂಕ್ತವಾಗಿದೆ.</p><p>ಸುಲಭ ಜೋಡಣೆಗಾಗಿ ಗ್ರಿಡ್ ಗಾತ್ರ ಮತ್ತು ಓವರ್‌ಲ್ಯಾಪ್ ಅನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಿ. ಈ ಉಪಕರಣವು ನಿಮ್ಮ ಗುರಿ ಔಟ್‌ಪುಟ್ ಗಾತ್ರಕ್ಕಾಗಿ ಟೈಲ್ ಆಯಾಮಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಲೆಕ್ಕಾಚಾರ ಮಾಡುತ್ತದೆ.</p><p>ಎಲ್ಲಾ ಪ್ರಕ್ರಿಯೆಗಳು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ನಡೆಯುತ್ತವೆ, ಇದು ನಿಮ್ಮ ದಾಖಲೆಗಳು ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>",
     "howToUse": [
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your large-format PDF or click to select."
+        "description": "ನಿಮ್ಮ ದೊಡ್ಡ ಪ್ರಮಾಣದ PDF ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Configure Tiles",
-        "description": "Set grid size, overlap, and output paper size."
+        "title": "ಟೈಲ್ಸ್‌ಗಳನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಿ",
+        "description": "ಗ್ರಿಡ್ ಗಾತ್ರ, ಓವರ್‌ಲ್ಯಾಪ್ ಮತ್ತು ಔಟ್‌ಪುಟ್ ಕಾಗದದ ಗಾತ್ರವನ್ನು ಹೊಂದಿಸಿ."
       },
       {
         "step": 3,
         "title": "ರಚಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Click Create to generate printable tiles."
+        "description": "ಪ್ರಿಂಟ್ ಮಾಡಬಹುದಾದ ಟೈಲ್ಸ್‌ಗಳನ್ನು ರಚಿಸಲು Create ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Poster Printing",
-        "description": "Print large posters on standard paper.",
+        "title": "ಪೋಸ್ಟರ್ ಪ್ರಿಂಟಿಂಗ್",
+        "description": "ಸಾಮಾನ್ಯ ಕಾಗದದ ಮೇಲೆ ದೊಡ್ಡ ಪೋಸ್ಟರ್‌ಗಳನ್ನು ಪ್ರಿಂಟ್ ಮಾಡಿ.",
         "icon": "maximize-2"
       },
       {
-        "title": "Map Printing",
-        "description": "Print large maps in sections for assembly.",
+        "title": "ನಕ್ಷೆ ಪ್ರಿಂಟಿಂಗ್",
+        "description": "ಜೋಡಣೆಗಾಗಿ ದೊಡ್ಡ ನಕ್ಷೆಗಳನ್ನು ಭಾಗಗಳಾಗಿ ಪ್ರಿಂಟ್ ಮಾಡಿ.",
         "icon": "map"
       },
       {
-        "title": "Artwork Reproduction",
-        "description": "Create large prints from PDF artwork.",
+        "title": "ಕಲಾಕೃತಿ ಮರುಉತ್ಪಾದನೆ",
+        "description": "PDF ಕಲಾಕೃತಿಯಿಂದ ದೊಡ್ಡ ಪ್ರಿಂಟ್‌ಗಳನ್ನು ರಚಿಸಿ.",
         "icon": "image"
       }
     ],
     "faq": [
       {
-        "question": "What overlap should I use?",
-        "answer": "A 10-20mm overlap is recommended for easy alignment during assembly."
+        "question": "ನಾನು ಯಾವ ಓವರ್‌ಲ್ಯಾಪ್ ಬಳಸಬೇಕು?",
+        "answer": "ಜೋಡಣೆಯ ಸಮಯದಲ್ಲಿ ಸುಲಭವಾಗಿ ಜೋಡಿಸಲು 10-20mm ಓವರ್‌ಲ್ಯಾಪ್ ಅನ್ನು ಶಿಫಾರಸು ಮಾಡಲಾಗುತ್ತದೆ."
       },
       {
-        "question": "Can I add crop marks?",
-        "answer": "Yes, crop marks can be added to help with cutting and alignment."
+        "question": "ನಾನು ಕ್ರಾಪ್ ಮಾರ್ಕ್‌ಗಳನ್ನು ಸೇರಿಸಬಹುದೇ?",
+        "answer": "ಹೌದು, ಕತ್ತರಿಸುವುದು ಮತ್ತು ಜೋಡಿಸಲು ಸಹಾಯ ಮಾಡಲು ಕ್ರಾಪ್ ಮಾರ್ಕ್‌ಗಳನ್ನು ಸೇರಿಸಬಹುದು."
       },
       {
-        "question": "What paper sizes are supported?",
-        "answer": "A4, Letter, A3, and custom sizes are supported."
+        "question": "ಯಾವ ಕಾಗದದ ಗಾತ್ರಗಳು ಬೆಂಬಲಿತವಾಗಿವೆ?",
+        "answer": "A4, Letter, A3, ಮತ್ತು ಕಸ್ಟಮ್ ಗಾತ್ರಗಳು ಬೆಂಬಲಿತವಾಗಿವೆ."
       }
     ]
   },
   "fix-page-size": {
-    "title": "Fix Page Size",
-    "metaDescription": "Standardize PDF page sizes. Convert all pages to uniform dimensions.",
+    "title": "ಪುಟದ ಗಾತ್ರವನ್ನು ಸರಿಪಡಿಸಿ",
+    "metaDescription": "PDF ಪುಟದ ಗಾತ್ರಗಳನ್ನು ಪ್ರಮಾಣೀಕರಿಸಿ. ಎಲ್ಲಾ ಪುಟಗಳನ್ನು ಒಂದೇ ರೀತಿಯ ಆಯಾಮಗಳಿಗೆ ಪರಿವರ್ತಿಸಿ.",
     "keywords": [
       "fix page size",
       "standardize pdf",
       "uniform pages",
       "resize pdf pages"
     ],
-    "description": "\n      <p>Fix Page Size standardizes all pages in your PDF to uniform dimensions. Convert mixed-size documents to consistent page sizes for professional presentation or printing.</p>\n      <p>Choose from standard sizes (A4, Letter, etc.) or set custom dimensions. Content is scaled or positioned to fit the new page size.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>Fix Page Size ನಿಮ್ಮ PDF ನಲ್ಲಿರುವ ಎಲ್ಲಾ ಪುಟಗಳನ್ನು ಒಂದೇ ರೀತಿಯ ಆಯಾಮಗಳಿಗೆ ಪ್ರಮಾಣೀಕರಿಸುತ್ತದೆ. ವೃತ್ತಿಪರ ಪ್ರಸ್ತುತಿ ಅಥವಾ ಪ್ರಿಂಟಿಂಗ್‌ಗಾಗಿ ವಿಭಿನ್ನ ಗಾತ್ರದ ದಾಖಲೆಗಳನ್ನು ಸ್ಥಿರ ಪುಟದ ಗಾತ್ರಗಳಿಗೆ ಪರಿವರ್ತಿಸಿ.</p><p>ಪ್ರಮಾಣಿತ ಗಾತ್ರಗಳಿಂದ (A4, Letter, ಇತ್ಯಾದಿ) ಆಯ್ಕೆಮಾಡಿ ಅಥವಾ ಕಸ್ಟಮ್ ಆಯಾಮಗಳನ್ನು ಹೊಂದಿಸಿ. ಹೊಸ ಪುಟದ ಗಾತ್ರಕ್ಕೆ ಹೊಂದುವಂತೆ ವಿಷಯವನ್ನು ಸ್ಕೇಲ್ ಮಾಡಲಾಗುತ್ತದೆ ಅಥವಾ ಇರಿಸಲಾಗುತ್ತದೆ.</p><p>ಎಲ್ಲಾ ಪ್ರಕ್ರಿಯೆಗಳು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ನಡೆಯುತ್ತವೆ, ಇದು ನಿಮ್ಮ ದಾಖಲೆಗಳು ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>",
     "howToUse": [
       {
         "step": 1,
@@ -4594,49 +4594,49 @@ export const toolContentKn: Record<string, ToolContent> = {
       },
       {
         "step": 2,
-        "title": "Select Target Size",
-        "description": "Choose a standard size or enter custom dimensions."
+        "title": "ಗುರಿ ಗಾತ್ರವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+        "description": "ಪ್ರಮಾಣಿತ ಗಾತ್ರವನ್ನು ಆಯ್ಕೆಮಾಡಿ ಅಥವಾ ಕಸ್ಟಮ್ ಆಯಾಮಗಳನ್ನು ನಮೂದಿಸಿ."
       },
       {
         "step": 3,
         "title": "ಅನ್ವಯಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Click Apply to standardize pages and download."
+        "description": "ಪುಟಗಳನ್ನು ಪ್ರಮಾಣೀಕರಿಸಲು ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು Apply ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
         "title": "ಪ್ರಿಂಟ್ ಸಿದ್ಧತೆ",
-        "description": "Standardize pages for consistent printing.",
+        "description": "ಸ್ಥಿರ ಪ್ರಿಂಟಿಂಗ್‌ಗಾಗಿ ಪುಟಗಳನ್ನು ಪ್ರಮಾಣೀಕರಿಸಿ.",
         "icon": "printer"
       },
       {
-        "title": "Document Cleanup",
-        "description": "Fix documents with inconsistent page sizes.",
+        "title": "ದಾಖಲೆ ಸ್ವಚ್ಛಗೊಳಿಸುವಿಕೆ",
+        "description": "ಅಸಮಂಜಸ ಪುಟ ಗಾತ್ರಗಳನ್ನು ಹೊಂದಿರುವ ದಾಖಲೆಗಳನ್ನು ಸರಿಪಡಿಸಿ.",
         "icon": "file-check"
       },
       {
         "title": "ವೃತ್ತಿಪರ ದಾಖಲೆಗಳು",
-        "description": "Create uniform documents for distribution.",
+        "description": "ವಿತರಣೆಗಾಗಿ ಏಕರೂಪದ ದಾಖಲೆಗಳನ್ನು ರಚಿಸಿ.",
         "icon": "briefcase"
       }
     ],
     "faq": [
       {
-        "question": "How is content handled?",
-        "answer": "Content is scaled to fit or centered on the new page size."
+        "question": "ವಿಷಯವನ್ನು ಹೇಗೆ ನಿರ್ವಹಿಸಲಾಗುತ್ತದೆ?",
+        "answer": "ವಿಷಯವನ್ನು ಹೊಸ ಪುಟದ ಗಾತ್ರಕ್ಕೆ ತಕ್ಕಂತೆ ಸ್ಕೇಲ್ ಮಾಡಲಾಗುತ್ತದೆ ಅಥವಾ ಮಧ್ಯದಲ್ಲಿ ಇರಿಸಲಾಗುತ್ತದೆ."
       },
       {
-        "question": "Can I preserve aspect ratio?",
-        "answer": "Yes, content can be scaled proportionally to fit."
+        "question": "ನಾನು ಆಸ್ಪೆಕ್ಟ್ ರೇಶಿಯೋವನ್ನು ಕಾಯ್ದುಕೊಳ್ಳಬಹುದೇ?",
+        "answer": "ಹೌದು, ವಿಷಯವನ್ನು ಸೂಕ್ತವಾಗಿ ಸ್ಕೇಲ್ ಮಾಡಬಹುದು."
       },
       {
-        "question": "What standard sizes are available?",
-        "answer": "A4, A3, Letter, Legal, and other common sizes."
+        "question": "ಯಾವ ಪ್ರಮಾಣಿತ ಗಾತ್ರಗಳು ಲಭ್ಯವಿವೆ?",
+        "answer": "A4, A3, Letter, Legal, ಮತ್ತು ಇತರ ಸಾಮಾನ್ಯ ಗಾತ್ರಗಳು."
       }
     ]
   },
   "linearize-pdf": {
-    "title": "Linearize PDF",
+    "title": "PDF ಲೀನಿಯರೈಸ್ ಮಾಡಿ",
     "metaDescription": "Optimize PDF for fast web viewing. Enable progressive loading.",
     "keywords": [
       "linearize pdf",
