@@ -1,0 +1,26 @@
+HTTP/1.1 200 OK
+Date: Sun, 23 Aug 2026 08:30:39 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+expect-ct: max-age=86400, enforce
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+referrer-policy: same-origin
+permissions-policy: camera=(), microphone=(), geolocation=()
+cross-origin-opener-policy: same-origin
+cross-origin-embedder-policy: require-corp
+cross-origin-resource-policy: cross-origin
+last-modified: Sun, 23 Aug 2026 08:05:01 GMT
+Speculation-Rules: "/cdn-cgi/speculation"
+vary: Accept-Encoding
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=lZ8peWF%2BKtAVFYpprteb7if1rMraRGMe5SCt%2BGGENb4aPELmDNV0TXzduM0bs3829U9WdWzdULlU98leL66NDw17tuuu5OIKHeaBWm9SY03jvQDwA3mNRoHFTK8woMqadK4r2zCxC9%2FN%2BA%3D%3D"}]}
+Cache-Control: public, max-age=14400, must-revalidate
+strict-transport-security: max-age=31536000;
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: MISS
+CF-RAY: a2f8c1a4eca7f92c-SIN
+alt-svc: h3=":443"; ma=86400
+

@@ -124,7 +124,7 @@ const nextConfig = {
           { key: 'Content-Type', value: 'application/wasm' },
           { key: 'Content-Encoding', value: 'gzip' },
           { key: 'Cache-Control', value: 'public, max-age=31536000, immutable' },
-          { key: 'Cross-Origin-Embedder-Policy', value: 'require-corp' },
+          { key: 'Cross-Origin-Embedder-Policy', value: 'credentialless' },
           { key: 'Cross-Origin-Opener-Policy', value: 'same-origin' },
           { key: 'Cross-Origin-Resource-Policy', value: 'cross-origin' },
         ],
@@ -136,7 +136,7 @@ const nextConfig = {
           { key: 'Content-Type', value: 'application/octet-stream' },
           { key: 'Content-Encoding', value: 'gzip' },
           { key: 'Cache-Control', value: 'public, max-age=31536000, immutable' },
-          { key: 'Cross-Origin-Embedder-Policy', value: 'require-corp' },
+          { key: 'Cross-Origin-Embedder-Policy', value: 'credentialless' },
           { key: 'Cross-Origin-Opener-Policy', value: 'same-origin' },
           { key: 'Cross-Origin-Resource-Policy', value: 'cross-origin' },
         ],
@@ -147,7 +147,7 @@ const nextConfig = {
         headers: [
           { key: 'Content-Type', value: 'application/wasm' },
           { key: 'Cache-Control', value: 'public, max-age=31536000, immutable' },
-          { key: 'Cross-Origin-Embedder-Policy', value: 'require-corp' },
+          { key: 'Cross-Origin-Embedder-Policy', value: 'credentialless' },
           { key: 'Cross-Origin-Opener-Policy', value: 'same-origin' },
           { key: 'Cross-Origin-Resource-Policy', value: 'cross-origin' },
         ],
@@ -158,7 +158,7 @@ const nextConfig = {
         headers: [
           { key: 'Content-Type', value: 'application/octet-stream' },
           { key: 'Cache-Control', value: 'public, max-age=31536000, immutable' },
-          { key: 'Cross-Origin-Embedder-Policy', value: 'require-corp' },
+          { key: 'Cross-Origin-Embedder-Policy', value: 'credentialless' },
           { key: 'Cross-Origin-Opener-Policy', value: 'same-origin' },
           { key: 'Cross-Origin-Resource-Policy', value: 'cross-origin' },
         ],
@@ -169,7 +169,7 @@ const nextConfig = {
         headers: [
           { key: 'Content-Type', value: 'application/javascript' },
           { key: 'Cache-Control', value: 'public, max-age=31536000, immutable' },
-          { key: 'Cross-Origin-Embedder-Policy', value: 'require-corp' },
+          { key: 'Cross-Origin-Embedder-Policy', value: 'credentialless' },
           { key: 'Cross-Origin-Opener-Policy', value: 'same-origin' },
           { key: 'Cross-Origin-Resource-Policy', value: 'cross-origin' },
         ],
@@ -188,7 +188,7 @@ const nextConfig = {
           },
           {
             key: 'Cross-Origin-Embedder-Policy',
-            value: 'require-corp',
+            value: 'credentialless',
           },
           {
             key: 'Cross-Origin-Resource-Policy',
@@ -257,7 +257,7 @@ const nextConfig = {
           },
           {
             key: 'Cross-Origin-Embedder-Policy',
-            value: 'require-corp',
+            value: 'credentialless',
           },
           {
             key: 'Cross-Origin-Resource-Policy',
