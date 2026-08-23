@@ -168,7 +168,7 @@ export function generateSoftwareApplicationSchema(
     '@type': 'SoftwareApplication',
     name: content.title,
     description: content.metaDescription,
-    url: `${siteConfig.url}${cleanBasePath}/${locale}/tools/${tool.slug}`,
+    url: `${siteConfig.url}${cleanBasePath}/${locale}/tools/${tool.slug}/`,
     applicationCategory: 'UtilitiesApplication',
     operatingSystem: 'Windows, macOS, Linux, iOS, Android, Chrome OS',
     offers: {
@@ -221,7 +221,7 @@ export function generateHowToSchema(
       position: step.step,
       name: step.title,
       text: step.description,
-      url: `${siteConfig.url}${cleanBasePath}/${locale}/tools/${tool.slug}#step-${step.step}`,
+      url: `${siteConfig.url}${cleanBasePath}/${locale}/tools/${tool.slug}/#step-${step.step}`,
     })),
   };
 }
@@ -267,12 +267,12 @@ export function generateWebPageSchema(
     '@type': 'WebPage',
     name: content.title,
     description: content.metaDescription,
-    url: `${siteConfig.url}${cleanBasePath}/${locale}/tools/${tool.slug}`,
+    url: `${siteConfig.url}${cleanBasePath}/${locale}/tools/${tool.slug}/`,
     inLanguage: languageMap[locale] || 'en-US',
     isPartOf: {
       '@type': 'WebSite',
       name: siteConfig.name,
-      url: `${siteConfig.url}${cleanBasePath}`,
+      url: `${siteConfig.url}${cleanBasePath}/`,
     },
     about: {
       '@type': 'Thing',
@@ -311,13 +311,13 @@ export function generateWebSiteSchema(locale: Locale): WebSiteSchema {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: siteConfig.name,
-    url: `${siteConfig.url}${cleanBasePath}/${locale}`,
+    url: `${siteConfig.url}${cleanBasePath}/${locale}/`,
     description: siteConfig.description,
     potentialAction: {
       '@type': 'SearchAction',
       target: {
         '@type': 'EntryPoint',
-        urlTemplate: `${siteConfig.url}${cleanBasePath}/${locale}/tools?q={search_term_string}`,
+        urlTemplate: `${siteConfig.url}${cleanBasePath}/${locale}/tools/?q={search_term_string}`,
       },
       'query-input': 'required name=search_term_string',
     },
@@ -332,7 +332,7 @@ export function generateOrganizationSchema(): OrganizationSchema {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: siteConfig.name,
-    url: `${siteConfig.url}${cleanBasePath}`,
+    url: `${siteConfig.url}${cleanBasePath}/`,
     logo: `${siteConfig.url}${cleanBasePath}/images/logo.png`,
     sameAs: siteConfig.links.github ? [siteConfig.links.github] : [],
   };
@@ -352,7 +352,7 @@ export function generateBreadcrumbSchema(
       '@type': 'ListItem',
       position: index + 1,
       name: item.name,
-      item: `${siteConfig.url}${cleanBasePath}/${locale}${item.path}`,
+      item: `${siteConfig.url}${cleanBasePath}/${locale}${item.path}${item.path === '' || item.path.endsWith('/') ? '' : '/'}`,
     })),
   };
 }

@@ -109,7 +109,7 @@ export const Header: React.FC<HeaderProps> = ({ locale, showSearch = true }) => 
   }, [searchResults, selectedIndex]);
 
   const navigateToTool = useCallback((slug: string) => {
-    router.push(`/${locale}/tools/${slug}`);
+    router.push(`/${locale}/tools/${slug}/`);
     setIsSearchOpen(false);
     setSearchQuery('');
     setSearchResults([]);
@@ -157,9 +157,9 @@ export const Header: React.FC<HeaderProps> = ({ locale, showSearch = true }) => 
 
   const navItems = [
     { href: 'https://spvntech.in/', label: 'SPVN Tech' },
-    { href: `/${locale}`, label: t('navigation.home') },
-    { href: `/${locale}/tools`, label: t('navigation.tools') },
-    { href: `/${locale}/faq`, label: t('navigation.faq') },
+    { href: `/${locale}/`, label: t('navigation.home') },
+    { href: `/${locale}/tools/`, label: t('navigation.tools') },
+    { href: `/${locale}/faq/`, label: t('navigation.faq') },
   ];
 
   return (
@@ -175,7 +175,7 @@ export const Header: React.FC<HeaderProps> = ({ locale, showSearch = true }) => 
           {/* Logo and Brand */}
           <div className="flex flex-1 items-center gap-2">
             <Link
-              href={`/${locale}`}
+              href={`/${locale}/`}
               className="group flex items-center gap-2.5 text-xl font-bold text-[hsl(var(--color-foreground))] hover:opacity-90 transition-opacity"
               aria-label={`${t('brand')} - ${t('navigation.home')}`}
             >

@@ -29,6 +29,8 @@ const cleanBasePath = basePath.replace(/\/$/, '');
  */
 const SITEMAP_LOCALES = [
   'en', 'ja', 'ko', 'es', 'fr', 'de', 'zh', 'zh-TW', 'pt', 'ar',
+  'it', 'id', 'vi', 'ro', 'hi', 'te', 'ta', 'kn', 'ml', 'bn',
+  'mr', 'gu', 'pa', 'or', 'ur'
 ] as const;
 
 type SitemapLocale = (typeof SITEMAP_LOCALES)[number];

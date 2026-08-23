@@ -1,3433 +1,7938 @@
 /**
- * English tool content for SEO
- * Contains detailed descriptions, how-to steps, use cases, and FAQs for all 67 tools
- * Requirements: 4.2-4.5 - Tool page content (description, how-to, use cases, FAQ)
+ * Hi tool content
+ * Auto-generated via scripts/generate-tool-content.mjs
  */
 
 import { ToolContent } from '@/types/tool';
 
-/**
- * English tool content map
- * Each tool has: title, metaDescription, keywords, description, howToUse (3+ steps), useCases (3+ scenarios), faq (3+ questions)
- */
 export const toolContentHi: Record<string, ToolContent> = {
-  // ==================== POPULAR TOOLS ====================
-  'pdf-multi-tool': {
-    title: 'PDF Multi Tool',
-    metaDescription: 'All-in-one PDF editor: merge, split, organize, delete, rotate, and extract pages in one powerful tool.',
-    keywords: ['pdf multi tool', 'pdf editor', 'merge pdf', 'split pdf', 'organize pdf', 'all in one pdf'],
-    description: `
-      <p>The PDF Multi Tool is your comprehensive solution for all PDF page management tasks. This powerful all-in-one tool combines multiple PDF operations into a single, intuitive interface, saving you time and effort.</p>
-      <p>Whether you need to merge multiple documents, split a large PDF into smaller files, reorganize pages, delete unwanted content, rotate pages, or extract specific sections, this tool handles it all without switching between different applications.</p>
-      <p>All processing happens directly in your browser, ensuring your documents remain private and secure. No files are uploaded to any server.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file into the upload area, or click to browse and select files from your device.' },
-      { step: 2, title: 'Choose Your Operation', description: 'Select from the available operations: merge, split, organize, delete pages, rotate, add blank pages, or extract pages.' },
-      { step: 3, title: 'Configure Options', description: 'Adjust settings specific to your chosen operation, such as page ranges, rotation angles, or merge order.' },
-      { step: 4, title: 'Process and Download', description: 'Click the process button and download your modified PDF once the operation completes.' },
-    ],
-    useCases: [
-      { title: 'Document Preparation', description: 'Prepare documents for submission by removing unnecessary pages, reordering content, and combining multiple files.', icon: 'file-check' },
-      { title: 'Report Assembly', description: 'Combine multiple report sections, add cover pages, and organize chapters into a single professional document.', icon: 'book-open' },
-      { title: 'Archive Management', description: 'Split large archive files into manageable sections, extract relevant pages, and reorganize historical documents.', icon: 'archive' },
-    ],
-    faq: [
-      { question: 'How many PDFs can I process at once?', answer: 'You can upload and process up to 10 PDF files simultaneously, with a combined maximum size of 500MB.' },
-      { question: 'Will my bookmarks be preserved?', answer: 'Yes, when merging PDFs, the tool preserves existing bookmarks and can optionally combine them into a unified bookmark structure.' },
-      { question: 'Is there a page limit?', answer: 'There is no strict page limit. The tool can handle documents with hundreds of pages, though very large files may take longer to process.' },
-    ],
-  },
-
-  'merge-pdf': {
-    title: 'Merge PDF',
-    metaDescription: 'Combine multiple PDF files into one document. Free online PDF merger with drag-and-drop reordering.',
-    keywords: ['merge pdf', 'combine pdf', 'join pdf', 'pdf merger', 'concatenate pdf'],
-    description: `
-      <p>Merge PDF allows you to combine multiple PDF documents into a single file quickly and easily. Whether you're consolidating reports, combining scanned documents, or assembling a presentation, this tool makes the process seamless.</p>
-      <p>Simply upload your files, arrange them in your desired order using drag-and-drop, and merge them into one cohesive document. The tool preserves the quality of your original files and can optionally maintain bookmarks from each source document.</p>
-      <p>All merging happens locally in your browser, ensuring complete privacy for your sensitive documents.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload PDF Files', description: 'Drag and drop multiple PDF files into the upload area, or click to select files from your device.' },
-      { step: 2, title: 'Arrange Order', description: 'Drag and drop the file thumbnails to arrange them in your desired order.' },
-      { step: 3, title: 'Merge and Download', description: 'Click the Merge button to combine all files, then download your merged PDF.' },
-    ],
-    useCases: [
-      { title: 'Combine Reports', description: 'Merge monthly or quarterly reports into a single annual document for easier distribution and archiving.', icon: 'file-text' },
-      { title: 'Assemble Portfolios', description: 'Combine multiple project documents, certificates, or work samples into a professional portfolio.', icon: 'briefcase' },
-      { title: 'Consolidate Invoices', description: 'Merge multiple invoices or receipts into one document for accounting and record-keeping purposes.', icon: 'receipt' },
-    ],
-    faq: [
-      { question: 'How many PDFs can I merge?', answer: 'You can merge up to 100 PDF files at once, with a total combined size of up to 500MB.' },
-      { question: 'Will the merged PDF maintain the original quality?', answer: 'Yes, the merging process preserves the original quality of all documents without any compression or quality loss.' },
-      { question: 'Can I merge password-protected PDFs?', answer: 'Password-protected PDFs need to be decrypted first. Use our Decrypt PDF tool to remove the password before merging.' },
-    ],
-  },
-
-  'rotate-custom': {
-    title: 'Rotate by Custom Degrees',
-    metaDescription: 'Rotate PDF pages by any angle. Precise custom rotation for straightening scanned documents.',
-    keywords: ['rotate pdf custom angle', 'straighten pdf', 'deskew pdf', 'pdf custom rotation'],
-    description: `
-      <p>Rotate by Custom Degrees gives you precise control over your PDF page orientation. Unlike standard rotation tools that only support 90-degree increments, this tool allows you to rotate pages by any specific angle.</p>
-      <p>Perfect for straightening scanned documents that were fed slightly askew, or adjusting diagrams and charts to their correct orientation. You can correct individual pages or apply the same rotation to the entire document.</p>
-      <p>All processing happens locally in your browser, ensuring your documents remain private while achieving perfect alignment.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload PDF', description: 'Upload the PDF file containing pages you need to rotate.' },
-      { step: 2, title: 'Set Rotation Angle', description: 'Enter the exact degree of rotation for each page, or set a batch angle for all pages.' },
-      { step: 3, title: 'Preview and Adjust', description: 'Use the real-time preview to ensure pages are perfectly aligned.' },
-      { step: 4, title: 'Apply and Download', description: 'Click Rotate to apply the changes and download your straightened PDF.' },
-    ],
-    useCases: [
-      { title: 'Scanned Documents', description: 'Straighten scanned pages that were fed into the scanner at an angle.', icon: 'scan' },
-      { title: 'Technical Drawings', description: 'Adjust the orientation of technical diagrams and plans with precision.', icon: 'ruler' },
-      { title: 'Creative Layouts', description: 'Create unique layouts by rotating pages to specific artistic angles.', icon: 'pen-tool' },
-    ],
-    faq: [
-      { question: 'Can I rotate by decimals, e.g., 45.5 degrees?', answer: 'Currently the tool supports integer degrees, but we are working on enabling decimal precision.' },
-      { question: 'Does this affect the page content?', answer: 'The content is visually rotated. The page size is automatically adjusted to fit the rotated content.' },
-      { question: 'Can I rotate just one page?', answer: 'Yes, you can set a custom rotation angle for any individual page while leaving others unchanged.' },
-    ],
-  },
-
-  'grid-combine': {
-    title: 'Grid Combine PDF',
-    metaDescription: 'Combine multiple PDF files onto single pages with a flexible grid layout. Arrange 2, 4, 6, 9 or more PDFs per page with borders and spacing.',
-    keywords: ['grid combine', 'merge pdf grid', 'pdf collage', 'multiple pdfs one page', 'pdf n-up', 'combine pdfs grid'],
-    description: `
-      <p>The Grid Combine tool offers a unique way to merge multiple separate PDF files onto single pages. Unlike the standard "Merge PDF" tool which simply appends pages, or the "N-Up" tool which rearranges pages from a single document, Grid Combine takes multiple input files and arranges them side-by-side in a customizable grid layout.</p>
-      <p>You can choose from various grid configurations such as 2x1, 2x2, 3x3, etc. This is perfect for comparing multiple documents, creating handouts from different sources, or printing compact versions of several files.</p>
-      <p>Customize the output with control over page size, orientation, margins, spacing, and borders. All processing happens locally in your browser for maximum privacy.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload PDF Files', description: 'Upload two or more PDF files you want to combine. You can rearrange them in your desired order.' },
-      { step: 2, title: 'Choose Grid Layout', description: 'Select your desired grid layout (e.g., 2x2 for 4 files per page, 3x3 for 9 files per page).' },
-      { step: 3, title: 'Customize Appearance', description: 'Adjust settings like page size (A4, Letter), orientation, spacing between items, and borders.' },
-      { step: 4, title: 'Combine and Download', description: 'Click "Combine PDFs" to generate your new grid layout document and download the result.' },
-    ],
-    useCases: [
-      { title: 'Visual Comparison', description: 'Place different versions of a design or document side-by-side on a single page for easy comparison.', icon: 'layout-grid' },
-      { title: 'Printing Handouts', description: 'Combine multiple short documents or slides onto a single sheet of paper to save printing costs.', icon: 'printer' },
-      { title: 'Portfolio Creation', description: 'Showcase multiple project files in a clean, organized grid overview.', icon: 'image' },
-    ],
-    faq: [
-      { question: 'How is this different from N-Up?', answer: 'N-Up takes pages from ONE PDF and puts them on a sheet. Grid Combine takes MULTIPLE DIFFERENT PDF files and puts them on a sheet.' },
-      { question: 'How many files can I combine?', answer: 'You can combine up to 100 files depending on your browser memory, but layouts like 4x4 accommodate up to 16 files per page.' },
-      { question: 'Can I add borders?', answer: 'Yes, you can add borders around each PDF file and customize the border color.' },
-    ],
-  },
-
-  'split-pdf': {
-    title: 'Split PDF',
-    metaDescription: 'Split PDF files into multiple documents. Extract specific pages or divide by page ranges.',
-    keywords: ['split pdf', 'divide pdf', 'separate pdf', 'extract pages', 'pdf splitter'],
-    description: `
-      <p>Split PDF enables you to divide a single PDF document into multiple smaller files. This is perfect for extracting specific chapters, separating combined documents, or creating individual files from a multi-page PDF.</p>
-      <p>You can split by specific page ranges, extract individual pages, or divide the document at regular intervals. The tool provides a visual preview of your pages, making it easy to select exactly what you need.</p>
-      <p>All processing is done locally in your browser, ensuring your documents remain private and secure.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to browse and select the file you want to split.' },
-      { step: 2, title: 'Select Split Method', description: 'Choose how to split: by page ranges, extract specific pages, or split at regular intervals.' },
-      { step: 3, title: 'Define Page Ranges', description: 'Enter the page numbers or ranges you want to extract (e.g., 1-5, 8, 10-15).' },
-      { step: 4, title: 'Split and Download', description: 'Click Split to create your new PDF files and download them individually or as a ZIP archive.' },
-    ],
-    useCases: [
-      { title: 'Extract Chapters', description: 'Split a book or manual into individual chapters for easier reading or distribution.', icon: 'book' },
-      { title: 'Separate Combined Scans', description: 'Divide a batch-scanned document into individual files for each original document.', icon: 'copy' },
-      { title: 'Create Handouts', description: 'Extract specific slides or pages from a presentation to create focused handouts.', icon: 'presentation' },
-    ],
-    faq: [
-      { question: 'Can I split a PDF into individual pages?', answer: 'Yes, you can split a PDF into individual single-page files by selecting the "Split every page" option.' },
-      { question: 'What happens to bookmarks when splitting?', answer: 'Bookmarks that fall within the extracted page range are preserved in the resulting PDF files.' },
-      { question: 'Can I split password-protected PDFs?', answer: 'You need to decrypt the PDF first using our Decrypt PDF tool before splitting.' },
-    ],
-  },
-
-  'compress-pdf': {
-    title: 'Compress PDF',
-    metaDescription: 'Reduce PDF file size while maintaining quality. Free online PDF compressor for smaller files.',
-    keywords: ['compress pdf', 'reduce pdf size', 'pdf compressor', 'shrink pdf', 'optimize pdf'],
-    description: `
-      <p>Compress PDF reduces the file size of your PDF documents while maintaining acceptable quality. This is essential for email attachments, web uploads, or saving storage space.</p>
-      <p>The tool offers multiple compression levels to balance between file size reduction and quality preservation. You can choose aggressive compression for maximum size reduction or light compression to maintain higher quality.</p>
-      <p>All compression happens in your browser, ensuring your documents never leave your device.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select the document you want to compress.' },
-      { step: 2, title: 'Choose Compression Level', description: 'Select your preferred compression level: Low (best quality), Medium (balanced), or High (smallest size).' },
-      { step: 3, title: 'Compress and Download', description: 'Click Compress to reduce the file size, then download your optimized PDF.' },
-    ],
-    useCases: [
-      { title: 'Email Attachments', description: 'Reduce PDF size to meet email attachment limits and ensure faster delivery.', icon: 'mail' },
-      { title: 'Web Publishing', description: 'Optimize PDFs for web download to improve page load times and user experience.', icon: 'globe' },
-      { title: 'Storage Optimization', description: 'Compress archived documents to save disk space while maintaining accessibility.', icon: 'hard-drive' },
-    ],
-    faq: [
-      { question: 'How much can I reduce the file size?', answer: 'Compression results vary based on the PDF content. Image-heavy PDFs can often be reduced by 50-80%, while text-only PDFs may see smaller reductions.' },
-      { question: 'Will compression affect text quality?', answer: 'Text remains sharp and readable at all compression levels. Only images and graphics are affected by compression.' },
-      { question: 'Can I compress multiple PDFs at once?', answer: 'Yes, you can upload and compress up to 10 PDF files simultaneously.' },
-    ],
-  },
-
-  'edit-pdf': {
-    title: 'Edit PDF',
-    metaDescription: 'Edit PDF files online. Add text, images, annotations, highlights, and shapes to your documents.',
-    keywords: ['edit pdf', 'pdf editor', 'annotate pdf', 'add text to pdf', 'pdf markup'],
-    description: `
-      <p>Edit PDF provides a comprehensive set of tools for modifying and annotating your PDF documents. Add text, images, shapes, highlights, comments, and more without needing expensive desktop software.</p>
-      <p>The intuitive editor interface makes it easy to mark up documents for review, add notes for collaboration, redact sensitive information, or enhance documents with additional content.</p>
-      <p>All editing happens locally in your browser, ensuring complete privacy for your sensitive documents.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select the document you want to edit.' },
-      { step: 2, title: 'Select Editing Tool', description: 'Choose from the toolbar: text, highlight, shapes, images, comments, or redaction tools.' },
-      { step: 3, title: 'Make Your Edits', description: 'Click on the document to add annotations, drag to position elements, and use the properties panel to customize.' },
-      { step: 4, title: 'Save and Download', description: 'Click Save to apply your changes and download the edited PDF.' },
-    ],
-    useCases: [
-      { title: 'Document Review', description: 'Add comments, highlights, and markup to documents for collaborative review processes.', icon: 'message-square' },
-      { title: 'Form Completion', description: 'Fill in text fields, add signatures, and complete PDF forms without printing.', icon: 'edit-3' },
-      { title: 'Content Redaction', description: 'Permanently remove sensitive information from documents before sharing.', icon: 'eye-off' },
-    ],
-    faq: [
-      { question: 'Can I edit the original text in the PDF?', answer: 'Yes. Select Edit text in the PDF toolbar, click an existing text block, enter the replacement, and apply it. Text is permanently replaced in the exported PDF.' },
-      { question: 'Are my edits permanent?', answer: 'Annotations can be flattened to make them permanent, or kept as editable layers depending on your preference.' },
-      { question: 'Can I undo my changes?', answer: 'Yes, the editor supports undo/redo functionality. You can also reset to the original document at any time before saving.' },
-    ],
-  },
-
-  'jpg-to-pdf': {
-    title: 'JPG to PDF',
-    metaDescription: 'Convert JPG images to PDF. Combine multiple JPG files into a single PDF document.',
-    keywords: ['jpg to pdf', 'jpeg to pdf', 'convert jpg', 'image to pdf', 'photo to pdf'],
-    description: `
-      <p>JPG to PDF converts your JPEG images into PDF documents quickly and easily. Whether you have a single photo or multiple images, this tool creates professional-looking PDF files.</p>
-      <p>You can combine multiple JPG files into a single PDF, arrange them in any order, and customize page size and orientation. The conversion preserves image quality while creating compact, shareable PDF files.</p>
-      <p>All conversion happens in your browser, ensuring your photos remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload JPG Images', description: 'Drag and drop your JPG files or click to select images from your device.' },
-      { step: 2, title: 'Arrange and Configure', description: 'Reorder images by dragging, and select page size and orientation options.' },
-      { step: 3, title: 'Convert and Download', description: 'Click Convert to create your PDF and download the result.' },
-    ],
-    useCases: [
-      { title: 'Photo Albums', description: 'Create PDF photo albums from vacation pictures or event photos for easy sharing.', icon: 'image' },
-      { title: 'Document Scanning', description: 'Convert phone camera photos of documents into proper PDF files.', icon: 'camera' },
-      { title: 'Portfolio Creation', description: 'Compile photography work or design samples into a professional PDF portfolio.', icon: 'folder' },
-    ],
-    faq: [
-      { question: 'How many images can I convert?', answer: 'You can convert up to 100 JPG images into a single PDF document.' },
-      { question: 'Will the image quality be preserved?', answer: 'Yes, images are embedded at their original quality. You can optionally compress them to reduce file size.' },
-      { question: 'Can I set different page sizes for different images?', answer: 'The tool applies a uniform page size to all pages. Each image is scaled to fit the selected page size while maintaining aspect ratio.' },
-    ],
-  },
-
-  'sign-pdf': {
-    title: 'Sign PDF',
-    metaDescription: 'Add electronic signatures to PDF documents. Draw, type, or upload your signature.',
-    keywords: ['sign pdf', 'electronic signature', 'e-signature', 'pdf signature', 'digital signature'],
-    description: `
-      <p>Sign PDF allows you to add electronic signatures to your PDF documents quickly and securely. Create your signature by drawing, typing, or uploading an image, then place it anywhere on your document.</p>
-      <p>You can add multiple signatures to a single document, resize and position them precisely, and save your signature for future use. The tool is perfect for contracts, agreements, forms, and any document requiring your signature.</p>
-      <p>All signing happens locally in your browser, ensuring your documents and signature remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select the document you need to sign.' },
-      { step: 2, title: 'Create Your Signature', description: 'Draw your signature with mouse or touch, type your name to generate a signature, or upload a signature image.' },
-      { step: 3, title: 'Place and Adjust', description: 'Click on the document to place your signature, then drag to position and resize as needed.' },
-      { step: 4, title: 'Save and Download', description: 'Click Save to apply your signature and download the signed PDF.' },
-    ],
-    useCases: [
-      { title: 'Contract Signing', description: 'Sign contracts and agreements electronically without printing and scanning.', icon: 'file-signature' },
-      { title: 'Form Completion', description: 'Add your signature to application forms, consent forms, and official documents.', icon: 'clipboard' },
-      { title: 'Approval Workflows', description: 'Sign off on documents as part of review and approval processes.', icon: 'check-circle' },
-    ],
-    faq: [
-      { question: 'Is an electronic signature legally binding?', answer: 'Electronic signatures are legally recognized in most countries. However, some documents may require specific types of digital signatures. Check your local regulations.' },
-      { question: 'Can I save my signature for future use?', answer: 'Yes, you can save your signature to your browser\'s local storage for quick access when signing future documents.' },
-      { question: 'Can I add multiple signatures to one document?', answer: 'Yes, you can add as many signatures as needed, positioning each one independently on any page.' },
-    ],
-  },
-
-  'crop-pdf': {
-    title: 'Crop PDF',
-    metaDescription: 'Crop PDF pages to remove margins and unwanted areas. Trim PDF documents precisely.',
-    keywords: ['crop pdf', 'trim pdf', 'cut pdf margins', 'resize pdf pages', 'pdf cropper'],
-    description: `
-      <p>Crop PDF allows you to trim margins and remove unwanted areas from your PDF pages. This is useful for removing excess whitespace, focusing on specific content areas, or standardizing page dimensions.</p>
-      <p>You can crop all pages uniformly or adjust each page individually. The visual interface shows exactly what will be kept, making it easy to achieve precise results.</p>
-      <p>All cropping happens locally in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select the document you want to crop.' },
-      { step: 2, title: 'Define Crop Area', description: 'Drag the crop handles to define the area you want to keep, or enter precise measurements.' },
-      { step: 3, title: 'Apply to Pages', description: 'Choose to apply the crop to all pages or select specific pages to crop.' },
-      { step: 4, title: 'Crop and Download', description: 'Click Crop to apply the changes and download your cropped PDF.' },
-    ],
-    useCases: [
-      { title: 'Remove Margins', description: 'Trim excessive margins from scanned documents or PDFs with large borders.', icon: 'maximize-2' },
-      { title: 'Focus Content', description: 'Crop to highlight specific content areas, removing headers, footers, or sidebars.', icon: 'target' },
-      { title: 'Standardize Pages', description: 'Make all pages the same size by cropping to uniform dimensions.', icon: 'square' },
-    ],
-    faq: [
-      { question: 'Does cropping permanently remove content?', answer: 'Yes, cropping removes the content outside the crop area. Make sure to keep a backup of your original file.' },
-      { question: 'Can I crop different pages differently?', answer: 'Yes, you can apply different crop settings to individual pages or groups of pages.' },
-      { question: 'Will cropping affect the text quality?', answer: 'No, cropping only removes areas outside the crop boundary. The remaining content maintains its original quality.' },
-    ],
-  },
-
-  'extract-pages': {
-    title: 'Extract Pages',
-    metaDescription: 'Extract specific pages from PDF files. Select and save individual pages as new documents.',
-    keywords: ['extract pdf pages', 'save pdf pages', 'copy pdf pages', 'pdf page extractor'],
-    description: `
-      <p>Extract Pages allows you to select and save specific pages from a PDF document as new files. This is perfect for pulling out relevant sections, creating excerpts, or separating combined documents.</p>
-      <p>You can extract individual pages, page ranges, or multiple non-consecutive pages. The visual page preview makes it easy to identify and select exactly the pages you need.</p>
-      <p>All extraction happens locally in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select the document from which you want to extract pages.' },
-      { step: 2, title: 'Select Pages', description: 'Click on page thumbnails to select them, or enter page numbers and ranges in the input field.' },
-      { step: 3, title: 'Extract and Download', description: 'Click Extract to create a new PDF with your selected pages and download it.' },
-    ],
-    useCases: [
-      { title: 'Create Excerpts', description: 'Extract relevant pages from reports or books to create focused reference documents.', icon: 'file-minus' },
-      { title: 'Share Specific Content', description: 'Pull out specific pages to share without sending the entire document.', icon: 'share-2' },
-      { title: 'Archive Important Pages', description: 'Extract and save key pages from documents for long-term archival.', icon: 'archive' },
-    ],
-    faq: [
-      { question: 'Can I extract non-consecutive pages?', answer: 'Yes, you can select any combination of pages, whether consecutive or scattered throughout the document.' },
-      { question: 'Will bookmarks be preserved?', answer: 'Bookmarks that point to extracted pages are preserved in the new document.' },
-      { question: 'Can I extract pages from multiple PDFs?', answer: 'This tool works with one PDF at a time. For combining pages from multiple PDFs, use the Merge PDF tool.' },
-    ],
-  },
-
-  'organize-pdf': {
-    title: 'Organize PDF',
-    metaDescription: 'Reorder, duplicate, and delete PDF pages. Drag and drop to reorganize your documents.',
-    keywords: ['organize pdf', 'reorder pdf pages', 'rearrange pdf', 'pdf page organizer'],
-    description: `
-      <p>Organize PDF provides an intuitive drag-and-drop interface for rearranging pages in your PDF documents. Reorder pages, duplicate important sections, or remove unwanted pages with ease.</p>
-      <p>The visual page thumbnails make it easy to identify content and arrange pages exactly as you need them. Perfect for restructuring documents, creating custom page orders, or cleaning up scanned files.</p>
-      <p>All organization happens locally in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select the document you want to organize.' },
-      { step: 2, title: 'Rearrange Pages', description: 'Drag page thumbnails to reorder them. Click the duplicate or delete buttons on each page as needed.' },
-      { step: 3, title: 'Save and Download', description: 'Click Save to apply your changes and download the reorganized PDF.' },
-    ],
-    useCases: [
-      { title: 'Fix Page Order', description: 'Correct the order of pages that were scanned or combined incorrectly.', icon: 'arrow-up-down' },
-      { title: 'Create Custom Order', description: 'Arrange pages in a specific sequence for presentations or reports.', icon: 'list' },
-      { title: 'Remove Unwanted Pages', description: 'Delete blank pages, duplicates, or irrelevant content from documents.', icon: 'trash-2' },
-    ],
-    faq: [
-      { question: 'Can I duplicate pages?', answer: 'Yes, you can duplicate any page and place the copy anywhere in the document.' },
-      { question: 'Is there an undo function?', answer: 'Yes, you can undo and redo changes. You can also reset to the original order at any time.' },
-      { question: 'Can I organize multiple PDFs together?', answer: 'This tool works with one PDF at a time. To combine and organize multiple PDFs, first merge them using the Merge PDF tool.' },
-    ],
-  },
-
-  'delete-pages': {
-    title: 'Delete Pages',
-    metaDescription: 'Remove unwanted pages from PDF files. Select and delete specific pages easily.',
-    keywords: ['delete pdf pages', 'remove pdf pages', 'pdf page remover', 'delete pages from pdf'],
-    description: `
-      <p>Delete Pages allows you to remove unwanted pages from your PDF documents quickly and easily. Whether you need to remove blank pages, outdated content, or sensitive information, this tool makes it simple.</p>
-      <p>Visual page thumbnails help you identify exactly which pages to remove. You can delete individual pages or multiple pages at once.</p>
-      <p>All processing happens locally in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select the document from which you want to delete pages.' },
-      { step: 2, title: 'Select Pages to Delete', description: 'Click on page thumbnails to mark them for deletion, or enter page numbers in the input field.' },
-      { step: 3, title: 'Delete and Download', description: 'Click Delete to remove the selected pages and download your updated PDF.' },
-    ],
-    useCases: [
-      { title: 'Remove Blank Pages', description: 'Clean up documents by removing accidentally included blank pages.', icon: 'file-x' },
-      { title: 'Remove Sensitive Content', description: 'Delete pages containing confidential information before sharing documents.', icon: 'shield' },
-      { title: 'Streamline Documents', description: 'Remove outdated or irrelevant pages to create more focused documents.', icon: 'filter' },
-    ],
-    faq: [
-      { question: 'Can I recover deleted pages?', answer: 'Deletion is permanent in the output file. Keep a backup of your original document if you might need the pages later.' },
-      { question: 'Can I delete multiple pages at once?', answer: 'Yes, you can select and delete multiple pages simultaneously.' },
-      { question: 'Will deleting pages affect bookmarks?', answer: 'Bookmarks pointing to deleted pages will be removed. Bookmarks to remaining pages are preserved.' },
-    ],
-  },
-
-
-  // ==================== EDIT & ANNOTATE ====================
-  'bookmark': {
-    title: 'Edit Bookmarks',
-    metaDescription: 'Add, edit, and manage PDF bookmarks. Create navigation structure for your documents.',
-    keywords: ['pdf bookmarks', 'edit bookmarks', 'add bookmarks', 'pdf navigation', 'table of contents'],
-    description: `
-      <p>Edit Bookmarks allows you to create, modify, and organize bookmarks in your PDF documents. Bookmarks provide quick navigation to specific sections, making long documents easier to use.</p>
-      <p>You can add new bookmarks, edit existing ones, reorganize the bookmark hierarchy, or import bookmarks from external sources. This tool is essential for creating professional, navigable documents.</p>
-      <p>All editing happens locally in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select the document you want to edit.' },
-      { step: 2, title: 'Manage Bookmarks', description: 'Add new bookmarks, edit existing ones, or drag to reorganize the hierarchy.' },
-      { step: 3, title: 'Save and Download', description: 'Click Save to apply your changes and download the PDF with updated bookmarks.' },
-    ],
-    useCases: [
-      { title: 'Create Navigation', description: 'Add bookmarks to long documents to help readers navigate to specific sections quickly.', icon: 'navigation' },
-      { title: 'Organize Chapters', description: 'Create a hierarchical bookmark structure that mirrors your document\'s chapter organization.', icon: 'book-open' },
-      { title: 'Improve Accessibility', description: 'Add bookmarks to make documents more accessible and user-friendly.', icon: 'accessibility' },
-    ],
-    faq: [
-      { question: 'Can I create nested bookmarks?', answer: 'Yes, you can create a hierarchical structure with parent and child bookmarks.' },
-      { question: 'Can I import bookmarks from a file?', answer: 'Yes, you can import bookmark structures from JSON or text files.' },
-      { question: 'Will bookmarks work in all PDF readers?', answer: 'Yes, bookmarks are a standard PDF feature supported by all major PDF readers.' },
-    ],
-  },
-
-  'table-of-contents': {
-    title: 'Table of Contents',
-    metaDescription: 'Generate a table of contents for your PDF. Create clickable navigation from bookmarks.',
-    keywords: ['pdf table of contents', 'toc generator', 'pdf index', 'document navigation'],
-    description: `
-      <p>Table of Contents generates a navigable table of contents page for your PDF documents. The TOC can be created from existing bookmarks or custom entries, providing readers with an overview and quick navigation.</p>
-      <p>Customize the appearance with different styles, fonts, and layouts. The generated TOC includes clickable links that jump directly to the referenced pages.</p>
-      <p>All processing happens locally in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select the document.' },
-      { step: 2, title: 'Configure TOC', description: 'Choose to generate from bookmarks or create custom entries. Select style and positioning options.' },
-      { step: 3, title: 'Generate and Download', description: 'Click Generate to create the table of contents and download your updated PDF.' },
-    ],
-    useCases: [
-      { title: 'Academic Papers', description: 'Add a professional table of contents to theses, dissertations, and research papers.', icon: 'graduation-cap' },
-      { title: 'Business Reports', description: 'Create navigable reports with clear section listings for stakeholders.', icon: 'bar-chart' },
-      { title: 'User Manuals', description: 'Generate comprehensive TOCs for technical documentation and user guides.', icon: 'book' },
-    ],
-    faq: [
-      { question: 'Can I customize the TOC appearance?', answer: 'Yes, you can choose from different styles, fonts, and layouts for your table of contents.' },
-      { question: 'Where is the TOC inserted?', answer: 'By default, the TOC is inserted at the beginning of the document, but you can choose a different location.' },
-      { question: 'Are the TOC entries clickable?', answer: 'Yes, each entry is a clickable link that navigates to the corresponding page.' },
-    ],
-  },
-
-  'page-numbers': {
-    title: 'Page Numbers',
-    metaDescription: 'Add page numbers to PDF documents. Customize position, format, and starting number.',
-    keywords: ['add page numbers', 'pdf page numbers', 'number pdf pages', 'pdf pagination'],
-    description: `
-      <p>Page Numbers adds customizable page numbering to your PDF documents. Choose from various formats, positions, and styles to match your document's design.</p>
-      <p>You can set the starting number, skip certain pages, and use different numbering formats (1, 2, 3 or i, ii, iii). Perfect for creating professional documents with proper pagination.</p>
-      <p>All processing happens locally in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select the document.' },
-      { step: 2, title: 'Configure Numbering', description: 'Choose position, format, starting number, and which pages to number.' },
-      { step: 3, title: 'Apply and Download', description: 'Click Apply to add page numbers and download your updated PDF.' },
-    ],
-    useCases: [
-      { title: 'Professional Documents', description: 'Add page numbers to reports, proposals, and business documents.', icon: 'file-text' },
-      { title: 'Academic Papers', description: 'Number pages according to academic formatting requirements.', icon: 'graduation-cap' },
-      { title: 'Legal Documents', description: 'Add proper pagination to contracts and legal filings.', icon: 'scale' },
-    ],
-    faq: [
-      { question: 'Can I skip the first page?', answer: 'Yes, you can specify which pages to number and which to skip, such as title pages or cover pages.' },
-      { question: 'What number formats are available?', answer: 'You can use Arabic numerals (1, 2, 3), Roman numerals (i, ii, iii or I, II, III), or letters (a, b, c).' },
-      { question: 'Can I add "Page X of Y" format?', answer: 'Yes, you can include the total page count in your numbering format.' },
-    ],
-  },
-
-  'add-watermark': {
-    title: 'Add Watermark',
-    metaDescription: 'Add text or image watermarks to PDF files. Protect and brand your documents.',
-    keywords: ['add watermark', 'pdf watermark', 'stamp pdf', 'brand pdf', 'protect pdf'],
-    description: `
-      <p>Add Watermark allows you to place text or image watermarks on your PDF documents. Watermarks can indicate document status (Draft, Confidential), add branding, or deter unauthorized copying.</p>
-      <p>Customize the watermark's position, size, opacity, rotation, and color. Apply to all pages or select specific pages. The tool supports both text watermarks and image watermarks.</p>
-      <p>All processing happens locally in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select the document.' },
-      { step: 2, title: 'Create Watermark', description: 'Enter text or upload an image for your watermark. Adjust position, size, opacity, and rotation.' },
-      { step: 3, title: 'Apply and Download', description: 'Click Apply to add the watermark and download your updated PDF.' },
-    ],
-    useCases: [
-      { title: 'Document Protection', description: 'Add "Confidential" or "Draft" watermarks to indicate document status.', icon: 'shield' },
-      { title: 'Brand Documents', description: 'Add company logos or names to official documents.', icon: 'award' },
-      { title: 'Copyright Notice', description: 'Add copyright information to protect intellectual property.', icon: 'copyright' },
-    ],
-    faq: [
-      { question: 'Can I use an image as a watermark?', answer: 'Yes, you can upload PNG, JPG, or SVG images to use as watermarks.' },
-      { question: 'Can I make the watermark semi-transparent?', answer: 'Yes, you can adjust the opacity from fully transparent to fully opaque.' },
-      { question: 'Can I apply different watermarks to different pages?', answer: 'The tool applies the same watermark to selected pages. For different watermarks, process the document multiple times.' },
-    ],
-  },
-
-  'header-footer': {
-    title: 'Header & Footer',
-    metaDescription: 'Add headers and footers to PDF documents. Include page numbers, dates, and custom text.',
-    keywords: ['pdf header', 'pdf footer', 'add header footer', 'pdf letterhead'],
-    description: `
-      <p>Header & Footer adds customizable headers and footers to your PDF documents. Include page numbers, dates, document titles, or any custom text in the header or footer areas.</p>
-      <p>Position content on the left, center, or right of the header/footer. Use different content for odd and even pages if needed. Perfect for creating professional documents with consistent formatting.</p>
-      <p>All processing happens locally in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select the document.' },
-      { step: 2, title: 'Configure Header/Footer', description: 'Enter text for header and footer areas. Add page numbers, dates, or custom text.' },
-      { step: 3, title: 'Apply and Download', description: 'Click Apply to add headers/footers and download your updated PDF.' },
-    ],
-    useCases: [
-      { title: 'Business Documents', description: 'Add company name and page numbers to professional documents.', icon: 'briefcase' },
-      { title: 'Legal Documents', description: 'Include case numbers, dates, and page references in legal filings.', icon: 'scale' },
-      { title: 'Academic Papers', description: 'Add running headers with paper title and author name.', icon: 'graduation-cap' },
-    ],
-    faq: [
-      { question: 'Can I have different headers on odd and even pages?', answer: 'Yes, you can configure different content for odd and even pages.' },
-      { question: 'Can I include the current date?', answer: 'Yes, you can insert dynamic date fields that show the current date.' },
-      { question: 'Can I skip the header/footer on certain pages?', answer: 'Yes, you can specify which pages should have headers/footers and which should be skipped.' },
-    ],
-  },
-
-  'invert-colors': {
-    title: 'Invert Colors',
-    metaDescription: 'Invert PDF colors for dark mode reading. Convert documents to negative colors.',
-    keywords: ['invert pdf colors', 'pdf dark mode', 'negative pdf', 'reverse colors'],
-    description: `
-      <p>Invert Colors reverses the colors in your PDF documents, creating a negative image effect. This is particularly useful for creating dark mode versions of documents for easier reading in low-light conditions.</p>
-      <p>The tool can invert all colors or selectively preserve certain elements like images. Perfect for reducing eye strain when reading documents at night.</p>
-      <p>All processing happens locally in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select the document.' },
-      { step: 2, title: 'Configure Options', description: 'Choose whether to invert all content or preserve images.' },
-      { step: 3, title: 'Invert and Download', description: 'Click Invert to process the document and download the result.' },
-    ],
-    useCases: [
-      { title: 'Night Reading', description: 'Create dark mode versions of documents for comfortable reading at night.', icon: 'moon' },
-      { title: 'Reduce Eye Strain', description: 'Invert bright documents to reduce eye fatigue during extended reading.', icon: 'eye' },
-      { title: 'Print Savings', description: 'Invert documents to reduce ink usage when printing drafts.', icon: 'printer' },
-    ],
-    faq: [
-      { question: 'Will images be inverted too?', answer: 'By default, yes. You can choose to preserve original images while inverting text and backgrounds.' },
-      { question: 'Can I invert only specific pages?', answer: 'Yes, you can select which pages to invert.' },
-      { question: 'Is the inversion reversible?', answer: 'You can invert the document again to return to approximately the original colors.' },
-    ],
-  },
-
-  'background-color': {
-    title: 'Background Color',
-    metaDescription: 'Change PDF background color. Add colored backgrounds to document pages.',
-    keywords: ['pdf background color', 'change pdf background', 'colored pdf', 'pdf page color'],
-    description: `
-      <p>Background Color allows you to change or add background colors to your PDF pages. This can improve readability, add visual interest, or match your branding requirements.</p>
-      <p>Choose any color for the background and apply it to all pages or selected pages. The tool preserves all existing content while adding the background layer.</p>
-      <p>All processing happens locally in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select the document.' },
-      { step: 2, title: 'Choose Color', description: 'Select a background color using the color picker or enter a hex code.' },
-      { step: 3, title: 'Apply and Download', description: 'Click Apply to add the background and download your updated PDF.' },
-    ],
-    useCases: [
-      { title: 'Improve Readability', description: 'Add a light cream or sepia background to reduce eye strain.', icon: 'eye' },
-      { title: 'Brand Documents', description: 'Use brand colors as backgrounds for marketing materials.', icon: 'palette' },
-      { title: 'Highlight Sections', description: 'Use different background colors to distinguish document sections.', icon: 'layers' },
-    ],
-    faq: [
-      { question: 'Will the background cover existing content?', answer: 'No, the background is added behind existing content, preserving all text and images.' },
-      { question: 'Can I use different colors for different pages?', answer: 'You would need to process the document multiple times for different colors on different pages.' },
-      { question: 'Can I remove an existing background?', answer: 'This tool adds backgrounds. To remove backgrounds, you may need to use the Edit PDF tool.' },
-    ],
-  },
-
-  'text-color': {
-    title: 'Change Text Color',
-    metaDescription: 'Change text color in PDF documents. Modify the color of all text content.',
-    keywords: ['change pdf text color', 'pdf text color', 'modify text color', 'recolor pdf text'],
-    description: `
-      <p>Change Text Color allows you to modify the color of text in your PDF documents. This is useful for improving contrast, matching branding, or creating visual variations of documents.</p>
-      <p>Select a new color and apply it to all text in the document. The tool processes text elements while preserving images and other content.</p>
-      <p>All processing happens locally in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select the document.' },
-      { step: 2, title: 'Choose Color', description: 'Select a new text color using the color picker or enter a hex code.' },
-      { step: 3, title: 'Apply and Download', description: 'Click Apply to change the text color and download your updated PDF.' },
-    ],
-    useCases: [
-      { title: 'Improve Contrast', description: 'Change text color to improve readability against the background.', icon: 'contrast' },
-      { title: 'Brand Consistency', description: 'Update text colors to match brand guidelines.', icon: 'palette' },
-      { title: 'Accessibility', description: 'Adjust text colors to meet accessibility contrast requirements.', icon: 'accessibility' },
-    ],
-    faq: [
-      { question: 'Will all text be changed?', answer: 'Yes, the tool changes the color of all text elements in the document.' },
-      { question: 'Can I change only specific text?', answer: 'This tool changes all text. For selective changes, use the Edit PDF tool.' },
-      { question: 'Will formatted text (bold, italic) be preserved?', answer: 'Yes, text formatting is preserved; only the color is changed.' },
-    ],
-  },
-
-  'add-stamps': {
-    title: 'Add Stamps',
-    metaDescription: 'Add stamps to PDF documents. Use preset or custom stamps for approval, review, and more.',
-    keywords: ['pdf stamps', 'add stamp', 'approval stamp', 'pdf rubber stamp'],
-    description: `
-      <p>Add Stamps allows you to place stamp images on your PDF documents. Use preset stamps like "Approved", "Rejected", "Draft", or upload custom stamp images.</p>
-      <p>Position stamps anywhere on the page, resize them, and apply to single or multiple pages. Perfect for document workflows, approvals, and status indicators.</p>
-      <p>All processing happens locally in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select the document.' },
-      { step: 2, title: 'Select Stamp', description: 'Choose a preset stamp or upload a custom stamp image.' },
-      { step: 3, title: 'Position and Apply', description: 'Click to place the stamp, adjust position and size, then download.' },
-    ],
-    useCases: [
-      { title: 'Document Approval', description: 'Add "Approved" or "Rejected" stamps to documents in review workflows.', icon: 'check-circle' },
-      { title: 'Status Indication', description: 'Mark documents as "Draft", "Final", or "Confidential".', icon: 'tag' },
-      { title: 'Quality Control', description: 'Add QC stamps to indicate inspection or review completion.', icon: 'clipboard-check' },
-    ],
-    faq: [
-      { question: 'What preset stamps are available?', answer: 'Presets include Approved, Rejected, Draft, Final, Confidential, Copy, and more.' },
-      { question: 'Can I upload custom stamps?', answer: 'Yes, you can upload PNG or JPG images to use as custom stamps.' },
-      { question: 'Can I add multiple stamps to one document?', answer: 'Yes, you can add multiple stamps and position each one independently.' },
-    ],
-  },
-
-  'remove-annotations': {
-    title: 'Remove Annotations',
-    metaDescription: 'Remove annotations from PDF files. Delete comments, highlights, and markup.',
-    keywords: ['remove pdf annotations', 'delete comments', 'remove highlights', 'clean pdf'],
-    description: `
-      <p>Remove Annotations strips comments, highlights, sticky notes, and other annotations from your PDF documents. This creates a clean version of the document without markup.</p>
-      <p>You can remove all annotations or selectively remove specific types. Perfect for creating final versions of reviewed documents or removing sensitive comments.</p>
-      <p>All processing happens locally in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select the document.' },
-      { step: 2, title: 'Select Annotation Types', description: 'Choose which types of annotations to remove: comments, highlights, links, etc.' },
-      { step: 3, title: 'Remove and Download', description: 'Click Remove to strip annotations and download the clean PDF.' },
-    ],
-    useCases: [
-      { title: 'Finalize Documents', description: 'Remove review comments and markup before publishing final documents.', icon: 'file-check' },
-      { title: 'Privacy Protection', description: 'Remove comments that may contain sensitive information before sharing.', icon: 'shield' },
-      { title: 'Clean Distribution', description: 'Create clean copies of annotated documents for distribution.', icon: 'copy' },
-    ],
-    faq: [
-      { question: 'What types of annotations can be removed?', answer: 'Comments, highlights, underlines, strikethroughs, sticky notes, stamps, and links can all be removed.' },
-      { question: 'Can I keep some annotations?', answer: 'Yes, you can select which types of annotations to remove and which to keep.' },
-      { question: 'Is this reversible?', answer: 'No, annotation removal is permanent. Keep a backup of the original if needed.' },
-    ],
-  },
-
-  'form-filler': {
-    title: 'Form Filler',
-    metaDescription: 'Fill PDF forms online. Complete interactive PDF forms without printing.',
-    keywords: ['fill pdf form', 'pdf form filler', 'complete pdf form', 'interactive pdf'],
-    description: `
-      <p>Form Filler allows you to complete interactive PDF forms directly in your browser. Fill text fields, check boxes, select options, and add signatures without printing the document.</p>
-      <p>The tool supports standard PDF forms and XFA forms. Your filled data can be saved and the form can be flattened to prevent further editing.</p>
-      <p>All processing happens locally in your browser, ensuring your form data remains private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF Form', description: 'Drag and drop your PDF form or click to select the file.' },
-      { step: 2, title: 'Fill the Form', description: 'Click on form fields to enter text, check boxes, or select options.' },
-      { step: 3, title: 'Save and Download', description: 'Click Save to preserve your entries and download the filled form.' },
-    ],
-    useCases: [
-      { title: 'Application Forms', description: 'Complete job applications, permit applications, and registration forms.', icon: 'clipboard' },
-      { title: 'Tax Forms', description: 'Fill out tax documents and financial forms electronically.', icon: 'file-text' },
-      { title: 'Contracts', description: 'Complete contract forms with your information before signing.', icon: 'file-signature' },
-    ],
-    faq: [
-      { question: 'Can I save my progress?', answer: 'Yes, you can save partially filled forms and continue later.' },
-      { question: 'What is form flattening?', answer: 'Flattening converts form fields to static content, preventing further editing.' },
-      { question: 'Are XFA forms supported?', answer: 'Yes, the tool supports both standard AcroForms and XFA forms.' },
-    ],
-  },
-
-  'form-creator': {
-    title: 'Form Creator',
-    metaDescription: 'Create fillable PDF forms. Add text fields, checkboxes, and dropdowns to documents.',
-    keywords: ['create pdf form', 'pdf form creator', 'fillable pdf', 'add form fields'],
-    description: `
-      <p>Form Creator transforms static PDF documents into interactive fillable forms. Add text fields, checkboxes, radio buttons, dropdowns, and more to create professional forms.</p>
-      <p>Drag and drop form elements onto your document, configure field properties, and create forms that can be filled electronically. Perfect for creating applications, surveys, and data collection forms.</p>
-      <p>All processing happens locally in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select the document to convert into a form.' },
-      { step: 2, title: 'Add Form Fields', description: 'Select field types from the toolbar and click to place them on the document.' },
-      { step: 3, title: 'Configure and Save', description: 'Set field properties, then save and download your fillable PDF form.' },
-    ],
-    useCases: [
-      { title: 'Application Forms', description: 'Create fillable job applications, membership forms, and registrations.', icon: 'user-plus' },
-      { title: 'Surveys', description: 'Build interactive surveys and questionnaires for data collection.', icon: 'clipboard-list' },
-      { title: 'Order Forms', description: 'Create product order forms with quantity fields and checkboxes.', icon: 'shopping-cart' },
-    ],
-    faq: [
-      { question: 'What field types can I add?', answer: 'Text fields, checkboxes, radio buttons, dropdowns, date pickers, and signature fields.' },
-      { question: 'Can I make fields required?', answer: 'Yes, you can mark fields as required and add validation rules.' },
-      { question: 'Can I add calculations?', answer: 'Basic calculations like sum and average can be added to numeric fields.' },
-    ],
-  },
-
-  'remove-blank-pages': {
-    title: 'Remove Blank Pages',
-    metaDescription: 'Automatically detect and remove blank pages from PDF documents.',
-    keywords: ['remove blank pages', 'delete empty pages', 'clean pdf', 'pdf blank page remover'],
-    description: `
-      <p>Remove Blank Pages automatically detects and removes empty pages from your PDF documents. This is useful for cleaning up scanned documents, removing separator pages, or eliminating accidentally included blank pages.</p>
-      <p>The tool uses intelligent detection to identify truly blank pages while preserving pages with minimal content. You can adjust the sensitivity threshold to control what counts as "blank".</p>
-      <p>All processing happens locally in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select the document.' },
-      { step: 2, title: 'Adjust Threshold', description: 'Set the blank detection threshold if needed (default works for most documents).' },
-      { step: 3, title: 'Remove and Download', description: 'Click Remove to delete blank pages and download the cleaned PDF.' },
-    ],
-    useCases: [
-      { title: 'Clean Scanned Documents', description: 'Remove blank pages from batch-scanned documents.', icon: 'scan' },
-      { title: 'Remove Separators', description: 'Delete blank separator pages from merged documents.', icon: 'minus' },
-      { title: 'Reduce File Size', description: 'Remove unnecessary blank pages to reduce document size.', icon: 'minimize-2' },
-    ],
-    faq: [
-      { question: 'How does blank detection work?', answer: 'The tool analyzes page content and considers pages with minimal or no visible content as blank.' },
-      { question: 'Can I preview which pages will be removed?', answer: 'Yes, detected blank pages are highlighted for review before removal.' },
-      { question: 'What if a page has only a header/footer?', answer: 'You can adjust the threshold to determine whether pages with minimal content should be considered blank.' },
-    ],
-  },
-  // ==================== CONVERT TO PDF ====================
-  'image-to-pdf': {
-    title: 'Image to PDF',
-    metaDescription: 'Convert any image to PDF. Support for JPG, PNG, WebP, BMP, TIFF, SVG, and HEIC formats.',
-    keywords: ['image to pdf', 'convert image', 'photo to pdf', 'picture to pdf'],
-    description: `
-      <p>Image to PDF converts images of any format into PDF documents. Support for JPG, PNG, WebP, BMP, TIFF, SVG, and HEIC formats makes this the universal image converter.</p>
-      <p>Combine multiple images into a single PDF, arrange them in any order, and customize page size and orientation. Perfect for creating photo albums, document archives, or portfolios.</p>
-      <p>All conversion happens in your browser, ensuring your images remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Images', description: 'Drag and drop images of any supported format or click to select files.' },
-      { step: 2, title: 'Arrange and Configure', description: 'Reorder images and select page size and orientation options.' },
-      { step: 3, title: 'Convert and Download', description: 'Click Convert to create your PDF and download the result.' },
-    ],
-    useCases: [
-      { title: 'Photo Collections', description: 'Combine photos from various sources into a single PDF album.', icon: 'images' },
-      { title: 'Mixed Format Documents', description: 'Convert images from different formats into a unified PDF.', icon: 'file-stack' },
-      { title: 'Archive Creation', description: 'Create PDF archives from image collections for long-term storage.', icon: 'archive' },
-    ],
-    faq: [
-      { question: 'What image formats are supported?', answer: 'JPG, JPEG, PNG, WebP, BMP, TIFF, TIF, SVG, HEIC, and HEIF formats are all supported.' },
-      { question: 'Can I mix different image formats?', answer: 'Yes, you can combine images of different formats into a single PDF.' },
-      { question: 'Will image quality be preserved?', answer: 'Yes, images are embedded at their original quality unless you choose to compress them.' },
-    ],
-  },
-
-  'png-to-pdf': {
-    title: 'PNG to PDF',
-    metaDescription: 'Convert PNG images to PDF. Preserve transparency and combine multiple PNG files.',
-    keywords: ['png to pdf', 'convert png', 'png converter', 'transparent image to pdf'],
-    description: `
-      <p>PNG to PDF converts your PNG images into PDF documents while preserving transparency. Perfect for graphics, logos, screenshots, and images with transparent backgrounds.</p>
-      <p>Combine multiple PNG files into a single PDF, arrange them in any order, and customize page settings. The conversion maintains the high quality of your original images.</p>
-      <p>All conversion happens in your browser, ensuring your images remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload PNG Files', description: 'Drag and drop your PNG images or click to select files.' },
-      { step: 2, title: 'Arrange and Configure', description: 'Reorder images and select page size options.' },
-      { step: 3, title: 'Convert and Download', description: 'Click Convert to create your PDF and download.' },
-    ],
-    useCases: [
-      { title: 'Graphics Portfolio', description: 'Compile PNG graphics and designs into a professional portfolio.', icon: 'palette' },
-      { title: 'Screenshot Documentation', description: 'Convert screenshots into PDF documentation.', icon: 'monitor' },
-      { title: 'Logo Collections', description: 'Create PDF catalogs of logos and brand assets.', icon: 'award' },
-    ],
-    faq: [
-      { question: 'Is transparency preserved?', answer: 'PNG transparency is preserved in the PDF output.' },
-      { question: 'What about PNG animations?', answer: 'Animated PNGs are converted as static images using the first frame.' },
-      { question: 'Can I set a background color?', answer: 'Yes, you can choose a background color for transparent areas.' },
-    ],
-  },
-
-  'webp-to-pdf': {
-    title: 'WebP to PDF',
-    metaDescription: 'Convert WebP images to PDF. Modern image format conversion with quality preservation.',
-    keywords: ['webp to pdf', 'convert webp', 'webp converter', 'web image to pdf'],
-    description: `
-      <p>WebP to PDF converts modern WebP images into PDF documents. WebP is a popular web image format, and this tool makes it easy to convert these images for printing or archiving.</p>
-      <p>Combine multiple WebP files into a single PDF with customizable page settings. The conversion preserves image quality while creating compact PDF files.</p>
-      <p>All conversion happens in your browser, ensuring your images remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload WebP Files', description: 'Drag and drop your WebP images or click to select files.' },
-      { step: 2, title: 'Configure Options', description: 'Arrange images and select page size and orientation.' },
-      { step: 3, title: 'Convert and Download', description: 'Click Convert to create your PDF.' },
-    ],
-    useCases: [
-      { title: 'Web Content Archiving', description: 'Convert web images to PDF for offline archiving.', icon: 'globe' },
-      { title: 'Print Preparation', description: 'Convert WebP images to PDF for printing purposes.', icon: 'printer' },
-      { title: 'Format Standardization', description: 'Convert modern WebP to universally compatible PDF.', icon: 'file-check' },
-    ],
-    faq: [
-      { question: 'What is WebP format?', answer: 'WebP is a modern image format developed by Google that provides superior compression for web images.' },
-      { question: 'Is quality preserved?', answer: 'Yes, the conversion preserves the original image quality.' },
-      { question: 'Can I convert animated WebP?', answer: 'Animated WebP files are converted as static images.' },
-    ],
-  },
-
-  'svg-to-pdf': {
-    title: 'SVG to PDF',
-    metaDescription: 'Convert SVG vector graphics to PDF. Preserve scalability and quality.',
-    keywords: ['svg to pdf', 'convert svg', 'vector to pdf', 'scalable graphics to pdf'],
-    description: `
-      <p>SVG to PDF converts scalable vector graphics into PDF documents while preserving their vector quality. SVG files remain sharp at any size, and this quality is maintained in the PDF output.</p>
-      <p>Perfect for converting logos, icons, illustrations, and technical drawings. The resulting PDF maintains the scalability of the original vector graphics.</p>
-      <p>All conversion happens in your browser, ensuring your files remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload SVG Files', description: 'Drag and drop your SVG files or click to select.' },
-      { step: 2, title: 'Configure Settings', description: 'Select page size and arrangement options.' },
-      { step: 3, title: 'Convert and Download', description: 'Click Convert to create your vector PDF.' },
-    ],
-    useCases: [
-      { title: 'Logo Conversion', description: 'Convert SVG logos to PDF for print materials.', icon: 'award' },
-      { title: 'Technical Drawings', description: 'Convert CAD exports and technical illustrations to PDF.', icon: 'ruler' },
-      { title: 'Icon Collections', description: 'Create PDF catalogs of icon sets and graphics.', icon: 'grid' },
-    ],
-    faq: [
-      { question: 'Is vector quality preserved?', answer: 'Yes, SVG vector quality is fully preserved in the PDF output.' },
-      { question: 'Can I convert complex SVGs?', answer: 'Yes, complex SVGs with gradients, filters, and effects are supported.' },
-      { question: 'What about embedded fonts?', answer: 'Embedded fonts in SVG files are preserved in the PDF.' },
-    ],
-  },
-
-  'bmp-to-pdf': {
-    title: 'BMP to PDF',
-    metaDescription: 'Convert BMP bitmap images to PDF. Legacy format support with quality preservation.',
-    keywords: ['bmp to pdf', 'convert bmp', 'bitmap to pdf', 'bmp converter'],
-    description: `
-      <p>BMP to PDF converts bitmap images into PDF documents. BMP is a legacy image format commonly used in Windows environments, and this tool makes it easy to convert these files to modern PDF format.</p>
-      <p>Combine multiple BMP files into a single PDF with customizable settings. The conversion compresses the typically large BMP files while maintaining image quality.</p>
-      <p>All conversion happens in your browser, ensuring your images remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload BMP Files', description: 'Drag and drop your BMP images or click to select files.' },
-      { step: 2, title: 'Configure Options', description: 'Arrange images and select page settings.' },
-      { step: 3, title: 'Convert and Download', description: 'Click Convert to create your PDF.' },
-    ],
-    useCases: [
-      { title: 'Legacy File Conversion', description: 'Convert old BMP files to modern PDF format.', icon: 'history' },
-      { title: 'Windows Screenshots', description: 'Convert Windows bitmap screenshots to PDF.', icon: 'monitor' },
-      { title: 'Archive Modernization', description: 'Update legacy image archives to PDF format.', icon: 'archive' },
-    ],
-    faq: [
-      { question: 'Will file size be reduced?', answer: 'Yes, BMP files are typically compressed significantly when converted to PDF.' },
-      { question: 'Is quality preserved?', answer: 'Yes, image quality is maintained during conversion.' },
-      { question: 'What BMP color depths are supported?', answer: 'All standard BMP color depths are supported, including 24-bit and 32-bit.' },
-    ],
-  },
-
-  'psd-to-pdf': {
-    title: 'PSD to PDF',
-    metaDescription: 'Convert Adobe Photoshop (PSD) files to PDF format. Supports multiple files and preserves image quality.',
-    keywords: ['psd to pdf', 'convert psd', 'photoshop to pdf', 'psd converter', 'adobe psd to pdf'],
-    description: `
-      <p>PSD to PDF converts Adobe Photoshop (PSD) files into PDF documents. This tool allows you to view and share PSD designs without needing Photoshop installed.</p>
-      <p>You can convert multiple PSD files at once and combine them into a single PDF document. The tool processes each PSD file, rendering the visible layers into high-quality PDF pages.</p>
-      <p>All conversion happens locally in your browser, ensuring your designs remain private and secure.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload PSD Files', description: 'Drag and drop your PSD or PSB files, or click to select them from your device.' },
-      { step: 2, title: 'Arrange Order', description: 'Drag and drop the file thumbnails to arrange them in the desired order.' },
-      { step: 3, title: 'Convert and Download', description: 'Click Convert to render the PSDs and download your PDF document.' },
-    ],
-    useCases: [
-      { title: 'Share Designs', description: 'Share Photoshop designs with clients or colleagues who don\'t have Photoshop.', icon: 'share-2' },
-      { title: 'Portfolio Creation', description: 'Compile your design work into a professional PDF portfolio.', icon: 'layout' },
-      { title: 'Print Preparation', description: 'Convert designs to PDF for printing purposes.', icon: 'printer' },
-    ],
-    faq: [
-      { question: 'Do I need Photoshop installed?', answer: 'No, this tool works entirely in your browser without requiring Adobe Photoshop.' },
-      { question: 'Are layers preserved?', answer: 'The tool renders the visible state of the PSD (composite image). Individual layers are flattened in the PDF.' },
-      { question: 'What is the maximum file size?', answer: 'You can upload files up to 100MB each. Large PSD files may take a moment to process.' },
-    ],
-  },
-
-  'heic-to-pdf': {
-    title: 'HEIC to PDF',
-    metaDescription: 'Convert iPhone HEIC photos to PDF. Apple image format conversion made easy.',
-    keywords: ['heic to pdf', 'convert heic', 'iphone photo to pdf', 'apple image to pdf'],
-    description: `
-      <p>HEIC to PDF converts Apple's High Efficiency Image Format photos into PDF documents. HEIC is the default photo format on iPhones and iPads, and this tool makes sharing these photos easy.</p>
-      <p>Combine multiple HEIC photos into a single PDF, perfect for creating photo albums or document archives from your iPhone photos.</p>
-      <p>All conversion happens in your browser, ensuring your photos remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload HEIC Files', description: 'Drag and drop your HEIC photos or click to select files.' },
-      { step: 2, title: 'Arrange Photos', description: 'Reorder photos and select page settings.' },
-      { step: 3, title: 'Convert and Download', description: 'Click Convert to create your PDF.' },
-    ],
-    useCases: [
-      { title: 'iPhone Photo Albums', description: 'Create PDF albums from iPhone photos for sharing.', icon: 'smartphone' },
-      { title: 'Document Scanning', description: 'Convert iPhone document scans to PDF format.', icon: 'scan' },
-      { title: 'Cross-Platform Sharing', description: 'Convert HEIC to PDF for universal compatibility.', icon: 'share-2' },
-    ],
-    faq: [
-      { question: 'What is HEIC format?', answer: 'HEIC (High Efficiency Image Container) is Apple\'s image format that provides better compression than JPEG.' },
-      { question: 'Are Live Photos supported?', answer: 'Live Photos are converted as static images using the key frame.' },
-      { question: 'Is EXIF data preserved?', answer: 'Photo metadata can be optionally preserved or removed during conversion.' },
-    ],
-  },
-
-  'tiff-to-pdf': {
-    title: 'TIFF to PDF',
-    metaDescription: 'Convert TIFF images to PDF. Support for multi-page TIFF files and high-quality conversion.',
-    keywords: ['tiff to pdf', 'convert tiff', 'tif to pdf', 'multi-page tiff'],
-    description: `
-      <p>TIFF to PDF converts TIFF images, including multi-page TIFF files, into PDF documents. TIFF is commonly used for high-quality scans and professional graphics.</p>
-      <p>Multi-page TIFF files are automatically converted to multi-page PDFs. The conversion preserves the high quality of your original images.</p>
-      <p>All conversion happens in your browser, ensuring your files remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload TIFF Files', description: 'Drag and drop your TIFF files or click to select.' },
-      { step: 2, title: 'Configure Options', description: 'Select page settings and compression options.' },
-      { step: 3, title: 'Convert and Download', description: 'Click Convert to create your PDF.' },
-    ],
-    useCases: [
-      { title: 'Scanned Documents', description: 'Convert high-quality scans from TIFF to PDF.', icon: 'scan' },
-      { title: 'Professional Graphics', description: 'Convert professional TIFF graphics for distribution.', icon: 'image' },
-      { title: 'Archive Conversion', description: 'Convert TIFF archives to more accessible PDF format.', icon: 'archive' },
-    ],
-    faq: [
-      { question: 'Are multi-page TIFFs supported?', answer: 'Yes, multi-page TIFF files are converted to multi-page PDFs automatically.' },
-      { question: 'Is quality preserved?', answer: 'Yes, TIFF quality is fully preserved in the PDF output.' },
-      { question: 'What compression is used?', answer: 'You can choose between lossless and lossy compression options.' },
-    ],
-  },
-
-  'txt-to-pdf': {
-    title: 'Text to PDF',
-    metaDescription: 'Convert plain text files to PDF. Customize fonts, margins, and page layout.',
-    keywords: ['txt to pdf', 'text to pdf', 'convert text file', 'plain text to pdf'],
-    description: `
-      <p>Text to PDF converts plain text files into formatted PDF documents. Customize fonts, sizes, margins, and page layout to create professional-looking documents from simple text.</p>
-      <p>Perfect for converting code files, logs, notes, or any plain text content into shareable PDF format.</p>
-      <p>All conversion happens in your browser, ensuring your files remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Text File', description: 'Drag and drop your .txt file or click to select.' },
-      { step: 2, title: 'Customize Formatting', description: 'Choose font, size, margins, and page settings.' },
-      { step: 3, title: 'Convert and Download', description: 'Click Convert to create your formatted PDF.' },
-    ],
-    useCases: [
-      { title: 'Code Documentation', description: 'Convert source code files to PDF for documentation.', icon: 'code' },
-      { title: 'Log Archives', description: 'Convert log files to PDF for archival purposes.', icon: 'file-text' },
-      { title: 'Note Conversion', description: 'Convert plain text notes to formatted PDF documents.', icon: 'sticky-note' },
-    ],
-    faq: [
-      { question: 'What fonts are available?', answer: 'Multiple fonts are available including monospace fonts for code.' },
-      { question: 'Is line wrapping automatic?', answer: 'Yes, long lines are automatically wrapped to fit the page.' },
-      { question: 'Can I preserve formatting?', answer: 'Whitespace and indentation from the original text are preserved.' },
-    ],
-  },
-
-  'json-to-pdf': {
-    title: 'JSON to PDF',
-    metaDescription: 'Convert JSON files to formatted PDF. Syntax highlighting and structured output.',
-    keywords: ['json to pdf', 'convert json', 'json viewer', 'json formatter'],
-    description: `
-      <p>JSON to PDF converts JSON data files into formatted, readable PDF documents. The output includes syntax highlighting and proper indentation for easy reading.</p>
-      <p>Perfect for documenting API responses, configuration files, or any JSON data that needs to be shared or archived in a readable format.</p>
-      <p>All conversion happens in your browser, ensuring your data remains private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload JSON File', description: 'Drag and drop your .json file or click to select.' },
-      { step: 2, title: 'Configure Display', description: 'Choose formatting options and syntax highlighting.' },
-      { step: 3, title: 'Convert and Download', description: 'Click Convert to create your formatted PDF.' },
-    ],
-    useCases: [
-      { title: 'API Documentation', description: 'Convert API responses to PDF for documentation.', icon: 'code' },
-      { title: 'Config Archives', description: 'Archive configuration files in readable PDF format.', icon: 'settings' },
-      { title: 'Data Reports', description: 'Create PDF reports from JSON data exports.', icon: 'bar-chart' },
-    ],
-    faq: [
-      { question: 'Is syntax highlighting included?', answer: 'Yes, JSON syntax is highlighted with colors for keys, values, and types.' },
-      { question: 'How is nested data handled?', answer: 'Nested objects and arrays are properly indented for readability.' },
-      { question: 'What about large JSON files?', answer: 'Large files are paginated automatically across multiple pages.' },
-    ],
-  },
-
-  'word-to-pdf': {
-    title: 'Word to PDF',
-    metaDescription: 'Convert Word documents (DOCX) to PDF. Preserve formatting and layout in your converted documents.',
-    keywords: ['word to pdf', 'docx to pdf', 'convert word', 'word converter', 'microsoft word to pdf'],
-    description: `
-      <p>Word to PDF converts Microsoft Word documents into PDF format while preserving the original formatting, layout, and content structure.</p>
-      <p>Upload your DOCX files and get high-quality PDF output suitable for sharing, printing, or archiving. The conversion maintains text formatting, paragraph styles, and basic document structure.</p>
-      <p>All conversion happens locally in your browser, ensuring your documents remain private and secure.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Word Document', description: 'Drag and drop your .docx file or click to select from your device.' },
-      { step: 2, title: 'Wait for Processing', description: 'The tool will load the document and prepare it for conversion.' },
-      { step: 3, title: 'Download PDF', description: 'Click Download to save your converted PDF document.' },
-    ],
-    useCases: [
-      { title: 'Document Sharing', description: 'Convert Word documents to PDF for universal sharing and viewing.', icon: 'share-2' },
-      { title: 'Print Preparation', description: 'Create print-ready PDFs from Word documents.', icon: 'printer' },
-      { title: 'Document Archive', description: 'Archive Word documents in stable PDF format for long-term storage.', icon: 'archive' },
-    ],
-    faq: [
-      { question: 'Is .doc format supported?', answer: 'Currently only .docx format is supported. Please convert .doc files to .docx first using Microsoft Word or LibreOffice.' },
-      { question: 'Are images preserved?', answer: 'Text content and basic formatting are preserved. Complex layouts with many images may have simplified rendering.' },
-      { question: 'Is the conversion secure?', answer: 'Yes, all processing happens in your browser. Your documents never leave your device.' },
-    ],
-  },
-
-  'excel-to-pdf': {
-    title: 'Excel to PDF',
-    metaDescription: 'Convert Excel spreadsheets (XLSX) to PDF. Preserve tables and data in your converted documents.',
-    keywords: ['excel to pdf', 'xlsx to pdf', 'convert excel', 'spreadsheet to pdf', 'microsoft excel to pdf'],
-    description: `
-      <p>Excel to PDF converts Microsoft Excel spreadsheets into PDF format while preserving table structure and data organization.</p>
-      <p>Upload your XLSX files and get clean PDF output with properly formatted tables. Each sheet in your workbook becomes a separate section in the PDF.</p>
-      <p>All conversion happens locally in your browser, ensuring your data remains private and secure.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Excel File', description: 'Drag and drop your .xlsx file or click to select from your device.' },
-      { step: 2, title: 'Wait for Processing', description: 'The tool will load the spreadsheet and convert all sheets.' },
-      { step: 3, title: 'Download PDF', description: 'Click Download to save your converted PDF document.' },
-    ],
-    useCases: [
-      { title: 'Report Sharing', description: 'Convert Excel reports to PDF for distribution to stakeholders.', icon: 'file-text' },
-      { title: 'Data Archiving', description: 'Archive spreadsheet data in stable PDF format.', icon: 'archive' },
-      { title: 'Print Preparation', description: 'Create print-ready PDFs from Excel worksheets.', icon: 'printer' },
-    ],
-    faq: [
-      { question: 'Are multiple sheets supported?', answer: 'Yes, all sheets in the workbook are converted and included in the PDF.' },
-      { question: 'Is .xls format supported?', answer: 'Currently only .xlsx format is supported. Please save .xls files as .xlsx first.' },
-      { question: 'Are formulas preserved?', answer: 'The PDF shows calculated values. Formulas are not executable in PDF format.' },
-    ],
-  },
-
-  'pptx-to-pdf': {
-    title: 'PowerPoint to PDF',
-    metaDescription: 'Convert PowerPoint presentations (PPTX) to PDF. Preserve slides and content for easy sharing.',
-    keywords: ['powerpoint to pdf', 'pptx to pdf', 'convert pptx', 'presentation to pdf', 'slides to pdf'],
-    description: `
-      <p>PowerPoint to PDF converts Microsoft PowerPoint presentations into PDF format, preserving slide content and text for easy sharing and viewing.</p>
-      <p>Each slide becomes a page in the PDF, maintaining the presentation flow. Perfect for sharing presentations with people who don't have PowerPoint installed.</p>
-      <p>All conversion happens locally in your browser, ensuring your presentations remain private and secure.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload PowerPoint File', description: 'Drag and drop your .pptx file or click to select from your device.' },
-      { step: 2, title: 'Wait for Processing', description: 'The tool will extract slide content and create the PDF.' },
-      { step: 3, title: 'Download PDF', description: 'Click Download to save your converted PDF document.' },
-    ],
-    useCases: [
-      { title: 'Presentation Sharing', description: 'Share presentations with anyone without requiring PowerPoint.', icon: 'share-2' },
-      { title: 'Handout Creation', description: 'Create PDF handouts from your presentation slides.', icon: 'file-text' },
-      { title: 'Archive Presentations', description: 'Archive presentations in stable PDF format.', icon: 'archive' },
-    ],
-    faq: [
-      { question: 'Are animations preserved?', answer: 'PDF is a static format, so animations and transitions are not preserved. Each slide becomes a static page.' },
-      { question: 'Is .ppt format supported?', answer: 'Currently only .pptx format is supported. Please convert .ppt files to .pptx first.' },
-      { question: 'Are speaker notes included?', answer: 'Currently, speaker notes are not included in the PDF output.' },
-    ],
-  },
-
-  'xps-to-pdf': {
-    title: 'XPS to PDF',
-    metaDescription: 'Convert XPS documents to PDF format. High-fidelity conversion preserving layout and graphics.',
-    keywords: ['xps to pdf', 'convert xps', 'xps converter', 'microsoft xps to pdf', 'oxps to pdf'],
-    description: `
-      <p>XPS to PDF converts Microsoft XPS (XML Paper Specification) documents into PDF format while preserving the original layout, text, and vector graphics.</p>
-      <p>XPS is a fixed-document format similar to PDF. This tool provides high-fidelity conversion using native XPS parsing, ensuring accurate reproduction of your documents.</p>
-      <p>All conversion happens locally in your browser, ensuring your documents remain private and secure.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload XPS File', description: 'Drag and drop your .xps file or click to select from your device.' },
-      { step: 2, title: 'Wait for Processing', description: 'The tool will parse and convert the XPS document.' },
-      { step: 3, title: 'Download PDF', description: 'Click Download to save your converted PDF document.' },
-    ],
-    useCases: [
-      { title: 'Format Conversion', description: 'Convert XPS documents to more widely supported PDF format.', icon: 'file' },
-      { title: 'Document Sharing', description: 'Share XPS documents with users who don\'t have XPS viewers.', icon: 'share-2' },
-      { title: 'Archive Migration', description: 'Migrate XPS archives to PDF format for better compatibility.', icon: 'archive' },
-    ],
-    faq: [
-      { question: 'What is XPS format?', answer: 'XPS (XML Paper Specification) is Microsoft\'s fixed-document format, similar to PDF. It\'s commonly used for Windows printing.' },
-      { question: 'Is the conversion lossless?', answer: 'Yes, the conversion preserves text, graphics, and layout with high fidelity.' },
-      { question: 'Are multi-page XPS files supported?', answer: 'Yes, all pages in the XPS document are converted to the PDF.' },
-    ],
-  },
-
-  'rtf-to-pdf': {
-    title: 'RTF to PDF',
-    metaDescription: 'Convert RTF (Rich Text Format) files to PDF. Preserve text formatting in your documents.',
-    keywords: ['rtf to pdf', 'convert rtf', 'rich text to pdf', 'rtf converter'],
-    description: `
-      <p>RTF to PDF converts Rich Text Format files into PDF documents. RTF is a widely supported text format that includes basic formatting like fonts, colors, and styles.</p>
-      <p>Upload your RTF files and get clean PDF output while preserving text content and basic formatting. Perfect for converting legacy documents to modern PDF format.</p>
-      <p>All conversion happens locally in your browser, ensuring your documents remain private and secure.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload RTF File', description: 'Drag and drop your .rtf file or click to select from your device.' },
-      { step: 2, title: 'Wait for Processing', description: 'The tool will parse and convert the RTF content.' },
-      { step: 3, title: 'Download PDF', description: 'Click Download to save your converted PDF document.' },
-    ],
-    useCases: [
-      { title: 'Legacy Conversion', description: 'Convert old RTF documents to modern PDF format.', icon: 'history' },
-      { title: 'Document Sharing', description: 'Share RTF documents in universally viewable PDF format.', icon: 'share-2' },
-      { title: 'Archive Documents', description: 'Archive RTF files in stable PDF format for long-term storage.', icon: 'archive' },
-    ],
-    faq: [
-      { question: 'What formatting is preserved?', answer: 'Basic text formatting including fonts, paragraphs, and styles are converted. Complex RTF features may be simplified.' },
-      { question: 'Can I convert multiple RTF files?', answer: 'Currently, one file is converted at a time. Use Merge PDF to combine multiple converted files.' },
-      { question: 'Are embedded images supported?', answer: 'Text content is the primary focus. Embedded objects may not be rendered.' },
-    ],
-  },
-
-  'epub-to-pdf': {
-    title: 'EPUB to PDF',
-    metaDescription: 'Convert EPUB e-books to PDF. Preserve formatting, images, and chapter structure.',
-    keywords: ['epub to pdf', 'convert epub', 'ebook to pdf', 'epub converter'],
-    description: `
-      <p>EPUB to PDF converts electronic book files into high-quality PDF documents. EPUB is the most popular e-book format, used by most e-readers and digital libraries.</p>
-      <p>This tool preserves text formatting, images, and the chapter structure of your e-books. Perfect for printing, archiving, or sharing e-books in a universally viewable format.</p>
-      <p>All conversion happens locally in your browser using advanced rendering technology, ensuring your books remain private and the conversion is fast.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload EPUB File', description: 'Drag and drop your .epub file or click to select from your device.' },
-      { step: 2, title: 'Wait for Conversion', description: 'The tool will render and convert all pages of your e-book.' },
-      { step: 3, title: 'Download PDF', description: 'Click Download to save your converted PDF document.' },
-    ],
-    useCases: [
-      { title: 'Print E-books', description: 'Convert e-books to PDF for physical printing.', icon: 'printer' },
-      { title: 'Archive Books', description: 'Store e-books in long-term stable PDF format.', icon: 'archive' },
-      { title: 'Share Documents', description: 'Share e-books with anyone, even without an e-reader.', icon: 'share-2' },
-    ],
-    faq: [
-      { question: 'Is the formatting preserved?', answer: 'Yes! This tool uses native EPUB rendering, preserving text formatting, images, and layout with high fidelity.' },
-      { question: 'Are DRM-protected EPUBs supported?', answer: 'No, DRM-protected e-books cannot be converted. Only DRM-free EPUB files are supported.' },
-      { question: 'How is page size determined?', answer: 'EPUB content is rendered to standard A4 page size for optimal readability.' },
-    ],
-  },
-
-  'mobi-to-pdf': {
-    title: 'MOBI to PDF',
-    metaDescription: 'Convert MOBI e-books to PDF. Support for Kindle format with high-quality rendering.',
-    keywords: ['mobi to pdf', 'convert mobi', 'kindle to pdf', 'azw to pdf', 'mobi converter'],
-    description: `
-      <p>MOBI to PDF converts Amazon Kindle e-book files into high-quality PDF documents. MOBI format (including AZW and AZW3) is Amazon's proprietary e-book format used on Kindle devices.</p>
-      <p>This tool preserves text formatting, images, and the structure of your Kindle books. Perfect for printing, archiving, or reading on devices that don't support MOBI format.</p>
-      <p>All conversion happens locally in your browser using advanced rendering technology, ensuring your books remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload MOBI File', description: 'Drag and drop your .mobi, .azw, or .azw3 file or click to select from your device.' },
-      { step: 2, title: 'Wait for Conversion', description: 'The tool will render and convert all pages of your e-book.' },
-      { step: 3, title: 'Download PDF', description: 'Click Download to save your converted PDF document.' },
-    ],
-    useCases: [
-      { title: 'Print Kindle Books', description: 'Convert Kindle e-books to PDF for physical printing.', icon: 'printer' },
-      { title: 'Archive Books', description: 'Store Kindle books in universal PDF format.', icon: 'archive' },
-      { title: 'Cross-Device Reading', description: 'Read Kindle books on devices that only support PDF.', icon: 'tablet-smartphone' },
-    ],
-    faq: [
-      { question: 'What MOBI formats are supported?', answer: 'This tool supports .mobi, .azw, and .azw3 files (non-DRM versions).' },
-      { question: 'Are DRM-protected Kindle books supported?', answer: 'No, DRM-protected e-books cannot be converted. Only DRM-free files are supported.' },
-      { question: 'Will my formatting be preserved?', answer: 'Yes! The tool uses native MOBI rendering to preserve text, images, and layout.' },
-    ],
-  },
-
-  'djvu-to-pdf': {
-    title: 'DJVU to PDF',
-    metaDescription: 'Convert DJVU document files to PDF. High-quality rendering for scanned documents and books.',
-    keywords: ['djvu to pdf', 'convert djvu', 'djvu converter', 'djvu pdf', 'djv to pdf'],
-    description: `
-      <p>DJVU to PDF converts DjVu document files into high-quality PDF documents. DjVu is a computer file format designed primarily to store scanned documents, especially those containing a combination of text, line drawings, and photographs.</p>
-      <p>This tool renders each page of your DJVU file at your chosen DPI (dots per inch) and combines them into a searchable PDF document. Perfect for converting scanned books, technical manuals, and archival documents.</p>
-      <p>All conversion happens locally in your browser, ensuring your documents remain private and secure.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload DJVU File', description: 'Drag and drop your .djvu or .djv file, or click to select from your device.' },
-      { step: 2, title: 'Configure Options', description: 'Choose output DPI (72, 150, or 300) and image quality for the PDF.' },
-      { step: 3, title: 'Convert & Download', description: 'Click Convert to PDF and download your converted document.' },
-    ],
-    useCases: [
-      { title: 'Archive Documents', description: 'Convert DJVU archives to universal PDF format.', icon: 'archive' },
-      { title: 'Share Scanned Books', description: 'Share scanned books in PDF format for wider compatibility.', icon: 'share-2' },
-      { title: 'Print Documents', description: 'Convert DJVU to high-quality PDF for printing.', icon: 'printer' },
-    ],
-    faq: [
-      { question: 'What is DJVU format?', answer: 'DjVu is a file format designed for storing scanned documents, especially those with text, drawings, and images. It offers better compression than PDF for scanned content.' },
-      { question: 'What DPI should I choose?', answer: '72 DPI is suitable for web viewing, 150 DPI for standard documents, and 300 DPI for high-quality printing.' },
-      { question: 'Will the text be searchable?', answer: 'The text will be rendered as images. If you need searchable text, consider using our OCR PDF tool after conversion.' },
-    ],
-  },
-
-  'fb2-to-pdf': {
-    title: 'FB2 to PDF',
-    metaDescription: 'Convert FictionBook (FB2) e-books to PDF. Supports multiple files with high-quality rendering.',
-    keywords: ['fb2 to pdf', 'convert fb2', 'fictionbook to pdf', 'fb2 converter', 'fb2.zip to pdf'],
-    description: `
-      <p>FB2 to PDF converts FictionBook (FB2) e-book files into high-quality PDF documents. FB2 is a popular XML-based e-book format widely used in Russia and Eastern Europe.</p>
-      <p>This tool supports both .fb2 and .fb2.zip files, and can process multiple files at once. It preserves text formatting, images, and the chapter structure of your e-books.</p>
-      <p>All conversion happens locally in your browser using advanced rendering technology, ensuring your books remain private and the conversion is fast.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload FB2 Files', description: 'Drag and drop one or more .fb2 or .fb2.zip files, or click to select from your device.' },
-      { step: 2, title: 'Select Quality', description: 'Choose output quality: Low (72 DPI), Medium (150 DPI), or High (300 DPI).' },
-      { step: 3, title: 'Convert & Download', description: 'Click Convert to PDF and download your converted document(s).' },
-    ],
-    useCases: [
-      { title: 'Print E-books', description: 'Convert FB2 e-books to PDF for physical printing.', icon: 'printer' },
-      { title: 'Batch Conversion', description: 'Convert multiple FB2 files to PDF at once.', icon: 'layers' },
-      { title: 'Universal Format', description: 'Share e-books in PDF format that works on any device.', icon: 'share-2' },
-    ],
-    faq: [
-      { question: 'Can I convert multiple FB2 files at once?', answer: 'Yes! This tool supports batch conversion of up to 20 FB2 files simultaneously.' },
-      { question: 'Are .fb2.zip files supported?', answer: 'Yes, the tool automatically extracts and converts FB2 files from .fb2.zip archives.' },
-      { question: 'Is the formatting preserved?', answer: 'Yes! The tool uses native FB2 rendering, preserving text formatting, images, and chapter structure with high fidelity.' },
-    ],
-  },
-
-  // ==================== CONVERT FROM PDF ====================
-
-  'pdf-to-jpg': {
-    title: 'PDF to JPG',
-    metaDescription: 'Convert PDF pages to JPG images. High-quality extraction with customizable resolution.',
-    keywords: ['pdf to jpg', 'pdf to jpeg', 'convert pdf to image', 'extract pdf images'],
-    description: `
-      <p>PDF to JPG converts PDF document pages into high-quality JPG images. Extract all pages or select specific pages to convert, with customizable resolution and quality settings.</p>
-      <p>Perfect for extracting images from PDFs, creating thumbnails, or converting documents for web use.</p>
-      <p>All conversion happens in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select.' },
-      { step: 2, title: 'Select Pages and Quality', description: 'Choose which pages to convert and set quality/DPI options.' },
-      { step: 3, title: 'Convert and Download', description: 'Click Convert to extract images and download as ZIP.' },
-    ],
-    useCases: [
-      { title: 'Web Publishing', description: 'Convert PDF pages to images for website use.', icon: 'globe' },
-      { title: 'Social Media', description: 'Extract pages as images for social media sharing.', icon: 'share-2' },
-      { title: 'Presentations', description: 'Convert PDF slides to images for presentations.', icon: 'presentation' },
-    ],
-    faq: [
-      { question: 'What quality settings are available?', answer: 'You can set DPI from 72 to 300 and JPEG quality from 1-100.' },
-      { question: 'Can I convert specific pages only?', answer: 'Yes, you can select individual pages or page ranges to convert.' },
-      { question: 'How are multiple pages handled?', answer: 'Each page becomes a separate JPG file, downloaded as a ZIP archive.' },
-    ],
-  },
-
-  'pdf-to-png': {
-    title: 'PDF to PNG',
-    metaDescription: 'Convert PDF pages to PNG images. Lossless quality with transparency support.',
-    keywords: ['pdf to png', 'convert pdf to png', 'pdf image extraction', 'lossless pdf conversion'],
-    description: `
-      <p>PDF to PNG converts PDF document pages into high-quality PNG images with lossless compression. PNG format preserves image quality perfectly and supports transparency.</p>
-      <p>Ideal for extracting graphics, diagrams, or any content where quality preservation is critical.</p>
-      <p>All conversion happens in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select.' },
-      { step: 2, title: 'Configure Options', description: 'Select pages and set resolution (DPI) options.' },
-      { step: 3, title: 'Convert and Download', description: 'Click Convert to extract PNG images.' },
-    ],
-    useCases: [
-      { title: 'Graphics Extraction', description: 'Extract diagrams and graphics with perfect quality.', icon: 'image' },
-      { title: 'Design Assets', description: 'Convert PDF designs to PNG for editing software.', icon: 'palette' },
-      { title: 'Documentation', description: 'Create high-quality images for technical documentation.', icon: 'file-text' },
-    ],
-    faq: [
-      { question: 'Why choose PNG over JPG?', answer: 'PNG offers lossless compression and transparency support, ideal for graphics and text.' },
-      { question: 'Are transparent backgrounds supported?', answer: 'Yes, PDF pages with transparency are preserved in PNG output.' },
-      { question: 'What DPI should I use?', answer: 'Use 150 DPI for screen viewing, 300 DPI for printing.' },
-    ],
-  },
-
-  'pdf-to-webp': {
-    title: 'PDF to WebP',
-    metaDescription: 'Convert PDF pages to WebP images. Modern format with excellent compression.',
-    keywords: ['pdf to webp', 'convert pdf to webp', 'modern image format', 'web optimized images'],
-    description: `
-      <p>PDF to WebP converts PDF document pages into WebP images, Google's modern image format that offers excellent compression with high quality.</p>
-      <p>WebP images are smaller than JPG or PNG while maintaining comparable quality, making them ideal for web use.</p>
-      <p>All conversion happens in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select.' },
-      { step: 2, title: 'Set Quality Options', description: 'Choose pages and set quality/compression settings.' },
-      { step: 3, title: 'Convert and Download', description: 'Click Convert to create WebP images.' },
-    ],
-    useCases: [
-      { title: 'Web Optimization', description: 'Create web-optimized images from PDF content.', icon: 'globe' },
-      { title: 'Bandwidth Savings', description: 'Reduce image file sizes for faster loading.', icon: 'zap' },
-      { title: 'Modern Websites', description: 'Use modern image formats for contemporary web projects.', icon: 'layout' },
-    ],
-    faq: [
-      { question: 'What is WebP format?', answer: 'WebP is a modern image format by Google offering superior compression.' },
-      { question: 'Is WebP widely supported?', answer: 'Yes, all modern browsers support WebP format.' },
-      { question: 'How much smaller are WebP files?', answer: 'WebP files are typically 25-35% smaller than equivalent JPG files.' },
-    ],
-  },
-
-  'pdf-to-bmp': {
-    title: 'PDF to BMP',
-    metaDescription: 'Convert PDF pages to BMP bitmap images. Uncompressed format for maximum compatibility.',
-    keywords: ['pdf to bmp', 'convert pdf to bitmap', 'uncompressed images', 'legacy format'],
-    description: `
-      <p>PDF to BMP converts PDF document pages into BMP bitmap images. BMP is an uncompressed format that ensures maximum compatibility with legacy systems and applications.</p>
-      <p>While BMP files are larger than compressed formats, they offer perfect quality and universal compatibility.</p>
-      <p>All conversion happens in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select.' },
-      { step: 2, title: 'Select Pages', description: 'Choose which pages to convert and set DPI.' },
-      { step: 3, title: 'Convert and Download', description: 'Click Convert to create BMP images.' },
-    ],
-    useCases: [
-      { title: 'Legacy Systems', description: 'Create images compatible with older software.', icon: 'history' },
-      { title: 'Windows Applications', description: 'Generate BMP files for Windows-specific applications.', icon: 'monitor' },
-      { title: 'Uncompressed Archives', description: 'Create uncompressed image archives from PDFs.', icon: 'archive' },
-    ],
-    faq: [
-      { question: 'Why use BMP format?', answer: 'BMP offers uncompressed quality and maximum compatibility with legacy systems.' },
-      { question: 'Are BMP files larger?', answer: 'Yes, BMP files are uncompressed and significantly larger than JPG or PNG.' },
-      { question: 'What color depths are supported?', answer: '24-bit and 32-bit color depths are supported.' },
-    ],
-  },
-
-  'pdf-to-tiff': {
-    title: 'PDF to TIFF',
-    metaDescription: 'Convert PDF to TIFF images. Professional quality with multi-page support.',
-    keywords: ['pdf to tiff', 'convert pdf to tiff', 'professional images', 'multi-page tiff'],
-    description: `
-      <p>PDF to TIFF converts PDF documents into high-quality TIFF images. TIFF is the preferred format for professional printing and archiving due to its lossless compression.</p>
-      <p>Create single-page TIFFs or combine all pages into a multi-page TIFF file. Perfect for professional and archival purposes.</p>
-      <p>All conversion happens in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select.' },
-      { step: 2, title: 'Configure Output', description: 'Choose single or multi-page TIFF and set DPI.' },
-      { step: 3, title: 'Convert and Download', description: 'Click Convert to create TIFF images.' },
-    ],
-    useCases: [
-      { title: 'Professional Printing', description: 'Create print-ready TIFF files from PDF documents.', icon: 'printer' },
-      { title: 'Document Archiving', description: 'Archive documents in high-quality TIFF format.', icon: 'archive' },
-      { title: 'Publishing', description: 'Convert PDFs to TIFF for publishing workflows.', icon: 'book' },
-    ],
-    faq: [
-      { question: 'Can I create multi-page TIFFs?', answer: 'Yes, you can combine all PDF pages into a single multi-page TIFF.' },
-      { question: 'What compression options are available?', answer: 'LZW, ZIP, and no compression options are available.' },
-      { question: 'What DPI should I use for printing?', answer: 'Use 300 DPI or higher for professional printing.' },
-    ],
-  },
-
-  'pdf-to-cbz': {
-    title: 'PDF to CBZ',
-    metaDescription: 'Convert PDF documents to high-definition Comic Book ZIP archives (.cbz). Built-in Calibre OPF, ComicInfo XML, and ZIP Comment metadata for perfect multi-reader cataloging.',
-    keywords: ['pdf to cbz', 'pdf to comic', 'cbz packaging', 'calibre comic archive', 'comicinfo metadata'],
-    description: `
-      <p>PDF to CBZ is custom-engineered for comic enthusiasts and digital ebook archivists. It renders every page of your PDF volumes into high-fidelity rasterized graphics and compiles them into a standard Comic Book ZIP (.cbz) bundle.</p>
-      <p>To eliminate frustrating manual scraping in systems like Calibre, Komga, Kavita, or CDisplayEx, the processor automatically generates and injects both <strong>ComicInfo.xml</strong> and <strong>metadata.opf</strong> files internally, while simultaneously writing a standardized <strong>ComicBookInfo JSON</strong> payload directly into the ZIP file comment metadata.</p>
-      <p>Includes complete configuration sliders for image compression quality, page dimension scale, right-to-left layout reading toggles (Manga mode), and black-and-white grayscale color filtering.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Comic PDF', description: 'Drag and drop your primary comic, artbook, or manga PDF file.' },
-      { step: 2, title: 'Input Comic Metadata', description: 'Fill out Series, Volume, Title, Writer, and Publisher fields, and toggle layout or grayscale optimization.' },
-      { step: 3, title: 'Compile and Download', description: 'Click Convert to compile and retrieve your metadata-rich .cbz file instantly ready for Calibre.' },
-    ],
-    useCases: [
-      { title: 'Retrograde Comic Packaging', description: 'Transform raw scanned PDF books into compact, standard-compliant CBZ comic files easily scrapable by comic library managers.', icon: 'book' },
-      { title: 'Zero-Effort Calibre Integration', description: 'The built-in metadata.opf schema allows Calibre to fetch and classify creators and volume issues without manual lookup.', icon: 'database' },
-      { title: 'E-Ink Screen Enhancement', description: 'Pre-filter graphic color channels into high-contrast grayscale on compile, boosting visual refresh and clarity on E-ink screens while saving storage.', icon: 'eye' },
-    ],
-    faq: [
-      { question: 'What is a .cbz file?', answer: 'A CBZ file is a specialized archive container format for comic book series. It is internally formatted as a ZIP package containing sequentially numbered page images alongside structural metadata XML files.' },
-      { question: 'How is metadata compatible?', answer: 'We compile and embed ComicInfo.xml, metadata.opf, and ZIP File Comments in one pass. This guarantees absolute compliance across multiple comic and e-book ecosystems.' },
-      { question: 'Why use Grayscale mode?', answer: 'If you read on a grayscale E-ink reader (like Kindle or Kobo), compiling directly in Grayscale reduces artifact ghosting, delivers superior contrast levels, and shrinks the final CBZ file size.' },
-    ],
-  },
-
-
-  'pdf-to-svg': {
-    title: 'PDF to SVG',
-    metaDescription: 'Convert PDF pages to SVG vector graphics. Perfect scalability at any size with individual page export.',
-    keywords: ['pdf to svg', 'convert pdf to svg', 'vector graphics', 'scalable pdf', 'svg converter'],
-    description: `
-      <p>PDF to SVG converts each page of your PDF document into a scalable vector graphic (SVG). SVG is a vector format that maintains perfect quality at any zoom level or print size.</p>
-      <p>Unlike raster formats (JPG, PNG), SVG graphics never become pixelated when scaled. This makes them ideal for logos, diagrams, technical drawings, and any content that needs to be displayed at different sizes.</p>
-      <p>Preview each converted page and download them individually or as a ZIP file. All processing happens locally in your browser, ensuring complete privacy for your documents.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to browse and select.' },
-      { step: 2, title: 'Configure Options', description: 'Set the resolution quality and optionally specify page ranges.' },
-      { step: 3, title: 'Preview and Convert', description: 'Click Convert to process. Preview each page by clicking on thumbnails.' },
-      { step: 4, title: 'Download', description: 'Download individual SVG files or all pages as a ZIP archive.' },
-    ],
-    useCases: [
-      { title: 'Logos and Graphics', description: 'Extract logos and vector graphics from PDFs for use in design software.', icon: 'pen-tool' },
-      { title: 'Technical Diagrams', description: 'Convert technical drawings and diagrams to scalable SVG format.', icon: 'ruler' },
-      { title: 'Web Development', description: 'Create web-ready SVG files from PDF content for responsive websites.', icon: 'globe' },
-      { title: 'Print at Any Size', description: 'Generate vector graphics that print perfectly at any size.', icon: 'printer' },
-    ],
-    faq: [
-      { question: 'What is SVG format?', answer: 'SVG (Scalable Vector Graphics) is a vector image format that can be scaled to any size without losing quality. It is widely used for logos, icons, and web graphics.' },
-      { question: 'Will the SVG be truly vector?', answer: 'The SVG contains a high-resolution rendering of the PDF page. For PDFs with vector content, you get crisp output at any scale.' },
-      { question: 'Can I preview before downloading?', answer: 'Yes! Click on any thumbnail to see a full-size preview of the SVG. You can download individual pages or all at once.' },
-      { question: 'What resolution should I choose?', answer: 'Higher resolution (216 or 288 DPI) produces larger, more detailed SVGs. Use lower settings for faster processing and smaller files.' },
-    ],
-  },
-
-  'pdf-to-greyscale': {
-    title: 'PDF to Greyscale',
-    metaDescription: 'Convert color PDF to greyscale. Reduce file size and prepare for black-and-white printing.',
-    keywords: ['pdf to greyscale', 'grayscale pdf', 'black and white pdf', 'remove colors'],
-    description: `
-      <p>PDF to Greyscale converts color PDF documents to greyscale (black and white). This reduces file size and prepares documents for black-and-white printing.</p>
-      <p>The conversion preserves text clarity and image detail while removing color information. Perfect for draft printing or creating printer-friendly versions.</p>
-      <p>All conversion happens in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your color PDF file or click to select.' },
-      { step: 2, title: 'Preview Conversion', description: 'Preview how the greyscale version will look.' },
-      { step: 3, title: 'Convert and Download', description: 'Click Convert to create the greyscale PDF.' },
-    ],
-    useCases: [
-      { title: 'Print Savings', description: 'Convert to greyscale to save on color printing costs.', icon: 'printer' },
-      { title: 'Draft Documents', description: 'Create black-and-white drafts for review.', icon: 'file-text' },
-      { title: 'File Size Reduction', description: 'Reduce PDF size by removing color information.', icon: 'minimize-2' },
-    ],
-    faq: [
-      { question: 'Will text remain readable?', answer: 'Yes, text clarity is preserved during greyscale conversion.' },
-      { question: 'How much smaller will the file be?', answer: 'File size reduction varies but can be 20-50% for color-heavy documents.' },
-      { question: 'Can I convert specific pages only?', answer: 'Yes, you can select which pages to convert to greyscale.' },
-    ],
-  },
-
-  'pdf-to-json': {
-    title: 'PDF to JSON',
-    metaDescription: 'Extract PDF content to JSON format. Get structured data from PDF documents.',
-    keywords: ['pdf to json', 'extract pdf data', 'pdf parser', 'structured pdf data'],
-    description: `
-      <p>PDF to JSON extracts content from PDF documents into structured JSON format. Extract text, metadata, page information, and document structure for programmatic use.</p>
-      <p>Perfect for data extraction, document analysis, or integrating PDF content into applications and workflows.</p>
-      <p>All extraction happens in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select.' },
-      { step: 2, title: 'Select Data to Extract', description: 'Choose what content to extract: text, metadata, structure.' },
-      { step: 3, title: 'Extract and Download', description: 'Click Extract to generate JSON and download.' },
-    ],
-    useCases: [
-      { title: 'Data Extraction', description: 'Extract structured data from PDF documents.', icon: 'database' },
-      { title: 'Document Analysis', description: 'Analyze PDF structure and content programmatically.', icon: 'search' },
-      { title: 'Integration', description: 'Import PDF content into applications via JSON.', icon: 'plug' },
-    ],
-    faq: [
-      { question: 'What data is extracted?', answer: 'Text content, metadata, page dimensions, fonts, and document structure.' },
-      { question: 'Is the JSON format documented?', answer: 'Yes, the JSON schema is consistent and well-documented.' },
-      { question: 'Can I extract from scanned PDFs?', answer: 'Scanned PDFs require OCR first. Use our OCR PDF tool before extraction.' },
-    ],
-  },
-
-  'pdf-to-pptx': {
-    title: 'PDF to PowerPoint',
-    metaDescription: 'Convert PDF to PowerPoint presentation. Each page becomes a high-quality slide.',
-    keywords: ['pdf to pptx', 'pdf to powerpoint', 'convert pdf slides', 'pdf presentation'],
-    description: `
-      <p>PDF to PowerPoint converts your PDF documents into editable PowerPoint presentations (PPTX). Each PDF page is transformed into a high-quality slide, preserving the visual layout perfectly.</p>
-      <p>This tool is ideal for converting reports, handouts, or any PDF content into presentation format. You can choose the image quality (DPI) to balance between file size and visual clarity.</p>
-      <p>All conversion happens locally in your browser, ensuring your documents remain private and secure.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select it from your device.' },
-      { step: 2, title: 'Choose Quality Settings', description: 'Select the image quality (DPI) for the slides. Higher DPI means better quality but larger file size.' },
-      { step: 3, title: 'Convert and Download', description: 'Click Convert to create your PowerPoint presentation and download the PPTX file.' },
-    ],
-    useCases: [
-      { title: 'Presentation Creation', description: 'Convert PDF reports or documents into presentation slides for meetings.', icon: 'presentation' },
-      { title: 'Training Materials', description: 'Transform PDF training documents into interactive PowerPoint presentations.', icon: 'book-open' },
-      { title: 'Content Repurposing', description: 'Convert existing PDF content into editable slide format for further customization.', icon: 'refresh-cw' },
-    ],
-    faq: [
-      { question: 'Will the slides be editable?', answer: 'Each slide contains a high-quality image of the PDF page. You can add text, shapes, and annotations on top in PowerPoint.' },
-      { question: 'What DPI should I choose?', answer: 'Use 150 DPI for presentations displayed on screens. Use 300 DPI for printing or when you need the highest quality.' },
-      { question: 'Can I convert multi-page PDFs?', answer: 'Yes, each page of your PDF becomes a separate slide in the PowerPoint presentation.' },
-    ],
-  },
-
-  'pdf-to-excel': {
-    title: 'PDF to Excel',
-    metaDescription: 'Convert PDF to Excel spreadsheet. Extract tables to XLSX format.',
-    keywords: ['pdf to excel', 'pdf to xlsx', 'convert pdf tables', 'extract tables'],
-    description: `
-      <p>PDF to Excel converts your PDF documents into editable Microsoft Excel spreadsheets (XLSX). The tool automatically detects tables in your PDF and extracts them into separate sheets.</p>
-      <p>This tool is ideal for analyzing financial reports, invoices, or any data presented in tables. Each page's tables are organized into sheets for easy data manipulation.</p>
-      <p>All conversion happens locally in your browser, ensuring your data remains private and secure.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select.' },
-      { step: 2, title: 'Process', description: 'The tool will automatically identify and extract tables.' },
-      { step: 3, title: 'Download Excel', description: 'Download your Excel file with extracted tables.' },
-    ],
-    useCases: [
-      { title: 'Financial Analysis', description: 'Convert bank statements or invoices to Excel for analysis.', icon: 'trending-up' },
-      { title: 'Data Extraction', description: 'Pull data tables from research papers or reports.', icon: 'database' },
-      { title: 'Inventory Management', description: 'Convert inventory lists from PDF to spreadsheet.', icon: 'clipboard' },
-    ],
-    faq: [
-      { question: 'How are tables handled?', answer: 'Tables detected on each page are extracted to corresponding sheets in the Excel file.' },
-      { question: 'What if there are no tables?', answer: 'An info sheet will be created indicating no tables were found.' },
-      { question: 'Is formatting preserved?', answer: 'Data is preserved, but complex visual formatting may be simplified for spreadsheet use.' },
-    ],
-  },
-
-  // ==================== ORGANIZE & MANAGE ====================
-  'ocr-pdf': {
-    title: 'OCR PDF',
-    metaDescription: 'Make scanned PDFs searchable with OCR. Extract text from images and scanned documents.',
-    keywords: ['ocr pdf', 'searchable pdf', 'text recognition', 'scan to text'],
-    description: `
-      <p>OCR PDF uses Optical Character Recognition to extract text from scanned documents and images within PDFs. Convert image-based PDFs into searchable, selectable text documents.</p>
-      <p>Support for multiple languages ensures accurate text recognition regardless of the document's language. The original layout is preserved while adding a searchable text layer.</p>
-      <p>All OCR processing happens in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Scanned PDF', description: 'Drag and drop your scanned PDF or click to select.' },
-      { step: 2, title: 'Select Language', description: 'Choose the document language for accurate recognition.' },
-      { step: 3, title: 'Process and Download', description: 'Click Process to run OCR and download the searchable PDF.' },
-    ],
-    useCases: [
-      { title: 'Digitize Archives', description: 'Make scanned document archives searchable.', icon: 'archive' },
-      { title: 'Document Search', description: 'Enable text search in scanned documents.', icon: 'search' },
-      { title: 'Text Extraction', description: 'Extract text from scanned documents for editing.', icon: 'type' },
-    ],
-    faq: [
-      { question: 'What languages are supported?', answer: 'Over 100 languages are supported including English, Chinese, Japanese, Korean, and more.' },
-      { question: 'Will the original layout be preserved?', answer: 'Yes, the original visual layout is preserved with a searchable text layer added.' },
-      { question: 'How accurate is the OCR?', answer: 'Accuracy depends on scan quality but typically exceeds 95% for clear documents.' },
-    ],
-  },
-
-  'alternate-merge': {
-    title: 'Alternate Merge',
-    metaDescription: 'Merge PDFs by alternating pages. Combine front and back scans into one document.',
-    keywords: ['alternate merge', 'interleave pdf', 'combine scans', 'front back merge'],
-    description: `
-      <p>Alternate Merge combines two PDFs by interleaving their pages alternately. This is perfect for combining separately scanned front and back pages into a single document.</p>
-      <p>Upload two PDFs and the tool will merge them by taking one page from each alternately. You can also reverse the order of one document for back-to-front scanning.</p>
-      <p>All processing happens in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Two PDFs', description: 'Upload the front pages PDF and back pages PDF.' },
-      { step: 2, title: 'Configure Order', description: 'Choose whether to reverse the second document for back-to-front scans.' },
-      { step: 3, title: 'Merge and Download', description: 'Click Merge to interleave pages and download.' },
-    ],
-    useCases: [
-      { title: 'Duplex Scanning', description: 'Combine separately scanned front and back pages.', icon: 'copy' },
-      { title: 'Document Assembly', description: 'Interleave pages from two related documents.', icon: 'layers' },
-      { title: 'Book Scanning', description: 'Combine odd and even page scans into complete books.', icon: 'book' },
-    ],
-    faq: [
-      { question: 'What if documents have different page counts?', answer: 'Extra pages from the longer document are appended at the end.' },
-      { question: 'Can I reverse page order?', answer: 'Yes, you can reverse either document before merging.' },
-      { question: 'Is this different from regular merge?', answer: 'Yes, regular merge appends documents; alternate merge interleaves pages.' },
-    ],
-  },
-
-  'add-attachments': {
-    title: 'Add Attachments',
-    metaDescription: 'Embed files in PDF documents. Attach any file type to your PDFs.',
-    keywords: ['pdf attachments', 'embed files', 'attach to pdf', 'pdf portfolio'],
-    description: `
-      <p>Add Attachments embeds files of any type into your PDF documents. Attach spreadsheets, images, source files, or any other documents to create comprehensive PDF packages.</p>
-      <p>Attachments are embedded within the PDF and can be extracted by recipients using any PDF reader. Perfect for distributing related files together.</p>
-      <p>All processing happens in your browser, ensuring your files remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select.' },
-      { step: 2, title: 'Add Attachments', description: 'Select files to attach to the PDF.' },
-      { step: 3, title: 'Save and Download', description: 'Click Save to embed attachments and download.' },
-    ],
-    useCases: [
-      { title: 'Project Packages', description: 'Bundle project files with documentation PDFs.', icon: 'package' },
-      { title: 'Report Distribution', description: 'Attach source data files to report PDFs.', icon: 'paperclip' },
-      { title: 'Contract Bundles', description: 'Include supporting documents with contracts.', icon: 'file-text' },
-    ],
-    faq: [
-      { question: 'What file types can be attached?', answer: 'Any file type can be attached to a PDF.' },
-      { question: 'Is there a size limit?', answer: 'Total PDF size including attachments should not exceed 500MB.' },
-      { question: 'Can recipients extract attachments?', answer: 'Yes, any PDF reader can extract embedded attachments.' },
-    ],
-  },
-
-  'extract-attachments': {
-    title: 'Extract Attachments',
-    metaDescription: 'Extract embedded files from PDFs. Download all attachments from PDF documents.',
-    keywords: ['extract attachments', 'pdf attachments', 'download embedded files', 'pdf extraction'],
-    description: `
-      <p>Extract Attachments retrieves all embedded files from PDF documents. Download attachments individually or as a ZIP archive containing all files.</p>
-      <p>Perfect for accessing source files, data, or supplementary materials embedded in PDF packages.</p>
-      <p>All extraction happens in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select.' },
-      { step: 2, title: 'View Attachments', description: 'See a list of all embedded files in the PDF.' },
-      { step: 3, title: 'Extract and Download', description: 'Download individual files or all as a ZIP.' },
-    ],
-    useCases: [
-      { title: 'Access Source Files', description: 'Extract original data files from PDF reports.', icon: 'download' },
-      { title: 'Recover Attachments', description: 'Retrieve embedded files from PDF packages.', icon: 'folder-open' },
-      { title: 'Batch Extraction', description: 'Extract attachments from multiple PDFs at once.', icon: 'layers' },
-    ],
-    faq: [
-      { question: 'What if there are no attachments?', answer: 'The tool will indicate if no embedded files are found.' },
-      { question: 'Are all attachment types supported?', answer: 'Yes, all embedded file types can be extracted.' },
-      { question: 'Can I extract from multiple PDFs?', answer: 'Yes, you can process multiple PDFs and download all attachments.' },
-    ],
-  },
-
-  'extract-images': {
-    title: 'Extract Images from PDF',
-    metaDescription: 'Extract all embedded images from PDF files. Download individually or as a ZIP archive. Filter small images automatically.',
-    keywords: ['extract pdf images', 'pdf image extraction', 'get images from pdf', 'download pdf images', 'pdf to images'],
-    description: `
-      <p>Extract Images from PDF retrieves all embedded images from your PDF documents. Download high-quality images individually or as a convenient ZIP archive.</p>
-      <p>The tool automatically filters out small images like icons and decorations based on customizable size thresholds. Process multiple PDFs at once for efficient batch extraction.</p>
-      <p>All extraction happens in your browser, ensuring your documents remain private and secure.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDFs', description: 'Drag and drop one or more PDF files or click to select from your device.' },
-      { step: 2, title: 'Set Filter Options', description: 'Adjust minimum width, height, and file size to filter out unwanted small images.' },
-      { step: 3, title: 'Extract Images', description: 'Click Extract to find all embedded images in your PDFs.' },
-      { step: 4, title: 'Download', description: 'Download individual images or all images as a ZIP archive.' },
-    ],
-    useCases: [
-      { title: 'Photo Recovery', description: 'Extract photos and images embedded in PDF documents for reuse or archiving.', icon: 'image' },
-      { title: 'Asset Collection', description: 'Gather all graphics and images from PDF reports, presentations, or brochures.', icon: 'folder' },
-      { title: 'Content Repurposing', description: 'Extract images from PDFs to use in other documents, websites, or presentations.', icon: 'refresh-cw' },
-    ],
-    faq: [
-      { question: 'What image formats are extracted?', answer: 'Images are extracted in their native format (JPEG, PNG, etc.) when possible, or converted to PNG for raw image data.' },
-      { question: 'Why are some images missing?', answer: 'Small images below the size threshold are filtered out. Adjust the filter settings to extract smaller images.' },
-      { question: 'Can I extract from scanned PDFs?', answer: 'Scanned PDFs typically contain the scan as one large image per page. Use PDF to Image tool instead for page-by-page conversion.' },
-    ],
-  },
-
-  'edit-attachments': {
-    title: 'Edit Attachments',
-    metaDescription: 'Manage PDF attachments. View, rename, and remove embedded files.',
-    keywords: ['edit attachments', 'manage pdf files', 'remove attachments', 'rename attachments'],
-    description: `
-      <p>Edit Attachments lets you manage embedded files in PDF documents. View all attachments, rename them, or remove unwanted files from the PDF.</p>
-      <p>Perfect for cleaning up PDF packages or updating attachment information before distribution.</p>
-      <p>All editing happens in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select.' },
-      { step: 2, title: 'Manage Attachments', description: 'View, rename, or delete embedded files.' },
-      { step: 3, title: 'Save and Download', description: 'Click Save to apply changes and download.' },
-    ],
-    useCases: [
-      { title: 'Clean Up PDFs', description: 'Remove unnecessary attachments from PDF packages.', icon: 'trash-2' },
-      { title: 'Rename Files', description: 'Update attachment names for clarity.', icon: 'edit' },
-      { title: 'Review Contents', description: 'Audit embedded files before distribution.', icon: 'eye' },
-    ],
-    faq: [
-      { question: 'Can I add new attachments here?', answer: 'Use the Add Attachments tool to embed new files.' },
-      { question: 'Is removal permanent?', answer: 'Yes, removed attachments cannot be recovered from the output file.' },
-      { question: 'Can I preview attachments?', answer: 'You can see file names and sizes; use Extract Attachments to view contents.' },
-    ],
-  },
-
-  'divide-pages': {
-    title: 'Divide Pages',
-    metaDescription: 'Split PDF pages into multiple sections. Divide pages horizontally or vertically.',
-    keywords: ['divide pdf pages', 'split page', 'cut pdf page', 'page sections'],
-    description: `
-      <p>Divide Pages splits individual PDF pages into multiple sections. Cut pages horizontally, vertically, or into a grid to create multiple pages from one.</p>
-      <p>Perfect for splitting scanned documents with multiple items per page, or dividing large format pages into standard sizes.</p>
-      <p>All processing happens in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select.' },
-      { step: 2, title: 'Set Division', description: 'Choose horizontal, vertical, or grid division and set the number of sections.' },
-      { step: 3, title: 'Divide and Download', description: 'Click Divide to split pages and download.' },
-    ],
-    useCases: [
-      { title: 'Split Scans', description: 'Divide scanned pages containing multiple documents.', icon: 'scissors' },
-      { title: 'Resize Pages', description: 'Split large pages into standard paper sizes.', icon: 'maximize-2' },
-      { title: 'Create Cards', description: 'Divide pages into card-sized sections for printing.', icon: 'grid' },
-    ],
-    faq: [
-      { question: 'Can I divide into unequal sections?', answer: 'Currently, divisions are equal. Use Crop PDF for custom sections.' },
-      { question: 'What happens to content at division lines?', answer: 'Content is split at the division line; ensure important content is not at boundaries.' },
-      { question: 'Can I divide specific pages only?', answer: 'Yes, you can select which pages to divide.' },
-    ],
-  },
-
-  'add-blank-page': {
-    title: 'Add Blank Page',
-    metaDescription: 'Insert blank pages into PDF documents. Add empty pages at any position.',
-    keywords: ['add blank page', 'insert page', 'empty page', 'pdf page insertion'],
-    description: `
-      <p>Add Blank Page inserts empty pages into your PDF documents at any position. Add pages before, after, or between existing pages with customizable page size.</p>
-      <p>Perfect for adding space for notes, creating section dividers, or preparing documents for printing.</p>
-      <p>All processing happens in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select.' },
-      { step: 2, title: 'Choose Position', description: 'Select where to insert blank pages and how many.' },
-      { step: 3, title: 'Add and Download', description: 'Click Add to insert pages and download.' },
-    ],
-    useCases: [
-      { title: 'Note Space', description: 'Add blank pages for handwritten notes.', icon: 'edit-3' },
-      { title: 'Section Dividers', description: 'Insert blank pages between document sections.', icon: 'minus' },
-      { title: 'Print Preparation', description: 'Add pages for duplex printing alignment.', icon: 'printer' },
-    ],
-    faq: [
-      { question: 'Can I choose the page size?', answer: 'Yes, blank pages can match existing pages or use custom dimensions.' },
-      { question: 'Can I add multiple blank pages?', answer: 'Yes, you can add any number of blank pages at once.' },
-      { question: 'Can I add colored pages?', answer: 'Use Background Color tool after adding blank pages to add color.' },
-    ],
-  },
-
-  'reverse-pages': {
-    title: 'Reverse Pages',
-    metaDescription: 'Reverse PDF page order. Flip document pages from last to first.',
-    keywords: ['reverse pdf', 'flip page order', 'invert pages', 'reverse document'],
-    description: `
-      <p>Reverse Pages flips the order of pages in your PDF document, putting the last page first and the first page last. Useful for documents scanned in reverse order or for specific printing needs.</p>
-      <p>The tool processes the entire document or selected page ranges, maintaining all content and formatting.</p>
-      <p>All processing happens in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select.' },
-      { step: 2, title: 'Select Pages', description: 'Choose to reverse all pages or a specific range.' },
-      { step: 3, title: 'Reverse and Download', description: 'Click Reverse to flip page order and download.' },
-    ],
-    useCases: [
-      { title: 'Fix Scan Order', description: 'Correct documents scanned in reverse order.', icon: 'refresh-cw' },
-      { title: 'Print Preparation', description: 'Reverse pages for specific printing requirements.', icon: 'printer' },
-      { title: 'Document Reordering', description: 'Quickly flip document order for review.', icon: 'arrow-up-down' },
-    ],
-    faq: [
-      { question: 'Are bookmarks updated?', answer: 'Yes, bookmarks are updated to point to the correct reversed pages.' },
-      { question: 'Can I reverse only some pages?', answer: 'Yes, you can select a page range to reverse.' },
-      { question: 'Is this the same as rotating?', answer: 'No, reversing changes page order; rotating changes page orientation.' },
-    ],
-  },
-
-  'rotate-pdf': {
-    title: 'Rotate PDF',
-    metaDescription: 'Rotate PDF pages. Turn pages 90, 180, or 270 degrees.',
-    keywords: ['rotate pdf', 'turn pdf pages', 'pdf rotation', 'fix orientation'],
-    description: `
-      <p>Rotate PDF turns pages in your document by 90, 180, or 270 degrees. Fix incorrectly oriented scans, rotate landscape pages, or adjust page orientation for viewing.</p>
-      <p>Rotate all pages uniformly or select specific pages to rotate individually. The tool preserves all content and formatting.</p>
-      <p>All processing happens in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select.' },
-      { step: 2, title: 'Select Rotation', description: 'Choose rotation angle and which pages to rotate.' },
-      { step: 3, title: 'Rotate and Download', description: 'Click Rotate to apply changes and download.' },
-    ],
-    useCases: [
-      { title: 'Fix Scans', description: 'Correct orientation of scanned documents.', icon: 'rotate-cw' },
-      { title: 'Landscape Pages', description: 'Rotate landscape pages for proper viewing.', icon: 'monitor' },
-      { title: 'Mixed Orientation', description: 'Standardize page orientation in mixed documents.', icon: 'layout' },
-    ],
-    faq: [
-      { question: 'Can I rotate different pages differently?', answer: 'Yes, you can apply different rotations to different pages.' },
-      { question: 'Does rotation affect print quality?', answer: 'No, rotation preserves all content quality.' },
-      { question: 'Can I rotate by custom angles?', answer: 'Rotation is limited to 90-degree increments (90, 180, 270).' },
-    ],
-  },
-
-  'overlay-pdf': {
-    title: 'Overlay PDF',
-    metaDescription: 'Overlay or underlay pages from one PDF onto another. Perfect for stamps, letterheads, and layout composition.',
-    keywords: ['overlay pdf', 'underlay pdf', 'stamp pdf', 'watermark pdf', 'combine layers'],
-    description: `
-      <p>Overlay PDF allows you to layer pages of one PDF document on top or underneath another PDF document. It is perfect for applying letterheads, adding background grids, stamping watermarks, or fusing layout drafts together.</p>
-      <p>Supports both Overlay mode (layer goes on top) and Underlay mode (layer goes underneath). Specify custom target page ranges or loop shorter overlay documents to cover the entire base file automatically.</p>
-      <p>All processing is executed entirely inside your web browser locally, guaranteeing total security and data privacy.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Main PDF', description: 'Drag and drop your primary base PDF document.' },
-      { step: 2, title: 'Upload Layer PDF', description: 'Provide the overlay/underlay document that acts as the layer.' },
-      { step: 3, title: 'Configure Layering', description: 'Choose overlay or underlay mode, specify page ranges, and enable page looping.' },
-      { step: 4, title: 'Compile and Download', description: 'Click Compile to process and download the layered result PDF.' },
-    ],
-    useCases: [
-      { title: 'Corporate Letterheads', description: 'Layer invoice contents on top of standard company letterhead templates.', icon: 'file-text' },
-      { title: 'Watermarks & Seals', description: 'Overlay security stamps, signature seals, or backgrounds across documents.', icon: 'shield' },
-      { title: 'Drawing Blueprints', description: 'Combine draft architectures or layout grids underneath text blocks.', icon: 'layout' },
-    ],
-    faq: [
-      { question: 'What is the difference between Overlay and Underlay?', answer: 'Overlay places the secondary layer on top of your main content. Underlay places it at the very bottom, acting as a background template.' },
-      { question: 'Can I loop the overlay layer?', answer: 'Yes, if the layer PDF is shorter than the base document, enabling Loop will cycle it (e.g. page 1, 2, 1, 2) to cover all base pages.' },
-      { question: 'Is page range supported?', answer: 'Yes, you can target specific pages using range syntax such as "1-5", "odd", "even", or comma-separated lists.' },
-    ],
-  },
-
-  'timestamp-pdf': {
-    title: 'Timestamp PDF',
-    metaDescription: 'Add RFC 3161 trusted timestamps to PDF documents. Prove document existence at a specific point in time without certificates.',
-    keywords: ['timestamp pdf', 'rfc 3161', 'tsa server', 'trusted timestamping', 'proof of existence'],
-    description: `
-      <p>Timestamp PDF adds RFC 3161 compliant trusted timestamps to your PDF documents using external Time Stamping Authorities (TSA). It provides legally-binding mathematical proof that a document existed in a specific, unaltered state at a precise instant in time.</p>
-      <p>Select from global trusted TSA servers such as DigiCert, Sectigo, SSL.com, FreeTSA, or MeSign. No personal signing certificates are required to secure your documents against future tampering.</p>
-      <p>Supports fully secure local hashing before handshake, guaranteeing absolute document contents remain 100% confidential.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload PDF Document', description: 'Select the target PDF file you want to timestamp.' },
-      { step: 2, title: 'Select TSA Server', description: 'Choose a trusted global Time Stamping Authority from the list.' },
-      { step: 3, title: 'Apply and Timestamp', description: 'Click Timestamp to fetch secure response from TSA and embed the token.' },
-    ],
-    useCases: [
-      { title: 'Intellectual Property', description: 'Establish clear priority proof of patents, drafts, and ideas before public release.', icon: 'lightbulb' },
-      { title: 'Financial Auditing', description: 'Provide certified tamper-proof logging of ledger archives and balance reports.', icon: 'activity' },
-      { title: 'Legal Contracts', description: 'Lock legal agreements with a trusted time proof to avoid backdating arguments.', icon: 'file-check' },
-    ],
-    faq: [
-      { question: 'What is a trusted timestamp (RFC 3161)?', answer: 'An RFC 3161 timestamp is a cryptographically signed token issued by a recognized third-party authority (TSA) that links a document hash to a specific, verified clock source.' },
-      { question: 'Do I need a digital certificate?', answer: 'No, the cryptographic signature is provided directly by the trusted TSA server, making the process effortless for document owners.' },
-      { question: 'Does the TSA see my document contents?', answer: 'Never. The tool only sends a secure SHA-256 hash of your document to the TSA server, keeping your actual document completely private.' },
-    ],
-  },
-
-  'add-page-labels': {
-    title: 'Add Page Labels',
-    metaDescription: 'Apply custom page labels to your PDF catalog. Supports Roman numerals, prefixes, and complex disjoint ranges.',
-    keywords: ['pdf page labels', 'roman numerals pdf', 'pdf prefix labels', 'disjoint range page labels', 'pdf indexing'],
-    description: `
-      <p>Add Page Labels allows you to inject custom page labeling metadata (/PageLabels) into your PDF\'s root Catalog dictionary. This customizes the labels displayed in professional PDF reader navigation sidebars and top page number jump panels (e.g. using Roman numerals for front matter, decimal sequences for main body, or custom prefixes such as A-0, A-1 for technical subsections).</p>
-      <p>Supports combining multiple custom rules seamlessly. Crucially, we\'ve built a highly optimized <strong>disjoint-range slicing algorithm</strong>: even if you declare complex alternating patterns (e.g., odd pages style A, even pages style B), the tool will elegantly dissect and compose boundaries to ensure proper standard-compliant display without leaking formats into unmapped pages.</p>
-      <p>All operations are processed entirely inside your local browser sandbox, securing absolute data privacy.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload PDF Document', description: 'Provide the target PDF document you wish to label.' },
-      { step: 2, title: 'Configure Labeling Rules', description: 'Add one or more rules specifying page ranges (e.g., "1-5", "odd", or comma-separated lists), prefix, style, and starting sequence.' },
-      { step: 3, title: 'Preview and Download', description: 'Review the live page label list preview below, then compile and download your updated PDF document.' },
-    ],
-    useCases: [
-      { title: 'Academic Thesis Formatting', description: 'Set lowercase Roman numerals (i, ii, iii) for introductory front matter and transition to decimal for main chapters.', icon: 'book' },
-      { title: 'Engineering Blueprint Prefixes', description: 'Attach subsystem abbreviations (e.g., "A-1", "M-5") as page label prefixes, letting teams search and locate pages in seconds.', icon: 'layout' },
-      { title: 'Custom Alternating Layouts', description: 'Apply highly specific page range indexing to odd/even sequences or non-contiguous sections with maximum freedom.', icon: 'shuffle' },
-    ],
-    faq: [
-      { question: 'What are page labels vs page numbers?', answer: 'Ordinary page numbers are visual text blocks rendered directly on the paper canvas (visible when printed). Page labels, however, are structural metadata injected into the PDF catalog. They control what is displayed underneath thumbnails and in the page lookup box inside software like Adobe Acrobat or Apple Preview.' },
-      { question: 'What happens if I leave the Page Range empty?', answer: 'Leaving the page range empty causes the rule to apply globally to all pages of the document.' },
-      { question: 'How are overlapping rules handled?', answer: 'Rules are evaluated sequentially in the order they are listed. If a page range of a later rule overlaps with an earlier one, the later rule takes priority and overrides the label for that page.' },
-    ],
-  },
-
-  'n-up-pdf': {
-    title: 'N-Up PDF',
-    metaDescription: 'Print multiple PDF pages per sheet. Create 2-up, 4-up, or custom layouts.',
-    keywords: ['n-up pdf', 'multiple pages per sheet', '2-up printing', 'page imposition'],
-    description: `
-      <p>N-Up PDF arranges multiple pages onto single sheets, creating 2-up, 4-up, 6-up, 9-up, or custom layouts. Perfect for saving paper when printing or creating handouts.</p>
-      <p>Choose from preset layouts or create custom arrangements. The tool automatically scales and positions pages for optimal results.</p>
-      <p>All processing happens in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select.' },
-      { step: 2, title: 'Choose Layout', description: 'Select 2-up, 4-up, 6-up, 9-up, or custom grid.' },
-      { step: 3, title: 'Create and Download', description: 'Click Create to generate the n-up PDF and download.' },
-    ],
-    useCases: [
-      { title: 'Save Paper', description: 'Print multiple pages per sheet to reduce paper usage.', icon: 'leaf' },
-      { title: 'Create Handouts', description: 'Make compact handouts from presentation slides.', icon: 'file-text' },
-      { title: 'Review Documents', description: 'Print documents in reduced size for review.', icon: 'eye' },
-    ],
-    faq: [
-      { question: 'What layouts are available?', answer: '2-up, 4-up, 6-up, 9-up, and custom grid layouts are available.' },
-      { question: 'Can I add borders between pages?', answer: 'Yes, you can add borders and gutters between pages.' },
-      { question: 'Is page order preserved?', answer: 'Yes, pages are arranged in reading order (left-to-right, top-to-bottom).' },
-    ],
-  },
-
-  'combine-single-page': {
-    title: 'Combine to Single Page',
-    metaDescription: 'Stitch PDF pages into one continuous page. Create scrollable single-page documents.',
-    keywords: ['combine pages', 'single page pdf', 'stitch pages', 'continuous scroll'],
-    description: `
-      <p>Combine to Single Page stitches all PDF pages into one continuous page. Create scrollable documents perfect for web viewing or continuous reading.</p>
-      <p>Pages are joined vertically with customizable spacing. The result is a single long page containing all content.</p>
-      <p>All processing happens in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select.' },
-      { step: 2, title: 'Set Spacing', description: 'Choose the gap between stitched pages.' },
-      { step: 3, title: 'Combine and Download', description: 'Click Combine to create the single-page PDF.' },
-    ],
-    useCases: [
-      { title: 'Web Documents', description: 'Create scrollable PDFs for web embedding.', icon: 'globe' },
-      { title: 'Continuous Reading', description: 'Convert paginated documents to continuous scroll.', icon: 'scroll' },
-      { title: 'Long-Form Content', description: 'Combine pages for seamless long-form reading.', icon: 'file-text' },
-    ],
-    faq: [
-      { question: 'Is there a page limit?', answer: 'Very long documents may be limited by browser memory.' },
-      { question: 'Can I add separators between pages?', answer: 'Yes, you can add spacing or lines between original pages.' },
-      { question: 'Will this work for printing?', answer: 'The result is best for screen viewing; use N-Up for print layouts.' },
-    ],
-  },
-
-  'view-metadata': {
-    title: 'View Metadata',
-    metaDescription: 'View PDF document properties. See author, title, dates, and other metadata.',
-    keywords: ['pdf metadata', 'document properties', 'pdf info', 'view pdf details'],
-    description: `
-      <p>View Metadata displays all document properties and metadata from your PDF files. See author, title, subject, keywords, creation date, modification date, and more.</p>
-      <p>Useful for auditing documents, checking file information, or verifying document authenticity.</p>
-      <p>All viewing happens in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select.' },
-      { step: 2, title: 'View Properties', description: 'See all metadata displayed in an organized format.' },
-      { step: 3, title: 'Export if Needed', description: 'Optionally export metadata as JSON.' },
-    ],
-    useCases: [
-      { title: 'Document Audit', description: 'Review document properties for compliance.', icon: 'clipboard-check' },
-      { title: 'Verify Authenticity', description: 'Check creation dates and author information.', icon: 'shield' },
-      { title: 'File Information', description: 'Get detailed information about PDF files.', icon: 'info' },
-    ],
-    faq: [
-      { question: 'What metadata is shown?', answer: 'Title, author, subject, keywords, creator, producer, dates, and PDF version.' },
-      { question: 'Can I edit metadata here?', answer: 'Use the Edit Metadata tool to modify document properties.' },
-      { question: 'Is XMP metadata included?', answer: 'Yes, both standard and XMP metadata are displayed.' },
-    ],
-  },
-
-  'edit-metadata': {
-    title: 'Edit Metadata',
-    metaDescription: 'Edit PDF document properties. Change title, author, subject, and keywords.',
-    keywords: ['edit pdf metadata', 'change pdf properties', 'pdf author', 'document info'],
-    description: `
-      <p>Edit Metadata allows you to modify document properties in your PDF files. Change the title, author, subject, keywords, and other metadata fields.</p>
-      <p>Perfect for correcting document information, adding proper attribution, or preparing files for distribution.</p>
-      <p>All editing happens in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select.' },
-      { step: 2, title: 'Edit Properties', description: 'Modify title, author, subject, keywords, and other fields.' },
-      { step: 3, title: 'Save and Download', description: 'Click Save to apply changes and download.' },
-    ],
-    useCases: [
-      { title: 'Add Attribution', description: 'Set proper author and creator information.', icon: 'user' },
-      { title: 'SEO Optimization', description: 'Add keywords and descriptions for searchability.', icon: 'search' },
-      { title: 'Document Preparation', description: 'Prepare documents with proper metadata before sharing.', icon: 'file-check' },
-    ],
-    faq: [
-      { question: 'What fields can I edit?', answer: 'Title, author, subject, keywords, creator, and producer fields.' },
-      { question: 'Can I clear all metadata?', answer: 'Use Remove Metadata tool to strip all document properties.' },
-      { question: 'Are dates editable?', answer: 'Creation and modification dates are updated automatically.' },
-    ],
-  },
-
-  'pdf-to-zip': {
-    title: 'PDFs to ZIP',
-    metaDescription: 'Package multiple PDFs into a ZIP archive. Compress and bundle PDF files.',
-    keywords: ['pdf to zip', 'compress pdfs', 'bundle pdfs', 'archive pdfs'],
-    description: `
-      <p>PDFs to ZIP packages multiple PDF files into a single ZIP archive. Compress and bundle your PDFs for easier sharing, storage, or backup.</p>
-      <p>The tool creates a compressed archive containing all your PDF files, reducing total size and simplifying file management.</p>
-      <p>All processing happens in your browser, ensuring your files remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload PDFs', description: 'Drag and drop multiple PDF files or click to select.' },
-      { step: 2, title: 'Configure Archive', description: 'Optionally set archive name and compression level.' },
-      { step: 3, title: 'Create and Download', description: 'Click Create to generate the ZIP archive.' },
-    ],
-    useCases: [
-      { title: 'File Sharing', description: 'Bundle multiple PDFs for easier sharing.', icon: 'share-2' },
-      { title: 'Backup Creation', description: 'Create compressed backups of PDF collections.', icon: 'archive' },
-      { title: 'Email Attachments', description: 'Combine PDFs into one attachment for email.', icon: 'mail' },
-    ],
-    faq: [
-      { question: 'How much compression is applied?', answer: 'ZIP compression typically reduces total size by 10-30%.' },
-      { question: 'Is there a file limit?', answer: 'You can include up to 100 PDFs in a single archive.' },
-      { question: 'Can I set a password?', answer: 'Password-protected ZIP creation is not currently supported.' },
-    ],
-  },
-
-  'compare-pdfs': {
-    title: 'Compare PDFs',
-    metaDescription: 'Compare two PDF documents. Highlight differences between versions.',
-    keywords: ['compare pdfs', 'pdf diff', 'document comparison', 'version comparison'],
-    description: `
-      <p>Compare PDFs analyzes two PDF documents and highlights the differences between them. Perfect for reviewing document revisions, checking contract changes, or verifying edits.</p>
-      <p>View documents side-by-side or in overlay mode with differences highlighted. The tool identifies text changes, additions, and deletions.</p>
-      <p>All comparison happens in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Two PDFs', description: 'Upload the original and modified PDF documents.' },
-      { step: 2, title: 'Compare Documents', description: 'View differences highlighted in side-by-side or overlay mode.' },
-      { step: 3, title: 'Export Results', description: 'Download a comparison report or annotated PDF.' },
-    ],
-    useCases: [
-      { title: 'Contract Review', description: 'Compare contract versions to identify changes.', icon: 'file-text' },
-      { title: 'Document Revision', description: 'Review edits between document versions.', icon: 'git-compare' },
-      { title: 'Quality Assurance', description: 'Verify that only intended changes were made.', icon: 'check-circle' },
-    ],
-    faq: [
-      { question: 'What types of differences are detected?', answer: 'Text additions, deletions, modifications, and formatting changes.' },
-      { question: 'Can I compare scanned documents?', answer: 'Scanned documents should be OCR processed first for text comparison.' },
-      { question: 'Is visual comparison available?', answer: 'Yes, overlay mode shows visual differences between pages.' },
-    ],
-  },
-
-  'posterize-pdf': {
-    title: 'Posterize PDF',
-    metaDescription: 'Split large PDF pages into printable tiles. Create posters from PDF pages.',
-    keywords: ['posterize pdf', 'tile pdf', 'large format printing', 'pdf poster'],
-    description: `
-      <p>Posterize PDF splits large PDF pages into smaller tiles that can be printed on standard paper and assembled into posters. Perfect for printing large diagrams, maps, or artwork.</p>
-      <p>Configure the grid size and overlap for easy assembly. The tool automatically calculates tile dimensions for your target output size.</p>
-      <p>All processing happens in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your large-format PDF or click to select.' },
-      { step: 2, title: 'Configure Tiles', description: 'Set grid size, overlap, and output paper size.' },
-      { step: 3, title: 'Create and Download', description: 'Click Create to generate printable tiles.' },
-    ],
-    useCases: [
-      { title: 'Poster Printing', description: 'Print large posters on standard paper.', icon: 'maximize-2' },
-      { title: 'Map Printing', description: 'Print large maps in sections for assembly.', icon: 'map' },
-      { title: 'Artwork Reproduction', description: 'Create large prints from PDF artwork.', icon: 'image' },
-    ],
-    faq: [
-      { question: 'What overlap should I use?', answer: 'A 10-20mm overlap is recommended for easy alignment during assembly.' },
-      { question: 'Can I add crop marks?', answer: 'Yes, crop marks can be added to help with cutting and alignment.' },
-      { question: 'What paper sizes are supported?', answer: 'A4, Letter, A3, and custom sizes are supported.' },
-    ],
-  },
-
-  // ==================== OPTIMIZE & REPAIR ====================
-  'fix-page-size': {
-    title: 'Fix Page Size',
-    metaDescription: 'Standardize PDF page sizes. Convert all pages to uniform dimensions.',
-    keywords: ['fix page size', 'standardize pdf', 'uniform pages', 'resize pdf pages'],
-    description: `
-      <p>Fix Page Size standardizes all pages in your PDF to uniform dimensions. Convert mixed-size documents to consistent page sizes for professional presentation or printing.</p>
-      <p>Choose from standard sizes (A4, Letter, etc.) or set custom dimensions. Content is scaled or positioned to fit the new page size.</p>
-      <p>All processing happens in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select.' },
-      { step: 2, title: 'Select Target Size', description: 'Choose a standard size or enter custom dimensions.' },
-      { step: 3, title: 'Apply and Download', description: 'Click Apply to standardize pages and download.' },
-    ],
-    useCases: [
-      { title: 'Print Preparation', description: 'Standardize pages for consistent printing.', icon: 'printer' },
-      { title: 'Document Cleanup', description: 'Fix documents with inconsistent page sizes.', icon: 'file-check' },
-      { title: 'Professional Documents', description: 'Create uniform documents for distribution.', icon: 'briefcase' },
-    ],
-    faq: [
-      { question: 'How is content handled?', answer: 'Content is scaled to fit or centered on the new page size.' },
-      { question: 'Can I preserve aspect ratio?', answer: 'Yes, content can be scaled proportionally to fit.' },
-      { question: 'What standard sizes are available?', answer: 'A4, A3, Letter, Legal, and other common sizes.' },
-    ],
-  },
-
-  'linearize-pdf': {
-    title: 'Linearize PDF',
-    metaDescription: 'Optimize PDF for fast web viewing. Enable progressive loading.',
-    keywords: ['linearize pdf', 'fast web view', 'optimize pdf', 'progressive pdf'],
-    description: `
-      <p>Linearize PDF optimizes your documents for fast web viewing. Linearized PDFs can begin displaying before the entire file is downloaded, improving user experience.</p>
-      <p>Also known as "Fast Web View," this optimization reorganizes the PDF structure for progressive loading in web browsers.</p>
-      <p>All processing happens in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select.' },
-      { step: 2, title: 'Linearize', description: 'Click Linearize to optimize for web viewing.' },
-      { step: 3, title: 'Download', description: 'Download your optimized PDF.' },
-    ],
-    useCases: [
-      { title: 'Web Publishing', description: 'Optimize PDFs for website downloads.', icon: 'globe' },
-      { title: 'Email Attachments', description: 'Create PDFs that open faster for recipients.', icon: 'mail' },
-      { title: 'Online Documents', description: 'Improve viewing experience for online documents.', icon: 'cloud' },
-    ],
-    faq: [
-      { question: 'What is linearization?', answer: 'Linearization reorganizes PDF data for progressive loading.' },
-      { question: 'Does it reduce file size?', answer: 'Linearization may slightly increase file size due to added structure.' },
-      { question: 'Is it compatible with all viewers?', answer: 'Yes, linearized PDFs work in all PDF readers.' },
-    ],
-  },
-
-  'page-dimensions': {
-    title: 'Page Dimensions',
-    metaDescription: 'Analyze PDF page sizes. View dimensions of all pages in your document.',
-    keywords: ['pdf page size', 'page dimensions', 'pdf measurements', 'document size'],
-    description: `
-      <p>Page Dimensions analyzes and displays the size of every page in your PDF document. View dimensions in various units (inches, mm, points) and identify pages with non-standard sizes.</p>
-      <p>Useful for print preparation, document analysis, or identifying inconsistent page sizes.</p>
-      <p>All analysis happens in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select.' },
-      { step: 2, title: 'View Dimensions', description: 'See page sizes displayed for all pages.' },
-      { step: 3, title: 'Export Report', description: 'Optionally export dimensions as JSON.' },
-    ],
-    useCases: [
-      { title: 'Print Planning', description: 'Check page sizes before printing.', icon: 'printer' },
-      { title: 'Document Analysis', description: 'Identify pages with unusual dimensions.', icon: 'search' },
-      { title: 'Quality Control', description: 'Verify page sizes meet specifications.', icon: 'check-circle' },
-    ],
-    faq: [
-      { question: 'What units are available?', answer: 'Inches, millimeters, centimeters, and points.' },
-      { question: 'Does it show orientation?', answer: 'Yes, portrait or landscape orientation is indicated.' },
-      { question: 'Can I fix inconsistent sizes?', answer: 'Use Fix Page Size tool to standardize dimensions.' },
-    ],
-  },
-
-  'remove-restrictions': {
-    title: 'Remove Restrictions',
-    metaDescription: 'Remove PDF restrictions. Unlock printing, copying, and editing permissions.',
-    keywords: ['remove pdf restrictions', 'unlock pdf', 'pdf permissions', 'unrestrict pdf'],
-    description: `
-      <p>Remove Restrictions unlocks PDFs that have permission restrictions preventing printing, copying, or editing. This tool removes owner password restrictions while preserving document content.</p>
-      <p>Note: This tool cannot remove user passwords that prevent opening the document. Use Decrypt PDF for password-protected files.</p>
-      <p>All processing happens in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Restricted PDF', description: 'Drag and drop your restricted PDF or click to select.' },
-      { step: 2, title: 'Remove Restrictions', description: 'Click Remove to unlock the document.' },
-      { step: 3, title: 'Download', description: 'Download the unrestricted PDF.' },
-    ],
-    useCases: [
-      { title: 'Enable Printing', description: 'Unlock PDFs that prevent printing.', icon: 'printer' },
-      { title: 'Enable Copying', description: 'Allow text selection and copying.', icon: 'copy' },
-      { title: 'Enable Editing', description: 'Remove restrictions on document editing.', icon: 'edit' },
-    ],
-    faq: [
-      { question: 'Is this legal?', answer: 'Removing restrictions from documents you own or have rights to is generally legal.' },
-      { question: 'Can it remove open passwords?', answer: 'No, use Decrypt PDF for password-protected documents.' },
-      { question: 'Will content be affected?', answer: 'No, only restrictions are removed; content remains unchanged.' },
-    ],
-  },
-
-  'repair-pdf': {
-    title: 'Repair PDF',
-    metaDescription: 'Fix corrupted PDF files. Recover and repair damaged documents.',
-    keywords: ['repair pdf', 'fix pdf', 'recover pdf', 'corrupted pdf'],
-    description: `
-      <p>Repair PDF attempts to fix corrupted or damaged PDF files. The tool analyzes the document structure and rebuilds it to recover as much content as possible.</p>
-      <p>Useful for recovering files that won't open, display errors, or have missing content due to corruption.</p>
-      <p>All repair happens in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Damaged PDF', description: 'Drag and drop your corrupted PDF or click to select.' },
-      { step: 2, title: 'Repair Document', description: 'Click Repair to attempt recovery.' },
-      { step: 3, title: 'Download', description: 'Download the repaired PDF if successful.' },
-    ],
-    useCases: [
-      { title: 'Recover Files', description: 'Recover PDFs that won\'t open properly.', icon: 'refresh-cw' },
-      { title: 'Fix Errors', description: 'Repair files showing error messages.', icon: 'wrench' },
-      { title: 'Restore Content', description: 'Recover content from partially corrupted files.', icon: 'file-check' },
-    ],
-    faq: [
-      { question: 'Can all PDFs be repaired?', answer: 'Success depends on the type and extent of corruption.' },
-      { question: 'Will all content be recovered?', answer: 'The tool recovers as much as possible; severely damaged files may have losses.' },
-      { question: 'Should I keep the original?', answer: 'Yes, always keep the original file as a backup.' },
-    ],
-  },
-
-  // ==================== SECURE PDF ====================
-  'encrypt-pdf': {
-    title: 'Encrypt PDF',
-    metaDescription: 'Password protect PDF files. Add encryption and set permissions.',
-    keywords: ['encrypt pdf', 'password protect pdf', 'secure pdf', 'pdf encryption'],
-    description: `
-      <p>Encrypt PDF adds password protection and encryption to your PDF documents. Set user passwords to prevent opening, and owner passwords to control permissions like printing and copying.</p>
-      <p>Choose from different encryption levels (128-bit or 256-bit AES) for varying security needs.</p>
-      <p>All encryption happens in your browser, ensuring your passwords and documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select.' },
-      { step: 2, title: 'Set Passwords', description: 'Enter user password and/or owner password. Configure permissions.' },
-      { step: 3, title: 'Encrypt and Download', description: 'Click Encrypt to secure your PDF and download.' },
-    ],
-    useCases: [
-      { title: 'Confidential Documents', description: 'Protect sensitive business documents.', icon: 'lock' },
-      { title: 'Personal Files', description: 'Secure personal documents like tax returns.', icon: 'shield' },
-      { title: 'Controlled Distribution', description: 'Limit what recipients can do with documents.', icon: 'key' },
-    ],
-    faq: [
-      { question: 'What\'s the difference between user and owner passwords?', answer: 'User password prevents opening; owner password controls permissions.' },
-      { question: 'What encryption is used?', answer: '128-bit or 256-bit AES encryption options are available.' },
-      { question: 'Can I set permissions without a user password?', answer: 'Yes, you can set an owner password only to control permissions.' },
-    ],
-  },
-
-  'sanitize-pdf': {
-    title: 'Sanitize PDF',
-    metaDescription: 'Remove hidden data from PDFs. Clean metadata, scripts, and sensitive information.',
-    keywords: ['sanitize pdf', 'clean pdf', 'remove hidden data', 'pdf privacy'],
-    description: `
-      <p>Sanitize PDF removes hidden data and potentially sensitive information from your documents. Strip metadata, embedded scripts, attachments, comments, and other hidden content.</p>
-      <p>Essential for preparing documents for public distribution or when privacy is a concern.</p>
-      <p>All sanitization happens in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select.' },
-      { step: 2, title: 'Select What to Remove', description: 'Choose which types of hidden data to strip.' },
-      { step: 3, title: 'Sanitize and Download', description: 'Click Sanitize to clean the PDF and download.' },
-    ],
-    useCases: [
-      { title: 'Public Release', description: 'Prepare documents for public distribution.', icon: 'globe' },
-      { title: 'Privacy Protection', description: 'Remove personal information before sharing.', icon: 'shield' },
-      { title: 'Security Compliance', description: 'Meet security requirements for document handling.', icon: 'check-circle' },
-    ],
-    faq: [
-      { question: 'What hidden data is removed?', answer: 'Metadata, scripts, attachments, comments, form data, and hidden layers.' },
-      { question: 'Will visible content be affected?', answer: 'No, only hidden data is removed; visible content remains.' },
-      { question: 'Is this reversible?', answer: 'No, removed data cannot be recovered. Keep a backup of the original.' },
-    ],
-  },
-
-  'find-and-redact': {
-    title: 'Find and Redact',
-    metaDescription: 'Search and redact text across all pages of a PDF. Batch redact sensitive information like account numbers, names, and more.',
-    keywords: ['redact pdf', 'find and redact', 'batch redact', 'remove text', 'pdf censorship', 'hide sensitive data'],
-    description: `
-      <p>Find and Redact allows you to search for specific text, numbers, or patterns across all pages of your PDF and redact all matching occurrences at once. Perfect for removing sensitive information like account numbers, names, addresses, or any confidential data.</p>
-      <p>Preview all matches before applying redactions, and selectively choose which occurrences to redact. Supports case-sensitive search, whole word matching, and regular expressions for advanced pattern matching.</p>
-      <p>All processing happens in your browser, ensuring your documents remain private and secure.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select.' },
-      { step: 2, title: 'Search for Text', description: 'Enter the text, number, or regex pattern you want to find and redact.' },
-      { step: 3, title: 'Review and Select', description: 'Preview all matches and select which ones to redact.' },
-      { step: 4, title: 'Apply Redaction', description: 'Customize redaction appearance and apply to selected matches.' },
-    ],
-    useCases: [
-      { title: 'Privacy Compliance', description: 'Redact personal information to comply with GDPR, HIPAA, or other regulations.', icon: 'shield' },
-      { title: 'Legal Documents', description: 'Remove confidential data from legal documents before sharing.', icon: 'scale' },
-      { title: 'Financial Records', description: 'Redact account numbers, SSNs, or financial data from statements.', icon: 'credit-card' },
-    ],
-    faq: [
-      { question: 'Is redaction permanent?', answer: 'Yes, redaction permanently removes the underlying text. The original content cannot be recovered. Always keep a backup of the original file.' },
-      { question: 'Can I redact images or scanned text?', answer: 'This tool works with text-based PDFs. For scanned documents, you would need to use manual area-based redaction.' },
-      { question: 'Can I customize the redaction appearance?', answer: 'Yes, you can set the redaction color, add borders, and optionally include replacement text like "[REDACTED]".' },
-      { question: 'How does regex search work?', answer: 'Enable "Use Regular Expression" to search using regex patterns. For example, \\d{4}-\\d{4}-\\d{4}-\\d{4} to find credit card numbers.' },
-    ],
-  },
-
-
-  'decrypt-pdf': {
-    title: 'Decrypt PDF',
-    metaDescription: 'Remove password from PDF files. Unlock password-protected documents.',
-    keywords: ['decrypt pdf', 'remove pdf password', 'unlock pdf', 'pdf password remover'],
-    description: `
-      <p>Decrypt PDF removes password protection from PDF documents. Enter the current password to unlock the file and create an unprotected copy.</p>
-      <p>This tool requires you to know the current password. It cannot crack or bypass unknown passwords.</p>
-      <p>All decryption happens in your browser, ensuring your passwords and documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Protected PDF', description: 'Drag and drop your password-protected PDF.' },
-      { step: 2, title: 'Enter Password', description: 'Enter the current document password.' },
-      { step: 3, title: 'Decrypt and Download', description: 'Click Decrypt to remove protection and download.' },
-    ],
-    useCases: [
-      { title: 'Remove Old Passwords', description: 'Unlock documents when password is no longer needed.', icon: 'unlock' },
-      { title: 'Simplify Access', description: 'Create unprotected copies for easier sharing.', icon: 'share-2' },
-      { title: 'Archive Documents', description: 'Remove passwords before long-term archiving.', icon: 'archive' },
-    ],
-    faq: [
-      { question: 'Can it crack unknown passwords?', answer: 'No, you must know the current password to decrypt.' },
-      { question: 'Is the original file modified?', answer: 'No, a new unprotected copy is created.' },
-      { question: 'What if I forgot the password?', answer: 'Unfortunately, we cannot recover forgotten passwords.' },
-    ],
-  },
-
-  'flatten-pdf': {
-    title: 'Flatten PDF',
-    metaDescription: 'Flatten PDF forms and annotations. Make content non-editable.',
-    keywords: ['flatten pdf', 'flatten forms', 'flatten annotations', 'non-editable pdf'],
-    description: `
-      <p>Flatten PDF converts interactive elements like form fields and annotations into static content. The flattened PDF looks the same but can no longer be edited.</p>
-      <p>Perfect for finalizing filled forms, preserving annotations, or creating non-editable document versions.</p>
-      <p>All processing happens in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF with forms or annotations.' },
-      { step: 2, title: 'Select What to Flatten', description: 'Choose to flatten forms, annotations, or both.' },
-      { step: 3, title: 'Flatten and Download', description: 'Click Flatten to create the static PDF.' },
-    ],
-    useCases: [
-      { title: 'Finalize Forms', description: 'Lock filled form data to prevent changes.', icon: 'lock' },
-      { title: 'Preserve Annotations', description: 'Make annotations permanent in the document.', icon: 'check-circle' },
-      { title: 'Archive Documents', description: 'Create non-editable versions for archiving.', icon: 'archive' },
-    ],
-    faq: [
-      { question: 'Is flattening reversible?', answer: 'No, flattening is permanent. Keep a backup of the original.' },
-      { question: 'Will the appearance change?', answer: 'No, the document looks the same but is no longer interactive.' },
-      { question: 'Does it reduce file size?', answer: 'Sometimes, as interactive elements are converted to simpler content.' },
-    ],
-  },
-
-  'remove-metadata': {
-    title: 'Remove Metadata',
-    metaDescription: 'Strip metadata from PDF files. Remove author, dates, and document properties.',
-    keywords: ['remove pdf metadata', 'strip metadata', 'pdf privacy', 'anonymous pdf'],
-    description: `
-      <p>Remove Metadata strips all document properties and metadata from your PDF files. Remove author names, creation dates, software information, and other identifying data.</p>
-      <p>Essential for privacy when sharing documents or when metadata could reveal sensitive information.</p>
-      <p>All processing happens in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select.' },
-      { step: 2, title: 'Remove Metadata', description: 'Click Remove to strip all metadata.' },
-      { step: 3, title: 'Download', description: 'Download the metadata-free PDF.' },
-    ],
-    useCases: [
-      { title: 'Privacy Protection', description: 'Remove personal information before sharing.', icon: 'shield' },
-      { title: 'Anonymous Documents', description: 'Create documents without author attribution.', icon: 'user-x' },
-      { title: 'Clean Distribution', description: 'Distribute documents without internal metadata.', icon: 'send' },
-    ],
-    faq: [
-      { question: 'What metadata is removed?', answer: 'Author, title, subject, keywords, dates, creator, and producer information.' },
-      { question: 'Is XMP metadata removed?', answer: 'Yes, both standard and XMP metadata are stripped.' },
-      { question: 'Will content be affected?', answer: 'No, only metadata is removed; document content remains unchanged.' },
-    ],
-  },
-
-  'change-permissions': {
-    title: 'Change Permissions',
-    metaDescription: 'Modify PDF permissions. Control printing, copying, and editing access.',
-    keywords: ['pdf permissions', 'change pdf access', 'restrict pdf', 'pdf security'],
-    description: `
-      <p>Change Permissions modifies the access controls on your PDF documents. Enable or disable printing, copying, editing, and annotation permissions.</p>
-      <p>Set an owner password to enforce these restrictions. Recipients can view the document but are limited in what actions they can perform.</p>
-      <p>All processing happens in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select.' },
-      { step: 2, title: 'Set Permissions', description: 'Enable or disable printing, copying, editing, and annotations.' },
-      { step: 3, title: 'Apply and Download', description: 'Set owner password and download the restricted PDF.' },
-    ],
-    useCases: [
-      { title: 'Prevent Copying', description: 'Disable text copying to protect content.', icon: 'copy' },
-      { title: 'Control Printing', description: 'Restrict or allow document printing.', icon: 'printer' },
-      { title: 'Limit Editing', description: 'Prevent modifications to the document.', icon: 'edit-3' },
-    ],
-    faq: [
-      { question: 'Do I need a password?', answer: 'An owner password is required to enforce permissions.' },
-      { question: 'Can permissions be removed?', answer: 'Yes, with the owner password or using Remove Restrictions tool.' },
-      { question: 'Are all PDF readers compatible?', answer: 'Most PDF readers respect permissions, but some may not enforce them.' },
-    ],
-  },
-
-  'pdf-to-docx': {
-    title: 'PDF to Word',
-    metaDescription: 'Convert PDF to editable Word (DOCX) documents. Preserve formatting and layout.',
-    keywords: ['pdf to word', 'convert pdf to docx', 'pdf to doc', 'editable pdf'],
-    description: `
-      <p>PDF to Word converts your PDF documents into editable Microsoft Word (DOCX) files. The tool preserves the original layout, formatting, images, and text flow.</p>
-      <p>Easily edit your PDF content in Word without retyping. Perfect for contracts, reports, and resumes.</p>
-      <p>All conversion happens locally in your browser using WebAssembly technology, ensuring your documents never leave your device.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select.' },
-      { step: 2, title: 'Convert', description: 'Wait for the conversion process to complete.' },
-      { step: 3, title: 'Download Word Doc', description: 'Download your fully editable DOCX file.' },
-    ],
-    useCases: [
-      { title: 'Edit Contracts', description: 'Convert PDF contracts to Word for editing and revision.', icon: 'file-text' },
-      { title: 'Resume Updates', description: 'Update old PDF resumes by converting them to Word.', icon: 'user' },
-      { title: 'Content Repurposing', description: 'Extract content from PDF reports for other documents.', icon: 'copy' },
-    ],
-    faq: [
-      { question: 'Is formatting preserved?', answer: 'Yes, the tool aims to preserve layout, fonts, and images as closely as possible.' },
-      { question: 'Can I convert scanned PDFs?', answer: 'Scanned PDFs will be converted as images in Word unless you use OCR first.' },
-      { question: 'Is it compatible with Word?', answer: 'Yes, the output is a standard .docx file compatible with Microsoft Word and Google Docs.' },
-    ],
-  },
-
-  'pdf-to-markdown': {
-    title: 'PDF to Markdown',
-    metaDescription: 'Convert PDF to Markdown format. Extract text and preserve formatting like headings and lists.',
-    keywords: ['pdf to markdown', 'convert pdf to md', 'pdf text extraction', 'markdown converter', 'pdf to text'],
-    description: `
-      <p>PDF to Markdown converts your PDF documents into clean, well-structured Markdown files. The tool intelligently extracts text content and attempts to preserve formatting like headings, lists, and paragraphs.</p>
-      <p>Perfect for converting PDF documents to editable formats for documentation, note-taking, or content management systems that support Markdown.</p>
-      <p>All conversion happens locally in your browser, ensuring your documents remain private and secure.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select.' },
-      { step: 2, title: 'Configure Options', description: 'Set page range, choose to include page numbers, and adjust line break settings.' },
-      { step: 3, title: 'Convert and Download', description: 'Click Convert to generate your Markdown file and download.' },
-    ],
-    useCases: [
-      { title: 'Documentation', description: 'Convert PDF manuals and guides to Markdown for version-controlled documentation.', icon: 'file-text' },
-      { title: 'Note Taking', description: 'Extract content from PDF articles and books for your note-taking system.', icon: 'edit-3' },
-      { title: 'Content Migration', description: 'Migrate PDF content to CMS platforms that support Markdown.', icon: 'copy' },
-    ],
-    faq: [
-      { question: 'Is formatting preserved?', answer: 'The tool attempts to detect headings based on font size and bullet points/numbered lists. Complex layouts may require manual adjustment.' },
-      { question: 'Can I convert specific pages?', answer: 'Yes, you can specify a page range like "1-3, 5, 7" to convert only those pages.' },
-      { question: 'Does it work with scanned PDFs?', answer: 'Scanned PDFs contain images, not text. Use our OCR tool first to extract text before converting to Markdown.' },
-    ],
-  },
-
-  // ==================== NEW TOOLS ====================
-  'deskew-pdf': {
-    title: 'Deskew PDF',
-    metaDescription: 'Automatically straighten scanned or tilted PDF pages. Fix skewed documents with precision angle detection.',
-    keywords: ['deskew pdf', 'straighten pdf', 'fix tilted scan', 'auto rotate pdf', 'correct pdf angle'],
-    description: `
-      <p>Deskew PDF automatically detects and corrects tilted or skewed pages in your PDF documents using advanced projection profile variance analysis. This is essential for scanned documents that were fed into the scanner at an angle.</p>
-      <p>The tool analyzes the text and content alignment at different angles to find the optimal rotation, then applies the correction. You can adjust the sensitivity threshold (1-30) and DPI settings (72-300) for optimal results.</p>
-      <p>All processing happens locally in your browser using WebAssembly technology, ensuring your documents remain private and secure.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your scanned PDF file or click to select.' },
-      { step: 2, title: 'Configure Settings', description: 'Adjust threshold sensitivity and DPI if needed for better detection.' },
-      { step: 3, title: 'Process and Download', description: 'Click Deskew to straighten pages and download the corrected PDF.' },
-    ],
-    useCases: [
-      { title: 'Scanned Documents', description: 'Fix pages that were scanned at an angle from document feeders.', icon: 'scan' },
-      { title: 'Mobile Scans', description: 'Correct tilted photos of documents taken with smartphones.', icon: 'smartphone' },
-      { title: 'Archive Restoration', description: 'Straighten old scanned archives for better readability.', icon: 'archive' },
-    ],
-    faq: [
-      { question: 'How accurate is the angle detection?', answer: 'The tool uses projection profile variance analysis to detect skew angles up to ±10 degrees with high accuracy. It automatically skips pages with angles less than 0.3 degrees.' },
-      { question: 'Will text quality be affected?', answer: 'For rotations at multiples of 90 degrees, no quality loss occurs. For other angles, the tool rounds to the nearest degree and maintains good quality.' },
-      { question: 'Can I deskew specific pages only?', answer: 'The tool analyzes all pages but only corrects those with detected skew above the sensitivity threshold. Pages with minimal skew are left unchanged.' },
-      { question: 'What is the sensitivity threshold?', answer: 'Values 1-10 correct obvious tilts only, 11-20 detect moderate skew, and 21-30 catch subtle angles. Default is 10 for balanced detection.' },
-      { question: 'How long does processing take?', answer: 'Processing time depends on file size and DPI. 150 DPI (default) provides good balance between speed and accuracy. Higher DPI is more accurate but slower.' },
-    ],
-  },
-
-  'pdf-booklet': {
-    title: 'PDF Booklet Creator',
-    metaDescription: 'Create booklet layouts from PDF for printing. Arrange pages for saddle-stitch binding with multiple grid options.',
-    keywords: ['pdf booklet', 'booklet creator', 'print booklet', 'saddle stitch', 'imposition'],
-    description: `
-      <p>PDF Booklet Creator arranges your PDF pages into booklet layouts ready for print-and-fold production. Perfect for creating brochures, zines, booklets, and saddle-stitched publications.</p>
-      <p>Choose from various grid modes (1x2, 2x2, 2x4, 4x4), paper sizes, and orientation options. The tool automatically handles page imposition for proper folding sequence.</p>
-      <p>All processing happens locally in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Upload the PDF document you want to convert to a booklet.' },
-      { step: 2, title: 'Choose Layout', description: 'Select grid mode, paper size, orientation, and rotation options.' },
-      { step: 3, title: 'Create and Download', description: 'Generate the booklet layout and download for printing.' },
-    ],
-    useCases: [
-      { title: 'Brochures', description: 'Create fold-ready brochures from standard PDF documents.', icon: 'book-open' },
-      { title: 'Zines', description: 'Produce self-published zines with proper page imposition.', icon: 'book' },
-      { title: 'Event Programs', description: 'Create professional program booklets for events.', icon: 'calendar' },
-    ],
-    faq: [
-      { question: 'What is saddle-stitch binding?', answer: 'Saddle-stitch is a binding method where folded sheets are nested and stapled through the fold.' },
-      { question: 'Which grid mode should I use?', answer: '1x2 is standard for booklets. Use 2x2 or larger for multi-up printing to save paper.' },
-      { question: 'Can I preview the layout?', answer: 'Yes, the tool provides a visual preview before generating the final booklet.' },
-    ],
-  },
-
-  'rasterize-pdf': {
-    title: 'Rasterize PDF',
-    metaDescription: 'Convert PDF pages to high-quality images. Export as PNG, JPEG, or WebP with custom DPI settings.',
-    keywords: ['rasterize pdf', 'pdf to image', 'pdf to png', 'pdf to jpeg', 'convert pdf pages'],
-    description: `
-      <p>Rasterize PDF converts your PDF pages into high-quality raster images. Choose from PNG, JPEG, or WebP output formats with full control over DPI and quality settings.</p>
-      <p>Perfect for creating thumbnails, social media graphics, or archiving PDF content as images. Supports page range selection and batch processing.</p>
-      <p>All processing happens locally in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select.' },
-      { step: 2, title: 'Configure Output', description: 'Select DPI, output format (PNG/JPEG/WebP), quality, and page range.' },
-      { step: 3, title: 'Convert and Download', description: 'Process pages and download images individually or as a ZIP archive.' },
-    ],
-    useCases: [
-      { title: 'Social Media', description: 'Convert PDF slides to images for social media posting.', icon: 'share-2' },
-      { title: 'Thumbnails', description: 'Generate preview thumbnails for PDF documents.', icon: 'image' },
-      { title: 'Web Publishing', description: 'Convert PDF content to web-friendly image formats.', icon: 'globe' },
-    ],
-    faq: [
-      { question: 'What DPI should I use?', answer: '72 DPI for screen, 150 DPI for general use, 300 DPI for print quality.' },
-      { question: 'Which format is best?', answer: 'PNG for quality/transparency, JPEG for small size, WebP for modern web use.' },
-      { question: 'Can I convert specific pages?', answer: 'Yes, specify page ranges like "1-5, 8, 10-15" to convert only those pages.' },
-    ],
-  },
-
-  'markdown-to-pdf': {
-    title: 'Markdown to PDF',
-    metaDescription: 'Convert Markdown files to beautifully formatted PDF documents. Support for GitHub Flavored Markdown and syntax highlighting.',
-    keywords: ['markdown to pdf', 'md to pdf', 'convert markdown', 'gfm to pdf', 'markdown converter'],
-    description: `
-      <p>Markdown to PDF converts your Markdown files into professionally styled PDF documents. Support for CommonMark and GitHub Flavored Markdown (GFM) including tables, task lists, and code blocks.</p>
-      <p>Choose from multiple themes (light, dark, GitHub) and customize page size and margins. Code blocks are syntax-highlighted for better readability.</p>
-      <p>All conversion happens locally in your browser, ensuring your content remains private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Markdown File', description: 'Upload your .md or .markdown file.' },
-      { step: 2, title: 'Choose Theme', description: 'Select a visual theme and configure page settings.' },
-      { step: 3, title: 'Convert and Download', description: 'Generate the styled PDF and download.' },
-    ],
-    useCases: [
-      { title: 'Documentation', description: 'Convert README files and docs to shareable PDFs.', icon: 'file-text' },
-      { title: 'Notes Export', description: 'Export Markdown notes to PDF for printing or sharing.', icon: 'edit-3' },
-      { title: 'Reports', description: 'Create reports from Markdown with professional styling.', icon: 'bar-chart' },
-    ],
-    faq: [
-      { question: 'Is GitHub Flavored Markdown supported?', answer: 'Yes, tables, task lists, strikethrough, and other GFM features are supported.' },
-      { question: 'Can I customize the styling?', answer: 'Choose from preset themes or add custom CSS for full control.' },
-      { question: 'Are code blocks highlighted?', answer: 'Yes, code blocks include syntax highlighting for common languages.' },
-    ],
-  },
-
-  'email-to-pdf': {
-    title: 'Email to PDF',
-    metaDescription: 'Convert email files (.eml, .msg) to PDF documents. Preserve formatting, inline images, clickable links, and embed attachments.',
-    keywords: ['email to pdf', 'eml to pdf', 'msg to pdf', 'convert email', 'email converter', 'save email as pdf', 'outlook to pdf'],
-    description: `
-      <p>Email to PDF converts your email files (.eml and .msg formats) into well-formatted PDF documents. The tool preserves the email header information, body content, inline images with CID replacement, clickable links, and embeds attachments directly into the PDF.</p>
-      <p>Customize output options including page size (A4, Letter, Legal), date formatting with timezone support, and whether to include CC/BCC fields and attachment information.</p>
-      <p>All conversion happens locally in your browser, ensuring your emails remain private and secure.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Email File', description: 'Upload your .eml or .msg email file.' },
-      { step: 2, title: 'Configure Options', description: 'Set page size, date format, timezone, and choose which fields to include.' },
-      { step: 3, title: 'Convert and Download', description: 'Convert to PDF with embedded attachments and download the result.' },
-    ],
-    useCases: [
-      { title: 'Legal Records', description: 'Archive important emails as PDF with embedded attachments for legal documentation.', icon: 'scale' },
-      { title: 'Business Archives', description: 'Convert business correspondence to PDF for long-term record keeping.', icon: 'briefcase' },
-      { title: 'Evidence Preservation', description: 'Save email evidence with inline images and attachments in a non-editable PDF format.', icon: 'shield' },
-    ],
-    faq: [
-      { question: 'What email formats are supported?', answer: 'Both .eml (RFC 822) and .msg (Microsoft Outlook) files are fully supported.' },
-      { question: 'Are attachments included?', answer: 'Yes! Attachments are embedded directly into the PDF file. You can extract them from the PDF using a compatible PDF reader.' },
-      { question: 'Are inline images displayed?', answer: 'Yes, inline images referenced via CID (Content-ID) are automatically converted to base64 data URIs and displayed in the PDF.' },
-      { question: 'Are links clickable?', answer: 'Yes, all HTML links (<a> tags) and URLs in plain text emails are converted to clickable links in the PDF.' },
-      { question: 'Is the email formatting preserved?', answer: 'Yes, HTML emails maintain their formatting as closely as possible, including styles, images, and links.' },
-    ],
-  },
-
-  'cbz-to-pdf': {
-    title: 'CBZ to PDF',
-    metaDescription: 'Convert comic book archives (CBZ) to PDF. Preserve image order and quality for digital comics.',
-    keywords: ['cbz to pdf', 'comic to pdf', 'convert cbz', 'comic book converter', 'cbz converter'],
-    description: `
-      <p>CBZ to PDF converts Comic Book Archive files into PDF documents. The tool extracts all images from the CBZ archive and compiles them into a PDF while maintaining the correct reading order.</p>
-      <p>Choose from various page size options including original image dimensions or standardized comic book sizes. Perfect for reading comics on devices that support PDF but not CBZ.</p>
-      <p>All conversion happens locally in your browser, ensuring your comics remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload CBZ File', description: 'Upload your .cbz comic book archive file.' },
-      { step: 2, title: 'Select Options', description: 'Choose page size and image quality settings.' },
-      { step: 3, title: 'Convert and Download', description: 'Convert to PDF and download your comic.' },
-    ],
-    useCases: [
-      { title: 'E-Reader Compatibility', description: 'Convert CBZ to PDF for e-readers that only support PDF.', icon: 'book' },
-      { title: 'Comic Archives', description: 'Create PDF archives of your digital comic collection.', icon: 'archive' },
-      { title: 'Print Preparation', description: 'Convert digital comics to PDF for printing.', icon: 'printer' },
-    ],
-    faq: [
-      { question: 'What is CBZ format?', answer: 'CBZ is a ZIP archive containing comic book pages as image files, renamed with .cbz extension.' },
-      { question: 'Is image quality preserved?', answer: 'Yes, images are embedded at their original quality in the PDF.' },
-      { question: 'Are nested folders supported?', answer: 'Yes, images from all folders within the archive are extracted and sorted.' },
-    ],
-  },
-
-  'pdf-to-pdfa': {
-    title: 'PDF to PDF/A',
-    metaDescription: 'Convert PDF to PDF/A archival format. Ensure long-term document preservation with ISO standards.',
-    keywords: ['pdf to pdfa', 'pdfa converter', 'archive pdf', 'pdf archival', 'long term preservation'],
-    description: `
-      <p>PDF to PDF/A converts your PDF documents to PDF/A format, the ISO standard for long-term document archiving. PDF/A ensures that documents will be viewable and reproducible for decades.</p>
-      <p>Choose from PDF/A-1b (basic conformance), PDF/A-2b (recommended, supports transparency), or PDF/A-3b (allows embedded files). The tool embeds fonts and flattens transparency as needed.</p>
-      <p>All conversion happens locally in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Upload the PDF you want to convert to PDF/A.' },
-      { step: 2, title: 'Select PDF/A Level', description: 'Choose PDF/A-1b, PDF/A-2b, or PDF/A-3b conformance level.' },
-      { step: 3, title: 'Convert and Download', description: 'Convert to PDF/A and download the archival document.' },
-    ],
-    useCases: [
-      { title: 'Legal Archives', description: 'Convert legal documents to PDF/A for court-admissible long-term storage.', icon: 'scale' },
-      { title: 'Government Records', description: 'Comply with government archival requirements using PDF/A.', icon: 'building' },
-      { title: 'Business Archives', description: 'Preserve important business documents for future accessibility.', icon: 'archive' },
-    ],
-    faq: [
-      { question: 'Which PDF/A level should I use?', answer: 'PDF/A-2b is recommended for most uses. Use 1b for maximum compatibility or 3b if you need embedded files.' },
-      { question: 'What makes PDF/A different?', answer: 'PDF/A embeds fonts, disables encryption, and ensures all elements are self-contained for future viewing.' },
-      { question: 'Can I convert back from PDF/A?', answer: 'PDF/A files are standard PDFs and can be opened normally. The archival features add restrictions, not limitations.' },
-    ],
-  },
-
-  'font-to-outline': {
-    title: 'Font to Outline',
-    metaDescription: 'Remove font dependencies from PDF documents by converting pages to high-quality images. Ensures compatibility across all systems.',
-    keywords: ['font to outline', 'outline fonts', 'remove fonts', 'font compatibility', 'flatten pdf fonts', 'pdf font removal'],
-    description: `
-      <p>Font to Outline removes all font dependencies from your PDF by converting each page into high-quality rasterized content. This ensures your document looks exactly the same on any system, even if the original fonts are not installed.</p>
-      <p>The tool renders each page at your chosen DPI (150-600), removing embedded fonts while preserving the exact visual appearance. Optionally, you can add an invisible text layer to maintain searchability.</p>
-      <p>This is essential for print preparation, cross-platform compatibility, and avoiding font licensing issues when sharing documents. All processing happens locally in your browser.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Upload the PDF containing fonts you want to remove.' },
-      { step: 2, title: 'Configure Quality', description: 'Choose DPI (300 recommended for print, 150 for screen). Enable searchable text if needed.' },
-      { step: 3, title: 'Convert and Download', description: 'Process the file and download the font-independent PDF.' },
-    ],
-    useCases: [
-      { title: 'Print Preparation', description: 'Eliminate font issues at commercial printers by removing all font dependencies.', icon: 'printer' },
-      { title: 'Cross-Platform Sharing', description: 'Share documents that look identical on any device, regardless of installed fonts.', icon: 'share-2' },
-      { title: 'Font Licensing', description: 'Remove embedded fonts to avoid licensing concerns when distributing documents.', icon: 'shield' },
-    ],
-    faq: [
-      { question: 'How does this work?', answer: 'The tool renders each page at high resolution (your chosen DPI) and recreates the PDF from these images, removing all font dependencies while preserving visual appearance.' },
-      { question: 'Can I still select text after conversion?', answer: 'By default, no. Text becomes part of the image. However, you can enable "Preserve searchable text" to add an invisible text layer for search and copy functionality.' },
-      { question: 'What DPI should I use?', answer: '300 DPI is recommended for print-quality output. 150 DPI is sufficient for screen viewing and produces smaller files. 600 DPI is for highest quality but creates large files.' },
-      { question: 'Will file size increase?', answer: 'File size depends on DPI and content. 150 DPI usually produces smaller files, 300 DPI may increase size, 600 DPI significantly increases size. Compression is automatically applied.' },
-      { question: 'Is this reversible?', answer: 'No, font data is permanently removed. Keep a backup of the original if you need editable text with the original fonts.' },
-      { question: 'What about vector graphics?', answer: 'Vector graphics (shapes, lines) in the original PDF will be converted to raster along with text. The visual quality is preserved at your chosen DPI.' },
-    ],
-  },
-
-  'extract-tables': {
-    title: 'Extract Tables from PDF',
-    metaDescription: 'Detect and extract tables from PDF documents. Export to JSON, Markdown, or CSV formats.',
-    keywords: ['extract tables', 'pdf table extraction', 'pdf to csv', 'pdf to excel', 'table detection'],
-    description: `
-      <p>Extract Tables from PDF detects tabular data within your PDF documents and exports it in structured formats. Choose JSON for data integration, Markdown for documentation, or CSV for spreadsheets.</p>
-      <p>The tool uses intelligent detection algorithms to identify table structures even in complex documents. Specify page ranges and adjust detection parameters for optimal results.</p>
-      <p>All processing happens locally in your browser, ensuring your documents remain private.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Upload the PDF containing tables you want to extract.' },
-      { step: 2, title: 'Configure Detection', description: 'Set page range and minimum column/row thresholds.' },
-      { step: 3, title: 'Export and Download', description: 'Choose output format (JSON/Markdown/CSV) and download.' },
-    ],
-    useCases: [
-      { title: 'Data Analysis', description: 'Extract table data for analysis in spreadsheets or databases.', icon: 'bar-chart' },
-      { title: 'Report Processing', description: 'Pull tables from PDF reports for further processing.', icon: 'file-text' },
-      { title: 'Documentation', description: 'Convert PDF tables to Markdown for technical documentation.', icon: 'book' },
-    ],
-    faq: [
-      { question: 'Can it detect complex tables?', answer: 'The tool works best with simple grid tables. Complex merged cells may require manual adjustment.' },
-      { question: 'What if no tables are found?', answer: 'Try adjusting the minimum columns/rows threshold or check if the PDF contains actual table structures.' },
-      { question: 'Can I extract from specific pages?', answer: 'Yes, specify a page range to limit extraction to certain pages.' },
-    ],
-  },
-
-  'ocg-manager': {
-    title: 'PDF Layer Manager (OCG)',
-    metaDescription: 'Manage PDF layers (Optional Content Groups). View, toggle, add, delete, and rename layers in your PDF documents.',
-    keywords: ['pdf layers', 'ocg manager', 'optional content groups', 'pdf layer visibility', 'manage pdf layers'],
-    description: `
-      <p>PDF Layer Manager allows you to view and manage Optional Content Groups (OCG) in your PDF documents. OCG layers are used in technical drawings, maps, and complex documents to organize content into toggleable layers.</p>
-      <p>View all layers in your PDF, toggle their visibility, add new layers, delete unwanted ones, or rename existing layers. This tool is essential for working with layered PDFs like architectural plans, CAD exports, and print-ready documents.</p>
-      <p>All processing happens locally in your browser, ensuring your documents remain private and secure.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Your PDF', description: 'Upload a PDF file that contains layers (OCG) or one you want to add layers to.' },
-      { step: 2, title: 'View Layers', description: 'The tool automatically lists all layers found in the document with their visibility status.' },
-      { step: 3, title: 'Manage Layers', description: 'Toggle layer visibility, rename layers, add new ones, or delete unwanted layers.' },
-      { step: 4, title: 'Save and Download', description: 'Download your modified PDF with the layer changes applied.' },
-    ],
-    useCases: [
-      { title: 'Technical Drawings', description: 'Manage layers in CAD exports to show/hide dimensions, annotations, or different views.', icon: 'ruler' },
-      { title: 'Map Editing', description: 'Toggle different map layers like topography, roads, and labels for custom map prints.', icon: 'map' },
-      { title: 'Print Preparation', description: 'Prepare layered PDFs for printing by toggling appropriate layers for different versions.', icon: 'printer' },
-    ],
-    faq: [
-      { question: 'What are PDF layers (OCG)?', answer: 'Optional Content Groups (OCG) are layers in a PDF that can be shown or hidden. They are commonly used in CAD drawings, maps, and complex documents.' },
-      { question: 'Why does my PDF show no layers?', answer: 'Not all PDFs contain layers. Layers are typically added during PDF creation from design software or CAD applications.' },
-      { question: 'Will layer changes affect the original content?', answer: 'Layer visibility changes only affect what is displayed or printed. The actual content remains in the document.' },
-    ],
-  },
-
-  'pdf-reader': {
-    title: 'PDF Reader',
-    metaDescription: 'Free online PDF reader. View, navigate, zoom, rotate, and print PDF documents directly in your browser.',
-    keywords: ['pdf reader', 'pdf viewer', 'view pdf online', 'read pdf', 'pdf browser viewer'],
-    description: `
-      <p>PDF Reader is a full-featured PDF viewer that lets you read and navigate PDF documents directly in your browser. No software installation required - just upload your PDF and start reading.</p>
-      <p>Navigate between pages, zoom in and out, rotate the view, and use fullscreen mode for distraction-free reading. You can also print documents or download them for offline access.</p>
-      <p>All viewing happens locally in your browser. Your documents are never uploaded to any server, ensuring complete privacy.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Open Your PDF', description: 'Click to upload or drag and drop a PDF file to open it in the reader.' },
-      { step: 2, title: 'Navigate Pages', description: 'Use the page controls to go to the previous or next page, or jump to a specific page number.' },
-      { step: 3, title: 'Adjust View', description: 'Zoom in or out, rotate the view, or enter fullscreen mode for comfortable reading.' },
-      { step: 4, title: 'Print or Download', description: 'Print the document or download it for offline access when needed.' },
-    ],
-    useCases: [
-      { title: 'Document Review', description: 'Quickly review PDF documents without installing any software.', icon: 'book-open' },
-      { title: 'Mobile Reading', description: 'Read PDF documents on any device with a web browser.', icon: 'smartphone' },
-      { title: 'Quick Preview', description: 'Preview PDFs before deciding to download or print them.', icon: 'eye' },
-    ],
-    faq: [
-      { question: 'Is my document secure?', answer: 'Yes, your document is processed entirely in your browser and is never uploaded to any server.' },
-      { question: 'Can I annotate or edit the PDF?', answer: 'This tool is for viewing only. Use our Sign PDF or Annotate PDF tools for editing.' },
-      { question: 'Does it work on mobile devices?', answer: 'Yes, the PDF Reader works on all devices with a modern web browser.' },
-    ],
-  },
-
-  'digital-sign-pdf': {
-    title: 'Digital Signature',
-    metaDescription: 'Add X.509 digital signatures to PDF documents. Sign PDFs with PFX, P12, or PEM certificates for legal validity.',
-    keywords: ['digital signature pdf', 'x509 certificate', 'pfx sign pdf', 'p12 sign pdf', 'pem sign pdf', 'legally sign pdf'],
-    description: `
-      <p>Digital Signature allows you to add cryptographic X.509 digital signatures to PDF documents. Unlike simple drawn signatures, digital signatures provide legal validity and document integrity verification.</p>
-      <p>Upload your certificate file (PFX, P12, or PEM format), enter the password, and sign your PDF. You can add visible signatures with custom text, images, and positioning, or invisible signatures for document integrity only.</p>
-      <p>All signing happens locally in your browser. Your certificate and documents are never uploaded to any server.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload PDF', description: 'Upload the PDF document you want to digitally sign.' },
-      { step: 2, title: 'Load Certificate', description: 'Upload your X.509 certificate file (.pfx, .p12, or .pem) and enter the password.' },
-      { step: 3, title: 'Configure Signature', description: 'Optionally add reason, location, and visible signature with custom text or image.' },
-      { step: 4, title: 'Sign and Download', description: 'Click Sign PDF to apply the digital signature and download the signed document.' },
-    ],
-    useCases: [
-      { title: 'Legal Documents', description: 'Sign contracts, agreements, and legal documents with legally binding digital signatures.', icon: 'scale' },
-      { title: 'Business Approvals', description: 'Digitally sign invoices, purchase orders, and approval documents for audit trails.', icon: 'briefcase' },
-      { title: 'Document Integrity', description: 'Ensure documents have not been tampered with after signing.', icon: 'shield-check' },
-    ],
-    faq: [
-      { question: 'What certificate formats are supported?', answer: 'PFX (.pfx), PKCS#12 (.p12), and PEM (.pem) certificate formats are supported.' },
-      { question: 'Is the signature legally valid?', answer: 'Yes, X.509 digital signatures are legally recognized in most jurisdictions when using a valid certificate.' },
-      { question: 'Can I add a visible signature?', answer: 'Yes, you can add a visible signature with custom text, image, position, and styling.' },
-    ],
-  },
-
-  'validate-signature': {
-    title: 'Validate Signature',
-    metaDescription: 'Verify digital signatures in PDF documents. Check certificate validity, signer information, and document integrity.',
-    keywords: ['validate pdf signature', 'verify digital signature', 'check pdf certificate', 'signature verification'],
-    description: `
-      <p>Validate Signature allows you to verify digital signatures in PDF documents. Check if signatures are valid, view certificate information, and confirm document integrity.</p>
-      <p>Upload a signed PDF to see all signatures, their validity status, signer information, and whether the document has been modified after signing.</p>
-      <p>All validation happens locally in your browser. Your documents are never uploaded to any server.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Signed PDF', description: 'Upload a PDF document that contains digital signatures.' },
-      { step: 2, title: 'View Results', description: 'See all signatures found in the document with their validity status.' },
-      { step: 3, title: 'Check Details', description: 'View certificate information, signer details, and signing timestamp.' },
-      { step: 4, title: 'Export Report', description: 'Optionally download a JSON report of the validation results.' },
-    ],
-    useCases: [
-      { title: 'Document Verification', description: 'Verify that signed documents are authentic and have not been tampered with.', icon: 'shield-check' },
-      { title: 'Compliance Audit', description: 'Check signature validity for compliance and audit purposes.', icon: 'clipboard-check' },
-      { title: 'Certificate Review', description: 'View certificate details and expiration dates for signed documents.', icon: 'award' },
-    ],
-    faq: [
-      { question: 'What does "valid" mean?', answer: 'A valid signature means the document has not been modified since signing and the certificate chain is intact.' },
-      { question: 'Can I validate multiple PDFs?', answer: 'Yes, you can upload multiple PDFs and validate all signatures in batch.' },
-      { question: 'Why might a signature be invalid?', answer: 'Signatures may be invalid if the document was modified, the certificate expired, or the certificate is not trusted.' },
-    ],
-  },
-  'ai-pdf-reflower': {
-    title: 'AI PDF Layout Reflower',
-    metaDescription: 'Re-typeset PDF documents into responsive mobile-friendly layouts. Support Markdown and EPUB export for enhanced small-screen reading.',
-    keywords: ['pdf reflow', 'responsive pdf', 'pdf to markdown', 'epub export', 'mobile pdf reader'],
-    description: `
-      <p>AI PDF Layout Reflower is your ultimate companion for reading PDF documents on mobile devices. Traditional PDFs use a fixed layout, which often requires endless zooming and horizontal scrolling on smartphones or tablets, resulting in a tedious reading experience.</p>
-      <p>This tool intelligently parses the text flow, line spacing, and physical coordinates of the PDF pages, reconstructing the semantic paragraphs and heading hierarchies. For multi-column or dual-column documents, it intelligently merges column flows into a single responsive flow, ensuring smooth reading.</p>
-      <p>Additionally, it supports rendering mathematical formulas into LaTeX/MathJax and offers multiple reading themes (Sepia, Dark, Eye-protecting Green). You can export the reflowed layout as Markdown or a standard EPUB ebook with a single click.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload PDF File', description: 'Drag and drop your PDF file or click to browse and select it.' },
-      { step: 2, title: 'Select Reading Theme', description: 'Choose your preferred font size and theme colors in the 3D mobile simulator on the right.' },
-      { step: 3, title: 'Export Document', description: 'Once satisfied, use the physical pull-rope to export the document as Markdown or EPUB.' },
-    ],
-    useCases: [
-      { title: 'Mobile Literature Reading', description: 'Read academic papers and research reports on your phone seamlessly without constant zooming.', icon: 'smartphone' },
-      { title: 'Ebook Conversion', description: 'Convert text-heavy PDFs into EPUB files and import them into Kindle or other ebook readers.', icon: 'book' },
-      { title: 'Note Archive', description: 'Directly convert structured PDF content into clean Markdown files for your personal knowledge base.', icon: 'file-text' },
-    ],
-    faq: [
-      { question: 'Does it handle dual-column PDFs correctly?', answer: 'Yes, the layout reflower detects the horizontal coordinates of text blocks and structures left and right columns sequentially, preventing line interleaving.' },
-      { question: 'Will images and math formulas be lost?', answer: 'Mathematical formulas are converted to LaTeX/MathJax syntax for clean web rendering, and images are preserved in their corresponding semantic positions.' },
-      { question: 'Is the conversion done in the cloud?', answer: 'No, all layout analysis and format packaging are performed locally in your browser to guarantee the absolute privacy of your documents.' },
-    ],
-  },
-  'citation-linker': {
-    title: 'Citation Linker',
-    metaDescription: 'Scan and activate citation markers in PDFs, converting them into clickable DOI links or page-jump targets.',
-    keywords: ['citation linker', 'pdf hyperlink', 'doi matching', 'academic helper', 'pdf references'],
-    description: `
-      <p>Citation Linker is designed specifically for academic researchers. In many PDF papers, citation markers (e.g., [1], [2]) are plain text, forcing readers to scroll back and forth to the reference list at the end of the document, interrupting their focus.</p>
-      <p>This tool reads PDF text locally, uses pattern recognition to match citation markers to their corresponding reference entries, and overlays clickable PDF link annotations using DOI lookups or page-jump coordinates.</p>
-      <p>It also generates an interactive citation relationship map to visually navigate the document\'s reference network.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Academic PDF', description: 'Upload a PDF paper or thesis containing a bibliography/reference section.' },
-      { step: 2, title: 'Review Citations', description: 'Inspect the citation pairs in the interactive map and manually edit or add DOI links if necessary.' },
-      { step: 3, title: 'Inject Links', description: 'Click the activate button to overlay hyperlinks onto the PDF and download the updated document.' },
-    ],
-    useCases: [
-      { title: 'Deep Literature Reading', description: 'Click citation markers to immediately view reference details or navigate to external DOI pages.', icon: 'link' },
-      { title: 'Pre-publication Preparation', description: 'Ensure your written academic papers have fully active hyperlink navigations before final submission.', icon: 'award' },
-      { title: 'Reference Map Analysis', description: 'Understand literature hierarchies and connections via the interactive network topology map.', icon: 'git-network' },
-    ],
-    faq: [
-      { question: 'What if a reference has no DOI?', answer: 'If a DOI cannot be found, the tool falls back to an internal "GoTo Page" action, allowing you to click the marker and jump directly to the reference page.' },
-      { question: 'Which citation formats are supported?', answer: 'It supports common numeric brackets (e.g., [1], [1-3]) and author-year citations (e.g., Author et al., 202X).' },
-      { question: 'Will it modify the appearance of my PDF?', answer: 'No, it injects invisible Link annotations on top of the text, preserving the original layout, fonts, and styling of your document.' },
-    ],
-  },
-  'vector-extractor': {
-    title: 'PDF Vector Extractor',
-    metaDescription: 'Convert PDF into high-fidelity SVG, allowing you to select, recolor, and export vector charts, logos, and graphics.',
-    keywords: ['extract vectors from pdf', 'pdf to svg', 'pdf vector charts', 'extract logo', 'vector drawings'],
-    description: `
-      <p>PDF Vector Extractor unlocks vector paths and artwork embedded inside PDF files. Easily extract vector charts, diagrams, or logos from documents for design work or printing.</p>
-      <p>Under the hood, it utilizes high-fidelity SVG rendering to deconstruct PDF vector paths into clean, standard SVG element trees without loss of precision.</p>
-      <p>The interface highlights hover elements with a Z-axis 3D layer explosion effect, complete with a color picker panel for designers to adjust and extract vector nodes.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload PDF Document', description: 'Upload a PDF containing vector assets, diagrams, charts, or logos.' },
-      { step: 2, title: 'Select Elements', description: 'Hover over the vector canvas to highlight elements, then click to select a node.' },
-      { step: 3, title: 'Customize and Export', description: 'Adjust path attributes in the panel, then download as SVG or copy SVG source code.' },
-    ],
-    useCases: [
-      { title: 'Design Asset Extraction', description: 'Quickly extract company logos, icons, and illustrations from brand guidelines or brochures.', icon: 'bezier' },
-      { title: 'Scientific Chart Export', description: 'Extract vector charts from research papers to use in high-resolution printing or presentations.', icon: 'presentation' },
-      { title: 'Vector Asset Recoloring', description: 'Modify the stroke and fill colors of extracted assets before saving them for web projects.', icon: 'crown' },
-    ],
-    faq: [
-      { question: 'Why can\'t I select certain images?', answer: 'PDFs contain both raster images (like photos or scanned pages) and vector artwork (like shapes and curves). Only vector paths can be deconstructed into SVG paths.' },
-      { question: 'Does the output SVG contain styles?', answer: 'Yes, the exported SVG retains all original properties including fills, strokes, opacity, gradients, and coordinate transforms.' },
-      { question: 'Will large files lag?', answer: 'We use WebAssembly acceleration, but PDFs with extremely complex CAD drawings or thousands of vector paths may take a few seconds to render.' },
-    ],
-  },
-  'deep-sanitize': {
-    title: 'Deep Metadata Sanitizer',
-    metaDescription: 'Thoroughly wipe author metadata, modification logs, hidden layers, and orphan objects from PDFs for maximum privacy.',
-    keywords: ['pdf sanitization', 'clear metadata', 'anonymize pdf', 'strip hidden watermark', 'secure pdf'],
-    description: `
-      <p>Deep Metadata Sanitizer is your ultimate defense against metadata leaks and hidden tracking. Simply drawing black boxes over visible text in PDF files is not enough to protect commercial secrets.</p>
-      <p>This tool scans the PDF binary structure to completely erase author info, creator software, editing logs (XMP Metadata), proprietary PieceInfo caches, and OCG optional content groups (often used for invisible watermarks).</p>
-      <p>It also rewrites the cross-reference tables (xref) completely, discarding all incremental update blocks to ensure that deleted or modified historical data cannot be restored.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload PDF', description: 'Select the PDF file containing sensitive data or modification history.' },
-      { step: 2, title: 'Run Scanner', description: 'Trigger the 3D containment scanner to check the file for hidden metadata and layers.' },
-      { step: 3, title: 'Deep Sanitize', description: 'Click sanitize to wipe out tracking elements and download the fully clean PDF.' },
-    ],
-    useCases: [
-      { title: 'Contract Sharing', description: 'Remove drafting records, paths, and previous revisions before sharing business contracts with third parties.', icon: 'file-signature' },
-      { title: 'Anonymized Publishing', description: 'Wipe invisible annotations and watermarks to publish documents anonymously and securely.', icon: 'eye-off' },
-      { title: 'PDF Optimization', description: 'Remove orphaned objects and garbage data streams to make files load faster on the web.', icon: 'zap' },
-    ],
-    faq: [
-      { question: 'How is this different from standard metadata removal?', answer: 'Standard tools only clear basic fields like title or author. Deep Sanitizer reconstructs the entire PDF xref table, wiping PieceInfo, hidden watermarks, and historical incremental revisions.' },
-      { question: 'Will this affect document layout or text?', answer: 'No, it only strips hidden description streams and structure data. The visible layout, texts, and graphics remain unchanged.' },
-      { question: 'Does this remove PDF passwords?', answer: 'No, if a PDF is encrypted, you must unlock it first before performing a deep sanitization.' },
-    ],
-  },
-  'booklet-folding-simulator': {
-    title: '3D Booklet & Folding Simulator',
-    metaDescription: 'Impose multi-page PDFs into foldable print sheets, featuring 3D physical folding animations and saddle-stitch previews.',
-    keywords: ['3D imposition', 'folding simulator', 'saddle stitch', 'book layout', 'print proofing'],
-    description: `
-      <p>3D Booklet & Folding Simulator is an advanced tool designed for print designers and publishing professionals. Traditional book layout requires calculating complex page overlays and imposition pagination sequences. This tool visualizes and automates that entire process.</p>
-      <p>Under the hood, our custom imposition algorithm maps a sequential PDF page list into standard print sheet layouts (such as 4-page half-folds, 8-page saddle stitches, or accordion folds), merging pages onto the front and back of large physical sheets.</p>
-      <p>On the front-end, we utilize pure CSS 3D Matrix transforms and spring-mass physics curves to animate sheet folding horizontally and vertically, delivering a physical-like binding preview with a high WOW factor.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload PDF File', description: 'Drag and drop the PDF document you wish to layout for printing.' },
-      { step: 2, title: 'Select Folding Layout', description: 'Choose your preferred imposition scheme (e.g., 4-page fold, 8-page saddle stitch, 4-page accordion).' },
-      { step: 3, title: 'Interactive 3D Preview', description: 'Drag the slider to watch the sheet fold in 3D and inspect the final page numbering layout.' },
-      { step: 4, title: 'Generate Imposed PDF', description: 'Click generate to download the rearranged and merged physical sheet PDF, ready for double-sided printing.' },
-    ],
-    useCases: [
-      { title: 'Brochure Prototyping', description: 'Pre-visualize the folding sequence of tri-folds and pamphlets to prevent upsidedown pages after printing.', icon: 'book-open' },
-      { title: 'Book Saddle-Stitching', description: 'Generate imposed print sheets for multi-page magazines or booklets automatically.', icon: 'layers' },
-      { title: 'Print Shop Visual Aids', description: 'Help clients visualize how pages are physically distributed and folded on print sheets.', icon: 'printer' },
-    ],
-    faq: [
-      { question: 'What is "Imposition"?', answer: 'Imposition is a fundamental step in prepress printing. Since commercial presses print on large sheets, pages are arranged out of order so that once printed, folded, and bound, the pages appear in the correct sequential order. This tool automatically calculates that layout.' },
-      { question: 'Does the 3D preview alter my PDF content?', answer: 'No, the original PDF content is merely rendered as texture mappings onto the 3D sheet. The generated PDF only adjusts page order and placement; text and graphic qualities are kept intact.' },
-      { question: 'What if my PDF page count is not a multiple of 4 or 8?', answer: 'The optimizer automatically appends blank pages at the end to satisfy the mathematical page-count requirements of the selected folding layout.' },
-    ],
-  },
-  'pdf-to-slide': {
-    title: 'PDF to Slide',
-    metaDescription: 'Intelligently analyze PDF outlines, extract vector charts, and reconstruct them into fully-editable PPTX presentations.',
-    keywords: ['PDF to PPT', 'slide reconstruction', 'chart extraction', 'academic presentation', 'PPTX compiler'],
-    description: `
-      <p>AI PDF-to-Slide Reconstructor breathes new life into static PDF documents, transforming them into modern, highly-customizable PowerPoint slides (PPTX).</p>
-      <p>The tool uses an advanced layout outline extractor that automatically parses document heading levels, paragraph lines, and font weights to establish a logical slide framework. It also isolates vector charts and high-resolution tables, stripping background artifacts to embed them cleanly as independent editable assets.</p>
-      <p>All PPTX outputs are built using standard Office Open XML elements, meaning all text remains fully editable and vectors do not lose resolution. The front-end showcases a fluid "starfield" card transition animation that visualizes the reconstruction in an engaging manner.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Academic/Business PDF', description: 'Upload a PDF document that contains structured sections and diagrams.' },
-      { step: 2, title: 'Analyze Slide Outlines', description: 'Inspect the extracted slide structure, adjust titles, or delete unneeded card blocks.' },
-      { step: 3, title: 'Reconstruct to PPTX', description: 'Start the compilation engine to receive a standard, editable presentation file.' },
-    ],
-    useCases: [
-      { title: 'Research Paper Presentation', description: 'Convert academic journal PDFs, text structures, and vector diagrams into slide decks ready for talks.', icon: 'graduation-cap' },
-      { title: 'Business Report Summary', description: 'Distill massive annual corporate reports into clean, bulleted presentation drafts instantly.', icon: 'presentation' },
-      { title: 'Multi-Device Demos', description: 'Avoid copying screenshots manually. Get a clean, fully-editable layout framework in seconds.', icon: 'laptop' },
-    ],
-    faq: [
-      { question: 'Are the slides editable in Microsoft Office?', answer: 'Yes. The files are generated natively in memory according to the official Office Open XML (OOXML) specification. Texts, tables, and placeholders are fully interactive in PowerPoint, Keynote, and WPS.' },
-      { question: 'How are charts extracted?', answer: 'The engine scans vector paths and raster layers in the PDF, detects bounded areas representing graphs, and clips them out as standalone SVG nodes or high-DPI images.' },
-      { question: 'Does this work on scanned documents?', answer: 'For scanned PDFs lacking actual text layers, we recommend running our OCR tool first before passing the file to the Slide Reconstructor.' },
-    ],
-  },
-  'form-logic-designer': {
-    title: 'Form Logic Designer',
-    metaDescription: 'Design dynamic behaviors using a glassmorphic node canvas and inject interactive AcroJS logic into PDF forms.',
-    keywords: ['PDF form logic', 'AcroJS injection', 'node flow', 'interactive PDF', 'field dependencies'],
-    description: `
-      <p>Interactive Form Logic Designer is a pioneering tool that fills a massive gap in PDF capabilities: creating active, responsive fields instead of flat, dead forms.</p>
-      <p>Through our visual canvas featuring "glowing glassmorphic nodes" (built on React Flow), form fields are represented as connected modules. You can drag links to define relationships: e.g., when a checkbox is checked ➜ enable a text input ➜ auto-calculate values and update a total field.</p>
-      <p>Once designed, the AcroJS engine compiles the logic into official Acrobat JavaScript and injects it into the '/AA' (Additional Actions) dictionaries of the AcroForm. The interactive behaviors are then executed natively inside any standard PDF reader.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Interactive PDF', description: 'Provide a PDF file that already has active form fields (AcroForm).' },
-      { step: 2, title: 'Map Out Logic in Canvas', description: 'Connect fields as nodes. Link output events (change, blur) to target actions (show, hide, calculate, disable).' },
-      { step: 3, title: 'Compile and Download', description: 'Inject the compiled JavaScript logic into the PDF dictionary and save the final smart document.' },
-    ],
-    useCases: [
-      { title: 'Smart Sales Contracts', description: 'Show or hide supplementary input fields dynamically based on the client\'s selected terms.', icon: 'file-signature' },
-      { title: 'Automated Expense Forms', description: 'Sum up multiple expense lines and compute taxes dynamically without manual calculation.', icon: 'calculator' },
-      { title: 'Interactive Questionnaires', description: 'Skip irrelevant questions based on previous answers, providing a cleaner mobile filling experience.', icon: 'form-input' },
-    ],
-    faq: [
-      { question: 'Do I need a PDF with pre-existing fields?', answer: 'Yes. This tool is designed to bind logical rules to existing fields. If your PDF does not have interactive fields, use our Form Creator tool to add inputs and check boxes first.' },
-      { question: 'Will this logic run on any PDF reader?', answer: 'It runs on all PDF readers that comply with Adobe PDF standards and support Acrobat JavaScript (such as Adobe Acrobat Reader, Foxit Reader, and major web browsers). Minimalist mobile readers might support basic actions only.' },
-      { question: 'Does this affect paper printing?', answer: 'Not at all. The injected scripts only run on-screen during form completion. When printing, the current state of fields is printed statically without any node visualization.' },
-    ],
-  },
-  'eink-optimizer': {
-    title: 'e-Ink Reader Optimizer',
-    metaDescription: 'Optimize PDFs for e-Ink screens via background clearing, Otsu binarization, and morphological text dilation.',
-    keywords: ['eink optimizer', 'binarization', 'text bolding', 'eye-friendly reading', 'otsu threshold'],
-    description: `
-      <p>e-Ink Reader Optimizer is a must-have tool custom-made for e-Reader enthusiasts using Kindle, Onyx Boox, Kobo, or other e-paper devices.</p>
-      <p>Many scanned PDF e-books suffer from faint lettering, muddy gray backgrounds, noise, or scan shadows when viewed on e-Ink screens. This tool analyzes gray-value histograms and applies Otsu\'s Binarization Thresholding to separate text from background, converting gray backdrops to clean white.</p>
-      <p>Additionally, it integrates morphological dilation to bold and thicken thin, faded characters, providing crisp, high-contrast typography. The inertia-damped contrast slider allows you to fine-tune the paper-like contrast in real-time.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload Scanned PDF', description: 'Upload e-books or scanned documents with faint text or gray backgrounds.' },
-      { step: 2, title: 'Adjust Contrast Slider', description: 'Drag the damped slider to balance background removal and character bolding in real-time.' },
-      { step: 3, title: 'Optimize and Download', description: 'Process the entire PDF to generate a high-contrast, eye-friendly document tailored for e-Ink.' },
-    ],
-    useCases: [
-      { title: 'Ancient Manuscript Restoration', description: 'Thicken faded text in scans of historical books or handwritten manuscripts to make them readable.', icon: 'scroll' },
-      { title: 'Exam Sheet Clean-up', description: 'Bleach background shadows from photocopied or photographed exams, returning clean black text on white paper.', icon: 'file-text' },
-      { title: 'E-paper Device Tailoring', description: 'Convert colored PDFs to optimized grayscale, preventing messy, dithering artifacts on monochrome screens.', icon: 'tablet' },
-    ],
-    faq: [
-      { question: 'How does the "character bolding" work?', answer: 'In image processing, this is called dilation. It uses a structuring matrix to expand character margins by a pixel, physically thickening faint strokes to make them legible.' },
-      { question: 'Will this process bloat the file size?', answer: 'Quite the opposite. By binarizing complex color/grayscale images to simple black-and-white layouts, standard compression (like CCITT Group 4) can shrink the PDF file size significantly.' },
-      { question: 'Does this support native text PDFs?', answer: 'Yes. Native vector PDFs are rasterized at high resolutions in the background, optimized, and compiled back, ensuring unified high-contrast reading.' },
-    ],
-  },
-  'cert-cryptor': {
-    title: 'Certificate Encrypt & Sign',
-    metaDescription: 'Secure PDFs using asymmetric public-key certificate encryption, paired with a 3D gold wax-seal imprint and PKCS#7 signature.',
-    keywords: ['certificate encryption', 'wax seal signature', 'digital signature', 'asymmetric crypt', 'PKCS7 signature'],
-    description: `
-      <p>3D Wax-Seal & Certificate Cryptor provides military-grade security and premium physical-grade aesthetics for sensitive corporate files, degrees, or agreements.</p>
-      <p>Technically, it offers asymmetric public-key encryption: import a recipient\'s public key certificate (.cer/.crt) to lock the PDF stream; only the holder of the matching private key (.pfx) can decrypt it. It also generates standard PKCS#7 digital signatures to ensure document tamper-proof integrity.</p>
-      <p>Visually, we feature a 3D physical gold or red wax-seal stamp. When you sign, a beautifully rendered stamp descends with a satisfying mechanical sound, leaving a 3D wax seal with realistic normal-mapped height variations and wax run-offs on the page, surrounded by glowing cryptographic tracks.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload PDF and Cert', description: 'Add your PDF and import your signing certificate (.pfx) or the recipient\'s public certificate (.cer).' },
-      { step: 2, title: 'Place the 3D Stamp', description: 'Drag and locate the seal on the document preview, and pick a wax style (e.g., gold, crimson).' },
-      { step: 3, title: 'Press and Sign', description: 'Click execute to watch the 3D wax-seal imprint ceremony, generating a physical-grade digital signature.' },
-      { step: 4, title: 'Download Secured PDF', description: 'Save the output document, now cryptographically locked and stamped.' },
-    ],
-    useCases: [
-      { title: 'Diplomas and Certificates', description: 'Affix highly-valued 3D wax seal badges to digital diplomas and awards, backed by genuine digital signatures.', icon: 'award' },
-      { title: 'Confidential Agreements', description: 'Lock sensitive contracts using the client\'s public certificate so that only their secure physical keycard can unlock it.', icon: 'shield-alert' },
-      { title: 'Official Press Releases', description: 'Digitally sign public announcements to prevent malicious text edits or spoofing.', icon: 'stamp' },
-    ],
-    faq: [
-      { question: 'Is the wax seal just an image or a real signature?', answer: 'Both. The system renders an incredibly realistic 3D wax imprint with normal-mapped depth (visual layer) and encodes an authentic, tamper-proof PKCS#7 cryptographic signature inside the PDF (data layer).' },
-      { question: 'What is "Certificate-based Encryption"?', answer: 'It is a passwordless encryption technique. You encrypt the file using the recipient\'s public key. The reader automatically searches for their local private certificate to decrypt the file seamlessly, ensuring robust security.' },
-      { question: 'Can I customize the stamp design?', answer: 'Yes. We provide multiple designs like the PDFCraft watermark or a Royal crest, and you can adjust the wax melting radius and normal-map indentation depth in the panel.' },
-    ],
-  },
-  'passport-id-composer': {
-    title: 'Double-Sided ID Composer',
-    metaDescription: 'Instantly compose both front and back sides of ID cards or passports onto a single A4 page with optional anti-counterfeit watermarks.',
-    keywords: ['ID card composer', 'passport imposition', 'A4 double-sided copy', 'identity card printing', 'anti-counterfeit watermark'],
-    description: `
-      <p>The Passport & ID Double-sided Composer is an incredibly useful productivity utility for standard business and personal operations.</p>
-      <p>When applying for bank accounts, onboarding, or signing agreements, we frequently need copies of both sides of ID cards. This tool accepts front/back images or PDF pages and precisely arranges them onto a single A4 page complying with national standard layout resolutions.</p>
-      <p>Furthermore, you can customize overlapping translucent anti-counterfeit watermarks (e.g. "FOR ONBOARDING ONLY") to prevent unauthorized document reuse. It even features a 3D glow laser sweep copier scanner door visual effect to deliver premium feedback.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload ID files', description: 'Upload front and back photos/scans of your ID or passport (up to 2 files).' },
-      { step: 2, title: 'Configure secure watermark', description: 'Input custom text overlay to restrict unauthorized document replication.' },
-      { step: 3, title: 'Compose & download', description: 'Click execute to generate a single-page print-ready A4 PDF.' },
-    ],
-    useCases: [
-      { title: 'HR onboarding submission', description: 'Quickly align employee ID copies and apply protective watermarks.', icon: 'user' },
-      { title: 'Government & banking service', description: 'Prepare standardized ID prints that meet physical archive requirements.', icon: 'landmark' },
-      { title: 'Travel backups', description: 'Arrange passport pages and visa details onto a unified A4 paper.', icon: 'plane' },
-    ],
-    faq: [
-      { question: 'Will watermarks block identity text details?', answer: 'No. The watermark is rendered at a carefully tuned 15% opacity to block forgery without sacrificing the legibility of text or photo fields.' },
-      { question: 'Is the composite card size accurate?', answer: 'Yes. It renders the ID card at the standard physical dimension of 85.6mm × 54mm scaled perfectly on the A4 page.' },
-      { question: 'Does it support driver licenses?', answer: 'Yes, it works beautifully for any card-based identity scans.' },
-    ],
-  },
-  'annotation-exporter': {
-    title: 'Export Annotations',
-    metaDescription: 'Extract PDF comments, notes, highlights, and underlines, and structure them into Markdown/JSON notebooks aligned with outline chapters.',
-    keywords: ['export annotations', 'extract pdf highlights', 'pdf reader notes', 'markdown outline notebooks', 'study summary helper'],
-    description: `
-      <p>The Smart Annotation Exporter is a powerful workspace that unlocks full value from your PDF annotations.</p>
-      <p>While conducting literature reviews or reading extensive ebooks, we make heavy use of highlights and sticky notes. This tool deserializes the low-level PDF <code>/Annots</code> dictionary and extracts all highlights, notes, underlines, and hand-drawn ink markers.</p>
-      <p>It automatically aligns the comments with their respective outline headers, generating a structured Markdown or JSON notebook with page reference anchors. Watch your highlights float beautifully into the frosted-glass notebook panel.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Import annotated PDF', description: 'Upload any PDF essay or book containing your underlines, highlights, or comments.' },
-      { step: 2, title: 'Configure filters & format', description: 'Select the annotation types you want to extract and choose Markdown or JSON.' },
-      { step: 3, title: 'Extract notebook', description: 'Click execute to parse the comments stream and assemble your outline summary.' },
-    ],
-    useCases: [
-      { title: 'Scientific literature synthesis', description: 'Extract reading notes across multiple papers into Markdown templates to compose lit reviews instantly.', icon: 'graduation-cap' },
-      { title: 'Study journal compiling', description: 'Collect beautiful insights and personal remarks from textbooks into Obsidian databases.', icon: 'book' },
-      { title: 'Document collaborative audit', description: 'Gather review corrections from different team members and establish actionable task lists.', icon: 'users' },
-    ],
-    faq: [
-      { question: 'Can it extract tablet hand-drawn ink strokes?', answer: 'Yes. As long as the hand-drawn marks are stored as standard PDF Ink annotations, the tool can perfectly isolate and structure their page positions.' },
-      { question: 'Why are some highlighted extracts empty?', answer: 'If the PDF is a non-searchable image scan lacking underlying text, highlights only store coordinates. Run OCR on the PDF first, then extract annotations.' },
-      { question: 'Do the Markdown links jump back to the PDF?', answer: 'The exported file lists precise page numbers and original outline headings to make cross-referencing seamless.' },
-    ],
-  },
-  'batch-watermark-remover': {
-    title: 'Batch Remove Watermarks',
-    metaDescription: 'Physically scrub watermark strings and XObject images from the PDF content stream without messing up layouts.',
-    keywords: ['remove watermark', 'pdf watermark eraser', 'content stream purge', 'batch watermark cleaning', 'remove draft watermark'],
-    description: `
-      <p>The Batch Watermark Remover is a state-of-the-art PDF sanitizer that physically cleanses documents.</p>
-      <p>Generic watermark removers usually just overlay white blocks or distort document spacing. This tool utilizes a robust <strong>Content Stream Purge</strong> technique.</p>
-      <p>It parses the low-level rendering operators of each page, identifies specific watermark string commands (e.g. "Confidential", "DRAFT") or background image objects, and physically deletes or overwrites them. The watermarks disappear completely, preserving the original formatting and vector quality.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload watermarked file', description: 'Provide the PDF document showing commercial logos or security labels.' },
-      { step: 2, title: 'Define target watermark', description: 'Input the exact string to delete, or toggle translucent XObject image cleanup.' },
-      { step: 3, title: 'Run physical purge', description: 'Click execute to scrub the content operators with high fidelity.' },
-    ],
-    useCases: [
-      { title: 'Archiving corporate assets', description: 'Remove expired "Confidential" or "Draft" watermarks for general public distribution.', icon: 'archive' },
-      { title: 'Clearing background clutter', description: 'Scrub heavy background pictures that distract readers from scanning text.', icon: 'eye' },
-      { title: 'Document reusing', description: 'Cleanse old page footer branding elements to apply new corporate templates easily.', icon: 'copy' },
-    ],
-    faq: [
-      { question: 'Can the purged watermarks be recovered?', answer: 'No. Unlike visual masks, we rewrite the page binary stream to erase the operators, leaving no traces.' },
-      { question: 'Does it support complex gradients?', answer: 'If the watermark is stored as a separate text node or image XObject, the tool can isolate and physically wipe it.' },
-      { question: 'Will it modify normal page text?', answer: 'No. The scrubbing engine only target operators matching the specified watermark signature; regular text remains untouched.' },
-    ],
-  },
-  'smart-data-redactor': {
-    title: 'Sensitive Data Redaction',
-    metaDescription: 'Automatically detect phone numbers, emails, and IDs, overlay opaque masks, and physically erase underlying text streams.',
-    keywords: ['automatic redaction', 'redact privacy pdf', 'erase email pdf', 'mask phone numbers', 'gdpr compliance tool'],
-    description: `
-      <p>The Smart Privacy Data Redactor is an automated tool designed to ensure robust document privacy compliance.</p>
-      <p>Simply overlaying black boxes in normal editors is unsafe because the underlying text can still be copied. This tool implements true <strong>NLP pattern matching and physical content stream sanitization</strong>.</p>
-      <p>It scans the document for emails, phone numbers, SSNs, or custom keywords, places a premium matte black mask over the coordinates, and permanently overwrites the character stream with <code>[REDACTED]</code>, blocking copy-paste leaks.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload target PDF', description: 'Provide the contract or statement showing sensitive customer details.' },
-      { step: 2, title: 'Select redaction rules', description: 'Check target patterns (email, phone, ID) or define custom sensitive words.' },
-      { step: 3, title: 'Auto redact & download', description: 'Click execute to overlay secure masks and wipe the text streams.' },
-    ],
-    useCases: [
-      { title: 'Commercial agreements sharing', description: 'Safely publish business documents by hiding personal salaries, phone numbers, or emails.', icon: 'file-signature' },
-      { title: 'Resume database anonymization', description: 'Strip applicant names, contact info, or addresses to comply with strict privacy regulations.', icon: 'user-check' },
-      { title: 'Financial statement distribution', description: 'Conceal specific ledger numbers or shareholder names before publishing reports.', icon: 'pie-chart' },
-    ],
-    faq: [
-      { question: 'Are redacted details truly un-copyable?', answer: 'Yes. We rewrite the page content stream to erase the characters. Copy-pasting from the redacted box will only extract the string "[REDACTED]".' },
-      { question: 'Does it work for scanned image PDFs?', answer: 'This tool targets vector text streams. For scanned image files, use our OCR tool first or crop manually.' },
-      { question: 'Is the red HUD target scope saved in the file?', answer: 'No, that is a gorgeous frontend interactive loading effect. The output PDF displays standard clean black rectangles.' },
-    ],
-  },
-  'bookmarks-auto-generator': {
-    title: 'Auto Generate Bookmarks',
-    metaDescription: 'Analyze document layout hierarchy and regex patterns (e.g. Chapter) to generate and inject /Outline bookmark catalogs.',
-    keywords: ['generate bookmarks', 'pdf outline builder', 'inject bookmarks pdf', 'font size catalog', 'outline tree builder'],
-    description: `
-      <p>The Auto Bookmarks Generator brings absolute clarity to lengthy, unstructured PDF documents.</p>
-      <p>Scanning through books or booklets with no outline navigation is painful. This tool parses typographic hierarchies (such as font sizes and weights) along with regex rules (like "Chapter 1", "Section 1.1") to automatically deduce headings.</p>
-      <p>It then compiles and injects these headings directly into the PDF <code>/Outline</code> dictionary. Any standard viewer will then show a beautifully structured, multi-level navigation sidebar, backed by an interactive 3D outline tree preview.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Provide unstructured PDF', description: 'Upload large brochures, academic papers, or ebooks lacking a catalog sidebar.' },
-      { step: 2, title: 'Tune heading rules', description: 'Configure strategies specifying minimum font size thresholds and match rules.' },
-      { step: 3, title: 'Build and inject', description: 'Click execute to render the outline nodes and physically write the outline bookmarks.' },
-    ],
-    useCases: [
-      { title: 'Technical manuals organizing', description: 'Auto compile multi-level chapters for standard guidelines, saving hours of manual indexing.', icon: 'tool' },
-      { title: 'Thesis preparation', description: 'Inject clean nested bookmarks matching exact academic submission standards.', icon: 'graduation-cap' },
-      { title: 'Ebook navigation optimization', description: 'Structure scanned text publications into readable chapters for tablets or mobile readers.', icon: 'tablet' },
-    ],
-    faq: [
-      { question: 'Can it match custom chapter formats?', answer: 'Yes. You can add custom regex patterns in the sidebar panel (e.g., `^Part\\s+\\w+`) to target unique layouts.' },
-      { question: 'Will this affect the visual page presentation?', answer: 'No. The tool only adds an internal structural bookmark catalog. The text and visual assets of the pages remain untouched.' },
-      { question: 'How many bookmark levels are supported?', answer: 'The tool supports deeply nested bookmark structures, allowing chapter, section, and subsection layouts.' },
-    ],
-  },
-  'batch-barcode-injector': {
-    title: 'Batch Inject Barcodes',
-    metaDescription: 'Generate custom QR/Code128 tags and precisely inject them into bulk PDF pages with aligning guidelines.',
-    keywords: ['generate qr pdf', 'barcode injector', 'asset tag pdf', 'qr coordinate positioning', 'stamp barcodes'],
-    description: `
-      <p>The Batch Barcode precision injector bridges digital asset tracking with physical document indexing.</p>
-      <p>In warehousing, contract review, or logistics, we often need to Stamp unique barcodes onto invoices or device cards. This tool makes it incredibly easy.</p>
-      <p>Generate highly readable QR codes or Code128 barcodes, and use our gorgeous aligning workspace with green laser guides to position them. A clean scan audio beep triggers on placement, providing highly premium feedback.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload document', description: 'Drag and drop single or multi-page PDFs representing agreements or shipping lists.' },
-      { step: 2, title: 'Position barcode coordinates', description: 'Set code type, value, and drag the placement box to specify coordinates.' },
-      { step: 3, title: 'Stamps and download', description: 'Click execute to render the code layer onto the targeted page indices.' },
-    ],
-    useCases: [
-      { title: 'Contract validation tracing', description: 'Apply a unique QR code showing anti-counterfeit details onto the header of contracts.', icon: 'file-check' },
-      { title: 'Shipping lists coding', description: 'Place Code128 barcodes at target spots for quick warehouse scanning gun validation.', icon: 'truck' },
-      { title: 'Asset registration carding', description: 'Add inventory QR codes displaying maintenance specs onto physical equipment sheets.', icon: 'archive' },
-    ],
-    faq: [
-      { question: 'Are the generated barcodes highly scannable?', answer: 'Yes. We embed lossless high-resolution PNG representations that remain sharp even when printed at very small dimensions.' },
-      { question: 'Can I inject unique values on each page?', answer: 'Currently, the batch run applies the same configured code onto all selected pages. Multi-valued excel import is planned in a future update.' },
-      { question: 'What does the `pt` coordinate represent?', answer: '`pt` (Point) is the standard PDF physical unit (72 pt = 1 inch). A4 pages are represented as 595 × 842 pt.' },
-    ],
-  },
-  'signature-ink-optimizer': {
-    title: 'Extract Signature & Stamp',
-    metaDescription: 'Extract handwritten signatures and red corporate stamps from photos, remove paper shadow noise, and export transparent PNGs.',
-    keywords: ['extract signature', 'transparent signature background', 'clean stamp photo', 'sharpen hand signature', 'png seal maker'],
-    description: `
-      <p>The Signature & Stamp Chroma Ink Optimizer functions as a professional high-fidelity ink purifier.</p>
-      <p>Signatures or corporate seals captured on phones often suffer from yellow paper tint, uneven shadows, and page wrinkles. Pasting them directly onto contract PDFs looks amateur.</p>
-      <p>This tool separates the Alpha channel based on luminance and color space. It completely bleaches paper backgrounds while sharpening stamp red (Chroma Ink) and handwriting black. The result is a premium, transparent PNG stamp carrying genuine ink textures.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload seal photo', description: 'Provide a phone-captured photo of your signature or stamp seal.' },
-      { step: 2, title: 'Adjust cleaning sliders', description: 'Move contrast and luminance sliders to isolate the background noise in real-time.' },
-      { step: 3, title: 'Download clean signature', description: 'Export as transparent PNG ready to be stamped onto formal document agreements.' },
-    ],
-    useCases: [
-      { title: 'Professional e-signature prep', description: 'Convert gray signature photos into beautiful, transparent layers to sign agreements.', icon: 'file-signature' },
-      { title: 'Corporate seal sanitizing', description: 'Clean physical stamp scans by discarding paper fiber noise, preparing crisp transparent stamp seals.', icon: 'stamp' },
-      { title: 'Drawn line art extraction', description: 'Isolate black strokes from drawing sketchbooks for easy Photoshop coloring workflows.', icon: 'edit' },
-    ],
-    faq: [
-      { question: 'How does self-adaptive Alpha extraction differ from normal keying?', answer: 'Standard chroma-keying often makes signature stroke details look blocky and pixelated. Our algorithm isolates only white/yellow background noise and smooths the ink borders.' },
-      { question: 'Which image formats are supported?', answer: 'We support JPG, JPEG, and PNG. For best results, capture your signature photo under bright, even lighting.' },
-      { question: 'Will the handwriting detail be modified?', answer: 'No. The pixel filtering acts on original coordinates, sharpening contrast while maintaining genuine stroke textures.' },
-    ],
-  },
-  'dead-link-debugger': {
-    title: 'Fix Dead Links',
-    metaDescription: 'Scan all URL actions and link annotations in PDF, detect reachability, and inject redirects.',
-    keywords: ['dead link pdf', 'edit pdf hyperlinks', 'pdf link validation', 'redirect link pdf', 'update urls in pdf'],
-    description: `
-      <p>The Dead Link Debugger is a deep structural editor that guarantees link interaction quality in published files.</p>
-      <p>Broken urls (404/500) inside manuals, whitepapers, or guides reduce branding authority. This tool lets you manage the hyperlinks database seamlessly.</p>
-      <p>It parses the low-level <code>/Link</code> dictionaries on each page, Probes them, and displays link status in an interactive grid (red for dead links, orange for redirects). Simply type the updated redirect URL, and the tool writes the new target directly back into the PDF binary stream.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Provide target document', description: 'Upload the PDF manual or catalog containing links to debug.' },
-      { step: 2, title: 'Scan and update', description: 'Let the debugger extract all URL entities. Input new redirect URLs for broken items.' },
-      { step: 3, title: 'Save redirect updates', description: 'Click execute to rewrite /URI actions and download the corrected PDF.' },
-    ],
-    useCases: [
-      { title: 'Flyer broken links hotfix', description: 'Instantly correct wrong urls on published flyers without reopening original design editors.', icon: 'refresh-cw' },
-      { title: 'Bibliography links verification', description: 'Verify academic bibliography links in reports, updating references to maintain authority.', icon: 'book' },
-      { title: 'Corporate rebranding updates', description: 'Batch update old URLs across corporate PDFs when company domain names are changed.', icon: 'globe' },
-    ],
-    faq: [
-      { question: 'Why isn\'t link reachability fully checked online?', answer: 'Web browsers enforce strict CORS policies that block direct multi-origin link checking. Our tool lists the links clearly and lets you hot-fix them manually.' },
-      { question: 'Will this modify the visual text representation on the page?', answer: 'No. It only alters the underlying `/URI` navigation action. The visual link text remains unchanged.' },
-      { question: 'Does it support modifying internal page bookmarks?', answer: 'This tool handles external `/URI` hyperlinks. For internal layout navigation, use our interactive TOC tool.' },
-    ],
-  },
-  'interactive-toc-generator': {
-    title: 'Generate Interactive TOC',
-    metaDescription: 'Generate aesthetic Table of Contents pages, insert them pre-content, and wire internal bidirectional GoTo anchors.',
-    keywords: ['generate table of contents', 'interactive toc pdf', 'bidirectional anchor link', 'pdf index page builder', 'goto page action'],
-    description: `
-      <p>The Interactive TOC Builder introduces a revolutionary navigation experience to extensive PDFs.</p>
-      <p>Flipping through hundreds of pages in unstructured documents to locate target chapters is frustrating. This tool introduces <strong>Bidirectional TOC compilation</strong>.</p>
-      <p>It scans headers and generates an origami-inspired, premium Table of Contents page inserted right after the cover. In addition to creating clickable /GoTo links for each index row, it injects a tiny, elegant "TOC ↩" hovering anchor at the corner of each target chapter page. Readers can jump back and forth instantly, enjoying web-like navigation.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Provide PDF document', description: 'Upload a report, eBook, or proposal that needs an interactive catalog.' },
-      { step: 2, title: 'Set TOC title & index', description: 'Customize the main title and choose the page index to insert the TOC page.' },
-      { step: 3, title: 'Weave anchors & save', description: 'Click execute to compile the pages and write the dual-link navigation.' },
-    ],
-    useCases: [
-      { title: 'Annual corporate report polishing', description: 'Inject a beautiful index page after the cover sheet to allow shareholders to jump between financial charts.', icon: 'file-bar' },
-      { title: 'Thesis indexing', description: 'Fast compile standard indexes aligned with university formatting rules.', icon: 'bookmark' },
-      { title: 'Operation manual navigation', description: 'Help handbook readers quickly jump from troubleshooting sheets back to the main TOC.', icon: 'check-circle' },
-    ],
-    faq: [
-      { question: 'How do the bidirectional anchors work?', answer: 'We create standard Link annotations on the TOC page targeting the respective pages; then we embed a link back to the TOC page on all target chapter sheets.' },
-      { question: 'Will inserting the TOC page break existing page numbers?', answer: 'No. The compiler accounts for the offset of the newly inserted TOC page, ensuring all target destinations align.' },
-      { question: 'Is the TOC page valid when printed physically?', answer: 'Yes. The generated TOC lists clean physical page numbers to guide paper readers while enabling clickable links on screen.' },
-    ],
-  },
-  'global-invoice-parser': {
-    title: 'Invoice Translate & Convert',
-    metaDescription: 'Extract currency totals from multi-national invoices, run calculations, and stamp interactive frosted-glass exchange ledgers.',
-    keywords: ['translate invoice', 'invoice currency converter', 'exchange rate calculator pdf', 'stamp local currency', 'global invoice tool'],
-    description: `
-      <p>The Global Invoice Translator provides ultimate clarity for international finance teams and global buyers.</p>
-      <p>Handling invoices in multiple currencies ($ , € , ¥) often involves tedious manual arithmetic. This tool enables <strong>in-place label translation and real-time exchange rates conversion</strong>.</p>
-      <p>It scans the document for price totals, runs calculations based on currency benchmarks, and physically stamps an elegant semi-transparent frosted-glass "Exchange Rate ledger" at the page margin. It renders with a gorgeous rolling slot-machine numeric visual effect, bringing absolute control to global billing.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload invoice PDF', description: 'Import any invoice billed in foreign currencies (e.g. USD, EUR, JPY).' },
-      { step: 2, title: 'Select local currency', description: 'Choose your local currency (e.g. CNY) and specify a custom or real-time exchange rate.' },
-      { step: 3, title: 'Apply ledger stamp', description: 'Click execute to overlay the gorgeous exchange rate ledger ready for accounting.' },
-    ],
-    useCases: [
-      { title: 'Foreign business trip reimbursement', description: 'Convert travel bills into local currency and stamp conversion details, easing accounting workflows.', icon: 'plane' },
-      { title: 'Cross-border shopping audit', description: 'Translate invoice columns and isolate the true cost of e-commerce goods.', icon: 'credit-card' },
-      { title: 'International business bookkeeping', description: 'Stamp consistent conversion ledgers on corporate invoices to streamline year-end audits.', icon: 'folder-open' },
-    ],
-     faq: [
-      { question: 'How does it detect invoice amounts?', answer: 'It scans character streams for currency symbols and analyzes semantic headings like "Total" or "Due" to locate the invoice final sum.' },
-      { question: 'Are exchange rates fetched in real-time?', answer: 'Yes. By default, it retrieves base rates from standard financial APIs. You can also specify custom rates for internal audits.' },
-      { question: 'Will the stamped ledger cover important invoice details?', answer: 'The engine scans the page margin to find optimal positioning. The ledger is also semi-transparent, aligning elegantly with your layouts.' },
-    ],
-  },
-  'pdf-deskew-aligner': {
-    title: 'Auto Scan Deskew',
-    metaDescription: 'Detect and auto-correct page rotations and alignments on mobile-photo or scanned PDF sheets instantly.',
-    keywords: ['pdf deskew', 'scanned page alignment', 'auto rotate pdf page', 'straighten scanned paper', 'document alignment tool'],
-    description: `
-      <p>The PDF Scan Aligner is a mandatory utility for sanitizing tilted digital assets and mobile snapshots.</p>
-      <p>Documents scanned via physical flatbeds or captured quickly with smartphones often carry subtle rotations. Tilted pages look highly unprofessional, hinder text readability, and cause margins to clip during printing.</p>
-      <p>This tool utilizes robust <strong>Radon Transform and Hough Line detection algorithms</strong> to scan gradients and text lines under 20ms. It precisely measures skew down to 0.01 degrees and performs pixel-level Canvas rotation, snapping your receipts, contracts, and booklets back into crisp geometric alignment.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Provide skew PDF', description: 'Upload any PDF sheet carrying rotated or poorly aligned scanned documents.' },
-      { step: 2, title: 'Analyze and tweak', description: 'The engine auto-detects skew angle and draws aligning grids. Tweak angle manually if needed.' },
-      { step: 3, title: 'Straighten & download', description: 'Click execute to swing pages through a smooth gyroscope transition and download aligned PDF.' },
-    ],
-    useCases: [
-      { title: 'Receipt & Contract Archiving', description: 'Straighten quick hand-held mobile contract scans before saving them as formal digital PDF archives.', icon: 'file-text' },
-      { title: 'Academic Book Digitizing', description: 'Sanitize microfilm book scans where text lines drift out of horizontal margins.', icon: 'book' },
-      { title: 'Student Homework Grading', description: 'Correct homework snapshots taken by student phones, relaxing the eyes of grading teachers.', icon: 'edit-3' },
-    ],
-    faq: [
-      { question: 'How is document skew detected?', answer: 'We run high-speed Hough Line projections on text lines. Since formal prints have clear horizontal spacing patterns, finding the angle with the maximum variance isolates the rotation.' },
-      { question: 'Will this process crop away page edges?', answer: 'No. The engine calculates the rotated boundary and extends the Canvas using auto-padding, ensuring all margin text remains intact without cropping.' },
-      { question: 'Does it support documents filled with diagrams?', answer: 'Yes, as long as there is an underlying structure of lines or general paragraphs, our algorithms can accurately lock onto the principal reading angle.' },
-    ],
-  },
-  'pdf-two-column-reflower': {
-    title: 'Two-Column Paper Reflow',
-    metaDescription: 'Analyze IEEE/ACM double-column paper PDF structures and reflow them into responsive single-column layouts for smooth mobile and e-Reader viewing.',
-    keywords: ['two-column pdf to single', 'reflow academic paper', 'read papers on smartphone', 'pdf reader reflow', 'mobile friendly papers'],
-    description: `
-      <p>The Academic Two-Column Reflower solves the most significant pain point of digital research: reading papers on standard mobile screens.</p>
-      <p>Double-column layouts (used by IEEE, ACM, Nature, and major reports) are designed for A4 paper. Navigating them on phone screens or Kindle devices requires constant zooming, dragging right, scrolling down, and panning back up. It breaks reading comprehension completely.</p>
-      <p>Our processor implements a <strong>smart paragraph reflow and vertical partition barrier scan</strong>. It analyzes character coordinates to map double-column gutters, divides the layout, and weaves segments vertically (left column first, then right). Graphs, formulas, and headings are seamlessly rearranged into a single-column, flowable vertical scroll PDF.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload double-column PDF', description: 'Provide the IEEE/ACM journal report or multi-column PDF sheet.' },
-      { step: 2, title: 'Inspect partition gutter', description: 'Verify the red vertical partition slice guides. Adjust margins to prevent overlapping elements.' },
-      { step: 3, title: 'Reflow and save', description: 'Click execute to compile the pages into flowable layouts and download instantly.' },
-    ],
-    useCases: [
-      { title: 'e-Reader Book Import', description: 'Convert dense double-column essays into comfortable single-column documents matching Kindle and Onyx screens.', icon: 'tablet' },
-      { title: 'Subway Phone Reading', description: 'Read research literature comfortably with single-hand vertical swipe gestures during transit.', icon: 'smartphone' },
-      { title: 'Archival Journal Formatting', description: 'Modernize old narrow-column newspapers into readable, single-column web formats.', icon: 'book-open' },
-    ],
-    faq: [
-      { question: 'How are broad charts and equations handled?', answer: 'Our engine applies "span element detection." When an equation or diagram exceeds normal column widths, it is isolated as a full-width item, maintaining original proportions without clipping.' },
-      { question: 'Will this modify the vector text resolution?', answer: 'Not at all. We rewrite PDF text object transform matrices at the object tree level instead of rasterizing, meaning text remains 100% vector and fully selectable.' },
-      { question: 'Does this work on scanned image documents?', answer: 'For flat image-based PDFs, we highly recommend running our OCR tool first before executing the Reflow process.' },
-    ],
-  },
-  'pdf-page-resizer-uniform': {
-    title: 'Uniform PDF Page Size',
-    metaDescription: 'Batch resize and normalize mixed-format A4, A3, and Letter PDF sheets into a uniform target size with proportional centering and margin padding.',
-    keywords: ['uniform page size', 'resize pdf pages', 'merge diverse pdf', 'mediabox normalize', 'batch page scale'],
-    description: `
-      <p>The Multi-Format PDF Resizer is the ultimate standardizer for cluttered, mismatched corporate documents.</p>
-      <p>Combining invoices, contracts, and supplementary charts often results in a PDF containing massive A3 ledger pages, standard A4 agreements, and Letter-sized envelopes. Flipping through them is highly distracting, and sending them to physical office printers often causes jam errors due to size mismatch.</p>
-      <p>This tool rewrites the low-level <code>/MediaBox</code> and <code>/CropBox</code> grids on each page. It maps existing widths and heights, scales original pages proportionally to match target presets (e.g. standard A4), and introduces elegant, consistent surrounding margins, making the entire file look incredibly polished.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Provide mixed-size PDF', description: 'Upload a merged PDF document containing mismatched, messy page sizes.' },
-      { step: 2, title: 'Choose target preset', description: 'Select the target uniform size (e.g. A4, Letter, A3) and toggle scale modes.' },
-      { step: 3, title: 'Align and download', description: 'Click execute to trigger 3D sheet alignment, downloading a beautifully standardized PDF.' },
-    ],
-    useCases: [
-      { title: 'Corporate RFP Proposals', description: 'Standardize scanned qualification certificates and A4 bidding sheets before physical printing.', icon: 'file-text' },
-      { title: 'Financial Chart Integration', description: 'Scale broad A3 financial cash flows into neat A4 pages, preserving printing standards.', icon: 'layout' },
-      { title: 'Book Margin Standardization', description: 'Force slightly varied scanned book pages into an absolutely uniform dimension for comfortable reading.', icon: 'book' },
-    ],
-    faq: [
-      { question: 'Will this warp my content?', answer: 'Never. We support both "Contain" (proportional scaling with white bars) and "Cover" (centered crop). The default Contain mode preserves aspect ratios, preventing distortion.' },
-      { question: 'Will existing forms and annotations remain clickable?', answer: 'Yes. The algorithm maps the scaling factors to the Annotation coordinate arrays, scaling link boxes, sign boundaries, and inputs to align perfectly after resizing.' },
-      { question: 'Is there a limit on how many pages I can resize?', answer: 'No. Since all operations run locally in your client sandbox using native JavaScript, you can process extensive PDFs containing hundreds of pages in seconds.' },
-    ],
-  },
-  'handwriting-ink-contrast-booster': {
-    title: 'Enhance Handwriting Ink',
-    metaDescription: 'Extract blue or black handwriting signatures from photos, bleach yellow paper grain, and dramatically boost ink contrast for readability.',
-    keywords: ['enhance handwritten contract', 'ink contrast boost', 'bleach scanned paper', 'sharpen faded signature', 'signature extraction'],
-    description: `
-      <p>The Handwriting Ink Contrast Booster is a savior for digitizing signed agreements and historical manuscript archives.</p>
-      <p>Scans of hand-signed documents often look dull due to grey scanner glass reflection, yellow paper tint, or faded ink. Re-printing or photocopying these files results in blurry, illegible signatures. Traditional contrast tools darken the entire background, worsening the layout.</p>
-      <p>This tool utilizes **Contrast Limited Adaptive Histogram Equalization (CLAHE) and hue-based color separation**. In a secure local Canvas process, it isolates handwriting strokes (both black and blue) from background parchment, bleaches shadow wrinkles completely, and infuses faded inks with deep, saturated contrast, leaving your documents looking incredibly crisp and clean.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Import hand-signed document', description: 'Provide a PDF containing faded signatures, handwritten diaries, or sketches.' },
-      { step: 2, title: 'Configure ink filter', description: 'Select the color profile to isolate (e.g. blue ink, black ink, or both) and adjust sharpening.' },
-      { step: 3, title: 'Sharpen and download', description: 'Click execute to trace colors with a radar scanner effect and download purified PDF.' },
-    ],
-    useCases: [
-      { title: 'Executed Contracts Repair', description: 'Repair poorly scanned agreements, sharpening signatures and bleaching paper background to A4-pure white.', icon: 'file-check' },
-      { title: 'Handwritten Manuscripts Archive', description: 'Digitize written journals or diaries, extracting clear black strokes while erasing age-related stains.', icon: 'book' },
-      { title: 'Historical Ledger Restoration', description: 'Restore faint ink details on aged archival ledgers, rescuing valuable handwritten coordinates.', icon: 'archive' },
-    ],
-    faq: [
-      { question: 'How does this differ from normal grayscale conversion?', answer: 'Grayscale converts paper shadows into gray values. Our adaptive algorithm separates background luminance and isolates signature "ink spectrums," purifying the backdrop to absolute white while leaving stroke edges sharp.' },
-      { question: 'Will I lose handwriting stroke texture?', answer: 'No. The CLAHE algorithm works on a sub-pixel level, preserving natural pen-stroke pressure, ink fading, and dynamic line weights.' },
-      { question: 'Can I keep red corporate stamp marks?', answer: 'Yes. By enabling "Chroma Ink Preservation," the booster whitens paper background and darkens writing, while maintaining the bright colors of red seals and blue ink signatures.' },
-    ],
-  },
-  'pdf-spine-bookbinder': {
-    title: 'Calculate Book Spine Width',
-    metaDescription: 'Calculate book spine width based on page count and paper GSM, and generate a printable cover template with spine fold lines.',
-    keywords: ['book spine calculator', 'binding spine thickness', 'generate book cover pdf', 'spine fold marks', 'perfect binding prepress'],
-    description: `
-      <p>The PDF Spine Bookbinder is a pre-press savior for designers, self-publishing authors, and commercial bidding teams.</p>
-      <p>When compiling thick book catalogs, bidding proposals, or annual directories, perfect binding (glue binding) requires a cover with precise spine coordinates. If the spine width is off by even 1mm, the bound cover will warp, shift, or crease. Calculating page counts against paper weight is complex and error-prone.</p>
-      <p>This tool utilizes a <strong>physically modeled GSM paper-to-thickness library</strong>. Simply input your PDF page count and select paper stock (e.g. 80 GSM offset, 100 GSM glossy). The engine calculates spine width down to micrometers and compiles a print-ready, extra-wide cover PDF complete with standard front/back flaps and precise fold mark creases.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Set pages & stock type', description: 'Input document page count and select the target paper stock specifications.' },
-      { step: 2, title: 'Input spine text', description: 'Enter book titles, author details, and customize spine/cover backgrounds.' },
-      { step: 3, title: '3D Preview & Export', description: 'Spin and inspect your book cover in an interactive 3D binder. Export high-resolution vector PDF.' },
-    ],
-    useCases: [
-      { title: 'Thick Bidding Proposals', description: 'Design professional cover sheets with precise spine crease alignments for thick tender bids.', icon: 'layers' },
-      { title: 'Thesis Hardcover Binding', description: 'Map out perfect spine layout widths for university master/doctorate degree theses.', icon: 'award' },
-      { title: 'Self-Publishing Novel Covers', description: 'Calculate book spine width easily before submitting files to Print-on-Demand publishing services.', icon: 'book-open' },
-    ],
-    faq: [
-      { question: 'How accurate is the GSM paper-thickness calculation?', answer: 'Highly accurate. Our physics library matches industry averages (e.g. 70 GSM = 0.09mm, 80 GSM = 0.10mm, 150 GSM glossy = 0.125mm). We also include a "Double-sided printing" toggle to halve calculations automatically.' },
-      { question: 'Are the exported covers ready for direct printing?', answer: 'Yes. The files are vector-perfect PDFs carrying standard registration marks, color bars, and spine guides, fully compliant with offset and digital commercial presses.' },
-      { question: 'Can I upload a background image spanning the spine?', answer: 'Yes. You can upload custom layouts, and our compositor will wrap and align the graphics across the spine folds automatically.' },
-    ],
-  },
-  'pdf-signature-anchor-helper': {
-    title: 'Signature Position Guide',
-    metaDescription: 'Automatically locate signature fields in contracts, and inject interactive hovering guides and anchors for quick signing.',
-    keywords: ['locate signature pdf', 'inject sign anchor', 'contract signing helper', 'click to sign guide', 'prevent missing signatures'],
-    description: `
-      <p>The PDF Signature Guide Injector guarantees clean, error-free signing workflows for multi-page agreements.</p>
-      <p>When sending multi-page NDA agreements, financial statements, or commercial leases, clients often miss critical signing boxes, requiring endless back-and-forth email loops and delayed business transactions.</p>
-      <p>Our tool uses <strong>natural regex semantic mapping</strong>. It scans the PDF character map to locate terms like <code>Signature:</code>, <code>签字：</code>, <code>Witness:</code>, or <code>签署日期：</code>. It then leverages <code>pdf-lib</code> to inject standard PDF interactive Link annotations. When opened in any standard reader, clients see blinking, neon-bordered arrows that instantly guide them to the correct boxes, making signing foolproof.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Import business contract', description: 'Upload the PDF contract or NDA that needs signature coordinates.' },
-      { step: 2, title: 'Auto-scan signature slots', description: 'Inspect the automatically located signing boxes, and manually add custom sign points if needed.' },
-      { step: 3, title: 'Inject anchors & save', description: 'Click execute to write the interactive pointer layers into the PDF structure.' },
-    ],
-    useCases: [
-      { title: 'Corporate NDA Agreements', description: 'Inject clear, flashing guides next to sign blocks to prevent onboarding employees from missing clauses.', icon: 'file-text' },
-      { title: 'Commercial Lease Contracts', description: 'Guide multiple co-signers through multi-page real estate documents with custom-colored tabs.', icon: 'users' },
-      { title: 'Procurement PO Signatures', description: 'Overlay interactive pointers on invoices and purchase orders to accelerate accounting approval loops.', icon: 'briefcase' },
-    ],
-    faq: [
-      { question: 'Will these guides appear when I print the contract?', answer: 'No. The anchors are injected with the standard PDF `Printable` flag set to false. They display beautifully on computer/tablet screens but remain completely invisible when printed.' },
-      { question: 'Can clients jump between signature fields easily?', answer: 'Yes. We weave bidirectional internal anchors. Clients can click the "Sign Guide" bookmark to automatically jump to the next empty signature slot instantly.' },
-      { question: 'Does this work on scanned image documents?', answer: 'Yes. Besides looking up text streams, our spatial layout parser estimates signature lines based on horizontal rules and bounding boxes on scanned sheets.' },
-    ],
-  },
-  'pdf-lossless-slicer': {
-    title: 'Lossless Drawing Slicing',
-    metaDescription: 'Extract a partial region of large PDF CAD drawings, maps, or charts at a low-level, keeping vector resolution intact while dropping file size.',
-    keywords: ['pdf vector crop', 'lossless pdf slice', 'cad drawing crop', 'cropbox matrix edit', 'extract map region'],
-    description: `
-      <p>The PDF Lossless Drawing Slicer is a high-precision, surgical tool built for architects, engineers, and map detailers.</p>
-      <p>When extracting a specific pump room or chip core from a massive CAD engineering blueprint or geographic map PDF, traditional screenshots result in pixelated, blurry text. Normal cropping tools simply place a mask over the sheet, meaning the massive 100MB file remains huge, and hidden content can still be extracted.</p>
-      <p>This tool edits the page <code>/MediaBox</code>, <code>/CropBox</code>, and <code>/BleedBox</code> matrices at the object tree level. It physically isolates vector nodes outside the selected region, keeping the target area 100% vector-perfect (allowing infinite zoom magnification) while purging redundant off-screen paths and images to shrink the file size by 95%!</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Import large blueprint', description: 'Upload the vector-rich CAD, GIS map, or high-resolution catalog PDF.' },
-      { step: 2, title: 'Draw cutting box', description: 'Drag and scale the green laser-line crop box to target the local region you want to slice.' },
-      { step: 3, title: 'Trigger laser crop', description: 'Click execute to trigger our low-level object slicer and download the tiny, lossless PDF.' },
-    ],
-    useCases: [
-      { title: 'CAD Blueprint Isolation', description: 'Slice out a "cooling system" detail from a massive 100MB floor plan blueprint to share with sub-contractors.', icon: 'crop' },
-      { title: 'GIS Map Snipping', description: 'Extract a lossless, vector-clear block of a city street map for a presentation slide without resolution loss.', icon: 'map' },
-      { title: 'Manual Illustration Tracing', description: 'Lossless isolate scientific book figures to embed into high-quality academic papers.', icon: 'image' },
-    ],
-    faq: [
-      { question: 'How is this different from standard cropping?', answer: 'Standard cropping merely adjusts visual bounds; the hidden vectors remain in the file. Our slicer trims overlapping vector paths and purges out-of-bounds XObject images, ensuring complete data isolation and maximum file compression.' },
-      { question: 'Will text layers remain searchable?', answer: 'Yes. Any text characters that fall inside the sliced boundary remain fully vector-clear, searchable, and selectable.' },
-      { question: 'Can I export sliced regions to SVG?', answer: 'The output is a standardized vector PDF. You can pass the resulting file to our PDF-to-SVG tool to convert it to a web-scalable vector graphics format.' },
-    ],
-  },
-  'pdf-scratchpad-canvas': {
-    title: 'Grid Scratchpad Canvas',
-    metaDescription: 'Stitch high-quality grid, ruled, or Cornell note-taking margins to PDF pages for formula derivations and exam note preparation.',
-    keywords: ['pdf margin expand', 'add scratchpad page', 'cornell notes grid', 'stitch draft space', 'pdf notes template'],
-    description: `
-      <p>The PDF Scratchpad Margin Extender is an essential study companion tailored for students, researchers, and professional exam candidates.</p>
-      <p>When solving practice test papers, reviewing slides, or reading academic textbooks on digital tablets, page margins are incredibly tight. Opening a separate notes app forces you to toggle screens constantly, breaking focus. Adding flat blank sheets prevents you from viewing the problem and your calculation side-by-side.</p>
-      <p>This tool rewrites page width or height dimensions in the low-level PDF structure, expanding <code>/MediaBox</code> margins by 200~250 pt on the right or bottom. It then overlays clean grid lines, college-ruled notebook lines, or Cornell layouts in the new margins, giving you dedicated, adjacent draft boards next to every single slide or question!</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Upload lecture slides', description: 'Provide the PDF textbook, slides, or study papers.' },
-      { step: 2, title: 'Choose margin & grid style', description: 'Pick margin expansion direction (e.g. right side for tablets) and select the grid template.' },
-      { step: 3, title: 'Stitch canvas & download', description: 'Click execute to generate expanded pages complete with beautiful draft grids.' },
-    ],
-    useCases: [
-      { title: 'STEM Exam Preparation', description: 'Stitch grid margins next to math and physics exam questions, solving derivations right next to the question.', icon: 'edit-3' },
-      { title: 'Language Reading Analysis', description: 'Add ruled notebook margins next to foreign language essays for vocabulary analysis and paragraph translation.', icon: 'book' },
-      { title: 'Architectural Blueprint Audit', description: 'Add empty margin spaces on the side of blueprints for engineering calculations and client review comments.', icon: 'columns' },
-    ],
-    faq: [
-      { question: 'Will this squish my original PDF text?', answer: 'Not at all. The algorithm expands the paper dimension outwards. The original content retains its layout, fonts, and resolution; we simply stretch the white space on the borders and draw grids on them.' },
-      { question: 'Can standard hand-writing pens write in the scratchpad?', answer: 'Yes. The new PDF pages are compiled natively. Popular tablet note-taking applications like Goodnotes, Notability, Xodo, and Acrobat can write, highlight, and doodle directly in the new grid space.' },
-      { question: 'Are grid lines dark and distracting?', answer: 'We curated three subtle, eye-friendly colors (soft blue-gray, warm brown, and glowing green). The lines are thin and gentle, serving as guides without distracting you from the original page content.' },
-    ],
-  },
-  'photo-tiling-prepress': {
-    title: 'ID Photo DIY Print Tiler',
-    metaDescription: 'Crop and tile passport/ID photos onto standard 5" or 6" photo papers, and stamp precise prepress physical crop marks for easy cutting.',
-    keywords: ['id photo tiling', 'print passport photo', 'tile photo standard paper', 'id photo layout prepress', 'stamp crop marks'],
-    description: `
-      <p>The Prepress Photo Tiling tool is a cost-effective, high-precision layout compiler built for personal registration cards and photography studios.</p>
-      <p>Printing passport photos, ID photos, or driver licenses at home often results in incorrect physical dimensions (often printed too large or too small), wasted photo paper, and uneven alignments. Going to professional print shops to get layouts made is time-consuming.</p>
-      <p>Our tool integrates a <strong>precision prepress matrix engine</strong>. It accepts portrait photographs or ID card scans, crops them to standard dimensions (e.g. 1" or 2" passport specs), calculates optimal tile counts for standard photo papers (e.g. 5" or 6" sheets), and injects crisp, micro-pixel crop lines for easy physical cutting, generating a perfect printable PDF.</p>
-    `,
-    howToUse: [
-      { step: 1, title: 'Import passport photo', description: 'Upload the camera portrait snapshot or double-sided ID card images.' },
-      { step: 2, title: 'Configure paper & layout', description: 'Select the target print paper size (e.g. 6") and choose the grid layouts (e.g. 8 copies of 1" photos).' },
-      { step: 3, title: 'Tile and export', description: 'Inspect photo tiles on our grid, and export the high-DPI printable PDF.' },
-    ],
-    useCases: [
-      { title: 'Self-Service Passport Photos', description: 'Arrange your mobile-shot passport portraits onto a single 6" photo paper grid, and print 8 copies for a fraction of standard studio costs.', icon: 'user' },
-      { title: 'ID Card Double-sided Copy', description: 'Format front and back scans of national ID cards neatly on standard Letter/A4 sheets for official submissions.', icon: 'file-text' },
-      { title: 'Batch Photo Thumbnail Sheets', description: 'Tile multiple family memories or design snapshots onto a grid paper to print thumbnail contact sheets efficiently.', icon: 'grid' },
-    ],
-    faq: [
-      { question: 'Will the printed dimensions match official 1" or 2" specs?', answer: 'Yes. The grid engine measures using standard PDF points (72 pt = 1 inch), rendering 1" photos exactly at 25x35mm, and 2" photos at 35x49mm. Ensure you print at "Actual Size / 100% Scale" in your printer settings.' },
-      { question: 'Can I combine 1" and 2" photos on a single sheet?', answer: 'Yes. We provide curated hybrid layout presets (e.g. "4 copies of 1" + 4 copies of 2""), allowing you to maximize photo paper space.' },
-      { question: 'Does the template include border bleeds?', answer: 'Yes. The prepress layouts reserve a standard 4mm print-safe margin on the paper borders, preventing physical printer rollers from cropping the photos.' },
-    ],
-  },
+  "pdf-multi-tool": {
+    "title": "PDF Multi Tool",
+    "metaDescription": "ऑल-इन-वन PDF एडिटर: एक ही शक्तिशाली टूल में पेजों को मर्ज, स्प्लिट, व्यवस्थित, डिलीट, रोटेट और एक्सट्रैक्ट करें।",
+    "keywords": [
+      "pdf multi tool",
+      "pdf editor",
+      "merge pdf",
+      "split pdf",
+      "organize pdf",
+      "all in one pdf"
+    ],
+    "description": "\n      <p>PDF Multi Tool सभी PDF पेज प्रबंधन कार्यों के लिए आपका व्यापक समाधान है। यह शक्तिशाली ऑल-इन-वन टूल कई PDF ऑपरेशन्स को एक एकल, सहज इंटरफ़ेस में जोड़ता है, जिससे आपके समय और प्रयास की बचत होती है।</p>\n      <p>चाहे आपको कई दस्तावेज़ों को मर्ज करना हो, एक बड़े PDF को छोटी फ़ाइलों में विभाजित करना हो, पेजों को पुनर्व्यवस्थित करना हो, अवांछित सामग्री को हटाना हो, पेजों को रोटेट करना हो, या विशिष्ट अनुभागों को एक्सट्रैक्ट करना हो, यह टूल विभिन्न एप्लिकेशन के बीच स्विच किए बिना यह सब संभालता है।</p>\n      <p>सभी प्रोसेसिंग सीधे आपके ब्राउज़र में होती है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी और सुरक्षित रहें। कोई भी फ़ाइल किसी भी सर्वर पर अपलोड नहीं की जाती है।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल को अपलोड क्षेत्र में ड्रैग और ड्रॉप करें, या अपने डिवाइस से फ़ाइलों को ब्राउज़ और चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "अपना ऑपरेशन चुनें",
+        "description": "उपलब्ध ऑपरेशन्स में से चुनें: मर्ज, स्प्लिट, व्यवस्थित, पेज डिलीट, रोटेट, खाली पेज जोड़ें, या पेज एक्सट्रैक्ट करें।"
+      },
+      {
+        "step": 3,
+        "title": "ऑप्शंस कॉन्फ़िगर करें",
+        "description": "अपने चुने गए ऑपरेशन के अनुसार सेटिंग्स समायोजित करें, जैसे कि पेज रेंज, रोटेशन कोण, या मर्ज क्रम।"
+      },
+      {
+        "step": 4,
+        "title": "प्रोसेस करें और डाउनलोड करें",
+        "description": "प्रोसेस बटन पर क्लिक करें और ऑपरेशन पूरा होने के बाद अपने संशोधित PDF को डाउनलोड करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "दस्तावेज़ की तैयारी",
+        "description": "अनावश्यक पेजों को हटाकर, सामग्री को पुनर्व्यवस्थित करके और कई फ़ाइलों को जोड़कर सबमिशन के लिए दस्तावेज़ तैयार करें।",
+        "icon": "file-check"
+      },
+      {
+        "title": "रिपोर्ट असेंबली",
+        "description": "कई रिपोर्ट अनुभागों को जोड़ें, कवर पेज जोड़ें, और अध्यायों को एक पेशेवर दस्तावेज़ में व्यवस्थित करें।",
+        "icon": "book-open"
+      },
+      {
+        "title": "आर्काइव प्रबंधन",
+        "description": "बड़ी आर्काइव फ़ाइलों को प्रबंधनीय अनुभागों में विभाजित करें, प्रासंगिक पेजों को एक्सट्रैक्ट करें, और ऐतिहासिक दस्तावेज़ों को पुनर्व्यवस्थित करें।",
+        "icon": "archive"
+      }
+    ],
+    "faq": [
+      {
+        "question": "मैं एक बार में कितने PDF प्रोसेस कर सकता हूँ?",
+        "answer": "आप 500MB के संयुक्त अधिकतम आकार के साथ एक साथ 10 PDF फ़ाइलों तक अपलोड और प्रोसेस कर सकते हैं।"
+      },
+      {
+        "question": "क्या मेरे बुकमार्क सुरक्षित रहेंगे?",
+        "answer": "हाँ, PDF को मर्ज करते समय, यह टूल मौजूदा बुकमार्क्स को सुरक्षित रखता है और वैकल्पिक रूप से उन्हें एक एकीकृत बुकमार्क संरचना में जोड़ सकता है।"
+      },
+      {
+        "question": "क्या कोई पेज सीमा है?",
+        "answer": "कोई सख्त पेज सीमा नहीं है। यह टूल सैकड़ों पेजों वाले दस्तावेज़ों को संभाल सकता है, हालांकि बहुत बड़ी फ़ाइलों को प्रोसेस करने में अधिक समय लग सकता है।"
+      }
+    ]
+  },
+  "merge-pdf": {
+    "title": "Merge PDF",
+    "metaDescription": "कई PDF फ़ाइलों को एक दस्तावेज़ में जोड़ें। ड्रैग-एंड-ड्रॉप पुनर्व्यवस्था के साथ मुफ़्त ऑनलाइन PDF मर्जर।",
+    "keywords": [
+      "merge pdf",
+      "combine pdf",
+      "join pdf",
+      "pdf merger",
+      "concatenate pdf"
+    ],
+    "description": "\n      <p>Merge PDF आपको कई PDF दस्तावेज़ों को जल्दी और आसानी से एक ही फ़ाइल में जोड़ने की अनुमति देता है। चाहे आप रिपोर्ट को समेकित कर रहे हों, स्कैन किए गए दस्तावेज़ों को जोड़ रहे हों, या एक प्रेजेंटेशन तैयार कर रहे हों, यह टूल प्रक्रिया को निर्बाध बनाता है।</p>\n      <p>बस अपनी फ़ाइलों को अपलोड करें, ड्रैग-एंड-ड्रॉप का उपयोग करके उन्हें अपने वांछित क्रम में व्यवस्थित करें, और उन्हें एक एकजुट दस्तावेज़ में मर्ज करें। यह टूल आपकी मूल फ़ाइलों की गुणवत्ता को बनाए रखता है और वैकल्पिक रूप से प्रत्येक स्रोत दस्तावेज़ से बुकमार्क बनाए रख सकता है।</p>\n      <p>सभी मर्जिंग आपके ब्राउज़र में स्थानीय रूप से होती है, जिससे आपके संवेदनशील दस्तावेज़ों की पूर्ण गोपनीयता सुनिश्चित होती है।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "PDF फाइलें अपलोड करें",
+        "description": "अपलोड क्षेत्र में कई PDF फ़ाइलों को ड्रैग और ड्रॉप करें, या अपने डिवाइस से फ़ाइलों का चयन करने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "क्रम व्यवस्थित करें",
+        "description": "फ़ाइल थंबनेल को अपने वांछित क्रम में व्यवस्थित करने के लिए ड्रैग और ड्रॉप करें।"
+      },
+      {
+        "step": 3,
+        "title": "मर्ज करें और डाउनलोड करें",
+        "description": "सभी फ़ाइलों को जोड़ने के लिए मर्ज बटन पर क्लिक करें, फिर अपना मर्ज किया गया PDF डाउनलोड करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "रिपोर्ट्स को जोड़ें",
+        "description": "आसान वितरण और आर्काइविंग के लिए मासिक या त्रैमासिक रिपोर्टों को एक वार्षिक दस्तावेज़ में मर्ज करें।",
+        "icon": "file-text"
+      },
+      {
+        "title": "पोर्टफ़ोलियो बनाएं",
+        "description": "एक पेशेवर पोर्टफ़ोलियो में कई प्रोजेक्ट दस्तावेज़ों, प्रमाणपत्रों, या कार्य नमूनों को जोड़ें।",
+        "icon": "briefcase"
+      },
+      {
+        "title": "इनवॉइस समेकित करें",
+        "description": "अकाउंटिंग और रिकॉर्ड-कीपिंग उद्देश्यों के लिए कई इनवॉइस या रसीदों को एक दस्तावेज़ में मर्ज करें।",
+        "icon": "receipt"
+      }
+    ],
+    "faq": [
+      {
+        "question": "मैं कितने PDF मर्ज कर सकता हूँ?",
+        "answer": "आप 500MB तक के कुल संयुक्त आकार के साथ एक बार में 100 PDF फ़ाइलों तक मर्ज कर सकते हैं।"
+      },
+      {
+        "question": "क्या मर्ज किया गया PDF मूल गुणवत्ता बनाए रखेगा?",
+        "answer": "हाँ, मर्ज करने की प्रक्रिया बिना किसी कम्प्रेशन या गुणवत्ता हानि के सभी दस्तावेज़ों की मूल गुणवत्ता को बनाए रखती है।"
+      },
+      {
+        "question": "क्या मैं पासवर्ड-सुरक्षित PDF फ़ाइलों को मर्ज कर सकता हूँ?",
+        "answer": "पासवर्ड-सुरक्षित PDF फ़ाइलों को पहले डिक्रिप्ट करने की आवश्यकता होती है। मर्ज करने से पहले पासवर्ड हटाने के लिए हमारे Decrypt PDF टूल का उपयोग करें।"
+      }
+    ]
+  },
+  "rotate-custom": {
+    "title": "कस्टम डिग्री द्वारा रोटेट करें",
+    "metaDescription": "PDF पेजों को किसी भी कोण पर रोटेट करें। स्कैन किए गए दस्तावेज़ों को सीधा करने के लिए सटीक कस्टम रोटेशन।",
+    "keywords": [
+      "rotate pdf custom angle",
+      "straighten pdf",
+      "deskew pdf",
+      "pdf custom rotation"
+    ],
+    "description": "\n      <p>Rotate by Custom Degrees आपको आपके PDF पेज के ओरिएंटेशन पर सटीक नियंत्रण देता है। मानक रोटेशन टूल के विपरीत, जो केवल 90-डिग्री के अंतरालों का समर्थन करते हैं, यह टूल आपको पेजों को किसी भी विशिष्ट कोण पर रोटेट करने की अनुमति देता है।</p>\n      <p>थोड़े तिरछे स्कैन किए गए दस्तावेज़ों को सीधा करने, या आरेखों और चार्टों को उनके सही ओरिएंटेशन में समायोजित करने के लिए आदर्श। आप अलग-अलग पेजों को सही कर सकते हैं या पूरे दस्तावेज़ पर समान रोटेशन लागू कर सकते हैं।</p>\n      <p>सही अलाइनमेंट प्राप्त करते हुए आपके दस्तावेज़ों की गोपनीयता बनाए रखने के लिए सभी प्रोसेसिंग आपके ब्राउज़र में स्थानीय रूप से होती है।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "PDF अपलोड करें",
+        "description": "वह PDF फ़ाइल अपलोड करें जिसमें वे पेज शामिल हैं जिन्हें आपको रोटेट करने की आवश्यकता है।"
+      },
+      {
+        "step": 2,
+        "title": "रोटेशन कोण सेट करें",
+        "description": "प्रत्येक पृष्ठ के लिए घुमाव का सटीक कोण दर्ज करें, या सभी पृष्ठों के लिए एक बैच कोण सेट करें।"
+      },
+      {
+        "step": 3,
+        "title": "पूर्वावलोकन और समायोजन करें",
+        "description": "यह सुनिश्चित करने के लिए कि पृष्ठ पूरी तरह से संरेखित हैं, वास्तविक समय पूर्वावलोकन का उपयोग करें।"
+      },
+      {
+        "step": 4,
+        "title": "लागू करें और डाउनलोड करें",
+        "description": "परिवर्तनों को लागू करने और अपने सीधे किए गए PDF को डाउनलोड करने के लिए Rotate पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "स्कैन किए गए दस्तावेज़",
+        "description": "उन स्कैन किए गए पृष्ठों को सीधा करें जिन्हें स्कैनर में कोण पर डाला गया था।",
+        "icon": "scan"
+      },
+      {
+        "title": "तकनीकी रेखाचित्र",
+        "description": "तकनीकी आरेखों और योजनाओं के ओरिएंटेशन को सटीकता के साथ समायोजित करें।",
+        "icon": "ruler"
+      },
+      {
+        "title": "रचनात्मक लेआउट",
+        "description": "पृष्ठों को विशिष्ट कलात्मक कोणों पर घुमाकर अद्वितीय लेआउट बनाएं।",
+        "icon": "pen-tool"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या मैं दशमलव द्वारा घुमा सकता हूँ, जैसे 45.5 डिग्री?",
+        "answer": "वर्तमान में यह टूल पूर्णांक डिग्री का समर्थन करता है, लेकिन हम दशमलव सटीकता को सक्षम करने पर काम कर रहे हैं।"
+      },
+      {
+        "question": "क्या इससे पृष्ठ की सामग्री प्रभावित होती है?",
+        "answer": "सामग्री दृश्य रूप से घुमाई जाती है। घुमाई गई सामग्री को फिट करने के लिए पृष्ठ का आकार स्वचालित रूप से समायोजित हो जाता है।"
+      },
+      {
+        "question": "क्या मैं केवल एक पृष्ठ को घुमा सकता हूँ?",
+        "answer": "हाँ, आप अन्य पृष्ठों को अपरिवर्तित रखते हुए किसी भी व्यक्तिगत पृष्ठ के लिए एक कस्टम घुमाव कोण सेट कर सकते हैं।"
+      }
+    ]
+  },
+  "grid-combine": {
+    "title": "Grid Combine PDF",
+    "metaDescription": "एक लचीले ग्रिड लेआउट के साथ कई PDF फ़ाइलों को एकल पृष्ठों पर संयोजित करें। बॉर्डर और स्पेसिंग के साथ प्रति पृष्ठ 2, 4, 6, 9 या अधिक PDFs व्यवस्थित करें।",
+    "keywords": [
+      "grid combine",
+      "merge pdf grid",
+      "pdf collage",
+      "multiple pdfs one page",
+      "pdf n-up",
+      "combine pdfs grid"
+    ],
+    "description": "\n      <p>Grid Combine टूल कई अलग-अलग PDF फ़ाइलों को एकल पृष्ठों पर मर्ज करने का एक अनूठा तरीका प्रदान करता है। मानक \"Merge PDF\" टूल के विपरीत जो केवल पृष्ठों को जोड़ता है, या \"N-Up\" टूल जो किसी एकल दस्तावेज़ से पृष्ठों को पुनर्व्यवस्थित करता है, Grid Combine कई इनपुट फ़ाइलों को लेता है और उन्हें एक कस्टमाइज़ योग्य ग्रिड लेआउट में साथ-साथ व्यवस्थित करता है।</p>\n      <p>आप विभिन्न ग्रिड कॉन्फ़िगरेशन जैसे 2x1, 2x2, 3x3 आदि में से चुन सकते हैं। यह कई दस्तावेज़ों की तुलना करने, विभिन्न स्रोतों से हैंडआउट्स बनाने, या कई फ़ाइलों के कॉम्पैक्ट संस्करणों को प्रिंट करने के लिए एकदम सही है।</p>\n      <p>पृष्ठ आकार, ओरिएंटेशन, मार्जिन, स्पेसिंग और बॉर्डर पर नियंत्रण के साथ आउटपुट को कस्टमाइज़ करें। अधिकतम गोपनीयता के लिए सभी प्रोसेसिंग आपके ब्राउज़र में स्थानीय रूप से होती है।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "PDF फाइलें अपलोड करें",
+        "description": "दो या अधिक PDF फ़ाइलें अपलोड करें जिन्हें आप संयोजित करना चाहते हैं। आप उन्हें अपने वांछित क्रम में पुनर्व्यवस्थित कर सकते हैं।"
+      },
+      {
+        "step": 2,
+        "title": "ग्रिड लेआउट चुनें",
+        "description": "अपना वांछित ग्रिड लेआउट चुनें (उदा. प्रति पृष्ठ 4 फ़ाइलों के लिए 2x2, प्रति पृष्ठ 9 फ़ाइलों के लिए 3x3)।"
+      },
+      {
+        "step": 3,
+        "title": "उपस्थिति कस्टमाइज़ करें",
+        "description": "पृष्ठ आकार (A4, Letter), ओरिएंटेशन, आइटमों के बीच स्पेसिंग और बॉर्डर जैसी सेटिंग्स को समायोजित करें।"
+      },
+      {
+        "step": 4,
+        "title": "संयोजित करें और डाउनलोड करें",
+        "description": "अपना नया ग्रिड लेआउट दस्तावेज़ उत्पन्न करने और परिणाम डाउनलोड करने के लिए \"Combine PDFs\" पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "दृश्य तुलना",
+        "description": "आसानी से तुलना करने के लिए किसी डिज़ाइन या दस्तावेज़ के विभिन्न संस्करणों को एक ही पृष्ठ पर पास-पास रखें।",
+        "icon": "layout-grid"
+      },
+      {
+        "title": "हैंडआउट्स प्रिंट करना",
+        "description": "प्रिंटिंग लागत बचाने के लिए कागज़ की एक ही शीट पर कई छोटे दस्तावेज़ों या स्लाइडों को संयोजित करें।",
+        "icon": "printer"
+      },
+      {
+        "title": "पोर्टफोलियो निर्माण",
+        "description": "एक साफ़, व्यवस्थित ग्रिड ओवरव्यू में कई प्रोजेक्ट फ़ाइलों को प्रदर्शित करें।",
+        "icon": "image"
+      }
+    ],
+    "faq": [
+      {
+        "question": "यह N-Up से किस प्रकार भिन्न है?",
+        "answer": "N-Up एक ही PDF से पृष्ठ लेता है और उन्हें एक शीट पर रखता है। Grid Combine कई अलग-अलग PDF फ़ाइलों को लेता है और उन्हें एक शीट पर रखता है।"
+      },
+      {
+        "question": "मैं कितनी फ़ाइलों को संयोजित कर सकता हूँ?",
+        "answer": "आप अपने ब्राउज़र की मेमोरी के आधार पर 100 फ़ाइलों तक संयोजित कर सकते हैं, लेकिन 4x4 जैसे लेआउट प्रति पृष्ठ 16 फ़ाइलों तक समाहित करते हैं।"
+      },
+      {
+        "question": "क्या मैं बॉर्डर जोड़ सकता हूँ?",
+        "answer": "हाँ, आप प्रत्येक PDF फ़ाइल के चारों ओर बॉर्डर जोड़ सकते हैं और बॉर्डर का रंग कस्टमाइज़ कर सकते हैं।"
+      }
+    ]
+  },
+  "split-pdf": {
+    "title": "PDF विभाजित करें",
+    "metaDescription": "PDF फ़ाइलों को कई दस्तावेज़ों में विभाजित करें। विशिष्ट पृष्ठों को निकालें या पृष्ठ श्रेणियों द्वारा विभाजित करें।",
+    "keywords": [
+      "split pdf",
+      "divide pdf",
+      "separate pdf",
+      "extract pages",
+      "pdf splitter"
+    ],
+    "description": "\n      <p>Split PDF आपको एकल PDF दस्तावेज़ को कई छोटे फ़ाइलों में विभाजित करने में सक्षम बनाता है। यह विशिष्ट अध्यायों को निकालने, संयुक्त दस्तावेज़ों को अलग करने, या बहु-पृष्ठ PDF से व्यक्तिगत फ़ाइलें बनाने के लिए एकदम सही है।</p>\n      <p>आप विशिष्ट पृष्ठ श्रेणियों द्वारा विभाजित कर सकते हैं, व्यक्तिगत पृष्ठ निकाल सकते हैं, या नियमित अंतरालों पर दस्तावेज़ को विभाजित कर सकते हैं। यह टूल आपके पृष्ठों का एक दृश्य पूर्वावलोकन प्रदान करता है, जिससे आपको ठीक वही चुनने में आसानी होती है जिसकी आपको आवश्यकता है।</p>\n      <p>अधिकतम गोपनीयता और सुरक्षा सुनिश्चित करते हुए सभी प्रोसेसिंग आपके ब्राउज़र में स्थानीय रूप से की जाती है।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल को खींचें और छोड़ें (drag and drop) या जिस फ़ाइल को आप विभाजित करना चाहते हैं उसे ब्राउज़ करने और चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "विभाजन विधि चुनें",
+        "description": "विभाजित करने का तरीका चुनें: पृष्ठ श्रेणियों द्वारा, विशिष्ट पृष्ठों को निकालें, या नियमित अंतरालों पर विभाजित करें।"
+      },
+      {
+        "step": 3,
+        "title": "पृष्ठ श्रेणियां परिभाषित करें",
+        "description": "वे पृष्ठ संख्याएं या श्रेणियां दर्ज करें जिन्हें आप निकालना चाहते हैं (उदा. 1-5, 8, 10-15)।"
+      },
+      {
+        "step": 4,
+        "title": "विभाजित करें और डाउनलोड करें",
+        "description": "अपनी नई PDF फ़ाइलें बनाने और उन्हें व्यक्तिगत रूप से या एक ZIP संग्रह के रूप में डाउनलोड करने के लिए Split पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "अध्याय निकालें",
+        "description": "आसान पढ़ने या वितरण के लिए किसी पुस्तक या मैनुअल को अलग-अलग अध्यायों में विभाजित करें।",
+        "icon": "book"
+      },
+      {
+        "title": "संयुक्त स्कैन अलग करें",
+        "description": "एक बैच-स्कैन किए गए दस्तावेज़ को प्रत्येक मूल दस्तावेज़ के लिए अलग-अलग फ़ाइलों में विभाजित करें।",
+        "icon": "copy"
+      },
+      {
+        "title": "हैंडआउट बनाएं",
+        "description": "फोकस्ड हैंडआउट बनाने के लिए किसी प्रेजेंटेशन से विशिष्ट स्लाइड या पृष्ठ निकालें।",
+        "icon": "presentation"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या मैं एक PDF को अलग-अलग पृष्ठों में विभाजित कर सकता हूं?",
+        "answer": "हां, आप \"Split every page\" विकल्प चुनकर एक PDF को अलग-अलग एकल-पृष्ठ फ़ाइलों में विभाजित कर सकते हैं।"
+      },
+      {
+        "question": "विभाजन करते समय बुकमार्क का क्या होता है?",
+        "answer": "निकालने गए पृष्ठ सीमा के अंतर्गत आने वाले बुकमार्क परिणामी PDF फ़ाइलों में सुरक्षित रहते हैं।"
+      },
+      {
+        "question": "क्या मैं पासवर्ड से सुरक्षित PDF को विभाजित कर सकता हूं?",
+        "answer": "विभाजित करने से पहले आपको हमारे Decrypt PDF टूल का उपयोग करके PDF को पहले डिक्रिप्ट करना होगा।"
+      }
+    ]
+  },
+  "compress-pdf": {
+    "title": "PDF कंप्रेस करें",
+    "metaDescription": "गुणवत्ता बनाए रखते हुए PDF फ़ाइल का आकार कम करें। छोटी फ़ाइलों के लिए मुफ़्त ऑनलाइन PDF कंप्रेसर।",
+    "keywords": [
+      "compress pdf",
+      "reduce pdf size",
+      "pdf compressor",
+      "shrink pdf",
+      "optimize pdf"
+    ],
+    "description": "<p>Compress PDF स्वीकार्य गुणवत्ता बनाए रखते हुए आपके PDF दस्तावेज़ों का फ़ाइल आकार कम करता है। यह ईमेल अटैचमेंट, वेब अपलोड या स्टोरेज स्पेस बचाने के लिए आवश्यक है।</p><p>यह टूल फ़ाइल का आकार घटाने और गुणवत्ता बनाए रखने के बीच संतुलन बनाने के लिए कई कंप्रेशन स्तर प्रदान करता है। आप अधिकतम आकार घटाने के लिए आक्रामक कंप्रेशन या उच्च गुणवत्ता बनाए रखने के लिए हल्का कंप्रेशन चुन सकते हैं।</p><p>सभी कंप्रेशन आपके ब्राउज़र में होते हैं, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ कभी आपके डिवाइस से बाहर न जाएं।</p>",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल को ड्रैग और ड्रॉप करें या उस दस्तावेज़ को चुनने के लिए क्लिक करें जिसे आप कंप्रेस करना चाहते हैं।"
+      },
+      {
+        "step": 2,
+        "title": "कंप्रेशन स्तर चुनें",
+        "description": "अपना पसंदीदा कंप्रेशन स्तर चुनें: निम्न (सर्वोत्तम गुणवत्ता), मध्यम (संतुलित), या उच्च (सबसे छोटा आकार)।"
+      },
+      {
+        "step": 3,
+        "title": "कंप्रेस करें और डाउनलोड करें",
+        "description": "फ़ाइल का आकार कम करने के लिए कंप्रेस पर क्लिक करें, फिर अपना अनुकूलित PDF डाउनलोड करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "ईमेल अटैचमेंट",
+        "description": "ईमेल अटैचमेंट सीमाओं को पूरा करने और तेज़ डिलीवरी सुनिश्चित करने के लिए PDF आकार कम करें।",
+        "icon": "mail"
+      },
+      {
+        "title": "वेब पब्लिशिंग",
+        "description": "पृष्ठ लोड समय और उपयोगकर्ता अनुभव में सुधार के लिए वेब डाउनलोड के लिए PDF को अनुकूलित करें।",
+        "icon": "globe"
+      },
+      {
+        "title": "स्टोरेज ऑप्टिमाइजेशन",
+        "description": "पहुंच-योग्यता बनाए रखते हुए डिस्क स्थान बचाने के लिए आर्काइव किए गए दस्तावेज़ों को कंप्रेस करें।",
+        "icon": "hard-drive"
+      }
+    ],
+    "faq": [
+      {
+        "question": "मैं फ़ाइल का आकार कितना कम कर सकता हूं?",
+        "answer": "कंप्रेशन के परिणाम PDF सामग्री के आधार पर भिन्न होते हैं। छवियों से भरे PDF को अक्सर 50-80% तक कम किया जा सकता है, जबकि केवल पाठ वाले PDF में कम कमी देखी जा सकती है।"
+      },
+      {
+        "question": "क्या कंप्रेशन से टेक्स्ट की गुणवत्ता प्रभावित होगी?",
+        "answer": "सभी कंप्रेशन स्तरों पर टेक्स्ट स्पष्ट और पढ़ने योग्य रहता है। कंप्रेशन से केवल छवियां और ग्राफिक्स प्रभावित होते हैं।"
+      },
+      {
+        "question": "क्या मैं एक साथ कई PDF कंप्रेस कर सकता हूं?",
+        "answer": "हां, आप एक साथ 10 तक PDF फ़ाइलें अपलोड और कंप्रेस कर सकते हैं।"
+      }
+    ]
+  },
+  "edit-pdf": {
+    "title": "PDF संपादित करें",
+    "metaDescription": "PDF फ़ाइलों को ऑनलाइन संपादित करें। अपने दस्तावेज़ों में टेक्स्ट, छवियां, एनोटेशन, हाइलाइट और आकार जोड़ें।",
+    "keywords": [
+      "edit pdf",
+      "pdf editor",
+      "annotate pdf",
+      "add text to pdf",
+      "pdf markup"
+    ],
+    "description": "<p>Edit PDF आपके PDF दस्तावेज़ों को संशोधित और एनोटेट करने के लिए टूल का एक व्यापक सेट प्रदान करता है। महंगे डेस्कटॉप सॉफ़्टवेयर की आवश्यकता के बिना टेक्स्ट, छवियां, आकार, हाइलाइट्स, टिप्पणियां और बहुत कुछ जोड़ें।</p><p>सहज एडिटर इंटरफ़ेस समीक्षा के लिए दस्तावेज़ों को चिह्नित करना, सहयोग के लिए नोट्स जोड़ना, संवेदनशील जानकारी को छिपाना (redact), या अतिरिक्त सामग्री के साथ दस्तावेज़ों को बेहतर बनाना आसान बनाता है।</p><p>सभी संपादन आपके ब्राउज़र में स्थानीय रूप से होते हैं, जिससे आपके संवेदनशील दस्तावेज़ों के लिए पूर्ण गोपनीयता सुनिश्चित होती है।</p>",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल को ड्रैग और ड्रॉप करें या उस दस्तावेज़ को चुनने के लिए क्लिक करें जिसे आप संपादित करना चाहते हैं।"
+      },
+      {
+        "step": 2,
+        "title": "संपादन टूल चुनें",
+        "description": "टूलबार से चुनें: टेक्स्ट, हाइलाइट, शेप्स, इमेज, कमेंट्स या रिडैक्शन टूल।"
+      },
+      {
+        "step": 3,
+        "title": "अपने संपादन करें",
+        "description": "एनोटेशन जोड़ने के लिए दस्तावेज़ पर क्लिक करें, तत्वों को स्थिति में लाने के लिए ड्रैग करें, और कस्टमाइज़ करने के लिए प्रॉपर्टीज़ पैनल का उपयोग करें।"
+      },
+      {
+        "step": 4,
+        "title": "सहेजें और डाउनलोड करें",
+        "description": "अपने परिवर्तनों को लागू करने के लिए सहेजें पर क्लिक करें और संपादित PDF डाउनलोड करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "दस्तावेज़ समीक्षा",
+        "description": "सहयोगी समीक्षा प्रक्रियाओं के लिए दस्तावेज़ों में टिप्पणियां, हाइलाइट्स और मार्कअप जोड़ें।",
+        "icon": "message-square"
+      },
+      {
+        "title": "फ़ॉर्म भरना",
+        "description": "बिना प्रिंट किए टेक्स्ट फ़ील्ड भरें, हस्ताक्षर जोड़ें और PDF फ़ॉर्म पूरे करें।",
+        "icon": "edit-3"
+      },
+      {
+        "title": "सामग्री रिडैक्शन",
+        "description": "साझा करने से पहले दस्तावेज़ों से संवेदनशील जानकारी को स्थायी रूप से हटाएं।",
+        "icon": "eye-off"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या मैं PDF में मूल टेक्स्ट को संपादित कर सकता हूं?",
+        "answer": "हां। PDF टूलबार में Edit text चुनें, किसी मौजूदा टेक्स्ट ब्लॉक पर क्लिक करें, प्रतिस्थापन दर्ज करें, और इसे लागू करें। एक्सपोर्ट किए गए PDF में टेक्स्ट को स्थायी रूप से बदल दिया जाता है।"
+      },
+      {
+        "question": "क्या मेरे संपादन स्थायी हैं?",
+        "answer": "आपकी पसंद के अनुसार टिप्पणियों को स्थायी बनाने के लिए फ़्लैट किया जा सकता है, या संपादन योग्य परतों के रूप में रखा जा सकता है।"
+      },
+      {
+        "question": "क्या मैं अपने परिवर्तनों को पूर्ववत (undo) कर सकता हूँ?",
+        "answer": "हाँ, एडिटर अनडू/रीडू फ़ंक्शनैलिटी का समर्थन करता है। आप सहेजने से पहले किसी भी समय मूल दस्तावेज़ पर रीसेट भी कर सकते हैं।"
+      }
+    ]
+  },
+  "jpg-to-pdf": {
+    "title": "JPG से PDF",
+    "metaDescription": "JPG छवियों को PDF में बदलें। कई JPG फ़ाइलों को एक ही PDF दस्तावेज़ में संयोजित करें।",
+    "keywords": [
+      "jpg to pdf",
+      "jpeg to pdf",
+      "convert jpg",
+      "image to pdf",
+      "photo to pdf"
+    ],
+    "description": "\n      <p>JPG to PDF आपकी JPEG छवियों को जल्दी और आसानी से PDF दस्तावेज़ों में परिवर्तित करता है। चाहे आपके पास एक फोटो हो या कई छवियां, यह टूल पेशेवर दिखने वाली PDF फ़ाइलें बनाता है।</p>\n      <p>आप कई JPG फ़ाइलों को एक ही PDF में संयोजित कर सकते हैं, उन्हें किसी भी क्रम में व्यवस्थित कर सकते हैं, और पृष्ठ आकार तथा ओरिएंटेशन को कस्टमाइज़ कर सकते हैं। यह रूपांतरण कॉम्पैक्ट, शेयर करने योग्य PDF फ़ाइलें बनाते समय छवि गुणवत्ता को बनाए रखता है।</p>\n      <p>सभी रूपांतरण आपके ब्राउज़र में होते हैं, जिससे यह सुनिश्चित होता है कि आपकी तस्वीरें निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "JPG छवियां अपलोड करें",
+        "description": "अपनी JPG फ़ाइलों को ड्रैग और ड्रॉप करें या अपने डिवाइस से छवियों का चयन करने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "व्यवस्थित करें और कॉन्फ़िगर करें",
+        "description": "ड्रैग करके छवियों को पुनर्व्यवस्थित करें, और पेज आकार तथा ओरिएंटेशन विकल्प चुनें।"
+      },
+      {
+        "step": 3,
+        "title": "कन्वर्ट करें और डाउनलोड करें",
+        "description": "अपनी PDF बनाने और परिणाम डाउनलोड करने के लिए कन्वर्ट पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "फ़ोटो एल्बम",
+        "description": "आसानी से शेयर करने के लिए छुट्टियों की तस्वीरों या इवेंट फ़ोटो से PDF फ़ोटो एल्बम बनाएं।",
+        "icon": "image"
+      },
+      {
+        "title": "दस्तावेज़ स्कैनिंग",
+        "description": "दस्तावेज़ों की फोन कैमरा फ़ोटो को उचित PDF फ़ाइलों में बदलें।",
+        "icon": "camera"
+      },
+      {
+        "title": "पोर्टफोलियो निर्माण",
+        "description": "फ़ोटोग्राफ़ी कार्य या डिज़ाइन नमूनों को एक पेशेवर PDF पोर्टफोलियो में संकलित करें।",
+        "icon": "folder"
+      }
+    ],
+    "faq": [
+      {
+        "question": "मैं कितनी छवियों को कन्वर्ट कर सकता हूँ?",
+        "answer": "आप 100 तक JPG छवियों को एक ही PDF दस्तावेज़ में कन्वर्ट कर सकते हैं।"
+      },
+      {
+        "question": "क्या छवि की गुणवत्ता सुरक्षित रहेगी?",
+        "answer": "हाँ, छवियां अपनी मूल गुणवत्ता में एम्बेड की जाती हैं। फ़ाइल का आकार घटाने के लिए आप वैकल्पिक रूप से उन्हें कंप्रेस भी कर सकते हैं।"
+      },
+      {
+        "question": "क्या मैं अलग-अलग छवियों के लिए अलग-अलग पेज आकार सेट कर सकता हूँ?",
+        "answer": "टूल सभी पृष्ठों पर एक समान पेज आकार लागू करता है। आस्पेक्ट रेशियो बनाए रखते हुए प्रत्येक छवि को चयनित पेज आकार में फ़िट करने के लिए स्केल किया जाता है।"
+      }
+    ]
+  },
+  "sign-pdf": {
+    "title": "PDF पर हस्ताक्षर करें",
+    "metaDescription": "PDF दस्तावेज़ों में इलेक्ट्रॉनिक हस्ताक्षर जोड़ें। अपना हस्ताक्षर ड्रा करें, टाइप करें या अपलोड करें।",
+    "keywords": [
+      "sign pdf",
+      "electronic signature",
+      "e-signature",
+      "pdf signature",
+      "digital signature"
+    ],
+    "description": "\n      <p>Sign PDF आपको अपने PDF दस्तावेज़ों में जल्दी और सुरक्षित रूप से इलेक्ट्रॉनिक हस्ताक्षर जोड़ने की अनुमति देता है। ड्राइंग, टाइपिंग या छवि अपलोड करके अपना हस्ताक्षर बनाएं, फिर इसे अपने दस्तावेज़ पर कहीं भी रखें।</p>\n      <p>आप एक ही दस्तावेज़ में कई हस्ताक्षर जोड़ सकते हैं, उन्हें ठीक से रीसाइज़ और पोजीशन कर सकते हैं, और भविष्य के उपयोग के लिए अपने हस्ताक्षर को सहेज सकते हैं। यह टूल अनुबंधों, समझौतों, फॉर्मों और आपके हस्ताक्षर की आवश्यकता वाले किसी भी दस्तावेज़ के लिए आदर्श है।</p>\n      <p>सभी हस्ताक्षर आपके ब्राउज़र में स्थानीय रूप से होते हैं, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ और हस्ताक्षर निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल ड्रैग और ड्रॉप करें या उस दस्तावेज़ को चुनने के लिए क्लिक करें जिस पर आपको हस्ताक्षर करने हैं।"
+      },
+      {
+        "step": 2,
+        "title": "अपना हस्ताक्षर बनाएं",
+        "description": "माउस या टच से अपना हस्ताक्षर ड्रा करें, हस्ताक्षर जेनरेट करने के लिए अपना नाम टाइप करें, या एक हस्ताक्षर छवि अपलोड करें।"
+      },
+      {
+        "step": 3,
+        "title": "रखें और समायोजित करें",
+        "description": "अपना हस्ताक्षर रखने के लिए दस्तावेज़ पर क्लिक करें, फिर आवश्यकतानुसार स्थिति बदलने और रीसाइज़ करने के लिए ड्रैग करें।"
+      },
+      {
+        "step": 4,
+        "title": "सहेजें और डाउनलोड करें",
+        "description": "अपना हस्ताक्षर लागू करने और हस्ताक्षरयुक्त PDF डाउनलोड करने के लिए सेव पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "अनुबंध हस्ताक्षर",
+        "description": "प्रिंट और स्कैन किए बिना अनुबंधों और समझौतों पर इलेक्ट्रॉनिक रूप से हस्ताक्षर करें।",
+        "icon": "file-signature"
+      },
+      {
+        "title": "फ़ॉर्म भरना",
+        "description": "आवेदन फॉर्मों, सहमति फॉर्मों और आधिकारिक दस्तावेज़ों में अपना हस्ताक्षर जोड़ें।",
+        "icon": "clipboard"
+      },
+      {
+        "title": "स्वीकृति वर्कफ़्लो",
+        "description": "समीक्षा और स्वीकृति प्रक्रियाओं के हिस्से के रूप में दस्तावेज़ों पर हस्ताक्षर करें।",
+        "icon": "check-circle"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या इलेक्ट्रॉनिक हस्ताक्षर कानूनी रूप से बाध्यकारी है?",
+        "answer": "अधिकांश देशों में इलेक्ट्रॉनिक हस्ताक्षर कानूनी रूप से मान्य हैं। हालाँकि, कुछ दस्तावेज़ों के लिए विशिष्ट प्रकार के डिजिटल हस्ताक्षर की आवश्यकता हो सकती है। अपने स्थानीय नियमों की जाँच करें।"
+      },
+      {
+        "question": "क्या मैं भविष्य में उपयोग के लिए अपना हस्ताक्षर सहेज सकता हूँ?",
+        "answer": "हाँ, आप भविष्य के दस्तावेज़ों पर हस्ताक्षर करते समय तुरंत पहुँच के लिए अपने हस्ताक्षर को अपने ब्राउज़र के स्थानीय स्टोरेज में सहेज सकते हैं।"
+      },
+      {
+        "question": "क्या मैं एक ही दस्तावेज़ में कई हस्ताक्षर जोड़ सकता हूँ?",
+        "answer": "हाँ, आप आवश्यकतानुसार जितने चाहें उतने हस्ताक्षर जोड़ सकते हैं, और प्रत्येक को किसी भी पृष्ठ पर स्वतंत्र रूप से रख सकते हैं।"
+      }
+    ]
+  },
+  "crop-pdf": {
+    "title": "PDF क्रॉप करें",
+    "metaDescription": "मार्जिन और अवांछित क्षेत्रों को हटाने के लिए PDF पृष्ठों को क्रॉप करें। PDF दस्तावेज़ों को सटीक रूप से ट्रिम करें।",
+    "keywords": [
+      "crop pdf",
+      "trim pdf",
+      "cut pdf margins",
+      "resize pdf pages",
+      "pdf cropper"
+    ],
+    "description": "\n      <p>Crop PDF आपको अपने PDF पृष्ठों से मार्जिन ट्रिम करने और अवांछित क्षेत्रों को हटाने की अनुमति देता है। यह अतिरिक्त खाली जगह (whitespace) को हटाने, विशिष्ट सामग्री क्षेत्रों पर ध्यान केंद्रित करने, या पेज के आयामों को मानकीकृत करने के लिए उपयोगी है।</p>\n      <p>आप सभी पृष्ठों को एक समान रूप से क्रॉप कर सकते हैं या प्रत्येक पृष्ठ को व्यक्तिगत रूप से समायोजित कर सकते हैं। दृश्य इंटरफ़ेस ठीक दिखाता है कि क्या रखा जाएगा, जिससे सटीक परिणाम प्राप्त करना आसान हो जाता है।</p>\n      <p>सभी क्रॉपिंग आपके ब्राउज़र में स्थानीय रूप से होती है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल ड्रैग और ड्रॉप करें या जिस दस्तावेज़ को आप क्रॉप करना चाहते हैं उसे चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "क्रॉप क्षेत्र परिभाषित करें",
+        "description": "जिस क्षेत्र को आप रखना चाहते हैं उसे परिभाषित करने के लिए क्रॉप हैंडल खींचें, या सटीक माप दर्ज करें।"
+      },
+      {
+        "step": 3,
+        "title": "पृष्ठों पर लागू करें",
+        "description": "सभी पृष्ठों पर क्रॉप लागू करना चुनें या क्रॉप करने के लिए विशिष्ट पृष्ठों का चयन करें।"
+      },
+      {
+        "step": 4,
+        "title": "क्रॉप करें और डाउनलोड करें",
+        "description": "परिवर्तनों को लागू करने और अपने क्रॉप किए गए PDF को डाउनलोड करने के लिए क्रॉप पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "मार्जिन हटाएं",
+        "description": "स्कैन किए गए दस्तावेज़ों या बड़े बॉर्डर वाले PDF से अत्यधिक मार्जिन छांटें।",
+        "icon": "maximize-2"
+      },
+      {
+        "title": "सामग्री पर ध्यान केंद्रित करें",
+        "description": "हेडर, फुटर या साइडबार को हटाकर विशिष्ट सामग्री क्षेत्रों को हाइलाइट करने के लिए क्रॉप करें।",
+        "icon": "target"
+      },
+      {
+        "title": "पृष्ठों को मानकीकृत करें",
+        "description": "एकसमान आयामों में क्रॉप करके सभी पृष्ठों को एक ही आकार का बनाएं।",
+        "icon": "square"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या क्रॉप करने से सामग्री स्थायी रूप से हट जाती है?",
+        "answer": "हाँ, क्रॉप करने से क्रॉप क्षेत्र के बाहर की सामग्री हट जाती है। अपनी मूल फ़ाइल का बैकअप रखना सुनिश्चित करें।"
+      },
+      {
+        "question": "क्या मैं अलग-अलग पृष्ठों को अलग-अलग तरह से क्रॉप कर सकता हूँ?",
+        "answer": "हाँ, आप व्यक्तिगत पृष्ठों या पृष्ठों के समूहों पर अलग-अलग क्रॉप सेटिंग्स लागू कर सकते हैं।"
+      },
+      {
+        "question": "क्या क्रॉप करने से टेक्स्ट की गुणवत्ता प्रभावित होगी?",
+        "answer": "नहीं, क्रॉप करने से केवल क्रॉप सीमा के बाहर के क्षेत्र हटते हैं। शेष सामग्री अपनी मूल गुणवत्ता बनाए रखती है।"
+      }
+    ]
+  },
+  "extract-pages": {
+    "title": "पृष्ठ निकालें",
+    "metaDescription": "PDF फ़ाइलों से विशिष्ट पृष्ठ निकालें। व्यक्तिगत पृष्ठों को चुनें और नए दस्तावेज़ों के रूप में सहेजें।",
+    "keywords": [
+      "extract pdf pages",
+      "save pdf pages",
+      "copy pdf pages",
+      "pdf page extractor"
+    ],
+    "description": "\n      <p>Extract Pages आपको एक PDF दस्तावेज़ से विशिष्ट पृष्ठों को चुनने और नई फ़ाइलों के रूप में सहेजने की अनुमति देता है। यह प्रासंगिक अनुभागों को निकालने, अंश बनाने या संयुक्त दस्तावेज़ों को अलग करने के लिए एकदम सही है।</p>\n      <p>आप व्यक्तिगत पृष्ठ, पृष्ठ श्रेणी या कई गैर-लगातार पृष्ठ निकाल सकते हैं। visual page preview आपकी ज़रूरत के सटीक पृष्ठों को पहचानना और चुनना आसान बनाता है।</p>\n      <p>सभी extraction स्थानीय रूप से आपके ब्राउज़र में होते हैं, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल को ड्रैग और ड्रॉप करें या उस दस्तावेज़ को चुनने के लिए क्लिक करें जिससे आप पृष्ठ निकालना चाहते हैं।"
+      },
+      {
+        "step": 2,
+        "title": "पृष्ठ चुनें",
+        "description": "उन्हें चुनने के लिए पृष्ठ थंबनेल पर क्लिक करें, या इनपुट फ़ील्ड में पृष्ठ संख्याएं और श्रेणियां दर्ज करें।"
+      },
+      {
+        "step": 3,
+        "title": "निकालें और डाउनलोड करें",
+        "description": "अपने चयनित पृष्ठों के साथ एक नया PDF बनाने और उसे डाउनलोड करने के लिए Extract पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "अंश बनाएं",
+        "description": "केंद्रित संदर्भ दस्तावेज़ बनाने के लिए रिपोर्ट या पुस्तकों से प्रासंगिक पृष्ठ निकालें।",
+        "icon": "file-minus"
+      },
+      {
+        "title": "विशिष्ट सामग्री साझा करें",
+        "description": "पूरा दस्तावेज़ भेजे बिना साझा करने के लिए विशिष्ट पृष्ठों को बाहर निकालें।",
+        "icon": "share-2"
+      },
+      {
+        "title": "महत्वपूर्ण पृष्ठों को आर्काइव करें",
+        "description": "दीर्घकालिक आर्काइविंग के लिए दस्तावेज़ों से प्रमुख पृष्ठों को निकालें और सहेजें।",
+        "icon": "archive"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या मैं गैर-लगातार पृष्ठ निकाल सकता हूँ?",
+        "answer": "हाँ, आप पृष्ठों के किसी भी संयोजन को चुन सकते हैं, चाहे वे लगातार हों या पूरे दस्तावेज़ में बिखरे हुए हों।"
+      },
+      {
+        "question": "क्या बुकमार्क सुरक्षित रहेंगे?",
+        "answer": "निकाले गए पृष्ठों की ओर इशारा करने वाले बुकमार्क नए दस्तावेज़ में सुरक्षित रखे जाते हैं।"
+      },
+      {
+        "question": "क्या मैं एक से अधिक PDF से पृष्ठ निकाल सकता हूँ?",
+        "answer": "यह टूल एक समय में एक ही PDF के साथ काम करता है। कई PDF से पृष्ठों को संयोजित करने के लिए, Merge PDF टूल का उपयोग करें।"
+      }
+    ]
+  },
+  "organize-pdf": {
+    "title": "PDF व्यवस्थित करें",
+    "metaDescription": "PDF पृष्ठों को पुनर्व्यवस्थित करें, डुप्लिकेट करें और हटाएं। अपने दस्तावेज़ों को पुनर्गठित करने के लिए ड्रैग और ड्रॉप करें।",
+    "keywords": [
+      "organize pdf",
+      "reorder pdf pages",
+      "rearrange pdf",
+      "pdf page organizer"
+    ],
+    "description": "\n      <p>Organize PDF आपके PDF दस्तावेज़ों में पृष्ठों को पुनर्व्यवस्थित करने के लिए एक सहज ड्रैग-एंड-ड्रॉप इंटरफ़ेस प्रदान करता है। पृष्ठों को पुनर्व्यवस्थित करें, महत्वपूर्ण अनुभागों की डुप्लिकेट प्रति बनाएं, या अवांछित पृष्ठों को आसानी से हटाएं।</p>\n      <p>दृश्य पृष्ठ थंबनेल सामग्री को पहचानना और पृष्ठों को ठीक उसी तरह व्यवस्थित करना आसान बनाते हैं जैसे आपको उनकी आवश्यकता है। दस्तावेज़ों के पुनर्गठन, कस्टम पृष्ठ क्रम बनाने या स्कैन की गई फ़ाइलों को साफ़ करने के लिए बिल्कुल सही।</p>\n      <p>सभी संगठन स्थानीय रूप से आपके ब्राउज़र में होते हैं, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल को ड्रैग और ड्रॉप करें या उस दस्तावेज़ को चुनने के लिए क्लिक करें जिसे आप व्यवस्थित करना चाहते हैं।"
+      },
+      {
+        "step": 2,
+        "title": "पृष्ठों को पुनर्व्यवस्थित करें",
+        "description": "पृष्ठों का क्रम बदलने के लिए पृष्ठ थंबनेल को ड्रैग करें। आवश्यकतानुसार प्रत्येक पृष्ठ पर डुप्लिकेट या डिलीट बटन पर क्लिक करें।"
+      },
+      {
+        "step": 3,
+        "title": "सहेजें और डाउनलोड करें",
+        "description": "अपने परिवर्तनों को लागू करने और पुनर्गठित PDF को डाउनलोड करने के लिए Save पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "पृष्ठ क्रम ठीक करें",
+        "description": "गलत तरीके से स्कैन या संयोजित किए गए पृष्ठों के क्रम को सही करें।",
+        "icon": "arrow-up-down"
+      },
+      {
+        "title": "कस्टम क्रम बनाएं",
+        "description": "प्रस्तुतियों या रिपोर्टों के लिए पृष्ठों को एक विशिष्ट अनुक्रम में व्यवस्थित करें।",
+        "icon": "list"
+      },
+      {
+        "title": "अवांछित पृष्ठ हटाएं",
+        "description": "दस्तावेज़ों से खाली पृष्ठ, डुप्लिकेट या अप्रासंगिक सामग्री हटाएं।",
+        "icon": "trash-2"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या मैं पृष्ठों को डुप्लिकेट कर सकता हूँ?",
+        "answer": "हाँ, आप किसी भी पृष्ठ को डुप्लिकेट कर सकते हैं और कॉपी को दस्तावेज़ में कहीं भी रख सकते हैं।"
+      },
+      {
+        "question": "क्या यहाँ कोई undo फ़ंक्शन है?",
+        "answer": "हाँ, आप बदलावों को undo और redo कर सकते हैं। आप किसी भी समय मूल क्रम में रीसेट भी कर सकते हैं।"
+      },
+      {
+        "question": "क्या मैं एक साथ कई PDF व्यवस्थित कर सकता हूँ?",
+        "answer": "यह टूल एक बार में एक ही PDF के साथ काम करता है। कई PDF को जोड़ने और व्यवस्थित करने के लिए, पहले Merge PDF टूल का उपयोग करके उन्हें मर्ज करें।"
+      }
+    ]
+  },
+  "delete-pages": {
+    "title": "पृष्ठ हटाएं",
+    "metaDescription": "PDF फ़ाइलों से अवांछित पृष्ठों को हटाएँ। आसानी से विशिष्ट पृष्ठों को चुनें और हटाएँ।",
+    "keywords": [
+      "delete pdf pages",
+      "remove pdf pages",
+      "pdf page remover",
+      "delete pages from pdf"
+    ],
+    "description": "\n      <p>Delete Pages आपको अपने PDF दस्तावेज़ों से अवांछित पृष्ठों को जल्दी और आसानी से हटाने की सुविधा देता है। चाहे आपको खाली पृष्ठों, पुराने कंटेंट या संवेदनशील जानकारी को हटाना हो, यह टूल इसे आसान बनाता है।</p>\n      <p>विज़ुअल पेज थंबनेल आपको सटीक रूप से यह पहचानने में मदद करते हैं कि किन पृष्ठों को हटाना है। आप एक-एक करके या एक साथ कई पृष्ठ हटा सकते हैं।</p>\n      <p>सभी प्रोसेसिंग आपके ब्राउज़र में स्थानीय रूप से होती है, जिससे आपके दस्तावेज़ों की गोपनीयता बनी रहती है।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल को ड्रैग और ड्रॉप करें या उस दस्तावेज़ को चुनने के लिए क्लिक करें जिससे आप पृष्ठ हटाना चाहते हैं।"
+      },
+      {
+        "step": 2,
+        "title": "हटाने के लिए पृष्ठ चुनें",
+        "description": "पृष्ठों को हटाने के लिए चिह्नित करने हेतु पेज थंबनेल पर क्लिक करें, या इनपुट फ़ील्ड में पृष्ठ संख्याएँ दर्ज करें।"
+      },
+      {
+        "step": 3,
+        "title": "हटाएँ और डाउनलोड करें",
+        "description": "चयनित पृष्ठों को हटाने और अपने अपडेट किए गए PDF को डाउनलोड करने के लिए Delete पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "खाली पृष्ठ हटाएँ",
+        "description": "गलती से शामिल हुए खाली पृष्ठों को हटाकर दस्तावेज़ों को साफ़ करें।",
+        "icon": "file-x"
+      },
+      {
+        "title": "संवेदनशील सामग्री हटाएँ",
+        "description": "दस्तावेज़ों को साझा करने से पहले गोपनीय जानकारी वाले पृष्ठों को हटाएँ।",
+        "icon": "shield"
+      },
+      {
+        "title": "दस्तावेज़ों को सुव्यवस्थित करें",
+        "description": "अधिक केंद्रित दस्तावेज़ बनाने के लिए पुराने या अप्रासंगिक पृष्ठों को हटाएँ।",
+        "icon": "filter"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या मैं हटाए गए पृष्ठों को पुनर्प्राप्त कर सकता हूँ?",
+        "answer": "आउटपुट फ़ाइल में पेज स्थायी रूप से हटा दिए जाते हैं। यदि आपको बाद में पृष्ठों की आवश्यकता हो सकती है, तो अपने मूल दस्तावेज़ का बैकअप रखें।"
+      },
+      {
+        "question": "क्या मैं एक साथ कई पृष्ठ हटा सकता हूँ?",
+        "answer": "हाँ, आप एक साथ कई पृष्ठों को चुनकर हटा सकते हैं।"
+      },
+      {
+        "question": "क्या पृष्ठों को हटाने से बुकमार्क प्रभावित होंगे?",
+        "answer": "हटाए गए पृष्ठों की ओर इशारा करने वाले बुकमार्क हटा दिए जाएँगे। शेष पृष्ठों के बुकमार्क सुरक्षित रहेंगे।"
+      }
+    ]
+  },
+  "bookmark": {
+    "title": "बुकमार्क संपादित करें",
+    "metaDescription": "PDF बुकमार्क जोड़ें, संपादित करें और प्रबंधित करें। अपने दस्तावेज़ों के लिए नेविगेशन संरचना बनाएँ।",
+    "keywords": [
+      "pdf bookmarks",
+      "edit bookmarks",
+      "add bookmarks",
+      "pdf navigation",
+      "table of contents"
+    ],
+    "description": "\n      <p>Edit Bookmarks आपको अपने PDF दस्तावेज़ों में बुकमार्क बनाने, संशोधित करने और व्यवस्थित करने की अनुमति देता है। बुकमार्क विशिष्ट अनुभागों तक त्वरित पहुँच प्रदान करते हैं, जिससे लंबे दस्तावेज़ों का उपयोग करना आसान हो जाता है।</p>\n      <p>आप नए बुकमार्क जोड़ सकते हैं, मौजूदा बुकमार्क संपादित कर सकते हैं, बुकमार्क पदानुक्रम को पुनर्गठित कर सकते हैं, या बाहरी स्रोतों से बुकमार्क आयात कर सकते हैं। यह टूल पेशेवर, नेविगेट करने योग्य दस्तावेज़ बनाने के लिए आवश्यक है।</p>\n      <p>सभी संपादन आपके ब्राउज़र में स्थानीय रूप से होते हैं, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल को ड्रैग और ड्रॉप करें या उस दस्तावेज़ को चुनने के लिए क्लिक करें जिसे आप संपादित करना चाहते हैं।"
+      },
+      {
+        "step": 2,
+        "title": "बुकमार्क प्रबंधित करें",
+        "description": "नए बुकमार्क जोड़ें, मौजूदा संपादित करें, या पदानुक्रम को पुनर्गठित करने के लिए ड्रैग करें।"
+      },
+      {
+        "step": 3,
+        "title": "सहेजें और डाउनलोड करें",
+        "description": "अपने बदलावों को लागू करने और अपडेट किए गए बुकमार्क के साथ PDF डाउनलोड करने के लिए Save पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "नेविगेशन बनाएँ",
+        "description": "पाठकों को विशिष्ट अनुभागों में तेज़ी से नेविगेट करने में मदद करने के लिए लंबे दस्तावेज़ों में बुकमार्क जोड़ें।",
+        "icon": "navigation"
+      },
+      {
+        "title": "अध्याय व्यवस्थित करें",
+        "description": "एक पदानुक्रमित बुकमार्क संरचना बनाएँ जो आपके दस्तावेज़ के अध्याय संगठन को दर्शाती हो।",
+        "icon": "book-open"
+      },
+      {
+        "title": "एक्सेसिबिलिटी में सुधार करें",
+        "description": "दस्तावेज़ों को अधिक सुलभ और उपयोग में आसान बनाने के लिए बुकमार्क जोड़ें।",
+        "icon": "accessibility"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या मैं नेस्टेड बुकमार्क बना सकता हूँ?",
+        "answer": "हाँ, आप पेरेंट और चाइल्ड बुकमार्क के साथ एक पदानुक्रमित संरचना बना सकते हैं।"
+      },
+      {
+        "question": "क्या मैं फ़ाइल से बुकमार्क आयात कर सकता हूँ?",
+        "answer": "हाँ, आप JSON या टेक्स्ट फ़ाइलों से बुकमार्क संरचनाएँ आयात कर सकते हैं।"
+      },
+      {
+        "question": "क्या बुकमार्क सभी PDF रीडर्स में काम करेंगे?",
+        "answer": "हाँ, बुकमार्क एक मानक PDF सुविधा हैं जो सभी प्रमुख PDF रीडर्स द्वारा समर्थित हैं।"
+      }
+    ]
+  },
+  "table-of-contents": {
+    "title": "विषय-सूची",
+    "metaDescription": "अपने PDF के लिए विषय-सूची जनरेट करें। बुकमार्क से क्लिक करने योग्य नेविगेशन बनाएँ।",
+    "keywords": [
+      "pdf table of contents",
+      "toc generator",
+      "pdf index",
+      "document navigation"
+    ],
+    "description": "\n      <p>Table of Contents आपके PDF दस्तावेज़ों के लिए एक नेविगेट करने योग्य विषय-सूची पृष्ठ जनरेट करता है। TOC को मौजूदा बुकमार्क या कस्टम प्रविष्टियों से बनाया जा सकता है, जो पाठकों को एक अवलोकन और त्वरित नेविगेशन प्रदान करता है।</p>\n      <p>विभिन्न शैलियों, फ़ॉन्ट और लेआउट के साथ उपस्थिति को कस्टमाइज़ करें। जनरेट किए गए TOC में क्लिक करने योग्य लिंक शामिल होते हैं जो सीधे संदर्भित पृष्ठों पर ले जाते हैं।</p>\n      <p>सभी प्रोसेसिंग आपके ब्राउज़र में स्थानीय रूप से होती है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल को ड्रैग और ड्रॉप करें या दस्तावेज़ चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "TOC कॉन्फ़िगर करें",
+        "description": "बुकमार्क से जनरेट करना चुनें या कस्टम प्रविष्टियाँ बनाएँ। शैली और स्थिति विकल्प चुनें।"
+      },
+      {
+        "step": 3,
+        "title": "जनरेट करें और डाउनलोड करें",
+        "description": "विषय-सूची बनाने और अपने अपडेट किए गए PDF को डाउनलोड करने के लिए Generate पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "अकादमिक पेपर्स",
+        "description": "थीसिस, शोध-प्रबंधों और शोध पत्रों में एक पेशेवर विषय-सूची जोड़ें।",
+        "icon": "graduation-cap"
+      },
+      {
+        "title": "बिजनेस रिपोर्ट",
+        "description": "हितधारकों के लिए स्पष्ट अनुभाग सूचियों के साथ नेविगेट करने योग्य रिपोर्ट बनाएं।",
+        "icon": "bar-chart"
+      },
+      {
+        "title": "उपयोगकर्ता मैनुअल",
+        "description": "तकनीकी दस्तावेज़ों और उपयोगकर्ता गाइडों के लिए व्यापक TOC उत्पन्न करें।",
+        "icon": "book"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या मैं TOC के स्वरूप को कस्टमाइज़ कर सकता हूँ?",
+        "answer": "हाँ, आप अपनी विषय-सूची के लिए विभिन्न शैलियों, फ़ॉन्ट और लेआउट में से चुन सकते हैं।"
+      },
+      {
+        "question": "TOC कहाँ डाला जाता है?",
+        "answer": "डिफ़ॉल्ट रूप से, TOC दस्तावेज़ की शुरुआत में डाला जाता है, लेकिन आप कोई अलग स्थान चुन सकते हैं।"
+      },
+      {
+        "question": "क्या TOC प्रविष्टियाँ क्लिक करने योग्य हैं?",
+        "answer": "हाँ, प्रत्येक प्रविष्टि एक क्लिक करने योग्य लिंक है जो संबंधित पृष्ठ पर ले जाती है।"
+      }
+    ]
+  },
+  "page-numbers": {
+    "title": "पृष्ठ संख्या",
+    "metaDescription": "PDF दस्तावेज़ों में पृष्ठ संख्या जोड़ें। स्थिति, प्रारूप और शुरुआती संख्या को कस्टमाइज़ करें।",
+    "keywords": [
+      "add page numbers",
+      "pdf page numbers",
+      "number pdf pages",
+      "pdf pagination"
+    ],
+    "description": "\n      <p>पृष्ठ संख्याएँ आपके PDF दस्तावेज़ों में कस्टमाइज़ योग्य पृष्ठ नंबरिंग जोड़ती हैं। अपने दस्तावेज़ के डिज़ाइन से मेल खाने के लिए विभिन्न प्रारूपों, स्थितियों और शैलियों में से चुनें।</p>\n      <p>आप शुरुआती संख्या सेट कर सकते हैं, कुछ पृष्ठों को छोड़ सकते हैं, और विभिन्न नंबरिंग प्रारूपों (1, 2, 3 या i, ii, iii) का उपयोग कर सकते हैं। उचित पेजिनेशन के साथ पेशेवर दस्तावेज़ बनाने के लिए बिल्कुल सही।</p>\n      <p>सभी प्रोसेसिंग आपके ब्राउज़र में स्थानीय रूप से होती है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल को ड्रैग और ड्रॉप करें या दस्तावेज़ चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "नंबरिंग कॉन्फ़िगर करें",
+        "description": "स्थिति, प्रारूप, शुरुआती संख्या और किन पृष्ठों पर संख्या डालनी है, चुनें।"
+      },
+      {
+        "step": 3,
+        "title": "लागू करें और डाउनलोड करें",
+        "description": "पृष्ठ संख्या जोड़ने और अपना अपडेट किया गया PDF डाउनलोड करने के लिए 'लागू करें' पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "पेशेवर दस्तावेज़",
+        "description": "रिपोर्ट, प्रस्तावों और व्यावसायिक दस्तावेज़ों में पृष्ठ संख्या जोड़ें।",
+        "icon": "file-text"
+      },
+      {
+        "title": "अकादमिक पेपर्स",
+        "description": "अकादमिक फ़ॉर्मेटिंग आवश्यकताओं के अनुसार पृष्ठों को नंबर दें।",
+        "icon": "graduation-cap"
+      },
+      {
+        "title": "कानूनी दस्तावेज़",
+        "description": "अनुबंधों और कानूनी फाइलिंग में उचित पेजिनेशन जोड़ें।",
+        "icon": "scale"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या मैं पहला पृष्ठ छोड़ सकता हूँ?",
+        "answer": "हाँ, आप निर्दिष्ट कर सकते हैं कि किन पृष्ठों को नंबर देना है और किसे छोड़ना है, जैसे शीर्षक पृष्ठ या कवर पृष्ठ।"
+      },
+      {
+        "question": "कौन से संख्या प्रारूप उपलब्ध हैं?",
+        "answer": "आप अरबी अंकों (1, 2, 3), रोमन अंकों (i, ii, iii या I, II, III), या अक्षरों (a, b, c) का उपयोग कर सकते हैं।"
+      },
+      {
+        "question": "क्या मैं \"Page X of Y\" प्रारूप जोड़ सकता हूँ?",
+        "answer": "हाँ, आप अपने नंबरिंग प्रारूप में कुल पृष्ठ संख्या शामिल कर सकते हैं।"
+      }
+    ]
+  },
+  "add-watermark": {
+    "title": "वॉटरमार्क जोड़ें",
+    "metaDescription": "PDF फ़ाइलों में टेक्स्ट या इमेज वॉटरमार्क जोड़ें। अपने दस्तावेज़ों को सुरक्षित करें और उन्हें ब्रांड करें।",
+    "keywords": [
+      "add watermark",
+      "pdf watermark",
+      "stamp pdf",
+      "brand pdf",
+      "protect pdf"
+    ],
+    "description": "\n      <p>वॉटरमार्क जोड़ें आपको अपने PDF दस्तावेज़ों पर टेक्स्ट या इमेज वॉटरमार्क लगाने की अनुमति देता है। वॉटरमार्क दस्तावेज़ की स्थिति (Draft, Confidential) को दर्शा सकते हैं, ब्रांडिंग जोड़ सकते हैं, या अनधिकृत प्रतिलिपि को रोक सकते हैं।</p>\n      <p>वॉटरमार्क की स्थिति, आकार, अपारदर्शिता, रोटेशन और रंग को कस्टमाइज़ करें। सभी पृष्ठों पर लागू करें या विशिष्ट पृष्ठों का चयन करें। यह टूल टेक्स्ट वॉटरमार्क और इमेज वॉटरमार्क दोनों का समर्थन करता है।</p>\n      <p>सभी प्रोसेसिंग आपके ब्राउज़र में स्थानीय रूप से होती है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल को ड्रैग और ड्रॉप करें या दस्तावेज़ चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "वॉटरमार्क बनाएं",
+        "description": "अपने वॉटरमार्क के लिए टेक्स्ट दर्ज करें या एक इमेज अपलोड करें। स्थिति, आकार, अपारदर्शिता और रोटेशन को समायोजित करें।"
+      },
+      {
+        "step": 3,
+        "title": "लागू करें और डाउनलोड करें",
+        "description": "वॉटरमार्क जोड़ने और अपना अपडेट किया गया PDF डाउनलोड करने के लिए 'लागू करें' पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "दस्तावेज़ सुरक्षा",
+        "description": "दस्तावेज़ की स्थिति दर्शाने के लिए \"Confidential\" या \"Draft\" वॉटरमार्क जोड़ें।",
+        "icon": "shield"
+      },
+      {
+        "title": "दस्तावेज़ ब्रांड करें",
+        "description": "आधिकारिक दस्तावेज़ों में कंपनी का लोगो या नाम जोड़ें।",
+        "icon": "award"
+      },
+      {
+        "title": "कॉपीराइट नोटिस",
+        "description": "बौद्धिक संपदा की सुरक्षा के लिए कॉपीराइट जानकारी जोड़ें।",
+        "icon": "copyright"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या मैं वॉटरमार्क के रूप में इमेज का उपयोग कर सकता हूँ?",
+        "answer": "हाँ, आप वॉटरमार्क के रूप में उपयोग करने के लिए PNG, JPG, या SVG इमेज अपलोड कर सकते हैं।"
+      },
+      {
+        "question": "क्या मैं वॉटरमार्क को अर्ध-पारदर्शी बना सकता हूँ?",
+        "answer": "हाँ, आप अपारदर्शिता को पूरी तरह से पारदर्शी से पूरी तरह से अपारदर्शी तक समायोजित कर सकते हैं।"
+      },
+      {
+        "question": "क्या मैं विभिन्न पृष्ठों पर अलग-अलग वॉटरमार्क लागू कर सकता हूँ?",
+        "answer": "यह टूल चयनित पृष्ठों पर एक ही वॉटरमार्क लागू करता है। अलग-अलग वॉटरमार्क के लिए, दस्तावेज़ को कई बार प्रोसेस करें।"
+      }
+    ]
+  },
+  "header-footer": {
+    "title": "हेडर और फुटर",
+    "metaDescription": "PDF दस्तावेज़ों में हेडर और फुटर जोड़ें। पृष्ठ संख्या, तिथियां और कस्टम टेक्स्ट शामिल करें।",
+    "keywords": [
+      "pdf header",
+      "pdf footer",
+      "add header footer",
+      "pdf letterhead"
+    ],
+    "description": "\n      <p>हेडर और फुटर आपके PDF दस्तावेज़ों में कस्टमाइज़ योग्य हेडर और फुटर जोड़ते हैं। हेडर या फुटर क्षेत्रों में पृष्ठ संख्या, तिथियां, दस्तावेज़ शीर्षक या कोई भी कस्टम टेक्स्ट शामिल करें।</p>\n      <p>हेडर/फुटर के बाएँ, मध्य या दाएँ भाग में सामग्री रखें। यदि आवश्यक हो तो विषम और सम पृष्ठों के लिए अलग-अलग सामग्री का उपयोग करें। सुसंगत फ़ॉर्मेटिंग के साथ पेशेवर दस्तावेज़ बनाने के लिए बिल्कुल सही।</p>\n      <p>सभी प्रोसेसिंग आपके ब्राउज़र में स्थानीय रूप से होती है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल को ड्रैग और ड्रॉप करें या दस्तावेज़ चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "हेडर/फुटर कॉन्फ़िगर करें",
+        "description": "हेडर और फुटर क्षेत्रों के लिए टेक्स्ट दर्ज करें। पृष्ठ संख्याएं, तारीखें, या कस्टम टेक्स्ट जोड़ें।"
+      },
+      {
+        "step": 3,
+        "title": "लागू करें और डाउनलोड करें",
+        "description": "हेडर/फुटर जोड़ने और अपना अपडेट किया गया PDF डाउनलोड करने के लिए Apply पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "व्यावसायिक दस्तावेज़",
+        "description": "व्यावसायिक दस्तावेज़ों में कंपनी का नाम और पृष्ठ संख्याएं जोड़ें।",
+        "icon": "briefcase"
+      },
+      {
+        "title": "कानूनी दस्तावेज़",
+        "description": "कानूनी फ़ाइलिंग में केस नंबर, तारीखें और पृष्ठ संदर्भ शामिल करें।",
+        "icon": "scale"
+      },
+      {
+        "title": "अकादमिक पेपर्स",
+        "description": "पेपर शीर्षक और लेखक के नाम के साथ रनिंग हेडर जोड़ें।",
+        "icon": "graduation-cap"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या विषम और सम पृष्ठों पर अलग-अलग हेडर हो सकते हैं?",
+        "answer": "हां, आप विषम और सम पृष्ठों के लिए अलग-अलग सामग्री कॉन्फ़िगर कर सकते हैं।"
+      },
+      {
+        "question": "क्या मैं वर्तमान तारीख शामिल कर सकता हूं?",
+        "answer": "हां, आप डायनेमिक डेट फ़ील्ड सम्मिलित कर सकते हैं जो वर्तमान तारीख दर्शाते हैं।"
+      },
+      {
+        "question": "क्या मैं कुछ पृष्ठों पर हेडर/फुटर को छोड़ सकता हूं?",
+        "answer": "हां, आप यह निर्दिष्ट कर सकते हैं कि किन पृष्ठों पर हेडर/फुटर होने चाहिए और किन्हें छोड़ा जाना चाहिए।"
+      }
+    ]
+  },
+  "invert-colors": {
+    "title": "रंगों को उलटें",
+    "metaDescription": "डार्क मोड रीडिंग के लिए PDF रंगों को इन्वर्ट करें। दस्तावेज़ों को नेगेटिव रंगों में बदलें।",
+    "keywords": [
+      "invert pdf colors",
+      "pdf dark mode",
+      "negative pdf",
+      "reverse colors"
+    ],
+    "description": "\n      <p>Invert Colors आपके PDF दस्तावेज़ों में रंगों को उलट देता है, जिससे एक नेगेटिव इमेज प्रभाव बनता है। यह कम रोशनी वाली स्थितियों में आसान पढ़ने के लिए दस्तावेज़ों के डार्क मोड संस्करण बनाने के लिए विशेष रूप से उपयोगी है।</p>\n      <p>यह टूल सभी रंगों को इनवर्ट कर सकता है या छवियों जैसे कुछ तत्वों को चुनिंदा रूप से सुरक्षित रख सकता है। रात में दस्तावेज़ पढ़ते समय आंखों के तनाव को कम करने के लिए बिल्कुल सही।</p>\n      <p>सभी प्रोसेसिंग आपके ब्राउज़र में स्थानीय रूप से होती है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल को ड्रैग और ड्रॉप करें या दस्तावेज़ चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "ऑप्शंस कॉन्फ़िगर करें",
+        "description": "चुनें कि सभी सामग्री को इन्वर्ट करना है या छवियों को सुरक्षित रखना है।"
+      },
+      {
+        "step": 3,
+        "title": "इन्वर्ट करें और डाउनलोड करें",
+        "description": "दस्तावेज़ को प्रोसेस करने और परिणाम डाउनलोड करने के लिए Invert पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "नाइट रीडिंग",
+        "description": "रात में आरामदायक पढ़ने के लिए दस्तावेज़ों के डार्क मोड संस्करण बनाएं।",
+        "icon": "moon"
+      },
+      {
+        "title": "आंखों का तनाव कम करें",
+        "description": "लंबी रीडिंग के दौरान आंखों की थकान को कम करने के लिए चमकीले दस्तावेज़ों को इन्वर्ट करें।",
+        "icon": "eye"
+      },
+      {
+        "title": "प्रिंट बचत",
+        "description": "ड्राफ्ट प्रिंट करते समय स्याही की खपत कम करने के लिए दस्तावेज़ों को इन्वर्ट करें।",
+        "icon": "printer"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या छवियां भी इन्वर्ट हो जाएंगी?",
+        "answer": "डिफ़ॉल्ट रूप से, हां। आप टेक्स्ट और बैकग्राउंड को इन्वर्ट करते समय मूल छवियों को सुरक्षित रखने का विकल्प चुन सकते हैं।"
+      },
+      {
+        "question": "क्या मैं केवल विशिष्ट पृष्ठों को ही इन्वर्ट कर सकता हूं?",
+        "answer": "हां, आप चुन सकते हैं कि किन पृष्ठों को इन्वर्ट करना है।"
+      },
+      {
+        "question": "क्या इन्वर्जन को वापस पहले जैसा किया जा सकता है?",
+        "answer": "लगभग मूल रंगों में वापस लौटने के लिए आप दस्तावेज़ को फिर से इन्वर्ट कर सकते हैं।"
+      }
+    ]
+  },
+  "background-color": {
+    "title": "पृष्ठभूमि का रंग",
+    "metaDescription": "PDF का बैकग्राउंड रंग बदलें। दस्तावेज़ के पृष्ठों में रंगीन बैकग्राउंड जोड़ें।",
+    "keywords": [
+      "pdf background color",
+      "change pdf background",
+      "colored pdf",
+      "pdf page color"
+    ],
+    "description": "\n      <p>Background Color आपको अपने PDF पृष्ठों के बैकग्राउंड रंग बदलने या नए जोड़ने की सुविधा देता है। यह पठनीयता में सुधार कर सकता है, दृश्य आकर्षण जोड़ सकता है, या आपकी ब्रांडिंग आवश्यकताओं से मेल खा सकता है।</p>\n      <p>बैकग्राउंड के लिए कोई भी रंग चुनें और इसे सभी पृष्ठों या चयनित पृष्ठों पर लागू करें। यह टूल बैकग्राउंड लेयर जोड़ते समय सभी मौजूदा सामग्री को सुरक्षित रखता है।</p>\n      <p>सभी प्रोसेसिंग आपके ब्राउज़र में स्थानीय रूप से होती है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल को ड्रैग और ड्रॉप करें या दस्तावेज़ चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "रंग चुनें",
+        "description": "कलर पिकर का उपयोग करके बैकग्राउंड रंग चुनें या hex कोड दर्ज करें।"
+      },
+      {
+        "step": 3,
+        "title": "लागू करें और डाउनलोड करें",
+        "description": "बैकग्राउंड जोड़ने और अपना अपडेट किया गया PDF डाउनलोड करने के लिए Apply पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "पठनीयता में सुधार करें",
+        "description": "आंखों का तनाव कम करने के लिए हल्का क्रीम या सेपिया बैकग्राउंड जोड़ें।",
+        "icon": "eye"
+      },
+      {
+        "title": "दस्तावेज़ ब्रांड करें",
+        "description": "मार्केटिंग सामग्रियों के लिए बैकग्राउंड के रूप में ब्रांड रंगों का उपयोग करें।",
+        "icon": "palette"
+      },
+      {
+        "title": "अनुभागों को हाइलाइट करें",
+        "description": "दस्तावेज़ के अनुभागों में अंतर करने के लिए अलग-अलग बैकग्राउंड रंगों का उपयोग करें।",
+        "icon": "layers"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या बैकग्राउंड मौजूदा सामग्री को ढक देगा?",
+        "answer": "नहीं, बैकग्राउंड को मौजूदा सामग्री के पीछे जोड़ा जाता है, जिससे सभी टेक्स्ट और छवियां सुरक्षित रहती हैं।"
+      },
+      {
+        "question": "क्या मैं अलग-अलग पृष्ठों के लिए अलग-अलग रंगों का उपयोग कर सकता हूं?",
+        "answer": "अलग-अलग पृष्ठों पर अलग-अलग रंगों के लिए आपको दस्तावेज़ को कई बार प्रोसेस करना होगा।"
+      },
+      {
+        "question": "क्या मैं मौजूदा बैकग्राउंड को हटा सकता हूं?",
+        "answer": "यह टूल बैकग्राउंड जोड़ता है। बैकग्राउंड हटाने के लिए, आपको Edit PDF टूल का उपयोग करने की आवश्यकता हो सकती है।"
+      }
+    ]
+  },
+  "text-color": {
+    "title": "टेक्स्ट का रंग बदलें",
+    "metaDescription": "PDF दस्तावेज़ों में टेक्स्ट का रंग बदलें। सभी टेक्स्ट सामग्री का रंग संशोधित करें।",
+    "keywords": [
+      "change pdf text color",
+      "pdf text color",
+      "modify text color",
+      "recolor pdf text"
+    ],
+    "description": "\n      <p>Change Text Color आपको अपने PDF दस्तावेज़ों में टेक्स्ट का रंग बदलने की अनुमति देता है। यह कॉन्ट्रास्ट सुधारने, ब्रांडिंग से मेल बैठाने या दस्तावेज़ों के दृश्य रूप में बदलाव करने के लिए उपयोगी है।</p>\n      <p>एक नया रंग चुनें और इसे दस्तावेज़ के सभी टेक्स्ट पर लागू करें। यह टूल छवियों और अन्य सामग्री को सुरक्षित रखते हुए टेक्स्ट तत्वों को प्रोसेस करता है।</p>\n      <p>सभी प्रोसेसिंग आपके ब्राउज़र में स्थानीय रूप से होती है, जिससे आपके दस्तावेज़ निजी बने रहते हैं।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल को ड्रैग और ड्रॉप करें या दस्तावेज़ चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "रंग चुनें",
+        "description": "कलर पिकर का उपयोग करके एक नया टेक्स्ट रंग चुनें या हेक्स कोड दर्ज करें।"
+      },
+      {
+        "step": 3,
+        "title": "लागू करें और डाउनलोड करें",
+        "description": "टेक्स्ट का रंग बदलने और अपना अपडेटेड PDF डाउनलोड करने के लिए Apply पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "कॉन्ट्रास्ट सुधारें",
+        "description": "पृष्ठभूमि के मुकाबले पठनीयता में सुधार करने के लिए टेक्स्ट का रंग बदलें।",
+        "icon": "contrast"
+      },
+      {
+        "title": "ब्रांड निरंतरता",
+        "description": "ब्रांड दिशानिर्देशों के अनुसार टेक्स्ट के रंगों को अपडेट करें।",
+        "icon": "palette"
+      },
+      {
+        "title": "एक्सेसिबिलिटी",
+        "description": "एक्सेसिबिलिटी कॉन्ट्रास्ट आवश्यकताओं को पूरा करने के लिए टेक्स्ट के रंगों को समायोजित करें।",
+        "icon": "accessibility"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या सारा टेक्स्ट बदल जाएगा?",
+        "answer": "हां, यह टूल दस्तावेज़ में सभी टेक्स्ट तत्वों का रंग बदल देता है।"
+      },
+      {
+        "question": "क्या मैं केवल विशिष्ट टेक्स्ट बदल सकता हूं?",
+        "answer": "यह टूल सभी टेक्स्ट को बदलता है। चुनिंदा बदलावों के लिए, Edit PDF टूल का उपयोग करें।"
+      },
+      {
+        "question": "क्या स्वरूपित टेक्स्ट (बोल्ड, इटैलिक) सुरक्षित रहेगा?",
+        "answer": "हां, टेक्स्ट फ़ॉर्मेटिंग सुरक्षित रखी जाती है; केवल रंग बदला जाता है।"
+      }
+    ]
+  },
+  "add-stamps": {
+    "title": "स्टैम्प जोड़ें",
+    "metaDescription": "PDF दस्तावेज़ों में स्टैम्प जोड़ें। स्वीकृति, समीक्षा और अन्य कार्यों के लिए प्रीसेट या कस्टम स्टैम्प का उपयोग करें।",
+    "keywords": [
+      "pdf stamps",
+      "add stamp",
+      "approval stamp",
+      "pdf rubber stamp"
+    ],
+    "description": "\n      <p>Add Stamps आपको अपने PDF दस्तावेज़ों पर स्टैम्प छवियां लगाने की अनुमति देता है। \"Approved\", \"Rejected\", \"Draft\" जैसे प्रीसेट स्टैम्प का उपयोग करें, या कस्टम स्टैम्प छवियां अपलोड करें।</p>\n      <p>पेज पर कहीं भी स्टैम्प रखें, उनका आकार बदलें, और एकल या कई पेजों पर लागू करें। दस्तावेज़ कार्यप्रवाह, स्वीकृतियों और स्थिति संकेतकों के लिए बिल्कुल सही।</p>\n      <p>सभी प्रोसेसिंग आपके ब्राउज़र में स्थानीय रूप से होती है, जिससे आपके दस्तावेज़ निजी बने रहते हैं।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल को ड्रैग और ड्रॉप करें या दस्तावेज़ चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "स्टैम्प चुनें",
+        "description": "एक प्रीसेट स्टैम्प चुनें या एक कस्टम स्टैम्प छवि अपलोड करें।"
+      },
+      {
+        "step": 3,
+        "title": "स्थिति तय करें और लागू करें",
+        "description": "स्टैम्प लगाने के लिए क्लिक करें, स्थिति और आकार समायोजित करें, फिर डाउनलोड करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "दस्तावेज़ स्वीकृति",
+        "description": "समीक्षा कार्यप्रवाह में दस्तावेज़ों में \"Approved\" या \"Rejected\" स्टैम्प जोड़ें।",
+        "icon": "check-circle"
+      },
+      {
+        "title": "स्थिति का संकेत",
+        "description": "दस्तावेज़ों को \"Draft\", \"Final\", या \"Confidential\" के रूप में चिह्नित करें।",
+        "icon": "tag"
+      },
+      {
+        "title": "क्वालिटी कंट्रोल",
+        "description": "निरीक्षण या समीक्षा पूरी होने का संकेत देने के लिए QC स्टैम्प जोड़ें।",
+        "icon": "clipboard-check"
+      }
+    ],
+    "faq": [
+      {
+        "question": "कौन से प्रीसेट स्टैम्प उपलब्ध हैं?",
+        "answer": "प्रीसेट में Approved, Rejected, Draft, Final, Confidential, Copy और बहुत कुछ शामिल हैं।"
+      },
+      {
+        "question": "क्या मैं कस्टम स्टैम्प अपलोड कर सकता हूं?",
+        "answer": "हां, आप कस्टम स्टैम्प के रूप में उपयोग करने के लिए PNG या JPG छवियां अपलोड कर सकते हैं।"
+      },
+      {
+        "question": "क्या मैं एक ही दस्तावेज़ में कई स्टैम्प जोड़ सकता हूं?",
+        "answer": "हां, आप कई स्टैम्प जोड़ सकते हैं और प्रत्येक को स्वतंत्र रूप से स्थित कर सकते हैं।"
+      }
+    ]
+  },
+  "remove-annotations": {
+    "title": "एनोटेशन्स हटाएं",
+    "metaDescription": "PDF फ़ाइलों से एनोटेशन हटाएं। टिप्पणियां, हाइलाइट्स और मार्कअप हटाएं।",
+    "keywords": [
+      "remove pdf annotations",
+      "delete comments",
+      "remove highlights",
+      "clean pdf"
+    ],
+    "description": "\n      <p>Remove Annotations आपके PDF दस्तावेज़ों से टिप्पणियां, हाइलाइट्स, स्टिकी नोट्स और अन्य एनोटेशन हटा देता है। यह बिना किसी मार्कअप के दस्तावेज़ का एक साफ़ संस्करण बनाता है।</p>\n      <p>आप सभी एनोटेशन हटा सकते हैं या चुनिंदा रूप से विशिष्ट प्रकारों को हटा सकते हैं। समीक्षा किए गए दस्तावेज़ों के अंतिम संस्करण बनाने या संवेदनशील टिप्पणियों को हटाने के लिए बिल्कुल सही।</p>\n      <p>सभी प्रोसेसिंग आपके ब्राउज़र में स्थानीय रूप से होती है, जिससे आपके दस्तावेज़ निजी बने रहते हैं।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल को ड्रैग और ड्रॉप करें या दस्तावेज़ चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "एनोटेशन के प्रकार चुनें",
+        "description": "चुनें कि किस प्रकार के एनोटेशन हटाना है: टिप्पणियां, हाइलाइट्स, लिंक, आदि।"
+      },
+      {
+        "step": 3,
+        "title": "हटाएं और डाउनलोड करें",
+        "description": "एनोटेशन हटाने और साफ़ PDF डाउनलोड करने के लिए Remove पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "दस्तावेज़ों को अंतिम रूप दें",
+        "description": "अंतिम दस्तावेज़ प्रकाशित करने से पहले समीक्षा टिप्पणियां और मार्कअप हटाएं।",
+        "icon": "file-check"
+      },
+      {
+        "title": "गोपनीयता सुरक्षा",
+        "description": "साझा करने से पहले उन टिप्पणियों को हटाएं जिनमें संवेदनशील जानकारी हो सकती है।",
+        "icon": "shield"
+      },
+      {
+        "title": "साफ़ वितरण",
+        "description": "वितरण के लिए एनोटेट किए गए दस्तावेज़ों की साफ़ प्रतियां बनाएं।",
+        "icon": "copy"
+      }
+    ],
+    "faq": [
+      {
+        "question": "किस प्रकार के एनोटेशन हटाए जा सकते हैं?",
+        "answer": "टिप्पणियां, हाइलाइट्स, अंडरलाइन, स्ट्राइकथ्रू, स्टिकी नोट्स, स्टैम्प और लिंक सभी को हटाया जा सकता है।"
+      },
+      {
+        "question": "क्या मैं कुछ एनोटेशन रख सकता हूं?",
+        "answer": "हाँ, आप चुन सकते हैं कि किस प्रकार के एनोटेशन हटाने हैं और किन्हें रखना है।"
+      },
+      {
+        "question": "क्या इसे वापस पहले जैसा किया जा सकता है?",
+        "answer": "नहीं, एनोटेशन हटाना स्थायी है। यदि आवश्यक हो तो मूल फ़ाइल का बैकअप रखें।"
+      }
+    ]
+  },
+  "form-filler": {
+    "title": "फॉर्म फ़िलर",
+    "metaDescription": "ऑनलाइन PDF फॉर्म भरें। बिना प्रिंट किए इंटरैक्टिव PDF फॉर्म पूरे करें।",
+    "keywords": [
+      "fill pdf form",
+      "pdf form filler",
+      "complete pdf form",
+      "interactive pdf"
+    ],
+    "description": "\n      <p>Form Filler आपको सीधे अपने ब्राउज़र में इंटरैक्टिव PDF फॉर्म पूरे करने की अनुमति देता है। दस्तावेज़ को प्रिंट किए बिना टेक्स्ट फ़ील्ड भरें, चेक बॉक्स टिक करें, विकल्प चुनें और हस्ताक्षर जोड़ें।</p>\n      <p>यह टूल मानक PDF फॉर्म और XFA फॉर्म का समर्थन करता है। आपका भरा हुआ डेटा सहेजा जा सकता है और आगे के संपादन को रोकने के लिए फॉर्म को फ़्लैटन किया जा सकता है।</p>\n      <p>सभी प्रोसेसिंग आपके ब्राउज़र में स्थानीय रूप से होती है, जिससे यह सुनिश्चित होता है कि आपका फॉर्म डेटा निजी रहे।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF फॉर्म अपलोड करें",
+        "description": "अपने PDF फॉर्म को ड्रैग और ड्रॉप करें या फ़ाइल चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "फॉर्म भरें",
+        "description": "टेक्स्ट दर्ज करने, चेक बॉक्स टिक करने या विकल्प चुनने के लिए फॉर्म फ़ील्ड पर क्लिक करें।"
+      },
+      {
+        "step": 3,
+        "title": "सहेजें और डाउनलोड करें",
+        "description": "अपनी प्रविष्टियों को सहेजने और भरे हुए फॉर्म को डाउनलोड करने के लिए Save पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "आवेदन फॉर्म",
+        "description": "नौकरी के आवेदन, परमिट आवेदन और पंजीकरण फॉर्म पूरे करें।",
+        "icon": "clipboard"
+      },
+      {
+        "title": "टैक्स फॉर्म",
+        "description": "टैक्स दस्तावेज़ और वित्तीय फॉर्म इलेक्ट्रॉनिक रूप से भरें।",
+        "icon": "file-text"
+      },
+      {
+        "title": "अनुबंध",
+        "description": "हस्ताक्षर करने से पहले अनुबंध फॉर्म को अपनी जानकारी के साथ पूरा करें।",
+        "icon": "file-signature"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या मैं अपनी प्रगति सहेज सकता हूँ?",
+        "answer": "हाँ, आप आंशिक रूप से भरे हुए फॉर्म को सहेज सकते हैं और बाद में जारी रख सकते हैं।"
+      },
+      {
+        "question": "फॉर्म फ़्लैटनिंग क्या है?",
+        "answer": "फ़्लैटनिंग फॉर्म फ़ील्ड को स्थिर सामग्री में परिवर्तित कर देती है, जिससे आगे संपादन नहीं किया जा सकता।"
+      },
+      {
+        "question": "क्या XFA फॉर्म समर्थित हैं?",
+        "answer": "हाँ, यह टूल मानक AcroForms और XFA फॉर्म दोनों का समर्थन करता है।"
+      }
+    ]
+  },
+  "form-creator": {
+    "title": "फॉर्म क्रिएटर",
+    "metaDescription": "भरने योग्य PDF फॉर्म बनाएं। दस्तावेज़ों में टेक्स्ट फ़ील्ड, चेकबॉक्स और ड्रॉपडाउन जोड़ें।",
+    "keywords": [
+      "create pdf form",
+      "pdf form creator",
+      "fillable pdf",
+      "add form fields"
+    ],
+    "description": "\n      <p>Form Creator स्थिर PDF दस्तावेज़ों को इंटरैक्टिव भरने योग्य फॉर्मों में बदलता है। पेशेवर फॉर्म बनाने के लिए टेक्स्ट फ़ील्ड, चेकबॉक्स, रेडियो बटन, ड्रॉपडाउन और बहुत कुछ जोड़ें।</p>\n      <p>अपने दस्तावेज़ पर फॉर्म तत्वों को ड्रैग और ड्रॉप करें, फ़ील्ड गुणों को कॉन्फ़िगर करें, और इलेक्ट्रॉनिक रूप से भरे जा सकने वाले फॉर्म बनाएं। आवेदन, सर्वेक्षण और डेटा संग्रह फॉर्म बनाने के लिए बिल्कुल सही।</p>\n      <p>सभी प्रोसेसिंग आपके ब्राउज़र में स्थानीय रूप से होती है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल को ड्रैग और ड्रॉप करें या फॉर्म में बदलने के लिए दस्तावेज़ का चयन करने हेतु क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "फॉर्म फ़ील्ड जोड़ें",
+        "description": "टूलबार से फ़ील्ड प्रकार चुनें और उन्हें दस्तावेज़ पर रखने के लिए क्लिक करें।"
+      },
+      {
+        "step": 3,
+        "title": "कॉन्फ़िगर करें और सहेजें",
+        "description": "फ़ील्ड गुण सेट करें, फिर अपने भरने योग्य PDF फॉर्म को सहेजें और डाउनलोड करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "आवेदन फॉर्म",
+        "description": "भरने योग्य नौकरी के आवेदन, सदस्यता फॉर्म और पंजीकरण बनाएं।",
+        "icon": "user-plus"
+      },
+      {
+        "title": "सर्वेक्षण",
+        "description": "डेटा संग्रह के लिए इंटरैक्टिव सर्वेक्षण और प्रश्नावली बनाएं।",
+        "icon": "clipboard-list"
+      },
+      {
+        "title": "ऑर्डर फॉर्म",
+        "description": "मात्रा फ़ील्ड और चेकबॉक्स के साथ उत्पाद ऑर्डर फॉर्म बनाएं।",
+        "icon": "shopping-cart"
+      }
+    ],
+    "faq": [
+      {
+        "question": "मैं किस प्रकार के फ़ील्ड जोड़ सकता हूँ?",
+        "answer": "टेक्स्ट फ़ील्ड, चेकबॉक्स, रेडियो बटन, ड्रॉपडाउन, डेट पिकर और सिग्नेचर फ़ील्ड।"
+      },
+      {
+        "question": "क्या मैं फ़ील्ड्स को अनिवार्य कर सकता हूँ?",
+        "answer": "हाँ, आप फ़ील्ड्स को अनिवार्य के रूप में चिह्नित कर सकते हैं और सत्यापन नियम जोड़ सकते हैं।"
+      },
+      {
+        "question": "क्या मैं गणनाएं जोड़ सकता हूँ?",
+        "answer": "संख्यात्मक फ़ील्ड्स में योग और औसत जैसी बुनियादी गणनाएं जोड़ी जा सकती हैं।"
+      }
+    ]
+  },
+  "remove-blank-pages": {
+    "title": "खाली पृष्ठ हटाएँ",
+    "metaDescription": "PDF दस्तावेज़ों से खाली पृष्ठों का स्वचालित रूप से पता लगाएं और उन्हें हटाएं।",
+    "keywords": [
+      "remove blank pages",
+      "delete empty pages",
+      "clean pdf",
+      "pdf blank page remover"
+    ],
+    "description": "\n      <p>Remove Blank Pages आपके PDF दस्तावेज़ों से खाली पृष्ठों का स्वचालित रूप से पता लगाता है और उन्हें हटाता है। यह स्कैन किए गए दस्तावेज़ों को साफ़ करने, सेपरेटर पृष्ठों को हटाने, या गलती से शामिल किए गए खाली पृष्ठों को खत्म करने के लिए उपयोगी है।</p>\n      <p>टूल वास्तव में खाली पृष्ठों की पहचान करने के लिए बुद्धिमानी से काम करने वाली पहचान तकनीक का उपयोग करता है, जबकि न्यूनतम सामग्री वाले पृष्ठों को सुरक्षित रखता है। आप यह नियंत्रित करने के लिए संवेदनशीलता सीमा को समायोजित कर सकते हैं कि किसे \"खाली\" माना जाए।</p>\n      <p>सभी प्रोसेसिंग आपके ब्राउज़र में स्थानीय रूप से होती है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल को ड्रैग और ड्रॉप करें या दस्तावेज़ चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "थ्रेशोल्ड समायोजित करें",
+        "description": "यदि आवश्यक हो तो खाली पहचान थ्रेशोल्ड सेट करें (डिफ़ॉल्ट अधिकांश दस्तावेज़ों के लिए काम करता है)।"
+      },
+      {
+        "step": 3,
+        "title": "हटाएं और डाउनलोड करें",
+        "description": "खाली पृष्ठों को हटाने और साफ़ की गई PDF डाउनलोड करने के लिए Remove पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "स्कैन किए गए दस्तावेज़ों को साफ़ करें",
+        "description": "बैच-स्कैन किए गए दस्तावेज़ों से खाली पृष्ठ हटाएं।",
+        "icon": "scan"
+      },
+      {
+        "title": "सेपरेटर हटाएं",
+        "description": "मर्ज किए गए दस्तावेज़ों से खाली सेपरेटर पेजों को हटाएं।",
+        "icon": "minus"
+      },
+      {
+        "title": "फ़ाइल का आकार घटाएं",
+        "description": "दस्तावेज़ का आकार कम करने के लिए अनावश्यक खाली पेजों को हटाएं।",
+        "icon": "minimize-2"
+      }
+    ],
+    "faq": [
+      {
+        "question": "खाली पेजों की पहचान कैसे काम करती है?",
+        "answer": "यह टूल पेज की सामग्री का विश्लेषण करता है और न्यूनतम या बिना किसी दिखाई देने वाली सामग्री वाले पेजों को खाली मानता है।"
+      },
+      {
+        "question": "क्या मैं पूर्वावलोकन कर सकता हूँ कि कौन से पेज हटाए जाएँगे?",
+        "answer": "हां, पहचाने गए खाली पेजों को हटाने से पहले समीक्षा के लिए हाइलाइट किया जाता है।"
+      },
+      {
+        "question": "यदि किसी पेज पर केवल हेडर/फुटर है तो क्या होगा?",
+        "answer": "आप यह निर्धारित करने के लिए थ्रेशोल्ड को समायोजित कर सकते हैं कि क्या न्यूनतम सामग्री वाले पेजों को खाली माना जाना चाहिए।"
+      }
+    ]
+  },
+  "image-to-pdf": {
+    "title": "Image से PDF",
+    "metaDescription": "किसी भी इमेज को PDF में बदलें। JPG, PNG, WebP, BMP, TIFF, SVG और HEIC फ़ॉर्मैट का समर्थन।",
+    "keywords": [
+      "image to pdf",
+      "convert image",
+      "photo to pdf",
+      "picture to pdf"
+    ],
+    "description": "\n      <p>Image to PDF किसी भी फ़ॉर्मैट की इमेज को PDF दस्तावेज़ों में बदलता है। JPG, PNG, WebP, BMP, TIFF, SVG और HEIC फ़ॉर्मैट का समर्थन इसे यूनिवर्सल इमेज कनवर्टर बनाता है।</p>\n      <p>एक से अधिक इमेज को एक ही PDF में जोड़ें, उन्हें किसी भी क्रम में व्यवस्थित करें, और पेज आकार व ओरिएंटेशन को कस्टमाइज़ करें। फ़ोटो एल्बम, दस्तावेज़ आर्काइव या पोर्टफ़ोलियो बनाने के लिए बिल्कुल सही।</p>\n      <p>सभी कन्वर्ज़न आपके ब्राउज़र में होते हैं, जिससे आपकी इमेज निजी रहती हैं।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "इमेज अपलोड करें",
+        "description": "किसी भी समर्थित फ़ॉर्मैट की इमेज को ड्रैग और ड्रॉप करें या फ़ाइलें चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "व्यवस्थित करें और कॉन्फ़िगर करें",
+        "description": "इमेज का क्रम बदलें और पेज आकार व ओरिएंटेशन विकल्प चुनें।"
+      },
+      {
+        "step": 3,
+        "title": "कन्वर्ट करें और डाउनलोड करें",
+        "description": "अपनी PDF बनाने और परिणाम डाउनलोड करने के लिए कन्वर्ट पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "फ़ोटो कलेक्शन",
+        "description": "विभिन्न स्रोतों से फ़ोटो को एक ही PDF एल्बम में जोड़ें।",
+        "icon": "images"
+      },
+      {
+        "title": "मिश्रित फ़ॉर्मैट दस्तावेज़",
+        "description": "विभिन्न फ़ॉर्मैट की इमेज को एक एकीकृत PDF में बदलें।",
+        "icon": "file-stack"
+      },
+      {
+        "title": "आर्काइव निर्माण",
+        "description": "दीर्घकालिक भंडारण के लिए इमेज संग्रहों से PDF आर्काइव बनाएं।",
+        "icon": "archive"
+      }
+    ],
+    "faq": [
+      {
+        "question": "कौन से इमेज फ़ॉर्मैट समर्थित हैं?",
+        "answer": "JPG, JPEG, PNG, WebP, BMP, TIFF, TIF, SVG, HEIC और HEIF सभी फ़ॉर्मैट समर्थित हैं।"
+      },
+      {
+        "question": "क्या मैं अलग-अलग इमेज फ़ॉर्मैट को मिला सकता हूँ?",
+        "answer": "हां, आप अलग-अलग फ़ॉर्मैट की इमेज को एक ही PDF में जोड़ सकते हैं।"
+      },
+      {
+        "question": "क्या इमेज की गुणवत्ता बनी रहेगी?",
+        "answer": "हां, जब तक आप उन्हें कंप्रेस करना नहीं चुनते, इमेज अपनी मूल गुणवत्ता पर ही एम्बेड की जाती हैं।"
+      }
+    ]
+  },
+  "png-to-pdf": {
+    "title": "PNG से PDF",
+    "metaDescription": "PNG इमेज को PDF में बदलें। पारदर्शिता बनाए रखें और कई PNG फ़ाइलों को जोड़ें।",
+    "keywords": [
+      "png to pdf",
+      "convert png",
+      "png converter",
+      "transparent image to pdf"
+    ],
+    "description": "\n      <p>PNG to PDF आपकी PNG इमेज को पारदर्शिता बनाए रखते हुए PDF दस्तावेज़ों में बदलता है। ग्राफ़िक्स, लोगो, स्क्रीनशॉट और पारदर्शी बैकग्राउंड वाली इमेज के लिए बिल्कुल सही।</p>\n      <p>एक से अधिक PNG फ़ाइलों को एक ही PDF में जोड़ें, उन्हें किसी भी क्रम में व्यवस्थित करें, और पेज सेटिंग्स को कस्टमाइज़ करें। कन्वर्ज़न आपकी मूल इमेज की उच्च गुणवत्ता को बनाए रखता है।</p>\n      <p>सभी कन्वर्ज़न आपके ब्राउज़र में होते हैं, जिससे आपकी इमेज निजी रहती हैं।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "PNG फ़ाइलें अपलोड करें",
+        "description": "अपनी PNG इमेज को ड्रैग और ड्रॉप करें या फ़ाइलें चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "व्यवस्थित करें और कॉन्फ़िगर करें",
+        "description": "इमेज का क्रम बदलें और पेज आकार के विकल्प चुनें।"
+      },
+      {
+        "step": 3,
+        "title": "कन्वर्ट करें और डाउनलोड करें",
+        "description": "अपना PDF बनाने और डाउनलोड करने के लिए कनवर्ट करें पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "ग्राफ़िक्स पोर्टफ़ोलियो",
+        "description": "PNG ग्राफ़िक्स और डिज़ाइन को एक पेशेवर पोर्टफ़ोलियो में संकलित करें।",
+        "icon": "palette"
+      },
+      {
+        "title": "स्क्रीनशॉट दस्तावेज़ीकरण",
+        "description": "स्क्रीनशॉट को PDF दस्तावेज़ीकरण में बदलें।",
+        "icon": "monitor"
+      },
+      {
+        "title": "लोगो कलेक्शन",
+        "description": "लोगो और ब्रांड परिसंपत्तियों के PDF कैटलॉग बनाएं।",
+        "icon": "award"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या पारदर्शिता बनी रहती है?",
+        "answer": "PDF आउटपुट में PNG की पारदर्शिता बनी रहती है।"
+      },
+      {
+        "question": "PNG एनिमेशन के बारे में क्या?",
+        "answer": "एनिमेटेड PNG पहले फ़्रेम का उपयोग करके स्थिर इमेज के रूप में कनवर्ट की जाती हैं।"
+      },
+      {
+        "question": "क्या मैं बैकग्राउंड का रंग सेट कर सकता हूँ?",
+        "answer": "हां, आप पारदर्शी क्षेत्रों के लिए बैकग्राउंड का रंग चुन सकते हैं।"
+      }
+    ]
+  },
+  "webp-to-pdf": {
+    "title": "WebP से PDF",
+    "metaDescription": "WebP इमेज को PDF में बदलें। गुणवत्ता बनाए रखते हुए आधुनिक इमेज फ़ॉर्मैट कन्वर्ज़न।",
+    "keywords": [
+      "webp to pdf",
+      "convert webp",
+      "webp converter",
+      "web image to pdf"
+    ],
+    "description": "\n      <p>WebP to PDF आधुनिक WebP इमेज को PDF दस्तावेज़ों में बदलता है। WebP एक लोकप्रिय वेब इमेज फ़ॉर्मैट है, और यह टूल प्रिंटिंग या आर्काइविंग के लिए इन इमेज को कनवर्ट करना आसान बनाता है।</p>\n      <p>कस्टमाइज़ योग्य पेज सेटिंग्स के साथ एक से अधिक WebP फ़ाइलों को एक ही PDF में जोड़ें। यह कन्वर्ज़न कॉम्पैक्ट PDF फ़ाइलें बनाते समय इमेज की गुणवत्ता बनाए रखता है।</p>\n      <p>सभी कन्वर्ज़न आपके ब्राउज़र में होते हैं, जिससे आपकी इमेज निजी रहती हैं।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "WebP फ़ाइलें अपलोड करें",
+        "description": "अपनी WebP छवियों को ड्रैग और ड्रॉप करें या फ़ाइलों को चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "ऑप्शंस कॉन्फ़िगर करें",
+        "description": "छवियों को व्यवस्थित करें और पृष्ठ का आकार तथा ओरिएंटेशन चुनें।"
+      },
+      {
+        "step": 3,
+        "title": "कन्वर्ट करें और डाउनलोड करें",
+        "description": "अपना PDF बनाने के लिए Convert पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "वेब सामग्री आर्काइविंग",
+        "description": "ऑफ़लाइन आर्काइविंग के लिए वेब छवियों को PDF में बदलें।",
+        "icon": "globe"
+      },
+      {
+        "title": "प्रिंट की तैयारी",
+        "description": "प्रिंटिंग के उद्देश्यों के लिए WebP छवियों को PDF में बदलें।",
+        "icon": "printer"
+      },
+      {
+        "title": "फ़ॉर्मेट मानकीकरण",
+        "description": "आधुनिक WebP को सार्वभौमिक रूप से संगत PDF में बदलें।",
+        "icon": "file-check"
+      }
+    ],
+    "faq": [
+      {
+        "question": "WebP फ़ॉर्मेट क्या है?",
+        "answer": "WebP Google द्वारा विकसित एक आधुनिक छवि फ़ॉर्मेट है जो वेब छवियों के लिए बेहतरीन कंप्रेशन प्रदान करता है।"
+      },
+      {
+        "question": "क्या गुणवत्ता सुरक्षित रहती है?",
+        "answer": "हाँ, रूपांतरण मूल छवि की गुणवत्ता को बनाए रखता है।"
+      },
+      {
+        "question": "क्या मैं एनिमेटेड WebP को रूपांतरित कर सकता हूँ?",
+        "answer": "एनिमेटेड WebP फ़ाइलें स्थिर छवियों के रूप में रूपांतरित की जाती हैं।"
+      }
+    ]
+  },
+  "svg-to-pdf": {
+    "title": "SVG से PDF",
+    "metaDescription": "SVG वेक्टर ग्राफ़िक्स को PDF में बदलें। स्केलेबिलिटी और गुणवत्ता बनाए रखें।",
+    "keywords": [
+      "svg to pdf",
+      "convert svg",
+      "vector to pdf",
+      "scalable graphics to pdf"
+    ],
+    "description": "\n      <p>SVG से PDF स्केलेबल वेक्टर ग्राफ़िक्स को उनकी वेक्टर गुणवत्ता बनाए रखते हुए PDF दस्तावेज़ों में रूपांतरित करता है। SVG फ़ाइलें किसी भी आकार में स्पष्ट रहती हैं, और यह गुणवत्ता PDF आउटपुट में भी बनी रहती है।</p>\n      <p>लोगो, आइकन, इलस्ट्रेशन और तकनीकी ड्राइंग को रूपांतरित करने के लिए उत्कृष्ट। परिणामी PDF मूल वेक्टर ग्राफ़िक्स की स्केलेबिलिटी को बनाए रखता है।</p>\n      <p>सभी रूपांतरण आपके ब्राउज़र में होते हैं, जिससे आपकी फ़ाइलें निजी रहती हैं।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "SVG फ़ाइलें अपलोड करें",
+        "description": "अपनी SVG फ़ाइलों को ड्रैग और ड्रॉप करें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "सेटिंग्स कॉन्फ़िगर करें",
+        "description": "पृष्ठ का आकार और व्यवस्था विकल्प चुनें।"
+      },
+      {
+        "step": 3,
+        "title": "कन्वर्ट करें और डाउनलोड करें",
+        "description": "अपना वेक्टर PDF बनाने के लिए Convert पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "लोगो रूपांतरण",
+        "description": "प्रिंट सामग्री के लिए SVG लोगो को PDF में बदलें।",
+        "icon": "award"
+      },
+      {
+        "title": "तकनीकी रेखाचित्र",
+        "description": "CAD निर्यात और तकनीकी इलस्ट्रेशन को PDF में बदलें।",
+        "icon": "ruler"
+      },
+      {
+        "title": "आइकन संग्रह",
+        "description": "आइकन सेट और ग्राफ़िक्स के PDF कैटलॉग बनाएं।",
+        "icon": "grid"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या वेक्टर गुणवत्ता सुरक्षित रहती है?",
+        "answer": "हाँ, PDF आउटपुट में SVG वेक्टर गुणवत्ता पूरी तरह से सुरक्षित रहती है।"
+      },
+      {
+        "question": "क्या मैं जटिल SVG को रूपांतरित कर सकता हूँ?",
+        "answer": "हाँ, ग्रेडिएंट, फ़िल्टर और इफ़ेक्ट वाले जटिल SVG समर्थित हैं।"
+      },
+      {
+        "question": "एंबेडेड फ़ॉन्ट के बारे में क्या?",
+        "answer": "SVG फ़ाइलों में एंबेडेड फ़ॉन्ट PDF में सुरक्षित रहते हैं।"
+      }
+    ]
+  },
+  "bmp-to-pdf": {
+    "title": "BMP से PDF",
+    "metaDescription": "BMP बिटमैप छवियों को PDF में बदलें। गुणवत्ता बनाए रखने के साथ लेगेसी फ़ॉर्मेट सहायता।",
+    "keywords": [
+      "bmp to pdf",
+      "convert bmp",
+      "bitmap to pdf",
+      "bmp converter"
+    ],
+    "description": "\n      <p>BMP से PDF बिटमैप छवियों को PDF दस्तावेज़ों में रूपांतरित करता है। BMP एक लेगेसी इमेज फ़ॉर्मेट है जो आमतौर पर Windows वातावरण में उपयोग किया जाता है, और यह टूल इन फ़ाइलों को आधुनिक PDF फ़ॉर्मेट में आसानी से रूपांतरित करता है।</p>\n      <p>अनुकूलन योग्य सेटिंग्स के साथ कई BMP फ़ाइलों को एक ही PDF में संयोजित करें। यह रूपांतरण छवि की गुणवत्ता बनाए रखते हुए आमतौर पर बड़ी BMP फ़ाइलों को कंप्रेस करता है।</p>\n      <p>सभी रूपांतरण आपके ब्राउज़र में होते हैं, जिससे आपकी छवियां निजी रहती हैं।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "BMP फ़ाइलें अपलोड करें",
+        "description": "अपनी BMP छवियों को ड्रैग और ड्रॉप करें या फ़ाइलों को चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "ऑप्शंस कॉन्फ़िगर करें",
+        "description": "छवियों को व्यवस्थित करें और पृष्ठ सेटिंग्स चुनें।"
+      },
+      {
+        "step": 3,
+        "title": "कन्वर्ट करें और डाउनलोड करें",
+        "description": "अपना PDF बनाने के लिए Convert पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "लेगेसी फ़ाइल रूपांतरण",
+        "description": "पुराने BMP फ़ाइलों को आधुनिक PDF फ़ॉर्मेट में बदलें।",
+        "icon": "history"
+      },
+      {
+        "title": "Windows स्क्रीनशॉट",
+        "description": "Windows बिटमैप स्क्रीनशॉट को PDF में बदलें।",
+        "icon": "monitor"
+      },
+      {
+        "title": "आर्काइव आधुनिकीकरण",
+        "description": "पुराने छवि संग्रहों को PDF फ़ॉर्मेट में अपडेट करें।",
+        "icon": "archive"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या फ़ाइल का आकार कम हो जाएगा?",
+        "answer": "हाँ, PDF में रूपांतरित होने पर BMP फ़ाइलें आमतौर पर काफ़ी हद तक कंप्रेस हो जाती हैं।"
+      },
+      {
+        "question": "क्या गुणवत्ता सुरक्षित रहती है?",
+        "answer": "हाँ, रूपांतरण के दौरान छवि की गुणवत्ता बनी रहती है।"
+      },
+      {
+        "question": "कौन सी BMP कलर डेप्थ समर्थित हैं?",
+        "answer": "24-bit और 32-bit सहित सभी मानक BMP कलर डेप्थ समर्थित हैं।"
+      }
+    ]
+  },
+  "psd-to-pdf": {
+    "title": "PSD से PDF",
+    "metaDescription": "Adobe Photoshop (PSD) फ़ाइलों को PDF फ़ॉर्मेट में बदलें। कई फ़ाइलों का समर्थन करता है और इमेज क्वालिटी बनाए रखता है।",
+    "keywords": [
+      "psd to pdf",
+      "convert psd",
+      "photoshop to pdf",
+      "psd converter",
+      "adobe psd to pdf"
+    ],
+    "description": "<p>PSD से PDF Adobe Photoshop (PSD) फ़ाइलों को PDF दस्तावेज़ों में बदलता है। यह टूल आपको Photoshop इंस्टॉल किए बिना PSD डिज़ाइन देखने और साझा करने की सुविधा देता है।</p><p>आप एक साथ कई PSD फ़ाइलों को बदल सकते हैं और उन्हें एक ही PDF दस्तावेज़ में जोड़ सकते हैं। यह टूल प्रत्येक PSD फ़ाइल को प्रोसेस करता है, और दृश्यमान परतों को उच्च-गुणवत्ता वाले PDF पृष्ठों में रेंडर करता है।</p><p>सभी कंवर्जन आपके ब्राउज़र में स्थानीय रूप से होते हैं, जिससे यह सुनिश्चित होता है कि आपके डिज़ाइन निजी और सुरक्षित रहें।</p>",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "PSD फ़ाइलें अपलोड करें",
+        "description": "अपनी PSD या PSB फ़ाइलों को ड्रैग और ड्रॉप करें, या अपने डिवाइस से चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "क्रम व्यवस्थित करें",
+        "description": "फ़ाइल थंबनेल को वांछित क्रम में व्यवस्थित करने के लिए ड्रैग और ड्रॉप करें।"
+      },
+      {
+        "step": 3,
+        "title": "कन्वर्ट करें और डाउनलोड करें",
+        "description": "PSDs को रेंडर करने और अपना PDF दस्तावेज़ डाउनलोड करने के लिए Convert पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "डिज़ाइन साझा करें",
+        "description": "उन क्लाइंट्स या सहकर्मियों के साथ Photoshop डिज़ाइन साझा करें जिनके पास Photoshop नहीं है।",
+        "icon": "share-2"
+      },
+      {
+        "title": "पोर्टफोलियो निर्माण",
+        "description": "अपने डिज़ाइन कार्य को एक पेशेवर PDF पोर्टफ़ोलियो में संकलित करें।",
+        "icon": "layout"
+      },
+      {
+        "title": "प्रिंट की तैयारी",
+        "description": "प्रिंटिंग उद्देश्यों के लिए डिज़ाइनों को PDF में बदलें।",
+        "icon": "printer"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या मुझे Photoshop इंस्टॉल करने की आवश्यकता है?",
+        "answer": "नहीं, यह टूल Adobe Photoshop की आवश्यकता के बिना पूरी तरह से आपके ब्राउज़र में काम करता है।"
+      },
+      {
+        "question": "क्या लेयर्स सुरक्षित रहती हैं?",
+        "answer": "यह टूल PSD (कम्पोजिट इमेज) की दृश्यमान स्थिति को रेंडर करता है। अलग-अलग लेयर्स को PDF में फ़्लैट कर दिया जाता है।"
+      },
+      {
+        "question": "अधिकतम फ़ाइल साइज़ क्या है?",
+        "answer": "आप प्रत्येक 100MB तक की फ़ाइलें अपलोड कर सकते हैं। बड़ी PSD फ़ाइलों को प्रोसेस होने में थोड़ा समय लग सकता है।"
+      }
+    ]
+  },
+  "heic-to-pdf": {
+    "title": "HEIC से PDF",
+    "metaDescription": "iPhone HEIC फोटो को PDF में बदलें। Apple इमेज फ़ॉर्मेट कंवर्जन हुआ आसान।",
+    "keywords": [
+      "heic to pdf",
+      "convert heic",
+      "iphone photo to pdf",
+      "apple image to pdf"
+    ],
+    "description": "<p>HEIC से PDF Apple के High Efficiency Image Format फोटो को PDF दस्तावेज़ों में बदलता है। HEIC iPhones और iPads पर डिफ़ॉल्ट फोटो फ़ॉर्मेट है, और यह टूल इन फोटो को साझा करना आसान बनाता है।</p><p>कई HEIC फोटो को एक ही PDF में जोड़ें, जो आपके iPhone फोटो से फोटो एलबम या दस्तावेज़ आर्काइव बनाने के लिए एकदम सही है।</p><p>सभी कंवर्जन आपके ब्राउज़र में होते हैं, जिससे यह सुनिश्चित होता है कि आपकी तस्वीरें निजी रहें।</p>",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "HEIC फ़ाइलें अपलोड करें",
+        "description": "अपनी HEIC फोटो को ड्रैग और ड्रॉप करें या फ़ाइलें चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "फोटो व्यवस्थित करें",
+        "description": "फोटो को पुनर्व्यवस्थित करें और पेज सेटिंग्स चुनें।"
+      },
+      {
+        "step": 3,
+        "title": "कन्वर्ट करें और डाउनलोड करें",
+        "description": "अपना PDF बनाने के लिए Convert पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "iPhone फोटो एलबम",
+        "description": "साझा करने के लिए iPhone फोटो से PDF एलबम बनाएं।",
+        "icon": "smartphone"
+      },
+      {
+        "title": "दस्तावेज़ स्कैनिंग",
+        "description": "iPhone दस्तावेज़ स्कैन को PDF फ़ॉर्मेट में बदलें।",
+        "icon": "scan"
+      },
+      {
+        "title": "क्रॉस-प्लेटफ़ॉर्म शेयरिंग",
+        "description": "सार्वभौमिक अनुकूलता के लिए HEIC को PDF में बदलें।",
+        "icon": "share-2"
+      }
+    ],
+    "faq": [
+      {
+        "question": "HEIC फ़ॉर्मेट क्या है?",
+        "answer": "HEIC (High Efficiency Image Container) Apple का इमेज फ़ॉर्मेट है जो JPEG की तुलना में बेहतर कम्प्रेशन प्रदान करता है।"
+      },
+      {
+        "question": "क्या Live Photos समर्थित हैं?",
+        "answer": "Live Photos को की-फ़्रेम का उपयोग करके स्थिर छवियों के रूप में कंवर्ट किया जाता है।"
+      },
+      {
+        "question": "क्या EXIF डेटा सुरक्षित रहता है?",
+        "answer": "कंवर्जन के दौरान फोटो मेटाडेटा को वैकल्पिक रूप से सुरक्षित रखा या हटाया जा सकता है।"
+      }
+    ]
+  },
+  "tiff-to-pdf": {
+    "title": "TIFF से PDF",
+    "metaDescription": "TIFF इमेज को PDF में बदलें। मल्टी-पेज TIFF फ़ाइलों और उच्च-गुणवत्ता वाले कंवर्जन का समर्थन।",
+    "keywords": [
+      "tiff to pdf",
+      "convert tiff",
+      "tif to pdf",
+      "multi-page tiff"
+    ],
+    "description": "<p>TIFF से PDF TIFF इमेज, जिसमें मल्टी-पेज TIFF फ़ाइलें शामिल हैं, को PDF दस्तावेज़ों में बदलता है। TIFF का उपयोग आमतौर पर उच्च-गुणवत्ता वाले स्कैन और पेशेवर ग्राफिक्स के लिए किया जाता है।</p><p>मल्टी-पेज TIFF फ़ाइलें स्वचालित रूप से मल्टी-पेज PDF में बदल जाती हैं। कंवर्जन आपकी मूल छवियों की उच्च गुणवत्ता को बनाए रखता है।</p><p>सभी कंवर्जन आपके ब्राउज़र में होते हैं, जिससे यह सुनिश्चित होता है कि आपकी फ़ाइलें निजी रहें।</p>",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "TIFF फ़ाइलें अपलोड करें",
+        "description": "अपनी TIFF फ़ाइलों को ड्रैग और ड्रॉप करें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "ऑप्शंस कॉन्फ़िगर करें",
+        "description": "पेज सेटिंग्स और कम्प्रेशन विकल्प चुनें।"
+      },
+      {
+        "step": 3,
+        "title": "कन्वर्ट करें और डाउनलोड करें",
+        "description": "अपना PDF बनाने के लिए Convert पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "स्कैन किए गए दस्तावेज़",
+        "description": "TIFF से उच्च-गुणवत्ता वाले स्कैन को PDF में बदलें।",
+        "icon": "scan"
+      },
+      {
+        "title": "प्रोफेशनल ग्राफिक्स",
+        "description": "वितरण के लिए पेशेवर TIFF ग्राफिक्स को कंवर्ट करें।",
+        "icon": "image"
+      },
+      {
+        "title": "आर्काइव कंवर्जन",
+        "description": "TIFF आर्काइव्स को अधिक सुलभ PDF फ़ॉर्मेट में बदलें।",
+        "icon": "archive"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या मल्टी-पेज TIFFs समर्थित हैं?",
+        "answer": "हां, मल्टी-पेज TIFF फ़ाइलें स्वचालित रूप से मल्टी-पेज PDFs में कंवर्ट हो जाती हैं।"
+      },
+      {
+        "question": "क्या गुणवत्ता सुरक्षित रहती है?",
+        "answer": "हां, PDF आउटपुट में TIFF गुणवत्ता पूरी तरह से सुरक्षित रहती है।"
+      },
+      {
+        "question": "किस कंप्रेशन का उपयोग किया जाता है?",
+        "answer": "आप लॉसलेस और लॉसी कंप्रेशन विकल्पों में से चुन सकते हैं।"
+      }
+    ]
+  },
+  "txt-to-pdf": {
+    "title": "Text to PDF",
+    "metaDescription": "प्लेन टेक्स्ट फ़ाइलों को PDF में बदलें। फ़ॉन्ट, मार्जिन और पेज लेआउट को कस्टमाइज़ करें।",
+    "keywords": [
+      "txt to pdf",
+      "text to pdf",
+      "convert text file",
+      "plain text to pdf"
+    ],
+    "description": "\n      <p>Text to PDF प्लेन टेक्स्ट फ़ाइलों को फ़ॉर्मैट किए गए PDF दस्तावेज़ों में बदलता है। साधारण टेक्स्ट से पेशेवर दिखने वाले दस्तावेज़ बनाने के लिए फ़ॉन्ट, आकार, मार्जिन और पेज लेआउट कस्टमाइज़ करें।</p>\n      <p>कोड फ़ाइलों, लॉग, नोट्स या किसी भी प्लेन टेक्स्ट सामग्री को शेयर करने योग्य PDF फ़ॉर्मैट में बदलने के लिए बिल्कुल सही।</p>\n      <p>सभी रूपांतरण आपके ब्राउज़र में होते हैं, जिससे आपकी फ़ाइलें निजी रहती हैं।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "टेक्स्ट फ़ाइल अपलोड करें",
+        "description": "अपनी .txt फ़ाइल ड्रैग और ड्रॉप करें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "फ़ॉर्मैटिंग कस्टमाइज़ करें",
+        "description": "फ़ॉन्ट, साइज़, मार्जिन और पेज सेटिंग्स चुनें।"
+      },
+      {
+        "step": 3,
+        "title": "कन्वर्ट करें और डाउनलोड करें",
+        "description": "अपना फ़ॉर्मैट किया गया PDF बनाने के लिए Convert पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "कोड डॉक्यूमेंटेशन",
+        "description": "डॉक्यूमेंटेशन के लिए सोर्स कोड फ़ाइलों को PDF में बदलें।",
+        "icon": "code"
+      },
+      {
+        "title": "लॉग आर्काइव",
+        "description": "आर्काइव करने के उद्देश्यों के लिए लॉग फ़ाइलों को PDF में बदलें।",
+        "icon": "file-text"
+      },
+      {
+        "title": "नोट रूपांतरण",
+        "description": "प्लेन टेक्स्ट नोट्स को फ़ॉर्मैट किए गए PDF दस्तावेज़ों में बदलें।",
+        "icon": "sticky-note"
+      }
+    ],
+    "faq": [
+      {
+        "question": "कौन से फ़ॉन्ट उपलब्ध हैं?",
+        "answer": "कोड के लिए मोनोस्पेस फ़ॉन्ट सहित कई फ़ॉन्ट उपलब्ध हैं।"
+      },
+      {
+        "question": "क्या लाइन रैपिंग स्वचालित है?",
+        "answer": "हाँ, लंबी लाइनों को पेज में फ़िट करने के लिए स्वचालित रूप से रैप किया जाता है।"
+      },
+      {
+        "question": "क्या मैं फ़ॉर्मैटिंग को सुरक्षित रख सकता हूँ?",
+        "answer": "मूल टेक्स्ट से व्हॉइटस्पेस और इंडेंटेशन सुरक्षित रखे जाते हैं।"
+      }
+    ]
+  },
+  "json-to-pdf": {
+    "title": "JSON to PDF",
+    "metaDescription": "JSON फ़ाइलों को फ़ॉर्मैट किए गए PDF में बदलें। सिंटैक्स हाईलाइटिंग और स्ट्रक्चर्ड आउटपुट।",
+    "keywords": [
+      "json to pdf",
+      "convert json",
+      "json viewer",
+      "json formatter"
+    ],
+    "description": "\n      <p>JSON to PDF, JSON डेटा फ़ाइलों को फ़ॉर्मैट किए गए, पढ़ने योग्य PDF दस्तावेज़ों में बदलता है। आसान पठन के लिए आउटपुट में सिंटैक्स हाईलाइटिंग और उचित इंडेंटेशन शामिल हैं।</p>\n      <p>API उत्तरों, कॉन्फ़िगरेशन फ़ाइलों, या किसी भी JSON डेटा को डॉक्यूमेंट करने के लिए सही है जिसे पढ़ने योग्य फ़ॉर्मैट में शेयर या आर्काइव करने की आवश्यकता है।</p>\n      <p>सभी रूपांतरण आपके ब्राउज़र में होते हैं, जिससे आपका डेटा निजी रहता है।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "JSON फ़ाइल अपलोड करें",
+        "description": "अपनी .json फ़ाइल ड्रैग और ड्रॉप करें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "डिस्प्ले कॉन्फ़िगर करें",
+        "description": "फ़ॉर्मैटिंग विकल्प और सिंटैक्स हाईलाइटिंग चुनें।"
+      },
+      {
+        "step": 3,
+        "title": "कन्वर्ट करें और डाउनलोड करें",
+        "description": "अपना फ़ॉर्मैट किया गया PDF बनाने के लिए Convert पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "API डॉक्यूमेंटेशन",
+        "description": "डॉक्यूमेंटेशन के लिए API उत्तरों को PDF में बदलें।",
+        "icon": "code"
+      },
+      {
+        "title": "कॉन्फ़िग आर्काइव",
+        "description": "कॉन्फ़िगरेशन फ़ाइलों को पढ़ने योग्य PDF फ़ॉर्मैट में आर्काइव करें।",
+        "icon": "settings"
+      },
+      {
+        "title": "डेटा रिपोर्ट",
+        "description": "JSON डेटा एक्सपोर्ट से PDF रिपोर्ट बनाएं।",
+        "icon": "bar-chart"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या सिंटैक्स हाईलाइटिंग शामिल है?",
+        "answer": "हाँ, keys, values और types के लिए JSON सिंटैक्स को रंगों के साथ हाईलाइट किया जाता है।"
+      },
+      {
+        "question": "नेस्टेड डेटा को कैसे संभाला जाता है?",
+        "answer": "नेस्टेड ऑब्जेक्ट्स और एरेज़ को पढ़ने में आसानी के लिए सही ढंग से इंडेंट किया जाता है।"
+      },
+      {
+        "question": "बड़ी JSON फ़ाइलों के बारे में क्या?",
+        "answer": "बड़ी फ़ाइलों को स्वचालित रूप से कई पृष्ठों पर पेजिनेट किया जाता है।"
+      }
+    ]
+  },
+  "word-to-pdf": {
+    "title": "Word to PDF",
+    "metaDescription": "Word दस्तावेज़ों (DOCX) को PDF में बदलें। अपने परिवर्तित दस्तावेज़ों में फ़ॉर्मैटिंग और लेआउट को सुरक्षित रखें।",
+    "keywords": [
+      "word to pdf",
+      "docx to pdf",
+      "convert word",
+      "word converter",
+      "microsoft word to pdf"
+    ],
+    "description": "\n      <p>Word to PDF मूल फ़ॉर्मैटिंग, लेआउट और सामग्री संरचना को सुरक्षित रखते हुए Microsoft Word दस्तावेज़ों को PDF फ़ॉर्मैट में बदलता है।</p>\n      <p>अपनी DOCX फ़ाइलें अपलोड करें और शेयर करने, प्रिंट करने या आर्काइव करने के लिए उपयुक्त उच्च गुणवत्ता वाला PDF आउटपुट प्राप्त करें। यह रूपांतरण टेक्स्ट फ़ॉर्मैटिंग, पैराग्राफ स्टाइल और बुनियादी दस्तावेज़ संरचना को बनाए रखता है।</p>\n      <p>सभी रूपांतरण आपके ब्राउज़र में स्थानीय रूप से होते हैं, जिससे आपके दस्तावेज़ सुरक्षित और निजी रहते हैं।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "Word दस्तावेज़ अपलोड करें",
+        "description": "अपनी .docx फ़ाइल ड्रैग और ड्रॉप करें या अपने डिवाइस से चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "प्रोसेसिंग का इंतज़ार करें",
+        "description": "टूल दस्तावेज़ लोड करेगा और इसे रूपांतरण के लिए तैयार करेगा।"
+      },
+      {
+        "step": 3,
+        "title": "PDF डाउनलोड करें",
+        "description": "अपना परिवर्तित PDF दस्तावेज़ सहेजने के लिए Download पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "दस्तावेज़ साझा करना",
+        "description": "सार्वभौमिक साझाकरण और देखने के लिए Word दस्तावेज़ों को PDF में बदलें।",
+        "icon": "share-2"
+      },
+      {
+        "title": "प्रिंट की तैयारी",
+        "description": "Word दस्तावेज़ों से प्रिंट-रेडी PDF बनाएं।",
+        "icon": "printer"
+      },
+      {
+        "title": "दस्तावेज़ आर्काइव",
+        "description": "दीर्घकालिक भंडारण के लिए Word दस्तावेज़ों को स्थिर PDF फ़ॉर्मेट में आर्काइव करें।",
+        "icon": "archive"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या .doc फ़ॉर्मेट समर्थित है?",
+        "answer": "वर्तमान में केवल .docx फ़ॉर्मेट समर्थित है। कृपया Microsoft Word या LibreOffice का उपयोग करके पहले .doc फ़ाइलों को .docx में बदलें।"
+      },
+      {
+        "question": "क्या चित्र सुरक्षित रहते हैं?",
+        "answer": "टेक्स्ट सामग्री और बुनियादी फ़ॉर्मेटिंग सुरक्षित रहती है। कई छवियों वाले जटिल लेआउट में सरलीकृत रेंडरिंग हो सकती है।"
+      },
+      {
+        "question": "क्या रूपांतरण सुरक्षित है?",
+        "answer": "हाँ, सभी प्रोसेसिंग आपके ब्राउज़र में होती है। आपके दस्तावेज़ आपके डिवाइस से बाहर कभी नहीं जाते हैं।"
+      }
+    ]
+  },
+  "excel-to-pdf": {
+    "title": "Excel से PDF",
+    "metaDescription": "Excel स्प्रेडशीट (XLSX) को PDF में बदलें। अपने परिवर्तित दस्तावेज़ों में तालिकाओं और डेटा को सुरक्षित रखें।",
+    "keywords": [
+      "excel to pdf",
+      "xlsx to pdf",
+      "convert excel",
+      "spreadsheet to pdf",
+      "microsoft excel to pdf"
+    ],
+    "description": "<p>Excel to PDF, तालिका संरचना और डेटा संगठन को सुरक्षित रखते हुए Microsoft Excel स्प्रेडशीट को PDF फ़ॉर्मेट में बदलता है।</p><p>अपनी XLSX फ़ाइलें अपलोड करें और उचित रूप से फ़ॉर्मेट की गई तालिकाओं के साथ साफ़ PDF आउटपुट प्राप्त करें। आपकी वर्कबुक की प्रत्येक शीट PDF में एक अलग अनुभाग बन जाती है।</p><p>सभी रूपांतरण आपके ब्राउज़र में स्थानीय रूप से होते हैं, जिससे यह सुनिश्चित होता है कि आपका डेटा निजी और सुरक्षित रहे।</p>",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "Excel फ़ाइल अपलोड करें",
+        "description": "अपनी .xlsx फ़ाइल को ड्रैग और ड्रॉप करें या अपने डिवाइस से चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "प्रोसेसिंग का इंतज़ार करें",
+        "description": "टूल स्प्रेडशीट को लोड करेगा और सभी शीटों को परिवर्तित करेगा।"
+      },
+      {
+        "step": 3,
+        "title": "PDF डाउनलोड करें",
+        "description": "अपना परिवर्तित PDF दस्तावेज़ सहेजने के लिए Download पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "रिपोर्ट साझा करना",
+        "description": "हितधारकों को वितरित करने के लिए Excel रिपोर्टों को PDF में बदलें।",
+        "icon": "file-text"
+      },
+      {
+        "title": "डेटा आर्काइविंग",
+        "description": "स्प्रेडशीट डेटा को स्थिर PDF फ़ॉर्मेट में आर्काइव करें।",
+        "icon": "archive"
+      },
+      {
+        "title": "प्रिंट की तैयारी",
+        "description": "Excel वर्कशीट से प्रिंट-रेडी PDF बनाएं।",
+        "icon": "printer"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या एकाधिक शीटें समर्थित हैं?",
+        "answer": "हाँ, वर्कबुक की सभी शीटें परिवर्तित की जाती हैं और PDF में शामिल की जाती हैं।"
+      },
+      {
+        "question": "क्या .xls फ़ॉर्मेट समर्थित है?",
+        "answer": "वर्तमान में केवल .xlsx फ़ॉर्मेट समर्थित है। कृपया पहले .xls फ़ाइलों को .xlsx के रूप में सहेजें।"
+      },
+      {
+        "question": "क्या फ़ॉर्मूले सुरक्षित रहते हैं?",
+        "answer": "PDF परिकलित मान दिखाता है। फ़ॉर्मूले PDF फ़ॉर्मेट में निष्पादन योग्य नहीं होते हैं।"
+      }
+    ]
+  },
+  "pptx-to-pdf": {
+    "title": "PowerPoint से PDF",
+    "metaDescription": "PowerPoint प्रस्तुतियों (PPTX) को PDF में बदलें। आसान साझाकरण के लिए स्लाइड और सामग्री को सुरक्षित रखें।",
+    "keywords": [
+      "powerpoint to pdf",
+      "pptx to pdf",
+      "convert pptx",
+      "presentation to pdf",
+      "slides to pdf"
+    ],
+    "description": "<p>PowerPoint to PDF आसान साझाकरण और देखने के लिए स्लाइड सामग्री और टेक्स्ट को सुरक्षित रखते हुए Microsoft PowerPoint प्रस्तुतियों को PDF फ़ॉर्मेट में बदलता है।</p><p>प्रत्येक स्लाइड PDF में एक पृष्ठ बन जाती है, जो प्रस्तुति के प्रवाह को बनाए रखती है। उन लोगों के साथ प्रस्तुतियाँ साझा करने के लिए बिल्कुल सही जिनके पास PowerPoint इंस्टॉल नहीं है।</p><p>सभी रूपांतरण आपके ब्राउज़र में स्थानीय रूप से होते हैं, जिससे यह सुनिश्चित होता है कि आपकी प्रस्तुतियाँ निजी और सुरक्षित रहें।</p>",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "PowerPoint फ़ाइल अपलोड करें",
+        "description": "अपनी .pptx फ़ाइल को ड्रैग और ड्रॉप करें या अपने डिवाइस से चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "प्रोसेसिंग का इंतज़ार करें",
+        "description": "टूल स्लाइड की सामग्री को निकालेगा और PDF बनाएगा।"
+      },
+      {
+        "step": 3,
+        "title": "PDF डाउनलोड करें",
+        "description": "अपना परिवर्तित PDF दस्तावेज़ सहेजने के लिए Download पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "प्रस्तुति साझा करना",
+        "description": "PowerPoint की आवश्यकता के बिना किसी के भी साथ प्रस्तुतियाँ साझा करें।",
+        "icon": "share-2"
+      },
+      {
+        "title": "हैंडआउट निर्माण",
+        "description": "अपनी प्रस्तुति स्लाइडों से PDF हैंडआउट बनाएं।",
+        "icon": "file-text"
+      },
+      {
+        "title": "प्रस्तुतियाँ आर्काइव करें",
+        "description": "प्रस्तुतियों को स्थिर PDF फ़ॉर्मेट में आर्काइव करें।",
+        "icon": "archive"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या एनीमेशन सुरक्षित रहते हैं?",
+        "answer": "PDF एक स्थिर फ़ॉर्मेट है, इसलिए एनीमेशन और ट्रांज़िशन सुरक्षित नहीं रहते हैं। प्रत्येक स्लाइड एक स्थिर पृष्ठ बन जाती है।"
+      },
+      {
+        "question": "क्या .ppt फ़ॉर्मेट समर्थित है?",
+        "answer": "वर्तमान में केवल .pptx फ़ॉर्मेट समर्थित है। कृपया पहले .ppt फ़ाइलों को .pptx में बदलें।"
+      },
+      {
+        "question": "क्या वक्ता के नोट्स (speaker notes) शामिल हैं?",
+        "answer": "वर्तमान में, PDF आउटपुट में स्पीकर नोट्स शामिल नहीं हैं।"
+      }
+    ]
+  },
+  "xps-to-pdf": {
+    "title": "XPS से PDF",
+    "metaDescription": "XPS दस्तावेज़ों को PDF फ़ॉर्मेट में बदलें। लेआउट और ग्राफिक्स को सुरक्षित रखने वाला उच्च-सटीकता रूपांतरण।",
+    "keywords": [
+      "xps to pdf",
+      "convert xps",
+      "xps converter",
+      "microsoft xps to pdf",
+      "oxps to pdf"
+    ],
+    "description": "<p>XPS to PDF मूल लेआउट, टेक्स्ट और वेक्टर ग्राफिक्स को सुरक्षित रखते हुए Microsoft XPS (XML Paper Specification) दस्तावेज़ों को PDF फ़ॉर्मेट में बदलता है।</p><p>XPS, PDF के समान एक फिक्स्ड-डॉक्यूमेंट फ़ॉर्मेट है। यह टूल आपके दस्तावेज़ों का सटीक पुनरुत्पाद सुनिश्चित करते हुए, मूल XPS पार्सिंग का उपयोग करके उच्च-सटीकता रूपांतरण प्रदान करता है।</p><p>सभी रूपांतरण आपके ब्राउज़र में स्थानीय रूप से होते हैं, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी और सुरक्षित रहें।</p>",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "XPS फ़ाइल अपलोड करें",
+        "description": "अपनी .xps फ़ाइल को ड्रैग और ड्रॉप करें या अपने डिवाइस से चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "प्रोसेसिंग का इंतज़ार करें",
+        "description": "टूल XPS दस्तावेज़ को पार्स और कनवर्ट करेगा।"
+      },
+      {
+        "step": 3,
+        "title": "PDF डाउनलोड करें",
+        "description": "अपना परिवर्तित PDF दस्तावेज़ सहेजने के लिए Download पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "फ़ॉर्मेट रूपांतरण",
+        "description": "XPS दस्तावेज़ों को अधिक व्यापक रूप से समर्थित PDF फ़ॉर्मेट में कनवर्ट करें।",
+        "icon": "file"
+      },
+      {
+        "title": "दस्तावेज़ साझा करना",
+        "description": "XPS दस्तावेज़ों को उन उपयोगकर्ताओं के साथ साझा करें जिनके पास XPS व्यूअर नहीं हैं।",
+        "icon": "share-2"
+      },
+      {
+        "title": "आर्काइव माइग्रेशन",
+        "description": "बेहतर संगतता के लिए XPS आर्काइव को PDF फ़ॉर्मेट में माइग्रेट करें।",
+        "icon": "archive"
+      }
+    ],
+    "faq": [
+      {
+        "question": "XPS फ़ॉर्मेट क्या है?",
+        "answer": "XPS (XML Paper Specification) Microsoft का फिक्स्ड-डॉक्यूमेंट फ़ॉर्मेट है, जो PDF के समान है। इसका उपयोग आमतौर पर Windows प्रिंटिंग के लिए किया जाता है।"
+      },
+      {
+        "question": "क्या रूपांतरण लॉसलेस है?",
+        "answer": "हाँ, रूपांतरण उच्च निष्ठा (high fidelity) के साथ टेक्स्ट, ग्राफिक्स और लेआउट को बनाए रखता है।"
+      },
+      {
+        "question": "क्या मल्टी-पेज XPS फ़ाइलें समर्थित हैं?",
+        "answer": "हाँ, XPS दस्तावेज़ के सभी पृष्ठों को PDF में कनवर्ट किया जाता है।"
+      }
+    ]
+  },
+  "rtf-to-pdf": {
+    "title": "RTF से PDF",
+    "metaDescription": "RTF (Rich Text Format) फ़ाइलों को PDF में कनवर्ट करें। अपने दस्तावेज़ों में टेक्स्ट फ़ॉर्मेटिंग बनाए रखें।",
+    "keywords": [
+      "rtf to pdf",
+      "convert rtf",
+      "rich text to pdf",
+      "rtf converter"
+    ],
+    "description": "\n      <p>RTF to PDF, Rich Text Format फ़ाइलों को PDF दस्तावेज़ों में कनवर्ट करता है। RTF एक व्यापक रूप से समर्थित टेक्स्ट फ़ॉर्मेट है जिसमें फ़ॉन्ट, रंग और शैली जैसी बुनियादी फ़ॉर्मेटिंग शामिल है।</p>\n      <p>अपनी RTF फ़ाइलें अपलोड करें और टेक्स्ट सामग्री और बुनियादी फ़ॉर्मेटिंग को सुरक्षित रखते हुए साफ़ PDF आउटपुट प्राप्त करें। पुराने दस्तावेज़ों को आधुनिक PDF फ़ॉर्मेट में कनवर्ट करने के लिए बिल्कुल सही।</p>\n      <p>सभी रूपांतरण आपके ब्राउज़र में स्थानीय रूप से होते हैं, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी और सुरक्षित रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "RTF फ़ाइल अपलोड करें",
+        "description": "अपनी .rtf फ़ाइल को ड्रैग और ड्रॉप करें या अपने डिवाइस से चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "प्रोसेसिंग का इंतज़ार करें",
+        "description": "टूल RTF सामग्री को पार्स और कनवर्ट करेगा।"
+      },
+      {
+        "step": 3,
+        "title": "PDF डाउनलोड करें",
+        "description": "अपना परिवर्तित PDF दस्तावेज़ सहेजने के लिए Download पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "लेगेसी रूपांतरण",
+        "description": "पुराने RTF दस्तावेज़ों को आधुनिक PDF फ़ॉर्मेट में कनवर्ट करें।",
+        "icon": "history"
+      },
+      {
+        "title": "दस्तावेज़ साझा करना",
+        "description": "RTF दस्तावेज़ों को सार्वभौमिक रूप से देखने योग्य PDF फ़ॉर्मेट में साझा करें।",
+        "icon": "share-2"
+      },
+      {
+        "title": "दस्तावेज़ आर्काइव करें",
+        "description": "दीर्घकालिक भंडारण के लिए स्थिर PDF फ़ॉर्मेट में RTF फ़ाइलों को आर्काइव करें।",
+        "icon": "archive"
+      }
+    ],
+    "faq": [
+      {
+        "question": "कौन सी फ़ॉर्मेटिंग सुरक्षित रहती है?",
+        "answer": "फ़ॉन्ट, अनुच्छेद (paragraphs), और शैलियों सहित बुनियादी टेक्स्ट फ़ॉर्मेटिंग कनवर्ट की जाती है। जटिल RTF सुविधाओं को सरल बनाया जा सकता है।"
+      },
+      {
+        "question": "क्या मैं एक से अधिक RTF फ़ाइलों को कनवर्ट कर सकता हूँ?",
+        "answer": "वर्तमान में, एक बार में एक ही फ़ाइल कनवर्ट की जाती है। कई कनवर्ट की गई फ़ाइलों को संयोजित करने के लिए Merge PDF का उपयोग करें।"
+      },
+      {
+        "question": "क्या एम्बेडेड छवियां समर्थित हैं?",
+        "answer": "टेक्स्ट सामग्री प्राथमिक ध्यान है। एम्बेडेड ऑब्जेक्ट रेंडर नहीं हो सकते हैं।"
+      }
+    ]
+  },
+  "epub-to-pdf": {
+    "title": "EPUB से PDF",
+    "metaDescription": "EPUB ई-पुस्तकों को PDF में कनवर्ट करें। फ़ॉर्मेटिंग, चित्र और अध्याय संरचना को बनाए रखें।",
+    "keywords": [
+      "epub to pdf",
+      "convert epub",
+      "ebook to pdf",
+      "epub converter"
+    ],
+    "description": "\n      <p>EPUB to PDF इलेक्ट्रॉनिक पुस्तक फ़ाइलों को उच्च-गुणवत्ता वाले PDF दस्तावेज़ों में कनवर्ट करता है। EPUB सबसे लोकप्रिय ई-पुस्तक फ़ॉर्मेट है, जिसका उपयोग अधिकांश ई-रीडर्स और डिजिटल पुस्तकालयों द्वारा किया जाता है।</p>\n      <p>यह टूल आपकी ई-पुस्तकों की टेक्स्ट फ़ॉर्मेटिंग, छवियों और अध्याय संरचना को सुरक्षित रखता है। सार्वभौमिक रूप से देखने योग्य फ़ॉर्मेट में ई-पुस्तकों को प्रिंट करने, आर्काइव करने या साझा करने के लिए बिल्कुल सही।</p>\n      <p>उन्नत रेंडरिंग तकनीक का उपयोग करके सभी रूपांतरण आपके ब्राउज़र में स्थानीय रूप से होते हैं, यह सुनिश्चित करते हुए कि आपकी पुस्तकें निजी रहें और रूपांतरण तेज़ी से हो।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "EPUB फ़ाइल अपलोड करें",
+        "description": "अपनी .epub फ़ाइल को ड्रैग और ड्रॉप करें या अपने डिवाइस से चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "रूपांतरण की प्रतीक्षा करें",
+        "description": "टूल आपकी ई-पुस्तक के सभी पृष्ठों को रेंडर और कनवर्ट करेगा।"
+      },
+      {
+        "step": 3,
+        "title": "PDF डाउनलोड करें",
+        "description": "अपना परिवर्तित PDF दस्तावेज़ सहेजने के लिए Download पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "ई-पुस्तकें प्रिंट करें",
+        "description": "भौतिक प्रिंटिंग के लिए ई-पुस्तकों को PDF में कनवर्ट करें।",
+        "icon": "printer"
+      },
+      {
+        "title": "पुस्तकें आर्काइव करें",
+        "description": "दीर्घकालिक स्थिर PDF फ़ॉर्मेट में ई-पुस्तकों को स्टोर करें।",
+        "icon": "archive"
+      },
+      {
+        "title": "दस्तावेज़ साझा करें",
+        "description": "बिना ई-रीडर के भी, किसी के भी साथ ई-पुस्तकें साझा करें।",
+        "icon": "share-2"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या फ़ॉर्मेटिंग सुरक्षित रहती है?",
+        "answer": "हाँ! यह टूल मूल EPUB रेंडरिंग का उपयोग करता है, जिससे उच्च निष्ठा के साथ टेक्स्ट फ़ॉर्मेटिंग, छवियां और लेआउट सुरक्षित रहते हैं।"
+      },
+      {
+        "question": "क्या DRM-संरक्षित EPUB समर्थित हैं?",
+        "answer": "नहीं, DRM-संरक्षित ई-पुस्तकों को कनवर्ट नहीं किया जा सकता है। केवल DRM-मुक्त EPUB फ़ाइलें समर्थित हैं।"
+      },
+      {
+        "question": "पृष्ठ का आकार कैसे निर्धारित किया जाता है?",
+        "answer": "इष्टतम पठनीयता के लिए EPUB सामग्री को मानक A4 पृष्ठ आकार में रेंडर किया जाता है।"
+      }
+    ]
+  },
+  "mobi-to-pdf": {
+    "title": "MOBI से PDF",
+    "metaDescription": "MOBI ई-बुक्स को PDF में बदलें। उच्च-गुणवत्ता रेंडरिंग के साथ Kindle फ़ॉर्मैट का समर्थन।",
+    "keywords": [
+      "mobi to pdf",
+      "convert mobi",
+      "kindle to pdf",
+      "azw to pdf",
+      "mobi converter"
+    ],
+    "description": "\n      <p>MOBI to PDF अमेज़न Kindle ई-बुक फ़ाइलों को उच्च-गुणवत्ता वाले PDF दस्तावेज़ों में बदलता है। MOBI फ़ॉर्मैट (जिसमें AZW और AZW3 शामिल हैं) अमेज़न का प्रोप्रायटरी ई-बुक फ़ॉर्मैट है जिसका उपयोग Kindle डिवाइस पर किया जाता है।</p>\n      <p>यह टूल आपकी Kindle किताबों के टेक्स्ट फ़ॉर्मैटिंग, इमेज और स्ट्रक्चर को सुरक्षित रखता है। प्रिंट करने, आर्काइव करने या MOBI फ़ॉर्मैट का समर्थन न करने वाले डिवाइस पर पढ़ने के लिए बिल्कुल सही।</p>\n      <p>सभी कन्वर्ज़न उन्नत रेंडरिंग तकनीक का उपयोग करके आपके ब्राउज़र में स्थानीय रूप से होते हैं, जिससे आपकी पुस्तकें निजी रहती हैं।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "MOBI फ़ाइल अपलोड करें",
+        "description": "अपनी .mobi, .azw, या .azw3 फ़ाइल को ड्रैग और ड्रॉप करें या अपने डिवाइस से चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "रूपांतरण की प्रतीक्षा करें",
+        "description": "टूल आपकी ई-पुस्तक के सभी पृष्ठों को रेंडर और कनवर्ट करेगा।"
+      },
+      {
+        "step": 3,
+        "title": "PDF डाउनलोड करें",
+        "description": "अपना परिवर्तित PDF दस्तावेज़ सहेजने के लिए Download पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Kindle बुक्स प्रिंट करें",
+        "description": "फिजिकल प्रिंटिंग के लिए Kindle ई-बुक्स को PDF में बदलें।",
+        "icon": "printer"
+      },
+      {
+        "title": "पुस्तकें आर्काइव करें",
+        "description": "Kindle किताबों को यूनिवर्सल PDF फ़ॉर्मैट में स्टोर करें।",
+        "icon": "archive"
+      },
+      {
+        "title": "क्रॉस-डिवाइस रीडिंग",
+        "description": "केवल PDF का समर्थन करने वाले डिवाइस पर Kindle किताबें पढ़ें।",
+        "icon": "tablet-smartphone"
+      }
+    ],
+    "faq": [
+      {
+        "question": "कौन से MOBI फ़ॉर्मैट समर्थित हैं?",
+        "answer": "यह टूल .mobi, .azw, और .azw3 फ़ाइलों (गैर-DRM वर्ज़न) का समर्थन करता है।"
+      },
+      {
+        "question": "क्या DRM-सुरक्षित Kindle पुस्तकें समर्थित हैं?",
+        "answer": "नहीं, DRM-सुरक्षित ई-बुक्स को परिवर्तित नहीं किया जा सकता है। केवल DRM-मुक्त फ़ाइलें समर्थित हैं।"
+      },
+      {
+        "question": "क्या मेरा फ़ॉर्मैटिंग सुरक्षित रहेगा?",
+        "answer": "हाँ! टेक्स्ट, इमेज और लेआउट को सुरक्षित रखने के लिए यह टूल नेटिव MOBI रेंडरिंग का उपयोग करता है।"
+      }
+    ]
+  },
+  "djvu-to-pdf": {
+    "title": "DJVU से PDF",
+    "metaDescription": "DJVU दस्तावेज़ फ़ाइलों को PDF में बदलें। स्कैन किए गए दस्तावेज़ों और पुस्तकों के लिए उच्च-गुणवत्ता रेंडरिंग।",
+    "keywords": [
+      "djvu to pdf",
+      "convert djvu",
+      "djvu converter",
+      "djvu pdf",
+      "djv to pdf"
+    ],
+    "description": "\n      <p>DJVU to PDF, DjVu दस्तावेज़ फ़ाइलों को उच्च-गुणवत्ता वाले PDF दस्तावेज़ों में बदलता है। DjVu मुख्य रूप से स्कैन किए गए दस्तावेज़ों, विशेष रूप से टेक्स्ट, लाइन ड्राइंग और फ़ोटोग्राफ़ के संयोजन वाले दस्तावेज़ों को स्टोर करने के लिए डिज़ाइन किया गया एक कंप्यूटर फ़ाइल फ़ॉर्मैट है।</p>\n      <p>यह टूल आपकी DJVU फ़ाइल के प्रत्येक पृष्ठ को आपके चुने हुए DPI (डॉट्स प्रति इंच) पर रेंडर करता है और उन्हें एक खोज योग्य PDF दस्तावेज़ में जोड़ता है। स्कैन की गई किताबों, तकनीकी मैनुअल और आर्काइवल दस्तावेज़ों को परिवर्तित करने के लिए बिल्कुल सही।</p>\n      <p>सभी कन्वर्ज़न आपके ब्राउज़र में स्थानीय रूप से होते हैं, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी और सुरक्षित रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "DJVU फ़ाइल अपलोड करें",
+        "description": "अपनी .djvu या .djv फ़ाइल को ड्रैग और ड्रॉप करें, या अपने डिवाइस से चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "ऑप्शंस कॉन्फ़िगर करें",
+        "description": "PDF के लिए आउटपुट DPI (72, 150, या 300) और इमेज क्वालिटी चुनें।"
+      },
+      {
+        "step": 3,
+        "title": "कन्वर्ट करें और डाउनलोड करें",
+        "description": "Convert to PDF पर क्लिक करें और अपना परिवर्तित दस्तावेज़ डाउनलोड करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "दस्तावेज़ आर्काइव करें",
+        "description": "DJVU आर्काइव को यूनिवर्सल PDF फ़ॉर्मैट में बदलें।",
+        "icon": "archive"
+      },
+      {
+        "title": "स्कैन की गई पुस्तकें शेयर करें",
+        "description": "व्यापक अनुकूलता के लिए स्कैन की गई पुस्तकों को PDF फ़ॉर्मैट में शेयर करें।",
+        "icon": "share-2"
+      },
+      {
+        "title": "दस्तावेज़ प्रिंट करें",
+        "description": "प्रिंटिंग के लिए DJVU को उच्च-गुणवत्ता वाले PDF में बदलें।",
+        "icon": "printer"
+      }
+    ],
+    "faq": [
+      {
+        "question": "DJVU फ़ॉर्मैट क्या है?",
+        "answer": "DjVu स्कैन किए गए दस्तावेज़ों, विशेष रूप से टेक्स्ट, ड्राइंग और इमेज वाले दस्तावेज़ों को स्टोर करने के लिए डिज़ाइन किया गया एक फ़ाइल फ़ॉर्मैट है। यह स्कैन की गई सामग्री के लिए PDF की तुलना में बेहतर कम्प्रेशन प्रदान करता है।"
+      },
+      {
+        "question": "मुझे कौन सा DPI चुनना चाहिए?",
+        "answer": "72 DPI वेब देखने के लिए उपयुक्त है, 150 DPI मानक दस्तावेज़ों के लिए और 300 DPI उच्च-गुणवत्ता वाली प्रिंटिंग के लिए।"
+      },
+      {
+        "question": "क्या टेक्स्ट सर्च करने योग्य होगा?",
+        "answer": "टेक्स्ट को इमेज के रूप में रेंडर किया जाएगा। यदि आपको सर्च योग्य टेक्स्ट की आवश्यकता है, तो कन्वर्ज़न के बाद हमारे OCR PDF टूल का उपयोग करने पर विचार करें।"
+      }
+    ]
+  },
+  "fb2-to-pdf": {
+    "title": "FB2 से PDF",
+    "metaDescription": "FictionBook (FB2) ई-बुक्स को PDF में बदलें। उच्च-गुणवत्ता रेंडरिंग के साथ मल्टीपल फ़ाइलों का समर्थन करता है।",
+    "keywords": [
+      "fb2 to pdf",
+      "convert fb2",
+      "fictionbook to pdf",
+      "fb2 converter",
+      "fb2.zip to pdf"
+    ],
+    "description": "\n      <p>FB2 to PDF FictionBook (FB2) ई-बुक फ़ाइलों को उच्च-गुणवत्ता वाले PDF दस्तावेज़ों में बदलता है। FB2 एक लोकप्रिय XML-आधारित ई-बुक फ़ॉर्मैट है जो रूस और पूर्वी यूरोप में व्यापक रूप से उपयोग किया जाता है।</p>\n      <p>यह टूल .fb2 और .fb2.zip दोनों फ़ाइलों का समर्थन करता है, और एक साथ कई फ़ाइलों को प्रोसेस कर सकता है। यह आपकी ई-बुक्स के टेक्स्ट फ़ॉर्मैटिंग, इमेज और अध्याय संरचना को सुरक्षित रखता है।</p>\n      <p>उन्नत रेंडरिंग तकनीक का उपयोग करके सभी कन्वर्ज़न आपके ब्राउज़र में स्थानीय रूप से होते हैं, जिससे यह सुनिश्चित होता है कि आपकी पुस्तकें निजी रहें और कन्वर्ज़न तेज़ हो।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "FB2 फ़ाइलें अपलोड करें",
+        "description": "एक या अधिक .fb2 या .fb2.zip फ़ाइलों को ड्रैग और ड्रॉप करें, या अपने डिवाइस से चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "गुणवत्ता चुनें",
+        "description": "आउटपुट गुणवत्ता चुनें: Low (72 DPI), Medium (150 DPI), या High (300 DPI)।"
+      },
+      {
+        "step": 3,
+        "title": "कन्वर्ट करें और डाउनलोड करें",
+        "description": "Convert to PDF पर क्लिक करें और अपने परिवर्तित दस्तावेज़ डाउनलोड करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "ई-पुस्तकें प्रिंट करें",
+        "description": "फिजिकल प्रिंटिंग के लिए FB2 ई-बुक्स को PDF में बदलें।",
+        "icon": "printer"
+      },
+      {
+        "title": "बैच कन्वर्ज़न",
+        "description": "एक साथ कई FB2 फ़ाइलों को PDF में बदलें।",
+        "icon": "layers"
+      },
+      {
+        "title": "यूनिवर्सल फ़ॉर्मैट",
+        "description": "PDF फ़ॉर्मैट में ई-बुक्स शेयर करें जो किसी भी डिवाइस पर काम करता है।",
+        "icon": "share-2"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या मैं एक साथ कई FB2 फ़ाइलों को परिवर्तित कर सकता हूँ?",
+        "answer": "हाँ! यह टूल एक साथ 20 FB2 फ़ाइलों तक के बैच कन्वर्ज़न का समर्थन करता है।"
+      },
+      {
+        "question": "क्या .fb2.zip फ़ाइलें समर्थित हैं?",
+        "answer": "हां, यह टूल .fb2.zip आर्काइव से FB2 फ़ाइलों को स्वचालित रूप से एक्सट्रैक्ट और कन्वर्ट करता है।"
+      },
+      {
+        "question": "क्या फ़ॉर्मेटिंग सुरक्षित रहती है?",
+        "answer": "हां! यह टूल टेक्स्ट फ़ॉर्मेटिंग, इमेज और अध्याय संरचना को उच्च सटीकता के साथ सुरक्षित रखते हुए नेटिव FB2 रेंडरिंग का उपयोग करता है।"
+      }
+    ]
+  },
+  "pdf-to-jpg": {
+    "title": "PDF से JPG",
+    "metaDescription": "PDF पृष्ठों को JPG इमेज में बदलें। कस्टमाइज़ करने योग्य रिज़ॉल्यूशन के साथ उच्च गुणवत्ता वाला निष्कर्षण।",
+    "keywords": [
+      "pdf to jpg",
+      "pdf to jpeg",
+      "convert pdf to image",
+      "extract pdf images"
+    ],
+    "description": "<p>PDF to JPG PDF दस्तावेज़ पृष्ठों को उच्च गुणवत्ता वाली JPG इमेज में परिवर्तित करता है। कस्टमाइज़ करने योग्य रिज़ॉल्यूशन और गुणवत्ता सेटिंग्स के साथ, सभी पृष्ठों को एक्सट्रैक्ट करें या परिवर्तित करने के लिए विशिष्ट पृष्ठों का चयन करें।</p><p>PDF से इमेज एक्सट्रैक्ट करने, थंबनेल बनाने, या वेब उपयोग के लिए दस्तावेज़ों को परिवर्तित करने के लिए बिल्कुल सही।</p><p>सभी रूपांतरण आपके ब्राउज़र में होते हैं, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल खींचें और छोड़ें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "पृष्ठ और गुणवत्ता चुनें",
+        "description": "चुनें कि किन पृष्ठों को परिवर्तित करना है और गुणवत्ता/DPI विकल्प सेट करें।"
+      },
+      {
+        "step": 3,
+        "title": "कन्वर्ट करें और डाउनलोड करें",
+        "description": "इमेज एक्सट्रैक्ट करने और ZIP के रूप में डाउनलोड करने के लिए Convert पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "वेब पब्लिशिंग",
+        "description": "वेबसाइट उपयोग के लिए PDF पृष्ठों को इमेज में बदलें।",
+        "icon": "globe"
+      },
+      {
+        "title": "सोशल मीडिया",
+        "description": "सोशल मीडिया शेयरिंग के लिए पृष्ठों को इमेज के रूप में एक्सट्रैक्ट करें।",
+        "icon": "share-2"
+      },
+      {
+        "title": "प्रस्तुतियाँ",
+        "description": "प्रस्तुतियों के लिए PDF स्लाइडों को इमेज में बदलें।",
+        "icon": "presentation"
+      }
+    ],
+    "faq": [
+      {
+        "question": "कौन सी गुणवत्ता सेटिंग्स उपलब्ध हैं?",
+        "answer": "आप DPI को 72 से 300 तक और JPEG गुणवत्ता को 1-100 तक सेट कर सकते हैं।"
+      },
+      {
+        "question": "क्या मैं केवल विशिष्ट पृष्ठों को ही परिवर्तित कर सकता हूं?",
+        "answer": "हां, आप परिवर्तित करने के लिए अलग-अलग पृष्ठों या पृष्ठ श्रेणियों को चुन सकते हैं।"
+      },
+      {
+        "question": "अनेक पृष्ठों को कैसे संभाला जाता है?",
+        "answer": "प्रत्येक पृष्ठ एक अलग JPG फ़ाइल बन जाता है, जिसे ZIP आर्काइव के रूप में डाउनलोड किया जाता है।"
+      }
+    ]
+  },
+  "pdf-to-png": {
+    "title": "PDF से PNG",
+    "metaDescription": "PDF पृष्ठों को PNG इमेज में बदलें। ट्रांसपेरेंसी सपोर्ट के साथ दोषरहित (lossless) गुणवत्ता।",
+    "keywords": [
+      "pdf to png",
+      "convert pdf to png",
+      "pdf image extraction",
+      "lossless pdf conversion"
+    ],
+    "description": "<p>PDF to PNG PDF दस्तावेज़ पृष्ठों को दोषरहित संपीड़न के साथ उच्च गुणवत्ता वाली PNG इमेज में परिवर्तित करता है। PNG फ़ॉर्मेट इमेज की गुणवत्ता को पूरी तरह से सुरक्षित रखता है और ट्रांसपेरेंसी का समर्थन करता है।</p><p>ग्राफ़िक्स, आरेख, या किसी भी ऐसी सामग्री को एक्सट्रैक्ट करने के लिए आदर्श जहाँ गुणवत्ता संरक्षण महत्वपूर्ण है।</p><p>सभी रूपांतरण आपके ब्राउज़र में होते हैं, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल खींचें और छोड़ें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "ऑप्शंस कॉन्फ़िगर करें",
+        "description": "पृष्ठों का चयन करें और रिज़ॉल्यूशन (DPI) विकल्प सेट करें।"
+      },
+      {
+        "step": 3,
+        "title": "कन्वर्ट करें और डाउनलोड करें",
+        "description": "PNG इमेज एक्सट्रैक्ट करने के लिए Convert पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "ग्राफ़िक्स एक्सट्रैक्शन",
+        "description": "उत्कृष्ट गुणवत्ता के साथ आरेखों और ग्राफ़िक्स को एक्सट्रैक्ट करें।",
+        "icon": "image"
+      },
+      {
+        "title": "डिज़ाइन एसेट",
+        "description": "संपादन सॉफ़्टवेयर के लिए PDF डिज़ाइनों को PNG में बदलें।",
+        "icon": "palette"
+      },
+      {
+        "title": "दस्तावेज़ीकरण",
+        "description": "तकनीकी दस्तावेज़ीकरण के लिए उच्च गुणवत्ता वाली इमेज बनाएं।",
+        "icon": "file-text"
+      }
+    ],
+    "faq": [
+      {
+        "question": "JPG के बजाय PNG क्यों चुनें?",
+        "answer": "PNG दोषरहित संपीड़न और ट्रांसपेरेंसी समर्थन प्रदान करता है, जो ग्राफ़िक्स और टेक्स्ट के लिए आदर्श है।"
+      },
+      {
+        "question": "क्या ट्रांसपेरेंट बैकग्राउंड समर्थित हैं?",
+        "answer": "हां, ट्रांसपेरेंसी वाले PDF पृष्ठों को PNG आउटपुट में सुरक्षित रखा जाता है।"
+      },
+      {
+        "question": "मुझे किस DPI का उपयोग करना चाहिए?",
+        "answer": "स्क्रीन देखने के लिए 150 DPI और प्रिंटिंग के लिए 300 DPI का उपयोग करें।"
+      }
+    ]
+  },
+  "pdf-to-webp": {
+    "title": "PDF से WebP",
+    "metaDescription": "PDF पृष्ठों को WebP इमेज में बदलें। उत्कृष्ट संपीड़न के साथ आधुनिक फ़ॉर्मेट।",
+    "keywords": [
+      "pdf to webp",
+      "convert pdf to webp",
+      "modern image format",
+      "web optimized images"
+    ],
+    "description": "<p>PDF to WebP PDF दस्तावेज़ पृष्ठों को WebP इमेज में परिवर्तित करता है, जो Google का आधुनिक इमेज फ़ॉर्मेट है जो उच्च गुणवत्ता के साथ उत्कृष्ट संपीड़न प्रदान करता है।</p><p>WebP इमेज समान गुणवत्ता बनाए रखते हुए JPG या PNG से छोटी होती हैं, जिससे वे वेब उपयोग के लिए आदर्श बन जाती हैं।</p><p>सभी रूपांतरण आपके ब्राउज़र में होते हैं, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल खींचें और छोड़ें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "गुणवत्ता विकल्प सेट करें",
+        "description": "पृष्ठ चुनें और गुणवत्ता/संपीड़न सेटिंग्स सेट करें।"
+      },
+      {
+        "step": 3,
+        "title": "कन्वर्ट करें और डाउनलोड करें",
+        "description": "WebP इमेज बनाने के लिए Convert पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "वेब ऑप्टिमाइजेशन",
+        "description": "PDF सामग्री से वेब-ऑप्टिमाइज्ड इमेज बनाएं।",
+        "icon": "globe"
+      },
+      {
+        "title": "बैंडविड्थ बचत",
+        "description": "तेज़ लोडिंग के लिए इमेज फ़ाइल का आकार घटाएं।",
+        "icon": "zap"
+      },
+      {
+        "title": "आधुनिक वेबसाइटें",
+        "description": "समकालीन वेब प्रोजेक्ट्स के लिए आधुनिक इमेज फ़ॉर्मेट का उपयोग करें।",
+        "icon": "layout"
+      }
+    ],
+    "faq": [
+      {
+        "question": "WebP फ़ॉर्मेट क्या है?",
+        "answer": "WebP Google द्वारा पेश किया गया एक आधुनिक इमेज फ़ॉर्मेट है जो बेहतर संपीड़न प्रदान करता है।"
+      },
+      {
+        "question": "क्या WebP व्यापक रूप से समर्थित है?",
+        "answer": "हाँ, सभी आधुनिक ब्राउज़र WebP फ़ॉर्मेट का समर्थन करते हैं।"
+      },
+      {
+        "question": "WebP फ़ाइलें कितनी छोटी होती हैं?",
+        "answer": "WebP फ़ाइलें आमतौर पर समकक्ष JPG फ़ाइलों की तुलना में 25-35% छोटी होती हैं।"
+      }
+    ]
+  },
+  "pdf-to-bmp": {
+    "title": "PDF से BMP",
+    "metaDescription": "PDF पृष्ठों को BMP बिटमैप छवियों में बदलें। अधिकतम अनुकूलता के लिए असंपीडित फ़ॉर्मेट।",
+    "keywords": [
+      "pdf to bmp",
+      "convert pdf to bitmap",
+      "uncompressed images",
+      "legacy format"
+    ],
+    "description": "\n      <p>PDF से BMP, PDF दस्तावेज़ पृष्ठों को BMP बिटमैप छवियों में बदलता है। BMP एक असंपीडित फ़ॉर्मेट है जो पुराने सिस्टम और अनुप्रयोगों के साथ अधिकतम अनुकूलता सुनिश्चित करता है।</p>\n      <p>हालाँकि BMP फ़ाइलें संपीडित फ़ॉर्मेट की तुलना में बड़ी होती हैं, वे सही गुणवत्ता और सार्वभौमिक अनुकूलता प्रदान करती हैं।</p>\n      <p>सभी रूपांतरण आपके ब्राउज़र में होते हैं, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल खींचें और छोड़ें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "पृष्ठ चुनें",
+        "description": "चुनें कि किन पृष्ठों को बदलना है और DPI सेट करें।"
+      },
+      {
+        "step": 3,
+        "title": "कन्वर्ट करें और डाउनलोड करें",
+        "description": "BMP छवियां बनाने के लिए Convert पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "पुराने सिस्टम",
+        "description": "पुराने सॉफ़्टवेयर के साथ अनुकूल छवियां बनाएं।",
+        "icon": "history"
+      },
+      {
+        "title": "Windows एप्लिकेशन",
+        "description": "Windows-विशिष्ट अनुप्रयोगों के लिए BMP फ़ाइलें तैयार करें।",
+        "icon": "monitor"
+      },
+      {
+        "title": "असंपीडित आर्काइव",
+        "description": "PDF से असंपीडित छवि आर्काइव बनाएं।",
+        "icon": "archive"
+      }
+    ],
+    "faq": [
+      {
+        "question": "BMP फ़ॉर्मेट का उपयोग क्यों करें?",
+        "answer": "BMP असंपीडित गुणवत्ता और पुराने सिस्टम के साथ अधिकतम अनुकूलता प्रदान करता है।"
+      },
+      {
+        "question": "क्या BMP फ़ाइलें बड़ी होती हैं?",
+        "answer": "हाँ, BMP फ़ाइलें असंपीडित होती हैं और JPG या PNG की तुलना में काफी बड़ी होती हैं।"
+      },
+      {
+        "question": "कौन सी कलर डेप्थ समर्थित हैं?",
+        "answer": "24-बिट और 32-बिट कलर डेप्थ समर्थित हैं।"
+      }
+    ]
+  },
+  "pdf-to-tiff": {
+    "title": "PDF से TIFF",
+    "metaDescription": "PDF को TIFF छवियों में बदलें। मल्टी-पेज समर्थन के साथ पेशेवर गुणवत्ता।",
+    "keywords": [
+      "pdf to tiff",
+      "convert pdf to tiff",
+      "professional images",
+      "multi-page tiff"
+    ],
+    "description": "\n      <p>PDF से TIFF, PDF दस्तावेज़ों को उच्च-गुणवत्ता वाली TIFF छवियों में बदलता है। TIFF अपने लॉसलेस संपीड़न के कारण पेशेवर मुद्रण और आर्काइविंग के लिए पसंदीदा फ़ॉर्मेट है।</p>\n      <p>सिंगल-पेज TIFF बनाएं या सभी पृष्ठों को एक मल्टी-पेज TIFF फ़ाइल में जोड़ें। पेशेवर और आर्काइवल उद्देश्यों के लिए बिल्कुल सही।</p>\n      <p>सभी रूपांतरण आपके ब्राउज़र में होते हैं, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल खींचें और छोड़ें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "आउटपुट कॉन्फ़िगर करें",
+        "description": "सिंगल या मल्टी-पेज TIFF चुनें और DPI सेट करें।"
+      },
+      {
+        "step": 3,
+        "title": "कन्वर्ट करें और डाउनलोड करें",
+        "description": "TIFF छवियां बनाने के लिए Convert पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "पेशेवर मुद्रण",
+        "description": "PDF दस्तावेज़ों से प्रिंट-रेडी TIFF फ़ाइलें बनाएं।",
+        "icon": "printer"
+      },
+      {
+        "title": "दस्तावेज़ आर्काइविंग",
+        "description": "उच्च-गुणवत्ता वाले TIFF फ़ॉर्मेट में दस्तावेज़ों को आर्काइव करें।",
+        "icon": "archive"
+      },
+      {
+        "title": "प्रकाशन",
+        "description": "प्रकाशन वर्कफ़्लो के लिए PDF को TIFF में बदलें।",
+        "icon": "book"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या मैं मल्टी-पेज TIFF बना सकता हूँ?",
+        "answer": "हाँ, आप सभी PDF पृष्ठों को एक एकल मल्टी-पेज TIFF में जोड़ सकते हैं।"
+      },
+      {
+        "question": "कौन से संपीड़न विकल्प उपलब्ध हैं?",
+        "answer": "LZW, ZIP, और बिना संपीड़न (no compression) के विकल्प उपलब्ध हैं।"
+      },
+      {
+        "question": "मुद्रण के लिए मुझे किस DPI का उपयोग करना चाहिए?",
+        "answer": "पेशेवर मुद्रण के लिए 300 DPI या उससे अधिक का उपयोग करें।"
+      }
+    ]
+  },
+  "pdf-to-cbz": {
+    "title": "PDF से CBZ",
+    "metaDescription": "PDF दस्तावेज़ों को हाई-डेफिनिशन कॉमिक बुक ZIP आर्काइव (.cbz) में बदलें। सटीक मल्टी-रीडर कैटलॉगिंग के लिए अंतर्निहित Calibre OPF, ComicInfo XML, और ZIP कमेंट मेटाडेटा।",
+    "keywords": [
+      "pdf to cbz",
+      "pdf to comic",
+      "cbz packaging",
+      "calibre comic archive",
+      "comicinfo metadata"
+    ],
+    "description": "\n      <p>PDF से CBZ कॉमिक प्रेमियों और डिजिटल ईबुक आर्काइविस्टों के लिए कस्टम-इंजीनियर किया गया है। यह आपकी PDF फ़ाइलों के प्रत्येक पृष्ठ को हाई-फिडेलिटी रास्टराइज्ड ग्राफिक्स में रेंडर करता है और उन्हें एक मानक कॉमिक बुक ZIP (.cbz) बंडल में कंपाइल करता है।</p>\n      <p>Calibre, Komga, Kavita, या CDisplayEx जैसे सिस्टम में निराशाजनक मैनुअल स्क्रैपिंग को समाप्त करने के लिए, प्रोसेसर स्वचालित रूप से आंतरिक रूप से <strong>ComicInfo.xml</strong> और <strong>metadata.opf</strong> दोनों फ़ाइलों को जनरेट और इंजेक्ट करता है, जबकि साथ ही सीधे ZIP फ़ाइल कमेंट मेटाडेटा में एक मानकीकृत <strong>ComicBookInfo JSON</strong> पेलोड लिखता है।</p>\n      <p>इसमें छवि संपीड़न गुणवत्ता, पृष्ठ आयाम स्केल, दाएं-से-बाएं लेआउट पढ़ने के टॉगल (Manga मोड), और ब्लैक-एंड-व्हाइट ग्रेस्केल रंग फ़िल्टरिंग के लिए पूर्ण कॉन्फ़िगरेशन स्लाइडर शामिल हैं।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "कॉमिक PDF अपलोड करें",
+        "description": "अपनी प्राथमिक कॉमिक, आर्टबुक, या मंगा PDF फ़ाइल को ड्रैग और ड्रॉप करें।"
+      },
+      {
+        "step": 2,
+        "title": "कॉमिक मेटाडेटा दर्ज करें",
+        "description": "Series, Volume, Title, Writer, और Publisher फ़ील्ड भरें, और लेआउट या ग्रेस्केल ऑप्टिमाइजेशन को टॉगल करें।"
+      },
+      {
+        "step": 3,
+        "title": "कंपाइल और डाउनलोड करें",
+        "description": "Calibre के लिए तुरंत तैयार आपकी मेटाडेटा-समृद्ध .cbz फ़ाइल को कंपाइल और प्राप्त करने के लिए Convert पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "रेट्रोग्रेड कॉमिक पैकेजिंग",
+        "description": "रॉ स्कैन की गई PDF पुस्तकों को कॉमिक लाइब्रेरी प्रबंधकों द्वारा आसानी से स्क्रैप की जा सकने वाली कॉम्पैक्ट, मानक-अनुपालक CBZ कॉमिक फ़ाइलों में बदलें।",
+        "icon": "book"
+      },
+      {
+        "title": "बिना किसी प्रयास के Calibre इंटीग्रेशन",
+        "description": "इन-बिल्ट metadata.opf स्कीमा Calibre को बिना किसी मैन्युअल खोज के रचनाकारों और वॉल्यूम के अंकों को प्राप्त करने और वर्गीकृत करने की अनुमति देता है।",
+        "icon": "database"
+      },
+      {
+        "title": "E-Ink स्क्रीन एन्हांसमेंट",
+        "description": "कंपाइल करते समय ग्राफिक कलर चैनलों को उच्च-कंट्रास्ट ग्रैस्केल में प्री-फ़िल्टर करें, जिससे स्टोरेज की बचत के साथ-साथ E-ink स्क्रीन पर विजुअल रिफ्रेश और स्पष्टता बढ़ती है।",
+        "icon": "eye"
+      }
+    ],
+    "faq": [
+      {
+        "question": ".cbz फ़ाइल क्या है?",
+        "answer": "CBZ फ़ाइल कॉमिक बुक सीरीज़ के लिए एक विशेष आर्काइव कंटेनर फ़ॉर्मेट है। यह आंतरिक रूप से स्ट्रक्चरल मेटाडेटा XML फ़ाइलों के साथ क्रमिक रूप से क्रमांकित पेज छवियों वाले एक ZIP पैकेज के रूप में फ़ॉर्मेट की जाती है।"
+      },
+      {
+        "question": "मेटाडेटा कैसे संगत है?",
+        "answer": "हम एक ही बार में ComicInfo.xml, metadata.opf, और ZIP फ़ाइल टिप्पणियों को कंपाइल और एम्बेड करते हैं। यह कई कॉमिक और ई-बुक इकोसिस्टम में पूर्ण अनुपालन की गारंटी देता है।"
+      },
+      {
+        "question": "Grayscale मोड का उपयोग क्यों करें?",
+        "answer": "यदि आप ग्रैस्केल E-ink रीडर (जैसे Kindle या Kobo) पर पढ़ते हैं, तो सीधे Grayscale में कंपाइल करने से आर्टिफैक्ट घोस्टिंग कम होती है, बेहतर कंट्रास्ट स्तर मिलता है, और अंतिम CBZ फ़ाइल का आकार छोटा हो जाता है।"
+      }
+    ]
+  },
+  "pdf-to-svg": {
+    "title": "PDF से SVG",
+    "metaDescription": "PDF पेजों को SVG वेक्टर ग्राफिक्स में बदलें। व्यक्तिगत पेज एक्सपोर्ट के साथ किसी भी आकार में सही स्केलेबिलिटी।",
+    "keywords": [
+      "pdf to svg",
+      "convert pdf to svg",
+      "vector graphics",
+      "scalable pdf",
+      "svg converter"
+    ],
+    "description": "\n      <p>PDF से SVG आपके PDF दस्तावेज़ के प्रत्येक पेज को एक स्केलेबल वेक्टर ग्राफ़िक (SVG) में परिवर्तित करता है। SVG एक वेक्टर फ़ॉर्मेट है जो किसी भी ज़ूम स्तर या प्रिंट आकार पर सही गुणवत्ता बनाए रखता है।</p>\n      <p>रास्टर फ़ॉर्मेट (JPG, PNG) के विपरीत, SVG ग्राफिक्स स्केल किए जाने पर कभी भी पिक्सलेट नहीं होते हैं। यह उन्हें लोगो, आरेखों, तकनीकी ड्राइंगों और विभिन्न आकारों में प्रदर्शित की जाने वाली किसी भी सामग्री के लिए आदर्श बनाता है।</p>\n      <p>प्रत्येक परिवर्तित पेज का पूर्वावलोकन करें और उन्हें व्यक्तिगत रूप से या ZIP फ़ाइल के रूप में डाउनलोड करें। सभी प्रोसेसिंग आपके ब्राउज़र में स्थानीय रूप से होती है, जिससे आपके दस्तावेज़ों की पूर्ण गोपनीयता सुनिश्चित होती है।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल को खींचें और छोड़ें या ब्राउज़ करके चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "ऑप्शंस कॉन्फ़िगर करें",
+        "description": "रिजॉल्यूशन गुणवत्ता सेट करें और वैकल्पिक रूप से पेज रेंज निर्दिष्ट करें।"
+      },
+      {
+        "step": 3,
+        "title": "पूर्वावलोकन और रूपांतरण",
+        "description": "प्रोसेस करने के लिए कन्वर्ट पर क्लिक करें। थंबनेल पर क्लिक करके प्रत्येक पेज का पूर्वावलोकन करें।"
+      },
+      {
+        "step": 4,
+        "title": "डाउनलोड करें",
+        "description": "व्यक्तिगत SVG फ़ाइलें या सभी पेज ZIP आर्काइव के रूप में डाउनलोड करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "लोगो और ग्राफिक्स",
+        "description": "डिजाइन सॉफ्टवेयर में उपयोग के लिए PDF से लोगो और वेक्टर ग्राफिक्स निकालें।",
+        "icon": "pen-tool"
+      },
+      {
+        "title": "तकनीकी आरेख",
+        "description": "तकनीकी ड्राइंग और आरेखों को स्केलेबल SVG फ़ॉर्मेट में बदलें।",
+        "icon": "ruler"
+      },
+      {
+        "title": "वेब डेवलपमेंट",
+        "description": "रिस्पॉन्सिव वेबसाइटों के लिए PDF सामग्री से वेब-रेडी SVG फ़ाइलें बनाएं।",
+        "icon": "globe"
+      },
+      {
+        "title": "किसी भी आकार में प्रिंट करें",
+        "description": "ऐसे वेक्टर ग्राफिक्स बनाएं जो किसी भी आकार में पूरी तरह से प्रिंट हों।",
+        "icon": "printer"
+      }
+    ],
+    "faq": [
+      {
+        "question": "SVG फ़ॉर्मेट क्या है?",
+        "answer": "SVG (स्केलेबल वेक्टर ग्राफिक्स) एक वेक्टर इमेज फ़ॉर्मेट है जिसे गुणवत्ता खोए बिना किसी भी आकार में स्केल किया जा सकता है। इसका व्यापक रूप से लोगो, आइकन और वेब ग्राफिक्स के लिए उपयोग किया जाता है।"
+      },
+      {
+        "question": "क्या SVG वास्तव में वेक्टर होगा?",
+        "answer": "SVG में PDF पेज की उच्च-रिजॉल्यूशन वाली रेंडरिंग होती है। वेक्टर सामग्री वाली PDF के लिए, आपको किसी भी स्केल पर स्पष्ट आउटपुट मिलता है।"
+      },
+      {
+        "question": "क्या मैं डाउनलोड करने से पहले पूर्वावलोकन कर सकता हूं?",
+        "answer": "हाँ! SVG का पूर्ण-आकार का पूर्वावलोकन देखने के लिए किसी भी थंबनेल पर क्लिक करें। आप व्यक्तिगत पेजों को या सभी को एक साथ डाउनलोड कर सकते हैं।"
+      },
+      {
+        "question": "मुझे कौन सा रिजॉल्यूशन चुनना चाहिए?",
+        "answer": "उच्च रिजॉल्यूशन (216 या 288 DPI) बड़ी, अधिक विस्तृत SVG उत्पन्न करता है। तेज़ प्रोसेसिंग और छोटी फ़ाइलों के लिए निचले सेटिंग्स का उपयोग करें।"
+      }
+    ]
+  },
+  "pdf-to-greyscale": {
+    "title": "PDF से Greyscale",
+    "metaDescription": "कलर PDF को ग्रैस्केल में बदलें। फ़ाइल का आकार कम करें और ब्लैक-एंड-व्हाइट प्रिंटिंग के लिए तैयार करें।",
+    "keywords": [
+      "pdf to greyscale",
+      "grayscale pdf",
+      "black and white pdf",
+      "remove colors"
+    ],
+    "description": "\n      <p>PDF से Greyscale कलर PDF दस्तावेज़ों को ग्रैस्केल (ब्लैक एंड व्हाइट) में परिवर्तित करता है। यह फ़ाइल का आकार कम करता है और दस्तावेज़ों को ब्लैक-एंड-व्हाइट प्रिंटिंग के लिए तैयार करता है।</p>\n      <p>यह रूपांतरण रंग की जानकारी को हटाते हुए टेक्स्ट की स्पष्टता और छवि विवरण को बनाए रखता है। ड्राफ्ट प्रिंटिंग या प्रिंटर-फ्रेंडली संस्करण बनाने के लिए बिल्कुल सही।</p>\n      <p>सभी रूपांतरण आपके ब्राउज़र में होते हैं, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी कलर PDF फ़ाइल को खींचें और छोड़ें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "रूपांतरण का पूर्वावलोकन करें",
+        "description": "पूर्वावलोकन करें कि ग्रैस्केल संस्करण कैसा दिखेगा।"
+      },
+      {
+        "step": 3,
+        "title": "कन्वर्ट करें और डाउनलोड करें",
+        "description": "ग्रैस्केल PDF बनाने के लिए कन्वर्ट पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "प्रिंट बचत",
+        "description": "कलर प्रिंटिंग की लागत बचाने के लिए ग्रैस्केल में बदलें।",
+        "icon": "printer"
+      },
+      {
+        "title": "ड्राफ्ट दस्तावेज़",
+        "description": "समीक्षा के लिए ब्लैक-एंड-व्हाइट ड्राफ्ट बनाएं।",
+        "icon": "file-text"
+      },
+      {
+        "title": "फ़ाइल का आकार घटाना",
+        "description": "रंग की जानकारी हटाकर PDF का आकार कम करें।",
+        "icon": "minimize-2"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या टेक्स्ट पढ़ने योग्य रहेगा?",
+        "answer": "हाँ, ग्रैस्केल रूपांतरण के दौरान टेक्स्ट की स्पष्टता बनी रहती है।"
+      },
+      {
+        "question": "फ़ाइल कितनी छोटी होगी?",
+        "answer": "फ़ाइल का आकार कम होना भिन्न हो सकता है, लेकिन अत्यधिक रंग वाले दस्तावेज़ों के लिए यह 20-50% तक हो सकता है।"
+      },
+      {
+        "question": "क्या मैं केवल विशिष्ट पृष्ठों को ही परिवर्तित कर सकता हूं?",
+        "answer": "हाँ, आप चुन सकते हैं कि किन पृष्ठों को ग्रेस्केल में बदलना है।"
+      }
+    ]
+  },
+  "pdf-to-json": {
+    "title": "PDF से JSON",
+    "metaDescription": "PDF सामग्री को JSON फ़ॉर्मेट में एक्सट्रेक्ट करें। PDF दस्तावेज़ों से स्ट्रक्चर्ड डेटा प्राप्त करें।",
+    "keywords": [
+      "pdf to json",
+      "extract pdf data",
+      "pdf parser",
+      "structured pdf data"
+    ],
+    "description": "\n      <p>PDF से JSON, PDF दस्तावेज़ों से सामग्री को स्ट्रक्चर्ड JSON फ़ॉर्मेट में एक्सट्रेक्ट करता है। प्रोग्रामैटिक उपयोग के लिए टेक्स्ट, मेटाडेटा, पेज की जानकारी और दस्तावेज़ की संरचना एक्सट्रेक्ट करें।</p>\n      <p>डेटा एक्सट्रैक्शन, दस्तावेज़ विश्लेषण, या एप्लिकेशन और वर्कफ़्लो में PDF सामग्री को एकीकृत करने के लिए एकदम सही।</p>\n      <p>सभी एक्सट्रैक्शन आपके ब्राउज़र में होते हैं, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल खींचें और छोड़ें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "एक्सट्रेक्ट करने के लिए डेटा चुनें",
+        "description": "चुनें कि कौन सी सामग्री एक्सट्रेक्ट करनी है: टेक्स्ट, मेटाडेटा, संरचना।"
+      },
+      {
+        "step": 3,
+        "title": "निकालें और डाउनलोड करें",
+        "description": "JSON जनरेट करने और डाउनलोड करने के लिए Extract पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "डेटा एक्सट्रैक्शन",
+        "description": "PDF दस्तावेज़ों से स्ट्रक्चर्ड डेटा एक्सट्रेक्ट करें।",
+        "icon": "database"
+      },
+      {
+        "title": "दस्तावेज़ विश्लेषण",
+        "description": "प्रोग्रामैटिक रूप से PDF संरचना और सामग्री का विश्लेषण करें।",
+        "icon": "search"
+      },
+      {
+        "title": "इंटीग्रेशन",
+        "description": "JSON के माध्यम से एप्लिकेशनों में PDF सामग्री इम्पोर्ट करें।",
+        "icon": "plug"
+      }
+    ],
+    "faq": [
+      {
+        "question": "कौन सा डेटा एक्सट्रेक्ट किया जाता है?",
+        "answer": "टेक्स्ट सामग्री, मेटाडेटा, पेज आयाम, फ़ॉन्ट और दस्तावेज़ की संरचना।"
+      },
+      {
+        "question": "क्या JSON फ़ॉर्मेट डॉक्यूमेंटेड है?",
+        "answer": "हाँ, JSON स्कीमा सुसंगत और भली-भांति डॉक्यूमेंटेड है।"
+      },
+      {
+        "question": "क्या मैं स्कैन किए गए PDF से एक्सट्रेक्ट कर सकता हूँ?",
+        "answer": "स्कैन किए गए PDF के लिए पहले OCR की आवश्यकता होती है। एक्सट्रैक्शन से पहले हमारे OCR PDF टूल का उपयोग करें।"
+      }
+    ]
+  },
+  "pdf-to-pptx": {
+    "title": "PDF से PowerPoint",
+    "metaDescription": "PDF को PowerPoint प्रेज़ेंटेशन में बदलें। प्रत्येक पृष्ठ एक उच्च गुणवत्ता वाली स्लाइड बन जाता है।",
+    "keywords": [
+      "pdf to pptx",
+      "pdf to powerpoint",
+      "convert pdf slides",
+      "pdf presentation"
+    ],
+    "description": "\n      <p>PDF से PowerPoint आपके PDF दस्तावेज़ों को एडिट करने योग्य PowerPoint प्रेज़ेंटेशन (PPTX) में बदलता है। विज़ुअल लेआउट को पूरी तरह से सुरक्षित रखते हुए, प्रत्येक PDF पृष्ठ एक उच्च गुणवत्ता वाली स्लाइड में परिवर्तित हो जाता है।</p>\n      <p>यह टूल रिपोर्ट, हैंडआउट या किसी भी PDF सामग्री को प्रेज़ेंटेशन फ़ॉर्मेट में बदलने के लिए आदर्श है। आप फ़ाइल आकार और विज़ुअल स्पष्टता के बीच संतुलन बनाने के लिए छवि गुणवत्ता (DPI) चुन सकते हैं।</p>\n      <p>सभी रूपांतरण आपके ब्राउज़र में स्थानीय रूप से होते हैं, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी और सुरक्षित रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल को ड्रैग और ड्रॉप करें या अपने डिवाइस से इसे चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "गुणवत्ता सेटिंग्स चुनें",
+        "description": "स्लाइड्स के लिए छवि गुणवत्ता (DPI) चुनें। उच्च DPI का अर्थ है बेहतर गुणवत्ता लेकिन बड़ा फ़ाइल आकार।"
+      },
+      {
+        "step": 3,
+        "title": "कन्वर्ट करें और डाउनलोड करें",
+        "description": "अपनी PowerPoint प्रेज़ेंटेशन बनाने और PPTX फ़ाइल डाउनलोड करने के लिए Convert पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "प्रेज़ेंटेशन निर्माण",
+        "description": "मीटिंग्स के लिए PDF रिपोर्ट या दस्तावेज़ों को प्रेज़ेंटेशन स्लाइड्स में बदलें।",
+        "icon": "presentation"
+      },
+      {
+        "title": "प्रशिक्षण सामग्री",
+        "description": "PDF प्रशिक्षण दस्तावेज़ों को इंटरैक्टिव PowerPoint प्रेज़ेंटेशन में बदलें।",
+        "icon": "book-open"
+      },
+      {
+        "title": "सामग्री का पुनः उपयोग",
+        "description": "आगे के कस्टमाइज़ेशन के लिए मौजूद PDF सामग्री को एडिट करने योग्य स्लाइड फ़ॉर्मेट में बदलें।",
+        "icon": "refresh-cw"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या स्लाइड्स एडिट की जा सकेंगी?",
+        "answer": "प्रत्येक स्लाइड में PDF पृष्ठ की एक उच्च गुणवत्ता वाली छवि होती है। आप PowerPoint में ऊपर से टेक्स्ट, आकार और एनोटेशन जोड़ सकते हैं।"
+      },
+      {
+        "question": "मुझे कौन सा DPI चुनना चाहिए?",
+        "answer": "स्क्रीन पर दिखाई जाने वाली प्रेज़ेंटेशन के लिए 150 DPI का उपयोग करें। प्रिंटिंग के लिए या जब आपको उच्चतम गुणवत्ता की आवश्यकता हो, तो 300 DPI का उपयोग करें।"
+      },
+      {
+        "question": "क्या मैं बहु-पृष्ठ PDF को बदल सकता हूँ?",
+        "answer": "हाँ, आपके PDF का प्रत्येक पृष्ठ PowerPoint प्रेज़ेंटेशन में एक अलग स्लाइड बन जाता है।"
+      }
+    ]
+  },
+  "pdf-to-excel": {
+    "title": "PDF से Excel",
+    "metaDescription": "PDF को Excel स्प्रेडशीट में बदलें। तालिकाओं को XLSX फ़ॉर्मेट में एक्सट्रेक्ट करें।",
+    "keywords": [
+      "pdf to excel",
+      "pdf to xlsx",
+      "convert pdf tables",
+      "extract tables"
+    ],
+    "description": "\n      <p>PDF से Excel आपके PDF दस्तावेज़ों को एडिट करने योग्य Microsoft Excel स्प्रेडशीट (XLSX) में बदलता है। यह टूल स्वचालित रूप से आपकी PDF में तालिकाओं का पता लगाता है और उन्हें अलग-अलग शीट्स में एक्सट्रेक्ट करता है।</p>\n      <p>यह टूल वित्तीय रिपोर्टों, इनवॉइस या तालिकाओं में प्रस्तुत किसी भी डेटा का विश्लेषण करने के लिए आदर्श है। आसान डेटा हेरफेर के लिए प्रत्येक पृष्ठ की तालिकाओं को शीट्स में व्यवस्थित किया जाता है।</p>\n      <p>सभी रूपांतरण आपके ब्राउज़र में स्थानीय रूप से होते हैं, जिससे यह सुनिश्चित होता है कि आपका डेटा निजी और सुरक्षित रहे।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल खींचें और छोड़ें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "प्रोसेस करें",
+        "description": "यह टूल स्वचालित रूप से तालिकाओं की पहचान करेगा और उन्हें एक्सट्रेक्ट करेगा।"
+      },
+      {
+        "step": 3,
+        "title": "Excel डाउनलोड करें",
+        "description": "एक्सट्रेक्ट की गई तालिकाओं के साथ अपनी Excel फ़ाइल डाउनलोड करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "वित्तीय विश्लेषण",
+        "description": "विश्लेषण के लिए बैंक स्टेटमेंट या इनवॉइस को Excel में बदलें।",
+        "icon": "trending-up"
+      },
+      {
+        "title": "डेटा एक्सट्रैक्शन",
+        "description": "रिसर्च पेपर्स या रिपोर्टों से डेटा तालिकाएं निकालें।",
+        "icon": "database"
+      },
+      {
+        "title": "इन्वेंटरी प्रबंधन",
+        "description": "PDF से इन्वेंटरी सूचियों को स्प्रेडशीट में बदलें।",
+        "icon": "clipboard"
+      }
+    ],
+    "faq": [
+      {
+        "question": "तालिकाओं को कैसे संभाला जाता है?",
+        "answer": "प्रत्येक पृष्ठ पर पहचानी गई तालिकाओं को Excel फ़ाइल में संबंधित शीट में निकाला जाता है।"
+      },
+      {
+        "question": "यदि कोई तालिकाएँ न हों तो क्या होगा?",
+        "answer": "यह दर्शाते हुए एक जानकारी शीट बनाई जाएगी कि कोई तालिका नहीं मिली।"
+      },
+      {
+        "question": "क्या फ़ॉर्मेटिंग सुरक्षित रहती है?",
+        "answer": "डेटा सुरक्षित रहता है, लेकिन स्प्रेडशीट के उपयोग के लिए जटिल दृश्य फ़ॉर्मेटिंग को सरल बनाया जा सकता है।"
+      }
+    ]
+  },
+  "ocr-pdf": {
+    "title": "OCR PDF",
+    "metaDescription": "OCR के साथ स्कैन की गई PDF को खोजने योग्य बनाएं। छवियों और स्कैन किए गए दस्तावेज़ों से टेक्स्ट निकालें।",
+    "keywords": [
+      "ocr pdf",
+      "searchable pdf",
+      "text recognition",
+      "scan to text"
+    ],
+    "description": "<p>OCR PDF स्कैन किए गए दस्तावेज़ों और PDFs के भीतर की छवियों से टेक्स्ट निकालने के लिए Optical Character Recognition का उपयोग करता है। छवि-आधारित PDFs को खोजने योग्य, चयन करने योग्य टेक्स्ट दस्तावेज़ों में बदलें।</p><p>कई भाषाओं का समर्थन दस्तावेज़ की भाषा की परवाह किए बिना सटीक टेक्स्ट पहचान सुनिश्चित करता है। खोजने योग्य टेक्स्ट लेयर जोड़ते समय मूल लेआउट सुरक्षित रहता है।</p><p>सभी OCR प्रोसेसिंग आपके ब्राउज़र में होती है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "स्कैन की गई PDF अपलोड करें",
+        "description": "अपनी स्कैन की गई PDF को ड्रैग और ड्रॉप करें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "भाषा चुनें",
+        "description": "सटीक पहचान के लिए दस्तावेज़ की भाषा चुनें।"
+      },
+      {
+        "step": 3,
+        "title": "प्रोसेस करें और डाउनलोड करें",
+        "description": "OCR चलाने और खोजने योग्य PDF डाउनलोड करने के लिए प्रोसेस पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "संग्रह को डिजिटल बनाएं",
+        "description": "स्कैन किए गए दस्तावेज़ संग्रहों को खोजने योग्य बनाएं।",
+        "icon": "archive"
+      },
+      {
+        "title": "दस्तावेज़ खोज",
+        "description": "स्कैन किए गए दस्तावेज़ों में टेक्स्ट खोज सक्षम करें।",
+        "icon": "search"
+      },
+      {
+        "title": "टेक्स्ट निष्कर्षण",
+        "description": "संपादन के लिए स्कैन किए गए दस्तावेज़ों से टेक्स्ट निकालें।",
+        "icon": "type"
+      }
+    ],
+    "faq": [
+      {
+        "question": "कौन सी भाषाएं समर्थित हैं?",
+        "answer": "अंग्रेजी, चीनी, जापानी, कोरियाई और अन्य सहित 100 से अधिक भाषाओं का समर्थन किया जाता है।"
+      },
+      {
+        "question": "क्या मूल लेआउट सुरक्षित रहेगा?",
+        "answer": "हाँ, जोड़ी गई एक खोजने योग्य टेक्स्ट लेयर के साथ मूल दृश्य लेआउट सुरक्षित रहता है।"
+      },
+      {
+        "question": "OCR कितना सटीक है?",
+        "answer": "सटीकता स्कैन की गुणवत्ता पर निर्भर करती है, लेकिन स्पष्ट दस्तावेज़ों के लिए आमतौर पर 95% से अधिक होती है।"
+      }
+    ]
+  },
+  "alternate-merge": {
+    "title": "Alternate Merge",
+    "metaDescription": "पेजों को एक-एक करके बदलकर PDFs को मर्ज करें। आगे और पीछे के स्कैन को एक दस्तावेज़ में मिलाएँ।",
+    "keywords": [
+      "alternate merge",
+      "interleave pdf",
+      "combine scans",
+      "front back merge"
+    ],
+    "description": "<p>Alternate Merge दो PDFs के पेजों को बारी-बारी से आपस में मिलाकर जोड़ता है। यह अलग से स्कैन किए गए आगे और पीछे के पेजों को एक ही दस्तावेज़ में मिलाने के लिए एकदम सही है।</p><p>दो PDFs अपलोड करें और यह टूल प्रत्येक में से बारी-बारी से एक पेज लेकर उन्हें मर्ज कर देगा। आप पीछे से आगे स्कैनिंग के लिए किसी एक दस्तावेज़ का क्रम भी उलट सकते हैं।</p><p>सभी प्रोसेसिंग आपके ब्राउज़र में होती है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "दो PDFs अपलोड करें",
+        "description": "आगे के पेजों की PDF और पीछे के पेजों की PDF अपलोड करें।"
+      },
+      {
+        "step": 2,
+        "title": "क्रम कॉन्फ़िगर करें",
+        "description": "पीछे-से-आगे के स्कैन के लिए दूसरे दस्तावेज़ को उलटना है या नहीं, यह चुनें।"
+      },
+      {
+        "step": 3,
+        "title": "मर्ज करें और डाउनलोड करें",
+        "description": "पेजों को बारी-बारी से मिलाने और डाउनलोड करने के लिए मर्ज पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "डुप्लेक्स स्कैनिंग",
+        "description": "अलग-अलग स्कैन किए गए आगे और पीछे के पेजों को मिलाएँ।",
+        "icon": "copy"
+      },
+      {
+        "title": "दस्तावेज़ असेंबली",
+        "description": "दो संबंधित दस्तावेज़ों के पेजों को बारी-बारी से आपस में मिलाएँ।",
+        "icon": "layers"
+      },
+      {
+        "title": "बुक स्कैनिंग",
+        "description": "विषम और सम पेज स्कैन को पूर्ण पुस्तकों में मिलाएँ।",
+        "icon": "book"
+      }
+    ],
+    "faq": [
+      {
+        "question": "यदि दस्तावेज़ों में पेजों की संख्या अलग-अलग हो तो क्या होगा?",
+        "answer": "लंबे दस्तावेज़ के अतिरिक्त पेज अंत में जोड़ दिए जाते हैं।"
+      },
+      {
+        "question": "क्या मैं पेज क्रम को उलट सकता हूँ?",
+        "answer": "हाँ, आप मर्ज करने से पहले किसी भी दस्तावेज़ को उलट सकते हैं।"
+      },
+      {
+        "question": "क्या यह सामान्य मर्ज से अलग है?",
+        "answer": "हाँ, सामान्य मर्ज दस्तावेज़ों को अंत में जोड़ता है; वैकल्पिक मर्ज पेजों को बारी-बारी से आपस में मिलाता है।"
+      }
+    ]
+  },
+  "add-attachments": {
+    "title": "अटैचमेंट जोड़ें",
+    "metaDescription": "PDF दस्तावेज़ों में फ़ाइलें एम्बेड करें। अपनी PDFs में किसी भी प्रकार की फ़ाइल संलग्न करें।",
+    "keywords": [
+      "pdf attachments",
+      "embed files",
+      "attach to pdf",
+      "pdf portfolio"
+    ],
+    "description": "<p>Add Attachments आपकी PDF दस्तावेज़ों में किसी भी प्रकार की फ़ाइलों को एम्बेड करता है। व्यापक PDF पैकेज बनाने के लिए स्प्रेडशीट, चित्र, स्रोत फ़ाइलें, या कोई अन्य दस्तावेज़ संलग्न करें।</p><p>अटैचमेंट PDF के भीतर एम्बेड किए जाते हैं और प्राप्तकर्ताओं द्वारा किसी भी PDF रीडर का उपयोग करके निकाले जा सकते हैं। संबंधित फ़ाइलों को एक साथ वितरित करने के लिए बिल्कुल सही।</p><p>सभी प्रोसेसिंग आपके ब्राउज़र में होती है, जिससे यह सुनिश्चित होता है कि आपकी फ़ाइलें निजी रहें।</p>",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल खींचें और छोड़ें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "अटैचमेंट जोड़ें",
+        "description": "PDF में संलग्न करने के लिए फ़ाइलें चुनें।"
+      },
+      {
+        "step": 3,
+        "title": "सहेजें और डाउनलोड करें",
+        "description": "अटैचमेंट एम्बेड करने और डाउनलोड करने के लिए Save पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "प्रोजेक्ट पैकेज",
+        "description": "दस्तावेज़ PDFs के साथ प्रोजेक्ट फ़ाइलों को बंडल करें।",
+        "icon": "package"
+      },
+      {
+        "title": "रिपोर्ट वितरण",
+        "description": "रिपोर्ट PDFs से स्रोत डेटा फ़ाइलें अटैच करें।",
+        "icon": "paperclip"
+      },
+      {
+        "title": "कॉन्ट्रैक्ट बंडल",
+        "description": "अनुबंधों के साथ सहायक दस्तावेज़ शामिल करें।",
+        "icon": "file-text"
+      }
+    ],
+    "faq": [
+      {
+        "question": "किस प्रकार की फ़ाइलें अटैच की जा सकती हैं?",
+        "answer": "किसी भी प्रकार की फ़ाइल को PDF से अटैच किया जा सकता है।"
+      },
+      {
+        "question": "क्या कोई साइज़ सीमा है?",
+        "answer": "अटैचमेंट सहित कुल PDF का साइज़ 500MB से अधिक नहीं होना चाहिए।"
+      },
+      {
+        "question": "क्या प्राप्तकर्ता अटैचमेंट एक्सट्रैक्ट कर सकते हैं?",
+        "answer": "हाँ, कोई भी PDF रीडर एम्बेडेड अटैचमेंट एक्सट्रैक्ट कर सकता है।"
+      }
+    ]
+  },
+  "extract-attachments": {
+    "title": "अटैचमेंट निकालें",
+    "metaDescription": "PDFs से एम्बेडेड फ़ाइलें एक्सट्रैक्ट करें। PDF दस्तावेज़ों से सभी अटैचमेंट डाउनलोड करें।",
+    "keywords": [
+      "extract attachments",
+      "pdf attachments",
+      "download embedded files",
+      "pdf extraction"
+    ],
+    "description": "\n      <p>Extract Attachments, PDF दस्तावेज़ों से सभी एम्बेडेड फ़ाइलें पुनर्प्राप्त करता है। अटैचमेंट को व्यक्तिगत रूप से या सभी फ़ाइलों वाली ZIP आर्काइव के रूप में डाउनलोड करें।</p>\n      <p>PDF पैकेजों में एम्बेडेड स्रोत फ़ाइलों, डेटा या पूरक सामग्रियों तक पहुँचने के लिए बिल्कुल सही।</p>\n      <p>सभी निष्कर्षण आपके ब्राउज़र में होता है, जिससे आपके दस्तावेज़ निजी रहते हैं।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल खींचें और छोड़ें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "अटैचमेंट देखें",
+        "description": "PDF में सभी एम्बेडेड फ़ाइलों की सूची देखें।"
+      },
+      {
+        "step": 3,
+        "title": "निकालें और डाउनलोड करें",
+        "description": "व्यक्तिगत फ़ाइलें या सभी को ZIP के रूप में डाउनलोड करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "स्रोत फ़ाइलों तक पहुँचें",
+        "description": "PDF रिपोर्टों से मूल डेटा फ़ाइलें एक्सट्रैक्ट करें।",
+        "icon": "download"
+      },
+      {
+        "title": "अटैचमेंट रिकवर करें",
+        "description": "PDF पैकेजों से एम्बेडेड फ़ाइलें पुनर्प्राप्त करें।",
+        "icon": "folder-open"
+      },
+      {
+        "title": "बैच एक्सट्रैक्शन",
+        "description": "एक साथ कई PDFs से अटैचमेंट एक्सट्रैक्ट करें।",
+        "icon": "layers"
+      }
+    ],
+    "faq": [
+      {
+        "question": "यदि कोई अटैचमेंट न हो तो क्या होगा?",
+        "answer": "यदि कोई एम्बेडेड फ़ाइल नहीं मिलती है, तो टूल सूचित कर देगा।"
+      },
+      {
+        "question": "क्या सभी अटैचमेंट प्रकार समर्थित हैं?",
+        "answer": "हाँ, सभी एम्बेडेड फ़ाइल प्रकारों को एक्सट्रैक्ट किया जा सकता है।"
+      },
+      {
+        "question": "क्या मैं कई PDFs से एक्सट्रैक्ट कर सकता हूँ?",
+        "answer": "हाँ, आप कई PDFs को प्रोसेस कर सकते हैं और सभी अटैचमेंट डाउनलोड कर सकते हैं।"
+      }
+    ]
+  },
+  "extract-images": {
+    "title": "PDF से इमेजिस एक्सट्रैक्ट करें",
+    "metaDescription": "PDF फ़ाइलों से सभी एम्बेडेड इमेजिस एक्सट्रैक्ट करें। व्यक्तिगत रूप से या ZIP आर्काइव के रूप में डाउनलोड करें। छोटी इमेजिस को स्वचालित रूप से फ़िल्टर करें।",
+    "keywords": [
+      "extract pdf images",
+      "pdf image extraction",
+      "get images from pdf",
+      "download pdf images",
+      "pdf to images"
+    ],
+    "description": "\n      <p>Extract Images from PDF आपके PDF दस्तावेज़ों से सभी एम्बेडेड इमेजिस को पुनर्प्राप्त करता है। उच्च-गुणवत्ता वाली इमेजिस को व्यक्तिगत रूप से या एक सुविधाजनक ZIP आर्काइव के रूप में डाउनलोड करें।</p>\n      <p>यह टूल कस्टमाइज़ करने योग्य आकार थ्रेशोल्ड के आधार पर आइकन और सजावट जैसी छोटी इमेजिस को स्वचालित रूप से फ़िल्टर कर देता है। कुशल बैच एक्सट्रैक्शन के लिए एक साथ कई PDFs को प्रोसेस करें।</p>\n      <p>सभी निष्कर्षण आपके ब्राउज़र में होता है, जिससे आपके दस्तावेज़ निजी और सुरक्षित रहते हैं।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपने PDFs अपलोड करें",
+        "description": "एक या अधिक PDF फ़ाइलें ड्रैग और ड्रॉप करें या अपने डिवाइस से चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "फ़िल्टर विकल्प सेट करें",
+        "description": "अवांछित छोटी इमेजिस को फ़िल्टर करने के लिए न्यूनतम चौड़ाई, ऊंचाई और फ़ाइल आकार को समायोजित करें।"
+      },
+      {
+        "step": 3,
+        "title": "इमेजेस निकालें",
+        "description": "अपने PDFs में सभी एम्बेडेड इमेजिस ढूंढने के लिए Extract पर क्लिक करें।"
+      },
+      {
+        "step": 4,
+        "title": "डाउनलोड करें",
+        "description": "व्यक्तिगत इमेजिस या सभी इमेजिस को ZIP आर्काइव के रूप में डाउनलोड करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "फोटो रिकवरी",
+        "description": "पुन: उपयोग या आर्काइविंग के लिए PDF दस्तावेज़ों में एम्बेडेड फोटो और इमेजिस को एक्सट्रैक्ट करें।",
+        "icon": "image"
+      },
+      {
+        "title": "एसेट कलेक्शन",
+        "description": "PDF रिपोर्ट, प्रेजेंटेशन या ब्रोशर से सभी ग्राफिक्स और इमेजिस एकत्र करें।",
+        "icon": "folder"
+      },
+      {
+        "title": "सामग्री का पुनः उपयोग",
+        "description": "अन्य दस्तावेज़ों, वेबसाइटों या प्रेजेंटेशन में उपयोग करने के लिए PDFs से इमेजिस एक्सट्रैक्ट करें।",
+        "icon": "refresh-cw"
+      }
+    ],
+    "faq": [
+      {
+        "question": "कौन से इमेज फॉर्मेट एक्सट्रैक्ट किए जाते हैं?",
+        "answer": "संभव होने पर इमेजिस को उनके मूल प्रारूप (JPEG, PNG, आदि) में एक्सट्रैक्ट किया जाता है, या रॉ इमेज डेटा के लिए PNG में परिवर्तित किया जाता है।"
+      },
+      {
+        "question": "कुछ इमेजिस गायब क्यों हैं?",
+        "answer": "आकार सीमा से नीचे की छोटी इमेजिस को फ़िल्टर कर दिया जाता है। छोटी इमेजिस को एक्सट्रैक्ट करने के लिए फ़िल्टर सेटिंग्स को समायोजित करें।"
+      },
+      {
+        "question": "क्या मैं स्कैन किए गए PDF से एक्सट्रेक्ट कर सकता हूँ?",
+        "answer": "स्कैन किए गए PDF में आमतौर पर प्रति पृष्ठ एक बड़ी छवि के रूप में स्कैन होता है। पेज-बाय-पेज रूपांतरण के लिए इसके बजाय PDF to Image टूल का उपयोग करें।"
+      }
+    ]
+  },
+  "edit-attachments": {
+    "title": "अटैचमेंट संपादित करें",
+    "metaDescription": "PDF अटैचमेंट का प्रबंधन करें। एम्बेडेड फ़ाइलों को देखें, नाम बदलें और हटाएं।",
+    "keywords": [
+      "edit attachments",
+      "manage pdf files",
+      "remove attachments",
+      "rename attachments"
+    ],
+    "description": "\n      <p>Edit Attachments आपको PDF दस्तावेज़ों में एम्बेडेड फ़ाइलों को प्रबंधित करने की अनुमति देता है। सभी अटैचमेंट देखें, उनका नाम बदलें या PDF से अवांछित फ़ाइलों को हटाएं।</p>\n      <p>वितरण से पहले PDF पैकेज को साफ़ करने या अटैचमेंट जानकारी को अपडेट करने के लिए बिल्कुल सही।</p>\n      <p>सभी संपादन आपके ब्राउज़र में होते हैं, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल खींचें और छोड़ें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "अटैचमेंट प्रबंधित करें",
+        "description": "एम्बेडेड फ़ाइलों को देखें, नाम बदलें या हटाएं।"
+      },
+      {
+        "step": 3,
+        "title": "सहेजें और डाउनलोड करें",
+        "description": "परिवर्तनों को लागू करने और डाउनलोड करने के लिए Save पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "PDF साफ़ करें",
+        "description": "PDF पैकेज से अनावश्यक अटैचमेंट हटाएं।",
+        "icon": "trash-2"
+      },
+      {
+        "title": "फ़ाइलों का नाम बदलें",
+        "description": "स्पष्टता के लिए अटैचमेंट के नाम अपडेट करें।",
+        "icon": "edit"
+      },
+      {
+        "title": "सामग्री की समीक्षा करें",
+        "description": "वितरण से पहले एम्बेडेड फ़ाइलों का ऑडिट करें।",
+        "icon": "eye"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या मैं यहाँ नए अटैचमेंट जोड़ सकता हूँ?",
+        "answer": "नई फ़ाइलों को एम्बेड करने के लिए Add Attachments टूल का उपयोग करें।"
+      },
+      {
+        "question": "क्या हटाना स्थायी है?",
+        "answer": "हाँ, हटाई गई अटैचमेंट फ़ाइलों को आउटपुट फ़ाइल से पुनर्प्राप्त नहीं किया जा सकता है।"
+      },
+      {
+        "question": "क्या मैं अटैचमेंट का पूर्वावलोकन कर सकता हूँ?",
+        "answer": "आप फ़ाइल के नाम और आकार देख सकते हैं; सामग्री देखने के लिए Extract Attachments का उपयोग करें।"
+      }
+    ]
+  },
+  "divide-pages": {
+    "title": "पृष्ठों को विभाजित करें",
+    "metaDescription": "PDF पृष्ठों को कई अनुभागों में विभाजित करें। पृष्ठों को क्षैतिज या लंबवत रूप से विभाजित करें।",
+    "keywords": [
+      "divide pdf pages",
+      "split page",
+      "cut pdf page",
+      "page sections"
+    ],
+    "description": "\n      <p>Divide Pages व्यक्तिगत PDF पृष्ठों को कई अनुभागों में विभाजित करता है। एक से कई पृष्ठ बनाने के लिए पृष्ठों को क्षैतिज, लंबवत या ग्रिड में काटें।</p>\n      <p>प्रति पृष्ठ कई वस्तुओं वाले स्कैन किए गए दस्तावेज़ों को विभाजित करने, या बड़े प्रारूप वाले पृष्ठों को मानक आकारों में विभाजित करने के लिए बिल्कुल सही।</p>\n      <p>सभी प्रोसेसिंग आपके ब्राउज़र में होती है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल खींचें और छोड़ें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "विभाजन सेट करें",
+        "description": "क्षैतिज, लंबवत या ग्रिड विभाजन चुनें और अनुभागों की संख्या निर्धारित करें।"
+      },
+      {
+        "step": 3,
+        "title": "विभाजित करें और डाउनलोड करें",
+        "description": "पृष्ठों को विभाजित करने और डाउनलोड करने के लिए Divide पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "स्कैन विभाजित करें",
+        "description": "कई दस्तावेज़ों वाले स्कैन किए गए पृष्ठों को विभाजित करें।",
+        "icon": "scissors"
+      },
+      {
+        "title": "पृष्ठों का आकार बदलें",
+        "description": "बड़े पृष्ठों को मानक कागज़ के आकारों में विभाजित करें।",
+        "icon": "maximize-2"
+      },
+      {
+        "title": "कार्ड बनाएं",
+        "description": "प्रिंटिंग के लिए पृष्ठों को कार्ड के आकार के अनुभागों में विभाजित करें।",
+        "icon": "grid"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या मैं असमान अनुभागों में विभाजित कर सकता हूँ?",
+        "answer": "वर्तमान में, विभाजन समान हैं। कस्टम अनुभागों के लिए Crop PDF का उपयोग करें।"
+      },
+      {
+        "question": "विभाजन रेखाओं पर मौजूद सामग्री का क्या होता है?",
+        "answer": "सामग्री विभाजन रेखा पर विभाजित हो जाती है; सुनिश्चित करें कि महत्वपूर्ण सामग्री सीमाओं पर न हो।"
+      },
+      {
+        "question": "क्या मैं केवल विशिष्ट पृष्ठों को ही विभाजित कर सकता हूँ?",
+        "answer": "हाँ, आप चुन सकते हैं कि किन पृष्ठों को विभाजित करना है।"
+      }
+    ]
+  },
+  "add-blank-page": {
+    "title": "खाली पृष्ठ जोड़ें",
+    "metaDescription": "PDF दस्तावेज़ों में खाली पृष्ठ डालें। किसी भी स्थिति में खाली पृष्ठ जोड़ें।",
+    "keywords": [
+      "add blank page",
+      "insert page",
+      "empty page",
+      "pdf page insertion"
+    ],
+    "description": "\n      <p>Add Blank Page आपके PDF दस्तावेज़ों में किसी भी स्थिति में खाली पृष्ठ सम्मिलित करता है। कस्टमाइज़ करने योग्य पृष्ठ आकार के साथ मौजूदा पृष्ठों से पहले, बाद में या उनके बीच पृष्ठ जोड़ें।</p>\n      <p>नोट्स के लिए स्थान जोड़ने, अनुभाग डिवाइडर बनाने, या मुद्रण के लिए दस्तावेज़ तैयार करने के लिए बिल्कुल सही।</p>\n      <p>सभी प्रोसेसिंग आपके ब्राउज़र में होती है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल खींचें और छोड़ें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "स्थिति चुनें",
+        "description": "चुनें कि खाली पृष्ठ कहाँ और कितने सम्मिलित करने हैं।"
+      },
+      {
+        "step": 3,
+        "title": "जोड़ें और डाउनलोड करें",
+        "description": "पृष्ठ सम्मिलित करने और डाउनलोड करने के लिए Add पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "नोट स्पेस",
+        "description": "हस्तलिखित नोट्स के लिए खाली पृष्ठ जोड़ें।",
+        "icon": "edit-3"
+      },
+      {
+        "title": "अनुभाग डिवाइडर",
+        "description": "दस्तावेज़ अनुभागों के बीच खाली पृष्ठ डालें।",
+        "icon": "minus"
+      },
+      {
+        "title": "प्रिंट की तैयारी",
+        "description": "डुप्लेक्स प्रिंटिंग संरेखण के लिए पृष्ठ जोड़ें।",
+        "icon": "printer"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या मैं पेज का आकार चुन सकता हूँ?",
+        "answer": "हाँ, खाली पेज मौजूद पेजों से मेल खा सकते हैं या कस्टम आयामों का उपयोग कर सकते हैं।"
+      },
+      {
+        "question": "क्या मैं एक से अधिक खाली पेज जोड़ सकता हूँ?",
+        "answer": "हाँ, आप एक बार में कितने भी खाली पेज जोड़ सकते हैं।"
+      },
+      {
+        "question": "क्या मैं रंगीन पेज जोड़ सकता हूँ?",
+        "answer": "रंग जोड़ने के लिए खाली पेज जोड़ने के बाद Background Color टूल का उपयोग करें।"
+      }
+    ]
+  },
+  "reverse-pages": {
+    "title": "पृष्ठों को उलटें",
+    "metaDescription": "PDF पेज क्रम को उलटें। दस्तावेज़ के पेजों को अंतिम से पहले क्रम में फ्लिप करें।",
+    "keywords": [
+      "reverse pdf",
+      "flip page order",
+      "invert pages",
+      "reverse document"
+    ],
+    "description": "\n      <p>Reverse Pages आपके PDF दस्तावेज़ में पेजों के क्रम को उलट देता है, जिससे अंतिम पेज पहला और पहला पेज अंतिम हो जाता है। यह उल्टे क्रम में स्कैन किए गए दस्तावेज़ों या विशिष्ट प्रिंटिंग आवश्यकताओं के लिए उपयोगी है।</p>\n      <p>यह टूल पूरे दस्तावेज़ या चयनित पेज सीमाओं को प्रोसेस करता है, जिससे सभी सामग्री और फ़ॉर्मैटिंग बनी रहती है।</p>\n      <p>सभी प्रोसेसिंग आपके ब्राउज़र में होती है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल खींचें और छोड़ें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "पृष्ठ चुनें",
+        "description": "सभी पेजों को या किसी विशिष्ट सीमा को उलटने का विकल्प चुनें।"
+      },
+      {
+        "step": 3,
+        "title": "उलटें और डाउनलोड करें",
+        "description": "पेज क्रम उलटने और डाउनलोड करने के लिए Reverse पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "स्कैन क्रम ठीक करें",
+        "description": "उल्टे क्रम में स्कैन किए गए दस्तावेज़ों को सही करें।",
+        "icon": "refresh-cw"
+      },
+      {
+        "title": "प्रिंट की तैयारी",
+        "description": "विशिष्ट प्रिंटिंग आवश्यकताओं के लिए पेजों को उलटें।",
+        "icon": "printer"
+      },
+      {
+        "title": "दस्तावेज़ का क्रम बदलना",
+        "description": "समीक्षा के लिए दस्तावेज़ के क्रम को जल्दी से उलटें।",
+        "icon": "arrow-up-down"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या बुकमार्क अपडेट किए जाते हैं?",
+        "answer": "हाँ, बुकमार्क सही उल्टे पेजों की ओर इंगित करने के लिए अपडेट किए जाते हैं।"
+      },
+      {
+        "question": "क्या मैं केवल कुछ ही पेजों को उलट सकता हूँ?",
+        "answer": "हाँ, आप उलटने के लिए पेजों की एक सीमा चुन सकते हैं।"
+      },
+      {
+        "question": "क्या यह रोटेट करने (घुमाने) के समान है?",
+        "answer": "नहीं, उलटने से पेज का क्रम बदलता है; घुमाने (rotating) से पेज का ओरिएंटेशन (दिशा) बदलता है।"
+      }
+    ]
+  },
+  "rotate-pdf": {
+    "title": "PDF घुमाएं",
+    "metaDescription": "PDF पेजों को रोटेट करें। पेजों को 90, 180, या 270 डिग्री घुमाएं।",
+    "keywords": [
+      "rotate pdf",
+      "turn pdf pages",
+      "pdf rotation",
+      "fix orientation"
+    ],
+    "description": "\n      <p>Rotate PDF आपके दस्तावेज़ के पेजों को 90, 180, या 270 डिग्री घुमाता है। गलत दिशा वाले स्कैन को ठीक करें, लैंडस्केप पेजों को घुमाएं, या देखने के लिए पेज ओरिएंटेशन को एडजस्ट करें।</p>\n      <p>सभी पेजों को समान रूप से रोटेट करें या व्यक्तिगत रूप से घुमाने के लिए विशिष्ट पेजों का चयन करें। यह टूल सभी सामग्री और फ़ॉर्मैटिंग को सुरक्षित रखता है।</p>\n      <p>सभी प्रोसेसिंग आपके ब्राउज़र में होती है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल खींचें और छोड़ें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "रोटेशन चुनें",
+        "description": "रोटेशन कोण और चुनें कि किन पेजों को घुमाना है।"
+      },
+      {
+        "step": 3,
+        "title": "रोटेट करें और डाउनलोड करें",
+        "description": "बदलाव लागू करने और डाउनलोड करने के लिए Rotate पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "स्कैन ठीक करें",
+        "description": "स्कैन किए गए दस्तावेज़ों का ओरिएंटेशन सही करें।",
+        "icon": "rotate-cw"
+      },
+      {
+        "title": "लैंडस्केप पेज",
+        "description": "उचित रूप से देखने के लिए लैंडस्केप पेजों को घुमाएं।",
+        "icon": "monitor"
+      },
+      {
+        "title": "मिश्रित ओरिएंटेशन",
+        "description": "मिश्रित दस्तावेज़ों में पेज ओरिएंटेशन को मानकीकृत करें।",
+        "icon": "layout"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या मैं अलग-अलग पेजों को अलग-अलग दिशा में घुमा सकता हूँ?",
+        "answer": "हाँ, आप अलग-अलग पेजों पर अलग-अलग रोटेशन लागू कर सकते हैं।"
+      },
+      {
+        "question": "क्या रोटेशन प्रिंट गुणवत्ता को प्रभावित करता है?",
+        "answer": "नहीं, रोटेशन सामग्री की सभी गुणवत्ता को सुरक्षित रखता है।"
+      },
+      {
+        "question": "क्या मैं कस्टम कोणों से घुमा सकता हूँ?",
+        "answer": "रोटेशन 90-डिग्री के अंतरालों (90, 180, 270) तक सीमित है।"
+      }
+    ]
+  },
+  "overlay-pdf": {
+    "title": "Overlay PDF",
+    "metaDescription": "एक PDF के पेजों को दूसरे PDF के ऊपर (overlay) या नीचे (underlay) रखें। स्टैम्प, लेटरहेड और लेआउट कंपोज़िशन के लिए बिल्कुल सही।",
+    "keywords": [
+      "overlay pdf",
+      "underlay pdf",
+      "stamp pdf",
+      "watermark pdf",
+      "combine layers"
+    ],
+    "description": "\n      <p>Overlay PDF आपको एक PDF दस्तावेज़ के पेजों को दूसरे PDF दस्तावेज़ के ऊपर या नीचे लेयर करने की अनुमति देता है। यह लेटरहेड लागू करने, बैकग्राउंड ग्रिड जोड़ने, वॉटरमार्क लगाने, या लेआउट ड्राफ्ट को एक साथ जोड़ने के लिए एकदम सही है।</p>\n      <p>Overlay मोड (लेयर ऊपर जाती है) और Underlay मोड (लेयर नीचे जाती है) दोनों का समर्थन करता है। कस्टम लक्ष्य पेज सीमाओं को निर्दिष्ट करें या पूरी मूल फ़ाइल को स्वचालित रूप से कवर करने के लिए छोटे ओवरले दस्तावेज़ों को लूप करें।</p>\n      <p>सभी प्रोसेसिंग पूरी तरह से आपके वेब ब्राउज़र के भीतर स्थानीय स्तर पर निष्पादित होती है, जिससे पूर्ण सुरक्षा और डेटा गोपनीयता की गारंटी मिलती है।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "मुख्य PDF अपलोड करें",
+        "description": "अपने प्राथमिक मूल PDF दस्तावेज़ को ड्रैग और ड्रॉप करें।"
+      },
+      {
+        "step": 2,
+        "title": "लेयर PDF अपलोड करें",
+        "description": "ओवरले/अंडरले दस्तावेज़ प्रदान करें जो लेयर के रूप में कार्य करता है।"
+      },
+      {
+        "step": 3,
+        "title": "लेयरिंग कॉन्फ़िगर करें",
+        "description": "Overlay या underlay मोड चुनें, पेज रेंज निर्दिष्ट करें, और पेज लूपिंग को सक्षम करें।"
+      },
+      {
+        "step": 4,
+        "title": "कंपाइल और डाउनलोड करें",
+        "description": "लेयर्ड परिणामी PDF को प्रोसेस करने और डाउनलोड करने के लिए Compile पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "कॉर्पोरेट लेटरहेड्स",
+        "description": "मानक कंपनी लेटरहेड टेम्प्लेट के ऊपर इनवॉइस सामग्री को लेयर करें।",
+        "icon": "file-text"
+      },
+      {
+        "title": "वाटरमार्क और सील",
+        "description": "दस्तावेज़ों पर सुरक्षा स्टैम्प, हस्ताक्षर सील या पृष्ठभूमि ओवरले करें।",
+        "icon": "shield"
+      },
+      {
+        "title": "ड्राइंग ब्लूप्रिंट्स",
+        "description": "टेक्स्ट ब्लॉक के नीचे ड्राफ्ट आर्किटेक्चर या लेआउट ग्रिड को संयोजित करें।",
+        "icon": "layout"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Overlay और Underlay में क्या अंतर है?",
+        "answer": "Overlay द्वितीयक लेयर को आपकी मुख्य सामग्री के ऊपर रखता है। Underlay इसे सबसे नीचे रखता है, जो पृष्ठभूमि टेम्प्लेट के रूप में कार्य करता है।"
+      },
+      {
+        "question": "क्या मैं ओवरले लेयर को लूप कर सकता हूं?",
+        "answer": "हाँ, यदि लेयर PDF मूल दस्तावेज़ से छोटा है, तो Loop को सक्षम करने से यह सभी मूल पृष्ठों को कवर करने के लिए इसे चक्रित (उदा. पृष्ठ 1, 2, 1, 2) करेगा।"
+      },
+      {
+        "question": "क्या पेज रेंज समर्थित है?",
+        "answer": "हाँ, आप सिंटैक्स रेंज जैसे कि \"1-5\", \"odd\", \"even\", या अल्पविराम से अलग की गई सूचियों का उपयोग करके विशिष्ट पृष्ठों को लक्षित कर सकते हैं।"
+      }
+    ]
+  },
+  "timestamp-pdf": {
+    "title": "Timestamp PDF",
+    "metaDescription": "PDF दस्तावेज़ों में RFC 3161 विश्वसनीय टाइमस्टैम्प जोड़ें। प्रमाणपत्र के बिना किसी विशिष्ट समय बिंदु पर दस्तावेज़ के अस्तित्व को साबित करें।",
+    "keywords": [
+      "timestamp pdf",
+      "rfc 3161",
+      "tsa server",
+      "trusted timestamping",
+      "proof of existence"
+    ],
+    "description": "\n      <p>Timestamp PDF बाहरी Time Stamping Authorities (TSA) का उपयोग करके आपके PDF दस्तावेज़ों में RFC 3161 अनुपालन वाले विश्वसनीय टाइमस्टैम्प जोड़ता है। यह कानूनी रूप से बाध्यकारी गणितीय प्रमाण प्रदान करता है कि कोई दस्तावेज़ किसी सटीक समय पर विशिष्ट, अपरिवर्तित स्थिति में मौजूद था।</p>\n      <p>DigiCert, Sectigo, SSL.com, FreeTSA, या MeSign जैसे वैश्विक विश्वसनीय TSA सर्वर में से चुनें। आपके दस्तावेज़ों को भविष्य की छेड़छाड़ से सुरक्षित रखने के लिए किसी व्यक्तिगत हस्ताक्षर प्रमाणपत्र की आवश्यकता नहीं है।</p>\n      <p>हैंडशेक से पहले पूरी तरह से सुरक्षित स्थानीय हैशिंग का समर्थन करता है, जिससे यह गारंटी मिलती है कि पूर्ण दस्तावेज़ सामग्री 100% गोपनीय रहे।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "PDF दस्तावेज़ अपलोड करें",
+        "description": "लक्षित PDF फ़ाइल चुनें जिसे आप टाइमस्टैम्प करना चाहते हैं।"
+      },
+      {
+        "step": 2,
+        "title": "TSA सर्वर चुनें",
+        "description": "सूची में से एक विश्वसनीय वैश्विक Time Stamping Authority चुनें।"
+      },
+      {
+        "step": 3,
+        "title": "लागू करें और टाइमस्टैम्प करें",
+        "description": "TSA से सुरक्षित प्रतिक्रिया प्राप्त करने और टोकन एम्बेड करने के लिए Timestamp पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "बौद्धिक संपदा",
+        "description": "सार्वजनिक रिलीज़ से पहले पेटेंट, ड्राफ्ट और विचारों का स्पष्ट प्राथमिकता प्रमाण स्थापित करें।",
+        "icon": "lightbulb"
+      },
+      {
+        "title": "वित्तीय लेखा परीक्षा",
+        "description": "लेजर अभिलेखागार और शेष रिपोर्टों का प्रमाणित छेड़छाड़-रोधी लॉगिंग प्रदान करें।",
+        "icon": "activity"
+      },
+      {
+        "title": "कानूनी अनुबंध",
+        "description": "बैकडेटिंग के तर्कों से बचने के लिए एक विश्वसनीय समय प्रमाण के साथ कानूनी समझौतों को लॉक करें।",
+        "icon": "file-check"
+      }
+    ],
+    "faq": [
+      {
+        "question": "विश्वसनीय टाइमस्टैम्प (RFC 3161) क्या है?",
+        "answer": "एक RFC 3161 टाइमस्टैम्प एक मान्यता प्राप्त तीसरे पक्ष के प्राधिकरण (TSA) द्वारा जारी एक क्रिप्टोग्राफ़िक रूप से हस्ताक्षरित टोकन है जो दस्तावेज़ हैश को एक विशिष्ट, सत्यापित घड़ी स्रोत से जोड़ता है।"
+      },
+      {
+        "question": "क्या मुझे डिजिटल प्रमाणपत्र की आवश्यकता है?",
+        "answer": "नहीं, क्रिप्टोग्राफ़िक हस्ताक्षर सीधे विश्वसनीय TSA सर्वर द्वारा प्रदान किया जाता है, जिससे यह प्रक्रिया दस्तावेज़ स्वामियों के लिए सहज हो जाती है।"
+      },
+      {
+        "question": "क्या TSA मेरे दस्तावेज़ की सामग्री देखता है?",
+        "answer": "कभी नहीं। यह टूल केवल आपके दस्तावेज़ का एक सुरक्षित SHA-256 हैश TSA सर्वर पर भेजता है, जिससे आपका वास्तविक दस्तावेज़ पूरी तरह से निजी रहता है।"
+      }
+    ]
+  },
+  "add-page-labels": {
+    "title": "पेज लेबल जोड़ें",
+    "metaDescription": "अपने PDF कैटलॉग पर कस्टम पेज लेबल लागू करें। रोमन अंक, उपसर्ग (prefixes), और जटिल असंबद्ध श्रेणियों (disjoint ranges) का समर्थन करता है।",
+    "keywords": [
+      "pdf page labels",
+      "roman numerals pdf",
+      "pdf prefix labels",
+      "disjoint range page labels",
+      "pdf indexing"
+    ],
+    "description": "\n      <p>Add Page Labels आपको अपने PDF के रूट Catalog डिक्शनरी में कस्टम पेज लेबलिंग मेटाडेटा (/PageLabels) इंजेक्ट करने की अनुमति देता है। यह पेशेवर PDF रीडर नेविगेशन साइडबार और शीर्ष पृष्ठ संख्या जंप पैनल में प्रदर्शित लेबल को अनुकूलित करता है (उदा. फ्रंट मैटर के लिए रोमन अंकों का उपयोग करना, मुख्य भाग के लिए दशमलव अनुक्रम, या तकनीकी उप-अनुभागों के लिए A-0, A-1 जैसे कस्टम उपसर्ग)।</p>\n      <p>कई कस्टम नियमों को सहजता से संयोजित करने का समर्थन करता है। महत्वपूर्ण रूप से, हमने एक अत्यधिक अनुकूलित <strong>disjoint-range slicing algorithm</strong> बनाया है: भले ही आप जटिल वैकल्पिक पैटर्न घोषित करते हैं (उदा. विषम पृष्ठों की शैली A, सम पृष्ठों की शैली B), टूल बिना मैप किए गए पृष्ठों में प्रारूपों को लीक किए बिना उचित मानक-अनुपालन प्रदर्शन सुनिश्चित करने के लिए सीमाओं को सुरुचिपूर्ण ढंग से अलग और व्यवस्थित करेगा।</p>\n      <p>सभी प्रक्रियाएं पूरी तरह से आपके स्थानीय ब्राउज़र सैंडबॉक्स के भीतर संसाधित होती हैं, जिससे पूर्ण डेटा गोपनीयता सुरक्षित रहती है।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "PDF दस्तावेज़ अपलोड करें",
+        "description": "लक्षित PDF दस्तावेज़ प्रदान करें जिसे आप लेबल करना चाहते हैं।"
+      },
+      {
+        "step": 2,
+        "title": "लेबलिंग नियम कॉन्फ़िगर करें",
+        "description": "पृष्ठ श्रेणियों (उदा. \"1-5\", \"odd\", या अल्पविराम से अलग की गई सूचियां), उपसर्ग, शैली और शुरुआती अनुक्रम निर्दिष्ट करने वाले एक या अधिक नियम जोड़ें।"
+      },
+      {
+        "step": 3,
+        "title": "पूर्वावलोकन और डाउनलोड करें",
+        "description": "नीचे लाइव पेज लेबल सूची पूर्वावलोकन की समीक्षा करें, फिर अपने अद्यतन PDF दस्तावेज़ को संकलित करें और डाउनलोड करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "अकादमिक थीसिस स्वरूपण",
+        "description": "प्रारंभिक फ्रंट मैटर के लिए लोअरकेस रोमन अंक (i, ii, iii) सेट करें और मुख्य अध्यायों के लिए दशमलव में ट्रांज़िशन करें।",
+        "icon": "book"
+      },
+      {
+        "title": "इंजीनियरिंग ब्लूप्रिंट उपसर्ग",
+        "description": "पृष्ठ लेबल उपसर्गों के रूप में सबसिस्टम संक्षिप्त रूप (उदा. \"A-1\", \"M-5\") संलग्न करें, जिससे टीमें सेकंड में पृष्ठों को खोज और ढूंढ सकें।",
+        "icon": "layout"
+      },
+      {
+        "title": "कस्टम वैकल्पिक लेआउट",
+        "description": "अधिकतम स्वतंत्रता के साथ विषम/सम अनुक्रमों या गैर-निकटवर्ती अनुभागों के लिए अत्यधिक विशिष्ट पृष्ठ श्रेणी अनुक्रमण लागू करें।",
+        "icon": "shuffle"
+      }
+    ],
+    "faq": [
+      {
+        "question": "पेज लेबल बनाम पेज नंबर क्या हैं?",
+        "answer": "साधारण पृष्ठ संख्याएँ दृश्यमान टेक्स्ट ब्लॉक होती हैं जो सीधे पेपर कैनवास पर रेंडर होती हैं (प्रिंट करने पर दिखाई देती हैं)। हालाँकि, पृष्ठ लेबल PDF कैटलॉग में इंजेक्ट किए गए संरचनात्मक मेटाडेटा होते हैं। वे नियंत्रित करते हैं कि थंबनेल के नीचे और Adobe Acrobat या Apple Preview जैसे सॉफ्टवेयर के भीतर पेज लुकअप बॉक्स में क्या प्रदर्शित होता है।"
+      },
+      {
+        "question": "यदि मैं पृष्ठ सीमा (Page Range) खाली छोड़ दूँ तो क्या होगा?",
+        "answer": "पृष्ठ सीमा को खाली छोड़ने पर नियम दस्तावेज़ के सभी पृष्ठों पर विश्व स्तर पर लागू हो जाता है।"
+      },
+      {
+        "question": "ओवरलैपिंग (अतिव्यापी) नियमों को कैसे संभाला जाता है?",
+        "answer": "नियमों का मूल्यांकन उसी क्रम में क्रमिक रूप से किया जाता है जिस क्रम में वे सूचीबद्ध हैं। यदि किसी बाद वाले नियम की पृष्ठ सीमा पहले वाले नियम से ओवरलैप करती है, तो बाद वाला नियम प्राथमिकता लेता है और उस पृष्ठ के लेबल को ओवरराइड कर देता है।"
+      }
+    ]
+  },
+  "n-up-pdf": {
+    "title": "N-Up PDF",
+    "metaDescription": "प्रति शीट कई PDF पृष्ठ प्रिंट करें। 2-up, 4-up, या कस्टम लेआउट बनाएं।",
+    "keywords": [
+      "n-up pdf",
+      "multiple pages per sheet",
+      "2-up printing",
+      "page imposition"
+    ],
+    "description": "\n      <p>N-Up PDF कई पृष्ठों को एकल शीट पर व्यवस्थित करता है, जिससे 2-up, 4-up, 6-up, 9-up, या कस्टम लेआउट बनते हैं। प्रिंट करते समय या हैंडआउट बनाते समय कागज़ बचाने के लिए बिल्कुल सही।</p>\n      <p>प्रीसेट लेआउट में से चुनें या कस्टम व्यवस्थाएँ बनाएं। यह टूल इष्टतम परिणामों के लिए पृष्ठों को स्वचालित रूप से स्केल और स्थितिबद्ध करता है।</p>\n      <p>सभी प्रोसेसिंग आपके ब्राउज़र में होती है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल खींचें और छोड़ें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "लेआउट चुनें",
+        "description": "2-up, 4-up, 6-up, 9-up, या कस्टम ग्रिड चुनें।"
+      },
+      {
+        "step": 3,
+        "title": "बनाएं और डाउनलोड करें",
+        "description": "N-up PDF उत्पन्न करने और डाउनलोड करने के लिए 'बनाएं' पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "कागज़ बचाएं",
+        "description": "कागज़ की खपत कम करने के लिए प्रति शीट कई पृष्ठ प्रिंट करें।",
+        "icon": "leaf"
+      },
+      {
+        "title": "हैंडआउट बनाएं",
+        "description": "प्रेजेंटेशन स्लाइड से कॉम्पैक्ट हैंडआउट बनाएं।",
+        "icon": "file-text"
+      },
+      {
+        "title": "दस्तावेज़ों की समीक्षा करें",
+        "description": "समीक्षा के लिए दस्तावेज़ों को छोटे आकार में प्रिंट करें।",
+        "icon": "eye"
+      }
+    ],
+    "faq": [
+      {
+        "question": "कौन से लेआउट उपलब्ध हैं?",
+        "answer": "2-up, 4-up, 6-up, 9-up, और कस्टम ग्रिड लेआउट उपलब्ध हैं।"
+      },
+      {
+        "question": "क्या मैं पृष्ठों के बीच बॉर्डर जोड़ सकता हूँ?",
+        "answer": "हाँ, आप पृष्ठों के बीच बॉर्डर और गटर (spacing) जोड़ सकते हैं।"
+      },
+      {
+        "question": "क्या पृष्ठ क्रम सुरक्षित रहता है?",
+        "answer": "हाँ, पृष्ठों को पढ़ने के क्रम में (बाएँ-से-दाएँ, ऊपर-से-नीचे) व्यवस्थित किया जाता है।"
+      }
+    ]
+  },
+  "combine-single-page": {
+    "title": "एकल पृष्ठ में मिलाएँ",
+    "metaDescription": "PDF पृष्ठों को जोड़कर एक निरंतर पृष्ठ बनाएँ। स्क्रॉल करने योग्य एकल-पृष्ठ दस्तावेज़ बनाएँ।",
+    "keywords": [
+      "combine pages",
+      "single page pdf",
+      "stitch pages",
+      "continuous scroll"
+    ],
+    "description": "\n      <p>एकल पृष्ठ में मिलाएँ सभी PDF पृष्ठों को एक निरंतर पृष्ठ में जोड़ता है। वेब देखने या निरंतर पढ़ने के लिए सही स्क्रॉल करने योग्य दस्तावेज़ बनाएँ।</p>\n      <p>पृष्ठों को कस्टमाइज़ योग्य रिक्ति (spacing) के साथ लंबवत रूप से जोड़ा जाता है। इसका परिणाम एक एकल लंबा पृष्ठ होता है जिसमें सभी सामग्री होती है।</p>\n      <p>सभी प्रोसेसिंग आपके ब्राउज़र में होती है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल खींचें और छोड़ें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "रिक्ति (Spacing) सेट करें",
+        "description": "जुड़े हुए पृष्ठों के बीच का अंतर चुनें।"
+      },
+      {
+        "step": 3,
+        "title": "संयोजित करें और डाउनलोड करें",
+        "description": "एकल-पृष्ठ PDF बनाने के लिए 'मिलाएँ' पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "वेब दस्तावेज़",
+        "description": "वेब एम्बेडिंग के लिए स्क्रॉल करने योग्य PDF बनाएँ।",
+        "icon": "globe"
+      },
+      {
+        "title": "निरंतर पढ़ना",
+        "description": "पृष्ठों वाले दस्तावेज़ों को निरंतर स्क्रॉल में बदलें।",
+        "icon": "scroll"
+      },
+      {
+        "title": "लॉन्ग-फॉर्म सामग्री",
+        "description": "निर्बाध रूप से पढ़ने के लिए पृष्ठों को मिलाएँ।",
+        "icon": "file-text"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या कोई पेज सीमा है?",
+        "answer": "बहुत लंबे दस्तावेज़ ब्राउज़र की मेमोरी द्वारा सीमित हो सकते हैं।"
+      },
+      {
+        "question": "क्या मैं पृष्ठों के बीच सेपरेटर जोड़ सकता हूँ?",
+        "answer": "हाँ, आप मूल पृष्ठों के बीच स्पेसिंग या रेखाएँ जोड़ सकते हैं।"
+      },
+      {
+        "question": "क्या यह प्रिंटिंग के लिए काम करेगा?",
+        "answer": "यह परिणाम स्क्रीन पर देखने के लिए सबसे अच्छा है; प्रिंट लेआउट के लिए N-Up का उपयोग करें।"
+      }
+    ]
+  },
+  "view-metadata": {
+    "title": "मेटाडेटा देखें",
+    "metaDescription": "PDF दस्तावेज़ गुण देखें। लेखक, शीर्षक, तिथियाँ और अन्य मेटाडेटा देखें।",
+    "keywords": [
+      "pdf metadata",
+      "document properties",
+      "pdf info",
+      "view pdf details"
+    ],
+    "description": "\n      <p>मेटाडेटा देखें आपके PDF फ़ाइलों से सभी दस्तावेज़ गुण और मेटाडेटा प्रदर्शित करता है। लेखक, शीर्षक, विषय, कीवर्ड, निर्माण तिथि, संशोधन तिथि और बहुत कुछ देखें।</p>\n      <p>दस्तावेज़ों का ऑडिट करने, फ़ाइल जानकारी जाँचने, या दस्तावेज़ की प्रामाणिकता की पुष्टि करने के लिए उपयोगी।</p>\n      <p>सभी दृश्य आपके ब्राउज़र में होते हैं, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल खींचें और छोड़ें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "गुण देखें",
+        "description": "एक व्यवस्थित प्रारूप में प्रदर्शित सभी मेटाडेटा देखें।"
+      },
+      {
+        "step": 3,
+        "title": "आवश्यकता होने पर निर्यात करें",
+        "description": "वैकल्पिक रूप से मेटाडेटा को JSON के रूप में निर्यात करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "दस्तावेज़ ऑडिट",
+        "description": "अनुपालन के लिए दस्तावेज़ के गुणों की समीक्षा करें।",
+        "icon": "clipboard-check"
+      },
+      {
+        "title": "प्रामाणिकता की पुष्टि करें",
+        "description": "निर्माण तिथियों और लेखक की जानकारी की जाँच करें।",
+        "icon": "shield"
+      },
+      {
+        "title": "फ़ाइल जानकारी",
+        "description": "PDF फ़ाइलों के बारे में विस्तृत जानकारी प्राप्त करें।",
+        "icon": "info"
+      }
+    ],
+    "faq": [
+      {
+        "question": "कौन सा metadata दिखाया गया है?",
+        "answer": "शीर्षक, लेखक, विषय, कीवर्ड्स, creator, producer, तिथियां, और PDF संस्करण।"
+      },
+      {
+        "question": "क्या मैं यहाँ metadata संपादित कर सकता हूँ?",
+        "answer": "दस्तावेज़ के गुणों को संशोधित करने के लिए Edit Metadata टूल का उपयोग करें।"
+      },
+      {
+        "question": "क्या XMP metadata शामिल है?",
+        "answer": "हाँ, मानक और XMP metadata दोनों प्रदर्शित होते हैं।"
+      }
+    ]
+  },
+  "edit-metadata": {
+    "title": "Metadata संपादित करें",
+    "metaDescription": "PDF दस्तावेज़ के गुणों को संपादित करें। शीर्षक, लेखक, विषय और कीवर्ड बदलें।",
+    "keywords": [
+      "edit pdf metadata",
+      "change pdf properties",
+      "pdf author",
+      "document info"
+    ],
+    "description": "<p>Edit Metadata आपको अपनी PDF फ़ाइलों में दस्तावेज़ गुणों को संशोधित करने की अनुमति देता है। शीर्षक, लेखक, विषय, कीवर्ड और अन्य metadata फ़ील्ड बदलें।</p><p>दस्तावेज़ की जानकारी को सही करने, उचित attribution जोड़ने, या वितरण के लिए फ़ाइलों को तैयार करने के लिए बिल्कुल सही।</p><p>सभी संपादन आपके ब्राउज़र में होते हैं, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल खींचें और छोड़ें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "गुण संपादित करें",
+        "description": "शीर्षक, लेखक, विषय, कीवर्ड और अन्य फ़ील्ड संशोधित करें।"
+      },
+      {
+        "step": 3,
+        "title": "सहेजें और डाउनलोड करें",
+        "description": "परिवर्तनों को लागू करने और डाउनलोड करने के लिए Save पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Attribution जोड़ें",
+        "description": "उचित लेखक और creator जानकारी सेट करें।",
+        "icon": "user"
+      },
+      {
+        "title": "SEO Optimization",
+        "description": "खोजने की क्षमता के लिए कीवर्ड और विवरण जोड़ें।",
+        "icon": "search"
+      },
+      {
+        "title": "दस्तावेज़ की तैयारी",
+        "description": "शेयर करने से पहले उचित metadata के साथ दस्तावेज़ तैयार करें।",
+        "icon": "file-check"
+      }
+    ],
+    "faq": [
+      {
+        "question": "मैं कौन से फ़ील्ड संपादित कर सकता हूँ?",
+        "answer": "शीर्षक, लेखक, विषय, कीवर्ड, creator, और producer फ़ील्ड।"
+      },
+      {
+        "question": "क्या मैं सभी metadata हटा सकता हूँ?",
+        "answer": "सभी दस्तावेज़ गुणों को हटाने के लिए Remove Metadata टूल का उपयोग करें।"
+      },
+      {
+        "question": "क्या तिथियां संपादन योग्य हैं?",
+        "answer": "निर्माण और संशोधन तिथियां स्वचालित रूप से अपडेट होती हैं।"
+      }
+    ]
+  },
+  "pdf-to-zip": {
+    "title": "PDFs to ZIP",
+    "metaDescription": "कई PDF को एक ZIP आर्काइव में पैकेज करें। PDF फ़ाइलों को कंप्रेस और बंडल करें।",
+    "keywords": [
+      "pdf to zip",
+      "compress pdfs",
+      "bundle pdfs",
+      "archive pdfs"
+    ],
+    "description": "<p>PDFs to ZIP कई PDF फ़ाइलों को एक ही ZIP आर्काइव में पैकेज करता है। आसान शेयरिंग, स्टोरेज या बैकअप के लिए अपने PDFs को कंप्रेस और बंडल करें।</p><p>यह टूल आपकी सभी PDF फ़ाइलों को शामिल करते हुए एक कंप्रेस की गई आर्काइव बनाता है, कुल आकार को कम करता है और फ़ाइल प्रबंधन को सरल बनाता है।</p><p>सभी प्रोसेसिंग आपके ब्राउज़र में होती है, जिससे यह सुनिश्चित होता है कि आपकी फ़ाइलें निजी रहें।</p>",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "PDFs अपलोड करें",
+        "description": "कई PDF फ़ाइलों को ड्रैग और ड्रॉप करें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "आर्काइव कॉन्फ़िगर करें",
+        "description": "वैकल्पिक रूप से आर्काइव का नाम और कंप्रेशन स्तर सेट करें।"
+      },
+      {
+        "step": 3,
+        "title": "बनाएं और डाउनलोड करें",
+        "description": "ZIP आर्काइव बनाने के लिए Create पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "फ़ाइल शेयरिंग",
+        "description": "आसान शेयरिंग के लिए कई PDFs बंडल करें।",
+        "icon": "share-2"
+      },
+      {
+        "title": "बैकअप निर्माण",
+        "description": "PDF संग्रहों के कंप्रेस किए गए बैकअप बनाएं।",
+        "icon": "archive"
+      },
+      {
+        "title": "ईमेल अटैचमेंट",
+        "description": "ईमेल के लिए PDFs को एक अटैचमेंट में संयोजित करें।",
+        "icon": "mail"
+      }
+    ],
+    "faq": [
+      {
+        "question": "कितना कंप्रेशन लागू होता है?",
+        "answer": "ZIP कंप्रेशन आमतौर पर कुल आकार को 10-30% तक कम कर देता है।"
+      },
+      {
+        "question": "क्या कोई फ़ाइल सीमा है?",
+        "answer": "आप एक ही आर्काइव में 100 PDFs तक शामिल कर सकते हैं।"
+      },
+      {
+        "question": "क्या मैं पासवर्ड सेट कर सकता हूँ?",
+        "answer": "पासवर्ड-संरक्षित ZIP निर्माण वर्तमान में समर्थित नहीं है।"
+      }
+    ]
+  },
+  "compare-pdfs": {
+    "title": "PDF की तुलना करें",
+    "metaDescription": "दो PDF दस्तावेज़ों की तुलना करें। संस्करणों के बीच अंतर हाइलाइट करें।",
+    "keywords": [
+      "compare pdfs",
+      "pdf diff",
+      "document comparison",
+      "version comparison"
+    ],
+    "description": "<p>Compare PDFs दो PDF दस्तावेज़ों का विश्लेषण करता है और उनके बीच के अंतरों को हाइलाइट करता है। दस्तावेज़ संशोधनों की समीक्षा करने, अनुबंध परिवर्तनों की जाँच करने, या संपादन सत्यापित करने के लिए बिल्कुल सही।</p><p>हाइलाइट किए गए अंतरों के साथ दस्तावेज़ों को side-by-side या ओवरले मोड में देखें। यह टूल टेक्स्ट परिवर्तनों, परिवर्धन और विलोपन की पहचान करता है।</p><p>सभी तुलना आपके ब्राउज़र में होती है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "दो PDFs अपलोड करें",
+        "description": "मूल और संशोधित PDF दस्तावेज़ अपलोड करें।"
+      },
+      {
+        "step": 2,
+        "title": "दस्तावेज़ों की तुलना करें",
+        "description": "side-by-side या ओवरले मोड में हाइलाइट किए गए अंतरों को देखें।"
+      },
+      {
+        "step": 3,
+        "title": "परिणाम एक्सपोर्ट करें",
+        "description": "तुलना रिपोर्ट या एनोटेटेड PDF डाउनलोड करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "कॉन्ट्रैक्ट समीक्षा",
+        "description": "बदलावों की पहचान करने के लिए कॉन्ट्रैक्ट के संस्करणों की तुलना करें।",
+        "icon": "file-text"
+      },
+      {
+        "title": "दस्तावेज़ संशोधन",
+        "description": "दस्तावेज़ के संस्करणों के बीच किए गए संशोधनों की समीक्षा करें।",
+        "icon": "git-compare"
+      },
+      {
+        "title": "गुणवत्ता आश्वासन",
+        "description": "सत्यापित करें कि केवल इच्छित परिवर्तन ही किए गए थे।",
+        "icon": "check-circle"
+      }
+    ],
+    "faq": [
+      {
+        "question": "किस प्रकार के अंतरों का पता लगाया जाता है?",
+        "answer": "टेक्स्ट जोड़ना, हटाना, संशोधन और फ़ॉर्मेटिंग परिवर्तन।"
+      },
+      {
+        "question": "क्या मैं स्कैन किए गए दस्तावेज़ों की तुलना कर सकता हूँ?",
+        "answer": "टेक्स्ट तुलना के लिए स्कैन किए गए दस्तावेज़ों को पहले OCR प्रोसेस किया जाना चाहिए।"
+      },
+      {
+        "question": "क्या विजुअल तुलना उपलब्ध है?",
+        "answer": "हाँ, ओवरले मोड पृष्ठों के बीच विजुअल अंतर दिखाता है।"
+      }
+    ]
+  },
+  "posterize-pdf": {
+    "title": "PDF पोस्टराइज़ करें",
+    "metaDescription": "बड़े PDF पृष्ठों को प्रिंट योग्य टाइलों में विभाजित करें। PDF पृष्ठों से पोस्टर बनाएं।",
+    "keywords": [
+      "posterize pdf",
+      "tile pdf",
+      "large format printing",
+      "pdf poster"
+    ],
+    "description": "\n      <p>Posterize PDF बड़े PDF पृष्ठों को छोटे टाइलों में विभाजित करता है जिन्हें मानक कागज़ पर प्रिंट किया जा सकता है और पोस्टर के रूप में जोड़ा जा सकता है। बड़े आरेखों, मानचित्रों या कलाकृतियों को प्रिंट करने के लिए बिल्कुल सही।</p>\n      <p>आसानी से जोड़ने के लिए ग्रिड का आकार और ओवरलैप कॉन्फ़िगर करें। यह टूल आपके लक्ष्य आउटपुट आकार के लिए टाइल के आयामों की स्वचालित रूप से गणना करता है।</p>\n      <p>सभी प्रोसेसिंग आपके ब्राउज़र में होती है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपना लार्ज-फ़ॉर्मेट PDF ड्रैग और ड्रॉप करें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "टाइल्स कॉन्फ़िगर करें",
+        "description": "ग्रिड का आकार, ओवरलैप और आउटपुट पेपर का आकार सेट करें।"
+      },
+      {
+        "step": 3,
+        "title": "बनाएं और डाउनलोड करें",
+        "description": "प्रिंट योग्य टाइल जनरेट करने के लिए बनाएं (Create) पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "पोस्टर प्रिंटिंग",
+        "description": "मानक कागज़ पर बड़े पोस्टर प्रिंट करें।",
+        "icon": "maximize-2"
+      },
+      {
+        "title": "मानचित्र प्रिंटिंग",
+        "description": "जोड़ने के लिए बड़े मानचित्रों को अनुभागों में प्रिंट करें।",
+        "icon": "map"
+      },
+      {
+        "title": "आर्टवर्क रीप्रोडक्शन",
+        "description": "PDF आर्टवर्क से बड़े प्रिंट बनाएं।",
+        "icon": "image"
+      }
+    ],
+    "faq": [
+      {
+        "question": "मुझे किस ओवरलैप का उपयोग करना चाहिए?",
+        "answer": "असेंबली के दौरान आसानी से संरेखण के लिए 10-20mm ओवरलैप की सिफारिश की जाती है।"
+      },
+      {
+        "question": "क्या मैं क्रॉप मार्क्स जोड़ सकता हूँ?",
+        "answer": "हाँ, कटिंग और संरेखण में मदद के लिए क्रॉप मार्क्स जोड़े जा सकते हैं।"
+      },
+      {
+        "question": "कौन से पेपर आकार समर्थित हैं?",
+        "answer": "A4, Letter, A3 और कस्टम आकार समर्थित हैं।"
+      }
+    ]
+  },
+  "fix-page-size": {
+    "title": "पेज साइज़ ठीक करें",
+    "metaDescription": "PDF पेज साइज़ को मानकीकृत करें। सभी पृष्ठों को एक समान आयामों में बदलें।",
+    "keywords": [
+      "fix page size",
+      "standardize pdf",
+      "uniform pages",
+      "resize pdf pages"
+    ],
+    "description": "\n      <p>Fix Page Size आपके PDF के सभी पृष्ठों को एक समान आयामों में मानकीकृत करता है। पेशेवर प्रस्तुति या प्रिंटिंग के लिए मिश्रित-आकार वाले दस्तावेज़ों को सुसंगत पेज साइज़ में बदलें।</p>\n      <p>मानक आकारों (A4, Letter, आदि) में से चुनें या कस्टम आयाम सेट करें। सामग्री को नए पेज साइज़ में फिट करने के लिए स्केल या पोजीशन किया जाता है।</p>\n      <p>सभी प्रोसेसिंग आपके ब्राउज़र में होती है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल खींचें और छोड़ें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "लक्षित आकार चुनें",
+        "description": "एक मानक आकार चुनें या कस्टम आयाम दर्ज करें।"
+      },
+      {
+        "step": 3,
+        "title": "लागू करें और डाउनलोड करें",
+        "description": "पृष्ठों को मानकीकृत करने और डाउनलोड करने के लिए लागू करें (Apply) पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "प्रिंट की तैयारी",
+        "description": "सुसंगत प्रिंटिंग के लिए पृष्ठों को मानकीकृत करें।",
+        "icon": "printer"
+      },
+      {
+        "title": "दस्तावेज़ की सफ़ाई",
+        "description": "असंगत पेज साइज़ वाले दस्तावेज़ों को ठीक करें।",
+        "icon": "file-check"
+      },
+      {
+        "title": "पेशेवर दस्तावेज़",
+        "description": "वितरण के लिए एक समान दस्तावेज़ बनाएं।",
+        "icon": "briefcase"
+      }
+    ],
+    "faq": [
+      {
+        "question": "सामग्री को कैसे संभाला जाता है?",
+        "answer": "सामग्री को नए पेज साइज़ पर फ़िट करने के लिए स्केल किया जाता है या केंद्र में रखा जाता है।"
+      },
+      {
+        "question": "क्या मैं एस्पेक्ट रेशियो सुरक्षित रख सकता हूँ?",
+        "answer": "हाँ, सामग्री को फ़िट करने के लिए आनुपातिक रूप से स्केल किया जा सकता है।"
+      },
+      {
+        "question": "कौन से मानक आकार उपलब्ध हैं?",
+        "answer": "A4, A3, Letter, Legal और अन्य सामान्य आकार।"
+      }
+    ]
+  },
+  "linearize-pdf": {
+    "title": "PDF को लीनियराइज़ करें",
+    "metaDescription": "तेज़ वेब व्यूइंग के लिए PDF को ऑप्टिमाइज़ करें। प्रोग्रेसिव लोडिंग को सक्षम करें।",
+    "keywords": [
+      "linearize pdf",
+      "fast web view",
+      "optimize pdf",
+      "progressive pdf"
+    ],
+    "description": "\n      <p>Linearize PDF आपके दस्तावेज़ों को तेज़ वेब व्यूइंग के लिए ऑप्टिमाइज़ करता है। Linearized PDFs पूरी फ़ाइल डाउनलोड होने से पहले ही प्रदर्शित होना शुरू हो सकती हैं, जिससे उपयोगकर्ता का अनुभव बेहतर होता है।</p>\n      <p>इसे \"Fast Web View\" के रूप में भी जाना जाता है, यह ऑप्टिमाइजेशन वेब ब्राउज़र में प्रोग्रेसिव लोडिंग के लिए PDF संरचना को पुनर्गठित करता है।</p>\n      <p>सभी प्रोसेसिंग आपके ब्राउज़र में होती है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल खींचें और छोड़ें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "Linearize",
+        "description": "वेब व्यूइंग के लिए ऑप्टिमाइज़ करने हेतु Linearize पर क्लिक करें।"
+      },
+      {
+        "step": 3,
+        "title": "डाउनलोड करें",
+        "description": "अपना ऑप्टिमाइज़ किया गया PDF डाउनलोड करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "वेब पब्लिशिंग",
+        "description": "वेबसाइट डाउनलोड के लिए PDFs को ऑप्टिमाइज़ करें।",
+        "icon": "globe"
+      },
+      {
+        "title": "ईमेल अटैचमेंट",
+        "description": "ऐसे PDFs बनाएं जो प्राप्तकर्ताओं के लिए तेज़ी से खुलते हैं।",
+        "icon": "mail"
+      },
+      {
+        "title": "ऑनलाइन दस्तावेज़",
+        "description": "ऑनलाइन दस्तावेज़ों के लिए व्यूइंग अनुभव में सुधार करें।",
+        "icon": "cloud"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Linearization क्या है?",
+        "answer": "Linearization प्रोग्रेसिव लोडिंग के लिए PDF डेटा को पुनर्गठित करता है।"
+      },
+      {
+        "question": "क्या यह फ़ाइल का आकार कम करता है?",
+        "answer": "अतिरिक्त संरचना के कारण Linearization से फ़ाइल का आकार थोड़ा बढ़ सकता है।"
+      },
+      {
+        "question": "क्या यह सभी व्यूअर्स के साथ संगत है?",
+        "answer": "हाँ, linearized PDFs सभी PDF रीडर्स में काम करते हैं।"
+      }
+    ]
+  },
+  "page-dimensions": {
+    "title": "पेज डाइमेंशन्स",
+    "metaDescription": "PDF पेज के आकारों का विश्लेषण करें। अपने दस्तावेज़ के सभी पेजों के डाइमेंशन्स देखें।",
+    "keywords": [
+      "pdf page size",
+      "page dimensions",
+      "pdf measurements",
+      "document size"
+    ],
+    "description": "\n      <p>Page Dimensions आपके PDF दस्तावेज़ के प्रत्येक पेज के आकार का विश्लेषण करता है और उसे प्रदर्शित करता है। विभिन्न इकाइयों (इंच, मिमी, पॉइंट्स) में डाइमेंशन्स देखें और गैर-मानक आकारों वाले पेजों की पहचान करें।</p>\n      <p>प्रिंट की तैयारी, दस्तावेज़ विश्लेषण, या असंगत पेज आकारों की पहचान करने के लिए उपयोगी है।</p>\n      <p>सभी विश्लेषण आपके ब्राउज़र में होते हैं, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल खींचें और छोड़ें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "डाइमेंशन्स देखें",
+        "description": "सभी पेजों के लिए प्रदर्शित पेज आकार देखें।"
+      },
+      {
+        "step": 3,
+        "title": "रिपोर्ट एक्सपोर्ट करें",
+        "description": "विकल्प के रूप में डाइमेंशन्स को JSON के रूप में एक्सपोर्ट करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "प्रिंट प्लानिंग",
+        "description": "प्रिंट करने से पहले पेज के आकार जांचें।",
+        "icon": "printer"
+      },
+      {
+        "title": "दस्तावेज़ विश्लेषण",
+        "description": "असामान्य डाइमेंशन्स वाले पेजों की पहचान करें।",
+        "icon": "search"
+      },
+      {
+        "title": "क्वालिटी कंट्रोल",
+        "description": "सत्यापित करें कि पेज के आकार विनिर्देशों के अनुरूप हैं।",
+        "icon": "check-circle"
+      }
+    ],
+    "faq": [
+      {
+        "question": "कौन सी इकाइयाँ उपलब्ध हैं?",
+        "answer": "इंच, मिलीमीटर, सेंटीमीटर, और पॉइंट्स।"
+      },
+      {
+        "question": "क्या यह ओरिएंटेशन दिखाता है?",
+        "answer": "हाँ, पोर्ट्रेट या लैंडस्केप ओरिएंटेशन दर्शाया गया है।"
+      },
+      {
+        "question": "क्या मैं असंगत आकारों को ठीक कर सकता हूँ?",
+        "answer": "डाइमेंशन्स को मानकीकृत करने के लिए Fix Page Size टूल का उपयोग करें।"
+      }
+    ]
+  },
+  "remove-restrictions": {
+    "title": "प्रतिबंध हटाएं",
+    "metaDescription": "PDF प्रतिबंध हटाएं। प्रिंटिंग, कॉपी और एडिटिंग की अनुमति अनलॉक करें।",
+    "keywords": [
+      "remove pdf restrictions",
+      "unlock pdf",
+      "pdf permissions",
+      "unrestrict pdf"
+    ],
+    "description": "\n      <p>Remove Restrictions उन PDFs को अनलॉक करता है जिनमें प्रिंटिंग, कॉपी करने या एडिट करने से रोकने वाले अनुमति प्रतिबंध होते हैं। यह टूल दस्तावेज़ की सामग्री को सुरक्षित रखते हुए ओनर पासवर्ड प्रतिबंधों को हटाता है।</p>\n      <p>नोट: यह टूल उन यूज़र पासवर्डों को नहीं हटा सकता जो दस्तावेज़ खोलने से रोकते हैं। पासवर्ड-संरक्षित फ़ाइलों के लिए Decrypt PDF का उपयोग करें।</p>\n      <p>सभी प्रोसेसिंग आपके ब्राउज़र में होती है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "प्रतिबंधित PDF अपलोड करें",
+        "description": "अपनी प्रतिबंधित PDF को ड्रैग और ड्रॉप करें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "प्रतिबंध हटाएं",
+        "description": "दस्तावेज़ को अनलॉक करने के लिए Remove पर क्लिक करें।"
+      },
+      {
+        "step": 3,
+        "title": "डाउनलोड करें",
+        "description": "प्रतिबंध-मुक्त PDF डाउनलोड करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "प्रिंटिंग सक्षम करें",
+        "description": "प्रिंटिंग रोकने वाले PDFs को अनलॉक करें।",
+        "icon": "printer"
+      },
+      {
+        "title": "कॉपी करना सक्षम करें",
+        "description": "टेक्स्ट चयन और कॉपी करने की अनुमति दें।",
+        "icon": "copy"
+      },
+      {
+        "title": "एडिटिंग सक्षम करें",
+        "description": "दस्तावेज़ संपादन पर प्रतिबंध हटाएं।",
+        "icon": "edit"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या यह कानूनी है?",
+        "answer": "जिन दस्तावेज़ों के आप मालिक हैं या जिनके अधिकार आपके पास हैं, उनसे प्रतिबंध हटाना आमतौर पर कानूनी है।"
+      },
+      {
+        "question": "क्या यह ओपन पासवर्ड हटा सकता है?",
+        "answer": "नहीं, पासवर्ड-संरक्षित दस्तावेज़ों के लिए Decrypt PDF का उपयोग करें।"
+      },
+      {
+        "question": "क्या सामग्री प्रभावित होगी?",
+        "answer": "नहीं, केवल प्रतिबंध हटाए जाते हैं; सामग्री अपरिवर्तित रहती है।"
+      }
+    ]
+  },
+  "repair-pdf": {
+    "title": "PDF रिपेयर करें",
+    "metaDescription": "खराब हो चुकी PDF फ़ाइलों को ठीक करें। क्षतिग्रस्त दस्तावेज़ों को रिकवर और रिपेयर करें।",
+    "keywords": [
+      "repair pdf",
+      "fix pdf",
+      "recover pdf",
+      "corrupted pdf"
+    ],
+    "description": "\n      <p>Repair PDF खराब या क्षतिग्रस्त PDF फ़ाइलों को ठीक करने का प्रयास करता है। यह टूल दस्तावेज़ की संरचना का विश्लेषण करता है और यथासंभव अधिक से अधिक सामग्री रिकवर करने के लिए इसे फिर से बनाता है।</p>\n      <p>उन फ़ाइलों को रिकवर करने के लिए उपयोगी है जो खुलती नहीं हैं, त्रुटियाँ दिखाती हैं, या खराबी के कारण जिनकी सामग्री गायब है।</p>\n      <p>सभी रिपेयर प्रक्रिया आपके ब्राउज़र में होती है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "क्षतिग्रस्त PDF अपलोड करें",
+        "description": "अपनी खराब PDF को ड्रैग और ड्रॉप करें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "दस्तावेज़ रिपेयर करें",
+        "description": "रिकवरी का प्रयास करने के लिए Repair पर क्लिक करें।"
+      },
+      {
+        "step": 3,
+        "title": "डाउनलोड करें",
+        "description": "सफल होने पर रिपेयर की गई PDF डाउनलोड करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "फ़ाइलें रिकवर करें",
+        "description": "उन PDF को रिकवर करें जो ठीक से नहीं खुल रही हैं।",
+        "icon": "refresh-cw"
+      },
+      {
+        "title": "त्रुटियाँ सुधारें",
+        "description": "त्रुटि संदेश दिखाने वाली फ़ाइलों को रिपेयर करें।",
+        "icon": "wrench"
+      },
+      {
+        "title": "सामग्री रीस्टोर करें",
+        "description": "आंशिक रूप से खराब फ़ाइलों से सामग्री रिकवर करें।",
+        "icon": "file-check"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या सभी PDF को रिपेयर किया जा सकता है?",
+        "answer": "सफलता खराबी के प्रकार और सीमा पर निर्भर करती है।"
+      },
+      {
+        "question": "क्या पूरी सामग्री रिकवर हो जाएगी?",
+        "answer": "यह टूल यथासंभव अधिक से अधिक रिकवर करता है; गंभीर रूप से क्षतिग्रस्त फ़ाइलों में नुकसान हो सकता है।"
+      },
+      {
+        "question": "क्या मुझे मूल फ़ाइल रखनी चाहिए?",
+        "answer": "हाँ, बैकअप के रूप में हमेशा मूल फ़ाइल रखें।"
+      }
+    ]
+  },
+  "encrypt-pdf": {
+    "title": "PDF एन्क्रिप्ट करें",
+    "metaDescription": "PDF फ़ाइलों को पासवर्ड से सुरक्षित करें। एन्क्रिप्शन जोड़ें और अनुमतियाँ सेट करें।",
+    "keywords": [
+      "encrypt pdf",
+      "password protect pdf",
+      "secure pdf",
+      "pdf encryption"
+    ],
+    "description": "\n      <p>Encrypt PDF आपके PDF दस्तावेज़ों में पासवर्ड सुरक्षा और एन्क्रिप्शन जोड़ता है। फ़ाइल खोलने से रोकने के लिए यूज़र पासवर्ड और प्रिंटिंग तथा कॉपी करने जैसी अनुमतियों को नियंत्रित करने के लिए ओनर पासवर्ड सेट करें।</p>\n      <p>विभिन्न सुरक्षा आवश्यकताओं के लिए अलग-अलग एन्क्रिप्शन स्तरों (128-bit या 256-bit AES) में से चुनें।</p>\n      <p>सभी एन्क्रिप्शन आपके ब्राउज़र में होता है, जिससे यह सुनिश्चित होता है कि आपके पासवर्ड और दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल खींचें और छोड़ें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "पासवर्ड सेट करें",
+        "description": "यूज़र पासवर्ड और/या ओनर पासवर्ड दर्ज करें। अनुमतियाँ कॉन्फ़िगर करें।"
+      },
+      {
+        "step": 3,
+        "title": "एनक्रिप्ट और डाउनलोड करें",
+        "description": "अपनी PDF को सुरक्षित करने और डाउनलोड करने के लिए Encrypt पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "गोपनीय दस्तावेज़",
+        "description": "संवेदनशील व्यावसायिक दस्तावेज़ों को सुरक्षित करें।",
+        "icon": "lock"
+      },
+      {
+        "title": "व्यक्तिगत फ़ाइलें",
+        "description": "टैक्स रिटर्न जैसे व्यक्तिगत दस्तावेज़ों को सुरक्षित करें।",
+        "icon": "shield"
+      },
+      {
+        "title": "नियंत्रित वितरण",
+        "description": "प्राप्तकर्ता दस्तावेज़ों के साथ क्या कर सकते हैं, इसे सीमित करें।",
+        "icon": "key"
+      }
+    ],
+    "faq": [
+      {
+        "question": "यूज़र और ओनर पासवर्ड के बीच क्या अंतर है?",
+        "answer": "यूज़र पासवर्ड खोलने से रोकता है; ओनर पासवर्ड अनुमतियों को नियंत्रित करता है।"
+      },
+      {
+        "question": "किस एन्क्रिप्शन का उपयोग किया जाता है?",
+        "answer": "128-bit या 256-bit AES एन्क्रिप्शन विकल्प उपलब्ध हैं।"
+      },
+      {
+        "question": "क्या मैं यूज़र पासवर्ड के बिना अनुमतियाँ सेट कर सकता हूँ?",
+        "answer": "हाँ, आप केवल अनुमतियों को नियंत्रित करने के लिए ओनर पासवर्ड सेट कर सकते हैं।"
+      }
+    ]
+  },
+  "sanitize-pdf": {
+    "title": "PDF सैनिटाइज़ करें",
+    "metaDescription": "PDF से छिपा हुआ डेटा हटाएँ। मेटाडेटा, स्क्रिप्ट और संवेदनशील जानकारी साफ़ करें।",
+    "keywords": [
+      "sanitize pdf",
+      "clean pdf",
+      "remove hidden data",
+      "pdf privacy"
+    ],
+    "description": "\n      <p>Sanitize PDF आपके दस्तावेज़ों से छिपा हुआ डेटा और संभावित संवेदनशील जानकारी हटाता है। मेटाडेटा, एम्बेडेड स्क्रिप्ट, अटैचमेंट, टिप्पणियाँ और अन्य छिपी हुई सामग्री को हटाएँ।</p>\n      <p>सार्वजनिक वितरण के लिए दस्तावेज़ तैयार करने या गोपनीयता की चिंता होने पर यह आवश्यक है।</p>\n      <p>सभी सैनिटाइजेशन प्रक्रिया आपके ब्राउज़र में होती है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल खींचें और छोड़ें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "चुनें कि क्या हटाना है",
+        "description": "चुनें कि किस प्रकार के छिपे हुए डेटा को हटाना है।"
+      },
+      {
+        "step": 3,
+        "title": "सैनिटाइज़ और डाउनलोड करें",
+        "description": "PDF को साफ़ करने और डाउनलोड करने के लिए Sanitize पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "सार्वजनिक रिलीज़",
+        "description": "सार्वजनिक वितरण के लिए दस्तावेज़ तैयार करें।",
+        "icon": "globe"
+      },
+      {
+        "title": "गोपनीयता सुरक्षा",
+        "description": "साझा करने से पहले व्यक्तिगत जानकारी हटाएँ।",
+        "icon": "shield"
+      },
+      {
+        "title": "सुरक्षा अनुपालन",
+        "description": "दस्तावेज़ प्रबंधन के लिए सुरक्षा आवश्यकताओं को पूरा करें।",
+        "icon": "check-circle"
+      }
+    ],
+    "faq": [
+      {
+        "question": "कौन सा छिपा हुआ डेटा हटाया जाता है?",
+        "answer": "मेटाडेटा, स्क्रिप्ट्स, अटैचमेंट्स, कमेंट्स, फ़ॉर्म डेटा और छिपी हुई परतें।"
+      },
+      {
+        "question": "क्या दृश्य सामग्री प्रभावित होगी?",
+        "answer": "नहीं, केवल छिपा हुआ डेटा हटाया जाता है; दृश्य सामग्री बनी रहती है।"
+      },
+      {
+        "question": "क्या इसे वापस पहले जैसा किया जा सकता है?",
+        "answer": "नहीं, हटाया गया डेटा पुनर्प्राप्त नहीं किया जा सकता है। मूल फ़ाइल का बैकअप रखें।"
+      }
+    ]
+  },
+  "find-and-redact": {
+    "title": "ढूंढें और रेडैक्ट करें",
+    "metaDescription": "PDF के सभी पृष्ठों में टेक्स्ट खोजें और रेडैक्ट करें। खाता संख्या, नाम और बहुत कुछ जैसी संवेदनशील जानकारी को एक साथ रेडैक्ट करें।",
+    "keywords": [
+      "redact pdf",
+      "find and redact",
+      "batch redact",
+      "remove text",
+      "pdf censorship",
+      "hide sensitive data"
+    ],
+    "description": "\n      <p>Find and Redact आपको अपने PDF के सभी पृष्ठों में विशिष्ट टेक्स्ट, नंबर या पैटर्न खोजने और सभी मेल खाने वाले परिणामों को एक बार में रेडैक्ट करने की अनुमति देता है। खाता संख्या, नाम, पते या किसी भी गोपनीय डेटा जैसी संवेदनशील जानकारी को हटाने के लिए बिल्कुल सही।</p>\n      <p>रेडैक्शन लागू करने से पहले सभी परिणामों का पूर्वावलोकन करें, और चुनें कि किन परिणामों को रेडैक्ट करना है। उन्नत पैटर्न मिलान के लिए केस-संवेदी खोज, पूरे शब्द मिलान और regular expressions का समर्थन करता है।</p>\n      <p>सभी प्रोसेसिंग आपके ब्राउज़र में होती है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी और सुरक्षित रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल खींचें और छोड़ें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "टेक्स्ट खोजें",
+        "description": "वह टेक्स्ट, नंबर या regex पैटर्न दर्ज करें जिसे आप ढूंढना और रेडैक्ट करना चाहते हैं।"
+      },
+      {
+        "step": 3,
+        "title": "समीक्षा करें और चुनें",
+        "description": "सभी परिणामों का पूर्वावलोकन करें और चुनें कि किसे रेडैक्ट करना है।"
+      },
+      {
+        "step": 4,
+        "title": "रेडैक्शन लागू करें",
+        "description": "रेडैक्शन का रूप अनुकूलित करें और चयनित परिणामों पर लागू करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "गोपनीयता अनुपालन",
+        "description": "GDPR, HIPAA या अन्य नियमों का पालन करने के लिए व्यक्तिगत जानकारी को रेडैक्ट करें।",
+        "icon": "shield"
+      },
+      {
+        "title": "कानूनी दस्तावेज़",
+        "description": "साझा करने से पहले कानूनी दस्तावेज़ों से गोपनीय डेटा हटाएं।",
+        "icon": "scale"
+      },
+      {
+        "title": "वित्तीय रिकॉर्ड",
+        "description": "विवरणों से खाता संख्या, SSNs, या वित्तीय डेटा रेडैक्ट करें।",
+        "icon": "credit-card"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या रेडैक्शन स्थायी है?",
+        "answer": "हां, रेडैक्शन मूल टेक्स्ट को स्थायी रूप से हटा देता है। मूल सामग्री को पुनर्प्राप्त नहीं किया जा सकता है। हमेशा मूल फ़ाइल का बैकअप रखें।"
+      },
+      {
+        "question": "क्या मैं छवियों या स्कैन किए गए टेक्स्ट को रेडैक्ट कर सकता हूं?",
+        "answer": "यह टूल टेक्स्ट-आधारित PDFs के साथ काम करता है। स्कैन किए गए दस्तावेज़ों के लिए, आपको मैन्युअल क्षेत्र-आधारित रेडैक्शन का उपयोग करना होगा।"
+      },
+      {
+        "question": "क्या मैं रेडैक्शन के स्वरूप को अनुकूलित कर सकता हूं?",
+        "answer": "हां, आप रेडैक्शन का रंग सेट कर सकते हैं, बॉर्डर जोड़ सकते हैं, और वैकल्पिक रूप से \"[REDACTED]\" जैसा प्रतिस्थापन टेक्स्ट शामिल कर सकते हैं।"
+      },
+      {
+        "question": "regex खोज कैसे काम करती है?",
+        "answer": "regex पैटर्न का उपयोग करके खोजने के लिए \"Use Regular Expression\" सक्षम करें। उदाहरण के लिए, क्रेडिट कार्ड नंबर खोजने के लिए \\d{4}-\\d{4}-\\d{4}-\\d{4}।"
+      }
+    ]
+  },
+  "decrypt-pdf": {
+    "title": "PDF डिक्रिप्ट करें",
+    "metaDescription": "PDF फ़ाइलों से पासवर्ड हटाएं। पासवर्ड से सुरक्षित दस्तावेज़ों को अनलॉक करें।",
+    "keywords": [
+      "decrypt pdf",
+      "remove pdf password",
+      "unlock pdf",
+      "pdf password remover"
+    ],
+    "description": "\n      <p>Decrypt PDF फ़ाइलों से पासवर्ड सुरक्षा हटाता है। फ़ाइल को अनलॉक करने और एक असुरक्षित प्रति बनाने के लिए वर्तमान पासवर्ड दर्ज करें।</p>\n      <p>इस टूल के लिए आपको वर्तमान पासवर्ड पता होना चाहिए। यह अज्ञात पासवर्ड को क्रैक या बायपास नहीं कर सकता है।</p>\n      <p>सभी डिक्रिप्शन आपके ब्राउज़र में होता है, जिससे यह सुनिश्चित होता है कि आपके पासवर्ड और दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "सुरक्षित PDF अपलोड करें",
+        "description": "अपने पासवर्ड से सुरक्षित PDF को ड्रैग और ड्रॉप करें।"
+      },
+      {
+        "step": 2,
+        "title": "पासवर्ड दर्ज करें",
+        "description": "वर्तमान दस्तावेज़ पासवर्ड दर्ज करें।"
+      },
+      {
+        "step": 3,
+        "title": "डिक्रिप्ट करें और डाउनलोड करें",
+        "description": "सुरक्षा हटाने और डाउनलोड करने के लिए डिक्रिप्ट पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "पुराने पासवर्ड हटाएं",
+        "description": "पासवर्ड की आवश्यकता न होने पर दस्तावेज़ों को अनलॉक करें।",
+        "icon": "unlock"
+      },
+      {
+        "title": "पहुँच सरल बनाएं",
+        "description": "आसानी से साझा करने के लिए असुरक्षित प्रतियां बनाएं।",
+        "icon": "share-2"
+      },
+      {
+        "title": "दस्तावेज़ आर्काइव करें",
+        "description": "दीर्घकालिक आर्काइविंग से पहले पासवर्ड हटाएं।",
+        "icon": "archive"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या यह अज्ञात पासवर्ड क्रैक कर सकता है?",
+        "answer": "नहीं, डिक्रिप्ट करने के लिए आपको वर्तमान पासवर्ड पता होना चाहिए।"
+      },
+      {
+        "question": "क्या मूल फ़ाइल संशोधित होती है?",
+        "answer": "नहीं, एक नई असुरक्षित प्रति बनाई जाती है।"
+      },
+      {
+        "question": "क्या होगा यदि मैं पासवर्ड भूल जाऊं?",
+        "answer": "दुर्भाग्य से, हम भूले हुए पासवर्ड को पुनर्प्राप्त नहीं कर सकते हैं।"
+      }
+    ]
+  },
+  "flatten-pdf": {
+    "title": "PDF फ्लैट करें",
+    "metaDescription": "PDF फॉर्म और एनोटेशन को फ़्लैट करें। सामग्री को गैर-संपादन योग्य बनाएं।",
+    "keywords": [
+      "flatten pdf",
+      "flatten forms",
+      "flatten annotations",
+      "non-editable pdf"
+    ],
+    "description": "\n      <p>फ़्लैटन PDF फॉर्म फ़ील्ड और एनोटेशन जैसे इंटरैक्टिव तत्वों को static कंटेंट में बदल देता है। फ़्लैट किया गया PDF दिखने में वैसा ही रहता है लेकिन इसे अब संपादित नहीं किया जा सकता।</p>\n      <p>भरे गए फॉर्म को अंतिम रूप देने, एनोटेशन को सुरक्षित रखने या गैर-संपादन योग्य दस्तावेज़ संस्करण बनाने के लिए बिल्कुल सही।</p>\n      <p>सभी प्रोसेसिंग आपके ब्राउज़र में होती है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "फॉर्म या एनोटेशन वाले अपने PDF को ड्रैग और ड्रॉप करें।"
+      },
+      {
+        "step": 2,
+        "title": "चुनें कि क्या फ़्लैट करना है",
+        "description": "फॉर्म, एनोटेशन या दोनों को फ़्लैट करने का विकल्प चुनें।"
+      },
+      {
+        "step": 3,
+        "title": "फ़्लैट करें और डाउनलोड करें",
+        "description": "static PDF बनाने के लिए फ़्लैट पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "फॉर्म को अंतिम रूप दें",
+        "description": "बदलावों को रोकने के लिए भरे गए फॉर्म डेटा को लॉक करें।",
+        "icon": "lock"
+      },
+      {
+        "title": "एनोटेशन सुरक्षित रखें",
+        "description": "दस्तावेज़ में एनोटेशन को स्थायी बनाएं।",
+        "icon": "check-circle"
+      },
+      {
+        "title": "दस्तावेज़ आर्काइव करें",
+        "description": "आर्काइविंग के लिए गैर-संपादन योग्य संस्करण बनाएं।",
+        "icon": "archive"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या फ़्लैटनिंग को वापस बदला जा सकता है?",
+        "answer": "नहीं, फ़्लैटनिंग स्थायी है। मूल फ़ाइल का बैकअप रखें।"
+      },
+      {
+        "question": "क्या इसका रूप-रंग बदल जाएगा?",
+        "answer": "नहीं, दस्तावेज़ दिखने में समान रहता है लेकिन अब इंटरैक्टिव नहीं रहता।"
+      },
+      {
+        "question": "क्या यह फ़ाइल का आकार कम करता है?",
+        "answer": "कभी-कभी, क्योंकि इंटरैक्टिव तत्वों को सरल कंटेंट में परिवर्तित किया जाता है।"
+      }
+    ]
+  },
+  "remove-metadata": {
+    "title": "Metadata हटाएं",
+    "metaDescription": "PDF फ़ाइलों से मेटाडेटा हटाएं। लेखक, तिथियां और दस्तावेज़ गुण हटाएं।",
+    "keywords": [
+      "remove pdf metadata",
+      "strip metadata",
+      "pdf privacy",
+      "anonymous pdf"
+    ],
+    "description": "\n      <p>मेटाडेटा हटाएं आपकी PDF फ़ाइलों से सभी दस्तावेज़ गुणों और मेटाडेटा को हटा देता है। लेखक के नाम, निर्माण तिथियां, सॉफ़्टवेयर जानकारी और अन्य पहचान डेटा हटाएं।</p>\n      <p>दस्तावेज़ साझा करते समय या जब मेटाडेटा संवेदनशील जानकारी को उजागर कर सकता है, तो गोपनीयता के लिए आवश्यक है।</p>\n      <p>सभी प्रोसेसिंग आपके ब्राउज़र में होती है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल खींचें और छोड़ें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "Metadata हटाएं",
+        "description": "सभी मेटाडेटा हटाने के लिए 'हटाएं' पर क्लिक करें।"
+      },
+      {
+        "step": 3,
+        "title": "डाउनलोड करें",
+        "description": "मेटाडेटा-रहित PDF डाउनलोड करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "गोपनीयता सुरक्षा",
+        "description": "साझा करने से पहले व्यक्तिगत जानकारी हटाएँ।",
+        "icon": "shield"
+      },
+      {
+        "title": "अनाम दस्तावेज़",
+        "description": "लेखक के श्रेय के बिना दस्तावेज़ बनाएं।",
+        "icon": "user-x"
+      },
+      {
+        "title": "साफ़ वितरण",
+        "description": "आंतरिक मेटाडेटा के बिना दस्तावेज़ वितरित करें।",
+        "icon": "send"
+      }
+    ],
+    "faq": [
+      {
+        "question": "कौन सा मेटाडेटा हटाया जाता है?",
+        "answer": "लेखक, शीर्षक, विषय, कीवर्ड, तिथियां, निर्माता और उत्पादक की जानकारी।"
+      },
+      {
+        "question": "क्या XMP मेटाडेटा हटाया जाता है?",
+        "answer": "हां, मानक और XMP दोनों मेटाडेटा हटा दिए जाते हैं।"
+      },
+      {
+        "question": "क्या सामग्री प्रभावित होगी?",
+        "answer": "नहीं, केवल मेटाडेटा हटाया जाता है; दस्तावेज़ की सामग्री अपरिवर्तित रहती है।"
+      }
+    ]
+  },
+  "change-permissions": {
+    "title": "अनुमतियां बदलें",
+    "metaDescription": "PDF अनुमतियों को संशोधित करें। प्रिंटिंग, कॉपी करने और संपादन पहुँच को नियंत्रित करें।",
+    "keywords": [
+      "pdf permissions",
+      "change pdf access",
+      "restrict pdf",
+      "pdf security"
+    ],
+    "description": "\n      <p>अनुमतियां बदलें आपके PDF दस्तावेज़ों पर एक्सेस कंट्रोल को संशोधित करता है। प्रिंटिंग, कॉपी, संपादन और एनोटेशन अनुमतियों को सक्षम या अक्षम करें।</p>\n      <p>इन प्रतिबंधों को लागू करने के लिए एक मालिक पासवर्ड सेट करें। प्राप्तकर्ता दस्तावेज़ देख सकते हैं लेकिन वे जो कार्य कर सकते हैं उनमें सीमित हैं।</p>\n      <p>सभी प्रोसेसिंग आपके ब्राउज़र में होती है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल खींचें और छोड़ें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "अनुमतियां सेट करें",
+        "description": "प्रिंटिंग, कॉपी करने, संपादन और एनोटेशन को सक्षम या अक्षम करें।"
+      },
+      {
+        "step": 3,
+        "title": "लागू करें और डाउनलोड करें",
+        "description": "मालिक पासवर्ड सेट करें और प्रतिबंधित PDF डाउनलोड करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "कॉपी करने से रोकें",
+        "description": "सामग्री की सुरक्षा के लिए टेक्स्ट कॉपी करना अक्षम करें।",
+        "icon": "copy"
+      },
+      {
+        "title": "प्रिंटिंग नियंत्रित करें",
+        "description": "दस्तावेज़ प्रिंटिंग को प्रतिबंधित या अनुमति दें।",
+        "icon": "printer"
+      },
+      {
+        "title": "संपादन सीमित करें",
+        "description": "दस्तावेज़ में संशोधनों को रोकें।",
+        "icon": "edit-3"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या मुझे पासवर्ड की आवश्यकता है?",
+        "answer": "अनुमतियां लागू करने के लिए मालिक पासवर्ड की आवश्यकता होती है।"
+      },
+      {
+        "question": "क्या अनुमतियां हटाई जा सकती हैं?",
+        "answer": "हां, मालिक पासवर्ड के साथ या प्रतिबंध हटाएं (Remove Restrictions) टूल का उपयोग करके।"
+      },
+      {
+        "question": "क्या सभी PDF रीडर संगत हैं?",
+        "answer": "अधिकांश PDF रीडर अनुमतियों का सम्मान करते हैं, लेकिन कुछ उन्हें लागू नहीं कर सकते हैं।"
+      }
+    ]
+  },
+  "pdf-to-docx": {
+    "title": "PDF से Word",
+    "metaDescription": "PDF को संपादन योग्य Word (DOCX) दस्तावेज़ों में बदलें। फॉर्मेटिंग और लेआउट सुरक्षित रखें।",
+    "keywords": [
+      "pdf to word",
+      "convert pdf to docx",
+      "pdf to doc",
+      "editable pdf"
+    ],
+    "description": "\n      <p>PDF to Word आपके PDF दस्तावेज़ों को संपादन योग्य Microsoft Word (DOCX) फ़ाइलों में परिवर्तित करता है। यह टूल मूल लेआउट, फ़ॉर्मेटिंग, छवियों और टेक्स्ट फ़्लो को सुरक्षित रखता है।</p>\n      <p>बिना दोबारा टाइप किए Word में अपनी PDF सामग्री को आसानी से संपादित करें। अनुबंधों, रिपोर्टों और रेज़्युमे के लिए बिल्कुल सही।</p>\n      <p>सभी रूपांतरण WebAssembly तकनीक का उपयोग करके स्थानीय रूप से आपके ब्राउज़र में होते हैं, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ आपके डिवाइस से कभी बाहर न जाएं।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल खींचें और छोड़ें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "कन्वर्ट करें",
+        "description": "रूपांतरण प्रक्रिया पूरी होने की प्रतीक्षा करें।"
+      },
+      {
+        "step": 3,
+        "title": "Word Doc डाउनलोड करें",
+        "description": "अपनी पूरी तरह से संपादन योग्य DOCX फ़ाइल डाउनलोड करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "अनुबंध संपादित करें",
+        "description": "संपादन और संशोधन के लिए PDF अनुबंधों को Word में परिवर्तित करें।",
+        "icon": "file-text"
+      },
+      {
+        "title": "रेज़्युमे अपडेट",
+        "description": "पुराने PDF रेज़्युमे को Word में परिवर्तित करके अपडेट करें।",
+        "icon": "user"
+      },
+      {
+        "title": "सामग्री का पुनः उपयोग",
+        "description": "अन्य दस्तावेज़ों के लिए PDF रिपोर्ट से सामग्री निकालें।",
+        "icon": "copy"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या फ़ॉर्मेटिंग सुरक्षित रहती है?",
+        "answer": "हां, यह टूल लेआउट, फ़ॉन्ट और छवियों को यथासंभव सुरक्षित रखने का प्रयास करता है।"
+      },
+      {
+        "question": "क्या मैं स्कैन किए गए PDF को परिवर्तित कर सकता हूं?",
+        "answer": "जब तक आप पहले OCR का उपयोग नहीं करते, स्कैन किए गए PDF Word में छवियों के रूप में परिवर्तित किए जाएंगे।"
+      },
+      {
+        "question": "क्या यह Word के साथ संगत है?",
+        "answer": "हां, आउटपुट एक मानक .docx फ़ाइल है जो Microsoft Word और Google Docs के साथ संगत है।"
+      }
+    ]
+  },
+  "pdf-to-markdown": {
+    "title": "PDF to Markdown",
+    "metaDescription": "PDF को Markdown फ़ॉर्मेट में परिवर्तित करें। टेक्स्ट निकालें और हेडिंग और सूचियों जैसी फ़ॉर्मेटिंग को सुरक्षित रखें।",
+    "keywords": [
+      "pdf to markdown",
+      "convert pdf to md",
+      "pdf text extraction",
+      "markdown converter",
+      "pdf to text"
+    ],
+    "description": "\n      <p>PDF to Markdown आपके PDF दस्तावेज़ों को साफ़, सुव्यवस्थित Markdown फ़ाइलों में परिवर्तित करता है। यह टूल बुद्धिमानी से टेक्स्ट सामग्री को निकालता है और हेडिंग, सूचियों और पैराग्राफ जैसी फ़ॉर्मेटिंग को बनाए रखने का प्रयास करता है।</p>\n      <p>PDF दस्तावेज़ों को डॉक्युमेंटेशन, नोट-टेकिंग, या Markdown का समर्थन करने वाले कंटेंट मैनेजमेंट सिस्टम के लिए संपादन योग्य फ़ॉर्मेट में बदलने के लिए बिल्कुल सही।</p>\n      <p>सभी रूपांतरण स्थानीय रूप से आपके ब्राउज़र में होते हैं, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी और सुरक्षित रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल खींचें और छोड़ें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "ऑप्शंस कॉन्फ़िगर करें",
+        "description": "पेज रेंज सेट करें, पेज नंबर शामिल करने का विकल्प चुनें, और लाइन ब्रेक सेटिंग्स समायोजित करें।"
+      },
+      {
+        "step": 3,
+        "title": "कन्वर्ट करें और डाउनलोड करें",
+        "description": "अपनी Markdown फ़ाइल जनरेट करने और डाउनलोड करने के लिए Convert पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "दस्तावेज़ीकरण",
+        "description": "संस्करण-नियंत्रित डॉक्युमेंटेशन के लिए PDF मैनुअल और गाइड को Markdown में परिवर्तित करें।",
+        "icon": "file-text"
+      },
+      {
+        "title": "नोट्स बनाना",
+        "description": "अपने नोट्स लेने की प्रणाली के लिए PDF लेखों और पुस्तकों से सामग्री निकालें।",
+        "icon": "edit-3"
+      },
+      {
+        "title": "कंटेंट माइग्रेशन",
+        "description": "Markdown का समर्थन करने वाले CMS प्लेटफॉर्म पर PDF सामग्री माइग्रेट करें।",
+        "icon": "copy"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या फ़ॉर्मेटिंग सुरक्षित रहती है?",
+        "answer": "यह टूल फ़ॉन्ट आकार और बुलेट पॉइंट/क्रमांकित सूचियों के आधार पर हेडिंग का पता लगाने का प्रयास करता है। जटिल लेआउट में मैन्युअल समायोजन की आवश्यकता हो सकती है।"
+      },
+      {
+        "question": "क्या मैं विशिष्ट पृष्ठों को परिवर्तित कर सकता हूं?",
+        "answer": "हां, केवल उन पृष्ठों को परिवर्तित करने के लिए आप \"1-3, 5, 7\" जैसी पेज रेंज निर्दिष्ट कर सकते हैं।"
+      },
+      {
+        "question": "क्या यह स्कैन किए गए PDF के साथ काम करता है?",
+        "answer": "स्कैन किए गए PDF में चित्र होते हैं, टेक्स्ट नहीं। Markdown में बदलने से पहले टेक्स्ट निकालने के लिए हमारे OCR टूल का उपयोग करें।"
+      }
+    ]
+  },
+  "deskew-pdf": {
+    "title": "Deskew PDF",
+    "metaDescription": "स्कैन किए गए या तिरछे PDF पृष्ठों को स्वचालित रूप से सीधा करें। सटीक कोण पहचान के साथ तिरछे दस्तावेज़ों को ठीक करें।",
+    "keywords": [
+      "deskew pdf",
+      "straighten pdf",
+      "fix tilted scan",
+      "auto rotate pdf",
+      "correct pdf angle"
+    ],
+    "description": "\n      <p>Deskew PDF उन्नत प्रोजेक्शन प्रोफाइल वेरिएंस विश्लेषण का उपयोग करके आपके PDF दस्तावेज़ों में तिरछे या झुके हुए पृष्ठों का स्वचालित रूप से पता लगाता है और उन्हें ठीक करता है। यह उन स्कैन किए गए दस्तावेज़ों के लिए आवश्यक है जिन्हें स्कैनर में किसी कोण पर डाला गया था।</p>\n      <p>यह टूल इष्टतम रोटेशन खोजने के लिए विभिन्न कोणों पर टेक्स्ट और सामग्री संरेखण का विश्लेषण करता है, फिर सुधार लागू करता है। आप इष्टतम परिणामों के लिए संवेदनशीलता सीमा (1-30) और DPI सेटिंग्स (72-300) समायोजित कर सकते हैं।</p>\n      <p>सभी प्रोसेसिंग WebAssembly तकनीक का उपयोग करके स्थानीय रूप से आपके ब्राउज़र में होती है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी और सुरक्षित रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी स्कैन की गई PDF फ़ाइल को ड्रैग और ड्रॉप करें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "सेटिंग्स कॉन्फ़िगर करें",
+        "description": "बेहतर पहचान के लिए यदि आवश्यक हो तो थ्रेशोल्ड संवेदनशीलता और DPI समायोजित करें।"
+      },
+      {
+        "step": 3,
+        "title": "प्रोसेस करें और डाउनलोड करें",
+        "description": "पृष्ठों को सीधा करने और संशोधित PDF डाउनलोड करने के लिए Deskew पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "स्कैन किए गए दस्तावेज़",
+        "description": "दस्तावेज़ फीडर से किसी कोण पर स्कैन किए गए पृष्ठों को ठीक करें।",
+        "icon": "scan"
+      },
+      {
+        "title": "मोबाइल स्कैन",
+        "description": "स्मार्टफोन से ली गई दस्तावेज़ों की तिरछी तस्वीरों को ठीक करें।",
+        "icon": "smartphone"
+      },
+      {
+        "title": "आर्काइव पुनर्प्राप्ति",
+        "description": "बेहतर पठनीयता के लिए पुराने स्कैन किए गए आर्काइव को सीधा करें।",
+        "icon": "archive"
+      }
+    ],
+    "faq": [
+      {
+        "question": "कोण का पता लगाना कितना सटीक है?",
+        "answer": "यह टूल उच्च सटीकता के साथ ±10 डिग्री तक तिरछे कोणों का पता लगाने के लिए प्रोजेक्शन प्रोफाइल वेरिएंस विश्लेषण का उपयोग करता है। यह स्वचालित रूप से 0.3 डिग्री से कम कोण वाले पृष्ठों को छोड़ देता है।"
+      },
+      {
+        "question": "क्या टेक्स्ट की गुणवत्ता प्रभावित होगी?",
+        "answer": "90 डिग्री के गुणकों पर रोटेशन के लिए, गुणवत्ता में कोई कमी नहीं आती है। अन्य कोणों के लिए, टूल निकटतम डिग्री पर राउंड करता है और अच्छी गुणवत्ता बनाए रखता है।"
+      },
+      {
+        "question": "क्या मैं केवल विशिष्ट पृष्ठों को Deskew कर सकता हूं?",
+        "answer": "टूल सभी पृष्ठों का विश्लेषण करता है लेकिन केवल उन्हीं पृष्ठों को ठीक करता है जिनका तिरछापन संवेदनशीलता सीमा से अधिक पाया जाता है। न्यूनतम तिरछेपन वाले पृष्ठों को अपरिवर्तित छोड़ दिया जाता है।"
+      },
+      {
+        "question": "संवेदनशीलता सीमा (sensitivity threshold) क्या है?",
+        "answer": "1-10 मान केवल स्पष्ट झुकाव को ठीक करते हैं, 11-20 मध्यम तिरछेपन का पता लगाते हैं, और 21-30 बारीक कोणों को पकड़ते हैं। संतुलित पहचान के लिए डिफ़ॉल्ट 10 है।"
+      },
+      {
+        "question": "प्रोसेसिंग में कितना समय लगता है?",
+        "answer": "प्रोसेसिंग का समय फ़ाइल के आकार और DPI पर निर्भर करता है। 150 DPI (डिफ़ॉल्ट) गति और सटीकता के बीच एक अच्छा संतुलन प्रदान करता है। उच्च DPI अधिक सटीक होता है लेकिन धीमा होता है।"
+      }
+    ]
+  },
+  "pdf-booklet": {
+    "title": "PDF Booklet Creator",
+    "metaDescription": "प्रिंटिंग के लिए PDF से बुकलेट लेआउट बनाएं। कई ग्रिड विकल्पों के साथ सैडल-स्टिच बाइंडिंग के लिए पृष्ठों को व्यवस्थित करें।",
+    "keywords": [
+      "pdf booklet",
+      "booklet creator",
+      "print booklet",
+      "saddle stitch",
+      "imposition"
+    ],
+    "description": "\n      <p>PDF Booklet Creator आपके PDF पृष्ठों को प्रिंट-और-फोल्ड उत्पादन के लिए तैयार बुकलेट लेआउट में व्यवस्थित करता है। ब्रोशर, ज़ीन, बुकलेट और सैडल-स्टिच प्रकाशन बनाने के लिए बिल्कुल सही।</p>\n      <p>विभिन्न ग्रिड मोड (1x2, 2x2, 2x4, 4x4), पेपर साइज़ और ओरिएंटेशन विकल्पों में से चुनें। यह टूल सही फोल्डिंग अनुक्रम के लिए पेज इम्पोजिशन को स्वचालित रूप से संभालता है।</p>\n      <p>सभी प्रोसेसिंग आपके ब्राउज़र में स्थानीय रूप से होती है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "वह PDF दस्तावेज़ अपलोड करें जिसे आप बुकलेट में बदलना चाहते हैं।"
+      },
+      {
+        "step": 2,
+        "title": "लेआउट चुनें",
+        "description": "ग्रिड मोड, पेपर साइज़, ओरिएंटेशन और रोटेशन विकल्प चुनें।"
+      },
+      {
+        "step": 3,
+        "title": "बनाएं और डाउनलोड करें",
+        "description": "बुकलेट लेआउट जेनरेट करें और प्रिंटिंग के लिए डाउनलोड करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "ब्रोशर",
+        "description": "मानक PDF दस्तावेज़ों से फोल्ड करने के लिए तैयार ब्रोशर बनाएं।",
+        "icon": "book-open"
+      },
+      {
+        "title": "ज़ीन",
+        "description": "उचित पेज इम्पोजिशन के साथ स्व-प्रकाशित ज़ीन बनाएं।",
+        "icon": "book"
+      },
+      {
+        "title": "इवेंट प्रोग्राम",
+        "description": "कार्यक्रमों के लिए पेशेवर प्रोग्राम बुकलेट बनाएं।",
+        "icon": "calendar"
+      }
+    ],
+    "faq": [
+      {
+        "question": "सैडल-स्टिच बाइंडिंग क्या है?",
+        "answer": "सैडल-स्टिच बाइंडिंग की एक ऐसी विधि है जिसमें मोड़े गए पन्नों को एक साथ रखकर मोड़ के बीच में से स्टैपल किया जाता है।"
+      },
+      {
+        "question": "मुझे किस ग्रिड मोड का उपयोग करना चाहिए?",
+        "answer": "बुकलेट के लिए 1x2 मानक है। कागज़ बचाने के लिए मल्टी-अप प्रिंटिंग हेतु 2x2 या उससे बड़े का उपयोग करें।"
+      },
+      {
+        "question": "क्या मैं लेआउट का प्रीव्यू देख सकता हूँ?",
+        "answer": "हाँ, यह टूल अंतिम बुकलेट जेनरेट करने से पहले एक विजुअल प्रीव्यू प्रदान करता है।"
+      }
+    ]
+  },
+  "rasterize-pdf": {
+    "title": "Rasterize PDF",
+    "metaDescription": "PDF पृष्ठों को उच्च-गुणवत्ता वाली छवियों में बदलें। कस्टम DPI सेटिंग्स के साथ PNG, JPEG, या WebP के रूप में एक्सपोर्ट करें।",
+    "keywords": [
+      "rasterize pdf",
+      "pdf to image",
+      "pdf to png",
+      "pdf to jpeg",
+      "convert pdf pages"
+    ],
+    "description": "\n      <p>Rasterize PDF आपके PDF पृष्ठों को उच्च-गुणवत्ता वाली रास्टर छवियों में परिवर्तित करता है। DPI और गुणवत्ता सेटिंग्स पर पूर्ण नियंत्रण के साथ PNG, JPEG, या WebP आउटपुट स्वरूपों में से चुनें।</p>\n      <p>थंबनेल, सोशल मीडिया ग्राफिक्स बनाने, या छवियों के रूप में PDF सामग्री को आर्काइव करने के लिए बिल्कुल सही। पृष्ठ सीमा चयन और बैच प्रोसेसिंग का समर्थन करता है।</p>\n      <p>सभी प्रोसेसिंग आपके ब्राउज़र में स्थानीय रूप से होती है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "अपनी PDF फ़ाइल खींचें और छोड़ें या चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "आउटपुट कॉन्फ़िगर करें",
+        "description": "DPI, आउटपुट फ़ॉर्मेट (PNG/JPEG/WebP), गुणवत्ता और पेज रेंज चुनें।"
+      },
+      {
+        "step": 3,
+        "title": "कन्वर्ट करें और डाउनलोड करें",
+        "description": "पृष्ठों को प्रोसेस करें और छवियों को व्यक्तिगत रूप से या ZIP आर्काइव के रूप में डाउनलोड करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "सोशल मीडिया",
+        "description": "सोशल मीडिया पोस्टिंग के लिए PDF स्लाइडों को छवियों में बदलें।",
+        "icon": "share-2"
+      },
+      {
+        "title": "थंबनेल",
+        "description": "PDF दस्तावेज़ों के लिए प्रीव्यू थंबनेल बनाएं।",
+        "icon": "image"
+      },
+      {
+        "title": "वेब पब्लिशिंग",
+        "description": "PDF सामग्री को वेब-अनुकूल छवि फ़ॉर्मेट में बदलें।",
+        "icon": "globe"
+      }
+    ],
+    "faq": [
+      {
+        "question": "मुझे किस DPI का उपयोग करना चाहिए?",
+        "answer": "स्क्रीन के लिए 72 DPI, सामान्य उपयोग के लिए 150 DPI, प्रिंट गुणवत्ता के लिए 300 DPI।"
+      },
+      {
+        "question": "कौन सा फ़ॉर्मेट सबसे अच्छा है?",
+        "answer": "गुणवत्ता/पारदर्शिता के लिए PNG, छोटे आकार के लिए JPEG, आधुनिक वेब उपयोग के लिए WebP।"
+      },
+      {
+        "question": "क्या मैं विशिष्ट पृष्ठों को परिवर्तित कर सकता हूं?",
+        "answer": "हाँ, केवल उन पृष्ठों को बदलने के लिए \"1-5, 8, 10-15\" जैसी पृष्ठ सीमाएँ निर्दिष्ट करें।"
+      }
+    ]
+  },
+  "markdown-to-pdf": {
+    "title": "Markdown से PDF",
+    "metaDescription": "Markdown फ़ाइलों को सुंदर रूप से फ़ॉर्मेट किए गए PDF दस्तावेज़ों में बदलें। GitHub Flavored Markdown और सिंटैक्स हाईलाइटिंग के लिए समर्थन।",
+    "keywords": [
+      "markdown to pdf",
+      "md to pdf",
+      "convert markdown",
+      "gfm to pdf",
+      "markdown converter"
+    ],
+    "description": "\n      <p>Markdown to PDF आपकी Markdown फ़ाइलों को पेशेवर रूप से स्टाइल किए गए PDF दस्तावेज़ों में परिवर्तित करता है। तालिकाओं, कार्य सूचियों और कोड ब्लॉक सहित CommonMark और GitHub Flavored Markdown (GFM) का समर्थन करता है।</p>\n      <p>विभिन्न थीम (लाइट, डार्क, GitHub) में से चुनें और पेज साइज़ तथा मार्जिन को कस्टमाइज़ करें। बेहतर पठनीयता के लिए कोड ब्लॉक सिंटैक्स-हाईलाइट किए जाते हैं।</p>\n      <p>सभी रूपांतरण आपके ब्राउज़र में स्थानीय रूप से होते हैं, जिससे यह सुनिश्चित होता है कि आपकी सामग्री निजी रहे।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "Markdown फ़ाइल अपलोड करें",
+        "description": "अपनी .md या .markdown फ़ाइल अपलोड करें।"
+      },
+      {
+        "step": 2,
+        "title": "थीम चुनें",
+        "description": "एक विजुअल थीम चुनें और पेज सेटिंग्स कॉन्फ़िगर करें।"
+      },
+      {
+        "step": 3,
+        "title": "कन्वर्ट करें और डाउनलोड करें",
+        "description": "स्टाइल्ड PDF जेनरेट करें और डाउनलोड करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "दस्तावेज़ीकरण",
+        "description": "README फ़ाइलों और दस्तावेज़ों को साझा करने योग्य PDF में बदलें।",
+        "icon": "file-text"
+      },
+      {
+        "title": "नोट्स एक्सपोर्ट",
+        "description": "प्रिंटिंग या शेयरिंग के लिए Markdown नोट्स को PDF में एक्सपोर्ट करें।",
+        "icon": "edit-3"
+      },
+      {
+        "title": "रिपोर्ट्स",
+        "description": "पेशेवर स्टाइलिंग के साथ Markdown से रिपोर्ट बनाएं।",
+        "icon": "bar-chart"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या GitHub Flavored Markdown समर्थित है?",
+        "answer": "हाँ, तालिकाएँ, कार्य सूचियाँ, स्ट्राइकथ्रू और अन्य GFM सुविधाएँ समर्थित हैं।"
+      },
+      {
+        "question": "क्या मैं स्टाइलिंग को कस्टमाइज़ कर सकता हूँ?",
+        "answer": "प्रीसेट थीमों में से चुनें या पूर्ण नियंत्रण के लिए कस्टम CSS जोड़ें।"
+      },
+      {
+        "question": "क्या कोड ब्लॉक हाईलाइट किए जाते हैं?",
+        "answer": "हाँ, कोड ब्लॉक्स में आम भाषाओं के लिए सिंटैक्स हाईलाइटिंग शामिल है।"
+      }
+    ]
+  },
+  "email-to-pdf": {
+    "title": "Email से PDF",
+    "metaDescription": "ईमेल फ़ाइलों (.eml, .msg) को PDF दस्तावेज़ों में बदलें। फ़ॉर्मैटिंग, इनलाइन इमेज, क्लिक करने योग्य लिंक और एम्बेडेड अटैचमेंट सुरक्षित रखें।",
+    "keywords": [
+      "email to pdf",
+      "eml to pdf",
+      "msg to pdf",
+      "convert email",
+      "email converter",
+      "save email as pdf",
+      "outlook to pdf"
+    ],
+    "description": "\n      <p>Email to PDF आपकी ईमेल फ़ाइलों (.eml और .msg फ़ॉर्मेट) को सही ढंग से फ़ॉर्मैट किए गए PDF दस्तावेज़ों में बदलता है। यह टूल ईमेल हेडर जानकारी, बॉडी सामग्री, CID रिप्लेसमेंट के साथ इनलाइन इमेज, क्लिक करने योग्य लिंक को सुरक्षित रखता है और अटैचमेंट को सीधे PDF में एम्बेड करता है।</p>\n      <p>पेज साइज़ (A4, Letter, Legal), टाइमज़ोन सपोर्ट के साथ तिथि फ़ॉर्मैटिंग, और CC/BCC फ़ील्ड व अटैचमेंट जानकारी शामिल करनी है या नहीं, सहित आउटपुट विकल्पों को कस्टमाइज़ करें।</p>\n      <p>सभी रूपांतरण आपके ब्राउज़र में स्थानीय रूप से होते हैं, जिससे यह सुनिश्चित होता है कि आपके ईमेल निजी और सुरक्षित रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "ईमेल फ़ाइल अपलोड करें",
+        "description": "अपनी .eml या .msg ईमेल फ़ाइल अपलोड करें।"
+      },
+      {
+        "step": 2,
+        "title": "ऑप्शंस कॉन्फ़िगर करें",
+        "description": "पेज साइज़, तिथि फ़ॉर्मैट, टाइमज़ोन सेट करें और चुनें कि कौन से फ़ील्ड शामिल करने हैं।"
+      },
+      {
+        "step": 3,
+        "title": "कन्वर्ट करें और डाउनलोड करें",
+        "description": "एम्बेडेड अटैचमेंट के साथ PDF में बदलें और परिणाम डाउनलोड करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "कानूनी रिकॉर्ड",
+        "description": "कानूनी दस्तावेज़ीकरण के लिए महत्वपूर्ण ईमेल को एम्बेडेड अटैचमेंट के साथ PDF के रूप में आर्काइव करें।",
+        "icon": "scale"
+      },
+      {
+        "title": "व्यावसायिक आर्काइव",
+        "description": "दीर्घकालिक रिकॉर्ड रखने के लिए व्यावसायिक पत्राचार को PDF में बदलें।",
+        "icon": "briefcase"
+      },
+      {
+        "title": "साक्ष्य संरक्षण",
+        "description": "ईमेल साक्ष्य को इनलाइन इमेज और अटैचमेंट के साथ एक गैर-संपादन योग्य PDF फ़ॉर्मैट में सहेजें।",
+        "icon": "shield"
+      }
+    ],
+    "faq": [
+      {
+        "question": "कौन से ईमेल फ़ॉर्मेट समर्थित हैं?",
+        "answer": ".eml (RFC 822) और .msg (Microsoft Outlook) दोनों फ़ाइलें पूरी तरह से समर्थित हैं।"
+      },
+      {
+        "question": "क्या अटैचमेंट शामिल हैं?",
+        "answer": "हाँ! अटैचमेंट सीधे PDF फ़ाइल में एम्बेड किए जाते हैं। आप एक संगत PDF रीडर का उपयोग करके उन्हें PDF से निकाल सकते हैं।"
+      },
+      {
+        "question": "क्या इनलाइन इमेज दिखाई देती हैं?",
+        "answer": "हाँ, CID (Content-ID) के माध्यम से संदर्भित इनलाइन इमेज स्वचालित रूप से base64 डेटा URIs में परिवर्तित हो जाती हैं और PDF में प्रदर्शित होती हैं।"
+      },
+      {
+        "question": "क्या लिंक क्लिक करने योग्य हैं?",
+        "answer": "हाँ, प्लेन टेक्स्ट ईमेल में सभी HTML लिंक (<a> टैग) और URLs को PDF में क्लिक करने योग्य लिंक में बदल दिया जाता है।"
+      },
+      {
+        "question": "क्या ईमेल फ़ॉर्मैटिंग सुरक्षित रहती है?",
+        "answer": "हाँ, HTML ईमेल शैलियों, छवियों और लिंक सहित अपनी फ़ॉर्मैटिंग को जितना संभव हो सके बनाए रखते हैं।"
+      }
+    ]
+  },
+  "cbz-to-pdf": {
+    "title": "CBZ से PDF",
+    "metaDescription": "कॉमिक बुक आर्काइव (CBZ) को PDF में बदलें। डिजिटल कॉमिक्स के लिए छवि क्रम और गुणवत्ता बनाए रखें।",
+    "keywords": [
+      "cbz to pdf",
+      "comic to pdf",
+      "convert cbz",
+      "comic book converter",
+      "cbz converter"
+    ],
+    "description": "\n      <p>CBZ to PDF कॉमिक बुक आर्काइव फ़ाइलों को PDF दस्तावेज़ों में बदलता है। यह टूल CBZ आर्काइव से सभी छवियों को निकालता है और सही पढ़ने के क्रम को बनाए रखते हुए उन्हें एक PDF में संकलित करता है।</p>\n      <p>मूल छवि आयामों या मानकीकृत कॉमिक बुक आकारों सहित विभिन्न पेज आकार विकल्पों में से चुनें। उन उपकरणों पर कॉमिक्स पढ़ने के लिए बिल्कुल सही जो PDF का समर्थन करते हैं लेकिन CBZ का नहीं।</p>\n      <p>सभी रूपांतरण आपके ब्राउज़र में स्थानीय रूप से होते हैं, जिससे यह सुनिश्चित होता है कि आपकी कॉमिक्स निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "CBZ फ़ाइल अपलोड करें",
+        "description": "अपनी .cbz कॉमिक बुक आर्काइव फ़ाइल अपलोड करें।"
+      },
+      {
+        "step": 2,
+        "title": "विकल्प चुनें",
+        "description": "पेज का आकार और छवि गुणवत्ता सेटिंग्स चुनें।"
+      },
+      {
+        "step": 3,
+        "title": "कन्वर्ट करें और डाउनलोड करें",
+        "description": "PDF में बदलें और अपनी कॉमिक डाउनलोड करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "ई-रीडर संगतता",
+        "description": "केवल PDF का समर्थन करने वाले ई-रीडर्स के लिए CBZ को PDF में बदलें।",
+        "icon": "book"
+      },
+      {
+        "title": "कॉमिक आर्काइव्स",
+        "description": "अपने डिजिटल कॉमिक संग्रह के PDF आर्काइव बनाएं।",
+        "icon": "archive"
+      },
+      {
+        "title": "प्रिंट की तैयारी",
+        "description": "प्रिंटिंग के लिए डिजिटल कॉमिक्स को PDF में बदलें।",
+        "icon": "printer"
+      }
+    ],
+    "faq": [
+      {
+        "question": "CBZ फ़ॉर्मेट क्या है?",
+        "answer": "CBZ एक ZIP आर्काइव है जिसमें छवि फ़ाइलों के रूप में कॉमिक बुक पेज होते हैं, जिन्हें .cbz एक्सटेंशन के साथ नाम बदला जाता है।"
+      },
+      {
+        "question": "क्या छवि गुणवत्ता बनी रहती है?",
+        "answer": "हाँ, छवियां PDF में उनकी मूल गुणवत्ता में एम्बेड की जाती हैं।"
+      },
+      {
+        "question": "क्या नेस्टेड फ़ोल्डर समर्थित हैं?",
+        "answer": "हाँ, आर्काइव के भीतर सभी फ़ोल्डरों से छवियां निकाली जाती हैं और क्रमित की जाती हैं।"
+      }
+    ]
+  },
+  "pdf-to-pdfa": {
+    "title": "PDF से PDF/A",
+    "metaDescription": "PDF को PDF/A आर्काइवल फ़ॉर्मेट में बदलें। ISO मानकों के साथ दीर्घकालिक दस्तावेज़ संरक्षण सुनिश्चित करें।",
+    "keywords": [
+      "pdf to pdfa",
+      "pdfa converter",
+      "archive pdf",
+      "pdf archival",
+      "long term preservation"
+    ],
+    "description": "\n      <p>PDF to PDF/A आपके PDF दस्तावेज़ों को PDF/A फ़ॉर्मेट में बदलता है, जो दीर्घकालिक दस्तावेज़ आर्काइविंग के लिए ISO मानक है। PDF/A यह सुनिश्चित करता है कि दस्तावेज़ दशकों तक देखने योग्य और पुनः प्रस्तुत करने योग्य बने रहें।</p>\n      <p>PDF/A-1b (बुनियादी अनुपालन), PDF/A-2b (अनुशंसित, पारदर्शिता का समर्थन करता है), या PDF/A-3b (एम्बेडेड फ़ाइलों की अनुमति देता है) में से चुनें। टूल आवश्यकतानुसार फ़ॉन्ट एम्बेड करता है और पारदर्शिता को समतल करता है।</p>\n      <p>सभी रूपांतरण आपके ब्राउज़र में स्थानीय रूप से होते हैं, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "वह PDF अपलोड करें जिसे आप PDF/A में बदलना चाहते हैं।"
+      },
+      {
+        "step": 2,
+        "title": "PDF/A स्तर चुनें",
+        "description": "PDF/A-1b, PDF/A-2b, या PDF/A-3b अनुपालन स्तर चुनें।"
+      },
+      {
+        "step": 3,
+        "title": "कन्वर्ट करें और डाउनलोड करें",
+        "description": "PDF/A में बदलें और आर्काइवल दस्तावेज़ डाउनलोड करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "कानूनी अभिलेख",
+        "description": "अदालत में स्वीकार्य दीर्घकालिक भंडारण के लिए कानूनी दस्तावेजों को PDF/A में बदलें।",
+        "icon": "scale"
+      },
+      {
+        "title": "सरकारी रिकॉर्ड",
+        "description": "PDF/A का उपयोग करके सरकारी अभिलेखीय आवश्यकताओं का पालन करें।",
+        "icon": "building"
+      },
+      {
+        "title": "व्यावसायिक आर्काइव",
+        "description": "भविष्य की पहुंच के लिए महत्वपूर्ण व्यावसायिक दस्तावेजों को सुरक्षित रखें।",
+        "icon": "archive"
+      }
+    ],
+    "faq": [
+      {
+        "question": "मुझे किस PDF/A स्तर का उपयोग करना चाहिए?",
+        "answer": "अधिकांश उपयोगों के लिए PDF/A-2b की सिफारिश की जाती है। अधिकतम अनुकूलता के लिए 1b का उपयोग करें या यदि आपको एम्बेडेड फाइलों की आवश्यकता है तो 3b का उपयोग करें।"
+      },
+      {
+        "question": "PDF/A को क्या अलग बनाता है?",
+        "answer": "PDF/A फ़ॉन्ट्स को एम्बेड करता है, एन्क्रिप्शन को अक्षम करता है, और यह सुनिश्चित करता है कि भविष्य में देखने के लिए सभी तत्व आत्मनिर्भर हों।"
+      },
+      {
+        "question": "क्या मैं PDF/A से वापस बदल सकता हूँ?",
+        "answer": "PDF/A फाइलें मानक PDF हैं और सामान्य रूप से खोली जा सकती हैं। अभिलेखीय सुविधाएं प्रतिबंध जोड़ती हैं, सीमाएं नहीं।"
+      }
+    ]
+  },
+  "font-to-outline": {
+    "title": "फ़ॉन्ट से आउटलाइन",
+    "metaDescription": "पेजों को उच्च गुणवत्ता वाली छवियों में बदलकर PDF दस्तावेजों से फ़ॉन्ट निर्भरता हटाएं। सभी सिस्टम में अनुकूलता सुनिश्चित करता है।",
+    "keywords": [
+      "font to outline",
+      "outline fonts",
+      "remove fonts",
+      "font compatibility",
+      "flatten pdf fonts",
+      "pdf font removal"
+    ],
+    "description": "\n      <p>Font to Outline प्रत्येक पेज को उच्च-गुणवत्ता वाले रास्टराइज्ड कंटेंट में बदलकर आपके PDF से सभी फ़ॉन्ट निर्भरताओं को हटा देता है। यह सुनिश्चित करता है कि आपका दस्तावेज़ किसी भी सिस्टम पर बिल्कुल वैसा ही दिखे, भले ही मूल फ़ॉन्ट इंस्टॉल न हों।</p>\n      <p>यह टूल आपके चुने गए DPI (150-600) पर प्रत्येक पेज को रेंडर करता है, सटीक दृश्य उपस्थिति को बनाए रखते हुए एम्बेडेड फ़ॉन्ट्स को हटाता है। वैकल्पिक रूप से, आप खोज क्षमता बनाए रखने के लिए एक अदृश्य टेक्स्ट लेयर जोड़ सकते हैं।</p>\n      <p>प्रिंट की तैयारी, क्रॉस-प्लेटफ़ॉर्म अनुकूलता, और दस्तावेज़ साझा करते समय फ़ॉन्ट लाइसेंसिंग समस्याओं से बचने के लिए यह आवश्यक है। सभी प्रोसेसिंग आपके ब्राउज़र में स्थानीय रूप से होती है।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "उस PDF को अपलोड करें जिसमें वे फ़ॉन्ट हैं जिन्हें आप हटाना चाहते हैं।"
+      },
+      {
+        "step": 2,
+        "title": "गुणवत्ता कॉन्फ़िगर करें",
+        "description": "DPI चुनें (प्रिंट के लिए 300 अनुशंसित, स्क्रीन के लिए 150)। यदि आवश्यक हो तो खोज योग्य टेक्स्ट सक्षम करें।"
+      },
+      {
+        "step": 3,
+        "title": "कन्वर्ट करें और डाउनलोड करें",
+        "description": "फ़ाइल को प्रोसेस करें और फ़ॉन्ट-स्वतंत्र PDF डाउनलोड करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "प्रिंट की तैयारी",
+        "description": "सभी फ़ॉन्ट निर्भरताओं को हटाकर व्यावसायिक प्रिंटर पर फ़ॉन्ट समस्याओं को समाप्त करें।",
+        "icon": "printer"
+      },
+      {
+        "title": "क्रॉस-प्लेटफ़ॉर्म शेयरिंग",
+        "description": "ऐसे दस्तावेज़ साझा करें जो इंस्टॉल किए गए फ़ॉन्ट्स की परवाह किए बिना किसी भी डिवाइस पर एक समान दिखते हैं।",
+        "icon": "share-2"
+      },
+      {
+        "title": "फ़ॉन्ट लाइसेंसिंग",
+        "description": "दस्तावेज़ वितरित करते समय लाइसेंसिंग चिंताओं से बचने के लिए एम्बेडेड फ़ॉन्ट हटाएं।",
+        "icon": "shield"
+      }
+    ],
+    "faq": [
+      {
+        "question": "यह कैसे काम करता है?",
+        "answer": "टूल प्रत्येक पेज को उच्च रिज़ॉल्यूशन (आपके द्वारा चुने गए DPI) पर रेंडर करता है और इन छवियों से PDF को फिर से बनाता है, जिससे दृश्य रूप को सुरक्षित रखते हुए सभी फ़ॉन्ट निर्भरताएँ हट जाती हैं।"
+      },
+      {
+        "question": "क्या मैं रूपांतरण के बाद भी टेक्स्ट चुन सकता हूँ?",
+        "answer": "डिफ़ॉल्ट रूप से, नहीं। टेक्स्ट छवि का हिस्सा बन जाता है। हालांकि, आप खोज और कॉपी कार्यक्षमता के लिए एक अदृश्य टेक्स्ट परत जोड़ने के लिए \"Preserve searchable text\" को सक्षम कर सकते हैं।"
+      },
+      {
+        "question": "मुझे किस DPI का उपयोग करना चाहिए?",
+        "answer": "प्रिंट-गुणवत्ता वाले आउटपुट के लिए 300 DPI अनुशंसित है। स्क्रीन पर देखने के लिए 150 DPI पर्याप्त है और छोटी फाइलें तैयार करता है। 600 DPI उच्चतम गुणवत्ता के लिए है लेकिन बड़ी फाइलें बनाता है।"
+      },
+      {
+        "question": "क्या फ़ाइल का आकार बढ़ जाएगा?",
+        "answer": "फ़ाइल का आकार DPI और सामग्री पर निर्भर करता है। 150 DPI आमतौर पर छोटी फ़ाइलें बनाता है, 300 DPI आकार बढ़ा सकता है, 600 DPI आकार को काफी बढ़ा देता है। संपीड़न (Compression) स्वचालित रूप से लागू होता है।"
+      },
+      {
+        "question": "क्या इसे वापस पहले जैसा किया जा सकता है?",
+        "answer": "नहीं, फ़ॉन्ट डेटा स्थायी रूप से हटा दिया जाता है। यदि आपको मूल फ़ॉन्ट के साथ संपादन योग्य टेक्स्ट की आवश्यकता है तो मूल का बैकअप रखें।"
+      },
+      {
+        "question": "वेक्टर ग्राफिक्स के बारे में क्या?",
+        "answer": "मूल PDF में वेक्टर ग्राफिक्स (आकृतियां, रेखाएं) टेक्स्ट के साथ रास्टर में परिवर्तित हो जाएंगे। आपके चुने हुए DPI पर दृश्य गुणवत्ता बनी रहती है।"
+      }
+    ]
+  },
+  "extract-tables": {
+    "title": "PDF से तालिकाएँ निकालें",
+    "metaDescription": "PDF दस्तावेजों से तालिकाओं का पता लगाएं और उन्हें निकालें। JSON, Markdown, या CSV प्रारूपों में निर्यात करें।",
+    "keywords": [
+      "extract tables",
+      "pdf table extraction",
+      "pdf to csv",
+      "pdf to excel",
+      "table detection"
+    ],
+    "description": "\n      <p>Extract Tables from PDF आपके PDF दस्तावेजों के भीतर सारणीबद्ध डेटा (tabular data) का पता लगाता है और इसे संरचित प्रारूपों में निर्यात करता है। डेटा एकीकरण के लिए JSON, दस्तावेज़ीकरण के लिए Markdown, या स्प्रेडशीट के लिए CSV चुनें।</p>\n      <p>टूल जटिल दस्तावेज़ों में भी तालिका संरचनाओं की पहचान करने के लिए बुद्धिमान पहचान एल्गोरिदम का उपयोग करता है। पृष्ठ सीमाओं को निर्दिष्ट करें और इष्टतम परिणामों के लिए पहचान मापदंडों को समायोजित करें।</p>\n      <p>सभी प्रोसेसिंग आपके ब्राउज़र में स्थानीय रूप से होती है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "वह PDF अपलोड करें जिसमें वे तालिकाएँ हैं जिन्हें आप निकालना चाहते हैं।"
+      },
+      {
+        "step": 2,
+        "title": "डिटेक्शन कॉन्फ़िगर करें",
+        "description": "पेज रेंज और न्यूनतम कॉलम/पंक्ति सीमाएं सेट करें।"
+      },
+      {
+        "step": 3,
+        "title": "निर्यात और डाउनलोड करें",
+        "description": "आउटपुट प्रारूप (JSON/Markdown/CSV) चुनें और डाउनलोड करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "डेटा विश्लेषण",
+        "description": "स्प्रेडशीट या डेटाबेस में विश्लेषण के लिए तालिका डेटा निकालें।",
+        "icon": "bar-chart"
+      },
+      {
+        "title": "रिपोर्ट प्रोसेसिंग",
+        "description": "आगे की प्रोसेसिंग के लिए PDF रिपोर्ट से तालिकाएं निकालें।",
+        "icon": "file-text"
+      },
+      {
+        "title": "दस्तावेज़ीकरण",
+        "description": "तकनीकी दस्तावेज़ीकरण के लिए PDF तालिकाओं को Markdown में बदलें।",
+        "icon": "book"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या यह जटिल तालिकाओं का पता लगा सकता है?",
+        "answer": "यह टूल साधारण ग्रिड तालिकाओं के साथ सबसे अच्छा काम करता है। जटिल मर्ज की गई कोशिकाओं (cells) के लिए मैनुअल समायोजन की आवश्यकता हो सकती है।"
+      },
+      {
+        "question": "क्या होगा यदि कोई तालिकाएँ नहीं मिलीं?",
+        "answer": "न्यूनतम कॉलम/पंक्ति सीमा को समायोजित करने का प्रयास करें या जांचें कि क्या PDF में वास्तविक तालिका संरचनाएं हैं।"
+      },
+      {
+        "question": "क्या मैं विशिष्ट पेजों से निष्कर्षण कर सकता हूँ?",
+        "answer": "हाँ, निष्कर्षण को कुछ पृष्ठों तक सीमित करने के लिए पृष्ठ सीमा निर्दिष्ट करें।"
+      }
+    ]
+  },
+  "ocg-manager": {
+    "title": "PDF Layer Manager (OCG)",
+    "metaDescription": "PDF लेयर्स (Optional Content Groups) का प्रबंधन करें। अपने PDF दस्तावेज़ों में लेयर्स देखें, टॉगल करें, जोड़ें, हटाएं और उनका नाम बदलें।",
+    "keywords": [
+      "pdf layers",
+      "ocg manager",
+      "optional content groups",
+      "pdf layer visibility",
+      "manage pdf layers"
+    ],
+    "description": "\n      <p>PDF Layer Manager आपको अपने PDF दस्तावेज़ों में Optional Content Groups (OCG) देखने और प्रबंधित करने की अनुमति देता है। OCG लेयर्स का उपयोग तकनीकी ड्रॉइंग, नक्शों और जटिल दस्तावेज़ों में सामग्री को टॉगल करने योग्य लेयर्स में व्यवस्थित करने के लिए किया जाता है।</p>\n      <p>अपने PDF में सभी लेयर्स देखें, उनकी दृश्यता (visibility) को टॉगल करें, नई लेयर्स जोड़ें, अवांछित लेयर्स को हटाएं, या मौजूदा लेयर्स का नाम बदलें। यह टूल आर्किटेक्चरल प्लान, CAD एक्सपोर्ट और प्रिंट-रेडी दस्तावेज़ों जैसे लेयर वाले PDFs के साथ काम करने के लिए आवश्यक है।</p>\n      <p>सभी प्रोसेसिंग आपके ब्राउज़र में स्थानीय रूप से होती है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ निजी और सुरक्षित रहें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF अपलोड करें",
+        "description": "ऐसी PDF फ़ाइल अपलोड करें जिसमें लेयर्स (OCG) हों या जिसमें आप लेयर्स जोड़ना चाहते हों।"
+      },
+      {
+        "step": 2,
+        "title": "लेयर्स देखें",
+        "description": "यह टूल दस्तावेज़ में पाई गई सभी लेयर्स को उनकी दृश्यता स्थिति (visibility status) के साथ स्वचालित रूप से सूचीबद्ध करता है।"
+      },
+      {
+        "step": 3,
+        "title": "लेयर्स प्रबंधित करें",
+        "description": "लेयर की दृश्यता टॉगल करें, लेयर्स का नाम बदलें, नई लेयर्स जोड़ें, या अवांछित लेयर्स हटाएं।"
+      },
+      {
+        "step": 4,
+        "title": "सहेजें और डाउनलोड करें",
+        "description": "लेयर में किए गए परिवर्तनों के साथ अपना संशोधित PDF डाउनलोड करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "तकनीकी रेखाचित्र",
+        "description": "डायमेंशन, एनोटेशन या विभिन्न व्यू दिखाने/छिपाने के लिए CAD एक्सपोर्ट में लेयर्स प्रबंधित करें।",
+        "icon": "ruler"
+      },
+      {
+        "title": "मैप एडिटिंग",
+        "description": "कस्टम मैप प्रिंट के लिए टोपोग्राफी, सड़कों और लेबल जैसे विभिन्न मैप लेयर्स को टॉगल करें।",
+        "icon": "map"
+      },
+      {
+        "title": "प्रिंट की तैयारी",
+        "description": "विभिन्न संस्करणों के लिए उपयुक्त लेयर्स को टॉगल करके प्रिंटिंग के लिए लेयर वाले PDFs तैयार करें।",
+        "icon": "printer"
+      }
+    ],
+    "faq": [
+      {
+        "question": "PDF लेयर्स (OCG) क्या हैं?",
+        "answer": "Optional Content Groups (OCG) एक PDF में ऐसी लेयर्स हैं जिन्हें दिखाया या छिपाया जा सकता है। इनका उपयोग आमतौर पर CAD ड्राइंग, नक्शों और जटिल दस्तावेज़ों में किया जाता है।"
+      },
+      {
+        "question": "मेरे PDF में कोई लेयर क्यों नहीं दिखाई दे रही है?",
+        "answer": "सभी PDFs में लेयर्स नहीं होती हैं। लेयर्स आमतौर पर डिज़ाइन सॉफ़्टवेयर या CAD एप्लिकेशन से PDF बनाते समय जोड़ी जाती हैं।"
+      },
+      {
+        "question": "क्या लेयर में बदलाव मूल सामग्री को प्रभावित करेंगे?",
+        "answer": "लेयर की दृश्यता में बदलाव केवल प्रदर्शित या प्रिंट की गई सामग्री को प्रभावित करते हैं। वास्तविक सामग्री दस्तावेज़ में बनी रहती है।"
+      }
+    ]
+  },
+  "pdf-reader": {
+    "title": "PDF Reader",
+    "metaDescription": "मुफ़्त ऑनलाइन PDF रीडर। सीधे अपने ब्राउज़र में PDF दस्तावेज़ देखें, नेविगेट करें, ज़ूम करें, घुमाएँ और प्रिंट करें।",
+    "keywords": [
+      "pdf reader",
+      "pdf viewer",
+      "view pdf online",
+      "read pdf",
+      "pdf browser viewer"
+    ],
+    "description": "\n      <p>PDF Reader एक पूर्ण विशेषताओं वाला PDF व्यूअर है जो आपको सीधे अपने ब्राउज़र में PDF दस्तावेज़ों को पढ़ने और नेविगेट करने की सुविधा देता है। किसी सॉफ़्टवेयर इंस्टॉल करने की आवश्यकता नहीं है - बस अपना PDF अपलोड करें और पढ़ना शुरू करें।</p>\n      <p>पृष्ठों के बीच नेविगेट करें, ज़ूम इन और आउट करें, व्यू घुमाएँ, और बिना किसी रुकावट के पढ़ने के लिए फ़ुलस्क्रीन मोड का उपयोग करें। आप दस्तावेज़ों को प्रिंट भी कर सकते हैं या ऑफ़लाइन उपयोग के लिए डाउनलोड कर सकते हैं।</p>\n      <p>सभी देखने की प्रक्रिया आपके ब्राउज़र में स्थानीय रूप से होती है। आपके दस्तावेज़ कभी भी किसी सर्वर पर अपलोड नहीं किए जाते हैं, जिससे पूर्ण गोपनीयता सुनिश्चित होती है।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अपना PDF खोलें",
+        "description": "रीडर में खोलने के लिए PDF फ़ाइल अपलोड करने हेतु क्लिक करें या ड्रैग और ड्रॉप करें।"
+      },
+      {
+        "step": 2,
+        "title": "पृष्ठों पर नेविगेट करें",
+        "description": "पिछले या अगले पृष्ठ पर जाने, या किसी विशिष्ट पृष्ठ संख्या पर जाने के लिए पृष्ठ नियंत्रणों का उपयोग करें।"
+      },
+      {
+        "step": 3,
+        "title": "व्यू समायोजित करें",
+        "description": "आराम से पढ़ने के लिए ज़ूम इन या आउट करें, व्यू घुमाएँ, या फ़ुलस्क्रीन मोड में प्रवेश करें।"
+      },
+      {
+        "step": 4,
+        "title": "प्रिंट या डाउनलोड करें",
+        "description": "दस्तावेज़ को प्रिंट करें या आवश्यकता पड़ने पर ऑफ़लाइन उपयोग के लिए इसे डाउनलोड करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "दस्तावेज़ समीक्षा",
+        "description": "बिना कोई सॉफ़्टवेयर इंस्टॉल किए PDF दस्तावेज़ों की शीघ्र समीक्षा करें।",
+        "icon": "book-open"
+      },
+      {
+        "title": "मोबाइल रीडिंग",
+        "description": "वेब ब्राउज़र वाले किसी भी डिवाइस पर PDF दस्तावेज़ पढ़ें।",
+        "icon": "smartphone"
+      },
+      {
+        "title": "त्वरित पूर्वावलोकन",
+        "description": "PDFs को डाउनलोड या प्रिंट करने का निर्णय लेने से पहले उनका पूर्वावलोकन करें।",
+        "icon": "eye"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या मेरा दस्तावेज़ सुरक्षित है?",
+        "answer": "हाँ, आपका दस्तावेज़ पूरी तरह से आपके ब्राउज़र में प्रोसेस किया जाता है और इसे कभी भी किसी सर्वर पर अपलोड नहीं किया जाता है।"
+      },
+      {
+        "question": "क्या मैं PDF को एनोटेट या एडिट कर सकता हूँ?",
+        "answer": "यह टूल केवल देखने के लिए है। एडिटिंग के लिए हमारे Sign PDF या Annotate PDF टूल का उपयोग करें।"
+      },
+      {
+        "question": "क्या यह मोबाइल उपकरणों पर काम करता है?",
+        "answer": "हाँ, PDF Reader एक आधुनिक वेब ब्राउज़र वाले सभी उपकरणों पर काम करता है।"
+      }
+    ]
+  },
+  "digital-sign-pdf": {
+    "title": "डिजिटल सिग्नेचर",
+    "metaDescription": "PDF दस्तावेज़ों में X.509 डिजिटल सिग्नेचर जोड़ें। कानूनी मान्यता के लिए PFX, P12, या PEM प्रमाणपत्रों के साथ PDFs पर हस्ताक्षर करें।",
+    "keywords": [
+      "digital signature pdf",
+      "x509 certificate",
+      "pfx sign pdf",
+      "p12 sign pdf",
+      "pem sign pdf",
+      "legally sign pdf"
+    ],
+    "description": "\n      <p>Digital Signature आपको PDF दस्तावेज़ों में क्रिप्टोग्राफ़िक X.509 डिजिटल सिग्नेचर जोड़ने की अनुमति देता है। सरल हाथ से खींचे गए हस्ताक्षरों के विपरीत, डिजिटल सिग्नेचर कानूनी मान्यता और दस्तावेज़ की अखंडता (integrity) सत्यापन प्रदान करते हैं।</p>\n      <p>अपनी प्रमाणपत्र फ़ाइल (PFX, P12, या PEM प्रारूप) अपलोड करें, पासवर्ड दर्ज करें, और अपने PDF पर हस्ताक्षर करें। आप कस्टम टेक्स्ट, छवियों और स्थिति (positioning) के साथ दृश्यमान (visible) हस्ताक्षर जोड़ सकते हैं, या केवल दस्तावेज़ की अखंडता के लिए अदृश्य हस्ताक्षर जोड़ सकते हैं।</p>\n      <p>सभी हस्ताक्षर प्रक्रिया आपके ब्राउज़र में स्थानीय रूप से होती है। आपका प्रमाणपत्र और दस्तावेज़ कभी भी किसी सर्वर पर अपलोड नहीं किए जाते हैं।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "PDF अपलोड करें",
+        "description": "वह PDF दस्तावेज़ अपलोड करें जिसे आप डिजिटली साइन करना चाहते हैं।"
+      },
+      {
+        "step": 2,
+        "title": "सर्टिफिकेट लोड करें",
+        "description": "अपनी X.509 प्रमाणपत्र फ़ाइल (.pfx, .p12, या .pem) अपलोड करें और पासवर्ड दर्ज करें।"
+      },
+      {
+        "step": 3,
+        "title": "सिग्नेचर कॉन्फ़िगर करें",
+        "description": "वैकल्पिक रूप से कस्टम टेक्स्ट या छवि के साथ कारण, स्थान और दृश्यमान सिग्नेचर जोड़ें।"
+      },
+      {
+        "step": 4,
+        "title": "हस्ताक्षर करें और डाउनलोड करें",
+        "description": "डिजिटल हस्ताक्षर लागू करने और हस्ताक्षरित दस्तावेज़ डाउनलोड करने के लिए Sign PDF पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "कानूनी दस्तावेज़",
+        "description": "कानूनी रूप से बाध्यकारी डिजिटल हस्ताक्षर के साथ अनुबंधों, समझौतों और कानूनी दस्तावेजों पर हस्ताक्षर करें।",
+        "icon": "scale"
+      },
+      {
+        "title": "व्यावसायिक स्वीकृतियाँ",
+        "description": "ऑडिट ट्रेल के लिए इनवॉइस, क्रय आदेश और स्वीकृति दस्तावेजों पर डिजिटली हस्ताक्षर करें।",
+        "icon": "briefcase"
+      },
+      {
+        "title": "दस्तावेज़ अखंडता",
+        "description": "यह सुनिश्चित करें कि हस्ताक्षर करने के बाद दस्तावेजों के साथ छेड़छाड़ नहीं की गई है।",
+        "icon": "shield-check"
+      }
+    ],
+    "faq": [
+      {
+        "question": "कौन से प्रमाण पत्र (certificate) प्रारूप समर्थित हैं?",
+        "answer": "PFX (.pfx), PKCS#12 (.p12), और PEM (.pem) प्रमाण पत्र प्रारूप समर्थित हैं।"
+      },
+      {
+        "question": "क्या हस्ताक्षर कानूनी रूप से मान्य है?",
+        "answer": "हाँ, वैध प्रमाण पत्र का उपयोग करने पर अधिकांश अधिकार क्षेत्रों में X.509 डिजिटल हस्ताक्षर कानूनी रूप से मान्यता प्राप्त हैं।"
+      },
+      {
+        "question": "क्या मैं एक दृश्यमान हस्ताक्षर (visible signature) जोड़ सकता हूँ?",
+        "answer": "हाँ, आप कस्टमाइज़्ड टेक्स्ट, छवि, स्थिति और स्टाइलिंग के साथ एक दृश्यमान हस्ताक्षर जोड़ सकते हैं।"
+      }
+    ]
+  },
+  "validate-signature": {
+    "title": "हस्ताक्षर सत्यापित करें",
+    "metaDescription": "PDF दस्तावेजों में डिजिटल हस्ताक्षर सत्यापित करें। प्रमाण पत्र की वैधता, हस्ताक्षरकर्ता की जानकारी और दस्तावेज़ की अखंडता की जाँच करें।",
+    "keywords": [
+      "validate pdf signature",
+      "verify digital signature",
+      "check pdf certificate",
+      "signature verification"
+    ],
+    "description": "\n      <p>Validate Signature आपको PDF दस्तावेजों में डिजिटल हस्ताक्षर सत्यापित करने की अनुमति देता है। जांचें कि हस्ताक्षर वैध हैं या नहीं, प्रमाण पत्र की जानकारी देखें और दस्तावेज़ की अखंडता की पुष्टि करें।</p>\n      <p>सभी हस्ताक्षर, उनकी वैधता स्थिति, हस्ताक्षरकर्ता की जानकारी और यह देखने के लिए कि क्या हस्ताक्षर करने के बाद दस्तावेज़ में संशोधन किया गया है, एक हस्ताक्षरित PDF अपलोड करें।</p>\n      <p>सभी सत्यापन आपके ब्राउज़र में स्थानीय रूप से होते हैं। आपके दस्तावेज़ कभी भी किसी सर्वर पर अपलोड नहीं किए जाते हैं।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "हस्ताक्षरित PDF अपलोड करें",
+        "description": "एक PDF दस्तावेज़ अपलोड करें जिसमें डिजिटल हस्ताक्षर शामिल हैं।"
+      },
+      {
+        "step": 2,
+        "title": "परिणाम देखें",
+        "description": "दस्तावेज़ में पाए गए सभी हस्ताक्षर उनकी वैधता स्थिति के साथ देखें।"
+      },
+      {
+        "step": 3,
+        "title": "विवरण जांचें",
+        "description": "प्रमाण पत्र की जानकारी, हस्ताक्षरकर्ता का विवरण और हस्ताक्षर करने का समय (timestamp) देखें।"
+      },
+      {
+        "step": 4,
+        "title": "रिपोर्ट एक्सपोर्ट करें",
+        "description": "वैकल्पिक रूप से सत्यापन परिणामों की JSON रिपोर्ट डाउनलोड करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "दस्तावेज़ सत्यापन",
+        "description": "सत्यापित करें कि हस्ताक्षरित दस्तावेज़ प्रामाणिक हैं और उनके साथ कोई छेड़छाड़ नहीं की गई है।",
+        "icon": "shield-check"
+      },
+      {
+        "title": "अनुपालन ऑडिट",
+        "description": "अनुपालन और ऑडिट उद्देश्यों के लिए हस्ताक्षर की वैधता की जांच करें।",
+        "icon": "clipboard-check"
+      },
+      {
+        "title": "प्रमाण पत्र समीक्षा",
+        "description": "हस्ताक्षरित दस्तावेजों के लिए प्रमाण पत्र विवरण और समाप्ति तिथियां देखें।",
+        "icon": "award"
+      }
+    ],
+    "faq": [
+      {
+        "question": "\"वैध\" का क्या अर्थ है?",
+        "answer": "एक वैध हस्ताक्षर का अर्थ है कि हस्ताक्षर करने के बाद से दस्तावेज़ में कोई बदलाव नहीं किया गया है और प्रमाण पत्र श्रृंखला (certificate chain) बरकरार है।"
+      },
+      {
+        "question": "क्या मैं एक से अधिक PDF सत्यापित कर सकता हूँ?",
+        "answer": "हाँ, आप एक से अधिक PDF अपलोड कर सकते हैं और बैच में सभी हस्ताक्षर सत्यापित कर सकते हैं।"
+      },
+      {
+        "question": "हस्ताक्षर अमान्य क्यों हो सकता है?",
+        "answer": "हस्ताक्षर अमान्य हो सकते हैं यदि दस्तावेज़ में संशोधन किया गया था, प्रमाण पत्र समाप्त हो गया था, या प्रमाण पत्र विश्वसनीय नहीं है।"
+      }
+    ]
+  },
+  "ai-pdf-reflower": {
+    "title": "AI PDF लेआउट रिफ्लोअर",
+    "metaDescription": "PDF दस्तावेजों को उत्तरदायी (responsive) मोबाइल-अनुकूल लेआउट में फिर से टाइपसेट करें। छोटी स्क्रीन पर बेहतर पठन के लिए Markdown और EPUB निर्यात का समर्थन करता है।",
+    "keywords": [
+      "pdf reflow",
+      "responsive pdf",
+      "pdf to markdown",
+      "epub export",
+      "mobile pdf reader"
+    ],
+    "description": "\n      <p>AI PDF Layout Reflower मोबाइल उपकरणों पर PDF दस्तावेज़ पढ़ने के लिए आपका सबसे बेहतरीन साथी है। पारंपरिक PDF एक फिक्स्ड लेआउट का उपयोग करते हैं, जिसके लिए अक्सर स्मार्टफोन या टैबलेट पर अंतहीन ज़ूमिंग और क्षैतिज स्क्रॉलिंग की आवश्यकता होती है, जिसके परिणामस्वरूप पढ़ने का अनुभव थकाऊ हो जाता है।</p>\n      <p>यह टूल समझदारी से पाठ प्रवाह (text flow), पंक्ति रिक्ति (line spacing), और PDF पृष्ठों के भौतिक निर्देशांकों का विश्लेषण करता है, जिससे अर्थपूर्ण अनुच्छेदों और शीर्षक पदानुक्रमों (heading hierarchies) का पुनर्निर्माण होता है। बहु-स्तंभ या द्वि-स्तंभ दस्तावेजों के लिए, यह सहज पठन सुनिश्चित करते हुए, स्तंभ प्रवाह को समझदारी से एक एकल उत्तरदायी प्रवाह में विलय कर देता है।</p>\n      <p>इसके अतिरिक्त, यह गणितीय सूत्रों को LaTeX/MathJax में रेंडर करने का समर्थन करता है और कई पठन थीम (Sepia, Dark, आँखों की सुरक्षा के लिए Green) प्रदान करता है। आप एक क्लिक के साथ रिफ्लो किए गए लेआउट को Markdown या एक मानक EPUB ई-बुक के रूप में निर्यात कर सकते हैं।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "PDF फ़ाइल अपलोड करें",
+        "description": "अपनी PDF फ़ाइल को ड्रैग और ड्रॉप करें या ब्राउज़ करने और इसे चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 2,
+        "title": "पठन थीम चुनें",
+        "description": "दाईं ओर 3D मोबाइल सिम्युलेटर में अपना पसंदीदा फ़ॉन्ट आकार और थीम रंग चुनें।"
+      },
+      {
+        "step": 3,
+        "title": "दस्तावेज़ निर्यात करें",
+        "description": "संतुष्ट होने के बाद, दस्तावेज़ को Markdown या EPUB के रूप में निर्यात करने के लिए भौतिक पुल-रोप का उपयोग करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "मोबाइल साहित्य पठन",
+        "description": "बिना लगातार ज़ूम किए अपने फोन पर अकादमिक शोध पत्रों और शोध रिपोर्टों को निर्बाध रूप से पढ़ें।",
+        "icon": "smartphone"
+      },
+      {
+        "title": "ई-बुक रूपांतरण",
+        "description": "टेक्स्ट-सघन PDFs को EPUB फ़ाइलों में बदलें और उन्हें Kindle या अन्य ई-बुक रीडर में इम्पोर्ट करें।",
+        "icon": "book"
+      },
+      {
+        "title": "नोट आर्काइव",
+        "description": "अपने व्यक्तिगत ज्ञान आधार (knowledge base) के लिए संरचित PDF सामग्री को सीधे स्वच्छ Markdown फ़ाइलों में परिवर्तित करें।",
+        "icon": "file-text"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या यह dual-column PDFs को सही ढंग से संभालता है?",
+        "answer": "हाँ, लेआउट रिफ़्लोअर टेक्स्ट ब्लॉकों के क्षैतिज निर्देशांकों का पता लगाता है और बाएँ और दाएँ कॉलम को क्रमिक रूप से संरचित करता है, जिससे पंक्तियों के आपस में उलझने की समस्या नहीं होती।"
+      },
+      {
+        "question": "क्या इमेज और गणितीय सूत्र खो जाएँगे?",
+        "answer": "गणितीय सूत्रों को स्वच्छ वेब रेंडरिंग के लिए LaTeX/MathJax सिंटैक्स में बदल दिया जाता है, और इमेज को उनके संबंधित अर्थगत स्थानों पर सुरक्षित रखा जाता है।"
+      },
+      {
+        "question": "क्या रूपांतरण क्लाउड में किया जाता है?",
+        "answer": "नहीं, आपके दस्तावेज़ों की पूर्ण गोपनीयता की गारंटी देने के लिए सभी लेआउट विश्लेषण और प्रारूप पैकेजिंग आपके ब्राउज़र में स्थानीय रूप से किए जाते हैं।"
+      }
+    ]
+  },
+  "citation-linker": {
+    "title": "Citation Linker",
+    "metaDescription": "PDFs में उद्धरण चिह्नों (citation markers) को स्कैन और सक्रिय करें, उन्हें क्लिक करने योग्य DOI लिंक या पेज-जंप लक्ष्यों में बदलें।",
+    "keywords": [
+      "citation linker",
+      "pdf hyperlink",
+      "doi matching",
+      "academic helper",
+      "pdf references"
+    ],
+    "description": "\n      <p>Citation Linker को विशेष रूप से शैक्षणिक शोधकर्ताओं के लिए डिज़ाइन किया गया है। कई PDF शोध पत्रों में, उद्धरण चिह्न (उदा., [1], [2]) साधारण टेक्स्ट होते हैं, जिससे पाठकों को दस्तावेज़ के अंत में संदर्भ सूची को बार-बार ऊपर-नीचे स्क्रॉल करना पड़ता है, जिससे उनका ध्यान भंग होता है।</p>\n      <p>यह टूल स्थानीय रूप से PDF टेक्स्ट पढ़ता है, उद्धरण चिह्नों को उनकी संबंधित संदर्भ प्रविष्टियों से मिलाने के लिए पैटर्न पहचान का उपयोग करता है, और DOI लुकअप या पेज-जंप निर्देशांकों का उपयोग करके क्लिक करने योग्य PDF लिंक एनोटेशन ओवरले करता है।</p>\n      <p>यह दस्तावेज़ के संदर्भ नेटवर्क को विज़ुअली नेविगेट करने के लिए एक इंटरैक्टिव उद्धरण संबंध मानचित्र भी बनाता है।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अकादमिक PDF अपलोड करें",
+        "description": "संदर्भ/ग्रंथ सूची अनुभाग वाला PDF शोध पत्र या थीसिस अपलोड करें।"
+      },
+      {
+        "step": 2,
+        "title": "उद्धरणों की समीक्षा करें",
+        "description": "इंटरैक्टिव मानचित्र में उद्धरण युग्मों की जाँच करें और यदि आवश्यक हो तो DOI लिंक को मैन्युअल रूप से संपादित करें या जोड़ें।"
+      },
+      {
+        "step": 3,
+        "title": "लिंक इंजेक्ट करें",
+        "description": "PDF पर हाइपरलिंक ओवरले करने के लिए सक्रिय करें बटन पर क्लिक करें और अद्यतन दस्तावेज़ डाउनलोड करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "गहन साहित्य पठन",
+        "description": "संदर्भ विवरण तुरंत देखने या बाहरी DOI पृष्ठों पर नेविगेट करने के लिए उद्धरण चिह्नों पर क्लिक करें।",
+        "icon": "link"
+      },
+      {
+        "title": "प्रकाशन पूर्व तैयारी",
+        "description": "अंतिम जमा करने से पहले सुनिश्चित करें कि आपके लिखित अकादमिक पत्रों में पूरी तरह से सक्रिय हाइपरलिंक नेविगेशन है।",
+        "icon": "award"
+      },
+      {
+        "title": "संदर्भ मानचित्र विश्लेषण",
+        "description": "इंटरैक्टिव नेटवर्क टोपोलॉजी मानचित्र के माध्यम से साहित्य पदानुक्रमों और संबंधों को समझें।",
+        "icon": "git-network"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या होगा यदि किसी संदर्भ में कोई DOI न हो?",
+        "answer": "यदि कोई DOI नहीं मिलता है, तो टूल एक आंतरिक \"GoTo Page\" कार्रवाई पर वापस चला जाता है, जिससे आप मार्कर पर क्लिक करके सीधे संदर्भ पृष्ठ पर जा सकते हैं।"
+      },
+      {
+        "question": "कौन से उद्धरण प्रारूप समर्थित हैं?",
+        "answer": "यह सामान्य संख्यात्मक कोष्ठकों (उदा., [1], [1-3]) और लेखक-वर्ष उद्धरणों (उदा., Author et al., 202X) का समर्थन करता है।"
+      },
+      {
+        "question": "क्या यह मेरे PDF के स्वरूप को संशोधित करेगा?",
+        "answer": "नहीं, यह टेक्स्ट के ऊपर अदृश्य Link एनोटेशन इंजेक्ट करता है, जिससे आपके दस्तावेज़ का मूल लेआउट, फ़ॉन्ट और स्टाइलिंग सुरक्षित रहती है।"
+      }
+    ]
+  },
+  "vector-extractor": {
+    "title": "PDF Vector Extractor",
+    "metaDescription": "PDF को उच्च-गुणवत्ता वाले SVG में बदलें, जिससे आप वेक्टर चार्ट, लोगो और ग्राफिक्स को चुन सकते हैं, उनका रंग बदल सकते हैं और उन्हें एक्सपोर्ट कर सकते हैं।",
+    "keywords": [
+      "extract vectors from pdf",
+      "pdf to svg",
+      "pdf vector charts",
+      "extract logo",
+      "vector drawings"
+    ],
+    "description": "\n      <p>PDF Vector Extractor PDF फ़ाइलों के भीतर एम्बेडेड वेक्टर पाथ और आर्टवर्क को अनलॉक करता है। डिज़ाइन कार्य या प्रिंटिंग के लिए दस्तावेज़ों से वेक्टर चार्ट, आरेख या लोगो आसानी से निकालें।</p>\n      <p>यह सटीकता के नुकसान के बिना PDF वेक्टर पाथ को स्वच्छ, मानक SVG तत्व वृक्षों में विघटित करने के लिए उच्च-गुणवत्ता वाले SVG रेंडरिंग का उपयोग करता है।</p>\n      <p>इंटरफ़ेस Z-axis 3D लेयर एक्सप्लोजन प्रभाव के साथ होवर तत्वों को हाइलाइट करता है, जिसमें डिजाइनरों के लिए वेक्टर नोड्स को समायोजित करने और निकालने के लिए एक कलर पिकर पैनल शामिल है।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "PDF दस्तावेज़ अपलोड करें",
+        "description": "वेक्टर संपत्तियाँ, आरेख, चार्ट या लोगो वाला PDF अपलोड करें।"
+      },
+      {
+        "step": 2,
+        "title": "तत्वों का चयन करें",
+        "description": "तत्वों को हाइलाइट करने के लिए वेक्टर कैनवास पर होवर करें, फिर किसी नोड को चुनने के लिए क्लिक करें।"
+      },
+      {
+        "step": 3,
+        "title": "कस्टम करें और एक्सपोर्ट करें",
+        "description": "पैनल में पाथ विशेषताओं को समायोजित करें, फिर SVG के रूप में डाउनलोड करें या SVG स्रोत कोड कॉपी करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "डिज़ाइन एसेट निष्कर्षण",
+        "description": "ब्रांड गाइडलाइंस या ब्रोशर से कंपनी के लोगो, आइकन और इलस्ट्रेशन तुरंत निकालें।",
+        "icon": "bezier"
+      },
+      {
+        "title": "वैज्ञानिक चार्ट एक्सपोर्ट",
+        "description": "उच्च-रिजॉल्यूशन प्रिंटिंग या प्रस्तुतियों में उपयोग करने के लिए शोध पत्रों से वेक्टर चार्ट निकालें।",
+        "icon": "presentation"
+      },
+      {
+        "title": "वेक्टर एसेट रीकलरिंग",
+        "description": "वेब प्रोजेक्ट्स के लिए सहेजने से पहले निकाले गए एसेट्स के स्ट्रोक और फिल रंगों को संशोधित करें।",
+        "icon": "crown"
+      }
+    ],
+    "faq": [
+      {
+        "question": "मैं कुछ इमेजों का चयन क्यों नहीं कर सकता?",
+        "answer": "PDFs में रास्टर इमेज (जैसे फ़ोटो या स्कैन किए गए पृष्ठ) और वेक्टर आर्टवर्क (जैसे आकार और वक्र) दोनों होते हैं। केवल वेक्टर पाथों को SVG पाथों में विघटित किया जा सकता है।"
+      },
+      {
+        "question": "क्या आउटपुट SVG में स्टाइल शामिल हैं?",
+        "answer": "हाँ, एक्सपोर्ट किया गया SVG फिल, स्ट्रोक, ओपेसिटी, ग्रेडिएंट और कोऑर्डिनेट ट्रांसफॉर्म सहित सभी मूल गुणों को बनाए रखता है।"
+      },
+      {
+        "question": "क्या बड़ी फ़ाइलें धीमी हो जाएँगी?",
+        "answer": "हम WebAssembly त्वरण का उपयोग करते हैं, लेकिन अत्यधिक जटिल CAD चित्रों या हज़ारों वेक्टर पाथ वाले PDFs को रेंडर होने में कुछ सेकंड लग सकते हैं।"
+      }
+    ]
+  },
+  "deep-sanitize": {
+    "title": "Deep Metadata Sanitizer",
+    "metaDescription": "अधिकतम गोपनीयता के लिए PDFs से लेखक मेटाडेटा, संशोधन लॉग, छिपी हुई परतों और अनाथ ऑब्जेक्ट्स (orphan objects) को पूरी तरह से मिटाएं।",
+    "keywords": [
+      "pdf sanitization",
+      "clear metadata",
+      "anonymize pdf",
+      "strip hidden watermark",
+      "secure pdf"
+    ],
+    "description": "\n      <p>Deep Metadata Sanitizer मेटाडेटा लीक और छिपे हुए ट्रैकिंग के खिलाफ आपकी अंतिम सुरक्षा है। व्यावसायिक रहस्यों की रक्षा के लिए PDF फ़ाइलों में दृश्यमान टेक्स्ट पर बस काले बॉक्स बनाना पर्याप्त नहीं है।</p>\n      <p>यह टूल लेखक की जानकारी, निर्माता सॉफ़्टवेयर, संपादन लॉग (XMP Metadata), स्वामित्व वाली PieceInfo कैश, और OCG वैकल्पिक सामग्री समूहों (अक्सर अदृश्य वॉटरमार्क के लिए उपयोग किए जाने वाले) को पूरी तरह से मिटाने के लिए PDF बाइनरी संरचना को स्कैन करता है।</p>\n      <p>यह यह सुनिश्चित करने के लिए कि हटाए गए या संशोधित ऐतिहासिक डेटा को पुनर्स्थापित नहीं किया जा सकता है, सभी वृद्धिशील अपडेट ब्लॉकों को खारिज करते हुए क्रॉस-संदर्भ तालिकाओं (xref) को पूरी तरह से फिर से लिखता है।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "PDF अपलोड करें",
+        "description": "संवेदनशील डेटा या संशोधन इतिहास वाली PDF फ़ाइल चुनें।"
+      },
+      {
+        "step": 2,
+        "title": "स्कैनर चलाएं",
+        "description": "छिपे हुए मेटाडेटा और परतों के लिए फ़ाइल की जांच करने के लिए 3D कंटेनमेंट स्कैनर को ट्रिगर करें।"
+      },
+      {
+        "step": 3,
+        "title": "डीप सैनिटाइज",
+        "description": "ट्रैकिंग तत्वों को हटाने और पूरी तरह से साफ़ PDF डाउनलोड करने के लिए सैनिटाइज पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "कॉन्ट्रैक्ट शेयरिंग",
+        "description": "तीसरे पक्षों के साथ व्यावसायिक अनुबंध साझा करने से पहले ड्राफ्टिंग रिकॉर्ड, पाथ और पिछले संशोधनों को हटाएं।",
+        "icon": "file-signature"
+      },
+      {
+        "title": "अनाम प्रकाशन",
+        "description": "दस्तावेज़ों को गुमनाम और सुरक्षित रूप से प्रकाशित करने के लिए अदृश्य एनोटेशन और वॉटरमार्क हटाएं।",
+        "icon": "eye-off"
+      },
+      {
+        "title": "PDF ऑप्टिमाइज़ेशन",
+        "description": "वेब पर फ़ाइलों को तेज़ी से लोड करने के लिए अनाथ ऑब्जेक्ट्स और अनावश्यक डेटा स्ट्रीम को हटाएं।",
+        "icon": "zap"
+      }
+    ],
+    "faq": [
+      {
+        "question": "यह मानक मेटाडेटा हटाने से कैसे अलग है?",
+        "answer": "मानक टूल केवल शीर्षक या लेखक जैसे बुनियादी फ़ील्ड को साफ़ करते हैं। Deep Sanitizer पूरे PDF xref टेबल को फिर से बनाता है, जिससे PieceInfo, छिपे हुए वॉटरमार्क और ऐतिहासिक क्रमिक संशोधन हट जाते हैं।"
+      },
+      {
+        "question": "क्या यह दस्तावेज़ के लेआउट या टेक्स्ट को प्रभावित करेगा?",
+        "answer": "नहीं, यह केवल छिपे हुए विवरण स्ट्रीम और संरचना डेटा को हटाता है। दृश्यमान लेआउट, टेक्स्ट और ग्राफिक्स अपरिवर्तित रहते हैं।"
+      },
+      {
+        "question": "क्या यह PDF पासवर्ड हटाता है?",
+        "answer": "नहीं, यदि PDF एन्क्रिप्टेड है, तो आपको डीप सैनिटाइजेशन करने से पहले इसे अनलॉक करना होगा।"
+      }
+    ]
+  },
+  "booklet-folding-simulator": {
+    "title": "3D बुकलेट और फोल्डिंग सिम्युलेटर",
+    "metaDescription": "3D भौतिक फोल्डिंग एनीमेशन और सैडल-स्टिच पूर्वावलोकन की विशेषता वाले, मल्टी-पेज PDF को फोल्डेबल प्रिंट शीट में इम्पोज़ करें।",
+    "keywords": [
+      "3D imposition",
+      "folding simulator",
+      "saddle stitch",
+      "book layout",
+      "print proofing"
+    ],
+    "description": "\n      <p>3D बुकलेट और फोल्डिंग सिम्युलेटर प्रिंट डिजाइनरों और प्रकाशन पेशेवरों के लिए डिज़ाइन किया गया एक उन्नत टूल है। पारंपरिक पुस्तक लेआउट में जटिल पृष्ठ ओवरले और इम्पोज़िशन पेजिनेशन अनुक्रमों की गणना की आवश्यकता होती है। यह टूल उस पूरी प्रक्रिया को विज़ुअलाइज़ और स्वचालित करता है।</p>\n      <p>इसके पीछे, हमारा कस्टम इम्पोज़िशन एल्गोरिदम एक क्रमिक PDF पृष्ठ सूची को मानक प्रिंट शीट लेआउट (जैसे 4-पृष्ठ हाफ-फोल्ड, 8-पृष्ठ सैडल-स्टिच, या अकॉर्डियन फोल्ड) में मैप करता है, जो पृष्ठों को बड़ी भौतिक शीट के आगे और पीछे मर्ज करता है।</p>\n      <p>फ्रंट-एंड पर, हम शीट फोल्डिंग को क्षैतिज और लंबवत रूप से एनिमेट करने के लिए शुद्ध CSS 3D मैट्रिक्स ट्रांसफॉर्म और स्प्रिंग-मास फिजिक्स कर्व्स का उपयोग करते हैं, जो उच्च WOW फैक्टर के साथ एक भौतिक-समान बाइंडिंग पूर्वावलोकन प्रदान करता है।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "PDF फ़ाइल अपलोड करें",
+        "description": "प्रिंटिंग के लिए जिस PDF दस्तावेज़ को आप लेआउट करना चाहते हैं, उसे ड्रैग और ड्रॉप करें।"
+      },
+      {
+        "step": 2,
+        "title": "फोल्डिंग लेआउट चुनें",
+        "description": "अपनी पसंदीदा इम्पोज़िशन योजना चुनें (उदा. 4-पृष्ठ फोल्ड, 8-पृष्ठ सैडल स्टिच, 4-पृष्ठ अकॉर्डियन)।"
+      },
+      {
+        "step": 3,
+        "title": "इंटरएक्टिव 3D पूर्वावलोकन",
+        "description": "3D में शीट को फोल्ड होते देखने और अंतिम पेज नंबरिंग लेआउट का निरीक्षण करने के लिए स्लाइडर को खींचें।"
+      },
+      {
+        "step": 4,
+        "title": "इम्पोज़्ड PDF जनरेट करें",
+        "description": "दोहरी तरफा प्रिंटिंग के लिए तैयार, पुनर्गठित और मर्ज की गई भौतिक शीट PDF डाउनलोड करने के लिए जनरेट पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "ब्रोशर प्रोटोटाइपिंग",
+        "description": "प्रिंटिंग के बाद उल्टा पेज होने से रोकने के लिए ट्राई-फोल्ड और पैम्फलेट के फोल्डिंग अनुक्रम को पहले से विज़ुअलाइज़ करें।",
+        "icon": "book-open"
+      },
+      {
+        "title": "बुक सैडल-स्टिचिंग",
+        "description": "मल्टी-पेज पत्रिकाओं या पुस्तिकाओं के लिए स्वचालित रूप से इम्पोज़्ड प्रिंट शीट जनरेट करें।",
+        "icon": "layers"
+      },
+      {
+        "title": "प्रिंट शॉप विज़ुअल एड्स",
+        "description": "ग्राहकों को यह विज़ुअलाइज़ करने में मदद करें कि प्रिंट शीट पर पृष्ठों को भौतिक रूप से कैसे वितरित और फोल्ड किया जाता है।",
+        "icon": "printer"
+      }
+    ],
+    "faq": [
+      {
+        "question": "\"इम्पोज़िशन\" क्या है?",
+        "answer": "इम्पोज़िशन प्रीप्रेस प्रिंटिंग में एक मौलिक चरण है। चूंकि व्यावसायिक प्रेस बड़ी शीटों पर प्रिंट करते हैं, इसलिए पृष्ठों को क्रम से बाहर व्यवस्थित किया जाता है ताकि एक बार मुद्रित, फोल्ड और बाइंड होने के बाद, पृष्ठ सही क्रमिक क्रम में दिखाई दें। यह टूल स्वचालित रूप से उस लेआउट की गणना करता है।"
+      },
+      {
+        "question": "क्या 3D पूर्वावलोकन मेरी PDF सामग्री को बदलता है?",
+        "answer": "नहीं, मूल PDF सामग्री केवल 3D शीट पर टेक्सचर मैपिंग के रूप में प्रस्तुत की जाती है। जनरेट की गई PDF केवल पेज ऑर्डर और प्लेसमेंट को समायोजित करती है; टेक्स्ट और ग्राफिक गुणवत्ता बरकरार रखी जाती है।"
+      },
+      {
+        "question": "यदि मेरी PDF पेज संख्या 4 या 8 की गुणज नहीं है तो क्या होगा?",
+        "answer": "ऑप्टिमाइज़र चयनित फोल्डिंग लेआउट की गणितीय पृष्ठ-संख्या आवश्यकताओं को पूरा करने के लिए अंत में स्वचालित रूप से खाली पृष्ठ जोड़ता है।"
+      }
+    ]
+  },
+  "pdf-to-slide": {
+    "title": "PDF से स्लाइड",
+    "metaDescription": "बुद्धिमानी से PDF रूपरेखा का विश्लेषण करें, वेक्टर चार्ट निकालें, और उन्हें पूरी तरह से संपादन योग्य PPTX प्रस्तुतियों में फिर से तैयार करें।",
+    "keywords": [
+      "PDF to PPT",
+      "slide reconstruction",
+      "chart extraction",
+      "academic presentation",
+      "PPTX compiler"
+    ],
+    "description": "\n      <p>AI PDF-to-Slide Reconstructor स्थिर PDF दस्तावेज़ों में नई जान फूंकता है, उन्हें आधुनिक, अत्यधिक-अनुकूलन योग्य पावरपॉइंट स्लाइडों (PPTX) में बदलता है।</p>\n      <p>यह टूल एक उन्नत लेआउट आउटलाइन एक्सट्रैक्टर का उपयोग करता है जो तार्किक स्लाइड ढांचा स्थापित करने के लिए दस्तावेज़ हेडिंग स्तरों, पैराग्राफ लाइनों और फ़ॉन्ट भार को स्वचालित रूप से पार्स करता है। यह वेक्टर चार्ट और उच्च-रिज़ॉल्यूशन तालिकाओं को भी अलग करता है, पृष्ठभूमि कलाकृतियों को हटाकर उन्हें स्वतंत्र संपादन योग्य संपत्तियों के रूप में साफ़ तौर पर एम्बेड करता है।</p>\n      <p>सभी PPTX आउटपुट मानक Office Open XML तत्वों का उपयोग करके बनाए गए हैं, जिसका अर्थ है कि सभी टेक्स्ट पूरी तरह से संपादन योग्य रहते हैं और वेक्टर रिज़ॉल्यूशन नहीं खोते हैं। फ्रंट-एंड एक तरल \"स्टारफ़ील्ड\" कार्ड ट्रांज़िशन एनीमेशन प्रदर्शित करता है जो एक आकर्षक तरीके से पुनर्निर्माण को विज़ुअलाइज़ करता है।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "अकादमिक/व्यावसायिक PDF अपलोड करें",
+        "description": "संरचित अनुभागों और आरेखों वाले PDF दस्तावेज़ को अपलोड करें।"
+      },
+      {
+        "step": 2,
+        "title": "स्लाइड आउटलाइन का विश्लेषण करें",
+        "description": "निकले गए स्लाइड ढांचे का निरीक्षण करें, शीर्षकों को समायोजित करें, या अनावश्यक कार्ड ब्लॉक हटाएं।"
+      },
+      {
+        "step": 3,
+        "title": "PPTX में पुनर्निर्माण करें",
+        "description": "एक मानक, संपादन योग्य प्रेजेंटेशन फ़ाइल प्राप्त करने के लिए संकलन इंजन शुरू करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "रिसर्च पेपर प्रेजेंटेशन",
+        "description": "अकादमिक जर्नल PDF, टेक्स्ट संरचनाओं और वेक्टर आरेखों को प्रस्तुति के लिए तैयार स्लाइड डेक में परिवर्तित करें।",
+        "icon": "graduation-cap"
+      },
+      {
+        "title": "बिजनेस रिपोर्ट सारांश",
+        "description": "विशाल वार्षिक कॉर्पोरेट रिपोर्टों को तुरंत साफ-सुथरे, बुलेटेड प्रेजेंटेशन ड्राफ्ट में बदलें।",
+        "icon": "presentation"
+      },
+      {
+        "title": "मल्टी-डिवाइस डेमो",
+        "description": "मैन्युअल रूप से स्क्रीनशॉट कॉपी करने से बचें। सेकंडों में एक साफ़, पूरी तरह से एडिटेबल लेआउट फ्रेमवर्क पाएं।",
+        "icon": "laptop"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या स्लाइड्स Microsoft Office में एडिट करने योग्य हैं?",
+        "answer": "हाँ। फ़ाइलें आधिकारिक Office Open XML (OOXML) विनिर्देश के अनुसार मेमोरी में ही जनरेट की जाती हैं। PowerPoint, Keynote और WPS में टेक्स्ट, टेबल और प्लेसहोल्डर पूरी तरह से इंटरैक्टिव हैं।"
+      },
+      {
+        "question": "चार्ट कैसे निकाले (extract) जाते हैं?",
+        "answer": "इंजन PDF में वेक्टर पाथ और रास्टर लेयर्स को स्कैन करता है, ग्राफ का प्रतिनिधित्व करने वाले बाउंडेड क्षेत्रों का पता लगाता है, और उन्हें स्टैंडअलोन SVG नोड्स या हाई-DPI इमेजेस के रूप में अलग करता है।"
+      },
+      {
+        "question": "क्या यह स्कैन किए गए दस्तावेज़ों पर काम करता है?",
+        "answer": "वास्तविक टेक्स्ट लेयर की कमी वाले स्कैन किए गए PDFs के लिए, हम फ़ाइल को Slide Reconstructor में भेजने से पहले अपने OCR टूल को चलाने की सलाह देते हैं।"
+      }
+    ]
+  },
+  "form-logic-designer": {
+    "title": "फ़ॉर्म लॉजिक डिज़ाइनर",
+    "metaDescription": "ग्लास्मॉर्फिक नोड कैनवास का उपयोग करके डायनेमिक व्यवहार डिज़ाइन करें और PDF फ़ॉर्म में इंटरैक्टिव AcroJS लॉजिक इंजेक्ट करें।",
+    "keywords": [
+      "PDF form logic",
+      "AcroJS injection",
+      "node flow",
+      "interactive PDF",
+      "field dependencies"
+    ],
+    "description": "\n      <p>Interactive Form Logic Designer एक क्रांतिकारी टूल है जो PDF क्षमताओं में एक बड़े अंतर को भरता है: फ्लैट, बेजान फ़ॉर्म के बजाय एक्टिव, रिस्पॉन्सिव फ़ील्ड बनाना।</p>\n      <p>\"ग्लोइंग ग्लास्मॉर्फिक नोड्स\" (React Flow पर निर्मित) वाले हमारे विजुअल कैनवास के माध्यम से, फ़ॉर्म फ़ील्ड्स को कनेक्टेड मॉड्यूल के रूप में दर्शाया जाता है। संबंधों को परिभाषित करने के लिए आप लिंक खींच सकते हैं: जैसे, जब एक चेकबॉक्स चेक किया जाता है ➜ एक टेक्स्ट इनपुट सक्षम करें ➜ मानों की स्वचालित गणना करें और कुल फ़ील्ड अपडेट करें।</p>\n      <p>एक बार डिज़ाइन हो जाने पर, AcroJS इंजन लॉजिक को आधिकारिक Acrobat JavaScript में कंपाइल करता है और इसे AcroForm की '/AA' (अतिरिक्त क्रियाएं) डिक्शनरी में इंजेक्ट करता है। इसके बाद इंटरैक्टिव व्यवहार किसी भी मानक PDF रीडर के अंदर मूल रूप से निष्पादित होते हैं।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "इंटरैक्टिव PDF अपलोड करें",
+        "description": "एक ऐसी PDF फ़ाइल प्रदान करें जिसमें पहले से ही एक्टिव फ़ॉर्म फ़ील्ड (AcroForm) हों।"
+      },
+      {
+        "step": 2,
+        "title": "कैनवास में लॉजिक को मैप करें",
+        "description": "फ़ील्ड्स को नोड्स के रूप में कनेक्ट करें। आउटपुट इवेंट्स (change, blur) को लक्षित क्रियाओं (show, hide, calculate, disable) से लिंक करें।"
+      },
+      {
+        "step": 3,
+        "title": "कंपाइल और डाउनलोड करें",
+        "description": "कंपाइल किए गए JavaScript लॉजिक को PDF डिक्शनरी में इंजेक्ट करें और अंतिम स्मार्ट दस्तावेज़ सहेजें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "स्मार्ट सेल्स कॉन्ट्रैक्ट्स",
+        "description": "ग्राहक की चयनित शर्तों के आधार पर पूरक इनपुट फ़ील्ड्स को डायनेमिक रूप से दिखाएं या छुपाएं।",
+        "icon": "file-signature"
+      },
+      {
+        "title": "स्वचालित खर्च फ़ॉर्म",
+        "description": "मैन्युअल गणना के बिना कई खर्च लाइनों का योग करें और डायनेमिक रूप से करों की गणना करें।",
+        "icon": "calculator"
+      },
+      {
+        "title": "इंटरैक्टिव प्रश्नावली",
+        "description": "पिछले उत्तरों के आधार पर अप्रासंगिक प्रश्नों को छोड़ें, जिससे मोबाइल पर फ़ॉर्म भरने का एक स्वच्छ अनुभव मिलता है।",
+        "icon": "form-input"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या मुझे पहले से मौजूद फ़ील्ड्स वाली PDF की आवश्यकता है?",
+        "answer": "हाँ। यह टूल मौजूदा फ़ील्ड्स में लॉजिकल नियम बांधने के लिए डिज़ाइन किया गया है। यदि आपकी PDF में इंटरैक्टिव फ़ील्ड नहीं हैं, तो पहले इनपुट और चेक बॉक्स जोड़ने के लिए हमारे Form Creator टूल का उपयोग करें।"
+      },
+      {
+        "question": "क्या यह लॉजिक किसी भी PDF रीडर पर चलेगा?",
+        "answer": "यह उन सभी PDF रीडर्स पर चलता है जो Adobe PDF मानकों का अनुपालन करते हैं और Acrobat JavaScript का समर्थन करते हैं (जैसे Adobe Acrobat Reader, Foxit Reader, और प्रमुख वेब ब्राउज़र)। न्यूनतम (Minimalist) मोबाइल रीडर केवल बुनियादी क्रियाओं का ही समर्थन कर सकते हैं।"
+      },
+      {
+        "question": "क्या यह कागजी प्रिंटिंग को प्रभावित करता है?",
+        "answer": "बिल्कुल नहीं। इंजेक्ट की गई स्क्रिप्ट केवल फ़ॉर्म पूरा करने के दौरान स्क्रीन पर चलती हैं। प्रिंट करते समय, फ़ील्ड्स की वर्तमान स्थिति बिना किसी नोड विज़ुअलाइज़ेशन के स्थिर रूप से प्रिंट होती है।"
+      }
+    ]
+  },
+  "eink-optimizer": {
+    "title": "e-Ink रीडर ऑप्टिमाइज़र",
+    "metaDescription": "बैकग्राउंड क्लियरिंग, Otsu binarization, और मॉर्फोलॉजिकल टेक्स्ट डिलेशन के माध्यम से e-Ink स्क्रीन के लिए PDFs को ऑप्टिमाइज़ करें।",
+    "keywords": [
+      "eink optimizer",
+      "binarization",
+      "text bolding",
+      "eye-friendly reading",
+      "otsu threshold"
+    ],
+    "description": "\n      <p>e-Ink Reader Optimizer, Kindle, Onyx Boox, Kobo या अन्य e-paper उपकरणों का उपयोग करने वाले e-Reader के शौकीनों के लिए विशेष रूप से बनाया गया एक अति आवश्यक टूल है।</p>\n      <p>कई स्कैन की गई PDF ई-पुस्तकों को e-Ink स्क्रीन पर देखे जाने पर धुंधले अक्षर, मटमैले भूरे रंग के बैकग्राउंड, नॉइज़ या स्कैन शैडो का सामना करना पड़ता है। यह टूल ग्रे-वैल्यू हिस्टोग्राम का विश्लेषण करता है और टेक्स्ट को बैकग्राउंड से अलग करने के लिए Otsu Binarization Thresholding लागू करता है, जिससे ग्रे बैकग्राउंड साफ सफेद रंग में बदल जाता है।</p>\n      <p>इसके अतिरिक्त, यह पतले, फीके अक्षरों को बोल्ड और मोटा करने के लिए मॉर्फोलॉजिकल डिलेशन को एकीकृत करता है, जो स्पष्ट, उच्च-कंट्रास्ट टाइपोग्राफी प्रदान करता है। जड़ता-मंदित (inertia-damped) कंट्रास्ट स्लाइडर आपको वास्तविक समय में कागज जैसे कंट्रास्ट को ठीक से ट्यून करने की अनुमति देता है।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "स्कैन की गई PDF अपलोड करें",
+        "description": "फीके टेक्स्ट या ग्रे बैकग्राउंड वाली ई-बुक्स या स्कैन किए गए दस्तावेज़ अपलोड करें।"
+      },
+      {
+        "step": 2,
+        "title": "कंट्रास्ट स्लाइडर को एडजस्ट करें",
+        "description": "वास्तविक समय में बैकग्राउंड हटाने और अक्षरों को बोल्ड करने में संतुलन बनाने के लिए डैम्प किए गए स्लाइडर को ड्रैग करें।"
+      },
+      {
+        "step": 3,
+        "title": "ऑप्टिमाइज़ करें और डाउनलोड करें",
+        "description": "e-Ink के लिए अनुकूलित उच्च-कंट्रास्ट, आंखों के लिए आरामदायक दस्तावेज़ जनरेट करने के लिए पूरी PDF को प्रोसेस करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "प्राचीन पांडुलिपि जीर्णोद्धार",
+        "description": "ऐतिहासिक पुस्तकों या हस्तलिखित पांडुलिपियों के स्कैन में फीके पड़े टेक्स्ट को पढ़ने योग्य बनाने के लिए मोटा करें।",
+        "icon": "scroll"
+      },
+      {
+        "title": "परीक्षा शीट क्लीन-अप",
+        "description": "फ़ोटोकॉपी किए गए या फ़ोटो लिए गए परीक्षा पत्रों से बैकग्राउंड शैडो को हटाकर, सफेद कागज पर साफ़ काला टेक्स्ट वापस लाएं।",
+        "icon": "file-text"
+      },
+      {
+        "title": "E-paper डिवाइस अनुकूलन",
+        "description": "रंगीन PDFs को ऑप्टिमाइज़ किए गए ग्रेस्केल में बदलें, जिससे मोनोक्रोम स्क्रीन पर अव्यवस्थित, डिथरिंग कलाकृतियाँ (artifacts) न आएं।",
+        "icon": "tablet"
+      }
+    ],
+    "faq": [
+      {
+        "question": "\"अक्षरों को बोल्ड करना\" (character bolding) कैसे काम करता है?",
+        "answer": "इमेज प्रोसेसिंग में इसे डिलेशन (dilation) कहा जाता है। यह कैरेक्टर मार्जिन को एक पिक्सेल तक विस्तारित करने के लिए एक स्ट्रक्चरिंग मैट्रिक्स का उपयोग करता है, जिससे फीके स्ट्रोक भौतिक रूप से मोटे हो जाते हैं ताकि वे पठनीय बन सकें।"
+      },
+      {
+        "question": "क्या इस प्रक्रिया से फ़ाइल का आकार बढ़ जाएगा?",
+        "answer": "इसके बिल्कुल विपरीत। जटिल रंगीन/ग्रेस्केल छवियों को साधारण ब्लैक-एंड-व्हाइट लेआउट में बाइनराइज़ करके, मानक संपीड़न (जैसे CCITT Group 4) PDF फ़ाइल आकार को काफी कम कर सकता है।"
+      },
+      {
+        "question": "क्या यह मूल (native) टेक्स्ट PDFs का समर्थन करता है?",
+        "answer": "हाँ। नेटिव वेक्टर PDFs पृष्ठभूमि में उच्च रिज़ॉल्यूशन पर रास्टराइज किए जाते हैं, ऑप्टिमाइज़ किए जाते हैं और वापस कंपाइल किए जाते हैं, जिससे एकीकृत उच्च-कंट्रास्ट पढ़ना सुनिश्चित होता है।"
+      }
+    ]
+  },
+  "cert-cryptor": {
+    "title": "सर्टिफिकेट एन्क्रिप्ट और साइन",
+    "metaDescription": "असिमेट्रिक पब्लिक-की सर्टिफिकेट एन्क्रिप्शन का उपयोग करके PDF को सुरक्षित करें, साथ ही 3D गोल्ड वैक्स-सील छाप और PKCS#7 हस्ताक्षर जोड़ें।",
+    "keywords": [
+      "certificate encryption",
+      "wax seal signature",
+      "digital signature",
+      "asymmetric crypt",
+      "PKCS7 signature"
+    ],
+    "description": "\n      <p>3D Wax-Seal & Certificate Cryptor संवेदनशील कॉर्पोरेट फ़ाइलों, डिग्रियों या समझौतों के लिए मिलिट्री-ग्रेड सुरक्षा और प्रीमियम फिजिकल-ग्रेड सौंदर्यशास्त्र प्रदान करता है।</p>\n      <p>तकनीकी रूप से, यह असिमेट्रिक पब्लिक-की एन्क्रिप्शन प्रदान करता है: केवल मैचिंग प्राइवेट की (.pfx) का धारक ही इसे डिक्रिप्ट कर सकता है। यह दस्तावेज़ की छेड़छाड़-मुक्त अखंडता सुनिश्चित करने के लिए मानक PKCS#7 डिजिटल हस्ताक्षर भी उत्पन्न करता है।</p>\n      <p>दृश्य रूप से, हम एक 3D फिजिकल गोल्ड या रेड वैक्स-सील स्टैम्प प्रस्तुत करते हैं। जब आप साइन करते हैं, तो एक सुंदर रूप से रेंडर किया गया स्टैम्प एक संतोषजनक मैकेनिकल ध्वनि के साथ नीचे आता है, जो पृष्ठ पर यथार्थवादी नॉर्मल-मैप की गई ऊंचाई विविधताओं और वैक्स के फैलाव के साथ एक 3D वैक्स सील छोड़ता है, जो चमकते हुए क्रिप्टोग्राफिक ट्रैक्स से घिरा होता है।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "PDF और Cert अपलोड करें",
+        "description": "अपना PDF जोड़ें और अपना साइनिंग सर्टिफिकेट (.pfx) या प्राप्तकर्ता का पब्लिक सर्टिफिकेट (.cer) इम्पोर्ट करें।"
+      },
+      {
+        "step": 2,
+        "title": "3D स्टैम्प रखें",
+        "description": "डॉक्यूमेंट प्रिव्यू पर सील को ड्रैग करके रखें, और एक वैक्स स्टाइल चुनें (जैसे, गोल्ड, क्रिमसन)।"
+      },
+      {
+        "step": 3,
+        "title": "प्रेस करें और साइन करें",
+        "description": "फिजिकल-ग्रेड डिजिटल हस्ताक्षर उत्पन्न करने वाली 3D वैक्स-सील इम्प्रिंट प्रक्रिया को देखने के लिए एक्ज़ीक्यूट पर क्लिक करें।"
+      },
+      {
+        "step": 4,
+        "title": "सुरक्षित PDF डाउनलोड करें",
+        "description": "आउटपुट दस्तावेज़ को सहेजें, जो अब क्रिप्टोग्राफिक रूप से लॉक और स्टैम्प्ड है।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "डिप्लोमा और सर्टिफिकेट",
+        "description": "असली डिजिटल हस्ताक्षरों द्वारा समर्थित, डिजिटल डिप्लोमा और पुरस्कारों पर अत्यधिक मूल्यवान 3D वैक्स सील बैज लगाएं।",
+        "icon": "award"
+      },
+      {
+        "title": "गोपनीय समझौते",
+        "description": "क्लाइंट के पब्लिक सर्टिफिकेट का उपयोग करके संवेदनशील अनुबंधों को लॉक करें ताकि केवल उनका सुरक्षित फिजिकल कीकार्ड ही इसे अनलॉक कर सके।",
+        "icon": "shield-alert"
+      },
+      {
+        "title": "आधिकारिक प्रेस विज्ञप्तियां",
+        "description": "दुर्भावनापूर्ण टेक्स्ट संपादनों या स्पूफिंग को रोकने के लिए सार्वजनिक घोषणाओं पर डिजिटल रूप से हस्ताक्षर करें।",
+        "icon": "stamp"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या वैक्स सील केवल एक छवि है या एक वास्तविक हस्ताक्षर?",
+        "answer": "दोनों। सिस्टम नॉर्मल-मैप की गई गहराई (विजुअल लेयर) के साथ एक अविश्वसनीय रूप से यथार्थवादी 3D वैक्स छाप को रेंडर करता है और PDF (डेटा लेयर) के अंदर एक प्रामाणिक, छेड़छाड़-रोधी PKCS#7 क्रिप्टोग्राफिक हस्ताक्षर को एन्कोड करता है।"
+      },
+      {
+        "question": "\"सर्टिफिकेट-आधारित एन्क्रिप्शन\" क्या है?",
+        "answer": "यह एक पासवर्ड-रहित एन्क्रिप्शन तकनीक है। आप प्राप्तकर्ता की पब्लिक की का उपयोग करके फ़ाइल को एन्क्रिप्ट करते हैं। फ़ाइल को सुचारू रूप से डिक्रिप्ट करने के लिए रीडर स्वचालित रूप से उनके स्थानीय प्राइवेट सर्टिफिकेट की खोज करता है, जिससे मजबूत सुरक्षा सुनिश्चित होती है।"
+      },
+      {
+        "question": "क्या मैं स्टैम्प डिज़ाइन को कस्टमाइज़ कर सकता हूं?",
+        "answer": "हां। हम PDFCraft वॉटरमार्क या रॉयल क्रेस्ट जैसे कई डिज़ाइन प्रदान करते हैं, और आप पैनल में वैक्स के पिघलने के दायरे और नॉर्मल-मैप इंडेंटेशन गहराई को समायोजित कर सकते हैं।"
+      }
+    ]
+  },
+  "passport-id-composer": {
+    "title": "डबल-साइडेड ID कंपोज़र",
+    "metaDescription": "वैकल्पिक एंटी-काउंटरफिट (नकली-रोधी) वॉटरमार्क के साथ ID कार्ड या पासपोर्ट के दोनों आगे और पीछे के पक्षों को तुरंत एक ही A4 पेज पर कंपोज़ करें।",
+    "keywords": [
+      "ID card composer",
+      "passport imposition",
+      "A4 double-sided copy",
+      "identity card printing",
+      "anti-counterfeit watermark"
+    ],
+    "description": "\n      <p>Passport & ID Double-sided Composer मानक व्यावसायिक और व्यक्तिगत कार्यों के लिए अत्यधिक उपयोगी उत्पादकता टूल है।</p>\n      <p>बैंक खातों के लिए आवेदन करते समय, ऑनबोर्डिंग या समझौतों पर हस्ताक्षर करते समय, हमें अक्सर ID कार्ड के दोनों पक्षों की प्रतियों की आवश्यकता होती है। यह टूल फ्रंट/बैक छवियों या PDF पृष्ठों को स्वीकार करता है और राष्ट्रीय मानक लेआउट रेजोल्यूशन का अनुपालन करते हुए उन्हें एक ही A4 पृष्ठ पर सटीक रूप से व्यवस्थित करता है।</p>\n      <p>इसके अलावा, आप अनधिकृत दस्तावेज़ पुनरुपयोग को रोकने के लिए ओवरलैपिंग पारभासी एंटी-काउंटरफिट वॉटरमार्क (जैसे \"FOR ONBOARDING ONLY\") को कस्टमाइज़ कर सकते हैं। इसमें प्रीमियम फीडबैक देने के लिए 3D ग्लो लेजर स्वीप कॉपीयर स्कैनर डोर विजुअल इफ़ेक्ट भी है।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "ID फ़ाइलें अपलोड करें",
+        "description": "अपनी ID या पासपोर्ट के आगे और पीछे के फोटो/स्कैन अपलोड करें (2 फ़ाइलों तक)।"
+      },
+      {
+        "step": 2,
+        "title": "सुरक्षित वॉटरमार्क कॉन्फ़िगर करें",
+        "description": "अनधिकृत दस्तावेज़ प्रतिकृति को रोकने के लिए कस्टम टेक्स्ट ओवरले दर्ज करें।"
+      },
+      {
+        "step": 3,
+        "title": "कंपोज़ करें और डाउनलोड करें",
+        "description": "एक एकल-पृष्ठ प्रिंट-रेडी A4 PDF उत्पन्न करने के लिए एक्ज़ीक्यूट पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "HR ऑनबोर्डिंग सबमिशन",
+        "description": "कर्मचारी ID प्रतियों को तुरंत संरेखित करें और सुरक्षात्मक वॉटरमार्क लागू करें।",
+        "icon": "user"
+      },
+      {
+        "title": "सरकारी और बैंकिंग सेवा",
+        "description": "मानकीकृत ID प्रिंट तैयार करें जो भौतिक संग्रह आवश्यकताओं को पूरा करते हैं।",
+        "icon": "landmark"
+      },
+      {
+        "title": "ट्रैवल बैकअप",
+        "description": "पासपोर्ट पृष्ठों और वीज़ा विवरणों को एक एकीकृत A4 कागज़ पर व्यवस्थित करें।",
+        "icon": "plane"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या वॉटरमार्क पहचान संबंधी टेक्स्ट विवरणों को बाधित करेंगे?",
+        "answer": "नहीं। टेक्स्ट या फोटो फ़ील्ड की पठनीयता का त्याग किए बिना जालसाजी को रोकने के लिए वॉटरमार्क को सावधानीपूर्वक ट्यून की गई 15% अपारदर्शिता (opacity) पर रेंडर किया जाता है।"
+      },
+      {
+        "question": "क्या कंपोज़िट कार्ड का आकार सटीक है?",
+        "answer": "हां। यह ID कार्ड को A4 पृष्ठ पर पूरी तरह से स्केल करके 85.6mm × 54mm के मानक भौतिक आयाम पर रेंडर करता है।"
+      },
+      {
+        "question": "क्या यह ड्राइविंग लाइसेंस का समर्थन करता है?",
+        "answer": "हां, यह किसी भी कार्ड-आधारित पहचान स्कैन के लिए बेहतरीन तरीके से काम करता है।"
+      }
+    ]
+  },
+  "annotation-exporter": {
+    "title": "एनोटेसन्स एक्सपोर्ट करें",
+    "metaDescription": "PDF टिप्पणियों, नोट्स, हाइलाइट्स और अंडरलाइंस को एक्सट्रेक्ट करें, और आउटलाइन अध्यायों के साथ संरेखित करते हुए उन्हें Markdown/JSON नोटबुक में संरचित करें।",
+    "keywords": [
+      "export annotations",
+      "extract pdf highlights",
+      "pdf reader notes",
+      "markdown outline notebooks",
+      "study summary helper"
+    ],
+    "description": "\n      <p>Smart Annotation Exporter एक शक्तिशाली वर्कस्पेस है जो आपके PDF एनोटेशन्स से पूर्ण मूल्य अनलॉक करता है।</p>\n      <p>साहित्य समीक्षा करते समय या व्यापक ई-बुक्स पढ़ते समय, हम हाइलाइट्स और स्टिकी नोट्स का भारी उपयोग करते हैं। यह टूल लो-लेवल PDF <code>/Annots</code> डिक्शनरी को डिसेरिएलाइज़ करता है और सभी हाइलाइट्स, नोट्स, अंडरलाइंस और हाथ से बनाए गए इंक मार्कर्स को एक्सट्रेक्ट करता है।</p>\n      <p>यह स्वचालित रूप से टिप्पणियों को उनके संबंधित आउटलाइन हेडर के साथ संरेखित करता है, पृष्ठ संदर्भ एंकरों के साथ एक संरचित Markdown या JSON नोटबुक बनाता है। अपने हाइलाइट्स को फ्रॉस्टेड-ग्लास नोटबुक पैनल में सुंदर रूप से तैरते हुए देखें।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "एनोटेटेड PDF इम्पोर्ट करें",
+        "description": "अपनी अंडरलाइंस, हाइलाइट्स या टिप्पणियों वाला कोई भी PDF निबंध या पुस्तक अपलोड करें।"
+      },
+      {
+        "step": 2,
+        "title": "फ़िल्टर और फ़ॉर्मेट कॉन्फ़िगर करें",
+        "description": "उन एनोटेशन प्रकारों को चुनें जिन्हें आप एक्सट्रैक्ट करना चाहते हैं और Markdown या JSON चुनें।"
+      },
+      {
+        "step": 3,
+        "title": "नोटबुक एक्सट्रैक्ट करें",
+        "description": "कमेंट्स स्ट्रीम को पार्स करने और अपनी आउटलाइन सारांश को असेंबल करने के लिए 'निष्पादित करें' (execute) पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "वैज्ञानिक साहित्य संश्लेषण",
+        "description": "साहित्य समीक्षाओं को तुरंत तैयार करने के लिए कई शोध पत्रों से रीडिंग नोट्स को Markdown टेम्प्लेट में एक्सट्रैक्ट करें।",
+        "icon": "graduation-cap"
+      },
+      {
+        "title": "अध्ययन जर्नल संकलन",
+        "description": "पाठ्यपुस्तकों से उपयोगी अंतर्दृष्टि और व्यक्तिगत टिप्पणियों को Obsidian डेटाबेस में एकत्र करें।",
+        "icon": "book"
+      },
+      {
+        "title": "दस्तावेज़ सहयोगात्मक ऑडिट",
+        "description": "विभिन्न टीम सदस्यों से समीक्षा सुधारों को एकत्र करें और कार्रवाई योग्य कार्य सूचियां बनाएं।",
+        "icon": "users"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या यह टैबलेट से हाथ से बनाए गए इंक स्ट्रोक को एक्सट्रैक्ट कर सकता है?",
+        "answer": "हां। जब तक हाथ से बनाए गए निशान मानक PDF इंक एनोटेशन के रूप में संग्रहीत हैं, तब तक यह टूल उनकी पेज स्थितियों को पूरी तरह से अलग और व्यवस्थित कर सकता है।"
+      },
+      {
+        "question": "कुछ हाइलाइट किए गए अंश खाली क्यों हैं?",
+        "answer": "यदि PDF एक गैर-खोज योग्य इमेज स्कैन है जिसमें मूल टेक्स्ट नहीं है, तो हाइलाइट केवल निर्देशांक (coordinates) संग्रहीत करते हैं। पहले PDF पर OCR चलाएं, फिर एनोटेशन एक्सट्रैक्ट करें।"
+      },
+      {
+        "question": "क्या Markdown लिंक वापस PDF पर ले जाते हैं?",
+        "answer": "निर्यात (exported) की गई फ़ाइल सटीक पेज नंबर और मूल आउटलाइन शीर्षक सूचीबद्ध करती है ताकि क्रॉस-संदर्भ सहज हो सके।"
+      }
+    ]
+  },
+  "batch-watermark-remover": {
+    "title": "बल्क में वाटरमार्क हटाएं",
+    "metaDescription": "लेआउट को खराब किए बिना PDF कंटेंट स्ट्रीम से वाटरमार्क स्ट्रिंग्स और XObject इमेज को भौतिक रूप से हटाएं।",
+    "keywords": [
+      "remove watermark",
+      "pdf watermark eraser",
+      "content stream purge",
+      "batch watermark cleaning",
+      "remove draft watermark"
+    ],
+    "description": "\n      <p>बैच वाटरमार्क रिमूवर एक अत्याधुनिक PDF सैनिटाइज़र है जो दस्तावेज़ों को भौतिक रूप से साफ़ करता है।</p>\n      <p>सामान्य वाटरमार्क रिमूवर आमतौर पर केवल सफ़ेद ब्लॉक ओवरले करते हैं या दस्तावेज़ के स्पेसिंग को विकृत करते हैं। यह टूल एक मजबूत <strong>Content Stream Purge</strong> तकनीक का उपयोग करता है।</p>\n      <p>यह प्रत्येक पेज के निम्न-स्तरीय रेंडरिंग ऑपरेटरों को पार्स करता है, विशिष्ट वाटरमार्क स्ट्रिंग कमांड (जैसे \"Confidential\", \"DRAFT\") या बैकग्राउंड इमेज ऑब्जेक्ट्स की पहचान करता है, और उन्हें भौतिक रूप से हटा देता है या ओवरराइट कर देता है। मूल फ़ॉर्मेटिंग और वेक्टर गुणवत्ता को सुरक्षित रखते हुए वाटरमार्क पूरी तरह से गायब हो जाते हैं।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "वाटरमार्क वाली फ़ाइल अपलोड करें",
+        "description": "व्यावसायिक लोगो या सुरक्षा लेबल दिखाने वाला PDF दस्तावेज़ प्रदान करें।"
+      },
+      {
+        "step": 2,
+        "title": "लक्ष्य वाटरमार्क परिभाषित करें",
+        "description": "हटाने के लिए सटीक स्ट्रिंग दर्ज करें, या पारभासी (translucent) XObject इमेज क्लीनअप टॉगल करें।"
+      },
+      {
+        "step": 3,
+        "title": "भौतिक पर्ज (physical purge) चलाएं",
+        "description": "उच्च निष्ठा (high fidelity) के साथ कंटेंट ऑपरेटरों को साफ़ करने के लिए निष्पादित करें पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "कॉर्पोरेट संपत्तियों को संग्रहीत करना",
+        "description": "सामान्य सार्वजनिक वितरण के लिए अमान्य \"Confidential\" या \"Draft\" वाटरमार्क हटाएं।",
+        "icon": "archive"
+      },
+      {
+        "title": "पृष्ठभूमि की अव्यवस्था साफ़ करना",
+        "description": "पाठकों का ध्यान भटकाने वाली भारी बैकग्राउंड तस्वीरों को साफ़ करें।",
+        "icon": "eye"
+      },
+      {
+        "title": "दस्तावेज़ का पुन: उपयोग",
+        "description": "नए कॉर्पोरेट टेम्प्लेट आसानी से लागू करने के लिए पुराने पेज फ़ुटर ब्रांडिंग तत्वों को साफ़ करें।",
+        "icon": "copy"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या हटाए गए (purged) वाटरमार्क वापस प्राप्त किए जा सकते हैं?",
+        "answer": "नहीं। विज़ुअल मास्क के विपरीत, हम ऑपरेटरों को मिटाने के लिए पेज बाइनरी स्ट्रीम को फिर से लिखते हैं, जिससे कोई निशान नहीं रहता।"
+      },
+      {
+        "question": "क्या यह जटिल ग्रेडिएंट्स का समर्थन करता है?",
+        "answer": "यदि वाटरमार्क एक अलग टेक्स्ट नोड या इमेज XObject के रूप में संग्रहीत है, तो टूल इसे अलग कर सकता है और भौतिक रूप से साफ़ कर सकता है।"
+      },
+      {
+        "question": "क्या यह सामान्य पेज टेक्स्ट में बदलाव करेगा?",
+        "answer": "नहीं। स्क्रबिंग इंजन केवल निर्दिष्ट वाटरमार्क हस्ताक्षर से मेल खाने वाले ऑपरेटरों को लक्षित करता है; सामान्य टेक्स्ट अछूता रहता है।"
+      }
+    ]
+  },
+  "smart-data-redactor": {
+    "title": "संवेदनशील डेटा रेडैक्शन",
+    "metaDescription": "फ़ोन नंबर, ईमेल और ID का स्वचालित रूप से पता लगाएं, अपारदर्शी (opaque) मास्क ओवरले करें, और अंतर्निहित टेक्स्ट स्ट्रीम को भौतिक रूप से मिटा दें।",
+    "keywords": [
+      "automatic redaction",
+      "redact privacy pdf",
+      "erase email pdf",
+      "mask phone numbers",
+      "gdpr compliance tool"
+    ],
+    "description": "\n      <p>स्मार्ट प्राइवेसी डेटा रेडैक्टर एक स्वचालित टूल है जिसे मजबूत दस्तावेज़ गोपनीयता अनुपालन सुनिश्चित करने के लिए डिज़ाइन किया गया है।</p>\n      <p>सामान्य एडिटर्स में केवल काले रंग के बॉक्स ओवरले करना असुरक्षित है क्योंकि अंतर्निहित टेक्स्ट को अभी भी कॉपी किया जा सकता है। यह टूल वास्तविक <strong>NLP pattern matching and physical content stream sanitization</strong> लागू करता है।</p>\n      <p>यह ईमेल, फ़ोन नंबर, SSN, या कस्टम कीवर्ड के लिए दस्तावेज़ को स्कैन करता है, निर्देशांकों पर एक प्रीमियम मैट ब्लैक मास्क लगाता है, और कॉपी-पेस्ट लीक को रोकते हुए कैरेक्टर स्ट्रीम को <code>[REDACTED]</code> से स्थायी रूप से ओवरराइट करता है।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "लक्ष्य PDF अपलोड करें",
+        "description": "ग्राहकों के संवेदनशील विवरण दिखाने वाला अनुबंध या विवरण (statement) प्रदान करें।"
+      },
+      {
+        "step": 2,
+        "title": "रेडैक्शन नियम चुनें",
+        "description": "लक्ष्य पैटर्न (ईमेल, फ़ोन, ID) जांचें या कस्टम संवेदनशील शब्द परिभाषित करें।"
+      },
+      {
+        "step": 3,
+        "title": "ऑटो रेडैक्ट और डाउनलोड करें",
+        "description": "सुरक्षित मास्क ओवरले करने और टेक्स्ट स्ट्रीम मिटाने के लिए 'निष्पादित करें' पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "व्यावसायिक समझौतों को साझा करना",
+        "description": "व्यक्तिगत वेतन, फ़ोन नंबर या ईमेल छिपाकर व्यावसायिक दस्तावेज़ों को सुरक्षित रूप से प्रकाशित करें।",
+        "icon": "file-signature"
+      },
+      {
+        "title": "रिज्यूमे डेटाबेस अनामकरण",
+        "description": "सख्त गोपनीयता नियमों का पालन करने के लिए आवेदकों के नाम, संपर्क जानकारी या पते हटा दें।",
+        "icon": "user-check"
+      },
+      {
+        "title": "वित्तीय विवरण वितरण",
+        "description": "रिपोर्ट प्रकाशित करने से पहले विशिष्ट लेजर नंबर या शेयरधारकों के नाम छिपाएं।",
+        "icon": "pie-chart"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या रेडैक्ट किए गए विवरण सचमुच कॉपी न किए जाने योग्य हैं?",
+        "answer": "हाँ। हम अक्षरों को मिटाने के लिए पेज कंटेंट स्ट्रीम को फिर से लिखते हैं। रेडैक्ट किए गए बॉक्स से कॉपी-पेस्ट करने पर केवल \"[REDACTED]\" स्ट्रिंग ही एक्सट्रैक्ट होगी।"
+      },
+      {
+        "question": "क्या यह स्कैन किए गए इमेज PDFs के लिए काम करता है?",
+        "answer": "यह टूल वेक्टर टेक्स्ट स्ट्रीम को टारगेट करता है। स्कैन की गई इमेज फाइलों के लिए, पहले हमारे OCR टूल का उपयोग करें या मैन्युअल रूप से क्रॉप करें।"
+      },
+      {
+        "question": "क्या लाल HUD टारगेट स्कोप फाइल में सेव होता है?",
+        "answer": "नहीं, वह एक शानदार फ्रंटएंड इंटरैक्टिव लोडिंग इफेक्ट है। आउटपुट PDF मानक साफ काले आयत प्रदर्शित करता है।"
+      }
+    ]
+  },
+  "bookmarks-auto-generator": {
+    "title": "बुकमार्क्स ऑटो जनरेट करें",
+    "metaDescription": "/Outline बुकमार्क कैटलॉग जनरेट और इंजेक्ट करने के लिए दस्तावेज़ लेआउट पदानुक्रम और regex पैटर्न (जैसे Chapter) का विश्लेषण करें।",
+    "keywords": [
+      "generate bookmarks",
+      "pdf outline builder",
+      "inject bookmarks pdf",
+      "font size catalog",
+      "outline tree builder"
+    ],
+    "description": "\n      <p>Auto Bookmarks Generator लंबे, असंरचित PDF दस्तावेजों में पूर्ण स्पष्टता लाता है।</p>\n      <p>बिना किसी आउटलाइन नेविगेशन के किताबों या पुस्तिकाओं को देखना कष्टप्रद होता है। यह टूल स्वचालित रूप से हेडिंग का अनुमान लगाने के लिए टाइपोग्राफिक पदानुक्रम (जैसे फ़ॉन्ट आकार और वेट) के साथ-साथ regex नियमों (जैसे \"Chapter 1\", \"Section 1.1\") को पार्स करता है।</p>\n      <p>फिर यह इन हेडिंग्स को कंपाइल करता है और सीधे PDF <code>/Outline</code> डिक्शनरी में इंजेक्ट करता है। इसके बाद कोई भी मानक व्यूअर एक सुंदर रूप से संरचित, बहु-स्तरीय नेविगेशन साइडबार दिखाएगा, जो एक इंटरैक्टिव 3D आउटलाइन ट्री पूर्वावलोकन द्वारा समर्थित है।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "असंरचित PDF प्रदान करें",
+        "description": "कैटलॉग साइडबार की कमी वाले बड़े ब्रोशर, अकादमिक पेपर या ई-बुक्स अपलोड करें।"
+      },
+      {
+        "step": 2,
+        "title": "हेडिंग नियमों को ट्यून करें",
+        "description": "न्यूनतम फ़ॉन्ट आकार थ्रेशोल्ड और मैच नियमों को निर्दिष्ट करने वाली रणनीतियों को कॉन्फ़िगर करें।"
+      },
+      {
+        "step": 3,
+        "title": "बिल्ड और इंजेक्ट करें",
+        "description": "आउटलाइन नोड्स को रेंडर करने और आउटलाइन बुकमार्क्स को भौतिक रूप से लिखने के लिए एक्ज़ीक्यूट पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "तकनीकी नियमावली व्यवस्थित करना",
+        "description": "मानक दिशानिर्देशों के लिए बहु-स्तरीय अध्यायों को ऑटो कंपाइल करें, जिससे मैन्युअल इंडेक्सिंग के घंटों बचते हैं।",
+        "icon": "tool"
+      },
+      {
+        "title": "थीसिस की तैयारी",
+        "description": "सटीक अकादमिक सबमिशन मानकों से मेल खाते हुए साफ नेस्टेड बुकमार्क इंजेक्ट करें।",
+        "icon": "graduation-cap"
+      },
+      {
+        "title": "ई-बुक नेविगेशन अनुकूलन",
+        "description": "स्कैन किए गए टेक्स्ट प्रकाशनों को टैबलेट या मोबाइल पाठकों के लिए पठनीय अध्यायों में संरचित करें।",
+        "icon": "tablet"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या यह कस्टम अध्याय प्रारूपों से मेल खा सकता है?",
+        "answer": "हाँ। आप अद्वितीय लेआउट को लक्षित करने के लिए साइडबार पैनल में कस्टम regex पैटर्न (जैसे, `^Part\\s+\\w+`) जोड़ सकते हैं।"
+      },
+      {
+        "question": "क्या यह दृश्यमान पेज प्रस्तुति को प्रभावित करेगा?",
+        "answer": "नहीं। टूल केवल एक आंतरिक संरचनात्मक बुकमार्क कैटलॉग जोड़ता है। पेजों के टेक्स्ट और विज़ुअल एसेट अछूते रहते हैं।"
+      },
+      {
+        "question": "कितने बुकमार्क स्तर समर्थित हैं?",
+        "answer": "टूल गहराई से नेस्टेड बुकमार्क संरचनाओं का समर्थन करता है, जिससे अध्याय, अनुभाग और उप-अनुभाग लेआउट की अनुमति मिलती है।"
+      }
+    ]
+  },
+  "batch-barcode-injector": {
+    "title": "बैच में Barcodes शामिल करें",
+    "metaDescription": "कस्टम QR/Code128 टैग जनरेट करें और अलाइनिंग दिशानिर्देशों के साथ उन्हें बल्क PDF पेजों में सटीक रूप से इंजेक्ट करें।",
+    "keywords": [
+      "generate qr pdf",
+      "barcode injector",
+      "asset tag pdf",
+      "qr coordinate positioning",
+      "stamp barcodes"
+    ],
+    "description": "\n      <p>Batch Barcode प्रिसाइज़न इंजेक्टर डिजिटल एसेट ट्रैकिंग को भौतिक दस्तावेज़ इंडेक्सिंग से जोड़ता है।</p>\n      <p>वेयरहाउसिंग, अनुबंध समीक्षा, या लॉजिस्टिक्स में, हमें अक्सर चालान या डिवाइस कार्ड पर अद्वितीय बारकोड स्टैम्प करने की आवश्यकता होती है। यह टूल इसे बेहद आसान बनाता है।</p>\n      <p>अत्यधिक पठनीय QR कोड या Code128 बारकोड जनरेट करें, और उन्हें स्थितिबद्ध करने के लिए हरे लेजर गाइड के साथ हमारे शानदार अलाइनिंग वर्कस्पेस का उपयोग करें। प्लेसमेंट पर एक साफ़ स्कैन ऑडियो बीप ट्रिगर होता है, जो अत्यधिक प्रीमियम फीडबैक प्रदान करता है।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "दस्तावेज़ अपलोड करें",
+        "description": "समझौतों या शिपिंग सूचियों का प्रतिनिधित्व करने वाले एकल या बहु-पेज PDFs को ड्रैग और ड्रॉप करें।"
+      },
+      {
+        "step": 2,
+        "title": "बारकोड निर्देशांक की स्थिति तय करें",
+        "description": "कोड प्रकार, मान सेट करें, और निर्देशांक निर्दिष्ट करने के लिए प्लेसमेंट बॉक्स को ड्रैग करें।"
+      },
+      {
+        "step": 3,
+        "title": "स्टैम्प करें और डाउनलोड करें",
+        "description": "लक्षित पेज सूचियों पर कोड लेयर को रेंडर करने के लिए एक्ज़ीक्यूट पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "अनुबंध सत्यापन ट्रैकिंग",
+        "description": "अनुबंधों के हेडर पर नकली-विरोधी विवरण दिखाने वाला एक अनूठा QR कोड लागू करें।",
+        "icon": "file-check"
+      },
+      {
+        "title": "शिपिंग सूचियों की कोडिंग",
+        "description": "त्वरित वेयरहाउस स्कैनिंग गन सत्यापन के लिए लक्षित स्थानों पर Code128 बारकोड रखें।",
+        "icon": "truck"
+      },
+      {
+        "title": "एसेट पंजीकरण कार्डिंग",
+        "description": "भौतिक उपकरण शीट्स पर रखरखाव विवरण प्रदर्शित करने वाले इन्वेंट्री QR कोड जोड़ें।",
+        "icon": "archive"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या जनरेट किए गए बारकोड अत्यधिक स्कैन करने योग्य हैं?",
+        "answer": "हाँ। हम लॉसलेस उच्च-रिज़ॉल्यूशन वाले PNG निरूपण को एम्बेड करते हैं जो बहुत छोटे आयामों में मुद्रित होने पर भी स्पष्ट रहते हैं।"
+      },
+      {
+        "question": "क्या मैं प्रत्येक पेज पर अद्वितीय मान इंजेक्ट कर सकता हूँ?",
+        "answer": "वर्तमान में, बैच रन सभी चयनित पेजों पर एक ही कॉन्फ़िगर किया गया कोड लागू करता है। भविष्य के अपडेट में बहु-मूल्यवान एक्सेल इंपोर्ट की योजना बनाई गई है।"
+      },
+      {
+        "question": "`pt` निर्देशांक का क्या प्रतिनिधित्व करता है?",
+        "answer": "`pt` (पॉइंट) मानक PDF भौतिक इकाई है (72 pt = 1 इंच)। A4 पेजों को 595 × 842 pt के रूप में दर्शाया गया है।"
+      }
+    ]
+  },
+  "signature-ink-optimizer": {
+    "title": "हस्ताक्षर और स्टैम्प एक्सट्रैक्ट करें",
+    "metaDescription": "फ़ोटो से हस्तलिखित हस्ताक्षर और लाल कॉर्पोरेट स्टैम्प निकालें, कागज़ की परछाई के शोर को हटाएं और पारदर्शी PNGs निर्यात करें।",
+    "keywords": [
+      "extract signature",
+      "transparent signature background",
+      "clean stamp photo",
+      "sharpen hand signature",
+      "png seal maker"
+    ],
+    "description": "\n      <p>Signature & Stamp Chroma Ink Optimizer एक पेशेवर उच्च-विश्वसनीयता इंक प्यूरीफायर के रूप में कार्य करता है।</p>\n      <p>फ़ोन पर कैप्चर किए गए हस्ताक्षर या कॉर्पोरेट सील में अक्सर पीले कागज़ की रंगत, असमान परछाइयां और पन्नों की सिलवटें आ जाती हैं। उन्हें सीधे कॉन्ट्रैक्ट PDFs पर पेस्ट करना अव्यवसायिक लगता है।</p>\n      <p>यह टूल ल्यूमिनेस और कलर स्पेस के आधार पर Alpha चैनल को अलग करता है। यह स्टैम्प के लाल (Chroma Ink) और लिखावट के काले रंग को स्पष्ट करते हुए कागज़ की पृष्ठभूमि को पूरी तरह से साफ कर देता है। इसका परिणाम वास्तविक इंक टेक्सचर वाला एक प्रीमियम, पारदर्शी PNG स्टैम्प होता है।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "सील की फ़ोटो अपलोड करें",
+        "description": "अपने हस्ताक्षर या स्टैम्प सील की फ़ोन से ली गई फ़ोटो प्रदान करें।"
+      },
+      {
+        "step": 2,
+        "title": "क्लीनिंग स्लाइडर्स को एडजस्ट करें",
+        "description": "रियल-टाइम में बैकग्राउंड नॉइज़ को अलग करने के लिए कंट्रास्ट और ल्यूमिनेस स्लाइडर्स को आगे-पीछे करें।"
+      },
+      {
+        "step": 3,
+        "title": "साफ़ हस्ताक्षर डाउनलोड करें",
+        "description": "पारदर्शी PNG के रूप में निर्यात करें, जो औपचारिक दस्तावेज़ समझौतों पर स्टैम्प लगाने के लिए तैयार है।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "प्रोफेशनल e-signature की तैयारी",
+        "description": "समझौतों पर हस्ताक्षर करने के लिए धूसर हस्ताक्षर फ़ोटो को सुंदर, पारदर्शी परतों में बदलें।",
+        "icon": "file-signature"
+      },
+      {
+        "title": "कॉर्पोरेट सील सैनिटाइजिंग",
+        "description": "पेपर फाइबर नॉइज़ को हटाकर भौतिक स्टैम्प स्कैन को साफ करें, जिससे स्पष्ट पारदर्शी स्टैम्प सील तैयार हो सके।",
+        "icon": "stamp"
+      },
+      {
+        "title": "ड्रॉ की गई लाइन आर्ट निष्कर्षण",
+        "description": "आसान Photoshop कलरिंग वर्कफ़्लो के लिए ड्राइंग स्केचबुक से काले स्ट्रोक्स को अलग करें।",
+        "icon": "edit"
+      }
+    ],
+    "faq": [
+      {
+        "question": "स्व-अनुकूलनशील Alpha निष्कर्षण सामान्य कीइंग (keying) से कैसे भिन्न है?",
+        "answer": "मानक क्रोमा-कीइंग (chroma-keying) अक्सर हस्ताक्षर स्ट्रोक के विवरणों को ब्लॉक जैसा और पिक्सेलेटेड बना देता है। हमारा एल्गोरिदम केवल सफेद/पीले बैकग्राउंड नॉइज़ को अलग करता है और इंक बॉर्डर्स को सुचारू बनाता है।"
+      },
+      {
+        "question": "कौन से इमेज फ़ॉर्मेट समर्थित हैं?",
+        "answer": "हम JPG, JPEG और PNG का समर्थन करते हैं। सर्वोत्तम परिणामों के लिए, तेज़ और समान रोशनी में अपने हस्ताक्षर की फ़ोटो लें।"
+      },
+      {
+        "question": "क्या हस्तलेखन विवरण संशोधित होगा?",
+        "answer": "नहीं। पिक्सेल फ़िल्टरिंग मूल निर्देशांकों पर काम करती है, जो असली स्ट्रोक टेक्सचर को बनाए रखते हुए कंट्रास्ट को तीखा करती है।"
+      }
+    ]
+  },
+  "dead-link-debugger": {
+    "title": "डेड लिंक्स ठीक करें",
+    "metaDescription": "PDF में सभी URL कार्रवाइयों और लिंक एनोटेशन को स्कैन करें, पहुंच-योग्यता का पता लगाएं और रीडायरेक्ट इंजेक्ट करें।",
+    "keywords": [
+      "dead link pdf",
+      "edit pdf hyperlinks",
+      "pdf link validation",
+      "redirect link pdf",
+      "update urls in pdf"
+    ],
+    "description": "\n      <p>Dead Link Debugger एक गहरा संरचनात्मक एडिटर है जो प्रकाशित फाइलों में लिंक इंटरैक्शन की गुणवत्ता की गारंटी देता है।</p>\n      <p>मैनुअल, श्वेतपत्रों या गाइडों के अंदर टूटे हुए URL (404/500) ब्रांडिंग प्राधिकरण को कम करते हैं। यह टूल आपको हाइपरलिंक डेटाबेस को आसानी से प्रबंधित करने की अनुमति देता है।</p>\n      <p>यह प्रत्येक पृष्ठ पर निम्न-स्तरीय <code>/Link</code> डिक्शनरी का विश्लेषण करता है, उन्हें जांचता है, और एक इंटरेक्टिव ग्रिड में लिंक स्थिति प्रदर्शित करता है (डेड लिंक्स के लिए लाल, रीडायरेक्ट्स के लिए नारंगी)। बस अपडेट किया गया रीडायरेक्ट URL टाइप करें, और टूल नए लक्ष्य को सीधे PDF बाइनरी स्ट्रीम में वापस लिख देता है।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "लक्षित दस्तावेज़ प्रदान करें",
+        "description": "डिबग करने के लिए लिंक वाले PDF मैनुअल या कैटलॉग को अपलोड करें।"
+      },
+      {
+        "step": 2,
+        "title": "स्कैन करें और अपडेट करें",
+        "description": "डिबगर को सभी URL संस्थाओं को निकालने दें। टूटे हुए आइटमों के लिए नए रीडायरेक्ट URL दर्ज करें।"
+      },
+      {
+        "step": 3,
+        "title": "रीडायरेक्ट अपडेट सहेजें",
+        "description": "/URI कार्रवाइयों को फिर से लिखने और संशोधित PDF डाउनलोड करने के लिए execute पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "फ़्लायर टूटे हुए लिंक्स का हॉटफिक्स",
+        "description": "मूल डिज़ाइन एडिटर्स को फिर से खोले बिना प्रकाशित फ़्लायर्स पर गलत URLs को तुरंत ठीक करें।",
+        "icon": "refresh-cw"
+      },
+      {
+        "title": "ग्रंथ सूची लिंक्स का सत्यापन",
+        "description": "अधिकार बनाए रखने के लिए संदर्भों को अपडेट करते हुए, रिपोर्टों में अकादमिक ग्रंथ सूची लिंक्स की पुष्टि करें।",
+        "icon": "book"
+      },
+      {
+        "title": "कॉर्पोरेट रीब्रांडिंग अपडेट्स",
+        "description": "कंपनी के डोमेन नाम बदले जाने पर कॉर्पोरेट PDFs में पुराने URLs को बैच में अपडेट करें।",
+        "icon": "globe"
+      }
+    ],
+    "faq": [
+      {
+        "question": "ऑनलाइन लिंक की पहुंच-योग्यता पूरी तरह से जांच की क्यों नहीं जाती?",
+        "answer": "वेब ब्राउज़र सख्त CORS नीतियों को लागू करते हैं जो प्रत्यक्ष मल्टी-ओरिजिन लिंक जाँच को रोकती हैं। हमारा टूल लिंक्स को स्पष्ट रूप से सूचीबद्ध करता है और आपको उन्हें मैन्युअल रूप से हॉट-फ़िक्स करने की अनुमति देता है।"
+      },
+      {
+        "question": "क्या यह पृष्ठ पर दृश्यमान पाठ्य प्रतिनिधित्व को संशोधित करेगा?",
+        "answer": "नहीं। यह केवल अंतर्निहित `/URI` नेविगेशन कार्रवाई को बदलता है। दृश्यमान लिंक टेक्स्ट अपरिवर्तित रहता है।"
+      },
+      {
+        "question": "क्या यह आंतरिक पृष्ठ बुकमार्क को संशोधित करने का समर्थन करता है?",
+        "answer": "यह टूल बाहरी `/URI` हाइपरलिंक्स को संभालता है। आंतरिक लेआउट नेविगेशन के लिए, हमारे इंटरेक्टिव TOC टूल का उपयोग करें।"
+      }
+    ]
+  },
+  "interactive-toc-generator": {
+    "title": "इंटरैक्टिव TOC जनरेट करें",
+    "metaDescription": "सौंदर्यपूर्ण विषय-सूची (Table of Contents) पृष्ठ उत्पन्न करें, उन्हें सामग्री से पहले डालें, और आंतरिक द्विदिशीय GoTo एंकर कनेक्ट करें।",
+    "keywords": [
+      "generate table of contents",
+      "interactive toc pdf",
+      "bidirectional anchor link",
+      "pdf index page builder",
+      "goto page action"
+    ],
+    "description": "\n      <p>Interactive TOC Builder विस्तृत PDFs के लिए एक क्रांतिकारी नेविगेशन अनुभव प्रदान करता है।</p>\n      <p>लक्षित अध्यायों का पता लगाने के लिए असंगठित दस्तावेज़ों में सैकड़ों पृष्ठों को पलटना निराशाजनक है। यह टूल <strong>द्विदिशीय TOC संकलन</strong> प्रस्तुत करता है।</p>\n      <p>यह हेडर को स्कैन करता है और कवर के ठीक बाद डाली गई ओरिगामी-प्रेरित, प्रीमियम विषय-सूची पृष्ठ उत्पन्न करता है। प्रत्येक इंडेक्स पंक्ति के लिए क्लिक करने योग्य /GoTo लिंक बनाने के अलावा, यह प्रत्येक लक्षित अध्याय पृष्ठ के कोने पर एक छोटा, सुरुचिपूर्ण \"TOC ↩\" मंडराता हुआ एंकर जोड़ता है। पाठक वेब-जैसे नेविगेशन का आनंद लेते हुए, तुरंत आगे-पीछे जा सकते हैं।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "PDF दस्तावेज़ प्रदान करें",
+        "description": "ऐसी रिपोर्ट, eBook या प्रस्ताव अपलोड करें जिसमें इंटरेक्टिव कैटलॉग की आवश्यकता है।"
+      },
+      {
+        "step": 2,
+        "title": "TOC शीर्षक और इंडेक्स सेट करें",
+        "description": "मुख्य शीर्षक को कस्टमाइज़ करें और TOC पृष्ठ सम्मिलित करने के लिए पृष्ठ इंडेक्स चुनें।"
+      },
+      {
+        "step": 3,
+        "title": "एंकर बुने और सहेजें",
+        "description": "पृष्ठों को संकलित करने और डुअल-लिंक नेविगेशन लिखने के लिए execute पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "वार्षिक कॉर्पोरेट रिपोर्ट पॉलिशिंग",
+        "description": "कवर शीट के बाद एक सुंदर इंडेक्स पेज जोड़ें ताकि शेयरधारक वित्तीय चार्ट के बीच आसानी से नेविगेट कर सकें।",
+        "icon": "file-bar"
+      },
+      {
+        "title": "थीसिस इंडेक्सिंग",
+        "description": "विश्वविद्यालय के स्वरूपण नियमों के अनुसार मानक इंडेक्स तेज़ी से संकलित करें।",
+        "icon": "bookmark"
+      },
+      {
+        "title": "ऑपरेशन मैनुअल नेविगेशन",
+        "description": "हैंडबुक पाठकों को ट्रबलशूटिंग शीट से वापस मुख्य TOC पर तुरंत जाने में मदद करें।",
+        "icon": "check-circle"
+      }
+    ],
+    "faq": [
+      {
+        "question": "द्विदिश एंकर कैसे काम करते हैं?",
+        "answer": "हम संबंधित पृष्ठों को लक्षित करते हुए TOC पृष्ठ पर मानक Link एनोटेशन बनाते हैं; फिर हम सभी लक्षित अध्याय शीटों पर TOC पृष्ठ का वापस लिंक एम्बेड करते हैं।"
+      },
+      {
+        "question": "क्या TOC पृष्ठ डालने से मौजूदा पृष्ठ संख्याएँ खराब हो जाएँगी?",
+        "answer": "नहीं। कंपाइलर नए जोड़े गए TOC पृष्ठ के ऑफसेट का ध्यान रखता है, जिससे यह सुनिश्चित होता है कि सभी लक्ष्य गंतव्य सही ढंग से संरेखित रहें।"
+      },
+      {
+        "question": "क्या भौतिक रूप से प्रिंट करने पर TOC पृष्ठ मान्य रहता है?",
+        "answer": "हाँ। जेनरेट किया गया TOC स्क्रीन पर क्लिक करने योग्य लिंक सक्षम करने के साथ-साथ कागज़ी पाठकों के मार्गदर्शन के लिए स्पष्ट भौतिक पृष्ठ संख्याएँ सूचीबद्ध करता है।"
+      }
+    ]
+  },
+  "global-invoice-parser": {
+    "title": "इनवॉइस अनुवाद और रूपांतरण",
+    "metaDescription": "बहुराष्ट्रीय इनवॉइस से मुद्रा योग निकालें, गणनाएँ चलाएँ, और इंटरैक्टिव फ्रॉस्टेड-ग्लास एक्सचेंज लेजर स्टैम्प करें।",
+    "keywords": [
+      "translate invoice",
+      "invoice currency converter",
+      "exchange rate calculator pdf",
+      "stamp local currency",
+      "global invoice tool"
+    ],
+    "description": "\n      <p>ग्लोबल इनवॉइस ट्रांसलेटर अंतरराष्ट्रीय वित्त टीमों और वैश्विक खरीदारों के लिए पूर्ण स्पष्टता प्रदान करता है।</p>\n      <p>विभिन्न मुद्राओं ($ , € , ¥) में इनवॉइस को संभालना अक्सर कठिन मैनुअल अंकगणित से भरा होता है। यह टूल <strong>इन-प्लेस लेबल ट्रांसलेशन और रियल-टाइम एक्सचेंज रेट रूपांतरण</strong> को सक्षम बनाता है।</p>\n      <p>यह मूल्य योग के लिए दस्तावेज़ को स्कैन करता है, मुद्रा बेंचमार्क के आधार पर गणना करता है, और पृष्ठ के मार्जिन पर एक सुरुचिपूर्ण अर्ध-पारदर्शी फ्रॉस्टेड-ग्लास \"Exchange Rate ledger\" भौतिक रूप से स्टैम्प करता है। यह एक शानदार रोलिंग स्लॉट-मशीन संख्यात्मक दृश्य प्रभाव के साथ रेंडर होता है, जो वैश्विक बिलिंग पर पूर्ण नियंत्रण लाता है।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "इनवॉइस PDF अपलोड करें",
+        "description": "विदेशी मुद्राओं (जैसे USD, EUR, JPY) में बिल की गई किसी भी इनवॉइस को इंपोर्ट करें।"
+      },
+      {
+        "step": 2,
+        "title": "स्थानीय मुद्रा चुनें",
+        "description": "अपनी स्थानीय मुद्रा चुनें (जैसे CNY) और एक कस्टम या रियल-टाइम विनिमय दर निर्दिष्ट करें।"
+      },
+      {
+        "step": 3,
+        "title": "लेजर स्टैम्प लागू करें",
+        "description": "अकाउंटिंग के लिए तैयार शानदार एक्सचेंज रेट लेजर ओवरले करने के लिए निष्पादित पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "विदेशी व्यावसायिक यात्रा प्रतिपूर्ति",
+        "description": "यात्रा बिलों को स्थानीय मुद्रा में परिवर्तित करें और रूपांतरण विवरण स्टैम्प करें, जिससे अकाउंटिंग कार्यप्रवाह आसान हो जाता है।",
+        "icon": "plane"
+      },
+      {
+        "title": "सीमा पार खरीदारी ऑडिट",
+        "description": "इनवॉइस कॉलम का अनुवाद करें और ई-कॉमर्स वस्तुओं की वास्तविक लागत को अलग करें।",
+        "icon": "credit-card"
+      },
+      {
+        "title": "अंतरराष्ट्रीय व्यापार बहीखाता",
+        "description": "वर्ष के अंत के ऑडिट को सुव्यवस्थित करने के लिए कॉर्पोरेट इनवॉइस पर सुसंगत रूपांतरण लेजर स्टैम्प करें।",
+        "icon": "folder-open"
+      }
+    ],
+    "faq": [
+      {
+        "question": "यह इनवॉइस की राशि का पता कैसे लगाता है?",
+        "answer": "यह मुद्रा प्रतीकों के लिए कैरेक्टर स्ट्रीम स्कैन करता है और इनवॉइस की अंतिम कुल राशि का पता लगाने के लिए \"Total\" या \"Due\" जैसे अर्थपूर्ण शीर्षकों का विश्लेषण करता है।"
+      },
+      {
+        "question": "क्या विनिमय दरें रियल-टाइम में प्राप्त की जाती हैं?",
+        "answer": "हाँ। डिफ़ॉल्ट रूप से, यह मानक वित्तीय APIs से आधार दरें प्राप्त करता है। आप आंतरिक ऑडिट के लिए कस्टम दरें भी निर्दिष्ट कर सकते हैं।"
+      },
+      {
+        "question": "क्या स्टैम्प किया गया लेजर महत्वपूर्ण इनवॉइस विवरणों को ढक देगा?",
+        "answer": "इंजन इष्टतम स्थिति खोजने के लिए पृष्ठ मार्जिन स्कैन करता है। लेजर अर्ध-पारदर्शी भी है, जो आपके लेआउट के साथ सुंदरता से संरेखित होता है।"
+      }
+    ]
+  },
+  "pdf-deskew-aligner": {
+    "title": "ऑटो स्कैन डेस्क्यू",
+    "metaDescription": "मोबाइल-फ़ोटो या स्कैन किए गए PDF शीट पर पृष्ठ के घूर्णन और संरेखण का तुरंत पता लगाएं और स्वचालित रूप से ठीक करें।",
+    "keywords": [
+      "pdf deskew",
+      "scanned page alignment",
+      "auto rotate pdf page",
+      "straighten scanned paper",
+      "document alignment tool"
+    ],
+    "description": "\n      <p>PDF Scan Aligner झुकी हुई डिजिटल संपत्तियों और मोबाइल स्नैपशॉट्स को ठीक करने के लिए एक अनिवार्य उपयोगिता है।</p>\n      <p>भौतिक फ्लैटबेड के माध्यम से स्कैन किए गए या स्मार्टफोन के साथ जल्दी से कैप्चर किए गए दस्तावेज़ों में अक्सर सूक्ष्म घूर्णन होता है। झुके हुए पृष्ठ अत्यधिक गैर-पेशेवर लगते हैं, पाठ की पठनीयता में बाधा डालते हैं, और प्रिंटिंग के दौरान मार्जिन कटने का कारण बनते हैं।</p>\n      <p>यह टूल 20ms के भीतर ग्रेडिएंट और टेक्स्ट लाइनों को स्कैन करने के लिए मजबूत <strong>Radon Transform and Hough Line detection algorithms</strong> का उपयोग करता है। यह 0.01 डिग्री तक के तिरछेपन को सटीक रूप से मापता है और पिक्सेल-स्तरीय Canvas घूर्णन करता है, जिससे आपकी रसीदें, अनुबंध और पुस्तिकाएं वापस स्पष्ट ज्यामितीय संरेखण में आ जाती हैं।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "तिरछी PDF प्रदान करें",
+        "description": "घूमे हुए या खराब ढंग से संरेखित स्कैन किए गए दस्तावेज़ों वाली कोई भी PDF शीट अपलोड करें।"
+      },
+      {
+        "step": 2,
+        "title": "विश्लेषण करें और सुधारें",
+        "description": "इंजन तिरछेपन के कोण का स्वचालित रूप से पता लगाता है और संरेखण ग्रिड खींचता है। यदि आवश्यक हो तो मैन्युअल रूप से कोण में सुधार करें।"
+      },
+      {
+        "step": 3,
+        "title": "सीधा करें और डाउनलोड करें",
+        "description": "एक सुचारू जायरोस्कोप ट्रांज़िशन के माध्यम से पृष्ठों को घुमाने और संरेखित PDF डाउनलोड करने के लिए निष्पादित पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "रसीद और अनुबंध संग्रह",
+        "description": "औपचारिक डिजिटल PDF अभिलेखागार के रूप में सहेजने से पहले हाथ से लिए गए त्वरित मोबाइल अनुबंध स्कैन को सीधा करें।",
+        "icon": "file-text"
+      },
+      {
+        "title": "शैक्षणिक पुस्तक डिजिटलीकरण",
+        "description": "माइक्रोफिल्म पुस्तक स्कैन को ठीक करें जहाँ पाठ रेखाएँ क्षैतिज मार्जिन से बाहर चली जाती हैं।",
+        "icon": "book"
+      },
+      {
+        "title": "छात्र गृहकार्य ग्रेडिंग",
+        "description": "छात्रों के फोन से ली गई गृहकार्य की तस्वीरों को सही करें, जिससे ग्रेडिंग करने वाले शिक्षकों की आँखों को राहत मिले।",
+        "icon": "edit-3"
+      }
+    ],
+    "faq": [
+      {
+        "question": "दस्तावेज़ का तिरछापन कैसे पहचाना जाता है?",
+        "answer": "हम टेक्स्ट लाइनों पर हाई-स्पीड Hough Line प्रोजेक्शन चलाते हैं। चूंकि औपचारिक प्रिंट में स्पष्ट क्षैतिज रिक्ति पैटर्न होते हैं, अधिकतम भिन्नता वाले कोण को खोजना घूर्णन को अलग करता है।"
+      },
+      {
+        "question": "क्या यह प्रक्रिया पृष्ठ के किनारों को क्रॉप कर देगी?",
+        "answer": "नहीं। इंजन रोटेट की गई सीमा की गणना करता है और ऑटो-पैडिंग का उपयोग करके Canvas को विस्तृत करता है, जिससे यह सुनिश्चित होता है कि सभी मार्जिन टेक्स्ट बिना क्रॉप हुए सुरक्षित रहें।"
+      },
+      {
+        "question": "क्या यह आरेखों से भरे दस्तावेजों का समर्थन करता है?",
+        "answer": "हाँ, जब तक रेखाओं या सामान्य पैराग्राफों की एक अंतर्निहित संरचना होती है, हमारे एल्गोरिदम मुख्य पठन कोण पर सटीक रूप से लॉक कर सकते हैं।"
+      }
+    ]
+  },
+  "pdf-two-column-reflower": {
+    "title": "टू-कॉलम पेपर रिफ़्लो",
+    "metaDescription": "IEEE/ACM डबल-कॉलम पेपर PDF संरचनाओं का विश्लेषण करें और मोबाइल और e-Reader पर सुगम देखने के लिए उन्हें उत्तरदायी सिंगल-कॉलम लेआउट में रिफ़्लो करें।",
+    "keywords": [
+      "two-column pdf to single",
+      "reflow academic paper",
+      "read papers on smartphone",
+      "pdf reader reflow",
+      "mobile friendly papers"
+    ],
+    "description": "\n      <p>Academic Two-Column Reflower डिजिटल शोध की सबसे बड़ी समस्या का समाधान करता है: मानक मोबाइल स्क्रीन पर पेपर पढ़ना।</p>\n      <p>डबल-कॉलम लेआउट (IEEE, ACM, Nature और प्रमुख रिपोर्टों द्वारा उपयोग किए जाने वाले) A4 पेपर के लिए डिज़ाइन किए गए हैं। फोन स्क्रीन या Kindle उपकरणों पर नेविगेट करने के लिए लगातार ज़ूम करने, दाएं खींचने, नीचे स्क्रॉल करने और वापस ऊपर ले जाने की आवश्यकता होती है। यह पढ़ने की समझ को पूरी तरह से बाधित करता है।</p>\n      <p>हमारा प्रोसेसर एक <strong>smart paragraph reflow and vertical partition barrier scan</strong> लागू करता है। यह डबल-कॉलम गटर को मैप करने, लेआउट को विभाजित करने और सेगमेंट को लंबवत रूप से बुनने (पहले बायां कॉलम, फिर दायां) के लिए वर्ण निर्देशांकों का विश्लेषण करता है। ग्राफ़, फ़ॉर्मूले और हेडिंग आसानी से एक सिंगल-कॉलम, फ़्लोएबल वर्टिकल स्क्रॉल PDF में पुनर्व्यवस्थित हो जाते हैं।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "डबल-कॉलम PDF अपलोड करें",
+        "description": "IEEE/ACM जर्नल रिपोर्ट या मल्टी-कॉलम PDF शीट प्रदान करें।"
+      },
+      {
+        "step": 2,
+        "title": "पार्टीशन गटर का निरीक्षण करें",
+        "description": "लाल लंबवत विभाजन स्लाइस गाइड की पुष्टि करें। ओवरलैपिंग तत्वों को रोकने के लिए मार्जिन समायोजित करें।"
+      },
+      {
+        "step": 3,
+        "title": "रिफ़्लो करें और सहेजें",
+        "description": "पृष्ठों को फ़्लोएबल लेआउट में संकलित करने और तुरंत डाउनलोड करने के लिए निष्पादित करें पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "e-Reader बुक इंपोर्ट",
+        "description": "घने डबल-कॉलम निबंधों को Kindle और Onyx स्क्रीन के अनुकूल आरामदायक सिंगल-कॉलम दस्तावेजों में बदलें।",
+        "icon": "tablet"
+      },
+      {
+        "title": "सबवे फोन रीडिंग",
+        "description": "यात्रा के दौरान एक हाथ से वर्टिकल स्वाइप जेस्चर के साथ शोध साहित्य आराम से पढ़ें।",
+        "icon": "smartphone"
+      },
+      {
+        "title": "आर्काइवल जर्नल फ़ॉर्मेटिंग",
+        "description": "पुराने संकीर्ण-कॉलम वाले समाचार पत्रों को पढ़ने योग्य, सिंगल-कॉलम वेब प्रारूपों में आधुनिक बनाएं।",
+        "icon": "book-open"
+      }
+    ],
+    "faq": [
+      {
+        "question": "व्यापक चार्ट और समीकरणों को कैसे संभाला जाता है?",
+        "answer": "हमारा इंजन \"span element detection\" लागू करता है। जब कोई समीकरण या आरेख सामान्य कॉलम चौड़ाई से अधिक हो जाता है, तो इसे बिना कटे मूल अनुपात बनाए रखते हुए पूर्ण-चौड़ाई वाले आइटम के रूप में अलग कर दिया जाता है।"
+      },
+      {
+        "question": "क्या यह वेक्टर टेक्स्ट रिज़ॉल्यूशन को संशोधित करेगा?",
+        "answer": "बिल्कुल नहीं। हम रास्टराइज करने के बजाय ऑब्जेक्ट ट्री स्तर पर PDF टेक्स्ट ऑब्जेक्ट ट्रांसफॉर्म मैट्रिस को रीराइट करते हैं, जिसका अर्थ है कि टेक्स्ट 100% वेक्टर और पूरी तरह से चयन योग्य रहता है।"
+      },
+      {
+        "question": "क्या यह स्कैन किए गए इमेज दस्तावेजों पर काम करता है?",
+        "answer": "फ़्लैट इमेज-आधारित PDFs के लिए, हम रिफ़्लो प्रक्रिया निष्पादित करने से पहले हमारे OCR टूल को चलाने की अत्यधिक अनुशंसा करते हैं।"
+      }
+    ]
+  },
+  "pdf-page-resizer-uniform": {
+    "title": "एक समान PDF पेज साइज़",
+    "metaDescription": "अनुपातिक केंद्रित करने और मार्जिन पैडिंग के साथ मिश्रित-प्रारूप A4, A3 और Letter PDF शीट को एक समान लक्ष्य आकार में बैच रीसाइज़ और सामान्यीकृत करें।",
+    "keywords": [
+      "uniform page size",
+      "resize pdf pages",
+      "merge diverse pdf",
+      "mediabox normalize",
+      "batch page scale"
+    ],
+    "description": "\n      <p>Multi-Format PDF Resizer बिखरे हुए, बेमेल कॉर्पोरेट दस्तावेजों के लिए अंतिम मानकीकरण उपकरण है।</p>\n      <p>चालान, अनुबंध और पूरक चार्ट को संयोजित करने के परिणामस्वरूप अक्सर एक ऐसी PDF बनती है जिसमें विशाल A3 लेजर पेज, मानक A4 समझौते और Letter-आकार के लिफाफे शामिल होते हैं। उनके माध्यम से पन्ने पलटना अत्यधिक ध्यान भटकाने वाला होता है, और उन्हें भौतिक कार्यालय प्रिंटर पर भेजने से अक्सर आकार के बेमेल होने के कारण जाम की त्रुटियां होती हैं।</p>\n      <p>यह टूल प्रत्येक पृष्ठ पर निम्न-स्तरीय <code>/MediaBox</code> और <code>/CropBox</code> ग्रिड को रीराइट करता है। यह मौजूदा चौड़ाई और ऊंचाई को मैप करता है, लक्षित प्रीसेट (जैसे मानक A4) से मेल खाने के लिए मूल पृष्ठों को आनुपातिक रूप से स्केल करता है, और सुंदर, सुसंगत आसपास के मार्जिन को पेश करता है, जिससे पूरी फ़ाइल अत्यधिक परिष्कृत दिखती है।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "मिश्रित-आकार की PDF प्रदान करें",
+        "description": "बेमेल, अव्यवस्थित पृष्ठ आकारों वाला एक मर्ज किया गया PDF दस्तावेज अपलोड करें।"
+      },
+      {
+        "step": 2,
+        "title": "लक्ष्य प्रीसेट चुनें",
+        "description": "लक्ष्य एकसमान आकार (जैसे A4, Letter, A3) चुनें और स्केल मोड टॉगल करें।"
+      },
+      {
+        "step": 3,
+        "title": "संरेखित करें और डाउनलोड करें",
+        "description": "3D शीट संरेखण को ट्रिगर करने के लिए निष्पादित करें पर क्लिक करें, जिससे एक सुंदर रूप से मानकीकृत PDF डाउनलोड हो जाएगी।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "कॉर्पोरेट RFP प्रस्ताव",
+        "description": "भौतिक मुद्रण से पहले स्कैन किए गए योग्यता प्रमाणपत्रों और A4 बोली पत्रों को मानकीकृत करें।",
+        "icon": "file-text"
+      },
+      {
+        "title": "वित्तीय चार्ट एकीकरण",
+        "description": "मुद्रण मानकों को बनाए रखते हुए व्यापक A3 वित्तीय कैश फ्लो को साफ-सुथरे A4 पृष्ठों में स्केल करें।",
+        "icon": "layout"
+      },
+      {
+        "title": "बुक मार्जिन मानकीकरण",
+        "description": "आरामदायक पढ़ने के लिए थोड़ा भिन्न स्कैन किए गए पुस्तक पृष्ठों को बिल्कुल एक समान आयाम में बदलें।",
+        "icon": "book"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या यह मेरी सामग्री को विकृत कर देगा?",
+        "answer": "कभी नहीं। हम \"Contain\" (सफेद पट्टियों के साथ आनुपातिक स्केलिंग) और \"Cover\" (केंद्रित क्रॉप) दोनों का समर्थन करते हैं। डिफ़ॉल्ट Contain मोड आस्पेक्ट रेशियो को बनाए रखता है, विकृति को रोकता है।"
+      },
+      {
+        "question": "क्या मौजूदा फ़ॉर्म और एनोटेशन क्लिक करने योग्य रहेंगे?",
+        "answer": "हाँ। एल्गोरिदम स्केलिंग कारकों को एनोटेशन कोआर्डिनेट एरेज़ से मैप करता है, रीसाइज़ करने के बाद पूरी तरह से संरेखित करने के लिए लिंक बॉक्स, साइन सीमाओं और इनपुट को स्केल करता है।"
+      },
+      {
+        "question": "क्या मैं जितने पृष्ठों का आकार बदल सकता हूँ उसकी कोई सीमा है?",
+        "answer": "नहीं। चूंकि सभी ऑपरेशन मूल JavaScript का उपयोग करके आपके क्लाइंट सैंडबॉक्स में स्थानीय रूप से चलते हैं, आप सेकंड में सैकड़ों पृष्ठों वाली व्यापक PDFs को प्रोसेस कर सकते हैं।"
+      }
+    ]
+  },
+  "handwriting-ink-contrast-booster": {
+    "title": "हस्तलेखन स्याही को बढ़ाएं",
+    "metaDescription": "तस्वीरों से नीले या काले हस्तलिखित हस्ताक्षरों को निकालें, पीले कागज के दानों को ब्लीच करें, और पढ़ने की योग्यता के लिए स्याही के कंट्रास्ट को नाटकीय रूप से बढ़ाएं।",
+    "keywords": [
+      "enhance handwritten contract",
+      "ink contrast boost",
+      "bleach scanned paper",
+      "sharpen faded signature",
+      "signature extraction"
+    ],
+    "description": "\n      <p>Handwriting Ink Contrast Booster हस्ताक्षरित समझौतों और ऐतिहासिक पांडुलिपि अभिलेखागार को डिजिटल बनाने के लिए एक जीवनरक्षक है।</p>\n      <p>हाथ से हस्ताक्षर किए गए दस्तावेजों के स्कैन अक्सर ग्रे स्कैनर ग्लास प्रतिबिंब, पीले कागज के रंग, या फीकी स्याही के कारण सुस्त दिखाई देते हैं। इन फ़ाइलों को फिर से प्रिंट करने या फोटोकॉपी करने से धुंधले, अपठनीय हस्ताक्षर बनते हैं। पारंपरिक कंट्रास्ट टूल पूरी पृष्ठभूमि को गहरा कर देते हैं, जिससे लेआउट खराब हो जाता है।</p>\n      <p>यह टूल **Contrast Limited Adaptive Histogram Equalization (CLAHE) और रंग-आधारित रंग पृथक्करण** का उपयोग करता है। एक सुरक्षित स्थानीय Canvas प्रक्रिया में, यह पृष्ठभूमि चर्मपत्र से हस्तलेखन स्ट्रोक (काले और नीले दोनों) को अलग करता है, छाया झुर्रियों को पूरी तरह से ब्लीच करता है, और फीकी स्याही को गहरे, संतृप्त कंट्रास्ट से भर देता है, जिससे आपके दस्तावेज अत्यधिक स्पष्ट और साफ दिखाई देते हैं।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "हाथ से हस्ताक्षरित दस्तावेज आयात करें",
+        "description": "धुंधले हस्ताक्षर, हस्तलिखित डायरियां या रेखाचित्र (sketches) वाला PDF प्रदान करें।"
+      },
+      {
+        "step": 2,
+        "title": "इंक फ़िल्टर कॉन्फ़िगर करें",
+        "description": "अलग करने के लिए रंग प्रोफ़ाइल चुनें (जैसे नीली स्याही, काली स्याही, या दोनों) और शार्पनिंग समायोजित करें।"
+      },
+      {
+        "step": 3,
+        "title": "शार्प करें और डाउनलोड करें",
+        "description": "राडार स्कैनर प्रभाव के साथ रंगों का पता लगाने और शुद्ध PDF डाउनलोड करने के लिए निष्पादित करें पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "निष्पादित अनुबंध मरम्मत",
+        "description": "खराब स्कैन किए गए समझौतों की मरम्मत करें, हस्ताक्षरों को शार्प करें और कागज के बैकग्राउंड को बिल्कुल सफेद A4 रंग में ब्लीच करें।",
+        "icon": "file-check"
+      },
+      {
+        "title": "हस्तलिखित पांडुलिपि संग्रह",
+        "description": "पुराने धब्बों को हटाते हुए और स्पष्ट काले स्ट्रोक निकालते हुए लिखित पत्रिकाओं या डायरियों को डिजिटाइज़ करें।",
+        "icon": "book"
+      },
+      {
+        "title": "ऐतिहासिक बहीखाता पुनर्प्राप्ति",
+        "description": "पुराने अभिलेखीय बहीखातों पर हल्की स्याही के विवरण को पुनर्स्थापित करें, और मूल्यवान हस्तलिखित विवरणों को बचाएं।",
+        "icon": "archive"
+      }
+    ],
+    "faq": [
+      {
+        "question": "यह सामान्य ग्रेसकेल परिवर्तन से कैसे भिन्न है?",
+        "answer": "ग्रेसकेल कागज की परछाइयों को ग्रे मानों में बदल देता है। हमारा अनुकूली एल्गोरिदम बैकग्राउंड ल्यूमिनेंस को अलग करता है और हस्ताक्षर \"इंक स्पेक्ट्रम\" को अलग करता है, बैकग्राउंड को पूरी तरह से सफेद कर देता है जबकि स्ट्रोक के किनारों को शार्प रखता है।"
+      },
+      {
+        "question": "क्या मैं लिखावट की स्ट्रोक बनावट को खो दूंगा?",
+        "answer": "नहीं। CLAHE एल्गोरिदम सब-पिक्सेल स्तर पर काम करता है, जो प्राकृतिक पेन-स्ट्रोक दबाव, स्याही के धुंधलेपन और गतिशील लाइन भार को सुरक्षित रखता है।"
+      },
+      {
+        "question": "क्या मैं लाल कॉर्पोरेट स्टैंप के निशान रख सकता हूं?",
+        "answer": "हाँ। \"Chroma Ink Preservation\" को सक्षम करके, बूस्टर लाल मोहरों और नीली स्याही वाले हस्ताक्षरों के चमकीले रंगों को बनाए रखते हुए कागज के बैकग्राउंड को सफेद करता है और लिखावट को गहरा करता है।"
+      }
+    ]
+  },
+  "pdf-spine-bookbinder": {
+    "title": "पुस्तक स्पाइन चौड़ाई की गणना करें",
+    "metaDescription": "पृष्ठों की संख्या और कागज के GSM के आधार पर पुस्तक स्पाइन चौड़ाई की गणना करें, और स्पाइन फोल्ड लाइनों के साथ एक प्रिंट करने योग्य कवर टेम्पलेट जनरेट करें।",
+    "keywords": [
+      "book spine calculator",
+      "binding spine thickness",
+      "generate book cover pdf",
+      "spine fold marks",
+      "perfect binding prepress"
+    ],
+    "description": "\n      <p>PDF स्पाइन बुकबाइंडर डिजाइनरों, स्व-प्रकाशन लेखकों और वाणिज्यिक बोली टीमों के लिए प्री-प्रेस रक्षक है।</p>\n      <p>मोटी पुस्तक कैटलॉग, बोली प्रस्तावों, या वार्षिक निर्देशिकाओं को संकलित करते समय, सही बाइंडिंग (गोंद बाइंडिंग) के लिए सटीक स्पाइन निर्देशांक वाले कवर की आवश्यकता होती है। यदि स्पाइन की चौड़ाई 1 मिमी भी कम या ज्यादा होती है, तो बाउंड कवर मुड़ जाएगा, खिसक जाएगा या उसमें सलवटें पड़ जाएंगी। कागज के वजन के अनुसार पृष्ठों की संख्या की गणना करना जटिल और त्रुटि-संभावित है।</p>\n      <p>यह टूल एक <strong>भौतिक रूप से तैयार की गई GSM पेपर-टू-मोटाई लाइब्रेरी</strong> का उपयोग करता है। बस अपना PDF पृष्ठ संख्या दर्ज करें और पेपर स्टॉक (जैसे 80 GSM ऑफ़सेट, 100 GSM ग्लॉसी) चुनें। इंजन माइक्रोमीटर तक स्पाइन की चौड़ाई की गणना करता है और मानक फ्रंट/बैक फ़्लैप और सटीक फ़ोल्ड मार्क क्रीज़ के साथ एक प्रिंट-तैयार, अतिरिक्त-चौड़ा कवर PDF संकलित करता है।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "पृष्ठ और स्टॉक प्रकार सेट करें",
+        "description": "दस्तावेज़ पृष्ठ संख्या दर्ज करें और लक्ष्य पेपर स्टॉक विनिर्देशों का चयन करें।"
+      },
+      {
+        "step": 2,
+        "title": "स्पाइन टेक्स्ट दर्ज करें",
+        "description": "पुस्तक के शीर्षक, लेखक के विवरण दर्ज करें और स्पाइन/कवर बैकग्राउंड को कस्टमाइज़ करें।"
+      },
+      {
+        "step": 3,
+        "title": "3D पूर्वावलोकन और निर्यात",
+        "description": "एक इंटरैक्टिव 3D बाइंडर में अपनी पुस्तक के कवर को घुमाएं और उसका निरीक्षण करें। उच्च-रिजोल्यूशन वेक्टर PDF निर्यात करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "मोटे बोली प्रस्ताव",
+        "description": "मोटे टेंडर बोलियों के लिए सटीक स्पाइन क्रीज संरेखण के साथ पेशेवर कवर शीट डिजाइन करें।",
+        "icon": "layers"
+      },
+      {
+        "title": "थीसिस हार्डकवर बाइंडिंग",
+        "description": "विश्वविद्यालय मास्टर/डॉक्टरेट डिग्री थीसिस के लिए सटीक स्पाइन लेआउट चौड़ाई का खाका तैयार करें।",
+        "icon": "award"
+      },
+      {
+        "title": "स्व-प्रकाशन उपन्यास कवर",
+        "description": "प्रिंट-ऑन-डिमांड प्रकाशन सेवाओं में फाइलें जमा करने से पहले आसानी से पुस्तक स्पाइन चौड़ाई की गणना करें।",
+        "icon": "book-open"
+      }
+    ],
+    "faq": [
+      {
+        "question": "GSM पेपर-मोटाई की गणना कितनी सटीक है?",
+        "answer": "अत्यधिक सटीक। हमारी फ़िज़िक्स लाइब्रेरी उद्योग के औसत से मेल खाती है (जैसे 70 GSM = 0.09mm, 80 GSM = 0.10mm, 150 GSM ग्लॉसी = 0.125mm)। हम स्वचालित रूप से गणनाओं को आधा करने के लिए \"दो तरफा प्रिंटिंग\" टॉगल भी शामिल करते हैं।"
+      },
+      {
+        "question": "क्या निर्यात किए गए कवर सीधे प्रिंटिंग के लिए तैयार हैं?",
+        "answer": "हाँ। फ़ाइलें वेक्टर-परफेक्ट PDF हैं जिनमें मानक पंजीकरण चिह्न, रंग बार और स्पाइन गाइड हैं, जो ऑफ़सेट और डिजिटल वाणिज्यिक प्रेसों के साथ पूरी तरह से अनुकूल हैं।"
+      },
+      {
+        "question": "क्या मैं स्पाइन तक फैली हुई बैकग्राउंड छवि अपलोड कर सकता हूं?",
+        "answer": "हाँ। आप कस्टमाइज़ किए गए लेआउट अपलोड कर सकते हैं, और हमारा कंपोजिटर स्पाइन फोल्ड पर ग्राफिक्स को स्वचालित रूप से लपेटेगा और संरेखित करेगा।"
+      }
+    ]
+  },
+  "pdf-signature-anchor-helper": {
+    "title": "हस्ताक्षर स्थिति गाइड",
+    "metaDescription": "अनुबंधों में स्वचालित रूप से हस्ताक्षर फ़ील्ड खोजें, और त्वरित हस्ताक्षर के लिए इंटरैक्टिव हॉवरिंग गाइड और एंकर सम्मिलित करें।",
+    "keywords": [
+      "locate signature pdf",
+      "inject sign anchor",
+      "contract signing helper",
+      "click to sign guide",
+      "prevent missing signatures"
+    ],
+    "description": "\n      <p>PDF सिग्नेचर गाइड इंजेक्टर बहु-पृष्ठ समझौतों के लिए स्वच्छ, त्रुटि-मुक्त हस्ताक्षर कार्यप्रवाह की गारंटी देता है।</p>\n      <p>बहु-पृष्ठ NDA समझौतों, वित्तीय विवरणों या वाणिज्यिक पट्टों को भेजते समय, ग्राहक अक्सर महत्वपूर्ण हस्ताक्षर बॉक्स भूल जाते हैं, जिससे बार-बार ईमेल चक्र और व्यावसायिक लेन-देन में देरी होती है।</p>\n      <p>हमारा टूल <strong>स्वाभाविक regex सिमेंटिक मैपिंग</strong> का उपयोग करता है। यह <code>Signature:</code>, <code>签字：</code>, <code>Witness:</code>, या <code>签署日期：</code> जैसे शब्दों का पता लगाने के लिए PDF कैरेक्टर मैप को स्कैन करता है। यह फिर मानक PDF इंटरैक्टिव लिंक एनोटेशन सम्मिलित करने के लिए <code>pdf-lib</code> का लाभ उठाता है। जब किसी भी मानक रीडर में खोला जाता है, तो ग्राहकों को झपकाते हुए, नियॉन-बॉर्डर वाले तीर दिखाई देते हैं जो तुरंत उन्हें सही बॉक्स में ले जाते हैं, जिससे हस्ताक्षर करना आसान और त्रुटिहीन हो जाता है।</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "व्यावसायिक अनुबंध आयात करें",
+        "description": "PDF अनुबंध या NDA अपलोड करें जिसके लिए हस्ताक्षर निर्देशांक की आवश्यकता है।"
+      },
+      {
+        "step": 2,
+        "title": "हस्ताक्षर स्लॉट ऑटो-स्कैन करें",
+        "description": "स्वचालित रूप से पाए गए हस्ताक्षर बॉक्सों का निरीक्षण करें, और यदि आवश्यक हो तो कस्टमाइज़ हस्ताक्षर बिंदु मैन्युअल रूप से जोड़ें।"
+      },
+      {
+        "step": 3,
+        "title": "एंकर सम्मिलित करें और सहेजें",
+        "description": "PDF संरचना में इंटरैक्टिव पॉइन्टर परतों को लिखने के लिए निष्पादित करें पर क्लिक करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "कॉर्पोरेट NDA समझौते",
+        "description": "नवागंतुक कर्मचारियों को धाराओं से चूकने से रोकने के लिए हस्ताक्षर ब्लॉक के पास स्पष्ट, झिलमिलाते गाइड सम्मिलित करें।",
+        "icon": "file-text"
+      },
+      {
+        "title": "वाणिज्यिक पट्टा अनुबंध",
+        "description": "कस्टम-रंग वाले टैब के साथ बहु-पृष्ठ रियल एस्टेट दस्तावेजों के माध्यम से कई सह-हस्ताक्षरकर्ताओं का मार्गदर्शन करें।",
+        "icon": "users"
+      },
+      {
+        "title": "प्रोक्योरमेंट PO हस्ताक्षर",
+        "description": "अकाउंटिंग स्वीकृति प्रक्रिया को तेज़ करने के लिए इनवॉइस और क्रय आदेशों पर इंटरैक्टिव पॉइंटर्स ओवरले करें।",
+        "icon": "briefcase"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या अनुबंध प्रिंट करते समय ये गाइड दिखाई देंगे?",
+        "answer": "नहीं। एंकरों को मानक PDF `Printable` फ्लैग के साथ false पर सेट करके इंजेक्ट किया जाता है। वे कंप्यूटर/टैबलेट स्क्रीन पर सुंदर दिखाई देते हैं लेकिन प्रिंट होने पर पूरी तरह से अदृश्य रहते हैं।"
+      },
+      {
+        "question": "क्या क्लाइंट हस्ताक्षर फ़ील्ड के बीच आसानी से नेविगेट कर सकते हैं?",
+        "answer": "हाँ। हम द्विदिशीय आंतरिक एंकर जोड़ते हैं। क्लाइंट तुरंत अगले खाली हस्ताक्षर स्लॉट पर स्वचालित रूप से जाने के लिए \"Sign Guide\" बुकमार्क पर क्लिक कर सकते हैं।"
+      },
+      {
+        "question": "क्या यह स्कैन किए गए इमेज दस्तावेजों पर काम करता है?",
+        "answer": "हाँ। टेक्स्ट स्ट्रीम देखने के अलावा, हमारा स्थान-संबंधी लेआउट पार्सर (spatial layout parser) स्कैन की गई शीटों पर क्षैतिज नियमों (horizontal rules) और बाउंडिंग बॉक्स के आधार पर हस्ताक्षर रेखाओं का अनुमान लगाता है।"
+      }
+    ]
+  },
+  "pdf-lossless-slicer": {
+    "title": "लॉसलेस ड्राइंग स्लाइसिंग",
+    "metaDescription": "फ़ाइल का आकार घटाते हुए और वेक्टर रिज़ॉल्यूशन को बरकरार रखते हुए low-level स्तर पर बड़े PDF CAD आरेखों, मानचित्रों या चार्ट्स के एक आंशिक क्षेत्र को निकालें।",
+    "keywords": [
+      "pdf vector crop",
+      "lossless pdf slice",
+      "cad drawing crop",
+      "cropbox matrix edit",
+      "extract map region"
+    ],
+    "description": "\n      <p>PDF Lossless Drawing Slicer वास्तुकारों, इंजीनियरों और मानचित्र विवरणकर्ताओं के लिए बनाया गया एक उच्च-सटीकता वाला सर्जिकल टूल है।</p>\n      <p>जब किसी बड़े CAD इंजीनियरिंग ब्लूप्रिंट या भौगोलिक मानचित्र PDF से किसी विशिष्ट पंप रूम या चिप कोर को निकाला जाता है, तो पारंपरिक स्क्रीनशॉट के परिणामस्वरूप पिक्सलेटेड, धुंधला टेक्स्ट मिलता है। सामान्य क्रॉपिंग टूल केवल शीट पर एक मास्क डालते हैं, जिसका अर्थ है कि विशाल 100MB की फ़ाइल विशाल बनी रहती है, और छिपी हुई सामग्री को अभी भी निकाला जा सकता है।</p>\n      <p>यह टूल ऑब्जेक्ट ट्री स्तर पर पृष्ठ <code>/MediaBox</code>, <code>/CropBox</code>, और <code>/BleedBox</code> मैट्रिस को संपादित करता है। यह चयनित क्षेत्र से बाहर वेक्टर नोड्स को भौतिक रूप से अलग करता है, जिससे लक्षित क्षेत्र 100% वेक्टर-परफेक्ट रहता है (असीमित ज़ूम आवर्धन की अनुमति देता है) और फ़ाइल का आकार 95% तक कम करने के लिए अनावश्यक ऑफ-स्क्रीन पथों और छवियों को हटा देता है!</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "बड़ा ब्लूप्रिंट इम्पोर्ट करें",
+        "description": "वेक्टर-समृद्ध CAD, GIS मानचित्र, या उच्च-रिज़ॉल्यूशन कैटलॉग PDF अपलोड करें।"
+      },
+      {
+        "step": 2,
+        "title": "कटिंग बॉक्स ड्रा करें",
+        "description": "जिस स्थानीय क्षेत्र को आप स्लाइस करना चाहते हैं उसे लक्षित करने के लिए हरे रंग के लेज़र-लाइन क्रॉप बॉक्स को ड्रैग और स्केल करें।"
+      },
+      {
+        "step": 3,
+        "title": "लेज़र क्रॉप ट्रिगर करें",
+        "description": "हमारे low-level ऑब्जेक्ट स्लाइसर को ट्रिगर करने और छोटी, लॉसलेस PDF डाउनलोड करने के लिए निष्पादित करें (execute पर क्लिक करें)।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "CAD ब्लूप्रिंट आइसोलेशन",
+        "description": "सब-कॉन्ट्रैक्टर्स के साथ साझा करने के लिए विशाल 100MB फ़्लोर प्लान ब्लूप्रिंट से \"कूलिंग सिस्टम\" विवरण स्लाइस करें।",
+        "icon": "crop"
+      },
+      {
+        "title": "GIS मानचित्र स्निपिंग",
+        "description": "बिना किसी रिज़ॉल्यूशन हानि के प्रेजेंटेशन स्लाइड के लिए शहर के सड़क मानचित्र के लॉसलेस, वेक्टर-स्पष्ट ब्लॉक को निकालें।",
+        "icon": "map"
+      },
+      {
+        "title": "मैनुअल इलस्ट्रेशन ट्रेसिंग",
+        "description": "उच्च गुणवत्ता वाले अकादमिक पत्रों में एम्बेड करने के लिए वैज्ञानिक पुस्तक आकृतियों को लॉसलेस रूप से अलग (isolate) करें।",
+        "icon": "image"
+      }
+    ],
+    "faq": [
+      {
+        "question": "यह मानक क्रॉपिंग से किस प्रकार भिन्न है?",
+        "answer": "मानक क्रॉपिंग केवल दृश्य सीमाओं को समायोजित करती है; छिपे हुए वेक्टर फ़ाइल में बने रहते हैं। हमारा स्लाइसर ओवरलैपिंग वेक्टर पथों को ट्रिम करता है और सीमा से बाहर की XObject छवियों को हटाता है, जिससे पूर्ण डेटा आइसोलेशन और अधिकतम फ़ाइल संपीड़न (compression) सुनिश्चित होता है।"
+      },
+      {
+        "question": "क्या टेक्स्ट परतें खोजने योग्य रहेंगी?",
+        "answer": "हाँ। स्लाइस की गई सीमा के भीतर आने वाले कोई भी टेक्स्ट अक्षर पूरी तरह से वेक्टर-स्पष्ट, खोजने योग्य और चयन योग्य बने रहते हैं।"
+      },
+      {
+        "question": "क्या मैं स्लाइस किए गए क्षेत्रों को SVG में एक्सपोर्ट कर सकता हूँ?",
+        "answer": "आउटपुट एक मानकीकृत वेक्टर PDF है। आप परिणामी फ़ाइल को वेब-स्केलेबल वेक्टर ग्राफिक्स प्रारूप में बदलने के लिए हमारे PDF-टू-SVG टूल में पास कर सकते हैं।"
+      }
+    ]
+  },
+  "pdf-scratchpad-canvas": {
+    "title": "ग्रिड स्क्रैचपैड कैनवास",
+    "metaDescription": "फॉर्मूला व्युत्पत्ति (derivations) और परीक्षा नोट की तैयारी के लिए PDF पृष्ठों में उच्च गुणवत्ता वाले ग्रिड, रूल्ड, या कॉर्नेल नोट-टेकिंग मार्जिन जोड़ें।",
+    "keywords": [
+      "pdf margin expand",
+      "add scratchpad page",
+      "cornell notes grid",
+      "stitch draft space",
+      "pdf notes template"
+    ],
+    "description": "\n      <p>PDF Scratchpad Margin Extender छात्रों, शोधकर्ताओं और पेशेवर परीक्षा उम्मीदवारों के लिए तैयार किया गया एक आवश्यक अध्ययन साथी है।</p>\n      <p>डिजिटल टैबलेट पर अभ्यास परीक्षा पत्रों को हल करते समय, स्लाइड की समीक्षा करते समय, या अकादमिक पाठ्यपुस्तकों को पढ़ते समय, पृष्ठ मार्जिन बेहद तंग होते हैं। एक अलग नोट्स ऐप खोलने से आपको लगातार स्क्रीन बदलने के लिए मजबूर होना पड़ता है, जिससे ध्यान टूटता है। सपाट कोरे पन्ने जोड़ने से आप समस्या और अपनी गणना को अगल-बगल नहीं देख पाते हैं।</p>\n      <p>यह टूल low-level PDF संरचना में पृष्ठ की चौड़ाई या ऊंचाई के आयामों को फिर से लिखता है, जिससे दाईं ओर या नीचे <code>/MediaBox</code> मार्जिन 200~250 pt तक बढ़ जाता है। इसके बाद यह नए मार्जिन में साफ़ ग्रिड लाइनें, कॉलेज-रूल्ड नोटबुक लाइनें, या कॉर्नेल लेआउट ओवरले करता है, जिससे आपको हर एक स्लाइड या प्रश्न के बगल में समर्पित, निकटवर्ती ड्राफ़्ट बोर्ड मिलते हैं!</p>\n    ",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "व्याख्यान (lecture) स्लाइड अपलोड करें",
+        "description": "PDF पाठ्यपुस्तक, स्लाइड या अध्ययन पत्र प्रदान करें।"
+      },
+      {
+        "step": 2,
+        "title": "मार्जिन और ग्रिड शैली चुनें",
+        "description": "मार्जिन विस्तार की दिशा चुनें (उदा. टैबलेट के लिए दाईं ओर) और ग्रिड टेम्पलेट का चयन करें।"
+      },
+      {
+        "step": 3,
+        "title": "कैनवास जोड़ें और डाउनलोड करें",
+        "description": "सुंदर ड्राफ़्ट ग्रिड के साथ विस्तारित पृष्ठ उत्पन्न करने के लिए निष्पादित करें (execute पर क्लिक करें)।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "STEM परीक्षा की तैयारी",
+        "description": "गणित और भौतिकी परीक्षा के प्रश्नों के बगल में ग्रिड मार्जिन जोड़ें, जिससे प्रश्न के ठीक बगल में व्युत्पत्ति (derivations) हल की जा सके।",
+        "icon": "edit-3"
+      },
+      {
+        "title": "भाषा पठन विश्लेषण",
+        "description": "शब्दावली विश्लेषण और पैराग्राफ अनुवाद के लिए विदेशी भाषा के निबंधों के बगल में रूल्ड नोटबुक मार्जिन जोड़ें।",
+        "icon": "book"
+      },
+      {
+        "title": "वास्तुकला (Architectural) ब्लूप्रिंट ऑडिट",
+        "description": "इंजीनियरिंग गणना और क्लाइंट समीक्षा टिप्पणियों के लिए ब्लूप्रिंट के किनारे खाली मार्जिन स्थान जोड़ें।",
+        "icon": "columns"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या इससे मेरा मूल PDF टेक्स्ट सिकुड़ जाएगा?",
+        "answer": "बिल्कुल नहीं। एल्गोरिदम कागज़ के आयाम को बाहर की ओर बढ़ाता है। मूल सामग्री अपना लेआउट, फ़ॉन्ट और रिज़ॉल्यूशन बनाए रखती है; हम केवल सीमाओं पर सफेद स्थान को फैलाते हैं और उन पर ग्रिड खींचते हैं।"
+      },
+      {
+        "question": "क्या मानक हस्तलेखन (hand-writing) पेन स्क्रैचपैड में लिख सकते हैं?",
+        "answer": "हाँ। नए PDF पृष्ठों को मूल रूप से (natively) संकलित किया जाता है। Goodnotes, Notability, Xodo और Acrobat जैसे लोकप्रिय टैबलेट नोट-टेकिंग एप्लिकेशन सीधे नए ग्रिड स्पेस में लिख सकते हैं, हाइलाइट कर सकते हैं और डूडल बना सकते हैं।"
+      },
+      {
+        "question": "क्या ग्रिड लाइनें गहरी और ध्यान भटकाने वाली हैं?",
+        "answer": "हमने तीन सूक्ष्म, आंखों के अनुकूल रंग (हल्का नीला-धूसर, गर्म भूरा, और चमकदार हरा) चुने हैं। लाइनें पतली और कोमल हैं, जो मूल पृष्ठ सामग्री से आपका ध्यान भटकाए बिना गाइड के रूप में कार्य करती हैं।"
+      }
+    ]
+  },
+  "photo-tiling-prepress": {
+    "title": "आईडी फोटो DIY प्रिंट टाइलर",
+    "metaDescription": "पासपोर्ट/आईडी फोटो को मानक 5\" या 6\" फोटो पेपर पर क्रॉप और टाइल करें, और आसान कटाई के लिए सटीक प्रीप्रेस फिजिकल क्रॉप मार्क्स लगाएं।",
+    "keywords": [
+      "id photo tiling",
+      "print passport photo",
+      "tile photo standard paper",
+      "id photo layout prepress",
+      "stamp crop marks"
+    ],
+    "description": "<p>प्रीप्रेस फोटो टाइलिंग टूल व्यक्तिगत पंजीकरण कार्डों और फोटोग्राफी स्टूडियो के लिए बनाया गया एक किफायती, उच्च-सटीकता वाला लेआउट कंपाइलर है।</p><p>घर पर पासपोर्ट फोटो, आईडी फोटो या ड्राइविंग लाइसेंस प्रिंट करने से अक्सर गलत भौतिक आकार (अक्सर बहुत बड़े या बहुत छोटे प्रिंट होना), फोटो पेपर की बर्बादी और असमान संरेखण की समस्या होती है। लेआउट बनवाने के लिए पेशेवर प्रिंट दुकानों पर जाना समय लेने वाला काम है।</p><p>हमारा टूल एक <strong>सटीक प्रीप्रेस मैट्रिक्स इंजन</strong> को एकीकृत करता है। यह पोर्ट्रेट तस्वीरों या आईडी कार्ड स्कैन को स्वीकार करता है, उन्हें मानक आयामों (जैसे 1\" या 2\" पासपोर्ट विनिर्देशों) में क्रॉप करता है, मानक फोटो पेपर (जैसे 5\" या 6\" शीट) के लिए इष्टतम टाइल संख्या की गणना करता है, और आसान भौतिक कटाई के लिए स्पष्ट, माइक्रो-पिक्सेल क्रॉप लाइनें जोड़ता है, जिससे एक सही प्रिंट योग्य PDF जनरेट होता है।</p>",
+    "howToUse": [
+      {
+        "step": 1,
+        "title": "पासपोर्ट फोटो इम्पोर्ट करें",
+        "description": "कैमरा पोर्ट्रेट स्नैपशॉट या दोनों तरफ के आईडी कार्ड की छवियां अपलोड करें।"
+      },
+      {
+        "step": 2,
+        "title": "कागज और लेआउट कॉन्फ़िगर करें",
+        "description": "लक्षित प्रिंट पेपर का आकार चुनें (जैसे 6\") और ग्रिड लेआउट चुनें (जैसे 1\" फोटो की 8 प्रतियां)।"
+      },
+      {
+        "step": 3,
+        "title": "टाइल और एक्सपोर्ट करें",
+        "description": "हमारे ग्रिड पर फोटो टाइल्स का निरीक्षण करें, और उच्च-DPI प्रिंट योग्य PDF एक्सपोर्ट करें।"
+      }
+    ],
+    "useCases": [
+      {
+        "title": "सेल्फ-सर्विस पासपोर्ट फोटो",
+        "description": "अपने मोबाइल से ली गई पासपोर्ट पोर्ट्रेट फोटो को एक 6\" फोटो पेपर ग्रिड पर व्यवस्थित करें, और मानक स्टूडियो लागत के एक छोटे से हिस्से में 8 प्रतियां प्रिंट करें।",
+        "icon": "user"
+      },
+      {
+        "title": "आईडी कार्ड दोनों तरफ की कॉपी",
+        "description": "आधिकारिक प्रस्तुतियों के लिए राष्ट्रीय आईडी कार्ड के आगे और पीछे के स्कैन को मानक Letter/A4 शीट पर सफाई से फॉर्मेट करें।",
+        "icon": "file-text"
+      },
+      {
+        "title": "बैच फोटो थंबनेल शीट्स",
+        "description": "थंबनेल कॉन्टैक्ट शीट को कुशलता से प्रिंट करने के लिए ग्रिड पेपर पर कई पारिवारिक यादों या डिज़ाइन स्नैपशॉट को टाइल करें।",
+        "icon": "grid"
+      }
+    ],
+    "faq": [
+      {
+        "question": "क्या प्रिंट किए गए आयाम आधिकारिक 1\" या 2\" विनिर्देशों से मेल खाएंगे?",
+        "answer": "हाँ। ग्रिड इंजन मानक PDF पॉइंट्स (72 pt = 1 इंच) का उपयोग करके मापता है, जिससे 1\" की फोटो ठीक 25x35mm और 2\" की फोटो 35x49mm पर रेंडर होती है। सुनिश्चित करें कि आप अपनी प्रिंटर सेटिंग्स में \"Actual Size / 100% Scale\" पर प्रिंट करते हैं।"
+      },
+      {
+        "question": "क्या मैं एक ही शीट पर 1\" और 2\" फोटो को मिला सकता हूं?",
+        "answer": "हाँ। हम क्यूरेटेड हाइब्रिड लेआउट प्रीसेट (जैसे \"1\" की 4 प्रतियां + 2\" की 4 प्रतियां\") प्रदान करते हैं, जिससे आप फोटो पेपर स्पेस का अधिकतम उपयोग कर सकते हैं।"
+      },
+      {
+        "question": "क्या टेम्पलेट में बॉर्डर ब्लीड शामिल हैं?",
+        "answer": "हाँ। प्रीप्रेस लेआउट कागज के बॉर्डर पर मानक 4mm प्रिंट-सुरक्षित मार्जिन सुरक्षित रखते हैं, जिससे प्रिंटर के रोलर्स द्वारा फोटो को कटने से बचाया जा सके।"
+      }
+    ]
+  }
 };
-
-
-
-

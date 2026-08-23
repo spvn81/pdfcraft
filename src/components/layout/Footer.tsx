@@ -19,9 +19,9 @@ export const Footer: React.FC<FooterProps> = ({ locale }) => {
   const pathname = usePathname();
 
   const footerLinks = [
-    { href: `/${locale}/faq`, label: t('navigation.faq') },
-    { href: `/${locale}/privacy`, label: t('navigation.privacy') },
-    { href: `/${locale}/contact`, label: t('navigation.contact') },
+    { href: `/${locale}/faq/`, label: t('navigation.faq') },
+    { href: `/${locale}/privacy/`, label: t('navigation.privacy') },
+    { href: `/${locale}/contact/`, label: t('navigation.contact') },
   ];
 
   const handleLanguageChange = (newLocale: Locale) => {
@@ -40,7 +40,7 @@ export const Footer: React.FC<FooterProps> = ({ locale }) => {
           {/* Brand Column */}
           <div className="col-span-1 md:col-span-1 flex flex-col gap-6">
             <Link
-              href={`/${locale}`}
+              href={`/${locale}/`}
               className="group flex items-center gap-2.5 text-xl font-bold text-[hsl(var(--color-foreground))]"
               aria-label={`${t('brand')} - ${t('navigation.home')}`}
             >
@@ -175,10 +175,10 @@ export const Footer: React.FC<FooterProps> = ({ locale }) => {
             &copy; {currentYear} {t('brand')}. {t('footer.copyright', { year: '' }).replace(/^\d{4}\s*/, '')}
           </p>
           <div className="flex items-center gap-6">
-            <Link href={`/${locale}/privacy`} className="text-xs text-[hsl(var(--color-muted-foreground))] hover:text-[hsl(var(--color-foreground))]">Terms</Link>
-            <Link href={`/${locale}/privacy`} className="text-xs text-[hsl(var(--color-muted-foreground))] hover:text-[hsl(var(--color-foreground))]">Privacy</Link>
-            <Link href={`/${locale}/privacy`} className="text-xs text-[hsl(var(--color-muted-foreground))] hover:text-[hsl(var(--color-foreground))]">Cookies</Link>
-            <Link href={`/${locale}/legal`} className="text-xs text-[hsl(var(--color-muted-foreground))] hover:text-[hsl(var(--color-foreground))]">Open Source & Legal</Link>
+            <Link href={`/${locale}/privacy/`} className="text-xs text-[hsl(var(--color-muted-foreground))] hover:text-[hsl(var(--color-foreground))]">Terms</Link>
+            <Link href={`/${locale}/privacy/`} className="text-xs text-[hsl(var(--color-muted-foreground))] hover:text-[hsl(var(--color-foreground))]">Privacy</Link>
+            <Link href={`/${locale}/privacy/`} className="text-xs text-[hsl(var(--color-muted-foreground))] hover:text-[hsl(var(--color-foreground))]">Cookies</Link>
+            <Link href={`/${locale}/legal/`} className="text-xs text-[hsl(var(--color-muted-foreground))] hover:text-[hsl(var(--color-foreground))]">Open Source & Legal</Link>
           </div>
         </div>
       </div>

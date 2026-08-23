@@ -46,7 +46,9 @@ export interface ToolMetadataOptions extends BaseMetadataOptions {
  */
 export function getCanonicalUrl(locale: Locale, path: string = ''): string {
   const cleanPath = path.startsWith('/') ? path : `/${path}`;
-  return `${siteConfig.url}${cleanBasePath}/${locale}${cleanPath}`;
+  const localePath = `/${locale}${cleanPath}`;
+  const normalizedPath = localePath.endsWith('/') ? localePath : `${localePath}/`;
+  return `${siteConfig.url}${cleanBasePath}${normalizedPath}`;
 }
 
 /**
@@ -57,11 +59,15 @@ export function getAlternateUrls(path: string = ''): Record<string, string> {
   const alternates: Record<string, string> = {};
 
   for (const locale of locales) {
-    alternates[locale] = `${siteConfig.url}${cleanBasePath}/${locale}${cleanPath}`;
+    const localePath = `/${locale}${cleanPath}`;
+    const normalizedPath = localePath.endsWith('/') ? localePath : `${localePath}/`;
+    alternates[locale] = `${siteConfig.url}${cleanBasePath}${normalizedPath}`;
   }
 
   // Add x-default pointing to English
-  alternates['x-default'] = `${siteConfig.url}${cleanBasePath}/en${cleanPath}`;
+  const defaultPath = `/en${cleanPath}`;
+  const normalizedDefaultPath = defaultPath.endsWith('/') ? defaultPath : `${defaultPath}/`;
+  alternates['x-default'] = `${siteConfig.url}${cleanBasePath}${normalizedDefaultPath}`;
 
   return alternates;
 }
@@ -161,10 +167,18 @@ export function generateToolMetadata(options: ToolMetadataOptions): Metadata {
     'private',
   ];
 
+  // Extract the first sentence of the meta description to create a dynamic, descriptive title
+  // Handles English/Latin (.), Hindi (।), and CJK (。) sentence boundaries
+  const firstSentenceMatch = content.metaDescription.match(/^[^.।。]+/);
+  const firstSentence = firstSentenceMatch ? firstSentenceMatch[0].trim() : content.metaDescription;
+  
+  // Construct title: e.g., "Merge PDF - Combine multiple PDF files into one document"
+  const dynamicTitle = `${content.title} - ${firstSentence}`;
+
   return generateBaseMetadata({
     locale,
     path,
-    title: content.title,
+    title: dynamicTitle,
     description: content.metaDescription,
     keywords: enhancedKeywords,
   });
