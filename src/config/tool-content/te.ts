@@ -3589,38 +3589,38 @@ export const toolContentTe: Record<string, ToolContent> = {
     "useCases": [
       {
         "title": "ప్రాప్యత మూలం ఫైళ్లు",
-        "description": "Extract original data files from PDF reports.",
+        "description": "PDF నివేదికల నుండి అసలు డేటా ఫైళ్ళను సేకరించండి.",
         "icon": "download"
       },
       {
-        "title": "Recover Attachments",
-        "description": "Retrieve embedded files from PDF packages.",
+        "title": "జోడింపులను పునరుద్ధరించు",
+        "description": "PDF ప్యాకేజీల నుండి పొందుపరిచిన ఫైళ్ళను తిరిగి పొందండి.",
         "icon": "folder-open"
       },
       {
-        "title": "Batch Extraction",
-        "description": "Extract attachments from multiple PDFs at once.",
+        "title": "బ్యాచ్ సేకరణ",
+        "description": "ఒకేసారి బహుళ PDF ఫైళ్ళ నుండి అటాచ్మెంట్లను సేకరించండి.",
         "icon": "layers"
       }
     ],
     "faq": [
       {
-        "question": "What if there are no attachments?",
-        "answer": "The tool will indicate if no embedded files are found."
+        "question": "మరియు ఏ అటాచ్మెంట్లు ఉంటే?",
+        "answer": "ఈ సాధనం ఏ ఎంబెడెడ్ ఫైళ్లు దొరకకపోతే తెలియజేస్తుంది."
       },
       {
-        "question": "Are all attachment types supported?",
-        "answer": "Yes, all embedded file types can be extracted."
+        "question": "అన్ని అటాచ్మెంట్ రకాలు మద్దతు ఇవ్వబడతాయా?",
+        "answer": "అవును, అన్ని ఎంబెడెడ్ ఫైల్ రకాలను సేకరించవచ్చు."
       },
       {
-        "question": "Can I extract from multiple PDFs?",
-        "answer": "Yes, you can process multiple PDFs and download all attachments."
+        "question": "నేను బహుళ PDF ఫైళ్ళ నుండి సేకరించవచ్చు?",
+        "answer": "అవును, మీరు బహుళ PDF ఫైల్లను ప్రాసెస్ చేయవచ్చు మరియు అన్ని జోడింపులను డౌన్లోడ్ చేసుకోవచ్చు."
       }
     ]
   },
   "extract-images": {
-    "title": "Extract Images from PDF",
-    "metaDescription": "Extract all embedded images from PDF files. Download individually or as a ZIP archive. Filter small images automatically.",
+    "title": "PDF నుండి చిత్రాలను తీయండి",
+    "metaDescription": "PDF ఫైళ్ళ నుండి అన్ని పొందుపరిచిన చిత్రాలను తీయండి. ఒక్కొక్కటిగా లేదా జిప్ ఆర్కైవ్గా డౌన్లోడ్ చేయండి. చిన్న చిత్రాలను స్వయంచాలకంగా ఫిల్టర్ చేయండి.",
     "keywords": [
       "extract pdf images",
       "pdf image extraction",
@@ -3628,71 +3628,71 @@ export const toolContentTe: Record<string, ToolContent> = {
       "download pdf images",
       "pdf to images"
     ],
-    "description": "\n      <p>Extract Images from PDF retrieves all embedded images from your PDF documents. Download high-quality images individually or as a convenient ZIP archive.</p>\n      <p>The tool automatically filters out small images like icons and decorations based on customizable size thresholds. Process multiple PDFs at once for efficient batch extraction.</p>\n      <p>All extraction happens in your browser, ensuring your documents remain private and secure.</p>\n    ",
+    "description": "<p>PDF నుండి చిత్రాలను సేకరించండి మీ PDF పత్రాల నుండి అన్ని పొందుపరిచిన చిత్రాలను తిరిగి పొందుతుంది. అధిక-నాణ్యత చిత్రాలను వ్యక్తిగతంగా లేదా అనుకూలమైన ZIP ఆర్కైవ్గా డౌన్లోడ్ చేయండి.</p> <p>ఈ సాధనం అనుకూలీకరించదగిన పరిమాణ పరిమితుల ఆధారంగా చిహ్నాలు మరియు అలంకరణలు వంటి చిన్న చిత్రాలను స్వయంచాలకంగా ఫిల్టర్ చేస్తుంది. సమర్థవంతమైన బ్యాచ్ సేకరణ కోసం ఒకేసారి బహుళ PDF లను ప్రాసెస్ చేయండి.</p> <p>అన్ని సేకరణలు మీ బ్రౌజర్లో జరుగుతాయి, మీ పత్రాలు ప్రైవేట్ మరియు సురక్షితంగా ఉంటాయి.</p> ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Your PDFs",
-        "description": "Drag and drop one or more PDF files or click to select from your device."
+        "title": "మీ PDF ఫైల్లను అప్లోడ్ చేయండి",
+        "description": "మీ పరికరంలో నుండి ఎంచుకోవడానికి ఒకటి లేదా అంతకంటే ఎక్కువ PDF ఫైల్లను లాగండి మరియు వదలండి లేదా క్లిక్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Set Filter Options",
-        "description": "Adjust minimum width, height, and file size to filter out unwanted small images."
+        "title": "ఫిల్టర్ ఎంపికలను సెట్ చేయండి",
+        "description": "అవాంఛిత చిన్న చిత్రాలను ఫిల్టర్ చేయడానికి కనీస వెడల్పు, ఎత్తు, ఫైల్ పరిమాణాన్ని సర్దుబాటు చేయండి."
       },
       {
         "step": 3,
-        "title": "Extract Images",
-        "description": "Click Extract to find all embedded images in your PDFs."
+        "title": "చిత్రాలను తీయండి",
+        "description": "మీ PDF ఫైళ్ళలో పొందుపరిచిన అన్ని చిత్రాలను కనుగొనడానికి ఎక్స్ట్రాక్ట్ క్లిక్ చేయండి."
       },
       {
         "step": 4,
         "title": "డౌన్లోడ్",
-        "description": "Download individual images or all images as a ZIP archive."
+        "description": "వ్యక్తిగత చిత్రాలను లేదా అన్ని చిత్రాలను ZIP ఆర్కైవ్గా డౌన్లోడ్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Photo Recovery",
-        "description": "Extract photos and images embedded in PDF documents for reuse or archiving.",
+        "title": "ఫోటో రికవరీ",
+        "description": "పునర్వినియోగం లేదా ఆర్కైవ్ చేయడానికి PDF పత్రాలలో పొందుపరిచిన ఫోటోలు మరియు చిత్రాలను తీయండి.",
         "icon": "image"
       },
       {
-        "title": "Asset Collection",
-        "description": "Gather all graphics and images from PDF reports, presentations, or brochures.",
+        "title": "ఆస్తుల సేకరణ",
+        "description": "PDF నివేదికలు, ప్రదర్శనలు, లేదా బ్రోచర్ల నుండి అన్ని గ్రాఫిక్లు మరియు చిత్రాలను సేకరించండి.",
         "icon": "folder"
       },
       {
         "title": "కంటెంట్ను పునఃప్రయోగించడం",
-        "description": "Extract images from PDFs to use in other documents, websites, or presentations.",
+        "description": "PDF ఫైల్స్ నుండి చిత్రాలను సేకరించండి, ఇతర పత్రాలు, వెబ్సైట్లు లేదా ప్రదర్శనలలో ఉపయోగించండి.",
         "icon": "refresh-cw"
       }
     ],
     "faq": [
       {
-        "question": "What image formats are extracted?",
-        "answer": "Images are extracted in their native format (JPEG, PNG, etc.) when possible, or converted to PNG for raw image data."
+        "question": "ఏ చిత్ర ఫార్మాట్లను సేకరించారు?",
+        "answer": "సాధ్యమైనప్పుడు చిత్రాలను వారి స్థానిక ఫార్మాట్లో (JPEG, PNG, మొదలైనవి) సేకరించడం లేదా ముడి చిత్ర డేటా కోసం PNG గా మార్చడం."
       },
       {
-        "question": "Why are some images missing?",
-        "answer": "Small images below the size threshold are filtered out. Adjust the filter settings to extract smaller images."
+        "question": "కొన్ని చిత్రాలు ఎందుకు తప్పిపోయాయి?",
+        "answer": "పరిమాణం యొక్క పరిమితి కంటే తక్కువ ఉన్న చిన్న చిత్రాలు ఫిల్టర్ చేయబడతాయి. చిన్న చిత్రాలను సేకరించడానికి ఫిల్టర్ సెట్టింగులను సర్దుబాటు చేయండి."
       },
       {
         "question": "నేను స్కాన్ చేసిన PDF ఫైళ్ళ నుండి సేకరించవచ్చు?",
-        "answer": "Scanned PDFs typically contain the scan as one large image per page. Use PDF to Image tool instead for page-by-page conversion."
+        "answer": "స్కాన్ చేసిన PDF లు సాధారణంగా పేజీకి ఒక పెద్ద చిత్రంగా స్కాన్ చేస్తాయి. బదులుగా పేజీకి పేజీ మార్పిడి కోసం PDF to Image సాధనాన్ని ఉపయోగించండి."
       }
     ]
   },
   "edit-attachments": {
-    "title": "Edit Attachments",
-    "metaDescription": "Manage PDF attachments. View, rename, and remove embedded files.",
+    "title": "జోడింపులను సవరించు",
+    "metaDescription": "PDF జోడింపులను నిర్వహించండి. పొందుపరిచిన ఫైళ్ళను వీక్షించండి, పేరు మార్చండి, తొలగించండి.",
     "keywords": [
       "edit attachments",
       "manage pdf files",
       "remove attachments",
       "rename attachments"
     ],
-    "description": "\n      <p>Edit Attachments lets you manage embedded files in PDF documents. View all attachments, rename them, or remove unwanted files from the PDF.</p>\n      <p>Perfect for cleaning up PDF packages or updating attachment information before distribution.</p>\n      <p>All editing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>Edit Attachments మీరు PDF పత్రాలలో పొందుపరిచిన ఫైళ్ళను నిర్వహించడానికి అనుమతిస్తుంది. అన్ని అటాచ్మెంట్లను వీక్షించండి, వాటిని పేరు మార్చండి లేదా PDF నుండి అవాంఛిత ఫైళ్ళను తొలగించండి.</p> <p>PDF ప్యాకేజీలను శుభ్రం చేయడానికి లేదా పంపిణీకి ముందు అటాచ్మెంట్ సమాచారాన్ని నవీకరించడానికి అనువైనది.</p> <p>అన్ని ఎడిటింగ్లు మీ బ్రౌజర్లో జరుగుతాయి, మీ పత్రాలు ప్రైవేట్గా ఉంటాయి.</p> ",
     "howToUse": [
       {
         "step": 1,
@@ -3701,57 +3701,57 @@ export const toolContentTe: Record<string, ToolContent> = {
       },
       {
         "step": 2,
-        "title": "Manage Attachments",
-        "description": "View, rename, or delete embedded files."
+        "title": "జోడింపులను నిర్వహించండి",
+        "description": "పొందుపరిచిన ఫైళ్ళను వీక్షించండి, పేరు మార్చండి లేదా తొలగించండి."
       },
       {
         "step": 3,
         "title": "సేవ్ చేసి డౌన్లోడ్ చేసుకోండి",
-        "description": "Click Save to apply changes and download."
+        "description": "మార్పులను అమలు చేయడానికి మరియు డౌన్లోడ్ చేయడానికి సేవ్ పై క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Clean Up PDFs",
-        "description": "Remove unnecessary attachments from PDF packages.",
+        "title": "PDF ఫైళ్ళను శుభ్రపరచండి",
+        "description": "PDF ప్యాకేజీల నుండి అనవసరమైన అటాచ్మెంట్లను తొలగించండి.",
         "icon": "trash-2"
       },
       {
-        "title": "Rename Files",
-        "description": "Update attachment names for clarity.",
+        "title": "ఫైళ్ళ పేరు మార్చు",
+        "description": "స్పష్టత కోసం అనుబంధ పేర్లను నవీకరించండి.",
         "icon": "edit"
       },
       {
-        "title": "Review Contents",
-        "description": "Audit embedded files before distribution.",
+        "title": "సమీక్ష కంటెంట్",
+        "description": "పంపిణీకి ముందు ఎంబెడెడ్ ఫైళ్ళను ఆడిట్ చేయండి.",
         "icon": "eye"
       }
     ],
     "faq": [
       {
-        "question": "Can I add new attachments here?",
-        "answer": "Use the Add Attachments tool to embed new files."
+        "question": "నేను కొత్త అటాచ్మెంట్లను ఇక్కడ జోడించవచ్చా?",
+        "answer": "కొత్త ఫైళ్ళను పొందుపరచడానికి జోడించండి జోడింపులు సాధనాన్ని ఉపయోగించండి."
       },
       {
-        "question": "Is removal permanent?",
-        "answer": "Yes, removed attachments cannot be recovered from the output file."
+        "question": "తొలగింపు శాశ్వతమేనా?",
+        "answer": "అవును, అవుట్పుట్ ఫైల్ నుండి తొలగించిన అటాచ్మెంట్లను తిరిగి పొందలేము."
       },
       {
-        "question": "Can I preview attachments?",
-        "answer": "You can see file names and sizes; use Extract Attachments to view contents."
+        "question": "నేను అటాచ్మెంట్స్ ప్రివ్యూ చేయవచ్చు?",
+        "answer": "మీరు ఫైల్ పేర్లు మరియు పరిమాణాలను చూడవచ్చు; కంటెంట్ను వీక్షించడానికి Extract Attachments ఉపయోగించండి."
       }
     ]
   },
   "divide-pages": {
-    "title": "Divide Pages",
-    "metaDescription": "Split PDF pages into multiple sections. Divide pages horizontally or vertically.",
+    "title": "పేజీలను విభజించండి",
+    "metaDescription": "PDF పేజీలను బహుళ విభాగాలుగా విభజించండి. పేజీలను క్షితిజ సమాంతరంగా లేదా నిలువుగా విభజించండి.",
     "keywords": [
       "divide pdf pages",
       "split page",
       "cut pdf page",
       "page sections"
     ],
-    "description": "\n      <p>Divide Pages splits individual PDF pages into multiple sections. Cut pages horizontally, vertically, or into a grid to create multiple pages from one.</p>\n      <p>Perfect for splitting scanned documents with multiple items per page, or dividing large format pages into standard sizes.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>డివిడ్ పేజీలు వ్యక్తిగత PDF పేజీలను బహుళ విభాగాలుగా విభజిస్తాయి. పేజీలను ఒక పేజీ నుండి బహుళ పేజీలను సృష్టించడానికి సమాంతరంగా, నిలువుగా లేదా గ్రిడ్లోకి కత్తిరించండి. </p> <p>ప్రతి పేజీకి బహుళ అంశాలతో స్కాన్ చేసిన పత్రాలను విభజించడానికి లేదా పెద్ద ఫార్మాట్ పేజీలను ప్రామాణిక పరిమాణాలుగా విభజించడానికి అనువైనది. </p> <p>అన్ని ప్రాసెసింగ్లు మీ బ్రౌజర్లో జరుగుతాయి, మీ పత్రాలు ప్రైవేట్గా ఉండాలని నిర్ధారించడం. </p> ",
     "howToUse": [
       {
         "step": 1,
@@ -3760,57 +3760,57 @@ export const toolContentTe: Record<string, ToolContent> = {
       },
       {
         "step": 2,
-        "title": "Set Division",
-        "description": "Choose horizontal, vertical, or grid division and set the number of sections."
+        "title": "సెట్ డివిజన్",
+        "description": "హోరిజోంటల్, వెరిఫికల్ లేదా గ్రిడ్ విభజన ఎంచుకోండి మరియు విభాగాల సంఖ్యను సెట్ చేయండి."
       },
       {
         "step": 3,
-        "title": "Divide and Download",
-        "description": "Click Divide to split pages and download."
+        "title": "విభజించండి మరియు డౌన్లోడ్ చేయండి",
+        "description": "పేజీలను విభజించి డౌన్లోడ్ చేయడానికి విభజించండి క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Split Scans",
-        "description": "Divide scanned pages containing multiple documents.",
+        "title": "స్ప్లిట్ స్కాన్లు",
+        "description": "బహుళ పత్రాలను కలిగి ఉన్న స్కాన్ చేసిన పేజీలను విభజించండి.",
         "icon": "scissors"
       },
       {
-        "title": "Resize Pages",
-        "description": "Split large pages into standard paper sizes.",
+        "title": "పేజీల పరిమాణాన్ని మార్చు",
+        "description": "పెద్ద పేజీలను ప్రామాణిక కాగితపు పరిమాణాలుగా విభజించండి.",
         "icon": "maximize-2"
       },
       {
-        "title": "Create Cards",
-        "description": "Divide pages into card-sized sections for printing.",
+        "title": "కార్డులు సృష్టించు",
+        "description": "పేజీలను ముద్రణ కోసం కార్డు పరిమాణ విభాగాలుగా విభజించండి.",
         "icon": "grid"
       }
     ],
     "faq": [
       {
-        "question": "Can I divide into unequal sections?",
-        "answer": "Currently, divisions are equal. Use Crop PDF for custom sections."
+        "question": "నేను అసమాన విభాగాలుగా విభజించవచ్చు?",
+        "answer": "ప్రస్తుతం విభజన సమానంగా ఉంది. కస్టమ్ విభాగాల కోసం Crop PDF ను ఉపయోగించండి."
       },
       {
-        "question": "What happens to content at division lines?",
-        "answer": "Content is split at the division line; ensure important content is not at boundaries."
+        "question": "డివిజన్ లైన్లలో కంటెంట్కు ఏమి జరుగుతుంది?",
+        "answer": "కంటెంట్ను విభజన రేఖలో విభజించండి; ముఖ్యమైన కంటెంట్ సరిహద్దుల్లో ఉండదని నిర్ధారించుకోండి."
       },
       {
-        "question": "Can I divide specific pages only?",
-        "answer": "Yes, you can select which pages to divide."
+        "question": "నేను నిర్దిష్ట పేజీలను మాత్రమే విభజించవచ్చా?",
+        "answer": "అవును, మీరు ఏ పేజీలను విభజించాలో ఎంచుకోవచ్చు."
       }
     ]
   },
   "add-blank-page": {
-    "title": "Add Blank Page",
-    "metaDescription": "Insert blank pages into PDF documents. Add empty pages at any position.",
+    "title": "ఖాళీ పేజీని జోడించండి",
+    "metaDescription": "PDF పత్రాలలో ఖాళీ పేజీలను చొప్పించండి. ఖాళీ పేజీలను ఏ స్థానంలోనైనా జోడించండి.",
     "keywords": [
       "add blank page",
       "insert page",
       "empty page",
       "pdf page insertion"
     ],
-    "description": "\n      <p>Add Blank Page inserts empty pages into your PDF documents at any position. Add pages before, after, or between existing pages with customizable page size.</p>\n      <p>Perfect for adding space for notes, creating section dividers, or preparing documents for printing.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>ఖాళీ పేజీని జోడించడం మీ PDF పత్రాలలో ఏ స్థానంలోనైనా ఖాళీ పేజీలను చొప్పించబడుతుంది. అనుకూలీకరించదగిన పేజీ పరిమాణంతో ఇప్పటికే ఉన్న పేజీలకు ముందు, తరువాత లేదా మధ్య పేజీలను జోడించండి.</p> <p>నోట్ల కోసం స్థలాన్ని జోడించడానికి, విభాగం విభజనలను సృష్టించడానికి లేదా పత్రాలను ముద్రించడానికి సిద్ధం చేయడానికి అనువైనది.</p> <p>అన్ని ప్రాసెసింగ్లు మీ బ్రౌజర్లో జరుగుతాయి, మీ పత్రాలు ప్రైవేట్గా ఉంటాయి.</p> ",
     "howToUse": [
       {
         "step": 1,
@@ -3819,57 +3819,57 @@ export const toolContentTe: Record<string, ToolContent> = {
       },
       {
         "step": 2,
-        "title": "Choose Position",
-        "description": "Select where to insert blank pages and how many."
+        "title": "స్థానం ఎంచుకోండి",
+        "description": "ఖాళీ పేజీలను ఎక్కడ మరియు ఎన్ని పేజీలను చొప్పించాలో ఎంచుకోండి."
       },
       {
         "step": 3,
-        "title": "Add and Download",
-        "description": "Click Add to insert pages and download."
+        "title": "జోడించండి మరియు డౌన్లోడ్ చేయండి",
+        "description": "పేజీలను చొప్పించి డౌన్లోడ్ చేయడానికి జోడించండి క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Note Space",
-        "description": "Add blank pages for handwritten notes.",
+        "title": "గమనిక స్థలం",
+        "description": "చేతితో వ్రాసిన గమనికలకు ఖాళీ పేజీలను జోడించండి.",
         "icon": "edit-3"
       },
       {
-        "title": "Section Dividers",
-        "description": "Insert blank pages between document sections.",
+        "title": "విభాగం విభజనలు",
+        "description": "పత్ర విభాగాల మధ్య ఖాళీ పేజీలను చొప్పించండి.",
         "icon": "minus"
       },
       {
         "title": "ముద్రణ తయారీ",
-        "description": "Add pages for duplex printing alignment.",
+        "description": "డ్యూప్లెక్స్ ప్రింటింగ్ అమరిక కోసం పేజీలను జోడించండి.",
         "icon": "printer"
       }
     ],
     "faq": [
       {
-        "question": "Can I choose the page size?",
-        "answer": "Yes, blank pages can match existing pages or use custom dimensions."
+        "question": "నేను పేజీ పరిమాణం ఎంచుకోవచ్చు?",
+        "answer": "అవును, ఖాళీ పేజీలు ఇప్పటికే ఉన్న పేజీలతో సరిపోలవచ్చు లేదా అనుకూలీకరించిన పరిమాణాలను ఉపయోగించవచ్చు."
       },
       {
-        "question": "Can I add multiple blank pages?",
-        "answer": "Yes, you can add any number of blank pages at once."
+        "question": "నేను బహుళ ఖాళీ పేజీలను జోడించవచ్చా?",
+        "answer": "అవును, మీరు ఒకేసారి ఎన్ని ఖాళీ పేజీలు జోడించవచ్చు."
       },
       {
-        "question": "Can I add colored pages?",
-        "answer": "Use Background Color tool after adding blank pages to add color."
+        "question": "నేను రంగు పేజీలు జోడించవచ్చు?",
+        "answer": "ఖాళీ పేజీలను జోడించిన తర్వాత రంగును జోడించడానికి నేపథ్య రంగు సాధనాన్ని ఉపయోగించండి."
       }
     ]
   },
   "reverse-pages": {
-    "title": "Reverse Pages",
-    "metaDescription": "Reverse PDF page order. Flip document pages from last to first.",
+    "title": "వెనుక పేజీలు",
+    "metaDescription": "PDF పేజీల క్రమాన్ని తిప్పండి. చివరి నుండి మొదటి వరకు పత్ర పేజీలను తిప్పండి.",
     "keywords": [
       "reverse pdf",
       "flip page order",
       "invert pages",
       "reverse document"
     ],
-    "description": "\n      <p>Reverse Pages flips the order of pages in your PDF document, putting the last page first and the first page last. Useful for documents scanned in reverse order or for specific printing needs.</p>\n      <p>The tool processes the entire document or selected page ranges, maintaining all content and formatting.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>రివర్స్ పేజెస్ మీ PDF డాక్యుమెంట్లోని పేజీల క్రమాన్ని తిప్పికొడుతుంది, చివరి పేజీని మొదటి మరియు మొదటి పేజీని చివరిగా ఉంచడం. రివర్స్ ఆర్డర్లో స్కాన్ చేసిన పత్రాలకు లేదా నిర్దిష్ట ముద్రణ అవసరాలకు ఉపయోగపడుతుంది.</p> <p>ఈ సాధనం మొత్తం పత్రాన్ని లేదా ఎంచుకున్న పేజీ శ్రేణులను ప్రాసెస్ చేస్తుంది, అన్ని కంటెంట్ మరియు ఫార్మాటింగ్ను నిర్వహిస్తుంది.</p> <p>అన్ని ప్రాసెసింగ్లు మీ బ్రౌజర్లో జరుగుతాయి, మీ పత్రాలు ప్రైవేట్గా ఉంటాయి.</p> ",
     "howToUse": [
       {
         "step": 1,
@@ -3879,56 +3879,56 @@ export const toolContentTe: Record<string, ToolContent> = {
       {
         "step": 2,
         "title": "పేజీలను ఎంచుకోండి",
-        "description": "Choose to reverse all pages or a specific range."
+        "description": "అన్ని పేజీలను లేదా నిర్దిష్ట పరిధిని తిప్పికొట్టడానికి ఎంచుకోండి."
       },
       {
         "step": 3,
-        "title": "Reverse and Download",
-        "description": "Click Reverse to flip page order and download."
+        "title": "రివర్స్ మరియు డౌన్లోడ్",
+        "description": "పేజీ ఆర్డర్ మరియు డౌన్లోడ్ చేయడానికి రివర్స్ క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Fix Scan Order",
-        "description": "Correct documents scanned in reverse order.",
+        "title": "స్కాన్ ఆర్డర్ను పరిష్కరించు",
+        "description": "సరైన పత్రాలను రివర్స్ ఆర్డర్ లో స్కాన్ చేయండి.",
         "icon": "refresh-cw"
       },
       {
         "title": "ముద్రణ తయారీ",
-        "description": "Reverse pages for specific printing requirements.",
+        "description": "నిర్దిష్ట ముద్రణ అవసరాలకు రివర్స్ పేజీలు.",
         "icon": "printer"
       },
       {
-        "title": "Document Reordering",
-        "description": "Quickly flip document order for review.",
+        "title": "పత్రాల పునః క్రమబద్ధీకరణ",
+        "description": "సమీక్ష కోసం పత్రం ఆర్డర్ త్వరగా తిప్పండి.",
         "icon": "arrow-up-down"
       }
     ],
     "faq": [
       {
-        "question": "Are bookmarks updated?",
-        "answer": "Yes, bookmarks are updated to point to the correct reversed pages."
+        "question": "బుక్మార్క్లు నవీకరించబడినా?",
+        "answer": "అవును, సరైన పేజీలను చూపడానికి బుక్మార్క్లను నవీకరించారు."
       },
       {
-        "question": "Can I reverse only some pages?",
-        "answer": "Yes, you can select a page range to reverse."
+        "question": "నేను కొన్ని పేజీలను మాత్రమే తిప్పికొట్టవచ్చా?",
+        "answer": "అవును, మీరు పేజీ పరిధిని ఎంచుకోవచ్చు."
       },
       {
-        "question": "Is this the same as rotating?",
-        "answer": "No, reversing changes page order; rotating changes page orientation."
+        "question": "ఇది తిరిగేలా అదేనా?",
+        "answer": "లేదు, పేజీ క్రమంలో మార్పులు తిప్పడం; పేజీ దిశలో మార్పులు తిప్పడం."
       }
     ]
   },
   "rotate-pdf": {
-    "title": "Rotate PDF",
-    "metaDescription": "Rotate PDF pages. Turn pages 90, 180, or 270 degrees.",
+    "title": "PDF ను తిప్పండి",
+    "metaDescription": "PDF పేజీలను తిప్పండి. పేజీలను 90, 180 లేదా 270 డిగ్రీల వద్ద తిప్పండి.",
     "keywords": [
       "rotate pdf",
       "turn pdf pages",
       "pdf rotation",
       "fix orientation"
     ],
-    "description": "\n      <p>Rotate PDF turns pages in your document by 90, 180, or 270 degrees. Fix incorrectly oriented scans, rotate landscape pages, or adjust page orientation for viewing.</p>\n      <p>Rotate all pages uniformly or select specific pages to rotate individually. The tool preserves all content and formatting.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>PDF ను తిప్పండి మీ పత్రంలోని పేజీలను 90, 180 లేదా 270 డిగ్రీల ద్వారా తిప్పండి. తప్పుగా దర్శకత్వం వహించిన స్కాన్లను పరిష్కరించండి, ప్రకృతి దృశ్య పేజీలను తిప్పండి లేదా వీక్షణ కోసం పేజీల దర్శకత్వాన్ని సర్దుబాటు చేయండి. </p> <p>అన్ని పేజీలను ఏకరీతిగా తిప్పండి లేదా ప్రత్యేక పేజీలను ఎంచుకోండి. సాధనం అన్ని కంటెంట్ మరియు ఫార్మాటింగ్ను కాపాడుతుంది. </p> <p>అన్ని ప్రాసెసింగ్లు మీ బ్రౌజర్లో జరుగుతాయి, మీ పత్రాలు ప్రైవేట్గా ఉండాలని నిర్ధారించుకోండి. </p> ",
     "howToUse": [
       {
         "step": 1,
@@ -3937,50 +3937,50 @@ export const toolContentTe: Record<string, ToolContent> = {
       },
       {
         "step": 2,
-        "title": "Select Rotation",
-        "description": "Choose rotation angle and which pages to rotate."
+        "title": "భ్రమణాన్ని ఎంచుకోండి",
+        "description": "భ్రమణ కోణం మరియు ఏ పేజీలను భ్రమణ చేయాలి ఎంచుకోండి."
       },
       {
         "step": 3,
-        "title": "Rotate and Download",
-        "description": "Click Rotate to apply changes and download."
+        "title": "తిరగండి మరియు డౌన్లోడ్",
+        "description": "మార్పులను అమలు చేయడానికి మరియు డౌన్లోడ్ చేయడానికి తిరగండి క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Fix Scans",
-        "description": "Correct orientation of scanned documents.",
+        "title": "స్కాన్లను పరిష్కరించు",
+        "description": "స్కాన్ చేసిన పత్రాల సరైన దిశ.",
         "icon": "rotate-cw"
       },
       {
-        "title": "Landscape Pages",
-        "description": "Rotate landscape pages for proper viewing.",
+        "title": "ప్రకృతి దృశ్య పేజీలు",
+        "description": "సరిగా వీక్షించడానికి ప్రకృతి దృశ్య పేజీలను తిప్పండి.",
         "icon": "monitor"
       },
       {
-        "title": "Mixed Orientation",
-        "description": "Standardize page orientation in mixed documents.",
+        "title": "మిశ్రమ దిశ",
+        "description": "మిశ్రమ పత్రాలలో పేజీల దిశను ప్రామాణీకరించండి.",
         "icon": "layout"
       }
     ],
     "faq": [
       {
-        "question": "Can I rotate different pages differently?",
-        "answer": "Yes, you can apply different rotations to different pages."
+        "question": "నేను వేర్వేరు పేజీలను వేరుగా తిప్పగలనా?",
+        "answer": "అవును, మీరు వేర్వేరు పేజీలకు వేర్వేరు భ్రమణాలను వర్తింపజేయవచ్చు."
       },
       {
-        "question": "Does rotation affect print quality?",
-        "answer": "No, rotation preserves all content quality."
+        "question": "రొటేషన్ ముద్రణ నాణ్యతను ప్రభావితం చేస్తుందా?",
+        "answer": "లేదు, రొటేషన్ అన్ని కంటెంట్ నాణ్యతను కాపాడుతుంది."
       },
       {
-        "question": "Can I rotate by custom angles?",
-        "answer": "Rotation is limited to 90-degree increments (90, 180, 270)."
+        "question": "నేను కస్టమ్ కోణాల ద్వారా తిరగవచ్చు?",
+        "answer": "భ్రమణము 90 డిగ్రీల పెరుగుదల (90, 180, 270) తో మాత్రమే పరిమితం చేయబడుతుంది."
       }
     ]
   },
   "overlay-pdf": {
-    "title": "Overlay PDF",
-    "metaDescription": "Overlay or underlay pages from one PDF onto another. Perfect for stamps, letterheads, and layout composition.",
+    "title": "ఓవర్లే PDF",
+    "metaDescription": "ఒక PDF నుండి మరొక PDF కు పేజీలను అతివ్యాప్తి చేయండి. స్టాంప్లు, అక్షర శీర్షికలు, మరియు లేఅవుట్ కూర్పు కోసం పరిపూర్ణమైనది.",
     "keywords": [
       "overlay pdf",
       "underlay pdf",
@@ -3988,64 +3988,64 @@ export const toolContentTe: Record<string, ToolContent> = {
       "watermark pdf",
       "combine layers"
     ],
-    "description": "\n      <p>Overlay PDF allows you to layer pages of one PDF document on top or underneath another PDF document. It is perfect for applying letterheads, adding background grids, stamping watermarks, or fusing layout drafts together.</p>\n      <p>Supports both Overlay mode (layer goes on top) and Underlay mode (layer goes underneath). Specify custom target page ranges or loop shorter overlay documents to cover the entire base file automatically.</p>\n      <p>All processing is executed entirely inside your web browser locally, guaranteeing total security and data privacy.</p>\n    ",
+    "description": "<p>ఒక PDF పత్రం యొక్క పేజీలను మరొక PDF పత్రం పైన లేదా క్రింద పొరలుగా మార్చడానికి అనుమతిస్తుంది. ఇది అక్షర తలలను వర్తింపజేయడం, నేపథ్య గ్రిడ్లను జోడించడం, జలచిహ్నాలను స్టాంప్ చేయడం లేదా లేఅవుట్ డ్రాఫ్ట్లను కలిసి మిళితం చేయడం కోసం ఖచ్చితంగా సరిపోతుంది. </p> <p>ఒక పొరను (పైనకు పొర) మరియు అండర్లే మోడ్ (క్రిందకు పొర) రెండింటినీ మద్దతు ఇస్తుంది. మొత్తం బేస్ ఫైల్ను స్వయంచాలకంగా కవర్ చేయడానికి అనుకూలీకరించిన లక్ష్య పేజీ శ్రేణులను లేదా లూప్ చిన్న ఓవర్లే పత్రాలను పేర్కొనండి.</p> <p>అన్ని ప్రాసెసింగ్లు మీ వెబ్ బ్రౌజర్లో పూర్తిగా అమలు చేయబడతాయి, ఇది మొత్తం భద్రత మరియు డేటా గోప్యతకు హామీ ఇస్తుంది.</p> ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Main PDF",
-        "description": "Drag and drop your primary base PDF document."
+        "title": "ప్రధాన PDF ని అప్లోడ్ చేయండి",
+        "description": "మీ ప్రాధమిక ప్రాథమిక PDF పత్రాన్ని లాగండి మరియు వదలండి."
       },
       {
         "step": 2,
-        "title": "Upload Layer PDF",
-        "description": "Provide the overlay/underlay document that acts as the layer."
+        "title": "PDF లేయర్ను అప్లోడ్ చేయండి",
+        "description": "పొరగా పనిచేసే ఓవర్లే/అండర్లే డాక్యుమెంట్ను అందించండి."
       },
       {
         "step": 3,
-        "title": "Configure Layering",
-        "description": "Choose overlay or underlay mode, specify page ranges, and enable page looping."
+        "title": "పొరలను కాన్ఫిగర్ చేయండి",
+        "description": "ఓవర్లే లేదా అండర్లే మోడ్ను ఎంచుకోండి, పేజీ శ్రేణులను పేర్కొనండి మరియు పేజీ లూపింగ్ను ప్రారంభించండి."
       },
       {
         "step": 4,
         "title": "సంకలనం మరియు డౌన్లోడ్",
-        "description": "Click Compile to process and download the layered result PDF."
+        "description": "వర్గీకరించిన ఫలిత PDF ను ప్రాసెస్ చేయడానికి మరియు డౌన్లోడ్ చేయడానికి కంపైల్ క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Corporate Letterheads",
-        "description": "Layer invoice contents on top of standard company letterhead templates.",
+        "title": "కార్పొరేట్ లెటర్ హెడ్స్",
+        "description": "ప్రామాణిక కంపెనీ లెటర్హెడ్ టెంప్లేట్ల పైన లేయర్ ఇన్వాయిస్ కంటెంట్.",
         "icon": "file-text"
       },
       {
-        "title": "Watermarks & Seals",
-        "description": "Overlay security stamps, signature seals, or backgrounds across documents.",
+        "title": "జలమార్కులు & సీల్స్",
+        "description": "పత్రాల మీద భద్రతా ముద్రలు, సంతకం ముద్రలు లేదా నేపథ్యాలను అతికించండి.",
         "icon": "shield"
       },
       {
-        "title": "Drawing Blueprints",
-        "description": "Combine draft architectures or layout grids underneath text blocks.",
+        "title": "డ్రాయింగ్లు",
+        "description": "టెక్స్ట్ బ్లాక్ల క్రింద డ్రాఫ్ట్ ఆర్కిటెక్చర్లను లేదా లేఅవుట్ గ్రిడ్లను కలపండి.",
         "icon": "layout"
       }
     ],
     "faq": [
       {
-        "question": "What is the difference between Overlay and Underlay?",
-        "answer": "Overlay places the secondary layer on top of your main content. Underlay places it at the very bottom, acting as a background template."
+        "question": "ఓవర్లే మరియు అండర్లే మధ్య తేడా ఏమిటి?",
+        "answer": "ఓవర్లే మీ ప్రధాన కంటెంట్ పైన ఉన్న ద్వితీయ పొరను ఉంచండి. అండర్లే దానిని చాలా దిగువన ఉంచండి, ఇది నేపథ్య టెంప్లేట్గా పనిచేస్తుంది."
       },
       {
-        "question": "Can I loop the overlay layer?",
-        "answer": "Yes, if the layer PDF is shorter than the base document, enabling Loop will cycle it (e.g. page 1, 2, 1, 2) to cover all base pages."
+        "question": "నేను వసంత పొర loop చేయవచ్చు?",
+        "answer": "అవును, PDF పొర బేస్ డాక్యుమెంట్ కంటే తక్కువగా ఉంటే, Loop అన్ని బేస్ పేజీలను కవర్ చేయడానికి దానిని (ఉదా. పేజీ 1, 2, 1, 2) చక్రంలా చేస్తుంది."
       },
       {
-        "question": "Is page range supported?",
-        "answer": "Yes, you can target specific pages using range syntax such as \"1-5\", \"odd\", \"even\", or comma-separated lists."
+        "question": "పేజీల శ్రేణి మద్దతు ఉందా?",
+        "answer": "అవును, మీరు \"1-5\", \"అరుదు\", \"సమానమైన\" లేదా వరుస-విడిగా జాబితాలను ఉపయోగించి నిర్దిష్ట పేజీలను లక్ష్యంగా చేసుకోవచ్చు."
       }
     ]
   },
   "timestamp-pdf": {
-    "title": "Timestamp PDF",
-    "metaDescription": "Add RFC 3161 trusted timestamps to PDF documents. Prove document existence at a specific point in time without certificates.",
+    "title": "టైమ్ స్టాంప్ PDF",
+    "metaDescription": "PDF పత్రాలకు RFC 3161 విశ్వసనీయ టైమ్ స్టాంపులను జోడించండి. సర్టిఫికేట్లు లేకుండా నిర్దిష్ట సమయంలో పత్రం ఉనికిని రుజువు చేయండి.",
     "keywords": [
       "timestamp pdf",
       "rfc 3161",
@@ -4053,59 +4053,59 @@ export const toolContentTe: Record<string, ToolContent> = {
       "trusted timestamping",
       "proof of existence"
     ],
-    "description": "\n      <p>Timestamp PDF adds RFC 3161 compliant trusted timestamps to your PDF documents using external Time Stamping Authorities (TSA). It provides legally-binding mathematical proof that a document existed in a specific, unaltered state at a precise instant in time.</p>\n      <p>Select from global trusted TSA servers such as DigiCert, Sectigo, SSL.com, FreeTSA, or MeSign. No personal signing certificates are required to secure your documents against future tampering.</p>\n      <p>Supports fully secure local hashing before handshake, guaranteeing absolute document contents remain 100% confidential.</p>\n    ",
+    "description": "<p>టైమ్స్టాంప్ PDF అనేది మీ PDF పత్రాలకు RFC 3161 అనుగుణంగా ఉన్న విశ్వసనీయ టైమ్స్టాంప్లను బాహ్య టైమ్ స్టాంప్ అథారిటీలను (TSA) ఉపయోగించి జోడిస్తుంది. ఇది ఒక పత్రం ఖచ్చితమైన సమయంలో ఒక నిర్దిష్ట, మార్పులేని స్థితిలో ఉందని చట్టబద్ధంగా కట్టుబడి ఉన్న గణిత రుజువును అందిస్తుంది. </p> <p>DigiCert, Sectigo, SSL.com, FreeTSA లేదా MeSign వంటి ప్రపంచ విశ్వసనీయ TSA సర్వర్ల నుండి ఎంచుకోండి. భవిష్యత్ తారుమారులకు వ్యతిరేకంగా మీ పత్రాలను సురక్షితంగా ఉంచడానికి వ్యక్తిగత సంతకం ధృవపత్రాలు అవసరం లేదు.</p> <p> <p> డాక్యుమెంట్ కంటెంట్ 100% సంపూర్ణ రహస్యంగా ఉండటానికి హామీ ఇచ్చే హ్యాష్ చేతులు వేయడానికి ముందు పూర్తిగా సురక్షితమైన స్థానిక హ్యాష్ను మద్దతు ఇస్తుంది.",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload PDF Document",
-        "description": "Select the target PDF file you want to timestamp."
+        "title": "PDF పత్రాన్ని అప్లోడ్ చేయండి",
+        "description": "మీరు టైమ్స్టాంపుల్ చేయదలిచిన లక్ష్య PDF ఫైల్ను ఎంచుకోండి."
       },
       {
         "step": 2,
-        "title": "Select TSA Server",
-        "description": "Choose a trusted global Time Stamping Authority from the list."
+        "title": "TSA సర్వర్ను ఎంచుకోండి",
+        "description": "జాబితా నుండి విశ్వసనీయ ప్రపంచ టైమ్ స్టాంపింగ్ అథారిటీని ఎంచుకోండి."
       },
       {
         "step": 3,
-        "title": "Apply and Timestamp",
-        "description": "Click Timestamp to fetch secure response from TSA and embed the token."
+        "title": "దరఖాస్తు మరియు టైమ్ స్టాంప్",
+        "description": "TSA నుండి సురక్షితమైన ప్రతిస్పందనను పొందడానికి టైమ్స్టాంప్పై క్లిక్ చేసి టోకెన్ను పొందుపరచండి."
       }
     ],
     "useCases": [
       {
-        "title": "Intellectual Property",
-        "description": "Establish clear priority proof of patents, drafts, and ideas before public release.",
+        "title": "మేధో సంపత్తి",
+        "description": "పబ్లిక్ విడుదల ముందు పేటెంట్లు, డ్రాఫ్ట్లు, ఆలోచనల యొక్క స్పష్టమైన ప్రాధాన్యత నిరూపణను ఏర్పాటు చేయండి.",
         "icon": "lightbulb"
       },
       {
-        "title": "Financial Auditing",
-        "description": "Provide certified tamper-proof logging of ledger archives and balance reports.",
+        "title": "ఆర్థిక ఆడిటింగ్",
+        "description": "ప్రధాన ఆర్కైవ్లు మరియు బ్యాలెన్స్ నివేదికల యొక్క సర్టిఫికేట్ ట్రేంప్-ప్రూఫ్ లాగింగ్ను అందించండి.",
         "icon": "activity"
       },
       {
-        "title": "Legal Contracts",
-        "description": "Lock legal agreements with a trusted time proof to avoid backdating arguments.",
+        "title": "చట్టపరమైన ఒప్పందాలు",
+        "description": "వాదనలు వెనుకకు రాకుండా ఉండటానికి విశ్వసనీయ సమయ రుజువుతో చట్టపరమైన ఒప్పందాలను లాక్ చేయండి.",
         "icon": "file-check"
       }
     ],
     "faq": [
       {
-        "question": "What is a trusted timestamp (RFC 3161)?",
-        "answer": "An RFC 3161 timestamp is a cryptographically signed token issued by a recognized third-party authority (TSA) that links a document hash to a specific, verified clock source."
+        "question": "విశ్వసనీయ టైమ్స్టాంప్ (RFC 3161) అంటే ఏమిటి?",
+        "answer": "RFC 3161 టైమ్స్టాంప్ అనేది గుర్తింపు పొందిన మూడవ పార్టీ అధికారం (TSA) జారీ చేసిన ఒక క్రిప్టోగ్రాఫిక్ సంతకం చేసిన టోకెన్, ఇది ఒక పత్ర హ్యాష్ను నిర్దిష్ట, ధృవీకరించబడిన గడియారం మూలంకు లింక్ చేస్తుంది."
       },
       {
-        "question": "Do I need a digital certificate?",
-        "answer": "No, the cryptographic signature is provided directly by the trusted TSA server, making the process effortless for document owners."
+        "question": "నేను ఒక డిజిటల్ సర్టిఫికేట్ అవసరం?",
+        "answer": "లేదు, క్రిప్టోగ్రాఫిక్ సంతకం నేరుగా విశ్వసనీయ TSA సర్వర్ ద్వారా అందించబడుతుంది, ఇది పత్రాల యజమానులకు ప్రక్రియను సులభతరం చేస్తుంది."
       },
       {
-        "question": "Does the TSA see my document contents?",
-        "answer": "Never. The tool only sends a secure SHA-256 hash of your document to the TSA server, keeping your actual document completely private."
+        "question": "TSA నా పత్రం కంటెంట్ చూస్తాడు?",
+        "answer": "ఎప్పటికీ. ఈ సాధనం మీ పత్రం యొక్క సురక్షిత SHA-256 హాష్ను మాత్రమే TSA సర్వర్కు పంపుతుంది, మీ వాస్తవ పత్రాన్ని పూర్తిగా ప్రైవేట్గా ఉంచుతుంది."
       }
     ]
   },
   "add-page-labels": {
-    "title": "Add Page Labels",
-    "metaDescription": "Apply custom page labels to your PDF catalog. Supports Roman numerals, prefixes, and complex disjoint ranges.",
+    "title": "పేజీల లేబుళ్ళను జోడించండి",
+    "metaDescription": "మీ PDF కేటలాగ్కు అనుకూలీకరించిన పేజీ లేబుళ్ళను వర్తింపజేయండి. రోమన్ సంఖ్యలు, ప్రీఫిక్సులు, మరియు సంక్లిష్టమైన విడదీయబడిన శ్రేణులను మద్దతు ఇస్తుంది.",
     "keywords": [
       "pdf page labels",
       "roman numerals pdf",
@@ -4113,66 +4113,66 @@ export const toolContentTe: Record<string, ToolContent> = {
       "disjoint range page labels",
       "pdf indexing"
     ],
-    "description": "\n      <p>Add Page Labels allows you to inject custom page labeling metadata (/PageLabels) into your PDF's root Catalog dictionary. This customizes the labels displayed in professional PDF reader navigation sidebars and top page number jump panels (e.g. using Roman numerals for front matter, decimal sequences for main body, or custom prefixes such as A-0, A-1 for technical subsections).</p>\n      <p>Supports combining multiple custom rules seamlessly. Crucially, we've built a highly optimized <strong>disjoint-range slicing algorithm</strong>: even if you declare complex alternating patterns (e.g., odd pages style A, even pages style B), the tool will elegantly dissect and compose boundaries to ensure proper standard-compliant display without leaking formats into unmapped pages.</p>\n      <p>All operations are processed entirely inside your local browser sandbox, securing absolute data privacy.</p>\n    ",
+    "description": "<p>పేజీ లేబుల్స్ను జోడించడం మీ PDF యొక్క రూట్ కాటలాగ్ నిఘంటువులో అనుకూలీకరించిన పేజీ లేబులింగ్ మెటాడేటాను (/PageLabels) ఇంజెక్ట్ చేయడానికి మిమ్మల్ని అనుమతిస్తుంది. ఇది ప్రొఫెషనల్ PDF రీడర్ నావిగేషన్ సైడ్బార్లలో మరియు టాప్ పేజీ నంబర్ జంప్ ప్యానెల్లలో ప్రదర్శించబడే లేబుళ్ళను అనుకూలీకరించడం (ఉదా. ముందు పదార్థం కోసం రోమన్ సంఖ్యలను ఉపయోగించడం, ప్రధాన శరీరం కోసం దశాంశ క్రమాలు లేదా సాంకేతిక ఉపవిభాగాల కోసం A-0, A-1 వంటి అనుకూలీకరించిన ప్రీఫిక్సులను ఉపయోగించడం).</p> <p>అత్యవసరమైనవి, మేము చాలా ఆప్టిమైజ్ చేసిన <strong> డిజైన్-r స్లైసింగ్ అల్గోరిథం</strong> ను నిర్మించాముః మీరు సంక్లిష్ట ప్రత్యామ్నాయ నమూనాలను (ఉదా. విచితమైన శైలి A, శైలి B) ప్రకటించినప్పటికీ, ఈ సాధనం అనుకూలంగా విచ్ఛిన్నం చేస్తుంది మరియు ప్రామాణిక-సమృప్త డేటా ప్రా",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload PDF Document",
-        "description": "Provide the target PDF document you wish to label."
+        "title": "PDF పత్రాన్ని అప్లోడ్ చేయండి",
+        "description": "మీరు లేబుల్ చేయాలనుకుంటున్న లక్ష్య PDF పత్రాన్ని అందించండి."
       },
       {
         "step": 2,
-        "title": "Configure Labeling Rules",
-        "description": "Add one or more rules specifying page ranges (e.g., \"1-5\", \"odd\", or comma-separated lists), prefix, style, and starting sequence."
+        "title": "లేబులింగ్ నియమాలను కాన్ఫిగర్ చేయండి",
+        "description": "పేజీ పరిధిని పేర్కొన్న ఒక లేదా అంతకంటే ఎక్కువ నియమాలను జోడించండి (ఉదా. \"1-5\", \"అసలు\", లేదా వరుస-విడిగా జాబితాలు), ప్రీఫిక్స్, శైలి మరియు ప్రారంభ శ్రేణి."
       },
       {
         "step": 3,
-        "title": "Preview and Download",
-        "description": "Review the live page label list preview below, then compile and download your updated PDF document."
+        "title": "ప్రివ్యూ మరియు డౌన్లోడ్",
+        "description": "క్రింద ఉన్న లైవ్ పేజీ లేబుల్ జాబితా ప్రివ్యూని చూడండి, ఆపై మీ నవీకరించబడిన PDF పత్రాన్ని సంకలనం చేసి డౌన్లోడ్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Academic Thesis Formatting",
-        "description": "Set lowercase Roman numerals (i, ii, iii) for introductory front matter and transition to decimal for main chapters.",
+        "title": "విద్యా థీసిస్ ఫార్మాటింగ్",
+        "description": "ప్రధాన అధ్యాయాల కోసం ప్రారంభ ముందు పదార్థం కోసం చిన్న రాతి రోమన్ సంఖ్యలను (i, ii, iii) సెట్ చేయండి మరియు దశాంశానికి మారండి.",
         "icon": "book"
       },
       {
-        "title": "Engineering Blueprint Prefixes",
-        "description": "Attach subsystem abbreviations (e.g., \"A-1\", \"M-5\") as page label prefixes, letting teams search and locate pages in seconds.",
+        "title": "ఇంజనీరింగ్ బ్లూప్రింట్ ప్రిఫిక్సులు",
+        "description": "ఉపవ్యవస్థ సంక్షిప్తాలను (ఉదా. \"A-1\", \"M-5\") పేజీ లేబుల్ ప్రీఫిక్సులుగా జోడించండి, తద్వారా జట్లు సెకన్లలో పేజీలను శోధించి గుర్తించగలవు.",
         "icon": "layout"
       },
       {
-        "title": "Custom Alternating Layouts",
-        "description": "Apply highly specific page range indexing to odd/even sequences or non-contiguous sections with maximum freedom.",
+        "title": "అనుకూలీకరించిన ప్రత్యామ్నాయ లేఅవుట్లు",
+        "description": "చాలా నిర్దిష్ట పేజీ శ్రేణిని సూచించడం ద్వారా గరిష్ట స్వేచ్ఛతో విచిత్ర/సమాన వరుసలు లేదా అనుసంధాన విభాగాలకు వర్తింపజేయాలి.",
         "icon": "shuffle"
       }
     ],
     "faq": [
       {
-        "question": "What are page labels vs page numbers?",
-        "answer": "Ordinary page numbers are visual text blocks rendered directly on the paper canvas (visible when printed). Page labels, however, are structural metadata injected into the PDF catalog. They control what is displayed underneath thumbnails and in the page lookup box inside software like Adobe Acrobat or Apple Preview."
+        "question": "పేజీల లేబుల్స్ vs పేజీల సంఖ్యలు ఏమిటి?",
+        "answer": "సాధారణ పేజీ సంఖ్యలు కాగితపు కన్వాస్పై నేరుగా ప్రదర్శించబడే దృశ్య వచన బ్లాక్లు (ప్రింట్ చేసినప్పుడు కనిపిస్తాయి). పేజీ లేబుల్స్, అయితే, PDF కేటలాగ్లో ఇంజెక్ట్ చేయబడిన నిర్మాణాత్మక మెటాడేటా. అవి సూక్ష్మచిత్రాల క్రింద మరియు అడోబ్ అక్రోబాట్ లేదా ఆపిల్ ప్రివ్యూ వంటి సాఫ్ట్వేర్ లోపల పేజీ శోధన పెట్టెలో ప్రదర్శించబడే వాటిని నియంత్రించాయి."
       },
       {
-        "question": "What happens if I leave the Page Range empty?",
-        "answer": "Leaving the page range empty causes the rule to apply globally to all pages of the document."
+        "question": "నేను పేజీ రేంజ్ ఖాళీగా ఉంటే ఏమి జరుగుతుంది?",
+        "answer": "పేజీ పరిధిని ఖాళీగా ఉంచడం వలన పత్రం యొక్క అన్ని పేజీలకు ఈ నియమం ప్రపంచవ్యాప్తంగా వర్తిస్తుంది."
       },
       {
-        "question": "How are overlapping rules handled?",
-        "answer": "Rules are evaluated sequentially in the order they are listed. If a page range of a later rule overlaps with an earlier one, the later rule takes priority and overrides the label for that page."
+        "question": "సారూప్యమైన నియమాలను ఎలా నిర్వహించాలి?",
+        "answer": "నియమాలు జాబితా చేయబడిన క్రమంలో క్రమంగా అంచనా వేయబడతాయి. ఒక తరువాతి నియమం యొక్క పేజీ పరిధి మునుపటితో అతివ్యాప్తి చెందుతుంటే, తరువాతి నియమం ప్రాధాన్యతనిస్తుంది మరియు ఆ పేజీ కోసం లేబుల్ను అధిగమిస్తుంది."
       }
     ]
   },
   "n-up-pdf": {
-    "title": "N-Up PDF",
-    "metaDescription": "Print multiple PDF pages per sheet. Create 2-up, 4-up, or custom layouts.",
+    "title": "ఎన్-అప్ PDF",
+    "metaDescription": "ఒక షీట్కు బహుళ PDF పేజీలను ముద్రించండి. 2 అప్, 4 అప్ లేదా అనుకూలీకరించిన లేఅవుట్లను సృష్టించండి.",
     "keywords": [
       "n-up pdf",
       "multiple pages per sheet",
       "2-up printing",
       "page imposition"
     ],
-    "description": "\n      <p>N-Up PDF arranges multiple pages onto single sheets, creating 2-up, 4-up, 6-up, 9-up, or custom layouts. Perfect for saving paper when printing or creating handouts.</p>\n      <p>Choose from preset layouts or create custom arrangements. The tool automatically scales and positions pages for optimal results.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>N-Up PDF ఒకే షీట్లలో బహుళ పేజీలను అమర్చుతుంది, 2-అప్, 4-అప్, 6-అప్, 9-అప్ లేదా అనుకూలీకరించిన లేఅవుట్లను సృష్టిస్తుంది. ప్రింటింగ్ లేదా హ్యాండ్అవుట్లను సృష్టించేటప్పుడు కాగితాన్ని సేవ్ చేయడానికి ఇది సరైనది. </p> <p>ప్రెసెట్ లేఅవుట్లలో ఎంచుకోండి లేదా అనుకూలీకరించిన అమరికలను సృష్టించండి. సరైన ఫలితాల కోసం సాధనం పేజీలను స్వయంచాలకంగా స్కేల్ చేస్తుంది మరియు స్థానాలు ఇస్తుంది.</p> <p>అన్ని ప్రాసెసింగ్లు మీ బ్రౌజర్లో జరుగుతాయి, మీ పత్రాలు ప్రైవేట్గా ఉంటాయి.</p> ",
     "howToUse": [
       {
         "step": 1,
@@ -4181,57 +4181,57 @@ export const toolContentTe: Record<string, ToolContent> = {
       },
       {
         "step": 2,
-        "title": "Choose Layout",
-        "description": "Select 2-up, 4-up, 6-up, 9-up, or custom grid."
+        "title": "లేఅవుట్ ఎంచుకోండి",
+        "description": "2 అప్, 4 అప్, 6 అప్, 9 అప్, లేదా కస్టమ్ గ్రిడ్ ఎంచుకోండి."
       },
       {
         "step": 3,
-        "title": "Create and Download",
-        "description": "Click Create to generate the n-up PDF and download."
+        "title": "సృష్టించు మరియు డౌన్లోడ్ చేసుకోండి",
+        "description": "n-up PDF ను సృష్టించడానికి మరియు డౌన్లోడ్ చేయడానికి సృష్టించు క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Save Paper",
-        "description": "Print multiple pages per sheet to reduce paper usage.",
+        "title": "కాగితం సేవ్",
+        "description": "కాగితం వినియోగాన్ని తగ్గించడానికి షీట్కు పలు పేజీలను ముద్రించండి.",
         "icon": "leaf"
       },
       {
         "title": "హ్యాండ్అవుట్లను సృష్టించండి",
-        "description": "Make compact handouts from presentation slides.",
+        "description": "ప్రదర్శన స్లైడ్ల నుండి కాంపాక్ట్ హ్యాండ్వ్యాప్స్ తయారు చేయండి.",
         "icon": "file-text"
       },
       {
-        "title": "Review Documents",
-        "description": "Print documents in reduced size for review.",
+        "title": "సమీక్ష పత్రాలు",
+        "description": "సమీక్ష కోసం చిన్న పరిమాణంలో పత్రాలను ముద్రించండి.",
         "icon": "eye"
       }
     ],
     "faq": [
       {
-        "question": "What layouts are available?",
-        "answer": "2-up, 4-up, 6-up, 9-up, and custom grid layouts are available."
+        "question": "ఏ విధమైన అమరికలు అందుబాటులో ఉన్నాయి?",
+        "answer": "2 అప్, 4 అప్, 6 అప్, 9 అప్, మరియు అనుకూలీకరించిన గ్రిడ్ లేఅవుట్లు అందుబాటులో ఉన్నాయి."
       },
       {
-        "question": "Can I add borders between pages?",
-        "answer": "Yes, you can add borders and gutters between pages."
+        "question": "నేను పేజీల మధ్య సరిహద్దులు జోడించవచ్చు?",
+        "answer": "అవును, మీరు పేజీల మధ్య సరిహద్దులు మరియు గ్రిట్లను జోడించవచ్చు."
       },
       {
-        "question": "Is page order preserved?",
-        "answer": "Yes, pages are arranged in reading order (left-to-right, top-to-bottom)."
+        "question": "పేజీల క్రమంలో ఉనికిలో ఉందా?",
+        "answer": "అవును, పేజీలు చదవడానికి క్రమంలో (ఎడమ నుండి కుడి వరకు, పై నుండి దిగువ వరకు) అమర్చబడి ఉన్నాయి."
       }
     ]
   },
   "combine-single-page": {
-    "title": "Combine to Single Page",
-    "metaDescription": "Stitch PDF pages into one continuous page. Create scrollable single-page documents.",
+    "title": "ఒకే పేజీలో కలపండి",
+    "metaDescription": "PDF పేజీలను ఒక నిరంతర పేజీలో కుట్టు. స్క్రోల్ చేయగల ఒకే పేజీ పత్రాలను సృష్టించండి.",
     "keywords": [
       "combine pages",
       "single page pdf",
       "stitch pages",
       "continuous scroll"
     ],
-    "description": "\n      <p>Combine to Single Page stitches all PDF pages into one continuous page. Create scrollable documents perfect for web viewing or continuous reading.</p>\n      <p>Pages are joined vertically with customizable spacing. The result is a single long page containing all content.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>ఒక పేజీకి కలపడం అన్ని PDF పేజీలను ఒకే నిరంతర పేజీలో కుట్టుకుంటుంది. వెబ్ వీక్షణ లేదా నిరంతర పఠనం కోసం సరైన స్క్రోలబుల్ పత్రాలను సృష్టించండి. </p> <p>పేజీలు అనుకూలీకరించదగిన అంతరంతో నిలువుగా కలుపుతారు. ఫలితంగా అన్ని కంటెంట్ను కలిగి ఉన్న ఒకే పొడవైన పేజీ ఉంటుంది. </p> <p>అన్ని ప్రాసెసింగ్లు మీ బ్రౌజర్లో జరుగుతాయి, మీ పత్రాలు ప్రైవేట్గా ఉంటాయి.</p> ",
     "howToUse": [
       {
         "step": 1,
@@ -4240,57 +4240,57 @@ export const toolContentTe: Record<string, ToolContent> = {
       },
       {
         "step": 2,
-        "title": "Set Spacing",
-        "description": "Choose the gap between stitched pages."
+        "title": "సెట్ స్పేసింగ్",
+        "description": "కుట్టిన పేజీల మధ్య ఖాళీని ఎంచుకోండి."
       },
       {
         "step": 3,
         "title": "కలపండి మరియు డౌన్లోడ్ చేయండి",
-        "description": "Click Combine to create the single-page PDF."
+        "description": "ఒకే పేజీ PDF ను సృష్టించడానికి కలపండి క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Web Documents",
-        "description": "Create scrollable PDFs for web embedding.",
+        "title": "వెబ్ పత్రాలు",
+        "description": "వెబ్ ఎంబెడెడ్ కోసం స్క్రోల్ చేయదగిన PDF లను సృష్టించండి.",
         "icon": "globe"
       },
       {
-        "title": "Continuous Reading",
-        "description": "Convert paginated documents to continuous scroll.",
+        "title": "నిరంతర పఠనం",
+        "description": "పేజీల పత్రాలను నిరంతర స్క్రోల్గా మార్చండి.",
         "icon": "scroll"
       },
       {
-        "title": "Long-Form Content",
-        "description": "Combine pages for seamless long-form reading.",
+        "title": "దీర్ఘకాల కంటెంట్",
+        "description": "పేజీలను కలపండి, దీని ద్వారా సుదీర్ఘమైన పఠనం సాగదు.",
         "icon": "file-text"
       }
     ],
     "faq": [
       {
         "question": "పేజీల పరిమితి ఉందా?",
-        "answer": "Very long documents may be limited by browser memory."
+        "answer": "చాలా పొడవైన పత్రాలు బ్రౌజర్ మెమరీ ద్వారా పరిమితం కావచ్చు."
       },
       {
-        "question": "Can I add separators between pages?",
-        "answer": "Yes, you can add spacing or lines between original pages."
+        "question": "నేను పేజీల మధ్య విభజనలను జోడించవచ్చా?",
+        "answer": "అవును, మీరు అసలు పేజీల మధ్య దూరం లేదా పంక్తులను జోడించవచ్చు."
       },
       {
-        "question": "Will this work for printing?",
-        "answer": "The result is best for screen viewing; use N-Up for print layouts."
+        "question": "ఇది ముద్రణ కోసం పని చేస్తుంది?",
+        "answer": "స్క్రీన్ వీక్షణ కోసం ఫలితం ఉత్తమమైనది; ప్రింట్ లేఅవుట్ కోసం N-Up ను ఉపయోగించండి."
       }
     ]
   },
   "view-metadata": {
-    "title": "View Metadata",
-    "metaDescription": "View PDF document properties. See author, title, dates, and other metadata.",
+    "title": "మెటాడేటాను వీక్షించండి",
+    "metaDescription": "PDF పత్ర లక్షణాలను చూడండి. రచయిత, శీర్షిక, తేదీలు, మరియు ఇతర మెటాడేటాను చూడండి.",
     "keywords": [
       "pdf metadata",
       "document properties",
       "pdf info",
       "view pdf details"
     ],
-    "description": "\n      <p>View Metadata displays all document properties and metadata from your PDF files. See author, title, subject, keywords, creation date, modification date, and more.</p>\n      <p>Useful for auditing documents, checking file information, or verifying document authenticity.</p>\n      <p>All viewing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>View Metadata మీ PDF ఫైళ్ళ నుండి అన్ని పత్ర లక్షణాలు మరియు మెటాడేటాలను ప్రదర్శిస్తుంది. రచయిత, శీర్షిక, విషయం, కీలకపదాలు, సృష్టి తేదీ, మార్పు తేదీ మరియు మరిన్ని చూడండి.</p> <p>పత్రాలను ఆడిట్ చేయడానికి, ఫైల్ సమాచారాన్ని తనిఖీ చేయడానికి లేదా పత్రాల ప్రామాణికతను ధృవీకరించడానికి ఉపయోగపడుతుంది.</p> <p>అన్ని వీక్షణలు మీ బ్రౌజర్లో జరుగుతాయి, మీ పత్రాలు ప్రైవేట్గా ఉండాలని నిర్ధారించడం.</p> ",
     "howToUse": [
       {
         "step": 1,
@@ -4299,57 +4299,57 @@ export const toolContentTe: Record<string, ToolContent> = {
       },
       {
         "step": 2,
-        "title": "View Properties",
-        "description": "See all metadata displayed in an organized format."
+        "title": "లక్షణాలు చూడండి",
+        "description": "అన్ని మెటాడేటాలను క్రమబద్ధీకరించిన ఫార్మాట్ లో చూసుకోండి."
       },
       {
         "step": 3,
-        "title": "Export if Needed",
-        "description": "Optionally export metadata as JSON."
+        "title": "అవసరమైతే ఎగుమతి",
+        "description": "JSON గా మెటాడేటాను ఎగుమతి చేయడం ఐచ్ఛికం."
       }
     ],
     "useCases": [
       {
-        "title": "Document Audit",
-        "description": "Review document properties for compliance.",
+        "title": "పత్రాల ఆడిట్",
+        "description": "కాంపాక్ట్ కోసం పత్రం యొక్క లక్షణాలను సమీక్షించండి.",
         "icon": "clipboard-check"
       },
       {
-        "title": "Verify Authenticity",
-        "description": "Check creation dates and author information.",
+        "title": "ప్రామాణికతను తనిఖీ చేయండి",
+        "description": "సృష్టి తేదీలు మరియు రచయిత సమాచారాన్ని తనిఖీ చేయండి.",
         "icon": "shield"
       },
       {
-        "title": "File Information",
-        "description": "Get detailed information about PDF files.",
+        "title": "ఫైల్ సమాచారం",
+        "description": "PDF ఫైళ్ళ గురించి వివరణాత్మక సమాచారాన్ని పొందండి.",
         "icon": "info"
       }
     ],
     "faq": [
       {
-        "question": "What metadata is shown?",
-        "answer": "Title, author, subject, keywords, creator, producer, dates, and PDF version."
+        "question": "ఏ మెటాడేటా ప్రదర్శించబడుతుంది?",
+        "answer": "శీర్షిక, రచయిత, విషయం, కీలకపదాలు, సృష్టికర్త, నిర్మాత, తేదీలు, మరియు PDF వెర్షన్."
       },
       {
-        "question": "Can I edit metadata here?",
-        "answer": "Use the Edit Metadata tool to modify document properties."
+        "question": "నేను ఇక్కడ మెటాడేటా సవరించవచ్చు?",
+        "answer": "పత్రం యొక్క లక్షణాలను సవరించడానికి మెటాడేటాను సవరించు సాధనాన్ని ఉపయోగించండి."
       },
       {
-        "question": "Is XMP metadata included?",
-        "answer": "Yes, both standard and XMP metadata are displayed."
+        "question": "XMP మెటాడేటా చేర్చబడిందా?",
+        "answer": "అవును, ప్రామాణిక మరియు XMP మెటాడేటా రెండింటిని ప్రదర్శిస్తారు."
       }
     ]
   },
   "edit-metadata": {
-    "title": "Edit Metadata",
-    "metaDescription": "Edit PDF document properties. Change title, author, subject, and keywords.",
+    "title": "మెటాడేటాను సవరించు",
+    "metaDescription": "PDF పత్ర లక్షణాలను సవరించండి. శీర్షిక, రచయిత, విషయం మరియు కీలకపదాలను మార్చండి.",
     "keywords": [
       "edit pdf metadata",
       "change pdf properties",
       "pdf author",
       "document info"
     ],
-    "description": "\n      <p>Edit Metadata allows you to modify document properties in your PDF files. Change the title, author, subject, keywords, and other metadata fields.</p>\n      <p>Perfect for correcting document information, adding proper attribution, or preparing files for distribution.</p>\n      <p>All editing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>మెటాడేటాను సవరించడం మీ PDF ఫైళ్ళలోని పత్ర లక్షణాలను సవరించడానికి మిమ్మల్ని అనుమతిస్తుంది. శీర్షిక, రచయిత, విషయం, కీలకపదాలు మరియు ఇతర మెటాడేటా ఫీల్డ్లను మార్చండి.</p> <p>డాక్యుమెంట్ సమాచారాన్ని సరిదిద్దడానికి, సరైన కేటాయింపును జోడించడానికి లేదా పంపిణీ కోసం ఫైళ్ళను సిద్ధం చేయడానికి ఇది సరైనది.</p> <p>అన్ని సవరించడం మీ బ్రౌజర్లో జరుగుతుంది, మీ పత్రాలు ప్రైవేట్గా ఉండాలని నిర్ధారించుకోండి.</p> ",
     "howToUse": [
       {
         "step": 1,
@@ -4358,234 +4358,234 @@ export const toolContentTe: Record<string, ToolContent> = {
       },
       {
         "step": 2,
-        "title": "Edit Properties",
-        "description": "Modify title, author, subject, keywords, and other fields."
+        "title": "లక్షణాలు సవరించు",
+        "description": "శీర్షిక, రచయిత, అంశం, కీలక పదాలు, మరియు ఇతర ఖాళీలను సవరించండి."
       },
       {
         "step": 3,
         "title": "సేవ్ చేసి డౌన్లోడ్ చేసుకోండి",
-        "description": "Click Save to apply changes and download."
+        "description": "మార్పులను అమలు చేయడానికి మరియు డౌన్లోడ్ చేయడానికి సేవ్ పై క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Add Attribution",
-        "description": "Set proper author and creator information.",
+        "title": "కేటాయింపు",
+        "description": "సరైన రచయిత మరియు సృష్టికర్త సమాచారాన్ని సెట్ చేయండి.",
         "icon": "user"
       },
       {
-        "title": "SEO Optimization",
-        "description": "Add keywords and descriptions for searchability.",
+        "title": "SEO ఆప్టిమైజేషన్",
+        "description": "శోధన సామర్థ్యం కోసం కీలక పదాలు మరియు వివరణలను జోడించండి.",
         "icon": "search"
       },
       {
         "title": "పత్రాల తయారీ",
-        "description": "Prepare documents with proper metadata before sharing.",
+        "description": "భాగస్వామ్యం చేయడానికి ముందు సరైన మెటాడేటాలతో పత్రాలను సిద్ధం చేయండి.",
         "icon": "file-check"
       }
     ],
     "faq": [
       {
-        "question": "What fields can I edit?",
-        "answer": "Title, author, subject, keywords, creator, and producer fields."
+        "question": "నేను ఏ ఫీల్డ్లను సవరించగలను?",
+        "answer": "టైటిల్, రచయిత, విషయం, కీలకపదాలు, సృష్టికర్త, నిర్మాత ఫీల్డ్లు."
       },
       {
-        "question": "Can I clear all metadata?",
-        "answer": "Use Remove Metadata tool to strip all document properties."
+        "question": "నేను అన్ని మెటాడేటా క్లియర్ చేయవచ్చు?",
+        "answer": "అన్ని పత్ర లక్షణాలను తొలగించడానికి మెటాడేటా తొలగించు సాధనాన్ని ఉపయోగించండి."
       },
       {
-        "question": "Are dates editable?",
-        "answer": "Creation and modification dates are updated automatically."
+        "question": "తేదీలు సవరించబడతాయా?",
+        "answer": "సృష్టి మరియు మార్పు తేదీలు స్వయంచాలకంగా నవీకరించబడతాయి."
       }
     ]
   },
   "pdf-to-zip": {
-    "title": "PDFs to ZIP",
-    "metaDescription": "Package multiple PDFs into a ZIP archive. Compress and bundle PDF files.",
+    "title": "PDF ఫైళ్ళను ZIP కి మార్చు",
+    "metaDescription": "బహుళ PDF ఫైల్లను ZIP ఆర్కైవ్లో ప్యాక్ చేయండి. PDF ఫైల్లను కంప్రెస్ చేసి బండిల్ చేయండి.",
     "keywords": [
       "pdf to zip",
       "compress pdfs",
       "bundle pdfs",
       "archive pdfs"
     ],
-    "description": "\n      <p>PDFs to ZIP packages multiple PDF files into a single ZIP archive. Compress and bundle your PDFs for easier sharing, storage, or backup.</p>\n      <p>The tool creates a compressed archive containing all your PDF files, reducing total size and simplifying file management.</p>\n      <p>All processing happens in your browser, ensuring your files remain private.</p>\n    ",
+    "description": "<p>PDFs to ZIP బహుళ PDF ఫైళ్ళను ఒకే ZIP ఆర్కైవ్లో ప్యాకేజీ చేస్తుంది. మీ PDF ఫైళ్ళను సులభంగా భాగస్వామ్యం చేయడానికి, నిల్వ చేయడానికి లేదా బ్యాకప్ చేయడానికి కంప్రెస్ చేసి బండ్ చేయండి. </p> <p>ఈ సాధనం మీ PDF ఫైళ్ళను కలిగి ఉన్న కంప్రెస్డ్ ఆర్కైవ్ను సృష్టిస్తుంది, మొత్తం పరిమాణాన్ని తగ్గిస్తుంది మరియు ఫైల్ నిర్వహణను సరళీకృతం చేస్తుంది.</p> <p>అన్ని ప్రాసెసింగ్లు మీ బ్రౌజర్లో జరుగుతాయి, మీ ఫైల్లు ప్రైవేట్గా ఉంటాయి.</p> ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload PDFs",
-        "description": "Drag and drop multiple PDF files or click to select."
+        "title": "PDF ఫైళ్ళను అప్లోడ్ చేయండి",
+        "description": "బహుళ PDF ఫైళ్ళను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Configure Archive",
-        "description": "Optionally set archive name and compression level."
+        "title": "ఆర్కైవ్ను కాన్ఫిగర్ చేయండి",
+        "description": "ఐచ్ఛికంగా ఆర్కైవ్ పేరు మరియు కంప్రెషన్ స్థాయిని సెట్ చేయండి."
       },
       {
         "step": 3,
-        "title": "Create and Download",
-        "description": "Click Create to generate the ZIP archive."
+        "title": "సృష్టించు మరియు డౌన్లోడ్ చేసుకోండి",
+        "description": "ZIP ఆర్కైవ్ను సృష్టించడానికి సృష్టించు క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "File Sharing",
-        "description": "Bundle multiple PDFs for easier sharing.",
+        "title": "ఫైల్ షేరింగ్",
+        "description": "సులభంగా భాగస్వామ్యం చేయడానికి బహుళ PDF లను ప్యాక్ చేయండి.",
         "icon": "share-2"
       },
       {
-        "title": "Backup Creation",
-        "description": "Create compressed backups of PDF collections.",
+        "title": "బ్యాకప్ సృష్టి",
+        "description": "PDF సేకరణల కుదింపు బ్యాకప్లను సృష్టించండి.",
         "icon": "archive"
       },
       {
         "title": "ఇమెయిల్ జోడింపులు",
-        "description": "Combine PDFs into one attachment for email.",
+        "description": "ఇమెయిల్ కోసం PDF లను ఒక అటాచ్మెంట్ గా కలపండి.",
         "icon": "mail"
       }
     ],
     "faq": [
       {
-        "question": "How much compression is applied?",
-        "answer": "ZIP compression typically reduces total size by 10-30%."
+        "question": "ఎంత కంప్రెషన్ వర్తించబడుతుంది?",
+        "answer": "ZIP కంప్రెషన్ సాధారణంగా మొత్తం పరిమాణాన్ని 10-30% తగ్గిస్తుంది."
       },
       {
-        "question": "Is there a file limit?",
-        "answer": "You can include up to 100 PDFs in a single archive."
+        "question": "ఫైల్ పరిమితి ఉందా?",
+        "answer": "మీరు ఒకే ఆర్కైవ్లో 100 PDF ఫైల్స్ వరకు చేర్చవచ్చు."
       },
       {
-        "question": "Can I set a password?",
-        "answer": "Password-protected ZIP creation is not currently supported."
+        "question": "నేను ఒక పాస్వర్డ్ సెట్ చేయవచ్చు?",
+        "answer": "పాస్వర్డ్తో రక్షించబడిన ZIP సృష్టి ప్రస్తుతం మద్దతు లేదు."
       }
     ]
   },
   "compare-pdfs": {
-    "title": "Compare PDFs",
-    "metaDescription": "Compare two PDF documents. Highlight differences between versions.",
+    "title": "PDF ఫైళ్ళను పోల్చండి",
+    "metaDescription": "రెండు PDF పత్రాలను పోల్చండి. వాటి మధ్య తేడాలను గుర్తించండి.",
     "keywords": [
       "compare pdfs",
       "pdf diff",
       "document comparison",
       "version comparison"
     ],
-    "description": "\n      <p>Compare PDFs analyzes two PDF documents and highlights the differences between them. Perfect for reviewing document revisions, checking contract changes, or verifying edits.</p>\n      <p>View documents side-by-side or in overlay mode with differences highlighted. The tool identifies text changes, additions, and deletions.</p>\n      <p>All comparison happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>PDF లు పోల్చండి రెండు PDF పత్రాలను విశ్లేషిస్తుంది మరియు వాటి మధ్య తేడాలను హైలైట్ చేస్తుంది. పత్ర సంస్కరణలను సమీక్షించడానికి, ఒప్పంద మార్పులను తనిఖీ చేయడానికి లేదా సవరణలను ధృవీకరించడానికి అనువైనది. </p> <p>పత్రాలను పక్కపక్కనే లేదా తేడాలు హైలైట్ చేయబడిన ఓవర్లే మోడ్లో చూడండి. సాధనం టెక్స్ట్ మార్పులు, జోడింపులు మరియు తొలగింపులను గుర్తిస్తుంది.</p> <p>అన్ని పోలికలు మీ బ్రౌజర్లో జరుగుతాయి, మీ పత్రాలు ప్రైవేట్గా ఉండాలని నిర్ధారించుకోండి.</p> ",
     "howToUse": [
       {
         "step": 1,
         "title": "రెండు PDF ఫైళ్ళను అప్లోడ్ చేయండి",
-        "description": "Upload the original and modified PDF documents."
+        "description": "అసలు మరియు సవరించిన PDF పత్రాలను అప్లోడ్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Compare Documents",
-        "description": "View differences highlighted in side-by-side or overlay mode."
+        "title": "పత్రాలను పోల్చండి",
+        "description": "పక్కపక్కనే లేదా ఓవర్లే మోడ్లో హైలైట్ చేయబడిన తేడాలను వీక్షించండి."
       },
       {
         "step": 3,
-        "title": "Export Results",
-        "description": "Download a comparison report or annotated PDF."
+        "title": "ఎగుమతుల ఫలితాలు",
+        "description": "పోలిక నివేదికను లేదా వ్యాఖ్యలతో కూడిన PDFను డౌన్లోడ్ చేసుకోండి."
       }
     ],
     "useCases": [
       {
-        "title": "Contract Review",
-        "description": "Compare contract versions to identify changes.",
+        "title": "ఒప్పంద సమీక్ష",
+        "description": "మార్పులను గుర్తించడానికి ఒప్పంద సంస్కరణలను పోల్చండి.",
         "icon": "file-text"
       },
       {
-        "title": "Document Revision",
-        "description": "Review edits between document versions.",
+        "title": "పత్ర సమీక్ష",
+        "description": "పత్ర సంస్కరణల మధ్య సవరణలను సమీక్షించండి.",
         "icon": "git-compare"
       },
       {
-        "title": "Quality Assurance",
-        "description": "Verify that only intended changes were made.",
+        "title": "నాణ్యత హామీ",
+        "description": "ఉద్దేశించిన మార్పులు మాత్రమే జరిగాయి అని నిర్ధారించుకోండి.",
         "icon": "check-circle"
       }
     ],
     "faq": [
       {
-        "question": "What types of differences are detected?",
-        "answer": "Text additions, deletions, modifications, and formatting changes."
+        "question": "ఏ రకమైన తేడాలు గుర్తించబడ్డాయి?",
+        "answer": "టెక్స్ట్ జోడింపులు, తొలగింపులు, మార్పులు మరియు ఫార్మాటింగ్ మార్పులు."
       },
       {
-        "question": "Can I compare scanned documents?",
-        "answer": "Scanned documents should be OCR processed first for text comparison."
+        "question": "నేను స్కాన్ పత్రాలు సరిపోల్చవచ్చు?",
+        "answer": "స్కాన్ చేసిన పత్రాలను మొదట OCR తో ప్రాసెస్ చేసి, టెక్స్ట్ పోలిక కోసం తయారు చేయాలి."
       },
       {
-        "question": "Is visual comparison available?",
-        "answer": "Yes, overlay mode shows visual differences between pages."
+        "question": "దృశ్యమాన పోలిక అందుబాటులో ఉందా?",
+        "answer": "అవును, ఓవర్లే మోడ్ పేజీల మధ్య దృశ్య తేడాలను చూపిస్తుంది."
       }
     ]
   },
   "posterize-pdf": {
-    "title": "Posterize PDF",
-    "metaDescription": "Split large PDF pages into printable tiles. Create posters from PDF pages.",
+    "title": "PDF పోస్టర్లు",
+    "metaDescription": "పెద్ద PDF పేజీలను ముద్రించగల పలకలుగా విభజించండి. PDF పేజీల నుండి పోస్టర్లను సృష్టించండి.",
     "keywords": [
       "posterize pdf",
       "tile pdf",
       "large format printing",
       "pdf poster"
     ],
-    "description": "\n      <p>Posterize PDF splits large PDF pages into smaller tiles that can be printed on standard paper and assembled into posters. Perfect for printing large diagrams, maps, or artwork.</p>\n      <p>Configure the grid size and overlap for easy assembly. The tool automatically calculates tile dimensions for your target output size.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>PDF ను పోస్ట్ చేయండి. పెద్ద PDF పేజీలను చిన్న టైల్లుగా విభజించి, ప్రామాణిక కాగితంపై ముద్రించి, పోస్ట్లకు సమీకరించవచ్చు. పెద్ద రేఖాచిత్రాలు, మ్యాప్లు లేదా కళాకృతులను ముద్రించడానికి ఇది సరైనది. </p> <p>గ్రిడ్ పరిమాణాన్ని కాన్ఫిగర్ చేసి, సులభంగా సమీకరించడానికి అతివ్యాప్తి చేయండి. మీ లక్ష్య అవుట్పుట్ పరిమాణానికి టైల్ పరిమాణాలను సాధనం స్వయంచాలకంగా లెక్కిస్తుంది.</p> <p>అన్ని ప్రాసెసింగ్లు మీ బ్రౌజర్లో జరుగుతాయి, మీ పత్రాలు ప్రైవేట్గా ఉంటాయి.</p> ",
     "howToUse": [
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your large-format PDF or click to select."
+        "description": "మీ పెద్ద ఫార్మాట్ PDF ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Configure Tiles",
-        "description": "Set grid size, overlap, and output paper size."
+        "title": "టైల్స్ను కాన్ఫిగర్ చేయండి",
+        "description": "గ్రిడ్ పరిమాణం, అతివ్యాప్తి, మరియు అవుట్పుట్ కాగితం పరిమాణం సెట్."
       },
       {
         "step": 3,
-        "title": "Create and Download",
-        "description": "Click Create to generate printable tiles."
+        "title": "సృష్టించు మరియు డౌన్లోడ్ చేసుకోండి",
+        "description": "ప్రింటబుల్ టైల్స్ను రూపొందించడానికి సృష్టించు క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Poster Printing",
-        "description": "Print large posters on standard paper.",
+        "title": "పోస్టర్లు ముద్రణ",
+        "description": "ప్రామాణిక కాగితంపై పెద్ద పోస్టర్లను ముద్రించండి.",
         "icon": "maximize-2"
       },
       {
-        "title": "Map Printing",
-        "description": "Print large maps in sections for assembly.",
+        "title": "మ్యాప్ ప్రింటింగ్",
+        "description": "పెద్ద మ్యాప్లను సమిష్టి కోసం విభాగాలుగా ముద్రించండి.",
         "icon": "map"
       },
       {
-        "title": "Artwork Reproduction",
-        "description": "Create large prints from PDF artwork.",
+        "title": "కళాకృతులు పునరుత్పత్తి",
+        "description": "PDF ఆర్ట్ వర్క్ నుండి పెద్ద ముద్రణలను సృష్టించండి.",
         "icon": "image"
       }
     ],
     "faq": [
       {
-        "question": "What overlap should I use?",
-        "answer": "A 10-20mm overlap is recommended for easy alignment during assembly."
+        "question": "ఏ సమ్మేళనాన్ని ఉపయోగించాలి?",
+        "answer": "సమ్మేళనం సమయంలో సులభంగా అమర్చడానికి 10-20mm అతివ్యాప్తి సిఫార్సు చేయబడింది."
       },
       {
-        "question": "Can I add crop marks?",
-        "answer": "Yes, crop marks can be added to help with cutting and alignment."
+        "question": "నేను పంట మార్కులు జోడించవచ్చు?",
+        "answer": "అవును, కట్ మరియు అమరికలో సహాయపడటానికి పంట మార్కులు జోడించవచ్చు."
       },
       {
-        "question": "What paper sizes are supported?",
-        "answer": "A4, Letter, A3, and custom sizes are supported."
+        "question": "ఏ పరిమాణపు కాగితాలను మద్దతు ఇవ్వాలి?",
+        "answer": "A4, లేఖ, A3 మరియు అనుకూలీకరించిన పరిమాణాలు మద్దతు."
       }
     ]
   },
   "fix-page-size": {
-    "title": "Fix Page Size",
-    "metaDescription": "Standardize PDF page sizes. Convert all pages to uniform dimensions.",
+    "title": "పేజీ పరిమాణాన్ని సరిచేయండి",
+    "metaDescription": "PDF పేజీ పరిమాణాలను ప్రామాణీకరించండి. అన్ని పేజీలను ఒకే పరిమాణానికి మార్చండి.",
     "keywords": [
       "fix page size",
       "standardize pdf",
       "uniform pages",
       "resize pdf pages"
     ],
-    "description": "\n      <p>Fix Page Size standardizes all pages in your PDF to uniform dimensions. Convert mixed-size documents to consistent page sizes for professional presentation or printing.</p>\n      <p>Choose from standard sizes (A4, Letter, etc.) or set custom dimensions. Content is scaled or positioned to fit the new page size.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>Fix Page Size మీ PDF లోని అన్ని పేజీలను ఏకరీతి పరిమాణాలకు ప్రామాణీకరిస్తుంది. మిశ్రమ పరిమాణ పత్రాలను ప్రొఫెషనల్ ప్రదర్శన లేదా ముద్రణ కోసం స్థిరమైన పేజీ పరిమాణాలకు మార్చండి. </p> <p>ప్రామాణిక పరిమాణాల నుండి (A4, లెటర్, మొదలైనవి) ఎంచుకోండి లేదా కస్టమ్ పరిమాణాలను సెట్ చేయండి. కంటెంట్ కొత్త పేజీ పరిమాణానికి సరిపోయేలా స్కేల్ చేయబడుతుంది లేదా ఉంచబడుతుంది.</p> <p>అన్ని ప్రాసెసింగ్లు మీ బ్రౌజర్లో జరుగుతాయి, మీ పత్రాలు ప్రైవేట్గా ఉండాలని నిర్ధారించుకోండి.</p> ",
     "howToUse": [
       {
         "step": 1,
@@ -4594,57 +4594,57 @@ export const toolContentTe: Record<string, ToolContent> = {
       },
       {
         "step": 2,
-        "title": "Select Target Size",
-        "description": "Choose a standard size or enter custom dimensions."
+        "title": "లక్ష్య పరిమాణాన్ని ఎంచుకోండి",
+        "description": "ప్రామాణిక పరిమాణాన్ని ఎంచుకోండి లేదా అనుకూలీకరించిన పరిమాణాలను నమోదు చేయండి."
       },
       {
         "step": 3,
         "title": "అప్లికేషన్ మరియు డౌన్లోడ్",
-        "description": "Click Apply to standardize pages and download."
+        "description": "పేజీలను ప్రామాణీకరించడానికి మరియు డౌన్లోడ్ చేయడానికి అప్లై క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
         "title": "ముద్రణ తయారీ",
-        "description": "Standardize pages for consistent printing.",
+        "description": "స్థిరమైన ముద్రణ కోసం పేజీలను ప్రామాణీకరించండి.",
         "icon": "printer"
       },
       {
-        "title": "Document Cleanup",
-        "description": "Fix documents with inconsistent page sizes.",
+        "title": "పత్రం శుభ్రపరచడం",
+        "description": "పేజీ పరిమాణాలు అనుకూలంగా లేని పత్రాలను పరిష్కరించండి.",
         "icon": "file-check"
       },
       {
         "title": "వృత్తిపరమైన పత్రాలు",
-        "description": "Create uniform documents for distribution.",
+        "description": "పంపిణీ కోసం ఏకరీతి పత్రాలను సృష్టించండి.",
         "icon": "briefcase"
       }
     ],
     "faq": [
       {
-        "question": "How is content handled?",
-        "answer": "Content is scaled to fit or centered on the new page size."
+        "question": "కంటెంట్ను ఎలా నిర్వహించాలి?",
+        "answer": "కంటెంట్ కొత్త పేజీ పరిమాణానికి సరిపోయేలా లేదా కేంద్రీకృతమై ఉంటుంది."
       },
       {
-        "question": "Can I preserve aspect ratio?",
-        "answer": "Yes, content can be scaled proportionally to fit."
+        "question": "నేను కోణ నిష్పత్తిని కాపాడుకోవచ్చు?",
+        "answer": "అవును, స౦గ౦త౦ స౦గ౦త౦గా స౦గ౦త౦గా స౦గ౦త౦గా స౦గ౦త౦గా స౦గ౦త౦గా స౦గ౦త౦గా స౦గ౦త౦గా స౦గ౦త౦గా స౦గ౦త౦గా స౦గ౦త౦గా స౦గ౦త౦గా స౦గ౦త౦గా స౦గ౦త౦గా స౦గ౦త౦గా స౦గ౦త౦గా స౦గ౦త౦గా స౦గ౦త౦గా స౦గ౦త౦గా స౦గ౦త౦గా స౦గ౦త౦గా స౦గ౦గా స౦గ౦గా స౦గ౦గా స౦గ౦గా స౦గ౦గా స౦గ౦గా స౦గ౦గా స౦గ౦గా స౦గ౦గా స౦గ౦గా స౦గ౦గా స౦గ౦గా స౦గ౦గా స౦గ౦గా స౦గ౦గా స౦గ౦గా స౦గ౦గా స౦గా స౦గ౦గా స౦గా స౦గా స౦గ౦గా స౦"
       },
       {
-        "question": "What standard sizes are available?",
-        "answer": "A4, A3, Letter, Legal, and other common sizes."
+        "question": "ఏ ప్రామాణిక పరిమాణాలు అందుబాటులో ఉన్నాయి?",
+        "answer": "A4, A3, లేఖ, చట్టపరమైన, మరియు ఇతర సాధారణ పరిమాణాలు."
       }
     ]
   },
   "linearize-pdf": {
-    "title": "Linearize PDF",
-    "metaDescription": "Optimize PDF for fast web viewing. Enable progressive loading.",
+    "title": "లైనియర్ PDF",
+    "metaDescription": "వేగంగా వెబ్ వీక్షణ కోసం PDF ని ఆప్టిమైజ్ చేయండి. ప్రగతిశీల లోడింగ్ను ప్రారంభించండి.",
     "keywords": [
       "linearize pdf",
       "fast web view",
       "optimize pdf",
       "progressive pdf"
     ],
-    "description": "\n      <p>Linearize PDF optimizes your documents for fast web viewing. Linearized PDFs can begin displaying before the entire file is downloaded, improving user experience.</p>\n      <p>Also known as \"Fast Web View,\" this optimization reorganizes the PDF structure for progressive loading in web browsers.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>లైనియర్ PDF వేగంగా వెబ్ వీక్షణ కోసం మీ పత్రాలను ఆప్టిమైజ్ చేస్తుంది. మొత్తం ఫైల్ డౌన్లోడ్ కావడానికి ముందు లైనియర్ PDF లు ప్రదర్శన ప్రారంభించవచ్చు, ఇది వినియోగదారు అనుభవాన్ని మెరుగుపరుస్తుంది. </p> <p> \"ఫాస్ట్ వెబ్ వీక్షణ\" అని కూడా పిలువబడుతుంది, ఈ ఆప్టిమైజేషన్ వెబ్ బ్రౌజర్లలో క్రమంగా లోడ్ చేయడానికి PDF నిర్మాణాన్ని పునర్వ్యవస్థీకరిస్తుంది. </p> <p>అన్ని ప్రాసెసింగ్లు మీ బ్రౌజర్లో జరుగుతాయి, మీ పత్రాలు ప్రైవేట్గా ఉండాలని నిర్ధారిస్తుంది. </p> ",
     "howToUse": [
       {
         "step": 1,
@@ -4653,57 +4653,57 @@ export const toolContentTe: Record<string, ToolContent> = {
       },
       {
         "step": 2,
-        "title": "Linearize",
-        "description": "Click Linearize to optimize for web viewing."
+        "title": "రేఖాంశం",
+        "description": "వెబ్ వీక్షణ కోసం ఆప్టిమైజ్ చేయడానికి లైనియర్ చేయండి క్లిక్ చేయండి."
       },
       {
         "step": 3,
         "title": "డౌన్లోడ్",
-        "description": "Download your optimized PDF."
+        "description": "మీ ఆప్టిమైజ్ చేసిన PDF ని డౌన్లోడ్ చేసుకోండి."
       }
     ],
     "useCases": [
       {
         "title": "వెబ్ ప్రచురణ",
-        "description": "Optimize PDFs for website downloads.",
+        "description": "వెబ్సైట్ డౌన్లోడ్ కోసం PDF లను ఆప్టిమైజ్ చేయండి.",
         "icon": "globe"
       },
       {
         "title": "ఇమెయిల్ జోడింపులు",
-        "description": "Create PDFs that open faster for recipients.",
+        "description": "గ్రహీతలకు వేగంగా తెరిచే PDF లను సృష్టించండి.",
         "icon": "mail"
       },
       {
-        "title": "Online Documents",
-        "description": "Improve viewing experience for online documents.",
+        "title": "ఆన్లైన్ పత్రాలు",
+        "description": "ఆన్లైన్ పత్రాల వీక్షణ అనుభవాన్ని మెరుగుపరచండి.",
         "icon": "cloud"
       }
     ],
     "faq": [
       {
-        "question": "What is linearization?",
-        "answer": "Linearization reorganizes PDF data for progressive loading."
+        "question": "రేఖాంశీకరణ అంటే ఏమిటి?",
+        "answer": "రేఖాంశీకరణ PDF డేటాను క్రమంగా లోడ్ చేయడానికి పునర్వ్యవస్థీకరిస్తుంది."
       },
       {
-        "question": "Does it reduce file size?",
-        "answer": "Linearization may slightly increase file size due to added structure."
+        "question": "ఇది ఫైల్ పరిమాణాన్ని తగ్గిస్తుంది?",
+        "answer": "లైనియరీకరణ అదనపు నిర్మాణం కారణంగా ఫైల్ పరిమాణాన్ని కొద్దిగా పెంచుతుంది."
       },
       {
-        "question": "Is it compatible with all viewers?",
-        "answer": "Yes, linearized PDFs work in all PDF readers."
+        "question": "ఇది అన్ని వీక్షకులతో అనుకూలంగా ఉందా?",
+        "answer": "అవును, పంక్తులైన PDF లు అన్ని PDF రీడర్లలో పనిచేస్తాయి."
       }
     ]
   },
   "page-dimensions": {
-    "title": "Page Dimensions",
-    "metaDescription": "Analyze PDF page sizes. View dimensions of all pages in your document.",
+    "title": "పేజీ పరిమాణాలు",
+    "metaDescription": "PDF పేజీ పరిమాణాలను విశ్లేషించండి. మీ పత్రంలోని అన్ని పేజీల పరిమాణాలను చూడండి.",
     "keywords": [
       "pdf page size",
       "page dimensions",
       "pdf measurements",
       "document size"
     ],
-    "description": "\n      <p>Page Dimensions analyzes and displays the size of every page in your PDF document. View dimensions in various units (inches, mm, points) and identify pages with non-standard sizes.</p>\n      <p>Useful for print preparation, document analysis, or identifying inconsistent page sizes.</p>\n      <p>All analysis happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>పేజీ డైమెన్షన్స్ మీ PDF డాక్యుమెంట్లోని ప్రతి పేజీ పరిమాణాన్ని విశ్లేషిస్తుంది మరియు ప్రదర్శిస్తుంది. వివిధ యూనిట్లలో (అంగుళాలు, మిల్లీమీటర్లు, పాయింట్లు) పరిమాణాలను చూడండి మరియు ప్రామాణిక పరిమాణం లేని పేజీలను గుర్తించండి. </p> <p>ప్రింట్ తయారీ, పత్ర విశ్లేషణ లేదా అనుకోని పేజీ పరిమాణాలను గుర్తించడానికి ఉపయోగపడుతుంది.</p> <p>అన్ని విశ్లేషణలు మీ బ్రౌజర్లో జరుగుతాయి, మీ పత్రాలు ప్రైవేట్గా ఉండాలని నిర్ధారించడం.</p> ",
     "howToUse": [
       {
         "step": 1,
@@ -4712,175 +4712,175 @@ export const toolContentTe: Record<string, ToolContent> = {
       },
       {
         "step": 2,
-        "title": "View Dimensions",
-        "description": "See page sizes displayed for all pages."
+        "title": "పరిమాణాలను వీక్షించండి",
+        "description": "అన్ని పేజీల కోసం పేజీ పరిమాణాలను చూడండి."
       },
       {
         "step": 3,
-        "title": "Export Report",
-        "description": "Optionally export dimensions as JSON."
+        "title": "ఎగుమతి నివేదిక",
+        "description": "JSON గా ఎగుమతి పరిమాణాలు ఐచ్ఛికంగా."
       }
     ],
     "useCases": [
       {
-        "title": "Print Planning",
-        "description": "Check page sizes before printing.",
+        "title": "ప్రింట్ ప్రణాళిక",
+        "description": "ప్రింట్ చేయడానికి ముందు పేజీ పరిమాణాలను తనిఖీ చేయండి.",
         "icon": "printer"
       },
       {
         "title": "పత్ర విశ్లేషణ",
-        "description": "Identify pages with unusual dimensions.",
+        "description": "అసాధారణ పరిమాణాలతో పేజీలను గుర్తించండి.",
         "icon": "search"
       },
       {
         "title": "నాణ్యతా నియంత్రణ",
-        "description": "Verify page sizes meet specifications.",
+        "description": "పేజీ పరిమాణాలు వివరాలకు అనుగుణంగా ఉన్నాయని నిర్ధారించుకోండి.",
         "icon": "check-circle"
       }
     ],
     "faq": [
       {
-        "question": "What units are available?",
-        "answer": "Inches, millimeters, centimeters, and points."
+        "question": "ఏ యూనిట్లు అందుబాటులో ఉన్నాయి?",
+        "answer": "అంగుళాలు, మిల్లీమీటర్లు, సెంటీమీటర్లు, మరియు పాయింట్లు."
       },
       {
-        "question": "Does it show orientation?",
-        "answer": "Yes, portrait or landscape orientation is indicated."
+        "question": "ఇది దిశను చూపిస్తుంది?",
+        "answer": "అవును, చిత్ర లేదా ప్రకృతి దృశ్యాల దర్శకత్వం సూచించబడుతుంది."
       },
       {
-        "question": "Can I fix inconsistent sizes?",
-        "answer": "Use Fix Page Size tool to standardize dimensions."
+        "question": "నేను అస్థిర పరిమాణాలు పరిష్కరించవచ్చు?",
+        "answer": "పరిమాణాలను ప్రామాణీకరించడానికి పేజీ పరిమాణాన్ని పరిష్కరించు సాధనాన్ని ఉపయోగించండి."
       }
     ]
   },
   "remove-restrictions": {
-    "title": "Remove Restrictions",
-    "metaDescription": "Remove PDF restrictions. Unlock printing, copying, and editing permissions.",
+    "title": "పరిమితులను తొలగించు",
+    "metaDescription": "PDF పరిమితులను తొలగించండి. ముద్రణ, కాపీలు, మరియు సవరణ అనుమతులను అన్లాక్ చేయండి.",
     "keywords": [
       "remove pdf restrictions",
       "unlock pdf",
       "pdf permissions",
       "unrestrict pdf"
     ],
-    "description": "\n      <p>Remove Restrictions unlocks PDFs that have permission restrictions preventing printing, copying, or editing. This tool removes owner password restrictions while preserving document content.</p>\n      <p>Note: This tool cannot remove user passwords that prevent opening the document. Use Decrypt PDF for password-protected files.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>నిరోధాలను తొలగించు పత్రాన్ని తెరవకుండా నిరోధించే వినియోగదారు పాస్వర్డ్లను తొలగించదు. పాస్వర్డ్-రక్షిత ఫైళ్ళ కోసం డీక్రిప్ట్ PDF ను ఉపయోగించండి. </p> <p>అన్ని ప్రాసెసింగ్లు మీ బ్రౌజర్లో జరుగుతాయి, మీ పత్రాలు ప్రైవేట్గా ఉండాలని నిర్ధారించుకోండి. </p> ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Restricted PDF",
-        "description": "Drag and drop your restricted PDF or click to select."
+        "title": "పరిమిత PDF ని అప్లోడ్ చేయండి",
+        "description": "మీ పరిమిత PDF ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Remove Restrictions",
-        "description": "Click Remove to unlock the document."
+        "title": "పరిమితులను తొలగించు",
+        "description": "పత్రాన్ని అన్లాక్ చేయడానికి తొలగించు క్లిక్ చేయండి."
       },
       {
         "step": 3,
         "title": "డౌన్లోడ్",
-        "description": "Download the unrestricted PDF."
+        "description": "పరిమితులు లేని PDF ని డౌన్లోడ్ చేసుకోండి."
       }
     ],
     "useCases": [
       {
-        "title": "Enable Printing",
-        "description": "Unlock PDFs that prevent printing.",
+        "title": "ప్రింటింగ్ను ప్రారంభించండి",
+        "description": "ప్రింటింగ్కు అడ్డుపడే PDF ఫైల్లను అన్లాక్ చేయండి.",
         "icon": "printer"
       },
       {
-        "title": "Enable Copying",
-        "description": "Allow text selection and copying.",
+        "title": "కాపీని సక్రియం చేయండి",
+        "description": "టెక్స్ట్ ఎంపిక మరియు కాపీని అనుమతించండి.",
         "icon": "copy"
       },
       {
-        "title": "Enable Editing",
-        "description": "Remove restrictions on document editing.",
+        "title": "సవరణను సక్రియం చేయండి",
+        "description": "పత్రాల ఎడిటింగ్పై పరిమితులను తొలగించండి.",
         "icon": "edit"
       }
     ],
     "faq": [
       {
-        "question": "Is this legal?",
-        "answer": "Removing restrictions from documents you own or have rights to is generally legal."
+        "question": "ఇది చట్టబద్ధమైనదా?",
+        "answer": "మీ వద్ద ఉన్న లేదా మీకు హక్కులు ఉన్న పత్రాల నుండి పరిమితులను తొలగించడం సాధారణంగా చట్టబద్ధం."
       },
       {
-        "question": "Can it remove open passwords?",
-        "answer": "No, use Decrypt PDF for password-protected documents."
+        "question": "ఇది తెరిచిన పాస్వర్డ్లను తొలగించగలదా?",
+        "answer": "లేదు, పాస్వర్డ్తో రక్షించబడిన పత్రాల కోసం డీక్రిప్ట్ PDF ని ఉపయోగించండి."
       },
       {
-        "question": "Will content be affected?",
-        "answer": "No, only restrictions are removed; content remains unchanged."
+        "question": "కంటెంట్ ప్రభావితం అవుతుందా?",
+        "answer": "లేదు, పరిమితులు మాత్రమే తొలగించబడతాయి; వాటిలో ఉన్న కంటెంట్ మారదు."
       }
     ]
   },
   "repair-pdf": {
-    "title": "Repair PDF",
-    "metaDescription": "Fix corrupted PDF files. Recover and repair damaged documents.",
+    "title": "PDF ను రిపేర్ చేయండి",
+    "metaDescription": "పాడైన PDF ఫైళ్ళను పరిష్కరించండి. పాడైన పత్రాలను తిరిగి పొందండి మరియు మరమ్మతు చేయండి.",
     "keywords": [
       "repair pdf",
       "fix pdf",
       "recover pdf",
       "corrupted pdf"
     ],
-    "description": "\n      <p>Repair PDF attempts to fix corrupted or damaged PDF files. The tool analyzes the document structure and rebuilds it to recover as much content as possible.</p>\n      <p>Useful for recovering files that won't open, display errors, or have missing content due to corruption.</p>\n      <p>All repair happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>PDF ను మరమ్మతు చేయడం పాడైన లేదా దెబ్బతిన్న PDF ఫైళ్ళను పరిష్కరించడానికి ప్రయత్నిస్తుంది. ఈ సాధనం డాక్యుమెంట్ నిర్మాణాన్ని విశ్లేషిస్తుంది మరియు సాధ్యమైనంత ఎక్కువ కంటెంట్ను తిరిగి పొందడానికి దాన్ని పునర్నిర్మించింది. </p> <p>అనుభవం లేని, లోపాలను ప్రదర్శించే లేదా అవినీతి కారణంగా లోపం ఉన్న ఫైళ్ళను తిరిగి పొందటానికి ఉపయోగపడుతుంది. </p> <p>అన్ని మరమ్మతులు మీ బ్రౌజర్లో జరుగుతాయి, మీ పత్రాలు ప్రైవేట్గా ఉంటాయి.</p> ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Damaged PDF",
-        "description": "Drag and drop your corrupted PDF or click to select."
+        "title": "దెబ్బతిన్న PDF ని అప్లోడ్ చేయండి",
+        "description": "మీ పాడైన PDF ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Repair Document",
-        "description": "Click Repair to attempt recovery."
+        "title": "మరమ్మతు పత్రం",
+        "description": "రికవరీ చేయడానికి మరమ్మతు క్లిక్ చేయండి."
       },
       {
         "step": 3,
         "title": "డౌన్లోడ్",
-        "description": "Download the repaired PDF if successful."
+        "description": "విజయవంతంగా ఉంటే మరమ్మతు చేసిన PDF ని డౌన్లోడ్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Recover Files",
-        "description": "Recover PDFs that won't open properly.",
+        "title": "ఫైళ్ళను పునరుద్ధరించు",
+        "description": "సరిగ్గా తెరవని PDF ఫైల్లను తిరిగి పొందండి.",
         "icon": "refresh-cw"
       },
       {
-        "title": "Fix Errors",
-        "description": "Repair files showing error messages.",
+        "title": "తప్పులను సరిచేయడం",
+        "description": "లోపం సందేశాలను చూపించే ఫైళ్ళను మరమ్మతు చేయండి.",
         "icon": "wrench"
       },
       {
-        "title": "Restore Content",
-        "description": "Recover content from partially corrupted files.",
+        "title": "కంటెంట్ను పునరుద్ధరించు",
+        "description": "పాక్షికంగా పాడైపోయిన ఫైళ్ళ నుండి కంటెంట్ను తిరిగి పొందండి.",
         "icon": "file-check"
       }
     ],
     "faq": [
       {
-        "question": "Can all PDFs be repaired?",
-        "answer": "Success depends on the type and extent of corruption."
+        "question": "అన్ని PDF ఫైళ్ళను మరమ్మతు చేయవచ్చా?",
+        "answer": "అవినీతి రకం, స్థాయిపై విజయం ఆధారపడి ఉంటుంది."
       },
       {
-        "question": "Will all content be recovered?",
-        "answer": "The tool recovers as much as possible; severely damaged files may have losses."
+        "question": "అన్ని కంటెంట్లు తిరిగి పొందబడతాయా?",
+        "answer": "సాధనం సాధ్యమైనంతవరకు తిరిగి పొందుతుంది; తీవ్రంగా దెబ్బతిన్న ఫైల్లు నష్టాలను కలిగి ఉండవచ్చు."
       },
       {
-        "question": "Should I keep the original?",
-        "answer": "Yes, always keep the original file as a backup."
+        "question": "నేను అసలు ఉంచాలి?",
+        "answer": "అవును, ఎల్లప్పుడూ బ్యాకప్ గా అసలు ఫైల్ ఉంచండి."
       }
     ]
   },
   "encrypt-pdf": {
-    "title": "Encrypt PDF",
-    "metaDescription": "Password protect PDF files. Add encryption and set permissions.",
+    "title": "PDF ను గుప్తీకరించు",
+    "metaDescription": "పాస్వర్డ్ PDF ఫైళ్ళను రక్షించండి. గుప్తీకరణను జోడించండి మరియు అనుమతులను సెట్ చేయండి.",
     "keywords": [
       "encrypt pdf",
       "password protect pdf",
       "secure pdf",
       "pdf encryption"
     ],
-    "description": "\n      <p>Encrypt PDF adds password protection and encryption to your PDF documents. Set user passwords to prevent opening, and owner passwords to control permissions like printing and copying.</p>\n      <p>Choose from different encryption levels (128-bit or 256-bit AES) for varying security needs.</p>\n      <p>All encryption happens in your browser, ensuring your passwords and documents remain private.</p>\n    ",
+    "description": "<p>ఎన్క్రిప్ట్ PDF మీ PDF పత్రాలకు పాస్వర్డ్ రక్షణ మరియు గుప్తీకరణను జోడిస్తుంది. తెరవకుండా నిరోధించడానికి వినియోగదారు పాస్వర్డ్లను సెట్ చేయండి, మరియు ప్రింటింగ్ మరియు కాపీ చేయడం వంటి అనుమతులను నియంత్రించడానికి యజమాని పాస్వర్డ్లను సెట్ చేయండి. వివిధ భద్రతా అవసరాలకు వివిధ గుప్తీకరణ స్థాయిల నుండి (128-బిట్ లేదా 256-బిట్ AES) ఎంచుకోండి. </p> <p>అన్ని గుప్తీకరణలు మీ బ్రౌజర్లో జరుగుతాయి, మీ పాస్వర్డ్లు మరియు పత్రాలు ప్రైవేట్గా ఉంటాయి. </p> ",
     "howToUse": [
       {
         "step": 1,
@@ -4889,57 +4889,57 @@ export const toolContentTe: Record<string, ToolContent> = {
       },
       {
         "step": 2,
-        "title": "Set Passwords",
-        "description": "Enter user password and/or owner password. Configure permissions."
+        "title": "పాస్వర్డ్లను సెట్ చేయండి",
+        "description": "వినియోగదారు పాస్వర్డ్ మరియు/లేదా యజమాని పాస్వర్డ్ను నమోదు చేయండి. అనుమతులను కాన్ఫిగర్ చేయండి."
       },
       {
         "step": 3,
-        "title": "Encrypt and Download",
-        "description": "Click Encrypt to secure your PDF and download."
+        "title": "ఎన్క్రిప్ట్ చేసి డౌన్లోడ్ చేసుకోండి",
+        "description": "మీ PDF ని సురక్షితంగా ఉంచడానికి మరియు డౌన్లోడ్ చేయడానికి ఎన్క్రిప్ట్ క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Confidential Documents",
-        "description": "Protect sensitive business documents.",
+        "title": "రహస్య పత్రాలు",
+        "description": "సున్నితమైన వ్యాపార పత్రాలను రక్షించండి.",
         "icon": "lock"
       },
       {
-        "title": "Personal Files",
-        "description": "Secure personal documents like tax returns.",
+        "title": "వ్యక్తిగత ఫైళ్లు",
+        "description": "పన్ను రిటర్న్స్ వంటి వ్యక్తిగత పత్రాలను భద్రపరచండి.",
         "icon": "shield"
       },
       {
-        "title": "Controlled Distribution",
-        "description": "Limit what recipients can do with documents.",
+        "title": "నియంత్రిత పంపిణీ",
+        "description": "పత్రాలను స్వీకరించే వారు ఏమి చేయగలరో పరిమితం చేయండి.",
         "icon": "key"
       }
     ],
     "faq": [
       {
-        "question": "What's the difference between user and owner passwords?",
-        "answer": "User password prevents opening; owner password controls permissions."
+        "question": "వినియోగదారు మరియు యజమాని పాస్వర్డ్ల మధ్య తేడా ఏమిటి?",
+        "answer": "వినియోగదారు పాస్వర్డ్ తెరవడానికి నిరోధిస్తుంది; యజమాని పాస్వర్డ్ అనుమతులను నియంత్రిస్తుంది."
       },
       {
-        "question": "What encryption is used?",
-        "answer": "128-bit or 256-bit AES encryption options are available."
+        "question": "ఏ గుప్తీకరణను ఉపయోగిస్తారు?",
+        "answer": "128-బిట్ లేదా 256-బిట్ AES ఎన్క్రిప్షన్ ఎంపికలు అందుబాటులో ఉన్నాయి."
       },
       {
-        "question": "Can I set permissions without a user password?",
-        "answer": "Yes, you can set an owner password only to control permissions."
+        "question": "నేను వినియోగదారు పాస్వర్డ్ లేకుండా అనుమతులను సెట్ చేయవచ్చా?",
+        "answer": "అవును, మీరు అనుమతి నియంత్రణ కోసం మాత్రమే యజమాని పాస్వర్డ్ను సెట్ చేయవచ్చు."
       }
     ]
   },
   "sanitize-pdf": {
-    "title": "Sanitize PDF",
-    "metaDescription": "Remove hidden data from PDFs. Clean metadata, scripts, and sensitive information.",
+    "title": "డీజీపీని శుభ్రపరచండి",
+    "metaDescription": "PDF ఫైళ్ళ నుండి దాచిన డేటాను తొలగించండి. మెటాడేటాను, స్క్రిప్ట్లను, సున్నితమైన సమాచారాన్ని శుభ్రం చేయండి.",
     "keywords": [
       "sanitize pdf",
       "clean pdf",
       "remove hidden data",
       "pdf privacy"
     ],
-    "description": "\n      <p>Sanitize PDF removes hidden data and potentially sensitive information from your documents. Strip metadata, embedded scripts, attachments, comments, and other hidden content.</p>\n      <p>Essential for preparing documents for public distribution or when privacy is a concern.</p>\n      <p>All sanitization happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>PDF ని శుభ్రపరచడం మీ పత్రాల నుండి దాచిన డేటా మరియు సంభావ్యంగా సున్నితమైన సమాచారాన్ని తొలగిస్తుంది. మెటాడేటా, పొందుపరిచిన స్క్రిప్ట్లు, జోడింపులు, వ్యాఖ్యలు మరియు ఇతర దాచిన కంటెంట్లను స్ట్రిప్ చేయండి.</p> <p>పబ్లిక్ పంపిణీ కోసం పత్రాలను సిద్ధం చేయడానికి లేదా గోప్యత ఆందోళన కలిగించినప్పుడు ముఖ్యమైనది.</p> <p><p>అన్ని శుభ్రపరచడం మీ బ్రౌజర్లో జరుగుతుంది, మీ పత్రాలు ప్రైవేట్గా ఉండాలని నిర్ధారించడం.</p> ",
     "howToUse": [
       {
         "step": 1,
@@ -4948,50 +4948,50 @@ export const toolContentTe: Record<string, ToolContent> = {
       },
       {
         "step": 2,
-        "title": "Select What to Remove",
-        "description": "Choose which types of hidden data to strip."
+        "title": "తొలగించవలసిన వాటిని ఎంచుకోండి",
+        "description": "దాచిన డేటా యొక్క ఏ రకాలను తొలగించాలో ఎంచుకోండి."
       },
       {
         "step": 3,
-        "title": "Sanitize and Download",
-        "description": "Click Sanitize to clean the PDF and download."
+        "title": "శుభ్రపరచండి మరియు డౌన్లోడ్ చేసుకోండి",
+        "description": "PDF ని శుభ్రం చేసి డౌన్లోడ్ చేయడానికి Sanitize పై క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Public Release",
-        "description": "Prepare documents for public distribution.",
+        "title": "బహిరంగ ప్రకటన",
+        "description": "పత్రాలను ప్రజలకు పంపిణీ చేయడానికి సిద్ధం చేయండి.",
         "icon": "globe"
       },
       {
         "title": "గోప్యతా రక్షణ",
-        "description": "Remove personal information before sharing.",
+        "description": "భాగస్వామ్యం చేయడానికి ముందు వ్యక్తిగత సమాచారాన్ని తొలగించండి.",
         "icon": "shield"
       },
       {
-        "title": "Security Compliance",
-        "description": "Meet security requirements for document handling.",
+        "title": "భద్రతా సమ్మతి",
+        "description": "పత్రాల నిర్వహణకు సంబంధించిన భద్రతా అవసరాలను తీర్చండి.",
         "icon": "check-circle"
       }
     ],
     "faq": [
       {
-        "question": "What hidden data is removed?",
-        "answer": "Metadata, scripts, attachments, comments, form data, and hidden layers."
+        "question": "ఏ దాచిన డేటా తొలగించబడుతుంది?",
+        "answer": "మెటాడేటా, స్క్రిప్ట్స్, అటాచ్మెంట్లు, వ్యాఖ్యలు, ఫారం డేటా, మరియు దాచిన పొరలు."
       },
       {
-        "question": "Will visible content be affected?",
-        "answer": "No, only hidden data is removed; visible content remains."
+        "question": "కనిపించే కంటెంట్ ప్రభావితం అవుతుందా?",
+        "answer": "లేదు, దాచిన డేటా మాత్రమే తొలగించబడుతుంది; కనిపించే కంటెంట్ మిగిలి ఉంటుంది."
       },
       {
         "question": "ఇది తిరగగలదా?",
-        "answer": "No, removed data cannot be recovered. Keep a backup of the original."
+        "answer": "లేదు, తొలగించిన డేటా తిరిగి పొందలేము. అసలు బ్యాకప్ను ఉంచండి."
       }
     ]
   },
   "find-and-redact": {
-    "title": "Find and Redact",
-    "metaDescription": "Search and redact text across all pages of a PDF. Batch redact sensitive information like account numbers, names, and more.",
+    "title": "కనుగొనండి మరియు సవరించండి",
+    "metaDescription": "PDF యొక్క అన్ని పేజీలలోని వచనాన్ని శోధించండి మరియు సవరించండి. ఖాతా సంఖ్యలు, పేర్లు మరియు మరిన్ని వంటి సున్నితమైన సమాచారాన్ని బ్యాచ్ సవరించండి.",
     "keywords": [
       "redact pdf",
       "find and redact",
@@ -5000,7 +5000,7 @@ export const toolContentTe: Record<string, ToolContent> = {
       "pdf censorship",
       "hide sensitive data"
     ],
-    "description": "\n      <p>Find and Redact allows you to search for specific text, numbers, or patterns across all pages of your PDF and redact all matching occurrences at once. Perfect for removing sensitive information like account numbers, names, addresses, or any confidential data.</p>\n      <p>Preview all matches before applying redactions, and selectively choose which occurrences to redact. Supports case-sensitive search, whole word matching, and regular expressions for advanced pattern matching.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private and secure.</p>\n    ",
+    "description": "<p>Find and Redact మీ PDF యొక్క అన్ని పేజీలలో నిర్దిష్ట వచనం, సంఖ్యలు లేదా నమూనాలను శోధించడానికి మరియు అన్ని సరిపోలే సంఘటనలను ఒకేసారి సవరించడానికి మిమ్మల్ని అనుమతిస్తుంది. ఖాతా సంఖ్యలు, పేర్లు, చిరునామాలు లేదా ఏదైనా రహస్య డేటాను తొలగించడానికి ఇది సరైనది. </p> <p>సవరణలను వర్తింపజేయడానికి ముందు అన్ని సరిపోలికలను ప్రివ్యూ చేయండి మరియు సవరించడానికి ఏ సంఘటనలను ఎంచుకోండి. కేస్-సెన్సిటివ్ శోధన, మొత్తం పదం సరిపోలే మరియు అధునాతన నమూనా సరిపోలే సాధారణ వ్యక్తీకరణలకు మద్దతు ఇస్తుంది.</p> <p>అన్ని ప్రాసెసింగ్లు మీ బ్రౌజర్లో జరుగుతాయి, మీ పత్రాలు ప్రైవేట్ మరియు సురక్షితంగా ఉంటాయి.</p> ",
     "howToUse": [
       {
         "step": 1,
@@ -5009,184 +5009,184 @@ export const toolContentTe: Record<string, ToolContent> = {
       },
       {
         "step": 2,
-        "title": "Search for Text",
-        "description": "Enter the text, number, or regex pattern you want to find and redact."
+        "title": "టెక్స్ట్ కోసం శోధన",
+        "description": "మీరు కనుగొనాలనుకుంటున్న టెక్స్ట్, సంఖ్య లేదా రెగెక్స్ నమూనాను నమోదు చేసి సవరించండి."
       },
       {
         "step": 3,
-        "title": "Review and Select",
-        "description": "Preview all matches and select which ones to redact."
+        "title": "సమీక్షించి, ఎంచుకోండి",
+        "description": "అన్ని మ్యాచ్లను ప్రివ్యూ చేసి, ఏవన్ని సవరించాలో ఎంచుకోండి."
       },
       {
         "step": 4,
-        "title": "Apply Redaction",
-        "description": "Customize redaction appearance and apply to selected matches."
+        "title": "సవరణను ఉపయోగించు",
+        "description": "సవరించిన రూపాన్ని అనుకూలీకరించండి మరియు ఎంచుకున్న మ్యాచ్లకు వర్తింపజేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Privacy Compliance",
-        "description": "Redact personal information to comply with GDPR, HIPAA, or other regulations.",
+        "title": "గోప్యతా సమ్మతి",
+        "description": "GDPR, HIPAA, లేదా ఇతర నిబంధనలకు అనుగుణంగా వ్యక్తిగత సమాచారాన్ని పునఃసృష్టించండి.",
         "icon": "shield"
       },
       {
         "title": "చట్టపరమైన పత్రాలు",
-        "description": "Remove confidential data from legal documents before sharing.",
+        "description": "భాగస్వామ్యం చేయడానికి ముందు చట్టపరమైన పత్రాల నుండి గోప్యమైన డేటాను తొలగించండి.",
         "icon": "scale"
       },
       {
-        "title": "Financial Records",
-        "description": "Redact account numbers, SSNs, or financial data from statements.",
+        "title": "ఆర్థిక రికార్డులు",
+        "description": "నివేదికల నుండి ఖాతా సంఖ్యలు, SSNs లేదా ఆర్థిక డేటాను పునఃసృష్టించండి.",
         "icon": "credit-card"
       }
     ],
     "faq": [
       {
-        "question": "Is redaction permanent?",
-        "answer": "Yes, redaction permanently removes the underlying text. The original content cannot be recovered. Always keep a backup of the original file."
+        "question": "సవరణ శాశ్వతమా?",
+        "answer": "అవును, సవరణ అనేది మూల వచనాన్ని శాశ్వతంగా తొలగిస్తుంది. అసలు కంటెంట్ను తిరిగి పొందలేము. ఎల్లప్పుడూ అసలు ఫైల్ యొక్క బ్యాకప్ను ఉంచండి."
       },
       {
-        "question": "Can I redact images or scanned text?",
-        "answer": "This tool works with text-based PDFs. For scanned documents, you would need to use manual area-based redaction."
+        "question": "నేను చిత్రాలు లేదా స్కాన్ టెక్స్ట్ సవరించవచ్చు?",
+        "answer": "ఈ సాధనం టెక్స్ట్ ఆధారిత PDF లతో పనిచేస్తుంది. స్కాన్ చేసిన పత్రాల కోసం, మీరు ప్రాంతం ఆధారిత మాన్యువల్ సవరణను ఉపయోగించాలి."
       },
       {
-        "question": "Can I customize the redaction appearance?",
-        "answer": "Yes, you can set the redaction color, add borders, and optionally include replacement text like \"[REDACTED]\"."
+        "question": "నేను సవరించడం రూపాన్ని అనుకూలీకరించవచ్చు?",
+        "answer": "అవును, మీరు సవరించే రంగును సెట్ చేయవచ్చు, సరిహద్దులను జోడించవచ్చు మరియు ఎంపికగా \"[REDACTED] వంటి భర్తీ టెక్స్ట్ను చేర్చవచ్చు."
       },
       {
-        "question": "How does regex search work?",
-        "answer": "Enable \"Use Regular Expression\" to search using regex patterns. For example, \\d{4}-\\d{4}-\\d{4}-\\d{4} to find credit card numbers."
+        "question": "ఎలా రెజిఎక్స్ శోధన పనిచేస్తుంది?",
+        "answer": "ఉదాహరణకు, క్రెడిట్ కార్డు సంఖ్యలను కనుగొనడానికి \\ d{4}-\\ d{4}-\\ d{4}-\\ d{4}."
       }
     ]
   },
   "decrypt-pdf": {
-    "title": "Decrypt PDF",
-    "metaDescription": "Remove password from PDF files. Unlock password-protected documents.",
+    "title": "PDF ని డీక్రిప్ట్ చేయండి",
+    "metaDescription": "PDF ఫైళ్ళ నుండి పాస్వర్డ్ను తొలగించండి. పాస్వర్డ్తో రక్షించబడిన పత్రాలను అన్లాక్ చేయండి.",
     "keywords": [
       "decrypt pdf",
       "remove pdf password",
       "unlock pdf",
       "pdf password remover"
     ],
-    "description": "\n      <p>Decrypt PDF removes password protection from PDF documents. Enter the current password to unlock the file and create an unprotected copy.</p>\n      <p>This tool requires you to know the current password. It cannot crack or bypass unknown passwords.</p>\n      <p>All decryption happens in your browser, ensuring your passwords and documents remain private.</p>\n    ",
+    "description": "<p>Decrypt PDF PDF PDF పత్రాల నుండి పాస్వర్డ్ రక్షణను తొలగిస్తుంది. ఫైల్ను అన్లాక్ చేయడానికి ప్రస్తుత పాస్వర్డ్ను నమోదు చేసి, రక్షించబడని కాపీని సృష్టించండి. <p> <p>ఈ సాధనం ప్రస్తుత పాస్వర్డ్ను తెలుసుకోవలసిన అవసరం ఉంది. ఇది తెలియని పాస్వర్డ్లను విచ్ఛిన్నం చేయదు లేదా దాటవేయదు. </p> <p>అన్ని డీక్రిప్షన్ మీ బ్రౌజర్లో జరుగుతుంది, మీ పాస్వర్డ్లు మరియు పత్రాలు ప్రైవేట్గా ఉంటాయి.</p> ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Protected PDF",
-        "description": "Drag and drop your password-protected PDF."
+        "title": "PDF ని అప్లోడ్ చేయండి",
+        "description": "మీ పాస్వర్డ్తో రక్షించబడిన PDF ను లాగండి మరియు వదలండి."
       },
       {
         "step": 2,
-        "title": "Enter Password",
-        "description": "Enter the current document password."
+        "title": "పాస్వర్డ్ను నమోదు చేయండి",
+        "description": "ప్రస్తుత పత్ర పాస్వర్డ్ను నమోదు చేయండి."
       },
       {
         "step": 3,
-        "title": "Decrypt and Download",
-        "description": "Click Decrypt to remove protection and download."
+        "title": "డీక్రిప్ట్ చేసి డౌన్లోడ్ చేసుకోండి",
+        "description": "రక్షణను తొలగించి డౌన్లోడ్ చేయడానికి డీక్రిప్ట్ క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Remove Old Passwords",
-        "description": "Unlock documents when password is no longer needed.",
+        "title": "పాత పాస్వర్డ్లను తొలగించు",
+        "description": "పాస్వర్డ్ అవసరం లేనప్పుడు పత్రాలను అన్లాక్ చేయండి.",
         "icon": "unlock"
       },
       {
-        "title": "Simplify Access",
-        "description": "Create unprotected copies for easier sharing.",
+        "title": "యాక్సెస్ను సరళపరచడం",
+        "description": "సులభంగా పంచుకోవడానికి రక్షణ లేని కాపీలు సృష్టించండి.",
         "icon": "share-2"
       },
       {
         "title": "ఆర్కైవ్ పత్రాలు",
-        "description": "Remove passwords before long-term archiving.",
+        "description": "దీర్ఘకాలిక ఆర్కైవ్ చేయడానికి ముందు పాస్వర్డ్లను తొలగించండి.",
         "icon": "archive"
       }
     ],
     "faq": [
       {
-        "question": "Can it crack unknown passwords?",
-        "answer": "No, you must know the current password to decrypt."
+        "question": "ఇది తెలియని పాస్వర్డ్లను విచ్ఛిన్నం చేయగలదా?",
+        "answer": "లేదు, మీరు ప్రస్తుత పాస్వర్డ్ తెలుసుకోవాలి డీక్రిప్ట్."
       },
       {
-        "question": "Is the original file modified?",
-        "answer": "No, a new unprotected copy is created."
+        "question": "అసలు ఫైల్ మార్చబడిందా?",
+        "answer": "లేదు, కొత్తగా రక్షణ లేని కాపీని సృష్టించారు."
       },
       {
-        "question": "What if I forgot the password?",
-        "answer": "Unfortunately, we cannot recover forgotten passwords."
+        "question": "నేను పాస్వర్డ్ మర్చిపోతే?",
+        "answer": "దురదృష్టవశాత్తు, మర్చిపోయిన పాస్వర్డ్లను తిరిగి పొందలేము."
       }
     ]
   },
   "flatten-pdf": {
-    "title": "Flatten PDF",
-    "metaDescription": "Flatten PDF forms and annotations. Make content non-editable.",
+    "title": "ఫ్లాట్ PDF",
+    "metaDescription": "PDF ఫారమ్లు మరియు వ్యాఖ్యలను ఫ్లాట్ చేయండి. కంటెంట్ను సవరించలేనిదిగా చేయండి.",
     "keywords": [
       "flatten pdf",
       "flatten forms",
       "flatten annotations",
       "non-editable pdf"
     ],
-    "description": "\n      <p>Flatten PDF converts interactive elements like form fields and annotations into static content. The flattened PDF looks the same but can no longer be edited.</p>\n      <p>Perfect for finalizing filled forms, preserving annotations, or creating non-editable document versions.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>ఫ్లాట్ PDF ఫారం ఫీల్డ్లు మరియు వ్యాఖ్యలు వంటి ఇంటరాక్టివ్ అంశాలను స్థిరమైన కంటెంట్గా మారుస్తుంది. ఫ్లాట్ చేసిన PDF అదే కనిపిస్తుంది కానీ ఇకపై సవరించబడదు.</p> <p>ఫిల్డ్ ఫారమ్లను పూర్తి చేయడానికి, వ్యాఖ్యలను సంరక్షించడానికి లేదా సవరించలేని పత్ర సంస్కరణలను సృష్టించడానికి ఖచ్చితంగా ఉంది.</p> <p>అన్ని ప్రాసెసింగ్ మీ బ్రౌజర్లో జరుగుతుంది, మీ పత్రాలు ప్రైవేట్గా ఉండాలని నిర్ధారించుకోండి.</p> ",
     "howToUse": [
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your PDF with forms or annotations."
+        "description": "మీ PDF ను ఫారమ్లు లేదా వ్యాఖ్యలతో లాగండి మరియు వదలండి."
       },
       {
         "step": 2,
-        "title": "Select What to Flatten",
-        "description": "Choose to flatten forms, annotations, or both."
+        "title": "ఏవైనా పనులు ఎంచుకోండి",
+        "description": "ఫారమ్లు, వ్యాఖ్యలు లేదా రెండింటిని ఫ్లాట్ చేయడానికి ఎంచుకోండి."
       },
       {
         "step": 3,
-        "title": "Flatten and Download",
-        "description": "Click Flatten to create the static PDF."
+        "title": "ఫ్లాట్ మరియు డౌన్లోడ్",
+        "description": "స్టాటిక్ PDF ను సృష్టించడానికి Flatten పై క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Finalize Forms",
-        "description": "Lock filled form data to prevent changes.",
+        "title": "ఫారమ్లను పూర్తి చేయండి",
+        "description": "మార్పులు నివారించడానికి పూరించిన ఫారం డేటాను లాక్ చేయండి.",
         "icon": "lock"
       },
       {
-        "title": "Preserve Annotations",
-        "description": "Make annotations permanent in the document.",
+        "title": "వివరణలను కాపాడు",
+        "description": "పత్రంలో శాశ్వత ముద్రలను తయారుచేయండి.",
         "icon": "check-circle"
       },
       {
         "title": "ఆర్కైవ్ పత్రాలు",
-        "description": "Create non-editable versions for archiving.",
+        "description": "ఆర్కైవ్ కోసం సవరించలేని వెర్షన్లను సృష్టించండి.",
         "icon": "archive"
       }
     ],
     "faq": [
       {
-        "question": "Is flattening reversible?",
-        "answer": "No, flattening is permanent. Keep a backup of the original."
+        "question": "ఫ్లాయింగ్ రివర్స్ చేయవచ్చా?",
+        "answer": "లేదు, ఫ్లాయింగ్ శాశ్వత ఉంది. అసలు కాపీని ఉంచండి."
       },
       {
-        "question": "Will the appearance change?",
-        "answer": "No, the document looks the same but is no longer interactive."
+        "question": "రూపాన్ని మార్చేస్తారా?",
+        "answer": "లేదు, పత్రం అదే కనిపిస్తుంది కానీ ఇకపై ఇంటరాక్టివ్ కాదు."
       },
       {
-        "question": "Does it reduce file size?",
-        "answer": "Sometimes, as interactive elements are converted to simpler content."
+        "question": "ఇది ఫైల్ పరిమాణాన్ని తగ్గిస్తుంది?",
+        "answer": "కొన్నిసార్లు, ఇంటరాక్టివ్ అంశాలు సరళమైన కంటెంట్ గా మార్చబడతాయి."
       }
     ]
   },
   "remove-metadata": {
-    "title": "Remove Metadata",
-    "metaDescription": "Strip metadata from PDF files. Remove author, dates, and document properties.",
+    "title": "మెటాడేటాను తొలగించు",
+    "metaDescription": "PDF ఫైళ్ళ నుండి మెటాడేటాను తొలగించండి. రచయిత, తేదీలు, మరియు పత్రం లక్షణాలను తొలగించండి.",
     "keywords": [
       "remove pdf metadata",
       "strip metadata",
       "pdf privacy",
       "anonymous pdf"
     ],
-    "description": "\n      <p>Remove Metadata strips all document properties and metadata from your PDF files. Remove author names, creation dates, software information, and other identifying data.</p>\n      <p>Essential for privacy when sharing documents or when metadata could reveal sensitive information.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>మెటాడేటాను తొలగించడం మీ PDF ఫైళ్ళ నుండి అన్ని పత్ర లక్షణాలను మరియు మెటాడేటాలను తొలగిస్తుంది. రచయిత పేర్లు, సృష్టి తేదీలు, సాఫ్ట్వేర్ సమాచారం మరియు ఇతర గుర్తింపు డేటాను తొలగించండి. </p> <p>పత్రాలను పంచుకునేటప్పుడు లేదా మెటాడేటా సున్నితమైన సమాచారాన్ని వెల్లడించినప్పుడు గోప్యతకు ముఖ్యమైనది.</p> <p>మీ పత్రాలు ప్రైవేట్గా ఉండాలని నిర్ధారించడానికి మీ బ్రౌజర్లో అన్ని ప్రాసెసింగ్ జరుగుతుంది. </p> ",
     "howToUse": [
       {
         "step": 1,
@@ -5195,57 +5195,57 @@ export const toolContentTe: Record<string, ToolContent> = {
       },
       {
         "step": 2,
-        "title": "Remove Metadata",
-        "description": "Click Remove to strip all metadata."
+        "title": "మెటాడేటాను తొలగించు",
+        "description": "అన్ని మెటాడేటాలను తొలగించడానికి తొలగించు క్లిక్ చేయండి."
       },
       {
         "step": 3,
         "title": "డౌన్లోడ్",
-        "description": "Download the metadata-free PDF."
+        "description": "మెటాడేటా లేని PDF ను డౌన్లోడ్ చేసుకోండి."
       }
     ],
     "useCases": [
       {
         "title": "గోప్యతా రక్షణ",
-        "description": "Remove personal information before sharing.",
+        "description": "భాగస్వామ్యం చేయడానికి ముందు వ్యక్తిగత సమాచారాన్ని తొలగించండి.",
         "icon": "shield"
       },
       {
-        "title": "Anonymous Documents",
-        "description": "Create documents without author attribution.",
+        "title": "అనామక పత్రాలు",
+        "description": "రచయిత కేటాయించకుండా పత్రాలను సృష్టించండి.",
         "icon": "user-x"
       },
       {
         "title": "శుభ్రమైన పంపిణీ",
-        "description": "Distribute documents without internal metadata.",
+        "description": "అంతర్గత మెటాడేటా లేకుండా పత్రాలను పంపిణీ చేయండి.",
         "icon": "send"
       }
     ],
     "faq": [
       {
-        "question": "What metadata is removed?",
-        "answer": "Author, title, subject, keywords, dates, creator, and producer information."
+        "question": "ఏ మెటాడేటా తొలగించబడుతుంది?",
+        "answer": "రచయిత, శీర్షిక, విషయం, కీలకపదాలు, తేదీలు, సృష్టికర్త, నిర్మాత సమాచారం."
       },
       {
-        "question": "Is XMP metadata removed?",
-        "answer": "Yes, both standard and XMP metadata are stripped."
+        "question": "XMP మెటాడేటా తొలగించబడిందా?",
+        "answer": "అవును, ప్రామాణిక మరియు XMP మెటాడేటా రెండింటినీ తొలగించారు."
       },
       {
-        "question": "Will content be affected?",
-        "answer": "No, only metadata is removed; document content remains unchanged."
+        "question": "కంటెంట్ ప్రభావితం అవుతుందా?",
+        "answer": "లేదు, మెటాడేటా మాత్రమే తొలగించబడుతుంది; పత్రం యొక్క కంటెంట్ మారదు."
       }
     ]
   },
   "change-permissions": {
-    "title": "Change Permissions",
-    "metaDescription": "Modify PDF permissions. Control printing, copying, and editing access.",
+    "title": "అనుమతులను మార్చు",
+    "metaDescription": "PDF అనుమతులను సవరించండి. ప్రింటింగ్, కాపీ చేయడం, సవరించడం యాక్సెస్ను నియంత్రించండి.",
     "keywords": [
       "pdf permissions",
       "change pdf access",
       "restrict pdf",
       "pdf security"
     ],
-    "description": "\n      <p>Change Permissions modifies the access controls on your PDF documents. Enable or disable printing, copying, editing, and annotation permissions.</p>\n      <p>Set an owner password to enforce these restrictions. Recipients can view the document but are limited in what actions they can perform.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>Change Permissions మీ PDF పత్రాలలోని యాక్సెస్ నియంత్రణలను సవరించుకుంటుంది. ప్రింటింగ్, కాపీ చేయడం, సవరించడం మరియు వ్యాఖ్యల అనుమతులను ప్రారంభించండి లేదా నిలిపివేయండి. </p> <p>ఈ పరిమితులను అమలు చేయడానికి యజమాని పాస్వర్డ్ను సెట్ చేయండి. గ్రహీతలు పత్రాన్ని చూడవచ్చు కాని వారు ఏమి చేయగలరో పరిమితం చేయబడతాయి. </p> <p>అన్ని ప్రాసెసింగ్లు మీ బ్రౌజర్లో జరుగుతాయి, మీ పత్రాలు ప్రైవేట్గా ఉండాలని నిర్ధారించుకోండి. </p> ",
     "howToUse": [
       {
         "step": 1,
@@ -5254,57 +5254,57 @@ export const toolContentTe: Record<string, ToolContent> = {
       },
       {
         "step": 2,
-        "title": "Set Permissions",
-        "description": "Enable or disable printing, copying, editing, and annotations."
+        "title": "అనుమతులు సెట్",
+        "description": "ముద్రణ, కాపీ, ఎడిటింగ్, మరియు వ్యాఖ్యలను ప్రారంభించండి లేదా నిలిపివేయండి."
       },
       {
         "step": 3,
         "title": "అప్లికేషన్ మరియు డౌన్లోడ్",
-        "description": "Set owner password and download the restricted PDF."
+        "description": "యజమాని పాస్వర్డ్ను సెట్ చేసి, పరిమిత PDF ని డౌన్లోడ్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Prevent Copying",
-        "description": "Disable text copying to protect content.",
+        "title": "కాపీని అడ్డుకోవడం",
+        "description": "కంటెంట్ను రక్షించడానికి టెక్స్ట్ కాపీని నిలిపివేయండి.",
         "icon": "copy"
       },
       {
-        "title": "Control Printing",
-        "description": "Restrict or allow document printing.",
+        "title": "నియంత్రణ ప్రింటింగ్",
+        "description": "పత్రాలను ముద్రించడాన్ని పరిమితం చేయండి లేదా అనుమతించండి.",
         "icon": "printer"
       },
       {
-        "title": "Limit Editing",
-        "description": "Prevent modifications to the document.",
+        "title": "పరిమిత సవరణ",
+        "description": "పత్రం లో మార్పులు చేయకుండా నిరోధించండి.",
         "icon": "edit-3"
       }
     ],
     "faq": [
       {
-        "question": "Do I need a password?",
-        "answer": "An owner password is required to enforce permissions."
+        "question": "నేను ఒక పాస్వర్డ్ అవసరం?",
+        "answer": "అనుమతులను అమలు చేయడానికి యజమాని పాస్వర్డ్ అవసరం."
       },
       {
-        "question": "Can permissions be removed?",
-        "answer": "Yes, with the owner password or using Remove Restrictions tool."
+        "question": "అనుమతులను తొలగించవచ్చా?",
+        "answer": "అవును, యజమాని పాస్వర్డ్తో లేదా పరిమితులను తొలగించు సాధనాన్ని ఉపయోగించి."
       },
       {
-        "question": "Are all PDF readers compatible?",
-        "answer": "Most PDF readers respect permissions, but some may not enforce them."
+        "question": "అన్ని PDF రీడర్లు అనుకూలంగా ఉన్నాయా?",
+        "answer": "PDF పాఠకులు అధికారం గౌరవిస్తారు, కానీ కొందరు వాటిని అమలు చేయకపోవచ్చు."
       }
     ]
   },
   "pdf-to-docx": {
-    "title": "PDF to Word",
-    "metaDescription": "Convert PDF to editable Word (DOCX) documents. Preserve formatting and layout.",
+    "title": "PDF నుండి వర్డ్కు",
+    "metaDescription": "PDF ను సవరించదగిన వర్డ్ (DOCX) పత్రాలకు మార్చండి. ఫార్మాటింగ్ మరియు లేఅవుట్ను కాపాడండి.",
     "keywords": [
       "pdf to word",
       "convert pdf to docx",
       "pdf to doc",
       "editable pdf"
     ],
-    "description": "\n      <p>PDF to Word converts your PDF documents into editable Microsoft Word (DOCX) files. The tool preserves the original layout, formatting, images, and text flow.</p>\n      <p>Easily edit your PDF content in Word without retyping. Perfect for contracts, reports, and resumes.</p>\n      <p>All conversion happens locally in your browser using WebAssembly technology, ensuring your documents never leave your device.</p>\n    ",
+    "description": "<p>PDF to Word మీ PDF పత్రాలను సవరించదగిన మైక్రోసాఫ్ట్ వర్డ్ (DOCX) ఫైళ్ళగా మారుస్తుంది. ఈ సాధనం అసలు లేఅవుట్, ఫార్మాటింగ్, చిత్రాలు మరియు టెక్స్ట్ ఫ్లోను కాపాడుతుంది. </p> <p>మీ PDF కంటెంట్ను వర్డ్లో తిరిగి టైప్ చేయకుండా సులభంగా సవరించండి. ఒప్పందాలు, నివేదికలు మరియు పునఃప్రారంభాల కోసం ఖచ్చితంగా ఉంది. </p> <p>అన్ని మార్పిడులు వెబ్ అసెంబ్లీ సాంకేతిక పరిజ్ఞానాన్ని ఉపయోగించి మీ బ్రౌజర్లో స్థానికంగా జరుగుతాయి, మీ పత్రాలు మీ పరికరాన్ని ఎప్పటికీ వదిలివేయకుండా చూపుతుంది. </p> ",
     "howToUse": [
       {
         "step": 1,
@@ -5313,50 +5313,50 @@ export const toolContentTe: Record<string, ToolContent> = {
       },
       {
         "step": 2,
-        "title": "Convert",
-        "description": "Wait for the conversion process to complete."
+        "title": "మార్చు",
+        "description": "మార్పిడి ప్రక్రియ పూర్తి అయ్యే వరకు వేచి ఉండండి."
       },
       {
         "step": 3,
-        "title": "Download Word Doc",
-        "description": "Download your fully editable DOCX file."
+        "title": "వర్డ్ డాక్ ను డౌన్లోడ్ చేసుకోండి",
+        "description": "మీ పూర్తిగా సవరించదగిన DOCX ఫైల్ను డౌన్లోడ్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Edit Contracts",
-        "description": "Convert PDF contracts to Word for editing and revision.",
+        "title": "ఒప్పందాలను సవరించు",
+        "description": "సవరించడానికి మరియు సవరించడానికి PDF ఒప్పందాలను Word కు మార్చండి.",
         "icon": "file-text"
       },
       {
-        "title": "Resume Updates",
-        "description": "Update old PDF resumes by converting them to Word.",
+        "title": "పునఃప్రారంభం నవీకరణలు",
+        "description": "పాత PDF పునఃప్రారంభాలను Word కు మార్చడం ద్వారా నవీకరించండి.",
         "icon": "user"
       },
       {
         "title": "కంటెంట్ను పునఃప్రయోగించడం",
-        "description": "Extract content from PDF reports for other documents.",
+        "description": "ఇతర పత్రాల కోసం PDF నివేదికల నుండి కంటెంట్ను సేకరించండి.",
         "icon": "copy"
       }
     ],
     "faq": [
       {
         "question": "ఫార్మాటింగ్ కాపాడబడిందా?",
-        "answer": "Yes, the tool aims to preserve layout, fonts, and images as closely as possible."
+        "answer": "అవును, ఈ సాధనం యొక్క ఉద్దేశ్యం లేఅవుట్, ఫాంట్లు, చిత్రాలను సాధ్యమైనంత దగ్గరగా ఉంచడం."
       },
       {
-        "question": "Can I convert scanned PDFs?",
-        "answer": "Scanned PDFs will be converted as images in Word unless you use OCR first."
+        "question": "నేను స్కాన్ చేసిన PDF లను మార్చవచ్చా?",
+        "answer": "మీరు మొదట OCR ను ఉపయోగించకపోతే స్కాన్ చేసిన PDF లు వర్డ్లో చిత్రాలుగా మార్చబడతాయి."
       },
       {
-        "question": "Is it compatible with Word?",
-        "answer": "Yes, the output is a standard .docx file compatible with Microsoft Word and Google Docs."
+        "question": "ఇది వర్డ్తో అనుకూలంగా ఉందా?",
+        "answer": "అవును, అవుట్పుట్ మైక్రోసాఫ్ట్ వర్డ్ మరియు గూగుల్ డాక్స్తో అనుకూలమైన ప్రామాణిక .docx ఫైల్."
       }
     ]
   },
   "pdf-to-markdown": {
-    "title": "PDF to Markdown",
-    "metaDescription": "Convert PDF to Markdown format. Extract text and preserve formatting like headings and lists.",
+    "title": "PDF కు మార్క్డౌన్",
+    "metaDescription": "PDF ను మార్క్డౌన్ ఫార్మాట్ కు మార్చండి. టెక్స్ట్ను సేకరించండి మరియు శీర్షికలు మరియు జాబితాలు వంటి ఫార్మాటింగ్ను కాపాడండి.",
     "keywords": [
       "pdf to markdown",
       "convert pdf to md",
@@ -5364,7 +5364,7 @@ export const toolContentTe: Record<string, ToolContent> = {
       "markdown converter",
       "pdf to text"
     ],
-    "description": "\n      <p>PDF to Markdown converts your PDF documents into clean, well-structured Markdown files. The tool intelligently extracts text content and attempts to preserve formatting like headings, lists, and paragraphs.</p>\n      <p>Perfect for converting PDF documents to editable formats for documentation, note-taking, or content management systems that support Markdown.</p>\n      <p>All conversion happens locally in your browser, ensuring your documents remain private and secure.</p>\n    ",
+    "description": "<p>PDF to Markdown మీ PDF పత్రాలను శుభ్రమైన, బాగా నిర్మాణాత్మక Markdown ఫైళ్ళగా మారుస్తుంది. ఈ సాధనం టెక్స్ట్ కంటెంట్ను తెలివిగా సేకరిస్తుంది మరియు శీర్షికలు, జాబితాలు మరియు పేరాలు వంటి ఫార్మాటింగ్ను కాపాడటానికి ప్రయత్నిస్తుంది. </p> <p>PDF పత్రాలను డాక్యుమెంటేషన్, నోట్-టేకింగ్ లేదా మార్క్డౌన్కు మద్దతు ఇచ్చే కంటెంట్ మేనేజ్మెంట్ సిస్టమ్ల కోసం సవరించదగిన ఫార్మాట్లకు మార్చడానికి అనువైనది. </p> <p>అన్ని మార్పిడులు మీ బ్రౌజర్లో స్థానికంగా జరుగుతాయి, మీ పత్రాలు ప్రైవేట్ మరియు సురక్షితంగా ఉంటాయి.</p> ",
     "howToUse": [
       {
         "step": 1,
@@ -5374,49 +5374,49 @@ export const toolContentTe: Record<string, ToolContent> = {
       {
         "step": 2,
         "title": "ఎంపికలను కాన్ఫిగర్ చేయండి",
-        "description": "Set page range, choose to include page numbers, and adjust line break settings."
+        "description": "పేజీ పరిధిని సెట్ చేయండి, పేజీ సంఖ్యలను చేర్చడానికి ఎంచుకోండి మరియు లైన్ బ్రేక్ సెట్టింగులను సర్దుబాటు చేయండి."
       },
       {
         "step": 3,
         "title": "మార్చండి మరియు డౌన్లోడ్",
-        "description": "Click Convert to generate your Markdown file and download."
+        "description": "మీ మార్క్డౌన్ ఫైల్ను సృష్టించడానికి మరియు డౌన్లోడ్ చేయడానికి Convert పై క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
         "title": "పత్రాలు",
-        "description": "Convert PDF manuals and guides to Markdown for version-controlled documentation.",
+        "description": "సంస్కరణ-నియంత్రిత డాక్యుమెంటేషన్ కోసం PDF మాన్యువల్స్ మరియు గైడ్లను మార్క్డౌన్కు మార్చండి.",
         "icon": "file-text"
       },
       {
-        "title": "Note Taking",
-        "description": "Extract content from PDF articles and books for your note-taking system.",
+        "title": "గమనిక తీసుకోవడం",
+        "description": "మీ నోట్ తీసుకోవడం వ్యవస్థ కోసం PDF వ్యాసాలు మరియు పుస్తకాల నుండి కంటెంట్ను సేకరించండి.",
         "icon": "edit-3"
       },
       {
-        "title": "Content Migration",
-        "description": "Migrate PDF content to CMS platforms that support Markdown.",
+        "title": "కంటెంట్ వలస",
+        "description": "మార్క్డౌన్కు మద్దతు ఇచ్చే CMS ప్లాట్ఫారమ్లకు PDF కంటెంట్ను వలస పెట్టండి.",
         "icon": "copy"
       }
     ],
     "faq": [
       {
         "question": "ఫార్మాటింగ్ కాపాడబడిందా?",
-        "answer": "The tool attempts to detect headings based on font size and bullet points/numbered lists. Complex layouts may require manual adjustment."
+        "answer": "ఈ సాధనం ఫాంట్ పరిమాణం మరియు బుల్లెట్ పాయింట్లు/సంఖ్య జాబితాల ఆధారంగా శీర్షికలను గుర్తించడానికి ప్రయత్నిస్తుంది. సంక్లిష్ట లేఅవుట్లకు మాన్యువల్ సర్దుబాటు అవసరం కావచ్చు."
       },
       {
-        "question": "Can I convert specific pages?",
-        "answer": "Yes, you can specify a page range like \"1-3, 5, 7\" to convert only those pages."
+        "question": "నేను నిర్దిష్ట పేజీలను మార్చగలనా?",
+        "answer": "అవును, మీరు \"1-3, 5, 7\" వంటి పేజీ పరిధిని పేర్కొనవచ్చు ఆ పేజీలను మాత్రమే మార్చడానికి."
       },
       {
-        "question": "Does it work with scanned PDFs?",
-        "answer": "Scanned PDFs contain images, not text. Use our OCR tool first to extract text before converting to Markdown."
+        "question": "ఇది స్కాన్ చేసిన PDF ఫైళ్ళతో పనిచేస్తుందా?",
+        "answer": "స్కాన్ చేసిన PDF లు చిత్రాలను కలిగి ఉంటాయి, వచనాన్ని కాదు. మార్క్డౌన్ కు మార్చడానికి ముందు మా OCR సాధనాన్ని ఉపయోగించి మొదట వచనాన్ని సేకరించండి."
       }
     ]
   },
   "deskew-pdf": {
-    "title": "Deskew PDF",
-    "metaDescription": "Automatically straighten scanned or tilted PDF pages. Fix skewed documents with precision angle detection.",
+    "title": "PDF ను డెస్క్యు",
+    "metaDescription": "స్కాన్ చేసిన లేదా వంగి ఉన్న PDF పేజీలను స్వయంచాలకంగా సరళంగా చేయండి. ఖచ్చితమైన కోణ గుర్తింపుతో విలక్షణమైన పత్రాలను పరిష్కరించండి.",
     "keywords": [
       "deskew pdf",
       "straighten pdf",
@@ -5424,67 +5424,67 @@ export const toolContentTe: Record<string, ToolContent> = {
       "auto rotate pdf",
       "correct pdf angle"
     ],
-    "description": "\n      <p>Deskew PDF automatically detects and corrects tilted or skewed pages in your PDF documents using advanced projection profile variance analysis. This is essential for scanned documents that were fed into the scanner at an angle.</p>\n      <p>The tool analyzes the text and content alignment at different angles to find the optimal rotation, then applies the correction. You can adjust the sensitivity threshold (1-30) and DPI settings (72-300) for optimal results.</p>\n      <p>All processing happens locally in your browser using WebAssembly technology, ensuring your documents remain private and secure.</p>\n    ",
+    "description": "<p>Deskew PDF మీ PDF పత్రాలలో ఉన్నత ప్రొజెక్షన్ ప్రొఫైల్ వ్యత్యాసం విశ్లేషణను ఉపయోగించి వంపు లేదా విలక్షణమైన పేజీలను స్వయంచాలకంగా గుర్తించి సరిచేస్తుంది. స్కాన్ చేసిన పత్రాలకు ఇది ఒక కోణంలో స్కానర్లోకి ప్రవేశించడానికి చాలా అవసరం. </p> <p>సాధనం సరైన భ్రమణాన్ని కనుగొనడానికి వివిధ కోణాల్లో టెక్స్ట్ మరియు కంటెంట్ అమరికను విశ్లేషిస్తుంది, ఆపై దిద్దుబాటును వర్తిస్తుంది. మీరు సరైన ఫలితాల కోసం సున్నితత్వ ప్రవేశాన్ని (1-30) మరియు DPI సెట్టింగులను (72-300) సర్దుబాటు చేయవచ్చు. </p> <p>అన్ని ప్రాసెసింగ్లు వెబ్ అసెంబ్లీ టెక్నాలజీని ఉపయోగించి మీ బ్రౌజర్లో స్థానికంగా జరుగుతాయి, మీ పత్రాలు ప్రైవేట్ మరియు సురక్షితంగా ఉంటాయి.</p> ",
     "howToUse": [
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Drag and drop your scanned PDF file or click to select."
+        "description": "స్కాన్ చేసిన PDF ఫైల్ను లాగండి మరియు వదలండి లేదా ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
         "title": "సెట్టింగులను కాన్ఫిగర్ చేయండి",
-        "description": "Adjust threshold sensitivity and DPI if needed for better detection."
+        "description": "మెరుగైన గుర్తింపు కోసం అవసరమైతే, ప్రవేశ సున్నితత్వం మరియు DPI ను సర్దుబాటు చేయండి."
       },
       {
         "step": 3,
         "title": "ప్రాసెస్ మరియు డౌన్లోడ్",
-        "description": "Click Deskew to straighten pages and download the corrected PDF."
+        "description": "పేజీలను సరిచేయడానికి మరియు సరిచేసిన PDF ని డౌన్లోడ్ చేయడానికి Deskew పై క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
         "title": "స్కాన్ చేసిన పత్రాలు",
-        "description": "Fix pages that were scanned at an angle from document feeders.",
+        "description": "పత్రం ఫీడర్ల నుండి ఒక కోణంలో స్కాన్ చేసిన పేజీలను పరిష్కరించండి.",
         "icon": "scan"
       },
       {
-        "title": "Mobile Scans",
-        "description": "Correct tilted photos of documents taken with smartphones.",
+        "title": "మొబైల్ స్కాన్లు",
+        "description": "స్మార్ట్ఫోన్ల ద్వారా తీసిన పత్రాల కుట్ర ఫోటోలు సరి.",
         "icon": "smartphone"
       },
       {
-        "title": "Archive Restoration",
-        "description": "Straighten old scanned archives for better readability.",
+        "title": "ఆర్కైవ్ పునరుద్ధరణ",
+        "description": "మెరుగైన పఠనము కొరకు పాత స్కాన్ చేసిన ఆర్కైవులను సరిచేయండి.",
         "icon": "archive"
       }
     ],
     "faq": [
       {
-        "question": "How accurate is the angle detection?",
+        "question": "కోణం గుర్తించడం ఎంత ఖచ్చితమైనది?",
         "answer": "The tool uses projection profile variance analysis to detect skew angles up to ±10 degrees with high accuracy. It automatically skips pages with angles less than 0.3 degrees."
       },
       {
-        "question": "Will text quality be affected?",
-        "answer": "For rotations at multiples of 90 degrees, no quality loss occurs. For other angles, the tool rounds to the nearest degree and maintains good quality."
+        "question": "టెక్స్ట్ నాణ్యత ప్రభావితం అవుతుందా?",
+        "answer": "90 డిగ్రీల గుణకాలు వద్ద భ్రమణానికి నాణ్యత కోల్పోవు. ఇతర కోణాల కోసం, సాధనం సమీప డిగ్రీకి తిరుగుతుంది మరియు మంచి నాణ్యతను కలిగి ఉంటుంది."
       },
       {
-        "question": "Can I deskew specific pages only?",
-        "answer": "The tool analyzes all pages but only corrects those with detected skew above the sensitivity threshold. Pages with minimal skew are left unchanged."
+        "question": "నేను నిర్దిష్ట పేజీలను మాత్రమే విడదీయవచ్చా?",
+        "answer": "ఈ సాధనం అన్ని పేజీలను విశ్లేషిస్తుంది, కానీ సున్నితత్వ పరిమితి కంటే ఎక్కువ విన్యాసాలు ఉన్న పేజీలను మాత్రమే సరిదిద్దుతుంది."
       },
       {
-        "question": "What is the sensitivity threshold?",
-        "answer": "Values 1-10 correct obvious tilts only, 11-20 detect moderate skew, and 21-30 catch subtle angles. Default is 10 for balanced detection."
+        "question": "సున్నితత్వం యొక్క పరిమితి ఏమిటి?",
+        "answer": "1-10 విలువలు స్పష్టంగా వాలు మాత్రమే సరిచేస్తాయి, 11-20 మధ్యస్తమైన వక్రీకరణను గుర్తించాయి, మరియు 21-30 సూక్ష్మ కోణాలను పట్టుకోండి. డిఫాల్ట్గా సమతుల్య గుర్తింపు కోసం 10 ఉంది."
       },
       {
-        "question": "How long does processing take?",
-        "answer": "Processing time depends on file size and DPI. 150 DPI (default) provides good balance between speed and accuracy. Higher DPI is more accurate but slower."
+        "question": "ప్రాసెసింగ్ ఎంత సమయం పడుతుంది?",
+        "answer": "ప్రాసెసింగ్ సమయం ఫైల్ పరిమాణం మరియు DPI పై ఆధారపడి ఉంటుంది. 150 DPI (డిఫాల్ట్) వేగం మరియు ఖచ్చితత్వం మధ్య మంచి సమతుల్యతను అందిస్తుంది. అధిక DPI మరింత ఖచ్చితమైనది కానీ నెమ్మదిగా ఉంటుంది."
       }
     ]
   },
   "pdf-booklet": {
-    "title": "PDF Booklet Creator",
-    "metaDescription": "Create booklet layouts from PDF for printing. Arrange pages for saddle-stitch binding with multiple grid options.",
+    "title": "PDF బుక్లెట్ సృష్టికర్త",
+    "metaDescription": "PDF నుండి ప్రింట్ కోసం బుక్లెట్ లేఅవుట్లను సృష్టించండి. బహుళ గ్రిడ్ ఎంపికలతో సీడ్-స్టీచ్ బైండింగ్ కోసం పేజీలను అమర్చండి.",
     "keywords": [
       "pdf booklet",
       "booklet creator",
@@ -5492,59 +5492,59 @@ export const toolContentTe: Record<string, ToolContent> = {
       "saddle stitch",
       "imposition"
     ],
-    "description": "\n      <p>PDF Booklet Creator arranges your PDF pages into booklet layouts ready for print-and-fold production. Perfect for creating brochures, zines, booklets, and saddle-stitched publications.</p>\n      <p>Choose from various grid modes (1x2, 2x2, 2x4, 4x4), paper sizes, and orientation options. The tool automatically handles page imposition for proper folding sequence.</p>\n      <p>All processing happens locally in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>PDF బుక్లెట్ సృష్టికర్త మీ PDF పేజీలను ప్రింట్-అండ్-ఫోల్డ్ ఉత్పత్తికి సిద్ధంగా ఉన్న బుక్లెట్ లేఅవుట్లలో అమర్చుతుంది. బ్రోచర్లు, జైన్లు, బుక్లెట్లు మరియు సీడ్-స్టైడ్ ప్రచురణలను సృష్టించడానికి ఇది సరైనది. </p> <p>వివిధ గ్రిడ్ రీతులు (1x2, 2x2, 2x4, 4x4), కాగితం పరిమాణాలు మరియు ఓరియంటేషన్ ఎంపికల నుండి ఎంచుకోండి. సరైన మడత క్రమానికి పేజీ విధానాన్ని సాధనం స్వయంచాలకంగా నిర్వహిస్తుంది.</p> <p>అన్ని ప్రాసెసింగ్ మీ బ్రౌజర్లో స్థానికంగా జరుగుతుంది, మీ పత్రాలు ప్రైవేట్గా ఉంటాయి.</p> ",
     "howToUse": [
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Upload the PDF document you want to convert to a booklet."
+        "description": "మీరు ఒక బుక్లెట్గా మార్చాలనుకుంటున్న PDF పత్రాన్ని అప్లోడ్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Choose Layout",
-        "description": "Select grid mode, paper size, orientation, and rotation options."
+        "title": "లేఅవుట్ ఎంచుకోండి",
+        "description": "గ్రిడ్ మోడ్, కాగితం పరిమాణం, దిశ మరియు భ్రమణ ఎంపికలను ఎంచుకోండి."
       },
       {
         "step": 3,
-        "title": "Create and Download",
-        "description": "Generate the booklet layout and download for printing."
+        "title": "సృష్టించు మరియు డౌన్లోడ్ చేసుకోండి",
+        "description": "బుక్లెట్ లేఅవుట్ను సృష్టించండి మరియు ప్రింట్ చేయడానికి డౌన్లోడ్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Brochures",
-        "description": "Create fold-ready brochures from standard PDF documents.",
+        "title": "బ్రోచర్లు",
+        "description": "ప్రామాణిక PDF పత్రాల నుండి మడత సిద్ధంగా ఉన్న బ్రోచర్లను సృష్టించండి.",
         "icon": "book-open"
       },
       {
-        "title": "Zines",
-        "description": "Produce self-published zines with proper page imposition.",
+        "title": "జిన్",
+        "description": "సరైన పేజీ విధానాన్ని కలిగి స్వీయ ప్రచురణ జైన్స్ ఉత్పత్తి.",
         "icon": "book"
       },
       {
-        "title": "Event Programs",
-        "description": "Create professional program booklets for events.",
+        "title": "కార్యక్రమ కార్యక్రమాలు",
+        "description": "కార్యక్రమాల కోసం ప్రొఫెషనల్ ప్రోగ్రామ్ బుక్లెట్లను సృష్టించండి.",
         "icon": "calendar"
       }
     ],
     "faq": [
       {
-        "question": "What is saddle-stitch binding?",
-        "answer": "Saddle-stitch is a binding method where folded sheets are nested and stapled through the fold."
+        "question": "సీడ్-స్టీచ్ బైండింగ్ అంటే ఏమిటి?",
+        "answer": "సడల్-స్టైక్ అనేది ఒక బంధన పద్ధతి, దీనిలో మడత పొరలు గుడ్లు మరియు మడత ద్వారా ముక్కలు ఉంటాయి."
       },
       {
-        "question": "Which grid mode should I use?",
-        "answer": "1x2 is standard for booklets. Use 2x2 or larger for multi-up printing to save paper."
+        "question": "నేను ఏ గ్రిడ్ మోడ్ ఉపయోగించాలి?",
+        "answer": "1x2 అనేది బుక్లెట్లకు ప్రామాణికం. కాగితాన్ని ఆదా చేయడానికి బహుళ-అప్ ప్రింటింగ్ కోసం 2x2 లేదా అంతకంటే ఎక్కువ ఉపయోగించండి."
       },
       {
-        "question": "Can I preview the layout?",
-        "answer": "Yes, the tool provides a visual preview before generating the final booklet."
+        "question": "నేను లేఅవుట్ యొక్క ప్రదర్శన వీక్షించవచ్చు?",
+        "answer": "అవును, తుది బుక్లెట్ను రూపొందించడానికి ముందు ఈ సాధనం దృశ్య ప్రివ్యూను అందిస్తుంది."
       }
     ]
   },
   "rasterize-pdf": {
-    "title": "Rasterize PDF",
-    "metaDescription": "Convert PDF pages to high-quality images. Export as PNG, JPEG, or WebP with custom DPI settings.",
+    "title": "PDF ను రేస్టరీ చేయండి",
+    "metaDescription": "PDF పేజీలను అధిక నాణ్యత గల చిత్రాలకు మార్చండి. అనుకూలీకరించిన DPI సెట్టింగులతో PNG, JPEG లేదా WebP గా ఎగుమతి చేయండి.",
     "keywords": [
       "rasterize pdf",
       "pdf to image",
@@ -5552,7 +5552,7 @@ export const toolContentTe: Record<string, ToolContent> = {
       "pdf to jpeg",
       "convert pdf pages"
     ],
-    "description": "\n      <p>Rasterize PDF converts your PDF pages into high-quality raster images. Choose from PNG, JPEG, or WebP output formats with full control over DPI and quality settings.</p>\n      <p>Perfect for creating thumbnails, social media graphics, or archiving PDF content as images. Supports page range selection and batch processing.</p>\n      <p>All processing happens locally in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>Rasterize PDF మీ PDF పేజీలను అధిక నాణ్యత గల రాస్టర్ చిత్రాలుగా మారుస్తుంది. DPI మరియు నాణ్యత సెట్టింగులపై పూర్తి నియంత్రణతో PNG, JPEG లేదా WebP అవుట్పుట్ ఫార్మాట్లలో ఎంచుకోండి.</p> <p>టమ్నిమైల్స్, సోషల్ మీడియా గ్రాఫిక్స్ లేదా PDF కంటెంట్ను చిత్రాలుగా ఆర్కైవ్ చేయడానికి అనువైనది. పేజీ శ్రేణి ఎంపిక మరియు బ్యాచ్ ప్రాసెసింగ్కు మద్దతు ఇస్తుంది.</p> <p>అన్ని ప్రాసెసింగ్లు మీ బ్రౌజర్లో స్థానికంగా జరుగుతాయి, మీ పత్రాలు ప్రైవేట్గా ఉంటాయి.</p> ",
     "howToUse": [
       {
         "step": 1,
@@ -5562,49 +5562,49 @@ export const toolContentTe: Record<string, ToolContent> = {
       {
         "step": 2,
         "title": "అవుట్పుట్ను కాన్ఫిగర్ చేయండి",
-        "description": "Select DPI, output format (PNG/JPEG/WebP), quality, and page range."
+        "description": "DPI, అవుట్పుట్ ఫార్మాట్ (PNG/JPEG/WebP), నాణ్యత, మరియు పేజీ పరిధిని ఎంచుకోండి."
       },
       {
         "step": 3,
         "title": "మార్చండి మరియు డౌన్లోడ్",
-        "description": "Process pages and download images individually or as a ZIP archive."
+        "description": "పేజీలను ప్రాసెస్ చేసి, చిత్రాలను ఒక్కొక్కటిగా లేదా జిప్ ఆర్కైవ్గా డౌన్లోడ్ చేసుకోండి."
       }
     ],
     "useCases": [
       {
         "title": "సోషల్ మీడియా",
-        "description": "Convert PDF slides to images for social media posting.",
+        "description": "సోషల్ మీడియా పోస్ట్ కోసం PDF స్లైడ్లను చిత్రాలకు మార్చండి.",
         "icon": "share-2"
       },
       {
-        "title": "Thumbnails",
-        "description": "Generate preview thumbnails for PDF documents.",
+        "title": "సూక్ష్మచిత్రాలు",
+        "description": "PDF పత్రాల కోసం ప్రివ్యూ సూక్ష్మచిత్రాలను రూపొందించండి.",
         "icon": "image"
       },
       {
         "title": "వెబ్ ప్రచురణ",
-        "description": "Convert PDF content to web-friendly image formats.",
+        "description": "PDF కంటెంట్ను వెబ్-స్నేహపూర్వక చిత్ర ఫార్మాట్లకు మార్చండి.",
         "icon": "globe"
       }
     ],
     "faq": [
       {
         "question": "నేను ఏ DPI ను ఉపయోగించాలి?",
-        "answer": "72 DPI for screen, 150 DPI for general use, 300 DPI for print quality."
+        "answer": "స్క్రీన్ కోసం 72 DPI, సాధారణ ఉపయోగం కోసం 150 DPI, ప్రింట్ నాణ్యత కోసం 300 DPI."
       },
       {
-        "question": "Which format is best?",
-        "answer": "PNG for quality/transparency, JPEG for small size, WebP for modern web use."
+        "question": "ఏ ఫార్మాట్ ఉత్తమమైనది?",
+        "answer": "నాణ్యత/పారదర్శకత కోసం PNG, చిన్న పరిమాణం కోసం JPEG, ఆధునిక వెబ్ ఉపయోగం కోసం WebP."
       },
       {
-        "question": "Can I convert specific pages?",
-        "answer": "Yes, specify page ranges like \"1-5, 8, 10-15\" to convert only those pages."
+        "question": "నేను నిర్దిష్ట పేజీలను మార్చగలనా?",
+        "answer": "అవును, ఆ పేజీలను మాత్రమే మార్చడానికి \"1-5, 8, 10-15\" వంటి పేజీ శ్రేణులను పేర్కొనండి."
       }
     ]
   },
   "markdown-to-pdf": {
-    "title": "Markdown to PDF",
-    "metaDescription": "Convert Markdown files to beautifully formatted PDF documents. Support for GitHub Flavored Markdown and syntax highlighting.",
+    "title": "PDF కు మార్క్ డౌన్",
+    "metaDescription": "మార్క్డౌన్ ఫైళ్ళను అందంగా ఫార్మాట్ చేసిన PDF పత్రాలకు మార్చండి. GitHub రుచి మార్క్డౌన్ మరియు సింటాక్స్ హైలైటింగ్కు మద్దతు.",
     "keywords": [
       "markdown to pdf",
       "md to pdf",
@@ -5612,59 +5612,59 @@ export const toolContentTe: Record<string, ToolContent> = {
       "gfm to pdf",
       "markdown converter"
     ],
-    "description": "\n      <p>Markdown to PDF converts your Markdown files into professionally styled PDF documents. Support for CommonMark and GitHub Flavored Markdown (GFM) including tables, task lists, and code blocks.</p>\n      <p>Choose from multiple themes (light, dark, GitHub) and customize page size and margins. Code blocks are syntax-highlighted for better readability.</p>\n      <p>All conversion happens locally in your browser, ensuring your content remains private.</p>\n    ",
+    "description": "<p>మార్క్డౌన్ కు PDF మీ మార్క్డౌన్ ఫైళ్ళను ప్రొఫెషనల్ శైలి PDF పత్రాలుగా మారుస్తుంది. టేబుల్స్, టాస్క్ జాబితాలు మరియు కోడ్ బ్లాక్లతో సహా కామన్మార్క్ మరియు గిట్హబ్ ఫ్లావర్డ్ మార్క్డౌన్ (జిఎఫ్ఎమ్) కు మద్దతు. </p> <p>అనేక థీమ్ల నుండి ఎంచుకోండి (కాంతి, చీకటి, గిట్హబ్) మరియు పేజీ పరిమాణం మరియు మార్జిన్లను అనుకూలీకరించండి. మంచి పఠనానికి కోడ్ బ్లాక్లు సింటాక్స్-హైలైట్ చేయబడతాయి.</p> <p>అన్ని మార్పిడులు మీ బ్రౌజర్లో స్థానికంగా జరుగుతాయి, మీ కంటెంట్ ప్రైవేట్గా ఉండాలని నిర్ధారించుకోండి.</p> ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Markdown File",
-        "description": "Upload your .md or .markdown file."
+        "title": "మార్క్డౌన్ ఫైల్ను అప్లోడ్ చేయండి",
+        "description": "మీ .md లేదా .markdown ఫైల్ను అప్లోడ్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Choose Theme",
-        "description": "Select a visual theme and configure page settings."
+        "title": "థీమ్ ఎంచుకోండి",
+        "description": "ఒక దృశ్య థీమ్ను ఎంచుకోండి మరియు పేజీ సెట్టింగులను కాన్ఫిగర్ చేయండి."
       },
       {
         "step": 3,
         "title": "మార్చండి మరియు డౌన్లోడ్",
-        "description": "Generate the styled PDF and download."
+        "description": "PDF శైలిని సృష్టించి డౌన్లోడ్ చేయండి."
       }
     ],
     "useCases": [
       {
         "title": "పత్రాలు",
-        "description": "Convert README files and docs to shareable PDFs.",
+        "description": "README ఫైళ్లు మరియు డాక్యుమెంట్లను భాగస్వామ్య PDF లకు మార్చండి.",
         "icon": "file-text"
       },
       {
-        "title": "Notes Export",
-        "description": "Export Markdown notes to PDF for printing or sharing.",
+        "title": "ఎగుమతి నోట్లు",
+        "description": "ప్రింట్ లేదా భాగస్వామ్యం చేయడానికి మార్క్డౌన్ గమనికలను PDF కి ఎగుమతి చేయండి.",
         "icon": "edit-3"
       },
       {
-        "title": "Reports",
-        "description": "Create reports from Markdown with professional styling.",
+        "title": "నివేదికలు",
+        "description": "ప్రొఫెషనల్ స్టైలింగ్ తో మార్క్డౌన్ నుండి నివేదికలు సృష్టించండి.",
         "icon": "bar-chart"
       }
     ],
     "faq": [
       {
-        "question": "Is GitHub Flavored Markdown supported?",
-        "answer": "Yes, tables, task lists, strikethrough, and other GFM features are supported."
+        "question": "GitHub రుచి మార్క్డౌన్ మద్దతు ఉందా?",
+        "answer": "అవును, పట్టికలు, టాస్క్ జాబితాలు, స్ట్రైక్ట్రూ మరియు ఇతర GFM ఫీచర్లు మద్దతు ఇవ్వబడతాయి."
       },
       {
-        "question": "Can I customize the styling?",
-        "answer": "Choose from preset themes or add custom CSS for full control."
+        "question": "నేను స్టైలింగ్ అనుకూలీకరించవచ్చు?",
+        "answer": "పూర్తి నియంత్రణ కోసం ముందుగా సెట్ చేసిన థీమ్ల నుండి ఎంచుకోండి లేదా అనుకూలీకరించిన CSS ను జోడించండి."
       },
       {
-        "question": "Are code blocks highlighted?",
-        "answer": "Yes, code blocks include syntax highlighting for common languages."
+        "question": "కోడ్ బ్లాక్స్ హైలైట్ చేయబడిందా?",
+        "answer": "అవును, సాధారణ భాషల కోసం కోడ్ బ్లాక్లు సింటాక్స్ హైలైటింగ్ను కలిగి ఉంటాయి."
       }
     ]
   },
   "email-to-pdf": {
-    "title": "Email to PDF",
-    "metaDescription": "Convert email files (.eml, .msg) to PDF documents. Preserve formatting, inline images, clickable links, and embed attachments.",
+    "title": "PDF కు ఇమెయిల్",
+    "metaDescription": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
     "keywords": [
       "email to pdf",
       "eml to pdf",
@@ -5674,67 +5674,67 @@ export const toolContentTe: Record<string, ToolContent> = {
       "save email as pdf",
       "outlook to pdf"
     ],
-    "description": "\n      <p>Email to PDF converts your email files (.eml and .msg formats) into well-formatted PDF documents. The tool preserves the email header information, body content, inline images with CID replacement, clickable links, and embeds attachments directly into the PDF.</p>\n      <p>Customize output options including page size (A4, Letter, Legal), date formatting with timezone support, and whether to include CC/BCC fields and attachment information.</p>\n      <p>All conversion happens locally in your browser, ensuring your emails remain private and secure.</p>\n    ",
+    "description": "<p>Email to PDF మీ ఇమెయిల్ ఫైళ్ళను (.eml మరియు .msg ఫార్మాట్లలో) బాగా ఫార్మాట్ చేసిన PDF పత్రాలుగా మారుస్తుంది. ఈ సాధనం ఇమెయిల్ శీర్షిక సమాచారం, శరీర కంటెంట్, CID భర్తీతో ఇన్లైన్ చిత్రాలు, క్లిక్ చేయగల లింకులు మరియు అటాచ్మెంట్లను నేరుగా PDF లోకి పొందుపరుస్తుంది. </p> <p>పేజీ పరిమాణం (A4, లెటర్, లీగల్), టైమ్ జోన్ మద్దతుతో తేదీ ఫార్మాటింగ్ మరియు CC / BCC ఫీల్డ్లు మరియు అటాచ్మెంట్ సమాచారాన్ని చేర్చాలా అనే దానితో సహా అవుట్పుట్ ఎంపికలను అనుకూలీకరించండి. </p> <p>అన్ని మార్పిడులు మీ బ్రౌజర్లో స్థానికంగా జరుగుతాయి, మీ ఇమెయిల్లు ప్రైవేట్ మరియు సురక్షితంగా ఉంటాయి. </p> ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Email File",
-        "description": "Upload your .eml or .msg email file."
+        "title": "ఇమెయిల్ ఫైల్ను అప్లోడ్ చేయండి",
+        "description": "మీ . eml లేదా . msg ఇమెయిల్ ఫైల్ను అప్లోడ్ చేయండి."
       },
       {
         "step": 2,
         "title": "ఎంపికలను కాన్ఫిగర్ చేయండి",
-        "description": "Set page size, date format, timezone, and choose which fields to include."
+        "description": "పేజీ పరిమాణం, తేదీ ఆకృతి, సమయ మండలిని సెట్ చేసి, ఏ ఫీల్డ్లను చేర్చాలో ఎంచుకోండి."
       },
       {
         "step": 3,
         "title": "మార్చండి మరియు డౌన్లోడ్",
-        "description": "Convert to PDF with embedded attachments and download the result."
+        "description": "పొందుపరిచిన అటాచ్మెంట్లతో PDF కి మార్చండి మరియు ఫలితాన్ని డౌన్లోడ్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Legal Records",
-        "description": "Archive important emails as PDF with embedded attachments for legal documentation.",
+        "title": "చట్టపరమైన రికార్డులు",
+        "description": "చట్టపరమైన డాక్యుమెంటేషన్ కోసం అంతర్నిర్మిత అటాచ్మెంట్లతో ముఖ్యమైన ఇమెయిల్లను PDF గా ఆర్కైవ్ చేయండి.",
         "icon": "scale"
       },
       {
-        "title": "Business Archives",
-        "description": "Convert business correspondence to PDF for long-term record keeping.",
+        "title": "వ్యాపార ఆర్కైవ్లు",
+        "description": "దీర్ఘకాలిక రికార్డు నిర్వహణ కోసం వ్యాపార అక్షరాలను PDF కి మార్చండి.",
         "icon": "briefcase"
       },
       {
-        "title": "Evidence Preservation",
-        "description": "Save email evidence with inline images and attachments in a non-editable PDF format.",
+        "title": "సాక్ష్యాలు",
+        "description": "ఇన్లైన్ చిత్రాలు మరియు అటాచ్మెంట్లతో పాటు ఇమెయిల్ ఆధారాలను సవరించలేని PDF ఫార్మాట్లో సేవ్ చేయండి.",
         "icon": "shield"
       }
     ],
     "faq": [
       {
-        "question": "What email formats are supported?",
-        "answer": "Both .eml (RFC 822) and .msg (Microsoft Outlook) files are fully supported."
+        "question": "ఏ ఇమెయిల్ ఫార్మాట్లకు మద్దతు ఉంది?",
+        "answer": ". eml (RFC 822) మరియు . msg (Microsoft Outlook) ఫైళ్ళకు పూర్తిగా మద్దతు ఉంది."
       },
       {
-        "question": "Are attachments included?",
-        "answer": "Yes! Attachments are embedded directly into the PDF file. You can extract them from the PDF using a compatible PDF reader."
+        "question": "జోడింపులు చేర్చబడ్డాయి?",
+        "answer": "అవును! అనుబంధాలు నేరుగా PDF ఫైల్ లోకి పొందుపరచబడ్డాయి. మీరు వాటిని అనుకూలమైన PDF రీడర్ ఉపయోగించి PDF నుండి తీయవచ్చు."
       },
       {
-        "question": "Are inline images displayed?",
-        "answer": "Yes, inline images referenced via CID (Content-ID) are automatically converted to base64 data URIs and displayed in the PDF."
+        "question": "ఇన్లైన్ చిత్రాలు ప్రదర్శించబడతాయా?",
+        "answer": "అవును, CID (Content-ID) ద్వారా సూచించబడిన ఇన్లైన్ చిత్రాలు ఆటోమేటిక్గా base64 డేటా URIs గా మార్చబడతాయి మరియు PDF లో ప్రదర్శించబడతాయి."
       },
       {
-        "question": "Are links clickable?",
-        "answer": "Yes, all HTML links (<a> tags) and URLs in plain text emails are converted to clickable links in the PDF."
+        "question": "లింకులు క్లిక్ చేయగలవా?",
+        "answer": "అవును, సాధారణ వచన ఇమెయిల్లోని అన్ని HTML లింకులు (<a> ట్యాగ్లు) మరియు URL లు PDF లో క్లిక్ చేయగల లింకులుగా మార్చబడతాయి."
       },
       {
-        "question": "Is the email formatting preserved?",
-        "answer": "Yes, HTML emails maintain their formatting as closely as possible, including styles, images, and links."
+        "question": "ఈమెయిల్ ఫార్మాటింగ్ కాపాడబడిందా?",
+        "answer": "అవును, HTML ఇమెయిల్లు శైలులు, చిత్రాలు, లింకులు సహా వాటి ఫార్మాటింగ్ను సాధ్యమైనంత దగ్గరగా ఉంచుతాయి."
       }
     ]
   },
   "cbz-to-pdf": {
-    "title": "CBZ to PDF",
-    "metaDescription": "Convert comic book archives (CBZ) to PDF. Preserve image order and quality for digital comics.",
+    "title": "CBZ నుండి PDF కు",
+    "metaDescription": "కామిక్ బుక్ ఆర్కైవ్స్ (CBZ) ను PDF కి మార్చండి. డిజిటల్ కామిక్ల కోసం చిత్ర క్రమమును మరియు నాణ్యతను కాపాడుకోండి.",
     "keywords": [
       "cbz to pdf",
       "comic to pdf",
@@ -5742,59 +5742,59 @@ export const toolContentTe: Record<string, ToolContent> = {
       "comic book converter",
       "cbz converter"
     ],
-    "description": "\n      <p>CBZ to PDF converts Comic Book Archive files into PDF documents. The tool extracts all images from the CBZ archive and compiles them into a PDF while maintaining the correct reading order.</p>\n      <p>Choose from various page size options including original image dimensions or standardized comic book sizes. Perfect for reading comics on devices that support PDF but not CBZ.</p>\n      <p>All conversion happens locally in your browser, ensuring your comics remain private.</p>\n    ",
+    "description": "<p>CBZ to PDF కామిక్ బుక్ ఆర్కైవ్ ఫైళ్ళను PDF డాక్యుమెంట్లుగా మారుస్తుంది. ఈ సాధనం CBZ ఆర్కైవ్ నుండి అన్ని చిత్రాలను వెలికితీస్తుంది మరియు సరైన పఠన క్రమాన్ని నిర్వహించేటప్పుడు వాటిని PDF గా సంకలనం చేస్తుంది. </p> <p>ఒరిజినల్ ఇమేజ్ డైమెన్షన్ లేదా ప్రామాణిక కామిక్ బుక్ పరిమాణాలు సహా వివిధ పేజీ పరిమాణ ఎంపికల నుండి ఎంచుకోండి. PDF కి మద్దతు ఇచ్చే పరికరాల్లో కామిక్లను చదవడానికి ఖచ్చితంగా ఉంది కాని CBZ కాదు.</p> <p>అన్ని మార్పిడులు మీ బ్రౌజర్లో స్థానికంగా జరుగుతాయి, మీ కామిక్లు ప్రైవేట్గా ఉండాలని నిర్ధారించుకోండి.</p> ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload CBZ File",
-        "description": "Upload your .cbz comic book archive file."
+        "title": "CBZ ఫైల్ను అప్లోడ్ చేయండి",
+        "description": "మీ . cbz కామిక్ పుస్తక ఆర్కైవ్ ఫైల్ అప్లోడ్."
       },
       {
         "step": 2,
-        "title": "Select Options",
-        "description": "Choose page size and image quality settings."
+        "title": "ఎంపికలను ఎంచుకోండి",
+        "description": "పేజీ పరిమాణం మరియు చిత్ర నాణ్యత సెట్టింగులను ఎంచుకోండి."
       },
       {
         "step": 3,
         "title": "మార్చండి మరియు డౌన్లోడ్",
-        "description": "Convert to PDF and download your comic."
+        "description": "PDF కి మార్చండి మరియు మీ కామిక్ డౌన్లోడ్ చేసుకోండి."
       }
     ],
     "useCases": [
       {
-        "title": "E-Reader Compatibility",
-        "description": "Convert CBZ to PDF for e-readers that only support PDF.",
+        "title": "ఇ-రీడర్ అనుకూలత",
+        "description": "PDF కి మాత్రమే మద్దతు ఇచ్చే ఇ-రీడర్ల కోసం CBZ ను PDF కి మార్చండి.",
         "icon": "book"
       },
       {
-        "title": "Comic Archives",
-        "description": "Create PDF archives of your digital comic collection.",
+        "title": "కామిక్ ఆర్కైవ్స్",
+        "description": "మీ డిజిటల్ కామిక్ సేకరణ యొక్క PDF ఆర్కైవ్లను సృష్టించండి.",
         "icon": "archive"
       },
       {
         "title": "ముద్రణ తయారీ",
-        "description": "Convert digital comics to PDF for printing.",
+        "description": "ప్రింట్ కోసం డిజిటల్ కామిక్స్ను PDF గా మార్చండి.",
         "icon": "printer"
       }
     ],
     "faq": [
       {
-        "question": "What is CBZ format?",
-        "answer": "CBZ is a ZIP archive containing comic book pages as image files, renamed with .cbz extension."
+        "question": "CBZ ఫార్మాట్ అంటే ఏమిటి?",
+        "answer": "CBZ అనేది ఒక ZIP ఆర్కైవ్, ఇది కామిక్ పుస్తకాల పేజీలను చిత్ర ఫైళ్ళగా కలిగి ఉంటుంది, దీనికి .cbz పొడిగింపుగా పేరు మార్చబడింది."
       },
       {
-        "question": "Is image quality preserved?",
-        "answer": "Yes, images are embedded at their original quality in the PDF."
+        "question": "చిత్ర నాణ్యత కాపాడుకుందా?",
+        "answer": "అవును, చిత్రాలు PDF లో వాటి అసలు నాణ్యతతో పొందుపరచబడ్డాయి."
       },
       {
-        "question": "Are nested folders supported?",
-        "answer": "Yes, images from all folders within the archive are extracted and sorted."
+        "question": "గూడులో ఉన్న ఫోల్డర్లకు మద్దతు ఉందా?",
+        "answer": "అవును, ఆర్కైవ్లోని అన్ని ఫోల్డర్ల నుండి చిత్రాలు సేకరించబడతాయి మరియు క్రమబద్ధీకరించబడతాయి."
       }
     ]
   },
   "pdf-to-pdfa": {
-    "title": "PDF to PDF/A",
-    "metaDescription": "Convert PDF to PDF/A archival format. Ensure long-term document preservation with ISO standards.",
+    "title": "PDF నుండి PDF/A కు",
+    "metaDescription": "PDF ను PDF/A ఆర్కైవ్ ఫార్మాట్ గా మార్చండి. ISO ప్రమాణాలతో పత్రాలను దీర్ఘకాలికంగా భద్రపరచడం.",
     "keywords": [
       "pdf to pdfa",
       "pdfa converter",
@@ -5807,54 +5807,54 @@ export const toolContentTe: Record<string, ToolContent> = {
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Upload the PDF you want to convert to PDF/A."
+        "description": "మీరు PDF/A గా మార్చాలనుకుంటున్న PDF ని అప్లోడ్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Select PDF/A Level",
-        "description": "Choose PDF/A-1b, PDF/A-2b, or PDF/A-3b conformance level."
+        "title": "PDF/A స్థాయిని ఎంచుకోండి",
+        "description": "PDF/A-1b, PDF/A-2b లేదా PDF/A-3b అనుకూలత స్థాయిని ఎంచుకోండి."
       },
       {
         "step": 3,
         "title": "మార్చండి మరియు డౌన్లోడ్",
-        "description": "Convert to PDF/A and download the archival document."
+        "description": "PDF/A కు మార్చండి మరియు ఆర్కైవ్ డాక్యుమెంట్ను డౌన్లోడ్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Legal Archives",
-        "description": "Convert legal documents to PDF/A for court-admissible long-term storage.",
+        "title": "న్యాయ ఆర్కైవ్లు",
+        "description": "న్యాయపరమైన పత్రాలను PDF/A గా మార్చండి.",
         "icon": "scale"
       },
       {
-        "title": "Government Records",
-        "description": "Comply with government archival requirements using PDF/A.",
+        "title": "ప్రభుత్వ రికార్డులు",
+        "description": "PDF/A ను ఉపయోగించి ప్రభుత్వ ఆర్కైవ్ అవసరాలను పాటించండి.",
         "icon": "building"
       },
       {
-        "title": "Business Archives",
-        "description": "Preserve important business documents for future accessibility.",
+        "title": "వ్యాపార ఆర్కైవ్లు",
+        "description": "భవిష్యత్తులో అందుబాటులో ఉండేలా ముఖ్యమైన వ్యాపార పత్రాలను భద్రపరచడం.",
         "icon": "archive"
       }
     ],
     "faq": [
       {
-        "question": "Which PDF/A level should I use?",
-        "answer": "PDF/A-2b is recommended for most uses. Use 1b for maximum compatibility or 3b if you need embedded files."
+        "question": "నేను ఏ స్థాయి PDF/A ను ఉపయోగించాలి?",
+        "answer": "PDF/A-2b చాలా ఉపయోగాలకు సిఫార్సు చేయబడింది. గరిష్ట అనుకూలత కోసం 1b లేదా 3b ను ఉపయోగించండి మీకు పొందుపరిచిన ఫైల్లు అవసరమైతే."
       },
       {
-        "question": "What makes PDF/A different?",
-        "answer": "PDF/A embeds fonts, disables encryption, and ensures all elements are self-contained for future viewing."
+        "question": "PDF/A ను వేరుచేసేది ఏమిటి?",
+        "answer": "PDF/A ఫాంట్లను పొందుపరుస్తుంది, గుప్తీకరణను నిలిపివేస్తుంది మరియు భవిష్యత్తులో వీక్షించడానికి అన్ని అంశాలు స్వయం సమృద్ధిగా ఉండేలా చూస్తుంది."
       },
       {
-        "question": "Can I convert back from PDF/A?",
-        "answer": "PDF/A files are standard PDFs and can be opened normally. The archival features add restrictions, not limitations."
+        "question": "నేను PDF/A నుండి తిరిగి మార్చగలనా?",
+        "answer": "PDF/A ఫైళ్లు ప్రామాణిక PDF ఫైళ్లు మరియు సాధారణంగా తెరవవచ్చు. ఆర్కైవ్ ఫీచర్లు పరిమితులను కాకుండా పరిమితులను జోడిస్తాయి."
       }
     ]
   },
   "font-to-outline": {
-    "title": "Font to Outline",
-    "metaDescription": "Remove font dependencies from PDF documents by converting pages to high-quality images. Ensures compatibility across all systems.",
+    "title": "ఫాంట్ నుండి ఆకారం",
+    "metaDescription": "PDF పత్రాల నుండి ఫాంట్ ఆధారపడదలను తొలగించండి. పేజీలను అధిక నాణ్యత గల చిత్రాలకు మార్చడం ద్వారా. అన్ని వ్యవస్థలలో అనుకూలతను నిర్ధారిస్తుంది.",
     "keywords": [
       "font to outline",
       "outline fonts",
@@ -5863,71 +5863,71 @@ export const toolContentTe: Record<string, ToolContent> = {
       "flatten pdf fonts",
       "pdf font removal"
     ],
-    "description": "\n      <p>Font to Outline removes all font dependencies from your PDF by converting each page into high-quality rasterized content. This ensures your document looks exactly the same on any system, even if the original fonts are not installed.</p>\n      <p>The tool renders each page at your chosen DPI (150-600), removing embedded fonts while preserving the exact visual appearance. Optionally, you can add an invisible text layer to maintain searchability.</p>\n      <p>This is essential for print preparation, cross-platform compatibility, and avoiding font licensing issues when sharing documents. All processing happens locally in your browser.</p>\n    ",
+    "description": "<p>ఫాంట్ టు అవుట్లైన్ మీ PDF నుండి ప్రతి పేజీని అధిక-నాణ్యత గల రాస్టెరిజ్డ్ కంటెంట్గా మార్చడం ద్వారా అన్ని ఫాంట్ డిపెండెన్సీలను తొలగిస్తుంది. ఇది అసలు ఫాంట్లు ఇన్స్టాల్ చేయకపోయినా మీ డాక్యుమెంట్ ఏ సిస్టమ్లోనైనా సరిగ్గా ఒకేలా కనిపిస్తుందని నిర్ధారిస్తుంది. </p> <p>ఈ సాధనం మీరు ఎంచుకున్న DPI (150-600) వద్ద ప్రతి పేజీని ప్రదర్శిస్తుంది, ఖచ్చితమైన దృశ్యమాన రూపాన్ని కాపాడేటప్పుడు పొందుపరిచిన ఫాంట్లను తొలగిస్తుంది. శోధన సామర్థ్యాన్ని కాపాడటానికి మీరు ఐచ్ఛికంగా కనిపించని టెక్స్ట్ పొరను జోడించవచ్చు. </p> <p><p>ఇది ప్రింట్ తయారీ, క్రాస్ ప్లాట్ఫాం అనుకూలత మరియు పత్రాలను పంచుకునేటప్పుడు ఫాంట్ లైసెన్స్ సమస్యలను నివారించడానికి చాలా అవసరం. అన్ని ప్రాసెసింగ్ మీ బ్రౌజర్లో స్థానికంగా జరుగుతుంది. </p> ",
     "howToUse": [
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Upload the PDF containing fonts you want to remove."
+        "description": "మీరు తొలగించాలనుకుంటున్న ఫాంట్లను కలిగి ఉన్న PDF ని అప్లోడ్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Configure Quality",
-        "description": "Choose DPI (300 recommended for print, 150 for screen). Enable searchable text if needed."
+        "title": "నాణ్యతను కాన్ఫిగర్ చేయండి",
+        "description": "DPI (300 ప్రింట్ కోసం సిఫార్సు చేయబడింది, 150 స్క్రీన్ కోసం). అవసరమైతే శోధించదగిన టెక్స్ట్ను ప్రారంభించండి."
       },
       {
         "step": 3,
         "title": "మార్చండి మరియు డౌన్లోడ్",
-        "description": "Process the file and download the font-independent PDF."
+        "description": "ఫైల్ను ప్రాసెస్ చేసి ఫాంట్-నిర్విత PDF ను డౌన్లోడ్ చేయండి."
       }
     ],
     "useCases": [
       {
         "title": "ముద్రణ తయారీ",
-        "description": "Eliminate font issues at commercial printers by removing all font dependencies.",
+        "description": "అన్ని ఫాంట్ ఆధారపడదలను తొలగించడం ద్వారా వాణిజ్య ప్రింటర్లలో ఫాంట్ సమస్యలను తొలగించండి.",
         "icon": "printer"
       },
       {
         "title": "వేదికల మధ్య భాగస్వామ్యం",
-        "description": "Share documents that look identical on any device, regardless of installed fonts.",
+        "description": "ఇన్స్టాల్ చేసిన ఫాంట్లు ఉన్నా, ఏ పరికరంలోనైనా ఒకేలా కనిపించే పత్రాలను భాగస్వామ్యం చేయండి.",
         "icon": "share-2"
       },
       {
-        "title": "Font Licensing",
-        "description": "Remove embedded fonts to avoid licensing concerns when distributing documents.",
+        "title": "ఫాంట్ లైసెన్స్",
+        "description": "పత్రాలను పంపిణీ చేసేటప్పుడు లైసెన్స్ సమస్యలను నివారించడానికి ఎంబెడెడ్ ఫాంట్లను తొలగించండి.",
         "icon": "shield"
       }
     ],
     "faq": [
       {
-        "question": "How does this work?",
-        "answer": "The tool renders each page at high resolution (your chosen DPI) and recreates the PDF from these images, removing all font dependencies while preserving visual appearance."
+        "question": "ఇది ఎలా పనిచేస్తుంది?",
+        "answer": "ఈ సాధనం ప్రతి పేజీని అధిక రిజల్యూషన్ (మీ ఎంపిక చేసిన DPI) లో ప్రదర్శిస్తుంది మరియు ఈ చిత్రాల నుండి PDF ను పునరుత్పత్తి చేస్తుంది, అన్ని ఫాంట్ ఆధారపడదగిన వాటిని తొలగిస్తుంది మరియు దృశ్య రూపాన్ని కాపాడుతుంది."
       },
       {
-        "question": "Can I still select text after conversion?",
-        "answer": "By default, no. Text becomes part of the image. However, you can enable \"Preserve searchable text\" to add an invisible text layer for search and copy functionality."
+        "question": "నేను ఇప్పటికీ మార్పిడి తర్వాత టెక్స్ట్ ఎంచుకోవచ్చు?",
+        "answer": "డిఫాల్ట్గా, లేదు. టెక్స్ట్ చిత్రం యొక్క భాగంగా మారుతుంది. అయితే, శోధన మరియు కాపీ కార్యాచరణ కోసం కనిపించని టెక్స్ట్ పొరను జోడించడానికి \"శోధించదగిన టెక్స్ట్ను సేవ్ చేయండి\" ను మీరు ప్రారంభించవచ్చు."
       },
       {
         "question": "నేను ఏ DPI ను ఉపయోగించాలి?",
-        "answer": "300 DPI is recommended for print-quality output. 150 DPI is sufficient for screen viewing and produces smaller files. 600 DPI is for highest quality but creates large files."
+        "answer": "300 DPI ప్రింట్ నాణ్యత అవుట్పుట్ కోసం సిఫార్సు చేయబడింది. 150 DPI స్క్రీన్ వీక్షణకు సరిపోతుంది మరియు చిన్న ఫైళ్ళను ఉత్పత్తి చేస్తుంది. 600 DPI అత్యధిక నాణ్యత కోసం కానీ పెద్ద ఫైళ్ళను సృష్టిస్తుంది."
       },
       {
-        "question": "Will file size increase?",
-        "answer": "File size depends on DPI and content. 150 DPI usually produces smaller files, 300 DPI may increase size, 600 DPI significantly increases size. Compression is automatically applied."
+        "question": "ఫైల్ పరిమాణం పెరుగుతుందా?",
+        "answer": "ఫైలు పరిమాణం DPI మరియు కంటెంట్ మీద ఆధారపడి ఉంటుంది. 150 DPI సాధారణంగా చిన్న ఫైళ్ళను ఉత్పత్తి చేస్తుంది, 300 DPI పరిమాణాన్ని పెంచుతుంది, 600 DPI పరిమాణాన్ని గణనీయంగా పెంచుతుంది. కంప్రెషన్ స్వయంచాలకంగా వర్తించబడుతుంది."
       },
       {
         "question": "ఇది తిరగగలదా?",
-        "answer": "No, font data is permanently removed. Keep a backup of the original if you need editable text with the original fonts."
+        "answer": "లేదు, ఫాంట్ డేటా శాశ్వతంగా తొలగించబడుతుంది. అసలు ఫాంట్లతో సవరించదగిన టెక్స్ట్ అవసరమైతే అసలు ఫాంట్ యొక్క బ్యాకప్ను ఉంచండి."
       },
       {
-        "question": "What about vector graphics?",
-        "answer": "Vector graphics (shapes, lines) in the original PDF will be converted to raster along with text. The visual quality is preserved at your chosen DPI."
+        "question": "వెక్టర్ గ్రాఫిక్స్ గురించి ఏమిటి?",
+        "answer": "అసలు PDF లోని వెక్టర్ గ్రాఫిక్స్ (రూపాలు, పంక్తులు) టెక్స్ట్తో పాటు రాస్టర్గా మార్చబడతాయి. మీరు ఎంచుకున్న DPI వద్ద దృశ్య నాణ్యత కాపాడుతుంది."
       }
     ]
   },
   "extract-tables": {
-    "title": "Extract Tables from PDF",
-    "metaDescription": "Detect and extract tables from PDF documents. Export to JSON, Markdown, or CSV formats.",
+    "title": "PDF నుండి పట్టికలను సేకరించండి",
+    "metaDescription": "PDF పత్రాల నుండి పట్టికలను గుర్తించండి మరియు వెలికితీయండి. JSON, Markdown లేదా CSV ఫార్మాట్లకు ఎగుమతి చేయండి.",
     "keywords": [
       "extract tables",
       "pdf table extraction",
@@ -5935,59 +5935,59 @@ export const toolContentTe: Record<string, ToolContent> = {
       "pdf to excel",
       "table detection"
     ],
-    "description": "\n      <p>Extract Tables from PDF detects tabular data within your PDF documents and exports it in structured formats. Choose JSON for data integration, Markdown for documentation, or CSV for spreadsheets.</p>\n      <p>The tool uses intelligent detection algorithms to identify table structures even in complex documents. Specify page ranges and adjust detection parameters for optimal results.</p>\n      <p>All processing happens locally in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>PDF నుండి పట్టికలను సేకరించండి మీ PDF పత్రాలలో పట్టిక డేటాను గుర్తించి, నిర్మాణాత్మక ఫార్మాట్లలో ఎగుమతి చేస్తుంది. డేటా ఇంటిగ్రేషన్ కోసం JSON, డాక్యుమెంటేషన్ కోసం మార్క్డౌన్ లేదా స్ప్రెడ్షీట్ కోసం CSV ని ఎంచుకోండి. <p> <p>సంక్లిష్ట పత్రాలలో కూడా పట్టిక నిర్మాణాలను గుర్తించడానికి సాధనం తెలివైన గుర్తింపు అల్గోరిథంలను ఉపయోగిస్తుంది. సరైన ఫలితాల కోసం పేజీ పరిధులను పేర్కొనండి మరియు గుర్తింపు పారామితులను సర్దుబాటు చేయండి. </p> <p>అన్ని ప్రాసెసింగ్లు మీ బ్రౌజర్లో స్థానికంగా జరుగుతాయి, మీ పత్రాలు ప్రైవేట్గా ఉంటాయి. </p> ",
     "howToUse": [
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Upload the PDF containing tables you want to extract."
+        "description": "మీరు తీయాలనుకుంటున్న పట్టికలు ఉన్న PDF ని అప్లోడ్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Configure Detection",
-        "description": "Set page range and minimum column/row thresholds."
+        "title": "డిటెక్షన్ను కాన్ఫిగర్ చేయండి",
+        "description": "పేజీ పరిధి మరియు కనీస కాలమ్/వరుసలు ప్రవేశాన్ని సెట్ చేయండి."
       },
       {
         "step": 3,
-        "title": "Export and Download",
-        "description": "Choose output format (JSON/Markdown/CSV) and download."
+        "title": "ఎగుమతి మరియు డౌన్లోడ్",
+        "description": "అవుట్పుట్ ఫార్మాట్ (JSON/Markdown/CSV) ఎంచుకుని డౌన్లోడ్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Data Analysis",
-        "description": "Extract table data for analysis in spreadsheets or databases.",
+        "title": "డేటా విశ్లేషణ",
+        "description": "స్ప్రెడ్షీట్లు లేదా డేటాబేస్లలో విశ్లేషణ కోసం పట్టిక డేటాను సేకరించండి.",
         "icon": "bar-chart"
       },
       {
-        "title": "Report Processing",
-        "description": "Pull tables from PDF reports for further processing.",
+        "title": "నివేదికల ప్రాసెసింగ్",
+        "description": "మరింత ప్రాసెసింగ్ కోసం PDF నివేదికల నుండి పట్టికలను లాగండి.",
         "icon": "file-text"
       },
       {
         "title": "పత్రాలు",
-        "description": "Convert PDF tables to Markdown for technical documentation.",
+        "description": "సాంకేతిక డాక్యుమెంటేషన్ కోసం PDF పట్టికలను మార్క్డౌన్కు మార్చండి.",
         "icon": "book"
       }
     ],
     "faq": [
       {
-        "question": "Can it detect complex tables?",
-        "answer": "The tool works best with simple grid tables. Complex merged cells may require manual adjustment."
+        "question": "ఇది సంక్లిష్ట పట్టికలను గుర్తించగలదా?",
+        "answer": "ఈ సాధనం సాధారణ గ్రిడ్ పట్టికలతో ఉత్తమంగా పనిచేస్తుంది. సంక్లిష్టమైన విలీన కణాలు మానవీయ సర్దుబాటు అవసరం కావచ్చు."
       },
       {
-        "question": "What if no tables are found?",
-        "answer": "Try adjusting the minimum columns/rows threshold or check if the PDF contains actual table structures."
+        "question": "ఏ పట్టికలు దొరకకపోతే?",
+        "answer": "కనీస కాలమ్లు/వరుసల ప్రవేశాన్ని సర్దుబాటు చేయడానికి ప్రయత్నించండి లేదా PDF లో వాస్తవ పట్టిక నిర్మాణాలు ఉన్నాయా అని తనిఖీ చేయండి."
       },
       {
-        "question": "Can I extract from specific pages?",
-        "answer": "Yes, specify a page range to limit extraction to certain pages."
+        "question": "నేను నిర్దిష్ట పేజీల నుండి సేకరించవచ్చు?",
+        "answer": "అవును, కొన్ని పేజీలకు మాత్రమే సేకరించడానికి పేజీ పరిధిని పేర్కొనండి."
       }
     ]
   },
   "ocg-manager": {
-    "title": "PDF Layer Manager (OCG)",
-    "metaDescription": "Manage PDF layers (Optional Content Groups). View, toggle, add, delete, and rename layers in your PDF documents.",
+    "title": "PDF లేయర్ మేనేజర్ (OCG)",
+    "metaDescription": "PDF పొరలను నిర్వహించండి (ఐచ్ఛిక కంటెంట్ సమూహాలు). మీ PDF పత్రాలలోని పొరలను వీక్షించండి, మార్చండి, జోడించండి, తొలగించండి మరియు పేరు మార్చండి.",
     "keywords": [
       "pdf layers",
       "ocg manager",
@@ -5995,64 +5995,64 @@ export const toolContentTe: Record<string, ToolContent> = {
       "pdf layer visibility",
       "manage pdf layers"
     ],
-    "description": "\n      <p>PDF Layer Manager allows you to view and manage Optional Content Groups (OCG) in your PDF documents. OCG layers are used in technical drawings, maps, and complex documents to organize content into toggleable layers.</p>\n      <p>View all layers in your PDF, toggle their visibility, add new layers, delete unwanted ones, or rename existing layers. This tool is essential for working with layered PDFs like architectural plans, CAD exports, and print-ready documents.</p>\n      <p>All processing happens locally in your browser, ensuring your documents remain private and secure.</p>\n    ",
+    "description": "<p>PDF లేయర్ మేనేజర్ మీ PDF పత్రాలలో ఐచ్ఛిక కంటెంట్ సమూహాలను (OCG లు) వీక్షించడానికి మరియు నిర్వహించడానికి మిమ్మల్ని అనుమతిస్తుంది. మీ PDF లోని అన్ని పొరలను మార్చగల పొరలుగా నిర్వహించడానికి OCG పొరలను సాంకేతిక డ్రాయింగ్లు, మ్యాప్లు మరియు సంక్లిష్ట పత్రాలలో ఉపయోగిస్తారు. </p> <p>మీ PDF లోని అన్ని పొరలను వీక్షించండి, వాటి దృశ్యమానతను మార్చండి, కొత్త పొరలను జోడించండి, అవాంఛిత వాటిని తొలగించండి లేదా ఇప్పటికే ఉన్న పొరలను పేరు మార్చండి. నిర్మాణ ప్రణాళికలు, CAD ఎగుమతులు మరియు ముద్రణ-సంతేత పత్రాలు వంటి పొరలతో పనిచేసేందుకు ఈ సాధనం చాలా అవసరం. </p> <p><p>అన్ని ప్రాసెసింగ్లు మీ బ్రౌజర్లో స్థానికంగా జరుగుతాయి, మీ పత్రాలు ప్రైవేట్ మరియు సురక్షితంగా ఉంటాయి. </p> ",
     "howToUse": [
       {
         "step": 1,
         "title": "మీ PDF ని అప్లోడ్ చేయండి",
-        "description": "Upload a PDF file that contains layers (OCG) or one you want to add layers to."
+        "description": "పొరలను (OCG) కలిగి ఉన్న PDF ఫైల్ను అప్లోడ్ చేయండి లేదా మీరు పొరలను జోడించాలనుకుంటున్న ఫైల్ను."
       },
       {
         "step": 2,
-        "title": "View Layers",
-        "description": "The tool automatically lists all layers found in the document with their visibility status."
+        "title": "వీక్షణ పొరలు",
+        "description": "ఈ సాధనం ఆటోమేటిక్గా పత్రంలో కనిపించే అన్ని పొరలను వాటి దృశ్యమాన స్థితితో జాబితా చేస్తుంది."
       },
       {
         "step": 3,
-        "title": "Manage Layers",
-        "description": "Toggle layer visibility, rename layers, add new ones, or delete unwanted layers."
+        "title": "పొరలను నిర్వహించండి",
+        "description": "లేయర్ వీక్షణను మార్చండి, లేయర్స్ పేరు మార్చండి, కొత్త వాటిని జోడించండి లేదా అవాంఛిత లేయర్లను తొలగించండి."
       },
       {
         "step": 4,
         "title": "సేవ్ చేసి డౌన్లోడ్ చేసుకోండి",
-        "description": "Download your modified PDF with the layer changes applied."
+        "description": "మీ సవరించిన PDF ను వర్గం మార్పులు వర్తించడంతో డౌన్లోడ్ చేయండి."
       }
     ],
     "useCases": [
       {
         "title": "సాంకేతిక చిత్రాలు",
-        "description": "Manage layers in CAD exports to show/hide dimensions, annotations, or different views.",
+        "description": "CAD ఎగుమతుల్లో పొరలను నిర్వహించడం, పరిమాణాలు, వ్యాఖ్యలు లేదా విభిన్న వీక్షణలను చూపించడానికి/దాచుకోవడానికి.",
         "icon": "ruler"
       },
       {
-        "title": "Map Editing",
-        "description": "Toggle different map layers like topography, roads, and labels for custom map prints.",
+        "title": "మ్యాప్ ఎడిటింగ్",
+        "description": "కస్టమ్ మ్యాప్ ప్రింట్ల కోసం స్థల శాస్త్రం, రహదారులు, మరియు లేబుల్స్ వంటి వివిధ మ్యాప్ పొరలను మార్చండి.",
         "icon": "map"
       },
       {
         "title": "ముద్రణ తయారీ",
-        "description": "Prepare layered PDFs for printing by toggling appropriate layers for different versions.",
+        "description": "వివిధ సంస్కరణలకు తగిన పొరలను మార్చడం ద్వారా ముద్రణ కోసం పొరలుగా ఉన్న PDF లను సిద్ధం చేయండి.",
         "icon": "printer"
       }
     ],
     "faq": [
       {
-        "question": "What are PDF layers (OCG)?",
-        "answer": "Optional Content Groups (OCG) are layers in a PDF that can be shown or hidden. They are commonly used in CAD drawings, maps, and complex documents."
+        "question": "PDF పొరలు (OCG) అంటే ఏమిటి?",
+        "answer": "ఐచ్ఛిక కంటెంట్ సమూహాలు (OCG) అనేది PDF లోని పొరలు, వీటిని ప్రదర్శించవచ్చు లేదా దాచవచ్చు. ఇవి సాధారణంగా CAD డ్రాయింగ్లు, మ్యాప్లు మరియు సంక్లిష్ట పత్రాలలో ఉపయోగించబడతాయి."
       },
       {
-        "question": "Why does my PDF show no layers?",
-        "answer": "Not all PDFs contain layers. Layers are typically added during PDF creation from design software or CAD applications."
+        "question": "నా PDF లో పొరలు ఎందుకు లేవు?",
+        "answer": "అన్ని PDF లు పొరలను కలిగి ఉండవు. డిజైన్ సాఫ్ట్వేర్ లేదా CAD అనువర్తనాల నుండి PDF సృష్టి సమయంలో పొరలు సాధారణంగా జోడించబడతాయి."
       },
       {
-        "question": "Will layer changes affect the original content?",
-        "answer": "Layer visibility changes only affect what is displayed or printed. The actual content remains in the document."
+        "question": "పొరల మార్పులు అసలు కంటెంట్ను ప్రభావితం చేస్తాయా?",
+        "answer": "లేయర్ దృశ్యమానతలో మార్పులు ప్రదర్శించబడిన లేదా ముద్రించిన వాటిపై మాత్రమే ప్రభావం చూపుతాయి. వాస్తవ కంటెంట్ పత్రంలోనే ఉంటుంది."
       }
     ]
   },
   "pdf-reader": {
-    "title": "PDF Reader",
-    "metaDescription": "Free online PDF reader. View, navigate, zoom, rotate, and print PDF documents directly in your browser.",
+    "title": "PDF రీడర్",
+    "metaDescription": "ఉచిత ఆన్లైన్ PDF రీడర్. మీ బ్రౌజర్లో నేరుగా PDF పత్రాలను వీక్షించండి, నావిగేట్ చేయండి, జూమ్ చేయండి, తిరగండి మరియు ప్రింట్ చేయండి.",
     "keywords": [
       "pdf reader",
       "pdf viewer",
@@ -6060,64 +6060,64 @@ export const toolContentTe: Record<string, ToolContent> = {
       "read pdf",
       "pdf browser viewer"
     ],
-    "description": "\n      <p>PDF Reader is a full-featured PDF viewer that lets you read and navigate PDF documents directly in your browser. No software installation required - just upload your PDF and start reading.</p>\n      <p>Navigate between pages, zoom in and out, rotate the view, and use fullscreen mode for distraction-free reading. You can also print documents or download them for offline access.</p>\n      <p>All viewing happens locally in your browser. Your documents are never uploaded to any server, ensuring complete privacy.</p>\n    ",
+    "description": "<p>PDF Reader అనేది పూర్తి-ఫీచర్ PDF వీక్షకుడు, ఇది మీ బ్రౌజర్లో PDF పత్రాలను నేరుగా చదవడానికి మరియు నావిగేట్ చేయడానికి మిమ్మల్ని అనుమతిస్తుంది. సాఫ్ట్వేర్ సంస్థాపన అవసరం లేదు - మీ PDF ని అప్లోడ్ చేసి చదవడం ప్రారంభించండి. </p> <p>పేజీల మధ్య నావిగేట్ చేయండి, జూమ్ చేయండి మరియు అవుట్ చేయండి, వీక్షణను తిప్పండి మరియు విరామ రహిత చదవడం కోసం పూర్తి స్క్రీన్ మోడ్ను ఉపయోగించండి. మీరు పత్రాలను ముద్రించవచ్చు లేదా ఆఫ్లైన్ యాక్సెస్ కోసం వాటిని డౌన్లోడ్ చేయవచ్చు. </p> <p>అన్ని వీక్షణలు మీ బ్రౌజర్లో స్థానికంగా జరుగుతాయి. మీ పత్రాలు ఎప్పుడూ ఏ సర్వర్కు అప్లోడ్ చేయబడవు, పూర్తి గోప్యతను నిర్ధారిస్తుంది.</p> ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Open Your PDF",
-        "description": "Click to upload or drag and drop a PDF file to open it in the reader."
+        "title": "మీ PDF ని తెరవండి",
+        "description": "PDF ఫైల్ను అప్లోడ్ చేయడానికి లేదా డ్రాగ్ మరియు డ్రాప్ చేయడానికి క్లిక్ చేయండి, దాన్ని రీడర్లో తెరవండి."
       },
       {
         "step": 2,
-        "title": "Navigate Pages",
-        "description": "Use the page controls to go to the previous or next page, or jump to a specific page number."
+        "title": "పేజీలను నవిగేట్ చేయండి",
+        "description": "పేజీ నియంత్రణలను ఉపయోగించి మునుపటి లేదా తదుపరి పేజీకి వెళ్లండి లేదా నిర్దిష్ట పేజీ సంఖ్యకు వెళ్లండి."
       },
       {
         "step": 3,
-        "title": "Adjust View",
-        "description": "Zoom in or out, rotate the view, or enter fullscreen mode for comfortable reading."
+        "title": "వీక్షణను సర్దుబాటు చేయండి",
+        "description": "జోమ్ ఇన్ లేదా అవుట్, వీక్షణను తిప్పండి లేదా సౌకర్యవంతమైన పఠనం కోసం పూర్తి స్క్రీన్ మోడ్లోకి ప్రవేశించండి."
       },
       {
         "step": 4,
-        "title": "Print or Download",
-        "description": "Print the document or download it for offline access when needed."
+        "title": "ప్రింట్ లేదా డౌన్లోడ్",
+        "description": "అవసరమైనప్పుడు పత్రాన్ని ముద్రించండి లేదా ఆఫ్లైన్ యాక్సెస్ కోసం డౌన్లోడ్ చేసుకోండి."
       }
     ],
     "useCases": [
       {
         "title": "పత్ర సమీక్ష",
-        "description": "Quickly review PDF documents without installing any software.",
+        "description": "సాఫ్ట్వేర్ను ఇన్స్టాల్ చేయకుండా PDF పత్రాలను త్వరగా సమీక్షించండి.",
         "icon": "book-open"
       },
       {
-        "title": "Mobile Reading",
-        "description": "Read PDF documents on any device with a web browser.",
+        "title": "మొబైల్ పఠనం",
+        "description": "వెబ్ బ్రౌజర్తో ఏదైనా పరికరంలో PDF పత్రాలను చదవండి.",
         "icon": "smartphone"
       },
       {
-        "title": "Quick Preview",
-        "description": "Preview PDFs before deciding to download or print them.",
+        "title": "శీఘ్ర ముందస్తు వీక్షణ",
+        "description": "డౌన్లోడ్ చేయడానికి లేదా ప్రింట్ చేయడానికి ముందు PDF ఫైల్లను ప్రివ్యూ చేయండి.",
         "icon": "eye"
       }
     ],
     "faq": [
       {
-        "question": "Is my document secure?",
-        "answer": "Yes, your document is processed entirely in your browser and is never uploaded to any server."
+        "question": "నా పత్రం సురక్షితం?",
+        "answer": "అవును, మీ పత్రం మీ బ్రౌజర్లో పూర్తిగా ప్రాసెస్ చేయబడుతుంది మరియు ఏ సర్వర్కు అప్లోడ్ చేయబడదు."
       },
       {
-        "question": "Can I annotate or edit the PDF?",
-        "answer": "This tool is for viewing only. Use our Sign PDF or Annotate PDF tools for editing."
+        "question": "నేను PDF ను వ్యాఖ్యానించవచ్చా లేదా సవరించవచ్చా?",
+        "answer": "ఈ సాధనం వీక్షణ కోసం మాత్రమే. సంకలనం కోసం మా సైన్ PDF లేదా అనోటేట్ PDF సాధనాలను ఉపయోగించండి."
       },
       {
-        "question": "Does it work on mobile devices?",
-        "answer": "Yes, the PDF Reader works on all devices with a modern web browser."
+        "question": "ఇది మొబైల్ పరికరాల్లో పనిచేస్తుందా?",
+        "answer": "అవును, ఆధునిక వెబ్ బ్రౌజర్తో అన్ని పరికరాల్లో PDF రీడర్ పనిచేస్తుంది."
       }
     ]
   },
   "digital-sign-pdf": {
-    "title": "Digital Signature",
-    "metaDescription": "Add X.509 digital signatures to PDF documents. Sign PDFs with PFX, P12, or PEM certificates for legal validity.",
+    "title": "డిజిటల్ సంతకం",
+    "metaDescription": "PDF పత్రాలకు X.509 డిజిటల్ సంతకాలు జోడించండి. చట్టపరమైన చెల్లుబాటు కోసం PFX, P12, లేదా PEM సర్టిఫికేట్లతో PDF పత్రాలను సంతకం చేయండి.",
     "keywords": [
       "digital signature pdf",
       "x509 certificate",
@@ -6126,128 +6126,128 @@ export const toolContentTe: Record<string, ToolContent> = {
       "pem sign pdf",
       "legally sign pdf"
     ],
-    "description": "\n      <p>Digital Signature allows you to add cryptographic X.509 digital signatures to PDF documents. Unlike simple drawn signatures, digital signatures provide legal validity and document integrity verification.</p>\n      <p>Upload your certificate file (PFX, P12, or PEM format), enter the password, and sign your PDF. You can add visible signatures with custom text, images, and positioning, or invisible signatures for document integrity only.</p>\n      <p>All signing happens locally in your browser. Your certificate and documents are never uploaded to any server.</p>\n    ",
+    "description": "<p>డిజిటల్ సంతకం PDF పత్రాలకు క్రిప్టోగ్రాఫిక్ X.509 డిజిటల్ సంతకాలను జోడించడానికి మిమ్మల్ని అనుమతిస్తుంది. సాధారణ డ్రా చేసిన సంతకాల మాదిరిగా కాకుండా, డిజిటల్ సంతకాలు చట్టపరమైన ప్రామాణికత మరియు పత్ర సమగ్రతను ధృవీకరించడానికి అందిస్తాయి. </p> <p>మీ సర్టిఫికేట్ ఫైల్ (PFX, P12 లేదా PEM ఫార్మాట్), పాస్వర్డ్ను నమోదు చేసి, మీ PDF పై సంతకం చేయండి. మీరు కస్టమ్ టెక్స్ట్, చిత్రాలు మరియు స్థానాలతో లేదా డాక్యుమెంట్ సమగ్రత కోసం మాత్రమే కనిపించే సంతకాలను జోడించవచ్చు. </p> <p>అన్ని సంతకాలు మీ బ్రౌజర్లో స్థానికంగా జరుగుతాయి. మీ సర్టిఫికేట్ మరియు పత్రాలను ఎప్పుడూ ఏ సర్వర్కు అప్లోడ్ చేయబడవు. </p>",
     "howToUse": [
       {
         "step": 1,
         "title": "PDF ని అప్లోడ్ చేయండి",
-        "description": "Upload the PDF document you want to digitally sign."
+        "description": "మీరు డిజిటల్ సంతకం చేయాలనుకుంటున్న PDF పత్రాన్ని అప్లోడ్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Load Certificate",
-        "description": "Upload your X.509 certificate file (.pfx, .p12, or .pem) and enter the password."
+        "title": "లోడ్ సర్టిఫికేట్",
+        "description": "మీ X.509 సర్టిఫికేట్ ఫైల్ (.pfx, .p12, లేదా .pem) ను అప్లోడ్ చేసి పాస్వర్డ్ను నమోదు చేయండి."
       },
       {
         "step": 3,
-        "title": "Configure Signature",
-        "description": "Optionally add reason, location, and visible signature with custom text or image."
+        "title": "సంతకం కాన్ఫిగర్",
+        "description": "అనుకూలీకరించిన టెక్స్ట్ లేదా చిత్రంతో కారణం, స్థానం మరియు కనిపించే సంతకాన్ని జోడించండి."
       },
       {
         "step": 4,
-        "title": "Sign and Download",
-        "description": "Click Sign PDF to apply the digital signature and download the signed document."
+        "title": "సైన్ అప్ చేసి డౌన్లోడ్ చేసుకోండి",
+        "description": "డిజిటల్ సంతకాన్ని దరఖాస్తు చేసుకోవడానికి సంతకం PDF పై క్లిక్ చేసి సంతకం చేసిన పత్రాన్ని డౌన్లోడ్ చేసుకోండి."
       }
     ],
     "useCases": [
       {
         "title": "చట్టపరమైన పత్రాలు",
-        "description": "Sign contracts, agreements, and legal documents with legally binding digital signatures.",
+        "description": "చట్టబద్ధంగా కట్టుబడి ఉన్న డిజిటల్ సంతకాలతో ఒప్పందాలు, ఒప్పందాలు, చట్టపరమైన పత్రాలను సంతకం చేయండి.",
         "icon": "scale"
       },
       {
-        "title": "Business Approvals",
-        "description": "Digitally sign invoices, purchase orders, and approval documents for audit trails.",
+        "title": "వ్యాపార ఆమోదాలు",
+        "description": "ఆడిట్ ట్రాక్ల కోసం డిజిటల్గా ఇన్వాయిస్లు, కొనుగోలు ఆర్డర్లు, ఆమోదం పత్రాలను సంతకం చేయండి.",
         "icon": "briefcase"
       },
       {
-        "title": "Document Integrity",
-        "description": "Ensure documents have not been tampered with after signing.",
+        "title": "పత్ర సమగ్రత",
+        "description": "సంతకం చేసిన తర్వాత పత్రాలను తారుమారు చేయకుండా చూసుకోవాలి.",
         "icon": "shield-check"
       }
     ],
     "faq": [
       {
-        "question": "What certificate formats are supported?",
-        "answer": "PFX (.pfx), PKCS#12 (.p12), and PEM (.pem) certificate formats are supported."
+        "question": "ఏ సర్టిఫికేట్ ఫార్మాట్లకు మద్దతు ఉంది?",
+        "answer": "PFX (.pfx), PKCS#12 (.p12), మరియు PEM (.pem) సర్టిఫికేట్ ఫార్మాట్లకు మద్దతు ఉంది."
       },
       {
-        "question": "Is the signature legally valid?",
-        "answer": "Yes, X.509 digital signatures are legally recognized in most jurisdictions when using a valid certificate."
+        "question": "ఈ సంతకం చట్టబద్ధంగా చెల్లుతుందా?",
+        "answer": "అవును, చెల్లుబాటు అయ్యే సర్టిఫికేట్ను ఉపయోగించినప్పుడు X.509 డిజిటల్ సంతకాలు చాలా అధికార పరిధిలో చట్టబద్ధంగా గుర్తించబడతాయి."
       },
       {
-        "question": "Can I add a visible signature?",
-        "answer": "Yes, you can add a visible signature with custom text, image, position, and styling."
+        "question": "నేను ఒక కనిపించే సంతకం జోడించవచ్చు?",
+        "answer": "అవును, మీరు అనుకూలీకరించిన టెక్స్ట్, చిత్రం, స్థానం మరియు స్టైలింగ్తో కనిపించే సంతకాన్ని జోడించవచ్చు."
       }
     ]
   },
   "validate-signature": {
-    "title": "Validate Signature",
-    "metaDescription": "Verify digital signatures in PDF documents. Check certificate validity, signer information, and document integrity.",
+    "title": "సంతకం ధృవీకరించు",
+    "metaDescription": "PDF పత్రాలలో డిజిటల్ సంతకాలను తనిఖీ చేయండి. సర్టిఫికేట్ చెల్లుబాటు, సంతకం చేసిన సమాచారం మరియు పత్రం యొక్క సమగ్రతను తనిఖీ చేయండి.",
     "keywords": [
       "validate pdf signature",
       "verify digital signature",
       "check pdf certificate",
       "signature verification"
     ],
-    "description": "\n      <p>Validate Signature allows you to verify digital signatures in PDF documents. Check if signatures are valid, view certificate information, and confirm document integrity.</p>\n      <p>Upload a signed PDF to see all signatures, their validity status, signer information, and whether the document has been modified after signing.</p>\n      <p>All validation happens locally in your browser. Your documents are never uploaded to any server.</p>\n    ",
+    "description": "<p>Validate Signature మీరు PDF పత్రాలలో డిజిటల్ సంతకాలను ధృవీకరించడానికి అనుమతిస్తుంది. సంతకాలు చెల్లుతున్నాయో లేదో తనిఖీ చేయండి, సర్టిఫికేట్ సమాచారాన్ని వీక్షించండి మరియు పత్రం యొక్క సమగ్రతను నిర్ధారించండి. అన్ని సంతకాలు, వాటి చెల్లుబాటు స్థితి, సంతకం చేసిన సమాచారం మరియు సంతకం చేసిన తర్వాత పత్రం సవరించబడిందా అని చూడటానికి సంతకం చేసిన PDF ని అప్లోడ్ చేయండి. </p> <p><p>అన్ని ధృవీకరణలు మీ బ్రౌజర్లో స్థానికంగా జరుగుతాయి. మీ పత్రాలు ఏ సర్వర్కు కూడా అప్లోడ్ చేయబడవు. </p> ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Signed PDF",
-        "description": "Upload a PDF document that contains digital signatures."
+        "title": "సంతకం చేసిన PDF ని అప్లోడ్ చేయండి",
+        "description": "డిజిటల్ సంతకాలు ఉన్న PDF పత్రాన్ని అప్లోడ్ చేయండి."
       },
       {
         "step": 2,
-        "title": "View Results",
-        "description": "See all signatures found in the document with their validity status."
+        "title": "ఫలితాలను వీక్షించండి",
+        "description": "పత్రంలో ఉన్న అన్ని సంతకాలు వాటి చెల్లుబాటు స్థితితో చూడండి."
       },
       {
         "step": 3,
-        "title": "Check Details",
-        "description": "View certificate information, signer details, and signing timestamp."
+        "title": "వివరాలను తనిఖీ చేయండి",
+        "description": "సర్టిఫికేట్ సమాచారం, సంతకం చేసినవారి వివరాలు, సంతకం చేసిన సమయ ముద్రను వీక్షించండి."
       },
       {
         "step": 4,
-        "title": "Export Report",
-        "description": "Optionally download a JSON report of the validation results."
+        "title": "ఎగుమతి నివేదిక",
+        "description": "ఐచ్ఛికంగా ధృవీకరణ ఫలితాల యొక్క JSON నివేదికను డౌన్లోడ్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Document Verification",
-        "description": "Verify that signed documents are authentic and have not been tampered with.",
+        "title": "పత్ర ధృవీకరణ",
+        "description": "సంతకం చేసిన పత్రాలు ప్రామాణికమైనవని, వాటిలో జోక్యం చేయబడలేదని నిర్ధారించుకోండి.",
         "icon": "shield-check"
       },
       {
-        "title": "Compliance Audit",
-        "description": "Check signature validity for compliance and audit purposes.",
+        "title": "సమ్మతి తనిఖీ",
+        "description": "సమ్మతి మరియు ఆడిట్ ప్రయోజనాల కోసం సంతకం యొక్క చెల్లుబాటును తనిఖీ చేయండి.",
         "icon": "clipboard-check"
       },
       {
-        "title": "Certificate Review",
-        "description": "View certificate details and expiration dates for signed documents.",
+        "title": "సర్టిఫికేట్ సమీక్ష",
+        "description": "సంతకం చేసిన పత్రాల కోసం సర్టిఫికేట్ వివరాలు మరియు గడువు తేదీలను వీక్షించండి.",
         "icon": "award"
       }
     ],
     "faq": [
       {
-        "question": "What does \"valid\" mean?",
-        "answer": "A valid signature means the document has not been modified since signing and the certificate chain is intact."
+        "question": "\"సమర్థ\" అంటే ఏమిటి?",
+        "answer": "ఒక చెల్లుబాటు అయ్యే సంతకం అంటే పత్రం సంతకం చేసినప్పటి నుండి సవరించబడలేదు మరియు సర్టిఫికేట్ గొలుసు చెల్లుబాటు అయ్యేలా ఉంది."
       },
       {
-        "question": "Can I validate multiple PDFs?",
-        "answer": "Yes, you can upload multiple PDFs and validate all signatures in batch."
+        "question": "నేను బహుళ PDF ఫైల్లను ధృవీకరించవచ్చా?",
+        "answer": "అవును, మీరు బహుళ PDF లను అప్లోడ్ చేసి బ్యాచ్ లో అన్ని సంతకాలను ధృవీకరించవచ్చు."
       },
       {
-        "question": "Why might a signature be invalid?",
-        "answer": "Signatures may be invalid if the document was modified, the certificate expired, or the certificate is not trusted."
+        "question": "ఒక సంతకం ఎందుకు చెల్లదు?",
+        "answer": "పత్రం సవరించబడితే, సర్టిఫికేట్ గడువు ముగిసినట్లయితే లేదా సర్టిఫికేట్ నమ్మదగినది కాకపోతే సంతకాలు చెల్లవు."
       }
     ]
   },
   "ai-pdf-reflower": {
-    "title": "AI PDF Layout Reflower",
-    "metaDescription": "Re-typeset PDF documents into responsive mobile-friendly layouts. Support Markdown and EPUB export for enhanced small-screen reading.",
+    "title": "AI PDF లేఅవుట్ రిఫ్లవర్",
+    "metaDescription": "PDF పత్రాలను మొబైల్-స్నేహపూర్వక లేఅవుట్లలో తిరిగి టైప్ చేయండి. మెరుగైన చిన్న స్క్రీన్ పఠనం కోసం మార్క్డౌన్ మరియు EPUB ఎగుమతి మద్దతు.",
     "keywords": [
       "pdf reflow",
       "responsive pdf",
@@ -6255,59 +6255,59 @@ export const toolContentTe: Record<string, ToolContent> = {
       "epub export",
       "mobile pdf reader"
     ],
-    "description": "\n      <p>AI PDF Layout Reflower is your ultimate companion for reading PDF documents on mobile devices. Traditional PDFs use a fixed layout, which often requires endless zooming and horizontal scrolling on smartphones or tablets, resulting in a tedious reading experience.</p>\n      <p>This tool intelligently parses the text flow, line spacing, and physical coordinates of the PDF pages, reconstructing the semantic paragraphs and heading hierarchies. For multi-column or dual-column documents, it intelligently merges column flows into a single responsive flow, ensuring smooth reading.</p>\n      <p>Additionally, it supports rendering mathematical formulas into LaTeX/MathJax and offers multiple reading themes (Sepia, Dark, Eye-protecting Green). You can export the reflowed layout as Markdown or a standard EPUB ebook with a single click.</p>\n    ",
+    "description": "<p>AI PDF లేఅవుట్ రిఫ్లోవర్ అనేది మొబైల్ పరికరాల్లో PDF పత్రాలను చదవడానికి మీ అంతిమ సహచరుడు. సాంప్రదాయ PDF లు స్థిర లేఅవుట్ను ఉపయోగిస్తాయి, ఇది తరచుగా స్మార్ట్ఫోన్లు లేదా టాబ్లెట్లలో అంతులేని జూమింగ్ మరియు క్షితిజ సమాంతర స్క్రోలింగ్ అవసరం, దీని ఫలితంగా విసుగుతో కూడిన పఠన అనుభవం ఉంటుంది. </p> <p>ఈ సాధనం PDF పేజీల యొక్క టెక్స్ట్ ఫ్లో, లైన్ స్పేస్ మరియు భౌతిక కోఆర్డినేట్లను తెలివిగా విశ్లేషిస్తుంది, అర్థ పేరాళ్ళు మరియు శీర్షికల పदानావళిని పునర్నిర్మించింది. బహుళ కాలమ్ లేదా ద్వంద్వ కాలమ్ పత్రాల కోసం, ఇది బహుళ- కాలమ్ల స్టాండర్డ్ లేఅవుట్లను ఒకే స్పందించే ప్రవాహంలో తెలివిగా మిళితం చేస్తుంది, ఇది మృదువైన పఠనాన్ని నిర్ధారిస్తుంది. </p> <p> <p>అదనంగా, ఇది లాటెక్స్మాత్ / బిజెడి ఫార్ములాకులను రెండర్ చేయడం మరియు ఇ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload PDF File",
-        "description": "Drag and drop your PDF file or click to browse and select it."
+        "title": "PDF ఫైల్ను అప్లోడ్ చేయండి",
+        "description": "మీ PDF ఫైల్ను లాగండి మరియు డ్రాప్ చేయండి లేదా బ్రౌజ్ చేయడానికి మరియు ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Select Reading Theme",
-        "description": "Choose your preferred font size and theme colors in the 3D mobile simulator on the right."
+        "title": "చదవడానికి థీమ్ ఎంచుకోండి",
+        "description": "కుడివైపున ఉన్న 3D మొబైల్ సిమ్యులేటర్లో మీ ఇష్టమైన ఫాంట్ పరిమాణం మరియు థీమ్ రంగులను ఎంచుకోండి."
       },
       {
         "step": 3,
-        "title": "Export Document",
-        "description": "Once satisfied, use the physical pull-rope to export the document as Markdown or EPUB."
+        "title": "ఎగుమతి పత్రం",
+        "description": "సంతృప్తి చెందిన తర్వాత, పత్రాన్ని మార్క్డౌన్ లేదా EPUB గా ఎగుమతి చేయడానికి భౌతిక లాగడం తాడును ఉపయోగించండి."
       }
     ],
     "useCases": [
       {
-        "title": "Mobile Literature Reading",
-        "description": "Read academic papers and research reports on your phone seamlessly without constant zooming.",
+        "title": "మొబైల్ సాహిత్యం చదవడం",
+        "description": "నిరంతరం జూమ్ చేయకుండా మీ ఫోన్లో విద్యా పత్రాలు మరియు పరిశోధన నివేదికలను సజావుగా చదవండి.",
         "icon": "smartphone"
       },
       {
-        "title": "Ebook Conversion",
-        "description": "Convert text-heavy PDFs into EPUB files and import them into Kindle or other ebook readers.",
+        "title": "ఇబుక్ మార్పిడి",
+        "description": "టెక్స్ట్-భారీ PDF లను EPUB ఫైళ్ళకు మార్చండి మరియు వాటిని కిండ్ల్ లేదా ఇతర ఇబుక్ రీడర్లకు దిగుమతి చేసుకోండి.",
         "icon": "book"
       },
       {
-        "title": "Note Archive",
-        "description": "Directly convert structured PDF content into clean Markdown files for your personal knowledge base.",
+        "title": "గమనిక ఆర్కైవ్",
+        "description": "మీ వ్యక్తిగత జ్ఞాన స్థావరం కోసం నిర్మాణాత్మక PDF కంటెంట్ను క్లీన్ మార్క్డౌన్ ఫైళ్ళగా నేరుగా మార్చండి.",
         "icon": "file-text"
       }
     ],
     "faq": [
       {
-        "question": "Does it handle dual-column PDFs correctly?",
-        "answer": "Yes, the layout reflower detects the horizontal coordinates of text blocks and structures left and right columns sequentially, preventing line interleaving."
+        "question": "ఇది డబుల్ కాలమ్ PDF లను సరిగ్గా నిర్వహిస్తుందా?",
+        "answer": "అవును, లేఅవుట్ రిఫ్లవర్ వరుసగా టెక్స్ట్ బ్లాక్లు మరియు నిర్మాణాల యొక్క క్షితిజ సమాంతర కోఆర్డినేట్లను గుర్తించి, లైన్ల మధ్య దూరం అవ్వడాన్ని నిరోధిస్తుంది."
       },
       {
-        "question": "Will images and math formulas be lost?",
-        "answer": "Mathematical formulas are converted to LaTeX/MathJax syntax for clean web rendering, and images are preserved in their corresponding semantic positions."
+        "question": "చిత్రాలు, గణిత సూత్రాలు కోల్పోతాయా?",
+        "answer": "గణిత సూత్రాలు శుభ్రమైన వెబ్ రెండరింగ్ కోసం లాటెక్స్ / మాథ్జాక్స్ సింటాక్స్గా మార్చబడతాయి మరియు చిత్రాలు వాటి సంబంధిత అర్థ స్థానాల్లో సంరక్షించబడతాయి."
       },
       {
-        "question": "Is the conversion done in the cloud?",
-        "answer": "No, all layout analysis and format packaging are performed locally in your browser to guarantee the absolute privacy of your documents."
+        "question": "మేఘంలో మార్పు జరుగుతుందా?",
+        "answer": "లేదు, మీ పత్రాల సంపూర్ణ గోప్యతను నిర్ధారించడానికి అన్ని లేఅవుట్ విశ్లేషణలు మరియు ఫార్మాట్ ప్యాకేజింగ్ మీ బ్రౌజర్లో స్థానికంగా నిర్వహిస్తారు."
       }
     ]
   },
   "citation-linker": {
-    "title": "Citation Linker",
-    "metaDescription": "Scan and activate citation markers in PDFs, converting them into clickable DOI links or page-jump targets.",
+    "title": "సూచన లింకర్",
+    "metaDescription": "PDF ఫైళ్ళలో సూచన మార్కర్లను స్కాన్ చేసి, సక్రియం చేయండి, వాటిని క్లిక్ చేయగల DOI లింక్లు లేదా పేజీ-జంప్ లక్ష్యాలుగా మార్చండి.",
     "keywords": [
       "citation linker",
       "pdf hyperlink",
@@ -6315,59 +6315,59 @@ export const toolContentTe: Record<string, ToolContent> = {
       "academic helper",
       "pdf references"
     ],
-    "description": "\n      <p>Citation Linker is designed specifically for academic researchers. In many PDF papers, citation markers (e.g., [1], [2]) are plain text, forcing readers to scroll back and forth to the reference list at the end of the document, interrupting their focus.</p>\n      <p>This tool reads PDF text locally, uses pattern recognition to match citation markers to their corresponding reference entries, and overlays clickable PDF link annotations using DOI lookups or page-jump coordinates.</p>\n      <p>It also generates an interactive citation relationship map to visually navigate the document's reference network.</p>\n    ",
+    "description": "<p>సైట్ లింకర్ ప్రత్యేకంగా అకాడెమిక్ పరిశోధకులకు రూపొందించబడింది. అనేక PDF పత్రాలలో, సిట్ మార్కర్లు (ఉదా. [1], [2]) సాధారణ వచనం, పాఠకులను పత్రం చివరిలో ఉన్న రిఫరెన్స్ జాబితాకు ముందుకు వెనుకకు స్క్రోల్ చేయడానికి బలవంతం చేస్తుంది, వారి దృష్టిని అంతరాయం చేస్తుంది. </p> <p>ఈ సాధనం PDF వచనాన్ని స్థానికంగా చదువుతుంది, సంబంధిత రిఫరెన్స్ ఎంట్రీలకు సిట్ మార్కర్లను సరిపోల్చడానికి నమూనా గుర్తింపును ఉపయోగిస్తుంది మరియు DOI శోధన లేదా పేజీ-జంప్ కోఆర్డినేట్లను ఉపయోగించి క్లిక్ చేయగల PDF లింక్ వ్యాఖ్యలను అతివ్యాప్తి చేస్తుంది. </p> <p> ఇది పత్రం యొక్క రిఫరెన్స్ నెట్వర్క్ను దృశ్యమానంగా నావిగేట్ చేయడానికి ఇంటరాక్టివ్ సిట్ సంబంధ మ్యాప్ను కూడా ఉత్పత్తి చేస్తుంది. </p>",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Academic PDF",
-        "description": "Upload a PDF paper or thesis containing a bibliography/reference section."
+        "title": "అకాడెమిక్ PDF ని అప్లోడ్ చేయండి",
+        "description": "ఒక గ్రంథాలయ/సూచన విభాగాన్ని కలిగి ఉన్న PDF పత్రం లేదా థీసిస్ను అప్లోడ్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Review Citations",
-        "description": "Inspect the citation pairs in the interactive map and manually edit or add DOI links if necessary."
+        "title": "సమీక్ష కోట్స్",
+        "description": "ఇంటరాక్టివ్ మ్యాప్లో ఉన్న కోట్ జతలను తనిఖీ చేయండి మరియు అవసరమైతే DOI లింక్లను మానవీయంగా సవరించండి లేదా జోడించండి."
       },
       {
         "step": 3,
-        "title": "Inject Links",
-        "description": "Click the activate button to overlay hyperlinks onto the PDF and download the updated document."
+        "title": "ఇంజెక్షన్ లింకులు",
+        "description": "PDF పై హైపర్ లింక్లను అతివ్యాప్తి చేయడానికి యాక్టివేట్ బటన్ పై క్లిక్ చేసి నవీకరించబడిన పత్రాన్ని డౌన్లోడ్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Deep Literature Reading",
-        "description": "Click citation markers to immediately view reference details or navigate to external DOI pages.",
+        "title": "లోతైన సాహిత్య పఠనం",
+        "description": "సూచన వివరాలను వెంటనే వీక్షించడానికి లేదా బాహ్య DOI పేజీలకు నవీకరించడానికి సూచన మార్కర్లను క్లిక్ చేయండి.",
         "icon": "link"
       },
       {
-        "title": "Pre-publication Preparation",
-        "description": "Ensure your written academic papers have fully active hyperlink navigations before final submission.",
+        "title": "ప్రచురణకు ముందు సిద్ధం",
+        "description": "మీ వ్రాతపూర్వక విద్యా పత్రాలు తుది సమర్పణకు ముందు పూర్తిగా చురుకైన హైపర్ లింక్ నావిగేషన్ కలిగి ఉన్నాయని నిర్ధారించుకోండి.",
         "icon": "award"
       },
       {
-        "title": "Reference Map Analysis",
-        "description": "Understand literature hierarchies and connections via the interactive network topology map.",
+        "title": "సూచనల మ్యాప్ విశ్లేషణ",
+        "description": "ఇంటరాక్టివ్ నెట్వర్క్ టాపోలజీ మ్యాప్ ద్వారా సాహిత్య పदानెనలు మరియు కనెక్షన్లను అర్థం చేసుకోండి.",
         "icon": "git-network"
       }
     ],
     "faq": [
       {
-        "question": "What if a reference has no DOI?",
-        "answer": "If a DOI cannot be found, the tool falls back to an internal \"GoTo Page\" action, allowing you to click the marker and jump directly to the reference page."
+        "question": "ఒక సూచనలో DOI లేకుంటే?",
+        "answer": "ఒక DOI కనుగొనబడకపోతే, సాధనం అంతర్గత \"GoTo Page\" చర్యకు తిరిగి వస్తుంది, ఇది మార్కర్ను క్లిక్ చేసి సూచన పేజీకి నేరుగా దూకడానికి మిమ్మల్ని అనుమతిస్తుంది."
       },
       {
-        "question": "Which citation formats are supported?",
-        "answer": "It supports common numeric brackets (e.g., [1], [1-3]) and author-year citations (e.g., Author et al., 202X)."
+        "question": "ఏ కోట్ ఫార్మాట్లకు మద్దతు ఉంది?",
+        "answer": "ఇది సాధారణ సంఖ్యా బ్రాకెట్లు (ఉదా. [1], [1-3]) మరియు రచయిత-సంవత్సరం సూచనలను (ఉదా. Author et al., 202X) మద్దతు ఇస్తుంది."
       },
       {
-        "question": "Will it modify the appearance of my PDF?",
-        "answer": "No, it injects invisible Link annotations on top of the text, preserving the original layout, fonts, and styling of your document."
+        "question": "ఇది నా PDF యొక్క రూపాన్ని మార్చగలదా?",
+        "answer": "లేదు, ఇది టెక్స్ట్ పైన కనిపించని లింక్ వ్యాఖ్యలను ఇంజెక్ట్ చేస్తుంది, మీ పత్రం యొక్క అసలు లేఅవుట్, ఫాంట్లు మరియు స్టైలింగ్ను కాపాడుతుంది."
       }
     ]
   },
   "vector-extractor": {
-    "title": "PDF Vector Extractor",
-    "metaDescription": "Convert PDF into high-fidelity SVG, allowing you to select, recolor, and export vector charts, logos, and graphics.",
+    "title": "PDF వెక్టర్ ఎక్స్ట్రాక్టర్",
+    "metaDescription": "PDF ను అధిక-విశ్వాస SVG గా మార్చండి, ఇది వెక్టర్ చార్ట్లు, లోగోలు మరియు గ్రాఫిక్లను ఎంచుకోవడానికి, తిరిగి రంగులు మార్చడానికి మరియు ఎగుమతి చేయడానికి మిమ్మల్ని అనుమతిస్తుంది.",
     "keywords": [
       "extract vectors from pdf",
       "pdf to svg",
@@ -6375,59 +6375,59 @@ export const toolContentTe: Record<string, ToolContent> = {
       "extract logo",
       "vector drawings"
     ],
-    "description": "\n      <p>PDF Vector Extractor unlocks vector paths and artwork embedded inside PDF files. Easily extract vector charts, diagrams, or logos from documents for design work or printing.</p>\n      <p>Under the hood, it utilizes high-fidelity SVG rendering to deconstruct PDF vector paths into clean, standard SVG element trees without loss of precision.</p>\n      <p>The interface highlights hover elements with a Z-axis 3D layer explosion effect, complete with a color picker panel for designers to adjust and extract vector nodes.</p>\n    ",
+    "description": "<p>PDF వెక్టర్ ఎక్స్ట్రాక్టర్ PDF ఫైళ్ళలో పొందుపరిచిన వెక్టర్ మార్గాలను మరియు కళాకృతులను అన్లాక్ చేస్తుంది. డిజైన్ పని లేదా ముద్రణ కోసం పత్రాల నుండి వెక్టర్ చార్ట్లు, రేఖాచిత్రాలు లేదా లోగోలను సులభంగా వెక్టరు పటాలను వెక్టరు చేస్తుంది. </p> <p>హూడ్ కింద, ఇది PDF వెక్టర్ మార్గాలను శుభ్రమైన, ప్రామాణిక SVG మూలకం చెట్లలోకి లాగడానికి అధిక-విశ్వాస SVG రెండరింగ్ను ఉపయోగిస్తుంది. ఖచ్చితత్వం కోల్పోకుండా.</p> <p>ఇంటర్ఫేస్ Z- అక్షం 3D పొర పేలు ప్రభావం కలిగిన ఫ్లోవర్ ఎలిమెంట్లను హైలైట్ చేస్తుంది, డిజైనర్లు వెక్టర్ నోడ్లను సర్దుబాటు చేయడానికి మరియు వెక్టరు చేయడానికి రంగు ఎంపిక ప్యానెల్తో పూర్తి చేస్తుంది.</p> ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload PDF Document",
-        "description": "Upload a PDF containing vector assets, diagrams, charts, or logos."
+        "title": "PDF పత్రాన్ని అప్లోడ్ చేయండి",
+        "description": "వెక్టర్ ఆస్తులు, రేఖాచిత్రాలు, చార్ట్లు లేదా లోగోలను కలిగి ఉన్న PDF ని అప్లోడ్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Select Elements",
-        "description": "Hover over the vector canvas to highlight elements, then click to select a node."
+        "title": "ఎలిమెంట్స్ ఎంచుకోండి",
+        "description": "అంశాలను హైలైట్ చేయడానికి వెక్టర్ కన్వాస్ పై స్విఫ్ట్ చేసి, ఒక నోడ్ను ఎంచుకోవడానికి క్లిక్ చేయండి."
       },
       {
         "step": 3,
-        "title": "Customize and Export",
-        "description": "Adjust path attributes in the panel, then download as SVG or copy SVG source code."
+        "title": "అనుకూలీకరణ మరియు ఎగుమతి",
+        "description": "పాత్ లక్షణాలను ప్యానెల్లో సర్దుబాటు చేసి, SVG గా డౌన్లోడ్ చేయండి లేదా SVG సోర్స్ కోడ్ను కాపీ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Design Asset Extraction",
-        "description": "Quickly extract company logos, icons, and illustrations from brand guidelines or brochures.",
+        "title": "డిజైన్ ఆస్తి సేకరణ",
+        "description": "బ్రాండ్ మార్గదర్శకాలు లేదా బ్రోచర్ల నుండి కంపెనీ లోగోలు, చిహ్నాలు మరియు చిత్రాలను త్వరగా తీయండి.",
         "icon": "bezier"
       },
       {
-        "title": "Scientific Chart Export",
-        "description": "Extract vector charts from research papers to use in high-resolution printing or presentations.",
+        "title": "శాస్త్రీయ చార్టు ఎగుమతులు",
+        "description": "అధిక రిజల్యూషన్ ముద్రణ లేదా ప్రదర్శనలలో ఉపయోగించడానికి పరిశోధన పత్రాల నుండి వెక్టర్ చార్ట్లను సేకరించండి.",
         "icon": "presentation"
       },
       {
-        "title": "Vector Asset Recoloring",
-        "description": "Modify the stroke and fill colors of extracted assets before saving them for web projects.",
+        "title": "వెక్టర్ ఆస్తి రంగులు మార్చడం",
+        "description": "వెబ్ ప్రాజెక్టులకు సేవ్ చేయడానికి ముందు స్ట్రోక్ను సవరించండి మరియు సేకరించిన ఆస్తుల రంగులను పూరించండి.",
         "icon": "crown"
       }
     ],
     "faq": [
       {
-        "question": "Why can't I select certain images?",
-        "answer": "PDFs contain both raster images (like photos or scanned pages) and vector artwork (like shapes and curves). Only vector paths can be deconstructed into SVG paths."
+        "question": "నేను కొన్ని చిత్రాలను ఎంచుకోలేను ఎందుకు?",
+        "answer": "PDF లు రాస్టర్ చిత్రాలు (ఫోటోలు లేదా స్కాన్ చేసిన పేజీలు వంటివి) మరియు వెక్టర్ ఆర్ట్ వర్క్ (రూపాలు మరియు వక్రతలు వంటివి) రెండింటినీ కలిగి ఉంటాయి. వెక్టర్ మార్గాలను మాత్రమే SVG మార్గాలుగా విచ్ఛిన్నం చేయవచ్చు."
       },
       {
-        "question": "Does the output SVG contain styles?",
-        "answer": "Yes, the exported SVG retains all original properties including fills, strokes, opacity, gradients, and coordinate transforms."
+        "question": "అవుట్పుట్ SVG శైలులను కలిగి ఉందా?",
+        "answer": "అవును, ఎగుమతి చేయబడిన SVG నింపడం, స్ట్రోక్ చేయడం, అస్పష్టత, గ్రేడియంట్లు మరియు కోఆర్డినేట్ ట్రాన్స్ఫర్మేషన్లతో సహా అన్ని అసలు లక్షణాలను కలిగి ఉంటుంది."
       },
       {
-        "question": "Will large files lag?",
-        "answer": "We use WebAssembly acceleration, but PDFs with extremely complex CAD drawings or thousands of vector paths may take a few seconds to render."
+        "question": "పెద్ద ఫైళ్లు వెనుకబడిపోతాయా?",
+        "answer": "మేము వెబ్ అసెంబ్లీ త్వరణాన్ని ఉపయోగిస్తాము, కానీ చాలా సంక్లిష్టమైన CAD డ్రాయింగ్లు లేదా వేలాది వెక్టర్ మార్గాలతో PDF లు రెండర్ చేయడానికి కొన్ని సెకన్లు పట్టవచ్చు."
       }
     ]
   },
   "deep-sanitize": {
-    "title": "Deep Metadata Sanitizer",
-    "metaDescription": "Thoroughly wipe author metadata, modification logs, hidden layers, and orphan objects from PDFs for maximum privacy.",
+    "title": "లోతైన మెటాడేటా సెనిటైజర్",
+    "metaDescription": "PDF ఫైళ్ళ నుండి రచయిత మెటాడేటా, మార్పు లాగ్లు, దాచిన పొరలు మరియు అనాధ వస్తువులను గరిష్ట గోప్యత కోసం పూర్తిగా తుడిచివేయండి.",
     "keywords": [
       "pdf sanitization",
       "clear metadata",
@@ -6435,59 +6435,59 @@ export const toolContentTe: Record<string, ToolContent> = {
       "strip hidden watermark",
       "secure pdf"
     ],
-    "description": "\n      <p>Deep Metadata Sanitizer is your ultimate defense against metadata leaks and hidden tracking. Simply drawing black boxes over visible text in PDF files is not enough to protect commercial secrets.</p>\n      <p>This tool scans the PDF binary structure to completely erase author info, creator software, editing logs (XMP Metadata), proprietary PieceInfo caches, and OCG optional content groups (often used for invisible watermarks).</p>\n      <p>It also rewrites the cross-reference tables (xref) completely, discarding all incremental update blocks to ensure that deleted or modified historical data cannot be restored.</p>\n    ",
+    "description": "<p>డీప్ మెటాడేటా శానిటైజర్ మీటాడేటా లీక్లు మరియు దాచిన ట్రాకింగ్కు వ్యతిరేకంగా మీ అంతిమ రక్షణ. PDF ఫైళ్ళలో కనిపించే టెక్స్ట్పై బ్లాక్ బాక్స్లను డ్రా చేయడం మాత్రమే వాణిజ్య రహస్యాలను రక్షించడానికి సరిపోదు. </p> <p>ఈ సాధనం రచయిత సమాచారం, సృష్టికర్త సాఫ్ట్వేర్, ఎడిటింగ్ లాగ్లు (XMP మెటాడేటా), యాజమాన్య PieceInfo కాష్లు మరియు OCG ఐచ్ఛిక కంటెంట్ సమూహాలను (తరచుగా కనిపించని వాటర్మార్క్లకు ఉపయోగించబడుతుంది) పూర్తిగా తొలగించడానికి PDF బైనరీ నిర్మాణాన్ని స్కాన్ చేస్తుంది. </p> <p> ఇది క్రాస్-రిఫరెన్స్ పట్టికలను (xref) పూర్తిగా తిరిగి వ్రాస్తుంది, తొలగించిన లేదా సవరించిన చారిత్రక డేటాను తిరిగి పొందలేదని నిర్ధారించడానికి అన్ని అదనపు నవీకరణ బ్లాక్లను విస్కాస్తుంది. </p> ",
     "howToUse": [
       {
         "step": 1,
         "title": "PDF ని అప్లోడ్ చేయండి",
-        "description": "Select the PDF file containing sensitive data or modification history."
+        "description": "సున్నితమైన డేటా లేదా మార్పు చరిత్రను కలిగి ఉన్న PDF ఫైల్ను ఎంచుకోండి."
       },
       {
         "step": 2,
-        "title": "Run Scanner",
-        "description": "Trigger the 3D containment scanner to check the file for hidden metadata and layers."
+        "title": "స్కానర్ను అమలు చేయండి",
+        "description": "దాచిన మెటాడేటా మరియు పొరల కోసం ఫైల్ను తనిఖీ చేయడానికి 3D కంటైన్మెంట్ స్కానర్ను ట్రిగ్గర్ చేయండి."
       },
       {
         "step": 3,
-        "title": "Deep Sanitize",
-        "description": "Click sanitize to wipe out tracking elements and download the fully clean PDF."
+        "title": "లోతైన శానిటైజేషన్",
+        "description": "ట్రాకింగ్ అంశాలను తొలగించడానికి మరియు పూర్తిగా శుభ్రమైన PDF ని డౌన్లోడ్ చేయడానికి క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Contract Sharing",
-        "description": "Remove drafting records, paths, and previous revisions before sharing business contracts with third parties.",
+        "title": "ఒప్పంద భాగస్వామ్యం",
+        "description": "మూడవ పార్టీలతో వ్యాపార ఒప్పందాలను పంచుకునే ముందు, డిజైన్ రికార్డులు, మార్గాలు మరియు మునుపటి సమీక్షలను తొలగించండి.",
         "icon": "file-signature"
       },
       {
-        "title": "Anonymized Publishing",
-        "description": "Wipe invisible annotations and watermarks to publish documents anonymously and securely.",
+        "title": "పేరులేని ప్రచురణ",
+        "description": "పత్రాలను అనామకంగా మరియు సురక్షితంగా ప్రచురించడానికి కనిపించని గమనికలు మరియు వాటర్మార్క్లను తుడిచివేయండి.",
         "icon": "eye-off"
       },
       {
-        "title": "PDF Optimization",
-        "description": "Remove orphaned objects and garbage data streams to make files load faster on the web.",
+        "title": "PDF ఆప్టిమైజేషన్",
+        "description": "వెబ్లో ఫైళ్ళను వేగంగా లోడ్ చేయడానికి అనాధ వస్తువులను మరియు మురికి డేటా స్ట్రీమ్లను తొలగించండి.",
         "icon": "zap"
       }
     ],
     "faq": [
       {
-        "question": "How is this different from standard metadata removal?",
-        "answer": "Standard tools only clear basic fields like title or author. Deep Sanitizer reconstructs the entire PDF xref table, wiping PieceInfo, hidden watermarks, and historical incremental revisions."
+        "question": "ఇది ప్రామాణిక మెటాడేటా తొలగింపు నుండి ఎలా భిన్నంగా ఉంటుంది?",
+        "answer": "ప్రామాణిక సాధనాలు శీర్షిక లేదా రచయిత వంటి ప్రాథమిక ఖాళీలను మాత్రమే క్లియర్ చేస్తాయి. డీప్ శానిటైజర్ మొత్తం PDF xref పట్టికను పునర్నిర్మించింది, PieceInfo, దాచిన వాటర్మార్క్లు మరియు చారిత్రక క్రమానుగత సంస్కరణలను తుడిచివేస్తుంది."
       },
       {
-        "question": "Will this affect document layout or text?",
-        "answer": "No, it only strips hidden description streams and structure data. The visible layout, texts, and graphics remain unchanged."
+        "question": "ఇది పత్రం యొక్క లేఅవుట్ లేదా టెక్స్ట్ను ప్రభావితం చేస్తుందా?",
+        "answer": "లేదు, ఇది దాచిన వివరణ ప్రవాహాలను మరియు నిర్మాణ డేటాను మాత్రమే తొలగిస్తుంది. కనిపించే లేఅవుట్, టెక్స్ట్లు మరియు గ్రాఫిక్స్ మారవు."
       },
       {
-        "question": "Does this remove PDF passwords?",
-        "answer": "No, if a PDF is encrypted, you must unlock it first before performing a deep sanitization."
+        "question": "ఇది PDF పాస్వర్డ్లను తొలగిస్తుందా?",
+        "answer": "కాదు, ఒక PDF ని గుప్తీకరించినట్లయితే, మీరు మొదట దానిని అన్లాక్ చేయాలి."
       }
     ]
   },
   "booklet-folding-simulator": {
-    "title": "3D Booklet & Folding Simulator",
-    "metaDescription": "Impose multi-page PDFs into foldable print sheets, featuring 3D physical folding animations and saddle-stitch previews.",
+    "title": "3D బుక్లెట్ & ఫోల్డింగ్ సిమ్యులేటర్",
+    "metaDescription": "బహుళ పేజీల PDF లను 3D భౌతిక మడత యానిమేషన్లు మరియు సడల్-స్టీచ్ ప్రివ్యూలతో కూడిన మడతగల ప్రింట్ షీట్లలో అమర్చండి.",
     "keywords": [
       "3D imposition",
       "folding simulator",
@@ -6495,64 +6495,64 @@ export const toolContentTe: Record<string, ToolContent> = {
       "book layout",
       "print proofing"
     ],
-    "description": "\n      <p>3D Booklet & Folding Simulator is an advanced tool designed for print designers and publishing professionals. Traditional book layout requires calculating complex page overlays and imposition pagination sequences. This tool visualizes and automates that entire process.</p>\n      <p>Under the hood, our custom imposition algorithm maps a sequential PDF page list into standard print sheet layouts (such as 4-page half-folds, 8-page saddle stitches, or accordion folds), merging pages onto the front and back of large physical sheets.</p>\n      <p>On the front-end, we utilize pure CSS 3D Matrix transforms and spring-mass physics curves to animate sheet folding horizontally and vertically, delivering a physical-like binding preview with a high WOW factor.</p>\n    ",
+    "description": "<p>3D బుక్లెట్ & ఫోల్డింగ్ సిమ్యులేటర్ అనేది ప్రింట్ డిజైనర్లు మరియు ప్రచురణ నిపుణుల కోసం రూపొందించిన అధునాతన సాధనం. సాంప్రదాయ పుస్తక లేఅవుట్ సంక్లిష్ట పేజీ అతివ్యాప్తి మరియు విధానం పేజీల శ్రేణుల లెక్కింపును అవసరం. ఈ సాధనం మొత్తం ప్రక్రియను దృశ్యమానీకరించడం మరియు ఆటోమేట్ చేస్తుంది. </p> <p>హూడ్ కింద, మా కస్టమ్ విధానం అల్గోరిథం ఒక క్రమమైన PDF పేజీల జాబితాను ప్రామాణిక ప్రింట్ షీట్ లేఅవుట్లలో (అనగా 4 పేజీల సగం మడతలు, 8 పేజీల సడల్ కుట్లు లేదా అకార్డెయోన్ మడతలు), పెద్ద భౌతిక షీట్ల ముందు మరియు వెనుక భాగంలో విలీనం పేజీలను అందిస్తుంది. </p> <p> ముందు భాగంలో, మేము పవిత్ర CSS 3D మాట్రిక్స్ మార్పులు మరియు వసంత-వ్యస్తంభ భౌతిక వక్రాలను ఉపయోగించి, క్షితిజంగా మరియు నిలువుగా మడతనం చేసేందుకు, భౌతిక-వంటి ప్రి",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload PDF File",
-        "description": "Drag and drop the PDF document you wish to layout for printing."
+        "title": "PDF ఫైల్ను అప్లోడ్ చేయండి",
+        "description": "మీరు ప్రింట్ చేయడానికి లేఅవుట్ చేయాలనుకుంటున్న PDF పత్రాన్ని లాగండి మరియు డ్రాప్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Select Folding Layout",
-        "description": "Choose your preferred imposition scheme (e.g., 4-page fold, 8-page saddle stitch, 4-page accordion)."
+        "title": "మడత లేఅవుట్ను ఎంచుకోండి",
+        "description": "మీ ఇష్టపడే విధానాన్ని ఎంచుకోండి (ఉదా. 4 పేజీల మడత, 8 పేజీల సద్రపు కుట్టు, 4 పేజీల అకార్డెయోన్)."
       },
       {
         "step": 3,
-        "title": "Interactive 3D Preview",
-        "description": "Drag the slider to watch the sheet fold in 3D and inspect the final page numbering layout."
+        "title": "ఇంటరాక్టివ్ 3D ప్రివ్యూ",
+        "description": "షీట్ 3D లో మడవడానికి స్లయిడర్ను లాగండి మరియు చివరి పేజీ నంబర్ లేఅవుట్ను తనిఖీ చేయండి."
       },
       {
         "step": 4,
-        "title": "Generate Imposed PDF",
-        "description": "Click generate to download the rearranged and merged physical sheet PDF, ready for double-sided printing."
+        "title": "బలవంతపు PDF ను రూపొందించండి",
+        "description": "పునః వ్యవస్థీకృత మరియు విలీనం చేయబడిన భౌతిక షీట్ PDF ను డౌన్లోడ్ చేయడానికి జనరేట్ క్లిక్ చేయండి, ఇది డబుల్ సైడ్ ప్రింటింగ్ కోసం సిద్ధంగా ఉంది."
       }
     ],
     "useCases": [
       {
-        "title": "Brochure Prototyping",
-        "description": "Pre-visualize the folding sequence of tri-folds and pamphlets to prevent upsidedown pages after printing.",
+        "title": "బ్రోచర్ ప్రోటోటైపింగ్",
+        "description": "ముద్రణ తర్వాత పైకి క్రిందికి పేజీలను నివారించడానికి ముగ్గురు ముక్కలు మరియు పేపొల్లల మడత క్రమాన్ని ముందుగా దృశ్యమానీకరించండి.",
         "icon": "book-open"
       },
       {
-        "title": "Book Saddle-Stitching",
-        "description": "Generate imposed print sheets for multi-page magazines or booklets automatically.",
+        "title": "పుస్తక సడల్-స్టైకింగ్",
+        "description": "బహుళ పేజీల పత్రికలు లేదా బుక్లెట్ల కోసం నిర్దేశిత ముద్రణ షీట్లను స్వయంచాలకంగా సృష్టించండి.",
         "icon": "layers"
       },
       {
-        "title": "Print Shop Visual Aids",
-        "description": "Help clients visualize how pages are physically distributed and folded on print sheets.",
+        "title": "ప్రింట్ షాప్ దృశ్య సహాయక పరికరాలు",
+        "description": "పత్రికా పేజీలు ఎలా భౌతికంగా పంపిణీ చేయబడివుంటాయి మరియు ముద్రణ షీట్లలో ఎలా మడతారో ఖాతాదారులకు దృశ్యమానంగా చూపించడానికి సహాయం చేయండి.",
         "icon": "printer"
       }
     ],
     "faq": [
       {
-        "question": "What is \"Imposition\"?",
-        "answer": "Imposition is a fundamental step in prepress printing. Since commercial presses print on large sheets, pages are arranged out of order so that once printed, folded, and bound, the pages appear in the correct sequential order. This tool automatically calculates that layout."
+        "question": "\"ఇంపోజిషన్\" అంటే ఏమిటి?",
+        "answer": "ప్రీప్రెస్ ప్రింటింగ్లో ప్రాధమిక దశగా ఎంబెడెడ్ చేయడం. పెద్ద షీట్లలో వ్యాపార పత్రికలు ముద్రించినందున, పేజీలు క్రమంలో లేకపోవడంతో, ముద్రించిన తర్వాత, మడత మరియు ముడిపడిన తర్వాత, పేజీలు సరైన క్రమంలో కనిపిస్తాయి. ఈ సాధనం ఆటోమేటిక్గా ఆ లేఅవుట్ను లెక్కిస్తుంది."
       },
       {
-        "question": "Does the 3D preview alter my PDF content?",
-        "answer": "No, the original PDF content is merely rendered as texture mappings onto the 3D sheet. The generated PDF only adjusts page order and placement; text and graphic qualities are kept intact."
+        "question": "3D ప్రివ్యూ నా PDF కంటెంట్ను మార్చగలదా?",
+        "answer": "లేదు, అసలు PDF కంటెంట్ను 3D షీట్ మీద వస్త్ర మ్యాప్లుగా మాత్రమే ప్రదర్శిస్తారు. ఉత్పత్తి చేయబడిన PDF పేజీల క్రమాన్ని మరియు ప్లేస్మెంట్ను మాత్రమే సర్దుబాటు చేస్తుంది; టెక్స్ట్ మరియు గ్రాఫిక్ నాణ్యతలు సంపూర్ణంగా ఉంటాయి."
       },
       {
-        "question": "What if my PDF page count is not a multiple of 4 or 8?",
-        "answer": "The optimizer automatically appends blank pages at the end to satisfy the mathematical page-count requirements of the selected folding layout."
+        "question": "నా PDF పేజీల సంఖ్య 4 లేదా 8 యొక్క గుణకం కాకపోతే?",
+        "answer": "ఎంచుకున్న మడత లేఅవుట్ యొక్క గణిత పేజీల సంఖ్య అవసరాలను తీర్చడానికి ఆప్టిమైజర్ స్వయంచాలకంగా ఖాళీ పేజీలను చివరిలో జోడిస్తుంది."
       }
     ]
   },
   "pdf-to-slide": {
-    "title": "PDF to Slide",
-    "metaDescription": "Intelligently analyze PDF outlines, extract vector charts, and reconstruct them into fully-editable PPTX presentations.",
+    "title": "PDF కు స్లైడ్",
+    "metaDescription": "తెలివిగా PDF ఆకృతులను విశ్లేషించండి, వెక్టర్ చార్ట్లను సంగ్రహించండి, మరియు వాటిని పూర్తిగా సవరించదగిన PPTX ప్రదర్శనలుగా పునర్నిర్మించండి.",
     "keywords": [
       "PDF to PPT",
       "slide reconstruction",
@@ -6560,59 +6560,59 @@ export const toolContentTe: Record<string, ToolContent> = {
       "academic presentation",
       "PPTX compiler"
     ],
-    "description": "\n      <p>AI PDF-to-Slide Reconstructor breathes new life into static PDF documents, transforming them into modern, highly-customizable PowerPoint slides (PPTX).</p>\n      <p>The tool uses an advanced layout outline extractor that automatically parses document heading levels, paragraph lines, and font weights to establish a logical slide framework. It also isolates vector charts and high-resolution tables, stripping background artifacts to embed them cleanly as independent editable assets.</p>\n      <p>All PPTX outputs are built using standard Office Open XML elements, meaning all text remains fully editable and vectors do not lose resolution. The front-end showcases a fluid \"starfield\" card transition animation that visualizes the reconstruction in an engaging manner.</p>\n    ",
+    "description": "<p>AI PDF-to-Slide Reconstructor స్టాటిక్ PDF పత్రాలకు కొత్త జీవితాన్ని ఇస్తుంది, వాటిని ఆధునిక, అత్యంత అనుకూలీకరించదగిన PowerPoint స్లైడ్లుగా (PPTX) మారుస్తుంది.</p> <p>ఈ సాధనం ఆధునిక లేఅవుట్ స్లైడ్ ఎక్స్ట్రాక్టర్ను ఉపయోగిస్తుంది, ఇది తార్కిక స్లైడ్ ఫ్రేమ్వర్క్ను స్థాపించడానికి పత్ర శీర్షిక స్థాయిలు, పేరా లైన్లు మరియు ఫాంట్ బరువులను స్వయంచాలకంగా విశ్లేషిస్తుంది. ఇది వెక్టర్ చార్ట్లు మరియు అధిక రిజల్యూషన్ పట్టికలను కూడా వేరు చేస్తుంది, వాటిని స్వతంత్ర సవరించదగిన ఆస్తులుగా శుభ్రంగా పొందుపరచడానికి నేపథ్య కళాఖండాలను తొలగిస్తుంది. </p> <p><p>అన్ని PPTX అవుట్పుట్లు ప్రామాణిక Office Open XML ఎలిమెంట్లను ఉపయోగించి నిర్మించబడ్డాయి, అంటే అన్ని టెక్స్ట్ పూర్తిగా సవరించదగినది మరియు వెక్టర్లు కోల్పోవు. ముందు భాగంలో ప్రకాశవంతమైన \"స్టార్ఫీల్డ్\" కార్డ్ పరివర్తన యానిమేషన్ను ప్రదర్శిస్తుంది, ఇది పునర్నిర్నిర్",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Academic/Business PDF",
-        "description": "Upload a PDF document that contains structured sections and diagrams."
+        "title": "అకాడెమిక్/బిజినెస్ PDF ని అప్లోడ్ చేయండి",
+        "description": "నిర్మాణాత్మక విభాగాలు మరియు రేఖాచిత్రాలను కలిగి ఉన్న PDF పత్రాన్ని అప్లోడ్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Analyze Slide Outlines",
-        "description": "Inspect the extracted slide structure, adjust titles, or delete unneeded card blocks."
+        "title": "స్లైడ్ ల యొక్క రూపురేఖలను విశ్లేషించండి",
+        "description": "సేకరించిన స్లైడ్ నిర్మాణాన్ని తనిఖీ చేయండి, శీర్షికలను సర్దుబాటు చేయండి లేదా అనవసరమైన కార్డ్ బ్లాక్లను తొలగించండి."
       },
       {
         "step": 3,
-        "title": "Reconstruct to PPTX",
-        "description": "Start the compilation engine to receive a standard, editable presentation file."
+        "title": "PPTX కు పునర్నిర్మించడం",
+        "description": "ప్రామాణిక, సవరించదగిన ప్రదర్శన ఫైల్ను స్వీకరించడానికి కంపైలింగ్ ఇంజిన్ను ప్రారంభించండి."
       }
     ],
     "useCases": [
       {
-        "title": "Research Paper Presentation",
-        "description": "Convert academic journal PDFs, text structures, and vector diagrams into slide decks ready for talks.",
+        "title": "పరిశోధన పత్రాల ప్రదర్శన",
+        "description": "విద్యా పత్రికల PDF లు, టెక్స్ట్ నిర్మాణాలు, వెక్టర్ రేఖాచిత్రాలను చర్చలకు సిద్ధంగా ఉన్న స్లైడ్ డెక్లుగా మార్చండి.",
         "icon": "graduation-cap"
       },
       {
-        "title": "Business Report Summary",
-        "description": "Distill massive annual corporate reports into clean, bulleted presentation drafts instantly.",
+        "title": "వ్యాపార నివేదిక సారాంశం",
+        "description": "భారీ వార్షిక కార్పొరేట్ నివేదికలను శుభ్రమైన, బుల్లెట్ చేసిన ప్రదర్శన ముసాయిదాలుగా తక్షణమే డిస్టైల్ చేయండి.",
         "icon": "presentation"
       },
       {
-        "title": "Multi-Device Demos",
-        "description": "Avoid copying screenshots manually. Get a clean, fully-editable layout framework in seconds.",
+        "title": "బహుళ పరికరాల ప్రదర్శనలు",
+        "description": "స్క్రీన్షాట్లను మానవీయంగా కాపీ చేయకుండా ఉండండి. సెకన్లలోనే శుభ్రమైన, పూర్తిగా సవరించదగిన లేఅవుట్ ఫ్రేమ్వర్క్ పొందండి.",
         "icon": "laptop"
       }
     ],
     "faq": [
       {
-        "question": "Are the slides editable in Microsoft Office?",
-        "answer": "Yes. The files are generated natively in memory according to the official Office Open XML (OOXML) specification. Texts, tables, and placeholders are fully interactive in PowerPoint, Keynote, and WPS."
+        "question": "స్లైడ్లను మైక్రోసాఫ్ట్ ఆఫీస్ లో సవరించవచ్చా?",
+        "answer": "అవును. ఆఫీస్ ఓపెన్ XML (OOXML) యొక్క అధికారిక వివరణ ప్రకారం ఫైల్స్ మెమరీలో స్థానికంగా ఉత్పత్తి చేయబడతాయి. పవర్పాయింట్, కీనోట్ మరియు WPS లో టెక్స్ట్లు, పట్టికలు మరియు ప్లేస్హోల్డర్లు పూర్తిగా ఇంటరాక్టివ్గా ఉంటాయి."
       },
       {
-        "question": "How are charts extracted?",
-        "answer": "The engine scans vector paths and raster layers in the PDF, detects bounded areas representing graphs, and clips them out as standalone SVG nodes or high-DPI images."
+        "question": "చార్టులు ఎలా తీయబడతాయి?",
+        "answer": "ఇంజిన్ PDF లో వెక్టర్ మార్గాలు మరియు రాస్టర్ పొరలను స్కాన్ చేస్తుంది, గ్రాఫ్లను సూచించే సరిహద్దు ప్రాంతాలను గుర్తించి, వాటిని స్వతంత్ర SVG నోడ్లు లేదా అధిక DPI చిత్రాలుగా క్లిప్ చేస్తుంది."
       },
       {
-        "question": "Does this work on scanned documents?",
-        "answer": "For scanned PDFs lacking actual text layers, we recommend running our OCR tool first before passing the file to the Slide Reconstructor."
+        "question": "ఇది స్కాన్ పత్రాలు పని చేస్తుంది?",
+        "answer": "వాస్తవ టెక్స్ట్ పొరలు లేని స్కాన్ చేసిన PDF ల కోసం, ఫైల్ను స్లైడ్ రికన్స్ట్రక్టర్కు బదిలీ చేయడానికి ముందు మా OCR సాధనాన్ని మొదట అమలు చేయాలని మేము సిఫార్సు చేస్తున్నాము."
       }
     ]
   },
   "form-logic-designer": {
-    "title": "Form Logic Designer",
-    "metaDescription": "Design dynamic behaviors using a glassmorphic node canvas and inject interactive AcroJS logic into PDF forms.",
+    "title": "రూపకల్పన తార్కిక డిజైనర్",
+    "metaDescription": "గ్లాస్మోర్ఫిక్ నోడ్ కన్వాస్ ఉపయోగించి డైనమిక్ ప్రవర్తనలను రూపొందించండి మరియు ఇంటరాక్టివ్ అక్రోజెస్ లాజిక్ను PDF ఫారమ్లలోకి ఇంజెక్ట్ చేయండి.",
     "keywords": [
       "PDF form logic",
       "AcroJS injection",
@@ -6624,55 +6624,55 @@ export const toolContentTe: Record<string, ToolContent> = {
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Interactive PDF",
-        "description": "Provide a PDF file that already has active form fields (AcroForm)."
+        "title": "ఇంటరాక్టివ్ PDF ని అప్లోడ్ చేయండి",
+        "description": "ఇప్పటికే యాక్టివ్ ఫారం ఫీల్డ్లు (అక్రోఫారం) ఉన్న PDF ఫైల్ను అందించండి."
       },
       {
         "step": 2,
-        "title": "Map Out Logic in Canvas",
-        "description": "Connect fields as nodes. Link output events (change, blur) to target actions (show, hide, calculate, disable)."
+        "title": "కాన్వాస్ లో తర్కాన్ని మ్యాప్ చేయండి",
+        "description": "ఫీల్డ్లను నోడ్లుగా కనెక్ట్ చేయండి. లక్ష్య చర్యలకు (ప్రదర్శన, దాచడం, లెక్కించడం, నిలిపివేయడం) అవుట్పుట్ సంఘటనలను లింక్ చేయండి."
       },
       {
         "step": 3,
         "title": "సంకలనం మరియు డౌన్లోడ్",
-        "description": "Inject the compiled JavaScript logic into the PDF dictionary and save the final smart document."
+        "description": "సంకలనం చేసిన జావాస్క్రిప్ట్ తర్కాన్ని PDF నిఘంటువులోకి చొప్పించి, చివరి స్మార్ట్ డాక్యుమెంట్ను సేవ్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Smart Sales Contracts",
-        "description": "Show or hide supplementary input fields dynamically based on the client's selected terms.",
+        "title": "స్మార్ట్ సేల్స్ కాంట్రాక్టులు",
+        "description": "క్లయింట్ ఎంచుకున్న నిబంధనల ఆధారంగా అదనపు ఇన్పుట్ ఫీల్డ్లను డైనమిక్గా ప్రదర్శించండి లేదా దాచండి.",
         "icon": "file-signature"
       },
       {
-        "title": "Automated Expense Forms",
-        "description": "Sum up multiple expense lines and compute taxes dynamically without manual calculation.",
+        "title": "ఆటోమేటెడ్ ఖర్చు రూపాలు",
+        "description": "బహుళ వ్యయ రేఖలను సంగ్రహించి, ఆదాయపు పన్నులను మానవీయంగా లెక్కించకుండా డైనమిక్గా లెక్కించండి.",
         "icon": "calculator"
       },
       {
-        "title": "Interactive Questionnaires",
-        "description": "Skip irrelevant questions based on previous answers, providing a cleaner mobile filling experience.",
+        "title": "ఇంటరాక్టివ్ ప్రశ్నాపత్రాలు",
+        "description": "మునుపటి సమాధానాల ఆధారంగా అసంబద్ధమైన ప్రశ్నలను దాటవేయండి, ఇది మరింత శుభ్రమైన మొబైల్ నింపే అనుభవాన్ని అందిస్తుంది.",
         "icon": "form-input"
       }
     ],
     "faq": [
       {
-        "question": "Do I need a PDF with pre-existing fields?",
-        "answer": "Yes. This tool is designed to bind logical rules to existing fields. If your PDF does not have interactive fields, use our Form Creator tool to add inputs and check boxes first."
+        "question": "నాకు ఇప్పటికే ఉన్న ఫీల్డ్లతో PDF అవసరమా?",
+        "answer": "అవును. ఈ సాధనం ఇప్పటికే ఉన్న ఫీల్డ్లకు తార్కిక నియమాలను కట్టుబడి ఉంచడానికి రూపొందించబడింది. మీ PDF లో ఇంటరాక్టివ్ ఫీల్డ్లు లేకపోతే, మొదట ఇన్పుట్లను జోడించడానికి మరియు చెక్ బాక్స్లను ఎంచుకోవడానికి మా ఫారం సృష్టికర్త సాధనాన్ని ఉపయోగించండి."
       },
       {
-        "question": "Will this logic run on any PDF reader?",
-        "answer": "It runs on all PDF readers that comply with Adobe PDF standards and support Acrobat JavaScript (such as Adobe Acrobat Reader, Foxit Reader, and major web browsers). Minimalist mobile readers might support basic actions only."
+        "question": "ఈ తార్కికత ఏదైనా PDF రీడర్లో అమలు అవుతుందా?",
+        "answer": "ఇది అడోబ్ PDF ప్రమాణాలకు అనుగుణంగా ఉన్న అన్ని PDF రీడర్లలో నడుస్తుంది మరియు అడోబ్ అక్రోబాట్ జావాస్క్రిప్ట్ (అడోబ్ అక్రోబాట్ రీడర్, ఫాక్సిట్ రీడర్ మరియు ప్రధాన వెబ్ బ్రౌజర్లు వంటివి) మద్దతు ఇస్తుంది. కనీస మొబైల్ రీడర్లకు ప్రాథమిక చర్యలు మాత్రమే మద్దతు ఇవ్వవచ్చు."
       },
       {
-        "question": "Does this affect paper printing?",
-        "answer": "Not at all. The injected scripts only run on-screen during form completion. When printing, the current state of fields is printed statically without any node visualization."
+        "question": "ఇది కాగితపు ముద్రణకు ప్రభావం చూపుతుందా?",
+        "answer": "ఏదీ లేదు. ఇంజెక్ట్ చేయబడిన స్క్రిప్ట్లు ఫారం పూర్తయినప్పుడు మాత్రమే తెరపై అమలు అవుతాయి. ప్రింటింగ్ చేసేటప్పుడు, ఏ నోడ్ దృశ్యమానత లేకుండా ఫీల్డ్ల ప్రస్తుత స్థితి స్థిరంగా ముద్రించబడుతుంది."
       }
     ]
   },
   "eink-optimizer": {
-    "title": "e-Ink Reader Optimizer",
-    "metaDescription": "Optimize PDFs for e-Ink screens via background clearing, Otsu binarization, and morphological text dilation.",
+    "title": "ఇ-ఇంక్ రీడర్ ఆప్టిమైజర్",
+    "metaDescription": "ఇ-ఇంక్ స్క్రీన్ల కోసం PDF లను నేపథ్య క్లియర్, Otsu బైనరీకరణ, మరియు మూర్ఫాలజికల్ టెక్స్ట్ విస్తరణ ద్వారా ఆప్టిమైజ్ చేయండి.",
     "keywords": [
       "eink optimizer",
       "binarization",
@@ -6680,59 +6680,59 @@ export const toolContentTe: Record<string, ToolContent> = {
       "eye-friendly reading",
       "otsu threshold"
     ],
-    "description": "\n      <p>e-Ink Reader Optimizer is a must-have tool custom-made for e-Reader enthusiasts using Kindle, Onyx Boox, Kobo, or other e-paper devices.</p>\n      <p>Many scanned PDF e-books suffer from faint lettering, muddy gray backgrounds, noise, or scan shadows when viewed on e-Ink screens. This tool analyzes gray-value histograms and applies Otsu's Binarization Thresholding to separate text from background, converting gray backdrops to clean white.</p>\n      <p>Additionally, it integrates morphological dilation to bold and thicken thin, faded characters, providing crisp, high-contrast typography. The inertia-damped contrast slider allows you to fine-tune the paper-like contrast in real-time.</p>\n    ",
+    "description": "<p>ఇ-ఇంక్ రీడర్ ఆప్టిమైజర్ అనేది కిండ్ల్, ఒనిక్స్ బుక్స్, కోబో లేదా ఇతర ఇ-పేపర్ పరికరాలను ఉపయోగించి ఇ-రీడర్ అభిమానుల కోసం అనుకూలీకరించిన ఒక తప్పనిసరి సాధనం. </p> <p>అనేక స్కాన్ చేసిన PDF ఇ-పుస్తకాలు ఇ-ఇంక్ స్క్రీన్లలో చూసినప్పుడు మసకైన లేఖలు, మట్టి గ్రే నేపథ్యాలు, శబ్దం లేదా స్కాన్ నీడలు బాధపడుతున్నాయి. ఈ సాధనం బూడిద-అనుకూలమైన హిస్టోగ్రామ్లను విశ్లేషిస్తుంది మరియు బూడిద నేపథ్యంలో ఉన్న టెక్స్ట్ను వేరు చేయడానికి Otsu యొక్క బైనరీకరణ ప్రవేశాన్ని వర్తిస్తుంది, బూడిద నేపథ్యాలను శుభ్రంగా తెలుపుగా మారుస్తుంది. </p> <p>అదనంగా, ఇది మూర్ఖమైన మరియు మందమైన, మసకైన అక్షరాలకు మూర్ఖకృత వ్యాకరణాన్ని సమగ్రపరుస్తుంది, స్పష్టమైన, అధిక-నిష్పేద రచనను అందిస్తుంది. కాంట్రాస్ట్-మంద్య",
     "howToUse": [
       {
         "step": 1,
         "title": "స్కాన్ చేసిన PDF ని అప్లోడ్ చేయండి",
-        "description": "Upload e-books or scanned documents with faint text or gray backgrounds."
+        "description": "మందపాటి టెక్స్ట్ లేదా బూడిద నేపథ్యాలతో ఇ-బుక్లు లేదా స్కాన్ చేసిన పత్రాలను అప్లోడ్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Adjust Contrast Slider",
-        "description": "Drag the damped slider to balance background removal and character bolding in real-time."
+        "title": "కాంట్రాస్ట్ స్లైడర్ను సర్దుబాటు చేయండి",
+        "description": "రియల్ టైమ్లో నేపథ్య తొలగింపు మరియు పాత్ర బోల్డింగ్ను సమతుల్యం చేయడానికి తడి స్లైడర్ను లాగండి."
       },
       {
         "step": 3,
-        "title": "Optimize and Download",
-        "description": "Process the entire PDF to generate a high-contrast, eye-friendly document tailored for e-Ink."
+        "title": "ఆప్టిమైజ్ చేసి డౌన్లోడ్ చేసుకోండి",
+        "description": "ఇ-ఇంక్ కోసం రూపొందించిన అధిక-వ్యతిరేక, కంటికి అనుకూలమైన పత్రాన్ని రూపొందించడానికి మొత్తం PDF ని ప్రాసెస్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Ancient Manuscript Restoration",
-        "description": "Thicken faded text in scans of historical books or handwritten manuscripts to make them readable.",
+        "title": "ప్రాచీన గ్రంథాల పునరుద్ధరణ",
+        "description": "చారిత్రాత్మక పుస్తకాల లేదా చేతిరచనల స్కాన్లలో మందపాటి మసకబారిన వచనం వాటిని చదవగలిగేలా చేయడానికి.",
         "icon": "scroll"
       },
       {
-        "title": "Exam Sheet Clean-up",
-        "description": "Bleach background shadows from photocopied or photographed exams, returning clean black text on white paper.",
+        "title": "పరీక్షా పత్రం శుభ్రపరచడం",
+        "description": "ఫోటో కాపీలు లేదా ఫోటోలు తీసిన పరీక్షల నుండి నేపథ్య నీడలను బ్లీచ్ చేయండి, తెలుపు కాగితంపై శుభ్రమైన నల్ల వచనాన్ని తిరిగి ఇవ్వండి.",
         "icon": "file-text"
       },
       {
-        "title": "E-paper Device Tailoring",
-        "description": "Convert colored PDFs to optimized grayscale, preventing messy, dithering artifacts on monochrome screens.",
+        "title": "ఇ-ప్యాపర్ పరికరాల కుట్టు",
+        "description": "రంగుల PDF లను గ్రేస్ స్కేల్ కు అనుకూలీకరించండి, ఇది మోనోక్రోమ్ స్క్రీన్లలో గందరగోళంగా, కదిలే కళాఖండాలను నిరోధించగలదు.",
         "icon": "tablet"
       }
     ],
     "faq": [
       {
-        "question": "How does the \"character bolding\" work?",
-        "answer": "In image processing, this is called dilation. It uses a structuring matrix to expand character margins by a pixel, physically thickening faint strokes to make them legible."
+        "question": "\"చరక్రమం బౌలింగ్\" ఎలా పనిచేస్తుంది?",
+        "answer": "చిత్ర ప్రాసెసింగ్లో, దీనిని విస్తరణ అని పిలుస్తారు. ఇది ఒక పిక్సెల్ ద్వారా అక్షర మార్జిన్లను విస్తరించడానికి నిర్మాణ మాట్రిక్స్ను ఉపయోగిస్తుంది, వాటిని చదవగలిగేలా తేలికపాటి స్ట్రోక్లను భౌతికంగా మందగించడం."
       },
       {
-        "question": "Will this process bloat the file size?",
-        "answer": "Quite the opposite. By binarizing complex color/grayscale images to simple black-and-white layouts, standard compression (like CCITT Group 4) can shrink the PDF file size significantly."
+        "question": "ఈ ప్రక్రియ ఫైల్ పరిమాణాన్ని పెంపొందించుకుందా?",
+        "answer": "దీనికి విరుద్ధంగా. సంక్లిష్ట రంగు / బూడిద స్థాయి చిత్రాలను సాధారణ నలుపు-తెలుపు లేఅవుట్లకు బైనరీకరించడం ద్వారా, ప్రామాణిక కంప్రెషన్ (CCITT గ్రూప్ 4) PDF ఫైల్ పరిమాణాన్ని గణనీయంగా తగ్గిస్తుంది."
       },
       {
-        "question": "Does this support native text PDFs?",
-        "answer": "Yes. Native vector PDFs are rasterized at high resolutions in the background, optimized, and compiled back, ensuring unified high-contrast reading."
+        "question": "ఇది స్థానిక టెక్స్ట్ PDF లకు మద్దతు ఇస్తుందా?",
+        "answer": "అవును. నేటివ్ వెక్టర్ PDF లు నేపథ్యంలో అధిక రిజల్యూషన్ వద్ద రాస్టరీ చేయబడతాయి, ఆప్టిమైజ్ చేయబడతాయి మరియు తిరిగి కంపైల్ చేయబడతాయి, ఇది ఏకీకృత అధిక కాంట్రాస్ట్ పఠనాన్ని నిర్ధారిస్తుంది."
       }
     ]
   },
   "cert-cryptor": {
-    "title": "Certificate Encrypt & Sign",
-    "metaDescription": "Secure PDFs using asymmetric public-key certificate encryption, paired with a 3D gold wax-seal imprint and PKCS#7 signature.",
+    "title": "సర్టిఫికేట్ ఎన్క్రిప్ట్ & సంతకం",
+    "metaDescription": "3D బంగారు సిల్ ముద్ర ముద్ర మరియు PKCS #7 సంతకం తో జతచేయబడిన అసమాన పబ్లిక్ కీ సర్టిఫికేట్ గుప్తీకరణను ఉపయోగించి సురక్షితమైన PDF లు.",
     "keywords": [
       "certificate encryption",
       "wax seal signature",
@@ -6740,64 +6740,64 @@ export const toolContentTe: Record<string, ToolContent> = {
       "asymmetric crypt",
       "PKCS7 signature"
     ],
-    "description": "\n      <p>3D Wax-Seal & Certificate Cryptor provides military-grade security and premium physical-grade aesthetics for sensitive corporate files, degrees, or agreements.</p>\n      <p>Technically, it offers asymmetric public-key encryption:  only the holder of the matching private key (.pfx) can decrypt it. It also generates standard PKCS#7 digital signatures to ensure document tamper-proof integrity.</p>\n      <p>Visually, we feature a 3D physical gold or red wax-seal stamp. When you sign, a beautifully rendered stamp descends with a satisfying mechanical sound, leaving a 3D wax seal with realistic normal-mapped height variations and wax run-offs on the page, surrounded by glowing cryptographic tracks.</p>\n    ",
+    "description": "<p>3D వాక్స్-సీల్ & సర్టిఫికేట్ క్రిప్టర్ సున్నితమైన కార్పొరేట్ ఫైల్లు, డిగ్రీలు లేదా ఒప్పందాల కోసం సైనిక-గ్రేడ్ భద్రత మరియు ప్రీమియం భౌతిక-గ్రేడ్ సౌందర్యాలను అందిస్తుంది. </p> <p>సాంకేతికంగా, ఇది అసమాన పబ్లిక్-కీ గుప్తీకరణను అందిస్తుందిః సరిపోయే ప్రైవేట్ కీ (.pfx) యొక్క హోల్డర్ మాత్రమే దాన్ని గుప్తీకరించవచ్చు. ఇది పత్రం యొక్క తారుమారు నిరోధక సమగ్రతను నిర్ధారించడానికి ప్రామాణిక PKCS # 7 డిజిటల్ సంతకాలను కూడా ఉత్పత్తి చేస్తుంది. </p> <p> దృశ్యమానంగా, మేము 3D భౌతిక బంగారం లేదా ఎరుపు వాక్స్-సీల్ను కలిగి ఉన్నాము. మీరు సంతకం చేసినప్పుడు, అందంగా ప్రదర్శించబడిన స్టాంప్ సంతకం సంతృప్తికరమైన యాంత్రిక ధ్వనితో దిగుతుంది, ఇది ఒక 3D సీల్ను వదిలివేస్తుంది, ఇది వాస్తవిక సాధారణ మ్యాప్ ఎత్తు వైవిధ్యాలు మరియు వాక్స్-ఆఫ్లను పేజీలో, ప్రకాశించే క్రి",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload PDF and Cert",
-        "description": "Add your PDF and import your signing certificate (.pfx) or the recipient's public certificate (.cer)."
+        "title": "PDF మరియు Cert ని అప్లోడ్ చేయండి",
+        "description": "మీ PDF ను జోడించి మీ సంతకం సర్టిఫికేట్ (.pfx) లేదా గ్రహీత యొక్క పబ్లిక్ సర్టిఫికేట్ (.cer) ను దిగుమతి చేసుకోండి."
       },
       {
         "step": 2,
-        "title": "Place the 3D Stamp",
-        "description": "Drag and locate the seal on the document preview, and pick a wax style (e.g., gold, crimson)."
+        "title": "3D స్టాంప్ను ఉంచండి",
+        "description": "పత్రం ప్రివ్యూలో ముద్రను లాగండి మరియు గుర్తించండి మరియు ఒక వెస్క్ శైలిని ఎంచుకోండి (ఉదా, బంగారం, కర్మిడ్)."
       },
       {
         "step": 3,
-        "title": "Press and Sign",
-        "description": "Click execute to watch the 3D wax-seal imprint ceremony, generating a physical-grade digital signature."
+        "title": "పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా పత్రికా",
+        "description": "3D సిల్ ముద్రణ వేడుకను చూడటానికి ఎగ్జిక్యూట్ క్లిక్ చేయండి, భౌతిక-గ్రేడ్ డిజిటల్ సంతకాన్ని ఉత్పత్తి చేస్తుంది."
       },
       {
         "step": 4,
-        "title": "Download Secured PDF",
-        "description": "Save the output document, now cryptographically locked and stamped."
+        "title": "సురక్షిత PDF డౌన్లోడ్ చేసుకోండి",
+        "description": "అవుట్పుట్ పత్రాన్ని సేవ్ చేయండి, ఇప్పుడు క్రిప్టోగ్రాఫిక్ లాక్ మరియు స్టాంప్ చేయబడింది."
       }
     ],
     "useCases": [
       {
-        "title": "Diplomas and Certificates",
-        "description": "Affix highly-valued 3D wax seal badges to digital diplomas and awards, backed by genuine digital signatures.",
+        "title": "డిప్లొమాలు మరియు సర్టిఫికేట్లు",
+        "description": "డిజిటల్ డిప్లొమాలు, అవార్డులకు, నిజమైన డిజిటల్ సంతకాలతో మద్దతు ఇవ్వబడిన, అత్యంత విలువైన 3D వెన్స్ సీల్ బ్యాడ్జ్లను జోడించండి.",
         "icon": "award"
       },
       {
-        "title": "Confidential Agreements",
-        "description": "Lock sensitive contracts using the client's public certificate so that only their secure physical keycard can unlock it.",
+        "title": "రహస్య ఒప్పందాలు",
+        "description": "క్లయింట్ యొక్క పబ్లిక్ సర్టిఫికేట్ ఉపయోగించి సున్నితమైన ఒప్పందాలను లాక్ చేయండి, తద్వారా వారి సురక్షితమైన భౌతిక కీకార్డ్ మాత్రమే దాన్ని అన్లాక్ చేయవచ్చు.",
         "icon": "shield-alert"
       },
       {
-        "title": "Official Press Releases",
-        "description": "Digitally sign public announcements to prevent malicious text edits or spoofing.",
+        "title": "అధికారిక పత్రికా ప్రకటనలు",
+        "description": "హానికరమైన టెక్స్ట్ సవరణలు లేదా స్పూఫింగ్ను నివారించడానికి ప్రజా ప్రకటనలను డిజిటల్గా సంతకం చేయండి.",
         "icon": "stamp"
       }
     ],
     "faq": [
       {
-        "question": "Is the wax seal just an image or a real signature?",
-        "answer": "Both. The system renders an incredibly realistic 3D wax imprint with normal-mapped depth (visual layer) and encodes an authentic, tamper-proof PKCS#7 cryptographic signature inside the PDF (data layer)."
+        "question": "వెస్ సీల్ కేవలం ఒక చిత్రం లేదా నిజమైన సంతకం?",
+        "answer": "ఈ వ్యవస్థ సాధారణ మ్యాప్ లోతు (వీక్షణ పొర) తో చాలా వాస్తవిక 3D వాక్స్ ముద్రను అందిస్తుంది మరియు PDF (డేటా పొర) లోపల ప్రామాణికమైన, తారుమారు నిరోధక PKCS #7 క్రిప్టోగ్రాఫిక్ సంతకాన్ని కోడ్ చేస్తుంది."
       },
       {
-        "question": "What is \"Certificate-based Encryption\"?",
-        "answer": "It is a passwordless encryption technique. You encrypt the file using the recipient's public key. The reader automatically searches for their local private certificate to decrypt the file seamlessly, ensuring robust security."
+        "question": "\"సర్టిఫికేట్ ఆధారిత ఎన్క్రిప్షన్\" అంటే ఏమిటి?",
+        "answer": "ఇది పాస్వర్డ్ లేని ఎన్క్రిప్షన్ టెక్నిక్. మీరు గ్రహీత యొక్క పబ్లిక్ కీని ఉపయోగించి ఫైల్ను ఎన్క్రిప్ట్ చేస్తారు. రీడర్ స్వయంచాలకంగా వారి స్థానిక ప్రైవేట్ సర్టిఫికేట్ కోసం శోధిస్తాడు. ఫైల్ను సజావుగా డీక్రిప్ట్ చేయడానికి, బలమైన భద్రతను నిర్ధారిస్తుంది."
       },
       {
-        "question": "Can I customize the stamp design?",
-        "answer": "Yes. We provide multiple designs like the PDFCraft watermark or a Royal crest, and you can adjust the wax melting radius and normal-map indentation depth in the panel."
+        "question": "నేను స్టాంప్ డిజైన్ అనుకూలీకరించవచ్చు?",
+        "answer": "అవును. మేము PDFCraft జలచిహ్నం లేదా ఒక రాయల్ క్రెస్ట్ వంటి బహుళ నమూనాలను అందిస్తాము, మరియు మీరు పానెల్ లో సిర త్రాగుతున్న రేడియస్ మరియు సాధారణ మ్యాప్ లోతు ఇండెంట్షన్ సర్దుబాటు చేయవచ్చు."
       }
     ]
   },
   "passport-id-composer": {
-    "title": "Double-Sided ID Composer",
-    "metaDescription": "Instantly compose both front and back sides of ID cards or passports onto a single A4 page with optional anti-counterfeit watermarks.",
+    "title": "డబుల్ సైడెడ్ ఐడి కంపోజర్",
+    "metaDescription": "ఐడి కార్డులు లేదా పాస్పోర్ట్ల ముందు మరియు వెనుక వైపులా ఒకే A4 పేజీలో నకిలీ వ్యతిరేక వాటర్మార్క్లతో తక్షణమే సమీకరించండి.",
     "keywords": [
       "ID card composer",
       "passport imposition",
@@ -6805,59 +6805,59 @@ export const toolContentTe: Record<string, ToolContent> = {
       "identity card printing",
       "anti-counterfeit watermark"
     ],
-    "description": "\n      <p>The Passport & ID Double-sided Composer is an incredibly useful productivity utility for standard business and personal operations.</p>\n      <p>When applying for bank accounts, onboarding, or signing agreements, we frequently need copies of both sides of ID cards. This tool accepts front/back images or PDF pages and precisely arranges them onto a single A4 page complying with national standard layout resolutions.</p>\n      <p>Furthermore, you can customize overlapping translucent anti-counterfeit watermarks (e.g. \"FOR ONBOARDING ONLY\") to prevent unauthorized document reuse. It even features a 3D glow laser sweep copier scanner door visual effect to deliver premium feedback.</p>\n    ",
+    "description": "<p>పాస్పోర్ట్ & ఐడి డబుల్ సైడెడ్ కంపోజర్ అనేది ప్రామాణిక వ్యాపార మరియు వ్యక్తిగత కార్యకలాపాలకు చాలా ఉపయోగకరమైన ఉత్పాదకత వినియోగము. </p> <p>బ్యాంక్ ఖాతాల కోసం దరఖాస్తు చేసేటప్పుడు, ఆన్బోర్డింగ్ లేదా ఒప్పందాలు సంతకం చేసేటప్పుడు, మాకు తరచుగా ఐడి కార్డుల యొక్క రెండు వైపుల కాపీలు అవసరం. ఈ సాధనం ముందు / వెనుక చిత్రాలు లేదా PDF పేజీలను అంగీకరిస్తుంది మరియు జాతీయ ప్రామాణిక లేఅవుట్ తీర్మానాలకు అనుగుణంగా వాటిని ఒకే A4 పేజీలో ఖచ్చితంగా అమర్చుతుంది. </p> <p> అంతేకాకుండా, అధిక నాణ్యత గల అభిప్రాయాన్ని అందించడానికి మీరు అతివ్యాప్తి చెందుతున్న పారదర్శక వ్యతిరేక నకిలీ వాటర్మార్క్లను (ఉదా. \" ONBOARDING ONLY\") అనుకూలీకరించవచ్చు. అనధికార పత్రాల పునర్వినియోగాన్ని నివారించడానికి. ఇది 3D గ్లోప్ లేజర్ స్కానర్ దృశ్య ప్రభావంతో కూడా ఉంటుంది. </p> ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload ID files",
-        "description": "Upload front and back photos/scans of your ID or passport (up to 2 files)."
+        "title": "ID ఫైళ్ళను అప్లోడ్ చేయండి",
+        "description": "మీ గుర్తింపు కార్డు లేదా పాస్పోర్ట్ యొక్క ముందు మరియు వెనుక ఫోటోలు/స్కాన్లను అప్లోడ్ చేయండి (అప్ వరకు 2 ఫైళ్లు)."
       },
       {
         "step": 2,
-        "title": "Configure secure watermark",
-        "description": "Input custom text overlay to restrict unauthorized document replication."
+        "title": "సురక్షిత వాటర్మార్క్ను కాన్ఫిగర్ చేయండి",
+        "description": "అనధికార పత్రాల పునరుత్పత్తిని పరిమితం చేయడానికి అనుకూలీకరించిన టెక్స్ట్ ఓవర్లేను ఇన్పుట్ చేయండి."
       },
       {
         "step": 3,
-        "title": "Compose & download",
-        "description": "Click execute to generate a single-page print-ready A4 PDF."
+        "title": "వ్రాయండి & డౌన్లోడ్",
+        "description": "ఒకే పేజీ ప్రింట్ సిద్ధంగా ఉన్న A4 PDF ను రూపొందించడానికి ఎగ్జిక్యూట్ క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "HR onboarding submission",
-        "description": "Quickly align employee ID copies and apply protective watermarks.",
+        "title": "హెచ్ ఆర్ ఆన్ బోర్డింగ్ సమర్పణ",
+        "description": "ఉద్యోగుల గుర్తింపుల కాపీలను త్వరగా సమలేఖనం చేసి, రక్షణ జలచిహ్నాలను వర్తింపజేయండి.",
         "icon": "user"
       },
       {
-        "title": "Government & banking service",
-        "description": "Prepare standardized ID prints that meet physical archive requirements.",
+        "title": "ప్రభుత్వ & బ్యాంకింగ్ సేవ",
+        "description": "భౌతిక ఆర్కైవ్ అవసరాలకు అనుగుణంగా ప్రామాణిక గుర్తింపు ముద్రణలను సిద్ధం చేయండి.",
         "icon": "landmark"
       },
       {
-        "title": "Travel backups",
-        "description": "Arrange passport pages and visa details onto a unified A4 paper.",
+        "title": "ప్రయాణ బ్యాకప్లు",
+        "description": "పాస్పోర్ట్ పేజీలు మరియు వీసా వివరాలు ఏకీకృత A4 పేపర్ మీద ఉంచండి.",
         "icon": "plane"
       }
     ],
     "faq": [
       {
-        "question": "Will watermarks block identity text details?",
-        "answer": "No. The watermark is rendered at a carefully tuned 15% opacity to block forgery without sacrificing the legibility of text or photo fields."
+        "question": "వాటర్మార్క్లు గుర్తింపు టెక్స్ట్ వివరాలను బ్లాక్ చేస్తాయా?",
+        "answer": "లేదు. టెక్స్ట్ లేదా ఫోటో ఫీల్డ్ల పఠన సామర్థ్యాన్ని త్యాగం చేయకుండా నకిలీని నిరోధించడానికి వాటర్మార్క్ జాగ్రత్తగా సర్దుబాటు చేయబడిన 15% అస్పష్టతతో ఇవ్వబడుతుంది."
       },
       {
-        "question": "Is the composite card size accurate?",
+        "question": "కాంపోజిట్ కార్డు పరిమాణం ఖచ్చితమైనదా?",
         "answer": "Yes. It renders the ID card at the standard physical dimension of 85.6mm × 54mm scaled perfectly on the A4 page."
       },
       {
-        "question": "Does it support driver licenses?",
-        "answer": "Yes, it works beautifully for any card-based identity scans."
+        "question": "ఇది డ్రైవర్ లైసెన్స్ మద్దతు?",
+        "answer": "అవును, ఇది కార్డు ఆధారిత గుర్తింపు స్కాన్ కోసం అందంగా పనిచేస్తుంది."
       }
     ]
   },
   "annotation-exporter": {
-    "title": "Export Annotations",
-    "metaDescription": "Extract PDF comments, notes, highlights, and underlines, and structure them into Markdown/JSON notebooks aligned with outline chapters.",
+    "title": "ఎగుమతి వివరణలు",
+    "metaDescription": "PDF వ్యాఖ్యలు, గమనికలు, హైలైట్లు మరియు అండర్లైన్లు సేకరించండి మరియు వాటిని మార్క్డౌన్ / JSON నోట్బుక్లలో ఆకారం అధ్యాయాలతో అమర్చండి.",
     "keywords": [
       "export annotations",
       "extract pdf highlights",
@@ -6865,59 +6865,59 @@ export const toolContentTe: Record<string, ToolContent> = {
       "markdown outline notebooks",
       "study summary helper"
     ],
-    "description": "\n      <p>The Smart Annotation Exporter is a powerful workspace that unlocks full value from your PDF annotations.</p>\n      <p>While conducting literature reviews or reading extensive ebooks, we make heavy use of highlights and sticky notes. This tool deserializes the low-level PDF <code>/Annots</code> dictionary and extracts all highlights, notes, underlines, and hand-drawn ink markers.</p>\n      <p>It automatically aligns the comments with their respective outline headers, generating a structured Markdown or JSON notebook with page reference anchors. Watch your highlights float beautifully into the frosted-glass notebook panel.</p>\n    ",
+    "description": "<p>స్మార్ట్ అనోటేషన్ ఎగుమతిదారు అనేది మీ PDF అనోటేషన్ల నుండి పూర్తి విలువను అన్లాక్ చేసే శక్తివంతమైన కార్యాలయం. </p> <p>సాహిత్య సమీక్షలు నిర్వహించేటప్పుడు లేదా విస్తృతమైన ఇబుక్లను చదివేటప్పుడు, మేము హైలైట్లు మరియు అంటుకునే గమనికలను ఎక్కువగా ఉపయోగిస్తాము. ఈ సాధనం తక్కువ స్థాయి PDF <code>/Annots</code> నిఘంటువును నిర్వీర్యం చేస్తుంది మరియు అన్ని హైలైట్లు, గమనికలు, అండర్లైన్లు మరియు చేతితో గీసిన ఇంక్ మార్కర్లను సంగ్రహించి తీస్తుంది. </p> <p> ఇది ఆటోమేటిక్గా వ్యాఖ్యలను వారి సంబంధిత ఆకారం శీర్షికలతో సమలేఖనం చేస్తుంది, సూచన యాంకర్లతో కూడిన నిర్మాణాత్మక మార్క్డౌన్ లేదా JSON నోట్బుక్ను ఉత్పత్తి చేస్తుంది. మీ హైలైట్లు పేజీని మంచు గ్లాస్ నోట్బుక్ ప్యానెల్ లో అందంగా తేలుతూ చూడండి. </p>",
     "howToUse": [
       {
         "step": 1,
-        "title": "Import annotated PDF",
-        "description": "Upload any PDF essay or book containing your underlines, highlights, or comments."
+        "title": "గమనికలతో కూడిన PDF దిగుమతి",
+        "description": "మీ ముఖ్యాంశాలు, ముఖ్యాంశాలు, లేదా వ్యాఖ్యలు ఉన్న ఏదైనా PDF వ్యాసం లేదా పుస్తకాన్ని అప్లోడ్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Configure filters & format",
-        "description": "Select the annotation types you want to extract and choose Markdown or JSON."
+        "title": "ఫిల్టర్లు & ఫార్మాట్ను కాన్ఫిగర్ చేయండి",
+        "description": "మీరు సేకరించాలనుకుంటున్న వ్యాఖ్యల రకాలను ఎంచుకుని, మార్క్డౌన్ లేదా JSON ని ఎంచుకోండి."
       },
       {
         "step": 3,
-        "title": "Extract notebook",
-        "description": "Click execute to parse the comments stream and assemble your outline summary."
+        "title": "ఎక్స్ట్రాక్ట్ నోట్బుక్",
+        "description": "వ్యాఖ్యల ప్రవాహాన్ని విశ్లేషించడానికి మరియు మీ ఆకారం సారాంశాన్ని సమీకరించడానికి అమలు క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Scientific literature synthesis",
-        "description": "Extract reading notes across multiple papers into Markdown templates to compose lit reviews instantly.",
+        "title": "శాస్త్రీయ సాహిత్య సంశ్లేషణ",
+        "description": "బహుళ పత్రాలలో పఠన గమనికలను మార్క్డౌన్ టెంప్లేట్లలోకి తీసుకొని తక్షణమే లైట్ సమీక్షలను రూపొందించండి.",
         "icon": "graduation-cap"
       },
       {
-        "title": "Study journal compiling",
-        "description": "Collect beautiful insights and personal remarks from textbooks into Obsidian databases.",
+        "title": "అధ్యయన పత్రిక సంకలనం",
+        "description": "పాఠ్యపుస్తకాల నుండి అందమైన అంతర్దృష్టులను మరియు వ్యక్తిగత వ్యాఖ్యలను ఒబ్సిడియన్ డేటాబేస్లలో సేకరించండి.",
         "icon": "book"
       },
       {
-        "title": "Document collaborative audit",
-        "description": "Gather review corrections from different team members and establish actionable task lists.",
+        "title": "పత్ర సహకార ఆడిట్",
+        "description": "వివిధ బృంద సభ్యుల నుండి సమీక్ష సవరణలను సేకరించండి మరియు చర్య తీసుకోగల పనుల జాబితాలను రూపొందించండి.",
         "icon": "users"
       }
     ],
     "faq": [
       {
-        "question": "Can it extract tablet hand-drawn ink strokes?",
-        "answer": "Yes. As long as the hand-drawn marks are stored as standard PDF Ink annotations, the tool can perfectly isolate and structure their page positions."
+        "question": "ఇది టాబ్లెట్ చేతితో గీసిన ఇంక్ స్ట్రోక్స్ను సేకరించగలదా?",
+        "answer": "అవును. చేతితో చిత్రించిన మార్కులు ప్రామాణిక PDF ఇంక్ వ్యాఖ్యలుగా నిల్వ చేయబడినంత కాలం, సాధనం వాటి పేజీ స్థానాలను సంపూర్ణంగా వేరుచేయగలదు మరియు నిర్మాణం చేస్తుంది."
       },
       {
-        "question": "Why are some highlighted extracts empty?",
-        "answer": "If the PDF is a non-searchable image scan lacking underlying text, highlights only store coordinates. Run OCR on the PDF first, then extract annotations."
+        "question": "కొన్ని ముఖ్యాంశాలు ఎందుకు ఖాళీగా ఉన్నాయి?",
+        "answer": "PDF అనేది శోధించలేని చిత్ర స్కాన్ అయితే, దానిలో ఆధారిత వచనం లేదు, ఇది సమన్వయాలను మాత్రమే నిల్వ చేస్తుంది. మొదట PDF లో OCR ని అమలు చేయండి, ఆపై వ్యాఖ్యలను సేకరించండి."
       },
       {
-        "question": "Do the Markdown links jump back to the PDF?",
-        "answer": "The exported file lists precise page numbers and original outline headings to make cross-referencing seamless."
+        "question": "మార్క్డౌన్ లింకులు PDF కి తిరిగి వస్తాయి?",
+        "answer": "ఎగుమతి చేయబడిన ఫైల్ పేజీల సంఖ్యలను మరియు అసలు రూపురేఖల శీర్షికలను ఖచ్చితమైన జాబితాలో జాబితా చేస్తుంది, తద్వారా క్రాస్ రిఫరెన్స్ను సజావుగా చేస్తుంది."
       }
     ]
   },
   "batch-watermark-remover": {
-    "title": "Batch Remove Watermarks",
-    "metaDescription": "Physically scrub watermark strings and XObject images from the PDF content stream without messing up layouts.",
+    "title": "బ్యాచ్ వాటర్మార్క్లను తొలగించండి",
+    "metaDescription": "వైటర్మార్క్ స్ట్రింగ్స్ మరియు XObject చిత్రాలను PDF కంటెంట్ స్ట్రీమ్ నుండి లేఅవుట్లను పాడు చేయకుండా శారీరకంగా స్క్రబ్ చేయండి.",
     "keywords": [
       "remove watermark",
       "pdf watermark eraser",
@@ -6925,59 +6925,59 @@ export const toolContentTe: Record<string, ToolContent> = {
       "batch watermark cleaning",
       "remove draft watermark"
     ],
-    "description": "\n      <p>The Batch Watermark Remover is a state-of-the-art PDF sanitizer that physically cleanses documents.</p>\n      <p>Generic watermark removers usually just overlay white blocks or distort document spacing. This tool utilizes a robust <strong>Content Stream Purge</strong> technique.</p>\n      <p>It parses the low-level rendering operators of each page, identifies specific watermark string commands (e.g. \"Confidential\", \"DRAFT\") or background image objects, and physically deletes or overwrites them. The watermarks disappear completely, preserving the original formatting and vector quality.</p>\n    ",
+    "description": "<p>బ్యాచ్ వాటర్మార్క్ రిమూవర్ అనేది తాజా PDF సెనైటైజర్, ఇది పత్రాలను భౌతికంగా శుభ్రపరుస్తుంది. </p> <p>జెనెరిక్ వాటర్మార్క్ రిమూవర్లు సాధారణంగా తెల్ల బ్లాక్లను అతివ్యాప్తి చేస్తాయి లేదా పత్రాల అంతరాన్ని విచ్ఛిన్నం చేస్తాయి. ఈ సాధనం ఒక బలమైన <strong>కంటెంట్ స్ట్రీమ్ పర్జింగ్</strong> పద్ధతిని ఉపయోగిస్తుంది. </p> <p>ఇది ప్రతి పేజీ యొక్క తక్కువ స్థాయి రెండరింగ్ ఆపరేటర్లను విశ్లేషిస్తుంది, నిర్దిష్ట వాటర్మార్క్ స్ట్రింగ్ ఆదేశాలను (ఉదా. \"కాన్ఫిడెంట్\", \"DRAFT\") లేదా నేపథ్య చిత్ర వస్తువులను గుర్తించి, వాటిని భౌతికంగా తొలగించిస్తుంది లేదా అతివ్యాప్తి చేస్తుంది. వాటర్మార్క్లు అసలు ఫార్మాటింగ్ మరియు వెక్టర్ నాణ్యతను కాపాడడం ద్వారా పూర్తిగా అదృశ్యమవుతాయి. </p> ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload watermarked file",
-        "description": "Provide the PDF document showing commercial logos or security labels."
+        "title": "వాటర్మార్క్ ఫైల్ను అప్లోడ్ చేయండి",
+        "description": "వాణిజ్య లోగోలు లేదా భద్రతా లేబుళ్ళను చూపించే PDF పత్రాన్ని అందించండి."
       },
       {
         "step": 2,
-        "title": "Define target watermark",
-        "description": "Input the exact string to delete, or toggle translucent XObject image cleanup."
+        "title": "లక్ష్య వాటర్మార్క్ను నిర్వచించండి",
+        "description": "తొలగించడానికి ఖచ్చితమైన స్ట్రింగ్ను నమోదు చేయండి లేదా పారదర్శక XObject చిత్ర శుభ్రపరచడం మార్చండి."
       },
       {
         "step": 3,
-        "title": "Run physical purge",
-        "description": "Click execute to scrub the content operators with high fidelity."
+        "title": "శారీరక శుద్ధిని అమలు చేయండి",
+        "description": "అధిక విశ్వసనీయతతో కంటెంట్ ఆపరేటర్లను స్క్రబ్ చేయడానికి ఎగ్జిక్యూట్ క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Archiving corporate assets",
-        "description": "Remove expired \"Confidential\" or \"Draft\" watermarks for general public distribution.",
+        "title": "కార్పొరేట్ ఆస్తులను ఆర్కైవ్ చేయడం",
+        "description": "సాధారణ ప్రజలకు పంపిణీ కోసం గడువు ముగిసిన \"కన్ఫైడెన్షియల్\" లేదా \"డ్రాఫ్ట్\" వాటర్మార్క్లను తొలగించండి.",
         "icon": "archive"
       },
       {
-        "title": "Clearing background clutter",
-        "description": "Scrub heavy background pictures that distract readers from scanning text.",
+        "title": "నేపథ్య అస్థిరతలను క్లియర్ చేయడం",
+        "description": "పాఠకుల దృష్టిని దూరం చేసే భారీ నేపథ్య చిత్రాలను స్కానింగ్ చేయవద్దు.",
         "icon": "eye"
       },
       {
-        "title": "Document reusing",
-        "description": "Cleanse old page footer branding elements to apply new corporate templates easily.",
+        "title": "పత్రాల పునర్వినియోగం",
+        "description": "కొత్త కార్పొరేట్ టెంప్లేట్లను సులభంగా వర్తింపజేయడానికి పాత పేజీ ఫుటర్ బ్రాండింగ్ అంశాలను శుభ్రం చేయండి.",
         "icon": "copy"
       }
     ],
     "faq": [
       {
-        "question": "Can the purged watermarks be recovered?",
-        "answer": "No. Unlike visual masks, we rewrite the page binary stream to erase the operators, leaving no traces."
+        "question": "శుద్ధి చేయబడిన జలచిహ్నాలను తిరిగి పొందగలమా?",
+        "answer": "లేదు. విజువల్ మాస్కుల మాదిరిగా కాకుండా, మేము పేజీల బైనరీ స్ట్రీమ్ను మార్చుకుంటాము, ఆపరేటర్లను తొలగించడానికి, ఎటువంటి జాడలు వదిలివేయము."
       },
       {
-        "question": "Does it support complex gradients?",
-        "answer": "If the watermark is stored as a separate text node or image XObject, the tool can isolate and physically wipe it."
+        "question": "ఇది సంక్లిష్టమైన గ్రేడియంట్లను మద్దతు ఇస్తుందా?",
+        "answer": "వాటర్మార్క్ వేరు టెక్స్ట్ నోడ్ లేదా చిత్రం XObject గా నిల్వ చేయబడితే, సాధనం దానిని వేరు చేసి భౌతికంగా తుడిచివేయవచ్చు."
       },
       {
-        "question": "Will it modify normal page text?",
-        "answer": "No. The scrubbing engine only target operators matching the specified watermark signature; regular text remains untouched."
+        "question": "ఇది సాధారణ పేజీ టెక్స్ట్ను సవరించగలదా?",
+        "answer": "సంఖ్య. స్క్రబ్ ఇంజిన్ పేర్కొన్న వాటర్మార్క్ సంతకం సరిపోయే ఆపరేటర్లను మాత్రమే లక్ష్యంగా చేసుకుంటుంది; సాధారణ టెక్స్ట్ తాకినట్లు లేదు."
       }
     ]
   },
   "smart-data-redactor": {
-    "title": "Sensitive Data Redaction",
-    "metaDescription": "Automatically detect phone numbers, emails, and IDs, overlay opaque masks, and physically erase underlying text streams.",
+    "title": "సున్నితమైన డేటా రద్దు",
+    "metaDescription": "ఫోన్ నంబర్లు, ఇమెయిల్స్, ఐడీలను స్వయంచాలకంగా గుర్తించి, అస్పష్టమైన మాస్కులను అతికించి, వాటిలో ఉన్న టెక్స్ట్ స్ట్రీమ్లను భౌతికంగా తొలగించండి.",
     "keywords": [
       "automatic redaction",
       "redact privacy pdf",
@@ -6985,59 +6985,59 @@ export const toolContentTe: Record<string, ToolContent> = {
       "mask phone numbers",
       "gdpr compliance tool"
     ],
-    "description": "\n      <p>The Smart Privacy Data Redactor is an automated tool designed to ensure robust document privacy compliance.</p>\n      <p>Simply overlaying black boxes in normal editors is unsafe because the underlying text can still be copied. This tool implements true <strong>NLP pattern matching and physical content stream sanitization</strong>.</p>\n      <p>It scans the document for emails, phone numbers, SSNs, or custom keywords, places a premium matte black mask over the coordinates, and permanently overwrites the character stream with <code>[REDACTED]</code>, blocking copy-paste leaks.</p>\n    ",
+    "description": "<p>స్మార్ట్ ప్రైవేటీ డేటాను సవరించడం అనేది ఒక ఆటోమేటెడ్ సాధనం, ఇది పత్రం యొక్క గోప్యతా సమ్మతిని నిర్ధారించడానికి రూపొందించబడింది. సాధారణ ఎడిటర్లలో బ్లాక్ బాక్స్లను అతివ్యాప్తి చేయడం సురక్షితం కాదు ఎందుకంటే ఆధారిత వచనాన్ని ఇప్పటికీ కాపీ చేయవచ్చు. ఈ సాధనం నిజమైన <strong> NLP నమూనా అనుసంధానం మరియు భౌతిక కంటెంట్ స్ట్రీమ్ శుభ్రపరచడాన్ని అమలు చేస్తుంది. </strong> <p> <p>ఇది పత్రాన్ని ఇమెయిల్లు, ఫోన్ నంబర్లు, SSNs లేదా కస్టమ్ కీవర్డ్ల కోసం స్కాన్ చేస్తుంది, కోఆర్డినేట్లపై ప్రీమియం మాట్ బ్లాక్ మాస్క్ను ఉంచుతుంది మరియు <code>[REDACTED]</code> తో అక్షర ప్రవాహాన్ని శాశ్వతంగా అతివ్యాప్తి చేస్తుంది, కాపీ-ప్యాస్ట్ లీక్లను నిరోధిస్తుంది. </p>",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload target PDF",
-        "description": "Provide the contract or statement showing sensitive customer details."
+        "title": "లక్ష్య PDF ను అప్లోడ్ చేయండి",
+        "description": "సున్నితమైన కస్టమర్ వివరాలను చూపించే ఒప్పందం లేదా ప్రకటనను అందించండి."
       },
       {
         "step": 2,
-        "title": "Select redaction rules",
-        "description": "Check target patterns (email, phone, ID) or define custom sensitive words."
+        "title": "సవరణ నియమాలు ఎంచుకోండి",
+        "description": "లక్ష్య నమూనాలను (ఇమెయిల్, ఫోన్, ఐడి) తనిఖీ చేయండి లేదా అనుకూలీకరించిన సున్నితమైన పదాలను నిర్వచించండి."
       },
       {
         "step": 3,
-        "title": "Auto redact & download",
-        "description": "Click execute to overlay secure masks and wipe the text streams."
+        "title": "ఆటోమేటిక్గా సవరించు & డౌన్లోడ్",
+        "description": "సురక్షిత ముసుగులను అతికించడానికి మరియు టెక్స్ట్ స్ట్రీమ్లను తుడిచివేయడానికి ఎగ్జిక్యూట్ క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Commercial agreements sharing",
-        "description": "Safely publish business documents by hiding personal salaries, phone numbers, or emails.",
+        "title": "వాణిజ్య ఒప్పందాల భాగస్వామ్యం",
+        "description": "వ్యక్తిగత జీతాలు, ఫోన్ నంబర్లు, లేదా ఇమెయిళ్ళను దాచిపెట్టి వ్యాపార పత్రాలను సురక్షితంగా ప్రచురించండి.",
         "icon": "file-signature"
       },
       {
-        "title": "Resume database anonymization",
-        "description": "Strip applicant names, contact info, or addresses to comply with strict privacy regulations.",
+        "title": "పునఃప్రారంభం డేటాబేస్ అనామకత",
+        "description": "కఠినమైన గోప్యతా నిబంధనలను పాటించడానికి దరఖాస్తుదారుల పేర్లు, సంప్రదింపు సమాచారం లేదా చిరునామాలను తొలగించండి.",
         "icon": "user-check"
       },
       {
-        "title": "Financial statement distribution",
-        "description": "Conceal specific ledger numbers or shareholder names before publishing reports.",
+        "title": "ఆర్థిక నివేదికల పంపిణీ",
+        "description": "నివేదికలను ప్రచురించే ముందు నిర్దిష్ట ప్రధాన సంఖ్యలు లేదా వాటాదారుల పేర్లను దాచండి.",
         "icon": "pie-chart"
       }
     ],
     "faq": [
       {
-        "question": "Are redacted details truly un-copyable?",
-        "answer": "Yes. We rewrite the page content stream to erase the characters. Copy-pasting from the redacted box will only extract the string \"[REDACTED]\"."
+        "question": "సవరించిన వివరాలు నిజంగా కాపీ చేయలేమా?",
+        "answer": "అవును. మేము పేజీ కంటెంట్ స్ట్రీమ్ను తిరిగి వ్రాస్తాము అక్షరాలను తొలగించడానికి. సవరించిన పెట్టె నుండి కాపీ-ప్యాస్ట్ చేయడం ద్వారా \"[REDACTED] స్ట్రింగ్ మాత్రమే వెలికి తీయబడుతుంది."
       },
       {
-        "question": "Does it work for scanned image PDFs?",
-        "answer": "This tool targets vector text streams. For scanned image files, use our OCR tool first or crop manually."
+        "question": "ఇది స్కాన్ చేసిన చిత్ర PDF లకు పని చేస్తుందా?",
+        "answer": "ఈ సాధనం వెక్టర్ టెక్స్ట్ స్ట్రీమ్లను లక్ష్యంగా చేసుకుంటుంది. స్కాన్ చేసిన చిత్ర ఫైళ్ళ కోసం, మా OCR సాధనాన్ని మొదట ఉపయోగించండి లేదా మానవీయంగా కత్తిరించండి."
       },
       {
-        "question": "Is the red HUD target scope saved in the file?",
-        "answer": "No, that is a gorgeous frontend interactive loading effect. The output PDF displays standard clean black rectangles."
+        "question": "ఎరుపు HUD లక్ష్య పరిధి ఫైల్ లో సేవ్ చేయబడింది?",
+        "answer": "కాదు, ఇది ఒక అద్భుతమైన ఫ్రంట్ ఎండ్ ఇంటరాక్టివ్ లోడింగ్ ప్రభావం. అవుట్పుట్ PDF ప్రామాణిక శుభ్రమైన నలుపు దీర్ఘచతురస్రాకారాలను ప్రదర్శిస్తుంది."
       }
     ]
   },
   "bookmarks-auto-generator": {
-    "title": "Auto Generate Bookmarks",
-    "metaDescription": "Analyze document layout hierarchy and regex patterns (e.g. Chapter) to generate and inject /Outline bookmark catalogs.",
+    "title": "ఆటోమేటిక్ బుక్మార్క్లను సృష్టించు",
+    "metaDescription": "పత్రం లేఅవుట్ పటాల పటాలర్ మరియు రెగెక్స్ నమూనాలను (ఉదా. అధ్యాయం) విశ్లేషించండి /అవుట్లైన్ బుక్మార్క్ కేటలాగ్లను రూపొందించడానికి మరియు ఇంజెక్ట్ చేయడానికి.",
     "keywords": [
       "generate bookmarks",
       "pdf outline builder",
@@ -7045,59 +7045,59 @@ export const toolContentTe: Record<string, ToolContent> = {
       "font size catalog",
       "outline tree builder"
     ],
-    "description": "\n      <p>The Auto Bookmarks Generator brings absolute clarity to lengthy, unstructured PDF documents.</p>\n      <p>Scanning through books or booklets with no outline navigation is painful. This tool parses typographic hierarchies (such as font sizes and weights) along with regex rules (like \"Chapter 1\", \"Section 1.1\") to automatically deduce headings.</p>\n      <p>It then compiles and injects these headings directly into the PDF <code>/Outline</code> dictionary. Any standard viewer will then show a beautifully structured, multi-level navigation sidebar, backed by an interactive 3D outline tree preview.</p>\n    ",
+    "description": "<p>ఆటో బుక్మార్క్ జనరేటర్ దీర్ఘ, నిర్మాణం లేని PDF పత్రాలకు సంపూర్ణ స్పష్టతను అందిస్తుంది. </p> <p>అవధిక పేజీకి సంబంధించిన లింకులు లేని పుస్తకాలు లేదా బుక్లెట్లను స్కాన్ చేయడం బాధాకరమైనది. ఈ సాధనం టైపోగ్రాఫిక్ పदानెర్కీలను (ఫాంట్ పరిమాణాలు మరియు బరువులు వంటివి) రెగెక్స్ నియమాలతో (అటువంటి \"అధ్యాయం 1\", \"విభాగం 1.1\") కలిసి శీర్షికలను స్వయంచాలకంగా తీసివేస్తుంది. </p> <p>ఇది ఆపై ఈ శీర్షికలను PDF <code>/Outline</code> నిఘంటులో నేరుగా సంకలనం చేసి ఇంజెక్ట్ చేస్తుంది. ఏదైనా ప్రామాణిక వీక్షకుడు అందంగా నిర్మాణాత్మక, బహుళ స్థాయి నావిగేషన్ సైడ్బార్ను ప్రదర్శిస్తాడు, ఇది ఇంటరాక్టివ్ 3D ఆకారం చెట్టు ప్రివ్యూ ద్వారా మద్దతు ఇస్తుంది. </p> ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Provide unstructured PDF",
-        "description": "Upload large brochures, academic papers, or ebooks lacking a catalog sidebar."
+        "title": "నిర్మాణం లేని PDF ను అందించండి",
+        "description": "పెద్ద బ్రోచర్లను, విద్యా పత్రాలను లేదా కాటలాగ్ సైడ్బార్ లేని ఇబుక్లను అప్లోడ్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Tune heading rules",
-        "description": "Configure strategies specifying minimum font size thresholds and match rules."
+        "title": "ట్యూన్ శీర్షిక నియమాలు",
+        "description": "కనీస ఫాంట్ పరిమాణం మరియు సరిపోలిక నియమాలు పేర్కొన్న వ్యూహాలను కాన్ఫిగర్ చేయండి."
       },
       {
         "step": 3,
-        "title": "Build and inject",
-        "description": "Click execute to render the outline nodes and physically write the outline bookmarks."
+        "title": "నిర్మించు మరియు ఇంజెక్ట్",
+        "description": "ఎగ్జిక్యూట్ క్లిక్ చేసి, స్క్రీన్ నోడ్లను రెండర్ చేసి, భౌతికంగా స్క్రీన్ బుక్మార్క్లను వ్రాయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Technical manuals organizing",
-        "description": "Auto compile multi-level chapters for standard guidelines, saving hours of manual indexing.",
+        "title": "సాంకేతిక మాన్యువల్స్ నిర్వహణ",
+        "description": "ప్రామాణిక మార్గదర్శకాల కోసం ఆటోమేటిక్ బహుళ స్థాయి అధ్యాయాలను సంకలనం చేయడం, మాన్యువల్ ఇండెక్సింగ్ గంటలు ఆదా చేయడం.",
         "icon": "tool"
       },
       {
-        "title": "Thesis preparation",
-        "description": "Inject clean nested bookmarks matching exact academic submission standards.",
+        "title": "థీసిస్ తయారీ",
+        "description": "ఖచ్చితమైన విద్యా సమర్పణ ప్రమాణాలకు అనుగుణంగా శుభ్రంగా నివాస బుక్మార్క్లను ఇంజెక్ట్ చేయండి.",
         "icon": "graduation-cap"
       },
       {
-        "title": "Ebook navigation optimization",
-        "description": "Structure scanned text publications into readable chapters for tablets or mobile readers.",
+        "title": "ఇబుక్ నావిగేషన్ ఆప్టిమైజేషన్",
+        "description": "టెక్స్ట్ ప్రచురణలను టాబ్లెట్ లేదా మొబైల్ రీడర్లకు చదవగలిగే అధ్యాయాలుగా స్కాన్ చేయండి.",
         "icon": "tablet"
       }
     ],
     "faq": [
       {
-        "question": "Can it match custom chapter formats?",
-        "answer": "Yes. You can add custom regex patterns in the sidebar panel (e.g., `^Part\\s+\\w+`) to target unique layouts."
+        "question": "ఇది అనుకూలీకరించిన అధ్యాయ ఆకృతులతో సరిపోలగలదా?",
+        "answer": "అవును. మీరు ప్రత్యేకమైన లేఅవుట్లను లక్ష్యంగా చేసుకోవడానికి సైడ్బార్ ప్యానెల్లో కస్టమ్ రెగెక్స్ నమూనాలను (ఉదా, `^Part\\s+\\w+`) జోడించవచ్చు."
       },
       {
-        "question": "Will this affect the visual page presentation?",
-        "answer": "No. The tool only adds an internal structural bookmark catalog. The text and visual assets of the pages remain untouched."
+        "question": "ఇది పేజీ ప్రదర్శనపై ప్రభావం చూపుతుందా?",
+        "answer": "లేదు. ఈ సాధనం అంతర్గత నిర్మాణ బుక్మార్క్ కేటలాగ్ను మాత్రమే జోడిస్తుంది. పేజీల వచనం మరియు దృశ్య ఆస్తులు తాకినట్లు ఉంటాయి."
       },
       {
-        "question": "How many bookmark levels are supported?",
-        "answer": "The tool supports deeply nested bookmark structures, allowing chapter, section, and subsection layouts."
+        "question": "ఎన్ని బుక్మార్క్ స్థాయిలు మద్దతు ఇవ్వబడ్డాయి?",
+        "answer": "ఈ సాధనం లోతైన నివాస బుక్మార్క్ నిర్మాణాలను మద్దతు ఇస్తుంది, ఇది అధ్యాయం, విభాగం మరియు ఉపవిభాగం అమరికలను అనుమతిస్తుంది."
       }
     ]
   },
   "batch-barcode-injector": {
-    "title": "Batch Inject Barcodes",
-    "metaDescription": "Generate custom QR/Code128 tags and precisely inject them into bulk PDF pages with aligning guidelines.",
+    "title": "బ్యాచ్ ఇన్జక్షన్ బార్కోడ్లు",
+    "metaDescription": "కస్టమ్ QR/కోడ్ 128 ట్యాగ్లను రూపొందించండి మరియు వాటిని సూచనలతో భారీ PDF పేజీలలో సరిగ్గా చొప్పించండి.",
     "keywords": [
       "generate qr pdf",
       "barcode injector",
@@ -7105,59 +7105,59 @@ export const toolContentTe: Record<string, ToolContent> = {
       "qr coordinate positioning",
       "stamp barcodes"
     ],
-    "description": "\n      <p>The Batch Barcode precision injector bridges digital asset tracking with physical document indexing.</p>\n      <p>In warehousing, contract review, or logistics, we often need to Stamp unique barcodes onto invoices or device cards. This tool makes it incredibly easy.</p>\n      <p>Generate highly readable QR codes or Code128 barcodes, and use our gorgeous aligning workspace with green laser guides to position them. A clean scan audio beep triggers on placement, providing highly premium feedback.</p>\n    ",
+    "description": "<p>బ్యాచ్ బార్కోడ్ ఖచ్చితత్వ ఇంజెక్టర్ భౌతిక పత్ర సూచికతో డిజిటల్ ఆస్తి ట్రాకింగ్ను పెంచుతుంది.</p> <p>గودమాల, ఒప్పందం సమీక్ష లేదా లాజిస్టిక్స్లో, మేము తరచుగా ప్రత్యేక బార్కోడ్లను ఇన్వాయిస్లు లేదా పరికర కార్డులపై స్టాంప్ చేయాలి. ఈ సాధనం చాలా సులభం చేస్తుంది.</p> <p>అత్యంత చదవగలిగే QR కోడ్లను లేదా Code128 బార్కోడ్లను ఉత్పత్తి చేయండి, మరియు వాటిని ఉంచడానికి మా అద్భుతమైన అమరిక కార్యాలయాన్ని ఆకుపచ్చ లేజర్ గైడ్లతో ఉపయోగించండి. శుభ్రమైన స్కాన్ ఆడియో బీప్ ప్లేస్మెంట్ను ప్రేరేపిస్తుంది, అధిక ప్రీమియం అభిప్రాయాన్ని అందిస్తుంది.</p> ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload document",
-        "description": "Drag and drop single or multi-page PDFs representing agreements or shipping lists."
+        "title": "పత్రాన్ని అప్లోడ్ చేయండి",
+        "description": "ఒప్పందాలు లేదా షిప్పింగ్ జాబితాలను సూచించే ఒకే లేదా బహుళ పేజీల PDF లను లాగండి మరియు వదలండి."
       },
       {
         "step": 2,
-        "title": "Position barcode coordinates",
-        "description": "Set code type, value, and drag the placement box to specify coordinates."
+        "title": "స్థానం బార్కోడ్ కోఆర్డినేట్లు",
+        "description": "కోడ్ రకాన్ని, విలువను సెట్ చేసి, కోఆర్డినేట్లను పేర్కొనడానికి ప్లేస్మెంట్ బాక్స్ను లాగండి."
       },
       {
         "step": 3,
-        "title": "Stamps and download",
-        "description": "Click execute to render the code layer onto the targeted page indices."
+        "title": "స్టాంప్లు మరియు డౌన్లోడ్",
+        "description": "కోడ్ పొరను లక్ష్య పేజీ సూచికలకు ప్రదర్శించడానికి ఎగ్జిక్యూట్ క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Contract validation tracing",
-        "description": "Apply a unique QR code showing anti-counterfeit details onto the header of contracts.",
+        "title": "ఒప్పంద ధృవీకరణ ట్రాకింగ్",
+        "description": "కాంట్రాక్టుల శీర్షికపై నకిలీ వ్యతిరేక వివరాలను చూపించే ప్రత్యేకమైన QR కోడ్ను వర్తించండి.",
         "icon": "file-check"
       },
       {
-        "title": "Shipping lists coding",
-        "description": "Place Code128 barcodes at target spots for quick warehouse scanning gun validation.",
+        "title": "రవాణా జాబితాల కోడింగ్",
+        "description": "కోడ్ 128 బార్ కోడ్లను లక్ష్య ప్రదేశాల్లో ఉంచండి వేగంగా గిడ్డంగి స్కానింగ్ తుపాకీ ధృవీకరణ కోసం.",
         "icon": "truck"
       },
       {
-        "title": "Asset registration carding",
-        "description": "Add inventory QR codes displaying maintenance specs onto physical equipment sheets.",
+        "title": "ఆస్తి నమోదు కార్డు",
+        "description": "భౌతిక పరికరాల షీట్లలో నిర్వహణ వివరాలను ప్రదర్శించే జాబితా QR కోడ్లను జోడించండి.",
         "icon": "archive"
       }
     ],
     "faq": [
       {
-        "question": "Are the generated barcodes highly scannable?",
-        "answer": "Yes. We embed lossless high-resolution PNG representations that remain sharp even when printed at very small dimensions."
+        "question": "ఉత్పత్తి చేయబడిన బార్కోడ్లు బాగా స్కాన్ చేయగలవని?",
+        "answer": "అవును. మేము అధిక రిజల్యూషన్ PNG ప్రాతినిధ్యాలను కోల్పోకుండా పొందుపరుస్తాము. ఇవి చాలా చిన్న పరిమాణంలో ముద్రించినప్పుడు కూడా ముదురుగా ఉంటాయి."
       },
       {
-        "question": "Can I inject unique values on each page?",
-        "answer": "Currently, the batch run applies the same configured code onto all selected pages. Multi-valued excel import is planned in a future update."
+        "question": "నేను ప్రతి పేజీలో ప్రత్యేక విలువలను చొప్పించవచ్చా?",
+        "answer": "ప్రస్తుతం, బ్యాచ్ రన్ అన్ని ఎంపిక పేజీలకు అదే కాన్ఫిగర్డ్ కోడ్ను వర్తిస్తుంది. బహుళ-వాల్యూడ్ ఎక్సెల్ దిగుమతి భవిష్యత్తు నవీకరణలో ప్రణాళిక చేయబడింది."
       },
       {
-        "question": "What does the `pt` coordinate represent?",
+        "question": "`pt` సమన్వయము ఏముంది?",
         "answer": "`pt` (Point) is the standard PDF physical unit (72 pt = 1 inch). A4 pages are represented as 595 × 842 pt."
       }
     ]
   },
   "signature-ink-optimizer": {
-    "title": "Extract Signature & Stamp",
-    "metaDescription": "Extract handwritten signatures and red corporate stamps from photos, remove paper shadow noise, and export transparent PNGs.",
+    "title": "సంతకం & స్టాంప్ను సేకరించండి",
+    "metaDescription": "ఫోటోల నుండి చేతితో వ్రాసిన సంతకాలు మరియు ఎరుపు కంపెనీ స్టాంప్లను తీయండి, కాగితపు నీడ శబ్దాన్ని తొలగించండి మరియు పారదర్శక PNG లను ఎగుమతి చేయండి.",
     "keywords": [
       "extract signature",
       "transparent signature background",
@@ -7165,59 +7165,59 @@ export const toolContentTe: Record<string, ToolContent> = {
       "sharpen hand signature",
       "png seal maker"
     ],
-    "description": "\n      <p>The Signature & Stamp Chroma Ink Optimizer functions as a professional high-fidelity ink purifier.</p>\n      <p>Signatures or corporate seals captured on phones often suffer from yellow paper tint, uneven shadows, and page wrinkles. Pasting them directly onto contract PDFs looks amateur.</p>\n      <p>This tool separates the Alpha channel based on luminance and color space. It completely bleaches paper backgrounds while sharpening stamp red (Chroma Ink) and handwriting black. The result is a premium, transparent PNG stamp carrying genuine ink textures.</p>\n    ",
+    "description": "<p>సైనేచర్ & స్టాంప్ క్రోమా ఇంక్ ఆప్టిమైజర్ ప్రొఫెషనల్ హై-ఫిడిలిటీ ఇంక్ ప్యూరిఫైయర్గా పనిచేస్తుంది. ఫోన్లలో సంగ్రహించిన సంతకాలు లేదా కార్పొరేట్ ముద్రలు తరచుగా పసుపు కాగితం రంగు, అసమాన నీడలు మరియు పేజీ ముడుతలతో బాధపడుతాయి. వాటిని నేరుగా కాంట్రాక్ట్ PDF లలో అతికించడం ఔత్సాహికంగా కనిపిస్తుంది. </p> <p>ఈ సాధనం ప్రకాశం మరియు రంగు స్థలంపై ఆధారపడి ఆల్ఫా ఛానెల్ను వేరు చేస్తుంది. ఇది ముద్ర ఎరుపు (క్రోమా ఇంక్) మరియు చేతిరచనను పదునుగా చేస్తూ కాగిత నేపథ్యాలను పూర్తిగా తెల్లగా చేస్తుంది. ఫలితంగా నిజమైన ఇంక్ ఆకృతులను కలిగి ఉన్న ప్రీమియం, పారదర్శక PNG స్టాంప్ ఉంటుంది. </p> ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload seal photo",
-        "description": "Provide a phone-captured photo of your signature or stamp seal."
+        "title": "సీల్ ఫోటో అప్లోడ్",
+        "description": "మీ సంతకం లేదా స్టాంప్ సీల్ యొక్క ఫోన్ నుండి తీసిన ఫోటోను అందించండి."
       },
       {
         "step": 2,
-        "title": "Adjust cleaning sliders",
-        "description": "Move contrast and luminance sliders to isolate the background noise in real-time."
+        "title": "శుభ్రపరిచే స్లయిడర్లను సర్దుబాటు చేయండి",
+        "description": "రియల్ టైమ్ లో నేపథ్య శబ్దాన్ని వేరు చేయడానికి కాంట్రాస్ట్ మరియు లైమన్సి స్లైడర్లను తరలించండి."
       },
       {
         "step": 3,
-        "title": "Download clean signature",
-        "description": "Export as transparent PNG ready to be stamped onto formal document agreements."
+        "title": "శుభ్రమైన సంతకాన్ని డౌన్లోడ్ చేయండి",
+        "description": "అధికారిక పత్ర ఒప్పందాలపై ముద్ర వేయడానికి సిద్ధంగా ఉన్న పారదర్శక PNGగా ఎగుమతి చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Professional e-signature prep",
-        "description": "Convert gray signature photos into beautiful, transparent layers to sign agreements.",
+        "title": "వృత్తిపరమైన ఇ-సంతకం తయారీ",
+        "description": "ఒప్పందాలు సంతకం చేయడానికి బూడిద సంతకం ఫోటోలను అందమైన, పారదర్శక పొరలుగా మార్చండి.",
         "icon": "file-signature"
       },
       {
-        "title": "Corporate seal sanitizing",
-        "description": "Clean physical stamp scans by discarding paper fiber noise, preparing crisp transparent stamp seals.",
+        "title": "కార్పొరేట్ సీల్ సెనేటైజింగ్",
+        "description": "కాగితపు ఫైబర్ శబ్దాన్ని తొలగించి, స్పష్టమైన పారదర్శక స్టాంప్ సీల్స్ సిద్ధం చేయడం ద్వారా భౌతిక స్టాంప్ స్కాన్లను శుభ్రం చేయండి.",
         "icon": "stamp"
       },
       {
-        "title": "Drawn line art extraction",
-        "description": "Isolate black strokes from drawing sketchbooks for easy Photoshop coloring workflows.",
+        "title": "డ్రాయింగ్ లైన్ ఆర్ట్ ఎక్స్ట్రాక్షన్",
+        "description": "ఫోటోషాప్ రంగుల వర్క్ఫ్లో కోసం డ్రాయింగ్ స్కెచ్బుక్ల నుండి నల్లని స్ట్రోక్స్ను వేరు చేయండి.",
         "icon": "edit"
       }
     ],
     "faq": [
       {
-        "question": "How does self-adaptive Alpha extraction differ from normal keying?",
-        "answer": "Standard chroma-keying often makes signature stroke details look blocky and pixelated. Our algorithm isolates only white/yellow background noise and smooths the ink borders."
+        "question": "స్వయం అనుసరణ ఆల్ఫా వెలికితీత సాధారణ కీంగ్ నుండి ఎలా భిన్నంగా ఉంటుంది?",
+        "answer": "ప్రామాణిక క్రోమా కీలు తరచుగా సంతకం స్ట్రోక్ వివరాలు బ్లాక్ మరియు పిక్సెల్ కనిపిస్తాయి. మా అల్గోరిథం తెలుపు / పసుపు నేపథ్య శబ్దం మాత్రమే వేరు చేస్తుంది మరియు ఇంక్ సరిహద్దులను మృదువుగా చేస్తుంది."
       },
       {
-        "question": "Which image formats are supported?",
-        "answer": "We support JPG, JPEG, and PNG. For best results, capture your signature photo under bright, even lighting."
+        "question": "ఏ చిత్ర ఫార్మాట్లకు మద్దతు ఉంది?",
+        "answer": "JPG, JPEG, PNG లకు మద్దతు ఉంది. ఉత్తమ ఫలితాల కోసం, మీ సంతకం ఫోటోను ప్రకాశవంతమైన, సగటు లైటింగ్లో సంగ్రహించండి."
       },
       {
-        "question": "Will the handwriting detail be modified?",
-        "answer": "No. The pixel filtering acts on original coordinates, sharpening contrast while maintaining genuine stroke textures."
+        "question": "చేతిపదార్థం యొక్క వివరాలు సవరించబడతాయా?",
+        "answer": "లేదు. పిక్సెల్ ఫిల్టర్ అసలు కోఆర్డినేట్లపై పనిచేస్తుంది, అసలు స్ట్రోక్ ఆకృతులను కాపాడుతూనే కాంట్రాస్ట్ను మెరుగుపరుస్తుంది."
       }
     ]
   },
   "dead-link-debugger": {
-    "title": "Fix Dead Links",
-    "metaDescription": "Scan all URL actions and link annotations in PDF, detect reachability, and inject redirects.",
+    "title": "చనిపోయిన లింకులను పరిష్కరించు",
+    "metaDescription": "అన్ని URL చర్యలను స్కాన్ చేసి, PDF లో లింక్ వ్యాఖ్యలను గుర్తించండి, అందుబాటులో ఉండుటను గుర్తించండి, మరియు దారిమార్పులను ఇంజెక్ట్ చేయండి.",
     "keywords": [
       "dead link pdf",
       "edit pdf hyperlinks",
@@ -7225,59 +7225,59 @@ export const toolContentTe: Record<string, ToolContent> = {
       "redirect link pdf",
       "update urls in pdf"
     ],
-    "description": "\n      <p>The Dead Link Debugger is a deep structural editor that guarantees link interaction quality in published files.</p>\n      <p>Broken urls (404/500) inside manuals, whitepapers, or guides reduce branding authority. This tool lets you manage the hyperlinks database seamlessly.</p>\n      <p>It parses the low-level <code>/Link</code> dictionaries on each page, Probes them, and displays link status in an interactive grid (red for dead links, orange for redirects). Simply type the updated redirect URL, and the tool writes the new target directly back into the PDF binary stream.</p>\n    ",
+    "description": "<p>డెడ్ లింక్ డెబగ్గర్ అనేది ప్రచురించిన ఫైళ్ళలో లింక్ పరస్పర నాణ్యతను హామీ ఇచ్చే లోతైన నిర్మాణ ఎడిటర్. </p> <p>బ్రేక్డ్ URL లు (404/500) మాన్యువల్స్, వైట్ పేపర్లు లేదా గైడ్లలో బ్రాండింగ్ అధికారాన్ని తగ్గిస్తాయి. ఈ సాధనం హైపర్ లింక్ల డేటాబేస్ను సజావుగా నిర్వహించడానికి మిమ్మల్ని అనుమతిస్తుంది.</p> <p>ఇది ప్రతి పేజీలోని తక్కువ స్థాయి <code>/Link</code> నిఘంటువులను విశ్లేషిస్తుంది, వాటిని సర్వే చేస్తుంది మరియు ఇంటరాక్టివ్ గ్రిడ్లో లింక్ స్థితిని ప్రదర్శిస్తుంది (మృత లింక్ల కోసం ఎరుపు, దారిమార్పు కోసం ఆరెంజ్). నవీకరించిన దారిమార్పు URL ను టైప్ చేయండి, మరియు సాధనం కొత్త లక్ష్యాలను నేరుగా PDF బైనరీ స్ట్రీమ్లోకి తిరిగి వ్రాస్తుంది.</p>",
     "howToUse": [
       {
         "step": 1,
-        "title": "Provide target document",
-        "description": "Upload the PDF manual or catalog containing links to debug."
+        "title": "లక్ష్య పత్రాన్ని అందించండి",
+        "description": "డీబగ్ లింకులను కలిగి ఉన్న PDF మాన్యువల్ లేదా కేటలాగ్ను అప్లోడ్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Scan and update",
-        "description": "Let the debugger extract all URL entities. Input new redirect URLs for broken items."
+        "title": "స్కాన్ మరియు నవీకరణ",
+        "description": "డీబగ్గర్ అన్ని URL ఎంటిటీలను సేకరించండి. విరిగిన అంశాలకు కొత్త రీడైరెక్ట్ URL లను నమోదు చేయండి."
       },
       {
         "step": 3,
-        "title": "Save redirect updates",
-        "description": "Click execute to rewrite /URI actions and download the corrected PDF."
+        "title": "పునః దర్శకత్వం నవీకరణలను సేవ్",
+        "description": "/URI చర్యలను తిరిగి వ్రాయడానికి అమలు క్లిక్ చేసి సరిదిద్దబడిన PDF ని డౌన్లోడ్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Flyer broken links hotfix",
-        "description": "Instantly correct wrong urls on published flyers without reopening original design editors.",
+        "title": "ఫైలర్ విరిగిన లింకులు హాట్ ఫిక్స్",
+        "description": "అసలు డిజైన్ ఎడిటర్లను తిరిగి తెరిచి లేకుండా ప్రచురించిన ఫ్లయిర్లలో తక్షణమే తప్పు URL లను సరిచేయండి.",
         "icon": "refresh-cw"
       },
       {
-        "title": "Bibliography links verification",
-        "description": "Verify academic bibliography links in reports, updating references to maintain authority.",
+        "title": "లింకులు ధృవీకరణ",
+        "description": "నివేదికల్లో విద్యా గ్రంథాలయ లింక్లను తనిఖీ చేయండి, అధికారాన్ని నిర్వహించడానికి సూచనలను నవీకరించండి.",
         "icon": "book"
       },
       {
-        "title": "Corporate rebranding updates",
-        "description": "Batch update old URLs across corporate PDFs when company domain names are changed.",
+        "title": "కార్పొరేట్ బ్రాండింగ్ నవీకరణలు",
+        "description": "కంపెనీ డొమైన్ పేర్లు మార్చబడినప్పుడు కార్పొరేట్ PDF లలో పాత URL లను బ్యాచ్ అప్డేట్ చేయండి.",
         "icon": "globe"
       }
     ],
     "faq": [
       {
-        "question": "Why isn't link reachability fully checked online?",
-        "answer": "Web browsers enforce strict CORS policies that block direct multi-origin link checking. Our tool lists the links clearly and lets you hot-fix them manually."
+        "question": "లింక్ లభ్యత పూర్తిగా ఆన్లైన్లో ఎందుకు తనిఖీ చేయబడలేదు?",
+        "answer": "వెబ్ బ్రౌజర్లు కఠినమైన CORS విధానాలను అమలు చేస్తాయి, ఇవి ప్రత్యక్ష బహుళ-మూలం లింక్ తనిఖీని నిరోధించాయి. మా సాధనం లింక్లను స్పష్టంగా జాబితా చేస్తుంది మరియు వాటిని మానవీయంగా హాట్ ఫిక్స్ చేయడానికి మిమ్మల్ని అనుమతిస్తుంది."
       },
       {
-        "question": "Will this modify the visual text representation on the page?",
-        "answer": "No. It only alters the underlying `/URI` navigation action. The visual link text remains unchanged."
+        "question": "ఇది పేజీలోని దృశ్యమాన టెక్స్ట్ ప్రాతినిధ్యాన్ని మార్చగలదా?",
+        "answer": "లేదు. ఇది `/URI` నావిగేషన్ చర్యను మాత్రమే మార్చుతుంది. దృశ్య లింక్ టెక్స్ట్ మారదు."
       },
       {
-        "question": "Does it support modifying internal page bookmarks?",
-        "answer": "This tool handles external `/URI` hyperlinks. For internal layout navigation, use our interactive TOC tool."
+        "question": "ఇది అంతర్గత పేజీల బుక్మార్క్లను సవరించడానికి మద్దతు ఇస్తుందా?",
+        "answer": "ఈ సాధనం బాహ్య `/URI` హైపర్ లింక్లను నిర్వహిస్తుంది. అంతర్గత లేఅవుట్ నావిగేషన్ కోసం, మా ఇంటరాక్టివ్ TOC సాధనాన్ని ఉపయోగించండి."
       }
     ]
   },
   "interactive-toc-generator": {
-    "title": "Generate Interactive TOC",
-    "metaDescription": "Generate aesthetic Table of Contents pages, insert them pre-content, and wire internal bidirectional GoTo anchors.",
+    "title": "ఇంటరాక్టివ్ TOC ను రూపొందించండి",
+    "metaDescription": "సౌందర్య కంటెంట్ టేబుల్ పేజీలను సృష్టించండి, వాటిని ముందు కంటెంట్ను చొప్పించండి, మరియు అంతర్గత ద్వి- దిశ గోటౌ యాంకర్లను వైర్ చేయండి.",
     "keywords": [
       "generate table of contents",
       "interactive toc pdf",
@@ -7289,55 +7289,55 @@ export const toolContentTe: Record<string, ToolContent> = {
     "howToUse": [
       {
         "step": 1,
-        "title": "Provide PDF document",
-        "description": "Upload a report, eBook, or proposal that needs an interactive catalog."
+        "title": "PDF పత్రాన్ని అందించండి",
+        "description": "ఒక ఇంటరాక్టివ్ కేటలాగ్ అవసరమయ్యే నివేదిక, ఇబుక్ లేదా ప్రతిపాదనను అప్లోడ్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Set TOC title & index",
-        "description": "Customize the main title and choose the page index to insert the TOC page."
+        "title": "TOC శీర్షిక & సూచిక సెట్",
+        "description": "ప్రధాన శీర్షికను అనుకూలీకరించండి మరియు TOC పేజీని చొప్పించడానికి పేజీ సూచికను ఎంచుకోండి."
       },
       {
         "step": 3,
-        "title": "Weave anchors & save",
-        "description": "Click execute to compile the pages and write the dual-link navigation."
+        "title": "నేత యాంకర్లు & సేవ్",
+        "description": "పేజీలను సంకలనం చేయడానికి మరియు డబుల్ లింక్ నావిగేషన్ను వ్రాయడానికి ఎగ్జిక్యూట్ క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Annual corporate report polishing",
-        "description": "Inject a beautiful index page after the cover sheet to allow shareholders to jump between financial charts.",
+        "title": "వార్షిక కార్పొరేట్ నివేదిక పాలిషింగ్",
+        "description": "కవర్ షీట్ తర్వాత ఒక అందమైన సూచిక పేజీని చొప్పించండి, తద్వారా వాటాదారులు ఆర్థిక చార్టుల మధ్య దూకడానికి వీలు కల్పిస్తారు.",
         "icon": "file-bar"
       },
       {
-        "title": "Thesis indexing",
-        "description": "Fast compile standard indexes aligned with university formatting rules.",
+        "title": "థీసిస్ ఇండెక్సింగ్",
+        "description": "విశ్వవిద్యాలయ ఫార్మాటింగ్ నియమాలకు అనుగుణంగా ప్రామాణిక సూచికలను వేగంగా కంపైల్ చేయండి.",
         "icon": "bookmark"
       },
       {
-        "title": "Operation manual navigation",
-        "description": "Help handbook readers quickly jump from troubleshooting sheets back to the main TOC.",
+        "title": "ఆపరేషన్ మాన్యువల్ నావిగేషన్",
+        "description": "మాన్యువల్ పాఠకులకు త్వరగా ట్రబుల్షూటింగ్ షీట్ నుండి ప్రధాన TOC కి తిరిగి వెళ్లడానికి సహాయం చేయండి.",
         "icon": "check-circle"
       }
     ],
     "faq": [
       {
-        "question": "How do the bidirectional anchors work?",
-        "answer": "We create standard Link annotations on the TOC page targeting the respective pages; then we embed a link back to the TOC page on all target chapter sheets."
+        "question": "రెండు దిశల యాంకర్లు ఎలా పనిచేస్తాయి?",
+        "answer": "మేము సంబంధిత పేజీలను లక్ష్యంగా చేసుకుని TOC పేజీలో ప్రామాణిక లింక్ వ్యాఖ్యలను సృష్టిస్తాము; అప్పుడు మేము అన్ని లక్ష్య అధ్యాయ షీట్లలో TOC పేజీకి లింక్ను పొందుపరుస్తాము."
       },
       {
-        "question": "Will inserting the TOC page break existing page numbers?",
-        "answer": "No. The compiler accounts for the offset of the newly inserted TOC page, ensuring all target destinations align."
+        "question": "TOC పేజీని చొప్పించడం వలన ఇప్పటికే ఉన్న పేజీ సంఖ్యలు విచ్ఛిన్నమవుతాయా?",
+        "answer": "లేదు. కొత్తగా చేర్చబడిన TOC పేజీ యొక్క సమతుల్యతను కంపైలర్ కలిగి ఉంటుంది, ఇది అన్ని లక్ష్య గమ్యస్థానాలను సమలేఖనం చేస్తుంది."
       },
       {
-        "question": "Is the TOC page valid when printed physically?",
-        "answer": "Yes. The generated TOC lists clean physical page numbers to guide paper readers while enabling clickable links on screen."
+        "question": "భౌతికంగా ముద్రించినప్పుడు TOC పేజీ చెల్లుతుందా?",
+        "answer": "అవును. ఉత్పత్తి చేయబడిన TOC పేపర్ రీడర్లను మార్గనిర్దేశం చేయడానికి శారీరక పేజీల సంఖ్యలను శుభ్రంగా జాబితా చేస్తుంది. అదే సమయంలో స్క్రీన్పై క్లిక్ చేయగల లింక్లను ప్రారంభిస్తుంది."
       }
     ]
   },
   "global-invoice-parser": {
-    "title": "Invoice Translate & Convert",
-    "metaDescription": "Extract currency totals from multi-national invoices, run calculations, and stamp interactive frosted-glass exchange ledgers.",
+    "title": "ఇన్వాయిస్ అనువాదం & మార్చు",
+    "metaDescription": "బహుళ-జాతీయ ఇన్వాయిస్ల నుండి కరెన్సీ మొత్తం సేకరించండి, గణనలను అమలు చేయండి మరియు ఇంటరాక్టివ్ స్టాంప్ ఫ్రస్ట్ గ్లాస్ ఎక్స్ఛేంజ్ లెడ్జర్లను స్టాంప్ చేయండి.",
     "keywords": [
       "translate invoice",
       "invoice currency converter",
@@ -7349,55 +7349,55 @@ export const toolContentTe: Record<string, ToolContent> = {
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload invoice PDF",
-        "description": "Import any invoice billed in foreign currencies (e.g. USD, EUR, JPY)."
+        "title": "బిల్లును PDF లో అప్లోడ్ చేయండి",
+        "description": "విదేశీ కరెన్సీలలో (ఉదా. USD, EUR, JPY) బిల్లింగ్ చేయబడిన ఏదైనా ఫ్యాక్టులను దిగుమతి చేసుకోండి."
       },
       {
         "step": 2,
-        "title": "Select local currency",
-        "description": "Choose your local currency (e.g. CNY) and specify a custom or real-time exchange rate."
+        "title": "స్థానిక కరెన్సీని ఎంచుకోండి",
+        "description": "మీ స్థానిక కరెన్సీని (ఉదా. CNY) ఎంచుకోండి మరియు కస్టమ్ లేదా రియల్ టైమ్ మార్పిడి రేటును పేర్కొనండి."
       },
       {
         "step": 3,
-        "title": "Apply ledger stamp",
-        "description": "Click execute to overlay the gorgeous exchange rate ledger ready for accounting."
+        "title": "ప్రధాన పత్రం స్టాంప్ను దరఖాస్తు చేసుకోండి",
+        "description": "ఎగ్జిక్యూట్ క్లిక్ చేయండి అకౌంటింగ్ కోసం సిద్ధంగా ఉన్న అద్భుతమైన మార్పిడి రేటు లెడ్జర్ను అతివ్యాప్తి చేయడానికి."
       }
     ],
     "useCases": [
       {
-        "title": "Foreign business trip reimbursement",
-        "description": "Convert travel bills into local currency and stamp conversion details, easing accounting workflows.",
+        "title": "విదేశీ వ్యాపార పర్యటనకు రాబడి",
+        "description": "ప్రయాణ బిల్లులను స్థానిక కరెన్సీకి మార్చండి మరియు స్టాంప్ మార్పిడి వివరాలను, అకౌంటింగ్ వర్క్ఫ్లోలను సులభతరం చేయండి.",
         "icon": "plane"
       },
       {
-        "title": "Cross-border shopping audit",
-        "description": "Translate invoice columns and isolate the true cost of e-commerce goods.",
+        "title": "సరిహద్దుల దాటి కొనుగోలు చేసిన ఆడిట్",
+        "description": "ఇన్వాయిస్ కాలమ్లను అనువదించండి మరియు ఇ-కామర్స్ వస్తువుల యొక్క నిజమైన వ్యయాన్ని వేరు చేయండి.",
         "icon": "credit-card"
       },
       {
-        "title": "International business bookkeeping",
-        "description": "Stamp consistent conversion ledgers on corporate invoices to streamline year-end audits.",
+        "title": "అంతర్జాతీయ వ్యాపారాల అకౌంటింగ్",
+        "description": "సంవత్సరాంతపు ఆడిట్లను సరళీకృతం చేయడానికి కార్పొరేట్ ఇన్వాయిస్లలో స్థిరమైన మార్పిడి లెడ్జర్లను స్టాంప్ చేయండి.",
         "icon": "folder-open"
       }
     ],
     "faq": [
       {
-        "question": "How does it detect invoice amounts?",
-        "answer": "It scans character streams for currency symbols and analyzes semantic headings like \"Total\" or \"Due\" to locate the invoice final sum."
+        "question": "ఇది బిల్లుల మొత్తాలను ఎలా గుర్తించగలదు?",
+        "answer": "ఇది కరెన్సీ చిహ్నాల కోసం అక్షర ప్రవాహాలను స్కాన్ చేస్తుంది మరియు \"మొత్తం\" లేదా \"ధర\" వంటి అర్థ శీర్షికలను విశ్లేషిస్తుంది."
       },
       {
-        "question": "Are exchange rates fetched in real-time?",
-        "answer": "Yes. By default, it retrieves base rates from standard financial APIs. You can also specify custom rates for internal audits."
+        "question": "మార్పిడి రేట్లు నిజ సమయంలో లభిస్తాయా?",
+        "answer": "అవును. డిఫాల్ట్గా, ఇది ప్రామాణిక ఆర్థిక API ల నుండి బేస్ రేట్లు తిరిగి పొందుతుంది. మీరు అంతర్గత ఆడిట్లకు అనుకూలీకరించిన రేట్లు కూడా పేర్కొనవచ్చు."
       },
       {
-        "question": "Will the stamped ledger cover important invoice details?",
-        "answer": "The engine scans the page margin to find optimal positioning. The ledger is also semi-transparent, aligning elegantly with your layouts."
+        "question": "స్టాంప్ చేయబడిన ప్రధాన పుస్తకము ముఖ్యమైన బిల్లు వివరాలను కవర్ చేస్తుందా?",
+        "answer": "ఈ ఇంజిన్ సరైన స్థానాలను కనుగొనడానికి పేజీ మార్జిన్ను స్కాన్ చేస్తుంది. ప్రధాన పుస్తకం కూడా సెమీ పారదర్శకంగా ఉంటుంది, ఇది మీ లేఅవుట్లతో చక్కగా అమర్చబడుతుంది."
       }
     ]
   },
   "pdf-deskew-aligner": {
-    "title": "Auto Scan Deskew",
-    "metaDescription": "Detect and auto-correct page rotations and alignments on mobile-photo or scanned PDF sheets instantly.",
+    "title": "ఆటో స్కాన్ డెస్క్యు",
+    "metaDescription": "మొబైల్ ఫోటో లేదా స్కాన్ చేసిన PDF షీట్లలో పేజీ భ్రమణాలను మరియు అమరికలను తక్షణమే గుర్తించండి మరియు స్వయంచాలకంగా సరిచేయండి.",
     "keywords": [
       "pdf deskew",
       "scanned page alignment",
@@ -7405,59 +7405,59 @@ export const toolContentTe: Record<string, ToolContent> = {
       "straighten scanned paper",
       "document alignment tool"
     ],
-    "description": "\n      <p>The PDF Scan Aligner is a mandatory utility for sanitizing tilted digital assets and mobile snapshots.</p>\n      <p>Documents scanned via physical flatbeds or captured quickly with smartphones often carry subtle rotations. Tilted pages look highly unprofessional, hinder text readability, and cause margins to clip during printing.</p>\n      <p>This tool utilizes robust <strong>Radon Transform and Hough Line detection algorithms</strong> to scan gradients and text lines under 20ms. It precisely measures skew down to 0.01 degrees and performs pixel-level Canvas rotation, snapping your receipts, contracts, and booklets back into crisp geometric alignment.</p>\n    ",
+    "description": "<p>PDF స్కాన్ అలైన్జర్ అనేది వంగి ఉన్న డిజిటల్ ఆస్తులు మరియు మొబైల్ స్నాప్షాట్లను శుభ్రపరచడానికి తప్పనిసరి యుటిలిటీ. </p> <p>స్మార్ట్ఫోన్లతో త్వరగా స్కాన్ చేయబడిన లేదా త్వరగా సంగ్రహించిన పత్రాలు తరచుగా సూక్ష్మ భ్రమణాలను కలిగి ఉంటాయి. వంగి ఉన్న పేజీలు చాలా అప్రొఫెషనల్గా కనిపిస్తాయి, టెక్స్ట్ పఠనానికి అడ్డంకులు ఇస్తాయి మరియు ప్రింటింగ్ సమయంలో మార్జిన్లను క్లిప్ చేయడానికి కారణమవుతాయి.</p> <p>ఈ సాధనం బలమైన <strong>రాడాన్ ట్రాన్స్ఫార్మ్ మరియు హౌ లైన్ గుర్తింపు అల్గోరిథంలను</strong> ఉపయోగిస్తుంది. 20ms లోపు గ్రేడియెంట్లు మరియు టెక్స్ట్ లైన్లను స్కాన్ చేయడానికి. ఇది ఖచ్చితమైన 0.01 డిగ్రీల వరకు వంగింపును కొలుస్తుంది మరియు పిక్సెల్ స్థాయిలో కన్వాస్ భ్రమణాన్ని నిర్వహిస్తుంది, మీ రసీదులు, ఒప్పందాలు మరియు పుస్తకాలను తిరిగి స్పష్టమైన జియోమెట్రిక్ అమరికలోకి తీసుకుంటుంది.</p",
     "howToUse": [
       {
         "step": 1,
-        "title": "Provide skew PDF",
-        "description": "Upload any PDF sheet carrying rotated or poorly aligned scanned documents."
+        "title": "వక్రీకరించు PDF",
+        "description": "తిరిగిన లేదా పేలవంగా అమర్చిన స్కాన్ చేసిన పత్రాలను కలిగి ఉన్న ఏదైనా PDF షీట్ను అప్లోడ్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Analyze and tweak",
-        "description": "The engine auto-detects skew angle and draws aligning grids. Tweak angle manually if needed."
+        "title": "విశ్లేషించండి మరియు సర్దుబాటు చేయండి",
+        "description": "ఇంజిన్ స్వయంచాలకంగా విన్యాస కోణం గుర్తించి, అమరిక గ్రిడ్లను గీయడం. అవసరమైతే ఆంగ్లంగా మానిఫెస్ట్ చేయండి."
       },
       {
         "step": 3,
-        "title": "Straighten & download",
-        "description": "Click execute to swing pages through a smooth gyroscope transition and download aligned PDF."
+        "title": "నేరుగా & డౌన్లోడ్",
+        "description": "ఒక మృదువైన జిరోస్కోప్ పరివర్తన ద్వారా పేజీలను స్వింగ్ చేయడానికి ఎగ్జిక్యూట్ క్లిక్ చేసి, అమర్చిన PDF ని డౌన్లోడ్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Receipt & Contract Archiving",
-        "description": "Straighten quick hand-held mobile contract scans before saving them as formal digital PDF archives.",
+        "title": "రిసీవ్ & కాంట్రాక్ట్ ఆర్కైవ్",
+        "description": "అధికారిక డిజిటల్ PDF ఆర్కైవ్లుగా సేవ్ చేయడానికి ముందు మొబైల్ కాంట్రాక్ట్ స్కాన్లను సజావుగా చేయండి.",
         "icon": "file-text"
       },
       {
-        "title": "Academic Book Digitizing",
-        "description": "Sanitize microfilm book scans where text lines drift out of horizontal margins.",
+        "title": "విద్యా పుస్తకాలను డిజిటైజ్ చేయడం",
+        "description": "క్లుప్త మార్జిన్ల నుండి వచన రేఖలు దూసుకుపోయే మైక్రోఫిల్మ్ పుస్తక స్కాన్లను శుభ్రపరచండి.",
         "icon": "book"
       },
       {
-        "title": "Student Homework Grading",
-        "description": "Correct homework snapshots taken by student phones, relaxing the eyes of grading teachers.",
+        "title": "విద్యార్థి హోంవర్క్ గ్రేడింగ్",
+        "description": "విద్యార్థుల ఫోన్ల ద్వారా తీసిన ఇంటి పని స్నాప్షాట్లను సరిచేసుకోండి, గ్రేడింగ్ ఉపాధ్యాయుల కళ్ళు విశ్రాంతి తీసుకోండి.",
         "icon": "edit-3"
       }
     ],
     "faq": [
       {
-        "question": "How is document skew detected?",
-        "answer": "We run high-speed Hough Line projections on text lines. Since formal prints have clear horizontal spacing patterns, finding the angle with the maximum variance isolates the rotation."
+        "question": "పత్రాల విచక్షణ ఎలా గుర్తించబడుతుంది?",
+        "answer": "మేము టెక్స్ట్ లైన్లలో హై-స్పీడ్ హౌ లైన్ ప్రొజెక్షన్ను అమలు చేస్తాము. అధికారిక ప్రింట్లు స్పష్టమైన క్షితిజ సమాంతర విరామం నమూనాలను కలిగి ఉన్నందున, గరిష్ట వ్యత్యాసం ఉన్న కోణాన్ని కనుగొనడం భ్రమణాన్ని వేరు చేస్తుంది."
       },
       {
-        "question": "Will this process crop away page edges?",
-        "answer": "No. The engine calculates the rotated boundary and extends the Canvas using auto-padding, ensuring all margin text remains intact without cropping."
+        "question": "ఈ ప్రక్రియ పేజీ అంచులను తొలగించగలదా?",
+        "answer": "లేదు. ఇంజిన్ తిరిగే సరిహద్దును లెక్కిస్తుంది మరియు ఆటో-ప్యాడింగ్ ఉపయోగించి కన్వాస్ను విస్తరిస్తుంది, ఇది అన్ని మార్జిన్ టెక్స్ట్ కత్తిరించకుండా సంపూర్ణంగా ఉందని నిర్ధారిస్తుంది."
       },
       {
-        "question": "Does it support documents filled with diagrams?",
-        "answer": "Yes, as long as there is an underlying structure of lines or general paragraphs, our algorithms can accurately lock onto the principal reading angle."
+        "question": "ఇది రేఖాచిత్రాలతో నిండిన పత్రాలను మద్దతు ఇస్తుందా?",
+        "answer": "అవును, లైన్ల లేదా సాధారణ పేరాల యొక్క అంతర్లీన నిర్మాణం ఉన్నంత కాలం, మా అల్గోరిథంలు ప్రధాన పఠన కోణానికి సరిగ్గా లాక్ చేయగలవు."
       }
     ]
   },
   "pdf-two-column-reflower": {
-    "title": "Two-Column Paper Reflow",
-    "metaDescription": "Analyze IEEE/ACM double-column paper PDF structures and reflow them into responsive single-column layouts for smooth mobile and e-Reader viewing.",
+    "title": "రెండు కాలమ్ల కాగితం రిఫ్లో",
+    "metaDescription": "IEEE/ACM డబుల్ కాలమ్ పేపర్ PDF నిర్మాణాలను విశ్లేషించండి మరియు వాటిని మొబైల్ మరియు ఇ-రీడర్ వీక్షణ కోసం ప్రతిస్పందించే సింగిల్ కాలమ్ లేఅవుట్లలో తిరిగి తరలించండి.",
     "keywords": [
       "two-column pdf to single",
       "reflow academic paper",
@@ -7465,59 +7465,59 @@ export const toolContentTe: Record<string, ToolContent> = {
       "pdf reader reflow",
       "mobile friendly papers"
     ],
-    "description": "\n      <p>The Academic Two-Column Reflower solves the most significant pain point of digital research: reading papers on standard mobile screens.</p>\n      <p>Double-column layouts (used by IEEE, ACM, Nature, and major reports) are designed for A4 paper. Navigating them on phone screens or Kindle devices requires constant zooming, dragging right, scrolling down, and panning back up. It breaks reading comprehension completely.</p>\n      <p>Our processor implements a <strong>smart paragraph reflow and vertical partition barrier scan</strong>. It analyzes character coordinates to map double-column gutters, divides the layout, and weaves segments vertically (left column first, then right). Graphs, formulas, and headings are seamlessly rearranged into a single-column, flowable vertical scroll PDF.</p>\n    ",
+    "description": "<p>అకాడెమిక్ రెండు కాలమ్ రిఫ్లవర్ డిజిటల్ పరిశోధన యొక్క అతి ముఖ్యమైన నొప్పిని పరిష్కరిస్తుందిః ప్రామాణిక మొబైల్ స్క్రీన్లలో పత్రాలను చదవడం. </p> <p>డబుల్-కాలమ్ లేఅవుట్లు (IEEE, ACM, ప్రకృతి మరియు ప్రధాన నివేదికలు ఉపయోగించుకుంటాయి) A4 కాగితం కోసం రూపొందించబడ్డాయి. వాటిని ఫోన్ స్క్రీన్లు లేదా కిండ్ల్ పరికరాల్లో నావిగేట్ చేయడానికి స్థిరమైన జూమింగ్, కుడివైపు లాగడం, క్రిందికి స్క్రోల్ చేయడం మరియు పైకి తిరిగి పైకి స్క్రోల్ చేయడం అవసరం. ఇది పూర్తిగా పఠన అవగాహనను విచ్ఛిన్నం చేస్తుంది. </p> <p> <p>మా ప్రాసెసర్ <strong> స్మార్ట్ పేరాఫ్లో మరియు నిలువు విభజన అడ్డంకి స్కాన్ను అమలు చేస్తుంది</strong>. ఇది డబుల్-కాలమ్ గట్లను మ్యాప్ చేయడానికి పాత్ర సమన్వయాలను విశ్లేషిస్తుంది, లేఅవుట్ను విభజిస్తుంది మరియు నిలువుగా (ఎడమ, తరువాత) వరుసలను నేతరం చేస్తుంది. గ్రాఫ్లు",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload double-column PDF",
-        "description": "Provide the IEEE/ACM journal report or multi-column PDF sheet."
+        "title": "డబుల్ కాలమ్ PDF ను అప్లోడ్ చేయండి",
+        "description": "IEEE/ACM పత్రిక నివేదిక లేదా బహుళ కాలమ్ PDF షీట్ను అందించండి."
       },
       {
         "step": 2,
-        "title": "Inspect partition gutter",
-        "description": "Verify the red vertical partition slice guides. Adjust margins to prevent overlapping elements."
+        "title": "విభజన గనిని తనిఖీ చేయండి",
+        "description": "ఎరుపు నిలువు విభజన స్లైస్ గైడ్లను తనిఖీ చేయండి. వరుస మూలకాలను అతివ్యాప్తి చేయకుండా మార్జిన్లను సర్దుబాటు చేయండి."
       },
       {
         "step": 3,
-        "title": "Reflow and save",
-        "description": "Click execute to compile the pages into flowable layouts and download instantly."
+        "title": "పునఃప్రవాహం మరియు సేవ్",
+        "description": "పేజీలను ఫ్లోబుల్ లేఅవుట్లలో కంపైల్ చేయడానికి ఎగ్జిక్యూట్ క్లిక్ చేసి తక్షణమే డౌన్లోడ్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "e-Reader Book Import",
-        "description": "Convert dense double-column essays into comfortable single-column documents matching Kindle and Onyx screens.",
+        "title": "ఇ-రీడర్ పుస్తక దిగుమతి",
+        "description": "Kindle మరియు Onyx స్క్రీన్లకు సరిపోయే సౌకర్యవంతమైన సింగిల్-కాలమ్ డాక్యుమెంట్లుగా ద్వి-కాలమ్ వ్యాసాలను మార్చండి.",
         "icon": "tablet"
       },
       {
-        "title": "Subway Phone Reading",
-        "description": "Read research literature comfortably with single-hand vertical swipe gestures during transit.",
+        "title": "మెట్రో ఫోన్ రీడింగ్",
+        "description": "ట్రాన్స్పోర్ట్ సమయంలో ఒక చేతితో నిలువుగా స్విప్ చేసే సంజ్ఞలతో పరిశోధనా సాహిత్యాలను సౌకర్యవంతంగా చదవండి.",
         "icon": "smartphone"
       },
       {
-        "title": "Archival Journal Formatting",
-        "description": "Modernize old narrow-column newspapers into readable, single-column web formats.",
+        "title": "ఆర్కైవ్ జర్నల్ ఫార్మాటింగ్",
+        "description": "పాత ఇరుకైన కాలమ్ వార్తాపత్రికలను చదవగలిగే, ఒకే కాలమ్ వెబ్ ఫార్మాట్లుగా ఆధునీకరించండి.",
         "icon": "book-open"
       }
     ],
     "faq": [
       {
-        "question": "How are broad charts and equations handled?",
-        "answer": "Our engine applies \"span element detection.\" When an equation or diagram exceeds normal column widths, it is isolated as a full-width item, maintaining original proportions without clipping."
+        "question": "విస్తృత చార్టులు మరియు సమీకరణాలను ఎలా నిర్వహించాలి?",
+        "answer": "మా ఇంజిన్ \"స్పాన్ ఎలిమెంట్ డిటెక్షన్\" ను వర్తింపజేస్తుంది. ఒక సమీకరణం లేదా రేఖాచిత్రం సాధారణ కాలమ్ వెడల్పులను మించిపోయినప్పుడు, అది పూర్తి వెడల్పు అంశంగా వేరుచేయబడుతుంది, ఇది కత్తిరించకుండా అసలు నిష్పత్తిని నిర్వహిస్తుంది."
       },
       {
-        "question": "Will this modify the vector text resolution?",
-        "answer": "Not at all. We rewrite PDF text object transform matrices at the object tree level instead of rasterizing, meaning text remains 100% vector and fully selectable."
+        "question": "ఇది వెక్టర్ టెక్స్ట్ రిజల్యూషన్ను మార్చగలదా?",
+        "answer": "లేదు. మేము పట్టికను మార్చడానికి బదులుగా వస్తువు చెట్టు స్థాయిలో PDF టెక్స్ట్ వస్తువు మార్చే మాట్రిక్లను తిరిగి వ్రాస్తాము, అంటే టెక్స్ట్ 100% వెక్టర్గా ఉంటుంది మరియు పూర్తిగా ఎంచుకోవచ్చు."
       },
       {
-        "question": "Does this work on scanned image documents?",
-        "answer": "For flat image-based PDFs, we highly recommend running our OCR tool first before executing the Reflow process."
+        "question": "ఇది స్కాన్ చిత్ర పత్రాలు పని చేస్తుంది?",
+        "answer": "ఫ్లాట్ ఇమేజ్ ఆధారిత PDF ల కోసం, రిఫ్లో ప్రక్రియను అమలు చేయడానికి ముందు మా OCR సాధనాన్ని మొదట అమలు చేయాలని మేము సిఫార్సు చేస్తున్నాము."
       }
     ]
   },
   "pdf-page-resizer-uniform": {
-    "title": "Uniform PDF Page Size",
-    "metaDescription": "Batch resize and normalize mixed-format A4, A3, and Letter PDF sheets into a uniform target size with proportional centering and margin padding.",
+    "title": "ఏకరీతి PDF పేజీ పరిమాణం",
+    "metaDescription": "బ్యాచ్ మిశ్రమ ఆకృతిలో A4, A3 మరియు లెటర్ PDF షీట్లను నిష్పత్తి కేంద్రం మరియు మార్జిన్ పూతతో ఏకరీతి లక్ష్య పరిమాణంలో పరిమాణం మరియు సాధారణీకరణను చేస్తుంది.",
     "keywords": [
       "uniform page size",
       "resize pdf pages",
@@ -7525,59 +7525,59 @@ export const toolContentTe: Record<string, ToolContent> = {
       "mediabox normalize",
       "batch page scale"
     ],
-    "description": "\n      <p>The Multi-Format PDF Resizer is the ultimate standardizer for cluttered, mismatched corporate documents.</p>\n      <p>Combining invoices, contracts, and supplementary charts often results in a PDF containing massive A3 ledger pages, standard A4 agreements, and Letter-sized envelopes. Flipping through them is highly distracting, and sending them to physical office printers often causes jam errors due to size mismatch.</p>\n      <p>This tool rewrites the low-level <code>/MediaBox</code> and <code>/CropBox</code> grids on each page. It maps existing widths and heights, scales original pages proportionally to match target presets (e.g. standard A4), and introduces elegant, consistent surrounding margins, making the entire file look incredibly polished.</p>\n    ",
+    "description": "<p>మల్టీ-ఫార్మాట్ PDF రీసైజర్ అనేది గందరగోళంగా, సరిపోలని కార్పొరేట్ పత్రాల కోసం అంతిమ ప్రామాణికీకరణ. </p> <p>ఫాక్టులు, ఒప్పందాలు మరియు అదనపు చార్ట్లను కలపడం తరచుగా భారీ A3 లెడ్జర్ పేజీలు, ప్రామాణిక A4 ఒప్పందాలు మరియు లేటర్-సైజ్ ఆవాలెట్లు కలిగిన PDF ని కలిగిస్తుంది. వాటి ద్వారా తిప్పడం చాలా విడదీయదారి, మరియు వాటిని భౌతిక కార్యాలయ ప్రింటర్లకు పంపడం తరచుగా పరిమాణ అసమానత కారణంగా జామ్ లోపాలను కలిగిస్తుంది. </p> <p> <p>ఈ సాధనం ప్రతి పేజీలోని తక్కువ స్థాయి <code>/MediaBox</code> మరియు <code>/CropBox</code> గ్రిడ్లను తిరిగి వ్రాస్తుంది. ఇది ఇప్పటికే ఉన్న వెడల్పులు మరియు ఎత్తులను మ్యాప్ చేస్తుంది, లక్ష్య సెట్లు (ఉదా. ప్రామాణిక A4) కు అనుగుణంగా అసలు పేజీలను స్కేల్ చేస్తుంది మరియు మొత్తం ఫైల్ను నిశ్చయంగా పాలిష్ చేస్తుంది. </p>",
     "howToUse": [
       {
         "step": 1,
-        "title": "Provide mixed-size PDF",
-        "description": "Upload a merged PDF document containing mismatched, messy page sizes."
+        "title": "మిశ్రమ పరిమాణ PDF ను అందించండి",
+        "description": "అనుగుణంగా లేని, అస్థిరమైన పేజీ పరిమాణాలను కలిగి ఉన్న విలీనం చేయబడిన PDF పత్రాన్ని అప్లోడ్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Choose target preset",
-        "description": "Select the target uniform size (e.g. A4, Letter, A3) and toggle scale modes."
+        "title": "లక్ష్యమును ముందే సెట్ చేయండి",
+        "description": "లక్ష్య ఏకరీతి పరిమాణాన్ని (ఉదా. A4, లేఖ, A3) ఎంచుకోండి మరియు స్కేల్ మోడ్లను మార్చండి."
       },
       {
         "step": 3,
-        "title": "Align and download",
-        "description": "Click execute to trigger 3D sheet alignment, downloading a beautifully standardized PDF."
+        "title": "సర్దుబాటు మరియు డౌన్లోడ్",
+        "description": "3D షీట్ అమరికను ప్రారంభించడానికి ఎగ్జిక్యూట్ క్లిక్ చేయండి, అందంగా ప్రామాణికమైన PDF ను డౌన్లోడ్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Corporate RFP Proposals",
-        "description": "Standardize scanned qualification certificates and A4 bidding sheets before physical printing.",
+        "title": "కార్పొరేట్ ఆర్ పి పి ప్రతిపాదనలు",
+        "description": "భౌతిక ముద్రణకు ముందు స్కాన్ చేసిన అర్హత సర్టిఫికేట్లు మరియు A4 బిడ్ షీట్లను ప్రామాణీకరించండి.",
         "icon": "file-text"
       },
       {
-        "title": "Financial Chart Integration",
-        "description": "Scale broad A3 financial cash flows into neat A4 pages, preserving printing standards.",
+        "title": "ఆర్థిక చార్టుల సమగ్రత",
+        "description": "విస్తృత A3 ఆర్థిక నగదు ప్రవాహాలను చక్కగా A4 పేజీలలోకి తరలించడం, ప్రింటింగ్ ప్రమాణాలను కాపాడుకోవడం.",
         "icon": "layout"
       },
       {
-        "title": "Book Margin Standardization",
-        "description": "Force slightly varied scanned book pages into an absolutely uniform dimension for comfortable reading.",
+        "title": "బుక్ మార్జిన్ ప్రామాణీకరణ",
+        "description": "సౌకర్యవంతమైన పఠనం కోసం కొద్దిగా విభిన్నమైన స్కాన్ చేసిన పుస్తక పేజీలను పూర్తిగా ఏకరీతిగా ఉంచండి.",
         "icon": "book"
       }
     ],
     "faq": [
       {
-        "question": "Will this warp my content?",
-        "answer": "Never. We support both \"Contain\" (proportional scaling with white bars) and \"Cover\" (centered crop). The default Contain mode preserves aspect ratios, preventing distortion."
+        "question": "ఇది నా కంటెంట్ను విచ్ఛిన్నం చేస్తుందా?",
+        "answer": "ఎప్పటికీ. మేము \"కంటైన్\" (తెల్ల బార్లతో నిష్పత్తి స్థాయి) మరియు \"కవర్\" (కేంద్రీకృత పంట) రెండింటినీ మద్దతు ఇస్తున్నాము. డిఫాల్ట్ కంటైన్ మోడ్ అక్షర నిష్పత్తిని కాపాడుతుంది, తప్పుడు దృశ్యాలను నివారించడం."
       },
       {
-        "question": "Will existing forms and annotations remain clickable?",
-        "answer": "Yes. The algorithm maps the scaling factors to the Annotation coordinate arrays, scaling link boxes, sign boundaries, and inputs to align perfectly after resizing."
+        "question": "ఇప్పటికే ఉన్న ఫారమ్లు, వ్యాఖ్యలు క్లిక్ చేయదగినవిగా ఉంటాయి.",
+        "answer": "అవును. అల్గోరిథం స్కేలింగ్ కారకాలను అనోటేషన్ కోఆర్డినేట్ అమరికలకు, స్కేలింగ్ లింక్ బాక్స్లకు, సైన్ సరిహద్దులు, మరియు ఇన్పుట్లను సరిగా అమర్చడానికి మ్యాప్ చేస్తుంది."
       },
       {
-        "question": "Is there a limit on how many pages I can resize?",
-        "answer": "No. Since all operations run locally in your client sandbox using native JavaScript, you can process extensive PDFs containing hundreds of pages in seconds."
+        "question": "నేను ఎన్ని పేజీలను పరిమాణం మార్చగలనో దానికి పరిమితి ఉందా?",
+        "answer": "లేదు. అన్ని కార్యకలాపాలు స్థానిక జావాస్క్రిప్ట్ ఉపయోగించి మీ క్లయింట్ సాండ్బాక్స్లో స్థానికంగా అమలు అవుతాయి కాబట్టి, మీరు సెకన్లలోనే వందలాది పేజీలను కలిగి ఉన్న విస్తారమైన PDF లను ప్రాసెస్ చేయవచ్చు."
       }
     ]
   },
   "handwriting-ink-contrast-booster": {
-    "title": "Enhance Handwriting Ink",
-    "metaDescription": "Extract blue or black handwriting signatures from photos, bleach yellow paper grain, and dramatically boost ink contrast for readability.",
+    "title": "చేతిరచన ఇంక్ ను మెరుగుపరచండి",
+    "metaDescription": "ఫోటోల నుండి నీలం లేదా నల్ల చేతిపని సంతకాలను తీయండి, పసుపు కాగితం యొక్క గింజలను తెల్లగా చేయండి, మరియు చదవడం కోసం ఇంక్ కాంట్రాస్ట్ను గణనీయంగా పెంచండి.",
     "keywords": [
       "enhance handwritten contract",
       "ink contrast boost",
@@ -7585,59 +7585,59 @@ export const toolContentTe: Record<string, ToolContent> = {
       "sharpen faded signature",
       "signature extraction"
     ],
-    "description": "\n      <p>The Handwriting Ink Contrast Booster is a savior for digitizing signed agreements and historical manuscript archives.</p>\n      <p>Scans of hand-signed documents often look dull due to grey scanner glass reflection, yellow paper tint, or faded ink. Re-printing or photocopying these files results in blurry, illegible signatures. Traditional contrast tools darken the entire background, worsening the layout.</p>\n      <p>This tool utilizes **Contrast Limited Adaptive Histogram Equalization (CLAHE) and hue-based color separation**. In a secure local Canvas process, it isolates handwriting strokes (both black and blue) from background parchment, bleaches shadow wrinkles completely, and infuses faded inks with deep, saturated contrast, leaving your documents looking incredibly crisp and clean.</p>\n    ",
+    "description": "<p>హ్యాండ్ రైటింగ్ ఇంక్ కాంట్రాస్ట్ బూస్టర్ సంతకం చేయబడిన ఒప్పందాలు మరియు చారిత్రక మాన్యుస్క్రిప్ట్ ఆర్కైవ్లను డిజిటైజ్ చేయడానికి ఒక రక్షకుడు. </p> <p>హ్యాండ్ సైన్ పత్రాల స్కాన్లు తరచుగా గ్రే స్కానర్ గాజు ప్రతిబింబం, పసుపు కాగితం రంగు లేదా మసకైన ఇంక్ కారణంగా మసకగా కనిపిస్తాయి. ఈ ఫైళ్ళను తిరిగి ముద్రించడం లేదా ఫోటోకాపీ చేయడం వల్ల మసకైన, చదవలేని సంతకాలు ఏర్పడతాయి. సాంప్రదాయ సాధనాలు మొత్తం నేపథ్యాన్ని ముదురుస్తాయి, లేఅవుట్ను మరింత దిగజల్లగా చేస్తాయి.</p> <p> <p>ఈ సాధనం ** కాంట్రాస్ట్ లిమిటెడ్ అడాప్టివ్ హిస్టోగ్రామ్ ఈక్వలైజేషన్ (CLAHE) మరియు షేన్ ఆధారిత రంగు వేరుచేయడం**ను ఉపయోగిస్తుంది. సురక్షితమైన స్థానిక కన్వాస్లో, ఇది హ్యాండ్ రైటింగ్ స్ట్రోక్స్ (నలుపు మరియు నీలం రెండూ) ను నేపథ్య ముద్ర నుండి వేరుస్తుంది, నీ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Import hand-signed document",
-        "description": "Provide a PDF containing faded signatures, handwritten diaries, or sketches."
+        "title": "చేతితో సంతకం చేసిన పత్రాన్ని దిగుమతి చేసుకోవడం",
+        "description": "మసకబారిన సంతకాలు, చేతితో వ్రాసిన దినపత్రికలు లేదా స్కెచ్లు ఉన్న PDF ను అందించండి."
       },
       {
         "step": 2,
-        "title": "Configure ink filter",
-        "description": "Select the color profile to isolate (e.g. blue ink, black ink, or both) and adjust sharpening."
+        "title": "ఇంక్ ఫిల్టర్ను కాన్ఫిగర్ చేయండి",
+        "description": "వేరుచేయడానికి రంగు ప్రొఫైల్ను ఎంచుకోండి (ఉదా. నీలం ఇంక్, నల్ల ఇంక్ లేదా రెండూ) మరియు పదును పెట్టడం సర్దుబాటు చేయండి."
       },
       {
         "step": 3,
-        "title": "Sharpen and download",
-        "description": "Click execute to trace colors with a radar scanner effect and download purified PDF."
+        "title": "కత్తిరించు మరియు డౌన్లోడ్",
+        "description": "రేడర్ స్కానర్ ప్రభావంతో రంగులను గుర్తించడానికి ఎగ్జిక్యూట్ క్లిక్ చేసి శుద్ధి చేసిన PDF ని డౌన్లోడ్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Executed Contracts Repair",
-        "description": "Repair poorly scanned agreements, sharpening signatures and bleaching paper background to A4-pure white.",
+        "title": "అమలు చేయబడిన ఒప్పందాల మరమ్మతు",
+        "description": "పేలవంగా స్కాన్ చేసిన ఒప్పందాలను సరిచేయండి, సంతకాలు కఠినంగా ఉంటాయి మరియు కాగితం నేపథ్యాన్ని A4 స్వచ్ఛమైన తెలుపు రంగులోకి తెల్లగా చేస్తుంది.",
         "icon": "file-check"
       },
       {
-        "title": "Handwritten Manuscripts Archive",
-        "description": "Digitize written journals or diaries, extracting clear black strokes while erasing age-related stains.",
+        "title": "చేతితో వ్రాయబడిన గ్రంథాల ఆర్కైవ్",
+        "description": "వ్రాసిన పత్రికలు లేదా దినపత్రికలను డిజిటైజ్ చేయండి, వయస్సు సంబంధిత మచ్చలను తొలగించేటప్పుడు స్పష్టమైన నల్లటి స్ట్రోక్స్ను తీయండి.",
         "icon": "book"
       },
       {
-        "title": "Historical Ledger Restoration",
-        "description": "Restore faint ink details on aged archival ledgers, rescuing valuable handwritten coordinates.",
+        "title": "చరిత్రాత్మక లెజెర్ పునరుద్ధరణ",
+        "description": "పాత ఆర్కైవ్ లెడ్జర్లలోని మచ్చైన ఇంక్ వివరాలను పునరుద్ధరించండి, విలువైన చేతితో వ్రాసిన కోఆర్డినేట్లను కాపాడండి.",
         "icon": "archive"
       }
     ],
     "faq": [
       {
-        "question": "How does this differ from normal grayscale conversion?",
-        "answer": "Grayscale converts paper shadows into gray values. Our adaptive algorithm separates background luminance and isolates signature \"ink spectrums,\" purifying the backdrop to absolute white while leaving stroke edges sharp."
+        "question": "ఇది సాధారణ గ్రేస్ స్కేల్ మార్పిడి నుండి ఎలా భిన్నంగా ఉంటుంది?",
+        "answer": "గ్రేస్కేల్ పేపర్ నీడలను గ్రే విలువలుగా మారుస్తుంది. మా అనుకూల అల్గోరిథం నేపథ్య ప్రకాశం వేరు చేస్తుంది మరియు సంతకం \"ఇంక్ స్పెక్ట్రమ్లను\" వేరు చేస్తుంది, ఇది నేపథ్యాన్ని సంపూర్ణ తెలుపు రంగులోకి శుద్ధి చేస్తుంది, అయితే స్ట్రోక్ అంచులను పదునైనదిగా చేస్తుంది."
       },
       {
-        "question": "Will I lose handwriting stroke texture?",
-        "answer": "No. The CLAHE algorithm works on a sub-pixel level, preserving natural pen-stroke pressure, ink fading, and dynamic line weights."
+        "question": "నేను చేతిరచన స్ట్రోక్ ఆకృతి కోల్పోతారు?",
+        "answer": "లేదు. CLAHE అల్గోరిథం సబ్ పిక్సెల్ స్థాయిలో పనిచేస్తుంది, సహజ పెన్-స్ట్రోక్ ఒత్తిడి, ఇంక్ మలుపు మరియు డైనమిక్ లైన్ బరువులను కాపాడుతుంది."
       },
       {
-        "question": "Can I keep red corporate stamp marks?",
-        "answer": "Yes. By enabling \"Chroma Ink Preservation,\" the booster whitens paper background and darkens writing, while maintaining the bright colors of red seals and blue ink signatures."
+        "question": "నేను ఎరుపు కార్పొరేట్ స్టాంప్ మార్కులు ఉంచవచ్చు?",
+        "answer": "అవును. \"క్రోమా ఇంక్ సంరక్షణ\"ను ప్రారంభించడం ద్వారా, బూస్టర్ కాగితం నేపథ్యాన్ని తెల్లగా చేస్తుంది మరియు వ్రాతకళను ముదురు చేస్తుంది, అదే సమయంలో ఎరుపు ముద్రలు మరియు నీలం ఇంక్ సంతకాల ప్రకాశవంతమైన రంగులను నిర్వహిస్తుంది."
       }
     ]
   },
   "pdf-spine-bookbinder": {
-    "title": "Calculate Book Spine Width",
-    "metaDescription": "Calculate book spine width based on page count and paper GSM, and generate a printable cover template with spine fold lines.",
+    "title": "పుస్తక వెడల్పు లెక్కించండి",
+    "metaDescription": "పేజీల సంఖ్య మరియు కాగితం GSM ఆధారంగా పుస్తక వెడల్పును లెక్కించండి మరియు వెడల్పు వరుసలతో ముద్రించదగిన కవర్ టెంప్లేట్ను రూపొందించండి.",
     "keywords": [
       "book spine calculator",
       "binding spine thickness",
@@ -7649,55 +7649,55 @@ export const toolContentTe: Record<string, ToolContent> = {
     "howToUse": [
       {
         "step": 1,
-        "title": "Set pages & stock type",
-        "description": "Input document page count and select the target paper stock specifications."
+        "title": "పేజీలు & స్టాక్ రకం సెట్",
+        "description": "ఇన్పుట్ పత్రం పేజీల సంఖ్యను మరియు లక్ష్య కాగితం స్టాక్ లక్షణాలు ఎంచుకోండి."
       },
       {
         "step": 2,
-        "title": "Input spine text",
-        "description": "Enter book titles, author details, and customize spine/cover backgrounds."
+        "title": "వెన్నెముక వచనాన్ని నమోదు చేయండి",
+        "description": "పుస్తక శీర్షికలు, రచయిత వివరాలు, మరియు వెన్నెముక / కవర్ నేపథ్యాలను అనుకూలీకరించండి."
       },
       {
         "step": 3,
-        "title": "3D Preview & Export",
-        "description": "Spin and inspect your book cover in an interactive 3D binder. Export high-resolution vector PDF."
+        "title": "3D ప్రివ్యూ & ఎగుమతి",
+        "description": "మీ పుస్తక కవర్ను ఇంటరాక్టివ్ 3D బైండర్లో తిప్పండి మరియు తనిఖీ చేయండి. అధిక రిజల్యూషన్ వెక్టర్ PDF ను ఎగుమతి చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Thick Bidding Proposals",
-        "description": "Design professional cover sheets with precise spine crease alignments for thick tender bids.",
+        "title": "భారీ బిడ్ల ప్రతిపాదనలు",
+        "description": "మందపాటి టెండర్లకు ఖచ్చితమైన వెన్నెముక వంపు అమరికలతో ప్రొఫెషనల్ కవర్ షీట్లను రూపొందించండి.",
         "icon": "layers"
       },
       {
-        "title": "Thesis Hardcover Binding",
-        "description": "Map out perfect spine layout widths for university master/doctorate degree theses.",
+        "title": "థీసిస్ హార్డ్ కవర్ బైండింగ్",
+        "description": "విశ్వవిద్యాలయ మాస్టర్ / డాక్టరేట్ డిగ్రీ థీసిస్ కోసం ఖచ్చితమైన వెన్నెముక అమరిక వెడల్పులను మ్యాప్ చేయండి.",
         "icon": "award"
       },
       {
-        "title": "Self-Publishing Novel Covers",
-        "description": "Calculate book spine width easily before submitting files to Print-on-Demand publishing services.",
+        "title": "స్వీయ ప్రచురణ నవల కవర్లు",
+        "description": "డిమాండ్ మీద ముద్రణ ప్రచురణ సేవలకు ఫైళ్ళను సమర్పించే ముందు పుస్తక వెడల్పు వెడల్పును సులభంగా లెక్కించండి.",
         "icon": "book-open"
       }
     ],
     "faq": [
       {
-        "question": "How accurate is the GSM paper-thickness calculation?",
-        "answer": "Highly accurate. Our physics library matches industry averages (e.g. 70 GSM = 0.09mm, 80 GSM = 0.10mm, 150 GSM glossy = 0.125mm). We also include a \"Double-sided printing\" toggle to halve calculations automatically."
+        "question": "GSM పేపర్ మందం లెక్కింపు ఎంత ఖచ్చితమైనది?",
+        "answer": "మా భౌతిక గ్రంథాలయం పరిశ్రమ సగటులకు అనుగుణంగా ఉంటుంది (ఉదా. 70 GSM = 0.09mm, 80 GSM = 0.10mm, 150 GSM గ్లోసి = 0.125mm). మేము కూడా \"డబుల్ సైడెడ్ ప్రింటింగ్\" టోగుల్ను కలిగి ఉన్నాము, ఇది గణనలను స్వయంచాలకంగా సగానికి తగ్గిస్తుంది."
       },
       {
-        "question": "Are the exported covers ready for direct printing?",
-        "answer": "Yes. The files are vector-perfect PDFs carrying standard registration marks, color bars, and spine guides, fully compliant with offset and digital commercial presses."
+        "question": "ఎగుమతి చేయబడిన కవర్లు ప్రత్యక్ష ముద్రణకు సిద్ధంగా ఉన్నాయా?",
+        "answer": "అవును. ఈ ఫైళ్లు ప్రామాణిక రిజిస్ట్రేషన్ మార్కులు, రంగు బార్లు, వెన్నెముక గైడ్లతో కూడిన వెక్టర్-పెర్ఫెక్ట్ PDF లు. ఇవి ఆఫ్సెట్ మరియు డిజిటల్ కమర్షియల్ ప్రెస్లతో పూర్తిగా అనుకూలంగా ఉంటాయి."
       },
       {
-        "question": "Can I upload a background image spanning the spine?",
-        "answer": "Yes. You can upload custom layouts, and our compositor will wrap and align the graphics across the spine folds automatically."
+        "question": "నేను వెన్నెముక వ్యాప్తి ఒక నేపథ్య చిత్రం అప్లోడ్ చేయవచ్చు?",
+        "answer": "అవును. మీరు అనుకూలీకరించిన లేఅవుట్లను అప్లోడ్ చేయవచ్చు, మరియు మా కంపోజిటర్ ప్యాకేజీలను ప్యాకేజీలో స్వయంచాలకంగా ప్యాకేజీలను ప్యాకేజీలో ప్యాకేజీ చేస్తుంది."
       }
     ]
   },
   "pdf-signature-anchor-helper": {
-    "title": "Signature Position Guide",
-    "metaDescription": "Automatically locate signature fields in contracts, and inject interactive hovering guides and anchors for quick signing.",
+    "title": "సంతకం స్థానం గైడ్",
+    "metaDescription": "ఒప్పందాలలో సంతకం ఫీల్డ్లను స్వయంచాలకంగా గుర్తించండి మరియు శీఘ్ర సంతకం కోసం ఇంటరాక్టివ్ ఫ్లోరింగ్ గైడ్లు మరియు యాంకర్లను ఇంజెక్ట్ చేయండి.",
     "keywords": [
       "locate signature pdf",
       "inject sign anchor",
@@ -7709,55 +7709,55 @@ export const toolContentTe: Record<string, ToolContent> = {
     "howToUse": [
       {
         "step": 1,
-        "title": "Import business contract",
-        "description": "Upload the PDF contract or NDA that needs signature coordinates."
+        "title": "దిగుమతి వ్యాపార ఒప్పందం",
+        "description": "సంతకం కోఆర్డినేట్లు అవసరమయ్యే PDF ఒప్పందం లేదా NDA ని అప్లోడ్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Auto-scan signature slots",
-        "description": "Inspect the automatically located signing boxes, and manually add custom sign points if needed."
+        "title": "స్వయంచాలక స్కాన్ సంతకం స్లాట్లు",
+        "description": "ఆటోమేటిక్గా ఉన్న సంతకం పెట్టెలను తనిఖీ చేయండి, అవసరమైతే కస్టమ్ సైన్ పాయింట్లను చేతితో జోడించండి."
       },
       {
         "step": 3,
-        "title": "Inject anchors & save",
-        "description": "Click execute to write the interactive pointer layers into the PDF structure."
+        "title": "యాంకర్లు ఇంజెక్ట్ & సేవ్",
+        "description": "PDF నిర్మాణంలో ఇంటరాక్టివ్ పాయింటర్ పొరలను వ్రాయడానికి ఎగ్జిక్యూట్ క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Corporate NDA Agreements",
-        "description": "Inject clear, flashing guides next to sign blocks to prevent onboarding employees from missing clauses.",
+        "title": "కార్పొరేట్ ఎన్డీఏ ఒప్పందాలు",
+        "description": "బోర్డులో ఉన్న ఉద్యోగులకు తప్పిపోయిన నిబంధనలను నివారించడానికి, సైన్ బ్లాక్ల పక్కన స్పష్టమైన, మెరుపు గైడ్లను ఇంజెక్ట్ చేయండి.",
         "icon": "file-text"
       },
       {
-        "title": "Commercial Lease Contracts",
-        "description": "Guide multiple co-signers through multi-page real estate documents with custom-colored tabs.",
+        "title": "వాణిజ్య లీజు ఒప్పందాలు",
+        "description": "కస్టమ్ రంగు ట్యాబ్లతో బహుళ పేజీల రియల్ ఎస్టేట్ పత్రాల ద్వారా బహుళ సహ సంతకం చేసేవారిని మార్గనిర్దేశం చేయండి.",
         "icon": "users"
       },
       {
-        "title": "Procurement PO Signatures",
-        "description": "Overlay interactive pointers on invoices and purchase orders to accelerate accounting approval loops.",
+        "title": "కొనుగోలు పాయింట్లు",
+        "description": "అకౌంటింగ్ ఆమోదం లూప్స్ వేగవంతం చేయడానికి ఇన్వాయిస్లు మరియు కొనుగోలు ఆర్డర్లు మీద ఇంటరాక్టివ్ పాయింటర్లను అతివ్యాప్తి చేయండి.",
         "icon": "briefcase"
       }
     ],
     "faq": [
       {
-        "question": "Will these guides appear when I print the contract?",
-        "answer": "No. The anchors are injected with the standard PDF `Printable` flag set to false. They display beautifully on computer/tablet screens but remain completely invisible when printed."
+        "question": "నేను ఒప్పందాన్ని ముద్రించినప్పుడు ఈ గైడ్లు కనిపిస్తాయా?",
+        "answer": "లేదు. యాంకర్లు ప్రామాణిక PDF `Printable ` ఫ్లాగ్తో అమర్చబడి ఉంటాయి. అవి కంప్యూటర్/టాబ్లెట్ స్క్రీన్లలో అందంగా కనిపిస్తాయి, కానీ ముద్రించినప్పుడు పూర్తిగా కనిపించవు."
       },
       {
-        "question": "Can clients jump between signature fields easily?",
-        "answer": "Yes. We weave bidirectional internal anchors. Clients can click the \"Sign Guide\" bookmark to automatically jump to the next empty signature slot instantly."
+        "question": "వినియోగదారులు సులభంగా సంతకం రంగాల మధ్య దూకవచ్చు?",
+        "answer": "అవును. మేము రెండు దిశల అంతర్గత యాంకర్లను నేతృత్వము చేస్తాము. క్లయింట్లు \"సైన్ గైడ్\" బుక్మార్క్ను క్లిక్ చేసి వెంటనే తదుపరి ఖాళీ సంతకం స్లాట్కు ఆటోమేటిక్గా దూకవచ్చు."
       },
       {
-        "question": "Does this work on scanned image documents?",
-        "answer": "Yes. Besides looking up text streams, our spatial layout parser estimates signature lines based on horizontal rules and bounding boxes on scanned sheets."
+        "question": "ఇది స్కాన్ చిత్ర పత్రాలు పని చేస్తుంది?",
+        "answer": "అవును. టెక్స్ట్ స్ట్రీమ్లను చూసే పాటు, మా స్పేస్ లేఅవుట్ పారసర్ స్కాన్ చేసిన షీట్లలోని హారిజోనల్ నియమాలు మరియు సరిహద్దు పెట్టెల ఆధారంగా సంతకం పంక్తులను అంచనా వేస్తుంది."
       }
     ]
   },
   "pdf-lossless-slicer": {
-    "title": "Lossless Drawing Slicing",
-    "metaDescription": "Extract a partial region of large PDF CAD drawings, maps, or charts at a low-level, keeping vector resolution intact while dropping file size.",
+    "title": "నష్టం లేకుండా డ్రాయింగ్ స్లైసింగ్",
+    "metaDescription": "పెద్ద PDF CAD డ్రాయింగ్లు, మ్యాప్లు లేదా చార్ట్లను తక్కువ స్థాయిలో తొలగించండి, ఫైల్ పరిమాణాన్ని తగ్గించేటప్పుడు వెక్టర్ రిజల్యూషన్ను సంపూర్ణంగా ఉంచండి.",
     "keywords": [
       "pdf vector crop",
       "lossless pdf slice",
@@ -7765,59 +7765,59 @@ export const toolContentTe: Record<string, ToolContent> = {
       "cropbox matrix edit",
       "extract map region"
     ],
-    "description": "\n      <p>The PDF Lossless Drawing Slicer is a high-precision, surgical tool built for architects, engineers, and map detailers.</p>\n      <p>When extracting a specific pump room or chip core from a massive CAD engineering blueprint or geographic map PDF, traditional screenshots result in pixelated, blurry text. Normal cropping tools simply place a mask over the sheet, meaning the massive 100MB file remains huge, and hidden content can still be extracted.</p>\n      <p>This tool edits the page <code>/MediaBox</code>, <code>/CropBox</code>, and <code>/BleedBox</code> matrices at the object tree level. It physically isolates vector nodes outside the selected region, keeping the target area 100% vector-perfect (allowing infinite zoom magnification) while purging redundant off-screen paths and images to shrink the file size by 95%!</p>\n    ",
+    "description": "<p>PDF లాస్లెస్ డ్రాయింగ్ స్లైజర్ అనేది ఆర్కిటెక్ట్స్, ఇంజనీర్లు మరియు మ్యాప్ వివరాల కోసం నిర్మించిన అధిక ఖచ్చితత్వ, శస్త్రచికిత్స సాధనం. </p> <p>ప్రత్యేక పంపు గది లేదా చిప్ కోర్ను భారీ CAD ఇంజనీరింగ్ బ్లూప్రింట్ లేదా భౌగోళిక మ్యాప్ PDF నుండి వెలికితీసేటప్పుడు, సాంప్రదాయ స్క్రీన్షాట్లు పిక్సెల్డ్, మబ్బు టెక్స్ట్ను కలిగిస్తాయి. సాధారణ కత్తిరింపు సాధనాలు షీట్ పై ముసుగును ఉంచడం ద్వారా, భారీ 100MB ఫైల్ భారీగా ఉంటుంది మరియు దాచిన కంటెంట్ ఇప్పటికీ వెలికితీయబడుతుంది. </p> <p> <p>ఈ సాధనం పేజీ <code>/MediaBox</code>, <code>/Crop</code> మరియు <code>/BleedBox</code> మాట్రిక్లను వస్తువు చెట్టు స్థాయిలో సవరించడం ద్వారా శైలిని వేరుస్తుంది. ఇది భౌతికంగా ప్రాంతం వెలుపల వెక్టర్లను వేరుస్తుంది, లక్ష్య ప్రాంతం 100% వెయిఫెక్ట్",
     "howToUse": [
       {
         "step": 1,
-        "title": "Import large blueprint",
-        "description": "Upload the vector-rich CAD, GIS map, or high-resolution catalog PDF."
+        "title": "పెద్ద blueprint దిగుమతి",
+        "description": "వెక్టర్-రిచ్ CAD, GIS మ్యాప్ లేదా హై-రిజల్యూషన్ కేటలాగ్ PDF ని అప్లోడ్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Draw cutting box",
-        "description": "Drag and scale the green laser-line crop box to target the local region you want to slice."
+        "title": "కట్టింగ్ బాక్స్ డ్రా",
+        "description": "మీరు కత్తిరించాలనుకుంటున్న స్థానిక ప్రాంతాన్ని లక్ష్యంగా చేసుకోవడానికి ఆకుపచ్చ లేజర్ లైన్ పంట పెట్టెను లాగండి మరియు స్కేల్ చేయండి."
       },
       {
         "step": 3,
-        "title": "Trigger laser crop",
-        "description": "Click execute to trigger our low-level object slicer and download the tiny, lossless PDF."
+        "title": "ట్రిగ్గర్ లేజర్ పంట",
+        "description": "ఎగ్జిక్యూట్ క్లిక్ చేయండి మా తక్కువ స్థాయి వస్తువు స్లైజర్ను ప్రారంభించడానికి మరియు చిన్న, నష్టం లేని PDF ని డౌన్లోడ్ చేయడానికి."
       }
     ],
     "useCases": [
       {
-        "title": "CAD Blueprint Isolation",
-        "description": "Slice out a \"cooling system\" detail from a massive 100MB floor plan blueprint to share with sub-contractors.",
+        "title": "CAD బ్లూప్రింట్ ఐసోలేషన్",
+        "description": "ఒక భారీ 100MB ఫ్లోర్ ప్లాన్ యొక్క blueprint నుండి ఒక \"శీతలకరణ వ్యవస్థ\" వివరాలు కట్ ఉప-కంట్రాక్టర్లు భాగస్వామ్యం.",
         "icon": "crop"
       },
       {
-        "title": "GIS Map Snipping",
-        "description": "Extract a lossless, vector-clear block of a city street map for a presentation slide without resolution loss.",
+        "title": "జిఐఎస్ మ్యాప్ స్నిపింగ్",
+        "description": "ఒక ప్రదర్శన స్లయిడ్ కోసం నగరం వీధి మ్యాప్ యొక్క నష్టం లేని, వెక్టర్-స్పష్టమైన బ్లాక్ను తీర్మాన నష్టం లేకుండా తీయండి.",
         "icon": "map"
       },
       {
-        "title": "Manual Illustration Tracing",
-        "description": "Lossless isolate scientific book figures to embed into high-quality academic papers.",
+        "title": "మాన్యువల్ ఇలస్ట్రేషన్ ట్రాకింగ్",
+        "description": "అధిక నాణ్యత గల విద్యా పత్రాలలో పొందుపరచడానికి శాస్త్రీయ పుస్తక సంఖ్యలను నిష్కాపటంగా వేరుచేయండి.",
         "icon": "image"
       }
     ],
     "faq": [
       {
-        "question": "How is this different from standard cropping?",
-        "answer": "Standard cropping merely adjusts visual bounds; the hidden vectors remain in the file. Our slicer trims overlapping vector paths and purges out-of-bounds XObject images, ensuring complete data isolation and maximum file compression."
+        "question": "సాధారణ పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట పంట ప",
+        "answer": "ప్రామాణిక కత్తిరింపు కేవలం దృశ్య సరిహద్దులను సర్దుబాటు చేస్తుంది; దాచిన వెక్టర్లు ఫైల్లో ఉంటాయి. మా స్లైసర్ వరుస వెక్టర్ మార్గాలను కత్తిరించడం మరియు XObject చిత్రాలను సరిహద్దుల వెలుపల శుభ్రపరుస్తుంది, పూర్తి డేటా వేరుచేయడం మరియు గరిష్ట ఫైల్ కంప్రెషన్ను నిర్ధారిస్తుంది."
       },
       {
-        "question": "Will text layers remain searchable?",
-        "answer": "Yes. Any text characters that fall inside the sliced boundary remain fully vector-clear, searchable, and selectable."
+        "question": "టెక్స్ట్ పొరలు శోధించగలవా?",
+        "answer": "అవును. కత్తిరించిన సరిహద్దు లోపల ఉన్న ఏదైనా టెక్స్ట్ అక్షరాలు పూర్తిగా వెక్టర్-క్లీర్గా ఉంటాయి, శోధించగలవు, మరియు ఎంచుకోగలవు."
       },
       {
-        "question": "Can I export sliced regions to SVG?",
-        "answer": "The output is a standardized vector PDF. You can pass the resulting file to our PDF-to-SVG tool to convert it to a web-scalable vector graphics format."
+        "question": "నేను స్లైస్ ప్రాంతాలను SVG కి ఎగుమతి చేయవచ్చా?",
+        "answer": "అవుట్పుట్ ప్రామాణిక వెక్టర్ PDF. మీరు ఫలితంగా ఫైలును మా PDF-to-SVG సాధనం ద్వారా వెబ్-స్కేలబుల్ వెక్టర్ గ్రాఫిక్స్ ఫార్మాట్కు మార్చవచ్చు."
       }
     ]
   },
   "pdf-scratchpad-canvas": {
-    "title": "Grid Scratchpad Canvas",
-    "metaDescription": "Stitch high-quality grid, ruled, or Cornell note-taking margins to PDF pages for formula derivations and exam note preparation.",
+    "title": "గ్రిడ్ స్క్రాచ్ప్యాడ్ కన్వాస్",
+    "metaDescription": "ఫార్ములా ఉత్పన్నాలు మరియు పరీక్షా నోట్ తయారీ కోసం అధిక నాణ్యత గల గ్రిడ్, పాలన లేదా కార్నెల్ నోట్-టేకింగ్ మార్జిన్లను PDF పేజీలకు కుట్టు.",
     "keywords": [
       "pdf margin expand",
       "add scratchpad page",
@@ -7829,55 +7829,55 @@ export const toolContentTe: Record<string, ToolContent> = {
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload lecture slides",
-        "description": "Provide the PDF textbook, slides, or study papers."
+        "title": "ఉపన్యాస స్లైడ్లను అప్లోడ్ చేయండి",
+        "description": "PDF పాఠ్యపుస్తకం, స్లైడ్లు లేదా అధ్యయన పత్రాలను అందించండి."
       },
       {
         "step": 2,
-        "title": "Choose margin & grid style",
-        "description": "Pick margin expansion direction (e.g. right side for tablets) and select the grid template."
+        "title": "మార్జిన్ & గ్రిడ్ శైలిని ఎంచుకోండి",
+        "description": "మార్జిన్ విస్తరణ దిశను ఎంచుకోండి (ఉదా. టాబ్లెట్ల కుడి వైపు) మరియు గ్రిడ్ టెంప్లేట్ను ఎంచుకోండి."
       },
       {
         "step": 3,
-        "title": "Stitch canvas & download",
-        "description": "Click execute to generate expanded pages complete with beautiful draft grids."
+        "title": "కుట్టు కన్వాస్ & డౌన్లోడ్",
+        "description": "అందమైన డ్రాఫ్ట్ గ్రిడ్లతో పూర్తి విస్తరించిన పేజీలను రూపొందించడానికి ఎగ్జిక్యూట్ క్లిక్ చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "STEM Exam Preparation",
-        "description": "Stitch grid margins next to math and physics exam questions, solving derivations right next to the question.",
+        "title": "STEM పరీక్షల తయారీ",
+        "description": "గణిత మరియు భౌతిక పరీక్ష ప్రశ్నల పక్కన గ్రిడ్ మార్జిన్లు కుట్టు, ప్రశ్న పక్కన డీరివేషన్లను పరిష్కరించడం.",
         "icon": "edit-3"
       },
       {
-        "title": "Language Reading Analysis",
-        "description": "Add ruled notebook margins next to foreign language essays for vocabulary analysis and paragraph translation.",
+        "title": "భాషా పఠనం విశ్లేషణ",
+        "description": "పదజాల విశ్లేషణ మరియు పేరా అనువాదం కోసం విదేశీ భాషా వ్యాసాలకు పక్కన నియంత్రిత నోట్బుక్ మార్జిన్లు జోడించండి.",
         "icon": "book"
       },
       {
-        "title": "Architectural Blueprint Audit",
-        "description": "Add empty margin spaces on the side of blueprints for engineering calculations and client review comments.",
+        "title": "నిర్మాణ ప్రణాళికా తనిఖీ",
+        "description": "ఇంజనీరింగ్ లెక్కలు మరియు క్లయింట్ సమీక్ష వ్యాఖ్యల కోసం ప్రణాళికల వైపు ఖాళీ మార్జిన్ ఖాళీలను జోడించండి.",
         "icon": "columns"
       }
     ],
     "faq": [
       {
-        "question": "Will this squish my original PDF text?",
-        "answer": "Not at all. The algorithm expands the paper dimension outwards. The original content retains its layout, fonts, and resolution; we simply stretch the white space on the borders and draw grids on them."
+        "question": "ఇది నా అసలు PDF టెక్స్ట్ను కురిపించగలదా?",
+        "answer": "అల్గోరిథం కాగితం పరిమాణాన్ని వెలుపల విస్తరిస్తుంది. అసలు కంటెంట్ దాని లేఅవుట్, ఫాంట్లు మరియు స్పష్టతను కలిగి ఉంటుంది; మేము సరిహద్దుల మీద ఉన్న తెలుపు స్థలాన్ని విస్తరించి వాటిపై గ్రిడ్లను గీయడం."
       },
       {
-        "question": "Can standard hand-writing pens write in the scratchpad?",
-        "answer": "Yes. The new PDF pages are compiled natively. Popular tablet note-taking applications like Goodnotes, Notability, Xodo, and Acrobat can write, highlight, and doodle directly in the new grid space."
+        "question": "ప్రామాణిక చేతి వ్రాత పెన్నులు స్క్రాచ్ ప్యాడ్ లో వ్రాయవచ్చు?",
+        "answer": "అవును. కొత్త PDF పేజీలు స్థానికంగా కంపైల్ చేయబడ్డాయి. గుడ్నోట్స్, నోటబాలిటీ, ఎక్సోడో, అక్రోబాట్ వంటి ప్రముఖ టాబ్లెట్ నోట్-టేకింగ్ అప్లికేషన్లు కొత్త గ్రిడ్ స్థలంలో నేరుగా వ్రాయవచ్చు, హైలైట్ చేయవచ్చు మరియు డూడ్ చేయవచ్చు."
       },
       {
-        "question": "Are grid lines dark and distracting?",
-        "answer": "We curated three subtle, eye-friendly colors (soft blue-gray, warm brown, and glowing green). The lines are thin and gentle, serving as guides without distracting you from the original page content."
+        "question": "గ్రిడ్ లైన్లు చీకటిగా ఉన్నాయా?",
+        "answer": "మేము మూడు సూక్ష్మమైన, కంటికి అనుకూలమైన రంగులను (నెమ్మదిగా నీలం-బూడిద, వెచ్చని గోధుమ, మరియు ప్రకాశవంతమైన ఆకుపచ్చ) క్యూరేట్ చేసాము."
       }
     ]
   },
   "photo-tiling-prepress": {
-    "title": "ID Photo DIY Print Tiler",
-    "metaDescription": "Crop and tile passport/ID photos onto standard 5\" or 6\" photo papers, and stamp precise prepress physical crop marks for easy cutting.",
+    "title": "ID ఫోటో DIY ప్రింట్ టైలర్",
+    "metaDescription": "ప్రామాణిక 5\" లేదా 6\" ఫోటో పేపర్లలో పంట మరియు టైల్ పాస్పోర్ట్/ఐడి ఫోటోలు, మరియు సులభంగా కత్తిరించడానికి ఖచ్చితమైన ప్రిప్రెస్ భౌతిక పంట మార్కులు స్టాంప్.",
     "keywords": [
       "id photo tiling",
       "print passport photo",
@@ -7889,49 +7889,49 @@ export const toolContentTe: Record<string, ToolContent> = {
     "howToUse": [
       {
         "step": 1,
-        "title": "Import passport photo",
-        "description": "Upload the camera portrait snapshot or double-sided ID card images."
+        "title": "దిగుమతి పాస్పోర్ట్ ఫోటో",
+        "description": "కెమెరా పోర్ట్రెయిట్ స్నాప్షాట్ లేదా డబుల్ సైడెడ్ ఐడి కార్డు చిత్రాలను అప్లోడ్ చేయండి."
       },
       {
         "step": 2,
-        "title": "Configure paper & layout",
-        "description": "Select the target print paper size (e.g. 6\") and choose the grid layouts (e.g. 8 copies of 1\" photos)."
+        "title": "కాగితం & లేఅవుట్ ఆకృతీకరించు",
+        "description": "లక్ష్య ప్రింట్ పేపర్ పరిమాణాన్ని ఎంచుకోండి (ఉదా. 6\") మరియు గ్రిడ్ లేఅవుట్లను ఎంచుకోండి (ఉదా. 8 కాపీలు 1 \"ఫోటోలు)."
       },
       {
         "step": 3,
-        "title": "Tile and export",
-        "description": "Inspect photo tiles on our grid, and export the high-DPI printable PDF."
+        "title": "టైల్స్ మరియు ఎగుమతులు",
+        "description": "మా గ్రిడ్లో ఉన్న ఫోటో టైల్స్ను తనిఖీ చేయండి, మరియు అధిక DPI ముద్రించగల PDF ను ఎగుమతి చేయండి."
       }
     ],
     "useCases": [
       {
-        "title": "Self-Service Passport Photos",
-        "description": "Arrange your mobile-shot passport portraits onto a single 6\" photo paper grid, and print 8 copies for a fraction of standard studio costs.",
+        "title": "స్వయంసేవక పాస్పోర్ట్ ఫోటోలు",
+        "description": "మీ మొబైల్ షూట్ పాస్పోర్ట్ ఛాయాచిత్రాలను ఒకే 6\" ఫోటో పేపర్ గ్రిడ్లో అమర్చండి, మరియు ప్రామాణిక స్టూడియో ఖర్చులలో కొంత భాగానికి 8 కాపీలు ముద్రించండి.",
         "icon": "user"
       },
       {
-        "title": "ID Card Double-sided Copy",
-        "description": "Format front and back scans of national ID cards neatly on standard Letter/A4 sheets for official submissions.",
+        "title": "ఐడి కార్డు డబుల్ సైడెడ్ కాపీ",
+        "description": "అధికారిక సమర్పణల కోసం ప్రామాణిక లెటర్/A4 షీట్లలో జాతీయ గుర్తింపు కార్డుల ముందు మరియు వెనుక స్కాన్లను చక్కగా ఫార్మాట్ చేయండి.",
         "icon": "file-text"
       },
       {
-        "title": "Batch Photo Thumbnail Sheets",
-        "description": "Tile multiple family memories or design snapshots onto a grid paper to print thumbnail contact sheets efficiently.",
+        "title": "బ్యాచ్ ఫోటో సూక్ష్మచిత్ర పలకలు",
+        "description": "చిన్నచిత్ర పరిచయ షీట్లను సమర్థవంతంగా ముద్రించడానికి బహుళ కుటుంబ జ్ఞాపకాలను లేదా స్నాప్షాట్లను గ్రిడ్ పేపర్పై టైల్ చేయండి.",
         "icon": "grid"
       }
     ],
     "faq": [
       {
-        "question": "Will the printed dimensions match official 1\" or 2\" specs?",
-        "answer": "Yes. The grid engine measures using standard PDF points (72 pt = 1 inch), rendering 1\" photos exactly at 25x35mm, and 2\" photos at 35x49mm. Ensure you print at \"Actual Size / 100% Scale\" in your printer settings."
+        "question": "ముద్రించిన పరిమాణాలు అధికారిక 1 లేదా 2 స్పెసిఫికేషన్లకు అనుగుణంగా ఉన్నాయా?",
+        "answer": "అవును. గ్రిడ్ ఇంజన్ ప్రామాణిక PDF పాయింట్లను (72 pt = 1 అంగుళం) ఉపయోగించి కొలుస్తుంది, ఇది 25x35mm వద్ద సరిగ్గా 1\" ఫోటోలను మరియు 35x49mm వద్ద 2\" ఫోటోలను అందిస్తుంది. మీ ప్రింటర్ సెట్టింగులలో \"అక్షర పరిమాణం / 100% స్కేల్\" వద్ద ప్రింట్ చేయడాన్ని నిర్ధారించుకోండి."
       },
       {
-        "question": "Can I combine 1\" and 2\" photos on a single sheet?",
-        "answer": "Yes. We provide curated hybrid layout presets (e.g. \"4 copies of 1\" + 4 copies of 2\"\"), allowing you to maximize photo paper space."
+        "question": "నేను ఒక షీట్ లో 1 \"మరియు 2\" ఫోటోలు కలపవచ్చును?",
+        "answer": "అవును. మేము క్యూరేటెడ్ హైబ్రిడ్ లేఅవుట్ ప్రీసెట్లను అందిస్తాము (ఉదా. \"4 కాపీలు 1 + 4 కాపీలు 2\"), ఇది ఫోటో పేపర్ స్థలాన్ని గరిష్టంగా పెంచడానికి మిమ్మల్ని అనుమతిస్తుంది."
       },
       {
-        "question": "Does the template include border bleeds?",
-        "answer": "Yes. The prepress layouts reserve a standard 4mm print-safe margin on the paper borders, preventing physical printer rollers from cropping the photos."
+        "question": "టెంప్లేట్ లో సరిహద్దు రక్తస్రావం ఉందా?",
+        "answer": "అవును. ప్రిప్రిస్ లేఅవుట్లు కాగితం సరిహద్దులపై ప్రామాణిక 4mm ప్రింట్-సురక్షిత మార్జిన్ను కలిగి ఉంటాయి, భౌతిక ప్రింటర్ రోలర్లు ఫోటోలను కత్తిరించకుండా నిరోధిస్తాయి."
       }
     ]
   }

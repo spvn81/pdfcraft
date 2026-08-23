@@ -9,6 +9,7 @@
     "dev:tauri": "set TAURI_ENV=true&& tauri dev",
     "build:tauri": "set TAURI_ENV=true&& tauri build",
     "generate:translations": "node scripts/generate-translations.mjs",
+    "generate:all-indian": "node scripts/generate-translations.mjs --all-indian",
     "validate:translations": "node scripts/validate-translations.mjs",
     "prebuild": "npm run validate:translations",
     "build": "next build",
@@ -21,6 +22,7 @@
     "postinstall": "node scripts/sync-pdfjs-workers.js && node scripts/decompress-wasm.mjs public && node scripts/ensure-pdfjs-viewer-js.js public",
     "postbuild": "node scripts/decompress-wasm.mjs && node scripts/chunk-assets.mjs && node scripts/ensure-pdfjs-viewer-js.js out",
     "generate:tool-content": "node scripts/generate-tool-content.mjs",
+    "generate:all-indian-content": "node scripts/generate-tool-content.mjs --all-indian",
     "validate:tool-content": "node scripts/validate-tool-content.mjs",
     "generate:review-summary": "node scripts/generate-review-summary.mjs",
     "setup:translation": "node scripts/translation/setup.mjs"
