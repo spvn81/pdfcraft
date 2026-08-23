@@ -6585,34 +6585,34 @@ export const toolContentKn: Record<string, ToolContent> = {
         "icon": "graduation-cap"
       },
       {
-        "title": "Business Report Summary",
-        "description": "Distill massive annual corporate reports into clean, bulleted presentation drafts instantly.",
+        "title": "ವ್ಯಾಪಾರ ವರದಿಯ ಸಾರಾಂಶ",
+        "description": "ಬೃಹತ್ ವಾರ್ಷಿಕ ಕಾರ್ಪೊರೇಟ್ ವರದಿಗಳನ್ನು ತಕ್ಷಣವೇ ಸ್ಪಷ್ಟ, ಬುಲೆಟ್ ಪಾಯಿಂಟ್ ಹೊಂದಿರುವ ಪ್ರಸ್ತುತಿ ಕರಡುಗಳಾಗಿ ಸಂಕ್ಷೇಪಿಸಿ.",
         "icon": "presentation"
       },
       {
-        "title": "Multi-Device Demos",
-        "description": "Avoid copying screenshots manually. Get a clean, fully-editable layout framework in seconds.",
+        "title": "ಬಹು-ಸಾಧನ ಡೆಮೊಗಳು",
+        "description": "ಸ್ಕ್ರೀನ್‌ಶಾಟ್‌ಗಳನ್ನು ಹಸ್ತಚಾಲಿತವಾಗಿ ಕಾಪಿ ಮಾಡುವುದನ್ನು ತಪ್ಪಿಸಿ. ಸೆಕೆಂಡುಗಳಲ್ಲಿ ಸ್ಪಷ್ಟ, ಸಂಪೂರ್ಣವಾಗಿ ಎಡಿಟ್ ಮಾಡಬಹುದಾದ ವಿನ್ಯಾಸದ ಚೌಕಟ್ಟನ್ನು ಪಡೆಯಿರಿ.",
         "icon": "laptop"
       }
     ],
     "faq": [
       {
-        "question": "Are the slides editable in Microsoft Office?",
-        "answer": "Yes. The files are generated natively in memory according to the official Office Open XML (OOXML) specification. Texts, tables, and placeholders are fully interactive in PowerPoint, Keynote, and WPS."
+        "question": "Microsoft Office ನಲ್ಲಿ ಸ್ಲೈಡ್‌ಗಳನ್ನು ಎಡಿಟ್ ಮಾಡಬಹುದೇ?",
+        "answer": "ಹೌದು. ಅಧಿಕೃತ Office Open XML (OOXML) ಸ್ಪೆಸಿಫಿಕೇಶನ್ ಪ್ರಕಾರ ಫೈಲ್‌ಗಳನ್ನು ಮೆಮೊರಿಯಲ್ಲಿ ನೇರವಾಗಿ ರಚಿಸಲಾಗುತ್ತದೆ. ಪಠ್ಯಗಳು, ಕೋಷ್ಟಕಗಳು ಮತ್ತು ಪ್ಲೇಸ್‌ಹೋಲ್ಡರ್‌ಗಳು PowerPoint, Keynote, ಮತ್ತು WPS ನಲ್ಲಿ ಸಂಪೂರ್ಣವಾಗಿ ಇಂಟರಾಕ್ಟಿವ್ ಆಗಿರುತ್ತವೆ."
       },
       {
-        "question": "How are charts extracted?",
-        "answer": "The engine scans vector paths and raster layers in the PDF, detects bounded areas representing graphs, and clips them out as standalone SVG nodes or high-DPI images."
+        "question": "ಚಾರ್ಟ್‌ಗಳನ್ನು ಹೇಗೆ ಹೊರತೆಗೆಯಲಾಗುತ್ತದೆ?",
+        "answer": "ಎನ್‌ಜಿನ್ PDF ನಲ್ಲಿನ ವೆಕ್ಟರ್ ಪಾತ್‌ಗಳು ಮತ್ತು ರಾಸ್ಟರ್ ಪದರಗಳನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡುತ್ತದೆ, ಗ್ರಾಫ್‌ಗಳನ್ನು ಪ್ರತಿನಿಧಿಸುವ ಗಡಿ ಪ್ರದೇಶಗಳನ್ನು ಗುರುತಿಸುತ್ತದೆ ಮತ್ತು ಅವುಗಳನ್ನು ಸ್ವತಂತ್ರ SVG ನೋಡ್‌ಗಳು ಅಥವಾ ಉನ್ನತ-DPI ಚಿತ್ರಗಳಾಗಿ ಪ್ರತ್ಯೇಕಿಸುತ್ತದೆ."
       },
       {
-        "question": "Does this work on scanned documents?",
-        "answer": "For scanned PDFs lacking actual text layers, we recommend running our OCR tool first before passing the file to the Slide Reconstructor."
+        "question": "ಇದು ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ದಾಖಲೆಗಳಲ್ಲಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆಯೇ?",
+        "answer": "ನೈಜ ಪಠ್ಯ ಪದರಗಳಿಲ್ಲದ ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ PDF ಗಳಿಗಾಗಿ, ಫೈಲ್ ಅನ್ನು Slide Reconstructor ಗೆ ಕಳುಹಿಸುವ ಮೊದಲು ನಮ್ಮ OCR ಟೂಲ್ ಅನ್ನು ರನ್ ಮಾಡಲು ನಾವು ಶಿಫಾರಸು ಮಾಡುತ್ತೇವೆ."
       }
     ]
   },
   "form-logic-designer": {
-    "title": "Form Logic Designer",
-    "metaDescription": "Design dynamic behaviors using a glassmorphic node canvas and inject interactive AcroJS logic into PDF forms.",
+    "title": "ಫಾರ್ಮ್ ಲಾಜಿಕ್ ಡಿಸೈನರ್",
+    "metaDescription": "ಗ್ಲಾಸ್‌ಮಾರ್ಫಿಕ್ ನೋಡ್ ಕ್ಯಾನ್‌ವಾಸ್ ಬಳಸಿ ಡೈನಾಮಿಕ್ ನಡವಳಿಕೆಗಳನ್ನು ವಿನ್ಯಾಸಗೊಳಿಸಿ ಮತ್ತು PDF ಫಾರ್ಮ್‌ಗಳಿಗೆ ಇಂಟರಾಕ್ಟಿವ್ AcroJS ಲಾಜಿಕ್ ಅನ್ನು ಸೇರಿಸಿ.",
     "keywords": [
       "PDF form logic",
       "AcroJS injection",
@@ -6620,59 +6620,59 @@ export const toolContentKn: Record<string, ToolContent> = {
       "interactive PDF",
       "field dependencies"
     ],
-    "description": "\n      <p>Interactive Form Logic Designer is a pioneering tool that fills a massive gap in PDF capabilities: creating active, responsive fields instead of flat, dead forms.</p>\n      <p>Through our visual canvas featuring \"glowing glassmorphic nodes\" (built on React Flow), form fields are represented as connected modules. You can drag links to define relationships: e.g., when a checkbox is checked ➜ enable a text input ➜ auto-calculate values and update a total field.</p>\n      <p>Once designed, the AcroJS engine compiles the logic into official Acrobat JavaScript and injects it into the '/AA' (Additional Actions) dictionaries of the AcroForm. The interactive behaviors are then executed natively inside any standard PDF reader.</p>\n    ",
+    "description": "\n      <p>Interactive Form Logic Designer ಎಂಬುದು PDF ಸಾಮರ್ಥ್ಯಗಳಲ್ಲಿನ ಬೃಹತ್ ಕೊರತೆಯನ್ನು ತುಂಬುವ ಒಂದು ಪ್ರವರ್ತಕ ಟೂಲ್ ಆಗಿದೆ: ಫ್ಲಾಟ್, ನಿಷ್ಕ್ರಿಯ ಫಾರ್ಮ್‌ಗಳ ಬದಲಿಗೆ ಸಕ್ರಿಯ, ರೆಸ್ಪಾನ್ಸಿವ್ ಫೀಲ್ಡ್‌ಗಳನ್ನು ರಚಿಸುತ್ತದೆ.</p>\n      <p>\"ಹೊಳೆಯುವ ಗ್ಲಾಸ್‌ಮಾರ್ಫಿಕ್ ನೋಡ್‌ಗಳನ್ನು\" (React Flow ನಲ್ಲಿ ನಿರ್ಮಿಸಲಾಗಿದೆ) ಹೊಂದಿರುವ ನಮ್ಮ ದೃಶ್ಯ ಕ್ಯಾನ್‌ವಾಸ್ ಮೂಲಕ, ಫಾರ್ಮ್ ಫೀಲ್ಡ್‌ಗಳನ್ನು ಸಂಪರ್ಕಿತ ಮಾಡ್ಯೂಲ್‌ಗಳಾಗಿ ಪ್ರತಿನಿಧಿಸಲಾಗುತ್ತದೆ. ಸಂಬಂಧಗಳನ್ನು ವ್ಯಾಖ್ಯಾನಿಸಲು ನೀವು ಲಿಂಕ್‌ಗಳನ್ನು ಡ್ರ್ಯಾಗ್ ಮಾಡಬಹುದು: ಉದಾಹರಣೆಗೆ, ಚೆಕ್‌ಬಾಕ್ಸ್ ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಿದಾಗ ➜ ಪಠ್ಯ ಇನ್‌ಪುಟ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ ➜ ಮೌಲ್ಯಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಲೆಕ್ಕಹಾಕಿ ಮತ್ತು ಒಟ್ಟು ಫೀಲ್ಡ್ ಅನ್ನು ನವೀಕರಿಸಿ.</p>\n      <p>ವಿನ್ಯಾಸಗೊಳಿಸಿದ ನಂತರ, AcroJS ಎನ್‌ಜಿನ್ ಲಾಜಿಕ್ ಅನ್ನು ಅಧಿಕೃತ Acrobat JavaScript ಆಗಿ ಕಂಪೈಲ್ ಮಾಡುತ್ತದೆ ಮತ್ತು ಅದನ್ನು AcroForm ನ '/AA' (ಅಡಿಷನಲ್ ಆಕ್ಷನ್ಸ್) ಡಿಕ್ಷನರಿಗಳಿಗೆ ಸೇರಿಸುತ್ತದೆ. ಇಂಟರಾಕ್ಟಿವ್ ನಡವಳಿಕೆಗಳನ್ನು ನಂತರ ಯಾವುದೇ ಸ್ಟ್ಯಾಂಡರ್ಡ್ PDF ರೀಡರ್ ಒಳಗಡೆ ನೇರವಾಗಿ ರನ್ ಮಾಡಲಾಗುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Interactive PDF",
-        "description": "Provide a PDF file that already has active form fields (AcroForm)."
+        "title": "ಇಂಟರಾಕ್ಟಿವ್ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ಈಗಾಗಲೇ ಸಕ್ರಿಯ ಫಾರ್ಮ್ ಫೀಲ್ಡ್‌ಗಳನ್ನು (AcroForm) ಹೊಂದಿರುವ PDF ಫೈಲ್ ಅನ್ನು ಒದಗಿಸಿ."
       },
       {
         "step": 2,
-        "title": "Map Out Logic in Canvas",
-        "description": "Connect fields as nodes. Link output events (change, blur) to target actions (show, hide, calculate, disable)."
+        "title": "ಕ್ಯಾನ್‌ವಾಸ್‌ನಲ್ಲಿ ಲಾಜಿಕ್ ಅನ್ನು ಮ್ಯಾಪ್ ಮಾಡಿ",
+        "description": "ಫೀಲ್ಡ್‌ಗಳನ್ನು ನೋಡ್‌ಗಳಾಗಿ ಸಂಪರ್ಕಿಸಿ. ಔಟ್‌ಪುಟ್ ಈವೆಂಟ್‌ಗಳನ್ನು (change, blur) ಟಾರ್ಗೆಟ್ ಆಕ್ಷನ್‌ಗಳಿಗೆ (show, hide, calculate, disable) ಲಿಂಕ್ ಮಾಡಿ."
       },
       {
         "step": 3,
         "title": "ಕಂಪೈಲ್ ಮಾಡಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Inject the compiled JavaScript logic into the PDF dictionary and save the final smart document."
+        "description": "ಕಂಪೈಲ್ ಮಾಡಿದ JavaScript ಲಾಜಿಕ್ ಅನ್ನು PDF ಡಿಕ್ಷನರಿಗೆ ಸೇರಿಸಿ ಮತ್ತು ಅಂತಿಮ ಸ್ಮಾರ್ಟ್ ಡಾಕ್ಯುಮೆಂಟ್ ಅನ್ನು ಉಳಿಸಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Smart Sales Contracts",
-        "description": "Show or hide supplementary input fields dynamically based on the client's selected terms.",
+        "title": "ಸ್ಮಾರ್ಟ್ ಸೇಲ್ಸ್ ಕಾಂಟ್ರಾಕ್ಟ್‌ಗಳು",
+        "description": "ಕ್ಲೈಂಟ್ ಆಯ್ಕೆಮಾಡಿದ ಶರತ್ತುಗಳ ಆಧಾರದ ಮೇಲೆ ಪೂರಕ ಇನ್‌ಪುಟ್ ಫೀಲ್ಡ್‌ಗಳನ್ನು ಡೈನಾಮಿಕ್ ಆಗಿ ತೋರಿಸಿ ಅಥವಾ ಮರೆಮಾಚಿ.",
         "icon": "file-signature"
       },
       {
-        "title": "Automated Expense Forms",
-        "description": "Sum up multiple expense lines and compute taxes dynamically without manual calculation.",
+        "title": "ಸ್ವಯಂಚಾಲಿತ ವೆಚ್ಚದ ಫಾರ್ಮ್‌ಗಳು",
+        "description": "ಹಸ್ತಚಾಲಿತ ಲೆಕ್ಕಾಚಾರವಿಲ್ಲದೆ ಬಹು ವೆಚ್ಚದ ಸಾಲುಗಳನ್ನು ಒಟ್ಟುಗೂಡಿಸಿ ಮತ್ತು ತೆರಿಗೆಗಳನ್ನು ಡೈನಾಮಿಕ್ ಆಗಿ ಲೆಕ್ಕಹಾಕಿ.",
         "icon": "calculator"
       },
       {
-        "title": "Interactive Questionnaires",
-        "description": "Skip irrelevant questions based on previous answers, providing a cleaner mobile filling experience.",
+        "title": "ಇಂಟರಾಕ್ಟಿವ್ ಪ್ರಶ್ನಾವಳಿಗಳು",
+        "description": "ಹಿಂದಿನ ಉತ್ತರಗಳ ಆಧಾರದ ಮೇಲೆ ಅಪ್ರಸ್ತುತ ಪ್ರಶ್ನೆಗಳನ್ನು ಬಿಟ್ಟುಬಿಡಿ, ಸ್ಪಷ್ಟ ಮೊಬೈಲ್ ಭರ್ತಿ ಮಾಡುವ ಅನುಭವವನ್ನು ಒದಗಿಸಿ.",
         "icon": "form-input"
       }
     ],
     "faq": [
       {
-        "question": "Do I need a PDF with pre-existing fields?",
-        "answer": "Yes. This tool is designed to bind logical rules to existing fields. If your PDF does not have interactive fields, use our Form Creator tool to add inputs and check boxes first."
+        "question": "ನನಗೆ ಈಗಾಗಲೇ ಇರುವ ಫೀಲ್ಡ್‌ಗಳನ್ನು ಹೊಂದಿರುವ PDF ಅಗತ್ಯವಿದೆಯೇ?",
+        "answer": "ಹೌದು. ಈ ಟೂಲ್ ಅನ್ನು ಚಾಲ್ತಿಯಲ್ಲಿರುವ ಫೀಲ್ಡ್‌ಗಳಿಗೆ ತಾರ್ಕಿಕ ನಿಯಮಗಳನ್ನು ಬೈಂಡ್ ಮಾಡಲು ವಿನ್ಯಾಸಗೊಳಿಸಲಾಗಿದೆ. ನಿಮ್ಮ PDF ಇಂಟರಾಕ್ಟಿವ್ ಫೀಲ್ಡ್‌ಗಳನ್ನು ಹೊಂದಿಲ್ಲದಿದ್ದರೆ, ಮೊದಲು ಇನ್‌ಪುಟ್‌ಗಳು ಮತ್ತು ಚೆಕ್ ಬಾಕ್ಸ್‌ಗಳನ್ನು ಸೇರಿಸಲು ನಮ್ಮ Form Creator ಟೂಲ್ ಅನ್ನು ಬಳಸಿ."
       },
       {
-        "question": "Will this logic run on any PDF reader?",
-        "answer": "It runs on all PDF readers that comply with Adobe PDF standards and support Acrobat JavaScript (such as Adobe Acrobat Reader, Foxit Reader, and major web browsers). Minimalist mobile readers might support basic actions only."
+        "question": "ಈ ಲಾಜಿಕ್ ಯಾವುದೇ PDF ರೀಡರ್‌ನಲ್ಲಿ ರನ್ ಆಗುತ್ತದೆಯೇ?",
+        "answer": "ಇದು Adobe PDF ಮಾನದಂಡಗಳಿಗೆ ಬದ್ಧವಾಗಿರುವ ಮತ್ತು Acrobat JavaScript ಅನ್ನು ಬೆಂಬಲಿಸುವ ಎಲ್ಲಾ PDF ರೀಡರ್‌ಗಳಲ್ಲಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ (ಉದಾಹರಣೆಗೆ Adobe Acrobat Reader, Foxit Reader, ಮತ್ತು ಪ್ರಮುಖ ವೆಬ್ ಬ್ರೌಸರ್‌ಗಳು). ಮಿನಿಮಲಿಸ್ಟ್ ಮೊಬೈಲ್ ರೀಡರ್‌ಗಳು ಮೂಲಭೂತ ಕ್ರಿಯೆಗಳನ್ನು ಮಾತ್ರ ಬೆಂಬಲಿಸಬಹುದು."
       },
       {
-        "question": "Does this affect paper printing?",
-        "answer": "Not at all. The injected scripts only run on-screen during form completion. When printing, the current state of fields is printed statically without any node visualization."
+        "question": "ಇದು ಕಾಗದದ ಮುದ್ರಣದ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರುತ್ತದೆಯೇ?",
+        "answer": "ಖಂಡಿತ ಇಲ್ಲ. ಸೇರಿಸಲಾದ ಸ್ಕ್ರಿಪ್ಟ್‌ಗಳು ಫಾರ್ಮ್ ಪೂರ್ಣಗೊಳಿಸುವಾಗ ಪರದೆಯ ಮೇಲೆ ಮಾತ್ರ ರನ್ ಆಗುತ್ತವೆ. ಮುದ್ರಿಸುವಾಗ, ಫೀಲ್ಡ್‌ಗಳ ಪ್ರಸ್ತುತ ಸ್ಥಿತಿಯನ್ನು ಯಾವುದೇ ನೋಡ್ ದೃಶ್ಯೀಕರಣವಿಲ್ಲದೆ ಸ್ಥಿರವಾಗಿ ಮುದ್ರಿಸಲಾಗುತ್ತದೆ."
       }
     ]
   },
   "eink-optimizer": {
-    "title": "e-Ink Reader Optimizer",
-    "metaDescription": "Optimize PDFs for e-Ink screens via background clearing, Otsu binarization, and morphological text dilation.",
+    "title": "e-Ink ರೀಡರ್ ಆಪ್ಟಿಮೈಜರ್",
+    "metaDescription": "ಹಿನ್ನೆಲೆ ತೆರವುಗೊಳಿಸುವಿಕೆ, Otsu ಬೈನರೈಸೇಶನ್ ಮತ್ತು ಮಾರ್ಫಲಾಜಿಕಲ್ ಪಠ್ಯ ಡೈಲೇಷನ್ ಮೂಲಕ e-Ink ಸ್ಕ್ರೀನ್‌ಗಳಿಗಾಗಿ PDF ಗಳನ್ನು ಆಪ್ಟಿಮೈಸ್ ಮಾಡಿ.",
     "keywords": [
       "eink optimizer",
       "binarization",
@@ -6680,59 +6680,59 @@ export const toolContentKn: Record<string, ToolContent> = {
       "eye-friendly reading",
       "otsu threshold"
     ],
-    "description": "\n      <p>e-Ink Reader Optimizer is a must-have tool custom-made for e-Reader enthusiasts using Kindle, Onyx Boox, Kobo, or other e-paper devices.</p>\n      <p>Many scanned PDF e-books suffer from faint lettering, muddy gray backgrounds, noise, or scan shadows when viewed on e-Ink screens. This tool analyzes gray-value histograms and applies Otsu's Binarization Thresholding to separate text from background, converting gray backdrops to clean white.</p>\n      <p>Additionally, it integrates morphological dilation to bold and thicken thin, faded characters, providing crisp, high-contrast typography. The inertia-damped contrast slider allows you to fine-tune the paper-like contrast in real-time.</p>\n    ",
+    "description": "\n      <p>e-Ink Reader Optimizer ಎಂಬುದು Kindle, Onyx Boox, Kobo, ಅಥವಾ ಇತರ e-paper ಸಾಧನಗಳನ್ನು ಬಳಸುವ e-Reader ಉತ್ಸಾಹಿಗಳಿಗಾಗಿ ನಿರ್ಮಿಸಲಾದ ಅತ್ಯಗತ್ಯ ಟೂಲ್ ಆಗಿದೆ.</p>\n      <p>ಅನೇಕ ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ PDF ಇ-ಪುಸ್ತಕಗಳನ್ನು e-Ink ಸ್ಕ್ರೀನ್‌ಗಳಲ್ಲಿ ವೀಕ್ಷಿಸಿದಾಗ ಅಸ್ಪಷ್ಟ ಅಕ್ಷರಗಳು, ಮಸುಕಾದ ಬೂದು ಹಿನ್ನೆಲೆಗಳು, ನಾಯ್ಸ್ ಅಥವಾ ಸ್ಕ್ಯಾನ್ ನೆರಳುಗಳಿಂದ ಬಾಧಿತವಾಗಿರುತ್ತವೆ. ಈ ಟೂಲ್ ಬೂದು-ಮೌಲ್ಯದ ಹಿಸ್ಟೋಗ್ರಾಮ್‌ಗಳನ್ನು ವಿಶ್ಲೇಷಿಸುತ್ತದೆ ಮತ್ತು ಪಠ್ಯವನ್ನು ಹಿನ್ನೆಲೆಯಿಂದ ಪ್ರತ್ಯೇಕಿಸಲು Otsu ನ Binarization Thresholding ಅನ್ನು ಅನ್ವಯಿಸುತ್ತದೆ, ಬೂದು ಹಿನ್ನೆಲೆಗಳನ್ನು ಸ್ಪಷ್ಟ ಬಿಳಿ ಬಣ್ಣಕ್ಕೆ ಪರಿವರ್ತಿಸುತ್ತದೆ.</p>\n      <p>ಹೆಚ್ಚುವರಿಯಾಗಿ, ತೆಳುವಾದ, ಮಸುಕಾದ ಅಕ್ಷರಗಳನ್ನು ಬೋಲ್ಡ್ ಮತ್ತು ದಪ್ಪವಾಗಿಸಲು ಇದು ಮಾರ್ಫಲಾಜಿಕಲ್ ಡೈಲೇಷನ್ ಅನ್ನು ಸಂಯೋಜಿಸುತ್ತದೆ, ಸ್ಪಷ್ಟ, ಹೆಚ್ಚಿನ-ಕಾಂಟ್ರಾಸ್ಟ್ ಮುದ್ರಣಕಲೆಯನ್ನು ಒದಗಿಸುತ್ತದೆ. ಜಡತ್ವ-ಡ್ಯಾಂಪ್ಡ್ ಕಾಂಟ್ರಾಸ್ಟ್ ಸ್ಲೈಡರ್ ನೈಜ-ಸಮಯದಲ್ಲಿ ಕಾಗದದಂತಹ ಕಾಂಟ್ರಾಸ್ಟ್ ಅನ್ನು ಉತ್ತಮಗೊಳಿಸಲು ನಿಮಗೆ ಅನುಮತಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Upload e-books or scanned documents with faint text or gray backgrounds."
+        "description": "ಮಸುಕಾದ ಪಠ್ಯ ಅಥವಾ ಬೂದು ಹಿನ್ನೆಲೆಗಳನ್ನು ಹೊಂದಿರುವ ಇ-ಪುಸ್ತಕಗಳು ಅಥವಾ ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ದಾಖಲೆಗಳನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Adjust Contrast Slider",
-        "description": "Drag the damped slider to balance background removal and character bolding in real-time."
+        "title": "ಕಾಂಟ್ರಾಸ್ಟ್ ಸ್ಲೈಡರ್ ಅನ್ನು ಹೊಂದಿಸಿ",
+        "description": "ನೈಜ-ಸಮಯದಲ್ಲಿ ಹಿನ್ನೆಲೆ ತೆಗೆದುಹಾಕುವಿಕೆ ಮತ್ತು ಅಕ್ಷರಗಳನ್ನು ಬೋಲ್ಡ್ ಮಾಡುವುದನ್ನು ಸಮತೋಲನಗೊಳಿಸಲು ಡ್ಯಾಂಪ್ಡ್ ಸ್ಲೈಡರ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮಾಡಿ."
       },
       {
         "step": 3,
-        "title": "Optimize and Download",
-        "description": "Process the entire PDF to generate a high-contrast, eye-friendly document tailored for e-Ink."
+        "title": "ಆಪ್ಟಿಮೈಸ್ ಮಾಡಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "e-Ink ಗಾಗಿ ವಿಶೇಷವಾಗಿ ವಿನ್ಯಾಸಗೊಳಿಸಲಾದ ಹೆಚ್ಚಿನ-ಕಾಂಟ್ರಾಸ್ಟ್, ಕಣ್ಣಿಗೆ ಅನುಕೂಲಕರವಾದ ಡಾಕ್ಯುಮೆಂಟ್ ಅನ್ನು ರಚಿಸಲು ಇಡೀ PDF ಅನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Ancient Manuscript Restoration",
-        "description": "Thicken faded text in scans of historical books or handwritten manuscripts to make them readable.",
+        "title": "ಪ್ರಾಚೀನ ಹಸ್ತಪ್ರತಿ ಮರುಸ್ಥಾಪನೆ",
+        "description": "ಐತಿಹಾಸಿಕ ಪುಸ್ತಕಗಳು ಅಥವಾ ಕೈಬರಹದ ಹಸ್ತಪ್ರತಿಗಳ ಸ್ಕ್ಯಾನ್‌ಗಳಲ್ಲಿ ಮಸುಕಾದ ಪಠ್ಯವನ್ನು ಓದಲು ಸಾಧ್ಯವಾಗುವಂತೆ ದಪ್ಪಗೊಳಿಸಿ.",
         "icon": "scroll"
       },
       {
-        "title": "Exam Sheet Clean-up",
-        "description": "Bleach background shadows from photocopied or photographed exams, returning clean black text on white paper.",
+        "title": "ಪರೀಕ್ಷಾ ಹಾಳೆ ಸ್ವಚ್ಛಗೊಳಿಸುವಿಕೆ",
+        "description": "ಫೋಟೋಕಾಪಿ ಮಾಡಿದ ಅಥವಾ ಫೋಟೋ ತೆಗೆದ ಪರೀಕ್ಷಾ ಹಾಳೆಗಳಿಂದ ಹಿನ್ನೆಲೆ ನೆರಳುಗಳನ್ನು ತೆಗೆದುಹಾಕಿ, ಬಿಳಿ ಕಾಗದದ ಮೇಲೆ ಸ್ಪಷ್ಟ ಕಪ್ಪು ಪಠ್ಯವನ್ನು ಒದಗಿಸುತ್ತದೆ.",
         "icon": "file-text"
       },
       {
-        "title": "E-paper Device Tailoring",
-        "description": "Convert colored PDFs to optimized grayscale, preventing messy, dithering artifacts on monochrome screens.",
+        "title": "E-paper ಸಾಧನದ ಸೂಕ್ತತೆ",
+        "description": "ಬಣ್ಣದ PDF ಗಳನ್ನು ಆಪ್ಟಿಮೈಸ್ ಮಾಡಿದ ಗ್ರೇಸ್ಕೇಲ್‌ಗೆ ಪರಿವರ್ತಿಸಿ, ಮೊನೊಕ್ರೋಮ್ ಸ್ಕ್ರೀನ್‌ಗಳಲ್ಲಿ ಗೊಂದಲಮಯ, ಡಿಥರಿಂಗ್ ಆರ್ಟಿಫ್ಯಾಕ್ಟ್‌ಗಳನ್ನು ತಡೆಯಿರಿ.",
         "icon": "tablet"
       }
     ],
     "faq": [
       {
-        "question": "How does the \"character bolding\" work?",
-        "answer": "In image processing, this is called dilation. It uses a structuring matrix to expand character margins by a pixel, physically thickening faint strokes to make them legible."
+        "question": "\"ಅಕ್ಷರ ಬೋಲ್ಡ್ ಮಾಡುವಿಕೆ\" ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ?",
+        "answer": "ಇಮೇಜ್ ಪ್ರೊಸೆಸಿಂಗ್‌ನಲ್ಲಿ, ಇದನ್ನು ಡೈಲೇಷನ್ ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ. ಅಕ್ಷರಗಳ ಅಂಚುಗಳನ್ನು ಒಂದು ಪಿಕ್ಸೆಲ್‌ನಿಂದ ವಿಸ್ತರಿಸಲು ಇದು ಸ್ಟ್ರಕ್ಚರಿಂಗ್ ಮ್ಯಾಟ್ರಿಕ್ಸ್ ಅನ್ನು ಬಳಸುತ್ತದೆ, ಮಸುಕಾದ ಪಾರ್ಶ್ವಗಳನ್ನು ಭೌತಿಕವಾಗಿ ದಪ್ಪವಾಗಿಸಿ ಅವುಗಳನ್ನು ಓದಬಲ್ಲಂತೆ ಮಾಡುತ್ತದೆ."
       },
       {
-        "question": "Will this process bloat the file size?",
-        "answer": "Quite the opposite. By binarizing complex color/grayscale images to simple black-and-white layouts, standard compression (like CCITT Group 4) can shrink the PDF file size significantly."
+        "question": "ಈ ಪ್ರಕ್ರಿಯೆಯು ಫೈಲ್ ಗಾತ್ರವನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆಯೇ?",
+        "answer": "ಸಂಪೂರ್ಣವಾಗಿ ವಿರುದ್ಧವಾಗಿದೆ. ಸಂಕೀರ್ಣ ಬಣ್ಣ/ಗ್ರೇಸ್ಕೇಲ್ ಚಿತ್ರಗಳನ್ನು ಸರಳ ಕಪ್ಪು-ಮತ್ತು-ಬಿಳಿ ವಿನ್ಯಾಸಗಳಿಗೆ ಬೈನರೈಸ್ ಮಾಡುವ ಮೂಲಕ, ಸ್ಟ್ಯಾಂಡರ್ಡ್ ಸಂಕೋಚನವು (CCITT Group 4 ನಂತೆ) PDF ಫೈಲ್ ಗಾತ್ರವನ್ನು ಗಣನೀಯವಾಗಿ ಕುಗ್ಗಿಸಬಹುದು."
       },
       {
-        "question": "Does this support native text PDFs?",
-        "answer": "Yes. Native vector PDFs are rasterized at high resolutions in the background, optimized, and compiled back, ensuring unified high-contrast reading."
+        "question": "ಇದು ನೇರ ಪಠ್ಯ PDF ಗಳನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆಯೇ?",
+        "answer": "ಹೌದು. ನೇರ ವೆಕ್ಟರ್ PDF ಗಳನ್ನು ಹಿನ್ನೆಲೆಯಲ್ಲಿ ಹೆಚ್ಚಿನ ರೆಸಲ್ಯೂಶನ್‌ಗಳಲ್ಲಿ ರಾಸ್ಟರೈಸ್ ಮಾಡಲಾಗುತ್ತದೆ, ಆಪ್ಟಿಮೈಸ್ ಮಾಡಲಾಗುತ್ತದೆ ಮತ್ತು ಮರಳಿ ಕಂಪೈಲ್ ಮಾಡಲಾಗುತ್ತದೆ, ಇದು ಏಕರೂಪದ ಉನ್ನತ-ಕಾಂಟ್ರಾಸ್ಟ್ ಓದುವಿಕೆಯನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ."
       }
     ]
   },
   "cert-cryptor": {
-    "title": "Certificate Encrypt & Sign",
-    "metaDescription": "Secure PDFs using asymmetric public-key certificate encryption, paired with a 3D gold wax-seal imprint and PKCS#7 signature.",
+    "title": "ಪ್ರಮಾಣಪತ್ರ ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮತ್ತು ಸೈನ್",
+    "metaDescription": "ಅಸಿಸ್ಟೆಮೆಟ್ರಿಕ್ ಪಬ್ಲಿಕ್-ಕೀ ಪ್ರಮಾಣಪತ್ರ ಎನ್‌ಕ್ರಿಪ್ಶನ್, 3D ಗೋಲ್ಡ್ ವ್ಯಾಕ್ಸ್-ಸೀಲ್ ಇಂಪ್ರಿಂಟ್ ಮತ್ತು PKCS#7 ಸಹಿಯೊಂದಿಗೆ PDF ಗಳನ್ನು ಸುರಕ್ಷಿತಗೊಳಿಸಿ.",
     "keywords": [
       "certificate encryption",
       "wax seal signature",
@@ -6740,64 +6740,64 @@ export const toolContentKn: Record<string, ToolContent> = {
       "asymmetric crypt",
       "PKCS7 signature"
     ],
-    "description": "\n      <p>3D Wax-Seal & Certificate Cryptor provides military-grade security and premium physical-grade aesthetics for sensitive corporate files, degrees, or agreements.</p>\n      <p>Technically, it offers asymmetric public-key encryption:  only the holder of the matching private key (.pfx) can decrypt it. It also generates standard PKCS#7 digital signatures to ensure document tamper-proof integrity.</p>\n      <p>Visually, we feature a 3D physical gold or red wax-seal stamp. When you sign, a beautifully rendered stamp descends with a satisfying mechanical sound, leaving a 3D wax seal with realistic normal-mapped height variations and wax run-offs on the page, surrounded by glowing cryptographic tracks.</p>\n    ",
+    "description": "\n      <p>3D ವ್ಯಾಕ್ಸ್-ಸೀಲ್ ಮತ್ತು ಸರ್ಟಿಫಿಕೇಟ್ ಕ್ರಿಪ್ಟರ್ ಸೂಕ್ಷ್ಮ ಕಾರ್ಪೊರೇಟ್ ಫೈಲ್‌ಗಳು, ಪದವಿಗಳು ಅಥವಾ ಒಪ್ಪಂದಗಳಿಗೆ ಮಿಲಿಟರಿ-ದರ್ಜೆಯ ಭದ್ರತೆ ಮತ್ತು ಪ್ರೀಮಿಯಂ ಭೌತಿಕ-ದರ್ಜೆಯ ಸೌಂದರ್ಯವನ್ನು ಒದಗಿಸುತ್ತದೆ.</p>\n      <p>ತಾಂತ್ರಿಕವಾಗಿ, ಇದು ಅಸಿಸ್ಟೆಮೆಟ್ರಿಕ್ ಪಬ್ಲಿಕ್-ಕೀ ಎನ್‌ಕ್ರಿಪ್ಶನ್ ಅನ್ನು ಒದಗಿಸುತ್ತದೆ: ಹೊಂದುವ ಖಾಸಗಿ ಕೀಲಿ (.pfx) ಹೊಂದಿರುವವರು ಮಾತ್ರ ಇದನ್ನು ಡಿಕ್ರಿಪ್ಟ್ ಮಾಡಬಹುದು. ಡಾಕ್ಯುಮೆಂಟ್ ತಿದ್ದುವಿಕೆಯಿಂದ ಮುಕ್ತವಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಲು ಇದು ಪ್ರಮಾಣಿತ PKCS#7 ಡಿಜಿಟಲ್ ಸಹಿಗಳನ್ನು ಸಹ ಉತ್ಪಾದಿಸುತ್ತದೆ.</p>\n      <p>ದೃಶ್ಯವಾಗಿ, ನಾವು 3D ಭೌತಿಕ ಚಿನ್ನದ ಅಥವಾ ಕೆಂಪು ವ್ಯಾಕ್ಸ್-ಸೀಲ್ ಸ್ಟಾಂಪ್ ಅನ್ನು ಹೊಂದಿದ್ದೇವೆ. ನೀವು ಸಹಿ ಮಾಡಿದಾಗ, ಸುಂದರವಾಗಿ ನಿರೂಪಿಸಲಾದ ಸ್ಟಾಂಪ್ ತೃಪ್ತಿಕರ ಯಾಂತ್ರಿಕ ಶಬ್ದದೊಂದಿಗೆ ಕೆಳಗಿಳಿಯುತ್ತದೆ, ನೈಜ ನಾರ್ಮಲ್-ಮ್ಯಾಪ್ ಮಾಡಿದ ಎತ್ತರ ವ್ಯತ್ಯಾಸಗಳು ಮತ್ತು ಪುಟದ ಮೇಲೆ ವ್ಯಾಕ್ಸ್ ಹರಿವುಗಳೊಂದಿಗೆ 3D ವ್ಯಾಕ್ಸ್ ಮುದ್ರೆಯನ್ನು ಬಿಡುತ್ತದೆ, ಇದು ಹೊಳೆಯುವ ಕ್ರಿಪ್ಟೋಗ್ರಾಫಿಕ್ ಟ್ರ್ಯಾಕ್‌ಗಳಿಂದ ಆವೃತವಾಗಿದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload PDF and Cert",
-        "description": "Add your PDF and import your signing certificate (.pfx) or the recipient's public certificate (.cer)."
+        "title": "PDF ಮತ್ತು Cert ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ನಿಮ್ಮ PDF ಅನ್ನು ಸೇರಿಸಿ ಮತ್ತು ನಿಮ್ಮ ಸಹಿ ಪ್ರಮಾಣಪತ್ರ (.pfx) ಅಥವಾ ಸ್ವೀಕರಿಸುವವರ ಸಾರ್ವಜನಿಕ ಪ್ರಮಾಣಪತ್ರವನ್ನು (.cer) ಇಂಪೋರ್ಟ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Place the 3D Stamp",
-        "description": "Drag and locate the seal on the document preview, and pick a wax style (e.g., gold, crimson)."
+        "title": "3D ಸ್ಟಾಂಪ್ ಇರಿಸಿ",
+        "description": "ಡಾಕ್ಯುಮೆಂಟ್ ಪೂರ್ವವೀಕ್ಷಣೆಯಲ್ಲಿ ಮುದ್ರೆಯನ್ನು ಡ್ರಾಗ್ ಮಾಡಿ ಮತ್ತು ಸ್ಥಾಪಿಸಿ, ಹಾಗೂ ವ್ಯಾಕ್ಸ್ ಶೈಲಿಯನ್ನು ಆಯ್ಕೆ ಮಾಡಿ (ಉದಾಹರಣೆಗೆ, ಗೋಲ್ಡ್, ಕ್ರಿಮ್ಸನ್)."
       },
       {
         "step": 3,
-        "title": "Press and Sign",
-        "description": "Click execute to watch the 3D wax-seal imprint ceremony, generating a physical-grade digital signature."
+        "title": "ಒತ್ತಿ ಮತ್ತು ಸಹಿ ಮಾಡಿ",
+        "description": "ಭೌತಿಕ-ದರ್ಜೆಯ ಡಿಜಿಟಲ್ ಸಹಿಯನ್ನು ಉತ್ಪಾದಿಸುವ 3D ವ್ಯಾಕ್ಸ್-ಸೀಲ್ ಇಂಪ್ರಿಂಟ್ ಸಮಾರಂಭವನ್ನು ವೀಕ್ಷಿಸಲು execute ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 4,
-        "title": "Download Secured PDF",
-        "description": "Save the output document, now cryptographically locked and stamped."
+        "title": "ಸುರಕ್ಷಿತಗೊಳಿಸಿದ PDF ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ಈಗ ಕ್ರಿಪ್ಟೋಗ್ರಾಫಿಕಲಿ ಲಾಕ್ ಮಾಡಲಾದ ಮತ್ತು ಸ್ಟಾಂಪ್ ಮಾಡಲಾದ ಔಟ್‌ಪುಟ್ ಡಾಕ್ಯುಮೆಂಟ್ ಅನ್ನು ಉಳಿಸಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Diplomas and Certificates",
-        "description": "Affix highly-valued 3D wax seal badges to digital diplomas and awards, backed by genuine digital signatures.",
+        "title": "ಡಿಪ್ಲೊಮಾಗಳು ಮತ್ತು ಪ್ರಮಾಣಪತ್ರಗಳು",
+        "description": "ನಿಜವಾದ ಡಿಜಿಟಲ್ ಸಹಿಗಳ ಬೆಂಬಲದೊಂದಿಗೆ, ಡಿಜಿಟಲ್ ಡಿಪ್ಲೊಮಾಗಳು ಮತ್ತು ಪ್ರಶಸ್ತಿಗಳಿಗೆ ಹೆಚ್ಚಿನ ಮೌಲ್ಯದ 3D ವ್ಯಾಕ್ಸ್ ಸೀಲ್ ಬ್ಯಾಡ್ಜ್‌ಗಳನ್ನು ಲಗತ್ತಿಸಿ.",
         "icon": "award"
       },
       {
-        "title": "Confidential Agreements",
-        "description": "Lock sensitive contracts using the client's public certificate so that only their secure physical keycard can unlock it.",
+        "title": "ಗೌಪ್ಯ ಒಪ್ಪಂದಗಳು",
+        "description": "ಕ್ಲೈಂಟ್‌ನ ಸಾರ್ವಜನಿಕ ಪ್ರಮಾಣಪತ್ರವನ್ನು ಬಳಸಿ ಸೂಕ್ಷ್ಮ ಒಪ್ಪಂದಗಳನ್ನು ಲಾಕ್ ಮಾಡಿ ಇದರಿಂದ ಅವರ ಸುರಕ್ಷಿತ ಭೌತಿಕ ಕೀಕಾರ್ಡ್ ಮಾತ್ರ ಅದನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಬಹುದು.",
         "icon": "shield-alert"
       },
       {
-        "title": "Official Press Releases",
-        "description": "Digitally sign public announcements to prevent malicious text edits or spoofing.",
+        "title": "ಅಧಿಕೃತ ಪತ್ರಿಕಾ ಪ್ರಕಟಣೆಗಳು",
+        "description": "ದುರುದ್ದೇಶಪೂರಿತ ಪಠ್ಯ ತಿದ್ದುಪಡಿಗಳು ಅಥವಾ ಸ್ಪೂಫಿಂಗ್ ತಡೆಯಲು ಸಾರ್ವಜನಿಕ ಪ್ರಕಟಣೆಗಳಿಗೆ ಡಿಜಿಟಲ್ ಆಗಿ ಸಹಿ ಮಾಡಿ.",
         "icon": "stamp"
       }
     ],
     "faq": [
       {
-        "question": "Is the wax seal just an image or a real signature?",
-        "answer": "Both. The system renders an incredibly realistic 3D wax imprint with normal-mapped depth (visual layer) and encodes an authentic, tamper-proof PKCS#7 cryptographic signature inside the PDF (data layer)."
+        "question": "ವ್ಯಾಕ್ಸ್ ಸೀಲ್ ಕೇವಲ ಒಂದು ಚಿತ್ರವೇ ಅಥವಾ ನೈಜ ಸಹಿಯೇ?",
+        "answer": "ಎರಡೂ. ಸಿಸ್ಟಮ್ ನಾರ್ಮಲ್-ಮ್ಯಾಪ್ ಮಾಡಿದ ಆಳದೊಂದಿಗೆ (ದೃಶ್ಯ ಪದರ) ನಂಬಲಾಗದಷ್ಟು ನೈಜವಾದ 3D ವ್ಯಾಕ್ಸ್ ಮುದ್ರೆಯನ್ನು ನಿರೂಪಿಸುತ್ತದೆ ಮತ್ತು PDF ಒಳಗೆ (ಡೇಟಾ ಪದರ) ಅಧಿಕೃತ, ತಿದ್ದಲಾಗದ PKCS#7 ಕ್ರಿಪ್ಟೋಗ್ರಾಫಿಕ್ ಸಹಿಯನ್ನು ಎನ್‌ಕೋಡ್ ಮಾಡುತ್ತದೆ."
       },
       {
-        "question": "What is \"Certificate-based Encryption\"?",
-        "answer": "It is a passwordless encryption technique. You encrypt the file using the recipient's public key. The reader automatically searches for their local private certificate to decrypt the file seamlessly, ensuring robust security."
+        "question": "\"ಪ್ರಮಾಣಪತ್ರ-ಆಧಾರಿತ ಎನ್‌ಕ್ರಿಪ್ಶನ್\" ಎಂದರೆ ಏನು?",
+        "answer": "ಇದು ಪಾಸ್‌ವರ್ಡ್ ಇಲ್ಲದ ಎನ್‌ಕ್ರಿಪ್ಶನ್ ತಂತ್ರವಾಗಿದೆ. ಸ್ವೀಕರಿಸುವವರ ಪಬ್ಲಿಕ್ ಕೀ ಬಳಸಿ ನೀವು ಫೈಲ್ ಅನ್ನು ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡುತ್ತೀರಿ. ಫೈಲ್ ಅನ್ನು ಸರಾಗವಾಗಿ ಡಿಕ್ರಿಪ್ಟ್ ಮಾಡಲು ರೀಡರ್ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಅವರ ಲೋಕಲ್ ಪ್ರೈವೇಟ್ ಪ್ರಮಾಣಪತ್ರವನ್ನು ಹುಡುಕುತ್ತದೆ, ಇದು ಬಲವಾದ ಭದ್ರತೆಯನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ."
       },
       {
-        "question": "Can I customize the stamp design?",
-        "answer": "Yes. We provide multiple designs like the PDFCraft watermark or a Royal crest, and you can adjust the wax melting radius and normal-map indentation depth in the panel."
+        "question": "ನಾನು ಸ್ಟಾಂಪ್ ವಿನ್ಯಾಸವನ್ನು ಕಸ್ಟಮೈಸ್ ಮಾಡಬಹುದೇ?",
+        "answer": "ಹೌದು. ನಾವು PDFCraft ವಾಟರ್‌ಮಾರ್ಕ್ ಅಥವಾ ರಾಯಲ್ ಕ್ರೆಸ್ಟ್‌ನಂತಹ ಬಹು ವಿನ್ಯಾಸಗಳನ್ನು ಒದಗಿಸುತ್ತೇವೆ, ಮತ್ತು ನೀವು ಪ್ಯಾನೆಲ್‌ನಲ್ಲಿ ವ್ಯಾಕ್ಸ್ ಕರಗುವ ತ್ರಿಜ್ಯ ಮತ್ತು ನಾರ್ಮಲ್-ಮ್ಯಾಪ್ ಇಂಡೆಂಟ್ ಆಳವನ್ನು ಹೊಂದಿಸಬಹುದು."
       }
     ]
   },
   "passport-id-composer": {
-    "title": "Double-Sided ID Composer",
-    "metaDescription": "Instantly compose both front and back sides of ID cards or passports onto a single A4 page with optional anti-counterfeit watermarks.",
+    "title": "ಡಬಲ್-ಸೈಡೆಡ್ ID ಕಂಪೋಸರ್",
+    "metaDescription": "ಐಚ್ಛಿಕ ನಕಲಿ-ನಿರೋಧಕ ವಾಟರ್‌ಮಾರ್ಕ್‌ಗಳೊಂದಿಗೆ ID ಕಾರ್ಡ್‌ಗಳು ಅಥವಾ ಪಾಸ್‌ಪೋರ್ಟ್‌ಗಳ ಮುಂಭಾಗ ಮತ್ತು ಹಿಂಭಾಗ ಎರಡನ್ನೂ ಒಂದೇ A4 ಪುಟಕ್ಕೆ ತಕ್ಷಣವೇ ಸಂಯೋಜಿಸಿ.",
     "keywords": [
       "ID card composer",
       "passport imposition",
@@ -6805,59 +6805,59 @@ export const toolContentKn: Record<string, ToolContent> = {
       "identity card printing",
       "anti-counterfeit watermark"
     ],
-    "description": "\n      <p>The Passport & ID Double-sided Composer is an incredibly useful productivity utility for standard business and personal operations.</p>\n      <p>When applying for bank accounts, onboarding, or signing agreements, we frequently need copies of both sides of ID cards. This tool accepts front/back images or PDF pages and precisely arranges them onto a single A4 page complying with national standard layout resolutions.</p>\n      <p>Furthermore, you can customize overlapping translucent anti-counterfeit watermarks (e.g. \"FOR ONBOARDING ONLY\") to prevent unauthorized document reuse. It even features a 3D glow laser sweep copier scanner door visual effect to deliver premium feedback.</p>\n    ",
+    "description": "\n      <p>ಪಾಸ್‌ಪೋರ್ಟ್ ಮತ್ತು ID ಡಬಲ್-ಸೈಡೆಡ್ ಕಂಪೋಸರ್ ಎಂಬುದು ಸಾಮಾನ್ಯ ವ್ಯವಹಾರ ಮತ್ತು ವೈಯಕ್ತಿಕ ಕಾರ್ಯಾಚರಣೆಗಳಿಗೆ ನಂಬಲಾಗದಷ್ಟು ಉಪಯುಕ್ತವಾದ ಉತ್ಪಾದಕತಾ ಸಾಧನವಾಗಿದೆ.</p>\n      <p>ಬ್ಯಾಂಕ್ ಖಾತೆಗಳಿಗೆ ಅರ್ಜಿ ಸಲ್ಲಿಸುವಾಗ, ಆನ್‌ಬೋರ್ಡಿಂಗ್ ಅಥವಾ ಒಪ್ಪಂದಗಳಿಗೆ ಸಹಿ ಮಾಡುವಾಗ, ನಮಗೆ ಹೆಚ್ಚಾಗಿ ID ಕಾರ್ಡ್‌ಗಳ ಎರಡೂ ಬದಿಗಳ ಪ್ರತಿಗಳು ಬೇಕಾಗುತ್ತವೆ. ಈ ಉಪಕರಣವು ಮುಂಭಾಗ/ಹಿಂಭಾಗದ ಚಿತ್ರಗಳು ಅಥವಾ PDF ಪುಟಗಳನ್ನು ಸ್ವೀಕರಿಸುತ್ತದೆ ಮತ್ತು ರಾಷ್ಟ್ರೀಯ ಪ್ರಮಾಣಿತ ವಿನ್ಯಾಸದ ನಿರ್ಣಯಗಳಿಗೆ ಅನುಗುಣವಾಗಿ ಅವುಗಳನ್ನು ಒಂದೇ A4 ಪುಟದಲ್ಲಿ ನಿಖರವಾಗಿ ಜೋಡಿಸುತ್ತದೆ.</p>\n      <p>ಹೆಚ್ಚುವರಿಯಾಗಿ, ಅನಧಿಕೃತ ಡಾಕ್ಯುಮೆಂಟ್ ಮರುಬಳಕೆಯನ್ನು ತಡೆಯಲು ನೀವು ಅತಿಕ್ರಮಿಸುವ ಅರೆಪಾರದರ್ಶಕ ನಕಲಿ-ನಿರೋಧಕ ವಾಟರ್‌ಮಾರ್ಕ್‌ಗಳನ್ನು (ಉದಾ. \"FOR ONBOARDING ONLY\") ಕಸ್ಟಮೈಸ್ ಮಾಡಬಹುದು. ಪ್ರೀಮಿಯಂ ಅನುಭವವನ್ನು ನೀಡಲು ಇದು 3D ಗ್ಲೋ ಲೇಸರ್ ಸ್ವೀಪ್ ಕಾಪಿಯರ್ ಸ್ಕ್ಯಾನರ್ ಡೋರ್ ವಿಷುಯಲ್ ಎಫೆಕ್ಟ್ ಅನ್ನು ಸಹ ಹೊಂದಿದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload ID files",
-        "description": "Upload front and back photos/scans of your ID or passport (up to 2 files)."
+        "title": "ID ಫೈಲ್‌ಗಳನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ನಿಮ್ಮ ID ಅಥವಾ ಪಾಸ್‌ಪೋರ್ಟ್‌ನ ಮುಂಭಾಗ ಮತ್ತು ಹಿಂಭಾಗದ ಫೋಟೋಗಳು/ಸ್ಕ್ಯಾನ್‌ಗಳನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ (ಗರಿಷ್ಠ 2 ಫೈಲ್‌ಗಳು)."
       },
       {
         "step": 2,
-        "title": "Configure secure watermark",
-        "description": "Input custom text overlay to restrict unauthorized document replication."
+        "title": "ಸುರಕ್ಷಿತ ವಾಟರ್‌ಮಾರ್ಕ್ ಕಾನ್ಫಿಗರ್ ಮಾಡಿ",
+        "description": "ಅನಧಿಕೃತ ಡಾಕ್ಯುಮೆಂಟ್ ನಕಲು ಮಾಡುವಿಕೆಯನ್ನು ನಿರ್ಬಂಧಿಸಲು ಕಸ್ಟಮ್ ಪಠ್ಯ ಓವರ್‌ಲೇ ನಮೂದಿಸಿ."
       },
       {
         "step": 3,
-        "title": "Compose & download",
-        "description": "Click execute to generate a single-page print-ready A4 PDF."
+        "title": "ಕಂಪೋಸ್ ಮಾಡಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ಒಂದೇ ಪುಟದ ಪ್ರಿಂಟ್-ರೆಡಿ A4 PDF ಅನ್ನು ಉತ್ಪಾದಿಸಲು execute ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "HR onboarding submission",
-        "description": "Quickly align employee ID copies and apply protective watermarks.",
+        "title": "HR ಆನ್‌ಬೋರ್ಡಿಂಗ್ ಸಲ್ಲಿಕೆ",
+        "description": "ಉದ್ಯೋಗಿ ID ಪ್ರತಿಗಳನ್ನು ತ್ವರಿತವಾಗಿ ಜೋಡಿಸಿ ಮತ್ತು ರಕ್ಷಣಾತ್ಮಕ ವಾಟರ್‌ಮಾರ್ಕ್‌ಗಳನ್ನು ಅನ್ವಯಿಸಿ.",
         "icon": "user"
       },
       {
-        "title": "Government & banking service",
-        "description": "Prepare standardized ID prints that meet physical archive requirements.",
+        "title": "ಸರ್ಕಾರಿ ಮತ್ತು ಬ್ಯಾಂಕಿಂಗ್ ಸೇವೆ",
+        "description": "ಭೌತಿಕ ಆರ್ಕೈವ್ ಅಗತ್ಯತೆಗಳನ್ನು ಪೂರೈಸುವ ಪ್ರಮಾಣೀಕೃತ ID ಪ್ರಿಂಟ್‌ಗಳನ್ನು ಸಿದ್ಧಪಡಿಸಿ.",
         "icon": "landmark"
       },
       {
-        "title": "Travel backups",
-        "description": "Arrange passport pages and visa details onto a unified A4 paper.",
+        "title": "ಪ್ರಯಾಣದ ಬ್ಯಾಕಪ್‌ಗಳು",
+        "description": "ಪಾಸ್‌ಪೋರ್ಟ್ ಪುಟಗಳು ಮತ್ತು ವೀಸಾ ವಿವರಗಳನ್ನು ಒಂದೇ A4 ಕಾಗದದ ಮೇಲೆ ಜೋಡಿಸಿ.",
         "icon": "plane"
       }
     ],
     "faq": [
       {
-        "question": "Will watermarks block identity text details?",
-        "answer": "No. The watermark is rendered at a carefully tuned 15% opacity to block forgery without sacrificing the legibility of text or photo fields."
+        "question": "ವಾಟರ್‌ಮಾರ್ಕ್‌ಗಳು ಗುರುತಿನ ಪಠ್ಯ ವಿವರಗಳನ್ನು ತಡೆಯುತ್ತವೆಯೇ?",
+        "answer": "ಇಲ್ಲ. ಪಠ್ಯ ಅಥವಾ ಫೋಟೋ ಕ್ಷೇತ್ರಗಳ ಸ್ಪಷ್ಟತೆಗೆ ಧಕ್ಕೆ ತರದೆ ನಕಲಿಮಾಡುವಿಕೆಯನ್ನು ತಡೆಯಲು ವಾಟರ್‌ಮಾರ್ಕ್ ಅನ್ನು ಎಚ್ಚರಿಕೆಯಿಂದ ಹೊಂದಿಸಲಾದ 15% ಅಪಾರದರ್ಶಕತೆಯಲ್ಲಿ ನಿರೂಪಿಸಲಾಗಿದೆ."
       },
       {
-        "question": "Is the composite card size accurate?",
-        "answer": "Yes. It renders the ID card at the standard physical dimension of 85.6mm × 54mm scaled perfectly on the A4 page."
+        "question": "ಸಂಯೋಜಿತ ಕಾರ್ಡ್ ಗಾತ್ರವು ನಿಖರವಾಗಿದೆಯೇ?",
+        "answer": "ಹೌದು. ಇದು A4 ಪುಟದಲ್ಲಿ ಪರಿಪೂರ್ಣವಾಗಿ ಸ್ಕೇಲ್ ಮಾಡಲಾದ 85.6mm × 54mm ನ ಪ್ರಮಾಣಿತ ಭೌತಿಕ ಆಯಾಮದಲ್ಲಿ ID ಕಾರ್ಡ್ ಅನ್ನು ನಿರೂಪಿಸುತ್ತದೆ."
       },
       {
-        "question": "Does it support driver licenses?",
-        "answer": "Yes, it works beautifully for any card-based identity scans."
+        "question": "ಇದು ಚಾಲನಾ ಪರವಾನಗಿಗಳನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆಯೇ?",
+        "answer": "ಹೌದು, ಇದು ಯಾವುದೇ ಕಾರ್ಡ್-ಆಧಾರಿತ ಗುರುತಿನ ಸ್ಕ್ಯಾನ್‌ಗಳಿಗೆ ಅತ್ಯುತ್ತಮವಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ."
       }
     ]
   },
   "annotation-exporter": {
-    "title": "Export Annotations",
-    "metaDescription": "Extract PDF comments, notes, highlights, and underlines, and structure them into Markdown/JSON notebooks aligned with outline chapters.",
+    "title": "ಅನಾಟೇಶನ್‌ಗಳನ್ನು ರಫ್ತು ಮಾಡಿ",
+    "metaDescription": "PDF ಕಾಮೆಂಟ್‌ಗಳು, ಟಿಪ್ಪಣಿಗಳು, ಹೈಲೈಟ್‌ಗಳು ಮತ್ತು ಅಂಡರ್‌ಲೈನ್‌ಗಳನ್ನು ಹೊರತೆಗೆಯಿರಿ ಮತ್ತು ಅವುಗಳನ್ನು ಔಟ್‌ಲೈನ್ ಅಧ್ಯಾಯಗಳಿಗೆ ಜೋಡಿಸಲಾದ Markdown/JSON ನೋಟ್‌ಬುಕ್‌ಗಳಾಗಿ ರಚಿಸಿ.",
     "keywords": [
       "export annotations",
       "extract pdf highlights",
@@ -6865,59 +6865,59 @@ export const toolContentKn: Record<string, ToolContent> = {
       "markdown outline notebooks",
       "study summary helper"
     ],
-    "description": "\n      <p>The Smart Annotation Exporter is a powerful workspace that unlocks full value from your PDF annotations.</p>\n      <p>While conducting literature reviews or reading extensive ebooks, we make heavy use of highlights and sticky notes. This tool deserializes the low-level PDF <code>/Annots</code> dictionary and extracts all highlights, notes, underlines, and hand-drawn ink markers.</p>\n      <p>It automatically aligns the comments with their respective outline headers, generating a structured Markdown or JSON notebook with page reference anchors. Watch your highlights float beautifully into the frosted-glass notebook panel.</p>\n    ",
+    "description": "\n      <p>ಸ್ಮಾರ್ಟ್ ಅನಾಟೇಶನ್ ಎಕ್ಸ್‌ಪೋರ್ಟರ್ ಎಂಬುದು ನಿಮ್ಮ PDF ಅನಾಟೇಶನ್‌ಗಳಿಂದ ಪೂರ್ಣ ಮೌಲ್ಯವನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡುವ ಶಕ್ತಿಯುತ ಕಾರ್ಯಕ್ಷೇತ್ರವಾಗಿದೆ.</p>\n      <p>ಸಾಹಿತ್ಯ ವಿಮರ್ಶೆಗಳನ್ನು ನಡೆಸುವಾಗ ಅಥವಾ ವಿವರವಾದ ಇಬುಕ್‌ಗಳನ್ನು ಓದುವಾಗ, ನಾವು ಹೈಲೈಟ್‌ಗಳು ಮತ್ತು ಸ್ಟಿಕಿ ನೋಟ್‌ಗಳನ್ನು ಹೆಚ್ಚಾಗಿ ಬಳಸುತ್ತೇವೆ. ಈ ಉಪಕರಣವು ಕೆಳಮಟ್ಟದ PDF <code>/Annots</code> ಡಿಕ್ಷನರಿಯನ್ನು ಡಿಸೀರಿಯಲೈಸ್ ಮಾಡುತ್ತದೆ ಮತ್ತು ಎಲ್ಲಾ ಹೈಲೈಟ್‌ಗಳು, ಟಿಪ್ಪಣಿಗಳು, ಅಂಡರ್‌ಲೈನ್‌ಗಳು ಮತ್ತು ಕೈಯಿಂದ ಬರೆದ ಇಂಕ್ ಮಾರ್ಕರ್‌ಗಳನ್ನು ಹೊರತೆಗೆಯುತ್ತದೆ.</p>\n      <p>ಇದು ಕಾಮೆಂಟ್‌ಗಳನ್ನು ಅವುಗಳ ಸಂಬಂಧಿತ ಔಟ್‌ಲೈನ್ ಶೀರ್ಷಿಕೆಗಳೊಂದಿಗೆ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಜೋಡಿಸುತ್ತದೆ, ಪುಟದ ಉಲ್ಲೇಖ ಆಂಕರ್‌ಗಳೊಂದಿಗೆ ರಚನಾತ್ಮಕ Markdown ಅಥವಾ JSON ನೋಟ್‌ಬುಕ್ ಅನ್ನು ಉತ್ಪಾದಿಸುತ್ತದೆ. ಫ್ರಾಸ್ಟೆಡ್-ಗ್ಲಾಸ್ ನೋಟ್‌ಬುಕ್ ಪ್ಯಾನೆಲ್‌ಗೆ ನಿಮ್ಮ ಹೈಲೈಟ್‌ಗಳು ಸುಂದರವಾಗಿ ಫ್ಲೋಟ್ ಆಗುವುದನ್ನು ವೀಕ್ಷಿಸಿ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Import annotated PDF",
-        "description": "Upload any PDF essay or book containing your underlines, highlights, or comments."
+        "title": "ಅನಾಟೇಟ್ ಮಾಡಿದ PDF ಇಂಪೋರ್ಟ್ ಮಾಡಿ",
+        "description": "ನಿಮ್ಮ ಅಂಡರ್‌ಲೈನ್‌ಗಳು, ಹೈಲೈಟ್‌ಗಳು ಅಥವಾ ಕಾಮೆಂಟ್‌ಗಳನ್ನು ಹೊಂದಿರುವ ಯಾವುದೇ PDF ಪ್ರಬಂಧ ಅಥವಾ ಪುಸ್ತಕವನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Configure filters & format",
-        "description": "Select the annotation types you want to extract and choose Markdown or JSON."
+        "title": "ಫಿಲ್ಟರ್‌ಗಳು ಮತ್ತು ಫಾರ್ಮ್ಯಾಟ್ ಕಾನ್ಫಿಗರ್ ಮಾಡಿ",
+        "description": "ನೀವು ಹೊರತೆಗೆಯಲು ಬಯಸುವ ಟಿಪ್ಪಣಿ ಪ್ರಕಾರಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು Markdown ಅಥವಾ JSON ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ."
       },
       {
         "step": 3,
-        "title": "Extract notebook",
-        "description": "Click execute to parse the comments stream and assemble your outline summary."
+        "title": "ನೋಟ್‌ಬುಕ್ ಹೊರತೆಗೆಯಿರಿ",
+        "description": "ಕಾಮೆಂಟ್‌ಗಳ ಸ್ಟ್ರೀಮ್ ಅನ್ನು ಪಾರ್ಸ್ ಮಾಡಲು ಮತ್ತು ನಿಮ್ಮ ರೂಪರೇಷೆಯ ಸಾರಾಂಶವನ್ನು ಜೋಡಿಸಲು Execute ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Scientific literature synthesis",
-        "description": "Extract reading notes across multiple papers into Markdown templates to compose lit reviews instantly.",
+        "title": "ವೈಜ್ಞಾನಿಕ ಸಾಹಿತ್ಯ ಸಂಶ್ಲೇಷಣೆ",
+        "description": "ಸಾಹಿತ್ಯ ವಿಮರ್ಶೆಗಳನ್ನು ತಕ್ಷಣವೇ ರಚಿಸಲು ಬಹು ಪೇಪರ್‌ಗಳಿಂದ ಓದುವ ಟಿಪ್ಪಣಿಗಳನ್ನು Markdown ಟೆಂಪ್ಲೇಟ್‌ಗಳಿಗೆ ಹೊರತೆಗೆಯಿರಿ.",
         "icon": "graduation-cap"
       },
       {
-        "title": "Study journal compiling",
-        "description": "Collect beautiful insights and personal remarks from textbooks into Obsidian databases.",
+        "title": "ಅಧ್ಯಯನ ಜರ್ನಲ್ ಸಂಕಲನ",
+        "description": "ಪಠ್ಯಪುಸ್ತಕಗಳಿಂದ ಉತ್ತಮ ಒಳನೋಟಗಳು ಮತ್ತು ವೈಯಕ್ತಿಕ ಟಿಪ್ಪಣಿಗಳನ್ನು Obsidian ಡೇಟಾಬೇಸ್‌ಗಳಲ್ಲಿ ಸಂಗ್ರಹಿಸಿ.",
         "icon": "book"
       },
       {
-        "title": "Document collaborative audit",
-        "description": "Gather review corrections from different team members and establish actionable task lists.",
+        "title": "ದಾಖಲೆ ಸಹಯೋಗ ಪರಿಶೋಧನೆ",
+        "description": "ವಿವಿಧ ತಂಡದ ಸದಸ್ಯರಿಂದ ವಿಮರ್ಶೆ ತಿದ್ದುಪಡಿಗಳನ್ನು ಸಂಗ್ರಹಿಸಿ ಮತ್ತು ಕಾರ್ಯಗತಗೊಳಿಸಬಹುದಾದ ಕಾರ್ಯ ಪಟ್ಟಿಗಳನ್ನು ಸ್ಥಾಪಿಸಿ.",
         "icon": "users"
       }
     ],
     "faq": [
       {
-        "question": "Can it extract tablet hand-drawn ink strokes?",
-        "answer": "Yes. As long as the hand-drawn marks are stored as standard PDF Ink annotations, the tool can perfectly isolate and structure their page positions."
+        "question": "ಇದು ಟ್ಯಾಬ್ಲೆಟ್‌ನ ಕೈಯಿಂದ ಬರೆದ ಇಂಕ್ ಸ್ಟ್ರೋಕ್‌ಗಳನ್ನು ಹೊರತೆಗೆಯಬಹುದೇ?",
+        "answer": "ಹೌದು. ಕೈಯಿಂದ ಬರೆದ ಗುರುತುಗಳನ್ನು ಪ್ರಮಾಣಿತ PDF Ink ಟಿಪ್ಪಣಿಗಳಾಗಿ ಸಂಗ್ರಹಿಸಿರುವವರೆಗೆ, ಈ ಉಪಕರಣವು ಅವುಗಳ ಪುಟದ ಸ್ಥಾನಗಳನ್ನು ನಿಖರವಾಗಿ ಪ್ರತ್ಯೇಕಿಸಬಹುದು ಮತ್ತು ವಿನ್ಯಾಸಗೊಳಿಸಬಹುದು."
       },
       {
-        "question": "Why are some highlighted extracts empty?",
-        "answer": "If the PDF is a non-searchable image scan lacking underlying text, highlights only store coordinates. Run OCR on the PDF first, then extract annotations."
+        "question": "ಕೆಲವು ಹೈಲೈಟ್ ಮಾಡಿದ ಭಾಗಗಳು ಏಕೆ ಖಾಲಿಯಾಗಿವೆ?",
+        "answer": "PDF ಅಡಗಿರುವ ಪಠ್ಯವಿಲ್ಲದ, ಹುಡುಕಲಾಗದ ಇಮೇಜ್ ಸ್ಕ್ಯಾನ್ ಆಗಿದ್ದರೆ, ಹೈಲೈಟ್‌ಗಳು ನಿರ್ದೇಶಾಂಕಗಳನ್ನು ಮಾತ್ರ ಸಂಗ್ರಹಿಸುತ್ತವೆ. ಮೊದಲು PDF ನಲ್ಲಿ OCR ಚಾಲನೆ ಮಾಡಿ, ನಂತರ ಟಿಪ್ಪಣಿಗಳನ್ನು ಹೊರತೆಗೆಯಿರಿ."
       },
       {
-        "question": "Do the Markdown links jump back to the PDF?",
-        "answer": "The exported file lists precise page numbers and original outline headings to make cross-referencing seamless."
+        "question": "Markdown ಲಿಂಕ್‌ಗಳು ಮತ್ತೆ PDF ಗೆ ಮರಳುತ್ತವೆಯೇ?",
+        "answer": "ರಫ್ತು ಮಾಡಲಾದ ಫೈಲ್ ನಿಖರವಾದ ಪುಟ ಸಂಖ್ಯೆಗಳು ಮತ್ತು ಮೂಲ ರೂಪರೇಖೆಯ ಶೀರ್ಷಿಕೆಗಳನ್ನು ಪಟ್ಟಿ ಮಾಡುತ್ತದೆ, ಇದು ಸುಲಭವಾದ ಉಲ್ಲೇಖಕ್ಕೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ."
       }
     ]
   },
   "batch-watermark-remover": {
-    "title": "Batch Remove Watermarks",
-    "metaDescription": "Physically scrub watermark strings and XObject images from the PDF content stream without messing up layouts.",
+    "title": "ಬ್ಯಾಚ್ ವಾಟರ್‌ಮಾರ್ಕ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕಿ",
+    "metaDescription": "ಲೇಔಟ್‌ಗಳನ್ನು ಹಾಳುಮಾಡದೆ PDF ಕಂಟೆಂಟ್ ಸ್ಟ್ರೀಮ್‌ನಿಂದ ವಾಟರ್‌ಮಾರ್ಕ್ ಸ್ಟ್ರಿಂಗ್‌ಗಳು ಮತ್ತು XObject ಚಿತ್ರಗಳನ್ನು ಭೌತಿಕವಾಗಿ ತೆಗೆದುಹಾಕಿ.",
     "keywords": [
       "remove watermark",
       "pdf watermark eraser",
@@ -6925,59 +6925,59 @@ export const toolContentKn: Record<string, ToolContent> = {
       "batch watermark cleaning",
       "remove draft watermark"
     ],
-    "description": "\n      <p>The Batch Watermark Remover is a state-of-the-art PDF sanitizer that physically cleanses documents.</p>\n      <p>Generic watermark removers usually just overlay white blocks or distort document spacing. This tool utilizes a robust <strong>Content Stream Purge</strong> technique.</p>\n      <p>It parses the low-level rendering operators of each page, identifies specific watermark string commands (e.g. \"Confidential\", \"DRAFT\") or background image objects, and physically deletes or overwrites them. The watermarks disappear completely, preserving the original formatting and vector quality.</p>\n    ",
+    "description": "\n      <p>ಬ್ಯಾಚ್ ವಾಟರ್‌ಮಾರ್ಕ್ ರಿಮೂವರ್ ಎನ್ನುವುದು ಅತ್ಯಾಧುನಿಕ PDF ಸ್ಯಾನಿಟೈಸರ್ ಆಗಿದ್ದು, ಇದು ದಾಖಲೆಗಳನ್ನು ಭೌತಿಕವಾಗಿ ಸ್ವಚ್ಛಗೊಳಿಸುತ್ತದೆ.</p>\n      <p>ಸಾಮಾನ್ಯ ವಾಟರ್‌ಮಾರ್ಕ್ ರಿಮೂವರ್‌ಗಳು ಸಾಮಾನ್ಯವಾಗಿ ಬಿಳಿ ಬ್ಲಾಕ್‌ಗಳನ್ನು ತಿದ್ದುತ್ತವೆ ಅಥವಾ ದಾಖಲೆಯ ಸ್ಪೇಸಿಂಗ್ ಅನ್ನು ಹಾಳುಮಾಡುತ್ತವೆ. ಈ ಉಪಕರಣವು ಪ್ರಬಲವಾದ <strong>Content Stream Purge</strong> ತಂತ್ರಜ್ಞಾನವನ್ನು ಬಳಸುತ್ತದೆ.</p>\n      <p>ಇದು ಪ್ರತಿಯೊಂದು ಪುಟದ ಕೆಳಮಟ್ಟದ ರೆಂಡರಿಂಗ್ ಆಪರೇಟರ್‌ಗಳನ್ನು ಪಾರ್ಸ್ ಮಾಡುತ್ತದೆ, ನಿರ್ದಿಷ್ಟ ವಾಟರ್‌ಮಾರ್ಕ್ ಸ್ಟ್ರಿಂಗ್ ಕಮಾಂಡ್‌ಗಳನ್ನು (ಉದಾ. \"Confidential\", \"DRAFT\") ಅಥವಾ ಹಿನ್ನೆಲೆ ಇಮೇಜ್ ಆಬ್ಜೆಕ್ಟ್‌ಗಳನ್ನು ಗುರುತಿಸುತ್ತದೆ ಮತ್ತು ಅವುಗಳನ್ನು ಭೌತಿಕವಾಗಿ ಅಳಿಸುತ್ತದೆ ಅಥವಾ ತಿದ್ದಿ ಬರೆಯುತ್ತದೆ. ವಾಟರ್‌ಮಾರ್ಕ್‌ಗಳು ಸಂಪೂರ್ಣವಾಗಿ ಕಣ್ಮರೆಯಾಗುತ್ತವೆ, ಮೂಲ ಫಾರ್ಮ್ಯಾಟಿಂಗ್ ಮತ್ತು ವೆಕ್ಟರ್ ಗುಣಮಟ್ಟವನ್ನು ಕಾಯ್ದುಕೊಳ್ಳುತ್ತವೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload watermarked file",
-        "description": "Provide the PDF document showing commercial logos or security labels."
+        "title": "ವಾಟರ್‌ಮಾರ್ಕ್ ಹೊಂದಿರುವ ಫೈಲ್ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ವಾಣಿಜ್ಯ ಲೋಗೋಗಳು ಅಥವಾ ಭದ್ರತಾ ಲೇಬಲ್‌ಗಳನ್ನು ತೋರಿಸುವ PDF ದಾಖಲೆಯನ್ನು ಒದಗಿಸಿ."
       },
       {
         "step": 2,
-        "title": "Define target watermark",
-        "description": "Input the exact string to delete, or toggle translucent XObject image cleanup."
+        "title": "ಟಾರ್ಗೆಟ್ ವಾಟರ್‌ಮಾರ್ಕ್ ವ್ಯಾಖ್ಯಾನಿಸಿ",
+        "description": "ಅಳಿಸಲು ನಿಖರವಾದ ಸ್ಟ್ರಿಂಗ್ ಅನ್ನು ನಮೂದಿಸಿ, ಅಥವಾ ಪಾರದರ್ಶಕ XObject ಇಮೇಜ್ ಕ್ಲೀನಪ್ ಅನ್ನು ಟಾಗಲ್ ಮಾಡಿ."
       },
       {
         "step": 3,
-        "title": "Run physical purge",
-        "description": "Click execute to scrub the content operators with high fidelity."
+        "title": "ಭೌತಿಕ ಪರ್ಜ್ ಚಾಲನೆ ಮಾಡಿ",
+        "description": "ಹೆಚ್ಚಿನ ನಿಖರತೆಯೊಂದಿಗೆ ಕಂಟೆಂಟ್ ಆಪರೇಟರ್‌ಗಳನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸಲು Execute ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Archiving corporate assets",
-        "description": "Remove expired \"Confidential\" or \"Draft\" watermarks for general public distribution.",
+        "title": "ಕಾರ್ಪೊರೇಟ್ ಸ್ವತ್ತುಗಳನ್ನು ಆರ್ಕೈವ್ ಮಾಡುವುದು",
+        "description": "ಸಾಮಾನ್ಯ ಸಾರ್ವಜನಿಕ ವಿತರಣೆಗಾಗಿ ಅವಧಿ ಮುಗಿದ \"Confidential\" ಅಥವಾ \"Draft\" ವಾಟರ್‌ಮಾರ್ಕ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕಿ.",
         "icon": "archive"
       },
       {
-        "title": "Clearing background clutter",
-        "description": "Scrub heavy background pictures that distract readers from scanning text.",
+        "title": "ಹಿನ್ನೆಲೆ ಗೊಂದಲಗಳನ್ನು ತೆರವುಗೊಳಿಸುವುದು",
+        "description": "ಓದುಗರಿಗೆ ಪಠ್ಯವನ್ನು ಓದಲು ಅಡ್ಡಿಪಡಿಸುವ ಹಿನ್ನೆಲೆಯ ಚಿತ್ರಗಳನ್ನು ತೆಗೆದುಹಾಕಿ.",
         "icon": "eye"
       },
       {
-        "title": "Document reusing",
-        "description": "Cleanse old page footer branding elements to apply new corporate templates easily.",
+        "title": "ದಾಖಲೆಯ ಮರುಬಳಕೆ",
+        "description": "ಹೊಸ ಕಾರ್ಪೊರೇಟ್ ಟೆಂಪ್ಲೇಟ್‌ಗಳನ್ನು ಸುಲಭವಾಗಿ ಅನ್ವಯಿಸಲು ಹಳೆಯ ಪುಟದ ಫುಟರ್ ಬ್ರ್ಯಾಂಡಿಂಗ್ ಅಂಶಗಳನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸಿ.",
         "icon": "copy"
       }
     ],
     "faq": [
       {
-        "question": "Can the purged watermarks be recovered?",
-        "answer": "No. Unlike visual masks, we rewrite the page binary stream to erase the operators, leaving no traces."
+        "question": "ಅಳಿಸಲಾದ ವಾಟರ್‌ಮಾರ್ಕ್‌ಗಳನ್ನು ಮರಳಿ ಪಡೆಯಬಹುದೇ?",
+        "answer": "ಇಲ್ಲ. ದೃಶ್ಯ ಮಾಸ್ಕ್‌ಗಳಿಗಿಂತ ಭಿನ್ನವಾಗಿ, ನಾವು ಯಾವುದೇ ಕುರುಹುಗಳನ್ನು ಉಳಿಸದೆ ಆಪರೇಟರ್‌ಗಳನ್ನು ಅಳಿಸಲು ಪುಟದ ಬೈನರಿ ಸ್ಟ್ರೀಮ್ ಅನ್ನು ಪುನಃ ಬರೆಯುತ್ತೇವೆ."
       },
       {
-        "question": "Does it support complex gradients?",
-        "answer": "If the watermark is stored as a separate text node or image XObject, the tool can isolate and physically wipe it."
+        "question": "ಇದು ಸಂಕೀರ್ಣ ಗ್ರೆಡಿಯಂಟ್‌ಗಳನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆಯೇ?",
+        "answer": "ವಾಟರ್‌ಮಾರ್ಕ್ ಅನ್ನು ಪ್ರತ್ಯೇಕ ಪಠ್ಯ ನೋಡ್ ಅಥವಾ ಇಮೇಜ್ XObject ಆಗಿ ಸಂಗ್ರಹಿಸಿದ್ದರೆ, ಉಪಕರಣವು ಅದನ್ನು ಪ್ರತ್ಯೇಕಿಸಬಹುದು ಮತ್ತು ಭೌತಿಕವಾಗಿ ತೆಗೆದುಹಾಕಬಹುದು."
       },
       {
-        "question": "Will it modify normal page text?",
-        "answer": "No. The scrubbing engine only target operators matching the specified watermark signature; regular text remains untouched."
+        "question": "ಇದು ಸಾಮಾನ್ಯ ಪುಟದ ಪಠ್ಯವನ್ನು ಮಾರ್ಪಡಿಸುತ್ತದೆಯೇ?",
+        "answer": "ಇಲ್ಲ. ಸ್ಕ್ರಬ್ಬಿಂಗ್ ಇಂಜಿನ್ ನಿರ್ದಿಷ್ಟಪಡಿಸಿದ ವಾಟರ್‌ಮಾರ್ಕ್ ಸಹಿಗೆ ಹೊಂದುವ ಆಪರೇಟರ್‌ಗಳನ್ನು ಮಾತ್ರ ಗುರಿಯಾಗಿಸುತ್ತದೆ; ಸಾಮಾನ್ಯ ಪಠ್ಯವನ್ನು ಬದಲಾಯಿಸಲಾಗುವುದಿಲ್ಲ."
       }
     ]
   },
   "smart-data-redactor": {
-    "title": "Sensitive Data Redaction",
-    "metaDescription": "Automatically detect phone numbers, emails, and IDs, overlay opaque masks, and physically erase underlying text streams.",
+    "title": "ಸೂಕ್ಷ್ಮ ಡೇಟಾ ಮರೆಮಾಚುವಿಕೆ",
+    "metaDescription": "ಫೋನ್ ಸಂಖ್ಯೆಗಳು, ಇಮೇಲ್‌ಗಳು ಮತ್ತು ಐಡಿಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಪತ್ತೆಹಚ್ಚಿ, ಅಪಾರದರ್ಶಕ ಮಾಸ್ಕ್‌ಗಳನ್ನು ಇರಿಸಿ ಮತ್ತು ಅಡಗಿರುವ ಪಠ್ಯ ಸ್ಟ್ರೀಮ್‌ಗಳನ್ನು ಭೌತಿಕವಾಗಿ ಅಳಿಸಿ.",
     "keywords": [
       "automatic redaction",
       "redact privacy pdf",
@@ -6985,59 +6985,59 @@ export const toolContentKn: Record<string, ToolContent> = {
       "mask phone numbers",
       "gdpr compliance tool"
     ],
-    "description": "\n      <p>The Smart Privacy Data Redactor is an automated tool designed to ensure robust document privacy compliance.</p>\n      <p>Simply overlaying black boxes in normal editors is unsafe because the underlying text can still be copied. This tool implements true <strong>NLP pattern matching and physical content stream sanitization</strong>.</p>\n      <p>It scans the document for emails, phone numbers, SSNs, or custom keywords, places a premium matte black mask over the coordinates, and permanently overwrites the character stream with <code>[REDACTED]</code>, blocking copy-paste leaks.</p>\n    ",
+    "description": "\n      <p>ಸ್ಮಾರ್ಟ್ ಪ್ರೈವಸಿ ಡೇಟಾ ರಿಡಾಕ್ಟರ್ ಎನ್ನುವುದು ದಾಖಲೆಗಳ ಗೌಪ್ಯತೆ ಅನುಸರಣೆಯನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಲು ವಿನ್ಯಾಸಗೊಳಿಸಲಾದ ಸ್ವಯಂಚಾಲಿತ ಉಪಕರಣವಾಗಿದೆ.</p>\n      <p>ಸಾಮಾನ್ಯ ಎಡಿಟರ್‌ಗಳಲ್ಲಿ ಕಪ್ಪು ಬಾಕ್ಸ್‌ಗಳನ್ನು ಕೇವಲ ಮೇಲಿಡುವುದು ಸುರಕ್ಷಿತವಲ್ಲ ಏಕೆಂದರೆ ಅಡಗಿರುವ ಪಠ್ಯವನ್ನು ಇನ್ನೂ ಕಾಪಿ ಮಾಡಬಹುದು. ಈ ಉಪಕರಣವು ನಿಜವಾದ <strong>NLP ಮಾದರಿ ಹೊಂದಾಣಿಕೆ ಮತ್ತು ಭೌತಿಕ ಕಂಟೆಂಟ್ ಸ್ಟ್ರೀಮ್ ಸ್ಯಾನಿಟೈಸೇಶನ್</strong> ಅನ್ನು ಕಾರ್ಯಗತಗೊಳಿಸುತ್ತದೆ.</p>\n      <p>ಇದು ಇಮೇಲ್‌ಗಳು, ಫೋನ್ ಸಂಖ್ಯೆಗಳು, SSN ಗಳು ಅಥವಾ ಕಸ್ಟಮ್ ಕೀವರ್ಡ್‌ಗಳಿಗಾಗಿ ದಾಖಲೆಯನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡುತ್ತದೆ, ನಿರ್ದೇಶಾಂಕಗಳ ಮೇಲೆ ಮ್ಯಾಟ್ ಬ್ಲ್ಯಾಕ್ ಮಾಸ್ಕ್ ಇರಿಸುತ್ತದೆ ಮತ್ತು ಕ್ಯಾರೆಕ್ಟರ್ ಸ್ಟ್ರೀಮ್ ಅನ್ನು <code>[REDACTED]</code> ನಿಂದ ಶಾಶ್ವತವಾಗಿ ತಿದ್ದಿ ಬರೆಯುತ್ತದೆ, ಕಾಪಿ-ಪೇಸ್ಟ್ ಸೋರಿಕೆಯನ್ನು ತಡೆಯುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload target PDF",
-        "description": "Provide the contract or statement showing sensitive customer details."
+        "title": "ಟಾರ್ಗೆಟ್ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ಸೂಕ್ಷ್ಮ ಗ್ರಾಹಕ ವಿವರಗಳನ್ನು ತೋರಿಸುವ ಒಪ್ಪಂದ ಅಥವಾ ಸ್ಟೇಟ್‌ಮೆಂಟ್ ಅನ್ನು ಒದಗಿಸಿ."
       },
       {
         "step": 2,
-        "title": "Select redaction rules",
-        "description": "Check target patterns (email, phone, ID) or define custom sensitive words."
+        "title": "ರಿಡಾಕ್ಷನ್ ನಿಯಮಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+        "description": "ಟಾರ್ಗೆಟ್ ಮಾದರಿಗಳನ್ನು (ಇಮೇಲ್, ಫೋನ್, ಐಡಿ) ಪರಿಶೀಲಿಸಿ ಅಥವಾ ಕಸ್ಟಮ್ ಸೂಕ್ಷ್ಮ ಪದಗಳನ್ನು ವ್ಯಾಖ್ಯಾನಿಸಿ."
       },
       {
         "step": 3,
-        "title": "Auto redact & download",
-        "description": "Click execute to overlay secure masks and wipe the text streams."
+        "title": "ಸ್ವಯಂ ರಿಡ್ಯಾಕ್ಟ್ ಮಾಡಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ಸುರಕ್ಷಿತ ಮಾಸ್ಕ್‌ಗಳನ್ನು ಹಾಕಲು ಮತ್ತು ಪಠ್ಯ ಸ್ಟ್ರೀಮ್‌ಗಳನ್ನು ಅಳಿಸಲು Execute ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Commercial agreements sharing",
-        "description": "Safely publish business documents by hiding personal salaries, phone numbers, or emails.",
+        "title": "ವಾಣಿಜ್ಯ ಒಪ್ಪಂದಗಳ ಹಂಚಿಕೆ",
+        "description": "ವೈಯಕ್ತಿಕ ವೇತನಗಳು, ಫೋನ್ ಸಂಖ್ಯೆಗಳು ಅಥವಾ ಇಮೇಲ್‌ಗಳನ್ನು ಮರೆಮಾಚುವ ಮೂಲಕ ವ್ಯವಹಾರ ದಾಖಲೆಗಳನ್ನು ಸುರಕ್ಷಿತವಾಗಿ ಪ್ರಕಟಿಸಿ.",
         "icon": "file-signature"
       },
       {
-        "title": "Resume database anonymization",
-        "description": "Strip applicant names, contact info, or addresses to comply with strict privacy regulations.",
+        "title": "ರೆಸ್ಯೂಮ್ ಡೇಟಾಬೇಸ್ ಅನಾಮಧೇಯಕರಣ",
+        "description": "ಕಟ್ಟುನಿಟ್ಟಿನ ಗೌಪ್ಯತೆ ನಿಯಮಗಳಿಗೆ ಬದ್ಧವಾಗಿರಲು ಅರ್ಜಿದಾರರ ಹೆಸರುಗಳು, ಸಂಪರ್ಕ ಮಾಹಿತಿ ಅಥವಾ ವಿಳಾಸಗಳನ್ನು ತೆಗೆದುಹಾಕಿ.",
         "icon": "user-check"
       },
       {
-        "title": "Financial statement distribution",
-        "description": "Conceal specific ledger numbers or shareholder names before publishing reports.",
+        "title": "ಹಣಕಾಸು ವರದಿ ಹಂಚಿಕೆ",
+        "description": "ವರದಿಗಳನ್ನು ಪ್ರಕಟಿಸುವ ಮೊದಲು ನಿರ್ದಿಷ್ಟ ಲೆಡ್ಜರ್ ಸಂಖ್ಯೆಗಳು ಅಥವಾ ಶೇರುದಾರರ ಹೆಸರುಗಳನ್ನು ಮರೆಮಾಚಿ.",
         "icon": "pie-chart"
       }
     ],
     "faq": [
       {
-        "question": "Are redacted details truly un-copyable?",
-        "answer": "Yes. We rewrite the page content stream to erase the characters. Copy-pasting from the redacted box will only extract the string \"[REDACTED]\"."
+        "question": "ಮರೆಮಾಡಲಾದ (redacted) ವಿವರಗಳನ್ನು ನಿಜವಾಗಿಯೂ ನಕಲಿಸಲು ಸಾಧ್ಯವಿಲ್ಲವೇ?",
+        "answer": "ಹೌದು. ಅಕ್ಷರಗಳನ್ನು ಅಳಿಸಲು ನಾವು ಪುಟದ ವಿಷಯದ ಸ್ಟ್ರೀಮ್ ಅನ್ನು ಮರುಬರೆಯುತ್ತೇವೆ. ಮರೆಮಾಡಲಾದ ಬಾಕ್ಸ್‌ನಿಂದ ಕಾಪಿ-ಪೇಸ್ಟ್ ಮಾಡುವುದರಿಂದ ಬರಿ \"[REDACTED]\" ಸ್ಟ್ರಿಂಗ್ ಮಾತ್ರ ಸಿಗುತ್ತದೆ."
       },
       {
-        "question": "Does it work for scanned image PDFs?",
-        "answer": "This tool targets vector text streams. For scanned image files, use our OCR tool first or crop manually."
+        "question": "ಇದು ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ಚಿತ್ರ PDF ಗಳಿಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆಯೇ?",
+        "answer": "ಈ ಉಪಕರಣವು ವೆಕ್ಟರ್ ಪಠ್ಯ ಸ್ಟ್ರೀಮ್‌ಗಳನ್ನು ಗುರಿಯಾಗಿಸುತ್ತದೆ. ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ಚಿತ್ರ ಫೈಲ್‌ಗಳಿಗಾಗಿ, ಮೊದಲು ನಮ್ಮ OCR ಉಪಕರಣವನ್ನು ಬಳಸಿ ಅಥವಾ ಹಸ್ತಚಾಲಿತವಾಗಿ ಕ್ರಾಪ್ ಮಾಡಿ."
       },
       {
-        "question": "Is the red HUD target scope saved in the file?",
-        "answer": "No, that is a gorgeous frontend interactive loading effect. The output PDF displays standard clean black rectangles."
+        "question": "ಕೆಂಪು HUD ಟಾರ್ಗೆಟ್ ಸ್ಕೋಪ್ ಫೈಲ್‌ನಲ್ಲಿ ಉಳಿಸಲ್ಪಡುತ್ತದೆಯೇ?",
+        "answer": "ಇಲ್ಲ, ಅದು ಒಂದು ಸುಂದರವಾದ ಫ್ರಂಟ್‌ಎಂಡ್ ಸಂವಾದಾತ್ಮಕ ಲೋಡಿಂಗ್ ಎಫೆಕ್ಟ್ ಆಗಿದೆ. ಔಟ್‌ಪುಟ್ PDF ಸಾಧಾರಣ ಸ್ಪಷ್ಟ ಕಪ್ಪು ಆಯತಗಳನ್ನು ಪ್ರದರ್ಶಿಸುತ್ತದೆ."
       }
     ]
   },
   "bookmarks-auto-generator": {
-    "title": "Auto Generate Bookmarks",
-    "metaDescription": "Analyze document layout hierarchy and regex patterns (e.g. Chapter) to generate and inject /Outline bookmark catalogs.",
+    "title": "ಬುಕ್‌ಮಾರ್ಕ್‌ಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಜನರೇಟ್ ಮಾಡಿ",
+    "metaDescription": "/Outline ಬುಕ್‌ಮಾರ್ಕ್ ಕ್ಯಾಟಲಾಗ್‌ಗಳನ್ನು ಜನರೇಟ್ ಮಾಡಲು ಮತ್ತು ಇಂಜೆಕ್ಟ್ ಮಾಡಲು ಡಾಕ್ಯುಮೆಂಟ್ ಲೇಔಟ್ ಶ್ರೇಣಿ ಮತ್ತು regex ಪ್ಯಾಟರ್ನ್‌ಗಳನ್ನು (ಉದಾ. Chapter) ವಿಶ್ಲೇಷಿಸಿ.",
     "keywords": [
       "generate bookmarks",
       "pdf outline builder",
@@ -7045,59 +7045,59 @@ export const toolContentKn: Record<string, ToolContent> = {
       "font size catalog",
       "outline tree builder"
     ],
-    "description": "\n      <p>The Auto Bookmarks Generator brings absolute clarity to lengthy, unstructured PDF documents.</p>\n      <p>Scanning through books or booklets with no outline navigation is painful. This tool parses typographic hierarchies (such as font sizes and weights) along with regex rules (like \"Chapter 1\", \"Section 1.1\") to automatically deduce headings.</p>\n      <p>It then compiles and injects these headings directly into the PDF <code>/Outline</code> dictionary. Any standard viewer will then show a beautifully structured, multi-level navigation sidebar, backed by an interactive 3D outline tree preview.</p>\n    ",
+    "description": "\n      <p>ಆಟೋ ಬುಕ್‌ಮಾರ್ಕ್ಸ್ ಜನರೇಟರ್ ಸುದೀರ್ಘವಾದ, ರಚನೆಯಿಲ್ಲದ PDF ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳಿಗೆ ಸಂಪೂರ್ಣ ಸ್ಪಷ್ಟತೆಯನ್ನು ತರುತ್ತದೆ.</p>\n      <p>ಔಟ್‌ಲೈನ್ ನ್ಯಾವಿಗೇಷನ್ ಇಲ್ಲದ ಪುಸ್ತಕಗಳು ಅಥವಾ ಕಿರುಪುಸ್ತಕಗಳನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡುವುದು ಕಷ್ಟಕರ. ಶೀರ್ಷಿಕೆಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ನಿರ್ಧರಿಸಲು ಈ ಉಪಕರಣವು ಟೈಪೋಗ್ರಾಫಿಕ್ ಶ್ರೇಣಿಗಳನ್ನು (ಫಾಂಟ್ ಗಾತ್ರಗಳು ಮತ್ತು ತೂಕಗಳಂತಹವು) regex ನಿಯಮಗಳೊಂದಿಗೆ (\"Chapter 1\", \"Section 1.1\" ನಂತಹವು) ವಿಶ್ಲೇಷಿಸುತ್ತದೆ.</p>\n      <p>ನಂತರ ಇದು ಈ ಶೀರ್ಷಿಕೆಗಳನ್ನು ಸಂಕಲಿಸಿ ನೇರವಾಗಿ PDF <code>/Outline</code> ಡಿಕ್ಷನರಿಗೆ ಇಂಜೆಕ್ಟ್ ಮಾಡುತ್ತದೆ. ಯಾವುದೇ ಪ್ರಮಾಣಿತ ವೀಕ್ಷಕವು ಸುಂದರವಾಗಿ ರಚಿಸಲಾದ, ಬಹು-ಹಂತದ ನ್ಯಾವಿಗೇಷನ್ ಸೈಡ್‌ಬಾರ್ ಅನ್ನು ಸಂವಾದಾತ್ಮಕ 3D ಔಟ್‌ಲೈನ್ ಟ್ರೀ ಮುನ್ನೋಟದೊಂದಿಗೆ ತೋರಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Provide unstructured PDF",
-        "description": "Upload large brochures, academic papers, or ebooks lacking a catalog sidebar."
+        "title": "ರಚನೆಯಿಲ್ಲದ PDF ಅನ್ನು ನೀಡಿ",
+        "description": "ಕ್ಯಾಟಲಾಗ್ ಸೈಡ್‌ಬಾರ್ ಇಲ್ಲದ ದೊಡ್ಡ ಬ್ರೋಷರ್‌ಗಳು, ಶೈಕ್ಷಣಿಕ ಪ್ರಬಂಧಗಳು ಅಥವಾ ಇ-ಪುಸ್ತಕಗಳನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Tune heading rules",
-        "description": "Configure strategies specifying minimum font size thresholds and match rules."
+        "title": "ಶೀರ್ಷಿಕೆ ನಿಯಮಗಳನ್ನು ಸರಿಹೊಂದಿಸಿ",
+        "description": "ಕನಿಷ್ಠ ಫಾಂಟ್ ಗಾತ್ರದ ಮಿತಿಗಳು ಮತ್ತು ಹೊಂದಾಣಿಕೆಯ ನಿಯಮಗಳನ್ನು ನಿರ್ದಿಷ್ಟಪಡಿಸುವ ತಂತ್ರಗಳನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಿ."
       },
       {
         "step": 3,
-        "title": "Build and inject",
-        "description": "Click execute to render the outline nodes and physically write the outline bookmarks."
+        "title": "ನಿರ್ಮಿಸಿ ಮತ್ತು ಇಂಜೆಕ್ಟ್ ಮಾಡಿ",
+        "description": "ಔಟ್‌ಲೈನ್ ನೋಡ್‌ಗಳನ್ನು ರೆಂಡರ್ ಮಾಡಲು ಮತ್ತು ಔಟ್‌ಲೈನ್ ಬುಕ್‌ಮಾರ್ಕ್‌ಗಳನ್ನು ಭೌತಿಕವಾಗಿ ಬರೆಯಲು execute ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Technical manuals organizing",
-        "description": "Auto compile multi-level chapters for standard guidelines, saving hours of manual indexing.",
+        "title": "ತಾಂತ್ರಿಕ ಕೈಪಿಡಿಗಳ ಸಂಘಟನೆ",
+        "description": "ಪ್ರಮಾಣಿತ ಮಾರ್ಗಸೂಚಿಗಳಿಗಾಗಿ ಬಹು-ಹಂತದ ಅಧ್ಯಾಯಗಳನ್ನು ಸ್ವಯಂ ಸಂಕಲಿಸಿ, ಗಂಟೆಗಳ ಕಾಲದ ಹಸ್ತಚಾಲಿತ ಇಂಡೆಕ್ಸಿಂಗ್ ಉಳಿಸಿ.",
         "icon": "tool"
       },
       {
-        "title": "Thesis preparation",
-        "description": "Inject clean nested bookmarks matching exact academic submission standards.",
+        "title": "ಪ್ರಬಂಧ ಸಿದ್ಧತೆ",
+        "description": "ನಿಖರವಾದ ಶೈಕ್ಷಣಿಕ ಸಲ್ಲಿಕೆ ಮಾನದಂಡಗಳಿಗೆ ಹೊಂದುವ ಸ್ವಚ್ಛವಾದ ನೆಸ್ಟೆಡ್ ಬುಕ್‌ಮಾರ್ಕ್‌ಗಳನ್ನು ಇಂಜೆಕ್ಟ್ ಮಾಡಿ.",
         "icon": "graduation-cap"
       },
       {
-        "title": "Ebook navigation optimization",
-        "description": "Structure scanned text publications into readable chapters for tablets or mobile readers.",
+        "title": "ಇ-ಪುಸ್ತಕ ನ್ಯಾವಿಗೇಷನ್ ಆಪ್ಟಿಮೈಸೇಶನ್",
+        "description": "ಟ್ಯಾಬ್ಲೆಟ್‌ಗಳು ಅಥವಾ ಮೊಬೈಲ್ ಓದುಗರಿಗಾಗಿ ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ಪಠ್ಯ ಪ್ರಕಟಣೆಗಳನ್ನು ಓದಬಹುದಾದ ಅಧ್ಯಾಯಗಳಾಗಿ ರಚಿಸಿ.",
         "icon": "tablet"
       }
     ],
     "faq": [
       {
-        "question": "Can it match custom chapter formats?",
-        "answer": "Yes. You can add custom regex patterns in the sidebar panel (e.g., `^Part\\s+\\w+`) to target unique layouts."
+        "question": "ಇದು ಕಸ್ಟಮ್ ಅಧ್ಯಾಯ ಸ್ವರೂಪಗಳನ್ನು ಹೊಂದಿಸಬಲ್ಲದೇ?",
+        "answer": "ಹೌದು. ಅನನ್ಯ ಲೇಔಟ್‌ಗಳನ್ನು ಗುರಿಯಾಗಿಸಲು ನೀವು ಸೈಡ್‌ಬಾರ್ ಪ್ಯಾನೆಲ್‌ನಲ್ಲಿ ಕಸ್ಟಮ್ regex ಪ್ಯಾಟರ್ನ್‌ಗಳನ್ನು (ಉದಾ., `^Part\\s+\\w+`) ಸೇರಿಸಬಹುದು."
       },
       {
-        "question": "Will this affect the visual page presentation?",
-        "answer": "No. The tool only adds an internal structural bookmark catalog. The text and visual assets of the pages remain untouched."
+        "question": "ಇದು ದೃಶ್ಯ ಪುಟದ ಪ್ರಸ್ತುತಿಯ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರುತ್ತದೆಯೇ?",
+        "answer": "ಇಲ್ಲ. ಈ ಉಪಕರಣವು ಆಂತರಿಕ ರಚನಾತ್ಮಕ ಬುಕ್‌ಮಾರ್ಕ್ ಕ್ಯಾಟಲಾಗ್ ಅನ್ನು ಮಾತ್ರ ಸೇರಿಸುತ್ತದೆ. ಪುಟಗಳ ಪಠ್ಯ ಮತ್ತು ದೃಶ್ಯ ಆಸ್ತಿಗಳು ಬದಲಾಗದೆ ಉಳಿಯುತ್ತವೆ."
       },
       {
-        "question": "How many bookmark levels are supported?",
-        "answer": "The tool supports deeply nested bookmark structures, allowing chapter, section, and subsection layouts."
+        "question": "ಎಷ್ಟು ಬುಕ್‌ಮಾರ್ಕ್ ಹಂತಗಳು ಬೆಂಬಲಿತವಾಗಿವೆ?",
+        "answer": "ಈ ಉಪಕರಣವು ಆಳವಾದ ನೆಸ್ಟೆಡ್ ಬುಕ್‌ಮಾರ್ಕ್ ರಚನೆಗಳನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆ, ಅಧ್ಯಾಯ, ವಿಭಾಗ ಮತ್ತು ಉಪವಿಭಾಗದ ಲೇಔಟ್‌ಗಳನ್ನು ಅನುಮತಿಸುತ್ತದೆ."
       }
     ]
   },
   "batch-barcode-injector": {
-    "title": "Batch Inject Barcodes",
-    "metaDescription": "Generate custom QR/Code128 tags and precisely inject them into bulk PDF pages with aligning guidelines.",
+    "title": "Barcodes ಬ್ಯಾಚ್ ಇಂಜೆಕ್ಟ್ ಮಾಡಿ",
+    "metaDescription": "ಕಸ್ಟಮ್ QR/Code128 ಟ್ಯಾಗ್‌ಗಳನ್ನು ಜನರೇಟ್ ಮಾಡಿ ಮತ್ತು ಜೋಡಣೆ ಮಾರ್ಗಸೂಚಿಗಳೊಂದಿಗೆ ಬಲ್ಕ್ PDF ಪುಟಗಳಿಗೆ ನಿಖರವಾಗಿ ಇಂಜೆಕ್ಟ್ ಮಾಡಿ.",
     "keywords": [
       "generate qr pdf",
       "barcode injector",
@@ -7105,59 +7105,59 @@ export const toolContentKn: Record<string, ToolContent> = {
       "qr coordinate positioning",
       "stamp barcodes"
     ],
-    "description": "\n      <p>The Batch Barcode precision injector bridges digital asset tracking with physical document indexing.</p>\n      <p>In warehousing, contract review, or logistics, we often need to Stamp unique barcodes onto invoices or device cards. This tool makes it incredibly easy.</p>\n      <p>Generate highly readable QR codes or Code128 barcodes, and use our gorgeous aligning workspace with green laser guides to position them. A clean scan audio beep triggers on placement, providing highly premium feedback.</p>\n    ",
+    "description": "\n      <p>ಬ್ಯಾಚ್ ಬಾರ್‌ಕೋಡ್ ನಿಖರ ಇಂಜೆಕ್ಟರ್ ಡಿಜಿಟಲ್ ಆಸ್ತಿ ಟ್ರ್ಯಾಕಿಂಗ್ ಅನ್ನು ಭೌತಿಕ ಡಾಕ್ಯುಮೆಂಟ್ ಇಂಡೆಕ್ಸಿಂಗ್‌ನೊಂದಿಗೆ ಸಂಯೋಜಿಸುತ್ತದೆ.</p>\n      <p>ವೇರ್‌ಹೌಸಿಂಗ್, ಒಪ್ಪಂದದ ಪರಿಶೀಲನೆ ಅಥವಾ ಲಾಜಿಸ್ಟಿಕ್ಸ್‌ನಲ್ಲಿ, ನಾವು ಹೆಚ್ಚಾಗಿ ಇನ್‌ವಾಯ್ಸ್‌ಗಳು ಅಥವಾ ಸಾಧನದ ಕಾರ್ಡ್‌ಗಳ ಮೇಲೆ ಅನನ್ಯ ಬಾರ್‌ಕೋಡ್‌ಗಳನ್ನು ಮುದ್ರಿಸಬೇಕಾಗುತ್ತದೆ (Stamp). ಈ ಉಪಕರಣವು ಅದನ್ನು ತುಂಬಾ ಸುಲಭಗೊಳಿಸುತ್ತದೆ.</p>\n      <p>ಹೆಚ್ಚು ಓದಬಹುದಾದ QR ಕೋಡ್‌ಗಳು ಅಥವಾ Code128 ಬಾರ್‌ಕೋಡ್‌ಗಳನ್ನು ಜನರೇಟ್ ಮಾಡಿ, ಮತ್ತು ಅವುಗಳನ್ನು ಇರಿಸಲು ಹಸಿರು ಲೇಸರ್ ಗೈಡ್‌ಗಳೊಂದಿಗೆ ನಮ್ಮ ಸುಂದರವಾದ ಜೋಡಣೆ ಮಾಡುವ ಕಾರ್ಯಸ್ಥಳವನ್ನು ಬಳಸಿ. ಇರಿಸಿದಾಗ ಸ್ಪಷ್ಟ ಸ್ಕ್ಯಾನ್ ಆಡಿಯೋ ಬೀಪ್ ಪ್ರಚೋದಿಸುತ್ತದೆ, ಇದು ಅತ್ಯುತ್ತಮ ಅನುಭವವನ್ನು ನೀಡುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload document",
-        "description": "Drag and drop single or multi-page PDFs representing agreements or shipping lists."
+        "title": "ಡಾಕ್ಯುಮೆಂಟ್ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ಒಪ್ಪಂದಗಳು ಅಥವಾ ಶಿಪ್ಪಿಂಗ್ ಪಟ್ಟಿಗಳನ್ನು ಪ್ರತಿನಿಧಿಸುವ ಏಕ ಅಥವಾ ಬಹು-ಪುಟಗಳ PDF ಗಳನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Position barcode coordinates",
-        "description": "Set code type, value, and drag the placement box to specify coordinates."
+        "title": "ಬಾರ್‌ಕೋಡ್ ನಿರ್ದೇಶಾಂಕಗಳನ್ನು ಇರಿಸಿ",
+        "description": "ಕೋಡ್ ಪ್ರಕಾರ, ಮೌಲ್ಯವನ್ನು ಹೊಂದಿಸಿ ಮತ್ತು ನಿರ್ದೇಶಾಂಕಗಳನ್ನು ನಿರ್ದಿಷ್ಟಪಡಿಸಲು ಪ್ಲೇಸ್‌ಮೆಂಟ್ ಬಾಕ್ಸ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮಾಡಿ."
       },
       {
         "step": 3,
-        "title": "Stamps and download",
-        "description": "Click execute to render the code layer onto the targeted page indices."
+        "title": "ಸ್ಟಾಂಪ್ ಮಾಡಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ಗುರಿಯಿರಿಸಿದ ಪುಟದ ಇಂಡೆಕ್ಸ್‌ಗಳ ಮೇಲೆ ಕೋಡ್ ಪದರವನ್ನು ರೆಂಡರ್ ಮಾಡಲು execute ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Contract validation tracing",
-        "description": "Apply a unique QR code showing anti-counterfeit details onto the header of contracts.",
+        "title": "ಒಪ್ಪಂದ ಸಿಂಧುತ್ವ ಟ್ರೇಸಿಂಗ್",
+        "description": "ಒಪ್ಪಂದಗಳ ಹೆಡರ್‌ನಲ್ಲಿ ನಕಲಿ ವಿರೋಧಿ ವಿವರಗಳನ್ನು ತೋರಿಸುವ ಅನನ್ಯ QR ಕೋಡ್ ಅನ್ನು ಅನ್ವಯಿಸಿ.",
         "icon": "file-check"
       },
       {
-        "title": "Shipping lists coding",
-        "description": "Place Code128 barcodes at target spots for quick warehouse scanning gun validation.",
+        "title": "ಶಿಪ್ಪಿಂಗ್ ಪಟ್ಟಿಗಳ ಕೋಡಿಂಗ್",
+        "description": "ತ್ವರಿತ ವೇರ್‌ಹೌಸ್ ಸ್ಕ್ಯಾನಿಂಗ್ ಗನ್ ಸಿಂಧುತ್ವಕ್ಕಾಗಿ ಗುರಿ ಸ್ಥಳಗಳಲ್ಲಿ Code128 ಬಾರ್‌ಕೋಡ್‌ಗಳನ್ನು ಇರಿಸಿ.",
         "icon": "truck"
       },
       {
-        "title": "Asset registration carding",
-        "description": "Add inventory QR codes displaying maintenance specs onto physical equipment sheets.",
+        "title": "ಆಸ್ತಿ ನೋಂದಣಿ ಕಾರ್ಡಿಂಗ್",
+        "description": "ಭೌತಿಕ ಉಪಕರಣಗಳ ಶೀಟ್‌ಗಳಲ್ಲಿ ನಿರ್ವಹಣಾ ವಿಶೇಷಣಗಳನ್ನು ಪ್ರದರ್ಶಿಸುವ ಇನ್ವೆಂಟರಿ QR ಕೋಡ್‌ಗಳನ್ನು ಸೇರಿಸಿ.",
         "icon": "archive"
       }
     ],
     "faq": [
       {
-        "question": "Are the generated barcodes highly scannable?",
-        "answer": "Yes. We embed lossless high-resolution PNG representations that remain sharp even when printed at very small dimensions."
+        "question": "ಜನರೇಟ್ ಮಾಡಲಾದ ಬಾರ್‌ಕೋಡ್‌ಗಳು ಸುಲಭವಾಗಿ ಸ್ಕ್ಯಾನ್ ಆಗುತ್ತವೆಯೇ?",
+        "answer": "ಹೌದು. ಅತ್ಯಂತ ಸಣ್ಣ ಆಯಾಮಗಳಲ್ಲಿ ಮುದ್ರಿಸಿದಾಗಲೂ ಶಾರ್ಪ್ ಆಗಿ ಉಳಿಯುವ ಲಾಸ್‌ಲೆಸ್ ಹೈ-ರೆಸಲ್ಯೂಶನ್ PNG ಪ್ರಾತಿನಿಧ್ಯಗಳನ್ನು ನಾವು ಎಂಬೆಡ್ ಮಾಡುತ್ತೇವೆ."
       },
       {
-        "question": "Can I inject unique values on each page?",
-        "answer": "Currently, the batch run applies the same configured code onto all selected pages. Multi-valued excel import is planned in a future update."
+        "question": "ನಾನು ಪ್ರತಿಯೊಂದು ಪುಟದಲ್ಲೂ ಅನನ್ಯ ಮೌಲ್ಯಗಳನ್ನು ಇಂಜೆಕ್ಟ್ ಮಾಡಬಹುದೇ?",
+        "answer": "ಪ್ರಸ್ತುತ, ಬ್ಯಾಚ್ ರನ್ ಎಲ್ಲಾ ಆಯ್ಕೆಮಾಡಿದ ಪುಟಗಳಲ್ಲಿ ಒಂದೇ ರೀತಿಯ ಕಾನ್ಫಿಗರ್ ಮಾಡಿದ ಕೋಡ್ ಅನ್ನು ಅನ್ವಯಿಸುತ್ತದೆ. ಭವಿಷ್ಯದ ಅಪ್‌ಡೇಟ್‌ನಲ್ಲಿ ಬಹು-ಮೌಲ್ಯದ Excel ಇಂಪೋರ್ಟ್ ಅನ್ನು ಯೋಜಿಸಲಾಗಿದೆ."
       },
       {
-        "question": "What does the `pt` coordinate represent?",
-        "answer": "`pt` (Point) is the standard PDF physical unit (72 pt = 1 inch). A4 pages are represented as 595 × 842 pt."
+        "question": "`pt` ನಿರ್ದೇಶಾಂಕವು ಏನನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ?",
+        "answer": "`pt` (ಪಾಯಿಂಟ್) ಎಂಬುದು ಪ್ರಮಾಣಿತ PDF ಭೌತಿಕ ಯೂನಿಟ್ ಆಗಿದೆ (72 pt = 1 ಇಂಚ್). A4 ಪುಟಗಳನ್ನು 595 × 842 pt ಎಂದು ಪ್ರತಿನಿಧಿಸಲಾಗುತ್ತದೆ."
       }
     ]
   },
   "signature-ink-optimizer": {
-    "title": "Extract Signature & Stamp",
-    "metaDescription": "Extract handwritten signatures and red corporate stamps from photos, remove paper shadow noise, and export transparent PNGs.",
+    "title": "ಸಹಿ ಮತ್ತು ಸ್ಟಾಂಪ್ ಎಕ್ಸ್‌ಟ್ರಾಕ್ಟ್ ಮಾಡಿ",
+    "metaDescription": "ಫೋಟೋಗಳಿಂದ ಕೈಬರಹದ ಸಹಿಗಳು ಮತ್ತು ಕೆಂಪು ಕಾರ್ಪೊರೇಟ್ ಮುದ್ರೆಗಳನ್ನು ಹೊರತೆಗೆಯಿರಿ, ಕಾಗದದ ನೆರಳಿನ ನಾಯ್ಸ್ ತೆಗೆದುಹಾಕಿ ಮತ್ತು ಪಾರದರ್ಶಕ PNG ಗಳನ್ನು ರಫ್ತು ಮಾಡಿ.",
     "keywords": [
       "extract signature",
       "transparent signature background",
@@ -7165,59 +7165,59 @@ export const toolContentKn: Record<string, ToolContent> = {
       "sharpen hand signature",
       "png seal maker"
     ],
-    "description": "\n      <p>The Signature & Stamp Chroma Ink Optimizer functions as a professional high-fidelity ink purifier.</p>\n      <p>Signatures or corporate seals captured on phones often suffer from yellow paper tint, uneven shadows, and page wrinkles. Pasting them directly onto contract PDFs looks amateur.</p>\n      <p>This tool separates the Alpha channel based on luminance and color space. It completely bleaches paper backgrounds while sharpening stamp red (Chroma Ink) and handwriting black. The result is a premium, transparent PNG stamp carrying genuine ink textures.</p>\n    ",
+    "description": "\n      <p>Signature & Stamp Chroma Ink Optimizer ವೃತ್ತಿಪರ ಹೈ-ಫಿಡೆಲಿಟಿ ಇಂಕ್ ಪ್ಯೂರಿಫೈಯರ್ ಆಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ.</p>\n      <p>ಫೋನ್‌ನಲ್ಲಿ ತೆಗೆದ ಸಹಿಗಳು ಅಥವಾ ಕಾರ್ಪೊರೇಟ್ ಮುದ್ರೆಗಳು ಹೆಚ್ಚಾಗಿ ಹಳದಿ ಕಾಗದದ ಬಣ್ಣ, ಅಸಮ ನೆರಳುಗಳು ಮತ್ತು ಪುಟದ ಸುಕ್ಕುಗಳಿಂದ ಕೂಡಿರುತ್ತವೆ. ಅವುಗಳನ್ನು ನೇರವಾಗಿ ಕಾಂಟ್ರಾಕ್ಟ್ PDF ಗಳಿಗೆ ಪೇಸ್ಟ್ ಮಾಡುವುದು ವೃತ್ತಿಪರವಲ್ಲದಂತೆ ಕಾಣುತ್ತದೆ.</p>\n      <p>ಈ ಉಪಕರಣವು ಲೂಮಿನೆನ್ಸ್ ಮತ್ತು ಬಣ್ಣದ ಜಾಗವನ್ನು (color space) ಆಧರಿಸಿ Alpha ಚಾನಲ್ ಅನ್ನು ಪ್ರತ್ಯೇಕಿಸುತ್ತದೆ. ಇದು ಕಾಗದದ ಹಿನ್ನೆಲೆಯನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ಬಿಳುಪುಗೊಳಿಸುತ್ತದೆ ಮತ್ತು ಮುದ್ರೆಯ ಕೆಂಪು (Chroma Ink) ಹಾಗೂ ಕೈಬರಹದ ಕಪ್ಪು ಬಣ್ಣವನ್ನು ಶಾರ್ಪ್ ಮಾಡುತ್ತದೆ. ಫಲಿತಾಂಶವೆಂದರೆ ನೈಜ ಇಂಕ್ ಟೆಕ್ಸ್ಚರ್‌ಗಳನ್ನು ಹೊಂದಿರುವ ಪ್ರೀಮಿಯಂ, ಪಾರದರ್ಶಕ PNG ಮುದ್ರೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload seal photo",
-        "description": "Provide a phone-captured photo of your signature or stamp seal."
+        "title": "ಮುದ್ರೆಯ ಫೋಟೋ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ನಿಮ್ಮ ಸಹಿ ಅಥವಾ ಮುದ್ರೆಯ ಫೋನ್‌ನಲ್ಲಿ ತೆಗೆದ ಫೋಟೋವನ್ನು ಒದಗಿಸಿ."
       },
       {
         "step": 2,
-        "title": "Adjust cleaning sliders",
-        "description": "Move contrast and luminance sliders to isolate the background noise in real-time."
+        "title": "ಕ್ಲೀನಿಂಗ್ ಸ್ಲೈಡರ್‌ಗಳನ್ನು ಹೊಂದಿಸಿ",
+        "description": "ರಿಯಲ್-ಟೈಮ್‌ನಲ್ಲಿ ಹಿನ್ನೆಲೆಯ ನಾಯ್ಸ್ ಅನ್ನು ಪ್ರತ್ಯೇಕಿಸಲು ಕಾಂಟ್ರಾಸ್ಟ್ ಮತ್ತು ಲೂಮಿನೆನ್ಸ್ ಸ್ಲೈಡರ್‌ಗಳನ್ನು ಸರಿಸಿ."
       },
       {
         "step": 3,
-        "title": "Download clean signature",
-        "description": "Export as transparent PNG ready to be stamped onto formal document agreements."
+        "title": "ಕ್ಲೀನ್ ಸಹಿಯನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ಔಪಚಾರಿಕ ದಾಖಲೆ ಒಪ್ಪಂದಗಳ ಮೇಲೆ ಮುದ್ರಿಸಲು ಸಿದ್ಧವಾಗಿರುವ ಪಾರದರ್ಶಕ PNG ಆಗಿ ರಫ್ತು ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Professional e-signature prep",
-        "description": "Convert gray signature photos into beautiful, transparent layers to sign agreements.",
+        "title": "ವೃತ್ತಿಪರ e-signature ಸಿದ್ಧತೆ",
+        "description": "ಒಪ್ಪಂದಗಳಿಗೆ ಸಹಿ ಮಾಡಲು ಗ್ರೇ ಸಹಿ ಫೋಟೋಗಳನ್ನು ಸುಂದರವಾದ, ಪಾರದರ್ಶಕ ಲೇಯರ್‌ಗಳಾಗಿ ಪರಿವರ್ತಿಸಿ.",
         "icon": "file-signature"
       },
       {
-        "title": "Corporate seal sanitizing",
-        "description": "Clean physical stamp scans by discarding paper fiber noise, preparing crisp transparent stamp seals.",
+        "title": "ಕಾರ್ಪೊರೇಟ್ ಮುದ್ರೆ ಸ್ಯಾನಿಟೈಸಿಂಗ್",
+        "description": "ಕಾಗದದ ಫೈಬರ್ ನಾಯ್ಸ್ ಅನ್ನು ತೆಗೆದುಹಾಕುವ ಮೂಲಕ ಫಿಜಿಕಲ್ ಸ್ಟಾಂಪ್ ಸ್ಕ್ಯಾನ್‌ಗಳನ್ನು ಕ್ಲೀನ್ ಮಾಡಿ, ಸ್ಪಷ್ಟವಾದ ಪಾರದರ್ಶಕ ಸ್ಟಾಂಪ್ ಮುದ್ರೆಗಳನ್ನು ಸಿದ್ಧಪಡಿಸಿ.",
         "icon": "stamp"
       },
       {
-        "title": "Drawn line art extraction",
-        "description": "Isolate black strokes from drawing sketchbooks for easy Photoshop coloring workflows.",
+        "title": "ಬರೆದ ಲೈನ್ ಆರ್ಟ್ ಹೊರತೆಗೆಯುವಿಕೆ",
+        "description": "ಸುಲಭವಾದ Photoshop ಕಲರಿಂಗ್ ವರ್ಕ್‌ಫ್ಲೋಗಳಿಗಾಗಿ ಡ್ರಾಯಿಂಗ್ ಸ್ಕೆಚ್‌ಬುಕ್‌ಗಳಿಂದ ಕಪ್ಪು ಸ್ಟ್ರೋಕ್‌ಗಳನ್ನು ಪ್ರತ್ಯೇಕಿಸಿ.",
         "icon": "edit"
       }
     ],
     "faq": [
       {
-        "question": "How does self-adaptive Alpha extraction differ from normal keying?",
-        "answer": "Standard chroma-keying often makes signature stroke details look blocky and pixelated. Our algorithm isolates only white/yellow background noise and smooths the ink borders."
+        "question": "ಸೆಲ್ಫ್-ಅಡಾಪ್ಟಿವ್ Alpha ಎಕ್ಸ್‌ಟ್ರಾಕ್ಷನ್ ಸಾಮಾನ್ಯ ಕೀಯಿಂಗ್‌ಗಿಂತ ಹೇಗೆ ಭಿನ್ನವಾಗಿದೆ?",
+        "answer": "ಸ್ಟ್ಯಾಂಡರ್ಡ್ ಕ್ರೋಮಾ-ಕೀಯಿಂಗ್ ಹೆಚ್ಚಾಗಿ ಸಹಿಯ ಸ್ಟ್ರೋಕ್ ವಿವರಗಳನ್ನು ಬ್ಲಾಕಿ ಮತ್ತು ಪಿಕ್ಸೆಲೇಟೆಡ್ ಆಗಿ ಮಾಡುತ್ತದೆ. ನಮ್ಮ ಆಲ್ಗರಿದಮ್ ಬಿಳಿ/ಹಳದಿ ಹಿನ್ನೆಲೆಯ ನಾಯ್ಸ್ ಅನ್ನು ಮಾತ್ರ ಪ್ರತ್ಯೇಕಿಸುತ್ತದೆ ಮತ್ತು ಇಂಕ್ ಅಂಚುಗಳನ್ನು ಸ್ಮೂತ್ ಮಾಡುತ್ತದೆ."
       },
       {
-        "question": "Which image formats are supported?",
-        "answer": "We support JPG, JPEG, and PNG. For best results, capture your signature photo under bright, even lighting."
+        "question": "ಯಾವ ಇಮೇಜ್ ಫಾರ್ಮ್ಯಾಟ್‌ಗಳನ್ನು ಬೆಂಬಲಿಸಲಾಗುತ್ತದೆ?",
+        "answer": "ನಾವು JPG, JPEG, ಮತ್ತು PNG ಅನ್ನು ಬೆಂಬಲಿಸುತ್ತೇವೆ. ಉತ್ತಮ ಫಲಿತಾಂಶಗಳಿಗಾಗಿ, ಪ್ರಕಾಶಮಾನವಾದ, ಸಮಾನವಾದ ಬೆಳಕಿನಲ್ಲಿ ನಿಮ್ಮ ಸಹಿಯ ಫೋಟೋವನ್ನು ಸೆರೆಹಿಡಿಯಿರಿ."
       },
       {
-        "question": "Will the handwriting detail be modified?",
-        "answer": "No. The pixel filtering acts on original coordinates, sharpening contrast while maintaining genuine stroke textures."
+        "question": "ಕೈಬರಹದ ವಿವರಗಳನ್ನು ಮಾರ್ಪಡಿಸಲಾಗುತ್ತದೆಯೇ?",
+        "answer": "ಇಲ್ಲ. ಪಿಕ್ಸೆಲ್ ಫಿಲ್ಟರಿಂಗ್ ಮೂಲ ನಿರ್ದೇಶಾಂಕಗಳ (coordinates) ಮೇಲೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ, ನೈಜ ಸ್ಟ್ರೋಕ್ ಟೆಕ್ಸ್ಚರ್‌ಗಳನ್ನು ಕಾಯ್ದುಕೊಳ್ಳುವಾಗ ಕಾಂಟ್ರಾಸ್ಟ್ ಅನ್ನು ಶಾರ್ಪ್ ಮಾಡುತ್ತದೆ."
       }
     ]
   },
   "dead-link-debugger": {
-    "title": "Fix Dead Links",
-    "metaDescription": "Scan all URL actions and link annotations in PDF, detect reachability, and inject redirects.",
+    "title": "ಡೆಡ್ ಲಿಂಕ್‌ಗಳನ್ನು ಸರಿಪಡಿಸಿ",
+    "metaDescription": "PDF ನಲ್ಲಿರುವ ಎಲ್ಲಾ URL ಕ್ರಿಯೆಗಳು ಮತ್ತು ಲಿಂಕ್ ಆನೋಟೇಷನ್‌ಗಳನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಿ, ತಲುಪುವಿಕೆಯನ್ನು (reachability) ಪತ್ತೆ ಮಾಡಿ ಮತ್ತು ರೀಡೈರೆಕ್ಟ್‌ಗಳನ್ನು ಸೇರಿಸಿ.",
     "keywords": [
       "dead link pdf",
       "edit pdf hyperlinks",
@@ -7225,59 +7225,59 @@ export const toolContentKn: Record<string, ToolContent> = {
       "redirect link pdf",
       "update urls in pdf"
     ],
-    "description": "\n      <p>The Dead Link Debugger is a deep structural editor that guarantees link interaction quality in published files.</p>\n      <p>Broken urls (404/500) inside manuals, whitepapers, or guides reduce branding authority. This tool lets you manage the hyperlinks database seamlessly.</p>\n      <p>It parses the low-level <code>/Link</code> dictionaries on each page, Probes them, and displays link status in an interactive grid (red for dead links, orange for redirects). Simply type the updated redirect URL, and the tool writes the new target directly back into the PDF binary stream.</p>\n    ",
+    "description": "\n      <p>Dead Link Debugger ಎಂಬುದು ಪ್ರಕಟಿತ ಫೈಲ್‌ಗಳಲ್ಲಿ ಲಿಂಕ್ ಸಂವಹನ ಗುಣಮಟ್ಟವನ್ನು ಖಾತರಿಪಡಿಸುವ ಆಳವಾದ ರಚನಾತ್ಮಕ ಎಡಿಟರ್ ಆಗಿದೆ.</p>\n      <p>ಮ್ಯಾನುಯಲ್, ವೈಟ್‌ಪೇಪರ್ ಅಥವಾ ಗೈಡ್‌ಗಳ ಒಳಗಿನ ಮುರಿದ URLಗಳು (404/500) ಬ್ರ್ಯಾಂಡಿಂಗ್ ಪ್ರಾಧಿಕಾರವನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತವೆ. ಈ ಉಪಕರಣವು ಹೈಪರ್‌ಲಿಂಕ್‌ಗಳ ಡೇಟಾಬೇಸ್ ಅನ್ನು ಮನಬಂದಂತೆ ನಿರ್ವಹಿಸಲು ನಿಮಗೆ ಅನುಮತಿಸುತ್ತದೆ.</p>\n      <p>ಇದು ಪ್ರತಿಯೊಂದು ಪುಟದಲ್ಲಿನ ಲೋ-ಲೆವೆಲ್ <code>/Link</code> ಡಿಕ್ಷನರಿಗಳನ್ನು ಪಾರ್ಸ್ ಮಾಡುತ್ತದೆ, ಪ್ರೋಬ್ ಮಾಡುತ್ತದೆ ಮತ್ತು ಸಂವಾದಾತ್ಮಕ ಗ್ರಿಡ್‌ನಲ್ಲಿ ಲಿಂಕ್ ಸ್ಥಿತಿಯನ್ನು ಪ್ರದರ್ಶಿಸುತ್ತದೆ (ಡೆಡ್ ಲಿಂಕ್‌ಗಳಿಗೆ ಕೆಂಪು, ರೀಡೈರೆಕ್ಟ್‌ಗಳಿಗೆ ಕಿತ್ತಳೆ). ನವೀಕರಿಸಿದ ರೀಡೈರೆಕ್ಟ್ URL ಅನ್ನು ಟೈಪ್ ಮಾಡಿ, ಮತ್ತು ಉಪಕರಣವು ಹೊಸ ಗುರಿಯನ್ನು ನೇರವಾಗಿ PDF ಬೈನರಿ ಸ್ಟ್ರೀಮ್‌ಗೆ ಬರೆಯುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Provide target document",
-        "description": "Upload the PDF manual or catalog containing links to debug."
+        "title": "ಟಾರ್ಗೆಟ್ ಡಾಕ್ಯುಮೆಂಟ್ ಒದಗಿಸಿ",
+        "description": "ಡಿಬಗ್ ಮಾಡಲು ಲಿಂಕ್‌ಗಳನ್ನು ಹೊಂದಿರುವ PDF ಮ್ಯಾನುಯಲ್ ಅಥವಾ ಕ್ಯಾಟಲಾಗ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Scan and update",
-        "description": "Let the debugger extract all URL entities. Input new redirect URLs for broken items."
+        "title": "ಸ್ಕ್ಯಾನ್ ಮಾಡಿ ಮತ್ತು ಅಪ್‌ಡೇಟ್ ಮಾಡಿ",
+        "description": "ಡಿಬಗ್ಗರ್ ಎಲ್ಲಾ URL ಎಂಟಿಟಿಗಳನ್ನು ಹೊರತೆಗೆಯಲು ಬಿಡಿ. ಬ್ರೋಕನ್ ಐಟಂಗಳಿಗಾಗಿ ಹೊಸ ರೀಡೈರೆಕ್ಟ್ URLಗಳನ್ನು ನಮೂದಿಸಿ."
       },
       {
         "step": 3,
-        "title": "Save redirect updates",
-        "description": "Click execute to rewrite /URI actions and download the corrected PDF."
+        "title": "ರೀಡೈರೆಕ್ಟ್ ಅಪ್‌ಡೇಟ್‌ಗಳನ್ನು ಉಳಿಸಿ",
+        "description": "/URI ಕ್ರಿಯೆಗಳನ್ನು ಮರುಬರೆಯಲು ಎಕ್ಸಿಕ್ಯೂಟ್ ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ಸರಿಪಡಿಸಿದ PDF ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Flyer broken links hotfix",
-        "description": "Instantly correct wrong urls on published flyers without reopening original design editors.",
+        "title": "ಫ್ಲೈಯರ್ ಬ್ರೋಕನ್ ಲಿಂಕ್ಸ್ ಹಾಟ್‌ಫಿಕ್ಸ್",
+        "description": "ಮೂಲ ವಿನ್ಯಾಸದ ಎಡಿಟರ್‌ಗಳನ್ನು ಮರುತೆರೆಯದೆ ಪ್ರಕಟಿತ ಫ್ಲೈಯರ್‌ಗಳಲ್ಲಿ ತಪ್ಪು URLಗಳನ್ನು ತಕ್ಷಣವೇ ಸರಿಪಡಿಸಿ.",
         "icon": "refresh-cw"
       },
       {
-        "title": "Bibliography links verification",
-        "description": "Verify academic bibliography links in reports, updating references to maintain authority.",
+        "title": "ಬಿಬ್ಲಿಯೋಗ್ರಫಿ ಲಿಂಕ್‌ಗಳ ಪರಿಶೀಲನೆ",
+        "description": "ವರದಿಗಳಲ್ಲಿ ಶೈಕ್ಷಣಿಕ ಬಿಬ್ಲಿಯೋಗ್ರಫಿ ಲಿಂಕ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸಿ, ಪ್ರಾಧಿಕಾರವನ್ನು ಕಾಯ್ದುಕೊಳ್ಳಲು ಉಲ್ಲೇಖಗಳನ್ನು (references) ನವೀಕರಿಸಿ.",
         "icon": "book"
       },
       {
-        "title": "Corporate rebranding updates",
-        "description": "Batch update old URLs across corporate PDFs when company domain names are changed.",
+        "title": "ಕಾರ್ಪೊರೇಟ್ ರೀಬ್ರ್ಯಾಂಡಿಂಗ್ ಅಪ್‌ಡೇಟ್‌ಗಳು",
+        "description": "ಕಂಪನಿಯ ಡೊಮೇನ್ ಹೆಸರುಗಳು ಬದಲಾದಾಗ ಕಾರ್ಪೊರೇಟ್ PDFಗಳಲ್ಲಿ ಹಳೆಯ URLಗಳನ್ನು ಬ್ಯಾಚ್ ಅಪ್‌ಡೇಟ್ ಮಾಡಿ.",
         "icon": "globe"
       }
     ],
     "faq": [
       {
-        "question": "Why isn't link reachability fully checked online?",
-        "answer": "Web browsers enforce strict CORS policies that block direct multi-origin link checking. Our tool lists the links clearly and lets you hot-fix them manually."
+        "question": "ಲಿಂಕ್ ತಲುಪುವಿಕೆಯನ್ನು (reachability) ಆನ್‌ಲೈನ್‌ನಲ್ಲಿ ಏಕೆ ಸಂಪೂರ್ಣವಾಗಿ ಪರಿಶೀಲಿಸಲಾಗುವುದಿಲ್ಲ?",
+        "answer": "ವೆಬ್ ಬ್ರೌಸರ್‌ಗಳು ಕಟ್ಟುನಿಟ್ಟಾದ CORS ನೀತಿಗಳನ್ನು ಜಾರಿಗೊಳಿಸುತ್ತವೆ, ಅದು ನೇರ ಮಲ್ಟಿ-ಆರಿಜಿನ್ ಲಿಂಕ್ ಪರಿಶೀಲನೆಯನ್ನು ನಿರ್ಬಂಧಿಸುತ್ತದೆ. ನಮ್ಮ ಉಪಕರಣವು ಲಿಂಕ್‌ಗಳನ್ನು ಸ್ಪಷ್ಟವಾಗಿ ಪಟ್ಟಿ ಮಾಡುತ್ತದೆ ಮತ್ತು ಅವುಗಳನ್ನು ಹಸ್ತಚಾಲಿತವಾಗಿ (manually) ಹಾಟ್‌ಫಿಕ್ಸ್ ಮಾಡಲು ನಿಮಗೆ ಅನುಮತಿಸುತ್ತದೆ."
       },
       {
-        "question": "Will this modify the visual text representation on the page?",
-        "answer": "No. It only alters the underlying `/URI` navigation action. The visual link text remains unchanged."
+        "question": "ಇದು ಪುಟದಲ್ಲಿನ ದೃಶ್ಯ ಪಠ್ಯದ ಪ್ರಾತಿನಿಧ್ಯವನ್ನು ಮಾರ್ಪಡಿಸುತ್ತದೆಯೇ?",
+        "answer": "ಇಲ್ಲ. ಇದು ಕೇವಲ ಆಧಾರವಾಗಿರುವ `/URI` ನ್ಯಾವಿಗೇಷನ್ ಕ್ರಿಯೆಯನ್ನು ಬದಲಾಯಿಸುತ್ತದೆ. ದೃಶ್ಯ ಲಿಂಕ್ ಪಠ್ಯವು ಬದಲಾಗದೆ ಉಳಿಯುತ್ತದೆ."
       },
       {
-        "question": "Does it support modifying internal page bookmarks?",
-        "answer": "This tool handles external `/URI` hyperlinks. For internal layout navigation, use our interactive TOC tool."
+        "question": "ಇದು ಆಂತರಿಕ ಪುಟದ ಬುಕ್‌ಮಾರ್ಕ್‌ಗಳನ್ನು ಮಾರ್ಪಡಿಸುವುದನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆಯೇ?",
+        "answer": "ಈ ಉಪಕರಣವು ಬಾಹ್ಯ `/URI` ಹೈಪರ್‌ಲಿಂಕ್‌ಗಳನ್ನು ನಿರ್ವಹಿಸುತ್ತದೆ. ಆಂತರಿಕ ಲೇಔಟ್ ನ್ಯಾವಿಗೇಷನ್‌ಗಾಗಿ, ನಮ್ಮ ಸಂವಾದಾತ್ಮಕ TOC ಉಪಕರಣವನ್ನು ಬಳಸಿ."
       }
     ]
   },
   "interactive-toc-generator": {
-    "title": "Generate Interactive TOC",
-    "metaDescription": "Generate aesthetic Table of Contents pages, insert them pre-content, and wire internal bidirectional GoTo anchors.",
+    "title": "ಇಂಟರ್ಯಾಕ್ಟಿವ್ TOC ರಚಿಸಿ",
+    "metaDescription": "ಆಕರ್ಷಕ ವಿಷಯ ಸೂಚಿ (Table of Contents) ಪುಟಗಳನ್ನು ರಚಿಸಿ, ವಿಷಯಕ್ಕೆ ಮುಂಚಿತವಾಗಿ ಅವುಗಳನ್ನು ಸೇರಿಸಿ ಮತ್ತು ಆಂತರಿಕ ದ್ವಿದಿಕ್ಕಿನ GoTo ಆಂಕರ್‌ಗಳನ್ನು ಸಂಪರ್ಕಿಸಿ.",
     "keywords": [
       "generate table of contents",
       "interactive toc pdf",
@@ -7285,59 +7285,59 @@ export const toolContentKn: Record<string, ToolContent> = {
       "pdf index page builder",
       "goto page action"
     ],
-    "description": "\n      <p>The Interactive TOC Builder introduces a revolutionary navigation experience to extensive PDFs.</p>\n      <p>Flipping through hundreds of pages in unstructured documents to locate target chapters is frustrating. This tool introduces <strong>Bidirectional TOC compilation</strong>.</p>\n      <p>It scans headers and generates an origami-inspired, premium Table of Contents page inserted right after the cover. In addition to creating clickable /GoTo links for each index row, it injects a tiny, elegant \"TOC ↩\" hovering anchor at the corner of each target chapter page. Readers can jump back and forth instantly, enjoying web-like navigation.</p>\n    ",
+    "description": "\n      <p>Interactive TOC Builder ವಿಸ್ತಾರವಾದ PDF ಗಳಿಗೆ ಕ್ರಾಂತಿಕಾರಿ ನ್ಯಾವಿಗೇಷನ್ ಅನುಭವವನ್ನು ತರುತ್ತದೆ.</p>\n      <p>ಗುರಿಯ ಅಧ್ಯಾಯಗಳನ್ನು ಹುಡುಕಲು ಅಸಂಘಟಿತ ದಾಖಲೆಗಳಲ್ಲಿ ನೂರಾರು ಪುಟಗಳನ್ನು ಮಗುಚುವುದು ಕಿರಿಕಿರಿ ಉಂಟುಮಾಡುತ್ತದೆ. ಈ ಉಪಕರಣವು <strong>ದ್ವಿದಿಕ್ಕಿನ TOC ಕಂಪೈಲೇಷನ್</strong> ಅನ್ನು ಪರಿಚಯಿಸುತ್ತದೆ.</p>\n      <p>ಇದು ಹೆಡರ್‌ಗಳನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡುತ್ತದೆ ಮತ್ತು ಕವರ್ ನಂತರ ಸರಿಯಾಗಿ ಸೇರಿಸಲಾದ ಒರಿಗಾಮಿ-ಪ್ರೇರಿತ, ಪ್ರೀಮಿಯಂ ವಿಷಯ ಸೂಚಿ (Table of Contents) ಪುಟವನ್ನು ರಚಿಸುತ್ತದೆ. ಪ್ರತಿಯೊಂದು ಸೂಚ್ಯಂಕ ಸಾಲಿಗೆ ಕ್ಲಿಕ್ ಮಾಡಬಹುದಾದ /GoTo ಲಿಂಕ್‌ಗಳನ್ನು ರಚಿಸುವುದರ ಜೊತೆಗೆ, ಇದು ಪ್ರತಿಯೊಂದು ಟಾರ್ಗೆಟ್ ಅಧ್ಯಾಯ ಪುಟದ ಮೂಲೆಯಲ್ಲಿ ಚಿಕ್ಕದಾದ, ಸುಂದರವಾದ \"TOC ↩\" ಹಾವರಿಂಗ್ ಆಂಕರ್ ಅನ್ನು ಸೇರಿಸುತ್ತದೆ. ಓದುಗರು ತಕ್ಷಣವೇ ಹಿಂದಕ್ಕೆ ಮತ್ತು ಮುಂದಕ್ಕೆ ಜಿಗಿಯಬಹುದು, ವೆಬ್-ತರಹದ ನ್ಯಾವಿಗೇಷನ್ ಅನ್ನು ಆನಂದಿಸಬಹುದು.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Provide PDF document",
-        "description": "Upload a report, eBook, or proposal that needs an interactive catalog."
+        "title": "PDF ಡಾಕ್ಯುಮೆಂಟ್ ಒದಗಿಸಿ",
+        "description": "ಸಂವಾದಾತ್ಮಕ ಕ್ಯಾಟಲಾಗ್ ಅಗತ್ಯವಿರುವ ವರದಿ, ಇ-ಬುಕ್ ಅಥವಾ ಪ್ರಪೋಸಲ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Set TOC title & index",
-        "description": "Customize the main title and choose the page index to insert the TOC page."
+        "title": "TOC ಶೀರ್ಷಿಕೆ ಮತ್ತು ಸೂಚ್ಯಂಕವನ್ನು ಹೊಂದಿಸಿ",
+        "description": "ಮುಖ್ಯ ಶೀರ್ಷಿಕೆಯನ್ನು ಕಸ್ಟಮೈಸ್ ಮಾಡಿ ಮತ್ತು TOC ಪುಟವನ್ನು ಸೇರಿಸಲು ಪುಟದ ಸೂಚ್ಯಂಕವನ್ನು ಆಯ್ಕೆಮಾಡಿ."
       },
       {
         "step": 3,
-        "title": "Weave anchors & save",
-        "description": "Click execute to compile the pages and write the dual-link navigation."
+        "title": "ಆಂಕರ್‌ಗಳನ್ನು ನೇಯಿರಿ ಮತ್ತು ಉಳಿಸಿ",
+        "description": "ಪುಟಗಳನ್ನು ಕಂಪೈಲ್ ಮಾಡಲು ಮತ್ತು ಡ್ಯುಯಲ್-ಲಿಂಕ್ ನ್ಯಾವಿಗೇಷನ್ ಬರೆಯಲು ಎಕ್ಸಿಕ್ಯೂಟ್ ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Annual corporate report polishing",
-        "description": "Inject a beautiful index page after the cover sheet to allow shareholders to jump between financial charts.",
+        "title": "ವಾರ್ಷಿಕ ಕಾರ್ಪೊರೇಟ್ ವರದಿ ಪರಿಷ್ಕರಣೆ",
+        "description": "ಷೇರುದಾರರು ಹಣಕಾಸಿನ ಚಾರ್ಟ್‌ಗಳ ನಡುವೆ ಸುಲಭವಾಗಿ ಓಡಾಡಲು ಕವರ್ ಶೀಟ್‌ನ ನಂತರ ಸುಂದರವಾದ ಸೂಚ್ಯಂಕ (index) ಪುಟವನ್ನು ಸೇರಿಸಿ.",
         "icon": "file-bar"
       },
       {
-        "title": "Thesis indexing",
-        "description": "Fast compile standard indexes aligned with university formatting rules.",
+        "title": "ಸಂಶೋಧನಾ ಪ್ರಬಂಧ (Thesis) ಸೂಚ್ಯಂಕ ರಚನೆ",
+        "description": "ವಿಶ್ವವಿದ್ಯಾಲಯದ ಫಾರ್ಮ್ಯಾಟಿಂಗ್ ನಿಯಮಗಳಿಗೆ ಅನುಗುಣವಾಗಿ ಪ್ರಮಾಣಿತ ಸೂಚ್ಯಂಕಗಳನ್ನು ವೇಗವಾಗಿ ಕಂಪೈಲ್ ಮಾಡಿ.",
         "icon": "bookmark"
       },
       {
-        "title": "Operation manual navigation",
-        "description": "Help handbook readers quickly jump from troubleshooting sheets back to the main TOC.",
+        "title": "ಆಪರೇಷನ್ ಮ್ಯಾನುಯಲ್ ನ್ಯಾವಿಗೇಷನ್",
+        "description": "ಹ್ಯಾಂಡ್‌ಬುಕ್ ಓದುಗರು ಟ್ರಬಲ್‌ಶೂಟಿಂಗ್ ಶೀಟ್‌ಗಳಿಂದ ಮುಖ್ಯ TOC ಗೆ ತ್ವರಿತವಾಗಿ ಹಿಂತಿರುಗಲು ಸಹಾಯ ಮಾಡಿ.",
         "icon": "check-circle"
       }
     ],
     "faq": [
       {
-        "question": "How do the bidirectional anchors work?",
-        "answer": "We create standard Link annotations on the TOC page targeting the respective pages; then we embed a link back to the TOC page on all target chapter sheets."
+        "question": "ದ್ವಿಮುಖ ಆಂಕರ್‌ಗಳು (bidirectional anchors) ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತವೆ?",
+        "answer": "ನಾವು ಸಂಬಂಧಿತ ಪುಟಗಳನ್ನು ಗುರಿಯಾಗಿಸಿಕೊಂಡು TOC ಪುಟದಲ್ಲಿ ಪ್ರಮಾಣಿತ ಲಿಂಕ್ ಟಿಪ್ಪಣಿಗಳನ್ನು (Link annotations) ರಚಿಸುತ್ತೇವೆ; ನಂತರ ನಾವು ಎಲ್ಲಾ ಗುರಿ ಅಧ್ಯಾಯದ ಶೀಟ್‌ಗಳಲ್ಲಿ TOC ಪುಟಕ್ಕೆ ಹಿಂತಿರುಗುವ ಲಿಂಕ್ ಅನ್ನು ಎಂಬೆಡ್ ಮಾಡುತ್ತೇವೆ."
       },
       {
-        "question": "Will inserting the TOC page break existing page numbers?",
-        "answer": "No. The compiler accounts for the offset of the newly inserted TOC page, ensuring all target destinations align."
+        "question": "TOC ಪುಟವನ್ನು ಸೇರಿಸುವುದರಿಂದ ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಪುಟ ಸಂಖ್ಯೆಗಳು ಬದಲಾಗುತ್ತವೆಯೇ?",
+        "answer": "ಇಲ್ಲ. ಕಂಪೈಲರ್ ಹೊಸದಾಗಿ ಸೇರಿಸಲಾದ TOC ಪುಟದ ಆಫ್‌ಸೆಟ್ ಅನ್ನು ಲೆಕ್ಕಕ್ಕೆ ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ, ಎಲ್ಲಾ ಗುರಿ ತಲುಪುವ ಪುಟಗಳು ಸರಿಯಾಗಿ ಜೋಡಣೆಯಾಗುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ."
       },
       {
-        "question": "Is the TOC page valid when printed physically?",
-        "answer": "Yes. The generated TOC lists clean physical page numbers to guide paper readers while enabling clickable links on screen."
+        "question": "ಭೌತಿಕವಾಗಿ ಪ್ರಿಂಟ್ ಮಾಡಿದಾಗ TOC ಪುಟವು ಮಾನ್ಯವಾಗಿರುತ್ತದೆಯೇ?",
+        "answer": "ಹೌದು. ರಚಿಸಲಾದ TOC ಸ್ಕ್ರೀನ್‌ನಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಬಹುದಾದ ಲಿಂಕ್‌ಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸುವಾಗ, ಕಾಗದದ ಓದುಗರಿಗೆ ಮಾರ್ಗದರ್ಶನ ನೀಡಲು ಸ್ಪಷ್ಟವಾದ ಭೌತಿಕ ಪುಟ ಸಂಖ್ಯೆಗಳನ್ನು ಪಟ್ಟಿ ಮಾಡುತ್ತದೆ."
       }
     ]
   },
   "global-invoice-parser": {
-    "title": "Invoice Translate & Convert",
-    "metaDescription": "Extract currency totals from multi-national invoices, run calculations, and stamp interactive frosted-glass exchange ledgers.",
+    "title": "ಇನ್‌ವಾಯ್ಸ್ ಅನುವಾದ ಮತ್ತು ಪರಿವರ್ತನೆ",
+    "metaDescription": "ಬಹು-ರಾಷ್ಟ್ರೀಯ ಇನ್‌ವಾಯ್ಸ್‌ಗಳಿಂದ ಕರೆನ್ಸಿ ಮೊತ್ತವನ್ನು ಹೊರತೆಗೆಯಿರಿ, ಲೆಕ್ಕಾಚಾರಗಳನ್ನು ಚಲಾಯಿಸಿ ಮತ್ತು ಇಂಟರ್ಯಾಕ್ಟಿವ್ ಫ್ರಾಸ್ಟೆಡ್-ಗ್ಲಾಸ್ ವಿನಿಮಯ ಲೆಡ್ಜರ್‌ಗಳನ್ನು ಸ್ಟ್ಯಾಂಪ್ ಮಾಡಿ.",
     "keywords": [
       "translate invoice",
       "invoice currency converter",
@@ -7345,59 +7345,59 @@ export const toolContentKn: Record<string, ToolContent> = {
       "stamp local currency",
       "global invoice tool"
     ],
-    "description": "\n      <p>The Global Invoice Translator provides ultimate clarity for international finance teams and global buyers.</p>\n      <p>Handling invoices in multiple currencies ($ , € , ¥) often involves tedious manual arithmetic. This tool enables <strong>in-place label translation and real-time exchange rates conversion</strong>.</p>\n      <p>It scans the document for price totals, runs calculations based on currency benchmarks, and physically stamps an elegant semi-transparent frosted-glass \"Exchange Rate ledger\" at the page margin. It renders with a gorgeous rolling slot-machine numeric visual effect, bringing absolute control to global billing.</p>\n    ",
+    "description": "\n      <p>ಗ್ಲೋಬಲ್ ಇನ್‌ವಾಯ್ಸ್ ಟ್ರಾನ್ಸ್‌ಲೇಟರ್ ಅಂತರರಾಷ್ಟ್ರೀಯ ಹಣಕಾಸು ತಂಡಗಳಿಗೆ ಮತ್ತು ಜಾಗತಿಕ ಗ್ರಾಹಕರಿಗೆ ಸಂಪೂರ್ಣ ಸ್ಪಷ್ಟತೆಯನ್ನು ಒದಗಿಸುತ್ತದೆ.</p>\n      <p>ವಿವಿಧ ಕರೆನ್ಸಿಗಳಲ್ಲಿ ($ , € , ¥) ಇನ್‌ವಾಯ್ಸ್‌ಗಳನ್ನು ನಿರ್ವಹಿಸುವುದು ಹೆಚ್ಚಾಗಿ ಬೇಸರದ ಹಸ್ತಚಾಲಿತ ಲೆಕ್ಕಾಚಾರವನ್ನು ಒಳಗೊಂಡಿರುತ್ತದೆ. ಈ ಉಪಕರಣವು <strong>ಸ್ಥಳದಲ್ಲೇ ಲೇಬಲ್ ಅನುವಾದ ಮತ್ತು ನೈಜ-ಸಮಯದ ವಿನಿಮಯ ದರಗಳ ಪರಿವರ್ತನೆಯನ್ನು</strong> ಸಕ್ರಿಯಗೊಳಿಸುತ್ತದೆ.</p>\n      <p>ಇದು ಬೆಲೆಯ ಮೊತ್ತಕ್ಕಾಗಿ ಡಾಕ್ಯುಮೆಂಟ್ ಅನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡುತ್ತದೆ, ಕರೆನ್ಸಿ ಬೆಂಚ್‌ಮಾರ್ಕ್‌ಗಳ ಆಧಾರದ ಮೇಲೆ ಲೆಕ್ಕಾಚಾರಗಳನ್ನು ರನ್ ಮಾಡುತ್ತದೆ ಮತ್ತು ಪುಟದ ಅಂಚಿನಲ್ಲಿ ಸೊಗಸಾದ ಅರೆ-ಪಾರದರ್ಶಕ ಫ್ರಾಸ್ಟೆಡ್-ಗ್ಲಾಸ್ \"Exchange Rate ledger\" ಅನ್ನು ಭೌತಿಕವಾಗಿ ಸ್ಟ್ಯಾಂಪ್ ಮಾಡುತ್ತದೆ. ಇದು ಜಾಗತಿಕ ಬಿಲ್ಲಿಂಗ್‌ಗೆ ಸಂಪೂರ್ಣ ನಿಯಂತ್ರಣವನ್ನು ತರುವ ಮೂಲಕ, ಸುಂದರವಾದ ರೋಲಿಂಗ್ ಸ್ಲಾಟ್-ಮೆಷಿನ್ ಸಾಂಖ್ಯಿಕ ದೃಶ್ಯ ಪರಿಣಾಮದೊಂದಿಗೆ ಮೂಡಿಬರುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload invoice PDF",
-        "description": "Import any invoice billed in foreign currencies (e.g. USD, EUR, JPY)."
+        "title": "ಇನ್‌ವಾಯ್ಸ್ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ವಿದೇಶಿ ಕರೆನ್ಸಿಗಳಲ್ಲಿ (ಉದಾ. USD, EUR, JPY) ಬಿಲ್ ಮಾಡಲಾದ ಯಾವುದೇ ಇನ್‌ವಾಯ್ಸ್ ಅನ್ನು ಇಂಪೋರ್ಟ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Select local currency",
-        "description": "Choose your local currency (e.g. CNY) and specify a custom or real-time exchange rate."
+        "title": "ಸ್ಥಳೀಯ ಕರೆನ್ಸಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+        "description": "ನಿಮ್ಮ ಸ್ಥಳೀಯ ಕರೆನ್ಸಿಯನ್ನು (ಉದಾ. CNY) ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು ಕಸ್ಟಮ್ ಅಥವಾ ನೈಜ-ಸಮಯದ ವಿನಿಮಯ ದರವನ್ನು ನಮೂದಿಸಿ."
       },
       {
         "step": 3,
-        "title": "Apply ledger stamp",
-        "description": "Click execute to overlay the gorgeous exchange rate ledger ready for accounting."
+        "title": "ಲೆಡ್ಜರ್ ಸ್ಟ್ಯಾಂಪ್ ಅನ್ವಯಿಸಿ",
+        "description": "ಅಕೌಂಟಿಂಗ್‌ಗೆ ಸಿದ್ಧವಾಗಿರುವ ಸುಂದರವಾದ ವಿನಿಮಯ ದರದ ಲೆಡ್ಜರ್ ಅನ್ನು ಓವರ್‌ಲೇ ಮಾಡಲು ಎಕ್ಸಿಕ್ಯೂಟ್ ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Foreign business trip reimbursement",
-        "description": "Convert travel bills into local currency and stamp conversion details, easing accounting workflows.",
+        "title": "ವಿದೇಶಿ ಉದ್ಯೋಗ ಪ್ರವಾಸದ ಮರುಪಾವತಿ",
+        "description": "ಪ್ರವಾಸದ ಬಿಲ್‌ಗಳನ್ನು ಸ್ಥಳೀಯ ಕರೆನ್ಸಿಗೆ ಪರಿವರ್ತಿಸಿ ಮತ್ತು ಪರಿವರ್ತನೆಯ ವಿವರಗಳನ್ನು ಸ್ಟ್ಯಾಂಪ್ ಮಾಡಿ, ಅಕೌಂಟಿಂಗ್ ಕಾರ್ಯಪ್ರವಾಹವನ್ನು ಸುಲಭಗೊಳಿಸಿ.",
         "icon": "plane"
       },
       {
-        "title": "Cross-border shopping audit",
-        "description": "Translate invoice columns and isolate the true cost of e-commerce goods.",
+        "title": "ಗಡಿ-ದಾಟಿದ ಶಾಪಿಂಗ್ ಆಡಿಟ್",
+        "description": "ಇನ್‌ವಾಯ್ಸ್ ಕಾಲಮ್‌ಗಳನ್ನು ಅನುವಾದಿಸಿ ಮತ್ತು ಇ-ಕಾಮರ್ಸ್ ಸರಕುಗಳ ನೈಜ ವೆಚ್ಚವನ್ನು ಪ್ರತ್ಯೇಕಿಸಿ.",
         "icon": "credit-card"
       },
       {
-        "title": "International business bookkeeping",
-        "description": "Stamp consistent conversion ledgers on corporate invoices to streamline year-end audits.",
+        "title": "ಅಂತರರಾಷ್ಟ್ರೀಯ ವ್ಯವಹಾರ ಬುಕ್‌ಕೀಪಿಂಗ್",
+        "description": "ವರ್ಷಾಂತ್ಯದ ಆಡಿಟ್‌ಗಳನ್ನು ಸುಗಮಗೊಳಿಸಲು ಕಾರ್ಪೊರೇಟ್ ಇನ್‌ವಾಯ್ಸ್‌ಗಳಲ್ಲಿ ಸುಸಂಗತವಾದ ಪರಿವರ್ತನೆ ಲೆಡ್ಜರ್‌ಗಳನ್ನು ಸ್ಟ್ಯಾಂಪ್ ಮಾಡಿ.",
         "icon": "folder-open"
       }
     ],
     "faq": [
       {
-        "question": "How does it detect invoice amounts?",
-        "answer": "It scans character streams for currency symbols and analyzes semantic headings like \"Total\" or \"Due\" to locate the invoice final sum."
+        "question": "ಇದು ಇನ್‌ವಾಯ್ಸ್ ಮೊತ್ತವನ್ನು ಹೇಗೆ ಪತ್ತೆ ಮಾಡುತ್ತದೆ?",
+        "answer": "ಇದು ಕರೆನ್ಸಿ ಚಿಹ್ನೆಗಳಿಗಾಗಿ ಅಕ್ಷರಗಳ ಸ್ಟ್ರೀಮ್‌ಗಳನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡುತ್ತದೆ ಮತ್ತು ಇನ್‌ವಾಯ್ಸ್‌ನ ಅಂತಿಮ ಮೊತ್ತವನ್ನು ಕಂಡುಹಿಡಿಯಲು \"Total\" ಅಥವಾ \"Due\" ನಂತಹ ಸೆಮ್ಯಾಂಟಿಕ್ ಶೀರ್ಷಿಕೆಗಳನ್ನು ವಿಶ್ಲೇಷಿಸುತ್ತದೆ."
       },
       {
-        "question": "Are exchange rates fetched in real-time?",
-        "answer": "Yes. By default, it retrieves base rates from standard financial APIs. You can also specify custom rates for internal audits."
+        "question": "ವಿನಿಮಯ ದರಗಳನ್ನು ನೈಜ-ಸಮಯದಲ್ಲಿ (real-time) ಪಡೆಯಲಾಗುತ್ತದೆಯೇ?",
+        "answer": "ಹೌದು. ಡಿಫಾಲ್ಟ್ ಆಗಿ, ಇದು ಪ್ರಮಾಣಿತ ಆರ್ಥಿಕ API ಗಳಿಂದ ಮೂಲ ದರಗಳನ್ನು ಪಡೆಯುತ್ತದೆ. ಆಂತರಿಕ ಆಡಿಟ್‌ಗಳಿಗಾಗಿ ನೀವು ಕಸ್ಟಮ್ ದರಗಳನ್ನು ಸಹ ನಮೂದಿಸಬಹುದು."
       },
       {
-        "question": "Will the stamped ledger cover important invoice details?",
-        "answer": "The engine scans the page margin to find optimal positioning. The ledger is also semi-transparent, aligning elegantly with your layouts."
+        "question": "ಸ್ಟ್ಯಾಂಪ್ ಮಾಡಿದ ಲೆಡ್ಜರ್ ಮುಖ್ಯವಾದ ಇನ್‌ವಾಯ್ಸ್ ವಿವರಗಳನ್ನು ಮರೆಮಾಡುತ್ತದೆಯೇ?",
+        "answer": "ಸೂಕ್ತವಾದ ಸ್ಥಳವನ್ನು ಕಂಡುಹಿಡಿಯಲು ಎಂಜಿನ್ ಪುಟದ ಅಂಚನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡುತ್ತದೆ. ಲೆಡ್ಜರ್ ಅರೆ-ಪಾರದರ್ಶಕವಾಗಿರುತ್ತದೆ, ನಿಮ್ಮ ಲೇಔಟ್‌ಗಳೊಂದಿಗೆ ಸೊಗಸಾಗಿ ಹೊಂದಿಕೊಳ್ಳುತ್ತದೆ."
       }
     ]
   },
   "pdf-deskew-aligner": {
-    "title": "Auto Scan Deskew",
-    "metaDescription": "Detect and auto-correct page rotations and alignments on mobile-photo or scanned PDF sheets instantly.",
+    "title": "ಆಟೋ ಸ್ಕ್ಯಾನ್ ಡೆಸ್ಕೂ",
+    "metaDescription": "ಮೊಬೈಲ್ ಫೋಟೋ ಅಥವಾ ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ PDF ಶೀಟ್‌ಗಳಲ್ಲಿ ಪುಟದ ತಿರುಗುವಿಕೆಗಳು ಮತ್ತು ಜೋಡಣೆಗಳನ್ನು ತಕ್ಷಣವೇ ಪತ್ತೆ ಮಾಡಿ ಮತ್ತು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಸರಿಪಡಿಸಿ.",
     "keywords": [
       "pdf deskew",
       "scanned page alignment",
@@ -7405,59 +7405,59 @@ export const toolContentKn: Record<string, ToolContent> = {
       "straighten scanned paper",
       "document alignment tool"
     ],
-    "description": "\n      <p>The PDF Scan Aligner is a mandatory utility for sanitizing tilted digital assets and mobile snapshots.</p>\n      <p>Documents scanned via physical flatbeds or captured quickly with smartphones often carry subtle rotations. Tilted pages look highly unprofessional, hinder text readability, and cause margins to clip during printing.</p>\n      <p>This tool utilizes robust <strong>Radon Transform and Hough Line detection algorithms</strong> to scan gradients and text lines under 20ms. It precisely measures skew down to 0.01 degrees and performs pixel-level Canvas rotation, snapping your receipts, contracts, and booklets back into crisp geometric alignment.</p>\n    ",
+    "description": "\n      <p>PDF Scan Aligner ಎಂಬುದು ಓರೆಯಾದ ಡಿಜಿಟಲ್ ಸ್ವತ್ತುಗಳು ಮತ್ತು ಮೊಬೈಲ್ ಸ್ನ್ಯಾಪ್‌ಶಾಟ್‌ಗಳನ್ನು ಸರಿಪಡಿಸಲು ಒಂದು ಕಡ್ಡಾಯ ಉಪಯುಕ್ತತೆಯಾಗಿದೆ.</p>\n      <p>ಭೌತಿಕ ಫ್ಲಾಟ್‌ಬೆಡ್‌ಗಳ ಮೂಲಕ ಸ್ಕ್ಯಾನ್ ಮಾಡಲಾದ ಅಥವಾ ಸ್ಮಾರ್ಟ್‌ಫೋನ್‌ಗಳ ಮೂಲಕ ತ್ವರಿತವಾಗಿ ತೆಗೆದ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳು ಹೆಚ್ಚಾಗಿ ಸಣ್ಣ ಮಟ್ಟದ ತಿರುಗುವಿಕೆಗಳನ್ನು ಹೊಂದಿರುತ್ತವೆ. ಓರೆಯಾದ ಪುಟಗಳು ವೃತ್ತಿಪರವಲ್ಲದಂತೆ ಕಾಣುತ್ತವೆ, ಪಠ್ಯದ ಓದುವಿಕೆಗೆ ಅಡ್ಡಿಪಡಿಸುತ್ತವೆ ಮತ್ತು ಪ್ರಿಂಟಿಂಗ್ ಸಮಯದಲ್ಲಿ ಮಾರ್ಜಿನ್‌ಗಳು ಕಟ್ ಆಗಲು ಕಾರಣವಾಗುತ್ತವೆ.</p>\n      <p>ಈ ಉಪಕರಣವು 20ms ಗಿಂತ ಕಡಿಮೆ ಅವಧಿಯಲ್ಲಿ ಗ್ರೇಡಿಯಂಟ್‌ಗಳು ಮತ್ತು ಪಠ್ಯ ಸಾಲುಗಳನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಲು ಶಕ್ತಿಯುತ <strong>Radon Transform ಮತ್ತು Hough Line detection algorithms</strong> ಅನ್ನು ಬಳಸುತ್ತದೆ. ಇದು 0.01 ಡಿಗ್ರಿಗಳಷ್ಟು ನಿಖರವಾಗಿ skew ಅನ್ನು ಅಳೆಯುತ್ತದೆ ಮತ್ತು ಪಿಕ್ಸೆಲ್-ಮಟ್ಟದ Canvas ತಿರುಗುವಿಕೆಯನ್ನು ನಿರ್ವಹಿಸುತ್ತದೆ, ನಿಮ್ಮ ರಸೀದಿಗಳು, ಒಪ್ಪಂದಗಳು ಮತ್ತು ಬುಕ್‌ಲೆಟ್‌ಗಳನ್ನು ಸ್ಪಷ್ಟ ಜ್ಯಾಮಿತೀಯ ಜೋಡಣೆಗೆ ಹಿಂತಿರುಗಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Provide skew PDF",
-        "description": "Upload any PDF sheet carrying rotated or poorly aligned scanned documents."
+        "title": "ಓರೆಯಾದ PDF ಅನ್ನು ನೀಡಿ",
+        "description": "ತಿರುಗಿದ ಅಥವಾ ಸರಿಯಾಗಿ ಜೋಡಣೆಯಾಗದ ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳನ್ನು ಹೊಂದಿರುವ ಯಾವುದೇ PDF ಶೀಟ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Analyze and tweak",
-        "description": "The engine auto-detects skew angle and draws aligning grids. Tweak angle manually if needed."
+        "title": "ವಿಶ್ಲೇಷಿಸಿ ಮತ್ತು ಸರಿಹೊಂದಿಸಿ",
+        "description": "ಎಂಜಿನ್ ಓರೆಯಾದ ಕೋನವನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಪತ್ತೆ ಮಾಡುತ್ತದೆ ಮತ್ತು ಜೋಡಣೆ ಗ್ರಿಡ್‌ಗಳನ್ನು ಬಿಡಿಸುತ್ತದೆ. ಅಗತ್ಯವಿದ್ದಲ್ಲಿ ಕೋನವನ್ನು ಹಸ್ತಚಾಲಿತವಾಗಿ ಸರಿಹೊಂದಿಸಿ."
       },
       {
         "step": 3,
-        "title": "Straighten & download",
-        "description": "Click execute to swing pages through a smooth gyroscope transition and download aligned PDF."
+        "title": "ನೇರಗೊಳಿಸಿ & ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ಪುಟಗಳನ್ನು ಸ್ಮೂತ್ ಗೈರೊಸ್ಕೋಪ್ ಟ್ರಾನ್ಸಿಷನ್ ಮೂಲಕ ತಿರುಗಿಸಲು ಮತ್ತು ಜೋಡಿಸಲಾದ PDF ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಎಕ್ಸಿಕ್ಯೂಟ್ ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Receipt & Contract Archiving",
-        "description": "Straighten quick hand-held mobile contract scans before saving them as formal digital PDF archives.",
+        "title": "ರಸೀದಿ & ಒಪ್ಪಂದ ಆರ್ಕೈವಿಂಗ್",
+        "description": "ಔಪಚಾರಿಕ ಡಿಜಿಟಲ್ PDF ಆರ್ಕೈವ್‌ಗಳಾಗಿ ಉಳಿಸುವ ಮೊದಲು ಮೊಬೈಲ್ ಮೂಲಕ ತ್ವರಿತವಾಗಿ ತೆಗೆದ ಒಪ್ಪಂದದ ಸ್ಕ್ಯಾನ್‌ಗಳನ್ನು ನೇರಗೊಳಿಸಿ.",
         "icon": "file-text"
       },
       {
-        "title": "Academic Book Digitizing",
-        "description": "Sanitize microfilm book scans where text lines drift out of horizontal margins.",
+        "title": "ಶೈಕ್ಷಣಿಕ ಪುಸ್ತಕ ಡಿಜಿಟೈಸಿಂಗ್",
+        "description": "ಪಠ್ಯ ಸಾಲುಗಳು ಸಮಸಮಾಂತರ ಮಾರ್ಜಿನ್‌ಗಳಿಂದ ಹೊರಗೆ ಹೋದ ಮೈಕ್ರೋಫಿಲ್ಮ್ ಪುಸ್ತಕ ಸ್ಕ್ಯಾನ್‌ಗಳನ್ನು ಸರಿಪಡಿಸಿ.",
         "icon": "book"
       },
       {
-        "title": "Student Homework Grading",
-        "description": "Correct homework snapshots taken by student phones, relaxing the eyes of grading teachers.",
+        "title": "ವಿದ್ಯಾರ್ಥಿಗಳ ಮನೆಗೆಲಸದ ಗ್ರೇಡಿಂಗ್",
+        "description": "ವಿದ್ಯಾರ್ಥಿಗಳ ಫೋನ್‌ಗಳಿಂದ ತೆಗೆದ ಮನೆಗೆಲಸದ ಫೋಟೋಗಳನ್ನು ಸರಿಪಡಿಸಿ, ಮೌಲ್ಯಮಾಪನ ಮಾಡುವ ಶಿಕ್ಷಕರ ಕಣ್ಣುಗಳಿಗೆ ಶ್ರಮವನ್ನು ತಪ್ಪಿಸಿ.",
         "icon": "edit-3"
       }
     ],
     "faq": [
       {
-        "question": "How is document skew detected?",
-        "answer": "We run high-speed Hough Line projections on text lines. Since formal prints have clear horizontal spacing patterns, finding the angle with the maximum variance isolates the rotation."
+        "question": "ಡಾಕ್ಯುಮೆಂಟ್‌ನ skew ಅನ್ನು ಹೇಗೆ ಪತ್ತೆ ಮಾಡಲಾಗುತ್ತದೆ?",
+        "answer": "ನಾವು ಪಠ್ಯ ಸಾಲುಗಳಲ್ಲಿ ಹೈ-ಸ್ಪೀಡ್ Hough Line ಪ್ರೊಜೆಕ್ಷನ್‌ಗಳನ್ನು ರನ್ ಮಾಡುತ್ತೇವೆ. ಔಪಚಾರಿಕ ಪ್ರಿಂಟ್‌ಗಳು ಸ್ಪಷ್ಟ ಅಡ್ಡಾಡ್ಡ ಜಾಗದ ಪ್ಯಾಟರ್ನ್‌ಗಳನ್ನು ಹೊಂದಿರುವುದರಿಂದ, ಗರಿಷ್ಠ ವ್ಯತ್ಯಾಸವನ್ನು ಹೊಂದಿರುವ ಕೋನವನ್ನು ಕಂಡುಹಿಡಿಯುವುದು ತಿರುಗುವಿಕೆಯನ್ನು ಪ್ರತ್ಯೇಕಿಸುತ್ತದೆ."
       },
       {
-        "question": "Will this process crop away page edges?",
-        "answer": "No. The engine calculates the rotated boundary and extends the Canvas using auto-padding, ensuring all margin text remains intact without cropping."
+        "question": "ಈ ಪ್ರಕ್ರಿಯೆಯು ಪುಟದ ಅಂಚುಗಳನ್ನು ಕ್ರಾಪ್ ಮಾಡಿ ತೆಗೆದುಹಾಕುತ್ತದೆಯೇ?",
+        "answer": "ಇಲ್ಲ. ಇಂಜಿನ್ ತಿರುಗಿಸಿದ ಗಡಿಯನ್ನು ಲೆಕ್ಕಾಚಾರ ಮಾಡುತ್ತದೆ ಮತ್ತು ಆಟೋ-ಪ್ಯಾಡಿಂಗ್ ಬಳಸಿ Canvas ಅನ್ನು ವಿಸ್ತರಿಸುತ್ತದೆ, ಕ್ರಾಪಿಂಗ್ ಇಲ್ಲದೆ ಎಲ್ಲಾ ಮಾರ್ಜಿನ್ ಪಠ್ಯವು ಸುರಕ್ಷಿತವಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ."
       },
       {
-        "question": "Does it support documents filled with diagrams?",
-        "answer": "Yes, as long as there is an underlying structure of lines or general paragraphs, our algorithms can accurately lock onto the principal reading angle."
+        "question": "ಇದು ರೇಖಾಚಿತ್ರಗಳಿಂದ ತುಂಬಿದ ದಾಖಲೆಗಳನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆಯೇ?",
+        "answer": "ಹೌದು, ಸಾಲುಗಳು ಅಥವಾ ಸಾಮಾನ್ಯ ಪ್ಯಾರಾಗ್ರಾಫ್‌ಗಳ ಮೂಲ ರಚನೆ ಇರುವವರೆಗೆ, ನಮ್ಮ ಅಲ್ಗಾರಿದಮ್‌ಗಳು ಪ್ರಮುಖ ಓದುವ ಕೋನವನ್ನು ನಿಖರವಾಗಿ ಗುರುತಿಸಬಲ್ಲವು."
       }
     ]
   },
   "pdf-two-column-reflower": {
-    "title": "Two-Column Paper Reflow",
-    "metaDescription": "Analyze IEEE/ACM double-column paper PDF structures and reflow them into responsive single-column layouts for smooth mobile and e-Reader viewing.",
+    "title": "ದ್ವಿ-ಸಾಲಿನ ಪೇಪರ್ ರಿಫ್ಲೋ",
+    "metaDescription": "IEEE/ACM ಡಬಲ್-ಕಾಲಮ್ ಪೇಪರ್ PDF ರಚನೆಗಳನ್ನು ವಿಶ್ಲೇಷಿಸಿ ಮತ್ತು ಸುಗಮ ಮೊಬೈಲ್ ಹಾಗೂ e-Reader ವೀಕ್ಷಣೆಗಾಗಿ ಅವುಗಳನ್ನು ರೆಸ್ಪಾನ್ಸಿವ್ ಸಿಂಗಲ್-ಕಾಲಮ್ ಲೇಔಟ್‌ಗಳಾಗಿ ರಿಫ್ಲೋ ಮಾಡಿ.",
     "keywords": [
       "two-column pdf to single",
       "reflow academic paper",
@@ -7465,59 +7465,59 @@ export const toolContentKn: Record<string, ToolContent> = {
       "pdf reader reflow",
       "mobile friendly papers"
     ],
-    "description": "\n      <p>The Academic Two-Column Reflower solves the most significant pain point of digital research: reading papers on standard mobile screens.</p>\n      <p>Double-column layouts (used by IEEE, ACM, Nature, and major reports) are designed for A4 paper. Navigating them on phone screens or Kindle devices requires constant zooming, dragging right, scrolling down, and panning back up. It breaks reading comprehension completely.</p>\n      <p>Our processor implements a <strong>smart paragraph reflow and vertical partition barrier scan</strong>. It analyzes character coordinates to map double-column gutters, divides the layout, and weaves segments vertically (left column first, then right). Graphs, formulas, and headings are seamlessly rearranged into a single-column, flowable vertical scroll PDF.</p>\n    ",
+    "description": "\n      <p>ಅಕಾಡೆಮಿಕ್ ಟೂ-ಕಾಲಮ್ ರಿಫ್ಲೋವರ್ ಡಿಜಿಟಲ್ ಸಂಶೋಧನೆಯ ಪ್ರಮುಖ ಸಮಸ್ಯೆಯನ್ನು ಪರಿಹರಿಸುತ್ತದೆ: ಸಾಮಾನ್ಯ ಮೊಬೈಲ್ ಪರದೆಗಳಲ್ಲಿ ಪ್ರಬಂಧಗಳನ್ನು ಓದುವುದು.</p>\n      <p>ಡಬಲ್-ಕಾಲಮ್ ಲೇಔಟ್‌ಗಳನ್ನು (IEEE, ACM, Nature, ಮತ್ತು ಪ್ರಮುಖ ವರದಿಗಳು ಬಳಸುವ) A4 ಪೇಪರ್‌ಗಾಗಿ ವಿನ್ಯಾಸಗೊಳಿಸಲಾಗಿದೆ. ಫೋನ್ ಸ್ಕ್ರೀನ್‌ಗಳಲ್ಲಿ ಅಥವಾ Kindle ಸಾಧನಗಳಲ್ಲಿ ಅವುಗಳನ್ನು ವೀಕ್ಷಿಸಲು ನಿರಂತರ ಜೂಮಿಂಗ್, ಬಲಕ್ಕೆ ಎಳೆಯುವುದು, ಕೆಳಗೆ ಸ್ಕ್ರೋಲ್ ಮಾಡುವುದು ಮತ್ತು ಮತ್ತೆ ಮೇಲೆ ಹೋಗುವುದು ಅಗತ್ಯವಾಗಿರುತ್ತದೆ. ಇದು ಓದುವ ಅನುಭವವನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ಹಾಳುಮಾಡುತ್ತದೆ.</p>\n      <p>ನಮ್ಮ ಪ್ರೊಸೆಸರ್ <strong>ಸ್ಮಾರ್ಟ್ ಪ್ಯಾರಾಗ್ರಾಫ್ ರಿಫ್ಲೋ ಮತ್ತು ವರ್ಟಿಕಲ್ ಪಾರ್ಟಿಶನ್ ಬ್ಯಾರಿಯರ್ ಸ್ಕ್ಯಾನ್</strong> ಅನ್ನು ಜಾರಿಗೆ ತರುತ್ತದೆ. ಇದು ಡಬಲ್-ಕಾಲಮ್ ಗಟರ್‌ಗಳನ್ನು ಮ್ಯಾಪ್ ಮಾಡಲು ಕ್ಯಾರೆಕ್ಟರ್ ನಿರ್ದೇಶಾಂಕಗಳನ್ನು ವಿಶ್ಲೇಷಿಸುತ್ತದೆ, ಲೇಔಟ್ ಅನ್ನು ವಿಭಜಿಸುತ್ತದೆ ಮತ್ತು ವಿಭಾಗಗಳನ್ನು ಲಂಬವಾಗಿ ಹೆಣೆಯುತ್ತದೆ (ಮೊದಲು ಎಡ ಕಾಲಮ್, ನಂತರ ಬಲ ಕಾಲಮ್). ಗ್ರಾಫ್‌ಗಳು, ಫಾರ್ಮುಲಾಗಳು ಮತ್ತು ಹೆಡಿಂಗ್‌ಗಳನ್ನು ಸಿಂಗಲ್-ಕಾಲಮ್, ಹರಿಯಬಲ್ಲ ವರ್ಟಿಕಲ್ ಸ್ಕ್ರೋಲ್ PDF ಆಗಿ ತಡೆರಹಿತವಾಗಿ ಮರುಜೋಡಿಸಲಾಗುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload double-column PDF",
-        "description": "Provide the IEEE/ACM journal report or multi-column PDF sheet."
+        "title": "ಡಬಲ್-ಕಾಲಮ್ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "IEEE/ACM ಜರ್ನಲ್ ವರದಿ ಅಥವಾ ಮಲ್ಟಿ-ಕಾಲಮ್ PDF ಶೀಟ್ ಒದಗಿಸಿ."
       },
       {
         "step": 2,
-        "title": "Inspect partition gutter",
-        "description": "Verify the red vertical partition slice guides. Adjust margins to prevent overlapping elements."
+        "title": "ಪಾರ್ಟಿಶನ್ ಗಟರ್ ಅನ್ನು ಪರಿಶೀಲಿಸಿ",
+        "description": "ಕೆಂಪು ಲಂಬ ಪಾರ್ಟಿಶನ್ ಸ್ಲೈಸ್ ಗೈಡ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸಿ. ಅಂಶಗಳು ಪರಸ್ಪರ ಅತಿಕ್ರಮಿಸುವುದನ್ನು ತಡೆಯಲು ಮಾರ್ಜಿನ್‌ಗಳನ್ನು ಸರಿಹೊಂದಿಸಿ."
       },
       {
         "step": 3,
-        "title": "Reflow and save",
-        "description": "Click execute to compile the pages into flowable layouts and download instantly."
+        "title": "ರಿಫ್ಲೋ ಮಾಡಿ ಮತ್ತು ಉಳಿಸಿ",
+        "description": "ಪುಟಗಳನ್ನು ಫ್ಲೋಯಬಲ್ ಲೇಔಟ್‌ಗಳಾಗಿ ಸಂಕಲಿಸಲು ಎಕ್ಸಿಕ್ಯೂಟ್ ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ತಕ್ಷಣ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "e-Reader Book Import",
-        "description": "Convert dense double-column essays into comfortable single-column documents matching Kindle and Onyx screens.",
+        "title": "e-Reader ಬುಕ್ ಇಂಪೋರ್ಟ್",
+        "description": "ದಟ್ಟವಾದ ಡಬಲ್-ಕಾಲಮ್ ಪ್ರಬಂಧಗಳನ್ನು Kindle ಮತ್ತು Onyx ಪರದೆಗಳಿಗೆ ಹೊಂದುವ ಅನುಕೂಲಕರ ಸಿಂಗಲ್-ಕಾಲಮ್ ದಾಖಲೆಗಳಾಗಿ ಪರಿವರ್ತಿಸಿ.",
         "icon": "tablet"
       },
       {
-        "title": "Subway Phone Reading",
-        "description": "Read research literature comfortably with single-hand vertical swipe gestures during transit.",
+        "title": "ಸಬ್‌ವೇ ಫೋನ್ ರೀಡಿಂಗ್",
+        "description": "ಪ್ರಯಾಣದ ಸಮಯದಲ್ಲಿ ಒಂಟಿ ಕೈಯ ಲಂಬ ಸ್ವೈಪ್ ಶೈಲಿಯಲ್ಲಿ ಸಂಶೋಧನಾ ಸಾಹಿತ್ಯವನ್ನು ಅನುಕೂಲಕರವಾಗಿ ಓದಿ.",
         "icon": "smartphone"
       },
       {
-        "title": "Archival Journal Formatting",
-        "description": "Modernize old narrow-column newspapers into readable, single-column web formats.",
+        "title": "ಆರ್ಕೈವಲ್ ಜರ್ನಲ್ ಫಾರ್ಮ್ಯಾಟಿಂಗ್",
+        "description": "ಹಳೆಯ ಕಿರಿದಾದ ಕಾಲಮ್ ವೃತ್ತಪತ್ರಿಕೆಗಳನ್ನು ಓದಬಹುದಾದ, ಸಿಂಗಲ್-ಕಾಲಮ್ ವೆಬ್ ಫಾರ್ಮ್ಯಾಟ್‌ಗಳಾಗಿ ಆಧುನೀಕರಿಸಿ.",
         "icon": "book-open"
       }
     ],
     "faq": [
       {
-        "question": "How are broad charts and equations handled?",
-        "answer": "Our engine applies \"span element detection.\" When an equation or diagram exceeds normal column widths, it is isolated as a full-width item, maintaining original proportions without clipping."
+        "question": "ವಿಶಾಲವಾದ ಚಾರ್ಟ್‌ಗಳು ಮತ್ತು ಸಮೀಕರಣಗಳನ್ನು ಹೇಗೆ ನಿರ್ವಹಿಸಲಾಗುತ್ತದೆ?",
+        "answer": "ನಮ್ಮ ಇಂಜಿನ್ \"span element detection\" ಅನ್ನು ಅನ್ವಯಿಸುತ್ತದೆ. ಸಮೀಕರಣ ಅಥವಾ ರೇಖಾಚಿತ್ರವು ಸಾಮಾನ್ಯ ಕಾಲಮ್ ಅಗಲವನ್ನು ಮೀರಿದಾಗ, ಅದನ್ನು ಕ್ಲಿಪಿಂಗ್ ಮಾಡದೆ ಮೂಲ ಪ್ರಮಾಣಗಳನ್ನು ಕಾಯ್ದುಕೊಂಡು ಪೂರ್ಣ-ಅಗಲದ ಐಟಂ ಆಗಿ ಪ್ರತ್ಯೇಕಿಸಲಾಗುತ್ತದೆ."
       },
       {
-        "question": "Will this modify the vector text resolution?",
-        "answer": "Not at all. We rewrite PDF text object transform matrices at the object tree level instead of rasterizing, meaning text remains 100% vector and fully selectable."
+        "question": "ಇದು ವೆಕ್ಟರ್ ಪಠ್ಯದ ರೆಸಲ್ಯೂಶನ್ ಅನ್ನು ಬದಲಾಯಿಸುತ್ತದೆಯೇ?",
+        "answer": "ಖಂಡಿತವಾಗಿಯೂ ಇಲ್ಲ. ರಾಸ್ಟರೈಸ್ ಮಾಡುವ ಬದಲು ನಾವು ಆಬ್ಜೆಕ್ಟ್ ಟ್ರೀ ಮಟ್ಟದಲ್ಲಿ PDF ಪಠ್ಯ ಆಬ್ಜೆಕ್ಟ್ ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮ್ ಮ್ಯಾಟ್ರಿಕ್ಸ್‌ಗಳನ್ನು ಮರುಬರೆಯುತ್ತೇವೆ, ಅಂದರೆ ಪಠ್ಯವು 100% ವೆಕ್ಟರ್ ಆಗಿರುತ್ತದೆ ಮತ್ತು ಸಂಪೂರ್ಣವಾಗಿ ಆಯ್ಕೆಮಾಡಬಹುದಾಗಿರುತ್ತದೆ."
       },
       {
-        "question": "Does this work on scanned image documents?",
-        "answer": "For flat image-based PDFs, we highly recommend running our OCR tool first before executing the Reflow process."
+        "question": "ಇದು ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ಚಿತ್ರದ ದಾಖಲೆಗಳಲ್ಲಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆಯೇ?",
+        "answer": "ಫ್ಲಾಟ್ ಇಮೇಜ್-ಆಧಾರಿತ PDF ಗಳಿಗಾಗಿ, Reflow ಪ್ರಕ್ರಿಯೆಯನ್ನು ಕಾರ್ಯಗತಗೊಳಿಸುವ ಮೊದಲು ನಮ್ಮ OCR ಟೂಲ್ ಅನ್ನು ಚಲಾಯಿಸಲು ನಾವು ಬಲವಾಗಿ ಶಿಫಾರಸು ಮಾಡುತ್ತೇವೆ."
       }
     ]
   },
   "pdf-page-resizer-uniform": {
-    "title": "Uniform PDF Page Size",
-    "metaDescription": "Batch resize and normalize mixed-format A4, A3, and Letter PDF sheets into a uniform target size with proportional centering and margin padding.",
+    "title": "ಏಕರೂಪದ PDF ಪುಟದ ಗಾತ್ರ",
+    "metaDescription": "ಮಿಶ್ರ-ಫಾರ್ಮ್ಯಾಟ್ A4, A3, ಮತ್ತು Letter PDF ಶೀಟ್‌ಗಳನ್ನು ಪ್ರಮಾಣಾನುಗುಣ ಕೇಂದ್ರಿಕರಣ ಮತ್ತು ಮಾರ್ಜಿನ್ ಪ್ಯಾಡಿಂಗ್‌ನೊಂದಿಗೆ ಏಕರೂಪದ ಟಾರ್ಗೆಟ್ ಗಾತ್ರಕ್ಕೆ ಬ್ಯಾಚ್ ರೀಸೈಸ್ ಮತ್ತು ನಾರ್ಮಲೈಸ್ ಮಾಡಿ.",
     "keywords": [
       "uniform page size",
       "resize pdf pages",
@@ -7525,59 +7525,59 @@ export const toolContentKn: Record<string, ToolContent> = {
       "mediabox normalize",
       "batch page scale"
     ],
-    "description": "\n      <p>The Multi-Format PDF Resizer is the ultimate standardizer for cluttered, mismatched corporate documents.</p>\n      <p>Combining invoices, contracts, and supplementary charts often results in a PDF containing massive A3 ledger pages, standard A4 agreements, and Letter-sized envelopes. Flipping through them is highly distracting, and sending them to physical office printers often causes jam errors due to size mismatch.</p>\n      <p>This tool rewrites the low-level <code>/MediaBox</code> and <code>/CropBox</code> grids on each page. It maps existing widths and heights, scales original pages proportionally to match target presets (e.g. standard A4), and introduces elegant, consistent surrounding margins, making the entire file look incredibly polished.</p>\n    ",
+    "description": "\n      <p>ಮಲ್ಟಿ-ಫಾರ್ಮ್ಯಾಟ್ PDF ರೀಸೈಜರ್ ಎಂಬುದು ಗೊಂದಲಮಯ, ಹೊಂದಾಣಿಕೆಯಾಗದ ಕಾರ್ಪೊರೇಟ್ ದಾಖಲೆಗಳನ್ನು ಪ್ರಮಾಣೀಕರಿಸಲು ಅಂತಿಮ ಸಾಧನವಾಗಿದೆ.</p>\n      <p>ಇನ್‌ವಾಯ್ಸ್‌ಗಳು, ಒಪ್ಪಂದಗಳು ಮತ್ತು ಪೂರಕ ಚಾರ್ಟ್‌ಗಳನ್ನು ಒಟ್ಟುಗೂಡಿಸುವುದು ಹೆಚ್ಚಾಗಿ ಬೃಹತ್ A3 ಲೆಡ್ಜರ್ ಪುಟಗಳು, ಪ್ರಮಾಣಿತ A4 ಒಪ್ಪಂದಗಳು ಮತ್ತು Letter-ಗಾತ್ರದ ಲಕೋಟೆಗಳನ್ನು ಒಳಗೊಂಡಿರುವ PDF ಗೆ ಕಾರಣವಾಗುತ್ತದೆ. ಅವುಗಳನ್ನು ತಿರುಗಿಸಿ ನೋಡುವುದು ಗಮನ ಭಂಗ ತರುತ್ತದೆ, ಮತ್ತು ಭೌತಿಕ ಆಫೀಸ್ ಪ್ರಿಂಟರ್‌ಗಳಿಗೆ ಕಳುಹಿಸುವುದು ಗಾತ್ರದ ವ್ಯತ್ಯಾಸದಿಂದಾಗಿ ಪ್ರಿಂಟರ್ ಜಾಮ್ ದೋಷಗಳಿಗೆ ಕಾರಣವಾಗುತ್ತದೆ.</p>\n      <p>ಈ ಉಪಕರಣವು ಪ್ರತಿ ಪುಟದಲ್ಲಿ ಲೋ-ಲೆವೆಲ್ <code>/MediaBox</code> ಮತ್ತು <code>/CropBox</code> ಗ್ರಿಡ್‌ಗಳನ್ನು ಮರುಬರೆಯುತ್ತದೆ. ಇದು ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಅಗಲ ಮತ್ತು ಎತ್ತರಗಳನ್ನು ಮ್ಯಾಪ್ ಮಾಡುತ್ತದೆ, ಟಾರ್ಗೆಟ್ ಪ್ರಿಸೆಟ್‌ಗಳಿಗೆ (ಉದಾ. ಸಾಮಾನ್ಯ A4) ಹೊಂದುವಂತೆ ಮೂಲ ಪುಟಗಳನ್ನು ಪ್ರಮಾಣಾನುಗುಣವಾಗಿ ಸ್ಕೇಲ್ ಮಾಡುತ್ತದೆ ಮತ್ತು ಸೊಗಸಾದ, ಸ್ಥಿರವಾದ ಸುತ್ತಮುತ್ತಲಿನ ಮಾರ್ಜಿನ್‌ಗಳನ್ನು ಪರಿಚಯಿಸುತ್ತದೆ, ಇಡೀ ಫೈಲ್ ಅನ್ನು ಅತ್ಯಂತ ಸಜ್ಜುಗೊಳಿಸಿದಂತೆ ಕಾಣುವಂತೆ ಮಾಡುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Provide mixed-size PDF",
-        "description": "Upload a merged PDF document containing mismatched, messy page sizes."
+        "title": "ಮಿಶ್ರ-ಗಾತ್ರದ PDF ಅನ್ನು ಒದಗಿಸಿ",
+        "description": "ಹೊಂದಾಣಿಕೆಯಾಗದ, ಗೊಂದಲಮಯ ಪುಟದ ಗಾತ್ರಗಳನ್ನು ಹೊಂದಿರುವ ವಿಲೀನಗೊಳಿಸಿದ PDF ದಾಖಲೆಯನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Choose target preset",
-        "description": "Select the target uniform size (e.g. A4, Letter, A3) and toggle scale modes."
+        "title": "ಟಾರ್ಗೆಟ್ ಪ್ರಿಸೆಟ್ ಆಯ್ಕೆಮಾಡಿ",
+        "description": "ಟಾರ್ಗೆಟ್ ಏಕರೂಪದ ಗಾತ್ರವನ್ನು ಆಯ್ಕೆಮಾಡಿ (ಉದಾ. A4, Letter, A3) ಮತ್ತು ಸ್ಕೇಲ್ ಮೋಡ್‌ಗಳನ್ನು ಟಾಗಲ್ ಮಾಡಿ."
       },
       {
         "step": 3,
-        "title": "Align and download",
-        "description": "Click execute to trigger 3D sheet alignment, downloading a beautifully standardized PDF."
+        "title": "ಅಲೈನ್ ಮಾಡಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "3D ಶೀಟ್ ಅಲೈನ್‌ಮೆಂಟ್ ಪ್ರಚೋದಿಸಲು ಎಕ್ಸಿಕ್ಯೂಟ್ ಕ್ಲಿಕ್ ಮಾಡಿ, ಸುಂದರವಾಗಿ ಪ್ರಮಾಣೀಕರಿಸಿದ PDF ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Corporate RFP Proposals",
-        "description": "Standardize scanned qualification certificates and A4 bidding sheets before physical printing.",
+        "title": "ಕಾರ್ಪೊರೇಟ್ RFP ಪ್ರಪೋಸಲ್‌ಗಳು",
+        "description": "ಭೌತಿಕ ಪ್ರಿಂಟಿಂಗ್‌ಗೆ ಮೊದಲು ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ಅರ್ಹತಾ ಪ್ರಮಾಣಪತ್ರಗಳು ಮತ್ತು A4 ಬಿಡ್ಡಿಂಗ್ ಶೀಟ್‌ಗಳನ್ನು ಪ್ರಮಾಣೀಕರಿಸಿ.",
         "icon": "file-text"
       },
       {
-        "title": "Financial Chart Integration",
-        "description": "Scale broad A3 financial cash flows into neat A4 pages, preserving printing standards.",
+        "title": "ಆರ್ಥಿಕ ಚಾರ್ಟ್ ಇಂಟಿಗ್ರೇಷನ್",
+        "description": "ಪ್ರಿಂಟಿಂಗ್ ಮಾನದಂಡಗಳನ್ನು ಕಾಯ್ದುಕೊಂಡು, ವಿಶಾಲವಾದ A3 ಆರ್ಥಿಕ ಕ್ಯಾಶ್ ಫ್ಲೋಗಳನ್ನು ಅಚ್ಚುಕಟ್ಟಾದ A4 ಪುಟಗಳಿಗೆ ಸ್ಕೇಲ್ ಮಾಡಿ.",
         "icon": "layout"
       },
       {
-        "title": "Book Margin Standardization",
-        "description": "Force slightly varied scanned book pages into an absolutely uniform dimension for comfortable reading.",
+        "title": "ಪುಸ್ತಕದ ಮಾರ್ಜಿನ್ ಪ್ರಮಾಣೀಕರಣ",
+        "description": "ಅನುಕೂಲಕರ ಓದುವಿಕೆಗಾಗಿ ಸ್ವಲ್ಪ ವ್ಯತ್ಯಾಸವಿರುವ ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ಪುಸ್ತಕದ ಪುಟಗಳನ್ನು ಸಂಪೂರ್ಣ ಏಕರೂಪದ ಆಯಾಮಕ್ಕೆ ತನ್ನಿ.",
         "icon": "book"
       }
     ],
     "faq": [
       {
-        "question": "Will this warp my content?",
-        "answer": "Never. We support both \"Contain\" (proportional scaling with white bars) and \"Cover\" (centered crop). The default Contain mode preserves aspect ratios, preventing distortion."
+        "question": "ಇದು ನನ್ನ ವಿಷಯವನ್ನು ವಿಕೃತಗೊಳಿಸುತ್ತದೆಯೇ?",
+        "answer": "ಖಂಡಿತ ಇಲ್ಲ. ನಾವು \"Contain\" (ಬಿಳಿ ಬಾರ್‌ಗಳೊಂದಿಗೆ ಪ್ರಮಾಣಾನುಗುಣ ಸ್ಕೇಲಿಂಗ್) ಮತ್ತು \"Cover\" (ಕೇಂದ್ರೀಕೃತ ಕ್ರಾಪ್) ಎರಡನ್ನೂ ಬೆಂಬಲಿಸುತ್ತೇವೆ. ಡೀಫಾಲ್ಟ್ Contain ಮೋಡ್ ಆಸ್ಪೆಕ್ಟ್ ರೇಶಿಯೋಗಳನ್ನು ಕಾಯ್ದುಕೊಳ್ಳುತ್ತದೆ, ವಿಕೃತಿಯನ್ನು ತಡೆಯುತ್ತದೆ."
       },
       {
-        "question": "Will existing forms and annotations remain clickable?",
-        "answer": "Yes. The algorithm maps the scaling factors to the Annotation coordinate arrays, scaling link boxes, sign boundaries, and inputs to align perfectly after resizing."
+        "question": "ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಫಾರ್ಮ್‌ಗಳು ಮತ್ತು ಟಿಪ್ಪಣಿಗಳು (annotations) ಕ್ಲಿಕ್ ಮಾಡಬಹುದಾದಂತೆ ಉಳಿಯುತ್ತವೆಯೇ?",
+        "answer": "ಹೌದು. ಅಲ್ಗಾರಿದಮ್ ಸ್ಕೇಲಿಂಗ್ ಅಂಶಗಳನ್ನು ಆನೋಟೇಶನ್ ಕೋಆರ್ಡಿನೇಟ್ ಅರೇಗಳಿಗೆ ಮ್ಯಾಪ್ ಮಾಡುತ್ತದೆ, ಲಿಂಕ್ ಬಾಕ್ಸ್‌ಗಳು, ಸೈನ್ ಗಡಿಗಳು ಮತ್ತು ಇನ್‌ಪುಟ್‌ಗಳನ್ನು ರೀಸೈಜ್ ಮಾಡಿದ ನಂತರ ಸಂಪೂರ್ಣವಾಗಿ ಹೊಂದಿಕೆಯಾಗುವಂತೆ ಸ್ಕೇಲ್ ಮಾಡುತ್ತದೆ."
       },
       {
-        "question": "Is there a limit on how many pages I can resize?",
-        "answer": "No. Since all operations run locally in your client sandbox using native JavaScript, you can process extensive PDFs containing hundreds of pages in seconds."
+        "question": "ನಾನು ಎಷ್ಟು ಪುಟಗಳನ್ನು ರೀಸೈಜ್ ಮಾಡಬಹುದು ಎಂಬುದಕ್ಕೆ ಯಾವುದೇ ಮಿತಿ ಇದೆಯೇ?",
+        "answer": "ಇಲ್ಲ. ಸ್ಥಳೀಯ JavaScript ಬಳಸಿ ನಿಮ್ಮ ಕ್ಲೈಂಟ್ ಸ್ಯಾಂಡ್‌ಬಾಕ್ಸ್‌ನಲ್ಲಿ ಎಲ್ಲಾ ಕಾರ್ಯಾಚರಣೆಗಳು ಸ್ಥಳೀಯವಾಗಿ ಚಾಲನೆಗೊಳ್ಳುವುದರಿಂದ, ನೀವು ನೂರಾರು ಪುಟಗಳನ್ನು ಹೊಂದಿರುವ ವಿಸ್ತಾರವಾದ PDF ಗಳನ್ನು ಸೆಕೆಂಡುಗಳಲ್ಲಿ ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಬಹುದು."
       }
     ]
   },
   "handwriting-ink-contrast-booster": {
-    "title": "Enhance Handwriting Ink",
-    "metaDescription": "Extract blue or black handwriting signatures from photos, bleach yellow paper grain, and dramatically boost ink contrast for readability.",
+    "title": "ಹಸ್ತಪ್ರತಿ ಶಾಯಿಯನ್ನು ಹೆಚ್ಚಿಸಿ",
+    "metaDescription": "ಫೋಟೋಗಳಿಂದ ನೀಲಿ ಅಥವಾ ಕಪ್ಪು ಹಸ್ತಪ್ರತಿಯ ಸಹಿಗಳನ್ನು ಹೊರತೆಗೆಯಿರಿ, ಹಳದಿ ಕಾಗದದ ವಿನ್ಯಾಸವನ್ನು ಬ್ಲೀಚ್ ಮಾಡಿ, ಮತ್ತು ಓದಲು ಅನುಕೂಲವಾಗುವಂತೆ ಶಾಯಿಯ ಕಾಂಟ್ರಾಸ್ಟ್ ಅನ್ನು ಗಮನಾರ್ಹವಾಗಿ ಹೆಚ್ಚಿಸಿ.",
     "keywords": [
       "enhance handwritten contract",
       "ink contrast boost",
@@ -7585,59 +7585,59 @@ export const toolContentKn: Record<string, ToolContent> = {
       "sharpen faded signature",
       "signature extraction"
     ],
-    "description": "\n      <p>The Handwriting Ink Contrast Booster is a savior for digitizing signed agreements and historical manuscript archives.</p>\n      <p>Scans of hand-signed documents often look dull due to grey scanner glass reflection, yellow paper tint, or faded ink. Re-printing or photocopying these files results in blurry, illegible signatures. Traditional contrast tools darken the entire background, worsening the layout.</p>\n      <p>This tool utilizes **Contrast Limited Adaptive Histogram Equalization (CLAHE) and hue-based color separation**. In a secure local Canvas process, it isolates handwriting strokes (both black and blue) from background parchment, bleaches shadow wrinkles completely, and infuses faded inks with deep, saturated contrast, leaving your documents looking incredibly crisp and clean.</p>\n    ",
+    "description": "\n      <p>ಹ್ಯಾಂಡ್‌ರೈಟಿಂಗ್ ಇಂಕ್ ಕಾಂಟ್ರಾಸ್ಟ್ ಬೂಸ್ಟರ್ ಸಹಿ ಮಾಡಿದ ಒಪ್ಪಂದಗಳು ಮತ್ತು ಐತಿಹಾಸಿಕ ಹಸ್ತಪ್ರತಿ ದಾಖಲೆಗಳನ್ನು ಡಿಜಿಟೈಸ್ ಮಾಡಲು ಒಂದು ಅತ್ಯುತ್ತಮ ಪರಿಹಾರವಾಗಿದೆ.</p>\n      <p>ಸಹಿ ಮಾಡಿದ ದಾಖಲೆಗಳ ಸ್ಕ್ಯಾನ್‌ಗಳು ಬೂದು ಬಣ್ಣದ ಸ್ಕ್ಯಾನರ್ ಗ್ಲಾಸ್ ಪ್ರತಿಫಲನ, ಹಳದಿ ಕಾಗದದ ಛಾಯೆ ಅಥವಾ ಮಸುಕಾದ ಶಾಯಿಯಿಂದಾಗಿ ಹೆಚ್ಚಾಗಿ ಮಂದವಾಗಿ ಕಾಣುತ್ತವೆ. ಈ ಫೈಲ್‌ಗಳನ್ನು ಮರು-ಪ್ರಿಂಟ್ ಮಾಡುವುದು ಅಥವಾ ಫೋಟೋಕಾಪಿ ಮಾಡುವುದು ಮಸುಕಾದ, ಓದಲಾಗದ ಸಹಿಗಳಿಗೆ ಕಾರಣವಾಗುತ್ತದೆ. ಸಾಂಪ್ರದಾಯಿಕ ಕಾಂಟ್ರಾಸ್ಟ್ ಟೂಲ್‌ಗಳು ಸಂಪೂರ್ಣ ಹಿನ್ನೆಲೆಯನ್ನು ಕಪ್ಪಾಗಿಸಿ, ಲೇಔಟ್ ಅನ್ನು ಮತ್ತಷ್ಟು ಹಾಳುಮಾಡುತ್ತವೆ.</p>\n      <p>ಈ ಉಪಕರಣವು **Contrast Limited Adaptive Histogram Equalization (CLAHE) ಮತ್ತು hue-ಆಧಾರಿತ ಬಣ್ಣ ಪ್ರತ್ಯೇಕತೆಯನ್ನು** ಬಳಸುತ್ತದೆ. ಸುರಕ್ಷಿತ ಸ್ಥಳೀಯ Canvas ಪ್ರಕ್ರಿಯೆಯಲ್ಲಿ, ಇದು ಹಿನ್ನೆಲೆ ಪೇಪರ್‌ನಿಂದ ಹಸ್ತಪ್ರತಿಯ ಗೆರೆಗಳನ್ನು (ಕಪ್ಪು ಮತ್ತು ನೀಲಿ ಎರಡನ್ನೂ) ಪ್ರತ್ಯೇಕಿಸುತ್ತದೆ, ನೆರಳಿನ ಸುಕ್ಕುಗಳನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ಬ್ಲೀಚ್ ಮಾಡುತ್ತದೆ, ಮತ್ತು ಮಸುಕಾದ ಶಾಯಿಗೆ ಗಾಢವಾದ, ಸಮೃದ್ಧವಾದ ಕಾಂಟ್ರಾಸ್ಟ್ ಅನ್ನು ನೀಡುತ್ತದೆ, ನಿಮ್ಮ ದಾಖಲೆಗಳು ಅತ್ಯಂತ ಸ್ಪಷ್ಟವಾಗಿ ಮತ್ತು ಸ್ವಚ್ಛವಾಗಿ ಕಾಣುವಂತೆ ಮಾಡುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Import hand-signed document",
-        "description": "Provide a PDF containing faded signatures, handwritten diaries, or sketches."
+        "title": "ಸಹಿ ಮಾಡಿದ ದಾಖಲೆಯನ್ನು ಇಂಪೋರ್ಟ್ ಮಾಡಿ",
+        "description": "ಮಸುಕಾದ ಸಹಿಗಳು, ಹಸ್ತಪ್ರತಿಯ ಡೈರಿಗಳು ಅಥವಾ ರೇಖಾಚಿತ್ರಗಳನ್ನು ಹೊಂದಿರುವ PDF ಅನ್ನು ಒದಗಿಸಿ."
       },
       {
         "step": 2,
-        "title": "Configure ink filter",
-        "description": "Select the color profile to isolate (e.g. blue ink, black ink, or both) and adjust sharpening."
+        "title": "ಮಸಿಯ ಫಿಲ್ಟರ್ ಅನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಿ",
+        "description": "ಪ್ರತ್ಯೇಕಿಸಲು ಬಣ್ಣದ ಪ್ರೊಫೈಲ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ (ಉದಾ. ನೀಲಿ ಮಸಿ, ಕಪ್ಪು ಮಸಿ, ಅಥವಾ ಎರಡೂ) ಮತ್ತು ಶಾರ್ಪನಿಂಗ್ ಅನ್ನು ಹೊಂದಿಸಿ."
       },
       {
         "step": 3,
-        "title": "Sharpen and download",
-        "description": "Click execute to trace colors with a radar scanner effect and download purified PDF."
+        "title": "ಶಾರ್ಪನ್ ಮಾಡಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ರಾಡಾರ್ ಸ್ಕ್ಯಾನರ್ ಎಫೆಕ್ಟ್‌ನೊಂದಿಗೆ ಬಣ್ಣಗಳನ್ನು ಪತ್ತೆಹಚ್ಚಲು ಕಾರ್ಯಗತಗೊಳಿಸಿ ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ಶುದ್ಧೀಕರಿಸಿದ PDF ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Executed Contracts Repair",
-        "description": "Repair poorly scanned agreements, sharpening signatures and bleaching paper background to A4-pure white.",
+        "title": "ಕಾರ್ಯಗತಗೊಳಿಸಿದ ಒಪ್ಪಂದಗಳ ದುರಸ್ತಿ",
+        "description": "ಸರಿಯಾಗಿ ಸ್ಕ್ಯಾನ್ ಆಗದ ಒಪ್ಪಂದಗಳನ್ನು ದುರಸ್ತಿ ಮಾಡಿ, ಸಹಿಗಳನ್ನು ಶಾರ್ಪನ್ ಮಾಡಿ ಮತ್ತು ಕಾಗದದ ಹಿನ್ನೆಲೆಯನ್ನು A4-ಶುದ್ಧ ಬಿಳಿ ಬಣ್ಣಕ್ಕೆ ಬ್ಲೀಚ್ ಮಾಡಿ.",
         "icon": "file-check"
       },
       {
-        "title": "Handwritten Manuscripts Archive",
-        "description": "Digitize written journals or diaries, extracting clear black strokes while erasing age-related stains.",
+        "title": "ಹಸ್ತಪ್ರತಿಗಳ ಆರ್ಕೈವ್",
+        "description": "ಬರೆದ ಜರ್ನಲ್ ಅಥವಾ ಡೈರಿಗಳನ್ನು ಡಿಜಿಟೈಸ್ ಮಾಡಿ, ಹಳೆಯ ಕಲೆಗಳನ್ನು ಅಳಿಸಿಹಾಕುವಾಗ ಸ್ಪಷ್ಟವಾದ ಕಪ್ಪು ಸ್ಟ್ರೋಕ್‌ಗಳನ್ನು ಹೊರತೆಗೆಯಿರಿ.",
         "icon": "book"
       },
       {
-        "title": "Historical Ledger Restoration",
-        "description": "Restore faint ink details on aged archival ledgers, rescuing valuable handwritten coordinates.",
+        "title": "ಐತಿಹಾಸಿಕ ಲೆಡ್ಜರ್ ಮರುಸ್ಥಾಪನೆ",
+        "description": "ಹಳೆಯ ಆರ್ಕೈವಲ್ ಲೆಡ್ಜರ್‌ಗಳಲ್ಲಿ ಮಸುಕಾದ ಮಸಿಯ ವಿವರಗಳನ್ನು ಮರುಸ್ಥಾಪಿಸಿ, ಮೌಲ್ಯಯುತವಾದ ಕೈಬರಹದ ವಿವರಗಳನ್ನು ರಕ್ಷಿಸಿ.",
         "icon": "archive"
       }
     ],
     "faq": [
       {
-        "question": "How does this differ from normal grayscale conversion?",
-        "answer": "Grayscale converts paper shadows into gray values. Our adaptive algorithm separates background luminance and isolates signature \"ink spectrums,\" purifying the backdrop to absolute white while leaving stroke edges sharp."
+        "question": "ಇದು ಸಾಮಾನ್ಯ ಗ್ರೇಸ್ಕೇಲ್ ಪರಿವರ್ತನೆಯಿಂದ ಹೇಗೆ ಭಿನ್ನವಾಗಿದೆ?",
+        "answer": "ಗ್ರೇಸ್ಕೇಲ್ ಕಾಗದದ ನೆರಳುಗಳನ್ನು ಬೂದು ಮೌಲ್ಯಗಳಾಗಿ ಪರಿವರ್ತಿಸುತ್ತದೆ. ನಮ್ಮ ಅಡಾಪ್ಟಿವ್ ಅಲ್ಗಾರಿದಮ್ ಹಿನ್ನೆಲೆ ಪ್ರಕಾಶವನ್ನು ಪ್ರತ್ಯೇಕಿಸುತ್ತದೆ ಮತ್ತು ಸಹಿಯ \"ಮಸಿ ಸ್ಪೆಕ್ಟ್ರಮ್‌ಗಳನ್ನು\" ಪ್ರತ್ಯೇಕಿಸುತ್ತದೆ, ಸ್ಟ್ರೋಕ್ ಅಂಚುಗಳನ್ನು ಶಾರ್ಪ್ ಆಗಿ ಇರಿಸಿಕೊಂಡು ಹಿನ್ನೆಲೆಯನ್ನು ಸಂಪೂರ್ಣ ಬಿಳಿ ಬಣ್ಣಕ್ಕೆ ಶುದ್ಧೀಕರಿಸುತ್ತದೆ."
       },
       {
-        "question": "Will I lose handwriting stroke texture?",
-        "answer": "No. The CLAHE algorithm works on a sub-pixel level, preserving natural pen-stroke pressure, ink fading, and dynamic line weights."
+        "question": "ನಾನು ಕೈಬರಹದ ಸ್ಟ್ರೋಕ್ ವಿನ್ಯಾಸವನ್ನು ಕಳೆದುಕೊಳ್ಳುತ್ತೇನೆಯೇ?",
+        "answer": "ಇಲ್ಲ. CLAHE ಅಲ್ಗಾರಿದಮ್ ಸಬ್-ಪಿಕ್ಸೆಲ್ ಮಟ್ಟದಲ್ಲಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ, ನೈಸರ್ಗಿಕ ಪೆನ್-ಸ್ಟ್ರೋಕ್ ಒತ್ತಡ, ಮಸಿ ಮಸುಕಾಗುವಿಕೆ ಮತ್ತು ಡೈನಾಮಿಕ್ ಲೈನ್ ತೂಕವನ್ನು ಕಾಯ್ದುಕೊಳ್ಳುತ್ತದೆ."
       },
       {
-        "question": "Can I keep red corporate stamp marks?",
-        "answer": "Yes. By enabling \"Chroma Ink Preservation,\" the booster whitens paper background and darkens writing, while maintaining the bright colors of red seals and blue ink signatures."
+        "question": "ನಾನು ಕೆಂಪು ಕಾರ್ಪೊರೇಟ್ ಸ್ಟಾಂಪ್ ಗುರುತುಗಳನ್ನು ಇಟ್ಟುಕೊಳ್ಳಬಹುದೇ?",
+        "answer": "ಹೌದು. \"Chroma Ink Preservation\" ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸುವ ಮೂಲಕ, ಬೂಸ್ಟರ್ ಕಾಗದದ ಹಿನ್ನೆಲೆಯನ್ನು ಬಿಳಿಯಾಗಿಸುತ್ತದೆ ಮತ್ತು ಬರಹವನ್ನು ಕಪ್ಪಾಗಿಸುತ್ತದೆ, ಆದರೆ ಕೆಂಪು ಮುದ್ರೆಗಳು ಮತ್ತು ನೀಲಿ ಮಸಿಯ ಸಹಿಗಳ ಪ್ರಕಾಶಮಾನವಾದ ಬಣ್ಣಗಳನ್ನು ನಿರ್ವಹಿಸುತ್ತದೆ."
       }
     ]
   },
   "pdf-spine-bookbinder": {
-    "title": "Calculate Book Spine Width",
-    "metaDescription": "Calculate book spine width based on page count and paper GSM, and generate a printable cover template with spine fold lines.",
+    "title": "ಪುಸ್ತಕದ ಸ್ಪೈನ್ ಅಗಲವನ್ನು ಲೆಕ್ಕಹಾಕಿ",
+    "metaDescription": "ಪುಟಗಳ ಸಂಖ್ಯೆ ಮತ್ತು ಕಾಗದದ GSM ಆಧಾರದ ಮೇಲೆ ಪುಸ್ತಕದ ಸ್ಪೈನ್ ಅಗಲವನ್ನು ಲೆಕ್ಕಹಾಕಿ, ಮತ್ತು ಸ್ಪೈನ್ ಮಡಿಕೆ ಸಾಲುಗಳೊಂದಿಗೆ ಮುದ್ರಿಸಬಹುದಾದ ಕವರ್ ಟೆಂಪ್ಲೇಟ್ ಅನ್ನು ರಚಿಸಿ.",
     "keywords": [
       "book spine calculator",
       "binding spine thickness",
@@ -7645,59 +7645,59 @@ export const toolContentKn: Record<string, ToolContent> = {
       "spine fold marks",
       "perfect binding prepress"
     ],
-    "description": "\n      <p>The PDF Spine Bookbinder is a pre-press savior for designers, self-publishing authors, and commercial bidding teams.</p>\n      <p>When compiling thick book catalogs, bidding proposals, or annual directories, perfect binding (glue binding) requires a cover with precise spine coordinates. If the spine width is off by even 1mm, the bound cover will warp, shift, or crease. Calculating page counts against paper weight is complex and error-prone.</p>\n      <p>This tool utilizes a <strong>physically modeled GSM paper-to-thickness library</strong>. Simply input your PDF page count and select paper stock (e.g. 80 GSM offset, 100 GSM glossy). The engine calculates spine width down to micrometers and compiles a print-ready, extra-wide cover PDF complete with standard front/back flaps and precise fold mark creases.</p>\n    ",
+    "description": "\n      <p>PDF Spine Bookbinder ಎನ್ನುವುದು ವಿನ್ಯಾಸಕರು, ಸ್ವಯಂ-ಪ್ರಕಾಶನ ಲೇಖಕರು ಮತ್ತು ವಾಣಿಜ್ಯ ಬಿಡ್ಡಿಂಗ್ ತಂಡಗಳಿಗೆ ಪ್ರಿ-ಪ್ರೆಸ್ ರಕ್ಷಕವಾಗಿದೆ.</p>\n      <p>ದಪ್ಪ ಪುಸ್ತಕ ಕ್ಯಾಟಲಾಗ್‌ಗಳು, ಬಿಡ್ಡಿಂಗ್ ಪ್ರಪೋಸಲ್‌ಗಳು ಅಥವಾ ವಾರ್ಷಿಕ ಡೈರೆಕ್ಟರಿಗಳನ್ನು ಸಂಕಲಿಸುವಾಗ, ಪರ್ಫೆಕ್ಟ್ ಬೈಂಡಿಂಗ್ (ಗ್ಲೂ ಬೈಂಡಿಂಗ್) ಗೆ ನಿಖರವಾದ ಸ್ಪೈನ್ ನಿರ್ದೇಶಾಂಕಗಳೊಂದಿಗೆ ಕವರ್ ಅಗತ್ಯವಿರುತ್ತದೆ. ಸ್ಪೈನ್ ಅಗಲವು 1mm ಯಷ್ಟು ವ್ಯತ್ಯಾಸವಾಗಿದ್ದರೂ ಸಹ, ಬೈಂಡ್ ಮಾಡಿದ ಕವರ್ ವಾರ್ಪ್ ಆಗುತ್ತದೆ, ಜಾರುತ್ತದೆ ಅಥವಾ ಮಡಚಿಕೊಳ್ಳುತ್ತದೆ. ಕಾಗದದ ತೂಕಕ್ಕೆ ಅನುಗುಣವಾಗಿ ಪುಟಗಳ ಸಂಖ್ಯೆಯನ್ನು ಲೆಕ್ಕಹಾಕುವುದು ಸಂಕೀರ್ಣವಾಗಿದೆ ಮತ್ತು ದೋಷಗಳಿಗೆ ಆಸ್ಪದ ನೀಡುತ್ತದೆ.</p>\n      <p>ಈ ಉಪಕರಣವು <strong>physically modeled GSM paper-to-thickness library</strong> ಅನ್ನು ಬಳಸುತ್ತದೆ. ನಿಮ್ಮ PDF ಪುಟಗಳ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ ಮತ್ತು ಪೇಪರ್ ಸ್ಟಾಕ್ ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಿ (ಉದಾ. 80 GSM ಆಫ್‌ಸೆಟ್, 100 GSM ಗ್ಲೋಸಿ). ಎಂಜಿನ್ ಸ್ಪೈನ್ ಅಗಲವನ್ನು ಮೈಕ್ರೊಮೀಟರ್‌ಗಳವರೆಗೆ ಲೆಕ್ಕಹಾಕುತ್ತದೆ ಮತ್ತು ಪ್ರಮಾಣಿತ ಫ್ರಂಟ್/ಬ್ಯಾಕ್ ಫ್ಲ್ಯಾಪ್‌ಗಳು ಮತ್ತು ನಿಖರವಾದ ಮಡಿಕೆ ಗುರುತುಗಳೊಂದಿಗೆ ಪ್ರಿಂಟ್-ರೆಡಿ, ಹೆಚ್ಚುವರಿ ಅಗಲದ ಕವರ್ PDF ಅನ್ನು ಸಂಕಲಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Set pages & stock type",
-        "description": "Input document page count and select the target paper stock specifications."
+        "title": "ಪುಟಗಳು ಮತ್ತು ಸ್ಟಾಕ್ ಪ್ರಕಾರವನ್ನು ಹೊಂದಿಸಿ",
+        "description": "ದಾಖಲೆಯ ಪುಟಗಳ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ ಮತ್ತು ಗುರಿಯ ಪೇಪರ್ ಸ್ಟಾಕ್ ವಿಶೇಷಣಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Input spine text",
-        "description": "Enter book titles, author details, and customize spine/cover backgrounds."
+        "title": "ಸ್ಪೈನ್ ಪಠ್ಯವನ್ನು ನಮೂದಿಸಿ",
+        "description": "ಪುಸ್ತಕದ ಶೀರ್ಷಿಕೆಗಳು, ಲೇಖಕರ ವಿವರಗಳನ್ನು ನಮೂದಿಸಿ ಮತ್ತು ಸ್ಪೈನ್/ಕವರ್ ಹಿನ್ನೆಲೆಗಳನ್ನು ಕಸ್ಟಮೈಸ್ ಮಾಡಿ."
       },
       {
         "step": 3,
-        "title": "3D Preview & Export",
-        "description": "Spin and inspect your book cover in an interactive 3D binder. Export high-resolution vector PDF."
+        "title": "3D ಮುನ್ನೋಟ ಮತ್ತು ರಫ್ತು",
+        "description": "ಇಂಟರಾಕ್ಟಿವ್ 3D ಬೈಂಡರ್‌ನಲ್ಲಿ ನಿಮ್ಮ ಪುಸ್ತಕದ ಕವರ್ ಅನ್ನು ತಿರುಗಿಸಿ ಮತ್ತು ಪರಿಶೀಲಿಸಿ. ಹೈ-ರೆಸಲ್ಯೂಶನ್ ವೆಕ್ಟರ್ PDF ಅನ್ನು ರಫ್ತು ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Thick Bidding Proposals",
-        "description": "Design professional cover sheets with precise spine crease alignments for thick tender bids.",
+        "title": "ದಪ್ಪನೆಯ ಬಿಡ್ಡಿಂಗ್ ಪ್ರಪೋಸಲ್‌ಗಳು",
+        "description": "ದಪ್ಪ ಟೆಂಡರ್ ಬಿಡ್‌ಗಳಿಗಾಗಿ ನಿಖರವಾದ ಸ್ಪೈನ್ ಕ್ರೀಸ್ ಜೋಡಣೆಗಳೊಂದಿಗೆ ವೃತ್ತಿಪರ ಕವರ್ ಶೀಟ್‌ಗಳನ್ನು ವಿನ್ಯಾಸಗೊಳಿಸಿ.",
         "icon": "layers"
       },
       {
-        "title": "Thesis Hardcover Binding",
-        "description": "Map out perfect spine layout widths for university master/doctorate degree theses.",
+        "title": "ಥೀಸಿಸ್ ಹಾರ್ಡ್‌ಕವರ್ ಬೈಂಡಿಂಗ್",
+        "description": "ವಿಶ್ವವಿದ್ಯಾನಿಲಯದ ಸ್ನಾತಕೋತ್ತರ/ಡಾಕ್ಟರೇಟ್ ಪದವಿ ಪ್ರಬಂಧಗಳಿಗಾಗಿ ಸೂಕ್ತವಾದ ಸ್ಪೈನ್ ಲೇಔಟ್ ಅಗಲಗಳನ್ನು ಯೋಜಿಸಿ.",
         "icon": "award"
       },
       {
-        "title": "Self-Publishing Novel Covers",
-        "description": "Calculate book spine width easily before submitting files to Print-on-Demand publishing services.",
+        "title": "ಸ್ವಯಂ-ಪ್ರಕಾಶನ ಕಾದಂಬರಿ ಕವರ್‌ಗಳು",
+        "description": "Print-on-Demand ಪ್ರಕಾಶನ ಸೇವೆಗಳಿಗೆ ಫೈಲ್‌ಗಳನ್ನು ಸಲ್ಲಿಸುವ ಮೊದಲು ಪುಸ್ತಕದ ಸ್ಪೈನ್ ಅಗಲವನ್ನು ಸುಲಭವಾಗಿ ಲೆಕ್ಕಹಾಕಿ.",
         "icon": "book-open"
       }
     ],
     "faq": [
       {
-        "question": "How accurate is the GSM paper-thickness calculation?",
-        "answer": "Highly accurate. Our physics library matches industry averages (e.g. 70 GSM = 0.09mm, 80 GSM = 0.10mm, 150 GSM glossy = 0.125mm). We also include a \"Double-sided printing\" toggle to halve calculations automatically."
+        "question": "GSM ಪೇಪರ್-ದಪ್ಪದ ಲೆಕ್ಕಾಚಾರವು ಎಷ್ಟು ನಿಖರವಾಗಿದೆ?",
+        "answer": "ಹೆಚ್ಚು ನಿಖರವಾಗಿದೆ. ನಮ್ಮ ಫಿಸಿಕ್ಸ್ ಲೈಬ್ರರಿಯು ಉದ್ಯಮದ ಸರಾಸರಿಗಳಿಗೆ ಅನುಗುಣವಾಗಿದೆ (ಉದಾ. 70 GSM = 0.09mm, 80 GSM = 0.10mm, 150 GSM ಗ್ಲೋಸಿ = 0.125mm). ಲೆಕ್ಕಾಚಾರಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಅರ್ಧದಷ್ಟು ಮಾಡಲು ನಾವು \"Double-sided printing\" ಟಾಗಲ್ ಅನ್ನು ಸಹ ಸೇರಿಸಿದ್ದೇವೆ."
       },
       {
-        "question": "Are the exported covers ready for direct printing?",
-        "answer": "Yes. The files are vector-perfect PDFs carrying standard registration marks, color bars, and spine guides, fully compliant with offset and digital commercial presses."
+        "question": "ರಫ್ತು ಮಾಡಲಾದ ಕವರ್‌ಗಳು ನೇರ ಮುದ್ರಣಕ್ಕೆ ಸಿದ್ಧವಾಗಿವೆಯೇ?",
+        "answer": "ಹೌದು. ಫೈಲ್‌ಗಳು ಪ್ರಮಾಣಿತ ನೋಂದಣಿ ಗುರುತುಗಳು, ಬಣ್ಣದ ಬಾರ್‌ಗಳು ಮತ್ತು ಸ್ಪೈನ್ ಮಾರ್ಗದರ್ಶಿಗಳನ್ನು ಹೊಂದಿರುವ ವೆಕ್ಟರ್-ಪರ್ಫೆಕ್ಟ್ PDF ಗಳಾಗಿವೆ, ಇವು ಆಫ್‌ಸೆಟ್ ಮತ್ತು ಡಿಜಿಟಲ್ ವಾಣಿಜ್ಯ ಪ್ರೆಸ್‌ಗಳಿಗೆ ಸಂಪೂರ್ಣವಾಗಿ ಬದ್ಧವಾಗಿವೆ."
       },
       {
-        "question": "Can I upload a background image spanning the spine?",
-        "answer": "Yes. You can upload custom layouts, and our compositor will wrap and align the graphics across the spine folds automatically."
+        "question": "ನಾನು ಸ್ಪೈನ್ ಅನ್ನು ಒಳಗೊಂಡಿರುವ ಹಿನ್ನೆಲೆ ಚಿತ್ರವನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಬಹುದೇ?",
+        "answer": "ಹೌದು. ನೀವು ಕಸ್ಟಮ್ ಲೇಔಟ್‌ಗಳನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಬಹುದು, ಮತ್ತು ನಮ್ಮ ಕಂಪೋಸಿಟರ್ ಗ್ರಫಿಕ್ಸ್ ಅನ್ನು ಸ್ಪೈನ್ ಮಡಿಕೆಗಳಾದ್ಯಂತ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ರ್ಯಾಪ್ ಮಾಡುತ್ತದೆ ಮತ್ತು ಜೋಡಿಸುತ್ತದೆ."
       }
     ]
   },
   "pdf-signature-anchor-helper": {
-    "title": "Signature Position Guide",
-    "metaDescription": "Automatically locate signature fields in contracts, and inject interactive hovering guides and anchors for quick signing.",
+    "title": "ಸಹಿ ಸ್ಥಾನದ ಮಾರ್ಗದರ್ಶಿ",
+    "metaDescription": "ಒಪ್ಪಂದಗಳಲ್ಲಿ ಸಹಿ ಕ್ಷೇತ್ರಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಪತ್ತೆಹಚ್ಚಿ, ಮತ್ತು ಕ್ಷಿಪ್ರವಾಗಿ ಸಹಿ ಮಾಡಲು ಇಂಟರಾಕ್ಟಿವ್ ಹೂವರಿಂಗ್ ಗೈಡ್‌ಗಳು ಮತ್ತು ಆಂಕರ್‌ಗಳನ್ನು ಸೇರಿಸಿ.",
     "keywords": [
       "locate signature pdf",
       "inject sign anchor",
@@ -7705,59 +7705,59 @@ export const toolContentKn: Record<string, ToolContent> = {
       "click to sign guide",
       "prevent missing signatures"
     ],
-    "description": "\n      <p>The PDF Signature Guide Injector guarantees clean, error-free signing workflows for multi-page agreements.</p>\n      <p>When sending multi-page NDA agreements, financial statements, or commercial leases, clients often miss critical signing boxes, requiring endless back-and-forth email loops and delayed business transactions.</p>\n      <p>Our tool uses <strong>natural regex semantic mapping</strong>. It scans the PDF character map to locate terms like <code>Signature:</code>, <code>签字：</code>, <code>Witness:</code>, or <code>签署日期：</code>. It then leverages <code>pdf-lib</code> to inject standard PDF interactive Link annotations. When opened in any standard reader, clients see blinking, neon-bordered arrows that instantly guide them to the correct boxes, making signing foolproof.</p>\n    ",
+    "description": "\n      <p>PDF Signature Guide Injector ಬಹು-ಪುಟಗಳ ಒಪ್ಪಂದಗಳಿಗೆ ಸ್ವಚ್ಛ, ದೋಷರಹಿತ ಸಹಿ ಮಾಡುವ ಕಾರ್ಯಪ್ರವಾಹಗಳನ್ನು ಖಾತರಿಪಡಿಸುತ್ತದೆ.</p>\n      <p>ಬಹು-ಪುಟಗಳ NDA ಒಪ್ಪಂದಗಳು, ಆರ್ಥಿಕ ಹೇಳಿಕೆಗಳು ಅಥವಾ ವಾಣಿಜ್ಯ ಗುತ್ತಿಗೆಗಳನ್ನು ಕಳುಹಿಸುವಾಗ, ಗ್ರಾಹಕರು ಹೆಚ್ಚಾಗಿ ನಿರ್ಣಾಯಕ ಸಹಿ ಬಾಕ್ಸ್‌ಗಳನ್ನು ತಪ್ಪಿಸಿಕೊಳ್ಳುತ್ತಾರೆ, ಇದು ಅಂತ್ಯವಿಲ್ಲದ ಇಮೇಲ್ ವಿನಿಮಯಗಳು ಮತ್ತು ವಿಳಂಬವಾದ ವ್ಯಾಪಾರ ವಹಿವಾಟುಗಳಿಗೆ ಕಾರಣವಾಗುತ್ತದೆ.</p>\n      <p>ನಮ್ಮ ಉಪಕರಣವು <strong>natural regex semantic mapping</strong> ಅನ್ನು ಬಳಸುತ್ತದೆ. ಇದು <code>Signature:</code>, <code>签字：</code>, <code>Witness:</code>, ಅಥವಾ <code>签署日期：</code> ನಂತಹ ಪದಗಳನ್ನು ಪತ್ತೆಹಚ್ಚಲು PDF ಕ್ಯಾರೆಕ್ಟರ್ ಮ್ಯಾಪ್ ಅನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡುತ್ತದೆ. ನಂತರ ಅದು ಪ್ರಮಾಣಿತ PDF ಇಂಟರಾಕ್ಟಿವ್ Link ಟಿಪ್ಪಣಿಗಳನ್ನು ಇಂಜೆಕ್ಟ್ ಮಾಡಲು <code>pdf-lib</code> ಅನ್ನು ಬಳಸುತ್ತದೆ. ಯಾವುದೇ ಪ್ರಮಾಣಿತ ರೀಡರ್‌ನಲ್ಲಿ ತೆರೆದಾಗ, ಗ್ರಾಹಕರು ಮಿಟುಕಿಸುವ, ನಿಯಾನ್-ಬಾರ್ಡರ್ ಇರುವ ಬಾಣದ ಗುರುತುಗಳನ್ನು ಕಾಣುತ್ತಾರೆ, ಅದು ಅವರನ್ನು ತಕ್ಷಣವೇ ಸರಿಯಾದ ಬಾಕ್ಸ್‌ಗಳಿಗೆ ಮಾರ್ಗದರ್ಶನ ಮಾಡುತ್ತದೆ, ಸಹಿ ಮಾಡುವುದನ್ನು ಸುಲಭಗೊಳಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Import business contract",
-        "description": "Upload the PDF contract or NDA that needs signature coordinates."
+        "title": "ವ್ಯಾಪಾರ ಒಪ್ಪಂದವನ್ನು ಆಮದು ಮಾಡಿ",
+        "description": "ಸಹಿ ನಿರ್ದೇಶಾಂಕಗಳ ಅಗತ್ಯವಿರುವ PDF ಒಪ್ಪಂದ ಅಥವಾ NDA ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Auto-scan signature slots",
-        "description": "Inspect the automatically located signing boxes, and manually add custom sign points if needed."
+        "title": "ಸಹಿ ಸ್ಲಾಟ್‌ಗಳನ್ನು ಸ್ವಯಂ-ಸ್ಕ್ಯಾನ್ ಮಾಡಿ",
+        "description": "ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಪತ್ತೆಯಾದ ಸಹಿ ಬಾಕ್ಸ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸಿ, ಮತ್ತು ಅಗತ್ಯವಿದ್ದರೆ ಕಸ್ಟಮ್ ಸಹಿ ಪಾಯಿಂಟ್‌ಗಳನ್ನು ಹಸ್ತಚಾಲಿತವಾಗಿ ಸೇರಿಸಿ."
       },
       {
         "step": 3,
-        "title": "Inject anchors & save",
-        "description": "Click execute to write the interactive pointer layers into the PDF structure."
+        "title": "ಆಂಕರ್‌ಗಳನ್ನು ಇಂಜೆಕ್ಟ್ ಮಾಡಿ ಮತ್ತು ಉಳಿಸಿ",
+        "description": "PDF ರಚನೆಗೆ ಇಂಟರಾಕ್ಟಿವ್ ಪಾಯಿಂಟರ್ ಲೇಯರ್‌ಗಳನ್ನು ಬರೆಯಲು ಕಾರ್ಯಗತಗೊಳಿಸಿ ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Corporate NDA Agreements",
-        "description": "Inject clear, flashing guides next to sign blocks to prevent onboarding employees from missing clauses.",
+        "title": "ಕಾರ್ಪೊರೇಟ್ NDA ಒಪ್ಪಂದಗಳು",
+        "description": "ಸೇರ್ಪಡೆಗೊಳ್ಳುವ ಉದ್ಯೋಗಿಗಳು ನಿಯಮಗಳನ್ನು ತಪ್ಪಿಸುವುದನ್ನು ತಡೆಯಲು ಸಹಿ ಬ್ಲಾಕ್‌ಗಳ ಪಕ್ಕದಲ್ಲಿ ಸ್ಪಷ್ಟವಾದ, ಮಿಟುಕಿಸುವ ಮಾರ್ಗದರ್ಶಿಗಳನ್ನು ಸೇರಿಸಿ.",
         "icon": "file-text"
       },
       {
-        "title": "Commercial Lease Contracts",
-        "description": "Guide multiple co-signers through multi-page real estate documents with custom-colored tabs.",
+        "title": "ವಾಣಿಜ್ಯ ಗುತ್ತಿಗೆ ಒಪ್ಪಂದಗಳು",
+        "description": "ಕಸ್ಟಮ್-ಬಣ್ಣದ ಟ್ಯಾಬ್‌ಗಳೊಂದಿಗೆ ಬಹು-ಪುಟಗಳ ರಿಯಲ್ ಎಸ್ಟೇಟ್ ದಾಖಲೆಗಳ ಮೂಲಕ ಜಂಟಿ-ಸಹಿ ಮಾಡುವವರನ್ನು ಹಂತ-ಹಂತವಾಗಿ ಮಾರ್ಗದರ್ಶನ ಮಾಡಿ.",
         "icon": "users"
       },
       {
-        "title": "Procurement PO Signatures",
-        "description": "Overlay interactive pointers on invoices and purchase orders to accelerate accounting approval loops.",
+        "title": "Procurement PO ಸಹಿಗಳು",
+        "description": "ಲೆಕ್ಕಪತ್ರ ಅನುಮೋದನೆ ಪ್ರಕ್ರಿಯೆಗಳನ್ನು ವೇಗಗೊಳಿಸಲು ಇನ್‌ವಾಯ್ಸ್‌ಗಳು ಮತ್ತು ಖರೀದಿ ಆದೇಶಗಳ ಮೇಲೆ ಇಂಟರಾಕ್ಟಿವ್ ಪಾಯಿಂಟರ್‌ಗಳನ್ನು ಒವರ್‌ಲೇ ಮಾಡಿ.",
         "icon": "briefcase"
       }
     ],
     "faq": [
       {
-        "question": "Will these guides appear when I print the contract?",
-        "answer": "No. The anchors are injected with the standard PDF `Printable` flag set to false. They display beautifully on computer/tablet screens but remain completely invisible when printed."
+        "question": "ನಾನು ಒಪ್ಪಂದವನ್ನು ಪ್ರಿಂಟ್ ಮಾಡಿದಾಗ ಈ ಗೈಡ್‌ಗಳು ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತವೆಯೇ?",
+        "answer": "ಇಲ್ಲ. ಆಂಕರ್‌ಗಳನ್ನು ಫಾಲ್ಸ್ (false) ಗೆ ಹೊಂದಿಸಲಾದ ಪ್ರಮಾಣಿತ PDF `Printable` ಫ್ಲ್ಯಾಗ್‌ನೊಂದಿಗೆ ಇಂಜೆಕ್ಟ್ ಮಾಡಲಾಗುತ್ತದೆ. ಅವು ಕಂಪ್ಯೂಟರ್/ಟ್ಯಾಬ್ಲೆಟ್ ಪರದೆಗಳಲ್ಲಿ ಸುಂದರವಾಗಿ ಕಾಣಿಸುತ್ತವೆ ಆದರೆ ಪ್ರಿಂಟ್ ಮಾಡಿದಾಗ ಸಂಪೂರ್ಣವಾಗಿ ಅದೃಶ್ಯವಾಗಿರುತ್ತವೆ."
       },
       {
-        "question": "Can clients jump between signature fields easily?",
-        "answer": "Yes. We weave bidirectional internal anchors. Clients can click the \"Sign Guide\" bookmark to automatically jump to the next empty signature slot instantly."
+        "question": "ಗ್ರಾಹಕರು ಸಹಿ ಕ್ಷೇತ್ರಗಳ ನಡುವೆ ಸುಲಭವಾಗಿ ಜಂಪ್ ಮಾಡಬಹುದೇ?",
+        "answer": "ಹೌದು. ನಾವು ದ್ವಿಮುಖ ಆಂತರಿಕ ಆಂಕರ್‌ಗಳನ್ನು ಹೆಣೆಯುತ್ತೇವೆ. ಮುಂದಿನ ಖಾಲಿ ಸಹಿ ಜಾಗಕ್ಕೆ ತಕ್ಷಣವೇ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಜಂಪ್ ಮಾಡಲು ಗ್ರಾಹಕರು \"Sign Guide\" ಬುಕ್‌ಮಾರ್ಕ್ ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಬಹುದು."
       },
       {
-        "question": "Does this work on scanned image documents?",
-        "answer": "Yes. Besides looking up text streams, our spatial layout parser estimates signature lines based on horizontal rules and bounding boxes on scanned sheets."
+        "question": "ಇದು ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ಚಿತ್ರದ ದಾಖಲೆಗಳಲ್ಲಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆಯೇ?",
+        "answer": "ಹೌದು. ಪಠ್ಯ ಸ್ಟ್ರೀಮ್‌ಗಳನ್ನು ಹುಡುಕುವುದರ ಜೊತೆಗೆ, ನಮ್ಮ ಸ್ಪೇಷಿಯಲ್ ಲೇಔಟ್ ಪಾರ್ಸರ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ಹಾಳೆಗಳಲ್ಲಿನ ಅಡ್ಡ ರೇಖೆಗಳು ಮತ್ತು ಬೌಂಡಿಂಗ್ ಬಾಕ್ಸ್‌ಗಳ ಆಧಾರದ ಮೇಲೆ ಸಹಿ ರೇಖೆಗಳನ್ನು ಅಂದಾಜಿಸುತ್ತದೆ."
       }
     ]
   },
   "pdf-lossless-slicer": {
-    "title": "Lossless Drawing Slicing",
-    "metaDescription": "Extract a partial region of large PDF CAD drawings, maps, or charts at a low-level, keeping vector resolution intact while dropping file size.",
+    "title": "ಲಾಸ್‌ಲೆಸ್ ಡ್ರಾಯಿಂಗ್ ಸ್ಲೈಸಿಂಗ್",
+    "metaDescription": "ಫೈಲ್ ಗಾತ್ರವನ್ನು ಕಡಿಮೆ ಮಾಡುವಾಗ ವೆಕ್ಟರ್ ರೆಸಲ್ಯೂಶನ್ ಅನ್ನು ಹಾಗೆಯೇ ಉಳಿಸಿಕೊಂಡು, ದೊಡ್ಡ PDF CAD ಡ್ರಾಯಿಂಗ್‌ಗಳು, ನಕ್ಷೆಗಳು ಅಥವಾ ಚಾರ್ಟ್‌ಗಳ ಭಾಗಶಃ ಪ್ರದೇಶವನ್ನು ಲೋ-ಲೆವೆಲ್‌ನಲ್ಲಿ ಎಕ್ಸ್‌ಟ್ರಾಕ್ಟ್ ಮಾಡಿ.",
     "keywords": [
       "pdf vector crop",
       "lossless pdf slice",
@@ -7765,59 +7765,59 @@ export const toolContentKn: Record<string, ToolContent> = {
       "cropbox matrix edit",
       "extract map region"
     ],
-    "description": "\n      <p>The PDF Lossless Drawing Slicer is a high-precision, surgical tool built for architects, engineers, and map detailers.</p>\n      <p>When extracting a specific pump room or chip core from a massive CAD engineering blueprint or geographic map PDF, traditional screenshots result in pixelated, blurry text. Normal cropping tools simply place a mask over the sheet, meaning the massive 100MB file remains huge, and hidden content can still be extracted.</p>\n      <p>This tool edits the page <code>/MediaBox</code>, <code>/CropBox</code>, and <code>/BleedBox</code> matrices at the object tree level. It physically isolates vector nodes outside the selected region, keeping the target area 100% vector-perfect (allowing infinite zoom magnification) while purging redundant off-screen paths and images to shrink the file size by 95%!</p>\n    ",
+    "description": "\n      <p>PDF Lossless Drawing Slicer ಎಂಬುದು ವಾಸ್ತುಶಿಲ್ಪಿಗಳು, ಎಂಜಿನಿಯರ್‌ಗಳು ಮತ್ತು ನಕ್ಷೆ ವಿವರಣೆಗಾರರಿಗಾಗಿ ನಿರ್ಮಿಸಲಾದ ಉನ್ನತ-ನಿಖರತೆಯ ಸರ್ಜಿಕಲ್ ಟೂಲ್ ಆಗಿದೆ.</p>\n      <p>ದೊಡ್ಡ CAD ಎಂಜಿನಿಯರಿಂಗ್ ಬ್ಲೂಪ್ರಿಂಟ್ ಅಥವಾ ಭೌಗೋಳಿಕ ನಕ್ಷೆಯ PDF ನಿಂದ ನಿರ್ದಿಷ್ಟ ಪಂಪ್ ರೂಮ್ ಅಥವಾ ಚಿಪ್ ಕೋರ್ ಅನ್ನು ಎಕ್ಸ್‌ಟ್ರಾಕ್ಟ್ ಮಾಡುವಾಗ, ಸಾಂಪ್ರದಾಯಿಕ ಸ್ಕ್ರೀನ್‌ಶಾಟ್‌ಗಳು ಪಿಕ್ಸಲೇಟೆಡ್, ಮಸುಕಾದ ಪಠ್ಯಕ್ಕೆ ಕಾರಣವಾಗುತ್ತವೆ. ಸಾಮಾನ್ಯ ಕ್ರಾಪಿಂಗ್ ಟೂಲ್‌ಗಳು ಹಾಳೆಯ ಮೇಲೆ ಸರಳವಾಗಿ ಮಾಸ್ಕ್ ಅನ್ನು ಇರಿಸುತ್ತವೆ, ಅಂದರೆ ದೊಡ್ಡ 100MB ಫೈಲ್ ಅಷ್ಟೇ ದೊಡ್ಡದಾಗಿ ಉಳಿಯುತ್ತದೆ ಮತ್ತು ಮರೆಮಾಡಿದ ವಿಷಯವನ್ನು ಇನ್ನೂ ಎಕ್ಸ್‌ಟ್ರಾಕ್ಟ್ ಮಾಡಬಹುದು.</p>\n      <p>ಈ ಉಪಕರಣವು ಆಬ್ಜೆಕ್ಟ್ ಟ್ರೀ ಹಂತದಲ್ಲಿ ಪುಟದ <code>/MediaBox</code>, <code>/CropBox</code>, ಮತ್ತು <code>/BleedBox</code> ಮ್ಯಾಟ್ರಿಕ್ಸ್‌ಗಳನ್ನು ಎಡಿಟ್ ಮಾಡುತ್ತದೆ. ಇದು ಆಯ್ಕೆಮಾಡಿದ ಪ್ರದೇಶದ ಹೊರಗಿನ ವೆಕ್ಟರ್ ನೋಡ್‌ಗಳನ್ನು ಭೌತಿಕವಾಗಿ ಪ್ರತ್ಯೇಕಿಸುತ್ತದೆ, ಫೈಲ್ ಗಾತ್ರವನ್ನು 95% ರಷ್ಟು ಕುಗ್ಗಿಸಲು ಅನಗತ್ಯ ಆಫ್-ಸ್ಕ್ರೀನ್ ಪಾತ್‌ಗಳು ಮತ್ತು ಚಿತ್ರಗಳನ್ನು ತೆಗೆದುಹಾಕುವಾಗ ಟಾರ್ಗೆಟ್ ಪ್ರದೇಶವನ್ನು 100% ವೆಕ್ಟರ್-ಪರ್ಫೆಕ್ಟ್ ಆಗಿ (ಅನಂತ ಝೂಮ್ ವರ್ಧನೆಗೆ ಅವಕಾಶ ನೀಡುತ್ತದೆ) ಇರಿಸುತ್ತದೆ!</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Import large blueprint",
-        "description": "Upload the vector-rich CAD, GIS map, or high-resolution catalog PDF."
+        "title": "ದೊಡ್ಡ ಬ್ಲೂಪ್ರಿಂಟ್ ಅನ್ನು ಇಂಪೋರ್ಟ್ ಮಾಡಿ",
+        "description": "ವೆಕ್ಟರ್-ರಿಚ್ CAD, GIS ನಕ್ಷೆ, ಅಥವಾ ಉನ್ನತ-ರೆಸಲ್ಯೂಶನ್ ಕೆಟಲಾಗ್ PDF ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Draw cutting box",
-        "description": "Drag and scale the green laser-line crop box to target the local region you want to slice."
+        "title": "ಕಟಿಂಗ್ ಬಾಕ್ಸ್ ಬಿಡಿಸಿ",
+        "description": "ನೀವು ಸ್ಲೈಸ್ ಮಾಡಲು ಬಯಸುವ ಸ್ಥಳೀಯ ಪ್ರದೇಶವನ್ನು ಟಾರ್ಗೆಟ್ ಮಾಡಲು ಹಸಿರು ಲೇಸರ್-ಲೈನ್ ಕ್ರಾಪ್ ಬಾಕ್ಸ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮಾಡಿ ಮತ್ತು ಸ್ಕೇಲ್ ಮಾಡಿ."
       },
       {
         "step": 3,
-        "title": "Trigger laser crop",
-        "description": "Click execute to trigger our low-level object slicer and download the tiny, lossless PDF."
+        "title": "ಲೇಸರ್ ಕ್ರಾಪ್ ಅನ್ನು ಪ್ರಚೋದಿಸಿ",
+        "description": "ನಮ್ಮ ಲೋ-ಲೆವೆಲ್ ಆಬ್ಜೆಕ್ಟ್ ಸ್ಲೈಸರ್ ಅನ್ನು ಪ್ರಚೋದಿಸಲು ಎಕ್ಸಿಕ್ಯೂಟ್ ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ಸಣ್ಣ, ಲಾಸ್‌ಲೆಸ್ PDF ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "CAD Blueprint Isolation",
-        "description": "Slice out a \"cooling system\" detail from a massive 100MB floor plan blueprint to share with sub-contractors.",
+        "title": "CAD ಬ್ಲೂಪ್ರಿಂಟ್ ಐಸೊಲೇಶನ್",
+        "description": "ಸಬ್-ಕಾಂಟ್ರಾಕ್ಟರ್‌ಗಳೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಲು ಬೃಹತ್ 100MB ಫ್ಲೋರ್ ಪ್ಲಾನ್ ಬ್ಲೂಪ್ರಿಂಟ್‌ನಿಂದ \"ಕೂಲಿಂಗ್ ಸಿಸ್ಟಮ್\" ವಿವರವನ್ನು ಸ್ಲೈಸ್ ಮಾಡಿ ತೆಗೆಯಿರಿ.",
         "icon": "crop"
       },
       {
-        "title": "GIS Map Snipping",
-        "description": "Extract a lossless, vector-clear block of a city street map for a presentation slide without resolution loss.",
+        "title": "GIS ನಕ್ಷೆ ಸ್ನಿಪ್ಪಿಂಗ್",
+        "description": "ರೆಸಲ್ಯೂಶನ್ ನಷ್ಟವಿಲ್ಲದೆ ಪ್ರಸ್ತುತಿ ಸ್ಲೈಡ್‌ಗಾಗಿ ನಗರದ ರಸ್ತೆ ನಕ್ಷೆಯ ಲಾಸ್‌ಲೆಸ್, ವೆಕ್ಟರ್-ಸ್ಪಷ್ಟ ಬ್ಲಾಕ್ ಅನ್ನು ಎಕ್ಸ್‌ಟ್ರಾಕ್ಟ್ ಮಾಡಿ.",
         "icon": "map"
       },
       {
-        "title": "Manual Illustration Tracing",
-        "description": "Lossless isolate scientific book figures to embed into high-quality academic papers.",
+        "title": "ಮ್ಯಾನುಯಲ್ ಇಲಸ್ಟ್ರೇಶನ್ ಟ್ರೇಸಿಂಗ್",
+        "description": "ಉನ್ನತ ಗುಣಮಟ್ಟದ ಶೈಕ್ಷಣಿಕ ಪ್ರಬಂಧಗಳಲ್ಲಿ ಎಂಬೆಡ್ ಮಾಡಲು ವೈಜ್ಞಾನಿಕ ಪುಸ್ತಕದ ಚಿತ್ರಗಳನ್ನು ಲಾಸ್‌ಲೆಸ್ ಪ್ರತ್ಯೇಕಿಸಿ.",
         "icon": "image"
       }
     ],
     "faq": [
       {
-        "question": "How is this different from standard cropping?",
-        "answer": "Standard cropping merely adjusts visual bounds; the hidden vectors remain in the file. Our slicer trims overlapping vector paths and purges out-of-bounds XObject images, ensuring complete data isolation and maximum file compression."
+        "question": "ಇದು ಸಾಂಪ್ರದಾಯಿಕ ಕ್ರಾಪಿಂಗ್‌ಗಿಂತ ಹೇಗೆ ಭಿನ್ನವಾಗಿದೆ?",
+        "answer": "ಸಾಮಾನ್ಯ ಕ್ರಾಪಿಂಗ್ ದೃಶ್ಯ ಗಡಿಗಳನ್ನು ಮಾತ್ರ ಹೊಂದಿಸುತ್ತದೆ; ಮರೆಮಾಡಲಾದ ವೆಕ್ಟರ್‌ಗಳು ಫೈಲ್‌ನಲ್ಲಿಯೇ ಉಳಿಯುತ್ತವೆ. ನಮ್ಮ ಸ್ಲೈಸರ್ ಓವರ್‌ಲ್ಯಾಪಿಂಗ್ ವೆಕ್ಟರ್ ಪಾತ್‌ಗಳನ್ನು ಟ್ರಿಮ್ ಮಾಡುತ್ತದೆ ಮತ್ತು ಗಡಿಯ ಹೊರಗಿನ XObject ಚಿತ್ರಗಳನ್ನು ತೆಗೆದುಹಾಕುತ್ತದೆ, ಇದು ಸಂಪೂರ್ಣ ಡೇಟಾ ಪ್ರತ್ಯೇಕತೆ ಮತ್ತು ಗರಿಷ್ಠ ಫೈಲ್ ಕಂಪ್ರೆಶನ್ ಅನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ."
       },
       {
-        "question": "Will text layers remain searchable?",
-        "answer": "Yes. Any text characters that fall inside the sliced boundary remain fully vector-clear, searchable, and selectable."
+        "question": "ಪಠ್ಯ ಪದರಗಳು ಹುಡುಕಬಹುದಾದ ರೀತಿಯಲ್ಲಿ ಉಳಿಯುತ್ತವೆಯೇ?",
+        "answer": "ಹೌದು. ಸ್ಲೈಸ್ ಮಾಡಿದ ಗಡಿಯೊಳಗೆ ಬೀಳುವ ಯಾವುದೇ ಪಠ್ಯ ಅಕ್ಷರಗಳು ಸಂಪೂರ್ಣವಾಗಿ ವೆಕ್ಟರ್-ಸ್ಪಷ್ಟವಾಗಿ, ಹುಡುಕಬಹುದಾದ ಮತ್ತು ಆಯ್ಕೆಮಾಡಬಹುದಾದ ರೀತಿಯಲ್ಲಿ ಉಳಿಯುತ್ತವೆ."
       },
       {
-        "question": "Can I export sliced regions to SVG?",
-        "answer": "The output is a standardized vector PDF. You can pass the resulting file to our PDF-to-SVG tool to convert it to a web-scalable vector graphics format."
+        "question": "ನಾನು ಸ್ಲೈಸ್ ಮಾಡಿದ ಪ್ರದೇಶಗಳನ್ನು SVG ಗೆ ಎಕ್ಸ್‌ಪೋರ್ಟ್ ಮಾಡಬಹುದೇ?",
+        "answer": "ಔಟ್‌ಪುಟ್ ಪ್ರಮಾಣಿತ ವೆಕ್ಟರ್ PDF ಆಗಿದೆ. ಇದನ್ನು ವೆಬ್-ಸ್ಕೇಲೆಬಲ್ ವೆಕ್ಟರ್ ಗ್ರಾಫಿಕ್ಸ್ ಫಾರ್ಮ್ಯಾಟ್‌ಗೆ ಪರಿವರ್ತಿಸಲು ನೀವು ಫಲಿತಾಂಶದ ಫೈಲ್ ಅನ್ನು ನಮ್ಮ PDF-to-SVG ಟೂಲ್‌ಗೆ ಒದಗಿಸಬಹುದು."
       }
     ]
   },
   "pdf-scratchpad-canvas": {
-    "title": "Grid Scratchpad Canvas",
-    "metaDescription": "Stitch high-quality grid, ruled, or Cornell note-taking margins to PDF pages for formula derivations and exam note preparation.",
+    "title": "ಗ್ರಿಡ್ ಸ್ಕ್ರ್ಯಾಚ್‌ಪ್ಯಾಡ್ ಕ್ಯಾನ್ವಾಸ್",
+    "metaDescription": "ಫಾರ್ಮುಲಾ ನಿರೂಪಣೆಗಳು ಮತ್ತು ಪರೀಕ್ಷಾ ಟಿಪ್ಪಣಿಗಳ ತಯಾರಿಗಾಗಿ PDF ಪುಟಗಳಿಗೆ ಉತ್ತಮ ಗುಣಮಟ್ಟದ ಗ್ರಿಡ್, ರೂಲ್ಡ್, ಅಥವಾ ಕಾರ್ನೆಲ್ ಟಿಪ್ಪಣಿ-ತೆಗೆದುಕೊಳ್ಳುವ ಮಾರ್ಜಿನ್‌ಗಳನ್ನು ಸೇರಿಸಿ.",
     "keywords": [
       "pdf margin expand",
       "add scratchpad page",
@@ -7825,59 +7825,59 @@ export const toolContentKn: Record<string, ToolContent> = {
       "stitch draft space",
       "pdf notes template"
     ],
-    "description": "\n      <p>The PDF Scratchpad Margin Extender is an essential study companion tailored for students, researchers, and professional exam candidates.</p>\n      <p>When solving practice test papers, reviewing slides, or reading academic textbooks on digital tablets, page margins are incredibly tight. Opening a separate notes app forces you to toggle screens constantly, breaking focus. Adding flat blank sheets prevents you from viewing the problem and your calculation side-by-side.</p>\n      <p>This tool rewrites page width or height dimensions in the low-level PDF structure, expanding <code>/MediaBox</code> margins by 200~250 pt on the right or bottom. It then overlays clean grid lines, college-ruled notebook lines, or Cornell layouts in the new margins, giving you dedicated, adjacent draft boards next to every single slide or question!</p>\n    ",
+    "description": "\n      <p>PDF Scratchpad Margin Extender ಎಂಬುದು ವಿದ್ಯಾರ್ಥಿಗಳು, ಸಂಶೋಧಕರು ಮತ್ತು ವೃತ್ತಿಪರ ಪರೀಕ್ಷಾ ಅಭ್ಯರ್ಥಿಗಳಿಗಾಗಿ ವಿನ್ಯಾಸಗೊಳಿಸಲಾದ ಅತ್ಯಗತ್ಯ ಅಧ್ಯಯನ ಸಂಗಾತಿಯಾಗಿದೆ.</p>\n      <p>ಡಿಜಿಟಲ್ ಟ್ಯಾಬ್ಲೆಟ್‌ಗಳಲ್ಲಿ ಅಭ್ಯಾಸ ಪರೀಕ್ಷಾ ಪೇಪರ್‌ಗಳನ್ನು ಬಿಡಿಸುವಾಗ, ಸ್ಲೈಡ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸುವಾಗ ಅಥವಾ ಶೈಕ್ಷಣಿಕ ಪಠ್ಯಪುಸ್ತಕಗಳನ್ನು ಓದುವಾಗ, ಪುಟದ ಮಾರ್ಜಿನ್‌ಗಳು ಅತ್ಯಂತ ಕಿರಿದಾಗಿರುತ್ತವೆ. ಪ್ರತ್ಯೇಕ ಟಿಪ್ಪಣಿಗಳ ಅಪ್ಲಿಕೇಶನ್ ತೆರೆಯುವುದರಿಂದ ನೀವು ನಿರಂತರವಾಗಿ ಸ್ಕ್ರೀನ್‌ಗಳನ್ನು ಟಾಗಲ್ ಮಾಡಬೇಕಾಗುತ್ತದೆ, ಇದು ಏಕಾಗ್ರತೆಯನ್ನು ಭಂಗಗೊಳಿಸುತ್ತದೆ. ಬರೀ ಖಾಲಿ ಹಾಳೆಗಳನ್ನು ಸೇರಿಸುವುದರಿಂದ ಸಮಸ್ಯೆ ಮತ್ತು ನಿಮ್ಮ ಲೆಕ್ಕಾಚಾರವನ್ನು ಪಕ್ಕಪಕ್ಕದಲ್ಲಿ ವೀಕ್ಷಿಸಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ.</p>\n      <p>ಈ ಉಪಕರಣವು ಲೋ-ಲೆವೆಲ್ PDF ರಚನೆಯಲ್ಲಿ ಪುಟದ ಅಗಲ ಅಥವಾ ಎತ್ತರದ ಆಯಾಮಗಳನ್ನು ಮರುಬರೆಯುತ್ತದೆ, ಬಲ ಅಥವಾ ಕೆಳಭಾಗದಲ್ಲಿ <code>/MediaBox</code> ಮಾರ್ಜಿನ್‌ಗಳನ್ನು 200~250 pt ವಿಸ್ತರಿಸುತ್ತದೆ. ನಂತರ ಇದು ಹೊಸ ಮಾರ್ಜಿನ್‌ಗಳಲ್ಲಿ ಸ್ವಚ್ಛವಾದ ಗ್ರಿಡ್ ಲೈನ್‌ಗಳು, ಕಾಲೇಜು-ರೂಲ್ಡ್ ನೋಟ್‌ಬುಕ್ ಲೈನ್‌ಗಳು ಅಥವಾ ಕಾರ್ನೆಲ್ ಲೇಔಟ್‌ಗಳನ್ನು ಓವರ್‌ಲೇ ಮಾಡುತ್ತದೆ, ಪ್ರತಿಯೊಂದು ಸ್ಲೈಡ್ ಅಥವಾ ಪ್ರಶ್ನೆಯ ಪಕ್ಕದಲ್ಲೇ ನಿಮಗೆ ಮೀಸಲಾದ ಡ್ರಾಫ್ಟ್ ಬೋರ್ಡ್‌ಗಳನ್ನು ನೀಡುತ್ತದೆ!</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload lecture slides",
-        "description": "Provide the PDF textbook, slides, or study papers."
+        "title": "ಉಪನ್ಯಾಸದ ಸ್ಲೈಡ್‌ಗಳನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "PDF ಪಠ್ಯಪುಸ್ತಕ, ಸ್ಲೈಡ್‌ಗಳು ಅಥವಾ ಅಧ್ಯಯನ ಪೇಪರ್‌ಗಳನ್ನು ಒದಗಿಸಿ."
       },
       {
         "step": 2,
-        "title": "Choose margin & grid style",
-        "description": "Pick margin expansion direction (e.g. right side for tablets) and select the grid template."
+        "title": "ಮಾರ್ಜಿನ್ ಮತ್ತು ಗ್ರಿಡ್ ಶೈಲಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+        "description": "ಮಾರ್ಜಿನ್ ವಿಸ್ತರಣೆಯ ದಿಕ್ಕನ್ನು ಆಯ್ಕೆಮಾಡಿ (ಉದಾ. ಟ್ಯಾಬ್ಲೆಟ್‌ಗಳಿಗಾಗಿ ಬಲಭಾಗ) ಮತ್ತು ಗ್ರಿಡ್ ಟೆಂಪ್ಲೇಟ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ."
       },
       {
         "step": 3,
-        "title": "Stitch canvas & download",
-        "description": "Click execute to generate expanded pages complete with beautiful draft grids."
+        "title": "ಕ್ಯಾನ್ವಾಸ್ ಸೇರಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ಸುಂದರವಾದ ಡ್ರಾಫ್ಟ್ ಗ್ರಿಡ್‌ಗಳೊಂದಿಗೆ ವಿಸ್ತರಿಸಿದ ಪುಟಗಳನ್ನು ರಚಿಸಲು ಎಕ್ಸಿಕ್ಯೂಟ್ ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "STEM Exam Preparation",
-        "description": "Stitch grid margins next to math and physics exam questions, solving derivations right next to the question.",
+        "title": "STEM ಪರೀಕ್ಷಾ ತಯಾರಿ",
+        "description": "ಗಣಿತ ಮತ್ತು ಭೌತಶಾಸ್ತ್ರದ ಪರೀಕ್ಷಾ ಪ್ರಶ್ನೆಗಳ ಪಕ್ಕದಲ್ಲಿ ಗ್ರಿಡ್ ಮಾರ್ಜಿನ್‌ಗಳನ್ನು ಸೇರಿಸಿ, ಪ್ರಶ್ನೆಯ ಪಕ್ಕದಲ್ಲೇ ಲೆಕ್ಕಾಚಾರಗಳನ್ನು ಬಿಡಿಸಿ.",
         "icon": "edit-3"
       },
       {
-        "title": "Language Reading Analysis",
-        "description": "Add ruled notebook margins next to foreign language essays for vocabulary analysis and paragraph translation.",
+        "title": "ಭಾಷಾ ವಾಚನ ವಿಶ್ಲೇಷಣೆ",
+        "description": "ಪದಕೋಶ ವಿಶ್ಲೇಷಣೆ ಮತ್ತು ಪ್ಯಾರಾಗ್ರಾಫ್ ಅನುವಾದಕ್ಕಾಗಿ ವಿದೇಶಿ ಭಾಷೆಯ ಪ್ರಬಂಧಗಳ ಪಕ್ಕದಲ್ಲಿ ರೂಲ್ಡ್ ನೋಟ್‌ಬುಕ್ ಮಾರ್ಜಿನ್‌ಗಳನ್ನು ಸೇರಿಸಿ.",
         "icon": "book"
       },
       {
-        "title": "Architectural Blueprint Audit",
-        "description": "Add empty margin spaces on the side of blueprints for engineering calculations and client review comments.",
+        "title": "ವಾಸ್ತುಶಿಲ್ಪ ಬ್ಲೂಪ್ರಿಂಟ್ ಪರಿಶೀಲನೆ",
+        "description": "ಎಂಜಿನಿಯರಿಂಗ್ ಲೆಕ್ಕಾಚಾರಗಳು ಮತ್ತು ಗ್ರಾಹಕರ ವಿಮರ್ಶೆ ಕಾಮೆಂಟ್‌ಗಳಿಗಾಗಿ ಬ್ಲೂಪ್ರಿಂಟ್‌ಗಳ ಬದಿಯಲ್ಲಿ ಖಾಲಿ ಮಾರ್ಜಿನ್ ಜಾಗಗಳನ್ನು ಸೇರಿಸಿ.",
         "icon": "columns"
       }
     ],
     "faq": [
       {
-        "question": "Will this squish my original PDF text?",
-        "answer": "Not at all. The algorithm expands the paper dimension outwards. The original content retains its layout, fonts, and resolution; we simply stretch the white space on the borders and draw grids on them."
+        "question": "ಇದು ನನ್ನ ಮೂಲ PDF ಪಠ್ಯವನ್ನು ಕುಗ್ಗಿಸುತ್ತದೆಯೇ?",
+        "answer": "ಖಂಡಿತವಾಗಿಯೂ ಇಲ್ಲ. ಅಲ್ಗಾರಿದಮ್ ಕಾಗದದ ಆಯಾಮವನ್ನು ಹೊರಮುಖವಾಗಿ ವಿಸ್ತರಿಸುತ್ತದೆ. ಮೂಲ ವಿಷಯವು ತನ್ನ ಲೇಔಟ್, ಫಾಂಟ್‌ಗಳು ಮತ್ತು ರೆಸಲ್ಯೂಶನ್ ಅನ್ನು ಉಳಿಸಿಕೊಳ್ಳುತ್ತದೆ; ನಾವು ಸರಳವಾಗಿ ಅಂಚುಗಳಲ್ಲಿನ ಬಿಳಿ ಜಾಗವನ್ನು ವಿಸ್ತರಿಸುತ್ತೇವೆ ಮತ್ತು ಅವುಗಳ ಮೇಲೆ ಗ್ರಿಡ್‌ಗಳನ್ನು ಬಿಡಿಸುತ್ತೇವೆ."
       },
       {
-        "question": "Can standard hand-writing pens write in the scratchpad?",
-        "answer": "Yes. The new PDF pages are compiled natively. Popular tablet note-taking applications like Goodnotes, Notability, Xodo, and Acrobat can write, highlight, and doodle directly in the new grid space."
+        "question": "ಸಾಮಾನ್ಯ ಹ್ಯಾಂಡ್‌ರೈಟಿಂಗ್ ಪೆನ್‌ಗಳು ಸ್ಕ್ರ್ಯಾಚ್‌ಪ್ಯಾಡ್‌ನಲ್ಲಿ ಬರೆಯಬಹುದೇ?",
+        "answer": "ಹೌದು. ಹೊಸ PDF ಪುಟಗಳನ್ನು ನೇಟಿವ್ ಆಗಿ ಕಾಂಪೈಲ್ ಮಾಡಲಾಗುತ್ತದೆ. Goodnotes, Notability, Xodo ಮತ್ತು Acrobat ನಂತಹ ಜನಪ್ರಿಯ ಟ್ಯಾಬ್ಲೆಟ್ ನೋಟ್-ಟೇಕಿಂಗ್ ಅಪ್ಲಿಕೇಶನ್‌ಗಳು ಹೊಸ ಗ್ರಿಡ್ ಜಾಗದಲ್ಲಿ ನೇರವಾಗಿ ಬರೆಯಬಹುದು, ಹೈಲೈಟ್ ಮಾಡಬಹುದು ಮತ್ತು ಡೂಡಲ್ ಮಾಡಬಹುದು."
       },
       {
-        "question": "Are grid lines dark and distracting?",
-        "answer": "We curated three subtle, eye-friendly colors (soft blue-gray, warm brown, and glowing green). The lines are thin and gentle, serving as guides without distracting you from the original page content."
+        "question": "ಗ್ರಿಡ್ ಲೈನ್‌ಗಳು ಗಾಢವಾಗಿದ್ದು ಏಕಾಗ್ರತೆಗೆ ಭಂಗ ತರುತ್ತವೆಯೇ?",
+        "answer": "ನಾವು ಮೂರು ಸೂಕ್ಷ್ಮ, ಕಣ್ಣಿಗೆ ಮುದ ನೀಡುವ ಬಣ್ಣಗಳನ್ನು (ಮೃದುವಾದ ನೀಲಿ-ಬೂದು, ಬೆಚ್ಚಗಿನ ಕಂದು, ಮತ್ತು ಹೊಳೆಯುವ ಹಸಿರು) ಆಯ್ಕೆ ಮಾಡಿದ್ದೇವೆ. ರೇಖೆಗಳು ತೆಳುವಾಗಿ ಮತ್ತು ಸೌಮ್ಯವಾಗಿದ್ದು, ಮೂಲ ಪುಟದ ವಿಷಯದಿಂದ ನಿಮ್ಮ ಗಮನವನ್ನು ಬೇರೆಡೆಗೆ ಸೆಳೆಯದೆ ಗೈಡ್‌ಗಳಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತವೆ."
       }
     ]
   },
   "photo-tiling-prepress": {
-    "title": "ID Photo DIY Print Tiler",
-    "metaDescription": "Crop and tile passport/ID photos onto standard 5\" or 6\" photo papers, and stamp precise prepress physical crop marks for easy cutting.",
+    "title": "ID ಫೋಟೋ DIY ಪ್ರಿಂಟ್ ಟೈಲರ್",
+    "metaDescription": "ಸಾಮಾನ್ಯ 5\" ಅಥವಾ 6\" ಫೋಟೋ ಪೇಪರ್‌ಗಳ ಮೇಲೆ ಪಾಸ್‌ಪೋರ್ಟ್/ID ಫೋಟೋಗಳನ್ನು ಕ್ರಾಪ್ ಮಾಡಿ ಮತ್ತು ಟೈಲ್ ಮಾಡಿ, ಹಾಗೂ ಸುಲಭ ಕಟಿಂಗ್‌ಗಾಗಿ ನಿಖರವಾದ ಪ್ರೀಪ್ರೆಸ್ ಭೌತಿಕ ಕ್ರಾಪ್ ಮಾರ್ಕ್‌ಗಳನ್ನು ಪ್ರಿಂಟ್ ಮಾಡಿ.",
     "keywords": [
       "id photo tiling",
       "print passport photo",
@@ -7885,53 +7885,53 @@ export const toolContentKn: Record<string, ToolContent> = {
       "id photo layout prepress",
       "stamp crop marks"
     ],
-    "description": "\n      <p>The Prepress Photo Tiling tool is a cost-effective, high-precision layout compiler built for personal registration cards and photography studios.</p>\n      <p>Printing passport photos, ID photos, or driver licenses at home often results in incorrect physical dimensions (often printed too large or too small), wasted photo paper, and uneven alignments. Going to professional print shops to get layouts made is time-consuming.</p>\n      <p>Our tool integrates a <strong>precision prepress matrix engine</strong>. It accepts portrait photographs or ID card scans, crops them to standard dimensions (e.g. 1\" or 2\" passport specs), calculates optimal tile counts for standard photo papers (e.g. 5\" or 6\" sheets), and injects crisp, micro-pixel crop lines for easy physical cutting, generating a perfect printable PDF.</p>\n    ",
+    "description": "\n      <p>ಪ್ರೀಪ್ರೆಸ್ ಫೋಟೋ ಟೈಲಿಂಗ್ ಉಪಕರಣವು ವೈಯಕ್ತಿಕ ನೋಂದಣಿ ಕಾರ್ಡ್‌ಗಳು ಮತ್ತು ಫೋಟೋಗ್ರಫಿ ಸ್ಟುಡಿಯೋಗಳಿಗಾಗಿ ನಿರ್ಮಿಸಲಾದ ವೆಚ್ಚ-ಪರಿಣಾಮಕಾರಿ, ಹೆಚ್ಚಿನ ನಿಖರತೆಯ ಲೇಔಟ್ ಕಂಪೈಲರ್ ಆಗಿದೆ.</p>\n      <p>ಮನೆಯಲ್ಲಿ ಪಾಸ್‌ಪೋರ್ಟ್ ಫೋಟೋಗಳು, ID ಫೋಟೋಗಳು ಅಥವಾ ಚಾಲನಾ ಪರವಾನಗಿಗಳನ್ನು ಪ್ರಿಂಟ್ ಮಾಡುವುದು ಹೆಚ್ಚಾಗಿ ತಪ್ಪಾದ ಭೌತಿಕ ಅಳತೆಗಳಿಗೆ (ಹೆಚ್ಚಾಗಿ ತುಂಬಾ ದೊಡ್ಡದಾಗಿ ಅಥವಾ ತುಂಬಾ ಸಣ್ಣದಾಗಿ ಪ್ರಿಂಟ್ ಆಗುವುದು), ಫೋಟೋ ಪೇಪರ್ ವ್ಯರ್ಥವಾಗಲು ಮತ್ತು ಅಸಮ ಜೋಡಣೆಗೆ ಕಾರಣವಾಗುತ್ತದೆ. ಲೇಔಟ್‌ಗಳನ್ನು ಮಾಡಲು ವೃತ್ತಿಪರ ಪ್ರಿಂಟ್ ಶಾಪ್‌ಗಳಿಗೆ ಹೋಗುವುದು ಸಮಯ ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ.</p>\n      <p>ನಮ್ಮ ಉಪಕರಣವು <strong>ನಿಖರವಾದ ಪ್ರೀಪ್ರೆಸ್ ಮ್ಯಾಟ್ರಿಕ್ಸ್ ಎಂಜಿನ್</strong> ಅನ್ನು ಸಂಯೋಜಿಸುತ್ತದೆ. ಇದು ಪೋರ್ಟ್ರೇಟ್ ಫೋಟೋಗ್ರಾಫ್‌ಗಳು ಅಥವಾ ID ಕಾರ್ಡ್ ಸ್ಕ್ಯಾನ್‌ಗಳನ್ನು ಸ್ವೀಕರಿಸುತ್ತದೆ, ಅವುಗಳನ್ನು ಪ್ರಮಾಣಿತ ಅಳತೆಗಳಿಗೆ (ಉದಾ. 1\" ಅಥವಾ 2\" ಪಾಸ್‌ಪೋರ್ಟ್ ವಿವರಣೆಗಳು) ಕ್ರಾಪ್ ಮಾಡುತ್ತದೆ, ಪ್ರಮಾಣಿತ ಫೋಟೋ ಪೇಪರ್‌ಗಳಿಗೆ (ಉದಾ. 5\" ಅಥವಾ 6\" ಶೀಟ್‌ಗಳು) ಗರಿಷ್ಠ ಟೈಲ್ ಸಂಖ್ಯೆಗಳನ್ನು ಲೆಕ್ಕಹಾಕುತ್ತದೆ ಮತ್ತು ಸುಲಭ ಭೌತಿಕ ಕಟಿಂಗ್‌ಗಾಗಿ ಸ್ಪಷ್ಟವಾದ, ಮೈಕ್ರೋ-ಪಿಕ್ಸೆಲ್ ಕ್ರಾಪ್ ಲೈನ್‌ಗಳನ್ನು ಸೇರಿಸುತ್ತದೆ, ಪರಿಪೂರ್ಣ ಪ್ರಿಂಟ್ ಮಾಡಬಹುದಾದ PDF ಅನ್ನು ರಚಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Import passport photo",
-        "description": "Upload the camera portrait snapshot or double-sided ID card images."
+        "title": "ಪಾಸ್‌ಪೋರ್ಟ್ ಫೋಟೋ ಇಂಪೋರ್ಟ್ ಮಾಡಿ",
+        "description": "ಕ್ಯಾಮೆರಾ ಪೋರ್ಟ್ರೇಟ್ ಸ್ನ್ಯಾಪ್‌ಶಾಟ್ ಅಥವಾ ಎರಡೂ ಬದಿಯ ID ಕಾರ್ಡ್ ಚಿತ್ರಗಳನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Configure paper & layout",
-        "description": "Select the target print paper size (e.g. 6\") and choose the grid layouts (e.g. 8 copies of 1\" photos)."
+        "title": "ಪೇಪರ್ ಮತ್ತು ಲೇಔಟ್ ಕಾನ್ಫಿಗರ್ ಮಾಡಿ",
+        "description": "ಟಾರ್ಗೆಟ್ ಪ್ರಿಂಟ್ ಪೇಪರ್ ಸೈಜ್ ಆಯ್ಕೆಮಾಡಿ (ಉದಾ. 6\") ಮತ್ತು ಗ್ರಿಡ್ ಲೇಔಟ್‌ಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ (ಉದಾ. 1\" ಫೋಟೋಗಳ 8 ಪ್ರತಿಗಳು)."
       },
       {
         "step": 3,
-        "title": "Tile and export",
-        "description": "Inspect photo tiles on our grid, and export the high-DPI printable PDF."
+        "title": "ಟೈಲ್ ಮಾಡಿ ಮತ್ತು ಎಕ್ಸ್‌ಪೋರ್ಟ್ ಮಾಡಿ",
+        "description": "ನಮ್ಮ ಗ್ರಿಡ್‌ನಲ್ಲಿ ಫೋಟೋ ಟೈಲ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸಿ, ಮತ್ತು ಹೈ-DPI ಪ್ರಿಂಟ್ ಮಾಡಬಹುದಾದ PDF ಅನ್ನು ಎಕ್ಸ್‌ಪೋರ್ಟ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Self-Service Passport Photos",
-        "description": "Arrange your mobile-shot passport portraits onto a single 6\" photo paper grid, and print 8 copies for a fraction of standard studio costs.",
+        "title": "ಸ್ವಯಂ ಸೇವಾ ಪಾಸ್‌ಪೋರ್ಟ್ ಫೋಟೋಗಳು",
+        "description": "ನಿಮ್ಮ ಮೊಬೈಲ್‌ನಲ್ಲಿ ತೆಗೆದ ಪಾಸ್‌ಪೋರ್ಟ್ ಪೋರ್ಟ್ರೇಟ್‌ಗಳನ್ನು ಒಂದೇ 6\" ಫೋಟೋ ಪೇಪರ್ ಗ್ರಿಡ್‌ನಲ್ಲಿ ಜೋಡಿಸಿ, ಮತ್ತು ಸಾಮಾನ್ಯ ಸ್ಟುಡಿಯೋ ವೆಚ್ಚದ ಅಲ್ಪಭಾಗದಲ್ಲೇ 8 ಪ್ರತಿಗಳನ್ನು ಪ್ರಿಂಟ್ ಮಾಡಿ.",
         "icon": "user"
       },
       {
-        "title": "ID Card Double-sided Copy",
-        "description": "Format front and back scans of national ID cards neatly on standard Letter/A4 sheets for official submissions.",
+        "title": "ID ಕಾರ್ಡ್ ಎರಡೂ ಬದಿಯ ಪ್ರತಿಯನ್ನು ಮಾಡುವುದು",
+        "description": "ಅಧಿಕೃತ ಸಲ್ಲಿಕೆಗಳಿಗಾಗಿ ರಾಷ್ಟ್ರೀಯ ID ಕಾರ್ಡ್‌ಗಳ ಮುಂಭಾಗ ಮತ್ತು ಹಿಂಭಾಗದ ಸ್ಕ್ಯಾನ್‌ಗಳನ್ನು ಪ್ರಮಾಣಿತ Letter/A4 ಶೀಟ್‌ಗಳಲ್ಲಿ ಅಂದವಾಗಿ ಫಾರ್ಮ್ಯಾಟ್ ಮಾಡಿ.",
         "icon": "file-text"
       },
       {
-        "title": "Batch Photo Thumbnail Sheets",
-        "description": "Tile multiple family memories or design snapshots onto a grid paper to print thumbnail contact sheets efficiently.",
+        "title": "ಬ್ಯಾಚ್ ಫೋಟೋ ಥಂಬ್‌ನೇಲ್ ಶೀಟ್‌ಗಳು",
+        "description": "ಥಂಬ್‌ನೇಲ್ ಕಾಂಟ್ಯಾಕ್ಟ್ ಶೀಟ್‌ಗಳನ್ನು ಪರಿಣಾಮಕಾರಿಯಾಗಿ ಪ್ರಿಂಟ್ ಮಾಡಲು ಬಹು ಕುಟುಂಬದ ನೆನಪುಗಳು ಅಥವಾ ಡಿಸೈನ್ ಸ್ನ್ಯಾಪ್‌ಶಾಟ್‌ಗಳನ್ನು ಗ್ರಿಡ್ ಪೇಪರ್‌ನಲ್ಲಿ ಟೈಲ್ ಮಾಡಿ.",
         "icon": "grid"
       }
     ],
     "faq": [
       {
-        "question": "Will the printed dimensions match official 1\" or 2\" specs?",
-        "answer": "Yes. The grid engine measures using standard PDF points (72 pt = 1 inch), rendering 1\" photos exactly at 25x35mm, and 2\" photos at 35x49mm. Ensure you print at \"Actual Size / 100% Scale\" in your printer settings."
+        "question": "ಪ್ರಿಂಟ್ ಮಾಡಿದ ಅಳತೆಗಳು ಅಧಿಕೃತ 1\" ಅಥವಾ 2\" ವಿವರಣೆಗಳಿಗೆ ಹೊಂದಿಕೆಯಾಗುತ್ತವೆಯೇ?",
+        "answer": "ಹೌದು. ಗ್ರಿಡ್ ಎಂಜಿನ್ ಪ್ರಮಾಣಿತ PDF ಪಾಯಿಂಟ್‌ಗಳನ್ನು (72 pt = 1 ಇಂಚು) ಬಳಸಿ ಅಳೆಯುತ್ತದೆ, 1\" ಫೋಟೋಗಳನ್ನು ಸರಿಯಾಗಿ 25x35mm ನಲ್ಲಿ ಮತ್ತು 2\" ಫೋಟೋಗಳನ್ನು 35x49mm ನಲ್ಲಿ ನಿರೂಪಿಸುತ್ತದೆ. ನಿಮ್ಮ ಪ್ರಿಂಟರ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ \"Actual Size / 100% Scale\" ನಲ್ಲಿ ಪ್ರಿಂಟ್ ಮಾಡುವುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ."
       },
       {
-        "question": "Can I combine 1\" and 2\" photos on a single sheet?",
-        "answer": "Yes. We provide curated hybrid layout presets (e.g. \"4 copies of 1\" + 4 copies of 2\"\"), allowing you to maximize photo paper space."
+        "question": "ನಾನು ಒಂದೇ ಶೀಟ್‌ನಲ್ಲಿ 1\" ಮತ್ತು 2\" ಫೋಟೋಗಳನ್ನು ಸಂಯೋಜಿಸಬಹುದೇ?",
+        "answer": "ಹೌದು. ನಾವು ಕ್ಯುರೇಟೆಡ್ ಹೈಬ್ರಿಡ್ ಲೇಔಟ್ ಪ್ರಿಸೆಟ್‌ಗಳನ್ನು (ಉದಾ. \"4 copies of 1\" + 4 copies of 2\"\") ಒದಗಿಸುತ್ತೇವೆ, ಇದು ಫೋಟೋ ಪೇಪರ್ ಜಾಗವನ್ನು ಗರಿಷ್ಠವಾಗಿ ಬಳಸಲು ನಿಮಗೆ ಅನುಮತಿಸುತ್ತದೆ."
       },
       {
-        "question": "Does the template include border bleeds?",
-        "answer": "Yes. The prepress layouts reserve a standard 4mm print-safe margin on the paper borders, preventing physical printer rollers from cropping the photos."
+        "question": "ಟೆಂಪ್ಲೇಟ್ ಬಾರ್ಡರ್ ಬ್ಲೀಡ್‌ಗಳನ್ನು ಒಳಗೊಂಡಿದೆಯೇ?",
+        "answer": "ಹೌದು. ಪ್ರೀಪ್ರೆಸ್ ಲೇಔಟ್‌ಗಳು ಪೇಪರ್ ಬಾರ್ಡರ್‌ಗಳಲ್ಲಿ ಪ್ರಮಾಣಿತ 4mm ಪ್ರಿಂಟ್-ಸೇಫ್ ಮಾರ್ಜಿನ್ ಅನ್ನು ಕಾಯ್ದಿರಿಸುತ್ತವೆ, ಇದು ಭೌತಿಕ ಪ್ರಿಂಟರ್ ರೋಲರ್‌ಗಳು ಫೋಟೋಗಳನ್ನು ಕ್ರಾಪ್ ಮಾಡುವುದನ್ನು ತಡೆಯುತ್ತದೆ."
       }
     ]
   }
