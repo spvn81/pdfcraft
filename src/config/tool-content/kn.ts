@@ -602,153 +602,153 @@ export const toolContentKn: Record<string, ToolContent> = {
       {
         "step": 3,
         "title": "ಪುಟಗಳಿಗೆ ಅನ್ವಯಿಸಿ",
-        "description": "Choose to apply the crop to all pages or select specific pages to crop."
+        "description": "ಎಲ್ಲಾ ಪುಟಗಳಿಗೆ ಕ್ರಾಪ್ ಅನ್ವಯಿಸಲು ಆಯ್ಕೆಮಾಡಿ ಅಥವಾ ಕ್ರಾಪ್ ಮಾಡಲು ನಿರ್ದಿಷ್ಟ ಪುಟಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ."
       },
       {
         "step": 4,
-        "title": "Crop and Download",
-        "description": "Click Crop to apply the changes and download your cropped PDF."
+        "title": "ಕ್ರಾಪ್ ಮಾಡಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ಬದಲಾವಣೆಗಳನ್ನು ಅನ್ವಯಿಸಲು ಮತ್ತು ನಿಮ್ಮ ಕ್ರಾಪ್ ಮಾಡಿದ PDF ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಕ್ರಾಪ್ ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Remove Margins",
-        "description": "Trim excessive margins from scanned documents or PDFs with large borders.",
+        "title": "ಮಾರ್ಜಿನ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕಿ",
+        "description": "ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳು ಅಥವಾ ದೊಡ್ಡ ಬಾರ್ಡರ್‌ಗಳನ್ನು ಹೊಂದಿರುವ PDF ಗಳಿಂದ ಹೆಚ್ಚುವರಿ ಮಾರ್ಜಿನ್‌ಗಳನ್ನು ಟ್ರಿಮ್ ಮಾಡಿ.",
         "icon": "maximize-2"
       },
       {
-        "title": "Focus Content",
-        "description": "Crop to highlight specific content areas, removing headers, footers, or sidebars.",
+        "title": "ವಿಷಯದ ಮೇಲೆ ಗಮನ ಹರಿಸಿ",
+        "description": "ಹೆಡರ್‌ಗಳು, ಫುಟರ್‌ಗಳು ಅಥವಾ ಸೈಡ್‌ಬಾರ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕಿ ನಿರ್ದಿಷ್ಟ ವಿಷಯದ ಪ್ರದೇಶಗಳನ್ನು ಹೈಲೈಟ್ ಮಾಡಲು ಕ್ರಾಪ್ ಮಾಡಿ.",
         "icon": "target"
       },
       {
-        "title": "Standardize Pages",
-        "description": "Make all pages the same size by cropping to uniform dimensions.",
+        "title": "ಪುಟಗಳನ್ನು ಪ್ರಮಾಣೀಕರಿಸಿ",
+        "description": "ಏಕರೂಪದ ಆಯಾಮಗಳಿಗೆ ಕ್ರಾಪ್ ಮಾಡುವ ಮೂಲಕ ಎಲ್ಲಾ ಪುಟಗಳನ್ನು ಒಂದೇ ಗಾತ್ರಕ್ಕೆ ತನ್ನಿ.",
         "icon": "square"
       }
     ],
     "faq": [
       {
-        "question": "Does cropping permanently remove content?",
-        "answer": "Yes, cropping removes the content outside the crop area. Make sure to keep a backup of your original file."
+        "question": "ಕ್ರಾಪ್ ಮಾಡುವುದರಿಂದ ವಿಷಯವು ಶಾಶ್ವತವಾಗಿ ತೆಗೆದುಹಾಕಲ್ಪಡುತ್ತದೆಯೇ?",
+        "answer": "ಹೌದು, ಕ್ರಾಪ್ ಮಾಡುವುದು ಕ್ರಾಪ್ ಪ್ರದೇಶದ ಹೊರಗಿನ ವಿಷಯವನ್ನು ತೆಗೆದುಹಾಕುತ್ತದೆ. ನಿಮ್ಮ ಮೂಲ ಫೈಲ್‌ನ ಬ್ಯಾಕಪ್ ಅನ್ನು ಇರಿಸಿಕೊಳ್ಳಲು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ."
       },
       {
-        "question": "Can I crop different pages differently?",
-        "answer": "Yes, you can apply different crop settings to individual pages or groups of pages."
+        "question": "ನಾನು ವಿಭಿನ್ನ ಪುಟಗಳನ್ನು ವಿಭಿನ್ನವಾಗಿ ಕ್ರಾಪ್ ಮಾಡಬಹುದೇ?",
+        "answer": "ಹೌದು, ನೀವು ಪ್ರತ್ಯೇಕ ಪುಟಗಳಿಗೆ ಅಥವಾ ಪುಟಗಳ ಗುಂಪುಗಳಿಗೆ ವಿಭಿನ್ನ ಕ್ರಾಪ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಅನ್ವಯಿಸಬಹುದು."
       },
       {
-        "question": "Will cropping affect the text quality?",
-        "answer": "No, cropping only removes areas outside the crop boundary. The remaining content maintains its original quality."
+        "question": "ಕ್ರಾಪ್ ಮಾಡುವುದರಿಂದ ಪಠ್ಯದ ಗುಣಮಟ್ಟದ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರುತ್ತದೆಯೇ?",
+        "answer": "ಇಲ್ಲ, ಕ್ರಾಪ್ ಮಾಡುವುದು ಕ್ರಾಪ್ ಗಡಿಯ ಹೊರಗಿನ ಪ್ರದೇಶಗಳನ್ನು ಮಾತ್ರ ತೆಗೆದುಹಾಕುತ್ತದೆ. ಉಳಿದ ವಿಷಯವು ತನ್ನ ಮೂಲ ಗುಣಮಟ್ಟವನ್ನು ಉಳಿಸಿಕೊಳ್ಳುತ್ತದೆ."
       }
     ]
   },
   "extract-pages": {
-    "title": "Extract Pages",
-    "metaDescription": "Extract specific pages from PDF files. Select and save individual pages as new documents.",
+    "title": "ಪುಟಗಳನ್ನು ಹೊರತೆಗೆಯಿರಿ",
+    "metaDescription": "PDF ಫೈಲ್‌ಗಳಿಂದ ನಿರ್ದಿಷ್ಟ ಪುಟಗಳನ್ನು ಹೊರತೆಗೆಯಿರಿ. ಪ್ರತ್ಯೇಕ ಪುಟಗಳನ್ನು ಹೊಸ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳಾಗಿ ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು ಉಳಿಸಿ.",
     "keywords": [
       "extract pdf pages",
       "save pdf pages",
       "copy pdf pages",
       "pdf page extractor"
     ],
-    "description": "\n      <p>Extract Pages allows you to select and save specific pages from a PDF document as new files. This is perfect for pulling out relevant sections, creating excerpts, or separating combined documents.</p>\n      <p>You can extract individual pages, page ranges, or multiple non-consecutive pages. The visual page preview makes it easy to identify and select exactly the pages you need.</p>\n      <p>All extraction happens locally in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>Extract Pages ನಿಮಗೆ PDF ಡಾಕ್ಯುಮೆಂಟ್‌ನಿಂದ ನಿರ್ದಿಷ್ಟ ಪುಟಗಳನ್ನು ಹೊಸ ಫೈಲ್‌ಗಳಾಗಿ ಆಯ್ಕೆ ಮಾಡಲು ಮತ್ತು ಉಳಿಸಲು ಅನುಮತಿಸುತ್ತದೆ. ಸಂಬಂಧಿತ ವಿಭಾಗಗಳನ್ನು ಹೊರತೆಗೆಯಲು, ಸಾರಾಂಶಗಳನ್ನು ರಚಿಸಲು ಅಥವಾ ಸಂಯೋಜಿತ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳನ್ನು ಪ್ರತ್ಯೇಕಿಸಲು ಇದು ಅತ್ಯುತ್ತಮವಾಗಿದೆ.</p>\n      <p>ನೀವು ಪ್ರತ್ಯೇಕ ಪುಟಗಳು, ಪುಟ ಶ್ರೇಣಿಗಳು ಅಥವಾ ಅನುಕ್ರಮವಲ್ಲದ ಬಹು ಪುಟಗಳನ್ನು ಹೊರತೆಗೆಯಬಹುದು. ದೃಶ್ಯ ಪುಟದ ಮುನ್ನೋಟವು ನಿಮಗೆ ಅಗತ್ಯವಿರುವ ಪುಟಗಳನ್ನು ಗುರುತಿಸಲು ಮತ್ತು ಆಯ್ಕೆ ಮಾಡಲು ಸುಲಭಗೊಳಿಸುತ್ತದೆ.</p>\n      <p>ಎಲ್ಲಾ ಹೊರತೆಗೆಯುವಿಕೆಗಳು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ಸ್ಥಳೀಯವಾಗಿ ನಡೆಯುತ್ತವೆ, ನಿಮ್ಮ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳು ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your PDF file or click to select the document from which you want to extract pages."
+        "description": "ನಿಮ್ಮ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ನೀವು ಪುಟಗಳನ್ನು ಹೊರತೆಗೆಯಲು ಬಯಸುವ ಡಾಕ್ಯುಮೆಂಟ್ ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Select Pages",
-        "description": "Click on page thumbnails to select them, or enter page numbers and ranges in the input field."
+        "title": "ಪುಟಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+        "description": "ಪುಟದ ಥಂಬ್‌ನೇಲ್‌ಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ಅವುಗಳ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ, ಅಥವಾ ಇನ್‌ಪುಟ್ ಕ್ಷೇತ್ರದಲ್ಲಿ ಪುಟ ಸಂಖ್ಯೆಗಳು ಮತ್ತು ಶ್ರೇಣಿಗಳನ್ನು ನಮೂದಿಸಿ."
       },
       {
         "step": 3,
-        "title": "Extract and Download",
-        "description": "Click Extract to create a new PDF with your selected pages and download it."
+        "title": "ಹೊರತೆಗೆಯಿರಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ನಿಮ್ಮ ಆಯ್ಕೆಮಾಡಿದ ಪುಟಗಳೊಂದಿಗೆ ಹೊಸ PDF ರಚಿಸಲು ಮತ್ತು ಅದನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು Extract ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Create Excerpts",
-        "description": "Extract relevant pages from reports or books to create focused reference documents.",
+        "title": "ಸಾರಾಂಶಗಳನ್ನು ರಚಿಸಿ",
+        "description": "ಗಮನಹರಿಸಿದ ಉಲ್ಲೇಖ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳನ್ನು ರಚಿಸಲು ವರದಿಗಳು ಅಥವಾ ಪುಸ್ತಕಗಳಿಂದ ಸಂಬಂಧಿತ ಪುಟಗಳನ್ನು ಹೊರತೆಗೆಯಿರಿ.",
         "icon": "file-minus"
       },
       {
-        "title": "Share Specific Content",
-        "description": "Pull out specific pages to share without sending the entire document.",
+        "title": "ನಿರ್ದಿಷ್ಟ ವಿಷಯವನ್ನು ಹಂಚಿಕೊಳ್ಳಿ",
+        "description": "ಇಡೀ ಡಾಕ್ಯುಮೆಂಟ್ ಕಳುಹಿಸದೆ ಹಂಚಿಕೊಳ್ಳಲು ನಿರ್ದಿಷ್ಟ ಪುಟಗಳನ್ನು ಮಾತ್ರ ಹೊರತೆಗೆಯಿರಿ.",
         "icon": "share-2"
       },
       {
-        "title": "Archive Important Pages",
-        "description": "Extract and save key pages from documents for long-term archival.",
+        "title": "ಪ್ರಮುಖ ಪುಟಗಳನ್ನು ಆರ್ಕೈವ್ ಮಾಡಿ",
+        "description": "ದೀರ್ಘಕಾಲದ ಆರ್ಕೈವ್‌ಗಾಗಿ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳಿಂದ ಪ್ರಮುಖ ಪುಟಗಳನ್ನು ಹೊರತೆಗೆಯಿರಿ ಮತ್ತು ಉಳಿಸಿ.",
         "icon": "archive"
       }
     ],
     "faq": [
       {
-        "question": "Can I extract non-consecutive pages?",
-        "answer": "Yes, you can select any combination of pages, whether consecutive or scattered throughout the document."
+        "question": "ನಾನು ಅನುಕ್ರಮವಲ್ಲದ ಪುಟಗಳನ್ನು ಹೊರತೆಗೆಯಬಹುದೇ?",
+        "answer": "ಹೌದು, ಡಾಕ್ಯುಮೆಂಟ್‌ನಾದ್ಯಂತ ಅನುಕ್ರಮವಾಗಿರಲಿ ಅಥವಾ ಚದುರಿರಲಿ, ನೀವು ಪುಟಗಳ ಯಾವುದೇ ಸಂಯೋಜನೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದು."
       },
       {
-        "question": "Will bookmarks be preserved?",
-        "answer": "Bookmarks that point to extracted pages are preserved in the new document."
+        "question": "ಬುಕ್‌ಮಾರ್ಕ್‌ಗಳನ್ನು ಸಂರಕ್ಷಿಸಲಾಗುತ್ತದೆಯೇ?",
+        "answer": "ಹೊರತೆಗೆಯಲಾದ ಪುಟಗಳಿಗೆ ಸೂಚಿಸುವ ಬುಕ್‌ಮಾರ್ಕ್‌ಗಳನ್ನು ಹೊಸ ಡಾಕ್ಯುಮೆಂಟ್‌ನಲ್ಲಿ ಕಾಯ್ದುಕೊಳ್ಳಲಾಗುತ್ತದೆ."
       },
       {
-        "question": "Can I extract pages from multiple PDFs?",
-        "answer": "This tool works with one PDF at a time. For combining pages from multiple PDFs, use the Merge PDF tool."
+        "question": "ನಾನು ಬಹು PDF ಗಳಿಂದ ಪುಟಗಳನ್ನು ಹೊರತೆಗೆಯಬಹುದೇ?",
+        "answer": "ಈ ಉಪಕರಣವು ಒಂದೇ ಸಮಯದಲ್ಲಿ ಒಂದು PDF ಜೊತೆಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ. ಬಹು PDF ಗಳಿಂದ ಪುಟಗಳನ್ನು ಸಂಯೋಜಿಸಲು, Merge PDF ಉಪಕರಣವನ್ನು ಬಳಸಿ."
       }
     ]
   },
   "organize-pdf": {
-    "title": "Organize PDF",
-    "metaDescription": "Reorder, duplicate, and delete PDF pages. Drag and drop to reorganize your documents.",
+    "title": "PDF ಸಂಘಟಿಸಿ",
+    "metaDescription": "PDF ಪುಟಗಳ ಕ್ರಮವನ್ನು ಮರುಹೊಂದಿಸಿ, ನಕಲಿಸಿ ಮತ್ತು ಅಳಿಸಿ. ನಿಮ್ಮ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳನ್ನು ಮರುಸಂಘಟಿಸಲು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ.",
     "keywords": [
       "organize pdf",
       "reorder pdf pages",
       "rearrange pdf",
       "pdf page organizer"
     ],
-    "description": "\n      <p>Organize PDF provides an intuitive drag-and-drop interface for rearranging pages in your PDF documents. Reorder pages, duplicate important sections, or remove unwanted pages with ease.</p>\n      <p>The visual page thumbnails make it easy to identify content and arrange pages exactly as you need them. Perfect for restructuring documents, creating custom page orders, or cleaning up scanned files.</p>\n      <p>All organization happens locally in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>Organize PDF ನಿಮ್ಮ PDF ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳಲ್ಲಿನ ಪುಟಗಳನ್ನು ಮರುಹೊಂದಿಸಲು ಸುಲಭವಾದ ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಇಂಟರ್‌ಫೇಸ್ ಅನ್ನು ಒದಗಿಸುತ್ತದೆ. ಪುಟಗಳ ಕ್ರಮವನ್ನು ಬದಲಾಯಿಸಿ, ಪ್ರಮುಖ ವಿಭಾಗಗಳನ್ನು ನಕಲಿಸಿ ಅಥವಾ ಅನಗತ್ಯ ಪುಟಗಳನ್ನು ಸುಲಭವಾಗಿ ತೆಗೆದುಹಾಕಿ.</p>\n      <p>ದೃಶ್ಯ ಪುಟ ಥಂಬ್‌ನೇಲ್‌ಗಳು ವಿಷಯವನ್ನು ಗುರುತಿಸಲು ಮತ್ತು ನಿಮ್ಮ ಅಗತ್ಯಕ್ಕೆ ತಕ್ಕಂತೆ ಪುಟಗಳನ್ನು ನಿಖರವಾಗಿ ಜೋಡಿಸಲು ಸುಲಭಗೊಳಿಸುತ್ತವೆ. ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳನ್ನು ಮರುರಚಿಸಲು, ಕಸ್ಟಮ್ ಪುಟ ಕ್ರಮಗಳನ್ನು ರಚಿಸಲು ಅಥವಾ ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ಫೈಲ್‌ಗಳನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸಲು ಇದು ಅತ್ಯುತ್ತಮವಾಗಿದೆ.</p>\n      <p>ಎಲ್ಲಾ ಸಂಘಟನೆಯು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ಸ್ಥಳೀಯವಾಗಿ ನಡೆಯುತ್ತದೆ, ನಿಮ್ಮ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳು ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your PDF file or click to select the document you want to organize."
+        "description": "ನಿಮ್ಮ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ನೀವು ಸಂಘಟಿಸಲು ಬಯಸುವ ಡಾಕ್ಯುಮೆಂಟ್ ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Rearrange Pages",
-        "description": "Drag page thumbnails to reorder them. Click the duplicate or delete buttons on each page as needed."
+        "title": "ಪುಟಗಳನ್ನು ಮರುಹೊಂದಿಸಿ",
+        "description": "ಪುಟಗಳ ಕ್ರಮವನ್ನು ಬದಲಾಯಿಸಲು ಅವುಗಳ ಥಂಬ್‌ನೇಲ್‌ಗಳನ್ನು ಡ್ರ್ಯಾಗ್ ಮಾಡಿ. ಅಗತ್ಯಕ್ಕೆ ಅನುಗುಣವಾಗಿ ಪ್ರತಿಯೊಂದು ಪುಟದಲ್ಲಿರುವ ನಕಲಿಸು ಅಥವಾ ಅಳಿಸು ಬಟನ್‌ಗಳನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 3,
         "title": "ಉಳಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Click Save to apply your changes and download the reorganized PDF."
+        "description": "ನಿಮ್ಮ ಬದಲಾವಣೆಗಳನ್ನು ಅನ್ವಯಿಸಲು ಮತ್ತು ಮರುಸಂಘಟಿತ PDF ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು Save ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Fix Page Order",
-        "description": "Correct the order of pages that were scanned or combined incorrectly.",
+        "title": "ಪುಟದ ಕ್ರಮವನ್ನು ಸರಿಪಡಿಸಿ",
+        "description": "ತಪ್ಪಾಗಿ ಸ್ಕ್ಯಾನ್ ಮಾಡಲಾದ ಅಥವಾ ಸಂಯೋಜಿಸಲಾದ ಪುಟಗಳ ಕ್ರಮವನ್ನು ಸರಿಪಡಿಸಿ.",
         "icon": "arrow-up-down"
       },
       {
-        "title": "Create Custom Order",
-        "description": "Arrange pages in a specific sequence for presentations or reports.",
+        "title": "ಕಸ್ಟಮ್ ಕ್ರಮವನ್ನು ರಚಿಸಿ",
+        "description": "ಪ್ರಸ್ತುತಿಗಳು ಅಥವಾ ವರದಿಗಳಿಗಾಗಿ ನಿರ್ದಿಷ್ಟ ಅನುಕ್ರಮದಲ್ಲಿ ಪುಟಗಳನ್ನು ಜೋಡಿಸಿ.",
         "icon": "list"
       },
       {
-        "title": "Remove Unwanted Pages",
-        "description": "Delete blank pages, duplicates, or irrelevant content from documents.",
+        "title": "ಅನಗತ್ಯ ಪುಟಗಳನ್ನು ತೆಗೆದುಹಾಕಿ",
+        "description": "ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳಿಂದ ಖಾಲಿ ಪುಟಗಳು, ನಕಲುಗಳು ಅಥವಾ ಅಸಂಬದ್ಧ ವಿಷಯವನ್ನು ಅಳಿಸಿ.",
         "icon": "trash-2"
       }
     ],
     "faq": [
       {
-        "question": "Can I duplicate pages?",
-        "answer": "Yes, you can duplicate any page and place the copy anywhere in the document."
+        "question": "ನಾನು ಪುಟಗಳನ್ನು ನಕಲಿಸಬಹುದೇ?",
+        "answer": "ಹೌದು, ನೀವು ಯಾವುದೇ ಪುಟವನ್ನು ನಕಲಿಸಬಹುದು ಮತ್ತು ಅದರ ಪ್ರತಿಯನ್ನು ಡಾಕ್ಯುಮೆಂಟ್‌ನಲ್ಲಿ ಎಲ್ಲಿ ಬೇಕಾದರೂ ಇರಿಸಬಹುದು."
       },
       {
         "question": "Is there an undo function?",
@@ -2912,7 +2912,7 @@ export const toolContentKn: Record<string, ToolContent> = {
       },
       {
         "step": 2,
-        "title": "Select Pages",
+        "title": "ಪುಟಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ",
         "description": "Choose which pages to convert and set DPI."
       },
       {
@@ -3228,7 +3228,7 @@ export const toolContentKn: Record<string, ToolContent> = {
       },
       {
         "step": 3,
-        "title": "Extract and Download",
+        "title": "ಹೊರತೆಗೆಯಿರಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
         "description": "Click Extract to generate JSON and download."
       }
     ],
@@ -3582,7 +3582,7 @@ export const toolContentKn: Record<string, ToolContent> = {
       },
       {
         "step": 3,
-        "title": "Extract and Download",
+        "title": "ಹೊರತೆಗೆಯಿರಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
         "description": "Download individual files or all as a ZIP."
       }
     ],
@@ -3878,7 +3878,7 @@ export const toolContentKn: Record<string, ToolContent> = {
       },
       {
         "step": 2,
-        "title": "Select Pages",
+        "title": "ಪುಟಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ",
         "description": "Choose to reverse all pages or a specific range."
       },
       {
