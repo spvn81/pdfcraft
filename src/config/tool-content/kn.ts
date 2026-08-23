@@ -4637,14 +4637,14 @@ export const toolContentKn: Record<string, ToolContent> = {
   },
   "linearize-pdf": {
     "title": "PDF ಲೀನಿಯರೈಸ್ ಮಾಡಿ",
-    "metaDescription": "Optimize PDF for fast web viewing. Enable progressive loading.",
+    "metaDescription": "ವೇಗವಾದ ವೆಬ್ ವೀಕ್ಷಣೆಗಾಗಿ PDF ಅನ್ನು ಆಪ್ಟಿಮೈಸ್ ಮಾಡಿ. ಪ್ರೋಗ್ರೆಸಿವ್ ಲೋಡಿಂಗ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ.",
     "keywords": [
       "linearize pdf",
       "fast web view",
       "optimize pdf",
       "progressive pdf"
     ],
-    "description": "\n      <p>Linearize PDF optimizes your documents for fast web viewing. Linearized PDFs can begin displaying before the entire file is downloaded, improving user experience.</p>\n      <p>Also known as \"Fast Web View,\" this optimization reorganizes the PDF structure for progressive loading in web browsers.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>Linearize PDF ನಿಮ್ಮ ದಾಖಲೆಗಳನ್ನು ವೇಗವಾದ ವೆಬ್ ವೀಕ್ಷಣೆಗಾಗಿ ಆಪ್ಟಿಮೈಸ್ ಮಾಡುತ್ತದೆ. ಸಂಪೂರ್ಣ ಫೈಲ್ ಡೌನ್‌ಲೋಡ್ ಆಗುವ ಮುನ್ನವೇ ಲಿನಿಯರೈಸ್ ಮಾಡಿದ PDF ಗಳು ಪ್ರದರ್ಶನಗೊಳ್ಳಲು ಪ್ರಾರಂಭಿಸಬಹುದು, ಇದು ಬಳಕೆದಾರರ ಅನುಭವವನ್ನು ಸುಧಾರಿಸುತ್ತದೆ.</p>\n      <p>\"Fast Web View\" ಎಂದೂ ಕರೆಯಲ್ಪಡುವ ಈ ಆಪ್ಟಿಮೈಸೇಶನ್, ವೆಬ್ ಬ್ರೌಸರ್‌ಗಳಲ್ಲಿ ಪ್ರೋಗ್ರೆಸಿವ್ ಲೋಡಿಂಗ್‌ಗಾಗಿ PDF ರಚನೆಯನ್ನು ಮರುಸಂಘಟಿಸುತ್ತದೆ.</p>\n      <p>ಎಲ್ಲಾ ಪ್ರಕ್ರಿಯೆಗಳು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ನಡೆಯುತ್ತವೆ, ನಿಮ್ಮ ದಾಖಲೆಗಳು ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
@@ -4653,57 +4653,57 @@ export const toolContentKn: Record<string, ToolContent> = {
       },
       {
         "step": 2,
-        "title": "Linearize",
-        "description": "Click Linearize to optimize for web viewing."
+        "title": "ಲಿನಿಯರೈಸ್ ಮಾಡಿ",
+        "description": "ವೆಬ್ ವೀಕ್ಷಣೆಗಾಗಿ ಆಪ್ಟಿಮೈಸ್ ಮಾಡಲು 'ಲಿನಿಯರೈಸ್ ಮಾಡಿ' ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 3,
         "title": "ಡೌನ್‌ಲೋಡ್",
-        "description": "Download your optimized PDF."
+        "description": "ನಿಮ್ಮ ಆಪ್ಟಿಮೈಸ್ ಮಾಡಿದ PDF ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
         "title": "ವೆಬ್ ಪ್ರಕಟಣೆ",
-        "description": "Optimize PDFs for website downloads.",
+        "description": "ವೆಬ್‌ಸೈಟ್ ಡೌನ್‌ಲೋಡ್‌ಗಳಿಗಾಗಿ PDF ಗಳನ್ನು ಆಪ್ಟಿಮೈಸ್ ಮಾಡಿ.",
         "icon": "globe"
       },
       {
         "title": "ಇಮೇಲ್ ಲಗತ್ತುಗಳು",
-        "description": "Create PDFs that open faster for recipients.",
+        "description": "ಸ್ವೀಕರಿಸುವವರಿಗೆ ವೇಗವಾಗಿ ತೆರೆದುಕೊಳ್ಳುವ PDF ಗಳನ್ನು ರಚಿಸಿ.",
         "icon": "mail"
       },
       {
-        "title": "Online Documents",
-        "description": "Improve viewing experience for online documents.",
+        "title": "ಆನ್‌ಲೈನ್ ದಾಖಲೆಗಳು",
+        "description": "ಆನ್‌ಲೈನ್ ದಾಖಲೆಗಳ ವೀಕ್ಷಣಾ ಅನುಭವವನ್ನು ಸುಧಾರಿಸಿ.",
         "icon": "cloud"
       }
     ],
     "faq": [
       {
-        "question": "What is linearization?",
-        "answer": "Linearization reorganizes PDF data for progressive loading."
+        "question": "ಲಿನಿಯರೈಸೇಶನ್ ಎಂದರೇನು?",
+        "answer": "ಲಿನಿಯರೈಸೇಶನ್ ಪ್ರೋಗ್ರೆಸಿವ್ ಲೋಡಿಂಗ್‌ಗಾಗಿ PDF ಡೇಟಾವನ್ನು ಮರುಸಂಘಟಿಸುತ್ತದೆ."
       },
       {
-        "question": "Does it reduce file size?",
-        "answer": "Linearization may slightly increase file size due to added structure."
+        "question": "ಇದು ಫೈಲ್ ಗಾತ್ರವನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆಯೇ?",
+        "answer": "ಹೆಚ್ಚುವರಿ ರಚನೆಯಿಂದಾಗಿ ಲಿನಿಯರೈಸೇಶನ್ ಫೈಲ್ ಗಾತ್ರವನ್ನು ಸ್ವಲ್ಪ ಹೆಚ್ಚಿಸಬಹುದು."
       },
       {
-        "question": "Is it compatible with all viewers?",
-        "answer": "Yes, linearized PDFs work in all PDF readers."
+        "question": "ಇದು ಎಲ್ಲಾ ವೀಕ್ಷಕಗಳೊಂದಿಗೆ ಹೊಂದಿಕೊಳ್ಳುತ್ತದೆಯೇ?",
+        "answer": "ಹೌದು, ಲಿನಿಯರೈಸ್ ಮಾಡಿದ PDF ಗಳು ಎಲ್ಲಾ PDF ರೀಡರ್‌ಗಳಲ್ಲಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತವೆ."
       }
     ]
   },
   "page-dimensions": {
-    "title": "Page Dimensions",
-    "metaDescription": "Analyze PDF page sizes. View dimensions of all pages in your document.",
+    "title": "ಪುಟದ ಆಯಾಮಗಳು",
+    "metaDescription": "PDF ಪುಟದ ಗಾತ್ರಗಳನ್ನು ವಿಶ್ಲೇಷಿಸಿ. ನಿಮ್ಮ ದಾಖಲೆಯಲ್ಲಿರುವ ಎಲ್ಲಾ ಪುಟಗಳ ಆಯಾಮಗಳನ್ನು ವೀಕ್ಷಿಸಿ.",
     "keywords": [
       "pdf page size",
       "page dimensions",
       "pdf measurements",
       "document size"
     ],
-    "description": "\n      <p>Page Dimensions analyzes and displays the size of every page in your PDF document. View dimensions in various units (inches, mm, points) and identify pages with non-standard sizes.</p>\n      <p>Useful for print preparation, document analysis, or identifying inconsistent page sizes.</p>\n      <p>All analysis happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>Page Dimensions ನಿಮ್ಮ PDF ದಾಖಲೆಯಲ್ಲಿರುವ ಪ್ರತಿಯೊಂದು ಪುಟದ ಗಾತ್ರವನ್ನು ವಿಶ್ಲೇಷಿಸುತ್ತದೆ ಮತ್ತು ಪ್ರದರ್ಶಿಸುತ್ತದೆ. ವಿವಿಧ ಯೂನಿಟ್‌ಗಳಲ್ಲಿ (ಇಂಚುಗಳು, mm, ಪಾಯಿಂಟ್‌ಗಳು) ಆಯಾಮಗಳನ್ನು ವೀಕ್ಷಿಸಿ ಮತ್ತು ಪ್ರಮಾಣಿತವಲ್ಲದ ಗಾತ್ರದ ಪುಟಗಳನ್ನು ಗುರುತಿಸಿ.</p>\n      <p>ಪ್ರಿಂಟ್ ಸಿದ್ಧತೆ, ದಾಖಲೆ ವಿಶ್ಲೇಷಣೆ ಅಥವಾ ಅಸಮಂಜಸ ಪುಟ ಗಾತ್ರಗಳನ್ನು ಗುರುತಿಸಲು ಉಪಯುಕ್ತವಾಗಿದೆ.</p>\n      <p>ಎಲ್ಲಾ ವಿಶ್ಲೇಷಣೆಗಳು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ನಡೆಯುತ್ತವೆ, ನಿಮ್ಮ ದಾಖಲೆಗಳು ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
@@ -4712,175 +4712,175 @@ export const toolContentKn: Record<string, ToolContent> = {
       },
       {
         "step": 2,
-        "title": "View Dimensions",
-        "description": "See page sizes displayed for all pages."
+        "title": "ಆಯಾಮಗಳನ್ನು ವೀಕ್ಷಿಸಿ",
+        "description": "ಎಲ್ಲಾ ಪುಟಗಳಿಗೆ ಪ್ರದರ್ಶಿಸಲಾದ ಪುಟದ ಗಾತ್ರಗಳನ್ನು ನೋಡಿ."
       },
       {
         "step": 3,
-        "title": "Export Report",
-        "description": "Optionally export dimensions as JSON."
+        "title": "ವರದಿಯನ್ನು ಎಕ್ಸ್‌ಪೋರ್ಟ್ ಮಾಡಿ",
+        "description": "ಅಗತ್ಯವಿದ್ದರೆ ಆಯಾಮಗಳನ್ನು JSON ರೂಪದಲ್ಲಿ ಎಕ್ಸ್‌ಪೋರ್ಟ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Print Planning",
-        "description": "Check page sizes before printing.",
+        "title": "ಪ್ರಿಂಟ್ ಪ್ಲಾನಿಂಗ್",
+        "description": "ಪ್ರಿಂಟ್ ಮಾಡುವ ಮೊದಲು ಪುಟದ ಗಾತ್ರಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.",
         "icon": "printer"
       },
       {
         "title": "ದಾಖಲೆ ವಿಶ್ಲೇಷಣೆ",
-        "description": "Identify pages with unusual dimensions.",
+        "description": "ಅಸಾಮಾನ್ಯ ಆಯಾಮಗಳನ್ನು ಹೊಂದಿರುವ ಪುಟಗಳನ್ನು ಗುರುತಿಸಿ.",
         "icon": "search"
       },
       {
         "title": "ಗುಣಮಟ್ಟ ನಿಯಂತ್ರಣ",
-        "description": "Verify page sizes meet specifications.",
+        "description": "ಪುಟದ ಗಾತ್ರಗಳು ನಿರ್ದಿಷ್ಟಣೆಗೆ ಅನುಗುಣವಾಗಿವೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಿ.",
         "icon": "check-circle"
       }
     ],
     "faq": [
       {
-        "question": "What units are available?",
-        "answer": "Inches, millimeters, centimeters, and points."
+        "question": "ಯಾವ ಯೂನಿಟ್‌ಗಳು ಲಭ್ಯವಿವೆ?",
+        "answer": "ಇಂಚುಗಳು, ಮಿಲಿಮೀಟರ್‌ಗಳು, ಸೆಂಟಿಮೀಟರ್‌ಗಳು ಮತ್ತು ಪಾಯಿಂಟ್‌ಗಳು."
       },
       {
-        "question": "Does it show orientation?",
-        "answer": "Yes, portrait or landscape orientation is indicated."
+        "question": "ಇದು ಓರಿಯಂಟೇಶನ್ ಅನ್ನು ತೋರಿಸುತ್ತದೆಯೇ?",
+        "answer": "ಹೌದು, ಪೋರ್ಟ್ರೇಟ್ ಅಥವಾ ಲ್ಯಾಂಡ್‌ಸ್ಕೇಪ್ ಓರಿಯಂಟೇಶನ್ ಅನ್ನು ಸೂಚಿಸಲಾಗುತ್ತದೆ."
       },
       {
-        "question": "Can I fix inconsistent sizes?",
-        "answer": "Use Fix Page Size tool to standardize dimensions."
+        "question": "ನಾನು ಅಸಮಂಜಸ ಗಾತ್ರಗಳನ್ನು ಸರಿಪಡಿಸಬಹುದೇ?",
+        "answer": "ಆಯಾಮಗಳನ್ನು ಪ್ರಮಾಣೀಕರಿಸಲು Fix Page Size ಉಪಕರಣವನ್ನು ಬಳಸಿ."
       }
     ]
   },
   "remove-restrictions": {
-    "title": "Remove Restrictions",
-    "metaDescription": "Remove PDF restrictions. Unlock printing, copying, and editing permissions.",
+    "title": "ನಿರ್ಬಂಧಗಳನ್ನು ತೆಗೆದುಹಾಕಿ",
+    "metaDescription": "PDF ನಿರ್ಬಂಧಗಳನ್ನು ತೆಗೆದುಹಾಕಿ. ಪ್ರಿಂಟಿಂಗ್, ಕಾಪಿ ಮತ್ತು ಎಡಿಟಿಂಗ್ ಅನುಮತಿಗಳನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಿ.",
     "keywords": [
       "remove pdf restrictions",
       "unlock pdf",
       "pdf permissions",
       "unrestrict pdf"
     ],
-    "description": "\n      <p>Remove Restrictions unlocks PDFs that have permission restrictions preventing printing, copying, or editing. This tool removes owner password restrictions while preserving document content.</p>\n      <p>Note: This tool cannot remove user passwords that prevent opening the document. Use Decrypt PDF for password-protected files.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>Remove Restrictions ಉಪಕರಣವು ಪ್ರಿಂಟ್ ಮಾಡುವುದು, ಕಾಪಿ ಮಾಡುವುದು ಅಥವಾ ಎಡಿಟ್ ಮಾಡುವುದನ್ನು ತಡೆಯುವ ಅನುಮತಿ ನಿರ್ಬಂಧಗಳನ್ನು ಹೊಂದಿರುವ PDF ಗಳನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡುತ್ತದೆ. ಈ ಉಪಕರಣವು ದಾಖಲೆಯ ವಿಷಯವನ್ನು ಕಾಯ್ದುಕೊಳ್ಳುವಾಗ ಮಾಲೀಕರ ಪಾಸ್‌ವರ್ಡ್ ನಿರ್ಬಂಧಗಳನ್ನು ತೆಗೆದುಹಾಕುತ್ತದೆ.</p>\n      <p>ಗಮನಿಸಿ: ದಾಖಲೆಯನ್ನು ತೆರೆಯುವುದನ್ನು ತಡೆಯುವ ಬಳಕೆದಾರರ ಪಾಸ್‌ವರ್ಡ್‌ಗಳನ್ನು ಈ ಉಪಕರಣವು ತೆಗೆದುಹಾಕಲು ಸಾಧ್ಯವಿಲ್ಲ. ಪಾಸ್‌ವರ್ಡ್-ರಕ್ಷಿತ ಫೈಲ್‌ಗಳಿಗಾಗಿ Decrypt PDF ಬಳಸಿ.</p>\n      <p>ಎಲ್ಲಾ ಪ್ರಕ್ರಿಯೆಗಳು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ನಡೆಯುತ್ತವೆ, ನಿಮ್ಮ ದಾಖಲೆಗಳು ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Restricted PDF",
-        "description": "Drag and drop your restricted PDF or click to select."
+        "title": "ನಿರ್ಬಂಧಿತ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ನಿಮ್ಮ ನಿರ್ಬಂಧಿತ PDF ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Remove Restrictions",
-        "description": "Click Remove to unlock the document."
+        "title": "ನಿರ್ಬಂಧಗಳನ್ನು ತೆಗೆದುಹಾಕಿ",
+        "description": "ದಾಖಲೆಯನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಲು 'ತೆಗೆದುಹಾಕಿ' ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 3,
         "title": "ಡೌನ್‌ಲೋಡ್",
-        "description": "Download the unrestricted PDF."
+        "description": "ನಿರ್ಬಂಧವಿಲ್ಲದ PDF ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Enable Printing",
-        "description": "Unlock PDFs that prevent printing.",
+        "title": "ಪ್ರಿಂಟಿಂಗ್ ಸಕ್ರಿಯಗೊಳಿಸಿ",
+        "description": "ಪ್ರಿಂಟ್ ಮಾಡುವುದನ್ನು ತಡೆಯುವ PDF ಗಳನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಿ.",
         "icon": "printer"
       },
       {
-        "title": "Enable Copying",
-        "description": "Allow text selection and copying.",
+        "title": "ಕಾಪಿ ಮಾಡುವುದನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ",
+        "description": "ಪಠ್ಯ ಆಯ್ಕೆ ಮತ್ತು ಕಾಪಿ ಮಾಡಲು ಅನುಮತಿಸಿ.",
         "icon": "copy"
       },
       {
-        "title": "Enable Editing",
-        "description": "Remove restrictions on document editing.",
+        "title": "ಎಡಿಟಿಂಗ್ ಸಕ್ರಿಯಗೊಳಿಸಿ",
+        "description": "ದಾಖಲೆ ಎಡಿಟಿಂಗ್ ಮೇಲಿನ ನಿರ್ಬಂಧಗಳನ್ನು ತೆಗೆದುಹಾಕಿ.",
         "icon": "edit"
       }
     ],
     "faq": [
       {
-        "question": "Is this legal?",
-        "answer": "Removing restrictions from documents you own or have rights to is generally legal."
+        "question": "ಇದು ಕಾನೂನುಬದ್ಧವೇ?",
+        "answer": "ನೀವು ಮಾಲೀಕರಾಗಿರುವ ಅಥವಾ ಹಕ್ಕುಗಳನ್ನು ಹೊಂದಿರುವ ದಾಖಲೆಗಳಿಂದ ನಿರ್ಬಂಧಗಳನ್ನು ತೆಗೆದುಹಾಕುವುದು ಸಾಮಾನ್ಯವಾಗಿ ಕಾನೂನುಬದ್ಧವಾಗಿದೆ."
       },
       {
-        "question": "Can it remove open passwords?",
-        "answer": "No, use Decrypt PDF for password-protected documents."
+        "question": "ಇದು ಓಪನ್ ಪಾಸ್‌ವರ್ಡ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕಬಹುದೇ?",
+        "answer": "ಇಲ್ಲ, ಪಾಸ್‌ವರ್ಡ್-ರಕ್ಷಿತ ದಾಖಲೆಗಳಿಗಾಗಿ Decrypt PDF ಅನ್ನು ಬಳಸಿ."
       },
       {
-        "question": "Will content be affected?",
-        "answer": "No, only restrictions are removed; content remains unchanged."
+        "question": "ವಿಷಯದ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರುತ್ತದೆಯೇ?",
+        "answer": "ಇಲ್ಲ, ನಿರ್ಬಂಧಗಳನ್ನು ಮಾತ್ರ ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆ; ವಿಷಯವು ಬದಲಾಗದೆ ಇರುತ್ತದೆ."
       }
     ]
   },
   "repair-pdf": {
-    "title": "Repair PDF",
-    "metaDescription": "Fix corrupted PDF files. Recover and repair damaged documents.",
+    "title": "PDF ರಿಪೇರಿ ಮಾಡಿ",
+    "metaDescription": "ಹಾನಿಗೊಳಗಾದ PDF ಫೈಲ್‌ಗಳನ್ನು ಸರಿಪಡಿಸಿ. ಹಾನಿಗೊಳಗಾದ ದಾಖಲೆಗಳನ್ನು ಮರಳಿ ಪಡೆಯಿರಿ ಮತ್ತು ರಿಪೇರಿ ಮಾಡಿ.",
     "keywords": [
       "repair pdf",
       "fix pdf",
       "recover pdf",
       "corrupted pdf"
     ],
-    "description": "\n      <p>Repair PDF attempts to fix corrupted or damaged PDF files. The tool analyzes the document structure and rebuilds it to recover as much content as possible.</p>\n      <p>Useful for recovering files that won't open, display errors, or have missing content due to corruption.</p>\n      <p>All repair happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>PDF ರಿಪೇರಿ ಮಾಡುವುದು ಹಾನಿಗೊಳಗಾದ ಅಥವಾ ಹಾಳಾದ PDF ಫೈಲ್‌ಗಳನ್ನು ಸರಿಪಡಿಸಲು ಯತ್ನಿಸುತ್ತದೆ. ಈ ಉಪಕರಣವು ದಾಖಲೆಯ ರಚನೆಯನ್ನು ವಿಶ್ಲೇಷಿಸುತ್ತದೆ ಮತ್ತು ಸಾಧ್ಯವಾದಷ್ಟು ವಿಷಯವನ್ನು ಮರಳಿ ಪಡೆಯಲು ಅದನ್ನು ಪುನರ್ನಿರ್ಮಿಸುತ್ತದೆ.</p><p>ತೆರೆಯದ, ದೋಷಗಳನ್ನು ತೋರಿಸುವ ಅಥವಾ ಹಾನಿಯಿಂದಾಗಿ ವಿಷಯ ಕಾಣೆಯಾಗಿರುವ ಫೈಲ್‌ಗಳನ್ನು ಮರಳಿ ಪಡೆಯಲು ಉಪಯುಕ್ತವಾಗಿದೆ.</p><p>ಎಲ್ಲಾ ರಿಪೇರಿ ಪ್ರಕ್ರಿಯೆಯು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲೇ ನಡೆಯುತ್ತದೆ, ನಿಮ್ಮ ದಾಖಲೆಗಳು ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Damaged PDF",
-        "description": "Drag and drop your corrupted PDF or click to select."
+        "title": "ಹಾನಿಗೊಳಗಾದ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ನಿಮ್ಮ ಹಾನಿಗೊಳಗಾದ PDF ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Repair Document",
-        "description": "Click Repair to attempt recovery."
+        "title": "ದಾಖಲೆಯನ್ನು ರಿಪೇರಿ ಮಾಡಿ",
+        "description": "ಮರುಪಡೆಯಲು ಯತ್ನಿಸಲು ರಿಪೇರಿ ಎಂಬುದನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 3,
         "title": "ಡೌನ್‌ಲೋಡ್",
-        "description": "Download the repaired PDF if successful."
+        "description": "ಯಶಸ್ವಿಯಾದರೆ ರಿಪೇರಿ ಮಾಡಿದ PDF ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Recover Files",
-        "description": "Recover PDFs that won't open properly.",
+        "title": "ಫೈಲ್‌ಗಳನ್ನು ಮರಳಿ ಪಡೆಯಿರಿ",
+        "description": "ಸರಿಯಾಗಿ ತೆರೆಯದ PDF ಗಳನ್ನು ಮರಳಿ ಪಡೆಯಿರಿ.",
         "icon": "refresh-cw"
       },
       {
-        "title": "Fix Errors",
-        "description": "Repair files showing error messages.",
+        "title": "ದೋಷಗಳನ್ನು ಸರಿಪಡಿಸಿ",
+        "description": "ದೋಷ ಸಂದೇಶಗಳನ್ನು ತೋರಿಸುವ ಫೈಲ್‌ಗಳನ್ನು ರಿಪೇರಿ ಮಾಡಿ.",
         "icon": "wrench"
       },
       {
-        "title": "Restore Content",
-        "description": "Recover content from partially corrupted files.",
+        "title": "ವಿಷಯವನ್ನು ಮರುಸ್ಥಾಪಿಸಿ",
+        "description": "ಭಾಗಶಃ ಹಾನಿಗೊಳಗಾದ ಫೈಲ್‌ಗಳಿಂದ ವಿಷಯವನ್ನು ಮರಳಿ ಪಡೆಯಿರಿ.",
         "icon": "file-check"
       }
     ],
     "faq": [
       {
-        "question": "Can all PDFs be repaired?",
-        "answer": "Success depends on the type and extent of corruption."
+        "question": "ಎಲ್ಲಾ PDF ಗಳನ್ನು ರಿಪೇರಿ ಮಾಡಬಹುದೇ?",
+        "answer": "ಯಶಸ್ಸು ಹಾನಿಯ ಪ್ರಕಾರ ಮತ್ತು ಪ್ರಮಾಣವನ್ನು ಅವಲಂಬಿಸಿರುತ್ತದೆ."
       },
       {
-        "question": "Will all content be recovered?",
-        "answer": "The tool recovers as much as possible; severely damaged files may have losses."
+        "question": "ಎಲ್ಲಾ ವಿಷಯವೂ ಮರಳಿ ಸಿಗುತ್ತದೆಯೇ?",
+        "answer": "ಉಪಕರಣವು ಸಾಧ್ಯವಾದಷ್ಟು ಮರಳಿ ನೀಡುತ್ತದೆ; ತೀವ್ರವಾಗಿ ಹಾನಿಗೊಳಗಾದ ಫೈಲ್‌ಗಳಲ್ಲಿ ಮಾಹಿತಿ ನಷ್ಟವಾಗಬಹುದು."
       },
       {
-        "question": "Should I keep the original?",
-        "answer": "Yes, always keep the original file as a backup."
+        "question": "ನಾನು ಮೂಲ ಫೈಲ್ ಅನ್ನು ಇಟ್ಟುಕೊಳ್ಳಬೇಕೇ?",
+        "answer": "ಹೌದು, ಬ್ಯಾಕಪ್ ಆಗಿ ಮೂಲ ಫೈಲ್ ಅನ್ನು ಯಾವಾಗಲೂ ಇಟ್ಟುಕೊಳ್ಳಿ."
       }
     ]
   },
   "encrypt-pdf": {
-    "title": "Encrypt PDF",
-    "metaDescription": "Password protect PDF files. Add encryption and set permissions.",
+    "title": "PDF ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿ",
+    "metaDescription": "PDF ಫೈಲ್‌ಗಳನ್ನು ಪಾಸ್‌ವರ್ಡ್‌ನಿಂದ ಸುರಕ್ಷಿತಗೊಳಿಸಿ. ಎನ್‌ಕ್ರಿಪ್ಶನ್ ಸೇರಿಸಿ ಮತ್ತು ಅನುಮತಿಗಳನ್ನು ಹೊಂದಿಸಿ.",
     "keywords": [
       "encrypt pdf",
       "password protect pdf",
       "secure pdf",
       "pdf encryption"
     ],
-    "description": "\n      <p>Encrypt PDF adds password protection and encryption to your PDF documents. Set user passwords to prevent opening, and owner passwords to control permissions like printing and copying.</p>\n      <p>Choose from different encryption levels (128-bit or 256-bit AES) for varying security needs.</p>\n      <p>All encryption happens in your browser, ensuring your passwords and documents remain private.</p>\n    ",
+    "description": "<p>PDF ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡುವುದು ನಿಮ್ಮ PDF ದಾಖಲೆಗಳಿಗೆ ಪಾಸ್‌ವರ್ಡ್ ಸುರಕ್ಷತೆ ಮತ್ತು ಎನ್‌ಕ್ರಿಪ್ಶನ್ ಅನ್ನು ಸೇರಿಸುತ್ತದೆ. ತೆರೆಯುವುದನ್ನು ತಡೆಯಲು ಬಳಕೆದಾರರ ಪಾಸ್‌ವರ್ಡ್‌ಗಳನ್ನು ಮತ್ತು ಪ್ರಿಂಟಿಂಗ್ ಹಾಗೂ ಕಾಪಿ ಮಾಡುವಂತಹ ಅನುಮತಿಗಳನ್ನು ನಿಯಂತ್ರಿಸಲು ಮಾಲೀಕರ ಪಾಸ್‌ವರ್ಡ್‌ಗಳನ್ನು ಹೊಂದಿಸಿ.</p><p>ವಿವಿಧ ಭದ್ರತಾ ಅಗತ್ಯಗಳಿಗಾಗಿ ವಿಭಿನ್ನ ಎನ್‌ಕ್ರಿಪ್ಶನ್ ಮಟ್ಟಗಳಿಂದ (128-bit ಅಥವಾ 256-bit AES) ಆಯ್ಕೆಮಾಡಿ.</p><p>ಎಲ್ಲಾ ಎನ್‌ಕ್ರಿಪ್ಶನ್ ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲೇ ನಡೆಯುತ್ತದೆ, ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್‌ಗಳು ಮತ್ತು ದಾಖಲೆಗಳು ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>",
     "howToUse": [
       {
         "step": 1,
@@ -4889,57 +4889,57 @@ export const toolContentKn: Record<string, ToolContent> = {
       },
       {
         "step": 2,
-        "title": "Set Passwords",
-        "description": "Enter user password and/or owner password. Configure permissions."
+        "title": "ಪಾಸ್‌ವರ್ಡ್‌ಗಳನ್ನು ಹೊಂದಿಸಿ",
+        "description": "ಬಳಕೆದಾರರ ಪಾಸ್‌ವರ್ಡ್ ಮತ್ತು/ಅಥವಾ ಮಾಲೀಕರ ಪಾಸ್‌ವರ್ಡ್ ನಮೂದಿಸಿ. ಅನುಮತಿಗಳನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಿ."
       },
       {
         "step": 3,
-        "title": "Encrypt and Download",
-        "description": "Click Encrypt to secure your PDF and download."
+        "title": "ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ನಿಮ್ಮ PDF ಅನ್ನು ಸುರಕ್ಷಿತಗೊಳಿಸಲು ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಎನ್‌ಕ್ರಿಪ್ಟ್ ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Confidential Documents",
-        "description": "Protect sensitive business documents.",
+        "title": "ರಹಸ್ಯ ದಾಖಲೆಗಳು",
+        "description": "ಸೂಕ್ಷ್ಮ ವ್ಯವಹಾರ ದಾಖಲೆಗಳನ್ನು ರಕ್ಷಿಸಿ.",
         "icon": "lock"
       },
       {
-        "title": "Personal Files",
-        "description": "Secure personal documents like tax returns.",
+        "title": "ವೈಯಕ್ತಿಕ ಫೈಲ್‌ಗಳು",
+        "description": "ತೆರಿಗೆ ರಿಟರ್ನ್‌ಗಳಂತಹ ವೈಯಕ್ತಿಕ ದಾಖಲೆಗಳನ್ನು ಸುರಕ್ಷಿತಗೊಳಿಸಿ.",
         "icon": "shield"
       },
       {
-        "title": "Controlled Distribution",
-        "description": "Limit what recipients can do with documents.",
+        "title": "ನಿಯಂತ್ರಿತ ಹಂಚಿಕೆ",
+        "description": "ಸ್ವೀಕರಿಸುವವರು ದಾಖಲೆಗಳೊಂದಿಗೆ ಏನು ಮಾಡಬಹುದು ಎಂಬುದನ್ನು ಮಿತಿಗೊಳಿಸಿ.",
         "icon": "key"
       }
     ],
     "faq": [
       {
-        "question": "What's the difference between user and owner passwords?",
-        "answer": "User password prevents opening; owner password controls permissions."
+        "question": "ಬಳಕೆದಾರರ ಮತ್ತು ಮಾಲೀಕರ ಪಾಸ್‌ವರ್ಡ್‌ಗಳ ನಡುವಿನ ವ್ಯತ್ಯಾಸವೇನು?",
+        "answer": "ಬಳಕೆದಾರರ ಪಾಸ್‌ವರ್ಡ್ ತೆರೆಯುವುದನ್ನು ತಡೆಯುತ್ತದೆ; ಮಾಲೀಕರ ಪಾಸ್‌ವರ್ಡ್ ಅನುಮತಿಗಳನ್ನು ನಿಯಂತ್ರಿಸುತ್ತದೆ."
       },
       {
-        "question": "What encryption is used?",
-        "answer": "128-bit or 256-bit AES encryption options are available."
+        "question": "ಯಾವ ಎನ್‌ಕ್ರಿಪ್ಶನ್ ಬಳಸಲಾಗುತ್ತದೆ?",
+        "answer": "128-bit ಅಥವಾ 256-bit AES ಎನ್‌ಕ್ರಿಪ್ಶನ್ ಆಯ್ಕೆಗಳು ಲಭ್ಯವಿವೆ."
       },
       {
-        "question": "Can I set permissions without a user password?",
-        "answer": "Yes, you can set an owner password only to control permissions."
+        "question": "ಬಳಕೆದಾರರ ಪಾಸ್‌ವರ್ಡ್ ಇಲ್ಲದೆ ನಾನು ಅನುಮತಿಗಳನ್ನು ಹೊಂದಿಸಬಹುದೇ?",
+        "answer": "ಹೌದು, ಅನುಮತಿಗಳನ್ನು ನಿಯಂತ್ರಿಸಲು ಮಾತ್ರ ನೀವು ಮಾಲೀಕರ ಪಾಸ್‌ವರ್ಡ್ ಅನ್ನು ಹೊಂದಿಸಬಹುದು."
       }
     ]
   },
   "sanitize-pdf": {
-    "title": "Sanitize PDF",
-    "metaDescription": "Remove hidden data from PDFs. Clean metadata, scripts, and sensitive information.",
+    "title": "PDF ಸ್ಯಾನಿಟೈಸ್ ಮಾಡಿ",
+    "metaDescription": "PDF ಗಳಿಂದ ಅಡಗಿರುವ ಡೇಟಾವನ್ನು ತೆಗೆದುಹಾಕಿ. ಮೆಟಾಡೇಟಾ, ಸ್ಕ್ರಿಪ್ಟ್‌ಗಳು ಮತ್ತು ಸೂಕ್ಷ್ಮ ಮಾಹಿತಿಯನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸಿ.",
     "keywords": [
       "sanitize pdf",
       "clean pdf",
       "remove hidden data",
       "pdf privacy"
     ],
-    "description": "\n      <p>Sanitize PDF removes hidden data and potentially sensitive information from your documents. Strip metadata, embedded scripts, attachments, comments, and other hidden content.</p>\n      <p>Essential for preparing documents for public distribution or when privacy is a concern.</p>\n      <p>All sanitization happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "<p>PDF ಸ್ಯಾನಿಟೈಸ್ ಮಾಡುವುದು ನಿಮ್ಮ ದಾಖಲೆಗಳಿಂದ ಅಡಗಿರುವ ಡೇಟಾ ಮತ್ತು ಸೂಕ್ಷ್ಮ ಮಾಹಿತಿಯನ್ನು ತೆಗೆದುಹಾಕುತ್ತದೆ. ಮೆಟಾಡೇಟಾ, ಎಂಬೆಡ್ ಮಾಡಲಾದ ಸ್ಕ್ರಿಪ್ಟ್‌ಗಳು, ಲಗತ್ತುಗಳು, ಕಾಮೆಂಟ್‌ಗಳು ಮತ್ತು ಇತರ ಅಡಗಿರುವ ವಿಷಯವನ್ನು ತೆಗೆದುಹಾಕಿ.</p><p>ಸಾರ್ವಜನಿಕ ಹಂಚಿಕೆಗೆ ದಾಖಲೆಗಳನ್ನು ಸಿದ್ಧಪಡಿಸಲು ಅಥವಾ ಗೌಪ್ಯತೆಯ ಕಾಳಜಿ ಇದ್ದಾಗ ಇದು ಅತ್ಯಗತ್ಯ.</p><p>ಎಲ್ಲಾ ಸ್ಯಾನಿಟೈಸೇಶನ್ ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲೇ ನಡೆಯುತ್ತದೆ, ನಿಮ್ಮ ದಾಖಲೆಗಳು ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>",
     "howToUse": [
       {
         "step": 1,
@@ -4948,50 +4948,50 @@ export const toolContentKn: Record<string, ToolContent> = {
       },
       {
         "step": 2,
-        "title": "Select What to Remove",
-        "description": "Choose which types of hidden data to strip."
+        "title": "ಏನನ್ನು ತೆಗೆದುಹಾಕಬೇಕು ಎಂಬುದನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+        "description": "ಯಾವ ರೀತಿಯ ಅಡಗಿರುವ ಡೇಟಾವನ್ನು ತೆಗೆದುಹಾಕಬೇಕು ಎಂಬುದನ್ನು ಆಯ್ಕೆಮಾಡಿ."
       },
       {
         "step": 3,
-        "title": "Sanitize and Download",
-        "description": "Click Sanitize to clean the PDF and download."
+        "title": "ಸ್ಯಾನಿಟೈಸ್ ಮಾಡಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "PDF ಅನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸಲು ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಸ್ಯಾನಿಟೈಸ್ ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Public Release",
-        "description": "Prepare documents for public distribution.",
+        "title": "ಸಾರ್ವಜನಿಕ ಬಿಡುಗಡೆ",
+        "description": "ಸಾರ್ವಜನಿಕ ಹಂಚಿಕೆಗಾಗಿ ದಾಖಲೆಗಳನ್ನು ಸಿದ್ಧಪಡಿಸಿ.",
         "icon": "globe"
       },
       {
         "title": "ಗೌಪ್ಯತೆ ರಕ್ಷಣೆ",
-        "description": "Remove personal information before sharing.",
+        "description": "ಹಂಚಿಕೊಳ್ಳುವ ಮೊದಲು ವೈಯಕ್ತಿಕ ಮಾಹಿತಿಯನ್ನು ತೆಗೆದುಹಾಕಿ.",
         "icon": "shield"
       },
       {
-        "title": "Security Compliance",
-        "description": "Meet security requirements for document handling.",
+        "title": "ಭದ್ರತಾ ಅನುಸರಣೆ",
+        "description": "ದಾಖಲೆ ನಿರ್ವಹಣೆಗಾಗಿ ಭದ್ರತಾ ಅಗತ್ಯತೆಗಳನ್ನು ಪೂರೈಸಿ.",
         "icon": "check-circle"
       }
     ],
     "faq": [
       {
-        "question": "What hidden data is removed?",
-        "answer": "Metadata, scripts, attachments, comments, form data, and hidden layers."
+        "question": "ಯಾವ ಗುಪ್ತ ಡೇಟಾವನ್ನು ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆ?",
+        "answer": "Metadata, scripts, ಲಗತ್ತುಗಳು, ಕಾಮೆಂಟ್‌ಗಳು, ಫಾರ್ಮ್ ಡೇಟಾ ಮತ್ತು ಗುಪ್ತ ಲೇಯರ್‌ಗಳು."
       },
       {
-        "question": "Will visible content be affected?",
-        "answer": "No, only hidden data is removed; visible content remains."
+        "question": "ಕಾಣಿಸುವ ವಿಷಯದ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರುತ್ತದೆಯೇ?",
+        "answer": "ಇಲ್ಲ, ಗುಪ್ತ ಡೇಟಾವನ್ನು ಮಾತ್ರ ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆ; ಕಾಣಿಸುವ ವಿಷಯವು ಹಾಗೆಯೇ ಇರುತ್ತದೆ."
       },
       {
         "question": "ಇದನ್ನು ಮತ್ತೆ ಮೊದಲಿನ ಸ್ಥಿತಿಗೆ ತರಬಹುದೇ?",
-        "answer": "No, removed data cannot be recovered. Keep a backup of the original."
+        "answer": "ಇಲ್ಲ, ತೆಗೆದುಹಾಕಲಾದ ಡೇಟಾವನ್ನು ಹಿಂಪಡೆಯಲು ಸಾಧ್ಯವಿಲ್ಲ. ಮೂಲ ಫೈಲ್‌ನ ಬ್ಯಾಕಪ್ ಇಟ್ಟುಕೊಳ್ಳಿ."
       }
     ]
   },
   "find-and-redact": {
     "title": "Find and Redact",
-    "metaDescription": "Search and redact text across all pages of a PDF. Batch redact sensitive information like account numbers, names, and more.",
+    "metaDescription": "PDF ನ ಎಲ್ಲಾ ಪುಟಗಳಲ್ಲಿ ಪಠ್ಯವನ್ನು ಹುಡುಕಿ ಮತ್ತು redact ಮಾಡಿ. ಖಾತೆ ಸಂಖ್ಯೆಗಳು, ಹೆಸರುಗಳು ಮತ್ತು ಹೆಚ್ಚಿನ ಸೂಕ್ಷ್ಮ ಮಾಹಿತಿಯನ್ನು ಬ್ಯಾಚ್ ಆಗಿ redact ಮಾಡಿ.",
     "keywords": [
       "redact pdf",
       "find and redact",
@@ -5000,7 +5000,7 @@ export const toolContentKn: Record<string, ToolContent> = {
       "pdf censorship",
       "hide sensitive data"
     ],
-    "description": "\n      <p>Find and Redact allows you to search for specific text, numbers, or patterns across all pages of your PDF and redact all matching occurrences at once. Perfect for removing sensitive information like account numbers, names, addresses, or any confidential data.</p>\n      <p>Preview all matches before applying redactions, and selectively choose which occurrences to redact. Supports case-sensitive search, whole word matching, and regular expressions for advanced pattern matching.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private and secure.</p>\n    ",
+    "description": "<p>Find and Redact ನಿಮ್ಮ PDF ನ ಎಲ್ಲಾ ಪುಟಗಳಲ್ಲಿ ನಿರ್ದಿಷ್ಟ ಪಠ್ಯ, ಸಂಖ್ಯೆಗಳು ಅಥವಾ ಮಾದರಿಗಳನ್ನು ಹುಡುಕಲು ಮತ್ತು ಎಲ್ಲಾ ಹೊಂದುವ ಅಂಶಗಳನ್ನು ಒಂದೇ ಬಾರಿಗೆ redact ಮಾಡಲು ನಿಮಗೆ ಅನುಮತಿಸುತ್ತದೆ. ಖಾತೆ ಸಂಖ್ಯೆಗಳು, ಹೆಸರುಗಳು, ವಿಳಾಸಗಳು ಅಥವಾ ಯಾವುದೇ ರಹಸ್ಯ ಡೇಟಾದಂತಹ ಸೂಕ್ಷ್ಮ ಮಾಹಿತಿಯನ್ನು ತೆಗೆದುಹಾಕಲು ಇದು ಸೂಕ್ತವಾಗಿದೆ.</p><p>Redaction ಗಳನ್ನು ಅನ್ವಯಿಸುವ ಮೊದಲು ಎಲ್ಲಾ ಫಲಿತಾಂಶಗಳನ್ನು ಮುನ್ನೋಟ ವೀಕ್ಷಿಸಿ ಮತ್ತು ಯಾವ ಅಂಶಗಳನ್ನು redact ಮಾಡಬೇಕೆಂದು ಆಯ್ಕೆಮಾಡಿ. ಸುಧಾರಿತ ಮಾದರಿ ಹುಡುಕಾಟಕ್ಕಾಗಿ case-sensitive ಹುಡುಕಾಟ, ಪೂರ್ಣ ಪದ ಹೊಂದುವಿಕೆ ಮತ್ತು regular expressions ಬೆಂಬಲಿಸುತ್ತದೆ.</p><p>ಎಲ್ಲಾ ಸಂಸ್ಕರಣೆಯು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ನಡೆಯುತ್ತದೆ, ಇದು ನಿಮ್ಮ ದಾಖಲೆಗಳು ಖಾಸಗಿಯಾಗಿ ಮತ್ತು ಸುರಕ್ಷಿತವಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>",
     "howToUse": [
       {
         "step": 1,
@@ -5009,184 +5009,184 @@ export const toolContentKn: Record<string, ToolContent> = {
       },
       {
         "step": 2,
-        "title": "Search for Text",
-        "description": "Enter the text, number, or regex pattern you want to find and redact."
+        "title": "ಪಠ್ಯಕ್ಕಾಗಿ ಹುಡುಕಿ",
+        "description": "ನೀವು ಹುಡುಕಲು ಮತ್ತು redact ಮಾಡಲು ಬಯಸುವ ಪಠ್ಯ, ಸಂಖ್ಯೆ ಅಥವಾ regex ಮಾದರಿಯನ್ನು ನಮೂದಿಸಿ."
       },
       {
         "step": 3,
-        "title": "Review and Select",
-        "description": "Preview all matches and select which ones to redact."
+        "title": "ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಆಯ್ಕೆಮಾಡಿ",
+        "description": "ಎಲ್ಲಾ ಫಲಿತಾಂಶಗಳನ್ನು ಮುನ್ನೋಟ ವೀಕ್ಷಿಸಿ ಮತ್ತು ಯಾವುದನ್ನು redact ಮಾಡಬೇಕೆಂದು ಆಯ್ಕೆಮಾಡಿ."
       },
       {
         "step": 4,
-        "title": "Apply Redaction",
-        "description": "Customize redaction appearance and apply to selected matches."
+        "title": "Redaction ಅನ್ವಯಿಸಿ",
+        "description": "Redaction ನೋಟವನ್ನು ಕಸ್ಟಮೈಸ್ ಮಾಡಿ ಮತ್ತು ಆಯ್ಕೆಮಾಡಿದ ಫಲಿತಾಂಶಗಳಿಗೆ ಅನ್ವಯಿಸಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Privacy Compliance",
-        "description": "Redact personal information to comply with GDPR, HIPAA, or other regulations.",
+        "title": "ಖಾಸಗಿತನದ ಅನುಸರಣೆ",
+        "description": "GDPR, HIPAA ಅಥವಾ ಇತರ ನಿಯಮಗಳನ್ನು ಅನುಸರಿಸಲು ವೈಯಕ್ತಿಕ ಮಾಹಿತಿಯನ್ನು redact ಮಾಡಿ.",
         "icon": "shield"
       },
       {
         "title": "ಕಾನೂನು ದಾಖಲೆಗಳು",
-        "description": "Remove confidential data from legal documents before sharing.",
+        "description": "ಹಂಚಿಕೊಳ್ಳುವ ಮೊದಲು ಕಾನೂನು ದಾಖಲೆಗಳಿಂದ ರಹಸ್ಯ ಡೇಟಾವನ್ನು ತೆಗೆದುಹಾಕಿ.",
         "icon": "scale"
       },
       {
-        "title": "Financial Records",
-        "description": "Redact account numbers, SSNs, or financial data from statements.",
+        "title": "ಹಣಕಾಸಿನ ದಾಖಲೆಗಳು",
+        "description": "ಸ್ಟೇಟ್‌ಮೆಂಟ್‌ಗಳಿಂದ ಖಾತೆ ಸಂಖ್ಯೆಗಳು, SSN ಗಳು ಅಥವಾ ಹಣಕಾಸಿನ ಡೇಟಾವನ್ನು redact ಮಾಡಿ.",
         "icon": "credit-card"
       }
     ],
     "faq": [
       {
-        "question": "Is redaction permanent?",
-        "answer": "Yes, redaction permanently removes the underlying text. The original content cannot be recovered. Always keep a backup of the original file."
+        "question": "Redaction ಶಾಶ್ವತವೇ?",
+        "answer": "ಹೌದು, redaction ಪಠ್ಯವನ್ನು ಶಾಶ್ವತವಾಗಿ ತೆಗೆದುಹಾಕುತ್ತದೆ. ಮೂಲ ವಿಷಯವನ್ನು ಹಿಂಪಡೆಯಲು ಸಾಧ್ಯವಿಲ್ಲ. ಯಾವಾಗಲೂ ಮೂಲ ಫೈಲ್‌ನ ಬ್ಯಾಕಪ್ ಇಟ್ಟುಕೊಳ್ಳಿ."
       },
       {
-        "question": "Can I redact images or scanned text?",
-        "answer": "This tool works with text-based PDFs. For scanned documents, you would need to use manual area-based redaction."
+        "question": "ನಾನು ಚಿತ್ರಗಳನ್ನು ಅಥವಾ ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ಪಠ್ಯವನ್ನು redact ಮಾಡಬಹುದೇ?",
+        "answer": "ಈ ಉಪಕರಣವು ಪಠ್ಯ ಆಧಾರಿತ PDF ಗಳೊಂದಿಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ. ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ದಾಖಲೆಗಳಿಗಾಗಿ, ನೀವು ಕೈಯಾರೆ ಪ್ರದೇಶ-ಆಧಾರಿತ redaction ಅನ್ನು ಬಳಸಬೇಕಾಗುತ್ತದೆ."
       },
       {
-        "question": "Can I customize the redaction appearance?",
-        "answer": "Yes, you can set the redaction color, add borders, and optionally include replacement text like \"[REDACTED]\"."
+        "question": "ನಾನು redaction ನೋಟವನ್ನು ಕಸ್ಟಮೈಸ್ ಮಾಡಬಹುದೇ?",
+        "answer": "ಹೌದು, ನೀವು redaction ಬಣ್ಣವನ್ನು ಹೊಂದಿಸಬಹುದು, ಬಾರ್ಡರ್‌ಗಳನ್ನು ಸೇರಿಸಬಹುದು ಮತ್ತು ಐಚ್ಛಿಕವಾಗಿ \"[REDACTED]\" ನಂತಹ ಪರ್ಯಾಯ ಪಠ್ಯವನ್ನು ಸೇರಿಸಬಹುದು."
       },
       {
-        "question": "How does regex search work?",
-        "answer": "Enable \"Use Regular Expression\" to search using regex patterns. For example, \\d{4}-\\d{4}-\\d{4}-\\d{4} to find credit card numbers."
+        "question": "Regex ಹುಡುಕಾಟವು ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ?",
+        "answer": "Regex ಮಾದರಿಗಳನ್ನು ಬಳಸಿ ಹುಡುಕಲು \"Regular Expression ಬಳಸಿ\" ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ. ಉದಾಹರಣೆಗೆ, ಕ್ರೆಡಿಟ್ ಕಾರ್ಡ್ ಸಂಖ್ಯೆಗಳನ್ನು ಹುಡುಕಲು \\d{4}-\\d{4}-\\d{4}-\\d{4}."
       }
     ]
   },
   "decrypt-pdf": {
-    "title": "Decrypt PDF",
-    "metaDescription": "Remove password from PDF files. Unlock password-protected documents.",
+    "title": "PDF ಡಿಕ್ರಿಪ್ಟ್ ಮಾಡಿ",
+    "metaDescription": "PDF ಫೈಲ್‌ಗಳಿಂದ ಪಾಸ್‌ವರ್ಡ್ ತೆಗೆದುಹಾಕಿ. ಪಾಸ್‌ವರ್ಡ್-ರಕ್ಷಿತ ದಾಖಲೆಗಳನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಿ.",
     "keywords": [
       "decrypt pdf",
       "remove pdf password",
       "unlock pdf",
       "pdf password remover"
     ],
-    "description": "\n      <p>Decrypt PDF removes password protection from PDF documents. Enter the current password to unlock the file and create an unprotected copy.</p>\n      <p>This tool requires you to know the current password. It cannot crack or bypass unknown passwords.</p>\n      <p>All decryption happens in your browser, ensuring your passwords and documents remain private.</p>\n    ",
+    "description": "<p>Decrypt PDF ದಾಖಲೆಗಳಿಂದ ಪಾಸ್‌ವರ್ಡ್ ರಕ್ಷಣೆಯನ್ನು ತೆಗೆದುಹಾಕುತ್ತದೆ. ಫೈಲ್ ಅನ್‌ಲಾಕ್ ಮಾಡಲು ಮತ್ತು ರಕ್ಷಿಸದ ಪ್ರತಿಯನ್ನು ರಚಿಸಲು ಪ್ರಸ್ತುತ ಪಾಸ್‌ವರ್ಡ್ ಅನ್ನು ನಮೂದಿಸಿ.</p><p>ಈ ಉಪಕರಣಕ್ಕೆ ನೀವು ಪ್ರಸ್ತುತ ಪಾಸ್‌ವರ್ಡ್ ತಿಳಿದಿರಬೇಕಾಗುತ್ತದೆ. ಇದು ತಿಳಿಯದ ಪಾಸ್‌ವರ್ಡ್‌ಗಳನ್ನು ಕ್ರ್ಯಾಕ್ ಮಾಡಲು ಅಥವಾ ಬೈಪಾಸ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ.</p><p>ಎಲ್ಲಾ ಡಿಕ್ರಿಪ್ಶನ್ ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ನಡೆಯುತ್ತದೆ, ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್‌ಗಳು ಮತ್ತು ದಾಖಲೆಗಳು ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Protected PDF",
-        "description": "Drag and drop your password-protected PDF."
+        "title": "ರಕ್ಷಿತ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್-ರಕ್ಷಿತ PDF ಅನ್ನು ಡ್ರಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Enter Password",
-        "description": "Enter the current document password."
+        "title": "ಪಾಸ್‌ವರ್ಡ್ ನಮೂದಿಸಿ",
+        "description": "ಪ್ರಸ್ತುತ ದಾಖಲೆಯ ಪಾಸ್‌ವರ್ಡ್ ನಮೂದಿಸಿ."
       },
       {
         "step": 3,
-        "title": "Decrypt and Download",
-        "description": "Click Decrypt to remove protection and download."
+        "title": "ಡಿಕ್ರಿಪ್ಟ್ ಮಾಡಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ರಕ್ಷಣೆಯನ್ನು ತೆಗೆದುಹಾಕಲು ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು Decrypt ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Remove Old Passwords",
-        "description": "Unlock documents when password is no longer needed.",
+        "title": "ಹಳೆಯ ಪಾಸ್‌ವರ್ಡ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕಿ",
+        "description": "ಪಾಸ್‌ವರ್ಡ್ ಇನ್ನು ಮುಂದೆ ಅಗತ್ಯವಿಲ್ಲದಿದ್ದಾಗ ದಾಖಲೆಗಳನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಿ.",
         "icon": "unlock"
       },
       {
-        "title": "Simplify Access",
-        "description": "Create unprotected copies for easier sharing.",
+        "title": "ಪ್ರವೇಶವನ್ನು ಸುಲಭಗೊಳಿಸಿ",
+        "description": "ಸುಲಭ ಹಂಚಿಕೆಗಾಗಿ ರಕ್ಷಿಸದ ಪ್ರತಿಗಳನ್ನು ರಚಿಸಿ.",
         "icon": "share-2"
       },
       {
         "title": "ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳನ್ನು ಆರ್ಕೈವ್ ಮಾಡಿ",
-        "description": "Remove passwords before long-term archiving.",
+        "description": "ದೀರ್ಘಕಾಲೀನ ಆರ್ಕೈವ್ ಮಾಡುವ ಮೊದಲು ಪಾಸ್‌ವರ್ಡ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕಿ.",
         "icon": "archive"
       }
     ],
     "faq": [
       {
-        "question": "Can it crack unknown passwords?",
-        "answer": "No, you must know the current password to decrypt."
+        "question": "ಇದು ತಿಳಿಯದ ಪಾಸ್‌ವರ್ಡ್‌ಗಳನ್ನು ಕ್ರ್ಯಾಕ್ ಮಾಡಬಹುದೇ?",
+        "answer": "ಇಲ್ಲ, ಡಿಕ್ರಿಪ್ಟ್ ಮಾಡಲು ನೀವು ಪ್ರಸ್ತುತ ಪಾಸ್‌ವರ್ಡ್ ಅನ್ನು ತಿಳಿದಿರಬೇಕು."
       },
       {
-        "question": "Is the original file modified?",
-        "answer": "No, a new unprotected copy is created."
+        "question": "ಮೂಲ ಫೈಲ್ ಅನ್ನು ಮಾರ್ಪಡಿಸಲಾಗುತ್ತದೆಯೇ?",
+        "answer": "ಇಲ್ಲ, ಹೊಸ ರಕ್ಷಿಸದ ಪ್ರತಿಯನ್ನು ರಚಿಸಲಾಗುತ್ತದೆ."
       },
       {
-        "question": "What if I forgot the password?",
-        "answer": "Unfortunately, we cannot recover forgotten passwords."
+        "question": "ನಾನು ಪಾಸ್‌ವರ್ಡ್ ಮರೆತರೆ ಏನು ಮಾಡುವುದು?",
+        "answer": "ದುರದೃಷ್ಟವಶಾತ್, ಮರೆತುಹೋದ ಪಾಸ್‌ವರ್ಡ್‌ಗಳನ್ನು ಹಿಂಪಡೆಯಲು ನಮಗೆ ಸಾಧ್ಯವಿಲ್ಲ."
       }
     ]
   },
   "flatten-pdf": {
-    "title": "Flatten PDF",
-    "metaDescription": "Flatten PDF forms and annotations. Make content non-editable.",
+    "title": "PDF ಫ್ಲಾಟನ್ ಮಾಡಿ",
+    "metaDescription": "PDF ಫಾರ್ಮ್‌ಗಳು ಮತ್ತು ಟಿಪ್ಪಣಿಗಳನ್ನು ಫ್ಲ್ಯಾಟ್‌ ಮಾಡಿ. ವಿಷಯವನ್ನು ಎಡಿಟ್ ಮಾಡಲಾಗದಂತೆ ಮಾಡಿ.",
     "keywords": [
       "flatten pdf",
       "flatten forms",
       "flatten annotations",
       "non-editable pdf"
     ],
-    "description": "\n      <p>Flatten PDF converts interactive elements like form fields and annotations into static content. The flattened PDF looks the same but can no longer be edited.</p>\n      <p>Perfect for finalizing filled forms, preserving annotations, or creating non-editable document versions.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>PDF ಫ್ಲ್ಯಾಟ್‌ ಮಾಡುವುದು ಫಾರ್ಮ್ ಫೀಲ್ಡ್‌ಗಳು ಮತ್ತು ಟಿಪ್ಪಣಿಗಳಂತಹ ಇಂಟರಾಕ್ಟಿವ್ ಅಂಶಗಳನ್ನು ಸ್ಥಿರ ವಿಷಯವಾಗಿ ಪರಿವರ್ತಿಸುತ್ತದೆ. ಫ್ಲ್ಯಾಟ್‌ ಮಾಡಿದ PDF ಒಂದೇ ರೀತಿಯಲ್ಲಿ ಕಾಣಿಸುತ್ತದೆ ಆದರೆ ಇನ್ನು ಮುಂದೆ ಎಡಿಟ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ.</p>\n      <p>ಭರ್ತಿ ಮಾಡಿದ ಫಾರ್ಮ್‌ಗಳನ್ನು ಅಂತಿಮಗೊಳಿಸಲು, ಟಿಪ್ಪಣಿಗಳನ್ನು ಕಾಯ್ದುಕೊಳ್ಳಲು ಅಥವಾ ಎಡಿಟ್ ಮಾಡಲಾಗದ ಡಾಕ್ಯುಮೆಂಟ್ ಆವೃತ್ತಿಗಳನ್ನು ರಚಿಸಲು ಇದು ಸೂಕ್ತವಾಗಿದೆ.</p>\n      <p>ಎಲ್ಲಾ ಪ್ರಕ್ರಿಯೆಗಳು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ನಡೆಯುತ್ತವೆ, ನಿಮ್ಮ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳು ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತವೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your PDF with forms or annotations."
+        "description": "ಫಾರ್ಮ್‌ಗಳು ಅಥವಾ ಟಿಪ್ಪಣಿಗಳನ್ನು ಹೊಂದಿರುವ ನಿಮ್ಮ PDF ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Select What to Flatten",
-        "description": "Choose to flatten forms, annotations, or both."
+        "title": "ಫ್ಲ್ಯಾಟ್‌ ಮಾಡಲು ಬಯಸುವುದನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+        "description": "ಫಾರ್ಮ್‌ಗಳು, ಟಿಪ್ಪಣಿಗಳು ಅಥವಾ ಎರಡನ್ನೂ ಫ್ಲ್ಯಾಟ್‌ ಮಾಡಲು ಆಯ್ಕೆಮಾಡಿ."
       },
       {
         "step": 3,
-        "title": "Flatten and Download",
-        "description": "Click Flatten to create the static PDF."
+        "title": "ಫ್ಲ್ಯಾಟ್‌ ಮಾಡಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ಸ್ಥಿರ PDF ರಚಿಸಲು ಫ್ಲ್ಯಾಟ್‌ ಮಾಡಿ ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Finalize Forms",
-        "description": "Lock filled form data to prevent changes.",
+        "title": "ಫಾರ್ಮ್‌ಗಳನ್ನು ಅಂತಿಮಗೊಳಿಸಿ",
+        "description": "ಬದಲಾವಣೆಗಳನ್ನು ತಡೆಯಲು ಭರ್ತಿ ಮಾಡಿದ ಫಾರ್ಮ್ ಡೇಟಾವನ್ನು ಲಾಕ್ ಮಾಡಿ.",
         "icon": "lock"
       },
       {
-        "title": "Preserve Annotations",
-        "description": "Make annotations permanent in the document.",
+        "title": "ಟಿಪ್ಪಣಿಗಳನ್ನು ಕಾಯ್ದುಕೊಳ್ಳಿ",
+        "description": "ಡಾಕ್ಯುಮೆಂಟ್‌ನಲ್ಲಿ ಟಿಪ್ಪಣಿಗಳನ್ನು ಶಾಶ್ವತಗೊಳಿಸಿ.",
         "icon": "check-circle"
       },
       {
         "title": "ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳನ್ನು ಆರ್ಕೈವ್ ಮಾಡಿ",
-        "description": "Create non-editable versions for archiving.",
+        "description": "ಆರ್ಕೈವ್ ಮಾಡಲು ಎಡಿಟ್ ಮಾಡಲಾಗದ ಆವೃತ್ತಿಗಳನ್ನು ರಚಿಸಿ.",
         "icon": "archive"
       }
     ],
     "faq": [
       {
-        "question": "Is flattening reversible?",
-        "answer": "No, flattening is permanent. Keep a backup of the original."
+        "question": "ಫ್ಲ್ಯಾಟ್‌ ಮಾಡುವುದನ್ನು ಹಿಂತಿರುಗಿಸಬಹುದೇ?",
+        "answer": "ಇಲ್ಲ, ಫ್ಲ್ಯಾಟ್‌ ಮಾಡುವುದು ಶಾಶ್ವತ. ಮೂಲ ಪ್ರತಿಯ ಬ್ಯಾಕಪ್ ಅನ್ನು ಇರಿಸಿಕೊಳ್ಳಿ."
       },
       {
-        "question": "Will the appearance change?",
-        "answer": "No, the document looks the same but is no longer interactive."
+        "question": "ಗೋಚರತೆ ಬದಲಾಗುತ್ತದೆಯೇ?",
+        "answer": "ಇಲ್ಲ, ಡಾಕ್ಯುಮೆಂಟ್ ಒಂದೇ ರೀತಿಯಲ್ಲಿ ಕಾಣಿಸುತ್ತದೆ ಆದರೆ ಇನ್ನು ಮುಂದೆ ಇಂಟರಾಕ್ಟಿವ್ ಆಗಿರುವುದಿಲ್ಲ."
       },
       {
-        "question": "Does it reduce file size?",
-        "answer": "Sometimes, as interactive elements are converted to simpler content."
+        "question": "ಇದು ಫೈಲ್ ಗಾತ್ರವನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆಯೇ?",
+        "answer": "ಕೆಲವೊಮ್ಮೆ, ಇಂಟರಾಕ್ಟಿವ್ ಅಂಶಗಳನ್ನು ಸರಳ ವಿಷಯಕ್ಕೆ ಪರಿವರ್ತಿಸುವುದರಿಂದ ಬದಲಾಗಬಹುದು."
       }
     ]
   },
   "remove-metadata": {
-    "title": "Remove Metadata",
-    "metaDescription": "Strip metadata from PDF files. Remove author, dates, and document properties.",
+    "title": "Metadata ತೆಗೆದುಹಾಕಿ",
+    "metaDescription": "PDF ಫೈಲ್‌ಗಳಿಂದ ಮೆಟಾಡೇಟಾವನ್ನು ತೆಗೆದುಹಾಕಿ. ಲೇಖಕರು, ದಿನಾಂಕಗಳು ಮತ್ತು ಡಾಕ್ಯುಮೆಂಟ್ ಗುಣಲಕ್ಷಣಗಳನ್ನು ಅಳಿಸಿಹಾಕಿ.",
     "keywords": [
       "remove pdf metadata",
       "strip metadata",
       "pdf privacy",
       "anonymous pdf"
     ],
-    "description": "\n      <p>Remove Metadata strips all document properties and metadata from your PDF files. Remove author names, creation dates, software information, and other identifying data.</p>\n      <p>Essential for privacy when sharing documents or when metadata could reveal sensitive information.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>ಮೆಟಾಡೇಟಾ ತೆಗೆದುಹಾಕಿ ನಿಮ್ಮ PDF ಫೈಲ್‌ಗಳಿಂದ ಎಲ್ಲಾ ಡಾಕ್ಯುಮೆಂಟ್ ಗುಣಲಕ್ಷಣಗಳು ಮತ್ತು ಮೆಟಾಡೇಟಾವನ್ನು ತೆಗೆದುಹಾಕುತ್ತದೆ. ಲೇಖಕರ ಹೆಸರುಗಳು, ರಚಿಸಿದ ದಿನಾಂಕಗಳು, ಸಾಫ್ಟ್‌ವೇರ್ ಮಾಹಿತಿ ಮತ್ತು ಇತರ ಗುರುತಿಸುವ ಡೇಟಾವನ್ನು ಅಳಿಸಿಹಾಕಿ.</p>\n      <p>ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳುವಾಗ ಅಥವಾ ಮೆಟಾಡೇಟಾ ಸೂಕ್ಷ್ಮ ಮಾಹಿತಿಯನ್ನು ಬಹಿರಂಗಪಡಿಸುವಾಗ ಗೌಪ್ಯತೆಗೆ ಇದು ಅಗತ್ಯವಾಗಿದೆ.</p>\n      <p>ಎಲ್ಲಾ ಪ್ರಕ್ರಿಯೆಗಳು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ನಡೆಯುತ್ತವೆ, ನಿಮ್ಮ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳು ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತವೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
@@ -5195,57 +5195,57 @@ export const toolContentKn: Record<string, ToolContent> = {
       },
       {
         "step": 2,
-        "title": "Remove Metadata",
-        "description": "Click Remove to strip all metadata."
+        "title": "Metadata ತೆಗೆದುಹಾಕಿ",
+        "description": "ಎಲ್ಲಾ ಮೆಟಾಡೇಟಾವನ್ನು ತೆಗೆದುಹಾಕಲು ಅಳಿಸಿಹಾಕಿ ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 3,
         "title": "ಡೌನ್‌ಲೋಡ್",
-        "description": "Download the metadata-free PDF."
+        "description": "ಮೆಟಾಡೇಟಾ-ರಹಿತ PDF ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
         "title": "ಗೌಪ್ಯತೆ ರಕ್ಷಣೆ",
-        "description": "Remove personal information before sharing.",
+        "description": "ಹಂಚಿಕೊಳ್ಳುವ ಮೊದಲು ವೈಯಕ್ತಿಕ ಮಾಹಿತಿಯನ್ನು ತೆಗೆದುಹಾಕಿ.",
         "icon": "shield"
       },
       {
-        "title": "Anonymous Documents",
-        "description": "Create documents without author attribution.",
+        "title": "ಅನಾಮಧೇಯ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳು",
+        "description": "ಲೇಖಕರ ವಿವರಗಳಿಲ್ಲದೆ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳನ್ನು ರಚಿಸಿ.",
         "icon": "user-x"
       },
       {
         "title": "ಸ್ವಚ್ಛ ವಿತರಣೆ",
-        "description": "Distribute documents without internal metadata.",
+        "description": "ಆಂತರಿಕ ಮೆಟಾಡೇಟಾ ಇಲ್ಲದೆ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳನ್ನು ವಿತರಿಸಿ.",
         "icon": "send"
       }
     ],
     "faq": [
       {
-        "question": "What metadata is removed?",
-        "answer": "Author, title, subject, keywords, dates, creator, and producer information."
+        "question": "ಯಾವ ಮೆಟಾಡೇಟಾವನ್ನು ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆ?",
+        "answer": "ಲೇಖಕರು, ಶೀರ್ಷಿಕೆ, ವಿಷಯ, ಕೀವರ್ಡ್‌ಗಳು, ದಿನಾಂಕಗಳು, ಸೃಷ್ಟಿಕರ್ತರು ಮತ್ತು ತಯಾರಕರ ಮಾಹಿತಿ."
       },
       {
-        "question": "Is XMP metadata removed?",
-        "answer": "Yes, both standard and XMP metadata are stripped."
+        "question": "XMP ಮೆಟಾಡೇಟಾವನ್ನು ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆಯೇ?",
+        "answer": "ಹೌದು, ಸಾಮಾನ್ಯ ಮತ್ತು XMP ಎರಡೂ ಮೆಟಾಡೇಟಾವನ್ನು ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆ."
       },
       {
-        "question": "Will content be affected?",
-        "answer": "No, only metadata is removed; document content remains unchanged."
+        "question": "ವಿಷಯದ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರುತ್ತದೆಯೇ?",
+        "answer": "ಇಲ್ಲ, ಮೆಟಾಡೇಟಾವನ್ನು ಮಾತ್ರ ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆ; ಡಾಕ್ಯುಮೆಂಟ್ ವಿಷಯವು ಬದಲಾಗದೆ ಇರುತ್ತದೆ."
       }
     ]
   },
   "change-permissions": {
-    "title": "Change Permissions",
-    "metaDescription": "Modify PDF permissions. Control printing, copying, and editing access.",
+    "title": "ಅನುಮತಿಗಳನ್ನು ಬದಲಾಯಿಸಿ",
+    "metaDescription": "PDF ಅನುಮತಿಗಳನ್ನು ಮಾರ್ಪಡಿಸಿ. ಪ್ರಿಂಟಿಂಗ್, ಕಾಪಿ ಮಾಡುವಿಕೆ ಮತ್ತು ಎಡಿಟಿಂಗ್ ಪ್ರವೇಶವನ್ನು ನಿಯಂತ್ರಿಸಿ.",
     "keywords": [
       "pdf permissions",
       "change pdf access",
       "restrict pdf",
       "pdf security"
     ],
-    "description": "\n      <p>Change Permissions modifies the access controls on your PDF documents. Enable or disable printing, copying, editing, and annotation permissions.</p>\n      <p>Set an owner password to enforce these restrictions. Recipients can view the document but are limited in what actions they can perform.</p>\n      <p>All processing happens in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>ಅನುಮತಿಗಳನ್ನು ಬದಲಾಯಿಸಿ ನಿಮ್ಮ PDF ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳ ಪ್ರವೇಶ ನಿಯಂತ್ರಣಗಳನ್ನು ಮಾರ್ಪಡಿಸುತ್ತದೆ. ಪ್ರಿಂಟಿಂಗ್, ಕಾಪಿ ಮಾಡುವಿಕೆ, ಎಡಿಟಿಂಗ್ ಮತ್ತು ಟಿಪ್ಪಣಿ ಅನುಮತಿಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ ಅಥವಾ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ.</p>\n      <p>ಈ ನಿರ್ಬಂಧಗಳನ್ನು ಜಾರಿಗೆ ತರಲು ಮಾಲೀಕರ ಪಾಸ್‌ವರ್ಡ್ ಅನ್ನು ಹೊಂದಿಸಿ. ಸ್ವೀಕರಿಸುವವರು ಡಾಕ್ಯುಮೆಂಟ್ ವೀಕ್ಷಿಸಬಹುದು ಆದರೆ ಅವರು ನಿರ್ವಹಿಸಬಹುದಾದ ಕ್ರಿಯೆಗಳಿಗೆ ಮಿತಿ ಇರುತ್ತದೆ.</p>\n      <p>ಎಲ್ಲಾ ಪ್ರಕ್ರಿಯೆಗಳು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ನಡೆಯುತ್ತವೆ, ನಿಮ್ಮ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳು ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತವೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
@@ -5254,57 +5254,57 @@ export const toolContentKn: Record<string, ToolContent> = {
       },
       {
         "step": 2,
-        "title": "Set Permissions",
-        "description": "Enable or disable printing, copying, editing, and annotations."
+        "title": "ಅನುಮತಿಗಳನ್ನು ಹೊಂದಿಸಿ",
+        "description": "ಪ್ರಿಂಟಿಂಗ್, ಕಾಪಿ ಮಾಡುವಿಕೆ, ಎಡಿಟಿಂಗ್ ಮತ್ತು ಟಿಪ್ಪಣಿಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ ಅಥವಾ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ."
       },
       {
         "step": 3,
         "title": "ಅನ್ವಯಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Set owner password and download the restricted PDF."
+        "description": "ಮಾಲೀಕರ ಪಾಸ್‌ವರ್ಡ್ ಅನ್ನು ಹೊಂದಿಸಿ ಮತ್ತು ನಿರ್ಬಂಧಿತ PDF ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Prevent Copying",
-        "description": "Disable text copying to protect content.",
+        "title": "ಕಾಪಿ ಮಾಡುವುದನ್ನು ತಡೆಯಿರಿ",
+        "description": "ವಿಷಯವನ್ನು ರಕ್ಷಿಸಲು ಪಠ್ಯ ಕಾಪಿ ಮಾಡುವುದನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ.",
         "icon": "copy"
       },
       {
-        "title": "Control Printing",
-        "description": "Restrict or allow document printing.",
+        "title": "ಪ್ರಿಂಟಿಂಗ್ ನಿಯಂತ್ರಿಸಿ",
+        "description": "ಡಾಕ್ಯುಮೆಂಟ್ ಪ್ರಿಂಟಿಂಗ್ ಅನ್ನು ನಿರ್ಬಂಧಿಸಿ ಅಥವಾ ಅನುಮತಿಸಿ.",
         "icon": "printer"
       },
       {
-        "title": "Limit Editing",
-        "description": "Prevent modifications to the document.",
+        "title": "ಎಡಿಟಿಂಗ್ ಪರಿಮಿತಿಗೊಳಿಸಿ",
+        "description": "ಡಾಕ್ಯುಮೆಂಟ್‌ಗೆ ಯಾವುದೇ ಮಾರ್ಪಾಡುಗಳನ್ನು ತಡೆಯಿರಿ.",
         "icon": "edit-3"
       }
     ],
     "faq": [
       {
-        "question": "Do I need a password?",
-        "answer": "An owner password is required to enforce permissions."
+        "question": "ನನಗೆ ಪಾಸ್‌ವರ್ಡ್ ಅಗತ್ಯವಿದೆಯೇ?",
+        "answer": "ಅನುಮತಿಗಳನ್ನು ಜಾರಿಗೆ ತರಲು ಮಾಲೀಕರ ಪಾಸ್‌ವರ್ಡ್ ಅಗತ್ಯವಿದೆ."
       },
       {
-        "question": "Can permissions be removed?",
-        "answer": "Yes, with the owner password or using Remove Restrictions tool."
+        "question": "ಅನುಮತಿಗಳನ್ನು ತೆಗೆದುಹಾಕಬಹುದೇ?",
+        "answer": "ಹೌದು, ಮಾಲೀಕರ ಪಾಸ್‌ವರ್ಡ್‌ನೊಂದಿಗೆ ಅಥವಾ ನಿರ್ಬಂಧಗಳನ್ನು ತೆಗೆದುಹಾಕಿ ಉಪಕರಣವನ್ನು ಬಳಸಿ."
       },
       {
-        "question": "Are all PDF readers compatible?",
-        "answer": "Most PDF readers respect permissions, but some may not enforce them."
+        "question": "ಎಲ್ಲಾ PDF ರೀಡರ್‌ಗಳು ಹೊಂದಿಕೊಳ್ಳುತ್ತವೆಯೇ?",
+        "answer": "ಹೆಚ್ಚಿನ PDF ರೀಡರ್‌ಗಳು ಅನುಮತಿಗಳನ್ನು ಗೌರವಿಸುತ್ತವೆ, ಆದರೆ ಕೆಲವು ಅದನ್ನು ಜಾರಿಗೆ ತರದಿರಬಹುದು."
       }
     ]
   },
   "pdf-to-docx": {
-    "title": "PDF to Word",
-    "metaDescription": "Convert PDF to editable Word (DOCX) documents. Preserve formatting and layout.",
+    "title": "PDF ನಿಂದ Word",
+    "metaDescription": "PDF ಅನ್ನು ಎಡಿಟ್ ಮಾಡಬಹುದಾದ Word (DOCX) ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳಾಗಿ ಪರಿವರ್ತಿಸಿ. ಫಾರ್ಮ್ಯಾಟಿಂಗ್ ಮತ್ತು ಲೇಔಟ್ ಅನ್ನು ಕಾಯ್ದುಕೊಳ್ಳಿ.",
     "keywords": [
       "pdf to word",
       "convert pdf to docx",
       "pdf to doc",
       "editable pdf"
     ],
-    "description": "\n      <p>PDF to Word converts your PDF documents into editable Microsoft Word (DOCX) files. The tool preserves the original layout, formatting, images, and text flow.</p>\n      <p>Easily edit your PDF content in Word without retyping. Perfect for contracts, reports, and resumes.</p>\n      <p>All conversion happens locally in your browser using WebAssembly technology, ensuring your documents never leave your device.</p>\n    ",
+    "description": "\n      <p>PDF to Word ನಿಮ್ಮ PDF ದಾಖಲೆಗಳನ್ನು ಎಡಿಟ್ ಮಾಡಬಹುದಾದ Microsoft Word (DOCX) ಫೈಲ್‌ಗಳಾಗಿ ಪರಿವರ್ತಿಸುತ್ತದೆ. ಈ ಉಪಕರಣವು ಮೂಲ ವಿನ್ಯಾಸ, ಫಾರ್ಮ್ಯಾಟಿಂಗ್, ಚಿತ್ರಗಳು ಮತ್ತು ಪಠ್ಯದ ಹರಿವನ್ನು ಕಾಯ್ದುಕೊಳ್ಳುತ್ತದೆ.</p>\n      <p>ಮತ್ತೆ ಟೈಪ್ ಮಾಡದೆಯೇ Word ನಲ್ಲಿ ನಿಮ್ಮ PDF ವಿಷಯವನ್ನು ಸುಲಭವಾಗಿ ಎಡಿಟ್ ಮಾಡಿ. ಒಪ್ಪಂದಗಳು, ವರದಿಗಳು ಮತ್ತು ರೆಸ್ಯೂಮ್‌ಗಳಿಗೆ ಅತ್ಯುತ್ತಮವಾಗಿದೆ.</p>\n      <p>ಎಲ್ಲಾ ಪರಿವರ್ತನೆಯು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿ WebAssembly ತಂತ್ರಜ್ಞಾನವನ್ನು ಬಳಸಿ ಸ್ಥಳೀಯವಾಗಿ ನಡೆಯುತ್ತದೆ, ನಿಮ್ಮ ದಾಖಲೆಗಳು ಎಂದಿಗೂ ನಿಮ್ಮ ಸಾಧನವನ್ನು ಬಿಟ್ಟು ಹೋಗುವುದಿಲ್ಲ ಎಂದು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
@@ -5313,50 +5313,50 @@ export const toolContentKn: Record<string, ToolContent> = {
       },
       {
         "step": 2,
-        "title": "Convert",
-        "description": "Wait for the conversion process to complete."
+        "title": "ಪರಿವರ್ತಿಸಿ",
+        "description": "ಪರಿವರ್ತನೆ ಪ್ರಕ್ರಿಯೆ ಪೂರ್ಣಗೊಳ್ಳುವವರೆಗೆ ಕಾಯಿರಿ."
       },
       {
         "step": 3,
-        "title": "Download Word Doc",
-        "description": "Download your fully editable DOCX file."
+        "title": "Word Doc ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ನಿಮ್ಮ ಸಂಪೂರ್ಣ ಎಡಿಟ್ ಮಾಡಬಹುದಾದ DOCX ಫೈಲ್ ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Edit Contracts",
-        "description": "Convert PDF contracts to Word for editing and revision.",
+        "title": "ಒಪ್ಪಂದಗಳನ್ನು ಎಡಿಟ್ ಮಾಡಿ",
+        "description": "ಎಡಿಟಿಂಗ್ ಮತ್ತು ತಿದ್ದುಪಡಿಗಾಗಿ PDF ಒಪ್ಪಂದಗಳನ್ನು Word ಗೆ ಪರಿವರ್ತಿಸಿ.",
         "icon": "file-text"
       },
       {
-        "title": "Resume Updates",
-        "description": "Update old PDF resumes by converting them to Word.",
+        "title": "ರೆಸ್ಯೂಮ್ ನವೀಕರಣಗಳು",
+        "description": "ಹಳೆಯ PDF ರೆಸ್ಯೂಮ್‌ಗಳನ್ನು Word ಗೆ ಪರಿವರ್ತಿಸುವ ಮೂಲಕ ನವೀಕರಿಸಿ.",
         "icon": "user"
       },
       {
         "title": "ವಿಷಯದ ಮರುಬಳಕೆ",
-        "description": "Extract content from PDF reports for other documents.",
+        "description": "ಇತರ ದಾಖಲೆಗಳಿಗಾಗಿ PDF ವರದಿಗಳಿಂದ ವಿಷಯವನ್ನು ಹೊರತೆಗೆಯಿರಿ.",
         "icon": "copy"
       }
     ],
     "faq": [
       {
         "question": "ಫಾರ್ಮ್ಯಾಟಿಂಗ್ ಅನ್ನು ಉಳಿಸಿಕೊಳ್ಳಲಾಗುತ್ತದೆಯೇ?",
-        "answer": "Yes, the tool aims to preserve layout, fonts, and images as closely as possible."
+        "answer": "ಹೌದು, ಈ ಉಪಕರಣವು ವಿನ್ಯಾಸ, ಫಾಂಟ್‌ಗಳು ಮತ್ತು ಚಿತ್ರಗಳನ್ನು ಸಾಧ್ಯವಾದಷ್ಟು ನಿಖರವಾಗಿ ಕಾಯ್ದುಕೊಳ್ಳುವ ಗುರಿಯನ್ನು ಹೊಂದಿದೆ."
       },
       {
-        "question": "Can I convert scanned PDFs?",
-        "answer": "Scanned PDFs will be converted as images in Word unless you use OCR first."
+        "question": "ನಾವು ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ PDF ಗಳನ್ನು ಪರಿವರ್ತಿಸಬಹುದೇ?",
+        "answer": "ನೀವು ಮೊದಲು OCR ಅನ್ನು ಬಳಸದಿದ್ದರೆ ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ PDF ಗಳು Word ನಲ್ಲಿ ಚಿತ್ರಗಳಾಗಿ ಪರಿವರ್ತನೆಗೊಳ್ಳುತ್ತವೆ."
       },
       {
-        "question": "Is it compatible with Word?",
-        "answer": "Yes, the output is a standard .docx file compatible with Microsoft Word and Google Docs."
+        "question": "ಇದು Word ನೊಂದಿಗೆ ಹೊಂದಿಕೊಳ್ಳುತ್ತದೆಯೇ?",
+        "answer": "ಹೌದು, ಔಟ್‌ಪುಟ್ Microsoft Word ಮತ್ತು Google Docs ನೊಂದಿಗೆ ಹೊಂದಿಕೊಳ್ಳುವ ಪ್ರಮಾಣಿತ .docx ಫೈಲ್ ಆಗಿದೆ."
       }
     ]
   },
   "pdf-to-markdown": {
     "title": "PDF to Markdown",
-    "metaDescription": "Convert PDF to Markdown format. Extract text and preserve formatting like headings and lists.",
+    "metaDescription": "PDF ಅನ್ನು Markdown ಫಾರ್ಮ್ಯಾಟ್‌ಗೆ ಪರಿವರ್ತಿಸಿ. ಪಠ್ಯವನ್ನು ಹೊರತೆಗೆಯಿರಿ ಮತ್ತು ಹೆಡಿಂಗ್‌ಗಳು ಮತ್ತು ಪಟ್ಟಿಗಳಂತಹ ಫಾರ್ಮ್ಯಾಟಿಂಗ್ ಅನ್ನು ಕಾಯ್ದುಕೊಳ್ಳಿ.",
     "keywords": [
       "pdf to markdown",
       "convert pdf to md",
@@ -5364,7 +5364,7 @@ export const toolContentKn: Record<string, ToolContent> = {
       "markdown converter",
       "pdf to text"
     ],
-    "description": "\n      <p>PDF to Markdown converts your PDF documents into clean, well-structured Markdown files. The tool intelligently extracts text content and attempts to preserve formatting like headings, lists, and paragraphs.</p>\n      <p>Perfect for converting PDF documents to editable formats for documentation, note-taking, or content management systems that support Markdown.</p>\n      <p>All conversion happens locally in your browser, ensuring your documents remain private and secure.</p>\n    ",
+    "description": "\n      <p>PDF to Markdown ನಿಮ್ಮ PDF ದಾಖಲೆಗಳನ್ನು ಸ್ವಚ್ಛ, ಉತ್ತಮ ರಚನೆಯುಳ್ಳ Markdown ಫೈಲ್‌ಗಳಾಗಿ ಪರಿವರ್ತಿಸುತ್ತದೆ. ಈ ಉಪಕರಣವು ಪಠ್ಯ ವಿಷಯವನ್ನು ಬುದ್ಧಿವಂತಿಕೆಯಿಂದ ಹೊರತೆಗೆಯುತ್ತದೆ ಮತ್ತು ಹೆಡಿಂಗ್‌ಗಳು, ಪಟ್ಟಿಗಳು ಮತ್ತು ಪ್ಯಾರಾಗ್ರಾಫ್‌ಗಳಂತಹ ಫಾರ್ಮ್ಯಾಟಿಂಗ್ ಅನ್ನು ಕಾಯ್ದುಕೊಳ್ಳಲು ಪ್ರಯತ್ನಿಸುತ್ತದೆ.</p>\n      <p>ಡಾಕ್ಯುಮೆಂಟೇಶನ್, ಟಿಪ್ಪಣಿ ಮಾಡಿಕೊಳ್ಳುವುದು ಅಥವಾ Markdown ಅನ್ನು ಬೆಂಬಲಿಸುವ ವಿಷಯ ನಿರ್ವಹಣಾ ವ್ಯವಸ್ಥೆಗಳಿಗಾಗಿ (CMS) PDF ದಾಖಲೆಗಳನ್ನು ಎಡಿಟ್ ಮಾಡಬಹುದಾದ ಫಾರ್ಮ್ಯಾಟ್‌ಗಳಿಗೆ ಪರಿವರ್ತಿಸಲು ಸೂಕ್ತವಾಗಿದೆ.</p>\n      <p>ಎಲ್ಲಾ ಪರಿವರ್ತನೆಯು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಸ್ಥಳೀಯವಾಗಿ ನಡೆಯುತ್ತದೆ, ನಿಮ್ಮ ದಾಖಲೆಗಳು ಖಾಸಗಿಯಾಗಿ ಮತ್ತು ಸುರಕ್ಷಿತವಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
@@ -5374,49 +5374,49 @@ export const toolContentKn: Record<string, ToolContent> = {
       {
         "step": 2,
         "title": "ಆಯ್ಕೆಗಳನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಿ",
-        "description": "Set page range, choose to include page numbers, and adjust line break settings."
+        "description": "ಪುಟದ ಶ್ರೇಣಿಯನ್ನು ಹೊಂದಿಸಿ, ಪುಟದ ಸಂಖ್ಯೆಗಳನ್ನು ಸೇರಿಸಲು ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು ಸಾಲಿನ ವಿರಾಮ ಸಂಯೋಜನೆಗಳನ್ನು ಸರಿದೂಗಿಸಿ."
       },
       {
         "step": 3,
         "title": "ಪರಿವರ್ತಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Click Convert to generate your Markdown file and download."
+        "description": "ನಿಮ್ಮ Markdown ಫೈಲ್ ಅನ್ನು ರಚಿಸಲು ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು Convert ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
         "title": "ಡಾಕ್ಯುಮೆಂಟೇಶನ್",
-        "description": "Convert PDF manuals and guides to Markdown for version-controlled documentation.",
+        "description": "ಆವೃತ್ತಿ-ನಿಯಂತ್ರಿತ ಡಾಕ್ಯುಮೆಂಟೇಶನ್‌ಗಾಗಿ PDF ಮ್ಯಾನುಯಲ್‌ಗಳು ಮತ್ತು ಮಾರ್ಗದರ್ಶಿಗಳನ್ನು Markdown ಗೆ ಪರಿವರ್ತಿಸಿ.",
         "icon": "file-text"
       },
       {
-        "title": "Note Taking",
-        "description": "Extract content from PDF articles and books for your note-taking system.",
+        "title": "ಟಿಪ್ಪಣಿ ಮಾಡಿಕೊಳ್ಳುವುದು",
+        "description": "ನಿಮ್ಮ ಟಿಪ್ಪಣಿ ಮಾಡಿಕೊಳ್ಳುವ ವ್ಯವಸ್ಥೆಗಾಗಿ PDF ಲೇಖನಗಳು ಮತ್ತು ಪುಸ್ತಕಗಳಿಂದ ವಿಷಯವನ್ನು ಹೊರತೆಗೆಯಿರಿ.",
         "icon": "edit-3"
       },
       {
-        "title": "Content Migration",
-        "description": "Migrate PDF content to CMS platforms that support Markdown.",
+        "title": "ವಿಷಯ ವಲಸೆ",
+        "description": "Markdown ಬೆಂಬಲಿಸುವ CMS ಪ್ಲಾಟ್‌ಫಾರ್ಮ್‌ಗಳಿಗೆ PDF ವಿಷಯವನ್ನು ವಲಸೆ ಮಾಡಿ.",
         "icon": "copy"
       }
     ],
     "faq": [
       {
         "question": "ಫಾರ್ಮ್ಯಾಟಿಂಗ್ ಅನ್ನು ಉಳಿಸಿಕೊಳ್ಳಲಾಗುತ್ತದೆಯೇ?",
-        "answer": "The tool attempts to detect headings based on font size and bullet points/numbered lists. Complex layouts may require manual adjustment."
+        "answer": "ಉಪಕರಣವು ಫಾಂಟ್ ಗಾತ್ರ ಮತ್ತು ಬುಲೆಟ್ ಪಾಯಿಂಟ್‌ಗಳು/ಸಂಖ್ಯೆಯ ಪಟ್ಟಿಗಳ ಆಧಾರದ ಮೇಲೆ ಹೆಡಿಂಗ್‌ಗಳನ್ನು ಗುರುತಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತದೆ. ಸಂಕೀರ್ಣ ವಿನ್ಯಾಸಗಳಿಗೆ ಹಸ್ತಚಾಲಿತ ಹೊಂದಾಣಿಕೆಯ ಅಗತ್ಯವಿರಬಹುದು."
       },
       {
-        "question": "Can I convert specific pages?",
-        "answer": "Yes, you can specify a page range like \"1-3, 5, 7\" to convert only those pages."
+        "question": "ನಾನು ನಿರ್ದಿಷ್ಟ ಪುಟಗಳನ್ನು ಪರಿವರ್ತಿಸಬಹುದೇ?",
+        "answer": "ಹೌದು, ಆ ಪುಟಗಳನ್ನು ಮಾತ್ರ ಪರಿವರ್ತಿಸಲು ನೀವು \"1-3, 5, 7\" ನಂತಹ ಪುಟದ ಶ್ರೇಣಿಯನ್ನು ಉಲ್ಲೇಖಿಸಬಹುದು."
       },
       {
-        "question": "Does it work with scanned PDFs?",
-        "answer": "Scanned PDFs contain images, not text. Use our OCR tool first to extract text before converting to Markdown."
+        "question": "ಇದು ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ PDF ಗಳೊಂದಿಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆಯೇ?",
+        "answer": "ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ PDF ಗಳು ಚಿತ್ರಗಳನ್ನು ಹೊಂದಿರುತ್ತವೆ, ಪಠ್ಯವಲ್ಲ. Markdown ಗೆ ಪರಿವರ್ತಿಸುವ ಮೊದಲು ಪಠ್ಯವನ್ನು ಹೊರತೆಗೆಯಲು ಮೊದಲು ನಮ್ಮ OCR ಉಪಕರಣವನ್ನು ಬಳಸಿ."
       }
     ]
   },
   "deskew-pdf": {
     "title": "Deskew PDF",
-    "metaDescription": "Automatically straighten scanned or tilted PDF pages. Fix skewed documents with precision angle detection.",
+    "metaDescription": "ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ಅಥವಾ ವಾಲಿದ PDF ಪುಟಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ನೆಟ್ಟಗೆ ಮಾಡಿ. ನಿಖರ ಕೋನ ಪತ್ತೆಯೊಂದಿಗೆ ವಾಲಿದ ದಾಖಲೆಗಳನ್ನು ಸರಿಪಡಿಸಿ.",
     "keywords": [
       "deskew pdf",
       "straighten pdf",
@@ -5424,67 +5424,67 @@ export const toolContentKn: Record<string, ToolContent> = {
       "auto rotate pdf",
       "correct pdf angle"
     ],
-    "description": "\n      <p>Deskew PDF automatically detects and corrects tilted or skewed pages in your PDF documents using advanced projection profile variance analysis. This is essential for scanned documents that were fed into the scanner at an angle.</p>\n      <p>The tool analyzes the text and content alignment at different angles to find the optimal rotation, then applies the correction. You can adjust the sensitivity threshold (1-30) and DPI settings (72-300) for optimal results.</p>\n      <p>All processing happens locally in your browser using WebAssembly technology, ensuring your documents remain private and secure.</p>\n    ",
+    "description": "\n      <p>Deskew PDF ಸುಧಾರಿತ ಪ್ರೊಜೆಕ್ಷನ್ ಪ್ರೊಫೈಲ್ ವೇರಿಯನ್ಸ್ ವಿಶ್ಲೇಷಣೆಯನ್ನು ಬಳಸಿ ನಿಮ್ಮ PDF ದಾಖಲೆಗಳಲ್ಲಿ ವಾಲಿದ ಅಥವಾ ಕೋನದಲ್ಲಿರುವ ಪುಟಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಪತ್ತೆಹಚ್ಚುತ್ತದೆ ಮತ್ತು ಸರಿಪಡಿಸುತ್ತದೆ. ಸ್ಕ್ಯಾನರ್‌ಗೆ ಕೋನದಲ್ಲಿ ನೀಡಲಾದ ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ದಾಖಲೆಗಳಿಗೆ ಇದು ಅಗತ್ಯವಾಗಿದೆ.</p>\n      <p>ಉತ್ತಮವಾದ ಶ್ರೇಣಿಯನ್ನು ಕಂಡುಹಿಡಿಯಲು ಈ ಉಪಕರಣವು ವಿವಿಧ ಕೋನಗಳಲ್ಲಿ ಪಠ್ಯ ಮತ್ತು ವಿಷಯದ ಜೋಡಣೆಯನ್ನು ವಿಶ್ಲೇಷಿಸುತ್ತದೆ, ನಂತರ ತಿದ್ದುಪಡಿಯನ್ನು ಅನ್ವಯಿಸುತ್ತದೆ. ಉತ್ತಮ ಫಲಿತಾಂಶಗಳಿಗಾಗಿ ನೀವು ಸೂಕ್ಷ್ಮತೆಯ ಮಿತಿ (1-30) ಮತ್ತು DPI ಸಂಯೋಜನೆಗಳನ್ನು (72-300) ಸರಿದೂಗಿಸಬಹುದು.</p>\n      <p>ಎಲ್ಲಾ ಪ್ರಕ್ರಿಯೆಯು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿ WebAssembly ತಂತ್ರಜ್ಞಾನವನ್ನು ಬಳಸಿ ಸ್ಥಳೀಯವಾಗಿ ನಡೆಯುತ್ತದೆ, ನಿಮ್ಮ ದಾಖಲೆಗಳು ಖಾಸಗಿಯಾಗಿ ಮತ್ತು ಸುರಕ್ಷಿತವಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Drag and drop your scanned PDF file or click to select."
+        "description": "ನಿಮ್ಮ ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
         "title": "ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಿ",
-        "description": "Adjust threshold sensitivity and DPI if needed for better detection."
+        "description": "ಉತ್ತಮ ಪತ್ತೆಗಾಗಿ ಅಗತ್ಯವಿದ್ದರೆ ಮಿತಿಯ ಸೂಕ್ಷ್ಮತೆ ಮತ್ತು DPI ಅನ್ನು ಸರಿದೂಗಿಸಿ."
       },
       {
         "step": 3,
         "title": "ಸಂಸ್ಕರಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Click Deskew to straighten pages and download the corrected PDF."
+        "description": "ಪುಟಗಳನ್ನು ನೆಟ್ಟಗೆ ಮಾಡಲು Deskew ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ಸರಿಪಡಿಸಲಾದ PDF ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
         "title": "ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ದಾಖಲೆಗಳು",
-        "description": "Fix pages that were scanned at an angle from document feeders.",
+        "description": "ಡಾಕ್ಯುಮೆಂಟ್ ಫೀಡರ್‌ಗಳಿಂದ ಕೋನದಲ್ಲಿ ಸ್ಕ್ಯಾನ್ ಆದ ಪುಟಗಳನ್ನು ಸರಿಪಡಿಸಿ.",
         "icon": "scan"
       },
       {
-        "title": "Mobile Scans",
-        "description": "Correct tilted photos of documents taken with smartphones.",
+        "title": "ಮೊಬೈಲ್ ಸ್ಕ್ಯಾನ್‌ಗಳು",
+        "description": "ಸ್ಮಾರ್ಟ್‌ಫೋನ್‌ಗಳ ಮೂಲಕ ತೆಗೆದ ದಾಖಲೆಗಳ ವಾಲಿದ ಫೋಟೋಗಳನ್ನು ಸರಿಪಡಿಸಿ.",
         "icon": "smartphone"
       },
       {
-        "title": "Archive Restoration",
-        "description": "Straighten old scanned archives for better readability.",
+        "title": "ಆರ್ಕೈವ್ ಮರುಸ್ಥಾಪನೆ",
+        "description": "ಉತ್ತಮ ಓದುವಿಕೆಗಾಗಿ ಹಳೆಯ ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ಆರ್ಕೈವ್‌ಗಳನ್ನು ನೆಟ್ಟಗೆ ಮಾಡಿ.",
         "icon": "archive"
       }
     ],
     "faq": [
       {
-        "question": "How accurate is the angle detection?",
-        "answer": "The tool uses projection profile variance analysis to detect skew angles up to ±10 degrees with high accuracy. It automatically skips pages with angles less than 0.3 degrees."
+        "question": "ಕೋನ ಪತ್ತೆ ಎಷ್ಟು ನಿಖರವಾಗಿದೆ?",
+        "answer": "ಉಪಕರಣವು ±10 ಡಿಗ್ರಿಗಳವರೆಗಿನ ವಾಲಿರುವ ಕೋನಗಳನ್ನು ಹೆಚ್ಚಿನ ನಿಖರತೆಯೊಂದಿಗೆ ಪತ್ತೆಹಚ್ಚಲು ಪ್ರೊಜೆಕ್ಷನ್ ಪ್ರೊಫೈಲ್ ವೇರಿಯನ್ಸ್ ವಿಶ್ಲೇಷಣೆಯನ್ನು ಬಳಸುತ್ತದೆ. ಇದು 0.3 ಡಿಗ್ರಿಗಿಂತ ಕಡಿಮೆ ಕೋನವಿರುವ ಪುಟಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಬಿಟ್ಟುಬಿಡುತ್ತದೆ."
       },
       {
-        "question": "Will text quality be affected?",
-        "answer": "For rotations at multiples of 90 degrees, no quality loss occurs. For other angles, the tool rounds to the nearest degree and maintains good quality."
+        "question": "ಪಠ್ಯದ ಗುಣಮಟ್ಟದ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರುತ್ತದೆಯೇ?",
+        "answer": "90 ಡಿಗ್ರಿಗಳ ಗುಣಕಗಳಲ್ಲಿನ ತಿರುಗುವಿಕೆಗೆ ಯಾವುದೇ ಗುಣಮಟ್ಟದ ನಷ್ಟ ಸಂಭವಿಸುವುದಿಲ್ಲ. ಇತರ ಕೋನಗಳಿಗೆ, ಉಪಕರಣವು ಹತ್ತಿರದ ಡಿಗ್ರಿಗೆ ಪೂರ್ಣಗೊಳಿಸುತ್ತದೆ ಮತ್ತು ಉತ್ತಮ ಗುಣಮಟ್ಟವನ್ನು ಕಾಯ್ದುಕೊಳ್ಳುತ್ತದೆ."
       },
       {
-        "question": "Can I deskew specific pages only?",
-        "answer": "The tool analyzes all pages but only corrects those with detected skew above the sensitivity threshold. Pages with minimal skew are left unchanged."
+        "question": "ನಾವು ನಿರ್ದಿಷ್ಟ ಪುಟಗಳನ್ನು ಮಾತ್ರ deskew ಮಾಡಬಹುದೇ?",
+        "answer": "ಉಪಕರಣವು ಎಲ್ಲಾ ಪುಟಗಳನ್ನು ವಿಶ್ಲೇಷಿಸುತ್ತದೆ ಆದರೆ ಸೂಕ್ಷ್ಮತೆಯ ಮಿತಿಗಿಂತ ಹೆಚ್ಚಿನ ವಾಲಿರುವಿಕೆ ಕಂಡುಬಂದ ಪುಟಗಳನ್ನು ಮಾತ್ರ ಸರಿಪಡಿಸುತ್ತದೆ. ಕನಿಷ್ಠ ವಾಲಿರುವಿಕೆ ಹೊಂದಿರುವ ಪುಟಗಳನ್ನು ಬದಲಾಯಿಸದೆ ಬಿಡಲಾಗುತ್ತದೆ."
       },
       {
-        "question": "What is the sensitivity threshold?",
-        "answer": "Values 1-10 correct obvious tilts only, 11-20 detect moderate skew, and 21-30 catch subtle angles. Default is 10 for balanced detection."
+        "question": "ಸೂಕ್ಷ್ಮತೆಯ ಮಿತಿ ಎಂದರೇನು?",
+        "answer": "1-10 ಮೌಲ್ಯಗಳು ಸ್ಪಷ್ಟ ವಾಲುವಿಕೆಗಳನ್ನು ಮಾತ್ರ ಸರಿಪಡಿಸುತ್ತವೆ, 11-20 ಸಾಧಾರಣ ವಾಲುವಿಕೆಯನ್ನು ಪತ್ತೆಹಚ್ಚುತ್ತವೆ ಮತ್ತು 21-30 ಸೂಕ್ಷ್ಮ ಕೋನಗಳನ್ನು ಗ್ರಹಿಸುತ್ತವೆ. ಸಮತೋಲಿತ ಪತ್ತೆಗೆ ಡೀಫಾಲ್ಟ್ 10 ಆಗಿದೆ."
       },
       {
-        "question": "How long does processing take?",
-        "answer": "Processing time depends on file size and DPI. 150 DPI (default) provides good balance between speed and accuracy. Higher DPI is more accurate but slower."
+        "question": "ಪ್ರಕ್ರಿಯೆಗೆ ಎಷ್ಟು ಸಮಯ ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ?",
+        "answer": "ಸಂಸ್ಕರಣೆಯ ಸಮಯವು ಫೈಲ್ ಗಾತ್ರ ಮತ್ತು DPI ಅನ್ನು ಅವಲಂಬಿಸಿರುತ್ತದೆ. 150 DPI (ಡಿಫಾಲ್ಟ್) ವೇಗ ಮತ್ತು ನಿಖರತೆಯ ನಡುವೆ ಉತ್ತಮ ಸಮತೋಲನವನ್ನು ಒದಗಿಸುತ್ತದೆ. ಹೆಚ್ಚಿನ DPI ಹೆಚ್ಚು ನಿಖರವಾಗಿರುತ್ತದೆ ಆದರೆ ನಿಧಾನವಾಗಿರುತ್ತದೆ."
       }
     ]
   },
   "pdf-booklet": {
     "title": "PDF Booklet Creator",
-    "metaDescription": "Create booklet layouts from PDF for printing. Arrange pages for saddle-stitch binding with multiple grid options.",
+    "metaDescription": "ಮುದ್ರಣಕ್ಕಾಗಿ PDF ನಿಂದ ಬುಕ್‌ಲೆಟ್ ವಿನ್ಯಾಸಗಳನ್ನು ರಚಿಸಿ. ಬಹು ಗ್ರಿಡ್ ಆಯ್ಕೆಗಳೊಂದಿಗೆ ಸ್ಯಾಡಲ್-ಸ್ಟಿಚ್ ಬೈಂಡಿಂಗ್‌ಗಾಗಿ ಪುಟಗಳನ್ನು ಜೋಡಿಸಿ.",
     "keywords": [
       "pdf booklet",
       "booklet creator",
@@ -5492,59 +5492,59 @@ export const toolContentKn: Record<string, ToolContent> = {
       "saddle stitch",
       "imposition"
     ],
-    "description": "\n      <p>PDF Booklet Creator arranges your PDF pages into booklet layouts ready for print-and-fold production. Perfect for creating brochures, zines, booklets, and saddle-stitched publications.</p>\n      <p>Choose from various grid modes (1x2, 2x2, 2x4, 4x4), paper sizes, and orientation options. The tool automatically handles page imposition for proper folding sequence.</p>\n      <p>All processing happens locally in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>PDF Booklet Creator ನಿಮ್ಮ PDF ಪುಟಗಳನ್ನು ಮುದ್ರಣ ಮತ್ತು ಮಡಚುವ ಉತ್ಪಾದನೆಗೆ ಸಿದ್ಧವಾಗಿರುವ ಬುಕ್‌ಲೆಟ್ ವಿನ್ಯಾಸಗಳಾಗಿ ಜೋಡಿಸುತ್ತದೆ. ಬ್ರೋಷರ್‌ಗಳು, ಝೀನ್‌ಗಳು, ಬುಕ್‌ಲೆಟ್‌ಗಳು ಮತ್ತು ಸ್ಯಾಡಲ್-ಸ್ಟಿಚ್ ಮಾಡಿದ ಪ್ರಕಟಣೆಗಳನ್ನು ರಚಿಸಲು ಇದು ಸೂಕ್ತವಾಗಿದೆ.</p>\n      <p>ವಿವಿಧ ಗ್ರಿಡ್ ಮೋಡ್‌ಗಳು (1x2, 2x2, 2x4, 4x4), ಪೇಪರ್ ಗಾತ್ರಗಳು ಮತ್ತು ಓರಿಯಂಟೇಶನ್ ಆಯ್ಕೆಗಳಿಂದ ಆಯ್ಕೆಮಾಡಿ. ಸರಿಯಾದ ಮಡಚುವಿಕೆಯ ಅನುಕ್ರಮಕ್ಕಾಗಿ ಉಪಕರಣವು ಪುಟ ಇಂಪೋಸಿಷನ್ ಅನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ನಿರ್ವಹಿಸುತ್ತದೆ.</p>\n      <p>ಎಲ್ಲಾ ಸಂಸ್ಕರಣೆಯು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ಲೋಕಲ್ ಆಗಿ ನಡೆಯುತ್ತದೆ, ಇದು ನಿಮ್ಮ ದಾಖಲೆಗಳು ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Upload the PDF document you want to convert to a booklet."
+        "description": "ನೀವು ಬುಕ್‌ಲೆಟ್ ಆಗಿ ಪರಿವರ್ತಿಸಲು ಬಯಸುವ PDF ದಾಖಲೆಯನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ."
       },
       {
         "step": 2,
         "title": "ಲೇಔಟ್ ಆಯ್ಕೆಮಾಡಿ",
-        "description": "Select grid mode, paper size, orientation, and rotation options."
+        "description": "ಗ್ರಿಡ್ ಮೋಡ್, ಪೇಪರ್ ಗಾತ್ರ, ಓರಿಯಂಟೇಶನ್ ಮತ್ತು ರೋಟೇಶನ್ ಆಯ್ಕೆಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ."
       },
       {
         "step": 3,
         "title": "ರಚಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Generate the booklet layout and download for printing."
+        "description": "ಬುಕ್‌ಲೆಟ್ ವಿನ್ಯಾಸವನ್ನು ಜನರೇಟ್ ಮಾಡಿ ಮತ್ತು ಮುದ್ರಣಕ್ಕಾಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Brochures",
-        "description": "Create fold-ready brochures from standard PDF documents.",
+        "title": "ಬ್ರೋಷರ್‌ಗಳು",
+        "description": "ಸಾಮಾನ್ಯ PDF ದಾಖಲೆಗಳಿಂದ ಮಡಚಲು-ಸಿದ್ಧವಿರುವ ಬ್ರೋಷರ್‌ಗಳನ್ನು ರಚಿಸಿ.",
         "icon": "book-open"
       },
       {
-        "title": "Zines",
-        "description": "Produce self-published zines with proper page imposition.",
+        "title": "ಝೀನ್‌ಗಳು",
+        "description": "ಸರಿಯಾದ ಪುಟ ಇಂಪೋಸಿಷನ್‌ನೊಂದಿಗೆ ಸ್ವಯಂ-ಪ್ರಕಟಿತ ಝೀನ್‌ಗಳನ್ನು ತಯಾರಿಸಿ.",
         "icon": "book"
       },
       {
-        "title": "Event Programs",
-        "description": "Create professional program booklets for events.",
+        "title": "ಈವೆಂಟ್ ಪ್ರೋಗ್ರಾಂಗಳು",
+        "description": "ಈವೆಂಟ್‌ಗಳಿಗಾಗಿ ವೃತ್ತಿಪರ ಪ್ರೋಗ್ರಾಂ ಬುಕ್‌ಲೆಟ್‌ಗಳನ್ನು ರಚಿಸಿ.",
         "icon": "calendar"
       }
     ],
     "faq": [
       {
-        "question": "What is saddle-stitch binding?",
-        "answer": "Saddle-stitch is a binding method where folded sheets are nested and stapled through the fold."
+        "question": "ಸ್ಯಾಡಲ್-ಸ್ಟಿಚ್ ಬೈಂಡಿಂಗ್ ಎಂದರೇನು?",
+        "answer": "ಸ್ಯಾಡಲ್-ಸ್ಟಿಚ್ ಎಂಬುದು ಒಂದು ಬೈಂಡಿಂಗ್ ವಿಧಾನವಾಗಿದ್ದು, ಇದರಲ್ಲಿ ಮಡಚಿದ ಹಾಳೆಗಳನ್ನು ಒಂದರೊಳಗೊಂದು ಜೋಡಿಸಿ ಮಡಚಿದ ಭಾಗದ ಮೂಲಕ ಸ್ಟೇಪ್ಲ್ ಮಾಡಲಾಗುತ್ತದೆ."
       },
       {
-        "question": "Which grid mode should I use?",
-        "answer": "1x2 is standard for booklets. Use 2x2 or larger for multi-up printing to save paper."
+        "question": "ನಾನು ಯಾವ ಗ್ರಿಡ್ ಮೋಡ್ ಅನ್ನು ಬಳಸಬೇಕು?",
+        "answer": "1x2 ಬುಕ್‌ಲೆಟ್‌ಗಳಿಗೆ ಪ್ರಮಾಣಿತವಾಗಿದೆ. ಕಾಗದವನ್ನು ಉಳಿಸಲು ಮಲ್ಟಿ-ಅಪ್ ಮುದ್ರಣಕ್ಕಾಗಿ 2x2 ಅಥವಾ ದೊಡ್ಡದನ್ನು ಬಳಸಿ."
       },
       {
-        "question": "Can I preview the layout?",
-        "answer": "Yes, the tool provides a visual preview before generating the final booklet."
+        "question": "ನಾನು ವಿನ್ಯಾಸವನ್ನು ಪೂರ್ವವೀಕ್ಷಣೆ ಮಾಡಬಹುದೇ?",
+        "answer": "ಹೌದು, ಅಂತಿಮ ಬುಕ್‌ಲೆಟ್ ಅನ್ನು ಜನರೇಟ್ ಮಾಡುವ ಮೊದಲು ಉಪಕರಣವು ದೃಶ್ಯ ಪೂರ್ವವೀಕ್ಷಣೆಯನ್ನು ಒದಗಿಸುತ್ತದೆ."
       }
     ]
   },
   "rasterize-pdf": {
     "title": "Rasterize PDF",
-    "metaDescription": "Convert PDF pages to high-quality images. Export as PNG, JPEG, or WebP with custom DPI settings.",
+    "metaDescription": "PDF ಪುಟಗಳನ್ನು ಉತ್ತಮ ಗುಣಮಟ್ಟದ ಚಿತ್ರಗಳಾಗಿ ಪರಿವರ್ತಿಸಿ. ಕಸ್ಟಮ್ DPI ಸೆಟ್ಟಿಂಗ್‌ಗಳೊಂದಿಗೆ PNG, JPEG, ಅಥವಾ WebP ಆಗಿ ರಫ್ತು ಮಾಡಿ.",
     "keywords": [
       "rasterize pdf",
       "pdf to image",
@@ -5552,7 +5552,7 @@ export const toolContentKn: Record<string, ToolContent> = {
       "pdf to jpeg",
       "convert pdf pages"
     ],
-    "description": "\n      <p>Rasterize PDF converts your PDF pages into high-quality raster images. Choose from PNG, JPEG, or WebP output formats with full control over DPI and quality settings.</p>\n      <p>Perfect for creating thumbnails, social media graphics, or archiving PDF content as images. Supports page range selection and batch processing.</p>\n      <p>All processing happens locally in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>Rasterize PDF ನಿಮ್ಮ PDF ಪುಟಗಳನ್ನು ಉತ್ತಮ ಗುಣಮಟ್ಟದ ರಾಸ್ಟರ್ ಚಿತ್ರಗಳಾಗಿ ಪರಿವರ್ತಿಸುತ್ತದೆ. DPI ಮತ್ತು ಗುಣಮಟ್ಟದ ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಮೇಲೆ ಸಂಪೂರ್ಣ ನಿಯಂತ್ರಣದೊಂದಿಗೆ PNG, JPEG, ಅಥವಾ WebP ಔಟ್‌ಪುಟ್ ಫಾರ್ಮ್ಯಾಟ್‌ಗಳಿಂದ ಆಯ್ಕೆಮಾಡಿ.</p>\n      <p>ಥಂಬ್‌ನೇಲ್‌ಗಳು, ಸೋಶಿಯಲ್ ಮೀಡಿಯಾ ಗ್ರಾಫಿಕ್ಸ್ ರಚಿಸಲು ಅಥವಾ PDF ವಿಷಯವನ್ನು ಚಿತ್ರಗಳಾಗಿ ಆರ್ಕೈವ್ ಮಾಡಲು ಇದು ಸೂಕ್ತವಾಗಿದೆ. ಪುಟದ ಶ್ರೇಣಿಯ ಆಯ್ಕೆ ಮತ್ತು ಬ್ಯಾಚ್ ಸಂಸ್ಕರಣೆಯನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆ.</p>\n      <p>ಎಲ್ಲಾ ಸಂಸ್ಕರಣೆಯು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ಲೋಕಲ್ ಆಗಿ ನಡೆಯುತ್ತದೆ, ಇದು ನಿಮ್ಮ ದಾಖಲೆಗಳು ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
@@ -5562,49 +5562,49 @@ export const toolContentKn: Record<string, ToolContent> = {
       {
         "step": 2,
         "title": "ಔಟ್‌ಪುಟ್ ಕಾನ್ಫಿಗರ್ ಮಾಡಿ",
-        "description": "Select DPI, output format (PNG/JPEG/WebP), quality, and page range."
+        "description": "DPI, ಔಟ್‌ಪುಟ್ ಫಾರ್ಮ್ಯಾಟ್ (PNG/JPEG/WebP), ಗುಣಮಟ್ಟ ಮತ್ತು ಪುಟದ ಶ್ರೇಣಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ."
       },
       {
         "step": 3,
         "title": "ಪರಿವರ್ತಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Process pages and download images individually or as a ZIP archive."
+        "description": "ಪುಟಗಳನ್ನು ಸಂಸ್ಕರಿಸಿ ಮತ್ತು ಚಿತ್ರಗಳನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ಅಥವಾ ZIP ಆರ್ಕೈವ್ ಆಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
         "title": "ಸೋಷಿಯಲ್ ಮೀಡಿಯಾ",
-        "description": "Convert PDF slides to images for social media posting.",
+        "description": "ಸೋಶಿಯಲ್ ಮೀಡಿಯಾ ಪೋಸ್ಟಿಂಗ್‌ಗಾಗಿ PDF ಸ್ಲೈಡ್‌ಗಳನ್ನು ಚಿತ್ರಗಳಾಗಿ ಪರಿವರ್ತಿಸಿ.",
         "icon": "share-2"
       },
       {
-        "title": "Thumbnails",
-        "description": "Generate preview thumbnails for PDF documents.",
+        "title": "ಥಂಬ್‌ನೇಲ್‌ಗಳು",
+        "description": "PDF ದಾಖಲೆಗಳಿಗಾಗಿ ಪೂರ್ವವೀಕ್ಷಣೆ ಥಂಬ್‌ನೇಲ್‌ಗಳನ್ನು ಜನರೇಟ್ ಮಾಡಿ.",
         "icon": "image"
       },
       {
         "title": "ವೆಬ್ ಪ್ರಕಟಣೆ",
-        "description": "Convert PDF content to web-friendly image formats.",
+        "description": "PDF ವಿಷಯವನ್ನು ವೆಬ್-ಸ್ನೇಹಿ ಚಿತ್ರ ಸ್ವರೂಪಗಳಿಗೆ ಪರಿವರ್ತಿಸಿ.",
         "icon": "globe"
       }
     ],
     "faq": [
       {
         "question": "ನಾನು ಯಾವ DPI ಅನ್ನು ಬಳಸಬೇಕು?",
-        "answer": "72 DPI for screen, 150 DPI for general use, 300 DPI for print quality."
+        "answer": "ಸ್ಕ್ರೀನ್‌ಗಾಗಿ 72 DPI, ಸಾಮಾನ್ಯ ಬಳಕೆಗೆ 150 DPI, ಪ್ರಿಂಟ್ ಗುಣಮಟ್ಟಕ್ಕಾಗಿ 300 DPI."
       },
       {
-        "question": "Which format is best?",
-        "answer": "PNG for quality/transparency, JPEG for small size, WebP for modern web use."
+        "question": "ಯಾವ ಫಾರ್ಮ್ಯಾಟ್ ಅತ್ಯುತ್ತಮವಾಗಿದೆ?",
+        "answer": "ಗುಣಮಟ್ಟ/ಪಾರದರ್ಶಕತೆಗೆ PNG, ಸಣ್ಣ ಗಾತ್ರಕ್ಕೆ JPEG, ಆಧುನಿಕ ವೆಬ್ ಬಳಕೆಗೆ WebP."
       },
       {
-        "question": "Can I convert specific pages?",
-        "answer": "Yes, specify page ranges like \"1-5, 8, 10-15\" to convert only those pages."
+        "question": "ನಾನು ನಿರ್ದಿಷ್ಟ ಪುಟಗಳನ್ನು ಪರಿವರ್ತಿಸಬಹುದೇ?",
+        "answer": "ಹೌದು, ಆ ಪುಟಗಳನ್ನು ಮಾತ್ರ ಪರಿವರ್ತಿಸಲು \"1-5, 8, 10-15\" ನಂತಹ ಪುಟ ಶ್ರೇಣಿಗಳನ್ನು ನಿರ್ದಿಷ್ಟಪಡಿಸಿ."
       }
     ]
   },
   "markdown-to-pdf": {
     "title": "Markdown to PDF",
-    "metaDescription": "Convert Markdown files to beautifully formatted PDF documents. Support for GitHub Flavored Markdown and syntax highlighting.",
+    "metaDescription": "Markdown ಫೈಲ್‌ಗಳನ್ನು ಸುಂದರವಾಗಿ ಫಾರ್ಮ್ಯಾಟ್ ಮಾಡಲಾದ PDF ದಾಖಲೆಗಳಾಗಿ ಪರಿವರ್ತಿಸಿ. GitHub Flavored Markdown ಮತ್ತು ಸಿಂಟ್ಯಾಕ್ಸ್ ಹೈಲೈಟಿಂಗ್ ಬೆಂಬಲವಿದೆ.",
     "keywords": [
       "markdown to pdf",
       "md to pdf",
@@ -5612,59 +5612,59 @@ export const toolContentKn: Record<string, ToolContent> = {
       "gfm to pdf",
       "markdown converter"
     ],
-    "description": "\n      <p>Markdown to PDF converts your Markdown files into professionally styled PDF documents. Support for CommonMark and GitHub Flavored Markdown (GFM) including tables, task lists, and code blocks.</p>\n      <p>Choose from multiple themes (light, dark, GitHub) and customize page size and margins. Code blocks are syntax-highlighted for better readability.</p>\n      <p>All conversion happens locally in your browser, ensuring your content remains private.</p>\n    ",
+    "description": "\n      <p>Markdown to PDF ನಿಮ್ಮ Markdown ಫೈಲ್‌ಗಳನ್ನು ವೃತ್ತಿಪರವಾಗಿ ಶೈಲೀಕರಿಸಿದ PDF ದಾಖಲೆಗಳಾಗಿ ಪರಿವರ್ತಿಸುತ್ತದೆ. ಪಟ್ಟಿಗಳು, ಟಾಸ್ಕ್ ಪಟ್ಟಿಗಳು ಮತ್ತು ಕೋಡ್ ಬ್ಲಾಕ್‌ಗಳು ಸೇರಿದಂತೆ CommonMark ಮತ್ತು GitHub Flavored Markdown (GFM) ಬೆಂಬಲವಿದೆ.</p>\n      <p>ಹಲವು ಥೀಮ್‌ಗಳಿಂದ (ಲೈಟ್, ಡಾರ್ಕ್, GitHub) ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು ಪುಟದ ಗಾತ್ರ ಹಾಗೂ ಮಾರ್ಜಿನ್‌ಗಳನ್ನು ಕಸ್ಟಮೈಸ್ ಮಾಡಿ. ಉತ್ತಮ ಓದುವಿಕೆಗಾಗಿ ಕೋಡ್ ಬ್ಲಾಕ್‌ಗಳನ್ನು ಸಿಂಟ್ಯಾಕ್ಸ್-ಹೈಲೈಟ್ ಮಾಡಲಾಗಿದೆ.</p>\n      <p>ಎಲ್ಲಾ ಪರಿವರ್ತನೆಯು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ಲೋಕಲ್ ಆಗಿ ನಡೆಯುತ್ತದೆ, ಇದು ನಿಮ್ಮ ವಿಷಯವು ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Markdown File",
-        "description": "Upload your .md or .markdown file."
+        "title": "Markdown ಫೈಲ್ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ನಿಮ್ಮ .md ಅಥವಾ .markdown ಫೈಲ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Choose Theme",
-        "description": "Select a visual theme and configure page settings."
+        "title": "ಥೀಮ್ ಆಯ್ಕೆಮಾಡಿ",
+        "description": "ದೃಶ್ಯ ಥೀಮ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು ಪುಟದ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಿ."
       },
       {
         "step": 3,
         "title": "ಪರಿವರ್ತಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Generate the styled PDF and download."
+        "description": "ಶೈಲೀಕರಿಸಿದ PDF ಅನ್ನು ಜನರೇಟ್ ಮಾಡಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
         "title": "ಡಾಕ್ಯುಮೆಂಟೇಶನ್",
-        "description": "Convert README files and docs to shareable PDFs.",
+        "description": "README ಫೈಲ್‌ಗಳು ಮತ್ತು ಡಾಕ್ಸ್ ಅನ್ನು ಹಂಚಿಕೊಳ್ಳಬಹುದಾದ PDF ಗಳಾಗಿ ಪರಿವರ್ತಿಸಿ.",
         "icon": "file-text"
       },
       {
-        "title": "Notes Export",
-        "description": "Export Markdown notes to PDF for printing or sharing.",
+        "title": "ನೋಟ್ಸ್ ಎಕ್ಸ್‌ಪೋರ್ಟ್",
+        "description": "ಮುದ್ರಿಸಲು ಅಥವಾ ಹಂಚಿಕೊಳ್ಳಲು Markdown ಟಿಪ್ಪಣಿಗಳನ್ನು PDF ಗೆ ರಫ್ತು ಮಾಡಿ.",
         "icon": "edit-3"
       },
       {
-        "title": "Reports",
-        "description": "Create reports from Markdown with professional styling.",
+        "title": "ವರದಿಗಳು",
+        "description": "ವೃತ್ತಿಪರ ಶೈಲಿಯೊಂದಿಗೆ Markdown ನಿಂದ ವರದಿಗಳನ್ನು ರಚಿಸಿ.",
         "icon": "bar-chart"
       }
     ],
     "faq": [
       {
-        "question": "Is GitHub Flavored Markdown supported?",
-        "answer": "Yes, tables, task lists, strikethrough, and other GFM features are supported."
+        "question": "GitHub Flavored Markdown ಬೆಂಬಲಿತವಾಗಿದೆಯೇ?",
+        "answer": "ಹೌದು, ಪಟ್ಟಿಗಳು, ಟಾಸ್ಕ್ ಪಟ್ಟಿಗಳು, ಸ್ಟ್ರೈಕ್‌ಥ್ರೂ ಮತ್ತು ಇತರ GFM ವೈಶಿಷ್ಟ್ಯಗಳು ಬೆಂಬಲಿತವಾಗಿವೆ."
       },
       {
-        "question": "Can I customize the styling?",
-        "answer": "Choose from preset themes or add custom CSS for full control."
+        "question": "ನಾನು ಶೈಲಿಯನ್ನು ಕಸ್ಟಮೈಸ್ ಮಾಡಬಹುದೇ?",
+        "answer": "ಮುಂಚಿತವಾಗಿ ಹೊಂದಿಸಲಾದ ಥೀಮ್‌ಗಳಿಂದ ಆಯ್ಕೆಮಾಡಿ ಅಥವಾ ಸಂಪೂರ್ಣ ನಿಯಂತ್ರಣಕ್ಕಾಗಿ ಕಸ್ಟಮ್ CSS ಸೇರಿಸಿ."
       },
       {
-        "question": "Are code blocks highlighted?",
-        "answer": "Yes, code blocks include syntax highlighting for common languages."
+        "question": "ಕೋಡ್ ಬ್ಲಾಕ್‌ಗಳನ್ನು ಹೈಲೈಟ್ ಮಾಡಲಾಗಿದೆಯೇ?",
+        "answer": "ಹೌದು, ಕೋಡ್ ಬ್ಲಾಕ್‌ಗಳು ಸಾಮಾನ್ಯ ಭಾಷೆಗಳಿಗೆ ಸಿಂಟ್ಯಾಕ್ಸ್ ಹೈಲೈಟಿಂಗ್ ಅನ್ನು ಒಳಗೊಂಡಿರುತ್ತವೆ."
       }
     ]
   },
   "email-to-pdf": {
-    "title": "Email to PDF",
-    "metaDescription": "Convert email files (.eml, .msg) to PDF documents. Preserve formatting, inline images, clickable links, and embed attachments.",
+    "title": "ಇಮೇಲ್‌ನಿಂದ PDF",
+    "metaDescription": "ಇಮೇಲ್ ಫೈಲ್‌ಗಳನ್ನು (.eml, .msg) PDF ದಾಖಲೆಗಳಾಗಿ ಪರಿವರ್ತಿಸಿ. ಫಾರ್ಮ್ಯಾಟಿಂಗ್, ಇನ್‌ಲೈನ್ ಚಿತ್ರಗಳು, ಕ್ಲಿಕ್ ಮಾಡಬಹುದಾದ ಲಿಂಕ್‌ಗಳು ಮತ್ತು ಎಂಬೆಡ್ ಮಾಡಲಾದ ಲಗತ್ತುಗಳನ್ನು ಕಾಯ್ದುಕೊಳ್ಳಿ.",
     "keywords": [
       "email to pdf",
       "eml to pdf",
@@ -5674,67 +5674,67 @@ export const toolContentKn: Record<string, ToolContent> = {
       "save email as pdf",
       "outlook to pdf"
     ],
-    "description": "\n      <p>Email to PDF converts your email files (.eml and .msg formats) into well-formatted PDF documents. The tool preserves the email header information, body content, inline images with CID replacement, clickable links, and embeds attachments directly into the PDF.</p>\n      <p>Customize output options including page size (A4, Letter, Legal), date formatting with timezone support, and whether to include CC/BCC fields and attachment information.</p>\n      <p>All conversion happens locally in your browser, ensuring your emails remain private and secure.</p>\n    ",
+    "description": "\n      <p>ಇಮೇಲ್‌ನಿಂದ PDF ನಿಮ್ಮ ಇಮೇಲ್ ಫೈಲ್‌ಗಳನ್ನು (.eml ಮತ್ತು .msg ಫಾರ್ಮ್ಯಾಟ್‌ಗಳು) ಸರಿಯಾಗಿ ಫಾರ್ಮ್ಯಾಟ್ ಮಾಡಲಾದ PDF ದಾಖಲೆಗಳಾಗಿ ಪರಿವರ್ತಿಸುತ್ತದೆ. ಈ ಉಪಕರಣವು ಇಮೇಲ್ ಹೆಡರ್ ಮಾಹಿತಿ, ಮುಖ್ಯ ವಿಷಯ, CID ಭರ್ತಿಯೊಂದಿಗೆ ಇನ್‌ಲೈನ್ ಚಿತ್ರಗಳು, ಕ್ಲಿಕ್ ಮಾಡಬಹುದಾದ ಲಿಂಕ್‌ಗಳನ್ನು ಕಾಯ್ದುಕೊಳ್ಳುತ್ತದೆ ಮತ್ತು ಲಗತ್ತುಗಳನ್ನು ನೇರವಾಗಿ PDF ನಲ್ಲಿ ಎಂಬೆಡ್ ಮಾಡುತ್ತದೆ.</p>\n      <p>ಪುಟದ ಗಾತ್ರ (A4, Letter, Legal), ಟೈಮ್‌ಝೋನ್ ಬೆಂಬಲದೊಂದಿಗೆ ದಿನಾಂಕ ಫಾರ್ಮ್ಯಾಟಿಂಗ್ ಮತ್ತು CC/BCC ಕ್ಷೇತ್ರಗಳು ಹಾಗೂ ಲಗತ್ತು ಮಾಹಿತಿಯನ್ನು ಒಳಗೊಳ್ಳಬೇಕೆ ಎಂಬುದನ್ನು ಒಳಗೊಂಡಂತೆ ಔಟ್‌ಪುಟ್ ಆಯ್ಕೆಗಳನ್ನು ಕಸ್ಟಮೈಸ್ ಮಾಡಿ.</p>\n      <p>ಎಲ್ಲಾ ಪರಿವರ್ತನೆಯು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಸ್ಥಳೀಯವಾಗಿ ನಡೆಯುತ್ತದೆ, ನಿಮ್ಮ ಇಮೇಲ್‌ಗಳು ಖಾಸಗಿಯಾಗಿ ಮತ್ತು ಸುರಕ್ಷಿತವಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Email File",
-        "description": "Upload your .eml or .msg email file."
+        "title": "ಇಮೇಲ್ ಫೈಲ್ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ನಿಮ್ಮ .eml ಅಥವಾ .msg ಇಮೇಲ್ ಫೈಲ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ."
       },
       {
         "step": 2,
         "title": "ಆಯ್ಕೆಗಳನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಿ",
-        "description": "Set page size, date format, timezone, and choose which fields to include."
+        "description": "ಪುಟದ ಗಾತ್ರ, ದಿನಾಂಕದ ಫಾರ್ಮ್ಯಾಟ್, ಟೈಮ್‌ಝೋನ್ ಅನ್ನು ಹೊಂದಿಸಿ ಮತ್ತು ಯಾವ ಕ್ಷೇತ್ರಗಳನ್ನು ಸೇರಿಸಬೇಕೆಂದು ಆಯ್ಕೆಮಾಡಿ."
       },
       {
         "step": 3,
         "title": "ಪರಿವರ್ತಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Convert to PDF with embedded attachments and download the result."
+        "description": "ಎಂಬೆಡ್ ಮಾಡಲಾದ ಲಗತ್ತುಗಳೊಂದಿಗೆ PDF ಗೆ ಪರಿವರ್ತಿಸಿ ಮತ್ತು ಫಲಿತಾಂಶವನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Legal Records",
-        "description": "Archive important emails as PDF with embedded attachments for legal documentation.",
+        "title": "ಕಾನೂನು ದಾಖಲೆಗಳು",
+        "description": "ಕಾನೂನು ದಾಖಲೀಕರಣಕ್ಕಾಗಿ ಪ್ರಮುಖ ಇಮೇಲ್‌ಗಳನ್ನು ಎಂಬೆಡ್ ಮಾಡಿದ ಲಗತ್ತುಗಳೊಂದಿಗೆ PDF ಆಗಿ ಆರ್ಕೈವ್ ಮಾಡಿ.",
         "icon": "scale"
       },
       {
-        "title": "Business Archives",
-        "description": "Convert business correspondence to PDF for long-term record keeping.",
+        "title": "ವ್ಯಾಪಾರ ಆರ್ಕೈವ್‌ಗಳು",
+        "description": "ದೀರ್ಘಾವಧಿಯ ದಾಖಲೆ ನಿರ್ವಹಣೆಗಾಗಿ ವ್ಯಾಪಾರದ ಇಮೇಲ್ ವ್ಯವಹಾರವನ್ನು PDF ಗೆ ಪರಿವರ್ತಿಸಿ.",
         "icon": "briefcase"
       },
       {
-        "title": "Evidence Preservation",
-        "description": "Save email evidence with inline images and attachments in a non-editable PDF format.",
+        "title": "ಸಾಕ್ಷ್ಯ ಸಂರಕ್ಷಣೆ",
+        "description": "ಎಡಿಟ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗದ PDF ಫಾರ್ಮ್ಯಾಟ್‌ನಲ್ಲಿ ಇನ್‌ಲೈನ್ ಚಿತ್ರಗಳು ಮತ್ತು ಲಗತ್ತುಗಳೊಂದಿಗೆ ಇಮೇಲ್ ಸಾಕ್ಷ್ಯವನ್ನು ಉಳಿಸಿ.",
         "icon": "shield"
       }
     ],
     "faq": [
       {
-        "question": "What email formats are supported?",
-        "answer": "Both .eml (RFC 822) and .msg (Microsoft Outlook) files are fully supported."
+        "question": "ಯಾವ ಇಮೇಲ್ ಫಾರ್ಮ್ಯಾಟ್‌ಗಳನ್ನು ಬೆಂಬಲಿಸಲಾಗುತ್ತದೆ?",
+        "answer": ".eml (RFC 822) ಮತ್ತು .msg (Microsoft Outlook) ಎರಡೂ ಫೈಲ್‌ಗಳು ಸಂಪೂರ್ಣವಾಗಿ ಬೆಂಬಲಿತವಾಗಿವೆ."
       },
       {
-        "question": "Are attachments included?",
-        "answer": "Yes! Attachments are embedded directly into the PDF file. You can extract them from the PDF using a compatible PDF reader."
+        "question": "ಲಗತ್ತುಗಳನ್ನು ಸೇರಿಸಲಾಗಿದೆಯೇ?",
+        "answer": "ಹೌದು! ಲಗತ್ತುಗಳನ್ನು ನೇರವಾಗಿ PDF ಫೈಲ್‌ನಲ್ಲಿ ಎಂಬೆಡ್ ಮಾಡಲಾಗುತ್ತದೆ. ಸೂಕ್ತವಾದ PDF ರೀಡರ್ ಬಳಸಿ ನೀವು ಅವುಗಳನ್ನು PDF ನಿಂದ ಹೊರತೆಗೆಯಬಹುದು."
       },
       {
-        "question": "Are inline images displayed?",
-        "answer": "Yes, inline images referenced via CID (Content-ID) are automatically converted to base64 data URIs and displayed in the PDF."
+        "question": "ಇನ್‌ಲೈನ್ ಚಿತ್ರಗಳನ್ನು ಪ್ರದರ್ಶಿಸಲಾಗುತ್ತದೆಯೇ?",
+        "answer": "ಹೌದು, CID (Content-ID) ಮೂಲಕ ಉಲ್ಲೇಖಿಸಲಾದ ಇನ್‌ಲೈನ್ ಚಿತ್ರಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ base64 ಡೇಟಾ URI ಗಳಿಗೆ ಪರಿವರ್ತಿಸಲಾಗುತ್ತದೆ ಮತ್ತು PDF ನಲ್ಲಿ ಪ್ರದರ್ಶಿಸಲಾಗುತ್ತದೆ."
       },
       {
-        "question": "Are links clickable?",
-        "answer": "Yes, all HTML links (<a> tags) and URLs in plain text emails are converted to clickable links in the PDF."
+        "question": "ಲಿಂಕ್‌ಗಳು ಕ್ಲಿಕ್ ಮಾಡಬಹುದಾದವೇ?",
+        "answer": "ಹೌದು, ಪ್ಲೇನ್ ಟೆಕ್ಸ್ಟ್ ಇಮೇಲ್‌ಗಳಲ್ಲಿರುವ ಎಲ್ಲಾ HTML ಲಿಂಕ್‌ಗಳು (<a> ಟ್ಯಾಗ್‌ಗಳು) ಮತ್ತು URL ಗಳನ್ನು PDF ನಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಬಹುದಾದ ಲಿಂಕ್‌ಗಳಾಗಿ ಪರಿವರ್ತಿಸಲಾಗುತ್ತದೆ."
       },
       {
-        "question": "Is the email formatting preserved?",
-        "answer": "Yes, HTML emails maintain their formatting as closely as possible, including styles, images, and links."
+        "question": "ಇಮೇಲ್ ಫಾರ್ಮ್ಯಾಟಿಂಗ್ ಅನ್ನು ಕಾಯ್ದುಕೊಳ್ಳಲಾಗುತ್ತದೆಯೇ?",
+        "answer": "ಹೌದು, HTML ಇಮೇಲ್‌ಗಳು ಶೈಲಿಗಳು, ಚಿತ್ರಗಳು ಮತ್ತು ಲಿಂಕ್‌ಗಳನ್ನು ಒಳಗೊಂಡಂತೆ ಸಾಧ್ಯವಾದಷ್ಟು ಮಟ್ಟಿಗೆ ತಮ್ಮ ಫಾರ್ಮ್ಯಾಟಿಂಗ್ ಅನ್ನು ಕಾಯ್ದುಕೊಳ್ಳುತ್ತವೆ."
       }
     ]
   },
   "cbz-to-pdf": {
-    "title": "CBZ to PDF",
-    "metaDescription": "Convert comic book archives (CBZ) to PDF. Preserve image order and quality for digital comics.",
+    "title": "CBZ ನಿಂದ PDF",
+    "metaDescription": "ಕಾಮಿಕ್ ಬುಕ್ ಆರ್ಕೈವ್‌ಗಳನ್ನು (CBZ) PDF ಗೆ ಪರಿವರ್ತಿಸಿ. ಡಿಜಿಟಲ್ ಕಾಮಿಕ್ಸ್‌ನ ಚಿತ್ರದ ಕ್ರಮ ಮತ್ತು ಗುಣಮಟ್ಟವನ್ನು ಕಾಯ್ದುಕೊಳ್ಳಿ.",
     "keywords": [
       "cbz to pdf",
       "comic to pdf",
@@ -5742,59 +5742,59 @@ export const toolContentKn: Record<string, ToolContent> = {
       "comic book converter",
       "cbz converter"
     ],
-    "description": "\n      <p>CBZ to PDF converts Comic Book Archive files into PDF documents. The tool extracts all images from the CBZ archive and compiles them into a PDF while maintaining the correct reading order.</p>\n      <p>Choose from various page size options including original image dimensions or standardized comic book sizes. Perfect for reading comics on devices that support PDF but not CBZ.</p>\n      <p>All conversion happens locally in your browser, ensuring your comics remain private.</p>\n    ",
+    "description": "\n      <p>CBZ ನಿಂದ PDF ಕಾಮಿಕ್ ಬುಕ್ ಆರ್ಕೈವ್ ಫೈಲ್‌ಗಳನ್ನು PDF ದಾಖಲೆಗಳಾಗಿ ಪರಿವರ್ತಿಸುತ್ತದೆ. ಈ ಉಪಕರಣವು CBZ ಆರ್ಕೈವ್‌ನಿಂದ ಎಲ್ಲಾ ಚಿತ್ರಗಳನ್ನು ಹೊರತೆಗೆಯುತ್ತದೆ ಮತ್ತು ಸರಿಯಾದ ಓದುವ ಕ್ರಮವನ್ನು ಕಾಯ್ದುಕೊಂಡು ಅವುಗಳನ್ನು PDF ಗೆ ಕಂಪೈಲ್ ಮಾಡುತ್ತದೆ.</p>\n      <p>ಮೂಲ ಚಿತ್ರದ ಆಯಾಮಗಳು ಅಥವಾ ಪ್ರಮಾಣಿತ ಕಾಮಿಕ್ ಬುಕ್ ಗಾತ್ರಗಳನ್ನು ಒಳಗೊಂಡಂತೆ ವಿವಿಧ ಪುಟ ಗಾತ್ರದ ಆಯ್ಕೆಗಳಿಂದ ಆಯ್ಕೆಮಾಡಿ. PDF ಬೆಂಬಲಿಸುವ ಆದರೆ CBZ ಬೆಂಬಲಿಸದ ಸಾಧನಗಳಲ್ಲಿ ಕಾಮಿಕ್ಸ್ ಓದಲು ಇದು ಸೂಕ್ತವಾಗಿದೆ.</p>\n      <p>ಎಲ್ಲಾ ಪರಿವರ್ತನೆಯು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಸ್ಥಳೀಯವಾಗಿ ನಡೆಯುತ್ತದೆ, ನಿಮ್ಮ ಕಾಮಿಕ್ಸ್ ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload CBZ File",
-        "description": "Upload your .cbz comic book archive file."
+        "title": "CBZ ಫೈಲ್ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ನಿಮ್ಮ .cbz ಕಾಮಿಕ್ ಬುಕ್ ಆರ್ಕೈವ್ ಫೈಲ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Select Options",
-        "description": "Choose page size and image quality settings."
+        "title": "ಆಯ್ಕೆಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+        "description": "ಪುಟದ ಗಾತ್ರ ಮತ್ತು ಚಿತ್ರದ ಗುಣಮಟ್ಟದ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ."
       },
       {
         "step": 3,
         "title": "ಪರಿವರ್ತಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Convert to PDF and download your comic."
+        "description": "PDF ಗೆ ಪರಿವರ್ತಿಸಿ ಮತ್ತು ನಿಮ್ಮ ಕಾಮಿಕ್ ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "E-Reader Compatibility",
-        "description": "Convert CBZ to PDF for e-readers that only support PDF.",
+        "title": "E-Reader ಹೊಂದಾಣಿಕೆ",
+        "description": "PDF ಅನ್ನು ಮಾತ್ರ ಬೆಂಬಲಿಸುವ e-reader ಗಳಿಗಾಗಿ CBZ ಅನ್ನು PDF ಗೆ ಪರಿವರ್ತಿಸಿ.",
         "icon": "book"
       },
       {
-        "title": "Comic Archives",
-        "description": "Create PDF archives of your digital comic collection.",
+        "title": "ಕಾಮಿಕ್ ಆರ್ಕೈವ್‌ಗಳು",
+        "description": "ನಿಮ್ಮ ಡಿಜಿಟಲ್ ಕಾಮಿಕ್ ಸಂಗ್ರಹಣೆಯ PDF ಆರ್ಕೈವ್‌ಗಳನ್ನು ರಚಿಸಿ.",
         "icon": "archive"
       },
       {
         "title": "ಪ್ರಿಂಟ್ ಸಿದ್ಧತೆ",
-        "description": "Convert digital comics to PDF for printing.",
+        "description": "ಪ್ರಿಂಟ್ ಮಾಡಲು ಡಿಜಿಟಲ್ ಕಾಮಿಕ್ಸ್ ಅನ್ನು PDF ಗೆ ಪರಿವರ್ತಿಸಿ.",
         "icon": "printer"
       }
     ],
     "faq": [
       {
-        "question": "What is CBZ format?",
-        "answer": "CBZ is a ZIP archive containing comic book pages as image files, renamed with .cbz extension."
+        "question": "CBZ ಫಾರ್ಮ್ಯಾಟ್ ಎಂದರೆ ಏನು?",
+        "answer": "CBZ ಎಂಬುದು ಚಿತ್ರ ಫೈಲ್‌ಗಳಾಗಿ ಕಾಮಿಕ್ ಬುಕ್ ಪುಟಗಳನ್ನು ಹೊಂದಿರುವ ಮತ್ತು .cbz ವಿಸ್ತರಣೆಯೊಂದಿಗೆ ಮರುಹೆಸರಿಸಲಾದ ZIP ಆರ್ಕೈವ್ ಆಗಿದೆ."
       },
       {
-        "question": "Is image quality preserved?",
-        "answer": "Yes, images are embedded at their original quality in the PDF."
+        "question": "ಚಿತ್ರದ ಗುಣಮಟ್ಟವನ್ನು ಕಾಯ್ದುಕೊಳ್ಳಲಾಗುತ್ತದೆಯೇ?",
+        "answer": "ಹೌದು, ಚಿತ್ರಗಳನ್ನು PDF ನಲ್ಲಿ ಅವುಗಳ ಮೂಲ ಗುಣಮಟ್ಟದಲ್ಲೇ ಎಂಬೆಡ್ ಮಾಡಲಾಗುತ್ತದೆ."
       },
       {
-        "question": "Are nested folders supported?",
-        "answer": "Yes, images from all folders within the archive are extracted and sorted."
+        "question": "ನೆಸ್ಟೆಡ್ ಫೋಲ್ಡರ್‌ಗಳು ಬೆಂಬಲಿತವಾಗಿದೆಯೇ?",
+        "answer": "ಹೌದು, ಆರ್ಕೈವ್‌ನಲ್ಲಿರುವ ಎಲ್ಲಾ ಫೋಲ್ಡರ್‌ಗಳಿಂದ ಚಿತ್ರಗಳನ್ನು ಹೊರತೆಗೆಯಲಾಗುತ್ತದೆ ಮತ್ತು ವರ್ಗೀಕರಿಸಲಾಗುತ್ತದೆ."
       }
     ]
   },
   "pdf-to-pdfa": {
-    "title": "PDF to PDF/A",
-    "metaDescription": "Convert PDF to PDF/A archival format. Ensure long-term document preservation with ISO standards.",
+    "title": "PDF ನಿಂದ PDF/A",
+    "metaDescription": "PDF ಅನ್ನು PDF/A ಆರ್ಕೈವಲ್ ಫಾರ್ಮ್ಯಾಟ್‌ಗೆ ಪರಿವರ್ತಿಸಿ. ISO ಮಾನದಂಡಗಳೊಂದಿಗೆ ದೀರ್ಘಾವಧಿಯ ದಾಖಲೆ ಸಂರಕ್ಷಣೆಯನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.",
     "keywords": [
       "pdf to pdfa",
       "pdfa converter",
@@ -5802,59 +5802,59 @@ export const toolContentKn: Record<string, ToolContent> = {
       "pdf archival",
       "long term preservation"
     ],
-    "description": "\n      <p>PDF to PDF/A converts your PDF documents to PDF/A format, the ISO standard for long-term document archiving. PDF/A ensures that documents will be viewable and reproducible for decades.</p>\n      <p>Choose from PDF/A-1b (basic conformance), PDF/A-2b (recommended, supports transparency), or PDF/A-3b (allows embedded files). The tool embeds fonts and flattens transparency as needed.</p>\n      <p>All conversion happens locally in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>PDF ನಿಂದ PDF/A ನಿಮ್ಮ PDF ದಾಖಲೆಗಳನ್ನು ದೀರ್ಘಾವಧಿಯ ದಾಖಲೆ ಆರ್ಕೈವಿಂಗ್ ಮಾಡುವ ISO ಮಾನದಂಡವಾದ PDF/A ಫಾರ್ಮ್ಯಾಟ್‌ಗೆ ಪರಿವರ್ತಿಸುತ್ತದೆ. PDF/A ದಾಖಲೆಗಳನ್ನು ದಶಕಗಳ ಕಾಲ ವೀಕ್ಷಿಸಲು ಮತ್ತು ಮರುಉತ್ಪಾದಿಸಲು ಸಾಧ್ಯವಾಗುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n      <p>PDF/A-1b (ಮೂಲ ಅನುಸರಣೆ), PDF/A-2b (ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ, ಪಾರದರ್ಶಕತೆಯನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆ) ಅಥವಾ PDF/A-3b (ಎಂಬೆಡ್ ಮಾಡಿದ ಫೈಲ್‌ಗಳಿಗೆ ಅನುಮತಿಸುತ್ತದೆ) ನಿಂದ ಆಯ್ಕೆಮಾಡಿ. ಉಪಕರಣವು ಅಗತ್ಯವಿದ್ದಂತೆ ಫಾಂಟ್‌ಗಳನ್ನು ಎಂಬೆಡ್ ಮಾಡುತ್ತದೆ ಮತ್ತು ಪಾರದರ್ಶಕತೆಯನ್ನು ಫ್ಲ್ಯಾಟ್ ಮಾಡುತ್ತದೆ.</p>\n      <p>ಎಲ್ಲಾ ಪರಿವರ್ತನೆಯು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಸ್ಥಳೀಯವಾಗಿ ನಡೆಯುತ್ತದೆ, ನಿಮ್ಮ ದಾಖಲೆಗಳು ಖಾಸಗಿಯಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Upload the PDF you want to convert to PDF/A."
+        "description": "ನೀವು PDF/A ಗೆ ಪರಿವರ್ತಿಸಲು ಬಯಸುವ PDF ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Select PDF/A Level",
-        "description": "Choose PDF/A-1b, PDF/A-2b, or PDF/A-3b conformance level."
+        "title": "PDF/A ಮಟ್ಟವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+        "description": "PDF/A-1b, PDF/A-2b, ಅಥವಾ PDF/A-3b ಅನುಸರಣೆ ಮಟ್ಟವನ್ನು ಆಯ್ಕೆಮಾಡಿ."
       },
       {
         "step": 3,
         "title": "ಪರಿವರ್ತಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Convert to PDF/A and download the archival document."
+        "description": "PDF/A ಗೆ ಪರಿವರ್ತಿಸಿ ಮತ್ತು ಆರ್ಕೈವಲ್ ದಾಖಲೆಯನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Legal Archives",
-        "description": "Convert legal documents to PDF/A for court-admissible long-term storage.",
+        "title": "ಕಾನೂನು ದಾಖಲೆಗಳು",
+        "description": "ನ್ಯಾಯಾಲಯಕ್ಕೆ ಸ್ವೀಕಾರಾರ್ಹವಾದ ದೀರ್ಘಕಾಲೀನ ಸಂಗ್ರಹಣೆಗಾಗಿ ಕಾನೂನು ದಾಖಲೆಗಳನ್ನು PDF/A ಗೆ ಪರಿವರ್ತಿಸಿ.",
         "icon": "scale"
       },
       {
-        "title": "Government Records",
-        "description": "Comply with government archival requirements using PDF/A.",
+        "title": "ಸರ್ಕಾರಿ ದಾಖಲೆಗಳು",
+        "description": "PDF/A ಬಳಸಿ ಸರ್ಕಾರದ ಆರ್ಕೈವಲ್ ಅಗತ್ಯತೆಗಳನ್ನು ಪಾಲಿಸಿ.",
         "icon": "building"
       },
       {
-        "title": "Business Archives",
-        "description": "Preserve important business documents for future accessibility.",
+        "title": "ವ್ಯಾಪಾರ ಆರ್ಕೈವ್‌ಗಳು",
+        "description": "ಭವಿಷ್ಯದ ಪ್ರವೇಶಕ್ಕಾಗಿ ಪ್ರಮುಖ ವ್ಯವಹಾರ ದಾಖಲೆಗಳನ್ನು ಸಂರಕ್ಷಿಸಿ.",
         "icon": "archive"
       }
     ],
     "faq": [
       {
-        "question": "Which PDF/A level should I use?",
-        "answer": "PDF/A-2b is recommended for most uses. Use 1b for maximum compatibility or 3b if you need embedded files."
+        "question": "ನಾನು ಯಾವ PDF/A ಮಟ್ಟವನ್ನು ಬಳಸಬೇಕು?",
+        "answer": "ಹೆಚ್ಚಿನ ಬಳಕೆಗೆ PDF/A-2b ಅನ್ನು ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ. ಗರಿಷ್ಠ ಹೊಂದಾಣಿಕೆಗಾಗಿ 1b ಅಥವಾ ಎಂಬೆಡೆಡ್ ಫೈಲ್‌ಗಳ ಅಗತ್ಯವಿದ್ದರೆ 3b ಬಳಸಿ."
       },
       {
-        "question": "What makes PDF/A different?",
-        "answer": "PDF/A embeds fonts, disables encryption, and ensures all elements are self-contained for future viewing."
+        "question": "PDF/A ಅನ್ನು ಯಾವುದು ಭಿನ್ನವಾಗಿಸುತ್ತದೆ?",
+        "answer": "PDF/A ಫಾಂಟ್‌ಗಳನ್ನು ಎಂಬೆಡ್ ಮಾಡುತ್ತದೆ, ಎನ್‌ಕ್ರಿಪ್ಶನ್ ಅನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸುತ್ತದೆ ಮತ್ತು ಭವಿಷ್ಯದ ವೀಕ್ಷಣೆಗಾಗಿ ಎಲ್ಲಾ ಅಂಶಗಳು ಸ್ವಯಂ-ಒಳಗೊಂಡಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ."
       },
       {
-        "question": "Can I convert back from PDF/A?",
-        "answer": "PDF/A files are standard PDFs and can be opened normally. The archival features add restrictions, not limitations."
+        "question": "ನಾನು PDF/A ಯಿಂದ ಮತ್ತೆ ಪರಿವರ್ತಿಸಬಹುದೇ?",
+        "answer": "PDF/A ಫೈಲ್‌ಗಳು ಪ್ರಮಾಣಿತ PDF ಗಳು ಮತ್ತು ಸಾಮಾನ್ಯ ರೀತಿಯಲ್ಲಿ ತೆರೆಯಬಹುದು. ಆರ್ಕೈವಲ್ ವೈಶಿಷ್ಟ್ಯಗಳು ನಿರ್ಬಂಧಗಳನ್ನು ಸೇರಿಸುತ್ತವೆ, ಮಿತಿಗಳನ್ನಲ್ಲ."
       }
     ]
   },
   "font-to-outline": {
     "title": "Font to Outline",
-    "metaDescription": "Remove font dependencies from PDF documents by converting pages to high-quality images. Ensures compatibility across all systems.",
+    "metaDescription": "ಪುಟಗಳನ್ನು ಉತ್ತಮ ಗುಣಮಟ್ಟದ ಚಿತ್ರಗಳಾಗಿ ಪರಿವರ್ತಿಸುವ ಮೂಲಕ PDF ದಾಖಲೆಗಳಿಂದ ಫಾಂಟ್ ಅವಲಂಬನೆಗಳನ್ನು ತೆಗೆದುಹಾಕಿ. ಎಲ್ಲಾ ಸಿಸ್ಟಂಗಳಲ್ಲಿ ಹೊಂದಾಣಿಕೆಯನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.",
     "keywords": [
       "font to outline",
       "outline fonts",
@@ -5863,71 +5863,71 @@ export const toolContentKn: Record<string, ToolContent> = {
       "flatten pdf fonts",
       "pdf font removal"
     ],
-    "description": "\n      <p>Font to Outline removes all font dependencies from your PDF by converting each page into high-quality rasterized content. This ensures your document looks exactly the same on any system, even if the original fonts are not installed.</p>\n      <p>The tool renders each page at your chosen DPI (150-600), removing embedded fonts while preserving the exact visual appearance. Optionally, you can add an invisible text layer to maintain searchability.</p>\n      <p>This is essential for print preparation, cross-platform compatibility, and avoiding font licensing issues when sharing documents. All processing happens locally in your browser.</p>\n    ",
+    "description": "\n      <p>Font to Outline ಪ್ರತಿಯೊಂದು ಪುಟವನ್ನು ಉತ್ತಮ ಗುಣಮಟ್ಟದ ರಾಸ್ಟರೈಸ್ ಮಾಡಿದ ವಿಷಯವಾಗಿ ಪರಿವರ್ತಿಸುವ ಮೂಲಕ ನಿಮ್ಮ PDF ನಿಂದ ಎಲ್ಲಾ ಫಾಂಟ್ ಅವಲಂಬನೆಗಳನ್ನು ತೆಗೆದುಹಾಕುತ್ತದೆ. ಮೂಲ ಫಾಂಟ್‌ಗಳನ್ನು ಸ್ಥಾಪಿಸದಿದ್ದರೂ ಸಹ, ಯಾವುದೇ ಸಿಸ್ಟಂನಲ್ಲಿ ನಿಮ್ಮ ದಾಖಲೆಯು ತದ್ವತ್ ಒಂದೇ ರೀತಿ ಕಾಣಿಸುವುದನ್ನು ಇದು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n      <p>ಈ ಉಪಕರಣವು ನಿಮ್ಮ ಆಯ್ಕೆಯ DPI (150-600) ನಲ್ಲಿ ಪ್ರತಿಯೊಂದು ಪುಟವನ್ನು ರೆಂಡರ್ ಮಾಡುತ್ತದೆ, ನಿಖರವಾದ ದೃಶ್ಯ ನೋಟವನ್ನು ಕಾಯ್ದುಕೊಳ್ಳುವಾಗ ಎಂಬೆಡ್ ಮಾಡಿದ ಫಾಂಟ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕುತ್ತದೆ. ಐಚ್ಛಿಕವಾಗಿ, ಹುಡುಕಾಟದ ಸಾಮರ್ಥ್ಯವನ್ನು ಕಾಯ್ದುಕೊಳ್ಳಲು ನೀವು ಅದೃಶ್ಯ ಪಠ್ಯ ಪದರವನ್ನು ಸೇರಿಸಬಹುದು.</p>\n      <p>ದಾಖಲೆಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳುವಾಗ ಪ್ರಿಂಟ್ ತಯಾರಿ, ಕ್ರಾಸ್-ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ ಹೊಂದಾಣಿಕೆ ಮತ್ತು ಫಾಂಟ್ ಪರವಾನಗಿ ಸಮಸ್ಯೆಗಳನ್ನು ತಪ್ಪಿಸಲು ಇದು ಅತ್ಯಗತ್ಯ. ಎಲ್ಲಾ ಪ್ರಕ್ರಿಯೆಗಳು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಸ್ಥಳೀಯವಾಗಿ ನಡೆಯುತ್ತವೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Upload the PDF containing fonts you want to remove."
+        "description": "ನೀವು ತೆಗೆದುಹಾಕಲು ಬಯಸುವ ಫಾಂಟ್‌ಗಳನ್ನು ಹೊಂದಿರುವ PDF ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Configure Quality",
-        "description": "Choose DPI (300 recommended for print, 150 for screen). Enable searchable text if needed."
+        "title": "ಗುಣಮಟ್ಟವನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಿ",
+        "description": "DPI ಆಯ್ಕೆಮಾಡಿ (ಪ್ರಿಂಟ್‌ಗಾಗಿ 300 ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ, ಸ್ಕ್ರೀನ್‌ಗಾಗಿ 150). ಅಗತ್ಯವಿದ್ದರೆ ಹುಡುಕಬಹುದಾದ ಪಠ್ಯವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ."
       },
       {
         "step": 3,
         "title": "ಪರಿವರ್ತಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Process the file and download the font-independent PDF."
+        "description": "ಫೈಲ್ ಅನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಿ ಮತ್ತು ಫಾಂಟ್-ಸ್ವತಂತ್ರ PDF ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
         "title": "ಪ್ರಿಂಟ್ ಸಿದ್ಧತೆ",
-        "description": "Eliminate font issues at commercial printers by removing all font dependencies.",
+        "description": "ಎಲ್ಲಾ ಫಾಂಟ್ ಅವಲಂಬನೆಗಳನ್ನು ತೆಗೆದುಹಾಕುವ ಮೂಲಕ ವಾಣಿಜ್ಯ ಪ್ರಿಂಟರ್‌ಗಳಲ್ಲಿನ ಫಾಂಟ್ ಸಮಸ್ಯೆಗಳನ್ನು ನಿವಾರಿಸಿ.",
         "icon": "printer"
       },
       {
         "title": "ಕ್ರಾಸ್-ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ ಹಂಚಿಕೆ",
-        "description": "Share documents that look identical on any device, regardless of installed fonts.",
+        "description": "ಸ್ಥಾಪಿಸಲಾದ ಫಾಂಟ್‌ಗಳನ್ನು ಲೆಕ್ಕಿಸದೆ, ಯಾವುದೇ ಸಾಧನದಲ್ಲಿ ಒಂದೇ ರೀತಿ ಕಾಣುವ ದಾಖಲೆಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಿ.",
         "icon": "share-2"
       },
       {
-        "title": "Font Licensing",
-        "description": "Remove embedded fonts to avoid licensing concerns when distributing documents.",
+        "title": "ಫಾಂಟ್ ಪರವಾನಗಿ",
+        "description": "ದಾಖಲೆಗಳನ್ನು ವಿತರಿಸುವಾಗ ಪರವಾನಗಿ ಕಳವಳಗಳನ್ನು ತಪ್ಪಿಸಲು ಎಂಬೆಡ್ ಮಾಡಿದ ಫಾಂಟ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕಿ.",
         "icon": "shield"
       }
     ],
     "faq": [
       {
-        "question": "How does this work?",
-        "answer": "The tool renders each page at high resolution (your chosen DPI) and recreates the PDF from these images, removing all font dependencies while preserving visual appearance."
+        "question": "ಇದು ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ?",
+        "answer": "ಈ ಉಪಕರಣವು ಪ್ರತಿಯೊಂದು ಪುಟವನ್ನು ಹೆಚ್ಚಿನ ರೆಸಲ್ಯೂಶನ್‌ನಲ್ಲಿ (ನಿಮ್ಮ ಆಯ್ಕೆಯ DPI) ರೆಂಡರ್ ಮಾಡುತ್ತದೆ ಮತ್ತು ಈ ಚಿತ್ರಗಳಿಂದ PDF ಅನ್ನು ಮರುಸೃಷ್ಟಿಸುತ್ತದೆ, ದೃಶ್ಯ ನೋಟವನ್ನು ಕಾಯ್ದುಕೊಳ್ಳುವಾಗ ಎಲ್ಲಾ ಫಾಂಟ್ ಅವಲಂಬನೆಗಳನ್ನು ತೆಗೆದುಹಾಕುತ್ತದೆ."
       },
       {
-        "question": "Can I still select text after conversion?",
-        "answer": "By default, no. Text becomes part of the image. However, you can enable \"Preserve searchable text\" to add an invisible text layer for search and copy functionality."
+        "question": "ಪರಿವರ್ತನೆಯ ನಂತರವೂ ನಾನು ಪಠ್ಯವನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದೇ?",
+        "answer": "ಪೂರ್ವನಿಯೋಜಿತವಾಗಿ, ಇಲ್ಲ. ಪಠ್ಯವು ಚಿತ್ರದ ಭಾಗವಾಗುತ್ತದೆ. ಆದಾಗ್ಯೂ, ಹುಡುಕಾಟ ಮತ್ತು ನಕಲು ಕಾರ್ಯಕ್ಷಮತೆಗಾಗಿ ಅದೃಶ್ಯ ಪಠ್ಯ ಪದರವನ್ನು ಸೇರಿಸಲು ನೀವು \"Preserve searchable text\" ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಬಹುದು."
       },
       {
         "question": "ನಾನು ಯಾವ DPI ಅನ್ನು ಬಳಸಬೇಕು?",
-        "answer": "300 DPI is recommended for print-quality output. 150 DPI is sufficient for screen viewing and produces smaller files. 600 DPI is for highest quality but creates large files."
+        "answer": "ಪ್ರಿಂಟ್-ಗುಣಮಟ್ಟದ ಔಟ್‌ಪುಟ್‌ಗಾಗಿ 300 DPI ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ. ಸ್ಕ್ರೀನ್ ವೀಕ್ಷಣೆಗೆ 150 DPI ಸಾಕು ಮತ್ತು ಚಿಕ್ಕ ಫೈಲ್‌ಗಳನ್ನು ಉತ್ಪಾದಿಸುತ್ತದೆ. 600 DPI ಅತ್ಯುನ್ನತ ಗುಣಮಟ್ಟಕ್ಕಾಗಿ ಆದರೆ ದೊಡ್ಡ ಫೈಲ್‌ಗಳನ್ನು ರಚಿಸುತ್ತದೆ."
       },
       {
-        "question": "Will file size increase?",
-        "answer": "File size depends on DPI and content. 150 DPI usually produces smaller files, 300 DPI may increase size, 600 DPI significantly increases size. Compression is automatically applied."
+        "question": "ಫೈಲ್ ಗಾತ್ರ ಹೆಚ್ಚಾಗುತ್ತದೆಯೇ?",
+        "answer": "ಫೈಲ್ ಗಾತ್ರವು DPI ಮತ್ತು ವಿಷಯವನ್ನು ಅವಲಂಬಿಸಿರುತ್ತದೆ. 150 DPI ಸಾಮಾನ್ಯವಾಗಿ ಸಣ್ಣ ಫೈಲ್‌ಗಳನ್ನು ಉತ್ಪಾದಿಸುತ್ತದೆ, 300 DPI ಗಾತ್ರವನ್ನು ಹೆಚ್ಚಿಸಬಹುದು, 600 DPI ಗಾತ್ರವನ್ನು ಗಣನೀಯವಾಗಿ ಹೆಚ್ಚಿಸುತ್ತದೆ. ಕಂಪ್ರೆಶನ್ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಅನ್ವಯಿಸಲಾಗುತ್ತದೆ."
       },
       {
         "question": "ಇದನ್ನು ಮತ್ತೆ ಮೊದಲಿನ ಸ್ಥಿತಿಗೆ ತರಬಹುದೇ?",
-        "answer": "No, font data is permanently removed. Keep a backup of the original if you need editable text with the original fonts."
+        "answer": "ಇಲ್ಲ, ಫಾಂಟ್ ಡೇಟಾವನ್ನು ಶಾಶ್ವತವಾಗಿ ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆ. ಮೂಲ ಫಾಂಟ್‌ಗಳೊಂದಿಗೆ ಸಂಪಾದಿಸಬಹುದಾದ ಪಠ್ಯ ಅಗತ್ಯವಿದ್ದರೆ ಮೂಲ ಫೈಲ್‌ನ ಬ್ಯಾಕಪ್ ಅನ್ನು ಇಟ್ಟುಕೊಳ್ಳಿ."
       },
       {
-        "question": "What about vector graphics?",
-        "answer": "Vector graphics (shapes, lines) in the original PDF will be converted to raster along with text. The visual quality is preserved at your chosen DPI."
+        "question": "ವೆಕ್ಟರ್ ಗ್ರಾಫಿಕ್ಸ್ ಬಗ್ಗೆ ಏನು?",
+        "answer": "ಮೂಲ PDF ನಲ್ಲಿರುವ ವೆಕ್ಟರ್ ಗ್ರಾಫಿಕ್ಸ್ (ಆಕಾರಗಳು, ಸಾಲುಗಳು) ಪಠ್ಯದೊಂದಿಗೆ ರಾಸ್ಟರ್‌ಗೆ ಪರಿವರ್ತಿತವಾಗುತ್ತವೆ. ನೀವು ಆಯ್ಕೆ ಮಾಡಿದ DPI ನಲ್ಲಿ ದೃಶ್ಯ ಗುಣಮಟ್ಟವನ್ನು ಕಾಯ್ದುಕೊಳ್ಳಲಾಗುತ್ತದೆ."
       }
     ]
   },
   "extract-tables": {
-    "title": "Extract Tables from PDF",
-    "metaDescription": "Detect and extract tables from PDF documents. Export to JSON, Markdown, or CSV formats.",
+    "title": "PDF ನಿಂದ ಟೇಬಲ್‌ಗಳನ್ನು ಹೊರತೆಗೆಯಿರಿ",
+    "metaDescription": "PDF ದಾಖಲೆಗಳಿಂದ ಟೇಬಲ್‌ಗಳನ್ನು ಪತ್ತೆಹಚ್ಚಿ ಮತ್ತು ಹೊರತೆಗೆಯಿರಿ. JSON, Markdown, ಅಥವಾ CSV ಸ್ವರೂಪಗಳಿಗೆ ರಫ್ತು ಮಾಡಿ.",
     "keywords": [
       "extract tables",
       "pdf table extraction",
@@ -5935,59 +5935,59 @@ export const toolContentKn: Record<string, ToolContent> = {
       "pdf to excel",
       "table detection"
     ],
-    "description": "\n      <p>Extract Tables from PDF detects tabular data within your PDF documents and exports it in structured formats. Choose JSON for data integration, Markdown for documentation, or CSV for spreadsheets.</p>\n      <p>The tool uses intelligent detection algorithms to identify table structures even in complex documents. Specify page ranges and adjust detection parameters for optimal results.</p>\n      <p>All processing happens locally in your browser, ensuring your documents remain private.</p>\n    ",
+    "description": "\n      <p>Extract Tables from PDF ನಿಮ್ಮ PDF ದಾಖಲೆಗಳಲ್ಲಿನ ಕೋಷ್ಟಕ ಡೇಟಾವನ್ನು ಪತ್ತೆಹಚ್ಚುತ್ತದೆ ಮತ್ತು ಅದನ್ನು ಸಂರಚಿತ ಸ್ವರೂಪಗಳಲ್ಲಿ ರಫ್ತು ಮಾಡುತ್ತದೆ. ಡೇಟಾ ಸಂಯೋಜನೆಗಾಗಿ JSON, ಡಾಕ್ಯುಮೆಂಟೇಶನ್‌ಗಾಗಿ Markdown, ಅಥವಾ ಸ್ಪ್ರೆಡ್‌ಶೀಟ್‌ಗಳಿಗಾಗಿ CSV ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ.</p>\n      <p>ಸಂಕೀರ್ಣ ದಾಖಲೆಗಳಲ್ಲೂ ಟೇಬಲ್ ರಚನೆಗಳನ್ನು ಗುರುತಿಸಲು ಉಪಕರಣವು ಬುದ್ಧಿವಂತ ಪತ್ತೆ ಆಲ್ಗರಿದಮ್‌ಗಳನ್ನು ಬಳಸುತ್ತದೆ. ಉತ್ತಮ ಫಲಿತಾಂಶಗಳಿಗಾಗಿ ಪುಟದ ಶ್ರೇಣಿಗಳನ್ನು ನಿರ್ದಿಷ್ಟಪಡಿಸಿ ಮತ್ತು ಪತ್ತೆ ನಿಯತಾಂಕಗಳನ್ನು ಹೊಂದಿಸಿ.</p>\n      <p>ಎಲ್ಲಾ ಪ್ರಕ್ರಿಯೆಗಳು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಸ್ಥಳೀಯವಾಗಿ ನಡೆಯುತ್ತವೆ, ನಿಮ್ಮ ದಾಖಲೆಗಳು ಗೌಪ್ಯವಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Upload the PDF containing tables you want to extract."
+        "description": "ನೀವು ಹೊರತೆಗೆಯಲು ಬಯಸುವ ಟೇಬಲ್‌ಗಳನ್ನು ಹೊಂದಿರುವ PDF ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Configure Detection",
-        "description": "Set page range and minimum column/row thresholds."
+        "title": "ಪತ್ತೆಹಚ್ಚುವಿಕೆಯನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಿ",
+        "description": "ಪುಟ ಶ್ರೇಣಿ ಮತ್ತು ಕನಿಷ್ಠ ಕಾಲಮ್/ಸಾಲು ಮಿತಿಗಳನ್ನು ಹೊಂದಿಸಿ."
       },
       {
         "step": 3,
-        "title": "Export and Download",
-        "description": "Choose output format (JSON/Markdown/CSV) and download."
+        "title": "ರಫ್ತು ಮಾಡಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ಔಟ್‌ಪುಟ್ ಸ್ವರೂಪವನ್ನು ಆಯ್ಕೆಮಾಡಿ (JSON/Markdown/CSV) ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Data Analysis",
-        "description": "Extract table data for analysis in spreadsheets or databases.",
+        "title": "ಡೇಟಾ ವಿಶ್ಲೇಷಣೆ",
+        "description": "ಸ್ಪ್ರೆಡ್‌ಶೀಟ್‌ಗಳು ಅಥವಾ ಡೇಟಾಬೇಸ್‌ಗಳಲ್ಲಿ ವಿಶ್ಲೇಷಣೆಗಾಗಿ ಟೇಬಲ್ ಡೇಟಾವನ್ನು ಹೊರತೆಗೆಯಿರಿ.",
         "icon": "bar-chart"
       },
       {
-        "title": "Report Processing",
-        "description": "Pull tables from PDF reports for further processing.",
+        "title": "ವರದಿ ಪ್ರಕ್ರಿಯೆಗೊಳಿಸುವಿಕೆ",
+        "description": "ಮತ್ತಷ್ಟು ಪ್ರಕ್ರಿಯೆಗಾಗಿ PDF ವರದಿಗಳಿಂದ ಟೇಬಲ್‌ಗಳನ್ನು ಪಡೆದುಕೊಳ್ಳಿ.",
         "icon": "file-text"
       },
       {
         "title": "ಡಾಕ್ಯುಮೆಂಟೇಶನ್",
-        "description": "Convert PDF tables to Markdown for technical documentation.",
+        "description": "ತಾಂತ್ರಿಕ ದಾಖಲೀಕರಣಕ್ಕಾಗಿ PDF ಟೇಬಲ್‌ಗಳನ್ನು Markdown ಗೆ ಪರಿವರ್ತಿಸಿ.",
         "icon": "book"
       }
     ],
     "faq": [
       {
-        "question": "Can it detect complex tables?",
-        "answer": "The tool works best with simple grid tables. Complex merged cells may require manual adjustment."
+        "question": "ಇದು ಸಂಕೀರ್ಣ ಟೇಬಲ್‌ಗಳನ್ನು ಪತ್ತೆಹಚ್ಚಬಹುದೇ?",
+        "answer": "ಸಾಧಾರಣ ಗ್ರಿಡ್ ಟೇಬಲ್‌ಗಳೊಂದಿಗೆ ಈ ಉಪಕರಣವು ಉತ್ತಮವಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ. ಸಂಕೀರ್ಣವಾಗಿ ವಿಲೀನಗೊಂಡ ಸೆಲ್‌ಗಳಿಗೆ ಹಸ್ತಚಾಲಿತ ಹೊಂದಾಣಿಕೆಯ ಅಗತ್ಯವಿರಬಹುದು."
       },
       {
-        "question": "What if no tables are found?",
-        "answer": "Try adjusting the minimum columns/rows threshold or check if the PDF contains actual table structures."
+        "question": "ಯಾವುದೇ ಟೇಬಲ್‌ಗಳು ಕಂಡುಬರದಿದ್ದರೆ ಏನು ಮಾಡುವುದು?",
+        "answer": "ಕನಿಷ್ಠ ಕಾಲಮ್‌ಗಳು/ಸಾಲುಗಳ ಮಿತಿಯನ್ನು ಹೊಂದಿಸಲು ಪ್ರಯತ್ನಿಸಿ ಅಥವಾ PDF ನೈಜ ಟೇಬಲ್ ರಚನೆಗಳನ್ನು ಹೊಂದಿದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಿ."
       },
       {
-        "question": "Can I extract from specific pages?",
-        "answer": "Yes, specify a page range to limit extraction to certain pages."
+        "question": "ನಾನು ನಿರ್ದಿಷ್ಟ ಪುಟಗಳಿಂದ ಹೊರತೆಗೆಯಬಹುದೇ?",
+        "answer": "ಹೌದು, ಕೆಲವು ನಿರ್ದಿಷ್ಟ ಪುಟಗಳಿಗೆ ಹೊರತೆಗೆಯುವಿಕೆಯನ್ನು ಪರಿಮಿತಿಗೊಳಿಸಲು ಪುಟದ ವ್ಯಾಪ್ತಿಯನ್ನು ನಿರ್ದಿಷ್ಟಪಡಿಸಿ."
       }
     ]
   },
   "ocg-manager": {
     "title": "PDF Layer Manager (OCG)",
-    "metaDescription": "Manage PDF layers (Optional Content Groups). View, toggle, add, delete, and rename layers in your PDF documents.",
+    "metaDescription": "PDF ಲೇಯರ್‌ಗಳನ್ನು (Optional Content Groups) ನಿರ್ವಹಿಸಿ. ನಿಮ್ಮ PDF ದಾಖಲೆಗಳಲ್ಲಿನ ಲೇಯರ್‌ಗಳನ್ನು ವೀಕ್ಷಿಸಿ, ಟಾಗಲ್ ಮಾಡಿ, ಸೇರಿಸಿ, ಅಳಿಸಿ ಮತ್ತು ಮರುನಾಮಕರಣ ಮಾಡಿ.",
     "keywords": [
       "pdf layers",
       "ocg manager",
@@ -5995,64 +5995,64 @@ export const toolContentKn: Record<string, ToolContent> = {
       "pdf layer visibility",
       "manage pdf layers"
     ],
-    "description": "\n      <p>PDF Layer Manager allows you to view and manage Optional Content Groups (OCG) in your PDF documents. OCG layers are used in technical drawings, maps, and complex documents to organize content into toggleable layers.</p>\n      <p>View all layers in your PDF, toggle their visibility, add new layers, delete unwanted ones, or rename existing layers. This tool is essential for working with layered PDFs like architectural plans, CAD exports, and print-ready documents.</p>\n      <p>All processing happens locally in your browser, ensuring your documents remain private and secure.</p>\n    ",
+    "description": "\n      <p>PDF Layer Manager ನಿಮ್ಮ PDF ದಾಖಲೆಗಳಲ್ಲಿ Optional Content Groups (OCG) ಅನ್ನು ವೀಕ್ಷಿಸಲು ಮತ್ತು ನಿರ್ವಹಿಸಲು ನಿಮಗೆ ಅನುಮತಿಸುತ್ತದೆ. ಟಾಗಲ್ ಮಾಡಬಹುದಾದ ಲೇಯರ್‌ಗಳಲ್ಲಿ ವಿಷಯವನ್ನು ಸಂಘಟಿಸಲು ತಾಂತ್ರಿಕ ರೇಖಾಚಿತ್ರಗಳು, ನಕ್ಷೆಗಳು ಮತ್ತು ಸಂಕೀರ್ಣ ದಾಖಲೆಗಳಲ್ಲಿ OCG ಲೇಯರ್‌ಗಳನ್ನು ಬಳಸಲಾಗುತ್ತದೆ.</p>\n      <p>ನಿಮ್ಮ PDF ನಲ್ಲಿರುವ ಎಲ್ಲಾ ಲೇಯರ್‌ಗಳನ್ನು ವೀಕ್ಷಿಸಿ, ಅವುಗಳ ಗೋಚರತೆಯನ್ನು ಟಾಗಲ್ ಮಾಡಿ, ಹೊಸ ಲೇಯರ್‌ಗಳನ್ನು ಸೇರಿಸಿ, ಬೇಡವಾದವುಗಳನ್ನು ಅಳಿಸಿ ಅಥವಾ ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಲೇಯರ್‌ಗಳನ್ನು ಮರುನಾಮಕರಣ ಮಾಡಿ. ವಾಸ್ತುಶಿಲ್ಪದ ಯೋಜನೆಗಳು, CAD ಎಕ್ಸ್‌ಪೋರ್ಟ್‌ಗಳು ಮತ್ತು ಪ್ರಿಂಟ್‌ಗೆ ಸಿದ್ಧವಾಗಿರುವ ದಾಖಲೆಗಳಂತಹ ಲೇಯರ್‌ಗಳಿರುವ PDF ಗಳೊಂದಿಗೆ ಕೆಲಸ ಮಾಡಲು ಈ ಉಪಕರಣವು ಅತ್ಯಗತ್ಯವಾಗಿದೆ.</p>\n      <p>ಎಲ್ಲಾ ಪ್ರಕ್ರಿಯೆಗಳು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ಸ್ಥಳೀಯವಾಗಿ ನಡೆಯುತ್ತವೆ, ನಿಮ್ಮ ದಾಖಲೆಗಳು ಖಾಸಗಿಯಾಗಿ ಮತ್ತು ಸುರಕ್ಷಿತವಾಗಿರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತವೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Upload a PDF file that contains layers (OCG) or one you want to add layers to."
+        "description": "ಲೇಯರ್‌ಗಳನ್ನು (OCG) ಹೊಂದಿರುವ ಅಥವಾ ನೀವು ಲೇಯರ್‌ಗಳನ್ನು ಸೇರಿಸಲು ಬಯಸುವ PDF ಫೈಲ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "View Layers",
-        "description": "The tool automatically lists all layers found in the document with their visibility status."
+        "title": "ಲೇಯರ್‌ಗಳನ್ನು ವೀಕ್ಷಿಸಿ",
+        "description": "ಉಪಕರಣವು ದಾಖಲೆಯಲ್ಲಿ ಕಂಡುಬರುವ ಎಲ್ಲಾ ಲೇಯರ್‌ಗಳನ್ನು ಅವುಗಳ ಗೋಚರತೆಯ ಸ್ಥಿತಿಯೊಂದಿಗೆ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಪಟ್ಟಿ ಮಾಡುತ್ತದೆ."
       },
       {
         "step": 3,
-        "title": "Manage Layers",
-        "description": "Toggle layer visibility, rename layers, add new ones, or delete unwanted layers."
+        "title": "ಲೇಯರ್‌ಗಳನ್ನು ನಿರ್ವಹಿಸಿ",
+        "description": "ಲೇಯರ್ ಗೋಚರತೆಯನ್ನು ಟಾಗಲ್ ಮಾಡಿ, ಲೇಯರ್‌ಗಳನ್ನು ಮರುನಾಮಕರಣ ಮಾಡಿ, ಹೊಸದನ್ನು ಸೇರಿಸಿ ಅಥವಾ ಬೇಡವಾದ ಲೇಯರ್‌ಗಳನ್ನು ಅಳಿಸಿ."
       },
       {
         "step": 4,
         "title": "ಉಳಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Download your modified PDF with the layer changes applied."
+        "description": "ಅನ್ವಯಿಸಲಾದ ಲೇಯರ್ ಬದಲಾವಣೆಗಳೊಂದಿಗೆ ನಿಮ್ಮ ಮಾರ್ಪಡಿಸಿದ PDF ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
         "title": "ತಾಂತ್ರಿಕ ಡ್ರಾಯಿಂಗ್‌ಗಳು",
-        "description": "Manage layers in CAD exports to show/hide dimensions, annotations, or different views.",
+        "description": "ಆಯಾಮಗಳು, ಟಿಪ್ಪಣಿಗಳು ಅಥವಾ ವಿಭಿನ್ನ ವೀಕ್ಷಣೆಗಳನ್ನು ತೋರಿಸಲು/ಮರೆಮಾಡಲು CAD ಎಕ್ಸ್‌ಪೋರ್ಟ್‌ಗಳಲ್ಲಿ ಲೇಯರ್‌ಗಳನ್ನು ನಿರ್ವಹಿಸಿ.",
         "icon": "ruler"
       },
       {
-        "title": "Map Editing",
-        "description": "Toggle different map layers like topography, roads, and labels for custom map prints.",
+        "title": "ನಕ್ಷೆ ಸಂಪಾದನೆ",
+        "description": "ಕಸ್ಟಮ್ ನಕ್ಷೆ ಪ್ರಿಂಟ್‌ಗಳಿಗಾಗಿ ಟೋಪೋಗ್ರಫಿ, ರಸ್ತೆಗಳು ಮತ್ತು ಲೇಬಲ್‌ಗಳಂತಹ ವಿಭಿನ್ನ ನಕ್ಷೆ ಲೇಯರ್‌ಗಳನ್ನು ಟಾಗಲ್ ಮಾಡಿ.",
         "icon": "map"
       },
       {
         "title": "ಪ್ರಿಂಟ್ ಸಿದ್ಧತೆ",
-        "description": "Prepare layered PDFs for printing by toggling appropriate layers for different versions.",
+        "description": "ವಿವಿಧ ಆವೃತ್ತಿಗಳಿಗೆ ಸೂಕ್ತವಾದ ಲೇಯರ್‌ಗಳನ್ನು ಟಾಗಲ್ ಮಾಡುವ ಮೂಲಕ ಮುದ್ರಣಕ್ಕಾಗಿ ಲೇಯರ್‌ಗಳಿರುವ PDF ಗಳನ್ನು ಸಿದ್ಧಪಡಿಸಿ.",
         "icon": "printer"
       }
     ],
     "faq": [
       {
-        "question": "What are PDF layers (OCG)?",
-        "answer": "Optional Content Groups (OCG) are layers in a PDF that can be shown or hidden. They are commonly used in CAD drawings, maps, and complex documents."
+        "question": "PDF ಲೇಯರ್‌ಗಳು (OCG) ಎಂದರೇನು?",
+        "answer": "Optional Content Groups (OCG) ಎಂಬುದು PDF ನಲ್ಲಿ ತೋರಿಸಬಹುದಾದ ಅಥವಾ ಮರೆಮಾಡಬಹುದಾದ ಲೇಯರ್‌ಗಳಾಗಿವೆ. ಇವುಗಳನ್ನು ಸಾಮಾನ್ಯವಾಗಿ CAD ರೇಖಾಚಿತ್ರಗಳು, ನಕ್ಷೆಗಳು ಮತ್ತು ಸಂಕೀರ್ಣ ದಾಖಲೆಗಳಲ್ಲಿ ಬಳಸಲಾಗುತ್ತದೆ."
       },
       {
-        "question": "Why does my PDF show no layers?",
-        "answer": "Not all PDFs contain layers. Layers are typically added during PDF creation from design software or CAD applications."
+        "question": "ನನ್ನ PDF ಯಾವುದೇ ಲೇಯರ್‌ಗಳನ್ನು ಏಕೆ ತೋರಿಸುತ್ತಿಲ್ಲ?",
+        "answer": "ಎಲ್ಲಾ PDF ಗಳು ಲೇಯರ್‌ಗಳನ್ನು ಹೊಂದಿರುವುದಿಲ್ಲ. ಡಿಸೈನ್ ತಂತ್ರಾಂಶ ಅಥವಾ CAD ಅಪ್ಲಿಕೇಶನ್‌ಗಳಿಂದ PDF ರಚನೆಯ ಸಮಯದಲ್ಲಿ ಸಾಮಾನ್ಯವಾಗಿ ಲೇಯರ್‌ಗಳನ್ನು ಸೇರಿಸಲಾಗುತ್ತದೆ."
       },
       {
-        "question": "Will layer changes affect the original content?",
-        "answer": "Layer visibility changes only affect what is displayed or printed. The actual content remains in the document."
+        "question": "ಲೇಯರ್ ಬದಲಾವಣೆಗಳು ಮೂಲ ವಿಷಯದ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರುತ್ತವೆಯೇ?",
+        "answer": "ಲೇಯರ್ ಗೋಚರತೆಯ ಬದಲಾವಣೆಗಳು ಪ್ರದರ್ಶಿಸಲಾದ ಅಥವಾ ಮುದ್ರಿಸಲಾದ ವಿಷಯದ ಮೇಲೆ ಮಾತ್ರ ಪರಿಣಾಮ ಬೀರುತ್ತವೆ. ನೈಜ ವಿಷಯವು ದಾಖಲೆಯಲ್ಲಿಯೇ ಇರುತ್ತದೆ."
       }
     ]
   },
   "pdf-reader": {
     "title": "PDF Reader",
-    "metaDescription": "Free online PDF reader. View, navigate, zoom, rotate, and print PDF documents directly in your browser.",
+    "metaDescription": "ಉಚಿತ ಆನ್‌ಲೈನ್ PDF reader. ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ನೇರವಾಗಿ PDF ದಾಖಲೆಗಳನ್ನು ವೀಕ್ಷಿಸಿ, ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ, ಝೂಮ್ ಮಾಡಿ, ತಿರುಗಿಸಿ ಮತ್ತು ಪ್ರಿಂಟ್ ಮಾಡಿ.",
     "keywords": [
       "pdf reader",
       "pdf viewer",
@@ -6060,64 +6060,64 @@ export const toolContentKn: Record<string, ToolContent> = {
       "read pdf",
       "pdf browser viewer"
     ],
-    "description": "\n      <p>PDF Reader is a full-featured PDF viewer that lets you read and navigate PDF documents directly in your browser. No software installation required - just upload your PDF and start reading.</p>\n      <p>Navigate between pages, zoom in and out, rotate the view, and use fullscreen mode for distraction-free reading. You can also print documents or download them for offline access.</p>\n      <p>All viewing happens locally in your browser. Your documents are never uploaded to any server, ensuring complete privacy.</p>\n    ",
+    "description": "\n      <p>PDF Reader ಎಂಬುದು ಪೂರ್ಣ ವೈಶಿಷ್ಟ್ಯಗಳಿರುವ PDF ವೀಕ್ಷಕವಾಗಿದ್ದು, ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ನೇರವಾಗಿ PDF ದಾಖಲೆಗಳನ್ನು ಓದಲು ಮತ್ತು ನ್ಯಾವಿಗೇಟ್ ಮಾಡಲು ನಿಮಗೆ ಅನುಮತಿಸುತ್ತದೆ. ಯಾವುದೇ ಸಾಫ್ಟ್‌ವೇರ್ ಇನ್‌ಸ್ಟಾಲೇಶನ್ ಅಗತ್ಯವಿಲ್ಲ - ನಿಮ್ಮ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ ಮತ್ತು ಓದಲು ಪ್ರಾರಂಭಿಸಿ.</p>\n      <p>ಪುಟಗಳ ನಡುವೆ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ, ಝೂಮ್ ಇನ್ ಮತ್ತು ಔಟ್ ಮಾಡಿ, ವೀಕ್ಷಣೆಯನ್ನು ತಿರುಗಿಸಿ ಮತ್ತು ಗೊಂದಲವಿಲ್ಲದ ಓದಿಗಾಗಿ ಫುಲ್‌ಸ್ಕ್ರೀನ್ ಮೋಡ್ ಬಳಸಿ. ನೀವು ದಾಖಲೆಗಳನ್ನು ಪ್ರಿಂಟ್ ಮಾಡಬಹುದು ಅಥವಾ ಆಫ್‌ಲೈನ್ ಪ್ರವೇಶಕ್ಕಾಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿಕೊಳ್ಳಬಹುದು.</p>\n      <p>ಎಲ್ಲಾ ವೀಕ್ಷಣೆಗಳು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ಸ್ಥಳೀಯವಾಗಿ ನಡೆಯುತ್ತವೆ. ನಿಮ್ಮ ದಾಖಲೆಗಳನ್ನು ಎಂದಿಗೂ ಯಾವುದೇ ಸರ್ವರ್‌ಗೆ ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾಗುವುದಿಲ್ಲ, ಇದು ಸಂಪೂರ್ಣ ಗೌಪ್ಯತೆಯನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Open Your PDF",
-        "description": "Click to upload or drag and drop a PDF file to open it in the reader."
+        "title": "ನಿಮ್ಮ PDF ತೆರೆಯಿರಿ",
+        "description": "ರೀಡರ್‌ನಲ್ಲಿ ತೆರೆಯಲು PDF ಫೈಲ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ ಅಥವಾ ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Navigate Pages",
-        "description": "Use the page controls to go to the previous or next page, or jump to a specific page number."
+        "title": "ಪುಟಗಳನ್ನು ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ",
+        "description": "ಹಿಂದಿನ ಅಥವಾ ಮುಂದಿನ ಪುಟಕ್ಕೆ ಹೋಗಲು, ಅಥವಾ ನಿರ್ದಿಷ್ಟ ಪುಟ ಸಂಖ್ಯೆಗೆ ಜಂಪ್ ಮಾಡಲು ಪುಟ ನಿಯಂತ್ರಣಗಳನ್ನು ಬಳಸಿ."
       },
       {
         "step": 3,
-        "title": "Adjust View",
-        "description": "Zoom in or out, rotate the view, or enter fullscreen mode for comfortable reading."
+        "title": "ವೀಕ್ಷಣೆಯನ್ನು ಹೊಂದಿಸಿ",
+        "description": "ಆರಾಮದಾಯಕ ಓದಿಗಾಗಿ ಝೂಮ್ ಇನ್ ಅಥವಾ ಔಟ್ ಮಾಡಿ, ವೀಕ್ಷಣೆಯನ್ನು ತಿರುಗಿಸಿ, ಅಥವಾ ಫುಲ್‌ಸ್ಕ್ರೀನ್ ಮೋಡ್‌ಗೆ ಪ್ರವೇಶಿಸಿ."
       },
       {
         "step": 4,
-        "title": "Print or Download",
-        "description": "Print the document or download it for offline access when needed."
+        "title": "ಪ್ರಿಂಟ್ ಮಾಡಿ ಅಥವಾ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ಅಗತ್ಯವಿದ್ದಾಗ ದಾಖಲೆಯನ್ನು ಪ್ರಿಂಟ್ ಮಾಡಿ ಅಥವಾ ಆಫ್‌ಲೈನ್ ಪ್ರವೇಶಕ್ಕಾಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
         "title": "ದಾಖಲೆ ಪರಿಶೀಲನೆ",
-        "description": "Quickly review PDF documents without installing any software.",
+        "description": "ಯಾವುದೇ ಸಾಫ್ಟ್‌ವೇರ್ ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡದೆ PDF ದಾಖಲೆಗಳನ್ನು ತ್ವರಿತವಾಗಿ ಪರಿಶೀಲಿಸಿ.",
         "icon": "book-open"
       },
       {
-        "title": "Mobile Reading",
-        "description": "Read PDF documents on any device with a web browser.",
+        "title": "ಮೊಬೈಲ್ ಓದುವಿಕೆ",
+        "description": "ವೆಬ್ ಬ್ರೌಸರ್ ಇರುವ ಯಾವುದೇ ಸಾಧನದಲ್ಲಿ PDF ದಾಖಲೆಗಳನ್ನು ಓದಿ.",
         "icon": "smartphone"
       },
       {
-        "title": "Quick Preview",
-        "description": "Preview PDFs before deciding to download or print them.",
+        "title": "ತ್ವರಿತ ಮುನ್ನೋಟ",
+        "description": "PDF ಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಅಥವಾ ಪ್ರಿಂಟ್ ಮಾಡಲು ನಿರ್ಧರಿಸುವ ಮೊದಲು ಅವುಗಳನ್ನು ಮುನ್ನೋಟ (preview) ಮಾಡಿ.",
         "icon": "eye"
       }
     ],
     "faq": [
       {
-        "question": "Is my document secure?",
-        "answer": "Yes, your document is processed entirely in your browser and is never uploaded to any server."
+        "question": "ನನ್ನ ದಾಖಲೆ ಸುರಕ್ಷಿತವಾಗಿದೆಯೇ?",
+        "answer": "ಹೌದು, ನಿಮ್ಮ ದಾಖಲೆಯನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲಾಗುತ್ತದೆ ಮತ್ತು ಎಂದಿಗೂ ಯಾವುದೇ ಸರ್ವರ್‌ಗೆ ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾಗುವುದಿಲ್ಲ."
       },
       {
-        "question": "Can I annotate or edit the PDF?",
-        "answer": "This tool is for viewing only. Use our Sign PDF or Annotate PDF tools for editing."
+        "question": "ನಾನು PDF ಅನ್ನು ಟಿಪ್ಪಣಿ ಮಾಡಬಹುದೇ ಅಥವಾ ಸಂಪಾದಿಸಬಹುದೇ?",
+        "answer": "ಈ ಉಪಕರಣವು ವೀಕ್ಷಣೆಗೆ ಮಾತ್ರ. ಸಂಪಾದನೆಗಾಗಿ ನಮ್ಮ Sign PDF ಅಥವಾ Annotate PDF ಉಪಕರಣಗಳನ್ನು ಬಳಸಿ."
       },
       {
-        "question": "Does it work on mobile devices?",
-        "answer": "Yes, the PDF Reader works on all devices with a modern web browser."
+        "question": "ಇದು ಮೊಬೈಲ್ ಸಾಧನಗಳಲ್ಲಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆಯೇ?",
+        "answer": "ಹೌದು, PDF Reader ಆಧುನಿಕ ವೆಬ್ ಬ್ರೌಸರ್ ಹೊಂದಿರುವ ಎಲ್ಲಾ ಸಾಧನಗಳಲ್ಲಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ."
       }
     ]
   },
   "digital-sign-pdf": {
     "title": "Digital Signature",
-    "metaDescription": "Add X.509 digital signatures to PDF documents. Sign PDFs with PFX, P12, or PEM certificates for legal validity.",
+    "metaDescription": "PDF ದಾಖಲೆಗಳಿಗೆ X.509 ಡಿಜಿಟಲ್ ಸಹಿಗಳನ್ನು ಸೇರಿಸಿ. ಕಾನೂನುಬದ್ಧ ಸಿಂಧುತ್ವಕ್ಕಾಗಿ PFX, P12, ಅಥವಾ PEM ಪ್ರಮಾಣಪತ್ರಗಳೊಂದಿಗೆ PDF ಗಳಿಗೆ ಸಹಿ ಮಾಡಿ.",
     "keywords": [
       "digital signature pdf",
       "x509 certificate",
@@ -6126,128 +6126,128 @@ export const toolContentKn: Record<string, ToolContent> = {
       "pem sign pdf",
       "legally sign pdf"
     ],
-    "description": "\n      <p>Digital Signature allows you to add cryptographic X.509 digital signatures to PDF documents. Unlike simple drawn signatures, digital signatures provide legal validity and document integrity verification.</p>\n      <p>Upload your certificate file (PFX, P12, or PEM format), enter the password, and sign your PDF. You can add visible signatures with custom text, images, and positioning, or invisible signatures for document integrity only.</p>\n      <p>All signing happens locally in your browser. Your certificate and documents are never uploaded to any server.</p>\n    ",
+    "description": "\n      <p>Digital Signature PDF ದಾಖಲೆಗಳಿಗೆ ಕ್ರಿಪ್ಟೋಗ್ರಾಫಿಕ್ X.509 ಡಿಜಿಟಲ್ ಸಹಿಗಳನ್ನು ಸೇರಿಸಲು ನಿಮಗೆ ಅನುಮತಿಸುತ್ತದೆ. ಸರಳವಾಗಿ ಬರೆದ ಸಹಿಗಳಿಗಿಂತ ಭಿನ್ನವಾಗಿ, ಡಿಜಿಟಲ್ ಸಹಿಗಳು ಕಾನೂನು ಸಿಂಧುತ್ವ ಮತ್ತು ದಾಖಲೆಯ ಸಮಗ್ರತೆಯ ಪರಿಶೀಲನೆಯನ್ನು ಒದಗಿಸುತ್ತವೆ.</p>\n      <p>ನಿಮ್ಮ ಪ್ರಮಾಣಪತ್ರ ಫೈಲ್ ಅನ್ನು (PFX, P12, ಅಥವಾ PEM ಫಾರ್ಮ್ಯಾಟ್) ಅಪ್‌ಲೋಡ್ ಮಾಡಿ, ಪಾಸ್‌ವರ್ಡ್ ನಮೂದಿಸಿ ಮತ್ತು ನಿಮ್ಮ PDF ಗೆ ಸಹಿ ಮಾಡಿ. ಕಸ್ಟಮ್ ಪಠ್ಯ, ಚಿತ್ರಗಳು ಮತ್ತು ಸ್ಥಾನೀಕರಣದೊಂದಿಗೆ ನೀವು ಗೋಚರಿಸುವ ಸಹಿಗಳನ್ನು ಅಥವಾ ದಾಖಲೆಯ ಸಮಗ್ರತೆಗಾಗಿ ಮಾತ್ರ ಅದೃಶ್ಯ ಸಹಿಗಳನ್ನು ಸೇರಿಸಬಹುದು.</p>\n      <p>ಎಲ್ಲಾ ಸಹಿ ಮಾಡುವ ಪ್ರಕ್ರಿಯೆಯು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ಸ್ಥಳೀಯವಾಗಿ ನಡೆಯುತ್ತದೆ. ನಿಮ್ಮ ಪ್ರಮಾಣಪತ್ರ ಮತ್ತು ದಾಖಲೆಗಳನ್ನು ಎಂದಿಗೂ ಯಾವುದೇ ಸರ್ವರ್‌ಗೆ ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾಗುವುದಿಲ್ಲ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Upload the PDF document you want to digitally sign."
+        "description": "ನೀವು ಡಿಜಿಟಲ್ ಸಹಿ ಮಾಡಲು ಬಯಸುವ PDF ದಾಖಲೆಯನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Load Certificate",
-        "description": "Upload your X.509 certificate file (.pfx, .p12, or .pem) and enter the password."
+        "title": "ಪ್ರಮಾಣಪತ್ರವನ್ನು ಲೋಡ್ ಮಾಡಿ",
+        "description": "ನಿಮ್ಮ X.509 ಪ್ರಮಾಣಪತ್ರ ಫೈಲ್ ಅನ್ನು (.pfx, .p12, ಅಥವಾ .pem) ಅಪ್‌ಲೋಡ್ ಮಾಡಿ ಮತ್ತು ಪಾಸ್‌ವರ್ಡ್ ನಮೂದಿಸಿ."
       },
       {
         "step": 3,
-        "title": "Configure Signature",
-        "description": "Optionally add reason, location, and visible signature with custom text or image."
+        "title": "ಸಹಿಯನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಿ",
+        "description": "ಐಚ್ಛಿಕವಾಗಿ ಕಸ್ಟಮ್ ಪಠ್ಯ ಅಥವಾ ಚಿತ್ರದೊಂದಿಗೆ ಕಾರಣ, ಸ್ಥಳ ಮತ್ತು ಗೋಚರಿಸುವ ಸಹಿಯನ್ನು ಸೇರಿಸಿ."
       },
       {
         "step": 4,
-        "title": "Sign and Download",
-        "description": "Click Sign PDF to apply the digital signature and download the signed document."
+        "title": "ಸಹಿ ಮಾಡಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ಡಿಜಿಟಲ್ ಸಹಿಯನ್ನು ಅನ್ವಯಿಸಲು ಮತ್ತು ಸಹಿ ಮಾಡಿದ ದಾಖಲೆಯನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು Sign PDF ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
         "title": "ಕಾನೂನು ದಾಖಲೆಗಳು",
-        "description": "Sign contracts, agreements, and legal documents with legally binding digital signatures.",
+        "description": "ಕಾನೂನುಬದ್ಧವಾಗಿ ಬದ್ಧವಾಗಿರುವ ಡಿಜಿಟಲ್ ಸಹಿಗಳೊಂದಿಗೆ ಒಪ್ಪಂದಗಳು, ಕರಾರುಗಳು ಮತ್ತು ಕಾನೂನು ದಾಖಲೆಗಳಿಗೆ ಸಹಿ ಮಾಡಿ.",
         "icon": "scale"
       },
       {
-        "title": "Business Approvals",
-        "description": "Digitally sign invoices, purchase orders, and approval documents for audit trails.",
+        "title": "ವ್ಯಾವಹಾರಿಕ ಅನುಮೋದನೆಗಳು",
+        "description": "ಆಡಿಟ್ ಹಾದಿಗಳಿಗಾಗಿ ಇನ್‌ವಾಯ್ಸ್‌ಗಳು, ಖರೀದಿ ಆದೇಶಗಳು ಮತ್ತು ಅನುಮೋದನೆ ದಾಖಲೆಗಳಿಗೆ ಡಿಜಿಟಲ್ ಸಹಿ ಮಾಡಿ.",
         "icon": "briefcase"
       },
       {
-        "title": "Document Integrity",
-        "description": "Ensure documents have not been tampered with after signing.",
+        "title": "ದಾಖಲೆಯ ಸಮಗ್ರತೆ",
+        "description": "ಸಹಿ ಮಾಡಿದ ನಂತರ ದಾಖಲೆಗಳನ್ನು ತಿದ್ದಲಾಗಿಲ್ಲ ಎಂಬುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.",
         "icon": "shield-check"
       }
     ],
     "faq": [
       {
-        "question": "What certificate formats are supported?",
-        "answer": "PFX (.pfx), PKCS#12 (.p12), and PEM (.pem) certificate formats are supported."
+        "question": "ಯಾವ ಪ್ರಮಾಣಪತ್ರ ಫಾರ್ಮ್ಯಾಟ್‌ಗಳನ್ನು ಬೆಂಬಲಿಸಲಾಗುತ್ತದೆ?",
+        "answer": "PFX (.pfx), PKCS#12 (.p12), ಮತ್ತು PEM (.pem) ಪ್ರಮಾಣಪತ್ರ ಫಾರ್ಮ್ಯಾಟ್‌ಗಳನ್ನು ಬೆಂಬಲಿಸಲಾಗುತ್ತದೆ."
       },
       {
-        "question": "Is the signature legally valid?",
-        "answer": "Yes, X.509 digital signatures are legally recognized in most jurisdictions when using a valid certificate."
+        "question": "ಸಹಿಯು ಕಾನೂನುಬದ್ಧವಾಗಿ ಮಾನ್ಯವಾಗಿದೆಯೇ?",
+        "answer": "ಹೌದು, ಮಾನ್ಯವಾದ ಪ್ರಮಾಣಪತ್ರವನ್ನು ಬಳಸುವಾಗ X.509 ಡಿಜಿಟಲ್ ಸಹಿಗಳನ್ನು ಹೆಚ್ಚಿನ ನ್ಯಾಯಾಂಗ ವ್ಯಾಪ್ತಿಗಳಲ್ಲಿ ಕಾನೂನುಬದ್ಧವಾಗಿ ಗುರುತಿಸಲಾಗುತ್ತದೆ."
       },
       {
-        "question": "Can I add a visible signature?",
-        "answer": "Yes, you can add a visible signature with custom text, image, position, and styling."
+        "question": "ನಾನು ಗೋಚರಿಸುವ ಸಹಿಯನ್ನು ಸೇರಿಸಬಹುದೇ?",
+        "answer": "ಹೌದು, ಅನುಕೂಲಕರ ಪಠ್ಯ, ಚಿತ್ರ, ಸ್ಥಳ ಮತ್ತು ಶೈಲಿಯೊಂದಿಗೆ ನೀವು ಗೋಚರಿಸುವ ಸಹಿಯನ್ನು ಸೇರಿಸಬಹುದು."
       }
     ]
   },
   "validate-signature": {
-    "title": "Validate Signature",
-    "metaDescription": "Verify digital signatures in PDF documents. Check certificate validity, signer information, and document integrity.",
+    "title": "ಸಹಿಯನ್ನು ಪರಿಶೀಲಿಸಿ",
+    "metaDescription": "PDF ದಾಖಲೆಗಳಲ್ಲಿ ಡಿಜಿಟಲ್ ಸಹಿಗಳನ್ನು ಪರಿಶೀಲಿಸಿ. ಪ್ರಮಾಣಪತ್ರದ ಮಾನ್ಯತೆ, ಸಹಿದಾರರ ಮಾಹಿತಿ ಮತ್ತು ದಾಖಲೆಯ ಸಮಗ್ರತೆಯನ್ನು ಪರಿಶೀಲಿಸಿ.",
     "keywords": [
       "validate pdf signature",
       "verify digital signature",
       "check pdf certificate",
       "signature verification"
     ],
-    "description": "\n      <p>Validate Signature allows you to verify digital signatures in PDF documents. Check if signatures are valid, view certificate information, and confirm document integrity.</p>\n      <p>Upload a signed PDF to see all signatures, their validity status, signer information, and whether the document has been modified after signing.</p>\n      <p>All validation happens locally in your browser. Your documents are never uploaded to any server.</p>\n    ",
+    "description": "\n      <p>Validate Signature ನಿಮಗೆ PDF ದಾಖಲೆಗಳಲ್ಲಿ ಡಿಜಿಟಲ್ ಸಹಿಗಳನ್ನು ಪರಿಶೀಲಿಸಲು ಅನುಮತಿಸುತ್ತದೆ. ಸಹಿಗಳು ಮಾನ್ಯವಾಗಿವೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಿ, ಪ್ರಮಾಣಪತ್ರದ ಮಾಹಿತಿಯನ್ನು ವೀಕ್ಷಿಸಿ ಮತ್ತು ದಾಖಲೆಯ ಸಮಗ್ರತೆಯನ್ನು ಖಚಿತಪಡಿಸಿ.</p>\n      <p>ಎಲ್ಲಾ ಸಹಿಗಳು, ಅವುಗಳ ಮಾನ್ಯತೆಯ ಸ್ಥಿತಿ, ಸಹಿದಾರರ ಮಾಹಿತಿ ಮತ್ತು ಸಹಿ ಮಾಡಿದ ನಂತರ ದಾಖಲೆಯನ್ನು ಮಾರ್ಪಡಿಸಲಾಗಿದೆಯೇ ಎಂಬುದನ್ನು ವೀಕ್ಷಿಸಲು ಸಹಿ ಮಾಡಿದ PDF ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ.</p>\n      <p>ಎಲ್ಲಾ ಪರಿಶೀಲನೆಗಳು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಸ್ಥಳೀಯವಾಗಿ ನಡೆಯುತ್ತವೆ. ನಿಮ್ಮ ದಾಖಲೆಗಳನ್ನು ಯಾವುದೇ ಸರ್ವರ್‌ಗೆ ಎಂದಿಗೂ ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾಗುವುದಿಲ್ಲ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Signed PDF",
-        "description": "Upload a PDF document that contains digital signatures."
+        "title": "ಸಹಿ ಮಾಡಿದ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ಡಿಜಿಟಲ್ ಸಹಿಗಳನ್ನು ಹೊಂದಿರುವ PDF ದಾಖಲೆಯನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "View Results",
-        "description": "See all signatures found in the document with their validity status."
+        "title": "ಫಲಿತಾಂಶಗಳನ್ನು ವೀಕ್ಷಿಸಿ",
+        "description": "ದಾಖಲೆಯಲ್ಲಿ ಕಂಡುಬಂದ ಎಲ್ಲಾ ಸಹಿಗಳನ್ನು ಅವುಗಳ ಮಾನ್ಯತೆಯ ಸ್ಥಿತಿಯೊಂದಿಗೆ ನೋಡಿ."
       },
       {
         "step": 3,
-        "title": "Check Details",
-        "description": "View certificate information, signer details, and signing timestamp."
+        "title": "ವಿವರಗಳನ್ನು ಪರಿಶೀಲಿಸಿ",
+        "description": "ಪ್ರಮಾಣಪತ್ರ ಮಾಹಿತಿ, ಸಹಿದಾರರ ವಿವರಗಳು ಮತ್ತು ಸಹಿ ಮಾಡಿದ ಸಮಯದ ಮುದ್ರೆಯನ್ನು ವೀಕ್ಷಿಸಿ."
       },
       {
         "step": 4,
-        "title": "Export Report",
-        "description": "Optionally download a JSON report of the validation results."
+        "title": "ವರದಿಯನ್ನು ಎಕ್ಸ್‌ಪೋರ್ಟ್ ಮಾಡಿ",
+        "description": "ಪರಿಶೀಲನಾ ಫಲಿತಾಂಶಗಳ JSON ವರದಿಯನ್ನು ಐಚ್ಛಿಕವಾಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Document Verification",
-        "description": "Verify that signed documents are authentic and have not been tampered with.",
+        "title": "ದಾಖಲೆಯ ಪರಿಶೀಲನೆ",
+        "description": "ಸಹಿ ಮಾಡಿದ ದಾಖಲೆಗಳು ಪ್ರಮಾಣಿಕವಾಗಿವೆ ಮತ್ತು ತಿದ್ದಲಾಗಿಲ್ಲ ಎಂಬುದನ್ನು ಪರಿಶೀಲಿಸಿ.",
         "icon": "shield-check"
       },
       {
-        "title": "Compliance Audit",
-        "description": "Check signature validity for compliance and audit purposes.",
+        "title": "ಅನುಸರಣೆ ಆಡಿಟ್",
+        "description": "ಅನುಸರಣೆ ಮತ್ತು ಆಡಿಟ್ ಉದ್ದೇಶಗಳಿಗಾಗಿ ಸಹಿಯ ಮಾನ್ಯತೆಯನ್ನು ಪರಿಶೀಲಿಸಿ.",
         "icon": "clipboard-check"
       },
       {
-        "title": "Certificate Review",
-        "description": "View certificate details and expiration dates for signed documents.",
+        "title": "ಪ್ರಮಾಣಪತ್ರ ಪರಿಶೀಲನೆ",
+        "description": "ಸಹಿ ಮಾಡಿದ ದಾಖಲೆಗಳ ಪ್ರಮಾಣಪತ್ರದ ವಿವರಗಳು ಮತ್ತು ಗಡುವು ಮುಗಿಯುವ ದಿನಾಂಕಗಳನ್ನು ವೀಕ್ಷಿಸಿ.",
         "icon": "award"
       }
     ],
     "faq": [
       {
-        "question": "What does \"valid\" mean?",
-        "answer": "A valid signature means the document has not been modified since signing and the certificate chain is intact."
+        "question": "\"ಮಾನ್ಯ\" ಎಂದರೆ ಏನು?",
+        "answer": "ಮಾನ್ಯವಾದ ಸಹಿ ಎಂದರೆ ಸಹಿ ಮಾಡಿದಂದಿನಿಂದ ದಾಖಲೆಯನ್ನು ಮಾರ್ಪಡಿಸಲಾಗಿಲ್ಲ ಮತ್ತು ಪ್ರಮಾಣಪತ್ರದ ಸರಪಳಿಯು ಹಾಗೆಯೇ ಇದೆ ಎಂದರ್ಥ."
       },
       {
-        "question": "Can I validate multiple PDFs?",
-        "answer": "Yes, you can upload multiple PDFs and validate all signatures in batch."
+        "question": "ನಾನು ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು PDF ಗಳನ್ನು ಪರಿಶೀಲಿಸಬಹುದೇ?",
+        "answer": "ಹೌದು, ನೀವು ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು PDF ಗಳನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಬಹುದು ಮತ್ತು ಬ್ಯಾಚ್‌ನಲ್ಲಿ ಎಲ್ಲಾ ಸಹಿಗಳನ್ನು ಪರಿಶೀಲಿಸಬಹುದು."
       },
       {
-        "question": "Why might a signature be invalid?",
-        "answer": "Signatures may be invalid if the document was modified, the certificate expired, or the certificate is not trusted."
+        "question": "ಸಹಿಯು ಅಮಾನ್ಯವಾಗಲು ಕಾರಣವೇನು?",
+        "answer": "ದಾಖಲೆಯನ್ನು ಮಾರ್ಪಡಿಸಿದ್ದರೆ, ಪ್ರಮಾಣಪತ್ರದ ಗಡುವು ಮುಗಿದಿದ್ದರೆ ಅಥವಾ ಪ್ರಮಾಣಪತ್ರವು ವಿಶ್ವಾಸಾರ್ಹವಾಗಿಲ್ಲದಿದ್ದರೆ ಸಹಿಗಳು ಅಮಾನ್ಯವಾಗಬಹುದು."
       }
     ]
   },
   "ai-pdf-reflower": {
     "title": "AI PDF Layout Reflower",
-    "metaDescription": "Re-typeset PDF documents into responsive mobile-friendly layouts. Support Markdown and EPUB export for enhanced small-screen reading.",
+    "metaDescription": "PDF ದಾಖಲೆಗಳನ್ನು ಮೊಬೈಲ್-ಸ್ನೇಹಿ ಲೇಔಟ್‌ಗಳಾಗಿ ಮರು-ಟೈಪ್‌ಸೆಟ್ ಮಾಡಿ. ಸಣ್ಣ ಪರದೆಯ ಓದುವಿಕೆಯನ್ನು ಸುಧಾರಿಸಲು Markdown ಮತ್ತು EPUB ಎಕ್ಸ್‌ಪೋರ್ಟ್‌ ಅನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆ.",
     "keywords": [
       "pdf reflow",
       "responsive pdf",
@@ -6255,59 +6255,59 @@ export const toolContentKn: Record<string, ToolContent> = {
       "epub export",
       "mobile pdf reader"
     ],
-    "description": "\n      <p>AI PDF Layout Reflower is your ultimate companion for reading PDF documents on mobile devices. Traditional PDFs use a fixed layout, which often requires endless zooming and horizontal scrolling on smartphones or tablets, resulting in a tedious reading experience.</p>\n      <p>This tool intelligently parses the text flow, line spacing, and physical coordinates of the PDF pages, reconstructing the semantic paragraphs and heading hierarchies. For multi-column or dual-column documents, it intelligently merges column flows into a single responsive flow, ensuring smooth reading.</p>\n      <p>Additionally, it supports rendering mathematical formulas into LaTeX/MathJax and offers multiple reading themes (Sepia, Dark, Eye-protecting Green). You can export the reflowed layout as Markdown or a standard EPUB ebook with a single click.</p>\n    ",
+    "description": "\n      <p>AI PDF Layout Reflower ಮೊಬೈಲ್ ಸಾಧನಗಳಲ್ಲಿ PDF ದಾಖಲೆಗಳನ್ನು ಓದಲು ನಿಮ್ಮ ಅತ್ಯುತ್ತಮ ಸಂಗಾತಿಯಾಗಿದೆ. ಸಾಂಪ್ರದಾಯಿಕ PDF ಗಳು ಸ್ಥಿರ ಲೇಔಟ್ ಅನ್ನು ಬಳಸುತ್ತವೆ, ಇದು ಹೆಚ್ಚಾಗಿ ಸ್ಮಾರ್ಟ್‌ಫೋನ್‌ಗಳು ಅಥವಾ ಟ್ಯಾಬ್ಲೆಟ್‌ಗಳಲ್ಲಿ ಜೂಮಿಂಗ್ ಮತ್ತು ಸಮತಲ ಸ್ಕ್ರೋಲಿಂಗ್ ಅಗತ್ಯವಿರುತ್ತದೆ, ಇದರಿಂದ ಓದುವ ಅನುಭವವು ಬೇಸರ ತರುತ್ತದೆ.</p>\n      <p>ಈ ಉಪಕರಣವು ಬುದ್ಧಿವಂತಿಕೆಯಿಂದ ಪಠ್ಯದ ಹರಿವು, ಸಾಲಿನ ಅಂತರ ಮತ್ತು PDF ಪುಟಗಳ ಭೌತಿಕ ನಿರ್ದೇಶಾಂಕಗಳನ್ನು ವಿಶ್ಲೇಷಿಸುತ್ತದೆ, ಅರ್ಥಪೂರ್ಣ ಪ್ಯಾರಾಗ್ರಾಫ್‌ಗಳು ಮತ್ತು ಹೆಡಿಂಗ್ ಶ್ರೇಣಿಗಳನ್ನು ಪುನರ್ನಿರ್ಮಿಸುತ್ತದೆ. ಬಹು-ಅಂಕಣ ಅಥವಾ ದ್ವಿ-ಅಂಕಣ ದಾಖಲೆಗಳಿಗಾಗಿ, ಇದು ಅಂಕಣ ಹರಿವುಗಳನ್ನು ಒಂದೇ ರೆಸ್ಪಾನ್ಸಿವ್ ಹರಿವಿಗೆ ಬುದ್ಧಿವಂತಿಕೆಯಿಂದ ವಿಲೀನಗೊಳಿಸುತ್ತದೆ, ಸುಗಮ ಓದುವಿಕೆಯನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.</p>\n      <p>ಹೆಚ್ಚುವರಿಯಾಗಿ, ಇದು ಗಣಿತದ ಸೂತ್ರಗಳನ್ನು LaTeX/MathJax ಆಗಿ ನಿರೂಪಿಸುವುದನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆ ಮತ್ತು ಬಹು ಓದುವ ಥೀಮ್‌ಗಳನ್ನು (Sepia, Dark, ಕಣ್ಣಿನ ರಕ್ಷಣೆ ನೀಡುವ Green) ನೀಡುತ್ತದೆ. ನೀವು ಪುನಾರಚಿಸಿದ ಲೇಔಟ್ ಅನ್ನು ಒಂದೇ ಕ್ಲಿಕ್‌ನಲ್ಲಿ Markdown ಅಥವಾ ಪ್ರಮಾಣಿತ EPUB ಇ-ಬುಕ್ ಆಗಿ ಎಕ್ಸ್‌ಪೋರ್ಟ್ ಮಾಡಬಹುದು.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload PDF File",
-        "description": "Drag and drop your PDF file or click to browse and select it."
+        "title": "PDF ಫೈಲ್ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ನಿಮ್ಮ PDF ಫೈಲ್ ಅನ್ನು ಡ್ರಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ ಅಥವಾ ಬ್ರೌಸ್ ಮಾಡಲು ಮತ್ತು ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Select Reading Theme",
-        "description": "Choose your preferred font size and theme colors in the 3D mobile simulator on the right."
+        "title": "ಓದುವ ಥೀಮ್ ಆಯ್ಕೆಮಾಡಿ",
+        "description": "ಬಲಬದಿಯಲ್ಲಿರುವ 3D ಮೊಬೈಲ್ ಸಿಮ್ಯುಲೇಟರ್‌ನಲ್ಲಿ ನಿಮ್ಮ ಆದ್ಯತೆಯ ಫಾಂಟ್ ಗಾತ್ರ ಮತ್ತು ಥೀಮ್ ಬಣ್ಣಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ."
       },
       {
         "step": 3,
-        "title": "Export Document",
-        "description": "Once satisfied, use the physical pull-rope to export the document as Markdown or EPUB."
+        "title": "ದಾಖಲೆಯನ್ನು ಎಕ್ಸ್‌ಪೋರ್ಟ್ ಮಾಡಿ",
+        "description": "ತೃಪ್ತಿಕರವೆನಿಸಿದ ನಂತರ, ದಾಖಲೆಯನ್ನು Markdown ಅಥವಾ EPUB ಆಗಿ ಎಕ್ಸ್‌ಪೋರ್ಟ್ ಮಾಡಲು ಭೌತಿಕ ಪುಲ್-ರೋಪ್ ಬಳಸಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Mobile Literature Reading",
-        "description": "Read academic papers and research reports on your phone seamlessly without constant zooming.",
+        "title": "ಮೊಬೈಲ್ ಸಾಹಿತ್ಯ ಓದುವಿಕೆ",
+        "description": "ನಿರಂತರ ಜೂಮಿಂಗ್ ಇಲ್ಲದೆ ನಿಮ್ಮ ಫೋನ್‌ನಲ್ಲಿ ಶೈಕ್ಷಣಿಕ ಪ್ರಬಂಧಗಳು ಮತ್ತು ಸಂಶೋಧನಾ ವರದಿಗಳನ್ನು ಸುಲಭವಾಗಿ ಓದಿ.",
         "icon": "smartphone"
       },
       {
-        "title": "Ebook Conversion",
-        "description": "Convert text-heavy PDFs into EPUB files and import them into Kindle or other ebook readers.",
+        "title": "ಇ-ಬುಕ್ ಪರಿವರ್ತನೆ",
+        "description": "ಹೆಚ್ಚು ಪಠ್ಯವಿರುವ PDF ಗಳನ್ನು EPUB ಫೈಲ್‌ಗಳಾಗಿ ಪರಿವರ್ತಿಸಿ ಮತ್ತು ಅವುಗಳನ್ನು Kindle ಅಥವಾ ಇತರ ಇ-ಬುಕ್ ರೀಡರ್‌ಗಳಿಗೆ ಇಂಪೋರ್ಟ್ ಮಾಡಿ.",
         "icon": "book"
       },
       {
-        "title": "Note Archive",
-        "description": "Directly convert structured PDF content into clean Markdown files for your personal knowledge base.",
+        "title": "ಟಿಪ್ಪಣಿ ಆರ್ಕೈವ್",
+        "description": "ನಿಮ್ಮ ವೈಯಕ್ತಿಕ ಜ್ಞಾನದ ಮೂಲಕ್ಕಾಗಿ ರಚನಾತ್ಮಕ PDF ವಿಷಯವನ್ನು ನೇರವಾಗಿ ಸ್ವಚ್ಛವಾದ Markdown ಫೈಲ್‌ಗಳಾಗಿ ಪರಿವರ್ತಿಸಿ.",
         "icon": "file-text"
       }
     ],
     "faq": [
       {
-        "question": "Does it handle dual-column PDFs correctly?",
-        "answer": "Yes, the layout reflower detects the horizontal coordinates of text blocks and structures left and right columns sequentially, preventing line interleaving."
+        "question": "ಇದು ದ್ವಿ-ಸ್ತಂಭ PDF ಗಳನ್ನು ಸರಿಯಾಗಿ ನಿರ್ವಹಿಸುತ್ತದೆಯೇ?",
+        "answer": "ಹೌದು, ಲೇಔಟ್ ರಿಫ್ಲೋವರ್ ಪಠ್ಯ ಬ್ಲಾಕ್‌ಗಳ ಅಡ್ಡ ನಿರ್ದೇಶಾಂಕಗಳನ್ನು ಗುರುತಿಸುತ್ತದೆ ಮತ್ತು ಎಡ ಮತ್ತು ಬಲ ಕಾಲಮ್‌ಗಳನ್ನು ಅನುಕ್ರಮವಾಗಿ ರಚಿಸುತ್ತದೆ, ಲೈನ್ ಇಂಟರ್‌ಲೀವ್ ಆಗುವುದನ್ನು ತಡೆಯುತ್ತದೆ."
       },
       {
-        "question": "Will images and math formulas be lost?",
-        "answer": "Mathematical formulas are converted to LaTeX/MathJax syntax for clean web rendering, and images are preserved in their corresponding semantic positions."
+        "question": "ಚಿತ್ರಗಳು ಮತ್ತು ಗಣಿತ ಸೂತ್ರಗಳು ನಷ್ಟವಾಗುತ್ತವೆಯೇ?",
+        "answer": "ಸ್ಪಷ್ಟ ವೆಬ್ ರೆಂಡರಿಂಗ್‌ಗಾಗಿ ಗಣಿತ ಸೂತ್ರಗಳನ್ನು LaTeX/MathJax ಸಿಂಟ್ಯಾಕ್ಸ್‌ಗೆ ಪರಿವರ್ತಿಸಲಾಗುತ್ತದೆ, ಮತ್ತು ಚಿತ್ರಗಳನ್ನು ಅವುಗಳ ಸಂಬಂಧಿತ ಸಮಾಂತರಿಕ ಸ್ಥಾನಗಳಲ್ಲಿ ಸಂರಕ್ಷಿಸಲಾಗುತ್ತದೆ."
       },
       {
-        "question": "Is the conversion done in the cloud?",
-        "answer": "No, all layout analysis and format packaging are performed locally in your browser to guarantee the absolute privacy of your documents."
+        "question": "ಪರಿವರ್ತನೆಯನ್ನು ಕ್ಲೌಡ್‌ನಲ್ಲಿ ಮಾಡಲಾಗುತ್ತದೆಯೇ?",
+        "answer": "ಇಲ್ಲ, ನಿಮ್ಮ ದಾಖಲೆಗಳ ಸಂಪೂರ್ಣ ಗೌಪ್ಯತೆಯನ್ನು ಖಚಿತಪಡಿಸಲು ಎಲ್ಲಾ ಲೇಔಟ್ ವಿಶ್ಲೇಷಣೆ ಮತ್ತು ಫಾರ್ಮ್ಯಾಟ್ ಪ್ಯಾಕೇಜಿಂಗ್ ಅನ್ನು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ಲೋಕಲ್ ಆಗಿ ನಿರ್ವಹಿಸಲಾಗುತ್ತದೆ."
       }
     ]
   },
   "citation-linker": {
     "title": "Citation Linker",
-    "metaDescription": "Scan and activate citation markers in PDFs, converting them into clickable DOI links or page-jump targets.",
+    "metaDescription": "PDF ಗಳಲ್ಲಿ ಸೈಟೇಶನ್ ಮಾರ್ಕರ್‌ಗಳನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಿ ಮತ್ತು ಸಕ್ರಿಯಗೊಳಿಸಿ, ಅವುಗಳನ್ನು ಕ್ಲಿಕ್ ಮಾಡಬಹುದಾದ DOI ಲಿಂಕ್‌ಗಳು ಅಥವಾ ಪೇಜ್-ಜಂಪ್ ಟಾರ್ಗೆಟ್‌ಗಳಾಗಿ ಪರಿವರ್ತಿಸಿ.",
     "keywords": [
       "citation linker",
       "pdf hyperlink",
@@ -6315,59 +6315,59 @@ export const toolContentKn: Record<string, ToolContent> = {
       "academic helper",
       "pdf references"
     ],
-    "description": "\n      <p>Citation Linker is designed specifically for academic researchers. In many PDF papers, citation markers (e.g., [1], [2]) are plain text, forcing readers to scroll back and forth to the reference list at the end of the document, interrupting their focus.</p>\n      <p>This tool reads PDF text locally, uses pattern recognition to match citation markers to their corresponding reference entries, and overlays clickable PDF link annotations using DOI lookups or page-jump coordinates.</p>\n      <p>It also generates an interactive citation relationship map to visually navigate the document's reference network.</p>\n    ",
+    "description": "\n      <p>Citation Linker ಅನ್ನು ಶೈಕ್ಷಣಿಕ ಸಂಶೋಧಕರಿಗಾಗಿ ವಿಶೇಷವಾಗಿ ವಿನ್ಯಾಸಗೊಳಿಸಲಾಗಿದೆ. ಅನೇಕ PDF ಪ್ರಬಂಧಗಳಲ್ಲಿ, ಸೈಟೇಶನ್ ಮಾರ್ಕರ್‌ಗಳು (ಉದಾ., [1], [2]) ಪ್ಲೇನ್ ಟೆಕ್ಸ್ಟ್ ಆಗಿರುತ್ತವೆ, ಇದರಿಂದ ಓದುಗರು ತಮ್ಮ ಗಮನವನ್ನು ಕಳೆದುಕೊಂಡು ದಾಖಲೆಯ ಕೊನೆಯಲ್ಲಿರುವ ಉಲ್ಲೇಖಗಳ ಪಟ್ಟಿಗೆ ಪದೇ ಪದೇ ಸ್ಕ್ರೋಲ್ ಮಾಡಬೇಕಾಗುತ್ತದೆ.</p>\n      <p>ಈ ಉಪಕರಣವು PDF ಪಠ್ಯವನ್ನು ಲೋಕಲ್ ಆಗಿ ಓದುತ್ತದೆ, ಸೈಟೇಶನ್ ಮಾರ್ಕರ್‌ಗಳನ್ನು ಅವುಗಳ ಸಂಬಂಧಿತ ಉಲ್ಲೇಖದ ನಮೂದುಗಳಿಗೆ ಹೊಂದಿಸಲು ಪ್ಯಾಟರ್ನ್ ಗುರುತಿಸುವಿಕೆಯನ್ನು ಬಳಸುತ್ತದೆ ಮತ್ತು DOI ಲುಕಪ್‌ಗಳು ಅಥವಾ ಪೇಜ್-ಜಂಪ್ ನಿರ್ದೇಶಾಂಕಗಳನ್ನು ಬಳಸಿ ಕ್ಲಿಕ್ ಮಾಡಬಹುದಾದ PDF ಲಿಂಕ್ ಟಿಪ್ಪಣಿಗಳನ್ನು ಓವರ್‌ಲೇ ಮಾಡುತ್ತದೆ.</p>\n      <p>ದಾಖಲೆಯ ಉಲ್ಲೇಖದ ನೆಟ್‌ವರ್ಕ್ ಅನ್ನು ದೃಶ್ಯವಾಗಿ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಲು ಇದು ಸಂವಾದಾತ್ಮಕ ಸೈಟೇಶನ್ ಸಂಬಂಧದ ಮ್ಯಾಪ್ ಅನ್ನು ಸಹ ರಚಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Academic PDF",
-        "description": "Upload a PDF paper or thesis containing a bibliography/reference section."
+        "title": "ಶೈಕ್ಷಣಿಕ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ಗ್ರಂಥಸೂಚಿ/ಉಲ್ಲೇಖ ವಿಭಾಗವನ್ನು ಹೊಂದಿರುವ PDF ಪ್ರಬಂಧ ಅಥವಾ ಥೀಸೀಸ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Review Citations",
-        "description": "Inspect the citation pairs in the interactive map and manually edit or add DOI links if necessary."
+        "title": "ಸೈಟೇಶನ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸಿ",
+        "description": "ಸಂವಾದಾತ್ಮಕ ಮ್ಯಾಪ್‌ನಲ್ಲಿ ಸೈಟೇಶನ್ ಜೋಡಿಗಳನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಅಗತ್ಯವಿದ್ದರೆ DOI ಲಿಂಕ್‌ಗಳನ್ನು ಹಸ್ತಚಾಲಿತವಾಗಿ ಎಡಿಟ್ ಮಾಡಿ ಅಥವಾ ಸೇರಿಸಿ."
       },
       {
         "step": 3,
-        "title": "Inject Links",
-        "description": "Click the activate button to overlay hyperlinks onto the PDF and download the updated document."
+        "title": "ಲಿಂಕ್‌ಗಳನ್ನು ಇಂಜೆಕ್ಟ್ ಮಾಡಿ",
+        "description": "PDF ಗೆ ಹೈಪರ್‌ಲಿಂಕ್‌ಗಳನ್ನು ಓವರ್‌ಲೇ ಮಾಡಲು ಆಕ್ಟಿವೇಟ್ ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ನವೀಕರಿಸಿದ ದಾಖಲೆಯನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Deep Literature Reading",
-        "description": "Click citation markers to immediately view reference details or navigate to external DOI pages.",
+        "title": "ಆಳವಾದ ಸಾಹಿತ್ಯ ಓದುವಿಕೆ",
+        "description": "ಉಲ್ಲೇಖದ ವಿವರಗಳನ್ನು ತಕ್ಷಣವೇ ವೀಕ್ಷಿಸಲು ಅಥವಾ ಬಾಹ್ಯ DOI ಪುಟಗಳಿಗೆ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಲು ಸೈಟೇಶನ್ ಮಾರ್ಕರ್‌ಗಳನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ.",
         "icon": "link"
       },
       {
-        "title": "Pre-publication Preparation",
-        "description": "Ensure your written academic papers have fully active hyperlink navigations before final submission.",
+        "title": "ಪ್ರಕಟಣೆಗೆ ಮುಂಚಿನ ತಯಾರಿ",
+        "description": "ಅಂತಿಮ ಸಲ್ಲಿಕೆಗೆ ಮೊದಲು ನಿಮ್ಮ ಶೈಕ್ಷಣಿಕ ಪ್ರಬಂಧಗಳು ಸಂಪೂರ್ಣ ಸಕ್ರಿಯ ಹೈಪರ್‌ಲಿಂಕ್ ನ್ಯಾವಿಗೇಶನ್‌ಗಳನ್ನು ಹೊಂದಿವೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.",
         "icon": "award"
       },
       {
-        "title": "Reference Map Analysis",
-        "description": "Understand literature hierarchies and connections via the interactive network topology map.",
+        "title": "ಉಲ್ಲೇಖ ಮ್ಯಾಪ್ ವಿಶ್ಲೇಷಣೆ",
+        "description": "ಸಂವಾದಾತ್ಮಕ ನೆಟ್‌ವರ್ಕ್ ಟೋಪೋಲಜಿ ಮ್ಯಾಪ್ ಮೂಲಕ ಸಾಹಿತ್ಯ ಶ್ರೇಣಿಗಳು ಮತ್ತು ಸಂಪರ್ಕಗಳನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಿ.",
         "icon": "git-network"
       }
     ],
     "faq": [
       {
-        "question": "What if a reference has no DOI?",
-        "answer": "If a DOI cannot be found, the tool falls back to an internal \"GoTo Page\" action, allowing you to click the marker and jump directly to the reference page."
+        "question": "ಉಲ್ಲೇಖವು DOI ಅನ್ನು ಹೊಂದಿಲ್ಲದಿದ್ದರೆ ಏನು?",
+        "answer": "DOI ಕಂಡುಬರದಿದ್ದರೆ, ಉಪಕರಣವು ಆಂತರಿಕ \"GoTo Page\" ಕ್ರಿಯೆಗೆ ಬದಲಾಗುತ್ತದೆ, ಇದು ಮಾರ್ಕರ್ ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಲು ಮತ್ತು ನೇರವಾಗಿ ಉಲ್ಲೇಖದ ಪುಟಕ್ಕೆ ಜಂಪ್ ಮಾಡಲು ನಿಮಗೆ ಅನುಮತಿಸುತ್ತದೆ."
       },
       {
-        "question": "Which citation formats are supported?",
-        "answer": "It supports common numeric brackets (e.g., [1], [1-3]) and author-year citations (e.g., Author et al., 202X)."
+        "question": "ಯಾವ ಸೈಟೇಶನ್ ಫಾರ್ಮ್ಯಾಟ್‌ಗಳನ್ನು ಬೆಂಬಲಿಸಲಾಗುತ್ತದೆ?",
+        "answer": "ಇದು ಸಾಮಾನ್ಯ ಸಂಖ್ಯಾತ್ಮಕ ಬ್ರಾಕೆಟ್‌ಗಳು (ಉದಾ., [1], [1-3]) ಮತ್ತು ಲೇಖಕ-ವರ್ಷ ಸೈಟೇಶನ್‌ಗಳನ್ನು (ಉದಾ., Author et al., 202X) ಬೆಂಬಲಿಸುತ್ತದೆ."
       },
       {
-        "question": "Will it modify the appearance of my PDF?",
-        "answer": "No, it injects invisible Link annotations on top of the text, preserving the original layout, fonts, and styling of your document."
+        "question": "ಇದು ನನ್ನ PDF ನ ನೋಟವನ್ನು ಬದಲಾಯಿಸುತ್ತದೆಯೇ?",
+        "answer": "ಇಲ್ಲ, ಇದು ಪಠ್ಯದ ಮೇಲೆ ಅದೃಶ್ಯ Link ಟಿಪ್ಪಣಿಗಳನ್ನು ಸೇರಿಸುತ್ತದೆ, ನಿಮ್ಮ ದಾಖಲೆಯ ಮೂಲ ಲೇಔಟ್, ಫಾಂಟ್‌ಗಳು ಮತ್ತು ಶೈಲಿಯನ್ನು ಸಂರಕ್ಷಿಸುತ್ತದೆ."
       }
     ]
   },
   "vector-extractor": {
     "title": "PDF Vector Extractor",
-    "metaDescription": "Convert PDF into high-fidelity SVG, allowing you to select, recolor, and export vector charts, logos, and graphics.",
+    "metaDescription": "PDF ಅನ್ನು ಉನ್ನತ-ಗುಣಮಟ್ಟದ SVG ಗೆ ಪರಿವರ್ತಿಸಿ, ವೆಕ್ಟರ್ ಚಾರ್ಟ್‌ಗಳು, ಲೋಗೋಗಳು ಮತ್ತು ಗ್ರಾಫಿಕ್ಸ್ ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಲು, ಮರುಬಣ್ಣ ಬಳಿಯಲು ಮತ್ತು ರಫ್ತು ಮಾಡಲು ನಿಮಗೆ ಅವಕಾಶ ನೀಡುತ್ತದೆ.",
     "keywords": [
       "extract vectors from pdf",
       "pdf to svg",
@@ -6375,59 +6375,59 @@ export const toolContentKn: Record<string, ToolContent> = {
       "extract logo",
       "vector drawings"
     ],
-    "description": "\n      <p>PDF Vector Extractor unlocks vector paths and artwork embedded inside PDF files. Easily extract vector charts, diagrams, or logos from documents for design work or printing.</p>\n      <p>Under the hood, it utilizes high-fidelity SVG rendering to deconstruct PDF vector paths into clean, standard SVG element trees without loss of precision.</p>\n      <p>The interface highlights hover elements with a Z-axis 3D layer explosion effect, complete with a color picker panel for designers to adjust and extract vector nodes.</p>\n    ",
+    "description": "\n      <p>PDF Vector Extractor PDF ಫೈಲ್‌ಗಳ ಒಳಗೆ ಹುದುಗಿರುವ ವೆಕ್ಟರ್ ಪಾತ್‌ಗಳು ಮತ್ತು ಆರ್ಟ್‌ವರ್ಕ್‌ಗಳನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡುತ್ತದೆ. ವಿನ್ಯಾಸ ಕೆಲಸ ಅಥವಾ ಮುದ್ರಣಕ್ಕಾಗಿ ದಾಖಲೆಗಳಿಂದ ವೆಕ್ಟರ್ ಚಾರ್ಟ್‌ಗಳು, ರೇಖಾಚಿತ್ರಗಳು ಅಥವಾ ಲೋಗೋಗಳನ್ನು ಸುಲಭವಾಗಿ ಹೊರತೆಗೆಯಿರಿ.</p>\n      <p>ಹಿನ್ನೆಲೆಯಲ್ಲಿ, ಇದು ನಿಖರತೆಯ ನಷ್ಟವಿಲ್ಲದೆ PDF ವೆಕ್ಟರ್ ಪಾತ್‌ಗಳನ್ನು ಸ್ವಚ್ಛ, ಪ್ರಮಾಣಿತ SVG ಎಲಿಮೆಂಟ್ ಟ್ರೀಗಳಾಗಿ ವಿಭಜಿಸಲು ಉನ್ನತ-ಗುಣಮಟ್ಟದ SVG ರೆಂಡರಿಂಗ್ ಅನ್ನು ಬಳಸುತ್ತದೆ.</p>\n      <p>ಇಂಟರ್‌ಫೇಸ್ Z-ಆಕ್ಸಿಸ್ 3D ಲೇಯರ್ ಎಕ್ಸ್‌ಪ್ಲೋಷನ್ ಎಫೆಕ್ಟ್‌ನೊಂದಿಗೆ ಹೋವರ್ ಎಲಿಮೆಂಟ್‌ಗಳನ್ನು ಹೈಲೈಟ್ ಮಾಡುತ್ತದೆ, ವೆಕ್ಟರ್ ನೋಡ್‌ಗಳನ್ನು ಹೊಂದಿಸಲು ಮತ್ತು ಹೊರತೆಗೆಯಲು ಡಿಸೈನರ್‌ಗಳಿಗಾಗಿ ಕಲರ್ ಪಿಕರ್ ಪ್ಯಾನೆಲ್ ಅನ್ನು ಒಳಗೊಂಡಿದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "PDF ದಾಖಲೆಯನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Upload a PDF containing vector assets, diagrams, charts, or logos."
+        "description": "ವೆಕ್ಟರ್ ಆಸ್ತಿಗಳು, ರೇಖಾಚಿತ್ರಗಳು, ಚಾರ್ಟ್‌ಗಳು ಅಥವಾ ಲೋಗೋಗಳನ್ನು ಹೊಂದಿರುವ PDF ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Select Elements",
-        "description": "Hover over the vector canvas to highlight elements, then click to select a node."
+        "title": "ಎಲಿಮೆಂಟ್‌ಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಿ",
+        "description": "ಎಲಿಮೆಂಟ್‌ಗಳನ್ನು ಹೈಲೈಟ್ ಮಾಡಲು ವೆಕ್ಟರ್ ಕ್ಯಾನ್‌ವಾಸ್ ಮೇಲೆ ಹೋವರ್ ಮಾಡಿ, ನಂತರ ನೋಡ್ ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
       },
       {
         "step": 3,
-        "title": "Customize and Export",
-        "description": "Adjust path attributes in the panel, then download as SVG or copy SVG source code."
+        "title": "ಕಸ್ಟಮೈಸ್ ಮಾಡಿ ಮತ್ತು ಎಕ್ಸ್‌ಪೋರ್ಟ್ ಮಾಡಿ",
+        "description": "ಪ್ಯಾನೆಲ್‌ನಲ್ಲಿ ಪಾತ್ ಗುಣಲಕ್ಷಣಗಳನ್ನು ಹೊಂದಿಸಿ, ನಂತರ SVG ಆಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ ಅಥವಾ SVG ಮೂಲ ಕೋಡ್ ಅನ್ನು ನಕಲಿಸಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Design Asset Extraction",
-        "description": "Quickly extract company logos, icons, and illustrations from brand guidelines or brochures.",
+        "title": "ವಿನ್ಯಾಸ ಆಸ್ತಿಗಳ ಹೊರತೆಗೆಯುವಿಕೆ",
+        "description": "ಬ್ರ್ಯಾಂಡ್ ಮಾರ್ಗದರ್ಶನಗಳು ಅಥವಾ ಬ್ರೋಷರ್‌ಗಳಿಂದ ಕಂಪನಿಯ ಲೋಗೋಗಳು, ಐಕಾನ್‌ಗಳು ಮತ್ತು ವಿವರಣೆಗಳನ್ನು ವೇಗವಾಗಿ ಹೊರತೆಗೆಯಿರಿ.",
         "icon": "bezier"
       },
       {
-        "title": "Scientific Chart Export",
-        "description": "Extract vector charts from research papers to use in high-resolution printing or presentations.",
+        "title": "ವೈಜ್ಞಾನಿಕ ಚಾರ್ಟ್ ಎಕ್ಸ್‌ಪೋರ್ಟ್",
+        "description": "ಹೆಚ್ಚಿನ ರೆಸಲ್ಯೂಶನ್ ಮುದ್ರಣ ಅಥವಾ ಪ್ರಸ್ತುತಿಗಳಲ್ಲಿ ಬಳಸಲು ಸಂಶೋಧನಾ ಪ್ರಬಂಧಗಳಿಂದ ವೆಕ್ಟರ್ ಚಾರ್ಟ್‌ಗಳನ್ನು ಹೊರತೆಗೆಯಿರಿ.",
         "icon": "presentation"
       },
       {
-        "title": "Vector Asset Recoloring",
-        "description": "Modify the stroke and fill colors of extracted assets before saving them for web projects.",
+        "title": "ವೆಕ್ಟರ್ ಆಸ್ತಿ ಮರುಬಣ್ಣ",
+        "description": "ವೆಬ್ ಪ್ರಾಜೆಕ್ಟ್‌ಗಳಿಗಾಗಿ ಅವುಗಳನ್ನು ಉಳಿಸುವ ಮೊದಲು ಹೊರತೆಗೆಯಲಾದ ಆಸ್ತಿಗಳ ಸ್ಟ್ರೋಕ್ ಮತ್ತು ಫಿಲ್ ಬಣ್ಣಗಳನ್ನು ಮಾರ್ಪಡಿಸಿ.",
         "icon": "crown"
       }
     ],
     "faq": [
       {
-        "question": "Why can't I select certain images?",
-        "answer": "PDFs contain both raster images (like photos or scanned pages) and vector artwork (like shapes and curves). Only vector paths can be deconstructed into SVG paths."
+        "question": "ನಾನು ಕೆಲವು ಚಿತ್ರಗಳನ್ನು ಏಕೆ ಆಯ್ಕೆ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ?",
+        "answer": "PDF ಗಳು ರಾಸ್ಟರ್ ಚಿತ್ರಗಳು (ಫೋಟೋಗಳು ಅಥವಾ ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ಪುಟಗಳಂತೆ) ಮತ್ತು ವೆಕ್ಟರ್ ಆರ್ಟ್‌ವರ್ಕ್ (ಆಕಾರಗಳು ಮತ್ತು ಕರ್ವ್‌ಗಳಂತೆ) ಎರಡನ್ನೂ ಹೊಂದಿರುತ್ತವೆ. ವೆಕ್ಟರ್ ಪಾತ್‌ಗಳನ್ನು ಮಾತ್ರ SVG ಪಾತ್‌ಗಳಾಗಿ ವಿಭಜಿಸಬಹುದು."
       },
       {
-        "question": "Does the output SVG contain styles?",
-        "answer": "Yes, the exported SVG retains all original properties including fills, strokes, opacity, gradients, and coordinate transforms."
+        "question": "ಔಟ್‌ಪುಟ್ SVG ಶೈಲಿಗಳನ್ನು ಹೊಂದಿದೆಯೇ?",
+        "answer": "ಹೌದು, ಎಕ್ಸ್‌ಪೋರ್ಟ್ ಮಾಡಿದ SVG ಫಿಲ್‌ಗಳು, ಸ್ಟ್ರೋಕ್‌ಗಳು, ಅಪಾರದರ್ಶಕತೆ, ಗ್ರೇಡಿಯಂಟ್‌ಗಳು ಮತ್ತು ಸಂಘಟಿತ ರೂಪಾಂತರಗಳು ಸೇರಿದಂತೆ ಎಲ್ಲಾ ಮೂಲ ಗುಣಲಕ್ಷಣಗಳನ್ನು ಉಳಿಸಿಕೊಳ್ಳುತ್ತದೆ."
       },
       {
-        "question": "Will large files lag?",
-        "answer": "We use WebAssembly acceleration, but PDFs with extremely complex CAD drawings or thousands of vector paths may take a few seconds to render."
+        "question": "ದೊಡ್ಡ ಫೈಲ್‌ಗಳು ನಿಧಾನವಾಗುತ್ತವೆಯೇ?",
+        "answer": "ನಾವು WebAssembly ವೇಗವರ್ಧನೆಯನ್ನು ಬಳಸುತ್ತೇವೆ, ಆದರೆ ಅತ್ಯಂತ ಸಂಕೀರ್ಣವಾದ CAD ರೇಖಾಚಿತ್ರಗಳು ಅಥವಾ ಸಾವಿರಾರು ವೆಕ್ಟರ್ ಪಾತ್‌ಗಳನ್ನು ಹೊಂದಿರುವ PDF ಗಳು ರೆಂಡರ್ ಮಾಡಲು ಕೆಲವು ಸೆಕೆಂಡುಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಬಹುದು."
       }
     ]
   },
   "deep-sanitize": {
     "title": "Deep Metadata Sanitizer",
-    "metaDescription": "Thoroughly wipe author metadata, modification logs, hidden layers, and orphan objects from PDFs for maximum privacy.",
+    "metaDescription": "ಗರಿಷ್ಠ ಗೌಪ್ಯತೆಗಾಗಿ PDF ಗಳಿಂದ ಲೇಖಕರ ಮೆಟಾಡೇಟಾ, ಮಾರ್ಪಾಡು ಲಾಗ್‌ಗಳು, ಅಡಗಿಸಲಾದ ಲೇಯರ್‌ಗಳು ಮತ್ತು ಆರ್ಫನ್ ಆಬ್ಜೆಕ್ಟ್‌ಗಳನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ಅಳಿಸಿಹಾಕಿ.",
     "keywords": [
       "pdf sanitization",
       "clear metadata",
@@ -6435,59 +6435,59 @@ export const toolContentKn: Record<string, ToolContent> = {
       "strip hidden watermark",
       "secure pdf"
     ],
-    "description": "\n      <p>Deep Metadata Sanitizer is your ultimate defense against metadata leaks and hidden tracking. Simply drawing black boxes over visible text in PDF files is not enough to protect commercial secrets.</p>\n      <p>This tool scans the PDF binary structure to completely erase author info, creator software, editing logs (XMP Metadata), proprietary PieceInfo caches, and OCG optional content groups (often used for invisible watermarks).</p>\n      <p>It also rewrites the cross-reference tables (xref) completely, discarding all incremental update blocks to ensure that deleted or modified historical data cannot be restored.</p>\n    ",
+    "description": "\n      <p>Deep Metadata Sanitizer ಎಂಬುದು ಮೆಟಾಡೇಟಾ ಸೋರಿಕೆಗಳು ಮತ್ತು ಗುಪ್ತ ಟ್ರ್ಯಾಕಿಂಗ್ ವಿರುದ್ಧ ನಿಮ್ಮ ಅಂತಿಮ ರಕ್ಷಣೆಯಾಗಿದೆ. ವಾಣಿಜ್ಯ ರಹಸ್ಯಗಳನ್ನು ರಕ್ಷಿಸಲು PDF ಫೈಲ್‌ಗಳಲ್ಲಿ ಕಾಣಿಸುವ ಪಠ್ಯದ ಮೇಲೆ ಕೇವಲ ಕಪ್ಪು ಪೆಟ್ಟಿಗೆಗಳನ್ನು ಎಳೆಯುವುದು ಸಾಲದು.</p>\n      <p>ಈ ಉಪಕರಣವು ಲೇಖಕರ ಮಾಹಿತಿ, ಸೃಷ್ಟಿಕರ್ತ ಸಾಫ್ಟ್‌ವೇರ್, ಎಡಿಟಿಂಗ್ ಲಾಗ್‌ಗಳು (XMP Metadata), ಮಾಲೀಕತ್ವದ PieceInfo ಕ್ಯಾಶ್‌ಗಳು ಮತ್ತು OCG ಐಚ್ಛಿಕ ವಿಷಯ ಗುಂಪುಗಳನ್ನು (ಸಾಮಾನ್ಯವಾಗಿ ಅದೃಶ್ಯ ವಾಟರ್‌ಮಾರ್ಕ್‌ಗಳಿಗಾಗಿ ಬಳಸಲಾಗುತ್ತದೆ) ಸಂಪೂರ್ಣವಾಗಿ ಅಳಿಸಿಹಾಕಲು PDF ಬೈನರಿ ರಚನೆಯನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡುತ್ತದೆ.</p>\n      <p>ಇದು ಕ್ರಾಸ್-ರೆಫರೆನ್ಸ್ ಟೇಬಲ್‌ಗಳನ್ನು (xref) ಸಂಪೂರ್ಣವಾಗಿ ಮರುಬರೆಯುತ್ತದೆ, ಅಳಿಸಲಾದ ಅಥವಾ ಮಾರ್ಪಡಿಸಲಾದ ಐತಿಹಾಸಿಕ ಡೇಟಾವನ್ನು ಮರುಸ್ಥಾಪಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ ಎಂಬುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಲು ಎಲ್ಲಾ ಇನ್‌ಕ್ರಿಮೆಂಟಲ್ ಅಪ್‌ಡೇಟ್ ಬ್ಲಾಕ್‌ಗಳನ್ನು ತಿರಸ್ಕರಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
         "title": "PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-        "description": "Select the PDF file containing sensitive data or modification history."
+        "description": "ಸಂವೇದನಾಶೀಲ ಡೇಟಾ ಅಥವಾ ಮಾರ್ಪಾಡು ಇತಿಹಾಸವನ್ನು ಹೊಂದಿರುವ PDF ಫೈಲ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Run Scanner",
-        "description": "Trigger the 3D containment scanner to check the file for hidden metadata and layers."
+        "title": "ಸ್ಕ್ಯಾನರ್ ಚಾಲನೆ ಮಾಡಿ",
+        "description": "ಅಡಗಿಸಲಾದ ಮೆಟಾಡೇಟಾ ಮತ್ತು ಲೇಯರ್‌ಗಳಿಗಾಗಿ ಫೈಲ್ ಅನ್ನು ಪರಿಶೀಲಿಸಲು 3D ಕಂಟೈನ್‌ಮೆಂಟ್ ಸ್ಕ್ಯಾನರ್ ಅನ್ನು ಪ್ರಾರಂಭಿಸಿ."
       },
       {
         "step": 3,
-        "title": "Deep Sanitize",
-        "description": "Click sanitize to wipe out tracking elements and download the fully clean PDF."
+        "title": "ಡೀಪ್ ಸ್ಯಾನಿಟೈಸ್",
+        "description": "ಟ್ರ್ಯಾಕಿಂಗ್ ಅಂಶಗಳನ್ನು ಅಳಿಸಿಹಾಕಲು ಮತ್ತು ಸಂಪೂರ್ಣವಾಗಿ ಸ್ವಚ್ಛವಾದ PDF ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಸ್ಯಾನಿಟೈಸ್ ಕ್ಲಿಕ್ ಮಾಡಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Contract Sharing",
-        "description": "Remove drafting records, paths, and previous revisions before sharing business contracts with third parties.",
+        "title": "ಒಪ್ಪಂದ ಹಂಚಿಕೆ",
+        "description": "ಮೂರನೇ ವ್ಯಕ್ತಿಗಳೊಂದಿಗೆ ವ್ಯಾಪಾರ ಒಪ್ಪಂದಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳುವ ಮೊದಲು ಕರಡು ದಾಖಲೆಗಳು, ಮಾರ್ಗಗಳು ಮತ್ತು ಹಿಂದಿನ ಪರಿಷ್ಕರಣೆಗಳನ್ನು ತೆಗೆದುಹಾಕಿ.",
         "icon": "file-signature"
       },
       {
-        "title": "Anonymized Publishing",
-        "description": "Wipe invisible annotations and watermarks to publish documents anonymously and securely.",
+        "title": "ಅನಾಮಧೇಯ ಪ್ರಕಟಣೆ",
+        "description": "ದಾಖಲೆಗಳನ್ನು ಅನಾಮಧೇಯವಾಗಿ ಮತ್ತು ಸುರಕ್ಷಿತವಾಗಿ ಪ್ರಕಟಿಸಲು ಅದೃಶ್ಯ ಟಿಪ್ಪಣಿಗಳು ಮತ್ತು ವಾಟರ್‌ಮಾರ್ಕ್‌ಗಳನ್ನು ಅಳಿಸಿಹಾಕಿ.",
         "icon": "eye-off"
       },
       {
-        "title": "PDF Optimization",
-        "description": "Remove orphaned objects and garbage data streams to make files load faster on the web.",
+        "title": "PDF ಆಪ್ಟಿಮೈಸೇಶನ್",
+        "description": "ವೆಬ್‌ನಲ್ಲಿ ಫೈಲ್‌ಗಳು ವೇಗವಾಗಿ ಲೋಡ್ ಆಗುವಂತೆ ಮಾಡಲು ಆರ್ಫನ್ಡ್ ಆಬ್ಜೆಕ್ಟ್‌ಗಳು ಮತ್ತು ಗಾರ್ಬೇಜ್ ಡೇಟಾ ಸ್ಟ್ರೀಮ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕಿ.",
         "icon": "zap"
       }
     ],
     "faq": [
       {
-        "question": "How is this different from standard metadata removal?",
-        "answer": "Standard tools only clear basic fields like title or author. Deep Sanitizer reconstructs the entire PDF xref table, wiping PieceInfo, hidden watermarks, and historical incremental revisions."
+        "question": "ಇದು ಸಾಮಾನ್ಯ ಮೆಟಾಡೇಟಾ ತೆಗೆಯುವಿಕೆಗಿಂತ ಹೇಗೆ ಭಿನ್ನವಾಗಿದೆ?",
+        "answer": "ಸಾಮಾನ್ಯ ಪರಿಕರಗಳು ಶೀರ್ಷಿಕೆ ಅಥವಾ ಲೇಖಕರಂತಹ ಮೂಲಭೂತ ಕ್ಷೇತ್ರಗಳನ್ನು ಮಾತ್ರ ತೆರವುಗೊಳಿಸುತ್ತವೆ. Deep Sanitizer ಇಡೀ PDF xref ಕೋಷ್ಟಕವನ್ನು ಮರುನಿರ್ಮಿಸುತ್ತದೆ, PieceInfo, ಅಡಗಿಸಲಾದ ವಾಟರ್‌ಮಾರ್ಕ್‌ಗಳು ಮತ್ತು ಐತಿಹಾಸಿಕ ಹೆಚ್ಚಳದ ಪರಿಷ್ಕರಣೆಗಳನ್ನು ಅಳಿಸಿಹಾಕುತ್ತದೆ."
       },
       {
-        "question": "Will this affect document layout or text?",
-        "answer": "No, it only strips hidden description streams and structure data. The visible layout, texts, and graphics remain unchanged."
+        "question": "ಇದು ದಾಖಲೆಯ ವಿನ್ಯಾಸ ಅಥವಾ ಪಠ್ಯದ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರುತ್ತದೆಯೇ?",
+        "answer": "ಇಲ್ಲ, ಇದು ಅಡಗಿಸಲಾದ ವಿವರಣೆ ಸ್ಟ್ರೀಮ್‌ಗಳು ಮತ್ತು ರಚನಾತ್ಮಕ ಡೇಟಾವನ್ನು ಮಾತ್ರ ತೆಗೆದುಹಾಕುತ್ತದೆ. ಗೋಚರಿಸುವ ವಿನ್ಯಾಸ, ಪಠ್ಯಗಳು ಮತ್ತು ಗ್ರಾಫಿಕ್ಸ್ ಯಾವುದೇ ಬದಲಾವಣೆಯಿಲ್ಲದೆ ಇರುತ್ತವೆ."
       },
       {
-        "question": "Does this remove PDF passwords?",
-        "answer": "No, if a PDF is encrypted, you must unlock it first before performing a deep sanitization."
+        "question": "ಇದು PDF ಪಾಸ್‌ವರ್ಡ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕುತ್ತದೆಯೇ?",
+        "answer": "ಇಲ್ಲ, PDF ಎನ್‌ಕ್ರಿಪ್ಟ್ ಆಗಿದ್ದರೆ, ಡೀಪ್ ಸ್ಯಾನಿಟೈಸೇಶನ್ ಮಾಡುವ ಮೊದಲು ನೀವು ಅದನ್ನು ಮೊದಲು ಅನ್‌ಲಾಕ್ ಮಾಡಬೇಕು."
       }
     ]
   },
   "booklet-folding-simulator": {
-    "title": "3D Booklet & Folding Simulator",
-    "metaDescription": "Impose multi-page PDFs into foldable print sheets, featuring 3D physical folding animations and saddle-stitch previews.",
+    "title": "3D ಬುಕ್‌ಲೆಟ್ ಮತ್ತು ಫೋಲ್ಡಿಂಗ್ ಸಿಮ್ಯುಲೇಟರ್",
+    "metaDescription": "3D ಭೌತಿಕ ಫೋಲ್ಡಿಂಗ್ ಅನಿಮೇಷನ್‌ಗಳು ಮತ್ತು ಸ್ಯಾಡಲ್-ಸ್ಟಿಚ್ ಮುನ್ನೋಟಗಳನ್ನು ಹೊಂದಿರುವ, ಬಹು-ಪುಟಗಳ PDF ಗಳನ್ನು ಮಡಚಬಹುದಾದ ಮುದ್ರಣ ಹಾಳೆಗಳಾಗಿ ಇಂಪೋಸ್ ಮಾಡಿ.",
     "keywords": [
       "3D imposition",
       "folding simulator",
@@ -6495,64 +6495,64 @@ export const toolContentKn: Record<string, ToolContent> = {
       "book layout",
       "print proofing"
     ],
-    "description": "\n      <p>3D Booklet & Folding Simulator is an advanced tool designed for print designers and publishing professionals. Traditional book layout requires calculating complex page overlays and imposition pagination sequences. This tool visualizes and automates that entire process.</p>\n      <p>Under the hood, our custom imposition algorithm maps a sequential PDF page list into standard print sheet layouts (such as 4-page half-folds, 8-page saddle stitches, or accordion folds), merging pages onto the front and back of large physical sheets.</p>\n      <p>On the front-end, we utilize pure CSS 3D Matrix transforms and spring-mass physics curves to animate sheet folding horizontally and vertically, delivering a physical-like binding preview with a high WOW factor.</p>\n    ",
+    "description": "\n      <p>3D ಬುಕ್‌ಲೆಟ್ ಮತ್ತು ಫೋಲ್ಡಿಂಗ್ ಸಿಮ್ಯುಲೇಟರ್ ಮುದ್ರಣ ವಿನ್ಯಾಸಕರು ಮತ್ತು ಪ್ರಕಾಶನ ವೃತ್ತಿಪರರಿಗಾಗಿ ವಿನ್ಯಾಸಗೊಳಿಸಲಾದ ಸುಧಾರಿತ ಪರಿಕರವಾಗಿದೆ. ಸಾಂಪ್ರದಾಯಿಕ ಪುಸ್ತಕ ವಿನ್ಯಾಸಕ್ಕೆ ಸಂಕೀರ್ಣ ಪುಟ ತದನಂತರದ ಮೇಲ್ಪದರಗಳು ಮತ್ತು ಇಂಪೊಸಿಷನ್ ಪುಟಸಂಖ್ಯೆ ಅನುಕ್ರಮಗಳನ್ನು ಲೆಕ್ಕಹಾಕುವುದು ಅಗತ್ಯವಾಗಿರುತ್ತದೆ. ಈ ಪರಿಕರವು ಆ ಇಡೀ ಪ್ರಕ್ರಿಯೆಯನ್ನು ದೃಶ್ಯೀಕರಿಸುತ್ತದೆ ಮತ್ತು ಸ್ವಯಂಚಾಲಿತಗೊಳಿಸುತ್ತದೆ.</p>\n      <p>ಆಂತರಿಕವಾಗಿ, ನಮ್ಮ ಕಸ್ಟಮ್ ಇಂಪೊಸಿಷನ್ ಅಲ್ಗಾರಿದಮ್ ಅನುಕ್ರಮ PDF ಪುಟದ ಪಟ್ಟಿಯನ್ನು ಪ್ರಮಾಣಿತ ಮುದ್ರಣ ಹಾಳೆಯ ವಿನ್ಯಾಸಗಳಿಗೆ (ಉದಾಹರಣೆಗೆ 4-ಪುಟಗಳ ಅರ್ಧ-ಮಡಿಕೆಗಳು, 8-ಪುಟಗಳ ಸ್ಯಾಡಲ್ ಸ್ಟಿಚ್‌ಗಳು, ಅಥವಾ ಆಕಾರ್ಡಿಯನ್ ಮಡಿಕೆಗಳು) ಮ್ಯಾಪ್ ಮಾಡುತ್ತದೆ, ದೊಡ್ಡ ಭೌತಿಕ ಹಾಳೆಗಳ ಮುಂಭಾಗ ಮತ್ತು ಹಿಂಭಾಗಕ್ಕೆ ಪುಟಗಳನ್ನು ವಿಲೀನಗೊಳಿಸುತ್ತದೆ.</p>\n      <p>ಫ್ರಂಟ್-ಎಂಡ್‌ನಲ್ಲಿ, ಹಾಳೆಯ ಮಡಚುವಿಕೆಯನ್ನು ಅಡ್ಡಲಾಗಿ ಮತ್ತು ಲಂಬವಾಗಿ ಅನಿಮೇಟ್ ಮಾಡಲು ನಾವು ಪ್ಯೂರ್ CSS 3D ಮ್ಯಾಟ್ರಿಕ್ಸ್ ರೂಪಾಂತರಗಳು ಮತ್ತು ಸ್ಪ್ರಿಂಗ್-ಮಾಸ್ ಭೌತಶಾಸ್ತ್ರದ ಕರ್ವ್‌ಗಳನ್ನು ಬಳಸುತ್ತೇವೆ, ಇದು ಅತ್ಯುತ್ತಮ WOW ಫ್ಯಾಕ್ಟರ್‌ನೊಂದಿಗೆ ಭೌತಿಕ ಮಾದರಿಯ ಬೈಂಡಿಂಗ್ ಮುನ್ನೋಟವನ್ನು ನೀಡುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload PDF File",
-        "description": "Drag and drop the PDF document you wish to layout for printing."
+        "title": "PDF ಫೈಲ್ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ಮುದ್ರಣಕ್ಕಾಗಿ ವಿನ್ಯಾಸಗೊಳಿಸಲು ನೀವು ಬಯಸುವ PDF ದಾಖಲೆಯನ್ನು ಡ್ರ್ಯಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Select Folding Layout",
-        "description": "Choose your preferred imposition scheme (e.g., 4-page fold, 8-page saddle stitch, 4-page accordion)."
+        "title": "ಫೋಲ್ಡಿಂಗ್ ವಿನ್ಯಾಸವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+        "description": "ನಿಮ್ಮ ಆದ್ಯತೆಯ ಇಂಪೊಸಿಷನ್ ಯೋಜನೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ (ಉದಾ., 4-ಪುಟಗಳ ಮಡಿಕೆ, 8-ಪುಟಗಳ ಸ್ಯಾಡಲ್ ಸ್ಟಿಚ್, 4-ಪುಟಗಳ ಆಕಾರ್ಡಿಯನ್)."
       },
       {
         "step": 3,
-        "title": "Interactive 3D Preview",
-        "description": "Drag the slider to watch the sheet fold in 3D and inspect the final page numbering layout."
+        "title": "ಸಂವಾದಾತ್ಮಕ 3D ಮುನ್ನೋಟ",
+        "description": "ಹಾಳೆಯು 3D ಯಲ್ಲಿ ಮಡಚಿಕೊಳ್ಳುವುದನ್ನು ವೀಕ್ಷಿಸಲು ಮತ್ತು ಅಂತಿಮ ಪುಟ ಸಂಖ್ಯೆ ವಿನ್ಯಾಸವನ್ನು ಪರಿಶೀಲಿಸಲು ಸ್ಲೈಡರ್ ಅನ್ನು ಎಳೆಯಿರಿ."
       },
       {
         "step": 4,
-        "title": "Generate Imposed PDF",
-        "description": "Click generate to download the rearranged and merged physical sheet PDF, ready for double-sided printing."
+        "title": "ಇಂಪೋಸ್ಡ್ PDF ರಚಿಸಿ",
+        "description": "ಮರುಹೊಂದಿಸಲಾದ ಮತ್ತು ವಿಲೀನಗೊಳಿಸಲಾದ ಭೌತಿಕ ಹಾಳೆಯ PDF ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು 'ರಚಿಸಿ' ಕ್ಲಿಕ್ ಮಾಡಿ, ಇದು ಎರಡೂ ಬದಿಗಳ ಮುದ್ರಣಕ್ಕೆ ಸಿದ್ಧವಾಗಿದೆ."
       }
     ],
     "useCases": [
       {
-        "title": "Brochure Prototyping",
-        "description": "Pre-visualize the folding sequence of tri-folds and pamphlets to prevent upsidedown pages after printing.",
+        "title": "ಬ್ರೋಷರ್ ಪ್ರೊಟೋಟೈಪಿಂಗ್",
+        "description": "ಮುದ್ರಣದ ನಂತರ ಪುಟಗಳು ತಲೆಕೆಳಗಾಗುವುದನ್ನು ತಡೆಯಲು ಟ್ರೈ-ಫೋಲ್ಡ್‌ಗಳು ಮತ್ತು ಕರಪತ್ರಗಳ ಫೋಲ್ಡಿಂಗ್ ಅನುಕ್ರಮವನ್ನು ಮುಂಚಿತವಾಗಿ ದೃಶ್ಯೀಕರಿಸಿ.",
         "icon": "book-open"
       },
       {
-        "title": "Book Saddle-Stitching",
-        "description": "Generate imposed print sheets for multi-page magazines or booklets automatically.",
+        "title": "ಬುಕ್ ಸ್ಯಾಡಲ್-ಸ್ಟಿಚಿಂಗ್",
+        "description": "ಬಹು-ಪುಟಗಳ ನಿಯತಕಾಲಿಕೆಗಳು ಅಥವಾ ಬುಕ್‌ಲೆಟ್‌ಗಳಿಗಾಗಿ ಇಂಪೋಸ್ಡ್ ಪ್ರಿಂಟ್ ಶೀಟ್‌ಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ರಚಿಸಿ.",
         "icon": "layers"
       },
       {
-        "title": "Print Shop Visual Aids",
-        "description": "Help clients visualize how pages are physically distributed and folded on print sheets.",
+        "title": "ಪ್ರಿಂಟ್ ಶಾಪ್ ದೃಶ್ಯ ಸಾಧನಗಳು",
+        "description": "ಮುದ್ರಣ ಹಾಳೆಗಳಲ್ಲಿ ಪುಟಗಳನ್ನು ಭೌತಿಕವಾಗಿ ಹೇಗೆ ಹಂಚಲಾಗುತ್ತದೆ ಮತ್ತು ಮಡಚಲಾಗುತ್ತದೆ ಎಂಬುದನ್ನು ದೃಶ್ಯೀಕರಿಸಲು ಗ್ರಾಹಕರಿಗೆ ಸಹಾಯ ಮಾಡಿ.",
         "icon": "printer"
       }
     ],
     "faq": [
       {
-        "question": "What is \"Imposition\"?",
-        "answer": "Imposition is a fundamental step in prepress printing. Since commercial presses print on large sheets, pages are arranged out of order so that once printed, folded, and bound, the pages appear in the correct sequential order. This tool automatically calculates that layout."
+        "question": "\"ಇಂಪೊಸಿಷನ್\" ಎಂದರೇನು?",
+        "answer": "ಇಂಪೊಸಿಷನ್ ಎಂಬುದು ಪ್ರಿಪ್ರೆಸ್ ಮುದ್ರಣದಲ್ಲಿ ಒಂದು ಮೂಲಭೂತ ಹಂತವಾಗಿದೆ. ವಾಣಿಜ್ಯ ಪ್ರೆಸ್‌ಗಳು ದೊಡ್ಡ ಹಾಳೆಗಳಲ್ಲಿ ಮುದ್ರಿಸುವುದರಿಂದ, ಮುದ್ರಿಸಿದ, ಮಡಚಿದ ಮತ್ತು ಬೈಂಡ್ ಮಾಡಿದ ನಂತರ ಪುಟಗಳು ಸರಿಯಾದ ಅನುಕ್ರಮ ಕ್ರಮದಲ್ಲಿ ಕಾಣಿಸಿಕೊಳ್ಳಲು ಪುಟಗಳನ್ನು ಕ್ರಮಬದ್ಧವಲ್ಲದ ರೀತಿಯಲ್ಲಿ ಜೋಡಿಸಲಾಗುತ್ತದೆ. ಈ ಪರಿಕರವು ಆ ವಿನ್ಯಾಸವನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಲೆಕ್ಕಹಾಕುತ್ತದೆ."
       },
       {
-        "question": "Does the 3D preview alter my PDF content?",
-        "answer": "No, the original PDF content is merely rendered as texture mappings onto the 3D sheet. The generated PDF only adjusts page order and placement; text and graphic qualities are kept intact."
+        "question": "3D ಮುನ್ನೋಟವು ನನ್ನ PDF ವಿಷಯವನ್ನು ಮಾರ್ಪಡಿಸುತ್ತದೆಯೇ?",
+        "answer": "ಇಲ್ಲ, ಮೂಲ PDF ವಿಷಯವನ್ನು ಕೇವಲ 3D ಹಾಳೆಯ ಮೇಲೆ ಟೆಕ್ಸ್ಚರ್ ಮ್ಯಾಪಿಂಗ್ ಆಗಿ ನಿರೂಪಿಸಲಾಗುತ್ತದೆ. ರಚಿಸಲಾದ PDF ಕೇವಲ ಪುಟದ ಕ್ರಮ ಮತ್ತು ನಿಯೋಜನೆಯನ್ನು ಸರಿಹೊಂದಿಸುತ್ತದೆ; ಪಠ್ಯ ಮತ್ತು ಗ್ರಾಫಿಕ್ ಗುಣಮಟ್ಟವನ್ನು ಯಥಾವತ್ತಾಗಿ ಇರಿಸಲಾಗುತ್ತದೆ."
       },
       {
-        "question": "What if my PDF page count is not a multiple of 4 or 8?",
-        "answer": "The optimizer automatically appends blank pages at the end to satisfy the mathematical page-count requirements of the selected folding layout."
+        "question": "ನನ್ನ PDF ಪುಟಗಳ ಸಂಖ್ಯೆ 4 ಅಥವಾ 8 ರ ಗುಣಕವಾಗಿಲ್ಲದಿದ್ದರೆ ಏನು ಮಾಡುವುದು?",
+        "answer": "ಆಯ್ಕೆಮಾಡಿದ ಫೋಲ್ಡಿಂಗ್ ವಿನ್ಯಾಸದ ಗಣಿತದ ಪುಟ-ಸಂಖ್ಯೆಯ ಅವಶ್ಯಕತೆಗಳನ್ನು ಪೂರೈಸಲು ಆಪ್ಟಿಮೈಜರ್ ಕೊನೆಯಲ್ಲಿ ಖಾಲಿ ಪುಟಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಸೇರಿಸುತ್ತದೆ."
       }
     ]
   },
   "pdf-to-slide": {
-    "title": "PDF to Slide",
-    "metaDescription": "Intelligently analyze PDF outlines, extract vector charts, and reconstruct them into fully-editable PPTX presentations.",
+    "title": "PDF ನಿಂದ ಸ್ಲೈಡ್‌ಗೆ",
+    "metaDescription": "PDF ಔಟ್‌ಲೈನ್‌ಗಳನ್ನು ಜಾಣತನದಿಂದ ವಿಶ್ಲೇಷಿಸಿ, ವೆಕ್ಟರ್ ಚಾರ್ಟ್‌ಗಳನ್ನು ಹೊರತೆಗೆಯಿರಿ ಮತ್ತು ಅವುಗಳನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ಎಡಿಟ್ ಮಾಡಬಹುದಾದ PPTX ಪ್ರಸ್ತುತಿಗಳಾಗಿ ಮರುನಿರ್ಮಿಸಿ.",
     "keywords": [
       "PDF to PPT",
       "slide reconstruction",
@@ -6560,28 +6560,28 @@ export const toolContentKn: Record<string, ToolContent> = {
       "academic presentation",
       "PPTX compiler"
     ],
-    "description": "\n      <p>AI PDF-to-Slide Reconstructor breathes new life into static PDF documents, transforming them into modern, highly-customizable PowerPoint slides (PPTX).</p>\n      <p>The tool uses an advanced layout outline extractor that automatically parses document heading levels, paragraph lines, and font weights to establish a logical slide framework. It also isolates vector charts and high-resolution tables, stripping background artifacts to embed them cleanly as independent editable assets.</p>\n      <p>All PPTX outputs are built using standard Office Open XML elements, meaning all text remains fully editable and vectors do not lose resolution. The front-end showcases a fluid \"starfield\" card transition animation that visualizes the reconstruction in an engaging manner.</p>\n    ",
+    "description": "\n      <p>AI PDF-to-Slide Reconstructor ಸ್ಥಿರ PDF ದಾಖಲೆಗಳಿಗೆ ಹೊಸ ಜೀವನವನ್ನು ನೀಡುತ್ತದೆ, ಅವುಗಳನ್ನು ಆಧುನಿಕ, ಹೆಚ್ಚು ಕಾನ್ಫಿಗರ್ ಮಾಡಬಹುದಾದ PowerPoint ಸ್ಲೈಡ್‌ಗಳಾಗಿ (PPTX) ಪರಿವರ್ತಿಸುತ್ತದೆ.</p>\n      <p>ತಾರ್ಕಿಕ ಸ್ಲೈಡ್ ಚೌಕಟ್ಟನ್ನು ಸ್ಥಾಪಿಸಲು ದಾಖಲೆಯ ಶೀರ್ಷಿಕೆ ಹಂತಗಳು, ಪ್ಯಾರಾಗ್ರಾಫ್ ಸಾಲುಗಳು ಮತ್ತು ಫಾಂಟ್ ತೂಕಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಪಾರ್ಸ್ ಮಾಡುವ ಸುಧಾರಿತ ವಿನ್ಯಾಸ ಔಟ್‌ಲೈನ್ ಎಕ್ಸ್‌ಟ್ರ್ಯಾಕ್ಟರ್ ಅನ್ನು ಈ ಪರಿಕರವು ಬಳಸುತ್ತದೆ. ಇದು ವೆಕ್ಟರ್ ಚಾರ್ಟ್‌ಗಳು ಮತ್ತು ಹೆಚ್ಚಿನ ರೆಸಲ್ಯೂಶನ್ ಕೋಷ್ಟಕಗಳನ್ನು ಪ್ರತ್ಯೇಕಿಸುತ್ತದೆ, ಸ್ವತಂತ್ರ ಎಡಿಟ್ ಮಾಡಬಹುದಾದ ಆಸ್ತಿಗಳಾಗಿ ಸ್ವಚ್ಛವಾಗಿ ಎಂಬೆಡ್ ಮಾಡಲು ಹಿನ್ನೆಲೆ ಕಲಾಕೃತಿಗಳನ್ನು ತೆಗೆದುಹಾಕುತ್ತದೆ.</p>\n      <p>ಎಲ್ಲಾ PPTX ಔಟ್‌ಪುಟ್‌ಗಳನ್ನು ಪ್ರಮಾಣಿತ Office Open XML ಅಂಶಗಳನ್ನು ಬಳಸಿ ನಿರ್ಮಿಸಲಾಗಿದೆ, ಅಂದರೆ ಎಲ್ಲಾ ಪಠ್ಯವು ಸಂಪೂರ್ಣವಾಗಿ ಎಡಿಟ್ ಮಾಡಬಹುದಾಗಿರುತ್ತದೆ ಮತ್ತು ವೆಕ್ಟರ್‌ಗಳು ರೆಸಲ್ಯೂಶನ್ ಅನ್ನು ಕಳೆದುಕೊಳ್ಳುವುದಿಲ್ಲ. ಫ್ರಂಟ್-ಎಂಡ್ ಒಂದು ತಡೆರಹಿತ \"ಸ್ಟಾರ್‌ಫೀಲ್ಡ್\" ಕಾರ್ಡ್ ಪರಿವರ್ತನೆ ಅನಿಮೇಷನ್ ಅನ್ನು ಪ್ರದರ್ಶಿಸುತ್ತದೆ, ಇದು ಮರುನಿರ್ಮಾಣವನ್ನು ತೊಡಗಿಸಿಕೊಳ್ಳುವ ರೀತಿಯಲ್ಲಿ ದೃಶ್ಯೀಕರಿಸುತ್ತದೆ.</p>\n    ",
     "howToUse": [
       {
         "step": 1,
-        "title": "Upload Academic/Business PDF",
-        "description": "Upload a PDF document that contains structured sections and diagrams."
+        "title": "ಶೈಕ್ಷಣಿಕ/ವ್ಯಾವಹಾರಿಕ PDF ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+        "description": "ರಚನಾತ್ಮಕ ವಿಭಾಗಗಳು ಮತ್ತು ರೇಖಾಚಿತ್ರಗಳನ್ನು ಹೊಂದಿರುವ PDF ದಾಖಲೆಯನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ."
       },
       {
         "step": 2,
-        "title": "Analyze Slide Outlines",
-        "description": "Inspect the extracted slide structure, adjust titles, or delete unneeded card blocks."
+        "title": "ಸ್ಲೈಡ್ ಔಟ್‌ಲೈನ್‌ಗಳನ್ನು ವಿಶ್ಲೇಷಿಸಿ",
+        "description": "ಹೊರತೆಗೆಯಲಾದ ಸ್ಲೈಡ್ ರಚನೆಯನ್ನು ಪರಿಶೀಲಿಸಿ, ಶೀರ್ಷಿಕೆಗಳನ್ನು ಸರಿಹೊಂದಿಸಿ ಅಥವಾ ಅನಗತ್ಯ ಕಾರ್ಡ್ ಬ್ಲಾಕ್‌ಗಳನ್ನು ಅಳಿಸಿ."
       },
       {
         "step": 3,
-        "title": "Reconstruct to PPTX",
-        "description": "Start the compilation engine to receive a standard, editable presentation file."
+        "title": "PPTX ಗೆ ಮರುನಿರ್ಮಿಸಿ",
+        "description": "ಪ್ರಮಾಣಿತ, ಎಡಿಟ್ ಮಾಡಬಹುದಾದ ಪ್ರಸ್ತುತಿ ಫೈಲ್ ಅನ್ನು ಸ್ವೀಕರಿಸಲು ಕಂಪೈಲೇಶನ್ ಎಂಜಿನ್ ಅನ್ನು ಪ್ರಾರಂಭಿಸಿ."
       }
     ],
     "useCases": [
       {
-        "title": "Research Paper Presentation",
-        "description": "Convert academic journal PDFs, text structures, and vector diagrams into slide decks ready for talks.",
+        "title": "ಸಂಶೋಧನಾ ಪ್ರಬಂಧ ಪ್ರಸ್ತುತಿ",
+        "description": "ಶೈಕ್ಷಣಿಕ ಜರ್ನಲ್ PDF ಗಳು, ಪಠ್ಯ ರಚನೆಗಳು ಮತ್ತು ವೆಕ್ಟರ್ ರೇಖಾಚಿತ್ರಗಳನ್ನು ಉಪನ್ಯಾಸಗಳಿಗೆ ಸಿದ್ಧವಾಗಿರುವ ಸ್ಲೈಡ್ ಡೆಕ್‌ಗಳಾಗಿ ಪರಿವರ್ತಿಸಿ.",
         "icon": "graduation-cap"
       },
       {
