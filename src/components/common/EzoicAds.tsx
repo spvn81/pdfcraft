@@ -14,24 +14,19 @@ export function EzoicAds() {
     }
 
     const ezstandalone = window.ezstandalone;
+    let frameId: number;
 
-    // Use a short timeout to ensure React has fully mounted the new page's
-    // DOM (including the <EzoicAdPlaceholder /> components) before Ezoic scans it.
-    const timer = setTimeout(() => {
+    // We use requestAnimationFrame to safely queue the ad request after React
+    // has committed and the browser has painted the new route's DOM. 
+    // This avoids arbitrary setTimeout delays and ensures any new
+    // <EzoicAdPlaceholder /> components are present in the DOM for Ezoic to scan.
+    frameId = requestAnimationFrame(() => {
       ezstandalone.cmd.push(function () {
         try {
-          // Clean up previous ads to prevent memory leaks during SPA navigation
-          if (typeof ezstandalone.destroyAll === 'function' && ezstandalone.hasDisplayedAds) {
-            ezstandalone.destroyAll();
-          }
-
-          // Re-initialize Ezoic to detect placeholders on the new route
-          if (typeof ezstandalone.init === 'function') {
-            ezstandalone.init();
-          }
-
-          // Show ads in the detected placeholders
           if (typeof ezstandalone.showAds === 'function') {
+            // Request ads for newly rendered placeholders.
+            // Note: We do NOT use destroyAll() here because it would destroy
+            // persistent layout ads. EzoicAdPlaceholder handles its own cleanup.
             ezstandalone.showAds();
             ezstandalone.hasDisplayedAds = true;
           }
@@ -39,9 +34,13 @@ export function EzoicAds() {
           console.error('[EzoicAds] Failed to process ads on route change:', error);
         }
       });
-    }, 150);
+    });
 
-    return () => clearTimeout(timer);
+    return () => {
+      if (frameId) {
+        cancelAnimationFrame(frameId);
+      }
+    };
   }, [pathname, searchParams]);
 
   return null;
