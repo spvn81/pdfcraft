@@ -30,8 +30,10 @@ export function GoogleAdSense({
 
   useEffect(() => {
     setIsRendered(true);
+  }, []);
 
-    if (!initialized.current) {
+  useEffect(() => {
+    if (isRendered && !initialized.current) {
       initialized.current = true;
       try {
         (window.adsbygoogle = window.adsbygoogle || []).push({});
@@ -39,7 +41,7 @@ export function GoogleAdSense({
         console.error('AdSense error', e);
       }
     }
-  }, []);
+  }, [isRendered]);
 
   // Return an empty div matching the ad height to prevent layout shift before hydration
   if (!isRendered) {
