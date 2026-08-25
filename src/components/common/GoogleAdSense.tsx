@@ -1,6 +1,14 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
+
+declare global {
+  interface Window {
+    adsbygoogle: any[];
+  }
+}
+
+
 
 interface GoogleAdSenseProps {
   slotId?: string;
@@ -18,26 +26,24 @@ export function GoogleAdSense({
   className = "my-6",
 }: GoogleAdSenseProps = {}) {
   const [isRendered, setIsRendered] = useState(false);
+  const initialized = useRef(false);
 
   useEffect(() => {
     setIsRendered(true);
-    
-    // Push the ad after a short delay to ensure the script is loaded
-    const timeout = setTimeout(() => {
+
+    if (!initialized.current) {
+      initialized.current = true;
       try {
-        // @ts-ignore
         (window.adsbygoogle = window.adsbygoogle || []).push({});
       } catch (e) {
         console.error('AdSense error', e);
       }
-    }, 100);
-    
-    return () => clearTimeout(timeout);
+    }
   }, []);
 
   // Return an empty div matching the ad height to prevent layout shift before hydration
   if (!isRendered) {
-    return <div style={{ display: 'block', minHeight: '90px' }} />;
+    return <div className={className} style={{ display: 'block', minHeight: '90px' }} />;
   }
 
   return (

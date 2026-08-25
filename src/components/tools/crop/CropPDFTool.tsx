@@ -11,7 +11,7 @@ import { DownloadButton } from '../DownloadButton';
 import { Button } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';
 import { cropPDF, CropData } from '@/lib/pdf/processors/crop';
-import { GoogleAdSense } from '@/components/common/GoogleAdSense';
+
 import type { ProcessOutput } from '@/types/pdf';
 
 export interface CropPDFToolProps {
@@ -408,8 +408,7 @@ export function CropPDFTool({ className = '' }: CropPDFToolProps) {
         )
       }
 
-      {/* Non-intrusive AdSense Placement */}
-      <GoogleAdSense />
+
 
       {
         state.file && (

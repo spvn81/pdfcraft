@@ -14,6 +14,7 @@ import { Home, ChevronRight } from 'lucide-react';
 import { FavoriteButton } from '@/components/ui/FavoriteButton';
 import { useMemo } from 'react';
 import { sanitizeHtml } from '@/lib/utils/html-sanitizer';
+import { GoogleAdSense } from '@/components/common/GoogleAdSense';
 
 export interface ToolPageProps {
   /** Tool data */
@@ -102,6 +103,13 @@ export function ToolPage({ tool, content, locale, children, localizedRelatedTool
             >
               {children}
             </section>
+
+            {/* Global Tool AdSense Placement */}
+            <div className="w-full flex justify-center my-8">
+              <div className="w-full max-w-4xl min-h-[90px]">
+                <GoogleAdSense />
+              </div>
+            </div>
 
             {/* Description Section */}
             <DescriptionSection description={content.description} />
