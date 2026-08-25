@@ -42,40 +42,32 @@ export default function RootLayout({
         />
         {/* Ezoic Privacy Scripts */}
         <Script
-            id="ezoic-cmp"
-            src="https://cmp.gatekeeperconsent.com/min.js"
-            strategy="beforeInteractive"
-            data-cfasync="false"
+          id="ezoic-cmp"
+          src="https://cmp.gatekeeperconsent.com/min.js"
+          strategy="beforeInteractive"
+          data-cfasync="false"
         />
         <Script
-            id="ezoic-cmp-2"
-            src="https://the.gatekeeperconsent.com/cmp.min.js"
-            strategy="beforeInteractive"
-            data-cfasync="false"
+          id="ezoic-cmp-2"
+          src="https://the.gatekeeperconsent.com/cmp.min.js"
+          strategy="beforeInteractive"
+          data-cfasync="false"
         />
-        
+
         {/* Ezoic Header Scripts */}
-        <Script
-            id="ezoic-sa"
-            src="//www.ezojs.com/ezoic/sa.min.js"
-            strategy="afterInteractive"
-        />
-        <Script id="ezoic-init" strategy="afterInteractive">
-            {`
+        <Script async src="//www.ezojs.com/ezoic/sa.min.js" strategy="afterInteractive" />
+        <Script strategy="afterInteractive">
+          {`
             window.ezstandalone = window.ezstandalone || {};
             window.ezstandalone.cmd = window.ezstandalone.cmd || [];
             `}
         </Script>
-        <Script
-            id="ezoic-analytics"
-            src="//ezoicanalytics.com/analytics.js"
-            strategy="afterInteractive"
-        />
+        <Script src="//ezoicanalytics.com/analytics.js" strategy="afterInteractive" />
       </head>
       <body className="min-h-screen bg-background text-foreground antialiased">
         <EzoicRouteHandler />
         {children}
-        
+
         {/* Google tag (gtag.js) */}
         <Script
           async
