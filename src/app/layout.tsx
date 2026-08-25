@@ -41,7 +41,17 @@ export default function RootLayout({
           }}
         />
 
-        <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5961281650555057" crossOrigin="anonymous" />
+        <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5961281650555057"
+          crossOrigin="anonymous" />
+        <ins className="adsbygoogle"
+          style={{ display: "block" }}
+          data-ad-format="fluid"
+          data-ad-layout-key="-fe-f+2h-5z+6n"
+          data-ad-client="ca-pub-5961281650555057"
+          data-ad-slot="1108330390" />
+        <Script>
+          (adsbygoogle = window.adsbygoogle || []).push({ });
+        </Script>
 
 
 
