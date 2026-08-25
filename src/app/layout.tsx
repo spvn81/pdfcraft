@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Script from 'next/script';
-import EzoicRouteHandler from '@/components/common/EzoicRouteHandler';
+// import EzoicRouteHandler from '@/components/common/EzoicRouteHandler';
 import '@/app/globals.css';
 
 import { BASE_PATH } from '@/lib/utils/path';
@@ -40,7 +40,13 @@ export default function RootLayout({
             `,
           }}
         />
+
+        <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5961281650555057" crossOrigin="anonymous" />
+
+
+
         {/* Ezoic Privacy Scripts */}
+        {/*
         <Script
           id="ezoic-cmp"
           src="https://cmp.gatekeeperconsent.com/min.js"
@@ -53,19 +59,22 @@ export default function RootLayout({
           strategy="beforeInteractive"
           data-cfasync="false"
         />
+        */}
 
         {/* Ezoic Header Scripts */}
+        {/*
         <Script async src="//www.ezojs.com/ezoic/sa.min.js" strategy="afterInteractive" />
         <Script strategy="afterInteractive">
-          {`
+          {\`
             window.ezstandalone = window.ezstandalone || {};
             window.ezstandalone.cmd = window.ezstandalone.cmd || [];
-            `}
+            \`}
         </Script>
         <Script src="//ezoicanalytics.com/analytics.js" strategy="afterInteractive" />
+        */}
       </head>
       <body className="min-h-screen bg-background text-foreground antialiased">
-        <EzoicRouteHandler />
+        {/* <EzoicRouteHandler /> */}
         {children}
 
         {/* Google tag (gtag.js) */}

@@ -29,6 +29,7 @@ export function EzoicAdPlaceholder({ id, className, style }: EzoicAdPlaceholderP
   useEffect(() => {
     setIsRendered(true);
 
+    /*
     // Officially supported pattern to immediately request the ad for this slot
     runEzoic(() => {
       if (typeof window.ezstandalone?.showAds === 'function') {
@@ -45,6 +46,7 @@ export function EzoicAdPlaceholder({ id, className, style }: EzoicAdPlaceholderP
         }
       });
     };
+    */
   }, [id]);
 
   return (
