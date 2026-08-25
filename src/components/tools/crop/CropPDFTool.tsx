@@ -11,6 +11,7 @@ import { DownloadButton } from '../DownloadButton';
 import { Button } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';
 import { cropPDF, CropData } from '@/lib/pdf/processors/crop';
+import { GoogleAdSense } from '@/components/common/GoogleAdSense';
 import type { ProcessOutput } from '@/types/pdf';
 
 export interface CropPDFToolProps {
@@ -399,138 +400,186 @@ export function CropPDFTool({ className = '' }: CropPDFToolProps) {
         />
       )}
 
-      {error && (
-        <div className="p-4 rounded-[var(--radius-md)] bg-red-50 border border-red-200 text-red-700" role="alert">
-          <p className="text-sm">{error}</p>
-        </div>
-      )}
+      {
+        error && (
+          <div className="p-4 rounded-[var(--radius-md)] bg-red-50 border border-red-200 text-red-700" role="alert">
+            <p className="text-sm">{error}</p>
+          </div>
+        )
+      }
 
-      {state.file && (
-        <>
-          {/* File Info */}
-          <Card variant="outlined">
-            <div className="flex items-center justify-between">
-              <div className="flex items-center gap-3">
-                <div className="p-2 bg-red-100 rounded-lg">
-                  <svg className="w-6 h-6 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                  </svg>
+      {/* Non-intrusive AdSense Placement */}
+      <GoogleAdSense />
+
+      {
+        state.file && (
+          <>
+            {/* File Info */}
+            <Card variant="outlined">
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-3">
+                  <div className="p-2 bg-red-100 rounded-lg">
+                    <svg className="w-6 h-6 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="font-medium">{state.file.name}</h3>
+                    <p className="text-sm text-[hsl(var(--color-muted-foreground))]">
+                      {state.numPages} {tTools('cropPdf.pages') || 'pages'}
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="font-medium">{state.file.name}</h3>
-                  <p className="text-sm text-[hsl(var(--color-muted-foreground))]">
-                    {state.numPages} {tTools('cropPdf.pages') || 'pages'}
-                  </p>
-                </div>
+                <Button variant="ghost" size="sm" onClick={() => setState({ file: null, numPages: 0, currentPage: 1, pdfDoc: null, pageImage: null, crops: {} })} disabled={isProcessing}>
+                  {t('buttons.remove') || 'Remove'}
+                </Button>
               </div>
-              <Button variant="ghost" size="sm" onClick={() => setState({ file: null, numPages: 0, currentPage: 1, pdfDoc: null, pageImage: null, crops: {} })} disabled={isProcessing}>
-                {t('buttons.remove') || 'Remove'}
-              </Button>
-            </div>
-          </Card>
+            </Card>
 
-          {/* Visual Cropper */}
-          <Card variant="outlined" className="p-0 overflow-hidden bg-gray-100">
-            <div
-              ref={cropperContainerRef}
-              className={`relative ${isFullscreen ? 'bg-gray-900 flex flex-col' : ''}`}
-              style={{ minHeight: isFullscreen ? '100vh' : '400px' }}
-            >
-              {state.pageImage ? (
-                <Cropper
-                  src={state.pageImage}
-                  style={{ height: isFullscreen ? 'calc(100vh - 80px)' : 500, width: '100%' }}
-                  initialAspectRatio={NaN} // Free crop
-                  guides={true}
-                  ref={cropperRef}
-                  ready={onCropperReady}
-                  viewMode={1}
-                  background={false}
-                  autoCropArea={1}
-                  zoomOnWheel={false}
-                />
-              ) : (
-                <div className="flex items-center justify-center h-[500px]">
-                  <span className="text-gray-400">Loading page...</span>
-                </div>
-              )}
+            {/* Visual Cropper */}
+            <Card variant="outlined" className="p-0 overflow-hidden bg-gray-100">
+              <div
+                ref={cropperContainerRef}
+                className={`relative ${isFullscreen ? 'bg-gray-900 flex flex-col' : ''}`}
+                style={{ minHeight: isFullscreen ? '100vh' : '400px' }}
+              >
+                {state.pageImage ? (
+                  <Cropper
+                    src={state.pageImage}
+                    style={{ height: isFullscreen ? 'calc(100vh - 80px)' : 500, width: '100%' }}
+                    initialAspectRatio={NaN} // Free crop
+                    guides={true}
+                    ref={cropperRef}
+                    ready={onCropperReady}
+                    viewMode={1}
+                    background={false}
+                    autoCropArea={1}
+                    zoomOnWheel={false}
+                  />
+                ) : (
+                  <div className="flex items-center justify-center h-[500px]">
+                    <span className="text-gray-400">Loading page...</span>
+                  </div>
+                )}
 
-              {/* Zoom Controls - positioned at bottom center of cropper */}
-              {state.pageImage && (
-                <div className={`${isFullscreen ? 'fixed' : 'absolute'} left-1/2 bottom-4 -translate-x-1/2 z-10 flex items-center gap-2 bg-white/95 backdrop-blur-sm rounded-full shadow-lg px-4 py-2 border border-gray-200`}>
-                  <button
-                    type="button"
-                    onClick={handleZoomOut}
-                    disabled={isProcessing}
-                    className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-gray-100 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-                    title={tTools('cropPdf.zoomOut') || 'Zoom Out'}
-                  >
-                    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM13 10H7" />
-                    </svg>
-                  </button>
-
-                  <span className="px-2 text-sm font-medium text-gray-600 min-w-[60px] text-center">
-                    {Math.round(currentZoom * 100)}%
-                  </span>
-
-                  <button
-                    type="button"
-                    onClick={handleResetZoom}
-                    disabled={isProcessing}
-                    className="px-3 py-1 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-md transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-                    title={tTools('cropPdf.resetZoom') || 'Reset Zoom'}
-                  >
-                    {tTools('cropPdf.reset') || 'Reset'}
-                  </button>
-
-                  <button
-                    type="button"
-                    onClick={handleZoomIn}
-                    disabled={isProcessing}
-                    className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-gray-100 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-                    title={tTools('cropPdf.zoomIn') || 'Zoom In'}
-                  >
-                    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7" />
-                    </svg>
-                  </button>
-
-                  <div className="w-px h-6 bg-gray-300 mx-1"></div>
-
-                  <button
-                    type="button"
-                    onClick={handleToggleFullscreen}
-                    className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-gray-100 transition-colors"
-                    title={isFullscreen ? (tTools('cropPdf.exitFullscreen') || 'Exit Fullscreen') : (tTools('cropPdf.fullscreen') || 'Fullscreen')}
-                  >
-                    {isFullscreen ? (
+                {/* Zoom Controls - positioned at bottom center of cropper */}
+                {state.pageImage && (
+                  <div className={`${isFullscreen ? 'fixed' : 'absolute'} left-1/2 bottom-4 -translate-x-1/2 z-10 flex items-center gap-2 bg-white/95 backdrop-blur-sm rounded-full shadow-lg px-4 py-2 border border-gray-200`}>
+                    <button
+                      type="button"
+                      onClick={handleZoomOut}
+                      disabled={isProcessing}
+                      className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-gray-100 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                      title={tTools('cropPdf.zoomOut') || 'Zoom Out'}
+                    >
                       <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM13 10H7" />
                       </svg>
-                    ) : (
-                      <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
-                      </svg>
-                    )}
-                  </button>
-                </div>
-              )}
+                    </button>
 
-              {/* Fullscreen page navigation */}
-              {isFullscreen && state.pageImage && (
-                <div className="fixed top-4 left-1/2 -translate-x-1/2 z-10 flex items-center gap-2 bg-white/95 backdrop-blur-sm rounded-full shadow-lg px-4 py-2 border border-gray-200">
-                  <button
-                    type="button"
+                    <span className="px-2 text-sm font-medium text-gray-600 min-w-[60px] text-center">
+                      {Math.round(currentZoom * 100)}%
+                    </span>
+
+                    <button
+                      type="button"
+                      onClick={handleResetZoom}
+                      disabled={isProcessing}
+                      className="px-3 py-1 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-md transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                      title={tTools('cropPdf.resetZoom') || 'Reset Zoom'}
+                    >
+                      {tTools('cropPdf.reset') || 'Reset'}
+                    </button>
+
+                    <button
+                      type="button"
+                      onClick={handleZoomIn}
+                      disabled={isProcessing}
+                      className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-gray-100 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                      title={tTools('cropPdf.zoomIn') || 'Zoom In'}
+                    >
+                      <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7" />
+                      </svg>
+                    </button>
+
+                    <div className="w-px h-6 bg-gray-300 mx-1"></div>
+
+                    <button
+                      type="button"
+                      onClick={handleToggleFullscreen}
+                      className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-gray-100 transition-colors"
+                      title={isFullscreen ? (tTools('cropPdf.exitFullscreen') || 'Exit Fullscreen') : (tTools('cropPdf.fullscreen') || 'Fullscreen')}
+                    >
+                      {isFullscreen ? (
+                        <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                      ) : (
+                        <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+                        </svg>
+                      )}
+                    </button>
+                  </div>
+                )}
+
+                {/* Fullscreen page navigation */}
+                {isFullscreen && state.pageImage && (
+                  <div className="fixed top-4 left-1/2 -translate-x-1/2 z-10 flex items-center gap-2 bg-white/95 backdrop-blur-sm rounded-full shadow-lg px-4 py-2 border border-gray-200">
+                    <button
+                      type="button"
+                      onClick={() => changePage(-1)}
+                      disabled={state.currentPage <= 1 || isProcessing}
+                      className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-100 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                    >
+                      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                      </svg>
+                    </button>
+                    <div className="flex items-center gap-1 text-sm font-medium text-gray-600">
+                      <input
+                        type="text"
+                        value={pageInputValue}
+                        onChange={(e) => setPageInputValue(e.target.value)}
+                        onKeyDown={handlePageInputKeyDown}
+                        onBlur={handlePageInputBlur}
+                        disabled={isProcessing}
+                        className="w-12 text-center border border-gray-300 rounded px-1 py-0.5 text-sm focus:outline-none focus:ring-1 focus:ring-blue-500 disabled:opacity-50"
+                        aria-label="Go to page"
+                      />
+                      <span>/ {state.numPages}</span>
+                    </div>
+                    <button
+                      type="button"
+                      onClick={() => changePage(1)}
+                      disabled={state.currentPage >= state.numPages || isProcessing}
+                      className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-100 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                    >
+                      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      </svg>
+                    </button>
+                  </div>
+                )}
+              </div>
+
+              {/* Controls */}
+              <div className="p-4 border-t bg-white flex flex-wrap items-center justify-between gap-4">
+                <div className="flex items-center gap-2">
+                  <Button
+                    variant="outline"
+                    size="sm"
                     onClick={() => changePage(-1)}
                     disabled={state.currentPage <= 1 || isProcessing}
-                    className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-100 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                    aria-label="Previous page"
                   >
                     <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
                     </svg>
-                  </button>
-                  <div className="flex items-center gap-1 text-sm font-medium text-gray-600">
+                  </Button>
+                  <div className="flex items-center gap-1 text-sm font-medium min-w-[120px] justify-center">
+                    <span>{tTools('cropPdf.page') || 'Page'}</span>
                     <input
                       type="text"
                       value={pageInputValue}
@@ -538,105 +587,66 @@ export function CropPDFTool({ className = '' }: CropPDFToolProps) {
                       onKeyDown={handlePageInputKeyDown}
                       onBlur={handlePageInputBlur}
                       disabled={isProcessing}
-                      className="w-12 text-center border border-gray-300 rounded px-1 py-0.5 text-sm focus:outline-none focus:ring-1 focus:ring-blue-500 disabled:opacity-50"
+                      className="w-14 text-center border border-gray-300 rounded px-1 py-0.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:opacity-50"
                       aria-label="Go to page"
                     />
                     <span>/ {state.numPages}</span>
                   </div>
-                  <button
-                    type="button"
+                  <Button
+                    variant="outline"
+                    size="sm"
                     onClick={() => changePage(1)}
                     disabled={state.currentPage >= state.numPages || isProcessing}
-                    className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-100 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                    aria-label="Next page"
                   >
                     <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
-                  </button>
+                  </Button>
                 </div>
-              )}
-            </div>
 
-            {/* Controls */}
-            <div className="p-4 border-t bg-white flex flex-wrap items-center justify-between gap-4">
-              <div className="flex items-center gap-2">
-                <Button
-                  variant="outline"
-                  size="sm"
-                  onClick={() => changePage(-1)}
-                  disabled={state.currentPage <= 1 || isProcessing}
-                  aria-label="Previous page"
-                >
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                  </svg>
-                </Button>
-                <div className="flex items-center gap-1 text-sm font-medium min-w-[120px] justify-center">
-                  <span>{tTools('cropPdf.page') || 'Page'}</span>
-                  <input
-                    type="text"
-                    value={pageInputValue}
-                    onChange={(e) => setPageInputValue(e.target.value)}
-                    onKeyDown={handlePageInputKeyDown}
-                    onBlur={handlePageInputBlur}
+                <div className="flex items-center gap-6">
+                  <label className="flex items-center gap-2 cursor-pointer">
+                    <input
+                      type="checkbox"
+                      checked={applyToAll}
+                      onChange={(e) => setApplyToAll(e.target.checked)}
+                      className="w-4 h-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                      disabled={isProcessing}
+                    />
+                    <span className="text-sm font-medium">{tTools('cropPdf.applyToAll') || 'Apply to all pages'}</span>
+                  </label>
+
+                  <Button
+                    variant="primary"
+                    onClick={handleProcess}
+                    loading={isProcessing}
                     disabled={isProcessing}
-                    className="w-14 text-center border border-gray-300 rounded px-1 py-0.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:opacity-50"
-                    aria-label="Go to page"
-                  />
-                  <span>/ {state.numPages}</span>
+                  >
+                    {tTools('cropPdf.cropButton') || 'Crop PDF'}
+                  </Button>
                 </div>
-                <Button
-                  variant="outline"
-                  size="sm"
-                  onClick={() => changePage(1)}
-                  disabled={state.currentPage >= state.numPages || isProcessing}
-                  aria-label="Next page"
-                >
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </Button>
               </div>
-
-              <div className="flex items-center gap-6">
-                <label className="flex items-center gap-2 cursor-pointer">
-                  <input
-                    type="checkbox"
-                    checked={applyToAll}
-                    onChange={(e) => setApplyToAll(e.target.checked)}
-                    className="w-4 h-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
-                    disabled={isProcessing}
-                  />
-                  <span className="text-sm font-medium">{tTools('cropPdf.applyToAll') || 'Apply to all pages'}</span>
-                </label>
-
-                <Button
-                  variant="primary"
-                  onClick={handleProcess}
-                  loading={isProcessing}
-                  disabled={isProcessing}
-                >
-                  {tTools('cropPdf.cropButton') || 'Crop PDF'}
-                </Button>
-              </div>
-            </div>
-          </Card>
-        </>
-      )}
+            </Card>
+          </>
+        )
+      }
 
       {isProcessing && <ProcessingProgress progress={progress} status={status} onCancel={() => { cancelledRef.current = true; setStatus('idle'); }} showPercentage />}
 
-      {state.file && result && status === 'complete' && (
-        <div className="p-4 rounded-[var(--radius-md)] bg-green-50 border border-green-200">
-          <div className="flex flex-wrap items-center justify-between gap-4">
-            <div className="text-green-700 font-medium">
-              {tTools('cropPdf.successMessage') || 'PDF cropped successfully!'}
+      {
+        state.file && result && status === 'complete' && (
+          <div className="p-4 rounded-[var(--radius-md)] bg-green-50 border border-green-200">
+            <div className="flex flex-wrap items-center justify-between gap-4">
+              <div className="text-green-700 font-medium">
+                {tTools('cropPdf.successMessage') || 'PDF cropped successfully!'}
+              </div>
+              <DownloadButton file={result} filename={state.file.name.replace('.pdf', '_cropped.pdf')} variant="primary" size="lg" />
             </div>
-            <DownloadButton file={result} filename={state.file.name.replace('.pdf', '_cropped.pdf')} variant="primary" size="lg" />
           </div>
-        </div>
-      )}
-    </div>
+        )
+      }
+    </div >
   );
 }
 
