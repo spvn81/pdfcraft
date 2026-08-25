@@ -4,6 +4,7 @@ import Script from 'next/script';
 import '@/app/globals.css';
 
 import { BASE_PATH } from '@/lib/utils/path';
+import { GoogleAdSense } from '@/components/common/GoogleAdSense';
 
 export const metadata: Metadata = {
   title: 'SPVN Tech PDF Tools - Professional PDF Tools',
@@ -40,8 +41,7 @@ export default function RootLayout({
             `,
           }}
         />
-
-
+        <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5961281650555057" crossOrigin="anonymous" />
 
 
         {/* Ezoic Privacy Scripts */}
@@ -74,15 +74,7 @@ export default function RootLayout({
       </head>
       <body className="min-h-screen bg-background text-foreground antialiased">
         {/* <EzoicRouteHandler /> */}
-        <ins className="adsbygoogle"
-          style={{ display: "block" }}
-          data-ad-format="fluid"
-          data-ad-layout-key="-fe-f+2h-5z+6n"
-          data-ad-client="ca-pub-5961281650555057"
-          data-ad-slot="1108330390" />
-        <Script id="adsbygoogle-init" strategy="afterInteractive">
-          {`(adsbygoogle = window.adsbygoogle || []).push({});`}
-        </Script>
+        <GoogleAdSense />
         {children}
 
         {/* Google tag (gtag.js) */}
