@@ -26,9 +26,6 @@
     X-XSS-Protection = "1; mode=block"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "camera=(), microphone=(), geolocation=()"
-    Cross-Origin-Opener-Policy = "same-origin"
-    Cross-Origin-Embedder-Policy = "require-corp"
-    Cross-Origin-Resource-Policy = "cross-origin"
 
 # ==========================================
 # Cache: Long-term immutable assets

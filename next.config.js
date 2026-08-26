@@ -231,7 +231,7 @@ const nextConfig = {
         ],
       },
       {
-        // Security headers for all routes
+        // Security headers for all normal routes (without COEP/COOP to allow third-party ads)
         source: '/:path*',
         headers: [
           {
@@ -250,7 +250,13 @@ const nextConfig = {
             key: 'Referrer-Policy',
             value: 'strict-origin-when-cross-origin',
           },
-          // Required for SharedArrayBuffer (LibreOffice WASM)
+        ],
+      },
+      {
+        // Required for SharedArrayBuffer (LibreOffice WASM).
+        // Only applied to the specific tools that actually use it, so we don't break ad iframes globally.
+        source: '/:locale/tools/:tool(word-to-pdf|excel-to-pdf|pptx-to-pdf|ppt-to-pdf|rtf-to-pdf)/:path*',
+        headers: [
           {
             key: 'Cross-Origin-Opener-Policy',
             value: 'same-origin',

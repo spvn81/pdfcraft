@@ -14,6 +14,7 @@ import { Home, ChevronRight } from 'lucide-react';
 import { FavoriteButton } from '@/components/ui/FavoriteButton';
 import { useMemo } from 'react';
 import { sanitizeHtml } from '@/lib/utils/html-sanitizer';
+import { PublisherAd } from '@/components/common/PublisherAd';
 
 export interface ToolPageProps {
   /** Tool data */
@@ -102,6 +103,14 @@ export function ToolPage({ tool, content, locale, children, localizedRelatedTool
             >
               {children}
             </section>
+
+            {/* Primary Content Advertisement */}
+            <div className="w-full flex justify-center my-8">
+              {/* Desktop wide ad */}
+              <PublisherAd format="728x90" className="hidden md:block w-full max-w-[728px]" />
+              {/* Mobile banner ad */}
+              <PublisherAd format="320x50" className="block md:hidden w-full max-w-[320px]" />
+            </div>
 
             {/* Description Section */}
             <DescriptionSection description={content.description} />

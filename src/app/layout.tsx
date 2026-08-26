@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Script from 'next/script';
 import '@/app/globals.css';
+import { GlobalPublisherAds } from '@/components/common/GlobalPublisherAds';
 
 import { BASE_PATH } from '@/lib/utils/path';
 
@@ -43,6 +44,7 @@ export default function RootLayout({
 
       </head>
       <body className="min-h-screen bg-background text-foreground antialiased">
+        <GlobalPublisherAds />
         {children}
 
         {/* Google tag (gtag.js) */}
