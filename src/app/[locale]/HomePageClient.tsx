@@ -9,7 +9,7 @@ import { ToolGrid } from '@/components/tools/ToolGrid';
 import { Button } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';
 import { getAllTools, getToolsByCategory, getPopularTools } from '@/config/tools';
-import { type Locale } from '@/lib/i18n/config';
+import { type Locale, locales } from '@/lib/i18n/config';
 import { CATEGORY_INFO, type ToolCategory } from '@/types/tool';
 
 interface HomePageClientProps {
@@ -269,7 +269,7 @@ export default function HomePageClient({ locale, localizedToolContent }: HomePag
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center divide-y md:divide-y-0 md:divide-x divide-[hsl(var(--color-border))]">
               <div className="p-4">
                 <div className="text-3xl lg:text-4xl font-bold text-gradient mb-1">
-                  {allTools.length}+
+                  {allTools.length}
                 </div>
                 <div className="text-xs font-medium text-[hsl(var(--color-muted-foreground))] uppercase tracking-wider">
                   {t('home.stats.pdfTools')}
@@ -285,7 +285,7 @@ export default function HomePageClient({ locale, localizedToolContent }: HomePag
               </div>
               <div className="p-4">
                 <div className="text-3xl lg:text-4xl font-bold text-gradient mb-1">
-                  9
+                  {locales.length}
                 </div>
                 <div className="text-xs font-medium text-[hsl(var(--color-muted-foreground))] uppercase tracking-wider">
                   {t('home.stats.languages')}

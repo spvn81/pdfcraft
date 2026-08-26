@@ -1,9 +1,10 @@
 'use client';
 
-import React, { useMemo } from 'react';
+import React, { useMemo, useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import { Tool, ToolCategory, CATEGORY_INFO } from '@/types/tool';
 import { ToolCard } from './ToolCard';
+import { PublisherAd } from '@/components/common/PublisherAd';
 
 export interface ToolGridProps {
   /** Array of tools to display */
@@ -39,6 +40,21 @@ export function ToolGrid({
   localizedToolContent,
 }: ToolGridProps) {
   const t = useTranslations();
+
+  const [viewportReady, setViewportReady] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia('(max-width: 767px)');
+    
+    setIsMobile(mediaQuery.matches);
+    setViewportReady(true);
+    
+    const handler = (e: MediaQueryListEvent) => setIsMobile(e.matches);
+    mediaQuery.addEventListener('change', handler);
+    
+    return () => mediaQuery.removeEventListener('change', handler);
+  }, []);
 
   const categoryTranslationKeys: Record<ToolCategory, string> = {
     'edit-annotate': 'editAnnotate',
@@ -133,13 +149,19 @@ export function ToolGrid({
                 </p>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-                {categoryTools.map(tool => (
-                  <ToolCard
-                    key={tool.id}
-                    tool={tool}
-                    locale={locale}
-                    localizedContent={localizedToolContent?.[tool.id]}
-                  />
+                {categoryTools.map((tool, index) => (
+                  <React.Fragment key={tool.id}>
+                    {index > 0 && index % 12 === 0 && viewportReady && (
+                      <div className="col-span-full flex w-full justify-center overflow-hidden py-6 md:py-8">
+                        <PublisherAd format={isMobile ? '320x50' : '728x90'} />
+                      </div>
+                    )}
+                    <ToolCard
+                      tool={tool}
+                      locale={locale}
+                      localizedContent={localizedToolContent?.[tool.id]}
+                    />
+                  </React.Fragment>
                 ))}
               </div>
             </section>
@@ -155,13 +177,19 @@ export function ToolGrid({
       className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 ${className}`}
       data-testid="tool-grid"
     >
-      {filteredTools.map(tool => (
-        <ToolCard
-          key={tool.id}
-          tool={tool}
-          locale={locale}
-          localizedContent={localizedToolContent?.[tool.id]}
-        />
+      {filteredTools.map((tool, index) => (
+        <React.Fragment key={tool.id}>
+          {index > 0 && index % 12 === 0 && viewportReady && (
+            <div className="col-span-full flex w-full justify-center overflow-hidden py-6 md:py-8">
+              <PublisherAd format={isMobile ? '320x50' : '728x90'} />
+            </div>
+          )}
+          <ToolCard
+            tool={tool}
+            locale={locale}
+            localizedContent={localizedToolContent?.[tool.id]}
+          />
+        </React.Fragment>
       ))}
     </div>
   );
