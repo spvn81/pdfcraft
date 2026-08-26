@@ -69,7 +69,7 @@ export default function RootLayout({
         </Script>
         <Script src="//ezoicanalytics.com/analytics.js" strategy="afterInteractive" />
         */}
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5961281650555057" crossOrigin="anonymous" />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5961281650555057" crossOrigin="anonymous"></script>
       </head>
       <body className="min-h-screen bg-background text-foreground antialiased">
         {/* <EzoicRouteHandler /> */}
