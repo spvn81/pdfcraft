@@ -34,6 +34,7 @@ export function PPTXToPDFTool({ className = '' }: PPTXToPDFToolProps) {
     const [result, setResult] = useState<Blob | Blob[] | null>(null);
     const [error, setError] = useState<string | null>(null);
     const cancelledRef = useRef(false);
+    const hasAutoConvertedRef = useRef<string | null>(null);
 
     // Preload LibreOffice WASM when the component mounts
     useEffect(() => {
@@ -80,6 +81,7 @@ export function PPTXToPDFTool({ className = '' }: PPTXToPDFToolProps) {
                 status: 'pending' as const,
             };
             setFile(uploadedFile);
+            hasAutoConvertedRef.current = null;
             setError(null);
             setResult(null);
             setStatus('idle');
@@ -148,6 +150,20 @@ export function PPTXToPDFTool({ className = '' }: PPTXToPDFToolProps) {
         setStatus('idle');
         setProgress(0);
     }, []);
+
+    // Auto-conversion effect
+    useEffect(() => {
+        if (
+            file &&
+            file.status === 'pending' &&
+            preloadStatus === 'complete' &&
+            hasAutoConvertedRef.current !== file.id &&
+            status === 'idle'
+        ) {
+            hasAutoConvertedRef.current = file.id;
+            handleConvert();
+        }
+    }, [file, preloadStatus, status, handleConvert]);
 
     const handleBatchProcess = useCallback(async (batchFile: File, onProgress: (progress: number) => void): Promise<Blob> => {
         const output = await pptxToPDF(

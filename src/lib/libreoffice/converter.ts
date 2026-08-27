@@ -117,23 +117,12 @@ export class LibreOfficeConverter {
                 : '';
             this.progressCallback?.({ phase: 'loading', percent: 5, message: `Loading conversion engine${totalInfo}...` });
 
-            const filesToFetch = [
-                { name: 'soffice.wasm.bin', url: `${this.basePath}${SOFFICE_WASM_FILE}?v=${ASSET_VERSION}`, estSize: 147 * 1024 * 1024 },
-                { name: 'soffice.data.bin', url: `${this.basePath}${SOFFICE_DATA_FILE}?v=${ASSET_VERSION}`, estSize: 99 * 1024 * 1024 },
-                { name: 'NotoSansSC-Regular.ttf', url: withBasePath(`/fonts/NotoSansSC-Regular.ttf?v=${ASSET_VERSION}`), estSize: 16.4 * 1024 * 1024 }
-            ];
+            const sofficeWasmUrl = `${this.basePath}${SOFFICE_WASM_FILE}?v=${ASSET_VERSION}`;
+            const sofficeDataUrl = `${this.basePath}${SOFFICE_DATA_FILE}?v=${ASSET_VERSION}`;
 
-            // Fetch and reassemble assets (handles chunking on Cloudflare Pages)
-            const [sofficeWasmBlob, sofficeDataBlob, fontBlob] = await Promise.all(
-                filesToFetch.map(f => fetchAssembledBlob(f.url))
-            );
-
-            const sofficeWasmUrl = URL.createObjectURL(sofficeWasmBlob);
-            const sofficeDataUrl = URL.createObjectURL(sofficeDataBlob);
-
-            this.blobUrls = [sofficeWasmUrl, sofficeDataUrl];
-
-            // Load CJK font into ArrayBuffer for the converter
+            // We still fetch the font manually as it needs to be passed as an ArrayBuffer
+            const fontUrl = withBasePath(`/fonts/NotoSansSC-Regular.ttf?v=${ASSET_VERSION}`);
+            const fontBlob = await fetchAssembledBlob(fontUrl);
             const fontArrayBuffer = await fontBlob.arrayBuffer();
 
             this.converter = new WorkerBrowserConverter({
@@ -142,6 +131,7 @@ export class LibreOfficeConverter {
                 sofficeData: sofficeDataUrl,
                 sofficeWorkerJs: `${this.basePath}soffice.worker.js?v=${ASSET_VERSION}`,
                 browserWorkerJs: `${this.basePath}browser.worker.global.js?v=${ASSET_VERSION}`,
+                enableProgressTracking: true,
                 verbose: false,
                 fonts: [
                     { filename: 'NotoSansSC-Regular.ttf', data: fontArrayBuffer }
@@ -246,18 +236,8 @@ export class LibreOfficeConverter {
             const url = `${this.basePath}${file}?v=${ASSET_VERSION}`;
             try {
                 const start = performance.now();
-                // Check for the file itself or its chunk manifest
-                let res = await fetch(url, { method: 'HEAD' });
+                const res = await fetch(url, { method: 'HEAD' });
                 
-                if (!res.ok) {
-                    const manifestUrl = `${this.basePath}${file}.manifest.json?v=${ASSET_VERSION}`;
-                    const mRes = await fetch(manifestUrl, { method: 'HEAD' });
-                    if (mRes.ok) {
-                        res = mRes;
-                        console.warn(`[LibreOffice] ${file}: Found chunk manifest instead of raw file.`);
-                    }
-                }
-
                 const duration = Math.round(performance.now() - start);
 
                 if (res.ok) {
