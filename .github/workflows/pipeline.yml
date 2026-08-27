@@ -8,12 +8,6 @@ on:
     branches:
       - main
   workflow_dispatch:
-    inputs:
-      force_nginx_deploy:
-        description: 'Force Nginx configuration deployment and reload'
-        required: false
-        type: boolean
-        default: false
 concurrency:
   group: production-pipeline
   cancel-in-progress: false
@@ -105,75 +99,7 @@ jobs:
           chmod 600 ~/.ssh/deploy_key
           ssh-keyscan -H ${{ secrets.SERVER_HOST }} >> ~/.ssh/known_hosts
 
-      - name: Deploy Nginx Configuration
-        env:
-          TARGET_CONF: /home/spvntech/conf/web/spvntech.in/nginx.ssl.conf_pdf_tools
-          FORCE_NGINX: ${{ github.event.inputs.force_nginx_deploy }}
-        run: |
-          set -euo pipefail
-          
-          echo "[NGINX] Transferring custom Nginx config..."
-          scp -i ~/.ssh/deploy_key deploy/nginx/spvntech-pdf-tools.conf ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:/tmp/spvntech-pdf-tools.conf
-          
-          echo "[NGINX] Applying and validating configuration..."
-          ssh -i ~/.ssh/deploy_key ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} "
-            set -euo pipefail
-            
-            TARGET_CONF=\"$TARGET_CONF\"
-            FORCE_NGINX=\"${FORCE_NGINX:-false}\"
-            
-            # Check if we need to deploy
-            NEEDS_DEPLOY=false
-            if [ \"\$FORCE_NGINX\" = 'true' ]; then
-              echo '[NGINX] Force deploy requested.'
-              NEEDS_DEPLOY=true
-            elif [ ! -f \$TARGET_CONF ]; then
-              echo '[NGINX] Target config does not exist on remote. Deploying for the first time.'
-              NEEDS_DEPLOY=true
-            elif ! cmp -s /tmp/spvntech-pdf-tools.conf \$TARGET_CONF; then
-              echo '[NGINX] Target config differs from repository. Deploying.'
-              NEEDS_DEPLOY=true
-            else
-              echo '[NGINX] Config matches existing remote config. Skipping Nginx deployment and reload.'
-            fi
 
-            if [ \"\$NEEDS_DEPLOY\" = 'true' ]; then
-              # Backup existing
-              if [ -f \$TARGET_CONF ]; then
-                cp \$TARGET_CONF \${TARGET_CONF}.bak
-              fi
-              
-              # Copy new config
-              cp /tmp/spvntech-pdf-tools.conf \$TARGET_CONF
-              
-              # Validate Nginx
-              if sudo -n /usr/sbin/nginx -t > /tmp/nginx_test.log 2>&1; then
-                echo '[NGINX] Configuration is valid. Reloading...'
-                cat /tmp/nginx_test.log
-                sudo -n /bin/systemctl reload nginx
-                
-                # Verify effective config
-                if ! sudo -n /usr/sbin/nginx -T | grep -q 'location ^~ /pdf-tools/libreoffice-wasm/'; then
-                  echo '[NGINX] Error: location block not found in effective config after reload!'
-                  exit 1
-                fi
-              else
-                cat /tmp/nginx_test.log
-                if grep -Eq 'sudo: a password is required|sudo: a terminal is required' /tmp/nginx_test.log; then
-                  echo 'Nginx deployment requires passwordless sudo for the approved Nginx commands.'
-                  exit 1
-                fi
-
-                echo '[NGINX] Validation failed! Rolling back...'
-                if [ -f \${TARGET_CONF}.bak ]; then
-                  cp \${TARGET_CONF}.bak \$TARGET_CONF
-                fi
-                # Ensure rollback is valid
-                sudo -n /usr/sbin/nginx -t
-                exit 1
-              fi
-            fi
-          "
 
       - name: Verify Exact Target Path
         run: |
