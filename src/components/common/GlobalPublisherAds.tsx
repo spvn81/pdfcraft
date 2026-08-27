@@ -3,22 +3,21 @@
 import Script from 'next/script';
 
 // Toggle these flags to easily enable or disable global ad scripts.
-// The requirements dictate these should be disabled by default.
-const ENABLE_POPUNDER = false;
+const ENABLE_ANTI_ADBLOCK_SYNC = true;
 const ENABLE_SOCIALBAR = false;
 
 /**
- * GlobalPublisherAds handles the injection of global ad scripts like Popunder and SocialBar.
+ * GlobalPublisherAds handles the injection of global ad scripts.
  * It uses next/script with strategy="afterInteractive" to ensure they are loaded
  * exactly once per application lifecycle and do not reload during App Router client navigation.
  */
 export function GlobalPublisherAds() {
   return (
     <>
-      {ENABLE_POPUNDER && (
+      {ENABLE_ANTI_ADBLOCK_SYNC && (
         <Script
-          id="publisher-popunder"
-          src="https://pl31035583.profitableratecpmnetwork.com/64/70/0c/64700ce6ef26ce3fc7373f87741f5b3b.js"
+          id="publisher-anti-adblock-sync"
+          src="https://mittengulped.com/64/70/0c/64700ce6ef26ce3fc7373f87741f5b3b.js"
           strategy="afterInteractive"
         />
       )}

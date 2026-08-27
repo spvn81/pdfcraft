@@ -130,6 +130,12 @@ export function ToolPage({ tool, content, locale, children, localizedRelatedTool
               locale={locale}
               localizedRelatedTools={localizedRelatedTools}
             />
+
+            {/* Secondary Content Advertisement */}
+            <div className="w-full flex justify-center mt-8">
+              <PublisherAd format="728x90" className="hidden md:block w-full max-w-[728px]" />
+              <PublisherAd format="320x50" className="block md:hidden w-full max-w-[320px]" />
+            </div>
           </div>
         </main>
 

@@ -25,47 +25,116 @@ const AD_CONFIGS: Record<Exclude<AdFormat, 'native'>, { key: string; width: numb
   '728x90': { key: '462cb48f160123a7266291ece2c78103', width: 728, height: 90 },
 };
 
+// Global queue to prevent atOptions collision when multiple ads load simultaneously
+let isAdLoading = false;
+const adQueue: Array<() => void> = [];
+
+function processAdQueue() {
+  if (isAdLoading || adQueue.length === 0) return;
+  const nextAd = adQueue.shift();
+  if (nextAd) {
+    isAdLoading = true;
+    nextAd();
+  }
+}
+
 export function PublisherAd({ format, className = '' }: PublisherAdProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const [isRendered, setIsRendered] = useState(false);
 
-  // We only render ads on the client to avoid hydration mismatch
   useEffect(() => {
     setIsRendered(true);
   }, []);
 
   useEffect(() => {
-    if (!isRendered || format !== 'native') return;
+    if (!isRendered) return;
 
-    // Native Banner specific injection
-    // Ensures exactly one script execution for the container
-    const scriptId = 'native-banner-script';
-    
-    // Check if another native banner script already exists on the page
-    if (document.getElementById(scriptId)) {
+    if (format === 'native') {
+      if (!containerRef.current) return;
+      if (containerRef.current.dataset.loaded === 'true') return;
+      containerRef.current.dataset.loaded = 'true';
+
+      // We use an iframe to isolate the exact container ID and script execution,
+      // allowing multiple native banners safely without duplicating IDs in the main document.
+      // This satisfies the requirement to safely instantiate without changing the Adsterra ID.
+      const iframe = document.createElement('iframe');
+      iframe.style.border = 'none';
+      iframe.style.width = '100%';
+      iframe.style.height = '100px'; 
+      iframe.style.overflow = 'hidden';
+      
+      containerRef.current.appendChild(iframe);
+      
+      const doc = iframe.contentWindow?.document || iframe.contentDocument;
+      if (doc) {
+        doc.open();
+        doc.write(`
+          <!DOCTYPE html>
+          <html>
+          <head><style>body { margin: 0; padding: 0; display: flex; justify-content: center; background: transparent; }</style></head>
+          <body>
+            <div id="container-e6efce44c8b7216385f49f87f70366ae"></div>
+            <script async="async" data-cfasync="false" src="https://pl31035586.profitableratecpmnetwork.com/e6efce44c8b7216385f49f87f70366ae/invoke.js"></script>
+          </body>
+          </html>
+        `);
+        doc.close();
+      }
       return;
     }
 
-    const script = document.createElement('script');
-    script.id = scriptId;
-    script.async = true;
-    script.src = 'https://pl31035586.profitableratecpmnetwork.com/e6efce44c8b7216385f49f87f70366ae/invoke.js';
-    script.setAttribute('data-cfasync', 'false');
+    // Standard Adsterra Banners
+    if (!containerRef.current) return;
+    if (containerRef.current.dataset.loaded === 'true') return;
+    containerRef.current.dataset.loaded = 'true';
 
-    if (containerRef.current) {
-      containerRef.current.appendChild(script);
-    }
+    const config = AD_CONFIGS[format];
 
-    return () => {
-      // Cleanup if the component unmounts
-      if (containerRef.current && containerRef.current.contains(script)) {
-        containerRef.current.removeChild(script);
+    const loadAd = () => {
+      if (!containerRef.current) {
+        isAdLoading = false;
+        processAdQueue();
+        return;
       }
+
+      // 1. Assign correct configuration exactly before the script is appended and executed
+      const confScript = document.createElement('script');
+      confScript.type = 'text/javascript';
+      confScript.innerHTML = `
+        atOptions = {
+          'key' : '${config.key}',
+          'format' : 'iframe',
+          'height' : ${config.height},
+          'width' : ${config.width},
+          'params' : {}
+        };
+      `;
+
+      // 2. Load the official invoke script
+      const invokeScript = document.createElement('script');
+      invokeScript.type = 'text/javascript';
+      invokeScript.src = `https://www.highrevenueformat.com/${config.key}/invoke.js`;
+      
+      // 3. Advance queue when script completely loads or fails
+      invokeScript.onload = () => {
+        isAdLoading = false;
+        processAdQueue();
+      };
+      invokeScript.onerror = () => {
+        isAdLoading = false;
+        processAdQueue();
+      };
+
+      containerRef.current.appendChild(confScript);
+      containerRef.current.appendChild(invokeScript);
     };
+
+    adQueue.push(loadAd);
+    processAdQueue();
+
   }, [isRendered, format]);
 
   if (!isRendered) {
-    // Return empty placeholder with correct dimensions during SSR
     if (format === 'native') return <div className={`min-h-[100px] ${className}`} />;
     const config = AD_CONFIGS[format];
     return <div className={className} style={{ width: config.width, height: config.height }} />;
@@ -73,46 +142,20 @@ export function PublisherAd({ format, className = '' }: PublisherAdProps) {
 
   if (format === 'native') {
     return (
-      <div className={`w-full flex justify-center ${className}`}>
-        <div ref={containerRef}>
-          <div id="container-e6efce44c8b7216385f49f87f70366ae"></div>
-        </div>
-      </div>
+      <div 
+        className={`w-full flex justify-center overflow-hidden ${className}`} 
+        ref={containerRef} 
+      />
     );
   }
 
   const config = AD_CONFIGS[format];
-  
-  // Use srcDoc to perfectly isolate atOptions variables and prevent document.write issues
-  const iframeHtml = `<!DOCTYPE html>
-<html>
-  <head>
-    <style>body { margin: 0; padding: 0; overflow: hidden; background: transparent; }</style>
-  </head>
-  <body>
-    <script type="text/javascript">
-      atOptions = {
-        'key' : '${config.key}',
-        'format' : 'iframe',
-        'height' : ${config.height},
-        'width' : ${config.width},
-        'params' : {}
-      };
-    </script>
-    <script type="text/javascript" src="https://www.highrevenueformat.com/${config.key}/invoke.js"></script>
-  </body>
-</html>`;
 
   return (
-    <div className={`flex justify-center overflow-hidden ${className}`}>
-      <iframe
-        title={`Ad ${format}`}
-        width={config.width}
-        height={config.height}
-        srcDoc={iframeHtml}
-        style={{ border: 'none', overflow: 'hidden' }}
-        sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox allow-same-origin"
-      />
-    </div>
+    <div 
+      className={`flex justify-center items-center overflow-hidden ${className}`}
+      style={{ width: config.width, height: config.height, margin: '0 auto' }}
+      ref={containerRef}
+    />
   );
 }

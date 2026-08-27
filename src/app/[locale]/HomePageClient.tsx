@@ -8,6 +8,7 @@ import { Footer } from '@/components/layout/Footer';
 import { ToolGrid } from '@/components/tools/ToolGrid';
 import { Button } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';
+import { PublisherAd } from '@/components/common/PublisherAd';
 import { getAllTools, getToolsByCategory, getPopularTools } from '@/config/tools';
 import { type Locale, locales } from '@/lib/i18n/config';
 import { CATEGORY_INFO, type ToolCategory } from '@/types/tool';
@@ -136,6 +137,12 @@ export default function HomePageClient({ locale, localizedToolContent }: HomePag
           </div>
         </section>
 
+        {/* Ad Placement 1: After Hero */}
+        <div className="container mx-auto px-4 py-8 flex justify-center">
+          <PublisherAd format="728x90" className="hidden md:block w-full max-w-[728px]" />
+          <PublisherAd format="320x50" className="block md:hidden w-full max-w-[320px]" />
+        </div>
+
         {/* Features Section */}
         <section className="py-12 relative z-20" aria-label="Features">
           <div className="container mx-auto px-4">
@@ -210,6 +217,12 @@ export default function HomePageClient({ locale, localizedToolContent }: HomePag
             />
           </div>
         </section>
+
+        {/* Ad Placement 2: Between Major content sections */}
+        <div className="container mx-auto px-4 py-8 flex justify-center">
+          <PublisherAd format="728x90" className="hidden md:block w-full max-w-[728px]" />
+          <PublisherAd format="320x50" className="block md:hidden w-full max-w-[320px]" />
+        </div>
 
         {/* Tool Categories Section */}
         <section className="py-16 bg-[hsl(var(--color-muted)/0.3)]" aria-labelledby="categories-heading">
@@ -295,6 +308,12 @@ export default function HomePageClient({ locale, localizedToolContent }: HomePag
             </div>
           </div>
         </section>
+
+        {/* Ad Placement 3: Before Footer */}
+        <div className="container mx-auto px-4 pb-12 flex justify-center">
+          <PublisherAd format="728x90" className="hidden md:block w-full max-w-[728px]" />
+          <PublisherAd format="320x50" className="block md:hidden w-full max-w-[320px]" />
+        </div>
       </main>
 
       <Footer locale={locale} />

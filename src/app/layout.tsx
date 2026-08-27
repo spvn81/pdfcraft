@@ -9,9 +9,9 @@ export const metadata: Metadata = {
   title: 'SPVN Tech PDF Tools - Professional PDF Tools',
   description: 'Free online PDF tools for merging, splitting, compressing, and converting PDF files. All processing happens in your browser for maximum privacy.',
   icons: {
-    icon: `${BASE_PATH}/favicon.svg`,
-    shortcut: `${BASE_PATH}/favicon.svg`,
-    apple: `${BASE_PATH}/favicon.svg`,
+    icon: `${BASE_PATH}/favicon.png`,
+    shortcut: `${BASE_PATH}/favicon.png`,
+    apple: `${BASE_PATH}/favicon.png`,
   },
 };
 
