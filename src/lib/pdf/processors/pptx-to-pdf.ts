@@ -89,9 +89,17 @@ export class PPTXToPDFProcessor extends BasePDFProcessor {
         try {
             this.updateProgress(5, 'Loading conversion engine (first time may take 1-2 minutes)...');
 
-            const converter = await getSharedLibreOfficeConverter((percent, message) => {
-                this.updateProgress(Math.min(percent * 0.8, 80), message);
-            });
+            // Initialize with timeout protection in case the worker crashes silently during WASM compilation
+            const converter = await Promise.race([
+                getSharedLibreOfficeConverter((percent, message) => {
+                    this.updateProgress(Math.min(percent * 0.8, 80), message);
+                }),
+                new Promise<never>((_, reject) =>
+                    setTimeout(() => reject(new Error(
+                        'Engine initialization timed out or crashed. Please try again.'
+                    )), 60000) // 1 minute max for init
+                )
+            ]);
 
             if (this.checkCancelled()) {
                 return this.createErrorOutput(PDFErrorCode.PROCESSING_CANCELLED, 'Processing was cancelled.');
