@@ -119,6 +119,9 @@ jobs:
           ssh -i ~/.ssh/deploy_key ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} "
             set -euo pipefail
             
+            TARGET_CONF=\"$TARGET_CONF\"
+            FORCE_NGINX=\"${FORCE_NGINX:-false}\"
+            
             # Check if we need to deploy
             NEEDS_DEPLOY=false
             if [ \"\$FORCE_NGINX\" = 'true' ]; then
