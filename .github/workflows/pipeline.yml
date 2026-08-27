@@ -147,22 +147,29 @@ jobs:
               cp /tmp/spvntech-pdf-tools.conf \$TARGET_CONF
               
               # Validate Nginx
-              if sudo nginx -t; then
+              if sudo -n /usr/sbin/nginx -t > /tmp/nginx_test.log 2>&1; then
                 echo '[NGINX] Configuration is valid. Reloading...'
-                sudo systemctl reload nginx
+                cat /tmp/nginx_test.log
+                sudo -n /bin/systemctl reload nginx
                 
                 # Verify effective config
-                if ! sudo nginx -T | grep -q 'location ^~ /pdf-tools/libreoffice-wasm/'; then
+                if ! sudo -n /usr/sbin/nginx -T | grep -q 'location ^~ /pdf-tools/libreoffice-wasm/'; then
                   echo '[NGINX] Error: location block not found in effective config after reload!'
                   exit 1
                 fi
               else
+                cat /tmp/nginx_test.log
+                if grep -Eq 'sudo: a password is required|sudo: a terminal is required' /tmp/nginx_test.log; then
+                  echo 'Nginx deployment requires passwordless sudo for the approved Nginx commands.'
+                  exit 1
+                fi
+
                 echo '[NGINX] Validation failed! Rolling back...'
                 if [ -f \${TARGET_CONF}.bak ]; then
                   cp \${TARGET_CONF}.bak \$TARGET_CONF
                 fi
                 # Ensure rollback is valid
-                sudo nginx -t
+                sudo -n /usr/sbin/nginx -t
                 exit 1
               fi
             fi
