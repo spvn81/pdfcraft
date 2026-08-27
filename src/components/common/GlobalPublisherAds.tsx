@@ -3,7 +3,7 @@
 import Script from 'next/script';
 
 // Toggle these flags to easily enable or disable global ad scripts.
-const ENABLE_ANTI_ADBLOCK_SYNC = true;
+const ENABLE_ANTI_ADBLOCK_SYNC = false;
 const ENABLE_SOCIALBAR = false;
 
 /**
