@@ -1,0 +1,350 @@
+name: Production Pipeline
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: production-pipeline
+  cancel-in-progress: false
+
+jobs:
+  build-web:
+    name: Build Web
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: TypeScript Check
+        run: npx tsc --noEmit
+
+      - name: Build static export
+        env:
+          BASE_PATH: /pdf-tools
+          NODE_ENV: production
+        run: npm run build
+
+      - name: Verify build output
+        run: |
+          set -euo pipefail
+          
+          # Verify core directories
+          if [ ! -d "out/_next" ]; then
+            echo "Error: out/_next directory not found!"
+            exit 1
+          fi
+          if [ ! -f "out/index.html" ]; then
+            echo "Error: out/index.html not found!"
+            exit 1
+          fi
+          
+          # Verify LibreOffice WASM assets
+          WASM_DIR="out/libreoffice-wasm"
+          if [ ! -d "$WASM_DIR" ]; then
+            echo "Error: LibreOffice WASM directory not found at $WASM_DIR!"
+            exit 1
+          fi
+          
+          for file in "browser.worker.global.js" "soffice.worker.js" "soffice.js" "soffice.wasm.bin" "soffice.data.bin"; do
+            if [ ! -f "$WASM_DIR/$file" ]; then
+              echo "Error: Missing required asset $file in $WASM_DIR!"
+              exit 1
+            fi
+          done
+          
+          echo "Build verification passed."
+
+      - name: Upload Web Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: web-artifact
+          path: out/
+
+  deploy-vps:
+    name: Deploy to VPS
+    needs: build-web
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Download Web Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: web-artifact
+          path: out/
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SERVER_SSH_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -H ${{ secrets.SERVER_HOST }} >> ~/.ssh/known_hosts
+
+      - name: Deploy Nginx Configuration
+        env:
+          TARGET_CONF: /home/spvntech/conf/web/spvntech.in/nginx.ssl.conf_pdf_tools
+        run: |
+          set -euo pipefail
+          
+          echo "[NGINX] Transferring custom Nginx config..."
+          scp -i ~/.ssh/deploy_key deploy/nginx/spvntech-pdf-tools.conf ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:/tmp/spvntech-pdf-tools.conf
+          
+          echo "[NGINX] Applying and validating configuration..."
+          ssh -i ~/.ssh/deploy_key ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} "
+            set -euo pipefail
+            
+            # Backup existing
+            if [ -f $TARGET_CONF ]; then
+              cp $TARGET_CONF ${TARGET_CONF}.bak
+            fi
+            
+            # Copy new config
+            cp /tmp/spvntech-pdf-tools.conf $TARGET_CONF
+            
+            # Validate Nginx
+            if sudo nginx -t; then
+              echo '[NGINX] Configuration is valid. Reloading...'
+              sudo systemctl reload nginx
+              
+              # Verify effective config
+              if ! sudo nginx -T | grep -q 'location ^~ /pdf-tools/libreoffice-wasm/'; then
+                echo '[NGINX] Error: location block not found in effective config after reload!'
+                exit 1
+              fi
+            else
+              echo '[NGINX] Validation failed! Rolling back...'
+              if [ -f ${TARGET_CONF}.bak ]; then
+                cp ${TARGET_CONF}.bak $TARGET_CONF
+              fi
+              # Ensure rollback is valid
+              sudo nginx -t
+              exit 1
+            fi
+          "
+
+      - name: Verify Exact Target Path
+        run: |
+          set -euo pipefail
+          echo "[DEPLOY] Verifying target directory..."
+          ssh -i ~/.ssh/deploy_key ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} "
+            TARGET='/home/spvntech/web/spvntech.in/public_html/pdf-tools'
+            if [ ! -d \"\$TARGET\" ]; then
+              echo \"Error: Target directory \$TARGET does not exist!\"
+              exit 1
+            fi
+            
+            # Safety check: ensure it's not the root public_html
+            if [ \"\$TARGET\" = \"/home/spvntech/web/spvntech.in/public_html\" ] || [ \"\$TARGET\" = \"/home/spvntech/web/spvntech.in/public_html/\" ]; then
+              echo \"Error: Target path is incorrectly pointing to Yii2 root! Aborting.\"
+              exit 1
+            fi
+          "
+
+      - name: Deploy Static Web using Rsync
+        run: |
+          echo "[DEPLOY] Rsyncing files..."
+          rsync -az --delete -e "ssh -i ~/.ssh/deploy_key -o ServerAliveInterval=30" ./out/ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:/home/spvntech/web/spvntech.in/public_html/pdf-tools/
+
+      - name: Verify Origin Headers
+        run: |
+          echo "[VERIFY] Checking origin headers..."
+          # Get IP from host mapping if possible, or just use host
+          curl -s -k -I https://spvntech.in/pdf-tools/libreoffice-wasm/browser.worker.global.js > headers.txt
+          
+          if ! grep -qi "HTTP/.* 200" headers.txt; then
+            echo "Error: browser.worker.global.js did not return HTTP 200!"
+            cat headers.txt
+            exit 1
+          fi
+          
+          if ! grep -qi "Cross-Origin-Opener-Policy: same-origin" headers.txt || \
+             ! grep -qi "Cross-Origin-Embedder-Policy: credentialless" headers.txt || \
+             ! grep -qi "Cross-Origin-Resource-Policy: cross-origin" headers.txt; then
+            echo "Error: Missing isolation headers!"
+            cat headers.txt
+            exit 1
+          fi
+          
+          echo "[VERIFY] Checking WASM MIME type..."
+          curl -s -k -I https://spvntech.in/pdf-tools/libreoffice-wasm/soffice.wasm.bin > wasm_headers.txt
+          if ! grep -qi "Content-Type: application/wasm" wasm_headers.txt; then
+            echo "Error: soffice.wasm.bin did not return application/wasm!"
+            cat wasm_headers.txt
+            exit 1
+          fi
+          
+          echo "[VERIFY] Production origin verification successful."
+
+  build-tauri:
+    name: Build Tauri
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+    strategy:
+      fail-fast: false
+      matrix:
+        platform: [ubuntu-latest, macos-latest, windows-latest]
+    runs-on: ${{ matrix.platform }}
+    env:
+      CARGO_TERM_COLOR: always
+      CARGO_NET_RETRY: 10
+      CARGO_NET_GIT_FETCH_WITH_CLI: true
+      CARGO_HTTP_MULTIPLEXING: false
+      CARGO_REGISTRIES_CRATES_IO_PROTOCOL: sparse
+      RUSTUP_MAX_RETRIES: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Rust stable
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Cache Rust dependencies
+        uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: src-tauri -> target
+          cache-on-failure: true
+
+      - name: Install Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies (Ubuntu only)
+        if: matrix.platform == 'ubuntu-latest'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libwebkit2gtk-4.1-dev build-essential curl wget file libxdo-dev libssl-dev libayatana-appindicator3-dev librsvg2-dev
+
+      - name: Install npm dependencies
+        run: npm ci
+
+      - name: Build Tauri app
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 60
+          max_attempts: 3
+          retry_on: error
+          shell: bash
+          command: npx tauri build
+        env:
+          TAURI_ENV: "true"
+
+      - name: Upload Tauri bundles
+        uses: actions/upload-artifact@v4
+        with:
+          name: tauri-${{ matrix.platform }}
+          path: |
+            src-tauri/target/release/bundle/**/*.dmg
+            src-tauri/target/release/bundle/**/*.msi
+            src-tauri/target/release/bundle/**/*.exe
+            src-tauri/target/release/bundle/**/*.deb
+            src-tauri/target/release/bundle/**/*.AppImage
+          if-no-files-found: warn
+
+  release:
+    name: Build and Release
+    needs: [build-web, deploy-vps, build-tauri]
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate version info
+        id: version
+        run: |
+          VERSION="v$(date +'%Y.%m.%d')-$(git rev-parse --short HEAD)"
+          BUILD_TIME=$(date -u +'%Y-%m-%d %H:%M:%S UTC')
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "build_time=$BUILD_TIME" >> $GITHUB_OUTPUT
+          echo "Generated version: $VERSION"
+
+      - name: Download Web Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: web-artifact
+          path: out/
+
+      - name: Create Web release package
+        run: |
+          cd out
+          zip -r ../pdfcraft-${{ steps.version.outputs.version }}.zip .
+          cd ..
+          echo "📦 Release package created: pdfcraft-${{ steps.version.outputs.version }}.zip"
+
+      - name: Download Tauri macOS build
+        uses: actions/download-artifact@v4
+        with:
+          name: tauri-macos-latest
+          path: tauri-bundles/macos
+        continue-on-error: true
+
+      - name: Download Tauri Windows build
+        uses: actions/download-artifact@v4
+        with:
+          name: tauri-windows-latest
+          path: tauri-bundles/windows
+        continue-on-error: true
+
+      - name: Download Tauri Linux build
+        uses: actions/download-artifact@v4
+        with:
+          name: tauri-ubuntu-latest
+          path: tauri-bundles/linux
+        continue-on-error: true
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.version.outputs.version }}
+          name: PDFCraft ${{ steps.version.outputs.version }}
+          body: |
+            ## 🚀 PDFCraft Release ${{ steps.version.outputs.version }}
+
+            ### 📦 Download & Install
+            Download the appropriate file for your platform:
+            - **Windows:** `.msi` or `.exe`
+            - **macOS:** `.dmg`
+            - **Linux:** `.deb` or `.AppImage`
+
+            Install and run like any desktop application.
+
+            ---
+            **Commit:** `${{ github.sha }}`
+            **Build Time:** ${{ steps.version.outputs.build_time }}
+          files: |
+            pdfcraft-${{ steps.version.outputs.version }}.zip
+            tauri-bundles/**/*.dmg
+            tauri-bundles/**/*.msi
+            tauri-bundles/**/*.exe
+            tauri-bundles/**/*.deb
+            tauri-bundles/**/*.AppImage
+          draft: false
+          prerelease: false
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
