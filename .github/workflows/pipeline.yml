@@ -8,7 +8,12 @@ on:
     branches:
       - main
   workflow_dispatch:
-
+    inputs:
+      force_nginx_deploy:
+        description: 'Force Nginx configuration deployment and reload'
+        required: false
+        type: boolean
+        default: false
 concurrency:
   group: production-pipeline
   cancel-in-progress: false
@@ -103,6 +108,7 @@ jobs:
       - name: Deploy Nginx Configuration
         env:
           TARGET_CONF: /home/spvntech/conf/web/spvntech.in/nginx.ssl.conf_pdf_tools
+          FORCE_NGINX: ${{ github.event.inputs.force_nginx_deploy }}
         run: |
           set -euo pipefail
           
@@ -113,32 +119,49 @@ jobs:
           ssh -i ~/.ssh/deploy_key ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} "
             set -euo pipefail
             
-            # Backup existing
-            if [ -f $TARGET_CONF ]; then
-              cp $TARGET_CONF ${TARGET_CONF}.bak
+            # Check if we need to deploy
+            NEEDS_DEPLOY=false
+            if [ \"\$FORCE_NGINX\" = 'true' ]; then
+              echo '[NGINX] Force deploy requested.'
+              NEEDS_DEPLOY=true
+            elif [ ! -f \$TARGET_CONF ]; then
+              echo '[NGINX] Target config does not exist on remote. Deploying for the first time.'
+              NEEDS_DEPLOY=true
+            elif ! cmp -s /tmp/spvntech-pdf-tools.conf \$TARGET_CONF; then
+              echo '[NGINX] Target config differs from repository. Deploying.'
+              NEEDS_DEPLOY=true
+            else
+              echo '[NGINX] Config matches existing remote config. Skipping Nginx deployment and reload.'
             fi
-            
-            # Copy new config
-            cp /tmp/spvntech-pdf-tools.conf $TARGET_CONF
-            
-            # Validate Nginx
-            if sudo nginx -t; then
-              echo '[NGINX] Configuration is valid. Reloading...'
-              sudo systemctl reload nginx
+
+            if [ \"\$NEEDS_DEPLOY\" = 'true' ]; then
+              # Backup existing
+              if [ -f \$TARGET_CONF ]; then
+                cp \$TARGET_CONF \${TARGET_CONF}.bak
+              fi
               
-              # Verify effective config
-              if ! sudo nginx -T | grep -q 'location ^~ /pdf-tools/libreoffice-wasm/'; then
-                echo '[NGINX] Error: location block not found in effective config after reload!'
+              # Copy new config
+              cp /tmp/spvntech-pdf-tools.conf \$TARGET_CONF
+              
+              # Validate Nginx
+              if sudo nginx -t; then
+                echo '[NGINX] Configuration is valid. Reloading...'
+                sudo systemctl reload nginx
+                
+                # Verify effective config
+                if ! sudo nginx -T | grep -q 'location ^~ /pdf-tools/libreoffice-wasm/'; then
+                  echo '[NGINX] Error: location block not found in effective config after reload!'
+                  exit 1
+                fi
+              else
+                echo '[NGINX] Validation failed! Rolling back...'
+                if [ -f \${TARGET_CONF}.bak ]; then
+                  cp \${TARGET_CONF}.bak \$TARGET_CONF
+                fi
+                # Ensure rollback is valid
+                sudo nginx -t
                 exit 1
               fi
-            else
-              echo '[NGINX] Validation failed! Rolling back...'
-              if [ -f ${TARGET_CONF}.bak ]; then
-                cp ${TARGET_CONF}.bak $TARGET_CONF
-              fi
-              # Ensure rollback is valid
-              sudo nginx -t
-              exit 1
             fi
           "
 
