@@ -74,7 +74,7 @@ export function PublisherAd({ format, className = '' }: PublisherAdProps) {
           <head><style>body { margin: 0; padding: 0; display: flex; justify-content: center; background: transparent; }</style></head>
           <body>
             <div id="container-e6efce44c8b7216385f49f87f70366ae"></div>
-            <script async="async" data-cfasync="false" src="https://pl31035586.profitableratecpmnetwork.com/e6efce44c8b7216385f49f87f70366ae/invoke.js"></script>
+            <script async="async" data-cfasync="false" src="https://mittengulped.com/e6efce44c8b7216385f49f87f70366ae/invoke.js"></script>
           </body>
           </html>
         `);

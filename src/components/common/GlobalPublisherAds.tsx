@@ -3,8 +3,9 @@
 import Script from 'next/script';
 
 // Toggle these flags to easily enable or disable global ad scripts.
-const ENABLE_ANTI_ADBLOCK_SYNC = false;
-const ENABLE_SOCIALBAR = false;
+const ENABLE_ANTI_ADBLOCK_SYNC = true;
+const ENABLE_SOCIALBAR = false; // Legacy URL unverified. Awaiting authoritative script.
+const ENABLE_POPUNDER = false; // Awaiting authoritative script from Publisher.
 
 /**
  * GlobalPublisherAds handles the injection of global ad scripts.
@@ -28,6 +29,10 @@ export function GlobalPublisherAds() {
           src="https://pl31035584.profitableratecpmnetwork.com/e0/40/c0/e040c03e2f9ba00f31edafbb8ecc7ff3.js"
           strategy="afterInteractive"
         />
+      )}
+
+      {ENABLE_POPUNDER && (
+        <>{/* Placeholder: Inject Popunder script here when verified code is provided */}</>
       )}
     </>
   );

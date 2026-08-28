@@ -10,7 +10,7 @@ import { ToolGrid } from '@/components/tools/ToolGrid';
 import { ToolCard } from '@/components/tools/ToolCard';
 import { Button } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';
-import { PublisherAd } from '@/components/common/PublisherAd';
+import { ResponsiveAd } from '@/components/common/ResponsiveAd';
 import { getAllTools, getToolsByCategory, getToolById } from '@/config/tools';
 import { toolMatchesQuery } from '@/lib/utils/search';
 import { type Locale } from '@/lib/i18n/config';
@@ -157,8 +157,7 @@ export default function ToolsPageClient({ locale, localizedToolContent }: ToolsP
 
         {/* Ad Placement 1: Top of tools page */}
         <div className="container mx-auto px-4 py-6 flex justify-center">
-          <PublisherAd format="728x90" className="hidden md:block w-full max-w-[728px]" />
-          <PublisherAd format="320x50" className="block md:hidden w-full max-w-[320px]" />
+          <ResponsiveAd placement="hero" />
         </div>
 
         {/* Filters and Tools */}
@@ -301,8 +300,7 @@ export default function ToolsPageClient({ locale, localizedToolContent }: ToolsP
 
         {/* Ad Placement 2: Bottom of tools page */}
         <div className="container mx-auto px-4 py-8 flex justify-center bg-[hsl(var(--color-muted)/0.3)]">
-          <PublisherAd format="728x90" className="hidden md:block w-full max-w-[728px]" />
-          <PublisherAd format="320x50" className="block md:hidden w-full max-w-[320px]" />
+          <ResponsiveAd placement="content" />
         </div>
       </main>
 
