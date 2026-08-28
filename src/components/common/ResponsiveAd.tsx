@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { PublisherAd, AdFormat } from './PublisherAd';
 import { useMediaQuery } from '@/hooks/useMediaQuery';
 
-export type AdPlacement = 'hero' | 'content' | 'sidebar';
+export type AdPlacement = 'hero' | 'content' | 'sidebar' | 'sidebar-left' | 'sidebar-right';
 
 interface ResponsiveAdProps {
   placement: AdPlacement;
@@ -18,11 +18,21 @@ export function ResponsiveAd({ placement, className = '' }: ResponsiveAdProps) {
 
   const isDesktop = useMediaQuery('(min-width: 1024px)');
   const isTablet = useMediaQuery('(min-width: 768px) and (max-width: 1023px)');
+  const isTall = useMediaQuery('(min-height: 800px)');
   // isMobile is implicitly anything under 768px
+
+  // Sidebars are strictly for desktop (specifically >= 1280px via CSS, but at least 1024px logically here)
+  const isSidebar = placement === 'sidebar' || placement === 'sidebar-left' || placement === 'sidebar-right';
+  if (isSidebar && !isDesktop) {
+    return null;
+  }
 
   if (!mounted) {
     // Return empty div with minimal height to prevent major layout shifts, 
     // but without initializing the ad script yet.
+    if (isSidebar) {
+      return <div className={`w-[160px] ${isTall ? 'h-[600px]' : 'h-[300px]'} ${className}`} />;
+    }
     return <div className={`min-h-[50px] w-full ${className}`} />;
   }
 
@@ -36,9 +46,9 @@ export function ResponsiveAd({ placement, className = '' }: ResponsiveAdProps) {
     if (isDesktop) format = '300x250'; // Alternatively 'native' could be injected here, but default to 300x250
     else if (isTablet) format = '300x250';
     else format = '320x50'; // 300x250 can sometimes be too wide on very narrow 320px screens, so defaulting to 320x50 for mobile content to be safe and avoid horizontal scroll.
-  } else if (placement === 'sidebar') {
-    if (isDesktop) format = '160x600';
-    else format = '300x250'; // Should theoretically not be rendered as a sidebar on mobile, but fallback to 300x250
+  } else if (isSidebar) {
+    // On desktop, use 160x600 if there's enough height, otherwise 160x300
+    format = isTall ? '160x600' : '160x300';
   } else {
     format = '320x50';
   }

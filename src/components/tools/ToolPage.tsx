@@ -62,76 +62,91 @@ export function ToolPage({ tool, content, locale, children, localizedRelatedTool
         <Header locale={locale as Locale} />
 
         <main id="main-content" className="flex-1" tabIndex={-1}>
-          <div className="max-w-7xl mx-auto px-4 pt-24 pb-8">
-            {/* Breadcrumb Navigation */}
-            <nav aria-label="Breadcrumb" className="mb-4 flex items-center text-sm text-[hsl(var(--color-muted-foreground))] animate-in fade-in slide-in-from-top-4 duration-500 delay-100">
-              <Link
-                href={`/${locale}/`}
-                className="flex items-center hover:text-[hsl(var(--color-primary))] transition-colors"
-                title={t('common.navigation.home')}
-              >
-                <Home className="w-4 h-4" />
-              </Link>
-              <ChevronRight className="w-4 h-4 mx-2 text-[hsl(var(--color-border))]" />
-              <Link
-                href={`/${locale}/tools/`}
-                className="hover:text-[hsl(var(--color-primary))] transition-colors"
-              >
-                {t('common.navigation.tools')}
-              </Link>
-              <ChevronRight className="w-4 h-4 mx-2 text-[hsl(var(--color-border))]" />
-              <Link
-                href={`/${locale}/tools/category/${tool.category}/`}
-                className="hover:text-[hsl(var(--color-primary))] transition-colors"
-              >
-                {t(`home.categories.${categoryTranslationKeys[tool.category]}`)}
-              </Link>
-              <ChevronRight className="w-4 h-4 mx-2 text-[hsl(var(--color-border))]" />
-              <span className="font-medium text-[hsl(var(--color-foreground))] truncate max-w-[200px] sm:max-w-md" aria-current="page">
-                {content.title || toolDisplayName}
-              </span>
-            </nav>
+          <div className="w-full flex justify-center max-w-[1920px] mx-auto px-4 pt-24 pb-8 gap-6">
+            
+            {/* Left Sidebar Ad */}
+            <aside className="hidden xl:block w-[160px] flex-shrink-0 sticky top-24 h-max">
+              <ResponsiveAd placement="sidebar-left" />
+            </aside>
 
-            {/* Tool Header */}
-            <ToolHeader tool={tool} content={content} />
+            {/* Main Content Area */}
+            <div className="flex-1 min-w-0 max-w-7xl">
+              {/* Breadcrumb Navigation */}
+              <nav aria-label="Breadcrumb" className="mb-4 flex items-center text-sm text-[hsl(var(--color-muted-foreground))] animate-in fade-in slide-in-from-top-4 duration-500 delay-100">
+                <Link
+                  href={`/${locale}/`}
+                  className="flex items-center hover:text-[hsl(var(--color-primary))] transition-colors"
+                  title={t('common.navigation.home')}
+                >
+                  <Home className="w-4 h-4" />
+                </Link>
+                <ChevronRight className="w-4 h-4 mx-2 text-[hsl(var(--color-border))]" />
+                <Link
+                  href={`/${locale}/tools/`}
+                  className="hover:text-[hsl(var(--color-primary))] transition-colors"
+                >
+                  {t('common.navigation.tools')}
+                </Link>
+                <ChevronRight className="w-4 h-4 mx-2 text-[hsl(var(--color-border))]" />
+                <Link
+                  href={`/${locale}/tools/category/${tool.category}/`}
+                  className="hover:text-[hsl(var(--color-primary))] transition-colors"
+                >
+                  {t(`home.categories.${categoryTranslationKeys[tool.category]}`)}
+                </Link>
+                <ChevronRight className="w-4 h-4 mx-2 text-[hsl(var(--color-border))]" />
+                <span className="font-medium text-[hsl(var(--color-foreground))] truncate max-w-[200px] sm:max-w-md" aria-current="page">
+                  {content.title || toolDisplayName}
+                </span>
+              </nav>
 
-            {/* Tool Interface Area */}
-            <section
-              className="mt-6"
-              data-testid="tool-page-interface"
-              aria-label="Tool interface"
-            >
-              {children}
-            </section>
+              {/* Tool Header */}
+              <ToolHeader tool={tool} content={content} />
 
-            {/* Primary Content Advertisement */}
-            <div className="w-full flex justify-center my-8">
-              <ResponsiveAd placement="content" />
+              {/* Tool Interface Area */}
+              <section
+                className="mt-6"
+                data-testid="tool-page-interface"
+                aria-label="Tool interface"
+              >
+                {children}
+              </section>
+
+              {/* Primary Content Advertisement */}
+              <div className="w-full flex justify-center my-8">
+                <ResponsiveAd placement="content" />
+              </div>
+
+              {/* Description Section */}
+              <DescriptionSection description={content.description} />
+
+              {/* How to Use Section */}
+              <HowToUseSection steps={content.howToUse} />
+
+              {/* Use Cases Section */}
+              <UseCasesSection useCases={content.useCases} />
+
+              {/* FAQ Section */}
+              <FAQSection faq={content.faq} />
+
+              {/* Related Tools Section */}
+              <RelatedToolsSection
+                tools={relatedTools}
+                locale={locale}
+                localizedRelatedTools={localizedRelatedTools}
+              />
+
+              {/* Secondary Content Advertisement */}
+              <div className="w-full flex justify-center mt-8">
+                <ResponsiveAd placement="hero" />
+              </div>
             </div>
 
-            {/* Description Section */}
-            <DescriptionSection description={content.description} />
+            {/* Right Sidebar Ad */}
+            <aside className="hidden xl:block w-[160px] flex-shrink-0 sticky top-24 h-max">
+              <ResponsiveAd placement="sidebar-right" />
+            </aside>
 
-            {/* How to Use Section */}
-            <HowToUseSection steps={content.howToUse} />
-
-            {/* Use Cases Section */}
-            <UseCasesSection useCases={content.useCases} />
-
-            {/* FAQ Section */}
-            <FAQSection faq={content.faq} />
-
-            {/* Related Tools Section */}
-            <RelatedToolsSection
-              tools={relatedTools}
-              locale={locale}
-              localizedRelatedTools={localizedRelatedTools}
-            />
-
-            {/* Secondary Content Advertisement */}
-            <div className="w-full flex justify-center mt-8">
-              <ResponsiveAd placement="hero" />
-            </div>
           </div>
         </main>
 
