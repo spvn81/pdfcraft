@@ -258,9 +258,7 @@ export default function ToolsPageClient({ locale, localizedToolContent }: ToolsP
                     <div className="w-full flex justify-center mt-8">
                       <GoogleAd 
                         key={`${selectedCategory}-${searchQuery}`}
-                        format="fluid"
-                        layoutKey="-fe-f+2h-5z+6n"
-                        slot="1108330390"
+                        variant="in-feed"
                       />
                     </div>
                   )}

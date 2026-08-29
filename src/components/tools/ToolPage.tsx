@@ -15,6 +15,7 @@ import { FavoriteButton } from '@/components/ui/FavoriteButton';
 import { useMemo } from 'react';
 import { sanitizeHtml } from '@/lib/utils/html-sanitizer';
 import { GoogleAd } from '@/components/common/GoogleAd';
+import { useMediaQuery } from '@/hooks/useMediaQuery';
 
 export interface ToolPageProps {
   /** Tool data */
@@ -56,6 +57,9 @@ export function ToolPage({ tool, content, locale, children, localizedRelatedTool
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
     .join(' ');
 
+  // Check for desktop viewport to conditionally render sidebars
+  const isDesktop = useMediaQuery('(min-width: 1280px)');
+
   return (
     <ToolProvider toolSlug={tool.slug} toolName={toolDisplayName}>
       <div className="min-h-screen flex flex-col" data-testid="tool-page">
@@ -64,8 +68,17 @@ export function ToolPage({ tool, content, locale, children, localizedRelatedTool
         <main id="main-content" className="flex-1" tabIndex={-1}>
           <div className="w-full flex justify-center max-w-[1920px] mx-auto px-4 pt-24 pb-8 gap-6">
 
+            {/* Desktop Left Sidebar Ad */}
+            {isDesktop && (
+              <aside className="w-[160px] 2xl:w-[300px] flex-shrink-0" aria-label="Advertisement left">
+                <div className="sticky top-24">
+                  <GoogleAd variant="display" />
+                </div>
+              </aside>
+            )}
+
             {/* Main Content Area */}
-            <div className="flex-1 min-w-0 max-w-7xl">
+            <div className="flex-1 min-w-0 max-w-4xl">
               {/* Breadcrumb Navigation */}
               <nav aria-label="Breadcrumb" className="mb-4 flex items-center text-sm text-[hsl(var(--color-muted-foreground))] animate-in fade-in slide-in-from-top-4 duration-500 delay-100">
                 <Link
@@ -107,13 +120,9 @@ export function ToolPage({ tool, content, locale, children, localizedRelatedTool
                 {children}
               </section>
 
-              {/* AdSense Placement: Responsive (After Tool Interface) */}
+              {/* AdSense Placement: Responsive Fluid (After Tool Interface) */}
               <div className="w-full flex justify-center mt-8">
-                <GoogleAd 
-                  format="auto"
-                  fullWidthResponsive={true}
-                  slot="6211361108"
-                />
+                <GoogleAd variant="fluid" />
               </div>
 
               {/* Description Section */}
@@ -122,20 +131,20 @@ export function ToolPage({ tool, content, locale, children, localizedRelatedTool
               {/* How to Use Section */}
               <HowToUseSection steps={content.howToUse} />
 
+              {/* AdSense Placement: In-Article (After How to Use / Content) */}
+              <div className="w-full flex justify-center mt-8">
+                <GoogleAd variant="new-in-article" />
+              </div>
+
               {/* Use Cases Section */}
               <UseCasesSection useCases={content.useCases} />
 
               {/* FAQ Section */}
               <FAQSection faq={content.faq} />
 
-              {/* AdSense Placement: In-Article (Before Related Tools) */}
+              {/* AdSense Placement: Autorelaxed (After FAQ) */}
               <div className="w-full flex justify-center mt-8">
-                <GoogleAd 
-                  format="fluid"
-                  layout="in-article"
-                  slot="1193898794"
-                  style={{ display: 'block', textAlign: 'center', width: '100%' }}
-                />
+                <GoogleAd variant="autorelaxed" />
               </div>
 
               {/* Related Tools Section */}
@@ -147,12 +156,18 @@ export function ToolPage({ tool, content, locale, children, localizedRelatedTool
 
               {/* AdSense Placement: Multiplex (After Related Tools) */}
               <div className="w-full flex justify-center mt-12 mb-8">
-                <GoogleAd 
-                  format="multiplex"
-                  slot="4957049834"
-                />
+                <GoogleAd variant="multiplex" />
               </div>
             </div>
+
+            {/* Desktop Right Sidebar Ad */}
+            {isDesktop && (
+              <aside className="w-[160px] 2xl:w-[300px] flex-shrink-0" aria-label="Advertisement right">
+                <div className="sticky top-24">
+                  <GoogleAd variant="display" />
+                </div>
+              </aside>
+            )}
 
           </div>
         </main>

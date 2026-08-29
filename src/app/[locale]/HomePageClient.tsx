@@ -163,11 +163,7 @@ export default function HomePageClient({ locale, localizedToolContent }: HomePag
 
         {/* AdSense Placement: Display */}
         <div className="container mx-auto px-4 py-8 flex justify-center">
-          <GoogleAd 
-            format="auto"
-            fullWidthResponsive={true}
-            slot="6211361108"
-          />
+          <GoogleAd variant="display" />
         </div>
 
         {/* Popular Tools Section */}
@@ -308,10 +304,7 @@ export default function HomePageClient({ locale, localizedToolContent }: HomePag
 
         {/* AdSense Placement: Multiplex */}
         <div className="container mx-auto px-4 pb-12 flex justify-center">
-          <GoogleAd 
-            format="multiplex"
-            slot="4957049834"
-          />
+          <GoogleAd variant="multiplex" />
         </div>
       </main>
 

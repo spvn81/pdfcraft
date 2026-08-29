@@ -147,11 +147,7 @@ export function ToolGrid({
               {/* AdSense Placements (Controlled Density) */}
               {(groupIndex === 0 || groupIndex === 3) && (
                 <div className="w-full flex justify-center mt-8">
-                  <GoogleAd 
-                    format="fluid"
-                    layoutKey="-fe-f+2h-5z+6n"
-                    slot="1108330390"
-                  />
+                  <GoogleAd variant="in-feed" />
                 </div>
               )}
             </section>
