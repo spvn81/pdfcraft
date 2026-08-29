@@ -107,16 +107,9 @@ jobs:
           echo "[DEPLOY] Verifying target directory..."
           ssh -i ~/.ssh/deploy_key ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} "
             TARGET='/home/spvntech/web/spvntech.in/public_html/pdf-tools'
-            TARGET_SSL='/home/spvntech/web/spvntech.in/public_shtml/pdf-tools'
-            
             if [ ! -d \"\$TARGET\" ]; then
               echo \"Error: Target directory \$TARGET does not exist!\"
               exit 1
-            fi
-            
-            # If public_shtml exists, ensure pdf-tools exists within it
-            if [ -d \"/home/spvntech/web/spvntech.in/public_shtml\" ]; then
-              mkdir -p \"\$TARGET_SSL\"
             fi
             
             # Safety check: ensure it's not the root public_html
@@ -130,18 +123,29 @@ jobs:
         run: |
           echo "[DEPLOY] Rsyncing files to public_html..."
           rsync -az --delete -e "ssh -i ~/.ssh/deploy_key -o ServerAliveInterval=30" ./out/ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:/home/spvntech/web/spvntech.in/public_html/pdf-tools/
-          
-          echo "[DEPLOY] Checking if public_shtml exists and rsyncing..."
-          ssh -i ~/.ssh/deploy_key ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} "[ -d /home/spvntech/web/spvntech.in/public_shtml/pdf-tools ]" && rsync -az --delete -e "ssh -i ~/.ssh/deploy_key -o ServerAliveInterval=30" ./out/ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:/home/spvntech/web/spvntech.in/public_shtml/pdf-tools/ || echo "public_shtml/pdf-tools not found, skipping HTTPS specific sync."
 
-      - name: Verify Origin Headers
+      - name: Verify Origin Responses
         run: |
-          echo "[VERIFY] Checking origin headers..."
-          # Get IP from host mapping if possible, or just use host
-          curl -s -k -I https://spvntech.in/pdf-tools/libreoffice-wasm/browser.worker.global.js > headers.txt
+          set -euo pipefail
+          echo "[VERIFY] Checking origin responses and headers..."
+          IP="37.60.233.99"
+          DOMAIN="spvntech.in"
+          
+          # Verify HTML pages
+          for path in "/pdf-tools/" "/pdf-tools/en/"; do
+            curl -s -k -I --resolve "$DOMAIN:443:$IP" "https://$DOMAIN$path" > html_headers.txt
+            if ! grep -qi "HTTP/.* 200" html_headers.txt; then
+              echo "Error: Origin $path did not return HTTP 200!"
+              cat html_headers.txt
+              exit 1
+            fi
+          done
+
+          # Verify browser.worker.global.js headers
+          curl -s -k -I --resolve "$DOMAIN:443:$IP" "https://$DOMAIN/pdf-tools/libreoffice-wasm/browser.worker.global.js" > headers.txt
           
           if ! grep -qi "HTTP/.* 200" headers.txt; then
-            echo "Error: browser.worker.global.js did not return HTTP 200!"
+            echo "Error: Origin browser.worker.global.js did not return HTTP 200!"
             cat headers.txt
             exit 1
           fi
@@ -149,20 +153,70 @@ jobs:
           if ! grep -qi "Cross-Origin-Opener-Policy: same-origin" headers.txt || \
              ! grep -qi "Cross-Origin-Embedder-Policy: credentialless" headers.txt || \
              ! grep -qi "Cross-Origin-Resource-Policy: cross-origin" headers.txt; then
-            echo "Error: Missing isolation headers!"
+            echo "Error: Origin missing isolation headers on browser.worker.global.js!"
             cat headers.txt
             exit 1
           fi
           
-          echo "[VERIFY] Checking WASM MIME type..."
-          curl -s -k -I https://spvntech.in/pdf-tools/libreoffice-wasm/soffice.wasm.bin > wasm_headers.txt
-          if ! grep -qi "Content-Type: application/wasm" wasm_headers.txt; then
-            echo "Error: soffice.wasm.bin did not return application/wasm!"
-            cat wasm_headers.txt
+          # Verify WASM and data files
+          for file in "soffice.wasm.bin" "soffice.data.bin" "soffice.worker.js" "soffice.js"; do
+            curl -s -k -I --resolve "$DOMAIN:443:$IP" "https://$DOMAIN/pdf-tools/libreoffice-wasm/$file" > file_headers.txt
+            if ! grep -qi "HTTP/.* 200" file_headers.txt; then
+              echo "Error: Origin $file did not return HTTP 200!"
+              cat file_headers.txt
+              exit 1
+            fi
+            if [ "$file" = "soffice.wasm.bin" ] && ! grep -qi "Content-Type: application/wasm" file_headers.txt; then
+              echo "Error: Origin soffice.wasm.bin did not return application/wasm!"
+              cat file_headers.txt
+              exit 1
+            fi
+          done
+          echo "[VERIFY] Origin verification successful."
+
+      - name: Public Cloudflare Verification
+        run: |
+          set -euo pipefail
+          echo "[VERIFY] Running Public Cloudflare Verification..."
+          DOMAIN="spvntech.in"
+          
+          # Verify HTML pages
+          for path in "/pdf-tools/" "/pdf-tools/en/"; do
+            curl -s -I "https://$DOMAIN$path" > html_headers.txt
+            if ! grep -qi "HTTP/.* 200" html_headers.txt; then
+              echo "Error: Public Cloudflare $path did not return HTTP 200!"
+              cat html_headers.txt
+              exit 1
+            fi
+          done
+          
+          # Verify isolation headers on public URL
+          curl -s -I "https://$DOMAIN/pdf-tools/libreoffice-wasm/browser.worker.global.js" > cf_headers.txt
+          
+          if ! grep -qi "HTTP/.* 200" cf_headers.txt; then
+            echo "Error: Public Cloudflare browser.worker.global.js did not return HTTP 200!"
+            cat cf_headers.txt
             exit 1
           fi
           
-          echo "[VERIFY] Production origin verification successful."
+          if ! grep -qi "Cross-Origin-Opener-Policy: same-origin" cf_headers.txt || \
+             ! grep -qi "Cross-Origin-Embedder-Policy: credentialless" cf_headers.txt || \
+             ! grep -qi "Cross-Origin-Resource-Policy: cross-origin" cf_headers.txt; then
+            echo "Error: Public Cloudflare missing isolation headers on browser.worker.global.js!"
+            cat cf_headers.txt
+            exit 1
+          fi
+          
+          # Verify WASM and data files on public URL
+          for file in "soffice.wasm.bin" "soffice.data.bin" "soffice.worker.js" "soffice.js"; do
+            curl -s -I "https://$DOMAIN/pdf-tools/libreoffice-wasm/$file" > cf_file_headers.txt
+            if ! grep -qi "HTTP/.* 200" cf_file_headers.txt; then
+              echo "Error: Public Cloudflare $file did not return HTTP 200!"
+              cat cf_file_headers.txt
+              exit 1
+            fi
+          done
+          echo "[VERIFY] Public Cloudflare verification successful."
 
   build-tauri:
     name: Build Tauri
@@ -228,7 +282,7 @@ jobs:
             src-tauri/target/release/bundle/**/*.exe
             src-tauri/target/release/bundle/**/*.deb
             src-tauri/target/release/bundle/**/*.AppImage
-          if-no-files-found: warn
+          if-no-files-found: error
 
   release:
     name: Build and Release
@@ -270,21 +324,41 @@ jobs:
         with:
           name: tauri-macos-latest
           path: tauri-bundles/macos
-        continue-on-error: true
 
       - name: Download Tauri Windows build
         uses: actions/download-artifact@v4
         with:
           name: tauri-windows-latest
           path: tauri-bundles/windows
-        continue-on-error: true
 
       - name: Download Tauri Linux build
         uses: actions/download-artifact@v4
         with:
           name: tauri-ubuntu-latest
           path: tauri-bundles/linux
-        continue-on-error: true
+
+      - name: Verify Tauri Artifacts
+        run: |
+          set -euo pipefail
+          echo "Verifying macOS artifacts..."
+          if ! ls tauri-bundles/macos/**/*.dmg 1> /dev/null 2>&1; then
+            echo "Error: Missing macOS .dmg artifact!"
+            exit 1
+          fi
+          
+          echo "Verifying Windows artifacts..."
+          if ! ls tauri-bundles/windows/**/*.msi 1> /dev/null 2>&1 && ! ls tauri-bundles/windows/**/*.exe 1> /dev/null 2>&1; then
+            echo "Error: Missing Windows .msi or .exe artifact!"
+            exit 1
+          fi
+          
+          echo "Verifying Linux artifacts..."
+          if ! ls tauri-bundles/linux/**/*.deb 1> /dev/null 2>&1 && ! ls tauri-bundles/linux/**/*.AppImage 1> /dev/null 2>&1; then
+            echo "Error: Missing Linux .deb or .AppImage artifact!"
+            exit 1
+          fi
+          
+          echo "All required Tauri artifacts are present."
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
