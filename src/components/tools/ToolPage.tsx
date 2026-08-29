@@ -128,12 +128,30 @@ export function ToolPage({ tool, content, locale, children, localizedRelatedTool
               {/* FAQ Section */}
               <FAQSection faq={content.faq} />
 
+              {/* AdSense Placement: In-Article (Before Related Tools) */}
+              <div className="w-full flex justify-center mt-8">
+                <GoogleAd 
+                  format="fluid"
+                  layout="in-article"
+                  slot="1193898794"
+                  style={{ display: 'block', textAlign: 'center', width: '100%' }}
+                />
+              </div>
+
               {/* Related Tools Section */}
               <RelatedToolsSection
                 tools={relatedTools}
                 locale={locale}
                 localizedRelatedTools={localizedRelatedTools}
               />
+
+              {/* AdSense Placement: Multiplex (After Related Tools) */}
+              <div className="w-full flex justify-center mt-12 mb-8">
+                <GoogleAd 
+                  format="multiplex"
+                  slot="4957049834"
+                />
+              </div>
             </div>
 
           </div>

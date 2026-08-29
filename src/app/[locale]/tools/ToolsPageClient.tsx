@@ -8,6 +8,7 @@ import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { ToolGrid } from '@/components/tools/ToolGrid';
 import { ToolCard } from '@/components/tools/ToolCard';
+import { GoogleAd } from '@/components/common/GoogleAd';
 import { Button } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';
 import { getAllTools, getToolsByCategory, getToolById } from '@/config/tools';
@@ -246,11 +247,21 @@ export default function ToolsPageClient({ locale, localizedToolContent }: ToolsP
                 />
               ) : (
                 // Show flat grid when filtered
-                <ToolGrid
-                  tools={filteredTools}
-                  locale={locale}
-                  localizedToolContent={localizedToolContent}
-                />
+                <div className="space-y-8">
+                  <ToolGrid
+                    tools={filteredTools}
+                    locale={locale}
+                    localizedToolContent={localizedToolContent}
+                  />
+                  {/* AdSense Placement for Filtered View */}
+                  <div className="w-full flex justify-center mt-8">
+                    <GoogleAd 
+                      format="auto"
+                      fullWidthResponsive={true}
+                      slot="6211361108"
+                    />
+                  </div>
+                </div>
               )
             ) : selectedCategory === 'favorites' ? (
               // Empty favorites state

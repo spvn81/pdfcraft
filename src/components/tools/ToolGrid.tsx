@@ -4,6 +4,7 @@ import React, { useMemo, useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import { Tool, ToolCategory, CATEGORY_INFO } from '@/types/tool';
 import { ToolCard } from './ToolCard';
+import { GoogleAd } from '@/components/common/GoogleAd';
 
 export interface ToolGridProps {
   /** Array of tools to display */
@@ -116,7 +117,7 @@ export function ToolGrid({
   if (showCategoryHeaders && groupedTools) {
     return (
       <div className={`space-y-8 ${className}`} data-testid="tool-grid">
-        {Object.entries(groupedTools).map(([cat, categoryTools]) => {
+        {Object.entries(groupedTools).map(([cat, categoryTools], groupIndex) => {
           if (categoryTools.length === 0) return null;
 
           const categoryInfo = CATEGORY_INFO[cat as ToolCategory];
@@ -143,6 +144,25 @@ export function ToolGrid({
                   </React.Fragment>
                 ))}
               </div>
+              {/* AdSense Placements (Controlled Density) */}
+              {groupIndex === 0 && (
+                <div className="w-full flex justify-center mt-8">
+                  <GoogleAd 
+                    format="auto"
+                    fullWidthResponsive={true}
+                    slot="6211361108"
+                  />
+                </div>
+              )}
+              {(groupIndex === 1 || groupIndex === 3) && (
+                <div className="w-full flex justify-center mt-8">
+                  <GoogleAd 
+                    format="fluid"
+                    layoutKey="-fe-f+2h-5z+6n"
+                    slot="1108330390"
+                  />
+                </div>
+              )}
             </section>
           );
         })}

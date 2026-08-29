@@ -10,19 +10,23 @@ declare global {
 }
 
 interface GoogleAdProps {
-  format?: 'auto' | 'fluid' | 'autorelaxed';
+  format?: 'auto' | 'fluid' | 'multiplex';
   slot: string;
   layoutKey?: string;
+  layout?: string;
   fullWidthResponsive?: boolean;
   className?: string;
+  style?: React.CSSProperties;
 }
 
 export function GoogleAd({
   format = 'auto',
   slot,
   layoutKey,
+  layout,
   fullWidthResponsive,
   className = '',
+  style,
 }: GoogleAdProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
@@ -67,11 +71,12 @@ export function GoogleAd({
     >
       <ins
         className="adsbygoogle"
-        style={{ display: 'block', width: '100%' }}
+        style={style || { display: 'block', width: '100%' }}
         data-ad-client="ca-pub-5961281650555057"
         data-ad-slot={slot}
         data-ad-format={format}
         {...(layoutKey ? { 'data-ad-layout-key': layoutKey } : {})}
+        {...(layout ? { 'data-ad-layout': layout } : {})}
         {...(fullWidthResponsive !== undefined ? { 'data-full-width-responsive': fullWidthResponsive.toString() } : {})}
       />
     </div>
