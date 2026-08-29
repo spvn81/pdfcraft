@@ -15,6 +15,7 @@ import { FavoriteButton } from '@/components/ui/FavoriteButton';
 import { useMemo } from 'react';
 import { sanitizeHtml } from '@/lib/utils/html-sanitizer';
 import { ResponsiveAd } from '@/components/common/ResponsiveAd';
+import { GoogleAd } from '@/components/common/GoogleAd';
 
 export interface ToolPageProps {
   /** Tool data */
@@ -111,6 +112,15 @@ export function ToolPage({ tool, content, locale, children, localizedRelatedTool
               >
                 {children}
               </section>
+
+              {/* AdSense Placement: Responsive (After Tool Interface) */}
+              <div className="w-full flex justify-center mt-8">
+                <GoogleAd 
+                  format="auto"
+                  fullWidthResponsive={true}
+                  slot="6211361108"
+                />
+              </div>
 
               {/* Primary Content Advertisement */}
               <div className="w-full flex justify-center my-8">

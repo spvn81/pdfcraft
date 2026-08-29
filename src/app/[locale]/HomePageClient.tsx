@@ -9,6 +9,7 @@ import { ToolGrid } from '@/components/tools/ToolGrid';
 import { Button } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';
 import { ResponsiveAd } from '@/components/common/ResponsiveAd';
+import { GoogleAd } from '@/components/common/GoogleAd';
 import { getAllTools, getToolsByCategory, getPopularTools } from '@/config/tools';
 import { type Locale, locales } from '@/lib/i18n/config';
 import { CATEGORY_INFO, type ToolCategory } from '@/types/tool';
@@ -166,6 +167,15 @@ export default function HomePageClient({ locale, localizedToolContent }: HomePag
           </div>
         </section>
 
+        {/* AdSense Placement: Fluid */}
+        <div className="container mx-auto px-4 py-8 flex justify-center">
+          <GoogleAd 
+            format="fluid"
+            layoutKey="-fe-f+2h-5z+6n"
+            slot="1108330390"
+          />
+        </div>
+
         {/* Popular Tools Section */}
         <section className="py-16 bg-[hsl(var(--color-muted)/0.5)]" aria-labelledby="popular-tools-heading">
           <div className="container mx-auto px-4">
@@ -308,8 +318,16 @@ export default function HomePageClient({ locale, localizedToolContent }: HomePag
         </section>
 
         {/* Ad Placement 3: Before Footer */}
-        <div className="container mx-auto px-4 pb-12 flex justify-center">
+        <div className="container mx-auto px-4 pb-8 flex justify-center">
           <ResponsiveAd placement="hero" />
+        </div>
+
+        {/* AdSense Placement: Autorelaxed */}
+        <div className="container mx-auto px-4 pb-12 flex justify-center">
+          <GoogleAd 
+            format="autorelaxed"
+            slot="4957049834"
+          />
         </div>
       </main>
 

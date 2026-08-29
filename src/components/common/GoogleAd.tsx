@@ -1,0 +1,78 @@
+'use client';
+
+import { useEffect, useRef } from 'react';
+import { usePathname } from 'next/navigation';
+
+declare global {
+  interface Window {
+    adsbygoogle: any[];
+  }
+}
+
+interface GoogleAdProps {
+  format?: 'auto' | 'fluid' | 'autorelaxed';
+  slot: string;
+  layoutKey?: string;
+  fullWidthResponsive?: boolean;
+  className?: string;
+}
+
+export function GoogleAd({
+  format = 'auto',
+  slot,
+  layoutKey,
+  fullWidthResponsive,
+  className = '',
+}: GoogleAdProps) {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const pathname = usePathname();
+  const isInitialized = useRef<boolean>(false);
+
+  useEffect(() => {
+    // Only run on client
+    if (typeof window === 'undefined') return;
+
+    // Strict Mode / Navigation duplicate protection
+    if (isInitialized.current) return;
+    
+    // Safety check: ensure the DOM element exists and doesn't already have an ad
+    const container = containerRef.current;
+    if (!container) return;
+    
+    const insElement = container.querySelector('ins');
+    if (!insElement) return;
+    
+    if (insElement.getAttribute('data-adsbygoogle-status') === 'done') return;
+    if (insElement.innerHTML.trim() !== '') return;
+
+    try {
+      isInitialized.current = true;
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+      
+      if (process.env.NODE_ENV === 'development') {
+        console.log(`[GoogleAd] Initialized slot=${slot}`);
+      }
+    } catch (error) {
+      // Catch "All ins elements... already have ads in them" or similar
+      console.warn(`[GoogleAd] Initialization error for slot ${slot}:`, error);
+    }
+  }, [pathname, slot]); // Re-run if path or slot changes
+
+  return (
+    <div 
+      className={`w-full overflow-hidden flex justify-center items-center ${className}`} 
+      ref={containerRef}
+      aria-hidden="true"
+    >
+      <ins
+        className="adsbygoogle"
+        style={{ display: 'block', width: '100%' }}
+        data-ad-client="ca-pub-5961281650555057"
+        data-ad-slot={slot}
+        data-ad-format={format}
+        {...(layoutKey ? { 'data-ad-layout-key': layoutKey } : {})}
+        {...(fullWidthResponsive !== undefined ? { 'data-full-width-responsive': fullWidthResponsive.toString() } : {})}
+      />
+    </div>
+  );
+}
