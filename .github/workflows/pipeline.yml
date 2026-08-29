@@ -107,9 +107,16 @@ jobs:
           echo "[DEPLOY] Verifying target directory..."
           ssh -i ~/.ssh/deploy_key ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} "
             TARGET='/home/spvntech/web/spvntech.in/public_html/pdf-tools'
+            TARGET_SSL='/home/spvntech/web/spvntech.in/public_shtml/pdf-tools'
+            
             if [ ! -d \"\$TARGET\" ]; then
               echo \"Error: Target directory \$TARGET does not exist!\"
               exit 1
+            fi
+            
+            # If public_shtml exists, ensure pdf-tools exists within it
+            if [ -d \"/home/spvntech/web/spvntech.in/public_shtml\" ]; then
+              mkdir -p \"\$TARGET_SSL\"
             fi
             
             # Safety check: ensure it's not the root public_html
@@ -121,8 +128,11 @@ jobs:
 
       - name: Deploy Static Web using Rsync
         run: |
-          echo "[DEPLOY] Rsyncing files..."
+          echo "[DEPLOY] Rsyncing files to public_html..."
           rsync -az --delete -e "ssh -i ~/.ssh/deploy_key -o ServerAliveInterval=30" ./out/ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:/home/spvntech/web/spvntech.in/public_html/pdf-tools/
+          
+          echo "[DEPLOY] Checking if public_shtml exists and rsyncing..."
+          ssh -i ~/.ssh/deploy_key ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} "[ -d /home/spvntech/web/spvntech.in/public_shtml/pdf-tools ]" && rsync -az --delete -e "ssh -i ~/.ssh/deploy_key -o ServerAliveInterval=30" ./out/ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:/home/spvntech/web/spvntech.in/public_shtml/pdf-tools/ || echo "public_shtml/pdf-tools not found, skipping HTTPS specific sync."
 
       - name: Verify Origin Headers
         run: |
