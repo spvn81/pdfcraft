@@ -2816,7 +2816,10 @@
       "pageRange": "પેજ રેન્જ",
       "convertButton": "ફોન્ટ્સને આઉટલાઇન્સમાં કન્વર્ટ કરો",
       "downloadAllZip": "ZIP તરીકે બધું ડાઉનલોડ કરો",
-      "successMessage": "સફળતાપૂર્વક ફાઇલ(ઓ) કન્વર્ટ કરી દીધી!"
+      "successMessage": "સફળતાપૂર્વક ફાઇલ(ઓ) કન્વર્ટ કરી દીધી!",
+      "dpiDesc": "Higher DPI produces better quality but larger files. 300 DPI recommended for print.",
+      "preserveTextLabel": "Preserve searchable text (experimental)",
+      "preserveTextDesc": "Adds invisible text layer for search. May increase file size."
     },
     "extractTables": {
       "uploadLabel": "PDF ફાઇલ અપલોડ કરો",

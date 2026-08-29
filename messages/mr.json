@@ -2816,7 +2816,10 @@
       "pageRange": "पृष्ठ श्रेणी",
       "convertButton": "फॉन्ट आउटलाइनमध्ये रूपांतरित करा",
       "downloadAllZip": "सर्व ZIP म्हणून डाउनलोड करा",
-      "successMessage": "फाइल(स) यशस्वीरित्या रूपांतरित केल्या!"
+      "successMessage": "फाइल(स) यशस्वीरित्या रूपांतरित केल्या!",
+      "dpiDesc": "Higher DPI produces better quality but larger files. 300 DPI recommended for print.",
+      "preserveTextLabel": "Preserve searchable text (experimental)",
+      "preserveTextDesc": "Adds invisible text layer for search. May increase file size."
     },
     "extractTables": {
       "uploadLabel": "PDF फाइल अपलोड करा",

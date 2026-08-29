@@ -27,14 +27,29 @@ const AD_CONFIGS: Record<Exclude<AdFormat, 'native'>, { key: string; width: numb
 
 // Global queue to prevent atOptions collision when multiple ads load simultaneously
 let isAdLoading = false;
-const adQueue: Array<() => void> = [];
+
+interface QueueItem {
+  id: string;
+  isCancelled: () => boolean;
+  execute: () => void;
+}
+const adQueue: QueueItem[] = [];
 
 function processAdQueue() {
   if (isAdLoading || adQueue.length === 0) return;
-  const nextAd = adQueue.shift();
+  
+  let nextAd: QueueItem | undefined;
+  while (adQueue.length > 0) {
+    const item = adQueue.shift();
+    if (item && !item.isCancelled()) {
+      nextAd = item;
+      break;
+    }
+  }
+
   if (nextAd) {
     isAdLoading = true;
-    nextAd();
+    nextAd.execute();
   }
 }
 
@@ -48,6 +63,10 @@ export function PublisherAd({ format, className = '' }: PublisherAdProps) {
 
   useEffect(() => {
     if (!isRendered) return;
+    
+    let active = true;
+    const instanceId = Math.random().toString(36).substring(7);
+    const dynamicScripts: HTMLScriptElement[] = [];
 
     if (format === 'native') {
       if (!containerRef.current) return;
@@ -80,7 +99,13 @@ export function PublisherAd({ format, className = '' }: PublisherAdProps) {
         `);
         doc.close();
       }
-      return;
+      return () => {
+        active = false;
+        if (containerRef.current) {
+          containerRef.current.dataset.loaded = 'false';
+          containerRef.current.innerHTML = '';
+        }
+      };
     }
 
     // Standard Adsterra Banners
@@ -91,6 +116,12 @@ export function PublisherAd({ format, className = '' }: PublisherAdProps) {
     const config = AD_CONFIGS[format];
 
     const loadAd = () => {
+      if (!active) {
+        isAdLoading = false;
+        processAdQueue();
+        return;
+      }
+      
       if (!containerRef.current) {
         isAdLoading = false;
         processAdQueue();
@@ -115,22 +146,41 @@ export function PublisherAd({ format, className = '' }: PublisherAdProps) {
       invokeScript.type = 'text/javascript';
       invokeScript.src = `https://www.highrevenueformat.com/${config.key}/invoke.js`;
       
+      dynamicScripts.push(confScript, invokeScript);
+
+      const releaseQueue = () => {
+        isAdLoading = false;
+        processAdQueue();
+      };
+
       // 3. Advance queue when script completely loads or fails
-      invokeScript.onload = () => {
-        isAdLoading = false;
-        processAdQueue();
-      };
-      invokeScript.onerror = () => {
-        isAdLoading = false;
-        processAdQueue();
-      };
+      invokeScript.onload = () => releaseQueue();
+      invokeScript.onerror = () => releaseQueue();
 
       containerRef.current.appendChild(confScript);
       containerRef.current.appendChild(invokeScript);
     };
 
-    adQueue.push(loadAd);
+    adQueue.push({
+      id: instanceId,
+      isCancelled: () => !active,
+      execute: loadAd
+    });
     processAdQueue();
+    
+    return () => {
+      active = false;
+      // Clean up dynamically created scripts if they were appended to the DOM
+      dynamicScripts.forEach(script => {
+        if (script.parentNode) {
+          script.parentNode.removeChild(script);
+        }
+      });
+      // Reset container state for Strict Mode remount
+      if (containerRef.current) {
+        containerRef.current.dataset.loaded = 'false';
+      }
+    };
 
   }, [isRendered, format]);
 

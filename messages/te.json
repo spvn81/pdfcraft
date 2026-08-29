@@ -2816,7 +2816,10 @@
       "pageRange": "పేజీల పరిధి",
       "convertButton": "ఫాంట్లను రూపురేఖలుగా మార్చండి",
       "downloadAllZip": "అన్నింటిని ZIP గా డౌన్లోడ్ చేసుకోండి",
-      "successMessage": "విజయవంతంగా మార్చబడింది ఫైలు!"
+      "successMessage": "విజయవంతంగా మార్చబడింది ఫైలు!",
+      "dpiDesc": "Higher DPI produces better quality but larger files. 300 DPI recommended for print.",
+      "preserveTextLabel": "Preserve searchable text (experimental)",
+      "preserveTextDesc": "Adds invisible text layer for search. May increase file size."
     },
     "extractTables": {
       "uploadLabel": "PDF ఫైల్ను అప్లోడ్ చేయండి",

@@ -2808,7 +2808,10 @@
       "pageRange": "Intervalo de páginas",
       "convertButton": "Converter fontes em contornos",
       "downloadAllZip": "Baixar tudo como ZIP",
-      "successMessage": "Arquivo(s) convertido(s) com sucesso!"
+      "successMessage": "Arquivo(s) convertido(s) com sucesso!",
+      "dpiDesc": "Higher DPI produces better quality but larger files. 300 DPI recommended for print.",
+      "preserveTextLabel": "Preserve searchable text (experimental)",
+      "preserveTextDesc": "Adds invisible text layer for search. May increase file size."
     },
     "extractTables": {
       "uploadLabel": "Carregar arquivo PDF",

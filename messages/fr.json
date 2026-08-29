@@ -2808,7 +2808,10 @@
       "pageRange": "Plage de pages",
       "convertButton": "Convertir les polices en contours",
       "downloadAllZip": "Tout télécharger en ZIP",
-      "successMessage": "Conversion réussie des fichiers !"
+      "successMessage": "Conversion réussie des fichiers !",
+      "dpiDesc": "Higher DPI produces better quality but larger files. 300 DPI recommended for print.",
+      "preserveTextLabel": "Preserve searchable text (experimental)",
+      "preserveTextDesc": "Adds invisible text layer for search. May increase file size."
     },
     "extractTables": {
       "uploadLabel": "Téléverser le fichier PDF",

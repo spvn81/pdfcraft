@@ -2808,7 +2808,10 @@
       "pageRange": "Rentang Halaman",
       "convertButton": "Ubah Font menjadi Garis Besar",
       "downloadAllZip": "Unduh Semua sebagai ZIP",
-      "successMessage": "File berhasil dikonversi!"
+      "successMessage": "File berhasil dikonversi!",
+      "dpiDesc": "Higher DPI produces better quality but larger files. 300 DPI recommended for print.",
+      "preserveTextLabel": "Preserve searchable text (experimental)",
+      "preserveTextDesc": "Adds invisible text layer for search. May increase file size."
     },
     "extractTables": {
       "uploadLabel": "Unggah File PDF",

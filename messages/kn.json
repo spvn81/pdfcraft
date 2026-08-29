@@ -2816,7 +2816,10 @@
       "pageRange": "ಪುಟದ ಶ್ರೇಣಿ",
       "convertButton": "ಫಾಂಟ್‌ಗಳನ್ನು ಔಟ್‌ಲೈನ್‌ಗಳಿಗೆ ಪರಿವರ್ತಿಸಿ",
       "downloadAllZip": "ಎಲ್ಲವನ್ನೂ ZIP ಆಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-      "successMessage": "ಫೈಲ್(ಗಳು) ಯಶಸ್ವಿಯಾಗಿ ಪರಿವರ್ತಿಸಲಾಗಿದೆ!"
+      "successMessage": "ಫೈಲ್(ಗಳು) ಯಶಸ್ವಿಯಾಗಿ ಪರಿವರ್ತಿಸಲಾಗಿದೆ!",
+      "dpiDesc": "Higher DPI produces better quality but larger files. 300 DPI recommended for print.",
+      "preserveTextLabel": "Preserve searchable text (experimental)",
+      "preserveTextDesc": "Adds invisible text layer for search. May increase file size."
     },
     "extractTables": {
       "uploadLabel": "PDF ಫೈಲ್ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",

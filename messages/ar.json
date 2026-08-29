@@ -2808,7 +2808,10 @@
       "pageRange": "نطاق الصفحات",
       "convertButton": "تحويل الخطوط إلى الخطوط العريضة",
       "downloadAllZip": "تحميل الكل كملف ZIP",
-      "successMessage": "تم تحويل الملف (الملفات) بنجاح!"
+      "successMessage": "تم تحويل الملف (الملفات) بنجاح!",
+      "dpiDesc": "Higher DPI produces better quality but larger files. 300 DPI recommended for print.",
+      "preserveTextLabel": "Preserve searchable text (experimental)",
+      "preserveTextDesc": "Adds invisible text layer for search. May increase file size."
     },
     "extractTables": {
       "uploadLabel": "تحميل ملف PDF",

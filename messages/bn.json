@@ -2816,7 +2816,10 @@
       "pageRange": "পৃষ্ঠার সীমা",
       "convertButton": "ফন্ট আউটলাইনে রূপান্তর করুন",
       "downloadAllZip": "ZIP হিসেবে সব ডাউনলোড করুন",
-      "successMessage": "সফলভাবে ফাইল(গুলো) রূপান্তর করা হয়েছে!"
+      "successMessage": "সফলভাবে ফাইল(গুলো) রূপান্তর করা হয়েছে!",
+      "dpiDesc": "Higher DPI produces better quality but larger files. 300 DPI recommended for print.",
+      "preserveTextLabel": "Preserve searchable text (experimental)",
+      "preserveTextDesc": "Adds invisible text layer for search. May increase file size."
     },
     "extractTables": {
       "uploadLabel": "PDF ফাইল আপলোড করুন",

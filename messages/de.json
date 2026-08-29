@@ -2808,7 +2808,10 @@
       "pageRange": "Seitenbereich",
       "convertButton": "Konvertieren Sie Schriftarten in Konturen",
       "downloadAllZip": "Alle als ZIP herunterladen",
-      "successMessage": "Datei(en) erfolgreich konvertiert!"
+      "successMessage": "Datei(en) erfolgreich konvertiert!",
+      "dpiDesc": "Higher DPI produces better quality but larger files. 300 DPI recommended for print.",
+      "preserveTextLabel": "Preserve searchable text (experimental)",
+      "preserveTextDesc": "Adds invisible text layer for search. May increase file size."
     },
     "extractTables": {
       "uploadLabel": "PDF-Datei hochladen",

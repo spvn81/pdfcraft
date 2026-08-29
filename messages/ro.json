@@ -2808,7 +2808,10 @@
       "pageRange": "Interval Pagini",
       "convertButton": "Convertiți fonturile în contururi",
       "downloadAllZip": "Descărcați tot ca ZIP",
-      "successMessage": "Fișier(e) convertit(e) cu succes!"
+      "successMessage": "Fișier(e) convertit(e) cu succes!",
+      "dpiDesc": "Higher DPI produces better quality but larger files. 300 DPI recommended for print.",
+      "preserveTextLabel": "Preserve searchable text (experimental)",
+      "preserveTextDesc": "Adds invisible text layer for search. May increase file size."
     },
     "extractTables": {
       "uploadLabel": "Încărcați fișierul PDF",

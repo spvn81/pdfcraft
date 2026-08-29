@@ -2808,7 +2808,10 @@
       "pageRange": "페이지 범위",
       "convertButton": "글꼴을 윤곽선으로 변환",
       "downloadAllZip": "모두 ZIP으로 다운로드",
-      "successMessage": "파일이 성공적으로 변환되었습니다!"
+      "successMessage": "파일이 성공적으로 변환되었습니다!",
+      "dpiDesc": "Higher DPI produces better quality but larger files. 300 DPI recommended for print.",
+      "preserveTextLabel": "Preserve searchable text (experimental)",
+      "preserveTextDesc": "Adds invisible text layer for search. May increase file size."
     },
     "extractTables": {
       "uploadLabel": "PDF 파일 업로드",

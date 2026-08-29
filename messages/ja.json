@@ -2808,7 +2808,10 @@
       "pageRange": "ページ範囲",
       "convertButton": "フォントをアウトラインに変換する",
       "downloadAllZip": "すべてZIPでダウンロード",
-      "successMessage": "ファイルが正常に変換されました。"
+      "successMessage": "ファイルが正常に変換されました。",
+      "dpiDesc": "Higher DPI produces better quality but larger files. 300 DPI recommended for print.",
+      "preserveTextLabel": "Preserve searchable text (experimental)",
+      "preserveTextDesc": "Adds invisible text layer for search. May increase file size."
     },
     "extractTables": {
       "uploadLabel": "PDFファイルをアップロード",

@@ -2816,7 +2816,10 @@
       "pageRange": "ପୃଷ୍ଠା ସୀମା",
       "convertButton": "ଫଣ୍ଟଗୁଡ଼ିକୁ ଆଉଟଲାଇନ୍‌ରେ ରୂପାନ୍ତରିତ କରନ୍ତୁ",
       "downloadAllZip": "ସମସ୍ତ ZIP ଭାବରେ ଡାଉନ୍‌ଲୋଡ୍ କରନ୍ତୁ",
-      "successMessage": "ସଫଳତାର ସହ ଫାଇଲ୍(ଗୁଡ଼ିକ) ରୂପାନ୍ତରିତ ହୋଇଗଲା!"
+      "successMessage": "ସଫଳତାର ସହ ଫାଇଲ୍(ଗୁଡ଼ିକ) ରୂପାନ୍ତରିତ ହୋଇଗଲା!",
+      "dpiDesc": "Higher DPI produces better quality but larger files. 300 DPI recommended for print.",
+      "preserveTextLabel": "Preserve searchable text (experimental)",
+      "preserveTextDesc": "Adds invisible text layer for search. May increase file size."
     },
     "extractTables": {
       "uploadLabel": "PDF ଫାଇଲ୍ ଅପଲୋଡ୍ କରନ୍ତୁ",

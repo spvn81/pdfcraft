@@ -16,12 +16,12 @@ export function ResponsiveAd({ placement, className = '' }: ResponsiveAdProps) {
   const [mounted, setMounted] = useState(false);
   useEffect(() => setMounted(true), []);
 
-  const isDesktop = useMediaQuery('(min-width: 1024px)');
-  const isTablet = useMediaQuery('(min-width: 768px) and (max-width: 1023px)');
+  const isDesktop = useMediaQuery('(min-width: 1280px)');
+  const isTablet = useMediaQuery('(min-width: 768px) and (max-width: 1279px)');
   const isTall = useMediaQuery('(min-height: 800px)');
   // isMobile is implicitly anything under 768px
 
-  // Sidebars are strictly for desktop (specifically >= 1280px via CSS, but at least 1024px logically here)
+  // Sidebars are strictly for desktop >= 1280px via CSS
   const isSidebar = placement === 'sidebar' || placement === 'sidebar-left' || placement === 'sidebar-right';
   if (isSidebar && !isDesktop) {
     return null;
@@ -53,9 +53,12 @@ export function ResponsiveAd({ placement, className = '' }: ResponsiveAdProps) {
     format = '320x50';
   }
 
-  // Ensure 728x90 and 160x600/300 are never rendered on mobile
+  // Ensure 728x90 and 160x600/300 are never rendered on mobile/tablet
   if (!isDesktop && !isTablet && ((format as string) === '728x90' || (format as string) === '160x600' || (format as string) === '160x300')) {
     format = '320x50';
+  }
+  if (isTablet && ((format as string) === '728x90' || (format as string) === '160x600' || (format as string) === '160x300')) {
+    format = '468x60';
   }
 
   return (

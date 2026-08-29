@@ -2808,7 +2808,10 @@
       "pageRange": "Phạm vi trang",
       "convertButton": "Chuyển đổi phông chữ thành đường viền",
       "downloadAllZip": "Tải xuống tất cả dạng ZIP",
-      "successMessage": "Đã chuyển đổi (các) tệp thành công!"
+      "successMessage": "Đã chuyển đổi (các) tệp thành công!",
+      "dpiDesc": "Higher DPI produces better quality but larger files. 300 DPI recommended for print.",
+      "preserveTextLabel": "Preserve searchable text (experimental)",
+      "preserveTextDesc": "Adds invisible text layer for search. May increase file size."
     },
     "extractTables": {
       "uploadLabel": "Tải lên tệp PDF",

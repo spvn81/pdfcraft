@@ -2816,7 +2816,10 @@
       "pageRange": "പേജ് റേഞ്ച്",
       "convertButton": "ഫോണ്ടുകൾ ഔട്ട്‌ലൈനുകളാക്കി കൺവേർട്ട് ചെയ്യുക",
       "downloadAllZip": "എല്ലാം ZIP ആയി ഡൗൺലോഡ് ചെയ്യുക",
-      "successMessage": "ഫയൽ(കൾ) വിജയകരമായി കൺവേർട്ട് ചെയ്തു!"
+      "successMessage": "ഫയൽ(കൾ) വിജയകരമായി കൺവേർട്ട് ചെയ്തു!",
+      "dpiDesc": "Higher DPI produces better quality but larger files. 300 DPI recommended for print.",
+      "preserveTextLabel": "Preserve searchable text (experimental)",
+      "preserveTextDesc": "Adds invisible text layer for search. May increase file size."
     },
     "extractTables": {
       "uploadLabel": "PDF ഫയൽ അപ്‌ലോഡ് ചെയ്യുക",

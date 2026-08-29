@@ -2816,7 +2816,10 @@
       "pageRange": "صفحہ کی حد",
       "convertButton": "فونٹس کو آؤٹ لائنز میں تبدیل کریں",
       "downloadAllZip": "تمام ZIP کے طور پر ڈاؤن لوڈ کریں",
-      "successMessage": "فائل (فائلیں) کامیابی سے تبدیل ہو گئیں!"
+      "successMessage": "فائل (فائلیں) کامیابی سے تبدیل ہو گئیں!",
+      "dpiDesc": "Higher DPI produces better quality but larger files. 300 DPI recommended for print.",
+      "preserveTextLabel": "Preserve searchable text (experimental)",
+      "preserveTextDesc": "Adds invisible text layer for search. May increase file size."
     },
     "extractTables": {
       "uploadLabel": "PDF فائل اپ لوڈ کریں",

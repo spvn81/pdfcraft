@@ -2808,7 +2808,10 @@
       "pageRange": "页面范围",
       "convertButton": "将字体转换为轮廓",
       "downloadAllZip": "全部下载为ZIP",
-      "successMessage": "转换成功！"
+      "successMessage": "转换成功！",
+      "dpiDesc": "Higher DPI produces better quality but larger files. 300 DPI recommended for print.",
+      "preserveTextLabel": "Preserve searchable text (experimental)",
+      "preserveTextDesc": "Adds invisible text layer for search. May increase file size."
     },
     "extractTables": {
       "uploadLabel": "上传PDF文件",

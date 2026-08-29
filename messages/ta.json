@@ -2816,7 +2816,10 @@
       "pageRange": "பக்க வரம்பு",
       "convertButton": "எழுத்துருக்களை அவுட்லைன்களாக மாற்று",
       "downloadAllZip": "அனைத்தையும் ZIP ஆக பதிவிறக்கு",
-      "successMessage": "கோப்பு(கள்) வெற்றிகரமாக மாற்றப்பட்டது!"
+      "successMessage": "கோப்பு(கள்) வெற்றிகரமாக மாற்றப்பட்டது!",
+      "dpiDesc": "Higher DPI produces better quality but larger files. 300 DPI recommended for print.",
+      "preserveTextLabel": "Preserve searchable text (experimental)",
+      "preserveTextDesc": "Adds invisible text layer for search. May increase file size."
     },
     "extractTables": {
       "uploadLabel": "PDF கோப்பைப் பதிவேற்றவும்",
