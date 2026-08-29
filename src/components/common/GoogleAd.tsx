@@ -26,14 +26,14 @@ export function GoogleAd({
 }: GoogleAdProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
-  const isInitialized = useRef<boolean>(false);
+  const lastInitializedPath = useRef<string | null>(null);
 
   useEffect(() => {
     // Only run on client
     if (typeof window === 'undefined') return;
 
     // Strict Mode / Navigation duplicate protection
-    if (isInitialized.current) return;
+    if (lastInitializedPath.current === pathname) return;
     
     // Safety check: ensure the DOM element exists and doesn't already have an ad
     const container = containerRef.current;
@@ -46,20 +46,21 @@ export function GoogleAd({
     if (insElement.innerHTML.trim() !== '') return;
 
     try {
-      isInitialized.current = true;
+      lastInitializedPath.current = pathname;
       (window.adsbygoogle = window.adsbygoogle || []).push({});
       
       if (process.env.NODE_ENV === 'development') {
-        console.log(`[GoogleAd] Initialized slot=${slot}`);
+        console.log(`[GoogleAd] Initialized slot=${slot} for path=${pathname}`);
       }
     } catch (error) {
       // Catch "All ins elements... already have ads in them" or similar
-      console.warn(`[GoogleAd] Initialization error for slot ${slot}:`, error);
+      console.warn(`[GoogleAd] Initialization error for slot ${slot} on path ${pathname}:`, error);
     }
   }, [pathname, slot]); // Re-run if path or slot changes
 
   return (
     <div 
+      key={pathname} // Force recreating the DOM node on navigation
       className={`w-full overflow-hidden flex justify-center items-center ${className}`} 
       ref={containerRef}
       aria-hidden="true"
