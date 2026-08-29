@@ -40,22 +40,13 @@ export default function RootLayout({
           }}
         />
 
-        {/* Google AdSense Loader (programmatic injection to bypass data-nscript) */}
+        {/* Google AdSense Loader (native to avoid data-nscript and support data-cfasync) */}
         <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function() {
-                if (!document.querySelector('script[src*="adsbygoogle.js"]')) {
-                  var s = document.createElement('script');
-                  s.async = true;
-                  s.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5961281650555057";
-                  s.crossOrigin = "anonymous";
-                  document.head.appendChild(s);
-                }
-              })();
-            `
-          }}
-        />
+          data-cfasync="false"
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5961281650555057"
+          crossOrigin="anonymous"
+        ></script>
       </head>
       <body className="min-h-screen bg-background text-foreground antialiased">
         {children}
