@@ -8,7 +8,6 @@ import { Footer } from '@/components/layout/Footer';
 import { ToolGrid } from '@/components/tools/ToolGrid';
 import { Button } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';
-import { ResponsiveAd } from '@/components/common/ResponsiveAd';
 import { GoogleAd } from '@/components/common/GoogleAd';
 import { getAllTools, getToolsByCategory, getPopularTools } from '@/config/tools';
 import { type Locale, locales } from '@/lib/i18n/config';
@@ -138,11 +137,6 @@ export default function HomePageClient({ locale, localizedToolContent }: HomePag
           </div>
         </section>
 
-        {/* Ad Placement 1: After Hero */}
-        <div className="container mx-auto px-4 py-8 flex justify-center">
-          <ResponsiveAd placement="hero" />
-        </div>
-
         {/* Features Section */}
         <section className="py-12 relative z-20" aria-label="Features">
           <div className="container mx-auto px-4">
@@ -226,11 +220,6 @@ export default function HomePageClient({ locale, localizedToolContent }: HomePag
             />
           </div>
         </section>
-
-        {/* Ad Placement 2: Between Major content sections */}
-        <div className="container mx-auto px-4 py-8 flex justify-center">
-          <ResponsiveAd placement="content" />
-        </div>
 
         {/* Tool Categories Section */}
         <section className="py-16 bg-[hsl(var(--color-muted)/0.3)]" aria-labelledby="categories-heading">
@@ -316,11 +305,6 @@ export default function HomePageClient({ locale, localizedToolContent }: HomePag
             </div>
           </div>
         </section>
-
-        {/* Ad Placement 3: Before Footer */}
-        <div className="container mx-auto px-4 pb-8 flex justify-center">
-          <ResponsiveAd placement="hero" />
-        </div>
 
         {/* AdSense Placement: Autorelaxed */}
         <div className="container mx-auto px-4 pb-12 flex justify-center">

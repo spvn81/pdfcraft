@@ -14,7 +14,6 @@ import { Home, ChevronRight } from 'lucide-react';
 import { FavoriteButton } from '@/components/ui/FavoriteButton';
 import { useMemo } from 'react';
 import { sanitizeHtml } from '@/lib/utils/html-sanitizer';
-import { ResponsiveAd } from '@/components/common/ResponsiveAd';
 import { GoogleAd } from '@/components/common/GoogleAd';
 
 export interface ToolPageProps {
@@ -64,11 +63,6 @@ export function ToolPage({ tool, content, locale, children, localizedRelatedTool
 
         <main id="main-content" className="flex-1" tabIndex={-1}>
           <div className="w-full flex justify-center max-w-[1920px] mx-auto px-4 pt-24 pb-8 gap-6">
-
-            {/* Left Sidebar Ad */}
-            <aside className="hidden xl:block w-[160px] flex-shrink-0 sticky top-24 h-max">
-              <ResponsiveAd placement="sidebar-left" />
-            </aside>
 
             {/* Main Content Area */}
             <div className="flex-1 min-w-0 max-w-7xl">
@@ -122,11 +116,6 @@ export function ToolPage({ tool, content, locale, children, localizedRelatedTool
                 />
               </div>
 
-              {/* Primary Content Advertisement */}
-              <div className="w-full flex justify-center my-8">
-                <ResponsiveAd placement="content" />
-              </div>
-
               {/* Description Section */}
               <DescriptionSection description={content.description} />
 
@@ -145,17 +134,7 @@ export function ToolPage({ tool, content, locale, children, localizedRelatedTool
                 locale={locale}
                 localizedRelatedTools={localizedRelatedTools}
               />
-
-              {/* Secondary Content Advertisement */}
-              <div className="w-full flex justify-center mt-8">
-                <ResponsiveAd placement="hero" />
-              </div>
             </div>
-
-            {/* Right Sidebar Ad */}
-            <aside className="hidden xl:block w-[160px] flex-shrink-0 sticky top-24 h-max">
-              <ResponsiveAd placement="sidebar-right" />
-            </aside>
 
           </div>
         </main>

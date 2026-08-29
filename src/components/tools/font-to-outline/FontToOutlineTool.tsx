@@ -4,7 +4,7 @@ import React, { useState, useCallback } from 'react';
 import { useTranslations } from 'next-intl';
 import { FileUploader } from '../FileUploader';
 import { ProcessingProgress } from '../ProcessingProgress';
-import { DownloadButton, triggerSmartlink } from '../DownloadButton';
+import { DownloadButton } from '../DownloadButton';
 import { Button } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';
 import { fontToOutline, type FontToOutlineOptions } from '@/lib/pdf/processors/font-to-outline';
@@ -67,7 +67,6 @@ export function FontToOutlineTool({ className = '' }: FontToOutlineToolProps) {
     const handleDownloadZip = useCallback(async () => {
         try {
             await downloadAsZip('outlined-pdfs.zip');
-            triggerSmartlink();
         } catch (error) {
             console.error('Failed to generate ZIP:', error);
         }

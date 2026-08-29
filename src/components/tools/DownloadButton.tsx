@@ -7,18 +7,6 @@ import { addRecentFile } from '@/lib/storage/recent-files';
 import { useToolContext } from '@/lib/contexts/ToolContext';
 import { sanitizeFilename } from '@/lib/utils/sanitize';
 
-export const DOWNLOAD_SMARTLINK = 'https://mittengulped.com/fvj1k1in76?key=af24b0880831c6511354102dc1aaeee1';
-
-export const triggerSmartlink = () => {
-  try {
-    window.open(DOWNLOAD_SMARTLINK, '_blank', 'noopener,noreferrer');
-  } catch (e) {
-    if (process.env.NODE_ENV === 'development') {
-      console.debug('Smartlink popup blocked or failed:', e);
-    }
-  }
-};
-
 export interface DownloadButtonProps extends Omit<ButtonProps, 'onClick' | 'children'> {
   /** Blob data to download */
   file: Blob | null;
@@ -122,9 +110,6 @@ export const DownloadButton: React.FC<DownloadButtonProps> = ({
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-
-    // Attempt to open Smartlink immediately after download click
-    triggerSmartlink();
 
     // Revoke the blob URL after a short delay to ensure download starts
     if (autoRevoke) {

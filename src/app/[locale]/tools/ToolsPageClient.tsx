@@ -10,7 +10,6 @@ import { ToolGrid } from '@/components/tools/ToolGrid';
 import { ToolCard } from '@/components/tools/ToolCard';
 import { Button } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';
-import { ResponsiveAd } from '@/components/common/ResponsiveAd';
 import { getAllTools, getToolsByCategory, getToolById } from '@/config/tools';
 import { toolMatchesQuery } from '@/lib/utils/search';
 import { type Locale } from '@/lib/i18n/config';
@@ -155,11 +154,6 @@ export default function ToolsPageClient({ locale, localizedToolContent }: ToolsP
           </div>
         </section>
 
-        {/* Ad Placement 1: Top of tools page */}
-        <div className="container mx-auto px-4 py-6 flex justify-center">
-          <ResponsiveAd placement="hero" />
-        </div>
-
         {/* Filters and Tools */}
         <section className="py-8 bg-[hsl(var(--color-muted)/0.3)] min-h-[500px]">
           <div className="container mx-auto px-4">
@@ -297,11 +291,6 @@ export default function ToolsPageClient({ locale, localizedToolContent }: ToolsP
             )}
           </div>
         </section>
-
-        {/* Ad Placement 2: Bottom of tools page */}
-        <div className="container mx-auto px-4 py-8 flex justify-center bg-[hsl(var(--color-muted)/0.3)]">
-          <ResponsiveAd placement="content" />
-        </div>
       </main>
 
       <Footer locale={locale} />
