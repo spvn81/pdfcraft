@@ -41,7 +41,12 @@ export default function RootLayout({
           }}
         />
 
-
+        {/* Google AdSense */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5961281650555057"
+          crossOrigin="anonymous"
+        ></script>
       </head>
       <body className="min-h-screen bg-background text-foreground antialiased">
         <GlobalPublisherAds />
@@ -53,14 +58,7 @@ export default function RootLayout({
           src="https://www.googletagmanager.com/gtag/js?id=G-L05YKLL1JN"
           strategy="afterInteractive"
         />
-        
-        {/* Google AdSense */}
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5961281650555057"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
+
         <Script
           id="google-analytics"
           strategy="afterInteractive"
