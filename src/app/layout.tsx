@@ -40,9 +40,8 @@ export default function RootLayout({
           }}
         />
 
-        {/* Google AdSense Loader (native to avoid data-nscript and support data-cfasync) */}
+        {/* Google AdSense Loader */}
         <script
-          data-cfasync="false"
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5961281650555057"
           crossOrigin="anonymous"

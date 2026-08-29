@@ -83,6 +83,7 @@ export function ToolPage({ tool, content, locale, children, localizedRelatedTool
               <nav aria-label="Breadcrumb" className="mb-4 flex items-center text-sm text-[hsl(var(--color-muted-foreground))] animate-in fade-in slide-in-from-top-4 duration-500 delay-100">
                 <Link
                   href={`/${locale}/`}
+                  prefetch={false}
                   className="flex items-center hover:text-[hsl(var(--color-primary))] transition-colors"
                   title={t('common.navigation.home')}
                 >
@@ -91,6 +92,7 @@ export function ToolPage({ tool, content, locale, children, localizedRelatedTool
                 <ChevronRight className="w-4 h-4 mx-2 text-[hsl(var(--color-border))]" />
                 <Link
                   href={`/${locale}/tools/`}
+                  prefetch={false}
                   className="hover:text-[hsl(var(--color-primary))] transition-colors"
                 >
                   {t('common.navigation.tools')}
@@ -98,6 +100,7 @@ export function ToolPage({ tool, content, locale, children, localizedRelatedTool
                 <ChevronRight className="w-4 h-4 mx-2 text-[hsl(var(--color-border))]" />
                 <Link
                   href={`/${locale}/tools/category/${tool.category}/`}
+                  prefetch={false}
                   className="hover:text-[hsl(var(--color-primary))] transition-colors"
                 >
                   {t(`home.categories.${categoryTranslationKeys[tool.category]}`)}
@@ -475,6 +478,7 @@ function RelatedToolsSection({ tools, locale, localizedRelatedTools }: RelatedTo
             <Link
               key={tool.id}
               href={`/${locale}/tools/${tool.slug}/`}
+              prefetch={false}
               className="block group"
             >
               <Card hover clickable className="h-full glass-card transition-all duration-300 group-hover:-translate-y-1">
