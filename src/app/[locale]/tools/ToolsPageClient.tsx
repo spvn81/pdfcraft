@@ -253,14 +253,17 @@ export default function ToolsPageClient({ locale, localizedToolContent }: ToolsP
                     locale={locale}
                     localizedToolContent={localizedToolContent}
                   />
-                  {/* AdSense Placement for Filtered View */}
-                  <div className="w-full flex justify-center mt-8">
-                    <GoogleAd 
-                      format="fluid"
-                      layoutKey="-fe-f+2h-5z+6n"
-                      slot="1108330390"
-                    />
-                  </div>
+                  {/* AdSense Placement for Filtered View - Only show if enough results */}
+                  {filteredTools.length >= 4 && (
+                    <div className="w-full flex justify-center mt-8">
+                      <GoogleAd 
+                        key={`${selectedCategory}-${searchQuery}`}
+                        format="fluid"
+                        layoutKey="-fe-f+2h-5z+6n"
+                        slot="1108330390"
+                      />
+                    </div>
+                  )}
                 </div>
               )
             ) : selectedCategory === 'favorites' ? (
