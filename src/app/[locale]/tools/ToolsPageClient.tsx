@@ -256,9 +256,9 @@ export default function ToolsPageClient({ locale, localizedToolContent }: ToolsP
                   {/* AdSense Placement for Filtered View */}
                   <div className="w-full flex justify-center mt-8">
                     <GoogleAd 
-                      format="auto"
-                      fullWidthResponsive={true}
-                      slot="6211361108"
+                      format="fluid"
+                      layoutKey="-fe-f+2h-5z+6n"
+                      slot="1108330390"
                     />
                   </div>
                 </div>

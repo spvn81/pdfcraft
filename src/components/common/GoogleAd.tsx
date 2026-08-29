@@ -30,14 +30,14 @@ export function GoogleAd({
 }: GoogleAdProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
-  const lastInitializedPath = useRef<string | null>(null);
+  const isPushed = useRef(false);
 
   useEffect(() => {
     // Only run on client
     if (typeof window === 'undefined') return;
 
-    // Strict Mode / Navigation duplicate protection
-    if (lastInitializedPath.current === pathname) return;
+    // Strict Mode duplicate protection for this component instance
+    if (isPushed.current) return;
     
     // Safety check: ensure the DOM element exists and doesn't already have an ad
     const container = containerRef.current;
@@ -50,7 +50,7 @@ export function GoogleAd({
     if (insElement.innerHTML.trim() !== '') return;
 
     try {
-      lastInitializedPath.current = pathname;
+      isPushed.current = true;
       (window.adsbygoogle = window.adsbygoogle || []).push({});
       
       if (process.env.NODE_ENV === 'development') {

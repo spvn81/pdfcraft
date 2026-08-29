@@ -145,16 +145,7 @@ export function ToolGrid({
                 ))}
               </div>
               {/* AdSense Placements (Controlled Density) */}
-              {groupIndex === 0 && (
-                <div className="w-full flex justify-center mt-8">
-                  <GoogleAd 
-                    format="auto"
-                    fullWidthResponsive={true}
-                    slot="6211361108"
-                  />
-                </div>
-              )}
-              {(groupIndex === 1 || groupIndex === 3) && (
+              {(groupIndex === 0 || groupIndex === 3) && (
                 <div className="w-full flex justify-center mt-8">
                   <GoogleAd 
                     format="fluid"
