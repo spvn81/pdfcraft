@@ -83,7 +83,7 @@
       "madeWith": "تم الإنشاء باستخدام <Heart /> و <Nextjs />"
     },
     "recentFiles": {
-      "title": "الملفات الأخيرة",
+      "title": "الملفات الأخيرة", 
       "empty": "لا توجد ملفات حديثة",
       "clearAll": "مسح الكل",
       "processedWith": "تمت المعالجة باستخدام"
