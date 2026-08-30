@@ -253,15 +253,6 @@ export default function ToolsPageClient({ locale, localizedToolContent }: ToolsP
                     locale={locale}
                     localizedToolContent={localizedToolContent}
                   />
-                  {/* AdSense Placement for Filtered View - Only show if enough results */}
-                  {filteredTools.length >= 4 && (
-                    <div className="w-full flex justify-center mt-8">
-                      <GoogleAd 
-                        key={`${selectedCategory}-${searchQuery}`}
-                        variant="in-feed"
-                      />
-                    </div>
-                  )}
                 </div>
               )
             ) : selectedCategory === 'favorites' ? (

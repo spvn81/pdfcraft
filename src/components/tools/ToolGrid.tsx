@@ -30,6 +30,8 @@ export interface ToolGridProps {
  * Requirements: 6.1 - Organize tools into 7 categories
  * Requirements: 6.4 - Responsive grid layout adapting to screen sizes
  */
+const AD_INSERT_POSITIONS = [8, 20, 36, 52];
+
 export function ToolGrid({
   tools,
   locale,
@@ -100,6 +102,19 @@ export function ToolGrid({
     return groups;
   }, [filteredTools, showCategoryHeaders]);
 
+  // Calculate absolute start indices for categories to consistently place ads
+  const categoryStartIndices = useMemo(() => {
+    const indices: Record<string, number> = {};
+    let count = 0;
+    if (groupedTools) {
+      for (const cat of Object.keys(groupedTools)) {
+        indices[cat] = count;
+        count += groupedTools[cat as ToolCategory].length;
+      }
+    }
+    return indices;
+  }, [groupedTools]);
+
   if (filteredTools.length === 0) {
     return (
       <div
@@ -117,11 +132,12 @@ export function ToolGrid({
   if (showCategoryHeaders && groupedTools) {
     return (
       <div className={`space-y-8 ${className}`} data-testid="tool-grid">
-        {Object.entries(groupedTools).map(([cat, categoryTools], groupIndex) => {
+        {Object.entries(groupedTools).map(([cat, categoryTools]) => {
           if (categoryTools.length === 0) return null;
 
           const categoryInfo = CATEGORY_INFO[cat as ToolCategory];
           const categoryName = t(`home.categories.${categoryTranslationKeys[cat as ToolCategory]}`);
+          const startIndex = categoryStartIndices[cat];
 
           return (
             <section key={cat} data-testid={`tool-grid-category-${cat}`}>
@@ -134,22 +150,26 @@ export function ToolGrid({
                 </p>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-                {categoryTools.map((tool, index) => (
-                  <React.Fragment key={tool.id}>
-                    <ToolCard
-                      tool={tool}
-                      locale={locale}
-                      localizedContent={localizedToolContent?.[tool.id]}
-                    />
-                  </React.Fragment>
-                ))}
+                {categoryTools.map((tool, index) => {
+                  const absoluteIndex = startIndex + index + 1; // 1-based index
+                  const showAd = AD_INSERT_POSITIONS.includes(absoluteIndex);
+                  
+                  return (
+                    <React.Fragment key={tool.id}>
+                      <ToolCard
+                        tool={tool}
+                        locale={locale}
+                        localizedContent={localizedToolContent?.[tool.id]}
+                      />
+                      {showAd && (
+                        <div className="col-span-full w-full py-4 flex justify-center items-center" key={`ad-${absoluteIndex}`}>
+                          <GoogleAd variant="responsive" />
+                        </div>
+                      )}
+                    </React.Fragment>
+                  );
+                })}
               </div>
-              {/* AdSense Placements (Controlled Density) */}
-              {(groupIndex === 0 || groupIndex === 3) && (
-                <div className="w-full flex justify-center mt-8">
-                  <GoogleAd variant="in-feed" />
-                </div>
-              )}
             </section>
           );
         })}
@@ -163,15 +183,25 @@ export function ToolGrid({
       className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 ${className}`}
       data-testid="tool-grid"
     >
-      {filteredTools.map((tool, index) => (
-        <React.Fragment key={tool.id}>
-          <ToolCard
-            tool={tool}
-            locale={locale}
-            localizedContent={localizedToolContent?.[tool.id]}
-          />
-        </React.Fragment>
-      ))}
+      {filteredTools.map((tool, index) => {
+        const absoluteIndex = index + 1; // 1-based index
+        const showAd = AD_INSERT_POSITIONS.includes(absoluteIndex);
+        
+        return (
+          <React.Fragment key={tool.id}>
+            <ToolCard
+              tool={tool}
+              locale={locale}
+              localizedContent={localizedToolContent?.[tool.id]}
+            />
+            {showAd && (
+              <div className="col-span-full w-full py-4 flex justify-center items-center" key={`ad-${absoluteIndex}`}>
+                <GoogleAd variant="responsive" />
+              </div>
+            )}
+          </React.Fragment>
+        );
+      })}
     </div>
   );
 }
