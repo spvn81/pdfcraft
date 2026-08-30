@@ -40,7 +40,11 @@ export default function RootLayout({
           }}
         />
 
-        {/* Google AdSense Loader */}
+        {/* 
+          Google AdSense Loader
+          The script is loaded globally only once to prevent duplicate loading of adsbygoogle.js 
+          across multiple ad components. This ensures better performance and avoids Core Web Vitals degradation.
+        */}
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5961281650555057"

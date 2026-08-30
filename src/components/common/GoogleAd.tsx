@@ -9,7 +9,7 @@ declare global {
   }
 }
 
-export type AdVariant = 'display' | 'in-feed' | 'in-article' | 'new-in-article' | 'fluid' | 'autorelaxed' | 'multiplex';
+export type AdVariant = 'display' | 'in-feed' | 'in-article' | 'new-in-article' | 'fluid' | 'autorelaxed' | 'multiplex' | 'responsive';
 
 interface GoogleAdProps {
   variant: AdVariant;
@@ -24,6 +24,7 @@ const AD_CONFIGS = {
   'fluid': { slot: '2088634914', format: 'fluid', layoutKey: '-ef+6k-30-ac+ty', style: { display: 'block', width: '100%' } },
   'autorelaxed': { slot: '9775553248', format: 'autorelaxed', style: { display: 'block', width: '100%' } },
   'multiplex': { slot: '4957049834', format: 'autorelaxed', style: { display: 'block', width: '100%' } },
+  'responsive': { slot: '6934978931', format: 'auto', fullWidthResponsive: true, style: { display: 'block', width: '100%' } },
 } as const;
 
 export function GoogleAd({
@@ -37,10 +38,12 @@ export function GoogleAd({
   const config = AD_CONFIGS[variant];
 
   useEffect(() => {
-    // Only run on client
+    // The ad initialization runs only on the client to prevent hydration errors during server-side rendering (SSR),
+    // and because adsbygoogle requires access to the browser's window and document objects.
     if (typeof window === 'undefined') return;
 
-    // Strict Mode duplicate protection for this component instance
+    // We use a ref (isPushed) to track if this specific component instance has already initialized its ad.
+    // This avoids duplicate adsbygoogle.push() calls for the same container, especially in React Strict Mode.
     if (isPushed.current) return;
     
     // Safety check: ensure the DOM element exists and doesn't already have an ad

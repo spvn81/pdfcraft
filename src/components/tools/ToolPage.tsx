@@ -68,14 +68,7 @@ export function ToolPage({ tool, content, locale, children, localizedRelatedTool
         <main id="main-content" className="flex-1" tabIndex={-1}>
           <div className="w-full flex justify-center max-w-[1920px] mx-auto px-4 pt-24 pb-8 gap-6">
 
-            {/* Desktop Left Sidebar Ad */}
-            {isDesktop && (
-              <aside className="w-[160px] 2xl:w-[300px] flex-shrink-0" aria-label="Advertisement left">
-                <div className="sticky top-24">
-                  <GoogleAd variant="display" />
-                </div>
-              </aside>
-            )}
+            {/* Sidebar ads removed to prioritize main content and prevent excessive ads */}
 
             {/* Main Content Area */}
             <div className="flex-1 min-w-0 max-w-4xl">
@@ -123,9 +116,9 @@ export function ToolPage({ tool, content, locale, children, localizedRelatedTool
                 {children}
               </section>
 
-              {/* AdSense Placement: Responsive Fluid (After Tool Interface) */}
+              {/* AdSense Placement: Responsive (After Tool Interface) */}
               <div className="w-full flex justify-center mt-8">
-                <GoogleAd variant="fluid" />
+                <GoogleAd variant="responsive" />
               </div>
 
               {/* Description Section */}
@@ -134,10 +127,7 @@ export function ToolPage({ tool, content, locale, children, localizedRelatedTool
               {/* How to Use Section */}
               <HowToUseSection steps={content.howToUse} />
 
-              {/* AdSense Placement: In-Article (After How to Use / Content) */}
-              <div className="w-full flex justify-center mt-8">
-                <GoogleAd variant="new-in-article" />
-              </div>
+              {/* Removed in-article ad to prevent excessive ads */}
 
               {/* Use Cases Section */}
               <UseCasesSection useCases={content.useCases} />
@@ -145,10 +135,7 @@ export function ToolPage({ tool, content, locale, children, localizedRelatedTool
               {/* FAQ Section */}
               <FAQSection faq={content.faq} />
 
-              {/* AdSense Placement: Autorelaxed (After FAQ) */}
-              <div className="w-full flex justify-center mt-8">
-                <GoogleAd variant="autorelaxed" />
-              </div>
+              {/* Removed autorelaxed ad to prevent excessive ads */}
 
               {/* Related Tools Section */}
               <RelatedToolsSection
@@ -157,20 +144,10 @@ export function ToolPage({ tool, content, locale, children, localizedRelatedTool
                 localizedRelatedTools={localizedRelatedTools}
               />
 
-              {/* AdSense Placement: Multiplex (After Related Tools) */}
-              <div className="w-full flex justify-center mt-12 mb-8">
-                <GoogleAd variant="multiplex" />
-              </div>
+              {/* Removed multiplex ad to prevent excessive ads */}
             </div>
 
-            {/* Desktop Right Sidebar Ad */}
-            {isDesktop && (
-              <aside className="w-[160px] 2xl:w-[300px] flex-shrink-0" aria-label="Advertisement right">
-                <div className="sticky top-24">
-                  <GoogleAd variant="display" />
-                </div>
-              </aside>
-            )}
+            {/* Sidebar ads removed */}
 
           </div>
         </main>
