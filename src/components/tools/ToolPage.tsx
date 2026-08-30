@@ -116,9 +116,9 @@ export function ToolPage({ tool, content, locale, children, localizedRelatedTool
                 {children}
               </section>
 
-              {/* AdSense Placement: Responsive (After Tool Interface) */}
+              {/* AdSense Placement: Single intended ad slot (After Tool Interface) */}
               <div className="w-full flex justify-center mt-8">
-                <GoogleAd variant="responsive" />
+                <GoogleAd />
               </div>
 
               {/* Description Section */}

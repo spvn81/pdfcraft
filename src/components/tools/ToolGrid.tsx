@@ -30,7 +30,7 @@ export interface ToolGridProps {
  * Requirements: 6.1 - Organize tools into 7 categories
  * Requirements: 6.4 - Responsive grid layout adapting to screen sizes
  */
-const AD_INSERT_POSITIONS = [8, 20, 36, 52];
+const AD_INSERT_POSITIONS = [8]; // Keep a single ad at the explicitly chosen grid position
 
 export function ToolGrid({
   tools,
@@ -163,7 +163,7 @@ export function ToolGrid({
                       />
                       {showAd && (
                         <div className="col-span-full w-full py-4 flex justify-center items-center" key={`ad-${absoluteIndex}`}>
-                          <GoogleAd variant="responsive" />
+                          <GoogleAd />
                         </div>
                       )}
                     </React.Fragment>
@@ -196,7 +196,7 @@ export function ToolGrid({
             />
             {showAd && (
               <div className="col-span-full w-full py-4 flex justify-center items-center" key={`ad-${absoluteIndex}`}>
-                <GoogleAd variant="responsive" />
+                <GoogleAd />
               </div>
             )}
           </React.Fragment>
