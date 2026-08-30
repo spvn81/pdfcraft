@@ -49,7 +49,6 @@ export default function RootLayout({
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5961281650555057"
           crossOrigin="anonymous"
-          data-cfasync="false"
         ></script>
       </head>
       <body className="min-h-screen bg-background text-foreground antialiased">
