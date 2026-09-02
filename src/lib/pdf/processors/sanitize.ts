@@ -186,7 +186,7 @@ export class SanitizePDFProcessor extends BasePDFProcessor {
           pdfDoc.setSubject('');
           pdfDoc.setKeywords([]);
           pdfDoc.setCreator('');
-          pdfDoc.setProducer('PDFCraft');
+          pdfDoc.setProducer('SPVN Tech PDF Tools');
 
           // Remove XMP metadata
           try {

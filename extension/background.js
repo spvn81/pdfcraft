@@ -1,13 +1,13 @@
-// PDFCraft Chrome Extension - Background Service Worker
+// SPVN Tech Chrome Extension - Background Service Worker
 
-const PDFCRAFT_URL = 'https://pdfcraft.devtoolcafe.com/en';
+const SPVN Tech_URL = 'https://pdfcraft.devtoolcafe.com/en';
 
 // Create context menu when extension is installed
 chrome.runtime.onInstalled.addListener(() => {
     // Create main context menu item
     chrome.contextMenus.create({
         id: 'pdfcraft-open',
-        title: 'Open with PDFCraft',
+        title: 'Open with SPVN Tech',
         contexts: ['link', 'page']
     });
 
@@ -40,34 +40,34 @@ chrome.runtime.onInstalled.addListener(() => {
         contexts: ['link', 'page']
     });
 
-    console.log('PDFCraft context menus created');
+    console.log('SPVN Tech context menus created');
 });
 
 // Handle context menu clicks
 chrome.contextMenus.onClicked.addListener((info, tab) => {
-    let url = PDFCRAFT_URL;
+    let url = SPVN Tech_URL;
 
     switch (info.menuItemId) {
         case 'pdfcraft-merge':
-            url = `${PDFCRAFT_URL}/tools/merge-pdf`;
+            url = `${SPVN Tech_URL}/tools/merge-pdf`;
             break;
         case 'pdfcraft-compress':
-            url = `${PDFCRAFT_URL}/tools/compress-pdf`;
+            url = `${SPVN Tech_URL}/tools/compress-pdf`;
             break;
         case 'pdfcraft-convert':
-            url = `${PDFCRAFT_URL}/tools/jpg-to-pdf`;
+            url = `${SPVN Tech_URL}/tools/jpg-to-pdf`;
             break;
         case 'pdfcraft-all-tools':
         case 'pdfcraft-open':
-            url = PDFCRAFT_URL;
+            url = SPVN Tech_URL;
             break;
         default:
-            url = PDFCRAFT_URL;
+            url = SPVN Tech_URL;
     }
 
-    // Open PDFCraft in a new tab
+    // Open SPVN Tech in a new tab
     chrome.tabs.create({ url: url });
 });
 
 // Log when service worker starts
-console.log('PDFCraft background service worker started');
+console.log('SPVN Tech background service worker started');

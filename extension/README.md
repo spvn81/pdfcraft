@@ -1,11 +1,11 @@
-# PDFCraft Chrome Extension
+# SPVN Tech Chrome Extension
 
-A simple Chrome extension for quick access to PDFCraft's 72+ PDF tools.
+A simple Chrome extension for quick access to SPVN Tech's 72+ PDF tools.
 
 ## Features
 
 - 🚀 **Quick Access Popup**: Click the extension icon to see popular tools
-- 📋 **Right-Click Menu**: Access PDFCraft tools from any webpage
+- 📋 **Right-Click Menu**: Access SPVN Tech tools from any webpage
 - 🎨 **Modern UI**: Beautiful dark theme with gradient effects
 - ⚡ **Fast**: Lightweight extension with no background processing
 
@@ -18,12 +18,12 @@ A simple Chrome extension for quick access to PDFCraft's 72+ PDF tools.
 3. Enable **Developer mode** (toggle in top-right corner)
 4. Click **Load unpacked**
 5. Select the `extension` folder from this repository
-6. The PDFCraft icon should appear in your toolbar!
+6. The SPVN Tech icon should appear in your toolbar!
 
 ### Usage
 
 - **Click the icon** in your toolbar to see quick links to popular PDF tools
-- **Right-click** on any webpage and select "Open with PDFCraft" to access tools
+- **Right-click** on any webpage and select "Open with SPVN Tech" to access tools
 
 ## Tools Included
 
@@ -37,19 +37,19 @@ The popup provides quick access to:
 - Sign PDF
 - Encrypt PDF
 
-And 64+ more tools via the "Open PDFCraft" button!
+And 64+ more tools via the "Open SPVN Tech" button!
 
 ## Privacy
 
 This extension:
 - ✅ Does NOT collect any data
 - ✅ Does NOT track browsing activity
-- ✅ Only opens PDFCraft website when you click
+- ✅ Only opens SPVN Tech website when you click
 
 ## Links
 
-- Website: [pdfcraft.devtoolcafe.com](https://pdfcraft.devtoolcafe.com)
-- GitHub: [github.com/PDFCraftTool/pdfcraft](https://github.com/PDFCraftTool/pdfcraft)
+- Website: [SPVN Tech.devtoolcafe.com](https://SPVN Tech.devtoolcafe.com)
+- GitHub: [github.com/SPVN TechTool/SPVN Tech](https://github.com/SPVN TechTool/SPVN Tech)
 
 ## License
 
