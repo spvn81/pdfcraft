@@ -25,6 +25,9 @@ async function initQpdf() {
         // Use relative path from worker location
         return '../qpdf.wasm';
       }
+      if (path.endsWith('.js')) {
+        return '../' + path;
+      }
       return path;
     },
   });

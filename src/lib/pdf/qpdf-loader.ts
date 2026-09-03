@@ -41,6 +41,9 @@ export async function loadQpdf(): Promise<any> {
             if (path.endsWith('.wasm')) {
               return withBasePath('/qpdf.wasm');
             }
+            if (path.endsWith('.js')) {
+              return withBasePath('/' + path);
+            }
             return path;
           },
         });
@@ -66,6 +69,9 @@ export async function loadQpdf(): Promise<any> {
             locateFile: (path: string) => {
               if (path.endsWith('.wasm')) {
                 return withBasePath('/qpdf.wasm');
+              }
+              if (path.endsWith('.js')) {
+                return withBasePath('/' + path);
               }
               return path;
             },

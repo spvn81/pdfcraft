@@ -105,6 +105,9 @@ function initQpdfModule(resolve: (value: any) => void, reject: (reason: any) => 
         if (path.endsWith('.wasm')) {
           return withBasePath('/qpdf.wasm');
         }
+        if (path.endsWith('.js')) {
+          return withBasePath('/' + path);
+        }
         return path;
       },
     }).then((instance: any) => {
