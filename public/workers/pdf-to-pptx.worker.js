@@ -4,7 +4,7 @@
  * Converts PDF pages to images and creates a PPTX with each page as a slide.
  */
 
-import { loadPyodide } from '/pymupdf-wasm/pyodide.js';
+import { loadPyodide } from '../pymupdf-wasm/pyodide.js';
 
 let pyodide = null;
 let initPromise = null;

@@ -2,7 +2,7 @@
  * Extract Images from PDF Worker (via Pyodide + PyMuPDF)
  */
 
-import { loadPyodide } from '/pymupdf-wasm/pyodide.js';
+import { loadPyodide } from '../pymupdf-wasm/pyodide.js';
 
 let pyodide = null;
 let initPromise = null;

@@ -3,7 +3,7 @@
  * Generates clickable TOC from PDF bookmarks with CJK font support
  */
 
-import { loadPyodide } from '/pymupdf-wasm/pyodide.js';
+import { loadPyodide } from '../pymupdf-wasm/pyodide.js';
 
 let pyodide = null;
 let initPromise = null;

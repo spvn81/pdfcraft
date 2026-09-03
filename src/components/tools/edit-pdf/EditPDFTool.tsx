@@ -514,7 +514,7 @@ export function EditPDFTool({ className = '' }: EditPDFToolProps) {
                   if (hasChinese) {
                     try {
                       console.log('[PDFCraft Patch] Chinese text found. Embedding NotoSansSC-Regular font...');
-                      const fontBytes = await fetch('/fonts/NotoSansSC-Regular.ttf').then(res => res.arrayBuffer());
+                      const fontBytes = await fetch('${withBasePath('/fonts/NotoSansSC-Regular.ttf')}').then(res => res.arrayBuffer());
                       const customFont = await this.embedFont(fontBytes, { subset: true });
                       
                       // Intercept subsequent font loading requests for Helvetica inside pdf-lib

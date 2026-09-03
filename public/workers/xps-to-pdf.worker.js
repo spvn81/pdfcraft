@@ -3,7 +3,7 @@
  * PyMuPDF natively supports opening XPS files
  */
 
-import { loadPyodide } from '/pymupdf-wasm/pyodide.js';
+import { loadPyodide } from '../pymupdf-wasm/pyodide.js';
 
 let pyodide = null;
 let initPromise = null;

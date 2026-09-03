@@ -1,4 +1,4 @@
-import { loadPyodide } from '/pymupdf-wasm/pyodide.js';
+import { loadPyodide } from '../pymupdf-wasm/pyodide.js';
 
 const basePath = '/pymupdf-wasm/';
 let pyodide = null;

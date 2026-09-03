@@ -12,7 +12,7 @@
  * 8. CJK font support with dynamic loading
  */
 
-import { loadPyodide } from '/pymupdf-wasm/pyodide.js';
+import { loadPyodide } from '../pymupdf-wasm/pyodide.js';
 
 let pyodide = null;
 let initPromise = null;

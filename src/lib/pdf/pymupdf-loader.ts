@@ -6,31 +6,6 @@ import { withBasePath } from '../utils/path';
 let pymupdfInstance: any = null;
 let loadingPromise: Promise<any> | null = null;
 
-function resolvePublicAssetPath(assetPath: string): string {
-  if (typeof window === 'undefined') return assetPath;
-
-  // Prefer the explicitly configured withBasePath helper
-  const resolvedPath = withBasePath(assetPath);
-  if (resolvedPath !== assetPath) return resolvedPath;
-
-  const normalizedAssetPath = assetPath.startsWith('/') ? assetPath : `/${assetPath}`;
-  const scripts = Array.from(document.querySelectorAll('script[src]')) as HTMLScriptElement[];
-  const nextScript = scripts.find((script) => script.src.includes('/_next/'));
-
-  if (!nextScript) return normalizedAssetPath;
-
-  try {
-    const scriptUrl = new URL(nextScript.src);
-    const nextIndex = scriptUrl.pathname.indexOf('/_next/');
-    if (nextIndex <= 0) return normalizedAssetPath;
-
-    const basePath = scriptUrl.pathname.slice(0, nextIndex).replace(/\/$/, '');
-    return `${basePath}${normalizedAssetPath}`;
-  } catch {
-    return normalizedAssetPath;
-  }
-}
-
 /**
  * Load PyMuPDF using Pyodide directly
  */
@@ -46,7 +21,7 @@ export async function loadPyMuPDF(): Promise<any> {
   loadingPromise = (async () => {
     try {
       const basePath = new URL(
-        resolvePublicAssetPath('/pymupdf-wasm/'),
+        withBasePath('/pymupdf-wasm/'),
         window.location.origin
       ).toString();
 
@@ -1266,7 +1241,7 @@ base64.b64encode(pdf_bytes).decode('ascii')
           pyodide.FS.writeFile(inputPath, pdfData);
 
           if (needsUnicodeFont) {
-            const fontResponse = await fetch(resolvePublicAssetPath('/fonts/NotoSansSC-Regular.ttf'));
+            const fontResponse = await fetch(withBasePath('/fonts/NotoSansSC-Regular.ttf'));
             if (!fontResponse.ok) {
               throw new Error('Unable to load the Unicode replacement font.');
             }

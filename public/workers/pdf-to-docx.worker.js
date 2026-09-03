@@ -2,7 +2,7 @@
  * PDF to DOCX Worker (via Pyodide + pdf2docx)
  */
 
-import { loadPyodide } from '/pymupdf-wasm/pyodide.js';
+import { loadPyodide } from '../pymupdf-wasm/pyodide.js';
 
 let pyodide = null;
 let initPromise = null;

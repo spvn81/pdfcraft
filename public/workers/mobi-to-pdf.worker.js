@@ -14,7 +14,7 @@
  * - Support for Chinese/Japanese/Korean text in MOBI files
  */
 
-import { loadPyodide } from '/pymupdf-wasm/pyodide.js';
+import { loadPyodide } from '../pymupdf-wasm/pyodide.js';
 
 let pyodide = null;
 let initPromise = null;

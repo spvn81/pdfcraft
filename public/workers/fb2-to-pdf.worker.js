@@ -8,7 +8,7 @@
  * Uses PyMuPDF's native convert_to_pdf() for optimal file size and text preservation.
  */
 
-import { loadPyodide } from '/pymupdf-wasm/pyodide.js';
+import { loadPyodide } from '../pymupdf-wasm/pyodide.js';
 
 let pyodide = null;
 let initPromise = null;
