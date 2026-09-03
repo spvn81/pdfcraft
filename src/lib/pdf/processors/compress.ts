@@ -87,26 +87,7 @@ interface WorkerErrorMessage {
 
 type WorkerMessage = WorkerProgressMessage | WorkerSuccessMessage | WorkerErrorMessage;
 
-function resolvePublicAssetPath(assetPath: string): string {
-  if (typeof window === 'undefined') return assetPath;
-
-  const normalizedAssetPath = assetPath.startsWith('/') ? assetPath : `/${assetPath}`;
-  const scripts = Array.from(document.querySelectorAll('script[src]')) as HTMLScriptElement[];
-  const nextScript = scripts.find((script) => script.src.includes('/_next/'));
-
-  if (!nextScript) return normalizedAssetPath;
-
-  try {
-    const scriptUrl = new URL(nextScript.src);
-    const nextIndex = scriptUrl.pathname.indexOf('/_next/');
-    if (nextIndex <= 0) return normalizedAssetPath;
-
-    const basePath = scriptUrl.pathname.slice(0, nextIndex).replace(/\/$/, '');
-    return `${basePath}${normalizedAssetPath}`;
-  } catch {
-    return normalizedAssetPath;
-  }
-}
+import { withBasePath } from '@/lib/utils/path';
 
 /**
  * Compress PDF Processor
@@ -252,7 +233,7 @@ export class CompressPDFProcessor extends BasePDFProcessor {
   ): Promise<{ pdfBytes: ArrayBuffer; compressedSize: number }> {
     return new Promise((resolve, reject) => {
       try {
-        this.worker = new Worker(resolvePublicAssetPath('/workers/compress.worker.js'));
+        this.worker = new Worker(withBasePath('/workers/compress.worker.js'));
 
         this.worker.onmessage = (e: MessageEvent<WorkerMessage>) => {
           const data = e.data;

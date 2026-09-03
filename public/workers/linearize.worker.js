@@ -22,7 +22,8 @@ async function initQpdf() {
   qpdfInstance = await createModule({
     locateFile: (path) => {
       if (path.endsWith('.wasm')) {
-        return '/qpdf.wasm';
+        // Use relative path from worker location
+        return '../qpdf.wasm';
       }
       return path;
     },
