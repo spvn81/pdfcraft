@@ -81,7 +81,7 @@ export default function RootLayout({
         {/* Google tag (gtag.js) */}
         <Script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=G-MNS3KDWLZC"
+          src="https://www.googletagmanager.com/gtag/js?id=G-L05YKLL1JN"
           strategy="afterInteractive"
         />
 
@@ -95,7 +95,7 @@ export default function RootLayout({
             
               gtag('js', new Date());
             
-              gtag('config', 'G-MNS3KDWLZC');
+              gtag('config', 'G-L05YKLL1JN');
             `,
           }}
         />
