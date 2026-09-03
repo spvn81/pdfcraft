@@ -1,8 +1,13 @@
-import { setRequestLocale } from 'next-intl/server';
+import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { locales, type Locale } from '@/lib/i18n/config';
 import { TOOL_CATEGORIES, type ToolCategory } from '@/types/tool';
 import CategoryPageClient from './CategoryPageClient';
 import { notFound } from 'next/navigation';
+import { generateBaseMetadata } from '@/lib/seo/metadata';
+import { generateCollectionPageSchema, generateItemListSchema, generateBreadcrumbSchema } from '@/lib/seo/structured-data';
+import { JsonLd } from '@/components/seo/JsonLd';
+import { siteConfig } from '@/config/site';
+import { getBasePath } from '@/lib/utils/path';
 
 export function generateStaticParams() {
     return locales.flatMap((locale) =>
@@ -14,17 +19,29 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; category: string }> }) {
-    const { category } = await params;
+    const { locale, category } = await params;
+    
+    let t;
+    try {
+        t = await getTranslations({ locale: locale as Locale, namespace: 'categories' });
+    } catch (e) {
+        // Namespace might not exist
+    }
 
     const formattedCategory = category
         .split('-')
         .map(word => word.charAt(0).toUpperCase() + word.slice(1))
         .join(' ');
 
-    return {
-        title: `${formattedCategory} Tools - SPVN Tech PDF Tools`,
-        description: `Free online ${formattedCategory} tools. Secure, fast, and easy to use.`,
-    };
+    const title = t?.has(`${category}.title`) ? t(`${category}.title`) : `${formattedCategory} Tools - SPVN Tech PDF Tools`;
+    const description = t?.has(`${category}.description`) ? t(`${category}.description`) : `Free online ${formattedCategory} tools. Secure, fast, and easy to use.`;
+
+    return generateBaseMetadata({
+        locale: locale as Locale,
+        path: `/tools/category/${category}`,
+        title,
+        description,
+    });
 }
 
 export default async function CategoryPage({ params }: { params: Promise<{ locale: string; category: string }> }) {
@@ -53,11 +70,57 @@ export default async function CategoryPage({ params }: { params: Promise<{ local
         return acc;
     }, {} as Record<string, { title: string; description: string }>);
 
+    let t;
+    try {
+        t = await getTranslations({ locale: locale as Locale, namespace: 'categories' });
+    } catch (e) {
+        // Fallback
+    }
+    
+    const formattedCategory = category
+        .split('-')
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(' ');
+    
+    const catName = t?.has(`${category}.title`) ? t(`${category}.title`) : `${formattedCategory} Tools`;
+    const catDesc = t?.has(`${category}.description`) ? t(`${category}.description`) : `Free online ${formattedCategory} tools.`;
+
+    const collectionSchema = generateCollectionPageSchema(
+        catName,
+        catDesc,
+        `/tools/category/${category}`,
+        locale as Locale
+    );
+
+    const breadcrumbSchema = generateBreadcrumbSchema(
+        [
+            { name: 'Home', path: '' },
+            { name: 'Tools', path: '/tools' },
+            { name: catName, path: `/tools/category/${category}` },
+        ],
+        locale as Locale
+    );
+
+    const basePath = getBasePath();
+    const cleanBasePath = basePath.replace(/\/$/, '');
+    
+    const categoryTools = tools.filter(tool => tool.category === category);
+    const itemList = categoryTools.map((tool) => ({
+        name: localizedToolContent[tool.id]?.title || tool.id,
+        description: localizedToolContent[tool.id]?.description,
+        url: `${siteConfig.url}${cleanBasePath}/${locale}/tools/${tool.slug}/`,
+    }));
+
+    const itemListSchema = generateItemListSchema(itemList);
+
     return (
-        <CategoryPageClient
-            locale={locale as Locale}
-            category={category as ToolCategory}
-            localizedToolContent={localizedToolContent}
-        />
+        <>
+            <JsonLd data={[collectionSchema, breadcrumbSchema, itemListSchema]} />
+            <CategoryPageClient
+                locale={locale as Locale}
+                category={category as ToolCategory}
+                localizedToolContent={localizedToolContent}
+            />
+        </>
     );
 }

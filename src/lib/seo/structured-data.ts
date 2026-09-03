@@ -141,6 +141,40 @@ export interface OrganizationSchema {
 }
 
 /**
+ * CollectionPage schema for lists of items
+ * @see https://schema.org/CollectionPage
+ */
+export interface CollectionPageSchema {
+  '@context': 'https://schema.org';
+  '@type': 'CollectionPage';
+  name: string;
+  description: string;
+  url: string;
+  inLanguage?: string;
+  isPartOf?: {
+    '@type': 'WebSite';
+    name: string;
+    url: string;
+  };
+}
+
+/**
+ * ItemList schema for lists of things
+ * @see https://schema.org/ItemList
+ */
+export interface ItemListSchema {
+  '@context': 'https://schema.org';
+  '@type': 'ItemList';
+  itemListElement: Array<{
+    '@type': 'ListItem';
+    position: number;
+    url: string;
+    name: string;
+    description?: string;
+  }>;
+}
+
+/**
  * BreadcrumbList schema
  * @see https://schema.org/BreadcrumbList
  */
@@ -335,6 +369,80 @@ export function generateOrganizationSchema(): OrganizationSchema {
     url: `${siteConfig.url}${cleanBasePath}/`,
     logo: `${siteConfig.url}${cleanBasePath}/images/logo.png`,
     sameAs: siteConfig.links.github ? [siteConfig.links.github] : [],
+  };
+}
+
+/**
+ * Generate CollectionPage schema for tools listing or categories
+ */
+export function generateCollectionPageSchema(
+  name: string,
+  description: string,
+  path: string,
+  locale: Locale
+): CollectionPageSchema {
+  const languageMap: Record<Locale, string> = {
+    en: 'en-US',
+    ja: 'ja-JP',
+    ko: 'ko-KR',
+    es: 'es-ES',
+    fr: 'fr-FR',
+    de: 'de-DE',
+    zh: 'zh-CN',
+    'zh-TW': 'zh-TW',
+    pt: 'pt-BR',
+    ar: 'ar-AR',
+    it: 'it-IT',
+    id: 'id-ID',
+    vi: 'vi-VN',
+    ro: 'ro-RO',
+    hi: 'hi-IN',
+    te: 'te-IN',
+    ta: 'ta-IN',
+    kn: 'kn-IN',
+    ml: 'ml-IN',
+    bn: 'bn-IN',
+    mr: 'mr-IN',
+    gu: 'gu-IN',
+    pa: 'pa-IN',
+    or: 'or-IN',
+    ur: 'ur-PK',
+  };
+
+  const cleanPath = path.startsWith('/') ? path : `/${path}`;
+  const url = `${siteConfig.url}${cleanBasePath}/${locale}${cleanPath}`;
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name,
+    description,
+    url: url.endsWith('/') ? url : `${url}/`,
+    inLanguage: languageMap[locale] || 'en-US',
+    isPartOf: {
+      '@type': 'WebSite',
+      name: siteConfig.name,
+      url: `${siteConfig.url}${cleanBasePath}/`,
+    },
+  };
+}
+
+/**
+ * Generate ItemList schema for tools
+ */
+export function generateItemListSchema(
+  items: Array<{ name: string; url: string; description?: string }>
+): ItemListSchema {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    itemListElement: items.map((item, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      url: item.url,
+      name: item.name,
+      description: item.description,
+    })),
   };
 }
 

@@ -1,6 +1,9 @@
 import { setRequestLocale } from 'next-intl/server';
 import { locales, type Locale } from '@/lib/i18n/config';
 import HomePageClient from './HomePageClient';
+import { JsonLd } from '@/components/seo/JsonLd';
+import { siteConfig } from '@/config/site';
+import { getBasePath } from '@/lib/utils/path';
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -33,5 +36,37 @@ export default async function HomePage({ params }: HomePageProps) {
     return acc;
   }, {} as Record<string, { title: string; description: string }>);
 
-  return <HomePageClient locale={locale as Locale} localizedToolContent={localizedToolContent} />;
+  const basePath = getBasePath();
+  const cleanBasePath = basePath.replace(/\/$/, '');
+  const url = `${siteConfig.url}${cleanBasePath}/${locale}/`;
+
+  const webPageSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: 'SPVN Tech PDF Tools',
+    description: 'Free online PDF tools for merging, splitting, compressing, and converting PDF files.',
+    url: url,
+  };
+  
+  const softwareAppSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebApplication',
+    name: 'SPVN Tech PDF Tools',
+    description: 'A suite of free, private, browser-based PDF tools.',
+    url: url,
+    applicationCategory: 'UtilitiesApplication',
+    operatingSystem: 'Any',
+    offers: {
+      '@type': 'Offer',
+      price: '0',
+      priceCurrency: 'USD',
+    },
+  };
+
+  return (
+    <>
+      <JsonLd data={[webPageSchema, softwareAppSchema]} />
+      <HomePageClient locale={locale as Locale} localizedToolContent={localizedToolContent} />
+    </>
+  );
 }

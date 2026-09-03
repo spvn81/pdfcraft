@@ -3,6 +3,10 @@ import { Suspense } from 'react';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { locales, type Locale } from '@/lib/i18n/config';
 import { generateToolsListMetadata } from '@/lib/seo';
+import { generateCollectionPageSchema, generateItemListSchema, generateBreadcrumbSchema } from '@/lib/seo/structured-data';
+import { JsonLd } from '@/components/seo/JsonLd';
+import { siteConfig } from '@/config/site';
+import { getBasePath } from '@/lib/utils/path';
 import ToolsPageClient from './ToolsPageClient';
 
 export function generateStaticParams() {
@@ -59,11 +63,41 @@ export default async function ToolsPage({ params }: ToolsPageProps) {
     return acc;
   }, {} as Record<string, { title: string; description: string }>);
 
+  const t = await getTranslations({ locale: locale as Locale, namespace: 'metadata' });
+  const basePath = getBasePath();
+  const cleanBasePath = basePath.replace(/\/$/, '');
+
+  const collectionSchema = generateCollectionPageSchema(
+    t('tools.title') || 'All PDF Tools',
+    t('tools.description') || 'Browse all PDF tools.',
+    '/tools',
+    locale as Locale
+  );
+
+  const breadcrumbSchema = generateBreadcrumbSchema(
+    [
+      { name: 'Home', path: '' },
+      { name: 'Tools', path: '/tools' },
+    ],
+    locale as Locale
+  );
+
+  const itemList = tools.map((tool) => ({
+    name: localizedToolContent[tool.id]?.title || tool.id,
+    description: localizedToolContent[tool.id]?.description,
+    url: `${siteConfig.url}${cleanBasePath}/${locale}/tools/${tool.slug}/`,
+  }));
+
+  const itemListSchema = generateItemListSchema(itemList);
+
   // Note: searchParams are handled client-side in ToolsPageClient
   // because static export doesn't support server-side searchParams
   return (
-    <Suspense fallback={<ToolsPageFallback />}>
-      <ToolsPageClient locale={locale as Locale} localizedToolContent={localizedToolContent} />
-    </Suspense>
+    <>
+      <JsonLd data={[collectionSchema, breadcrumbSchema, itemListSchema]} />
+      <Suspense fallback={<ToolsPageFallback />}>
+        <ToolsPageClient locale={locale as Locale} localizedToolContent={localizedToolContent} />
+      </Suspense>
+    </>
   );
 }
