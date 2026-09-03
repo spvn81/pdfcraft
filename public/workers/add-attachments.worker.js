@@ -3,7 +3,7 @@
  * Uses coherentpdf to add file attachments to PDF documents
  */
 
-self.importScripts('/coherentpdf.browser.min.js');
+self.importScripts('../coherentpdf.browser.min.js');
 
 function parsePageRange(rangeString, totalPages) {
   const pages = new Set();

@@ -4,7 +4,7 @@
  */
 
 // Load qpdf-wasm
-self.importScripts('/qpdf.js');
+self.importScripts('../qpdf.js');
 
 let qpdfInstance = null;
 

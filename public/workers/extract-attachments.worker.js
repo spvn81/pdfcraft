@@ -3,7 +3,7 @@
  * Uses coherentpdf to extract file attachments from PDF documents
  */
 
-self.importScripts('/coherentpdf.browser.min.js');
+self.importScripts('../coherentpdf.browser.min.js');
 
 function extractAttachmentsFromPDFsInWorker(fileBuffers, fileNames) {
   try {

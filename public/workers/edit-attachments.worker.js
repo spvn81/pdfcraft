@@ -3,7 +3,7 @@
  * Uses coherentpdf to list and remove attachments from PDF documents
  */
 
-self.importScripts('/coherentpdf.browser.min.js');
+self.importScripts('../coherentpdf.browser.min.js');
 
 function getAttachmentsFromPDFInWorker(fileBuffer, fileName) {
   try {
