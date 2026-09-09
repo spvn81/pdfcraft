@@ -7,6 +7,7 @@ import { useTranslations } from 'next-intl';
 import { Shield, Lock, FileCheck, Globe } from 'lucide-react';
 import { type Locale, locales, localeConfig, getLocalizedPath } from '@/lib/i18n/config';
 import { saveLanguagePreference } from './LanguageSelector';
+import { BASE_PATH } from '@/lib/utils/path';
 
 export interface FooterProps {
   locale: Locale;
@@ -46,7 +47,7 @@ export const Footer: React.FC<FooterProps> = ({ locale }) => {
               aria-label={`${t('brand')} - ${t('navigation.home')}`}
             >
               <div className="relative flex h-8 w-8 items-center justify-center transition-transform group-hover:scale-105">
-                <img src="/favicon_original.png" alt="SPVN Tech Logo" className="h-full w-full object-contain" />
+                <img src={`${BASE_PATH}/favicon_original.png`} alt="SPVN Tech" className="h-full w-full object-contain" />
               </div>
               <span data-testid="footer-brand-name">{t('brand')}</span>
             </Link>

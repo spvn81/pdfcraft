@@ -12,6 +12,7 @@ import { searchTools, SearchResult } from '@/lib/utils/search';
 import { getToolContent } from '@/config/tool-content';
 import { getAllTools } from '@/config/tools';
 import { ThemeToggle } from '@/components/ui/ThemeToggle';
+import { BASE_PATH } from '@/lib/utils/path';
 
 export interface HeaderProps {
   locale: Locale;
@@ -181,7 +182,7 @@ export const Header: React.FC<HeaderProps> = ({ locale, showSearch = true }) => 
               aria-label={`${t('brand')} - ${t('navigation.home')}`}
             >
               <div className="relative flex h-9 w-9 items-center justify-center transition-transform group-hover:scale-105">
-                <img src="/favicon_original.png" alt="SPVN Tech Logo" className="h-full w-full object-contain" />
+                <img src={`${BASE_PATH}/favicon_original.png`} alt="SPVN Tech" className="h-full w-full object-contain" />
               </div>
               <span className="text-xl tracking-tight" data-testid="brand-name">
                 {t('brand')}

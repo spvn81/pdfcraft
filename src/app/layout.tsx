@@ -8,14 +8,9 @@ export const metadata: Metadata = {
   title: 'SPVN Tech PDF Tools - Professional PDF Tools',
   description: 'Free online PDF tools for merging, splitting, compressing, and converting PDF files. All processing happens in your browser for maximum privacy.',
   icons: {
-    icon: [
-      { url: '/favicon.ico', sizes: 'any' },
-      { url: '/icon.png', type: 'image/png' },
-      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
-      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' }
-    ],
-    shortcut: '/favicon.ico',
-    apple: '/apple-icon.png',
+    icon: `${BASE_PATH}/favicon_original.png`,
+    shortcut: `${BASE_PATH}/favicon_original.png`,
+    apple: `${BASE_PATH}/favicon_original.png`,
   },
 };
 
