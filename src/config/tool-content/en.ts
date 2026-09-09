@@ -40,7 +40,8 @@ export const toolContentEn: Record<string, ToolContent> = {
   },
 
   'merge-pdf': {
-    title: 'Merge PDF Online Free | Combine PDF Files | SPVN Tech',\r\n    h1: 'Merge PDF Files',
+    title: 'Merge PDF Online Free | Combine PDF Files | SPVN Tech',
+    h1: 'Merge PDF Files',
     metaDescription: 'Merge multiple PDF files online for free. Upload, reorder, and combine your PDFs into one document with SPVN Tech.',
     keywords: ['merge pdf', 'pdf merge', 'combine pdf', 'merge pdf online', 'join pdf'],
     description: `
@@ -147,7 +148,8 @@ export const toolContentEn: Record<string, ToolContent> = {
   },
 
   'compress-pdf': {
-    title: 'Compress PDF Online | Reduce PDF Size Free | SPVN Tech',\r\n    h1: 'Compress PDF Files',
+    title: 'Compress PDF Online | Reduce PDF Size Free | SPVN Tech',
+    h1: 'Compress PDF Files',
     metaDescription: 'Compress PDF files online to reduce file size without losing quality. Free PDF compressor tool by SPVN Tech.',
     keywords: ['compress pdf', 'pdf compressor', 'pdf size reducer', 'reduce pdf size', 'compress pdf online'],
     description: `
@@ -200,7 +202,8 @@ export const toolContentEn: Record<string, ToolContent> = {
   },
 
   'jpg-to-pdf': {
-    title: 'JPG to PDF Converter Online | Free Image to PDF Tool | SPVN Tech',\r\n    h1: 'JPG to PDF Converter',
+    title: 'JPG to PDF Converter Online | Free Image to PDF Tool | SPVN Tech',
+    h1: 'JPG to PDF Converter',
     metaDescription: 'Convert JPG, PNG, and other images to PDF online for free. Easily merge multiple images into a single PDF file with SPVN Tech.',
     keywords: ['jpg to pdf', 'image to pdf', 'jpg to pdf converter', 'image to pdf converter', 'merge jpg to pdf'],
     description: `
@@ -958,7 +961,8 @@ export const toolContentEn: Record<string, ToolContent> = {
   },
 
   'word-to-pdf': {
-    title: 'Word to PDF Converter Online | Convert DOCX to PDF',\r\n    h1: 'Word to PDF Converter',
+    title: 'Word to PDF Converter Online | Convert DOCX to PDF',
+    h1: 'Word to PDF Converter',
     metaDescription: 'Convert Word documents (DOCX) to PDF online for free. Preserve formatting and layout in your converted documents.',
     keywords: ['word to pdf', 'word to pdf converter', 'docx to pdf', 'convert word to pdf', 'microsoft word to pdf'],
     description: `
@@ -1194,7 +1198,8 @@ export const toolContentEn: Record<string, ToolContent> = {
   // ==================== CONVERT FROM PDF ====================
 
   'pdf-to-jpg': {
-    title: 'PDF to JPG Converter Online | Convert PDF Pages to Images',\r\n    h1: 'PDF to JPG Converter',
+    title: 'PDF to JPG Converter Online | Convert PDF Pages to Images',
+    h1: 'PDF to JPG Converter',
     metaDescription: 'Convert PDF files to high-quality JPG images online for free. Extract images or convert entire PDF pages to pictures.',
     keywords: ['pdf to jpg', 'pdf to jpeg', 'convert pdf to image', 'extract pdf images', 'pdf to jpg converter'],
     description: `
@@ -2324,7 +2329,8 @@ export const toolContentEn: Record<string, ToolContent> = {
   },
 
   'pdf-to-docx': {
-    title: 'PDF to Word Converter Online | Free PDF to DOCX | SPVN Tech',\r\n    h1: 'PDF to Word Converter',
+    title: 'PDF to Word Converter Online | Free PDF to DOCX | SPVN Tech',
+    h1: 'PDF to Word Converter',
     metaDescription: 'Convert PDF to Word documents online for free. Accurately transform your PDFs into editable Word files with SPVN Tech.',
     keywords: ['pdf to word', 'pdf to word converter', 'convert pdf to docx', 'pdf to doc', 'editable pdf'],
     description: `
