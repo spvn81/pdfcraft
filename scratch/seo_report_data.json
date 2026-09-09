@@ -1,0 +1,1852 @@
+{
+  "top50": [
+    {
+      "keyword": "jpg to pdf",
+      "volume": 7480000,
+      "cpc": 0.09,
+      "competition": 0.01,
+      "score": 61,
+      "intent": "informational"
+    },
+    {
+      "keyword": "pdf to word",
+      "volume": 6120000,
+      "cpc": 0.07,
+      "competition": 0.03,
+      "score": 58,
+      "intent": "informational"
+    },
+    {
+      "keyword": "pdf to jpg",
+      "volume": 4090000,
+      "cpc": 0.06,
+      "competition": 0.01,
+      "score": 55,
+      "intent": "informational"
+    },
+    {
+      "keyword": "merge pdf",
+      "volume": 3350000,
+      "cpc": 0.1,
+      "competition": 0.01,
+      "score": 53,
+      "intent": "informational"
+    },
+    {
+      "keyword": "compress pdf",
+      "volume": 2740000,
+      "cpc": 0.1,
+      "competition": 0.02,
+      "score": 56,
+      "intent": "informational"
+    },
+    {
+      "keyword": "pdf compressor",
+      "volume": 2240000,
+      "cpc": 0.1,
+      "competition": 0.03,
+      "score": 56,
+      "intent": "transactional"
+    },
+    {
+      "keyword": "image to pdf",
+      "volume": 2240000,
+      "cpc": 0.1,
+      "competition": 0.02,
+      "score": 51,
+      "intent": "informational"
+    },
+    {
+      "keyword": "pdf merge",
+      "volume": 1830000,
+      "cpc": 0.11,
+      "competition": 0.01,
+      "score": 53,
+      "intent": "informational"
+    },
+    {
+      "keyword": "pdf size reducer",
+      "volume": 1220000,
+      "cpc": 0.1,
+      "competition": 0.03,
+      "score": 54,
+      "intent": "transactional"
+    },
+    {
+      "keyword": "jpg to pdf converter",
+      "volume": 1000000,
+      "cpc": 0.1,
+      "competition": 0.02,
+      "score": 51,
+      "intent": "transactional"
+    },
+    {
+      "keyword": "pdf converter",
+      "volume": 673000,
+      "cpc": 0.08,
+      "competition": 0.06,
+      "score": 78,
+      "intent": "transactional"
+    },
+    {
+      "keyword": "split pdf",
+      "volume": 673000,
+      "cpc": 0.25,
+      "competition": 0.01,
+      "score": 26,
+      "intent": "informational"
+    },
+    {
+      "keyword": "image to pdf converter",
+      "volume": 673000,
+      "cpc": 0.11,
+      "competition": 0.05,
+      "score": 53,
+      "intent": "informational"
+    },
+    {
+      "keyword": "pdf",
+      "volume": 550000,
+      "cpc": 0.11,
+      "competition": 0.13,
+      "score": 100,
+      "intent": "informational"
+    },
+    {
+      "keyword": "merge pdf online",
+      "volume": 301000,
+      "cpc": 0.1,
+      "competition": 0.02,
+      "score": 53,
+      "intent": "transactional"
+    },
+    {
+      "keyword": "compress pdf to 200kb",
+      "volume": 246000,
+      "cpc": 0.13,
+      "competition": 0.02,
+      "score": 20,
+      "intent": "informational"
+    },
+    {
+      "keyword": "ilovepdf compress pdf",
+      "volume": 246000,
+      "cpc": 0.2,
+      "competition": 0,
+      "score": 55,
+      "intent": "transactional"
+    },
+    {
+      "keyword": "adobe reader",
+      "volume": 246000,
+      "cpc": 0.52,
+      "competition": 0.02,
+      "score": 55,
+      "intent": "transactional"
+    },
+    {
+      "keyword": "pdf converter to pdf",
+      "volume": 201000,
+      "cpc": 0.09,
+      "competition": 0.08,
+      "score": 78,
+      "intent": "informational"
+    },
+    {
+      "keyword": "word to jpg",
+      "volume": 165000,
+      "cpc": 0.09,
+      "competition": 0,
+      "score": 5,
+      "intent": "informational"
+    },
+    {
+      "keyword": "jpg to word",
+      "volume": 165000,
+      "cpc": 0.04,
+      "competition": 0.06,
+      "score": 16,
+      "intent": "informational"
+    },
+    {
+      "keyword": "compress pdf to 100kb",
+      "volume": 135000,
+      "cpc": 0.09,
+      "competition": 0.02,
+      "score": 27,
+      "intent": "informational"
+    },
+    {
+      "keyword": "compress pdf online",
+      "volume": 135000,
+      "cpc": 0.13,
+      "competition": 0.07,
+      "score": 56,
+      "intent": "informational"
+    },
+    {
+      "keyword": "compress pdf to 500kb",
+      "volume": 135000,
+      "cpc": 0.11,
+      "competition": 0.03,
+      "score": 4,
+      "intent": "informational"
+    },
+    {
+      "keyword": "jpg to excel",
+      "volume": 135000,
+      "cpc": 0.08,
+      "competition": 0.01,
+      "score": 25,
+      "intent": "informational"
+    },
+    {
+      "keyword": "split pdf online",
+      "volume": 110000,
+      "cpc": 0.2,
+      "competition": 0.02,
+      "score": 23,
+      "intent": "transactional"
+    },
+    {
+      "keyword": "merge jpg to pdf",
+      "volume": 90500,
+      "cpc": 0.1,
+      "competition": 0.02,
+      "score": 45,
+      "intent": "informational"
+    },
+    {
+      "keyword": "i love pdf merge",
+      "volume": 90500,
+      "cpc": 0.11,
+      "competition": 0.01,
+      "score": 72,
+      "intent": "informational"
+    },
+    {
+      "keyword": "pdf full form",
+      "volume": 74000,
+      "cpc": 0.16,
+      "competition": 0,
+      "score": 17,
+      "intent": "informational"
+    },
+    {
+      "keyword": "adobe reader download",
+      "volume": 74000,
+      "cpc": 0.51,
+      "competition": 0.01,
+      "score": 87,
+      "intent": "transactional"
+    },
+    {
+      "keyword": "text to pdf converter",
+      "volume": 74000,
+      "cpc": 0.37,
+      "competition": 0.02,
+      "score": 0,
+      "intent": "informational"
+    },
+    {
+      "keyword": "pdf to pdf",
+      "volume": 74000,
+      "cpc": 0.16,
+      "competition": 0.01,
+      "score": 87,
+      "intent": "informational"
+    },
+    {
+      "keyword": "image to pdf converter free",
+      "volume": 60500,
+      "cpc": 0.12,
+      "competition": 0.12,
+      "score": 52,
+      "intent": "transactional"
+    },
+    {
+      "keyword": "i love pdf to excel",
+      "volume": 60500,
+      "cpc": 0.08,
+      "competition": 0.05,
+      "score": 53,
+      "intent": "informational"
+    },
+    {
+      "keyword": "pdf converter to jpg",
+      "volume": 49500,
+      "cpc": 0.04,
+      "competition": 0.04,
+      "score": 46,
+      "intent": "transactional"
+    },
+    {
+      "keyword": "compress pdf to 1mb",
+      "volume": 49500,
+      "cpc": 0.11,
+      "competition": 0.05,
+      "score": 18,
+      "intent": "informational"
+    },
+    {
+      "keyword": "pdf to pdf converter",
+      "volume": 49500,
+      "cpc": 0.15,
+      "competition": 0.02,
+      "score": 69,
+      "intent": "informational"
+    },
+    {
+      "keyword": "i love word to pdf",
+      "volume": 49500,
+      "cpc": 0.16,
+      "competition": 0.01,
+      "score": 46,
+      "intent": "informational"
+    },
+    {
+      "keyword": "jpg to pdf 200kb",
+      "volume": 49500,
+      "cpc": 0.18,
+      "competition": 0,
+      "score": 8,
+      "intent": "informational"
+    },
+    {
+      "keyword": "compress pdf online free",
+      "volume": 49500,
+      "cpc": 0.14,
+      "competition": 0.15,
+      "score": 54,
+      "intent": "transactional"
+    },
+    {
+      "keyword": "ilovepdf image to pdf",
+      "volume": 49500,
+      "cpc": 0.15,
+      "competition": 0,
+      "score": 36,
+      "intent": "informational"
+    },
+    {
+      "keyword": "jpg full form",
+      "volume": 40500,
+      "cpc": 0,
+      "competition": 0,
+      "score": 39,
+      "intent": "informational"
+    },
+    {
+      "keyword": "compress pdf to 300kb",
+      "volume": 40500,
+      "cpc": 0.16,
+      "competition": 0.02,
+      "score": 1,
+      "intent": "informational"
+    },
+    {
+      "keyword": "merge images to pdf",
+      "volume": 40500,
+      "cpc": 0.07,
+      "competition": 0.04,
+      "score": 45,
+      "intent": "informational"
+    },
+    {
+      "keyword": "merge pdf i love pdf",
+      "volume": 33100,
+      "cpc": 0.14,
+      "competition": 0,
+      "score": 72,
+      "intent": "informational"
+    },
+    {
+      "keyword": "jpg to pdf converter online",
+      "volume": 33100,
+      "cpc": 0.09,
+      "competition": 0.02,
+      "score": 43,
+      "intent": "transactional"
+    },
+    {
+      "keyword": "jpg to pdf 300 kb",
+      "volume": 33100,
+      "cpc": 0.19,
+      "competition": 0,
+      "score": 0,
+      "intent": "informational"
+    },
+    {
+      "keyword": "merge pdf online free",
+      "volume": 33100,
+      "cpc": 0.11,
+      "competition": 0.11,
+      "score": 53,
+      "intent": "navigational"
+    },
+    {
+      "keyword": "compress pdf 11zon",
+      "volume": 27100,
+      "cpc": 0.05,
+      "competition": 0,
+      "score": 8,
+      "intent": "informational"
+    },
+    {
+      "keyword": "pdf converter online",
+      "volume": 27100,
+      "cpc": 0.07,
+      "competition": 0.1,
+      "score": 78,
+      "intent": "transactional"
+    }
+  ],
+  "clusters": {
+    "jpg-to-pdf": {
+      "primary": {
+        "keyword": "jpg to pdf",
+        "volume": 7480000,
+        "cpc": 0.09,
+        "competition": 0.01,
+        "score": 61,
+        "intent": "informational"
+      },
+      "secondaries": [
+        {
+          "keyword": "image to pdf",
+          "volume": 2240000,
+          "cpc": 0.1,
+          "competition": 0.02,
+          "score": 51,
+          "intent": "informational"
+        },
+        {
+          "keyword": "jpg to pdf converter",
+          "volume": 1000000,
+          "cpc": 0.1,
+          "competition": 0.02,
+          "score": 51,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "image to pdf converter",
+          "volume": 673000,
+          "cpc": 0.11,
+          "competition": 0.05,
+          "score": 53,
+          "intent": "informational"
+        },
+        {
+          "keyword": "merge jpg to pdf",
+          "volume": 90500,
+          "cpc": 0.1,
+          "competition": 0.02,
+          "score": 45,
+          "intent": "informational"
+        },
+        {
+          "keyword": "image to pdf converter free",
+          "volume": 60500,
+          "cpc": 0.12,
+          "competition": 0.12,
+          "score": 52,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "jpg to pdf 200kb",
+          "volume": 49500,
+          "cpc": 0.18,
+          "competition": 0,
+          "score": 8,
+          "intent": "informational"
+        },
+        {
+          "keyword": "jpg to pdf converter online",
+          "volume": 33100,
+          "cpc": 0.09,
+          "competition": 0.02,
+          "score": 43,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "jpg to pdf 300 kb",
+          "volume": 33100,
+          "cpc": 0.19,
+          "competition": 0,
+          "score": 0,
+          "intent": "informational"
+        },
+        {
+          "keyword": "jpg to pdf 100 kb",
+          "volume": 27100,
+          "cpc": 0.16,
+          "competition": 0,
+          "score": 9,
+          "intent": "informational"
+        },
+        {
+          "keyword": "jpg to pdf converter free",
+          "volume": 22200,
+          "cpc": 0.09,
+          "competition": 0.08,
+          "score": 51,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "jpg to pdf online",
+          "volume": 22200,
+          "cpc": 0.09,
+          "competition": 0.03,
+          "score": 56,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "image to pdf converter free download",
+          "volume": 18100,
+          "cpc": 0.13,
+          "competition": 0.16,
+          "score": 28,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "jpg to pdf 500kb",
+          "volume": 14800,
+          "cpc": 0.28,
+          "competition": 0.01,
+          "score": 0,
+          "intent": "informational"
+        },
+        {
+          "keyword": "jpg to pdf high-quality",
+          "volume": 9900,
+          "cpc": 0.12,
+          "competition": 0.07,
+          "score": 56,
+          "intent": "informational"
+        },
+        {
+          "keyword": "jpg to pdf free",
+          "volume": 8100,
+          "cpc": 0.12,
+          "competition": 0.11,
+          "score": 50,
+          "intent": "informational"
+        },
+        {
+          "keyword": "app to convert photo to pdf free",
+          "volume": 390,
+          "cpc": 0.25,
+          "competition": 0.33,
+          "score": 0,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "image to pdf converter free download for pc",
+          "volume": 320,
+          "cpc": 0.18,
+          "competition": 0.12,
+          "score": 45,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "image to pdf converter free download offline",
+          "volume": 320,
+          "cpc": 0.12,
+          "competition": 0.11,
+          "score": 37,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "jpg to pdf full form",
+          "volume": 170,
+          "cpc": 0.02,
+          "competition": 0.02,
+          "score": 57,
+          "intent": "informational"
+        },
+        {
+          "keyword": "multiple jpg to pdf converter free",
+          "volume": 170,
+          "cpc": 0.05,
+          "competition": 0.25,
+          "score": 0,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "image to pdf converter free 100 kb",
+          "volume": 90,
+          "cpc": 0.06,
+          "competition": 0.04,
+          "score": 0,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "jpg to pdf converter free 100 kb",
+          "volume": 90,
+          "cpc": 0.06,
+          "competition": 0.03,
+          "score": 0,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "convert image to pdf free no sign up",
+          "volume": 50,
+          "cpc": 0.08,
+          "competition": 0.26,
+          "score": 0,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "jpg to pdf converter free 200kb",
+          "volume": 50,
+          "cpc": 0,
+          "competition": 0.01,
+          "score": 0,
+          "intent": "informational"
+        },
+        {
+          "keyword": "image to pdf converter free 1 mb",
+          "volume": 40,
+          "cpc": 0.12,
+          "competition": 0.05,
+          "score": 0,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "jpg to pdf converter free high quality",
+          "volume": 30,
+          "cpc": 0.11,
+          "competition": 0.19,
+          "score": 0,
+          "intent": "commercial"
+        }
+      ],
+      "totalVolume": 11783820
+    },
+    "pdf-to-docx": {
+      "primary": {
+        "keyword": "pdf to word",
+        "volume": 6120000,
+        "cpc": 0.07,
+        "competition": 0.03,
+        "score": 58,
+        "intent": "informational"
+      },
+      "secondaries": [
+        {
+          "keyword": "pdf to word converter free offline",
+          "volume": 12100,
+          "cpc": 0.07,
+          "competition": 0.23,
+          "score": 29,
+          "intent": "informational"
+        },
+        {
+          "keyword": "word to pdf converter offline",
+          "volume": 5400,
+          "cpc": 0.13,
+          "competition": 0.04,
+          "score": 47,
+          "intent": "transactional"
+        }
+      ],
+      "totalVolume": 6137500
+    },
+    "pdf-to-jpg": {
+      "primary": {
+        "keyword": "pdf to jpg",
+        "volume": 4090000,
+        "cpc": 0.06,
+        "competition": 0.01,
+        "score": 55,
+        "intent": "informational"
+      },
+      "secondaries": [
+        {
+          "keyword": "pdf to jpg converter free",
+          "volume": 14800,
+          "cpc": 0.06,
+          "competition": 0.08,
+          "score": 46,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf to jpg converter download",
+          "volume": 6600,
+          "cpc": 0.11,
+          "competition": 0.05,
+          "score": 39,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "best free pdf to jpg converter",
+          "volume": 720,
+          "cpc": 0.13,
+          "competition": 0.14,
+          "score": 43,
+          "intent": "informational"
+        },
+        {
+          "keyword": "app to convert pdf to jpg",
+          "volume": 90,
+          "cpc": 0.15,
+          "competition": 0.59,
+          "score": 37,
+          "intent": "transactional"
+        }
+      ],
+      "totalVolume": 4112210
+    },
+    "merge-pdf": {
+      "primary": {
+        "keyword": "merge pdf",
+        "volume": 3350000,
+        "cpc": 0.1,
+        "competition": 0.01,
+        "score": 53,
+        "intent": "informational"
+      },
+      "secondaries": [
+        {
+          "keyword": "pdf merge",
+          "volume": 1830000,
+          "cpc": 0.11,
+          "competition": 0.01,
+          "score": 53,
+          "intent": "informational"
+        },
+        {
+          "keyword": "merge pdf online",
+          "volume": 301000,
+          "cpc": 0.1,
+          "competition": 0.02,
+          "score": 53,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "merge pdf online free",
+          "volume": 33100,
+          "cpc": 0.11,
+          "competition": 0.11,
+          "score": 53,
+          "intent": "navigational"
+        },
+        {
+          "keyword": "merge pdf free",
+          "volume": 8100,
+          "cpc": 0.12,
+          "competition": 0.2,
+          "score": 32,
+          "intent": "informational"
+        },
+        {
+          "keyword": "merge pdf free download",
+          "volume": 5400,
+          "cpc": 0.14,
+          "competition": 0.15,
+          "score": 53,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf merge free download",
+          "volume": 5400,
+          "cpc": 0.14,
+          "competition": 0.15,
+          "score": 53,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "jpg to merge pdf",
+          "volume": 4400,
+          "cpc": 0.05,
+          "competition": 0.01,
+          "score": 63,
+          "intent": "informational"
+        },
+        {
+          "keyword": "merge pdf 500kb",
+          "volume": 590,
+          "cpc": 0.07,
+          "competition": 0.01,
+          "score": 38,
+          "intent": "informational"
+        },
+        {
+          "keyword": "merge pdf to 1mb",
+          "volume": 210,
+          "cpc": 0.13,
+          "competition": 0.04,
+          "score": 44,
+          "intent": "informational"
+        },
+        {
+          "keyword": "merge pdf to 100kb",
+          "volume": 210,
+          "cpc": 0.14,
+          "competition": 0.01,
+          "score": 43,
+          "intent": "informational"
+        },
+        {
+          "keyword": "jpg to merge pdf online",
+          "volume": 70,
+          "cpc": 0.02,
+          "competition": 0.04,
+          "score": 51,
+          "intent": "informational"
+        },
+        {
+          "keyword": "merge pdf free offline",
+          "volume": 50,
+          "cpc": 0.17,
+          "competition": 0.14,
+          "score": 0,
+          "intent": "navigational"
+        },
+        {
+          "keyword": "merge pdf free download for windows 10",
+          "volume": 10,
+          "cpc": 0.02,
+          "competition": 0.18,
+          "score": 0,
+          "intent": "transactional"
+        }
+      ],
+      "totalVolume": 5538540
+    },
+    "compress-pdf": {
+      "primary": {
+        "keyword": "compress pdf",
+        "volume": 2740000,
+        "cpc": 0.1,
+        "competition": 0.02,
+        "score": 56,
+        "intent": "informational"
+      },
+      "secondaries": [
+        {
+          "keyword": "pdf compressor",
+          "volume": 2240000,
+          "cpc": 0.1,
+          "competition": 0.03,
+          "score": 56,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf size reducer",
+          "volume": 1220000,
+          "cpc": 0.1,
+          "competition": 0.03,
+          "score": 54,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "compress pdf to 200kb",
+          "volume": 246000,
+          "cpc": 0.13,
+          "competition": 0.02,
+          "score": 20,
+          "intent": "informational"
+        },
+        {
+          "keyword": "compress pdf to 100kb",
+          "volume": 135000,
+          "cpc": 0.09,
+          "competition": 0.02,
+          "score": 27,
+          "intent": "informational"
+        },
+        {
+          "keyword": "compress pdf online",
+          "volume": 135000,
+          "cpc": 0.13,
+          "competition": 0.07,
+          "score": 56,
+          "intent": "informational"
+        },
+        {
+          "keyword": "compress pdf to 500kb",
+          "volume": 135000,
+          "cpc": 0.11,
+          "competition": 0.03,
+          "score": 4,
+          "intent": "informational"
+        },
+        {
+          "keyword": "compress pdf to 1mb",
+          "volume": 49500,
+          "cpc": 0.11,
+          "competition": 0.05,
+          "score": 18,
+          "intent": "informational"
+        },
+        {
+          "keyword": "compress pdf online free",
+          "volume": 49500,
+          "cpc": 0.14,
+          "competition": 0.15,
+          "score": 54,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "compress pdf to 300kb",
+          "volume": 40500,
+          "cpc": 0.16,
+          "competition": 0.02,
+          "score": 1,
+          "intent": "informational"
+        },
+        {
+          "keyword": "pdf compressor to 1mb",
+          "volume": 22200,
+          "cpc": 0.1,
+          "competition": 0.07,
+          "score": 10,
+          "intent": "informational"
+        },
+        {
+          "keyword": "reduce pdf size to 100kb",
+          "volume": 18100,
+          "cpc": 0.16,
+          "competition": 0.03,
+          "score": 28,
+          "intent": "informational"
+        },
+        {
+          "keyword": "compress pdf to 50kb",
+          "volume": 18100,
+          "cpc": 0.16,
+          "competition": 0.03,
+          "score": 16,
+          "intent": "informational"
+        },
+        {
+          "keyword": "compress pdf to 1mb free",
+          "volume": 14800,
+          "cpc": 0.11,
+          "competition": 0.14,
+          "score": 21,
+          "intent": "informational"
+        },
+        {
+          "keyword": "reduce pdf size to 200kb",
+          "volume": 14800,
+          "cpc": 0.17,
+          "competition": 0.03,
+          "score": 23,
+          "intent": "informational"
+        },
+        {
+          "keyword": "compress pdf to 400kb",
+          "volume": 12100,
+          "cpc": 0.12,
+          "competition": 0.02,
+          "score": 3,
+          "intent": "informational"
+        },
+        {
+          "keyword": "compress pdf to 150kb",
+          "volume": 9900,
+          "cpc": 0.13,
+          "competition": 0.01,
+          "score": 12,
+          "intent": "informational"
+        },
+        {
+          "keyword": "compress pdf to 100kb free",
+          "volume": 5400,
+          "cpc": 0.13,
+          "competition": 0.08,
+          "score": 42,
+          "intent": "informational"
+        },
+        {
+          "keyword": "compress pdf to 100kb online",
+          "volume": 4400,
+          "cpc": 0.15,
+          "competition": 0.04,
+          "score": 41,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "compress pdf to 500kb online free",
+          "volume": 4400,
+          "cpc": 0.13,
+          "competition": 0.1,
+          "score": 17,
+          "intent": "informational"
+        },
+        {
+          "keyword": "compress pdf to 2mb free",
+          "volume": 4400,
+          "cpc": 0.11,
+          "competition": 0.16,
+          "score": 19,
+          "intent": "informational"
+        },
+        {
+          "keyword": "compress pdf online to 200kb",
+          "volume": 2400,
+          "cpc": 0.1,
+          "competition": 0.04,
+          "score": 20,
+          "intent": "informational"
+        },
+        {
+          "keyword": "compress pdf online to 100kb",
+          "volume": 880,
+          "cpc": 0.07,
+          "competition": 0.03,
+          "score": 29,
+          "intent": "informational"
+        },
+        {
+          "keyword": "compress pdf to 100kb to 200kb",
+          "volume": 390,
+          "cpc": 0.05,
+          "competition": 0.01,
+          "score": 10,
+          "intent": "informational"
+        },
+        {
+          "keyword": "compress pdf to 1mb without losing quality",
+          "volume": 390,
+          "cpc": 0.13,
+          "competition": 0.27,
+          "score": 15,
+          "intent": "informational"
+        },
+        {
+          "keyword": "compress pdf to 500kb with high quality",
+          "volume": 210,
+          "cpc": 0.09,
+          "competition": 0.15,
+          "score": 0,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "free compress pdf to 200kb",
+          "volume": 140,
+          "cpc": 0.14,
+          "competition": 0.12,
+          "score": 20,
+          "intent": "informational"
+        },
+        {
+          "keyword": "compress pdf to 100kb with good quality",
+          "volume": 140,
+          "cpc": 0.14,
+          "competition": 0.14,
+          "score": 0,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "compress pdf to 500kb jpg",
+          "volume": 140,
+          "cpc": 0.02,
+          "competition": 0.01,
+          "score": 0,
+          "intent": "informational"
+        }
+      ],
+      "totalVolume": 7123790
+    },
+    "pdf-multi-tool": {
+      "primary": {
+        "keyword": "pdf converter",
+        "volume": 673000,
+        "cpc": 0.08,
+        "competition": 0.06,
+        "score": 78,
+        "intent": "transactional"
+      },
+      "secondaries": [
+        {
+          "keyword": "pdf converter to pdf",
+          "volume": 201000,
+          "cpc": 0.09,
+          "competition": 0.08,
+          "score": 78,
+          "intent": "informational"
+        },
+        {
+          "keyword": "text to pdf converter",
+          "volume": 74000,
+          "cpc": 0.37,
+          "competition": 0.02,
+          "score": 0,
+          "intent": "informational"
+        },
+        {
+          "keyword": "pdf converter to jpg",
+          "volume": 49500,
+          "cpc": 0.04,
+          "competition": 0.04,
+          "score": 46,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf to pdf converter",
+          "volume": 49500,
+          "cpc": 0.15,
+          "competition": 0.02,
+          "score": 69,
+          "intent": "informational"
+        },
+        {
+          "keyword": "pdf converter online",
+          "volume": 27100,
+          "cpc": 0.07,
+          "competition": 0.1,
+          "score": 78,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf converter size",
+          "volume": 22200,
+          "cpc": 0.1,
+          "competition": 0.03,
+          "score": 45,
+          "intent": "informational"
+        },
+        {
+          "keyword": "link to pdf converter",
+          "volume": 12100,
+          "cpc": 0.2,
+          "competition": 0.02,
+          "score": 22,
+          "intent": "informational"
+        },
+        {
+          "keyword": "free pdf converter",
+          "volume": 12100,
+          "cpc": 0.15,
+          "competition": 0.21,
+          "score": 60,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf converter free",
+          "volume": 9900,
+          "cpc": 0.1,
+          "competition": 0.16,
+          "score": 78,
+          "intent": "informational"
+        },
+        {
+          "keyword": "pdf converter online free",
+          "volume": 8100,
+          "cpc": 0.13,
+          "competition": 0.13,
+          "score": 78,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf converter free download",
+          "volume": 3600,
+          "cpc": 0.11,
+          "competition": 0.16,
+          "score": 57,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf to pdf converter free download",
+          "volume": 3600,
+          "cpc": 0.11,
+          "competition": 0.16,
+          "score": 57,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf converter excel",
+          "volume": 2400,
+          "cpc": 0.05,
+          "competition": 0.09,
+          "score": 52,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf to pdf converter 200 kb",
+          "volume": 1600,
+          "cpc": 0.12,
+          "competition": 0.01,
+          "score": 19,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf converter app",
+          "volume": 1300,
+          "cpc": 0.11,
+          "competition": 0.26,
+          "score": 7,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf to pdf converter 100 kb",
+          "volume": 880,
+          "cpc": 0.24,
+          "competition": 0.01,
+          "score": 20,
+          "intent": "informational"
+        },
+        {
+          "keyword": "free pdf converter app",
+          "volume": 480,
+          "cpc": 0.19,
+          "competition": 0.52,
+          "score": 28,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf converter size online",
+          "volume": 390,
+          "cpc": 0.21,
+          "competition": 0.11,
+          "score": 55,
+          "intent": "informational"
+        },
+        {
+          "keyword": "pdf to pdf converter 1mb",
+          "volume": 320,
+          "cpc": 0.04,
+          "competition": 0.03,
+          "score": 8,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf converter free download for pc",
+          "volume": 260,
+          "cpc": 0.09,
+          "competition": 0.15,
+          "score": 27,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf to pdf converter merge",
+          "volume": 260,
+          "cpc": 0.03,
+          "competition": 0.01,
+          "score": 73,
+          "intent": "informational"
+        },
+        {
+          "keyword": "best pdf converter app",
+          "volume": 170,
+          "cpc": 0.19,
+          "competition": 0.57,
+          "score": 30,
+          "intent": "commercial"
+        },
+        {
+          "keyword": "pdf to pdf converter size",
+          "volume": 140,
+          "cpc": 0.07,
+          "competition": 0.05,
+          "score": 45,
+          "intent": "informational"
+        },
+        {
+          "keyword": "pdf converter free download for windows 10",
+          "volume": 90,
+          "cpc": 0.05,
+          "competition": 0.18,
+          "score": 48,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf converter free download for windows 7",
+          "volume": 90,
+          "cpc": 0.02,
+          "competition": 0.13,
+          "score": 2,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf converter app for pc",
+          "volume": 70,
+          "cpc": 0.08,
+          "competition": 0.22,
+          "score": 60,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf converter app for android",
+          "volume": 70,
+          "cpc": 0.15,
+          "competition": 0.05,
+          "score": 58,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf converter free download full version",
+          "volume": 40,
+          "cpc": 0.45,
+          "competition": 0.08,
+          "score": 0,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf converter app free download",
+          "volume": 40,
+          "cpc": 0.17,
+          "competition": 0.35,
+          "score": 63,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf converter offline free download",
+          "volume": 40,
+          "cpc": 0.16,
+          "competition": 0.18,
+          "score": 0,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf converter free download for windows 11",
+          "volume": 30,
+          "cpc": 0.13,
+          "competition": 0.21,
+          "score": 0,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf converter free to word",
+          "volume": 20,
+          "cpc": 0.04,
+          "competition": 0.23,
+          "score": 39,
+          "intent": "informational"
+        },
+        {
+          "keyword": "pdf converter to pdf online free",
+          "volume": 20,
+          "cpc": 0.06,
+          "competition": 0.06,
+          "score": 78,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf converter online free no sign up",
+          "volume": 10,
+          "cpc": 0.04,
+          "competition": 0.14,
+          "score": 0,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf converter to pdf free download",
+          "volume": 10,
+          "cpc": 0.14,
+          "competition": 0.09,
+          "score": 57,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "offline pdf converter free download for pc",
+          "volume": 10,
+          "cpc": 0.05,
+          "competition": 0.27,
+          "score": 0,
+          "intent": "informational"
+        }
+      ],
+      "totalVolume": 1154440
+    },
+    "split-pdf": {
+      "primary": {
+        "keyword": "split pdf",
+        "volume": 673000,
+        "cpc": 0.25,
+        "competition": 0.01,
+        "score": 26,
+        "intent": "informational"
+      },
+      "secondaries": [
+        {
+          "keyword": "split pdf online",
+          "volume": 110000,
+          "cpc": 0.2,
+          "competition": 0.02,
+          "score": 23,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "split pdf free",
+          "volume": 1900,
+          "cpc": 0.14,
+          "competition": 0.15,
+          "score": 20,
+          "intent": "informational"
+        },
+        {
+          "keyword": "split pdf into single pages",
+          "volume": 720,
+          "cpc": 0.17,
+          "competition": 0.21,
+          "score": 26,
+          "intent": "informational"
+        },
+        {
+          "keyword": "split pdf pages in half",
+          "volume": 210,
+          "cpc": 0.15,
+          "competition": 0.07,
+          "score": 76,
+          "intent": "informational"
+        }
+      ],
+      "totalVolume": 785830
+    },
+    "word-to-pdf": {
+      "primary": {
+        "keyword": "i love word to pdf",
+        "volume": 49500,
+        "cpc": 0.16,
+        "competition": 0.01,
+        "score": 46,
+        "intent": "informational"
+      },
+      "secondaries": [
+        {
+          "keyword": "pdf converter online word to pdf",
+          "volume": 8100,
+          "cpc": 0.06,
+          "competition": 0.02,
+          "score": 55,
+          "intent": "informational"
+        },
+        {
+          "keyword": "pdf converter word to pdf",
+          "volume": 5400,
+          "cpc": 0.06,
+          "competition": 0.04,
+          "score": 49,
+          "intent": "informational"
+        },
+        {
+          "keyword": "word to pdf converter free download for pc",
+          "volume": 70,
+          "cpc": 0.1,
+          "competition": 0.19,
+          "score": 43,
+          "intent": "transactional"
+        }
+      ],
+      "totalVolume": 63070
+    },
+    "pdf-reader": {
+      "primary": {
+        "keyword": "pdf reader download",
+        "volume": 22200,
+        "cpc": 0.26,
+        "competition": 0.07,
+        "score": 49,
+        "intent": "transactional"
+      },
+      "secondaries": [
+        {
+          "keyword": "pdf reader free download",
+          "volume": 12100,
+          "cpc": 0.27,
+          "competition": 0.08,
+          "score": 66,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf reader app",
+          "volume": 9900,
+          "cpc": 0.11,
+          "competition": 0.46,
+          "score": 40,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "download pdf reader",
+          "volume": 4400,
+          "cpc": 0.24,
+          "competition": 0.06,
+          "score": 55,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf reader for pc",
+          "volume": 1900,
+          "cpc": 0.18,
+          "competition": 0.01,
+          "score": 48,
+          "intent": "informational"
+        },
+        {
+          "keyword": "pdf reader for pc download",
+          "volume": 1900,
+          "cpc": 0.34,
+          "competition": 0.08,
+          "score": 48,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf reader free download for windows 10",
+          "volume": 1600,
+          "cpc": 0.19,
+          "competition": 0.02,
+          "score": 42,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf reader free download for windows 7",
+          "volume": 1000,
+          "cpc": 0.12,
+          "competition": 0.04,
+          "score": 50,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf reader free download pc",
+          "volume": 480,
+          "cpc": 0.33,
+          "competition": 0.07,
+          "score": 47,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf reader free download for windows 11",
+          "volume": 390,
+          "cpc": 0.36,
+          "competition": 0.02,
+          "score": 0,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf reader for pc windows 7",
+          "volume": 170,
+          "cpc": 0.13,
+          "competition": 0.03,
+          "score": 50,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf reader free download for windows 10 64 bit",
+          "volume": 70,
+          "cpc": 0.01,
+          "competition": 0.01,
+          "score": 0,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf reader apk download for pc",
+          "volume": 50,
+          "cpc": 0.48,
+          "competition": 0.06,
+          "score": 79,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf reader for pc free download full version",
+          "volume": 20,
+          "cpc": 0.15,
+          "competition": 0.1,
+          "score": 0,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf reader free download for windows 10 offline installer",
+          "volume": 10,
+          "cpc": 0,
+          "competition": 0,
+          "score": 0,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "best pdf reader free download for windows 10",
+          "volume": 10,
+          "cpc": 0.02,
+          "competition": 0.05,
+          "score": 64,
+          "intent": "informational"
+        }
+      ],
+      "totalVolume": 56200
+    },
+    "pdf-to-excel": {
+      "primary": {
+        "keyword": "pdf to excel converter online free",
+        "volume": 22200,
+        "cpc": 0.07,
+        "competition": 0.23,
+        "score": 44,
+        "intent": "informational"
+      },
+      "secondaries": [
+        {
+          "keyword": "pdf to excel converter free download",
+          "volume": 8100,
+          "cpc": 0.09,
+          "competition": 0.24,
+          "score": 42,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "best pdf to excel converter online",
+          "volume": 2400,
+          "cpc": 0.1,
+          "competition": 0.26,
+          "score": 43,
+          "intent": "informational"
+        },
+        {
+          "keyword": "pdf to excel converter free offline",
+          "volume": 1600,
+          "cpc": 0.1,
+          "competition": 0.17,
+          "score": 42,
+          "intent": "transactional"
+        },
+        {
+          "keyword": "pdf to excel word converter",
+          "volume": 1300,
+          "cpc": 0.09,
+          "competition": 0.13,
+          "score": 43,
+          "intent": "informational"
+        }
+      ],
+      "totalVolume": 35600
+    }
+  },
+  "articles": [
+    {
+      "keyword": "how to make pdf file",
+      "volume": 3600,
+      "cpc": 0.21,
+      "competition": 0.46,
+      "score": 37,
+      "intent": "informational",
+      "relatedTool": null
+    },
+    {
+      "keyword": "how to make pdf file on mobile",
+      "volume": 1600,
+      "cpc": 0.12,
+      "competition": 0.33,
+      "score": 0,
+      "intent": "informational",
+      "relatedTool": null
+    },
+    {
+      "keyword": "how to convert word to pdf in phone",
+      "volume": 1300,
+      "cpc": 0.16,
+      "competition": 0.21,
+      "score": 20,
+      "intent": "informational",
+      "relatedTool": "word-to-pdf"
+    },
+    {
+      "keyword": "how to make pdf file on mobile free",
+      "volume": 260,
+      "cpc": 0.19,
+      "competition": 0.41,
+      "score": 6,
+      "intent": "informational",
+      "relatedTool": null
+    },
+    {
+      "keyword": "how to make pdf file on laptop",
+      "volume": 70,
+      "cpc": 0.37,
+      "competition": 0.05,
+      "score": 47,
+      "intent": "informational",
+      "relatedTool": null
+    },
+    {
+      "keyword": "how to make a pdf file on computer",
+      "volume": 50,
+      "cpc": 0.13,
+      "competition": 0.07,
+      "score": 62,
+      "intent": "informational",
+      "relatedTool": null
+    },
+    {
+      "keyword": "how to make pdf file online",
+      "volume": 20,
+      "cpc": 0.09,
+      "competition": 0.41,
+      "score": 0,
+      "intent": "informational",
+      "relatedTool": null
+    },
+    {
+      "keyword": "how to make pdf file online free",
+      "volume": 10,
+      "cpc": 0,
+      "competition": 0,
+      "score": 0,
+      "intent": "informational",
+      "relatedTool": null
+    }
+  ],
+  "competitorsExcluded": [
+    {
+      "keyword": "ilovepdf compress pdf",
+      "volume": 246000,
+      "cpc": 0.2,
+      "competition": 0,
+      "score": 55,
+      "intent": "transactional"
+    },
+    {
+      "keyword": "adobe reader",
+      "volume": 246000,
+      "cpc": 0.52,
+      "competition": 0.02,
+      "score": 55,
+      "intent": "transactional"
+    },
+    {
+      "keyword": "i love pdf merge",
+      "volume": 90500,
+      "cpc": 0.11,
+      "competition": 0.01,
+      "score": 72,
+      "intent": "informational"
+    },
+    {
+      "keyword": "adobe reader download",
+      "volume": 74000,
+      "cpc": 0.51,
+      "competition": 0.01,
+      "score": 87,
+      "intent": "transactional"
+    },
+    {
+      "keyword": "i love pdf to excel",
+      "volume": 60500,
+      "cpc": 0.08,
+      "competition": 0.05,
+      "score": 53,
+      "intent": "informational"
+    },
+    {
+      "keyword": "ilovepdf image to pdf",
+      "volume": 49500,
+      "cpc": 0.15,
+      "competition": 0,
+      "score": 36,
+      "intent": "informational"
+    },
+    {
+      "keyword": "merge pdf i love pdf",
+      "volume": 33100,
+      "cpc": 0.14,
+      "competition": 0,
+      "score": 72,
+      "intent": "informational"
+    },
+    {
+      "keyword": "compress pdf 11zon",
+      "volume": 27100,
+      "cpc": 0.05,
+      "competition": 0,
+      "score": 8,
+      "intent": "informational"
+    },
+    {
+      "keyword": "adobe reader free download",
+      "volume": 22200,
+      "cpc": 0.69,
+      "competition": 0.02,
+      "score": 39,
+      "intent": "transactional"
+    },
+    {
+      "keyword": "split pdf i love pdf",
+      "volume": 22200,
+      "cpc": 0.24,
+      "competition": 0.01,
+      "score": 68,
+      "intent": "informational"
+    },
+    {
+      "keyword": "adobe merge pdf",
+      "volume": 14800,
+      "cpc": 0.41,
+      "competition": 0,
+      "score": 25,
+      "intent": "transactional"
+    },
+    {
+      "keyword": "i love pdf converter",
+      "volume": 9900,
+      "cpc": 0.26,
+      "competition": 0.02,
+      "score": 29,
+      "intent": "informational"
+    },
+    {
+      "keyword": "merge pdf 11zon",
+      "volume": 8100,
+      "cpc": 0.33,
+      "competition": 0,
+      "score": 21,
+      "intent": "navigational"
+    },
+    {
+      "keyword": "foxit pdf reader",
+      "volume": 8100,
+      "cpc": 0.3,
+      "competition": 0.02,
+      "score": 66,
+      "intent": "transactional"
+    },
+    {
+      "keyword": "adobe pdf converter",
+      "volume": 8100,
+      "cpc": 0.37,
+      "competition": 0.01,
+      "score": 57,
+      "intent": "transactional"
+    },
+    {
+      "keyword": "adobe reader free download for windows 7",
+      "volume": 6600,
+      "cpc": 0.32,
+      "competition": 0,
+      "score": 44,
+      "intent": "transactional"
+    },
+    {
+      "keyword": "jpg to pdf 11zon",
+      "volume": 6600,
+      "cpc": 0.1,
+      "competition": 0,
+      "score": 14,
+      "intent": "informational"
+    },
+    {
+      "keyword": "11zon compress jpg",
+      "volume": 6600,
+      "cpc": 0.01,
+      "competition": 0,
+      "score": 19,
+      "intent": "informational"
+    },
+    {
+      "keyword": "adobe reader free download for windows 10",
+      "volume": 5400,
+      "cpc": 0.34,
+      "competition": 0,
+      "score": 54,
+      "intent": "transactional"
+    },
+    {
+      "keyword": "adobe pdf to excel converter",
+      "volume": 4400,
+      "cpc": 0.22,
+      "competition": 0.1,
+      "score": 52,
+      "intent": "transactional"
+    }
+  ]
+}

@@ -192,7 +192,7 @@ function ToolHeader({ tool, content }: ToolHeaderProps) {
         data-testid="tool-page-title"
         itemProp="name"
       >
-        {content.title || toolName}
+        {content.h1 || content.title || toolName}
       </h1>
       <p
         className="text-lg text-[hsl(var(--color-muted-foreground))] max-w-2xl mx-auto leading-relaxed mb-4"

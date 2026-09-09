@@ -133,6 +133,7 @@ export interface FAQ {
  */
 export interface ToolContent {
   title: string;
+  h1?: string;
   metaDescription: string;
   keywords: string[];
   description: string;

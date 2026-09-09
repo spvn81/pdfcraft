@@ -40,13 +40,13 @@ export const toolContentEn: Record<string, ToolContent> = {
   },
 
   'merge-pdf': {
-    title: 'Merge PDF',
-    metaDescription: 'Combine multiple PDF files into one document. Free online PDF merger with drag-and-drop reordering.',
-    keywords: ['merge pdf', 'combine pdf', 'join pdf', 'pdf merger', 'concatenate pdf'],
+    title: 'Merge PDF Online Free | Combine PDF Files | SPVN Tech',\r\n    h1: 'Merge PDF Files',
+    metaDescription: 'Merge multiple PDF files online for free. Upload, reorder, and combine your PDFs into one document with SPVN Tech.',
+    keywords: ['merge pdf', 'pdf merge', 'combine pdf', 'merge pdf online', 'join pdf'],
     description: `
-      <p>Merge PDF allows you to combine multiple PDF documents into a single file quickly and easily. Whether you're consolidating reports, combining scanned documents, or assembling a presentation, this tool makes the process seamless.</p>
+      <p>Merge PDF allows you to combine multiple PDF documents into a single file quickly and easily. Whether you're consolidating reports, combining scanned documents, or assembling a presentation, this free online tool makes the process seamless.</p>
       <p>Simply upload your files, arrange them in your desired order using drag-and-drop, and merge them into one cohesive document. The tool preserves the quality of your original files and can optionally maintain bookmarks from each source document.</p>
-      <p>All merging happens locally in your browser, ensuring complete privacy for your sensitive documents.</p>
+      <p>All merging happens locally in your browser, ensuring complete privacy and security for your sensitive documents.</p>
     `,
     howToUse: [
       { step: 1, title: 'Upload PDF Files', description: 'Drag and drop multiple PDF files into the upload area, or click to select files from your device.' },
@@ -59,8 +59,8 @@ export const toolContentEn: Record<string, ToolContent> = {
       { title: 'Consolidate Invoices', description: 'Merge multiple invoices or receipts into one document for accounting and record-keeping purposes.', icon: 'receipt' },
     ],
     faq: [
-      { question: 'How many PDFs can I merge?', answer: 'You can merge up to 100 PDF files at once, with a total combined size of up to 500MB.' },
-      { question: 'Will the merged PDF maintain the original quality?', answer: 'Yes, the merging process preserves the original quality of all documents without any compression or quality loss.' },
+      { question: 'How many PDF files can I merge at once?', answer: 'You can merge up to 100 PDF files at once, with a total combined size of up to 500MB.' },
+      { question: 'Can I rearrange PDF files before merging?', answer: 'Yes, after uploading your files, you can easily drag and drop the thumbnails to reorder them exactly how you want.' },
       { question: 'Can I merge password-protected PDFs?', answer: 'Password-protected PDFs need to be decrypted first. Use our Decrypt PDF tool to remove the password before merging.' },
     ],
   },
@@ -147,13 +147,13 @@ export const toolContentEn: Record<string, ToolContent> = {
   },
 
   'compress-pdf': {
-    title: 'Compress PDF',
-    metaDescription: 'Reduce PDF file size while maintaining quality. Free online PDF compressor for smaller files.',
-    keywords: ['compress pdf', 'reduce pdf size', 'pdf compressor', 'shrink pdf', 'optimize pdf'],
+    title: 'Compress PDF Online | Reduce PDF Size Free | SPVN Tech',\r\n    h1: 'Compress PDF Files',
+    metaDescription: 'Compress PDF files online to reduce file size without losing quality. Free PDF compressor tool by SPVN Tech.',
+    keywords: ['compress pdf', 'pdf compressor', 'pdf size reducer', 'reduce pdf size', 'compress pdf online'],
     description: `
-      <p>Compress PDF reduces the file size of your PDF documents while maintaining acceptable quality. This is essential for email attachments, web uploads, or saving storage space.</p>
-      <p>The tool offers multiple compression levels to balance between file size reduction and quality preservation. You can choose aggressive compression for maximum size reduction or light compression to maintain higher quality.</p>
-      <p>All compression happens in your browser, ensuring your documents never leave your device.</p>
+      <p>Our Compress PDF tool allows you to significantly reduce your PDF file size while maintaining excellent document quality. It's the perfect solution when you need to send large documents via email or upload them to web portals with strict size limits.</p>
+      <p>Choose from multiple compression levels to find the perfect balance between file size and quality. The tool optimizes images and removes unnecessary metadata to shrink your files as much as possible.</p>
+      <p>Like all our tools, the PDF compressor runs entirely in your browser, meaning your private documents are never uploaded to external servers.</p>
     `,
     howToUse: [
       { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select the document you want to compress.' },
@@ -166,9 +166,9 @@ export const toolContentEn: Record<string, ToolContent> = {
       { title: 'Storage Optimization', description: 'Compress archived documents to save disk space while maintaining accessibility.', icon: 'hard-drive' },
     ],
     faq: [
-      { question: 'How much can I reduce the file size?', answer: 'Compression results vary based on the PDF content. Image-heavy PDFs can often be reduced by 50-80%, while text-only PDFs may see smaller reductions.' },
-      { question: 'Will compression affect text quality?', answer: 'Text remains sharp and readable at all compression levels. Only images and graphics are affected by compression.' },
-      { question: 'Can I compress multiple PDFs at once?', answer: 'Yes, you can upload and compress up to 10 PDF files simultaneously.' },
+      { question: 'How much can I reduce the PDF file size?', answer: 'Compression results vary based on the PDF content. Image-heavy PDFs can often be reduced by 50-80%, while text-only PDFs may see smaller reductions.' },
+      { question: 'Will compressing my PDF reduce its quality?', answer: 'You can choose the compression level. Low compression maintains the highest quality, while high compression significantly reduces the file size but may slightly reduce image clarity.' },
+      { question: 'Is there a limit on the file size I can compress?', answer: 'You can compress PDF files up to 500MB in size directly within your browser.' },
     ],
   },
 
@@ -200,13 +200,13 @@ export const toolContentEn: Record<string, ToolContent> = {
   },
 
   'jpg-to-pdf': {
-    title: 'JPG to PDF',
-    metaDescription: 'Convert JPG images to PDF. Combine multiple JPG files into a single PDF document.',
-    keywords: ['jpg to pdf', 'jpeg to pdf', 'convert jpg', 'image to pdf', 'photo to pdf'],
+    title: 'JPG to PDF Converter Online | Free Image to PDF Tool | SPVN Tech',\r\n    h1: 'JPG to PDF Converter',
+    metaDescription: 'Convert JPG, PNG, and other images to PDF online for free. Easily merge multiple images into a single PDF file with SPVN Tech.',
+    keywords: ['jpg to pdf', 'image to pdf', 'jpg to pdf converter', 'image to pdf converter', 'merge jpg to pdf'],
     description: `
-      <p>JPG to PDF converts your JPEG images into PDF documents quickly and easily. Whether you have a single photo or multiple images, this tool creates professional-looking PDF files.</p>
-      <p>You can combine multiple JPG files into a single PDF, arrange them in any order, and customize page size and orientation. The conversion preserves image quality while creating compact, shareable PDF files.</p>
-      <p>All conversion happens in your browser, ensuring your photos remain private.</p>
+      <p>The JPG to PDF Converter transforms your images into professional PDF documents quickly and easily. Whether you have a single photo or multiple images, this free online tool creates perfectly formatted PDF files.</p>
+      <p>You can combine multiple JPG, PNG, or other image files into a single PDF, arrange them in any order, and customize page size and orientation. The conversion preserves image quality while creating compact, easily shareable PDF files.</p>
+      <p>All image to PDF conversion happens directly in your browser, ensuring your photos remain completely private and secure.</p>
     `,
     howToUse: [
       { step: 1, title: 'Upload JPG Images', description: 'Drag and drop your JPG files or click to select images from your device.' },
@@ -219,9 +219,9 @@ export const toolContentEn: Record<string, ToolContent> = {
       { title: 'Portfolio Creation', description: 'Compile photography work or design samples into a professional PDF portfolio.', icon: 'folder' },
     ],
     faq: [
-      { question: 'How many images can I convert?', answer: 'You can convert up to 100 JPG images into a single PDF document.' },
-      { question: 'Will the image quality be preserved?', answer: 'Yes, images are embedded at their original quality. You can optionally compress them to reduce file size.' },
-      { question: 'Can I set different page sizes for different images?', answer: 'The tool applies a uniform page size to all pages. Each image is scaled to fit the selected page size while maintaining aspect ratio.' },
+      { question: 'How many images can I convert to PDF at once?', answer: 'You can convert and merge up to 100 JPG or PNG images into a single PDF document in one go.' },
+      { question: 'Will my images lose quality?', answer: 'No, our JPG to PDF converter preserves the original quality and resolution of your images during the conversion process.' },
+      { question: 'Are my photos secure?', answer: 'Yes, all processing happens locally in your browser. Your images are never uploaded to our servers, guaranteeing complete privacy.' },
     ],
   },
 
@@ -958,13 +958,13 @@ export const toolContentEn: Record<string, ToolContent> = {
   },
 
   'word-to-pdf': {
-    title: 'Word to PDF',
-    metaDescription: 'Convert Word documents (DOCX) to PDF. Preserve formatting and layout in your converted documents.',
-    keywords: ['word to pdf', 'docx to pdf', 'convert word', 'word converter', 'microsoft word to pdf'],
+    title: 'Word to PDF Converter Online | Convert DOCX to PDF',\r\n    h1: 'Word to PDF Converter',
+    metaDescription: 'Convert Word documents (DOCX) to PDF online for free. Preserve formatting and layout in your converted documents.',
+    keywords: ['word to pdf', 'word to pdf converter', 'docx to pdf', 'convert word to pdf', 'microsoft word to pdf'],
     description: `
-      <p>Word to PDF converts Microsoft Word documents into PDF format while preserving the original formatting, layout, and content structure.</p>
-      <p>Upload your DOCX files and get high-quality PDF output suitable for sharing, printing, or archiving. The conversion maintains text formatting, paragraph styles, and basic document structure.</p>
-      <p>All conversion happens locally in your browser, ensuring your documents remain private and secure.</p>
+      <p>The Word to PDF Converter allows you to transform Microsoft Word documents into PDF format while flawlessly preserving the original formatting, layout, and content structure.</p>
+      <p>Upload your DOCX files and instantly get high-quality PDF output suitable for sharing, printing, or archiving. The conversion maintains text formatting, paragraph styles, and basic document structure without any changes.</p>
+      <p>All conversion happens locally in your browser, ensuring your documents remain completely private and secure without being uploaded to any servers.</p>
     `,
     howToUse: [
       { step: 1, title: 'Upload Word Document', description: 'Drag and drop your .docx file or click to select from your device.' },
@@ -978,8 +978,8 @@ export const toolContentEn: Record<string, ToolContent> = {
     ],
     faq: [
       { question: 'Is .doc format supported?', answer: 'Currently only .docx format is supported. Please convert .doc files to .docx first using Microsoft Word or LibreOffice.' },
-      { question: 'Are images preserved?', answer: 'Text content and basic formatting are preserved. Complex layouts with many images may have simplified rendering.' },
-      { question: 'Is the conversion secure?', answer: 'Yes, all processing happens in your browser. Your documents never leave your device.' },
+      { question: 'Will my fonts and layout change after conversion?', answer: 'No, the converter is designed to strictly preserve your original layout, fonts, and styling exactly as they appear in Word.' },
+      { question: 'Can I convert multiple Word documents at once?', answer: 'Yes, you can upload and batch convert multiple Word documents to PDFs simultaneously.' },
     ],
   },
 
@@ -1194,13 +1194,13 @@ export const toolContentEn: Record<string, ToolContent> = {
   // ==================== CONVERT FROM PDF ====================
 
   'pdf-to-jpg': {
-    title: 'PDF to JPG',
-    metaDescription: 'Convert PDF pages to JPG images. High-quality extraction with customizable resolution.',
-    keywords: ['pdf to jpg', 'pdf to jpeg', 'convert pdf to image', 'extract pdf images'],
+    title: 'PDF to JPG Converter Online | Convert PDF Pages to Images',\r\n    h1: 'PDF to JPG Converter',
+    metaDescription: 'Convert PDF files to high-quality JPG images online for free. Extract images or convert entire PDF pages to pictures.',
+    keywords: ['pdf to jpg', 'pdf to jpeg', 'convert pdf to image', 'extract pdf images', 'pdf to jpg converter'],
     description: `
-      <p>PDF to JPG converts PDF document pages into high-quality JPG images. Extract all pages or select specific pages to convert, with customizable resolution and quality settings.</p>
-      <p>Perfect for extracting images from PDFs, creating thumbnails, or converting documents for web use.</p>
-      <p>All conversion happens in your browser, ensuring your documents remain private.</p>
+      <p>The PDF to JPG Converter allows you to turn PDF document pages into high-quality JPG images effortlessly. You can extract all pages or select specific pages to convert, with customizable resolution and quality settings.</p>
+      <p>This tool is perfect for extracting images from PDFs, creating page thumbnails, or converting documents into picture formats for web use and social media sharing.</p>
+      <p>All PDF to image conversion happens securely within your browser, ensuring your documents remain completely private.</p>
     `,
     howToUse: [
       { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select.' },
@@ -1213,9 +1213,9 @@ export const toolContentEn: Record<string, ToolContent> = {
       { title: 'Presentations', description: 'Convert PDF slides to images for presentations.', icon: 'presentation' },
     ],
     faq: [
-      { question: 'What quality settings are available?', answer: 'You can set DPI from 72 to 300 and JPEG quality from 1-100.' },
-      { question: 'Can I convert specific pages only?', answer: 'Yes, you can select individual pages or page ranges to convert.' },
-      { question: 'How are multiple pages handled?', answer: 'Each page becomes a separate JPG file, downloaded as a ZIP archive.' },
+      { question: 'What image quality settings are available?', answer: 'You can set the DPI (resolution) from 72 for web use up to 300 for high-quality printing, and adjust the JPEG quality from 1-100.' },
+      { question: 'Can I extract images instead of converting the whole page?', answer: 'Yes, if you want to extract embedded images rather than rasterizing the entire page, you can use our dedicated Extract Images tool.' },
+      { question: 'Is there a limit on the number of pages I can convert?', answer: 'You can convert documents of any length. However, converting very large PDFs to high-resolution JPGs may require more processing time and memory.' },
     ],
   },
 
@@ -2324,13 +2324,13 @@ export const toolContentEn: Record<string, ToolContent> = {
   },
 
   'pdf-to-docx': {
-    title: 'PDF to Word',
-    metaDescription: 'Convert PDF to editable Word (DOCX) documents. Preserve formatting and layout.',
-    keywords: ['pdf to word', 'convert pdf to docx', 'pdf to doc', 'editable pdf'],
+    title: 'PDF to Word Converter Online | Free PDF to DOCX | SPVN Tech',\r\n    h1: 'PDF to Word Converter',
+    metaDescription: 'Convert PDF to Word documents online for free. Accurately transform your PDFs into editable Word files with SPVN Tech.',
+    keywords: ['pdf to word', 'pdf to word converter', 'convert pdf to docx', 'pdf to doc', 'editable pdf'],
     description: `
-      <p>PDF to Word converts your PDF documents into editable Microsoft Word (DOCX) files. The tool preserves the original layout, formatting, images, and text flow.</p>
-      <p>Easily edit your PDF content in Word without retyping. Perfect for contracts, reports, and resumes.</p>
-      <p>All conversion happens locally in your browser using WebAssembly technology, ensuring your documents never leave your device.</p>
+      <p>Our PDF to Word Converter accurately transforms your PDF documents into editable Microsoft Word (DOCX) files. The tool preserves the original layout, formatting, images, and text flow of your document.</p>
+      <p>Easily edit your PDF content in Word without retyping. Perfect for contracts, reports, resumes, and any document where you need to make quick textual changes.</p>
+      <p>All conversion happens locally in your browser using advanced WebAssembly technology, ensuring your sensitive documents never leave your device.</p>
     `,
     howToUse: [
       { step: 1, title: 'Upload Your PDF', description: 'Drag and drop your PDF file or click to select.' },
@@ -2343,9 +2343,9 @@ export const toolContentEn: Record<string, ToolContent> = {
       { title: 'Content Repurposing', description: 'Extract content from PDF reports for other documents.', icon: 'copy' },
     ],
     faq: [
-      { question: 'Is formatting preserved?', answer: 'Yes, the tool aims to preserve layout, fonts, and images as closely as possible.' },
-      { question: 'Can I convert scanned PDFs?', answer: 'Scanned PDFs will be converted as images in Word unless you use OCR first.' },
-      { question: 'Is it compatible with Word?', answer: 'Yes, the output is a standard .docx file compatible with Microsoft Word and Google Docs.' },
+      { question: 'Is the original formatting preserved when converting PDF to Word?', answer: 'Yes, the tool aims to preserve the layout, fonts, and images as closely as possible to the original PDF.' },
+      { question: 'Can I convert scanned PDFs to Word?', answer: 'Currently, the tool extracts text from native PDFs. For scanned documents, you may need an OCR-enabled tool to recognize the text before editing.' },
+      { question: 'Is my data safe during conversion?', answer: 'Absolutely. The conversion happens entirely on your device, meaning your files are never uploaded or stored on any external servers.' },
     ],
   },
 
