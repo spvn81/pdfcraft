@@ -46,7 +46,7 @@ export const Footer: React.FC<FooterProps> = ({ locale }) => {
               aria-label={`${t('brand')} - ${t('navigation.home')}`}
             >
               <div className="relative flex h-8 w-8 items-center justify-center transition-transform group-hover:scale-105">
-                <img src="https://ik.imagekit.io/055kfcm3m/tpvn_tech_logo-removebg-preview.png?updatedAt=1720062820933" alt="SPVN Tech Logo" className="h-full w-full object-contain" />
+                <img src="/favicon_original.png" alt="SPVN Tech Logo" className="h-full w-full object-contain" />
               </div>
               <span data-testid="footer-brand-name">{t('brand')}</span>
             </Link>

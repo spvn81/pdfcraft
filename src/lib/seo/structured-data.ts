@@ -367,7 +367,7 @@ export function generateOrganizationSchema(): OrganizationSchema {
     '@type': 'Organization',
     name: siteConfig.name,
     url: `${siteConfig.url}${cleanBasePath}/`,
-    logo: `${siteConfig.url}${cleanBasePath}/images/logo.png`,
+    logo: `${siteConfig.url}${cleanBasePath}/favicon_original.png`,
     sameAs: siteConfig.links.github ? [siteConfig.links.github] : [],
   };
 }
